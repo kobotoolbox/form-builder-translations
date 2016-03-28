@@ -3,13 +3,14 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
 # Arwa, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: koboform\n"
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2016-03-17 21:14+0000\n"
-"PO-Revision-Date: 2016-03-24 10:48+0000\n"
+"PO-Revision-Date: 2016-03-28 23:01+0000\n"
 "Last-Translator: Arwa\n"
 "Language-Team: Arabic (http://www.transifex.com/kobotoolbox/koboform/language/ar/)\n"
 "MIME-Version: 1.0\n"
@@ -121,6 +122,24 @@ msgstr "جارٍ تحميل kobotoolbox..."
 #: bundle.js:58030 bundle.js:58672 bundle.js:58749 bundle.js:66460
 msgid "Forms"
 msgstr "النماذج"
+
+msgid "view-survey"
+msgstr "عرض المسح"
+
+msgid "view-asset"
+msgstr "عرض أصل المكتبة"
+
+msgid "view-question"
+msgstr "عرض السؤال"
+
+msgid "edit-survey"
+msgstr "تحرير المسح"
+
+msgid "edit-asset"
+msgstr "تحرير أصل المكتبة"
+
+msgid "edit-question"
+msgstr "تحرير السؤال"
 
 #: bundle.js:58284 bundle.js:58530
 msgid "manage sharing permissions"
@@ -244,6 +263,9 @@ msgstr "المشاريع"
 msgid "account actions"
 msgstr "إجراءات الحساب"
 
+msgid "language"
+msgstr "اللغة"
+
 #: bundle.js:59704
 msgid "settings"
 msgstr "الإعدادات"
@@ -251,6 +273,15 @@ msgstr "الإعدادات"
 #: bundle.js:59705
 msgid "leave beta"
 msgstr "مغادرة النسخة التجريبية"
+
+msgid "help"
+msgstr "المساعدة"
+
+msgid "about"
+msgstr "نبذة"
+
+msgid "source"
+msgstr "المصدر"
 
 #: bundle.js:59707
 msgid "login"
@@ -271,6 +302,9 @@ msgstr "أصل/أصول موجود/ة"
 #: bundle.js:60216
 msgid "expand details"
 msgstr "توسيع التفاصيل"
+
+msgid "search..."
+msgstr "بحث..."
 
 #: bundle.js:60252
 msgid "searching for \"___\""
@@ -312,8 +346,14 @@ msgstr "تم بنجاح"
 msgid "yes"
 msgstr "بلى"
 
+msgid "Yes"
+msgstr "بلى"
+
 #: bundle.js:60329
 msgid "no"
+msgstr "لا"
+
+msgid "No"
 msgstr "لا"
 
 #: bundle.js:60334
@@ -378,6 +418,9 @@ msgid "close"
 msgstr "إغلاق"
 
 #: bundle.js:61374 bundle.js:67359
+msgid "view"
+msgstr "عرض"
+
 msgid "preview"
 msgstr "معاينة"
 
@@ -388,6 +431,20 @@ msgstr "إظهار جميع الاستجابات"
 #: bundle.js:61391
 msgid "group questions"
 msgstr "تجميع الأسئلة"
+
+msgid "Are you sure you want to split apart this group?"
+msgstr "هل ترغب بالتأكيد في تقسيم هذه المجموعة؟"
+
+msgid ""
+"You can't display nested groups on the same screen - the setting has been "
+"removed from the parent group"
+msgstr "لا يمكنك عرض المجموعات المتداخلة على نفس الشاشة؛ فقد تمت إزالة الإعداد من المجموعة الأصلية."
+
+msgid "Note: Rank and Matrix question types are currently in beta."
+msgstr "ملحوظة: أنواع الأسئلة التالية هي ضمن النسخة التجريبية حاليًا: الترتيب والمصفوفة."
+
+msgid "Enter your question"
+msgstr "أدخل سؤالك"
 
 #: bundle.js:61399
 msgid "form-style"
@@ -509,6 +566,18 @@ msgstr "عنصر في المكتبة"
 msgid "library items"
 msgstr "عنصر/عناصر في المكتبة"
 
+msgid "[button triggers] Settings"
+msgstr "الإعدادات"
+
+msgid "[button triggers] Delete Question"
+msgstr "حذف السؤال"
+
+msgid "[button triggers] Duplicate Question"
+msgstr "تكرار السؤال"
+
+msgid "[button triggers] Add Question to Library"
+msgstr "إضافة السؤال إلى المكتبة"
+
 #: bundle.js:67114
 msgid "make new collection: \"{label}\""
 msgstr "إنشاء تجميعة جديدة: \"{label}\""
@@ -611,6 +680,15 @@ msgid ""
 "continue?"
 msgstr "أنت على وشك حذف هذا/هذه ___ نهائيًا. هل ترغب بالتأكيد في المتابعة؟"
 
+msgid "Are you sure you want to delete this question?"
+msgstr "هل ترغب بالتأكيد في حذف هذا السؤال؟"
+
+msgid "Are you sure you want to delete this collection?"
+msgstr "هل ترغب بالتأكيد في حذف هذه التجميعة؟"
+
+msgid "This action cannot be undone."
+msgstr "لا يمكن التراجع عن هذا الإجراء."
+
 #: bundle.js:67509
 msgid "refresh"
 msgstr "تحديث"
@@ -707,6 +785,18 @@ msgstr "و# # سؤال آخر/أسئلة أخرى"
 msgid "Add a condition"
 msgstr "إضافة شرط"
 
+msgid "Add another condition"
+msgstr "أدخل شرطًا آخر"
+
+msgid "Question should match all of these criteria"
+msgstr "يجب أن يطابق السؤال جميع هذه المعايير"
+
+msgid "Question should match any of these criteria"
+msgstr "يجب أن يطابق السؤال أحد هذه المعايير"
+
+msgid "Manually enter your skip logic in XLSForm code"
+msgstr "أدخل منطق التخطي يدويًا في صورة تعليمات XLSForm برمجية"
+
 #: bundle.js:75445
 msgid "Manually enter your validation logic in XLSForm code"
 msgstr "إدخال منطق التحقق يدويًا في صورة تعليمات XLSForm برمجية"
@@ -714,6 +804,12 @@ msgstr "إدخال منطق التحقق يدويًا في صورة تعليما
 #: bundle.js:75778
 msgid "Click to add another response..."
 msgstr "انقر لإضافة استجابة أخرى."
+
+msgid "response value"
+msgstr "قيمة الاستجابة"
+
+msgid "Select question from list"
+msgstr "حدد سؤالاً من القائمة"
 
 #: bundle.js:75778
 msgid "Value:"
@@ -823,6 +919,9 @@ msgstr "اسم الصف"
 msgid "A constraint message to be read in case of error:"
 msgstr "رسالة قيد تُقرأ في حال ظهور خطأ:"
 
+msgid "Items cannot be selected more than once"
+msgstr "لا يمكن تحديد العناصر أكثر من مرة"
+
 #: bundle.js:76914
 msgid "Row could not be displayed:"
 msgstr "تعذر عرض الصف:"
@@ -836,6 +935,9 @@ msgstr "تعذر استيراد هذا السؤال. يُرجى إعادة إن�
 #: bundle.js:77761
 msgid "Question hint"
 msgstr "تلميح عن السؤال"
+
+msgid "Repeat this group if necessary"
+msgstr "كرر هذه المجموعة إذا لزم الأمر"
 
 #: bundle.js:77770
 msgid "Error Message"
@@ -885,6 +987,12 @@ msgstr "استيراد XLS"
 msgid "Form Settings"
 msgstr "إعدادات النموذج"
 
+msgid "Settings"
+msgstr "الإعدادات"
+
+msgid "This question will only be displayed if the following conditions apply"
+msgstr "لن يتم عرض السؤال إلا في حال توافر الشروط التالية"
+
 #: bundle.js:79284
 msgid "Save and Exit"
 msgstr "حفظ وخروج"
@@ -912,6 +1020,14 @@ msgstr "اسم نموذج فريد"
 #: bundle.js:79284
 msgid "Web form style (Optional)"
 msgstr "نسق نموذج الويب (اختياري)"
+
+msgid ""
+"select the form style that you would like to use. this will only affect web "
+"forms."
+msgstr "حدد نمط النموذج الذي تود استخدامه. لن يؤثر هذا سوى على نماذج الويب."
+
+msgid "read more..."
+msgstr "اقرأ المزيد..."
 
 #: bundle.js:79284
 msgid "This allows using different Enketo styles, e.g. 'theme-grid'"
