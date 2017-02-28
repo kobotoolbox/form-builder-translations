@@ -1,1070 +1,1841 @@
-# SOME DESCRIPTIVE TITLE.
-# Copyright (C) YEAR THE PACKAGE'S COPYRIGHT HOLDER
-# This file is distributed under the same license as the PACKAGE package.
-# 
-# Translators:
+# KOBOTOOLBOX KPI FORMBUILDER STRINGS
 # Translators:
 # Arwa, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: koboform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2016-03-17 21:14+0000\n"
-"PO-Revision-Date: 2016-04-06 05:03+0000\n"
-"Last-Translator: Arwa\n"
+"POT-Creation-Date: 2017-02-13 14:58-0500\n"
+"PO-Revision-Date: 2017-02-13 20:01+0000\n"
+"Last-Translator: Penar Musaraj <pmusaraj@gmail.com>\n"
 "Language-Team: Arabic (http://www.transifex.com/kobotoolbox/koboform/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
+"X-Generator: Poedit 1.8.11\n"
+"X-Poedit-Basepath: ../../../jsapp\n"
+"X-Poedit-KeywordsList: t;_t\n"
+"X-Poedit-SearchPath-0: js\n"
+"X-Poedit-SearchPath-1: xlform\n"
+"X-Poedit-SearchPathExcluded-0: js/libs\n"
+"X-Poedit-SourceCharset: UTF-8\n"
 
-#: bundle.js:56478
+#: js/actions.es6:287
+msgid "updated profile successfully"
+msgstr ""
+
+#: js/actions.es6:290
+msgid "failed to update profile"
+msgstr ""
+
+#: js/actions.es6:306
 msgid "successfully uploaded file; processing may take a few minutes"
-msgstr "تم رفع الملف بنجاح. قد تستغرق المعالجة بضع دقائق."
+msgstr ""
 
-#: bundle.js:56484
+#: js/actions.es6:312
 msgid "Error: import.status not available"
 msgstr "خطأ: import.status غير متوافر."
 
-#: bundle.js:56542
-msgid "deployed form"
-msgstr "تم نشر النموذج"
+#: js/actions.es6:350
+msgid "successfully updated"
+msgstr ""
 
-#: bundle.js:56550
-msgid "unable to deploy"
-msgstr "تعذر النشر"
-
-#: bundle.js:56554 bundle.js:67456
-msgid "ok"
-msgstr "موافقة"
-
-#: bundle.js:56560
+#: js/actions.es6:413
 msgid "please check your connection and try again."
 msgstr "يُرجى فحص اتصالك وإعادة المحاولة."
 
-#: bundle.js:56560
+#: js/actions.es6:416
 msgid "if this problem persists, contact support@kobotoolbox.org"
-msgstr "في حال استمرار مواجهة هذه المشكلة، تواصل مع support@kobotoolbox.org."
+msgstr ""
 
-#: bundle.js:56561
-msgid "retry"
-msgstr "إعادة المحاولة"
-
-#: bundle.js:56563
+#: js/actions.es6:423
 msgid "your form id was not valid:"
 msgstr "معرّف النموذج الخاص بك ليس صالحًا:"
 
-#: bundle.js:56563
-msgid "please specify a different form id:"
-msgstr "يُرجى تحديد معرّف نموذج آخر:"
-
-#: bundle.js:56565
+#: js/actions.es6:429
 msgid "your form cannot be deployed because it contains errors:"
 msgstr "تعذر نشر نموذجك لأنه يحوي أخطاءً:"
 
-#: bundle.js:56965
+#: js/app.es6:108
 msgid "profile"
-msgstr "الملف الشخصي"
+msgstr ""
 
-#: bundle.js:56975 bundle.js:59706
+#: js/app.es6:114
 msgid "logout"
-msgstr "تسجيل الخروج"
+msgstr ""
 
-#: bundle.js:57074 bundle.js:69307
+#: js/app.es6:168 js/ui.es6:190
 msgid "no name"
 msgstr "لا اسم"
 
-#: bundle.js:57236 bundle.js:66835 bundle.js:67934
+#: js/app.es6:213
+msgid "log in"
+msgstr ""
+
+#: js/app.es6:297 js/mixins.es6:1252
 msgid "loading"
 msgstr "جارٍ التحميل..."
 
-#: bundle.js:57246
+#: js/app.es6:305
 msgid "no search results found"
-msgstr "لا توجد نتائج للبحث"
+msgstr ""
 
-#: bundle.js:57273
+#: js/app.es6:328
 msgid "block of ___ questions"
 msgstr "مجموعة بها ___ سؤال/أسئلة"
 
-#: bundle.js:57398
+#: js/app.es6:443
 msgid "loading library assets"
 msgstr "جارٍ تحميل أصول المكتبة..."
 
-#: bundle.js:57439 bundle.js:66727
+#: js/app.es6:478
 msgid "search library"
 msgstr "بحث في المكتبة"
 
-#: bundle.js:57709 bundle.js:67384
+#: js/app.es6:658 js/mixins.es6:615
 msgid "download"
 msgstr "تنزيل"
 
-#: bundle.js:57861
-msgid "Link sharing on"
-msgstr "مشاركة الروابط مُفعّلة"
+#: js/app.es6:732
+msgid "Can View"
+msgstr ""
 
-#: bundle.js:57861
-msgid "Link sharing off"
-msgstr "مشاركة الروابط مُعطّلة"
+#: js/app.es6:733
+msgid "Can Edit"
+msgstr ""
 
-#: bundle.js:57866
-msgid "Anyone with the link can view this item"
-msgstr "يمكن لكل من لديه الرابط عرض هذا العنصر"
+#: js/app.es6:803
+msgid "Link to share"
+msgstr ""
 
-#: bundle.js:57866
-msgid "This item can only be viewed by you and anyone you specify"
-msgstr "عرض هذا العنصر ليس مسموحًا به لغيرك أنت ومن تقوم بتحديدهم"
-
-#: bundle.js:58011
+#: js/app.es6:916
 msgid "loading kobotoolbox"
 msgstr "جارٍ تحميل kobotoolbox..."
 
-#: bundle.js:58030 bundle.js:58672 bundle.js:58749 bundle.js:66460
-msgid "Forms"
-msgstr "النماذج"
+#: js/app.es6:937 js/app.es6:1268 js/app.es6:1351 js/components/drawer.es6:85
+#: js/components/searchcollectionlist.es6:194
+#: js/editorMixins/editableForm.es6:214 js/lists/forms.es6:34
+#: js/mixins.es6:954
+msgid "Projects"
+msgstr ""
 
-msgid "Form List"
-msgstr "قائمة النماذج"
+#: js/app.es6:1194 js/components/formEditors.es6:133
+msgid "Sharing Permissions"
+msgstr ""
 
-msgid "Library List"
-msgstr "قائمة المكتبة"
+#: js/app.es6:1199
+msgid "Who has access"
+msgstr ""
 
-msgid "view-survey"
-msgstr "عرض المسح"
+#: js/app.es6:1208
+msgid "is owner"
+msgstr ""
 
-msgid "view-asset"
-msgstr "عرض أصل المكتبة"
+#: js/app.es6:1221
+msgid "Invite people and specify access rights"
+msgstr ""
 
-msgid "view-question"
-msgstr "عرض السؤال"
+#: js/app.es6:1226
+msgid "Enter a username"
+msgstr ""
 
-msgid "edit-survey"
-msgstr "تحرير المسح"
+#: js/app.es6:1244 js/components/reports.es6:496
+msgid "Done"
+msgstr ""
 
-msgid "edit-asset"
-msgstr "تحرير أصل المكتبة"
-
-msgid "edit-question"
-msgstr "تحرير السؤال"
-
-#: bundle.js:58284 bundle.js:58530
-msgid "manage sharing permissions"
-msgstr "التحكم في مشاركة الأذونات"
-
-#: bundle.js:58309 bundle.js:58561 bundle.js:67174
-msgid "owner"
-msgstr "المالك"
-
-#: bundle.js:58319
-msgid ""
-"To share this item with others just enter their username below, then choose "
-"which permissions they shoud have. To remove them again just deselect both "
-"permissions. Note: this does not control permissions to the data collected "
-"by projects"
-msgstr "لمشاركة هذا العنصر مع شخص آخر، أدخل اسم المستخدم الخاص به ثم اختر الأذونات التي تود منحها له. ولحذفه، ألغ تحديد كلا الإذنين. ملحوظة: هذا لا يشمل التحكم في أذونات الوصول إلى البيانات التي تحصّلها المشروعات."
-
-#: bundle.js:58340 bundle.js:58346
-msgid "share with username"
-msgstr "مشاركة مع اسم المستخدم"
-
-#: bundle.js:58376 bundle.js:58625
-msgid "Link sharing"
-msgstr "مشاركة الروابط"
-
-#: bundle.js:58568
-msgid ""
-"note: this does not control permissions to the data collected by projects"
-msgstr "ملحوظة: هذا لا يشمل التحكم في أذونات الوصول إلى البيانات التي تحصّلها المشروعات."
-
-#: bundle.js:58589
-msgid "Share with other users"
-msgstr "مشاركة مع مستخدمين آخرين"
-
-#: bundle.js:58595
-msgid "enter a username"
-msgstr "أدخل اسم مستخدم"
-
-#: bundle.js:58674 bundle.js:66628
+#: js/app.es6:1270 js/components/drawer.es6:86
+#: js/components/searchcollectionlist.es6:120
+#: js/components/searchcollectionlist.es6:197
+#: js/editorMixins/editableForm.es6:214 js/lists/library.es6:33
+#: js/mixins.es6:954
 msgid "Library"
 msgstr "المكتبة"
 
-#: bundle.js:58676 bundle.js:79284
+#: js/app.es6:1274 js/mixins.es6:182
 msgid "Preview"
 msgstr "معاينة"
 
-#: bundle.js:58683 bundle.js:60443 bundle.js:60453 bundle.js:61437
-#: bundle.js:66033 bundle.js:66370
+#: js/app.es6:1308 js/editorMixins/editableForm.es6:720
+msgid "Error generating preview"
+msgstr ""
+
+#: js/app.es6:1328 js/components/accountSettings.es6:134
+#: js/components/formEditors.es6:97 js/components/reports.es6:531
+#: js/components/reports.es6:600 js/components/searchcollectionlist.es6:218
+#: js/components/searchcollectionlist.es6:235
+#: js/editorMixins/editableForm.es6:623 js/lists/collection.es6:136
+#: js/lists/collectionlanding.es6:244 js/lists/sidebarForms.es6:81
+#: js/mixins.es6:896
 msgid "loading..."
 msgstr "جارٍ التحميل..."
 
-#: bundle.js:58776
+#: js/app.es6:1378
 msgid "path not found / recognized"
 msgstr "لم يتم العثور/التعرّف على المسار."
 
-#: bundle.js:58791
+#: js/app.es6:1388
 msgid "users"
 msgstr "مستخدم/مستخدمون"
 
-#: bundle.js:58808
+#: js/app.es6:1399
 msgid "user"
 msgstr "مستخدم"
 
-#: bundle.js:58819
+#: js/app.es6:1403
 msgid "my forms shared with user"
 msgstr "نماذجي المشتركة مع المستخدم"
 
-#: bundle.js:58837
+#: js/app.es6:1412
 msgid "public forms"
 msgstr "النماذج العمومية"
 
-#: bundle.js:58909
+#: js/app.es6:1458
 msgid "self profile"
 msgstr "الملف الذاتي"
 
-#: bundle.js:59395
+#: js/components/accountSettings.es6:53
+msgid "Male"
+msgstr ""
+
+#: js/components/accountSettings.es6:57
+msgid "Female"
+msgstr ""
+
+#: js/components/accountSettings.es6:61
+msgid "Other"
+msgstr ""
+
+#: js/components/accountSettings.es6:156 js/components/accountSettings.es6:406
+#: js/components/formEditors.es6:293
+msgid "Save Changes"
+msgstr ""
+
+#: js/components/accountSettings.es6:163
+msgid "Your username, bio, and links appear on your public profile"
+msgstr ""
+
+#: js/components/accountSettings.es6:169
+msgid "Privacy"
+msgstr ""
+
+#: js/components/accountSettings.es6:173
+msgid "Require authentication to see forms and submit data"
+msgstr ""
+
+#: js/components/accountSettings.es6:178
+#: js/components/searchcollectionlist.es6:128
+#: js/components/searchcollectionlist.es6:146
+msgid "Name"
+msgstr ""
+
+#: js/components/accountSettings.es6:183
+msgid "Use this to display your real name to other users"
+msgstr ""
+
+#: js/components/accountSettings.es6:188
+msgid "Email"
+msgstr ""
+
+#: js/components/accountSettings.es6:196
+msgid "Modify Password"
+msgstr ""
+
+#: js/components/accountSettings.es6:201
+msgid "Organization"
+msgstr ""
+
+#: js/components/accountSettings.es6:208
+msgid "Organization Website"
+msgstr ""
+
+#: js/components/accountSettings.es6:213
+msgid "This will be used to create a hyperlink for your organization name. "
+msgstr ""
+
+#: js/components/accountSettings.es6:218
+msgid "Primary Sector"
+msgstr ""
+
+#: js/components/accountSettings.es6:225
+msgid "Select the primary sector in which you work. "
+msgstr ""
+
+#: js/components/accountSettings.es6:230
+msgid "Gender"
+msgstr ""
+
+#: js/components/accountSettings.es6:239
+msgid "Bio"
+msgstr ""
+
+#: js/components/accountSettings.es6:247
+msgid "Phone Number"
+msgstr ""
+
+#: js/components/accountSettings.es6:254
+msgid "Address"
+msgstr ""
+
+#: js/components/accountSettings.es6:261
+msgid "City"
+msgstr ""
+
+#: js/components/accountSettings.es6:268 js/components/formEditors.es6:185
+msgid "Country"
+msgstr ""
+
+#: js/components/accountSettings.es6:277
+msgid "Default Form Language"
+msgstr ""
+
+#: js/components/accountSettings.es6:286
+msgid "Social"
+msgstr ""
+
+#: js/components/accountSettings.es6:306
+msgid "Metadata"
+msgstr ""
+
+#: js/components/accountSettings.es6:334
+msgid "This field is required."
+msgstr ""
+
+#: js/components/accountSettings.es6:344
+msgid "This field must match the Verify Password field."
+msgstr ""
+
+#: js/components/accountSettings.es6:375
+msgid "Reset Password"
+msgstr ""
+
+#: js/components/accountSettings.es6:378
+msgid "Current Password"
+msgstr ""
+
+#: js/components/accountSettings.es6:384
+msgid "Forgot Password?"
+msgstr ""
+
+#: js/components/accountSettings.es6:389
+msgid "New Password"
+msgstr ""
+
+#: js/components/accountSettings.es6:397
+msgid "Verify Password"
+msgstr ""
+
+#: js/components/assetrow.es6:91 js/mixins.es6:851
+msgid "Only 1 file can be uploaded in this case"
+msgstr ""
+
+#: js/components/assetrow.es6:197
 msgid "me"
 msgstr "أنا"
 
-#: bundle.js:59403
-msgid "Modified"
-msgstr "آخر تعديل"
+#: js/components/assetrow.es6:257
+msgid "Edit"
+msgstr ""
 
-#: bundle.js:59413
-msgid "collection with ___ items"
-msgstr "تجميعة بها ___ عنصر/عناصر"
+#: js/components/assetrow.es6:268
+msgid "Tags"
+msgstr ""
 
-#: bundle.js:59415
-msgid "survey with ___ questions"
-msgstr "مسح به ___ سؤال/أسئلة"
+#: js/components/assetrow.es6:279 js/components/drawer.es6:483
+#: js/components/formEditors.es6:131
+msgid "Share"
+msgstr ""
 
-#: bundle.js:59417
-msgid "block with ___ questions"
-msgstr "كتلة بها سؤال/أسئلة"
+#: js/components/assetrow.es6:287
+msgid "Clone"
+msgstr ""
 
-#: bundle.js:59449 bundle.js:67427
-msgid "deploy"
-msgstr "نشر"
+#: js/components/assetrow.es6:300
+msgid "Deploy this project"
+msgstr ""
 
-#: bundle.js:59684
-msgid "drafts in progress"
-msgstr "المسودات الجاري تحضيرها"
+#: js/components/assetrow.es6:300
+msgid "Redeploy this project"
+msgstr ""
 
-#: bundle.js:59686 bundle.js:61109 bundle.js:66510 bundle.js:67631
-msgid "forms"
-msgstr "نماذج"
+#: js/components/assetrow.es6:311 js/mixins.es6:198
+msgid "Replace with XLS"
+msgstr ""
 
-#: bundle.js:59687 bundle.js:61109 bundle.js:66161 bundle.js:67631
-msgid "library"
-msgstr "المكتبة"
+#: js/components/assetrow.es6:317 js/mixins.es6:207
+msgid "Download form as"
+msgstr ""
 
-#: bundle.js:59692
-msgid "deployed projects"
-msgstr "المشاريع المنشورة"
+#: js/components/assetrow.es6:331
+msgid "Move to"
+msgstr ""
 
-#: bundle.js:59694
-msgid "projects"
-msgstr "المشاريع"
+#: js/components/assetrow.es6:364 js/mixins.es6:1388
+msgid "Archive"
+msgstr ""
 
-#: bundle.js:59699
-msgid "account actions"
-msgstr "إجراءات الحساب"
+#: js/components/assetrow.es6:375 js/components/drawer.es6:505
+#: js/mixins.es6:1345
+msgid "Delete"
+msgstr ""
 
-msgid "language"
-msgstr "اللغة"
+#: js/components/drawer.es6:102
+msgid "Projects (legacy)"
+msgstr ""
 
-#: bundle.js:59704
-msgid "settings"
-msgstr "الإعدادات"
-
-#: bundle.js:59705
-msgid "leave beta"
-msgstr "مغادرة النسخة التجريبية"
-
-msgid "help"
-msgstr "المساعدة"
-
-msgid "about"
-msgstr "نبذة"
-
+#: js/components/drawer.es6:107
 msgid "source"
 msgstr "المصدر"
 
-#: bundle.js:59707
-msgid "login"
-msgstr "تسجيل الدخول"
+#: js/components/drawer.es6:111
+msgid "help"
+msgstr "المساعدة"
 
-#: bundle.js:60145
-msgid "tags are loading"
-msgstr "جارٍ تحميل الوسومات..."
-
-#: bundle.js:60152
-msgid "select tags"
-msgstr "تحديد الوسومات"
-
-#: bundle.js:60204
-msgid "assets found"
-msgstr "أصل/أصول موجود/ة"
-
-#: bundle.js:60216
-msgid "expand details"
-msgstr "توسيع التفاصيل"
-
-msgid "search..."
-msgstr "بحث..."
-
-#: bundle.js:60252
-msgid "searching for \"___\""
-msgstr "جارٍ البحث عن \"___\""
-
-#: bundle.js:60255 bundle.js:60265
-msgid "tagged with [___]"
-msgstr "موسوم بوسم [___]"
-
-#: bundle.js:60262
-msgid "searched for \"___\""
-msgstr "تم البحث عن \"___\""
-
-#: bundle.js:60268
-msgid "found ## results"
-msgstr "تم العثور على ## نتيجة/نتائج."
-
-#: bundle.js:60275
-msgid "## ___ available"
-msgstr "## ___ متوافر/ة"
-
-#: bundle.js:60279
-msgid ""
-"You currently have no forms. You can create a new form by clicking on the + "
-"button below."
-msgstr "ليست لديك أية نماذج حاليًا. يمكنك إنشاء نموذجًا جديدًا بالنقر فوق الزر أدناه الذي عليه علامة +."
-
-#: bundle.js:60281
-msgid ""
-"Your library is currently empty. You can create a new question or a new "
-"block by clicking on the + button below, or add them from within your forms."
-msgstr "مكتبتك فارغة حاليًا. يمكنك إنشاء سؤالاً جديدًا أو كتلة جديدة بالنقر فوق الزر أدناه الذي عليه علامة + أو إضافة سؤالاً أو كتلة داخل نماذجك."
-
-#: bundle.js:60328
-msgid "success"
-msgstr "تم بنجاح"
-
-#: bundle.js:60329
-msgid "yes"
-msgstr "بلى"
-
-msgid "Yes"
-msgstr "بلى"
-
-#: bundle.js:60329
-msgid "no"
-msgstr "لا"
-
-msgid "No"
-msgstr "لا"
-
-#: bundle.js:60334
-msgid "count"
-msgstr "العدد"
-
-#: bundle.js:60463
-msgid "error"
-msgstr "خطأ"
-
-#: bundle.js:60488 bundle.js:79284
-msgid "Default - single page"
-msgstr "الافتراضي - صفحة واحدة"
-
-#: bundle.js:60488 bundle.js:79284
-msgid "Grid theme"
-msgstr "نسق الشبكة"
-
-#: bundle.js:60488 bundle.js:79284
-msgid "Multiple pages"
-msgstr "صفحات متعددة"
-
-#: bundle.js:60488
-msgid "Grid theme + Multiple pages"
-msgstr "نسق الشبكة + صفحات متعددة"
-
-#: bundle.js:61057
-msgid "none (0 metadata specified)"
-msgstr "لا توجد (لم يتم تحديد أية بيانات تعريف)"
-
-#: bundle.js:61065
-msgid "metadata:"
-msgstr "بيانات التعريف:"
-
-#: bundle.js:61114
+#: js/components/drawer.es6:175 js/components/drawer.es6:391
+#: js/editorMixins/editableForm.es6:220
 msgid "new"
 msgstr "جديد"
 
-#: bundle.js:61175
-msgid "you have unsaved changes"
-msgstr "لديك تغييرات لم يتم حفظها."
-
-#: bundle.js:61236
-msgid ""
-"failed to generate preview. please report this to support@kobotoolbox.org"
-msgstr "أخفقت محاولة تكوين المعاينة. يُرجى إرسال بلاغًا عن هذا إلى support@kobotoolbox.org."
-
-#: bundle.js:61318
-msgid "create"
-msgstr "إنشاء"
-
-#: bundle.js:61320
-msgid "save"
-msgstr "حفظ"
-
-#: bundle.js:61344
-msgid "form name"
-msgstr "اسم النموذج"
-
-#: bundle.js:61365
-msgid "close"
-msgstr "إغلاق"
-
-#: bundle.js:61374 bundle.js:67359
-msgid "view"
-msgstr "عرض"
-
-msgid "preview"
-msgstr "معاينة"
-
-#: bundle.js:61382
-msgid "show all responses"
-msgstr "إظهار جميع الاستجابات"
-
-#: bundle.js:61391
-msgid "group questions"
-msgstr "تجميع الأسئلة"
-
-msgid "Are you sure you want to split apart this group?"
-msgstr "هل ترغب بالتأكيد في تقسيم هذه المجموعة؟"
-
-msgid ""
-"You can't display nested groups on the same screen - the setting has been "
-"removed from the parent group"
-msgstr "لا يمكنك عرض المجموعات المتداخلة على نفس الشاشة؛ فقد تمت إزالة الإعداد من المجموعة الأصلية."
-
-msgid "Note: Rank and Matrix question types are currently in beta."
-msgstr "ملحوظة: أنواع الأسئلة التالية هي ضمن النسخة التجريبية حاليًا: الترتيب والمصفوفة."
-
-msgid "Enter your question"
-msgstr "أدخل سؤالك"
-
-#: bundle.js:61399
-msgid "form-style"
-msgstr "نمط النموذج"
-
-#: bundle.js:61408
-msgid "form style"
-msgstr "نمط النموذج"
-
-#: bundle.js:61413
-msgid "select the form style that you would like to use."
-msgstr "حدد نمط النموذج الذي تود استخدامه."
-
-#: bundle.js:61414
-msgid "for more info, see: "
-msgstr "للمزيد من المعلومات، راجع:"
-
-#: bundle.js:61421
-msgid "custom form style: \"{label}\""
-msgstr "نمط نموذج مخصص: \"{label}\""
-
-#: bundle.js:61487
-msgid "Untitled"
-msgstr "بلا عنوان"
-
-#: bundle.js:61524
-msgid "Form Preview"
-msgstr "معاينة النموذج"
-
-#: bundle.js:61588 bundle.js:61634
-msgid "you have unsaved changes. would you like to save?"
-msgstr "لديك تغييرات لم يتم حفظها. هل تود الحفظ؟"
-
-#: bundle.js:65922
-msgid "Collections"
-msgstr "التجميعات"
-
-#: bundle.js:65989 bundle.js:66763
-msgid "new collection"
-msgstr "تجميعة جديدة"
-
-#: bundle.js:66003 bundle.js:66545 bundle.js:66774
-msgid "upload"
-msgstr "رفع"
-
-#: bundle.js:66161
-msgid "Collection"
-msgstr "التجميعة"
-
-#: bundle.js:66256
-msgid "collection loading..."
-msgstr "جارٍ تحميل التجميعة..."
-
-#: bundle.js:66262
-msgid "collection not loaded"
-msgstr "لم يتم تحميل التجميعة."
-
-#: bundle.js:66285 bundle.js:67116
-msgid "collection name"
-msgstr "اسم التجميعة"
-
-#: bundle.js:66314
-msgid "new collection inside \"___\""
-msgstr "تجميعة جديدة داخل \"___\""
-
-#: bundle.js:66321
-msgid "new question inside \"___\""
-msgstr "سؤال جديد داخل \"___\""
-
-#: bundle.js:66328
-msgid "new block inside \"___\""
-msgstr "كتلة جديدة داخل \"___\""
-
-#: bundle.js:66340
-msgid "upload into \"___\""
-msgstr "رفع إلى \"___\""
-
-#: bundle.js:66381
-msgid "no assets to display"
-msgstr "لا توجد أصول للعرض"
-
-#: bundle.js:66502
-msgid "search forms"
-msgstr "بحث في النماذج"
-
-#: bundle.js:66509
-msgid "form"
-msgstr "نموذج"
-
-#: bundle.js:66536
+#: js/components/drawer.es6:181
 msgid "new form"
 msgstr "نموذج جديد"
 
-#: bundle.js:66756
+#: js/components/drawer.es6:186 js/components/drawer.es6:402
+#: js/lists/collection.es6:104
+msgid "upload"
+msgstr "رفع"
+
+#: js/components/drawer.es6:354
+msgid "unexpected error removing public permission"
+msgstr ""
+
+#: js/components/drawer.es6:397
 msgid "add to library"
 msgstr "إضافة إلى المكتبة"
 
-#: bundle.js:66792
-msgid "all items (no filter)"
-msgstr "جميع العناصر (بلا مرشّح)"
+#: js/components/drawer.es6:408 js/lists/collection.es6:96
+msgid "new collection"
+msgstr "تجميعة جديدة"
 
-#: bundle.js:66815 bundle.js:67522
-msgid "delete"
-msgstr "حذف"
+#: js/components/drawer.es6:424
+msgid "My Library"
+msgstr ""
 
-#: bundle.js:66820
-msgid "sharing"
-msgstr "المشاركة"
+#: js/components/drawer.es6:465
+msgid "Make Private"
+msgstr ""
 
-#: bundle.js:66825 bundle.js:67371
-msgid "edit"
-msgstr "تحرير"
+#: js/components/drawer.es6:474
+msgid "Make Public"
+msgstr ""
 
-#: bundle.js:66840
-msgid "library item"
-msgstr "عنصر/عناصر مكتبة"
+#: js/components/drawer.es6:495
+msgid "Rename"
+msgstr ""
 
-#: bundle.js:66841
-msgid "library items"
-msgstr "عنصر/عناصر مكتبة"
+#: js/components/drawer.es6:516
+msgid "Unsubscribe"
+msgstr ""
 
-msgid "[button triggers] Settings"
+#: js/components/drawer.es6:526 js/components/drawer.es6:585
+msgid "by ___"
+msgstr ""
+
+#: js/components/drawer.es6:541
+msgid "Public Collections"
+msgstr ""
+
+#: js/components/drawer.es6:570
+msgid "unsubscribe"
+msgstr ""
+
+#: js/components/drawer.es6:577
+msgid "subscribe"
+msgstr ""
+
+#: js/components/formData.es6:85 js/components/formEditors.es6:349
+#: js/components/reports.es6:516 js/editorMixins/editableForm.es6:691
+#: js/mixins.es6:138
+msgid "Untitled"
+msgstr "بلا عنوان"
+
+#: js/components/formEditors.es6:86 js/components/header.es6:384
+msgid "Please enter a title for your project"
+msgstr ""
+
+#: js/components/formEditors.es6:135
+msgid "Allow others to access your project."
+msgstr ""
+
+#: js/components/formEditors.es6:138
+msgid "Shared with "
+msgstr ""
+
+#: js/components/formEditors.es6:147
+msgid "Project Name"
+msgstr ""
+
+#: js/components/formEditors.es6:151
+msgid "Enter title of project here"
+msgstr ""
+
+#: js/components/formEditors.es6:158
+msgid "Description"
+msgstr ""
+
+#: js/components/formEditors.es6:162
+msgid "Enter short description here"
+msgstr ""
+
+#: js/components/formEditors.es6:167
+msgid ""
+"Please specify the country and the sector where this project will be "
+"deployed. "
+msgstr ""
+
+#: js/components/formEditors.es6:168
+msgid ""
+"This information will be used to help you filter results on the project list"
+" page."
+msgstr ""
+
+#: js/components/formEditors.es6:174
+msgid "Sector"
+msgstr ""
+
+#: js/components/formEditors.es6:196
+msgid ""
+"Help KoboToolbox improve this product by sharing the sector and country "
+"where this project will be deployed."
+msgstr ""
+
+#: js/components/formEditors.es6:197
+msgid ""
+"All the information is submitted anonymously, and will not include the "
+"project name or description listed above."
+msgstr ""
+
+#: js/components/formEditors.es6:206
+msgid "Share the sector and country with developers"
+msgstr ""
+
+#: js/components/formEditors.es6:254
+msgid "Create New Project from Scratch"
+msgstr ""
+
+#: js/components/formEditors.es6:258
+msgid "Create project"
+msgstr ""
+
+#: js/components/formEditors.es6:358
+msgid "Select export type"
+msgstr ""
+
+#: js/components/formEditors.es6:373
+msgid "Value and header format"
+msgstr ""
+
+#: js/components/formEditors.es6:389
+msgid "Include groups in headers"
+msgstr ""
+
+#: js/components/formEditors.es6:398
+msgid "Group separator"
+msgstr ""
+
+#: js/components/formEditors.es6:417
+msgid "Download"
+msgstr ""
+
+#: js/components/header.es6:145
+msgid "Please refresh the page"
+msgstr ""
+
+#: js/components/header.es6:214
+msgid "Account Settings"
+msgstr ""
+
+#: js/components/header.es6:221
+msgid "Leave Beta"
+msgstr ""
+
+#: js/components/header.es6:228
+msgid "Language"
+msgstr ""
+
+#: js/components/header.es6:237
+msgid "Logout"
+msgstr ""
+
+#: js/components/header.es6:248
+msgid "not logged in"
+msgstr ""
+
+#: js/components/header.es6:300
+msgid "Summary"
+msgstr ""
+
+#: js/components/header.es6:307
+msgid "Form"
+msgstr ""
+
+#: js/components/header.es6:311
+msgid "Data"
+msgstr ""
+
+#: js/components/header.es6:317
+msgid "Reports"
+msgstr ""
+
+#: js/components/header.es6:323
+msgid "Reports (legacy)"
+msgstr ""
+
+#: js/components/header.es6:328
+msgid "Table"
+msgstr ""
+
+#: js/components/header.es6:333
+msgid "Gallery"
+msgstr ""
+
+#: js/components/header.es6:338
+msgid "Downloads"
+msgstr ""
+
+#: js/components/header.es6:343
+msgid "Map"
+msgstr ""
+
+#: js/components/header.es6:352
+msgid "Settings"
 msgstr "الإعدادات"
 
-msgid "[button triggers] Delete Question"
-msgstr "حذف السؤال"
+#: js/components/header.es6:359
+msgid "Deployed"
+msgstr ""
 
-msgid "[button triggers] Duplicate Question"
-msgstr "تكرار السؤال"
+#: js/components/header.es6:359
+msgid "Archived"
+msgstr ""
 
-msgid "[button triggers] Add Question to Library"
-msgstr "إضافة السؤال إلى المكتبة"
+#: js/components/header.es6:360
+msgid "submissions"
+msgstr ""
 
-#: bundle.js:67114
-msgid "make new collection: \"{label}\""
-msgstr "إنشاء تجميعة جديدة: \"{label}\""
+#: js/components/header.es6:363
+msgid "Undeployed draft"
+msgstr ""
 
-#: bundle.js:67115
+#: js/components/header.es6:412
+msgid "Scheduled server maintenance"
+msgstr ""
+
+#: js/components/header.es6:442 js/editorMixins/editableForm.es6:557
+msgid "Search Library"
+msgstr ""
+
+#: js/components/header.es6:448
+msgid "Search Projects"
+msgstr ""
+
+#: js/components/header.es6:457
+msgid "click to edit"
+msgstr ""
+
+#: js/components/header.es6:460
+msgid "Project title"
+msgstr ""
+
+#: js/components/header.es6:470
+msgid "Project description"
+msgstr ""
+
+#: js/components/list.es6:28
+msgid "Search..."
+msgstr ""
+
+#: js/components/list.es6:123
+msgid "Search Tags"
+msgstr ""
+
+#: js/components/list.es6:178
+msgid "Collections are loading..."
+msgstr ""
+
+#: js/components/list.es6:185
+msgid "Filter by"
+msgstr ""
+
+#: js/components/list.es6:189
+msgid "Select Collection Name"
+msgstr ""
+
+#: js/components/list.es6:237
+msgid "assets found"
+msgstr "أصل/أصول موجود/ة"
+
+#: js/components/list.es6:242
+msgid "expand details"
+msgstr "توسيع التفاصيل"
+
+#: js/components/list.es6:277
+msgid "searching for \"___\""
+msgstr "جارٍ البحث عن \"___\""
+
+#: js/components/list.es6:280 js/components/list.es6:290
+msgid "tagged with [___]"
+msgstr "موسوم بوسم [___]"
+
+#: js/components/list.es6:287
+msgid "searched for \"___\""
+msgstr "تم البحث عن \"___\""
+
+#: js/components/list.es6:293
+msgid "found ## results"
+msgstr "تم العثور على ## نتيجة/نتائج."
+
+#: js/components/list.es6:300
+msgid "## ___ available"
+msgstr "## ___ متوافر/ة"
+
+#: js/components/list.es6:341
+msgid "success"
+msgstr "تم بنجاح"
+
+#: js/components/list.es6:342
+msgid "yes"
+msgstr "بلى"
+
+#: js/components/list.es6:342
+msgid "no"
+msgstr "لا"
+
+#: js/components/list.es6:345
+msgid "count"
+msgstr "العدد"
+
+#: js/components/reportViewItem.es6:13
+msgid "Value"
+msgstr ""
+
+#: js/components/reportViewItem.es6:13
+msgid "Frequency"
+msgstr ""
+
+#: js/components/reportViewItem.es6:13
+msgid "Percentage"
+msgstr ""
+
+#: js/components/reportViewItem.es6:256
+msgid "Type: "
+msgstr ""
+
+#: js/components/reportViewItem.es6:256
+msgid ". "
+msgstr ""
+
+#: js/components/reportViewItem.es6:261
+msgid "#1 out of #2 respondents answered this question. "
+msgstr ""
+
+#: js/components/reportViewItem.es6:268
+msgid "(# were without data.)"
+msgstr ""
+
+#: js/components/reports.es6:193 js/mixins.es6:263
 msgid "none"
 msgstr "لا يوجد"
 
-#: bundle.js:67117
-msgid "select parent collection"
-msgstr "حدد التجميعة الأصلية"
+#: js/components/reports.es6:194
+msgid "report type"
+msgstr ""
 
-#: bundle.js:67187
-msgid "viewer"
-msgstr "عارض"
+#: js/components/reports.es6:285 js/components/reports.es6:294
+msgid "untitled"
+msgstr ""
 
-#: bundle.js:67187
-msgid "viewers"
-msgstr "عارض/عارضون"
+#: js/components/reports.es6:373
+msgid "No grouping"
+msgstr ""
 
-#: bundle.js:67192
-msgid "editor"
-msgstr "محرر"
+#: js/components/reports.es6:388
+msgid "Graph Settings"
+msgstr ""
 
-#: bundle.js:67192
-msgid "editors"
-msgstr "محرر/محررون"
+#: js/components/reports.es6:394
+msgid "Group By"
+msgstr ""
 
-#: bundle.js:67206
-msgid "status"
-msgstr "الحالة"
+#: js/components/reports.es6:418
+msgid "Expand"
+msgstr ""
 
-#: bundle.js:67211 bundle.js:67883
-msgid "public"
-msgstr "عمومي"
+#: js/components/reports.es6:424
+msgid "Print"
+msgstr ""
 
-#: bundle.js:67211
-msgid "private"
-msgstr "خصوصي"
+#: js/components/reports.es6:454
+msgid "Chart Type"
+msgstr ""
 
-#: bundle.js:67222
-msgid "questions"
-msgstr "الأسئلة"
+#: js/components/reports.es6:457
+msgid "Colors"
+msgstr ""
 
-#: bundle.js:67238
-msgid "revisions"
-msgstr "المراجعات"
+#: js/components/reports.es6:460
+msgid "Size"
+msgstr ""
 
-#: bundle.js:67254
-msgid "created"
-msgstr "وقت الإنشاء"
+#: js/components/reports.es6:481
+msgid "Width: "
+msgstr ""
 
-#: bundle.js:67270
-msgid "modified"
-msgstr "آخر تعديل"
+#: js/components/reports.es6:486
+msgid "Height: "
+msgstr ""
 
-#: bundle.js:67289
-msgid "no language information"
-msgstr "لا توجد معلومات عن اللغة"
+#: js/components/reports.es6:508
+msgid "Report"
+msgstr ""
 
-#: bundle.js:67299
-msgid "no translations"
-msgstr "لا توجد ترجمات"
+#: js/components/reports.es6:542
+msgid "This report has no data."
+msgstr ""
 
-#: bundle.js:67309
-msgid "languages"
-msgstr "لغة/لغات"
+#: js/components/reports.es6:562
+msgid "Translation"
+msgstr ""
 
-#: bundle.js:67407
-msgid "clone"
-msgstr "استنساخ"
+#: js/components/reports.es6:573
+msgid "Warning"
+msgstr ""
 
-#: bundle.js:67417
+#: js/components/reports.es6:574
+msgid ""
+"This is an automated report based on raw data submitted to this project. "
+"Please conduct proper data cleaning prior to using the graphs and figures "
+"used on this page. "
+msgstr ""
+
+#: js/components/reports.es6:605
+msgid "Global Graph Settings"
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:131
+msgid "Owner"
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:134
+#: js/components/searchcollectionlist.es6:155
+msgid "Last Modified"
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:137 js/mixins.es6:779
+msgid "Questions"
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:149
+msgid "Shared by"
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:152
+msgid "Created"
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:158
+msgid "Submissions"
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:245
+msgid ""
+"Let's get started by creating your first project. Click the New button to "
+"create a new form."
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:253
+msgid ""
+"Let's get started by creating your first library question or question block."
+" Click the New button to create a new question or block."
+msgstr ""
+
+#: js/constants.es6:12
+msgid "Default - single page"
+msgstr "الافتراضي - صفحة واحدة"
+
+#: js/constants.es6:13
+msgid "Grid theme"
+msgstr "نسق الشبكة"
+
+#: js/constants.es6:14
+msgid "Multiple pages"
+msgstr "صفحات متعددة"
+
+#: js/constants.es6:15
+msgid "Grid theme + Multiple pages"
+msgstr "نسق الشبكة + صفحات متعددة"
+
+#: js/editorMixins/cascadeMixin.es6:57 js/editorMixins/cascadeMixin.es6:68
+#: js/editorMixins/cascadeMixin.es6:94
+msgid "Paste your formatted table from excel in the box below."
+msgstr ""
+
+#: js/editorMixins/cascadeMixin.es6:74
+msgid "add cascade with # questions"
+msgstr ""
+
+#: js/editorMixins/cascadeMixin.es6:100
+msgid "OK"
+msgstr ""
+
+#: js/editorMixins/cascadeMixin.es6:111
+msgid "Learn more about importing cascading lists from Excel"
+msgstr ""
+
+#: js/editorMixins/cascadeMixin.es6:125
+msgid "DONE"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:164
+msgid "none (0 metadata specified)"
+msgstr "لا توجد (لم يتم تحديد أية بيانات تعريف)"
+
+#: js/editorMixins/editableForm.es6:171
+msgid "metadata:"
+msgstr "بيانات التعريف:"
+
+#: js/editorMixins/editableForm.es6:292
+msgid "you have unsaved changes"
+msgstr "لديك تغييرات لم يتم حفظها."
+
+#: js/editorMixins/editableForm.es6:431
+msgid "create"
+msgstr "إنشاء"
+
+#: js/editorMixins/editableForm.es6:433
+msgid "save"
+msgstr "حفظ"
+
+#: js/editorMixins/editableForm.es6:465
+msgid "form name"
+msgstr "اسم النموذج"
+
+#: js/editorMixins/editableForm.es6:471 js/mixins.es6:640
 msgid "share"
 msgstr "مشاركة"
 
-#: bundle.js:67435
-msgid "new form name"
-msgstr "اسم نموذج جديد"
+#: js/editorMixins/editableForm.es6:498
+msgid "Preview form"
+msgstr ""
 
-#: bundle.js:67453
-msgid "deploy form to kobocat"
-msgstr "نشر النموذج على kobocat"
+#: js/editorMixins/editableForm.es6:506
+msgid "Expand / collapse questions"
+msgstr ""
 
-#: bundle.js:67454
-msgid "please specify a form id"
-msgstr "يُرجى تحديد معرّف نموذج."
+#: js/editorMixins/editableForm.es6:515
+msgid "Create group with selected questions"
+msgstr ""
 
-#: bundle.js:67456
-msgid "cancel"
-msgstr "إلغاء"
+#: js/editorMixins/editableForm.es6:520
+msgid "Download form"
+msgstr ""
 
-#: bundle.js:67460
-msgid "Deploying..."
-msgstr "جارٍ النشر..."
+#: js/editorMixins/editableForm.es6:531
+msgid "Web form layout"
+msgstr ""
 
-#: bundle.js:67482
+#: js/editorMixins/editableForm.es6:533
+msgid "Layout"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:540
+msgid "Attach media files"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:547
+msgid "Insert cascading select"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:564
+msgid "form style"
+msgstr "نمط النموذج"
+
+#: js/editorMixins/editableForm.es6:567
 msgid ""
-"You are about to permanently delete this ___. Are you sure you want to "
-"continue?"
-msgstr "أنت على وشك حذف هذا/هذه ___ نهائيًا. هل ترغب بالتأكيد في المتابعة؟"
+"select the form style that you would like to use. this will only affect web "
+"forms."
+msgstr ""
 
-msgid "Are you sure you want to delete this question?"
-msgstr "هل ترغب بالتأكيد في حذف هذا السؤال؟"
+#: js/editorMixins/editableForm.es6:571
+msgid "read more..."
+msgstr ""
 
-msgid "Are you sure you want to delete this collection?"
-msgstr "هل ترغب بالتأكيد في حذف هذه التجميعة؟"
+#: js/editorMixins/editableForm.es6:579
+msgid "custom form style: \"{label}\""
+msgstr "نمط نموذج مخصص: \"{label}\""
 
-msgid "This action cannot be undone."
-msgstr "لا يمكن التراجع عن هذا الإجراء."
+#: js/editorMixins/editableForm.es6:596
+msgid "Error loading survey:"
+msgstr ""
 
-#: bundle.js:67509
-msgid "refresh"
-msgstr "تحديث"
+#: js/editorMixins/editableForm.es6:606
+msgid "Back"
+msgstr ""
 
-#: bundle.js:67528
-msgid "deployments"
-msgstr "مرات النشر"
+#: js/editorMixins/editableForm.es6:611
+msgid "Ask support about this error"
+msgstr ""
 
-#: bundle.js:67528
-msgid "no deployments"
-msgstr "لا توجد مرات نشر"
+#: js/editorMixins/editableForm.es6:711
+msgid "Form Preview"
+msgstr "معاينة النموذج"
 
-#: bundle.js:67580
-msgid "loading asset"
-msgstr "جارٍ تحميل الأصل..."
+#: js/editorMixins/editableForm.es6:728
+msgid "Import Cascading Select Questions"
+msgstr ""
 
-#: bundle.js:67704
-msgid "Could not redirect to asset."
-msgstr "تعذرت إعادة التوجيه إلى الأصل."
+#: js/editorMixins/existingForm.es6:44 js/editorMixins/newForm.es6:26
+msgid "you have unsaved changes. leave form without saving?"
+msgstr ""
 
-#: bundle.js:67713
-msgid ""
-"Your library assets have uploaded and are being processed. This may take a "
-"few moments."
-msgstr "تم رفع أصول مكتبتك وجارية معالجتها. قد يستغرق هذا بعض الوقت."
-
-#: bundle.js:67715
-msgid ""
-"Your library assets have uploaded and are queued for processing. This may "
-"take a few moments."
-msgstr "تم رفع أصول مكتبتك وهي في انتظار المعالجة. قد يستغرق هذا بعض الوقت."
-
-#: bundle.js:67720
-msgid "Import Failure."
-msgstr "أخفقت محاولة الاستيراد."
-
-#: bundle.js:67723
-msgid "Import Failed."
-msgstr "أخفقت محاولة الاستيراد."
-
-#: bundle.js:67729
-msgid "Failed to create import."
-msgstr "أخفقت محاولة إنشاء استيراد."
-
-#: bundle.js:67771
-msgid "collections"
-msgstr "تجميعة/تجميعات"
-
-#: bundle.js:67863
-msgid "my forms"
-msgstr "نماذجي"
-
-#: bundle.js:67873
-msgid "shared with me"
-msgstr "مشترك معي"
-
-#: bundle.js:67912
-msgid "error loading data"
-msgstr "خطأ في تحميل البيانات"
-
-#: bundle.js:67924
-msgid "results loaded"
-msgstr "تم تحميل النتائج"
-
-#: bundle.js:67982
-msgid ""
-"Warning! You are about to delete this collection with all its questions and "
-"blocks. Are you sure you want to continue?"
-msgstr "تحذير! أنت على وشك حذف هذه التجميعة بكل الأسئلة والكتل الموجودة داخلها. هل ترغب بالتأكيد في المتابعة؟"
-
-#: bundle.js:67998
-msgid "new name?"
-msgstr "اسم جديد؟"
-
-#: bundle.js:68016
-msgid ""
-"You are about to permanently delete this form. Are you sure you want to "
-"continue?"
-msgstr "أنت على وشك حذف هذا النموذج نهائيًا. هل ترغب بالتأكيد في المتابعة؟"
-
-#: bundle.js:68896
-msgid "failed to list assets"
-msgstr "أخفقت محاولة إدراج الأصول"
-
-#: bundle.js:69314
-msgid "and one other question"
-msgstr "وسؤال آخر"
-
-#: bundle.js:69320
-msgid "and ## other questions"
-msgstr "و## سؤال آخر/أسئلة أخرى"
-
-#: bundle.js:75133
-msgid "Add a condition"
-msgstr "إضافة شرط"
-
+#: js/i18nMissingStrings.es6:8 js/i18nStringSafe.es6:8
 msgid "Add another condition"
 msgstr "أدخل شرطًا آخر"
 
+#: js/i18nMissingStrings.es6:10 js/i18nStringSafe.es6:10
 msgid "Question should match all of these criteria"
 msgstr "يجب أن يطابق السؤال جميع هذه المعايير"
 
+#: js/i18nMissingStrings.es6:11 js/i18nStringSafe.es6:11
 msgid "Question should match any of these criteria"
 msgstr "يجب أن يطابق السؤال أحد هذه المعايير"
 
-msgid "Manually enter your skip logic in XLSForm code"
-msgstr "أدخل منطق التخطي يدويًا في صورة تعليمات XLSForm برمجية"
-
-#: bundle.js:75445
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "إدخال منطق التحقق يدويًا في صورة تعليمات XLSForm برمجية"
-
-#: bundle.js:75778
+#: js/i18nMissingStrings.es6:12 js/i18nStringSafe.es6:12
 msgid "Click to add another response..."
 msgstr "انقر لإضافة استجابة أخرى."
 
-msgid "response value"
-msgstr "قيمة الاستجابة"
-
-msgid "Select question from list"
-msgstr "حدد سؤال من القائمة"
-
-#: bundle.js:75778
-msgid "Value:"
-msgstr "القيمة:"
-
-#: bundle.js:75778
+#: js/i18nMissingStrings.es6:13 js/i18nStringSafe.es6:13
 msgid "AUTOMATIC"
 msgstr "تلقائي"
 
-#: bundle.js:75801
-msgid "Select One"
-msgstr "تحديد واحد"
-
-#: bundle.js:75806
-msgid "Select Many"
-msgstr "تحديد العديد"
-
-#: bundle.js:75811
-msgid "Text"
-msgstr "نص"
-
-#: bundle.js:75816
-msgid "Number"
-msgstr "رقم"
-
-#: bundle.js:75821
-msgid "Decimal"
-msgstr "رقم عشري"
-
-#: bundle.js:75826
-msgid "Date"
-msgstr "تاريخ"
-
-#: bundle.js:75831
-msgid "Time"
-msgstr "وقت"
-
-#: bundle.js:75836
-msgid "Date & time"
-msgstr "تاريخ ووقت"
-
-#: bundle.js:75841
-msgid "GPS"
-msgstr "نظام تحديد المواقع العالمي"
-
-#: bundle.js:75846
-msgid "Photo"
-msgstr "صورة"
-
-#: bundle.js:75851
-msgid "Audio"
-msgstr "صوت"
-
-#: bundle.js:75856
-msgid "Video"
-msgstr "فيديو"
-
-#: bundle.js:75861
-msgid "Note"
-msgstr "ملحوظة"
-
-#: bundle.js:75866
-msgid "Barcode"
-msgstr "رمز شريطي"
-
-#: bundle.js:75871
-msgid "Acknowledge"
-msgstr "إقرار"
-
-#: bundle.js:75876
-msgid "Calculate"
-msgstr "حساب"
-
-#: bundle.js:75881
-msgid "Matrix / Rating"
-msgstr "مصفوفة/تصنيف"
-
-#: bundle.js:75886
-msgid "Ranking"
-msgstr "ترتيب"
-
-#: bundle.js:76808
-msgid "All group settings"
-msgstr "جميع إعدادات المجموعة"
-
-#: bundle.js:76808
+#: js/i18nMissingStrings.es6:14 js/i18nStringSafe.es6:14
 msgid "Skip Logic"
 msgstr "منطق التخطي"
 
-#: bundle.js:76811
+#: js/i18nMissingStrings.es6:15 js/i18nStringSafe.es6:15
 msgid "Question Options"
 msgstr "خيارات الأسئلة"
 
-#: bundle.js:76811
+#: js/i18nMissingStrings.es6:16 js/i18nStringSafe.es6:16
 msgid "Validation Criteria"
 msgstr "معايير التحقق"
 
-#: bundle.js:76811
+#: js/i18nMissingStrings.es6:17 js/i18nStringSafe.es6:17
 msgid "Response Type"
 msgstr "نوع الاستجابة"
 
-#: bundle.js:76858
-msgid "Row name"
-msgstr "اسم الصف"
-
-#: bundle.js:76903
+#: js/i18nMissingStrings.es6:18 js/i18nStringSafe.es6:18
 msgid "A constraint message to be read in case of error:"
 msgstr "رسالة قيد تُقرأ في حال ظهور خطأ:"
 
-msgid "Items cannot be selected more than once"
-msgstr "لا يمكن تحديد العناصر أكثر من مرة"
-
-#: bundle.js:76914
+#: js/i18nMissingStrings.es6:19 js/i18nStringSafe.es6:19
 msgid "Row could not be displayed:"
 msgstr "تعذر عرض الصف:"
 
-#: bundle.js:76914
+#: js/i18nMissingStrings.es6:21 js/i18nStringSafe.es6:21
+msgid "Add Question"
+msgstr "إضافة سؤال"
+
+#: js/i18nMissingStrings.es6:22 js/i18nStringSafe.es6:22
+msgid "or"
+msgstr "أو"
+
+#: js/i18nMissingStrings.es6:23 js/i18nStringSafe.es6:23
+msgid "Import XLS"
+msgstr "استيراد XLS"
+
+#: js/i18nMissingStrings.es6:25 js/i18nStringSafe.es6:25
+msgid "Save and Exit"
+msgstr "حفظ وخروج"
+
+#: js/i18nMissingStrings.es6:26 js/i18nStringSafe.es6:26
+msgid "Show All Responses"
+msgstr "إظهار جميع الاستجابات"
+
+#: js/i18nMissingStrings.es6:27 js/i18nStringSafe.es6:27
+msgid "Question Library"
+msgstr "مكتبة الأسئلة"
+
+#: js/i18nMissingStrings.es6:28 js/i18nStringSafe.es6:28
+msgid "Form ID"
+msgstr "معرّف النموذج"
+
+#: js/i18nMissingStrings.es6:29 js/i18nStringSafe.es6:29
+msgid "Unique form name"
+msgstr "اسم نموذج فريد"
+
+#: js/i18nMissingStrings.es6:30 js/i18nStringSafe.es6:30
+msgid "Web form style (Optional)"
+msgstr "نسق نموذج الويب (اختياري)"
+
+#: js/i18nMissingStrings.es6:31 js/i18nStringSafe.es6:31
+msgid "This allows using different Enketo styles, e.g. 'theme-grid'"
+msgstr "يسمح هذا باستخدام نُسُق مختلفة من Enketo، مثل 'theme-grid'."
+
+#: js/i18nMissingStrings.es6:32 js/i18nStringSafe.es6:32
+msgid "Multiple pages + Grid theme"
+msgstr "صفحات متعددة + نسق الشبكة"
+
+#: js/i18nMissingStrings.es6:33 js/i18nStringSafe.es6:33
+msgid "Version (Optional)"
+msgstr "الإصدار (اختياري)"
+
+#: js/i18nMissingStrings.es6:34 js/i18nStringSafe.es6:34
+msgid "A version ID of the form"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:35 js/i18nStringSafe.es6:35
+msgid "Hidden meta questions to include in your form to help with analysis"
+msgstr "أسئلة تجريبية مخبّأة يتم تضمينها في نموذجك للمساعدة في التحليل"
+
+#: js/i18nMissingStrings.es6:36 js/i18nStringSafe.es6:36
+msgid "Meta questions for collecting with cell phones"
+msgstr "أسئلة تجريبية لتحصيل المعلومات عبر الهواتف الخليوية"
+
+#: js/i18nMissingStrings.es6:37 js/i18nStringSafe.es6:37
+msgid "This form is currently empty."
+msgstr "هذا النموذج فارغ حاليًا."
+
+#: js/i18nMissingStrings.es6:39 js/i18nStringSafe.es6:39
+msgid "Vertical"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:40 js/i18nStringSafe.es6:40
+msgid "Donut"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:41 js/i18nStringSafe.es6:41
+msgid "Area"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:42 js/i18nStringSafe.es6:42
+msgid "Horizontal"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:43 js/i18nStringSafe.es6:43
+msgid "Pie"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:44 js/i18nStringSafe.es6:44
+msgid "Line"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:45 js/i18nStringSafe.es6:45
+msgid "Draft"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:47 js/i18nStringSafe.es6:47
 msgid ""
 "This question could not be imported. Please re-create it manually. Please "
 "contact us at support@kobotoolbox.org so we can fix this bug!"
 msgstr "تعذر استيراد هذا السؤال. يُرجى إعادة إنشائه يدويًا. يُرجى التواصل معنا على support@kobotoolbox.org حتى يمكننا إصلاح هذا الخطأ!"
 
-#: bundle.js:77761
-msgid "Question hint"
-msgstr "تلميح عن السؤال"
-
-msgid "Repeat this group if necessary"
-msgstr "كرر هذه المجموعة إذا لزم الأمر"
-
-#: bundle.js:77770
-msgid "Error Message"
-msgstr "رسالة الخطأ"
-
-#: bundle.js:77811
-msgid "Data column name"
-msgstr "اسم عمود البيانات"
-
-#: bundle.js:77842
-msgid "Default response"
-msgstr "الاستجابة الافتراضية"
-
-#: bundle.js:77859
-msgid "Repeat"
-msgstr "تكرار"
-
-#: bundle.js:77868
-msgid "Mandatory response"
-msgstr "الاستجابة إلزامية"
-
-#: bundle.js:77891 bundle.js:77897 bundle.js:77899
-msgid "Appearance (advanced)"
-msgstr "المظهر (متقدم)"
-
-#: bundle.js:77891
-msgid "Show all questions in this group on the same screen"
-msgstr "إظهار جميع أسئلة هذه المجموعة على نفس الشاشة"
-
-#: bundle.js:78184
-msgid "Add Question"
-msgstr "إضافة سؤال"
-
-#: bundle.js:79263
-msgid "Start from Scratch"
-msgstr "البدء من الصفر"
-
-#: bundle.js:79263
-msgid "or"
-msgstr "أو"
-
-#: bundle.js:79263
-msgid "Import XLS"
-msgstr "استيراد XLS"
-
-#: bundle.js:79284
-msgid "Form Settings"
-msgstr "إعدادات النموذج"
-
-msgid "Settings"
-msgstr "الإعدادات"
-
+#: js/i18nMissingStrings.es6:49 js/i18nStringSafe.es6:49
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "لن يتم عرض السؤال إلا في حال توافر الشروط التالية"
 
-#: bundle.js:79284
-msgid "Save and Exit"
-msgstr "حفظ وخروج"
-
-#: bundle.js:79284
-msgid "Show All Responses"
-msgstr "إظهار جميع الاستجابات"
-
-#: bundle.js:79284
-msgid "Group Questions"
-msgstr "تجميع الأسئلة"
-
-#: bundle.js:79284
-msgid "Question Library"
-msgstr "مكتبة الأسئلة"
-
-#: bundle.js:79284
-msgid "Form ID"
-msgstr "معرّف النموذج"
-
-#: bundle.js:79284
-msgid "Unique form name"
-msgstr "اسم نموذج فريد"
-
-#: bundle.js:79284
-msgid "Web form style (Optional)"
-msgstr "نسق نموذج الويب (اختياري)"
-
-msgid ""
-"select the form style that you would like to use. this will only affect web "
-"forms."
-msgstr "حدد نمط النموذج الذي تود استخدامه. لن يؤثر هذا سوى على نماذج الويب."
-
-msgid "read more..."
-msgstr "اقرأ المزيد..."
-
-#: bundle.js:79284
-msgid "This allows using different Enketo styles, e.g. 'theme-grid'"
-msgstr "يسمح هذا باستخدام نُسُق مختلفة من Enketo، مثل 'theme-grid'."
-
-#: bundle.js:79284
-msgid "Multiple pages + Grid theme"
-msgstr "صفحات متعددة + نسق الشبكة"
-
-#: bundle.js:79284
-msgid "Version (Optional)"
-msgstr "الإصدار (اختياري)"
-
-#: bundle.js:79284
-msgid "A version ID of the form"
-msgstr ""
-
-#: bundle.js:79284
-msgid "Hidden meta questions to include in your form to help with analysis"
-msgstr "أسئلة تجريبية مخبّأة يتم تضمينها في نموذجك للمساعدة في التحليل"
-
-#: bundle.js:79284
-msgid "Meta questions for collecting with cell phones"
-msgstr "أسئلة تجريبية لتحصيل المعلومات عبر الهواتف الخليوية"
-
-#: bundle.js:79284
-msgid "This form is currently empty."
-msgstr "هذا النموذج فارغ حاليًا."
-
-#: bundle.js:79284
+#: js/i18nMissingStrings.es6:50 js/i18nStringSafe.es6:50
 msgid ""
 "You can add questions, notes, prompts, or other fields by clicking on the "
 "'+' sign below."
 msgstr "يمكنك إضافة أسئلة أو ملحوظات أو توجيهات أو حقولاً أخرى بالنقر فوق علامة + أدناه."
+
+#: js/i18nStringSafe.es6:52 js/i18nStringSafe.es6:59
+msgid "Items cannot be selected more than once"
+msgstr ""
+
+#: js/i18nStringSafe.es6:53 js/i18nStringSafe.es6:60
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr ""
+
+#: js/i18nStringSafe.es6:55 js/i18nStringSafe.es6:61
+msgid "Select One"
+msgstr ""
+
+#: js/i18nStringSafe.es6:56 js/i18nStringSafe.es6:62
+msgid "Select Many"
+msgstr ""
+
+#: js/i18nStringSafe.es6:57 js/i18nStringSafe.es6:98
+msgid "Unable to deploy"
+msgstr ""
+
+#: js/i18nStringSafe.es6:63
+msgid "Text"
+msgstr ""
+
+#: js/i18nStringSafe.es6:64
+msgid "Number"
+msgstr ""
+
+#: js/i18nStringSafe.es6:65
+msgid "Decimal"
+msgstr ""
+
+#: js/i18nStringSafe.es6:66
+msgid "Date"
+msgstr ""
+
+#: js/i18nStringSafe.es6:67
+msgid "Time"
+msgstr ""
+
+#: js/i18nStringSafe.es6:68
+msgid "Date & time"
+msgstr ""
+
+#: js/i18nStringSafe.es6:69
+msgid "GPS"
+msgstr ""
+
+#: js/i18nStringSafe.es6:70
+msgid "Photo"
+msgstr ""
+
+#: js/i18nStringSafe.es6:71
+msgid "Audio"
+msgstr ""
+
+#: js/i18nStringSafe.es6:72
+msgid "Video"
+msgstr ""
+
+#: js/i18nStringSafe.es6:73
+msgid "Note"
+msgstr ""
+
+#: js/i18nStringSafe.es6:74
+msgid "Barcode"
+msgstr ""
+
+#: js/i18nStringSafe.es6:75
+msgid "Acknowledge"
+msgstr ""
+
+#: js/i18nStringSafe.es6:76
+msgid "Calculate"
+msgstr ""
+
+#: js/i18nStringSafe.es6:77
+msgid "Matrix / Rating"
+msgstr ""
+
+#: js/i18nStringSafe.es6:78
+msgid "Ranking"
+msgstr ""
+
+#: js/i18nStringSafe.es6:79
+msgid "Are you sure you want to split apart this group?"
+msgstr ""
+
+#: js/i18nStringSafe.es6:80
+msgid ""
+"You can't display nested groups on the same screen - the setting has been "
+"removed from the parent group"
+msgstr ""
+
+#: js/i18nStringSafe.es6:81
+msgid "Note: Rank and Matrix question types are currently in beta."
+msgstr ""
+
+#: js/i18nStringSafe.es6:82
+msgid "Enter your question"
+msgstr ""
+
+#: js/i18nStringSafe.es6:83
+msgid "Note: Rank and Matrix question types are currently in beta"
+msgstr ""
+
+#: js/i18nStringSafe.es6:84
+msgid "Select question from list"
+msgstr ""
+
+#: js/i18nStringSafe.es6:85
+msgid "Question hint"
+msgstr ""
+
+#: js/i18nStringSafe.es6:86
+msgid "Error Message"
+msgstr ""
+
+#: js/i18nStringSafe.es6:87
+msgid "Data column name"
+msgstr ""
+
+#: js/i18nStringSafe.es6:88
+msgid "Default response"
+msgstr ""
+
+#: js/i18nStringSafe.es6:89
+msgid "Repeat"
+msgstr ""
+
+#: js/i18nStringSafe.es6:90
+msgid "Repeat this group if necessary"
+msgstr ""
+
+#: js/i18nStringSafe.es6:91
+msgid "Mandatory response"
+msgstr ""
+
+#: js/i18nStringSafe.es6:92
+msgid "Appearance (advanced)"
+msgstr ""
+
+#: js/i18nStringSafe.es6:93
+msgid "Show all questions in this group on the same screen"
+msgstr ""
+
+#: js/i18nStringSafe.es6:94
+msgid "Please check your connection and try again."
+msgstr ""
+
+#: js/i18nStringSafe.es6:95
+msgid ""
+"The server encountered an error while trying to deploy the project. If this "
+"problem persists, please contact <a "
+"href=\"mailto:support@kobotoolbox.org\">support@kobotoolbox.org</a>."
+msgstr ""
+
+#: js/i18nStringSafe.es6:96
+msgid "The form id was not valid."
+msgstr ""
+
+#: js/i18nStringSafe.es6:99
+msgid "failed to change password"
+msgstr ""
+
+#: js/i18nStringSafe.es6:101
+msgid "Tags are loading..."
+msgstr ""
+
+#: js/i18nStringSafe.es6:102
+msgid "collection"
+msgstr ""
+
+#: js/i18nStringSafe.es6:103
+msgid "library"
+msgstr ""
+
+#: js/i18nStringSafe.es6:104
+msgid "Collection"
+msgstr ""
+
+#: js/i18nStringSafe.es6:105
+msgid "collection loading..."
+msgstr ""
+
+#: js/i18nStringSafe.es6:106
+msgid "new collection inside \"___\""
+msgstr ""
+
+#: js/i18nStringSafe.es6:107
+msgid "new question inside \"___\""
+msgstr ""
+
+#: js/i18nStringSafe.es6:108
+msgid "new block inside \"___\""
+msgstr ""
+
+#: js/i18nStringSafe.es6:109
+msgid "upload into \"___\""
+msgstr ""
+
+#: js/i18nStringSafe.es6:110
+msgid "Are you sure you want to delete this collection?"
+msgstr ""
+
+#: js/i18nStringSafe.es6:111
+msgid "This action cannot be undone."
+msgstr ""
+
+#: js/i18nStringSafe.es6:112
+msgid "Add a condition"
+msgstr ""
+
+#: js/i18nStringSafe.es6:113
+msgid "Manually enter your skip logic in XLSForm code"
+msgstr ""
+
+#: js/i18nStringSafe.es6:114
+msgid "response value"
+msgstr ""
+
+#: js/i18nStringSafe.es6:115
+msgid "Are you sure you want to delete this question?"
+msgstr ""
+
+#: js/i18nStringSafe.es6:116
+msgid "[button triggers] Settings"
+msgstr ""
+
+#: js/i18nStringSafe.es6:117
+msgid "[button triggers] Delete Question"
+msgstr ""
+
+#: js/i18nStringSafe.es6:118
+msgid "[button triggers] Duplicate Question"
+msgstr ""
+
+#: js/i18nStringSafe.es6:119
+msgid "[button triggers] Add Question to Library"
+msgstr ""
+
+#: js/lists/collection.es6:34
+msgid "Collections"
+msgstr "التجميعات"
+
+#: js/lists/collectionlanding.es6:164
+msgid "collection not loaded"
+msgstr "لم يتم تحميل التجميعة."
+
+#: js/lists/collectionlanding.es6:179 js/mixins.es6:264
+msgid "collection name"
+msgstr "اسم التجميعة"
+
+#: js/lists/collectionlanding.es6:255
+msgid "No assets to display"
+msgstr ""
+
+#: js/lists/library.es6:127
+msgid "library item"
+msgstr "عنصر/عناصر مكتبة"
+
+#: js/lists/library.es6:128
+msgid "library items"
+msgstr "عنصر/عناصر مكتبة"
+
+#: js/lists/sidebarForms.es6:113
+msgid "Deleted"
+msgstr ""
+
+#: js/mixins.es6:74
+msgid "#tags +"
+msgstr ""
+
+#: js/mixins.es6:146
+msgid "Form Overview"
+msgstr ""
+
+#: js/mixins.es6:171
+msgid "Edit in Form Builder"
+msgstr ""
+
+#: js/mixins.es6:176
+msgid "Editing capabilities not granted, you can only view this form"
+msgstr ""
+
+#: js/mixins.es6:188 js/mixins.es6:647
+msgid "redeploy"
+msgstr ""
+
+#: js/mixins.es6:188 js/mixins.es6:647
+msgid "deploy"
+msgstr "نشر"
+
+#: js/mixins.es6:220
+msgid "Share this project"
+msgstr ""
+
+#: js/mixins.es6:225
+msgid "Clone this project"
+msgstr ""
+
+#: js/mixins.es6:262
+msgid "make new collection: \"{label}\""
+msgstr "إنشاء تجميعة جديدة: \"{label}\""
+
+#: js/mixins.es6:265
+msgid "select parent collection"
+msgstr "حدد التجميعة الأصلية"
+
+#: js/mixins.es6:316
+msgid "owner"
+msgstr "المالك"
+
+#: js/mixins.es6:323
+msgid "viewer"
+msgstr "عارض"
+
+#: js/mixins.es6:323
+msgid "viewers"
+msgstr "عارض/عارضون"
+
+#: js/mixins.es6:326
+msgid "editor"
+msgstr "محرر"
+
+#: js/mixins.es6:326
+msgid "editors"
+msgstr "محرر/محررون"
+
+#: js/mixins.es6:338
+msgid "status"
+msgstr "الحالة"
+
+#: js/mixins.es6:342 js/mixins.es6:1209
+msgid "public"
+msgstr "عمومي"
+
+#: js/mixins.es6:342
+msgid "private"
+msgstr "خصوصي"
+
+#: js/mixins.es6:352
+msgid "questions"
+msgstr "الأسئلة"
+
+#: js/mixins.es6:364
+msgid "revisions"
+msgstr "المراجعات"
+
+#: js/mixins.es6:376
+msgid "created"
+msgstr "وقت الإنشاء"
+
+#: js/mixins.es6:388
+msgid "modified"
+msgstr "آخر تعديل"
+
+#: js/mixins.es6:403
+msgid "no language information"
+msgstr "لا توجد معلومات عن اللغة"
+
+#: js/mixins.es6:411
+msgid "no translations"
+msgstr "لا توجد ترجمات"
+
+#: js/mixins.es6:419
+msgid "languages"
+msgstr "لغة/لغات"
+
+#: js/mixins.es6:442
+msgid "Online-Offline (multiple submission)"
+msgstr ""
+
+#: js/mixins.es6:443
+msgid ""
+"This allows online and offline submissions and is the best option for "
+"collecting data in the field. "
+msgstr ""
+
+#: js/mixins.es6:446
+msgid "Online-Only (multiple submissions)"
+msgstr ""
+
+#: js/mixins.es6:447
+msgid ""
+"This is the best option when entering many records at once on a computer, "
+"e.g. for transcribing paper records"
+msgstr ""
+
+#: js/mixins.es6:450
+msgid "Embeddable web form code"
+msgstr ""
+
+#: js/mixins.es6:451
+msgid ""
+"Use this html5 code snippet to integrate your form on your own website using"
+" smaller margins. "
+msgstr ""
+
+#: js/mixins.es6:454
+msgid "View only"
+msgstr ""
+
+#: js/mixins.es6:455
+msgid ""
+"Use this version for testing, getting feedback. Does not allow submitting "
+"data. "
+msgstr ""
+
+#: js/mixins.es6:487
+msgid "Collecting Data with Web Forms"
+msgstr ""
+
+#: js/mixins.es6:493 js/mixins.es6:539
+msgid "Learn more"
+msgstr ""
+
+#: js/mixins.es6:499
+msgid "Choose an option"
+msgstr ""
+
+#: js/mixins.es6:524
+msgid "Open"
+msgstr ""
+
+#: js/mixins.es6:533
+msgid "Collecting Data with Android App"
+msgstr ""
+
+#: js/mixins.es6:545
+msgid "Install"
+msgstr ""
+
+#: js/mixins.es6:549
+msgid "on your Android device."
+msgstr ""
+
+#: js/mixins.es6:551
+msgid "Click on"
+msgstr ""
+
+#: js/mixins.es6:551
+msgid "to open settings."
+msgstr ""
+
+#: js/mixins.es6:552
+msgid "Enter the server URL"
+msgstr ""
+
+#: js/mixins.es6:552
+msgid "and your username and password"
+msgstr ""
+
+#: js/mixins.es6:553
+msgid "Open \"Get Blank Form\" and select this project. "
+msgstr ""
+
+#: js/mixins.es6:554
+msgid "Open \"Enter Data.\""
+msgstr ""
+
+#: js/mixins.es6:561
+msgid "copied to clipboard"
+msgstr ""
+
+#: js/mixins.es6:598
+msgid "preview"
+msgstr "معاينة"
+
+#: js/mixins.es6:606
+msgid "edit"
+msgstr "تحرير"
+
+#: js/mixins.es6:634
+msgid "clone"
+msgstr "استنساخ"
+
+#: js/mixins.es6:658
+msgid "new form name"
+msgstr "اسم نموذج جديد"
+
+#: js/mixins.es6:677
+msgid "Overwrite existing deployment"
+msgstr ""
+
+#: js/mixins.es6:678
+msgid ""
+"This form has already been deployed. Are you sure you want overwrite the "
+"existing deployment? <br/><br/><strong>This action cannot be "
+"undone.</strong>"
+msgstr ""
+
+#: js/mixins.es6:681
+msgid "Ok"
+msgstr ""
+
+#: js/mixins.es6:681 js/mixins.es6:1345 js/mixins.es6:1388
+msgid "Cancel"
+msgstr ""
+
+#: js/mixins.es6:685
+msgid "Deploying..."
+msgstr "جارٍ النشر..."
+
+#: js/mixins.es6:688
+msgid "redeployed form"
+msgstr ""
+
+#: js/mixins.es6:716
+msgid "deploying to kobocat..."
+msgstr ""
+
+#: js/mixins.es6:719
+msgid "deployed form"
+msgstr "تم نشر النموذج"
+
+#: js/mixins.es6:734
+msgid ""
+"You are about to permanently delete this ___. Are you sure you want to "
+"continue?"
+msgstr "أنت على وشك حذف هذا/هذه ___ نهائيًا. هل ترغب بالتأكيد في المتابعة؟"
+
+#: js/mixins.es6:770
+msgid "Current Version"
+msgstr ""
+
+#: js/mixins.es6:773
+msgid "Modified Date"
+msgstr ""
+
+#: js/mixins.es6:776
+msgid "Languages"
+msgstr ""
+
+#: js/mixins.es6:788
+msgid "(deployed)"
+msgstr ""
+
+#: js/mixins.es6:789
+msgid "(archived)"
+msgstr ""
+
+#: js/mixins.es6:790
+msgid "(undeployed draft)"
+msgstr ""
+
+#: js/mixins.es6:810
+msgid "Previous Versions"
+msgstr ""
+
+#: js/mixins.es6:821
+msgid "Clone as new project"
+msgstr ""
+
+#: js/mixins.es6:839
+msgid "Hide full history"
+msgstr ""
+
+#: js/mixins.es6:839
+msgid "Show full history"
+msgstr ""
+
+#: js/mixins.es6:1035
+msgid "Could not redirect to asset."
+msgstr "تعذرت إعادة التوجيه إلى الأصل."
+
+#: js/mixins.es6:1042
+msgid "Replace operation completed"
+msgstr ""
+
+#: js/mixins.es6:1046
+msgid ""
+"Your library assets have uploaded and are being processed. This may take a "
+"few moments."
+msgstr "تم رفع أصول مكتبتك وجارية معالجتها. قد يستغرق هذا بعض الوقت."
+
+#: js/mixins.es6:1048
+msgid ""
+"Your library assets have uploaded and are queued for processing. This may "
+"take a few moments."
+msgstr "تم رفع أصول مكتبتك وهي في انتظار المعالجة. قد يستغرق هذا بعض الوقت."
+
+#: js/mixins.es6:1053
+msgid "Import Failure."
+msgstr "أخفقت محاولة الاستيراد."
+
+#: js/mixins.es6:1056
+msgid "Import Failed."
+msgstr "أخفقت محاولة الاستيراد."
+
+#: js/mixins.es6:1062
+msgid "Failed to create import."
+msgstr "أخفقت محاولة إنشاء استيراد."
+
+#: js/mixins.es6:1104
+msgid "collections"
+msgstr "تجميعة/تجميعات"
+
+#: js/mixins.es6:1197
+msgid "my forms"
+msgstr "نماذجي"
+
+#: js/mixins.es6:1203
+msgid "shared with me"
+msgstr "مشترك معي"
+
+#: js/mixins.es6:1235
+msgid "error loading data"
+msgstr "خطأ في تحميل البيانات"
+
+#: js/mixins.es6:1243
+msgid "results loaded"
+msgstr "تم تحميل النتائج"
+
+#: js/mixins.es6:1302
+msgid ""
+"Warning! You are about to delete this collection with all its questions and "
+"blocks. Are you sure you want to continue?"
+msgstr "تحذير! أنت على وشك حذف هذه التجميعة بكل الأسئلة والكتل الموجودة داخلها. هل ترغب بالتأكيد في المتابعة؟"
+
+#: js/mixins.es6:1317
+msgid "new name?"
+msgstr "اسم جديد؟"
+
+#: js/mixins.es6:1339
+msgid "Delete Project"
+msgstr ""
+
+#: js/mixins.es6:1340
+msgid "You are about to permanently delete this form."
+msgstr ""
+
+#: js/mixins.es6:1341
+msgid "All data gathered for this form will be deleted."
+msgstr ""
+
+#: js/mixins.es6:1342
+msgid "All questions created for this form will be deleted."
+msgstr ""
+
+#: js/mixins.es6:1343
+msgid "The form associated with this project will be deleted."
+msgstr ""
+
+#: js/mixins.es6:1344
+msgid ""
+"I understand that if I delete this project I will not be able to recover it."
+msgstr ""
+
+#: js/mixins.es6:1385
+msgid "Archive Project"
+msgstr ""
+
+#: js/mixins.es6:1386
+msgid "Are you sure you want to archive this project?"
+msgstr ""
+
+#: js/mixins.es6:1387
+msgid "Your form will not accept submissions while it is archived."
+msgstr ""
+
+#: js/mixins.es6:1397
+msgid "archived project"
+msgstr ""
+
+#: js/models/surveyScope.es6:21
+msgid "question has been added to the library"
+msgstr ""
+
+#: js/stores.es6:467
+msgid "failed to list assets"
+msgstr "أخفقت محاولة إدراج الأصول"
+
+#: js/ui.es6:172
+msgid "No name"
+msgstr ""
+
+#: js/ui.es6:194
+msgid "and one other question"
+msgstr "وسؤال آخر"
+
+#: js/ui.es6:196
+msgid "and ## other questions"
+msgstr "و## سؤال آخر/أسئلة أخرى"
+
+#: js/ui.es6:214
+msgid "More Actions"
+msgstr ""
