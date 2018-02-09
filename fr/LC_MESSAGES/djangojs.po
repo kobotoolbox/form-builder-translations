@@ -1,14 +1,14 @@
 # KOBOTOOLBOX KPI FORMBUILDER STRINGS
 # Translators:
 # Chakib Roula <roula.chakib@outlook.com>, 2016
-# Penar Musaraj <pmusaraj@gmail.com>, 2017
+# Penar Musaraj <pmusaraj@gmail.com>, 2017-2018
 # tinok <tino.kreutzer@kobotoolbox.org>, 2016
 msgid ""
 msgstr ""
 "Project-Id-Version: koboform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2017-06-21 15:45-0400\n"
-"PO-Revision-Date: 2017-09-23 22:20+0000\n"
+"POT-Creation-Date: 2018-02-09 13:25-0500\n"
+"PO-Revision-Date: 2018-02-09 19:02+0000\n"
 "Last-Translator: Penar Musaraj <pmusaraj@gmail.com>\n"
 "Language-Team: French (http://www.transifex.com/kobotoolbox/koboform/language/fr/)\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
-"X-Generator: Poedit 2.0.2\n"
+"X-Generator: Poedit 2.0.6\n"
 "X-Poedit-Basepath: ../../../jsapp\n"
 "X-Poedit-KeywordsList: t;_t\n"
 "X-Poedit-SearchPath-0: js\n"
@@ -24,684 +24,787 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: js/libs\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: js/actions.es6:281
+#: js/actions.es6:287
 msgid "updated profile successfully"
 msgstr "profil mis à jour"
 
-#: js/actions.es6:284
+#: js/actions.es6:290
 msgid "failed to update profile"
 msgstr "la mise à jour du profil a échoué"
 
-#: js/actions.es6:300
+#: js/actions.es6:306
 msgid "successfully uploaded file; processing may take a few minutes"
 msgstr "Fichier téléchargé avec succès; le traitement peut prendre quelques minutes"
 
-#: js/actions.es6:306
+#: js/actions.es6:312
 msgid "Error: import.status not available"
 msgstr " erreur: statut d'import indisponible"
 
-#: js/actions.es6:343
+#: js/actions.es6:349
 msgid "successfully updated"
 msgstr "Mise à jour réussie"
 
-#: js/actions.es6:404
+#: js/actions.es6:410
 msgid "please check your connection and try again."
 msgstr "Veuillez vérifier votre connexion et réessayez."
 
-#: js/actions.es6:407
-msgid "if this problem persists, contact support@kobotoolbox.org"
-msgstr "Si ce problème persiste, contactez <a href=\"support@kobotoolbox.org\">support@kobotoolbox.org</a>."
+#: js/actions.es6:413
+msgid "if this problem persists, contact help@kobotoolbox.org"
+msgstr "Si ce problème persiste, contactez <a href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>"
 
-#: js/actions.es6:414
+#: js/actions.es6:420
 msgid "your form id was not valid:"
 msgstr "Votre numéro d'identification de la fiche n'était pas valide"
 
-#: js/actions.es6:420
+#: js/actions.es6:426
 msgid "your form cannot be deployed because it contains errors:"
 msgstr "Votre fiche ne peut pas être affichée car elle contient des erreurs."
 
-#: js/app.es6:231
+#: js/app.es6:229
 msgid "path not found / recognized"
 msgstr "Chemin non trouvé / non reconnu"
 
-#: js/components/accountSettings.es6:64
+#: js/components/accountSettings.es6:68
 msgid "Male"
 msgstr "Mâle"
 
-#: js/components/accountSettings.es6:68
+#: js/components/accountSettings.es6:72
 msgid "Female"
 msgstr "Femelle"
 
-#: js/components/accountSettings.es6:72
+#: js/components/accountSettings.es6:76
 msgid "Other"
 msgstr "Autre"
 
-#: js/components/accountSettings.es6:137 js/components/accountSettings.es6:377
-#: js/components/formEditors.es6:97
-#: js/components/formGallery/formGallery.es6:210
-#: js/components/formLanding.es6:392 js/components/formSubScreens.es6:152
-#: js/components/modal.es6:121 js/components/reports.es6:556
-#: js/components/reports.es6:632 js/components/searchcollectionlist.es6:217
-#: js/components/searchcollectionlist.es6:234
-#: js/components/sharingForm.es6:223 js/editorMixins/editableForm.es6:590
-#: js/lists/sidebarForms.es6:89
+#: js/components/accountSettings.es6:141 js/components/accountSettings.es6:392
+#: js/components/formEditors.es6:99 js/components/formLanding.es6:398
+#: js/components/formSubScreens.es6:142 js/components/formSummary.es6:322
+#: js/components/modal.es6:136 js/components/reports.es6:1046
+#: js/components/reports.es6:1090 js/components/searchcollectionlist.es6:212
+#: js/components/searchcollectionlist.es6:229
+#: js/components/sharingForm.es6:250 js/components/submission.es6:161
+#: js/editorMixins/editableForm.es6:606 js/lists/sidebarForms.es6:87
+#: js/lists/sidebarForms.es6:109
 msgid "loading..."
 msgstr "chargement..."
 
-#: js/components/accountSettings.es6:157 js/components/accountSettings.es6:432
-#: js/components/formEditors.es6:242
+#: js/components/accountSettings.es6:161 js/components/accountSettings.es6:447
+#: js/components/formEditors.es6:244
 msgid "Save Changes"
 msgstr "Sauvegarder les modifications"
 
-#: js/components/accountSettings.es6:169
+#: js/components/accountSettings.es6:173
 msgid "Privacy"
 msgstr "Confidentialité"
 
-#: js/components/accountSettings.es6:173
+#: js/components/accountSettings.es6:182
 msgid "Require authentication to see forms and submit data"
 msgstr "Exiger l'authentification pour voir les formulaires et soumettre des données"
 
-#: js/components/accountSettings.es6:178
-#: js/components/searchcollectionlist.es6:122
-#: js/components/searchcollectionlist.es6:137
+#: js/components/accountSettings.es6:187
+#: js/components/searchcollectionlist.es6:117
+#: js/components/searchcollectionlist.es6:132
 msgid "Name"
 msgstr "Nom"
 
-#: js/components/accountSettings.es6:183
+#: js/components/accountSettings.es6:192
 msgid "Use this to display your real name to other users"
 msgstr "Utilisez cette option pour afficher votre vrai nom aux autres utilisateurs"
 
-#: js/components/accountSettings.es6:188
+#: js/components/accountSettings.es6:197
 msgid "Email"
 msgstr "Email"
 
-#: js/components/accountSettings.es6:196
+#: js/components/accountSettings.es6:205
 msgid "Modify Password"
 msgstr "Modifiez votre mot de passe"
 
-#: js/components/accountSettings.es6:201
+#: js/components/accountSettings.es6:210
 msgid "Organization"
 msgstr "Organisation"
 
-#: js/components/accountSettings.es6:208
+#: js/components/accountSettings.es6:217
 msgid "Organization Website"
 msgstr "Site web de l'organisation"
 
-#: js/components/accountSettings.es6:213
+#: js/components/accountSettings.es6:222
 msgid "This will be used to create a hyperlink for your organization name. "
 msgstr "Cela servira à créer un lien pour le nom de votre organisation."
 
-#: js/components/accountSettings.es6:218
+#: js/components/accountSettings.es6:227
 msgid "Primary Sector"
 msgstr "Secteur primaire"
 
-#: js/components/accountSettings.es6:225
+#: js/components/accountSettings.es6:234
 msgid "Select the primary sector in which you work. "
 msgstr "Sélectionnez le secteur primaire dans lequel vous travaillez."
 
-#: js/components/accountSettings.es6:230
+#: js/components/accountSettings.es6:239
 msgid "Gender"
 msgstr "Genre"
 
-#: js/components/accountSettings.es6:239
+#: js/components/accountSettings.es6:248
 msgid "Bio"
 msgstr "Bio"
 
-#: js/components/accountSettings.es6:246
+#: js/components/accountSettings.es6:255
 msgid "Phone Number"
 msgstr "Numéro de téléphone"
 
-#: js/components/accountSettings.es6:253
+#: js/components/accountSettings.es6:262
 msgid "Address"
 msgstr "Adresse"
 
-#: js/components/accountSettings.es6:260
+#: js/components/accountSettings.es6:269
 msgid "City"
 msgstr "Ville"
 
-#: js/components/accountSettings.es6:267 js/components/formEditors.es6:167
+#: js/components/accountSettings.es6:276 js/components/formEditors.es6:169
 msgid "Country"
 msgstr "Pays"
 
-#: js/components/accountSettings.es6:276
+#: js/components/accountSettings.es6:285
 msgid "Default Form Language"
 msgstr "Langue du formulaire par défaut"
 
-#: js/components/accountSettings.es6:285
+#: js/components/accountSettings.es6:294
 msgid "Social"
 msgstr "Medias sociaux"
 
-#: js/components/accountSettings.es6:305
+#: js/components/accountSettings.es6:314
 msgid "Metadata"
 msgstr "Metadonnées"
 
-#: js/components/accountSettings.es6:334
+#: js/components/accountSettings.es6:349
 msgid "This field is required."
 msgstr "Ce champ est obligatoire."
 
-#: js/components/accountSettings.es6:344
+#: js/components/accountSettings.es6:359
 msgid "This field must match the Verify Password field."
 msgstr "Ce champ doit correspondre au champ Vérifier le mot de passe."
 
-#: js/components/accountSettings.es6:400
+#: js/components/accountSettings.es6:415
 msgid "Reset Password"
 msgstr "Modifiez votre mot de passe"
 
-#: js/components/accountSettings.es6:404
+#: js/components/accountSettings.es6:419
 msgid "Current Password"
 msgstr "Mot de passe actuel"
 
-#: js/components/accountSettings.es6:410
+#: js/components/accountSettings.es6:425
 msgid "Forgot Password?"
 msgstr "Vous avez oublié le mot de passe?"
 
-#: js/components/accountSettings.es6:415
+#: js/components/accountSettings.es6:430
 msgid "New Password"
 msgstr "Nouveau mot de passe"
 
-#: js/components/accountSettings.es6:423
+#: js/components/accountSettings.es6:438
 msgid "Verify Password"
 msgstr "Verifiez mot de passe"
 
-#: js/components/assetrow.es6:48 js/components/reports.es6:273
+#: js/components/assetrow.es6:49 js/components/reports.es6:759
+#: js/components/reports.es6:821
 msgid "untitled"
 msgstr "sans titre"
 
-#: js/components/assetrow.es6:181
+#: js/components/assetrow.es6:186
 msgid "me"
 msgstr "Moi"
 
-#: js/components/assetrow.es6:225
+#: js/components/assetrow.es6:230 js/components/submission.es6:221
 msgid "Edit"
 msgstr "Modifier"
 
-#: js/components/assetrow.es6:236
+#: js/components/assetrow.es6:241
 msgid "Tags"
 msgstr "Étiquettes"
 
-#: js/components/assetrow.es6:247 js/components/librarySidebar.es6:339
+#: js/components/assetrow.es6:252 js/components/librarySidebar.es6:339
 msgid "Share"
 msgstr "Partager"
 
-#: js/components/assetrow.es6:257 js/components/formLanding.es6:139
+#: js/components/assetrow.es6:262 js/components/formLanding.es6:140
 msgid "Clone"
 msgstr "Cloner"
 
-#: js/components/assetrow.es6:290
+#: js/components/assetrow.es6:296
 msgid "Deploy this project"
 msgstr "Déployer ce projet"
 
-#: js/components/assetrow.es6:290
+#: js/components/assetrow.es6:296
 msgid "Redeploy this project"
 msgstr "Redéployer ce projet"
 
-#: js/components/assetrow.es6:304 js/components/formLanding.es6:350
+#: js/components/assetrow.es6:310 js/components/formLanding.es6:356
 msgid "Replace with XLS"
 msgstr "Remplacer via XLS"
 
-#: js/components/assetrow.es6:313 js/components/formEditors.es6:367
-#: js/components/formLanding.es6:364
+#: js/components/assetrow.es6:319 js/components/formEditors.es6:499
+#: js/components/formLanding.es6:370
 msgid "Download"
 msgstr "Télécharger"
 
-#: js/components/assetrow.es6:321
+#: js/components/assetrow.es6:327
 msgid "Move to"
 msgstr "Déplacer sous"
 
-#: js/components/assetrow.es6:353 js/mixins.es6:449
+#: js/components/assetrow.es6:359 js/mixins.es6:388
 msgid "Archive"
 msgstr "Archiver"
 
-#: js/components/assetrow.es6:364 js/components/librarySidebar.es6:139
-#: js/components/librarySidebar.es6:361 js/mixins.es6:423 js/mixins.es6:426
+#: js/components/assetrow.es6:370 js/components/librarySidebar.es6:139
+#: js/components/librarySidebar.es6:361 js/components/reports.es6:296
+#: js/components/submission.es6:96 js/formbuild/containers/KoboMatrix.es6:310
+#: js/formbuild/containers/KoboMatrix.es6:331 js/mixins.es6:362
+#: js/mixins.es6:365
 msgid "Delete"
 msgstr "Supprimer"
 
-#: js/components/drawer.es6:73 js/components/librarySidebar.es6:253
+#: js/components/drawer.es6:70 js/components/librarySidebar.es6:253
 msgid "new"
 msgstr "Nouveau"
 
-#: js/components/drawer.es6:76
+#: js/components/drawer.es6:73
 msgid "Project"
 msgstr "Projet"
 
-#: js/components/drawer.es6:84 js/components/librarySidebar.es6:264
+#: js/components/drawer.es6:81 js/components/librarySidebar.es6:264
 msgid "upload"
 msgstr "Télécharger"
 
-#: js/components/drawer.es6:164 js/components/searchcollectionlist.es6:193
+#: js/components/drawer.es6:161 js/components/searchcollectionlist.es6:188
 msgid "Projects"
 msgstr "Projets"
 
-#: js/components/drawer.es6:165 js/components/searchcollectionlist.es6:196
+#: js/components/drawer.es6:162 js/components/searchcollectionlist.es6:191
 msgid "Library"
 msgstr "Bibliothèque"
 
-#: js/components/drawer.es6:183
+#: js/components/drawer.es6:180
 msgid "Projects (legacy)"
 msgstr "Ancienne Version"
 
-#: js/components/drawer.es6:187
+#: js/components/drawer.es6:184
 msgid "source"
 msgstr "Source"
 
-#: js/components/drawer.es6:191
+#: js/components/drawer.es6:188
 msgid "help"
 msgstr "Aide"
 
-#: js/components/formEditors.es6:86 js/components/header.es6:235
+#: js/components/formEditors.es6:88 js/components/header.es6:237
 msgid "Please enter a title for your project"
 msgstr "Veuillez saisir un titre pour votre projet"
 
-#: js/components/formEditors.es6:129
+#: js/components/formEditors.es6:131
 msgid "Project Name"
 msgstr "Titre du projet"
 
-#: js/components/formEditors.es6:133
+#: js/components/formEditors.es6:135
 msgid "Enter title of project here"
 msgstr "Veuillez saisir un titre pour votre projet"
 
-#: js/components/formEditors.es6:140
+#: js/components/formEditors.es6:142 js/components/formSummary.es6:348
 msgid "Description"
 msgstr "Description"
 
-#: js/components/formEditors.es6:145
+#: js/components/formEditors.es6:147
 msgid "Enter short description here"
 msgstr "Veuillez saisir une courte description ici"
 
-#: js/components/formEditors.es6:149
+#: js/components/formEditors.es6:151
 msgid ""
 "Please specify the country and the sector where this project will be "
 "deployed. "
 msgstr "Veuillez spécifier le pays et le secteur dans lequel ce projet sera déployé."
 
-#: js/components/formEditors.es6:150
+#: js/components/formEditors.es6:152
 msgid ""
 "This information will be used to help you filter results on the project list"
 " page."
 msgstr "Ces informations seront utilisées pour vous aider à filtrer les résultats de la liste des projets."
 
-#: js/components/formEditors.es6:156
+#: js/components/formEditors.es6:158 js/components/formSummary.es6:361
 msgid "Sector"
 msgstr "Secteur"
 
-#: js/components/formEditors.es6:183
+#: js/components/formEditors.es6:185
 msgid ""
 "Help KoboToolbox improve this product by sharing the sector and country "
 "where this project will be deployed."
 msgstr "Aidez KoboToolbox à améliorer ce produit en partageant le secteur et le pays où ce projet sera déployé."
 
-#: js/components/formEditors.es6:185
+#: js/components/formEditors.es6:187
 msgid ""
 "All the information is submitted anonymously, and will not include the "
 "project name or description listed above."
 msgstr "Toutes les informations sont soumises de manière anonyme et ne comprennent pas le nom du projet ou la description ci-dessus."
 
-#: js/components/formEditors.es6:300 js/components/formLanding.es6:384
-#: js/components/formSubScreens.es6:128 js/components/formSubScreens.es6:138
-#: js/components/reports.es6:536 js/editorMixins/editableForm.es6:664
+#: js/components/formEditors.es6:308
+msgid "Failed to retrieve the export task."
+msgstr ""
+
+#: js/components/formEditors.es6:312
+msgid "Failed to create the export."
+msgstr ""
+
+#: js/components/formEditors.es6:388 js/components/formLanding.es6:390
+#: js/components/formSubScreens.es6:130 js/components/formSummary.es6:315
+#: js/components/reports.es6:1059 js/editorMixins/editableForm.es6:698
 msgid "Untitled"
 msgstr "Sans titre"
 
-#: js/components/formEditors.es6:308
+#: js/components/formEditors.es6:395
+#| msgid "Download"
+msgid "Download Data"
+msgstr ""
+
+#: js/components/formEditors.es6:401
 msgid "Select export type"
 msgstr "Sélectionner le type d'exportation"
 
-#: js/components/formEditors.es6:311
+#: js/components/formEditors.es6:404
 msgid "XLS"
 msgstr "XLS"
 
-#: js/components/formEditors.es6:312
+#: js/components/formEditors.es6:405
 msgid "XLS (legacy)"
 msgstr "XLS (ancienne version)"
 
-#: js/components/formEditors.es6:313
+#: js/components/formEditors.es6:406
 msgid "CSV"
 msgstr "CSV"
 
-#: js/components/formEditors.es6:314
+#: js/components/formEditors.es6:407
 msgid "CSV (legacy)"
 msgstr "CSV (ancienne version)"
 
-#: js/components/formEditors.es6:315
+#: js/components/formEditors.es6:408
 msgid "Media Attachments (ZIP)"
 msgstr "Fichier média (ZIP)"
 
-#: js/components/formEditors.es6:316
+#: js/components/formEditors.es6:409
 msgid "GPS coordinates (KML)"
 msgstr "Coordonnées GPS (KML)"
 
-#: js/components/formEditors.es6:317
+#: js/components/formEditors.es6:410
 msgid "Excel Analyser"
 msgstr "Analyseur Excel"
 
-#: js/components/formEditors.es6:318
+#: js/components/formEditors.es6:411
 msgid "SPSS Labels"
 msgstr "Étiquettes SPSS"
 
-#: js/components/formEditors.es6:323
+#: js/components/formEditors.es6:416
 msgid "Value and header format"
 msgstr "Format pour les valeurs et l'en-tête"
 
-#: js/components/formEditors.es6:326
+#: js/components/formEditors.es6:419
 msgid "XML values and headers"
 msgstr "Valeurs et en-tête XML"
 
-#: js/components/formEditors.es6:327
+#: js/components/formEditors.es6:421
 msgid "Labels"
 msgstr "Étiquettes"
 
-#: js/components/formEditors.es6:339
+#: js/components/formEditors.es6:438
 msgid "Include groups in headers"
 msgstr "Inclure les groupes dans les en-têtes"
 
-#: js/components/formEditors.es6:348
+#: js/components/formEditors.es6:443
 msgid "Group separator"
 msgstr "Séparateur de groupe"
 
-#: js/components/formGallery/formGallery.es6:26
-#: js/components/formGallery/formGallery.es6:33
-msgid "Group by question"
-msgstr ""
+#: js/components/formEditors.es6:462
+#| msgid "Report"
+msgid "Export"
+msgstr "Exporter"
 
-#: js/components/formGallery/formGallery.es6:37
-msgid "Group by record"
-msgstr ""
+#: js/components/formEditors.es6:472
+#| msgid "Previous Versions"
+msgid "Previous Exports"
+msgstr "Exports précédents"
 
-#: js/components/formGallery/formGallery.es6:205
-msgid "This form does not have any media questions."
-msgstr ""
+#: js/components/formEditors.es6:476 js/components/submission.es6:237
+#| msgid "Type: "
+msgid "Type"
+msgstr "Type"
 
-#: js/components/formGallery/formGallery.es6:237
-#: js/components/formGallery/formGallery.es6:398
-#: js/components/formGallery/formGalleryModal.es6:99
-#: js/components/formGallery/paginatedModal.es6:201
-msgid "Record"
-msgstr ""
+#: js/components/formEditors.es6:477
+#: js/components/searchcollectionlist.es6:138
+msgid "Created"
+msgstr "Créé le"
 
-#: js/components/formGallery/formGallery.es6:357
-msgid "Load More"
-msgstr ""
+#: js/components/formEditors.es6:478 js/components/header.es6:180
+#: js/components/map.es6:419
+msgid "Language"
+msgstr "Langue"
 
-#: js/components/formGallery/formGallery.es6:366
-msgid "See "
-msgstr ""
+#: js/components/formEditors.es6:479
+#| msgid "Include groups in headers"
+msgid "Include Groups"
+msgstr "Inclure les groupes"
 
-#: js/components/formGallery/formGalleryFilter.es6:17
-msgid "images"
-msgstr ""
+#: js/components/formEditors.es6:492 js/components/map.es6:427
+#| msgid "Default response"
+msgid "Default"
+msgstr "Par défaut"
 
-#: js/components/formGallery/formGalleryFilter.es6:24
-msgid "Filter results"
-msgstr ""
+#: js/components/formEditors.es6:495
+#| msgid "Note"
+msgid "No"
+msgstr "Non"
 
-#: js/components/formGallery/formGalleryModal.es6:107
-msgid "More for"
-msgstr ""
+#: js/components/formEditors.es6:495
+#| msgid "yes"
+msgid "Yes"
+msgstr "Oui"
 
-#: js/components/formGallery/paginatedModal.es6:37
-msgid "Show latest first"
-msgstr ""
+#: js/components/formEditors.es6:505
+#| msgid "Import Failed."
+msgid "Export Failed"
+msgstr "L'exportation a échoué"
 
-#: js/components/formGallery/paginatedModal.es6:41
-msgid "Show oldest first"
-msgstr ""
+#: js/components/formEditors.es6:509
+#| msgid "Deploying..."
+msgid "processing..."
+msgstr "en cours..."
 
-#: js/components/formGallery/paginatedModal.es6:155
-msgid "All photos of"
-msgstr ""
-
-#: js/components/formGallery/paginatedModal.es6:158
-msgid "Showing"
-msgstr ""
-
-#: js/components/formGallery/paginatedModal.es6:162
-msgid "of"
-msgstr ""
-
-#: js/components/formGallery/paginatedModal.es6:251
-msgid "Per page:"
-msgstr ""
-
-#: js/components/formLanding.es6:58
+#: js/components/formLanding.es6:59
 msgid "undeployed"
-msgstr ""
+msgstr "non déployé"
 
-#: js/components/formLanding.es6:73 js/components/formLanding.es6:138
-#: js/components/searchcollectionlist.es6:128
-#: js/components/searchcollectionlist.es6:146
+#: js/components/formLanding.es6:74 js/components/formLanding.es6:139
+#: js/components/searchcollectionlist.es6:123
+#: js/components/searchcollectionlist.es6:141
 msgid "Last Modified"
 msgstr "Modifié le"
 
-#: js/components/formLanding.es6:77
+#: js/components/formLanding.es6:78
 msgid "questions"
 msgstr "questions"
 
-#: js/components/formLanding.es6:86
+#: js/components/formLanding.es6:87
 msgid "redeploy"
 msgstr "redéployer"
 
-#: js/components/formLanding.es6:86
+#: js/components/formLanding.es6:87
 msgid "deploy"
 msgstr "Déployer"
 
-#: js/components/formLanding.es6:96
-msgid "Languages"
-msgstr "Langues"
-
-#: js/components/formLanding.es6:131
+#: js/components/formLanding.es6:132
 msgid "Form history"
 msgstr "Historique"
 
-#: js/components/formLanding.es6:137
+#: js/components/formLanding.es6:138
 msgid "Version"
 msgstr "Version"
 
-#: js/components/formLanding.es6:148
+#: js/components/formLanding.es6:149
 msgid "Deployed"
 msgstr "Déployé"
 
-#: js/components/formLanding.es6:158
+#: js/components/formLanding.es6:159
 msgid "Clone this version as a new project"
 msgstr "Cloner cette version en tant qu'un nouveau projet"
 
-#: js/components/formLanding.es6:171
+#: js/components/formLanding.es6:172
 msgid "Hide full history"
 msgstr "Cacher l'historique"
 
-#: js/components/formLanding.es6:171
+#: js/components/formLanding.es6:172
 msgid "Show full history"
 msgstr "Afficher l'historique"
 
-#: js/components/formLanding.es6:183
+#: js/components/formLanding.es6:184
 msgid "Online-Offline (multiple submission)"
 msgstr "Online-Offline (soumissions multiples)"
 
-#: js/components/formLanding.es6:184
+#: js/components/formLanding.es6:185
 msgid ""
 "This allows online and offline submissions and is the best option for "
 "collecting data in the field. "
 msgstr "Cela permet des soumissions en ligne et hors ligne et est la meilleure option pour la collecte de données sur le terrain."
 
-#: js/components/formLanding.es6:187
+#: js/components/formLanding.es6:188
 msgid "Online-Only (multiple submissions)"
 msgstr "En ligne seulement (soumissions multiples)"
 
-#: js/components/formLanding.es6:188
+#: js/components/formLanding.es6:189
+#| msgid ""
+#| "s the best option when entering many records at once on a computer, . "
+#| "foranscribing paper records"
 msgid ""
 "This is the best option when entering many records at once on a computer, "
-"e.g. for transcribing paper records"
+"e.g. for transcribing paper records."
 msgstr "C'est la meilleure option lorsque vous entrez plusieurs enregistrements à la fois sur un ordinateur, par exemple, pour la transcription des dossiers papier."
 
-#: js/components/formLanding.es6:191
+#: js/components/formLanding.es6:192
+#| msgid "Online-Only (multiple submissions)"
+msgid "Online-Only (single submission)"
+msgstr "En ligne seulement (une soumission)"
+
+#: js/components/formLanding.es6:193
+msgid ""
+"This allows a single submission, and can be paired with the \"returnURL\" "
+"parameter to redirect the user to a URL of your choice after the form has "
+"been submitted."
+msgstr ""
+
+#: js/components/formLanding.es6:196
 msgid "Embeddable web form code"
 msgstr "Code de formulaire Web"
 
-#: js/components/formLanding.es6:192
+#: js/components/formLanding.es6:197
 msgid ""
 "Use this html5 code snippet to integrate your form on your own website using"
 " smaller margins. "
 msgstr "Utilisez cet extrait de code html5 pour intégrer votre formulaire sur votre propre site Web en utilisant des marges plus petites."
 
-#: js/components/formLanding.es6:195
+#: js/components/formLanding.es6:200
 msgid "View only"
 msgstr "Aperçu seulement"
 
-#: js/components/formLanding.es6:196
+#: js/components/formLanding.es6:201
 msgid ""
 "Use this version for testing, getting feedback. Does not allow submitting "
 "data. "
 msgstr "Utilisez cette version pour tester et/ou obtenir des commentaires. Ne permet pas de soumettre des données."
 
-#: js/components/formLanding.es6:199
+#: js/components/formLanding.es6:204
 msgid "Android application"
 msgstr "Application Android"
 
-#: js/components/formLanding.es6:200
+#: js/components/formLanding.es6:205
 msgid "Use this option to collect data in the field with your Android device."
 msgstr "Utilisez cette option pour obtenir des données sur le terrain avec votre appareil Android."
 
-#: js/components/formLanding.es6:225
+#: js/components/formLanding.es6:230 js/components/formSummary.es6:207
 msgid "Collect data"
 msgstr "Collection de données"
 
-#: js/components/formLanding.es6:249 js/components/formLanding.es6:269
+#: js/components/formLanding.es6:254 js/components/formLanding.es6:274
 msgid "Copy"
 msgstr "Copier"
 
-#: js/components/formLanding.es6:256
+#: js/components/formLanding.es6:261 js/components/table.es6:174
 msgid "Open"
 msgstr "Ouvrir"
 
-#: js/components/formLanding.es6:263
+#: js/components/formLanding.es6:268
 msgid "Download KoboCollect"
 msgstr "Télécharger KoboCollect"
 
-#: js/components/formLanding.es6:288
+#: js/components/formLanding.es6:293
 msgid "Install"
 msgstr "Installez"
 
-#: js/components/formLanding.es6:292
+#: js/components/formLanding.es6:297
 msgid "on your Android device."
 msgstr "sur votre appareil Android."
 
-#: js/components/formLanding.es6:294
+#: js/components/formLanding.es6:299
 msgid "Click on"
 msgstr "Cliquez le bouton"
 
-#: js/components/formLanding.es6:294
+#: js/components/formLanding.es6:299
 msgid "to open settings."
 msgstr "pour consulter les paramètres"
 
-#: js/components/formLanding.es6:296
+#: js/components/formLanding.es6:301
 msgid "Enter the server URL"
 msgstr "Saisissez l'URL du serveur "
 
-#: js/components/formLanding.es6:298
+#: js/components/formLanding.es6:303
 msgid "and your username and password"
 msgstr "et ensuite votre nom d'usager et votre mot de passe"
 
-#: js/components/formLanding.es6:300
+#: js/components/formLanding.es6:305
 msgid "Open \"Get Blank Form\" and select this project. "
 msgstr "Sélectionnez \"Get Blank Form\" et choisissez ce projet."
 
-#: js/components/formLanding.es6:301
+#: js/components/formLanding.es6:306
 msgid "Open \"Enter Data.\""
 msgstr "Ensuite, sélectionnez \"Enter Data\"."
 
-#: js/components/formLanding.es6:330
+#: js/components/formLanding.es6:336
 msgid "edit"
 msgstr "modifier"
 
-#: js/components/formLanding.es6:336
+#: js/components/formLanding.es6:342
 msgid "Editing capabilities not granted, you can only view this form"
 msgstr "Vous ne pouvez pas modifier cette fiche. Vous pouvez seulement la consulter."
 
-#: js/components/formLanding.es6:342
+#: js/components/formLanding.es6:348
 msgid "Preview"
 msgstr "Aperçu"
 
-#: js/components/formLanding.es6:372
+#: js/components/formLanding.es6:378
 msgid "Share this project"
 msgstr "Partager ce projet"
 
-#: js/components/formLanding.es6:377
+#: js/components/formLanding.es6:383
 msgid "Clone this project"
 msgstr "Cloner ce projet"
 
-#: js/components/formLanding.es6:405
+#: js/components/formLanding.es6:411
 msgid "Current version"
 msgstr "Version actuelle"
 
-#: js/components/formLanding.es6:406
+#: js/components/formLanding.es6:412
 msgid "Archived version"
 msgstr "Version archivé"
 
-#: js/components/formLanding.es6:407
+#: js/components/formLanding.es6:413
 msgid "Draft version"
 msgstr "Brouillon"
+
+#: js/components/formSubScreens.es6:153 js/components/formSummary.es6:333
+msgid "Access Denied"
+msgstr "Accés interdit"
+
+#: js/components/formSubScreens.es6:155 js/components/formSummary.es6:335
+msgid "You do not have permission to view this page."
+msgstr "Vous n'avez pas la permission de voir cette page."
+
+#: js/components/formSummary.es6:140
+#: js/components/searchcollectionlist.es6:144
+msgid "Submissions"
+msgstr "Soumissions"
+
+#: js/components/formSummary.es6:146
+msgid "Past 7 days"
+msgstr "7 derniers jours"
+
+#: js/components/formSummary.es6:149
+msgid "Past 31 days"
+msgstr "31 derniers jours"
+
+#: js/components/formSummary.es6:156
+msgid "No chart data available for current period."
+msgstr "Le graphique n'est pas disponible pour la période en cours."
+
+#: js/components/formSummary.es6:164 js/components/formSummary.es6:167
+msgid "Today"
+msgstr "Aujourd'hui"
+
+#: js/components/formSummary.es6:184
+msgid "Total"
+msgstr "Total"
+
+#: js/components/formSummary.es6:213
+#| msgid "More for"
+msgid "Share form"
+msgstr "Partager le projet"
+
+#: js/components/formSummary.es6:225
+#| msgid "Edit"
+msgid "Edit form"
+msgstr "Modifier le projet"
+
+#: js/components/formSummary.es6:231 js/editorMixins/editableForm.es6:476
+msgid "Preview form"
+msgstr "Aperçu"
+
+#: js/components/formSummary.es6:239 js/i18nMissingStrings.es6:121
+msgid "Reports"
+msgstr "Rapports"
+
+#: js/components/formSummary.es6:240 js/components/formViewTabs.es6:104
+msgid "Reports (legacy)"
+msgstr "Rapports (ancienne version)"
+
+#: js/components/formSummary.es6:241 js/components/formViewTabs.es6:105
+msgid "Table"
+msgstr "Tableau"
+
+#: js/components/formSummary.es6:242 js/components/formViewTabs.es6:106
+msgid "Gallery"
+msgstr "Gallerie photo"
+
+#: js/components/formSummary.es6:243 js/components/formViewTabs.es6:107
+msgid "Downloads"
+msgstr "Téléchargements"
+
+#: js/components/formSummary.es6:244 js/components/formViewTabs.es6:108
+msgid "Map"
+msgstr "Carte"
+
+#: js/components/formSummary.es6:293
+msgid "Team members"
+msgstr "Membres de l'équipe"
+
+#: js/components/formSummary.es6:355
+#| msgid "Project description"
+msgid "Project country"
+msgstr "Pays du projet"
+
+#: js/components/formSummary.es6:381
+msgid "Quick Links"
+msgstr "Liens rapides"
+
+#: js/components/formSummary.es6:389
+#| msgid "expand details"
+msgid "Form details"
+msgstr "Détails de la fiche"
+
+#: js/components/formSummary.es6:394
+#| msgid "Last Modified"
+msgid "Last modified"
+msgstr "Modifié le"
+
+#: js/components/formSummary.es6:399
+#| msgid "submissions"
+msgid "Latest submission"
+msgstr ""
+
+#: js/components/formSummary.es6:405
+#| msgid "Question"
+msgid "Questions"
+msgstr "Questions"
+
+#: js/components/formSummary.es6:412
+msgid "Languages"
+msgstr "Langues"
+
+#: js/components/formSummary.es6:428 js/i18nMissingStrings.es6:120
+msgid "Data"
+msgstr "Données"
 
 #: js/components/formViewTabs.es6:71
 msgid "Summary"
 msgstr "Sommaire"
 
-#: js/components/formViewTabs.es6:105
-msgid "Reports (legacy)"
-msgstr "Rapports (ancienne version)"
-
-#: js/components/formViewTabs.es6:106
-msgid "Table"
-msgstr "Tableau"
-
-#: js/components/formViewTabs.es6:107
-msgid "Gallery"
-msgstr "Gallerie photo"
-
-#: js/components/formViewTabs.es6:108
-msgid "Downloads"
-msgstr "Téléchargements"
-
-#: js/components/formViewTabs.es6:109
-msgid "Map"
-msgstr "Carte"
-
-#: js/components/header.es6:127
+#: js/components/header.es6:129
 msgid "Please refresh the page"
 msgstr "Veuillez actualiser la page"
 
-#: js/components/header.es6:171
+#: js/components/header.es6:173
 msgid "Account Settings"
 msgstr "Paramètres du compte"
 
-#: js/components/header.es6:178
-msgid "Language"
-msgstr "Langue"
-
-#: js/components/header.es6:187
+#: js/components/header.es6:189
 msgid "Logout"
 msgstr "Déconnexion"
 
-#: js/components/header.es6:197
+#: js/components/header.es6:199
 msgid "not logged in"
 msgstr "pas connecté"
 
-#: js/components/header.es6:275
+#: js/components/header.es6:270
 msgid "Search Projects"
 msgstr "Recherche projets"
 
-#: js/components/header.es6:280 js/editorMixins/editableForm.es6:534
+#: js/components/header.es6:275 js/editorMixins/editableForm.es6:546
 msgid "Search Library"
 msgstr "Chercher bibilothèque"
 
-#: js/components/header.es6:290
-msgid "click to edit"
-msgstr "cliquez pour modifier"
-
-#: js/components/header.es6:293
+#: js/components/header.es6:288
 msgid "Project title"
 msgstr "Titre du projet"
 
-#: js/components/header.es6:301
+#: js/components/header.es6:296
 msgid "submissions"
 msgstr "soumissions"
 
@@ -717,8 +820,12 @@ msgid ""
 msgstr "Veuillez entrer le nom de votre nouvelle collection. Les collections vous aident à mieux organiser votre bibliothèque, et il est aussi possible de les partager avec des autres usagers."
 
 #: js/components/librarySidebar.es6:113 js/components/librarySidebar.es6:139
-#: js/components/librarySidebar.es6:164 js/mixins.es6:47 js/mixins.es6:78
-#: js/mixins.es6:346 js/mixins.es6:427 js/mixins.es6:449
+#: js/components/librarySidebar.es6:164 js/components/submission.es6:96
+#: js/components/table.es6:467 js/editorMixins/editableForm.es6:684
+#: js/formbuild/containers/KoboMatrix.es6:169
+#: js/formbuild/containers/KoboMatrix.es6:310
+#: js/formbuild/containers/KoboMatrix.es6:331 js/mixins.es6:46
+#: js/mixins.es6:77 js/mixins.es6:285 js/mixins.es6:366 js/mixins.es6:388
 msgid "Cancel"
 msgstr "Annuler"
 
@@ -744,8 +851,8 @@ msgstr "Renommer la collection"
 msgid "Please enter the name of your new collection."
 msgstr "Veuillez entrer le nom de votre nouvelle collection. "
 
-#: js/components/librarySidebar.es6:164 js/mixins.es6:47 js/mixins.es6:78
-#: js/mixins.es6:346
+#: js/components/librarySidebar.es6:164 js/mixins.es6:46 js/mixins.es6:77
+#: js/mixins.es6:285
 msgid "Ok"
 msgstr "Ok"
 
@@ -753,7 +860,7 @@ msgstr "Ok"
 msgid "unexpected error removing public permission"
 msgstr "Erreur inattendue en supprimant la permission publique"
 
-#: js/components/librarySidebar.es6:256
+#: js/components/librarySidebar.es6:256 js/components/submission.es6:238
 msgid "Question"
 msgstr "Question"
 
@@ -762,7 +869,7 @@ msgid "collection"
 msgstr "collection"
 
 #: js/components/librarySidebar.es6:280
-#: js/components/searchcollectionlist.es6:110
+#: js/components/searchcollectionlist.es6:105
 msgid "My Library"
 msgstr "Ma bibliothèque"
 
@@ -798,73 +905,119 @@ msgstr "se désabonner"
 msgid "subscribe"
 msgstr "s'abonner"
 
-#: js/components/list.es6:48
+#: js/components/list.es6:44
 msgid "Search..."
 msgstr "Rechercher"
 
-#: js/components/list.es6:121
+#: js/components/list.es6:117
 msgid "Search Tags"
 msgstr "Recherche étiquettes"
 
-#: js/components/list.es6:122
+#: js/components/list.es6:118
 msgid "No results found"
 msgstr "Aucun résultat trouvé"
 
-#: js/components/list.es6:189
+#: js/components/list.es6:185
 msgid "Collections are loading..."
 msgstr "Collections en cours de chargement..."
 
-#: js/components/list.es6:196
+#: js/components/list.es6:192
 msgid "Filter by"
 msgstr "Filtrer par"
 
-#: js/components/list.es6:200
+#: js/components/list.es6:196
 msgid "Select Collection Name"
 msgstr "Nom de la collection"
 
-#: js/components/list.es6:248
+#: js/components/list.es6:244
 msgid "assets found"
 msgstr "résultats trouvés"
 
-#: js/components/list.es6:253
+#: js/components/list.es6:249
 msgid "expand details"
 msgstr "afficher les détails"
 
-#: js/components/list.es6:290
+#: js/components/list.es6:286
 msgid "searching for \"___\""
 msgstr "Chercher pour \"___\""
 
-#: js/components/list.es6:293 js/components/list.es6:303
+#: js/components/list.es6:289 js/components/list.es6:299
 msgid "tagged with [___]"
 msgstr "Étiqueté avec [___]"
 
-#: js/components/list.es6:300
+#: js/components/list.es6:296
 msgid "searched for \"___\""
 msgstr "Cherché pour \"____\""
 
-#: js/components/list.es6:306
+#: js/components/list.es6:302
 msgid "found ## results"
 msgstr "trouvé ## résultats"
 
-#: js/components/list.es6:313
+#: js/components/list.es6:309
 msgid "## ___ available"
 msgstr "## ___ disponible"
 
-#: js/components/list.es6:357
+#: js/components/list.es6:353
 msgid "success"
 msgstr "Succès "
 
-#: js/components/list.es6:358
+#: js/components/list.es6:354
 msgid "yes"
 msgstr "Oui"
 
-#: js/components/list.es6:358
+#: js/components/list.es6:354
 msgid "no"
 msgstr "Non"
 
-#: js/components/list.es6:361
+#: js/components/list.es6:357
 msgid "count"
 msgstr "Compter"
+
+#: js/components/map.es6:107
+msgid ""
+"This map display is currently limited to 5000 records for performance "
+"reasons."
+msgstr ""
+
+#: js/components/map.es6:132 js/components/map.es6:203
+#: js/components/submission.es6:79 js/components/table.es6:96
+#: js/components/table.es6:105
+#| msgid "error loading data"
+msgid "Error: could not load data."
+msgstr ""
+
+#: js/components/map.es6:384
+msgid "Disaggregate by survey responses"
+msgstr ""
+
+#: js/components/map.es6:390
+msgid "Disaggregated using:"
+msgstr ""
+
+#: js/components/map.es6:398
+msgid "Toggle Fullscreen"
+msgstr ""
+
+#: js/components/map.es6:404
+#| msgid "Show latest first"
+msgid "Show as points"
+msgstr ""
+
+#: js/components/map.es6:411
+msgid "Show as heatmap"
+msgstr ""
+
+#: js/components/map.es6:432
+msgid "-- See all data --"
+msgstr ""
+
+#: js/components/map.es6:457
+msgid "not set"
+msgstr ""
+
+#: js/components/map.es6:464
+msgid "Legend"
+msgstr ""
 
 #: js/components/modal.es6:37
 msgid "Sharing Permissions"
@@ -882,11 +1035,16 @@ msgstr "Téléchargement:"
 msgid "Create New Project from Scratch"
 msgstr "Créez un nouveau projet"
 
-#: js/components/modal.es6:63 js/editorMixins/editableForm.es6:686
+#: js/components/modal.es6:63 js/editorMixins/editableForm.es6:720
 msgid "Form Preview"
 msgstr "Aperçu de la fiche"
 
-#: js/components/modal.es6:108
+#: js/components/modal.es6:69
+#| msgid "Record"
+msgid "Record #"
+msgstr ""
+
+#: js/components/modal.es6:123
 msgid "Create project"
 msgstr "Créer le projet"
 
@@ -923,177 +1081,399 @@ msgstr "Fréquence"
 msgid "Percentage"
 msgstr "Pourcentage"
 
-#: js/components/reportViewItem.es6:306
+#: js/components/reportViewItem.es6:314
 msgid "Type: "
 msgstr "Type: "
 
-#: js/components/reportViewItem.es6:306
+#: js/components/reportViewItem.es6:314
 msgid ". "
 msgstr ". "
 
-#: js/components/reportViewItem.es6:311
+#: js/components/reportViewItem.es6:319
 msgid "#1 out of #2 respondents answered this question. "
 msgstr "# 1 sur # 2 répondants ont répondu à cette question."
 
-#: js/components/reportViewItem.es6:318
+#: js/components/reportViewItem.es6:326
 msgid "(# were without data.)"
 msgstr "(# étaient sans données.)"
 
-#: js/components/reports.es6:377
-msgid "Graph Settings"
-msgstr "Paramètres des graphiques"
+#: js/components/reportViewItem.es6:334
+msgid "Override Graph Style"
+msgstr ""
 
-#: js/components/reports.es6:382
-msgid "Group By"
-msgstr "Grouper par"
+#: js/components/reports.es6:286 js/components/reports.es6:939
+#| msgid "Untitled"
+msgid "Untitled Report"
+msgstr ""
 
-#: js/components/reports.es6:384
-msgid "No grouping"
-msgstr "pas de groupement"
+#: js/components/reports.es6:289
+msgid "Include the following questions:"
+msgstr ""
 
-#: js/components/reports.es6:402
-msgid "Translation"
-msgstr "Traduction"
+#: js/components/reports.es6:302 js/components/reports.es6:426
+#: js/components/reports.es6:672
+msgid "Save"
+msgstr ""
 
-#: js/components/reports.es6:418
-msgid "Expand"
-msgstr "Élargir"
-
-#: js/components/reports.es6:424
-msgid "Print"
-msgstr "Imprimer"
-
-#: js/components/reports.es6:455
+#: js/components/reports.es6:378 js/components/reports.es6:575
 msgid "Chart Type"
 msgstr "Type du graphique"
 
-#: js/components/reports.es6:455
+#: js/components/reports.es6:378 js/components/reports.es6:575
 msgid "Colors"
 msgstr "Couleurs"
 
-#: js/components/reports.es6:455
-msgid "Size"
-msgstr "Taille"
-
-#: js/components/reports.es6:495
+#: js/components/reports.es6:412 js/components/reports.es6:618
 msgid "Width: "
 msgstr "Largeur:"
 
-#: js/components/reports.es6:500
-msgid "Height: "
-msgstr "Hauteur:"
-
-#: js/components/reports.es6:511
-msgid "Done"
-msgstr "Terminé"
-
-#: js/components/reports.es6:528
-msgid "Report"
-msgstr "Rapport"
-
-#: js/components/reports.es6:560
-msgid "This report cannot be loaded."
+#: js/components/reports.es6:422
+msgid "Reset"
 msgstr ""
 
 #: js/components/reports.es6:578
+msgid "Group By"
+msgstr "Grouper par"
+
+#: js/components/reports.es6:582
+msgid "Translation"
+msgstr "Traduction"
+
+#: js/components/reports.es6:630
+msgid "No grouping"
+msgstr "pas de groupement"
+
+#: js/components/reports.es6:783
+msgid ""
+"Could not load grouped results via \"##\". Will attempt to load the "
+"ungrouped report."
+msgstr ""
+
+#: js/components/reports.es6:832
+#| msgid "Could not redirect to asset."
+msgid "Could not refresh report."
+msgstr ""
+
+#: js/components/reports.es6:939
+#| msgid "Reports"
+msgid "Custom Reports"
+msgstr ""
+
+#: js/components/reports.es6:945
+#| msgid "Default response"
+msgid "Default Report"
+msgstr ""
+
+#: js/components/reports.es6:955
+#| msgid "Untitled"
+msgid "Untitled report"
+msgstr ""
+
+#: js/components/reports.es6:963
+#| msgid "Create project"
+msgid "Create New Report"
+msgstr ""
+
+#: js/components/reports.es6:970
+#| msgid "Enter your question"
+msgid "Edit Report Questions"
+msgstr ""
+
+#: js/components/reports.es6:977 js/components/table.es6:591
+msgid "Expand"
+msgstr "Élargir"
+
+#: js/components/reports.es6:983 js/components/table.es6:570
+msgid "Print"
+msgstr "Imprimer"
+
+#: js/components/reports.es6:989
+#| msgid "report type"
+msgid "Configure Report Style"
+msgstr ""
+
+#: js/components/reports.es6:1037 js/components/reports.es6:1081
+msgid "This report cannot be loaded."
+msgstr ""
+
+#: js/components/reports.es6:1103
 msgid "This report has no data."
 msgstr "Ce rapport n'a pas de données."
 
-#: js/components/reports.es6:598
+#: js/components/reports.es6:1123
 msgid ""
 "For performance reasons, this report only includes the first ## questions."
 msgstr ""
 
-#: js/components/reports.es6:601
+#: js/components/reports.es6:1126
 msgid "Show all (##)"
 msgstr ""
 
-#: js/components/reports.es6:607
+#: js/components/reports.es6:1132
 msgid "Warning"
 msgstr "Avis"
 
-#: js/components/reports.es6:608
+#: js/components/reports.es6:1133
 msgid ""
 "This is an automated report based on raw data submitted to this project. "
 "Please conduct proper data cleaning prior to using the graphs and figures "
 "used on this page. "
 msgstr "Le suivant est un rapport automatisé basé sur les données brutes soumises à ce projet. Veuillez effectuer un nettoyage approprié des données avant d'utiliser les graphiques et les figures utilisés sur cette page."
 
-#: js/components/reports.es6:637
-msgid "Global Graph Settings"
-msgstr "Paramètres globales des graphiques"
+#: js/components/reports.es6:1139
+#| msgid "report type"
+msgid "Edit Report Style"
+msgstr ""
 
-#: js/components/searchcollectionlist.es6:125
+#: js/components/reports.es6:1145
+#| msgid "Report"
+msgid "Custom Report"
+msgstr ""
+
+#: js/components/reports.es6:1151
+#| msgid "Question hint"
+msgid "Question Style"
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:120
 msgid "Owner"
 msgstr "Propriétaire"
 
-#: js/components/searchcollectionlist.es6:140
+#: js/components/searchcollectionlist.es6:135
 msgid "Shared by"
 msgstr "Partagé par"
 
-#: js/components/searchcollectionlist.es6:143
-msgid "Created"
-msgstr "Créé le"
-
-#: js/components/searchcollectionlist.es6:149
-msgid "Submissions"
-msgstr "Soumissions"
-
-#: js/components/searchcollectionlist.es6:183 js/lists/sidebarForms.es6:79
+#: js/components/searchcollectionlist.es6:178 js/lists/sidebarForms.es6:99
 msgid "Active Projects"
 msgstr "Projets actifs"
 
-#: js/components/searchcollectionlist.es6:244
+#: js/components/searchcollectionlist.es6:239
 msgid ""
 "Let's get started by creating your first project. Click the New button to "
 "create a new form."
 msgstr "Commençons par créer votre premier projet. Cliquez sur le bouton Nouveau pour créer une nouvelle fiche."
 
-#: js/components/searchcollectionlist.es6:252
+#: js/components/searchcollectionlist.es6:247
 msgid ""
 "Let's get started by creating your first library question or question block."
 " Click the New button to create a new question or block."
 msgstr "Commençons par créer votre première question ou bloc de questions. Cliquez sur le bouton Nouveau pour créer une nouvelle question ou un nouveau bloc."
 
-#: js/components/sharingForm.es6:57 js/components/sharingForm.es6:245
-msgid "Can View"
-msgstr "peut voir"
+#: js/components/sharingForm.es6:22
+#| msgid "View only"
+msgid "View Form"
+msgstr ""
 
-#: js/components/sharingForm.es6:58 js/components/sharingForm.es6:246
-msgid "Can Edit"
-msgstr "peut éditer"
+#: js/components/sharingForm.es6:23
+#| msgid "Edit in Form Builder"
+msgid "Edit Form"
+msgstr ""
 
-#: js/components/sharingForm.es6:117
+#: js/components/sharingForm.es6:24
+#| msgid "Submissions"
+msgid "View Submissions"
+msgstr ""
+
+#: js/components/sharingForm.es6:25
+#| msgid "Submissions"
+msgid "Add Submissions"
+msgstr ""
+
+#: js/components/sharingForm.es6:26
+#| msgid "Submissions"
+msgid "Edit Submissions"
+msgstr ""
+
+#: js/components/sharingForm.es6:27
+#| msgid "Submissions"
+msgid "Validate Submissions"
+msgstr ""
+
+#: js/components/sharingForm.es6:132
 msgid "Share by link"
 msgstr "Partager via lien"
 
-#: js/components/sharingForm.es6:121
+#: js/components/sharingForm.es6:136
 msgid "Shareable link"
 msgstr "Lien à partager"
 
-#: js/components/sharingForm.es6:268
+#: js/components/sharingForm.es6:149
+#| msgid "Shared by"
+msgid "Share data publicly"
+msgstr ""
+
+#: js/components/sharingForm.es6:291
 msgid "Who has access"
 msgstr "Qui a accès"
 
-#: js/components/sharingForm.es6:279
+#: js/components/sharingForm.es6:302
 msgid "is owner"
 msgstr "propriétaire"
 
-#: js/components/sharingForm.es6:290
+#: js/components/sharingForm.es6:313
 msgid "Invite collaborators"
 msgstr "Inviter des collaborateurs"
 
-#: js/components/sharingForm.es6:296
+#: js/components/sharingForm.es6:319
 msgid "Enter a username"
 msgstr "Saisir un nom d'utilisateur"
 
-#: js/components/sharingForm.es6:309
+#: js/components/sharingForm.es6:332
 msgid "invite"
 msgstr "inviter"
 
-#: js/components/sharingForm.es6:317
+#: js/components/sharingForm.es6:340
 msgid "Select share settings"
 msgstr "Options de partage"
+
+#: js/components/submission.es6:94
+#| msgid "submissions"
+msgid "Delete submission?"
+msgstr ""
+
+#: js/components/submission.es6:95
+#| msgid "Are you sure you want to delete this question?"
+msgid "Are you sure you want to delete this submission?"
+msgstr ""
+
+#: js/components/submission.es6:95
+#| msgid "This action cannot be undone."
+msgid "This action cannot be undone"
+msgstr ""
+
+#: js/components/submission.es6:100
+#| msgid "submissions"
+msgid "submission deleted"
+msgstr ""
+
+#: js/components/submission.es6:186 js/components/table.es6:180
+#| msgid "Validation Criteria"
+msgid "Validation status"
+msgstr ""
+
+#: js/components/submission.es6:202
+#| msgid "revisions"
+msgid "Previous"
+msgstr ""
+
+#: js/components/submission.es6:210 js/components/table.es6:621
+msgid "Next"
+msgstr ""
+
+#: js/components/submission.es6:227
+#| msgid "submissions"
+msgid "Delete submission"
+msgstr ""
+
+#: js/components/submission.es6:239
+#| msgid "Response Type"
+msgid "Response"
+msgstr ""
+
+#: js/components/submission.es6:246
+msgid "start"
+msgstr ""
+
+#: js/components/submission.es6:253
+#| msgid "Gender"
+msgid "end"
+msgstr ""
+
+#: js/components/submission.es6:300
+#| msgid "Version"
+msgid "__version__"
+msgstr ""
+
+#: js/components/submission.es6:307
+msgid "instanceID"
+msgstr ""
+
+#: js/components/table.es6:94
+msgid "The query did not return any results."
+msgstr ""
+
+#: js/components/table.es6:465
+#| msgid "Create group with selected questions"
+msgid "Update status of selected submissions"
+msgstr ""
+
+#: js/components/table.es6:466
+msgid ""
+"You have selected ## submissions. Are you sure you would like to update "
+"their status? This action is irreversible."
+msgstr ""
+
+#: js/components/table.es6:467
+#| msgid "Validation Criteria"
+msgid "Update Validation Status"
+msgstr ""
+
+#: js/components/table.es6:474
+#| msgid "failed to update profile"
+msgid "Failed to update status."
+msgstr ""
+
+#: js/components/table.es6:517 js/components/table.es6:630
+msgid "of"
+msgstr ""
+
+#: js/components/table.es6:517
+#| msgid "Filter results"
+msgid "results"
+msgstr ""
+
+#: js/components/table.es6:527
+msgid "All ## selected. "
+msgstr ""
+
+#: js/components/table.es6:529
+#| msgid "Collection"
+msgid "Clear selection"
+msgstr ""
+
+#: js/components/table.es6:535
+msgid "## selected. "
+msgstr ""
+
+#: js/components/table.es6:539
+#| msgid "Select Many"
+msgid "Select all ##"
+msgstr ""
+
+#: js/components/table.es6:575
+msgid "Update selected"
+msgstr ""
+
+#: js/components/table.es6:577
+msgid "Updated status to:"
+msgstr ""
+
+#: js/components/table.es6:591
+msgid "Contract"
+msgstr ""
+
+#: js/components/table.es6:602
+#| msgid "Select question from list"
+msgid "Show/hide question groups"
+msgstr ""
+
+#: js/components/table.es6:620
+#| msgid "Preview"
+msgid "Prev"
+msgstr ""
+
+#: js/components/table.es6:628
+#| msgid "No results found"
+msgid "No rows found"
+msgstr ""
+
+#: js/components/table.es6:629
+msgid "Page"
+msgstr ""
+
+#: js/components/table.es6:631
+msgid "rows"
+msgstr ""
 
 #: js/components/tagInput.es6:35
 msgid "#tags +"
@@ -1108,12 +1488,33 @@ msgid "Grid theme"
 msgstr "Mettez-les en grille"
 
 #: js/constants.es6:15
+msgid "Grid theme with headings in ALL CAPS"
+msgstr ""
+
+#: js/constants.es6:16
 msgid "Multiple pages"
 msgstr "Pages multiples"
 
-#: js/constants.es6:16
+#: js/constants.es6:17
 msgid "Grid theme + Multiple pages"
 msgstr "Mettez-les en grille + pages multiples"
+
+#: js/constants.es6:18
+#| msgid "Grid theme + Multiple pages"
+msgid "Grid theme + Multiple pages + headings in ALL CAPS"
+msgstr ""
+
+#: js/constants.es6:24
+msgid "Not Approved"
+msgstr ""
+
+#: js/constants.es6:28
+msgid "Approved"
+msgstr ""
+
+#: js/constants.es6:32
+msgid "On Hold"
+msgstr ""
 
 #: js/editorMixins/assetNavigator.es6:82
 msgid "loading"
@@ -1156,95 +1557,228 @@ msgstr "En savoir plus sur l'importation de listes en cascade à partir d'Excel"
 msgid "DONE"
 msgstr "Terminé"
 
-#: js/editorMixins/editableForm.es6:163
+#: js/editorMixins/editableForm.es6:169
 msgid "none (0 metadata specified)"
 msgstr "nul (0 métadonnées spécifiées)"
 
-#: js/editorMixins/editableForm.es6:170
+#: js/editorMixins/editableForm.es6:176
 msgid "metadata:"
 msgstr "métadonnées:"
 
-#: js/editorMixins/editableForm.es6:240
+#: js/editorMixins/editableForm.es6:246
 msgid "you have unsaved changes"
 msgstr "Vous disposez de changement non sauvegardés."
 
-#: js/editorMixins/editableForm.es6:433
+#: js/editorMixins/editableForm.es6:406 js/i18nMissingStrings.es6:128
+msgid "create"
+msgstr "Créer"
+
+#: js/editorMixins/editableForm.es6:408 js/editorMixins/editableForm.es6:410
+#: js/i18nMissingStrings.es6:129
+msgid "save"
+msgstr "Sauvegarder"
+
+#: js/editorMixins/editableForm.es6:408
+msgid "retry"
+msgstr "réessayer."
+
+#: js/editorMixins/editableForm.es6:447
 msgid "share"
 msgstr "Partager"
 
-#: js/editorMixins/editableForm.es6:462
-msgid "Preview form"
-msgstr "Aperçu"
-
-#: js/editorMixins/editableForm.es6:470
+#: js/editorMixins/editableForm.es6:484
 msgid "Expand / collapse questions"
 msgstr "Étendre / réduire les questions"
 
-#: js/editorMixins/editableForm.es6:478
+#: js/editorMixins/editableForm.es6:492
 msgid "Create group with selected questions"
 msgstr "Créer un groupe avec les questions sélectionnées"
 
-#: js/editorMixins/editableForm.es6:478
+#: js/editorMixins/editableForm.es6:492
 msgid "Grouping disabled. Please select at least one question."
 msgstr "Groupement désactivé. Veuillez sélectionner au moins une question."
 
-#: js/editorMixins/editableForm.es6:482
+#: js/editorMixins/editableForm.es6:496
 msgid "Download form"
 msgstr "Télécharger la fiche"
 
-#: js/editorMixins/editableForm.es6:493
+#: js/editorMixins/editableForm.es6:506
 msgid "Web form layout"
 msgstr "Mise en page"
 
-#: js/editorMixins/editableForm.es6:495
+#: js/editorMixins/editableForm.es6:508
 msgid "Layout"
 msgstr "Mise en page"
 
-#: js/editorMixins/editableForm.es6:502
+#: js/editorMixins/editableForm.es6:514
 msgid "Attach media files"
 msgstr "Joindre des fichiers multimédias"
 
-#: js/editorMixins/editableForm.es6:509
+#: js/editorMixins/editableForm.es6:521
 msgid "Insert cascading select"
 msgstr "Insérer sélection en cascade"
 
-#: js/editorMixins/editableForm.es6:541
+#: js/editorMixins/editableForm.es6:553
 msgid "form style"
 msgstr "Style de la fiche"
 
-#: js/editorMixins/editableForm.es6:544
+#: js/editorMixins/editableForm.es6:554
+msgid "Read more about form styles"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:560
 msgid ""
 "select the form style that you would like to use. this will only affect web "
 "forms."
 msgstr "Sélectionnez le style de formulaire que vous souhaitez utiliser. Cela n'affectera que les formulaires Web."
 
-#: js/editorMixins/editableForm.es6:548
-msgid "read more..."
-msgstr "en savoir plus..."
+#: js/editorMixins/editableForm.es6:562
+msgid ""
+"select the form style. this will only affect the Enketo preview, and it will"
+" not be saved with the question or block."
+msgstr ""
 
-#: js/editorMixins/editableForm.es6:556
+#: js/editorMixins/editableForm.es6:572
 msgid "custom form style: \"{label}\""
 msgstr "Autre style fiche : \"{label}\""
 
-#: js/editorMixins/editableForm.es6:572
+#: js/editorMixins/editableForm.es6:588
 msgid "Error loading survey:"
 msgstr "Erreur de chargement de fiche:"
 
-#: js/editorMixins/editableForm.es6:579
+#: js/editorMixins/editableForm.es6:595
 msgid "Back"
 msgstr "Retour"
 
-#: js/editorMixins/editableForm.es6:655
+#: js/editorMixins/editableForm.es6:682
 msgid "you have unsaved changes. leave form without saving?"
 msgstr "Vous disposez de changements non sauvegardés. Voudriez-vous quitter sans sauvegarder?"
 
-#: js/editorMixins/editableForm.es6:697
+#: js/editorMixins/editableForm.es6:684
+msgid "Yes, leave form"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:731
 msgid "Error generating preview"
 msgstr "Erreur lors de la génération de l'aperçu"
 
-#: js/editorMixins/editableForm.es6:705
+#: js/editorMixins/editableForm.es6:739
 msgid "Import Cascading Select Questions"
 msgstr "Importer des questions en cascade"
+
+#: js/formbuild/containers/KoboMatrix.es6:40 js/i18nMissingStrings.es6:102
+msgid "Select One"
+msgstr "Sélectionner une"
+
+#: js/formbuild/containers/KoboMatrix.es6:44 js/i18nMissingStrings.es6:103
+msgid "Select Many"
+msgstr "Sélectionner plusieurs"
+
+#: js/formbuild/containers/KoboMatrix.es6:48 js/i18nMissingStrings.es6:53
+msgid "Text"
+msgstr "Texte"
+
+#: js/formbuild/containers/KoboMatrix.es6:52 js/i18nMissingStrings.es6:54
+msgid "Number"
+msgstr "Chiffre"
+
+#: js/formbuild/containers/KoboMatrix.es6:167
+msgid "Change column type?"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:168
+msgid ""
+"Are you sure you want to change the type? This action is irreversible, your "
+"existing option choices will be erased."
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:169
+msgid "Change type"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:196
+#: js/formbuild/containers/KoboMatrix.es6:199
+msgid "Option 1"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:207
+#: js/formbuild/containers/KoboMatrix.es6:210
+msgid "Option 2"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:262
+#: js/formbuild/containers/KoboMatrix.es6:265
+msgid "Row"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:280
+#: js/formbuild/containers/KoboMatrix.es6:289
+msgid "Column"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:308
+#| msgid "Delete Project"
+msgid "Delete row?"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:309
+#| msgid ""
+#| "u sure you want to delete this collection? this action is not ersible"
+msgid ""
+"Are you sure you want to delete this row? This action cannot be undone."
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:329
+#| msgid "Delete collection"
+msgid "Delete column?"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:330
+#| msgid ""
+#| "u sure you want to delete this collection? this action is not ersible"
+msgid ""
+"Are you sure you want to delete this column? This action cannot be undone."
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:397 js/i18nMissingStrings.es6:17
+msgid "Response Type"
+msgstr "Type de réponse"
+
+#: js/formbuild/containers/KoboMatrix.es6:404
+#: js/formbuild/containers/KoboMatrix.es6:431
+#: js/formbuild/containers/KoboMatrix.es6:512
+#| msgid "Labels"
+msgid "Label"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:411
+#| msgid "Data column name"
+msgid "Data Column Suffix"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:418
+msgid "Required"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:432
+#| msgid "Data column name"
+msgid "Data Column Name"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:464
+#| msgid "Delete collection"
+msgid "Delete column"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:519
+#| msgid "Data column name"
+msgid "Data Column Prefix"
+msgstr ""
+
+#: js/formbuild/containers/KoboMatrix.es6:527
+#| msgid "Delete Project"
+msgid "Delete row"
+msgstr ""
 
 #: js/i18nMissingStrings.es6:8
 msgid "Add another condition"
@@ -1278,10 +1812,6 @@ msgstr "Options"
 msgid "Validation Criteria"
 msgstr "Critères de validation"
 
-#: js/i18nMissingStrings.es6:17
-msgid "Response Type"
-msgstr "Type de réponse"
-
 #: js/i18nMissingStrings.es6:18
 msgid "A constraint message to be read in case of error:"
 msgstr "Un message de contrainte à lire en cas d'erreur"
@@ -1293,8 +1823,8 @@ msgstr "La ligne ne peut pas être affichée :"
 #: js/i18nMissingStrings.es6:20
 msgid ""
 "This question could not be imported. Please re-create it manually. Please "
-"contact us at support@kobotoolbox.org so we can fix this bug!"
-msgstr "Cette question ne peut être importée. Veuillez la recréer manuellement. Veuillez nous contacter au support@kobotoolbox.org pour que nous puissions régler l'anomalie!"
+"contact us at help@kobotoolbox.org so we can fix this bug!"
+msgstr ""
 
 #: js/i18nMissingStrings.es6:21
 msgid "Add Question"
@@ -1426,14 +1956,6 @@ msgstr "Copier la question"
 msgid "[button triggers] Add Question to Library"
 msgstr "Ajouter la question à la librairie"
 
-#: js/i18nMissingStrings.es6:53
-msgid "Text"
-msgstr "Texte"
-
-#: js/i18nMissingStrings.es6:54
-msgid "Number"
-msgstr "Chiffre"
-
 #: js/i18nMissingStrings.es6:55
 msgid "Decimal"
 msgstr "Décimal "
@@ -1560,8 +2082,8 @@ msgstr "Veuillez vérifier votre connexion et réessayer."
 msgid ""
 "The server encountered an error while trying to deploy the project. If this "
 "problem persists, please contact <a "
-"href=\"mailto:support@kobotoolbox.org\">support@kobotoolbox.org</a>."
-msgstr "Le serveur a rencontré une erreur lors de la tentative de déploiement du projet. Si ce problème persiste, contactez <a href=\"mailto:support@kobotoolbox.org\">support@kobotoolbox.org</a>."
+"href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>."
+msgstr ""
 
 #: js/i18nMissingStrings.es6:86
 msgid "The form id was not valid."
@@ -1627,14 +2149,6 @@ msgstr "Valeur de la réponse"
 msgid "Are you sure you want to delete this question?"
 msgstr "Etes-vous sûr de vouloir supprimer cette question?"
 
-#: js/i18nMissingStrings.es6:102
-msgid "Select One"
-msgstr "Sélectionner une"
-
-#: js/i18nMissingStrings.es6:103
-msgid "Select Many"
-msgstr "Sélectionner plusieurs"
-
 #: js/i18nMissingStrings.es6:104
 msgid "Unable to deploy"
 msgstr "incapable de déployer"
@@ -1691,14 +2205,6 @@ msgstr "Quitter beta"
 msgid "Form"
 msgstr "Fiche"
 
-#: js/i18nMissingStrings.es6:120
-msgid "Data"
-msgstr "Données"
-
-#: js/i18nMissingStrings.es6:121
-msgid "Reports"
-msgstr "Rapports"
-
 #: js/i18nMissingStrings.es6:122
 msgid "Settings"
 msgstr "Paramètres"
@@ -1722,14 +2228,6 @@ msgstr "aucun"
 #: js/i18nMissingStrings.es6:127
 msgid "report type"
 msgstr "type de rapport"
-
-#: js/i18nMissingStrings.es6:128
-msgid "create"
-msgstr "Créer"
-
-#: js/i18nMissingStrings.es6:129
-msgid "save"
-msgstr "Sauvegarder"
 
 #: js/i18nMissingStrings.es6:130
 msgid "form name"
@@ -1923,7 +2421,7 @@ msgstr "Plus d'actions"
 msgid "Archived"
 msgstr "Archivés"
 
-#: js/lists/library.es6:62 js/mixins.es6:379
+#: js/lists/library.es6:62 js/mixins.es6:318
 msgid "library item"
 msgstr "Élément de la  bibliothèque "
 
@@ -1931,157 +2429,153 @@ msgstr "Élément de la  bibliothèque "
 msgid "library items"
 msgstr "Les éléments de la bibliothèque"
 
-#: js/lists/sidebarForms.es6:123
+#: js/lists/sidebarForms.es6:142
 msgid "Deleted"
 msgstr "Supprimé"
 
-#: js/mixins.es6:36
+#: js/mixins.es6:35
 msgid "copied to clipboard"
 msgstr "copié"
 
-#: js/mixins.es6:40 js/mixins.es6:340
+#: js/mixins.es6:39 js/mixins.es6:279
 msgid "Clone of"
 msgstr "Clone de"
 
-#: js/mixins.es6:44 js/mixins.es6:343
+#: js/mixins.es6:43 js/mixins.es6:282
 msgid "Clone form"
 msgstr "Cloner le projet"
 
-#: js/mixins.es6:45 js/mixins.es6:344
+#: js/mixins.es6:44 js/mixins.es6:283
 msgid "Enter the name of the cloned form"
 msgstr "Veuillez entrer le nom du projet cloné."
 
-#: js/mixins.es6:74
+#: js/mixins.es6:73
 msgid "Overwrite existing deployment"
 msgstr "Remplacer un déploiement existant"
 
-#: js/mixins.es6:75
+#: js/mixins.es6:74
 msgid ""
 "This form has already been deployed. Are you sure you want overwrite the "
 "existing deployment? <br/><br/><strong>This action cannot be "
 "undone.</strong>"
 msgstr "Ce formulaire a déjà été déployé. Voulez-vous vraiment écraser le déploiement existant? <br/><br/><strong>Cette action ne peut pas être annulée.</strong>"
 
-#: js/mixins.es6:82
+#: js/mixins.es6:81
 msgid "Deploying..."
 msgstr "En cours de déploiement..."
 
-#: js/mixins.es6:85
+#: js/mixins.es6:84
 msgid "redeployed form"
 msgstr "la fiche a été redéployé"
 
-#: js/mixins.es6:110
+#: js/mixins.es6:109
 msgid "deploying to kobocat..."
 msgstr "En cours de déploiement..."
 
-#: js/mixins.es6:113
+#: js/mixins.es6:112
 msgid "deployed form"
 msgstr "la fiche a été déployé"
 
-#: js/mixins.es6:132
-msgid "Only 1 file can be uploaded in this case"
-msgstr "Un seul fichier peut être téléchargé dans ce cas"
-
-#: js/mixins.es6:266
+#: js/mixins.es6:200
 msgid "Could not redirect to asset."
 msgstr "N'a pas pu réorienter vers la ressource"
 
-#: js/mixins.es6:276
+#: js/mixins.es6:210
 msgid "Replace operation completed"
 msgstr "Le remplacement a été effectué"
 
-#: js/mixins.es6:278
+#: js/mixins.es6:212
 msgid "XLS Upload completed"
 msgstr "Téléchargement XLS terminé"
 
-#: js/mixins.es6:284
+#: js/mixins.es6:218
 msgid ""
 "Your library assets have uploaded and are being processed. This may take a "
 "few moments."
 msgstr "Les ressources de votre bibliothèque ont été téléchargées et sont en cours de traitement. Ceci peut prendre quelques minutes."
 
-#: js/mixins.es6:286
+#: js/mixins.es6:220
 msgid ""
 "Your library assets have uploaded and are queued for processing. This may "
 "take a few moments."
 msgstr "Les ressources de votre bibliothèque ont été téléchargées et sont mises en file d'attente pour traitement.Ceci peut prendre quelque temps."
 
-#: js/mixins.es6:291
+#: js/mixins.es6:225
 msgid "Import Failure."
 msgstr "Échec d'importation"
 
-#: js/mixins.es6:294
+#: js/mixins.es6:228
 msgid "Import Failed."
 msgstr "L'importation a échoué"
 
-#: js/mixins.es6:302
+#: js/mixins.es6:236
 msgid "Failed to create import."
 msgstr "L'importation a échoué."
 
-#: js/mixins.es6:354
+#: js/mixins.es6:250
+msgid "Upload error: could not recognize Excel file."
+msgstr ""
+
+#: js/mixins.es6:293
 msgid "cloned project created"
 msgstr "Le projet cloné a été créé. "
 
-#: js/mixins.es6:376
+#: js/mixins.es6:315
 msgid "project"
 msgstr "projet"
 
-#: js/mixins.es6:389
+#: js/mixins.es6:328
 msgid "deleted permanently"
 msgstr "supprimé en permanence"
 
-#: js/mixins.es6:397
+#: js/mixins.es6:336
 msgid "You are about to permanently delete this item from your library."
 msgstr "Vous êtes en train de supprimer définitivement cet item de votre bibliothèque."
 
-#: js/mixins.es6:399
+#: js/mixins.es6:338
 msgid "You are about to permanently delete this draft."
 msgstr "Vous êtes sur le point de supprimer définitivement ce brouillon."
 
-#: js/mixins.es6:402
+#: js/mixins.es6:341
 msgid "You are about to permanently delete this form."
 msgstr "Vous êtes en train de supprimer définitivement ce formulaire."
 
-#: js/mixins.es6:403
+#: js/mixins.es6:342
 msgid "All data gathered for this form will be deleted."
 msgstr "Toutes les données recueillies pour ce formulaire seront supprimées."
 
-#: js/mixins.es6:404
+#: js/mixins.es6:343
 msgid "All questions created for this form will be deleted."
 msgstr "Toutes les questions créées pour ce formulaire seront supprimées."
 
-#: js/mixins.es6:405
+#: js/mixins.es6:344
 msgid "The form associated with this project will be deleted."
 msgstr "La fiche associé à ce projet sera supprimé."
 
-#: js/mixins.es6:406
+#: js/mixins.es6:345
 msgid ""
 "I understand that if I delete this project I will not be able to recover it."
 msgstr "Je comprends que si je supprime ce projet, je ne pourrai pas le récupérer."
 
-#: js/mixins.es6:446
+#: js/mixins.es6:385
 msgid "Archive Project"
 msgstr "Archiver le projet"
 
-#: js/mixins.es6:447
+#: js/mixins.es6:386
 msgid "Are you sure you want to archive this project?"
 msgstr "Voulez-vous vraiment archiver ce projet?"
 
-#: js/mixins.es6:448
+#: js/mixins.es6:387
 msgid "Your form will not accept submissions while it is archived."
 msgstr "Votre fiche n'acceptera pas de soumissions pendant qu'elle est archivé."
 
-#: js/mixins.es6:458
+#: js/mixins.es6:397
 msgid "archived project"
 msgstr "le projet a été archivé"
 
-#: js/models/surveyScope.es6:21
+#: js/models/surveyScope.es6:34
 msgid "question has been added to the library"
 msgstr "la question a été ajouté à la bibliotheque"
-
-#: js/stores.es6:415
-msgid "failed to list assets"
-msgstr "l'affichage des actif a échoué"
 
 #: js/ui.es6:159
 msgid "No name"
@@ -2098,3 +2592,66 @@ msgstr "ajouter une autre question"
 #: js/ui.es6:186
 msgid "and ## other questions"
 msgstr "et ## autres questions"
+
+#~ msgid "Group by question"
+#~ msgstr "Group by question"
+
+#~ msgid "Group by record"
+#~ msgstr "Group by record"
+
+#~ msgid "This form does not have any media questions."
+#~ msgstr "This form does not have any media questions."
+
+#~ msgid "Load More"
+#~ msgstr "Load More"
+
+#~ msgid "See "
+#~ msgstr "See"
+
+#~ msgid "images"
+#~ msgstr "images"
+
+#~ msgid "Show oldest first"
+#~ msgstr "Show oldest first"
+
+#~ msgid "All photos of"
+#~ msgstr "All photos of"
+
+#~ msgid "Showing"
+#~ msgstr "Showing"
+
+#~ msgid "Per page:"
+#~ msgstr "Per page:"
+
+#~ msgid "click to edit"
+#~ msgstr "click to edit"
+
+#~ msgid "Graph Settings"
+#~ msgstr "Graph Settings"
+
+#~ msgid "Size"
+#~ msgstr "Size"
+
+#~ msgid "Height: "
+#~ msgstr "Height: "
+
+#~ msgid "Done"
+#~ msgstr "Done"
+
+#~ msgid "Global Graph Settings"
+#~ msgstr "Global Graph Settings"
+
+#~ msgid "Can View"
+#~ msgstr "Can View"
+
+#~ msgid "Can Edit"
+#~ msgstr "Can Edit"
+
+#~ msgid "read more..."
+#~ msgstr "read more..."
+
+#~ msgid "Only 1 file can be uploaded in this case"
+#~ msgstr "Only 1 file can be uploaded in this case"
+
+#~ msgid "failed to list assets"
+#~ msgstr "failed to list assets"
