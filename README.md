@@ -16,12 +16,18 @@ To update the KPI UI's translatable sources using Poedit, follow these instructi
         1. Click File, Preferences, and choose the Extractors tab.
         1. Click JavaScript and click the Edit button.
         1. Append `;*.es6` to the "List of extensions…" field.
-        1. Click OK and close the Preferences window. ~~but leave the Preferences window open.~~
-    * **TODO: Fix this!** ~~Enable CoffeeScript parsing. By default, `gettext` doesn't have a CoffeeScript parser, but the PHP extractor works fairly well with .coffee files.~~
-        1. ~~Inside the Extractors tab of the Preferences window, click PHP.~~
-        1. ~~Click the Edit button.~~
-        1. ~~Append `;*.coffee` to the "List of extensions…" field.~~
-        1. ~~Click OK and close the Preferences window.~~
+        1. Click OK and close the Preferences window but leave the Preferences window open.
+    * Enable CoffeeScript parsing. By default, `gettext` doesn't have a CoffeeScript parser, but the `C/C++` extractor works fairly well with .coffee files.
+        1. Inside the Extractors tab of the Preferences window, click PHP.
+        1. Click the Edit button.
+        1. Append `;*.coffee` to the "List of extensions…" field.
+        1. Click OK and close the Preferences window.
+
+    **N.B.: C/C++ requires all string to be wrapped in double-quotes.**
+
+    - `_t('Foo')` won't be detected
+    - `_t("Foo")` will be detected
+
 * Still within Poedit, open the `locale/en/LC_MESSAGES/djangojs.po` (inside the KPI root directory) file with Poedit. We are opening the English file because we're just extracting strings: the actual translation takes place on Transifex.
     * Ignore the "Language of the translation is the same as source language" warning.
 * Click the Catalog menu and click "Update from Sources". You should see a summary of the new and obsolete strings. Review and save the changes if all looks ok.
