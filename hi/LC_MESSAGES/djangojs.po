@@ -7,16 +7,16 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koboform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-09 13:25-0500\n"
-"PO-Revision-Date: 2018-04-19 10:04+0000\n"
-"Last-Translator: Kurund Jalmi <kurund.jalmi@gmail.com>\n"
+"POT-Creation-Date: 2019-07-12 11:37-0400\n"
+"PO-Revision-Date: 2019-07-12 15:41+0000\n"
+"Last-Translator: Penar Musaraj <pmusaraj@gmail.com>\n"
 "Language-Team: Hindi (http://www.transifex.com/kobotoolbox/koboform/language/hi/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.8\n"
 "X-Poedit-Basepath: ../../../jsapp\n"
 "X-Poedit-KeywordsList: t;_t\n"
 "X-Poedit-SearchPath-0: js\n"
@@ -24,751 +24,1217 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: js/libs\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: js/actions.es6:287
+#: xlform/src/mv.skipLogicHelpers.coffee:418 js/i18nMissingStrings.es6:127
+msgid "Add a condition"
+msgstr "एक शर्त जोड़ें"
+
+#: xlform/src/mv.skipLogicHelpers.coffee:419 js/i18nMissingStrings.es6:128
+msgid "Manually enter your skip logic in XLSForm code"
+msgstr "मैन्युअल रूप से XLSForm कोड में अपना छोड़ तर्क दर्ज करें"
+
+#: xlform/src/mv.validationLogicHelpers.coffee:75 js/i18nMissingStrings.es6:79
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr "मैन्युअल रूप से XLSForm कोड में अपना मान्यकरण तर्क दर्ज करें"
+
+#: xlform/src/mv.validationLogicHelpers.coffee:93
+msgid "Validation Code:"
+msgstr ""
+
+#: xlform/src/view.choices.templates.coffee:8 js/i18nMissingStrings.es6:43
+msgid "Click to add another response..."
+msgstr "एक और प्रतिक्रिया जोड़ने के लिए क्लिक करें..."
+
+#: xlform/src/view.choices.templates.coffee:8 js/i18nMissingStrings.es6:77
+msgid "Value:"
+msgstr "मूल्य:"
+
+#: xlform/src/view.choices.templates.coffee:8 js/i18nMissingStrings.es6:44
+msgid "AUTOMATIC"
+msgstr "स्वचालित"
+
+#: xlform/src/view.icons.coffee:9 js/formbuild/containers/KoboMatrix.es6:42
+#: js/i18nMissingStrings.es6:131
+msgid "Select One"
+msgstr "एक चुनो"
+
+#: xlform/src/view.icons.coffee:14 js/formbuild/containers/KoboMatrix.es6:46
+#: js/i18nMissingStrings.es6:132
+msgid "Select Many"
+msgstr "कई चुनें"
+
+#: xlform/src/view.icons.coffee:19 js/formbuild/containers/KoboMatrix.es6:50
+#: js/i18nMissingStrings.es6:84
+msgid "Text"
+msgstr "टेक्स्ट"
+
+#: xlform/src/view.icons.coffee:24 js/formbuild/containers/KoboMatrix.es6:54
+#: js/i18nMissingStrings.es6:85
+msgid "Number"
+msgstr "संख्या"
+
+#: xlform/src/view.icons.coffee:31 js/i18nMissingStrings.es6:86
+msgid "Decimal"
+msgstr "दशमलव"
+
+#: xlform/src/view.icons.coffee:36
+#: js/components/RESTServices/RESTServiceLogs.es6:274
+#: js/i18nMissingStrings.es6:87
+msgid "Date"
+msgstr "तारीख"
+
+#: xlform/src/view.icons.coffee:41 js/i18nMissingStrings.es6:88
+msgid "Time"
+msgstr "समय"
+
+#: xlform/src/view.icons.coffee:46 js/i18nMissingStrings.es6:89
+msgid "Date & time"
+msgstr "दिनांक और समय"
+
+#: xlform/src/view.icons.coffee:53
+msgid "Point"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:58 js/i18nMissingStrings.es6:91
+msgid "Photo"
+msgstr "तस्वीर"
+
+#: xlform/src/view.icons.coffee:63 js/i18nMissingStrings.es6:92
+msgid "Audio"
+msgstr "ऑडियो"
+
+#: xlform/src/view.icons.coffee:68 js/i18nMissingStrings.es6:93
+msgid "Video"
+msgstr "वीडियो"
+
+#: xlform/src/view.icons.coffee:75 js/i18nMissingStrings.es6:75
+msgid "Line"
+msgstr "लाइन"
+
+#: xlform/src/view.icons.coffee:80 js/i18nMissingStrings.es6:94
+msgid "Note"
+msgstr "टिप्पणी"
+
+#: xlform/src/view.icons.coffee:85
+msgid "Barcode / QR Code"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:90 js/i18nMissingStrings.es6:96
+msgid "Acknowledge"
+msgstr "स्वीकार करते हैं"
+
+#: xlform/src/view.icons.coffee:97 js/i18nMissingStrings.es6:72
+msgid "Area"
+msgstr "क्षेत्र"
+
+#: xlform/src/view.icons.coffee:102
+msgid "Rating"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:107
+msgid "Question Matrix"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:112 js/i18nMissingStrings.es6:99
+msgid "Ranking"
+msgstr "श्रेणी"
+
+#: xlform/src/view.icons.coffee:119 js/i18nMissingStrings.es6:97
+msgid "Calculate"
+msgstr "गणना"
+
+#: xlform/src/view.icons.coffee:124
+msgid "File"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:129
+msgid "Range"
+msgstr ""
+
+#: xlform/src/view.row.coffee:199 js/i18nMissingStrings.es6:101
+msgid ""
+"You can't display nested groups on the same screen - the setting has been "
+"removed from the parent group"
+msgstr "आप एक ही स्क्रीन पर नेस्टेड समूह प्रदर्शित नहीं कर सकते - सेटिंग को मूल समूह से हटा दिया गया है"
+
+#: xlform/src/view.row.templates.coffee:18
+#: xlform/src/view.row.templates.coffee:34 js/i18nMissingStrings.es6:151
+msgid "Settings"
+msgstr "सेटिंग्स"
+
+#: xlform/src/view.row.templates.coffee:19
+msgid "All group settings"
+msgstr ""
+
+#: xlform/src/view.row.templates.coffee:20
+#: xlform/src/view.row.templates.coffee:36 js/i18nMissingStrings.es6:45
+msgid "Skip Logic"
+msgstr "तर्क छोड़ें"
+
+#: xlform/src/view.row.templates.coffee:35 js/i18nMissingStrings.es6:46
+msgid "Question Options"
+msgstr "प्रश्न विकल्प"
+
+#: xlform/src/view.row.templates.coffee:37 js/i18nMissingStrings.es6:47
+msgid "Validation Criteria"
+msgstr "मान्यकरण मापदंड"
+
+#: xlform/src/view.row.templates.coffee:38
+#: js/formbuild/containers/KoboMatrix.es6:414 js/i18nMissingStrings.es6:48
+msgid "Response Type"
+msgstr "प्रतिक्रिया प्रकार"
+
+#: xlform/src/view.row.templates.coffee:116
+msgid ""
+"Note: The Matrix question type only works in Enketo web forms using the "
+"'grid' style."
+msgstr ""
+
+#: xlform/src/view.row.templates.coffee:281 js/i18nMissingStrings.es6:51
+msgid ""
+"This question could not be imported. Please re-create it manually. Please "
+"contact us at help@kobotoolbox.org so we can fix this bug!"
+msgstr "यह प्रश्न आयात नहीं किया जा सका. कृपया मैन्युअल रूप से इसे पुन: बनाएं. help@kobotoolbox.org पर हमसे संपर्क करें ताकि हम इस बग को ठीक कर सकें!"
+
+#: xlform/src/view.rowDetail.SkipLogic.coffee:262
+#: js/i18nMissingStrings.es6:129
+msgid "response value"
+msgstr "प्रतिक्रिया मूल्य"
+
+#: xlform/src/view.rowDetail.coffee:192
+msgid "Guidance hint"
+msgstr ""
+
+#: xlform/src/view.rowDetail.coffee:199 js/i18nMissingStrings.es6:105
+msgid "Error Message"
+msgstr "त्रुटि संदेश"
+
+#: xlform/src/view.rowDetail.coffee:262 js/i18nMissingStrings.es6:106
+msgid "Data column name"
+msgstr "डेटा कॉलम का नाम"
+
+#: xlform/src/view.rowDetail.coffee:284
+msgid "HXL"
+msgstr ""
+
+#: xlform/src/view.rowDetail.coffee:380 js/i18nMissingStrings.es6:107
+msgid "Default response"
+msgstr "डिफ़ॉल्ट प्रतिक्रिया"
+
+#: xlform/src/view.rowDetail.coffee:393 js/i18nMissingStrings.es6:108
+msgid "Repeat"
+msgstr "दोहराएँ"
+
+#: xlform/src/view.rowDetail.coffee:393 js/i18nMissingStrings.es6:109
+msgid "Repeat this group if necessary"
+msgstr "यदि आवश्यक हो तो इस समूह को दोहराएं"
+
+#: xlform/src/view.rowDetail.coffee:400 js/i18nMissingStrings.es6:110
+msgid "Mandatory response"
+msgstr "अनिवार्य प्रतिक्रिया"
+
+#: xlform/src/view.rowDetail.coffee:419 xlform/src/view.rowDetail.coffee:425
+#: xlform/src/view.rowDetail.coffee:427 js/i18nMissingStrings.es6:111
+msgid "Appearance (advanced)"
+msgstr "उपस्थिति (उन्नत)"
+
+#: xlform/src/view.rowDetail.coffee:419 js/i18nMissingStrings.es6:112
+msgid "Show all questions in this group on the same screen"
+msgstr "एक ही स्क्रीन पर इस समूह में सभी प्रश्न दिखाएं"
+
+#: xlform/src/view.rowSelector.templates.coffee:33
+#: js/i18nMissingStrings.es6:52
+msgid "Add Question"
+msgstr "सवाल जोड़ें"
+
+#: xlform/src/view.surveyApp.coffee:588 js/i18nMissingStrings.es6:130
+msgid "Are you sure you want to delete this question?"
+msgstr "क्या आप वाकई इस प्रश्न को हटाना चाहते हैं?"
+
+#: xlform/src/view.surveyApp.coffee:589 js/i18nMissingStrings.es6:126
+msgid "This action cannot be undone."
+msgstr "इस क्रिया को पूर्ववत नहीं किया जा सकता है."
+
+#: xlform/src/view.surveyApp.templates.coffee:6
+msgid "Start from Scratch"
+msgstr ""
+
+#: xlform/src/view.surveyApp.templates.coffee:7 js/i18nMissingStrings.es6:53
+msgid "or"
+msgstr "या"
+
+#: xlform/src/view.surveyApp.templates.coffee:11 js/i18nMissingStrings.es6:54
+msgid "Import XLS"
+msgstr "आयात XLS"
+
+#: xlform/src/view.surveyApp.templates.coffee:33 js/i18nMissingStrings.es6:68
+msgid "This form is currently empty."
+msgstr "यह फ़ॉर्म वर्तमान में खाली है"
+
+#: js/actions.es6:286
 msgid "updated profile successfully"
 msgstr "प्रोफाइल को सफलतापूर्वक अपडेट किया गया"
 
-#: js/actions.es6:290
+#: js/actions.es6:297
+msgid "Some fields contain errors"
+msgstr ""
+
+#: js/actions.es6:299
 msgid "failed to update profile"
 msgstr "प्रोफ़ाइल अपडेट करने में विफल"
 
-#: js/actions.es6:306
+#: js/actions.es6:322
 msgid "successfully uploaded file; processing may take a few minutes"
 msgstr "फ़ाइल सफलतापूर्वक अपलोड की गई;प्रसंस्करण में कुछ मिनट लग सकते हैं"
 
-#: js/actions.es6:312
+#: js/actions.es6:328
 msgid "Error: import.status not available"
 msgstr "त्रुटि: import.status उपलब्ध नहीं है"
 
-#: js/actions.es6:349
+#: js/actions.es6:357
 msgid "successfully updated"
 msgstr "सफलतापूर्वक उत्परिवर्तित"
 
-#: js/actions.es6:410
+#: js/actions.es6:397
 msgid "please check your connection and try again."
 msgstr "कृपया अपने संपर्क की जांच करे और फिर से प्रयास करें."
 
-#: js/actions.es6:413
+#: js/actions.es6:400
 msgid "if this problem persists, contact help@kobotoolbox.org"
 msgstr "यदि यह समस्या बनी रहती है, तो संपर्क करें help@kobotoolbox.org."
 
-#: js/actions.es6:420
+#: js/actions.es6:407
 msgid "your form id was not valid:"
 msgstr "आपका फ़ॉर्म आईडी मान्य नहीं था:"
 
-#: js/actions.es6:426
+#: js/actions.es6:413
 msgid "your form cannot be deployed because it contains errors:"
 msgstr "आपके फ़ॉर्म को तैनात नहीं किया जा सकता क्योंकि इसमें त्रुटियां हैं:"
 
-#: js/app.es6:229
+#: js/actions/help.es6:39
+msgid "Failed to get in app messages."
+msgstr ""
+
+#: js/actions/help.es6:52
+msgid "Failed to set message readTime."
+msgstr ""
+
+#: js/actions/help.es6:61
+msgid "Failed to set message acknowledged."
+msgstr ""
+
+#: js/app.es6:256
 msgid "path not found / recognized"
 msgstr "पथ नहीं मिला या मान्यता प्राप्त नहीं"
 
-#: js/components/accountSettings.es6:68
-msgid "Male"
-msgstr "पुरुष"
-
-#: js/components/accountSettings.es6:72
-msgid "Female"
-msgstr "महिला"
-
-#: js/components/accountSettings.es6:76
-msgid "Other"
-msgstr "अन्य"
-
-#: js/components/accountSettings.es6:141 js/components/accountSettings.es6:392
-#: js/components/formEditors.es6:99 js/components/formLanding.es6:398
-#: js/components/formSubScreens.es6:142 js/components/formSummary.es6:322
-#: js/components/modal.es6:136 js/components/reports.es6:1046
-#: js/components/reports.es6:1090 js/components/searchcollectionlist.es6:212
-#: js/components/searchcollectionlist.es6:229
-#: js/components/sharingForm.es6:250 js/components/submission.es6:161
-#: js/editorMixins/editableForm.es6:606 js/lists/sidebarForms.es6:87
-#: js/lists/sidebarForms.es6:109
-msgid "loading..."
-msgstr "लोड हो रहा है"
-
-#: js/components/accountSettings.es6:161 js/components/accountSettings.es6:447
-#: js/components/formEditors.es6:244
-msgid "Save Changes"
-msgstr "परिवर्तनों को सुरक्षित करें"
-
-#: js/components/accountSettings.es6:173
-msgid "Privacy"
-msgstr "गोपनीयता"
-
-#: js/components/accountSettings.es6:182
-msgid "Require authentication to see forms and submit data"
-msgstr "फॉर्म देखने और डेटा जमा करने के लिए प्रमाणन की आवश्यकता है"
-
-#: js/components/accountSettings.es6:187
-#: js/components/searchcollectionlist.es6:117
-#: js/components/searchcollectionlist.es6:132
-msgid "Name"
-msgstr "नाम"
-
-#: js/components/accountSettings.es6:192
-msgid "Use this to display your real name to other users"
-msgstr "अपने वास्तविक नाम को अन्य उपयोगकर्ताओं को प्रदर्शित करने के लिए इसका उपयोग करें"
-
-#: js/components/accountSettings.es6:197
-msgid "Email"
-msgstr "ईमेल"
-
-#: js/components/accountSettings.es6:205
-msgid "Modify Password"
-msgstr "पासवर्ड संशोधित करें"
-
-#: js/components/accountSettings.es6:210
-msgid "Organization"
-msgstr "संगठन"
-
-#: js/components/accountSettings.es6:217
-msgid "Organization Website"
-msgstr "संगठन की वेबसाइट"
-
-#: js/components/accountSettings.es6:222
-msgid "This will be used to create a hyperlink for your organization name. "
-msgstr "इसका उपयोग आपके संगठन नाम के लिए हाइपरलिंक बनाने के लिए किया जाएगा."
-
-#: js/components/accountSettings.es6:227
-msgid "Primary Sector"
-msgstr "प्राथमिक क्षेत्र"
-
-#: js/components/accountSettings.es6:234
-msgid "Select the primary sector in which you work. "
-msgstr "प्राथमिक क्षेत्र चुनें, जिसमें आप काम करते हैं."
-
-#: js/components/accountSettings.es6:239
-msgid "Gender"
-msgstr "लिंग"
-
-#: js/components/accountSettings.es6:248
-msgid "Bio"
-msgstr "जीवनी"
-
-#: js/components/accountSettings.es6:255
-msgid "Phone Number"
-msgstr "फ़ोन नंबर"
-
-#: js/components/accountSettings.es6:262
-msgid "Address"
-msgstr "पता"
-
-#: js/components/accountSettings.es6:269
-msgid "City"
-msgstr "शहर"
-
-#: js/components/accountSettings.es6:276 js/components/formEditors.es6:169
-msgid "Country"
-msgstr "देश"
-
-#: js/components/accountSettings.es6:285
-msgid "Default Form Language"
-msgstr "डिफ़ॉल्ट फॉर्म भाषा"
-
-#: js/components/accountSettings.es6:294
-msgid "Social"
-msgstr "सामाजिक"
-
-#: js/components/accountSettings.es6:314
-msgid "Metadata"
-msgstr "मेटाडेटा"
-
-#: js/components/accountSettings.es6:349
-msgid "This field is required."
-msgstr "यह फ़ील्ड आवश्यक है."
-
-#: js/components/accountSettings.es6:359
-msgid "This field must match the Verify Password field."
-msgstr "यह फ़ील्ड सत्यापन पासवर्ड क्षेत्र से मेल खाना चाहिए."
-
-#: js/components/accountSettings.es6:415
-msgid "Reset Password"
-msgstr "रीसेट पासवर्ड"
-
-#: js/components/accountSettings.es6:419
-msgid "Current Password"
-msgstr "वर्तमान पासवर्ड"
-
-#: js/components/accountSettings.es6:425
-msgid "Forgot Password?"
-msgstr "पासवर्ड भूल गए?"
-
-#: js/components/accountSettings.es6:430
-msgid "New Password"
-msgstr "नया पासवर्ड"
-
-#: js/components/accountSettings.es6:438
-msgid "Verify Password"
-msgstr "पासवर्ड को सत्यापित करें"
-
-#: js/components/assetrow.es6:49 js/components/reports.es6:759
-#: js/components/reports.es6:821
-msgid "untitled"
-msgstr "शीर्षकहीन"
-
-#: js/components/assetrow.es6:186
-msgid "me"
-msgstr "मैं"
-
-#: js/components/assetrow.es6:230 js/components/submission.es6:221
-msgid "Edit"
-msgstr "संपादित करें"
-
-#: js/components/assetrow.es6:241
-msgid "Tags"
-msgstr "टैग"
-
-#: js/components/assetrow.es6:252 js/components/librarySidebar.es6:339
-msgid "Share"
-msgstr "साझा करें"
-
-#: js/components/assetrow.es6:262 js/components/formLanding.es6:140
-msgid "Clone"
-msgstr "क्लोन"
-
-#: js/components/assetrow.es6:296
-msgid "Deploy this project"
-msgstr "इस परियोजना को तैनात करें"
-
-#: js/components/assetrow.es6:296
-msgid "Redeploy this project"
-msgstr " इस परियोजना को  पुनतैनात करिए"
-
-#: js/components/assetrow.es6:310 js/components/formLanding.es6:356
-msgid "Replace with XLS"
-msgstr "XLS के साथ बदलें"
-
-#: js/components/assetrow.es6:319 js/components/formEditors.es6:499
-#: js/components/formLanding.es6:370
-msgid "Download"
-msgstr "डाउनलोड"
-
-#: js/components/assetrow.es6:327
-msgid "Move to"
-msgstr "स्थानांतरित करें"
-
-#: js/components/assetrow.es6:359 js/mixins.es6:388
-msgid "Archive"
-msgstr "संग्रह"
-
-#: js/components/assetrow.es6:370 js/components/librarySidebar.es6:139
-#: js/components/librarySidebar.es6:361 js/components/reports.es6:296
-#: js/components/submission.es6:96 js/formbuild/containers/KoboMatrix.es6:310
-#: js/formbuild/containers/KoboMatrix.es6:331 js/mixins.es6:362
-#: js/mixins.es6:365
-msgid "Delete"
-msgstr "हटाना"
-
-#: js/components/drawer.es6:70 js/components/librarySidebar.es6:253
-msgid "new"
-msgstr "नया"
-
-#: js/components/drawer.es6:73
-msgid "Project"
-msgstr "परियोजना"
-
-#: js/components/drawer.es6:81 js/components/librarySidebar.es6:264
-msgid "upload"
-msgstr "अपलोड करें"
-
-#: js/components/drawer.es6:161 js/components/searchcollectionlist.es6:188
-msgid "Projects"
-msgstr "परियोजनाएं"
-
-#: js/components/drawer.es6:162 js/components/searchcollectionlist.es6:191
-msgid "Library"
-msgstr "लाइब्रेरी"
-
-#: js/components/drawer.es6:180
-msgid "Projects (legacy)"
-msgstr "परियोजनाएं (विरासत)"
-
-#: js/components/drawer.es6:184
-msgid "source"
-msgstr "स्रोत"
-
-#: js/components/drawer.es6:188
-msgid "help"
-msgstr "सहायता"
-
-#: js/components/formEditors.es6:88 js/components/header.es6:237
-msgid "Please enter a title for your project"
-msgstr "कृपया अपने परियोजना के लिए एक शीर्षक दर्ज करें"
-
-#: js/components/formEditors.es6:131
-msgid "Project Name"
-msgstr "परियोजना का नाम"
-
-#: js/components/formEditors.es6:135
-msgid "Enter title of project here"
-msgstr "परियोजना का शीर्षक यहां दर्ज करें"
-
-#: js/components/formEditors.es6:142 js/components/formSummary.es6:348
-msgid "Description"
-msgstr "विवरण"
-
-#: js/components/formEditors.es6:147
-msgid "Enter short description here"
-msgstr "संक्षिप्त विवरण यहां दर्ज करें"
-
-#: js/components/formEditors.es6:151
-msgid ""
-"Please specify the country and the sector where this project will be "
-"deployed. "
-msgstr "कृपया देश और क्षेत्र को निर्दिष्ट करें जहां इस परियोजना को तैनात किया जाएगा."
-
-#: js/components/formEditors.es6:152
-msgid ""
-"This information will be used to help you filter results on the project list"
-" page."
-msgstr "इस जानकारी का उपयोग प्रोजेक्ट सूची पेज पर परिणामों को फ़िल्टर करने में मदद करने के लिए किया जाएगा."
-
-#: js/components/formEditors.es6:158 js/components/formSummary.es6:361
-msgid "Sector"
-msgstr "क्षेत्र"
-
-#: js/components/formEditors.es6:185
-msgid ""
-"Help KoboToolbox improve this product by sharing the sector and country "
-"where this project will be deployed."
-msgstr "यह प्रोजेक्ट जहां तैनात किया जाएगा, उस क्षेत्र और देश को साझा करके कोबोटुलबॉक्स को इस उत्पाद को बेहतर बनाने में सहायता करें. "
-
-#: js/components/formEditors.es6:187
-msgid ""
-"All the information is submitted anonymously, and will not include the "
-"project name or description listed above."
-msgstr "सभी जानकारी गुमनाम रूप से प्रस्तुत की जाती है, और ऊपर सूचीबद्ध प्रोजेक्ट नाम या विवरण शामिल नहीं होगा."
-
-#: js/components/formEditors.es6:308
-msgid "Failed to retrieve the export task."
-msgstr "निर्यात कार्य प्राप्त करने में विफल."
-
-#: js/components/formEditors.es6:312
-msgid "Failed to create the export."
-msgstr "निर्यात बनाने में विफल."
-
-#: js/components/formEditors.es6:388 js/components/formLanding.es6:390
-#: js/components/formSubScreens.es6:130 js/components/formSummary.es6:315
-#: js/components/reports.es6:1059 js/editorMixins/editableForm.es6:698
+#: js/components/RESTServices.es6:16 js/components/formEditors.es6:235
+#: js/components/formLanding.es6:464 js/components/formSubScreens.es6:132
+#: js/components/formSummary.es6:317 js/components/reports.es6:1106
+#: js/editorMixins/editableForm.es6:921
 msgid "Untitled"
 msgstr "शीर्षकहीन"
 
-#: js/components/formEditors.es6:395
-#| msgid "Download"
-msgid "Download Data"
-msgstr "डेटा डाउनलोड करें"
+#: js/components/RESTServices/RESTServiceLogs.es6:57
+#: js/components/RESTServices/RESTServicesForm.es6:103
+msgid "Could not load REST Service"
+msgstr ""
 
-#: js/components/formEditors.es6:401
-msgid "Select export type"
-msgstr "निर्यात प्रकार का चयन करें"
+#: js/components/RESTServices/RESTServiceLogs.es6:76
+#: js/components/RESTServices/RESTServiceLogs.es6:97
+msgid "Could not load REST Service logs"
+msgstr ""
 
-#: js/components/formEditors.es6:404
-msgid "XLS"
-msgstr "XLS"
+#: js/components/RESTServices/RESTServiceLogs.es6:174
+msgid "Submission Failure Detail (##id##)"
+msgstr ""
 
-#: js/components/formEditors.es6:405
-msgid "XLS (legacy)"
-msgstr "XLS (विरासत)"
+#: js/components/RESTServices/RESTServiceLogs.es6:235
+msgid "Loading…"
+msgstr ""
 
-#: js/components/formEditors.es6:406
-msgid "CSV"
-msgstr "CSV"
+#: js/components/RESTServices/RESTServiceLogs.es6:235
+msgid "Load more"
+msgstr ""
 
-#: js/components/formEditors.es6:407
-msgid "CSV (legacy)"
-msgstr "CSV (विरासत)"
+#: js/components/RESTServices/RESTServiceLogs.es6:247
+msgid "There are no logs yet"
+msgstr ""
 
-#: js/components/formEditors.es6:408
-msgid "Media Attachments (ZIP)"
-msgstr "मीडिया अटैचमेंट (ZIP)"
+#: js/components/RESTServices/RESTServiceLogs.es6:261
+msgid "Submission"
+msgstr ""
 
-#: js/components/formEditors.es6:409
-msgid "GPS coordinates (KML)"
-msgstr "जीपीएस निर्देशांक (KML)"
+#: js/components/RESTServices/RESTServiceLogs.es6:263
+msgid "Status"
+msgstr ""
 
-#: js/components/formEditors.es6:410
-msgid "Excel Analyser"
-msgstr "एक्सेल विश्लेषक"
+#: js/components/RESTServices/RESTServiceLogs.es6:267
+msgid "Retry all submissions"
+msgstr ""
 
-#: js/components/formEditors.es6:411
-msgid "SPSS Labels"
-msgstr "SPSS लेबल"
+#: js/components/RESTServices/RESTServiceLogs.es6:282
+#: js/components/RESTServices/RESTServicesList.es6:168
+msgid "Success"
+msgstr ""
 
-#: js/components/formEditors.es6:416
-msgid "Value and header format"
-msgstr "मूल्य और हेडर प्रारूप"
+#: js/components/RESTServices/RESTServiceLogs.es6:286
+#: js/components/RESTServices/RESTServicesList.es6:168
+msgid "Pending"
+msgstr ""
 
-#: js/components/formEditors.es6:419
-msgid "XML values and headers"
-msgstr "XML मूल्य और हैडर"
+#: js/components/RESTServices/RESTServiceLogs.es6:289
+msgid "Pending (##count##×)"
+msgstr ""
 
-#: js/components/formEditors.es6:421
-msgid "Labels"
-msgstr "लेबल"
+#: js/components/RESTServices/RESTServiceLogs.es6:294
+#: js/components/RESTServices/RESTServicesList.es6:168
+msgid "Failed"
+msgstr ""
 
-#: js/components/formEditors.es6:438
-msgid "Include groups in headers"
-msgstr "हेडर में समूह शामिल करें"
+#: js/components/RESTServices/RESTServiceLogs.es6:302
+msgid "Open submission"
+msgstr ""
 
-#: js/components/formEditors.es6:443
-msgid "Group separator"
-msgstr "समूह विभाजक"
+#: js/components/RESTServices/RESTServiceLogs.es6:319
+msgid "Retry submission"
+msgstr ""
 
-#: js/components/formEditors.es6:462
-#| msgid "Report"
-msgid "Export"
-msgstr "निर्यात"
+#: js/components/RESTServices/RESTServiceLogs.es6:328
+msgid "More info"
+msgstr ""
 
-#: js/components/formEditors.es6:472
-#| msgid "Previous Versions"
-msgid "Previous Exports"
-msgstr "पिछला निर्यात"
+#: js/components/RESTServices/RESTServiceLogs.es6:354
+#: js/components/RESTServices/RESTServicesForm.es6:402
+#: js/components/RESTServices/RESTServicesList.es6:210
+#: js/components/accountSettings.es6:170 js/components/accountSettings.es6:497
+#: js/components/formLanding.es6:473 js/components/formSubScreens.es6:151
+#: js/components/formSummary.es6:324 js/components/modal.es6:214
+#: js/components/modalForms/sharingForm.es6:258
+#: js/components/modalForms/submission.es6:398
+#: js/components/modalForms/translationSettings.es6:249
+#: js/components/reports.es6:1093 js/components/reports.es6:1136
+#: js/components/searchcollectionlist.es6:232
+#: js/components/searchcollectionlist.es6:257
+#: js/components/templatesList.es6:60 js/editorMixins/editableForm.es6:914
+#: js/lists/sidebarForms.es6:89 js/lists/sidebarForms.es6:111
+msgid "loading..."
+msgstr "लोड हो रहा है"
 
-#: js/components/formEditors.es6:476 js/components/submission.es6:237
-#| msgid "Type: "
+#: js/components/RESTServices/RESTServicesForm.es6:19
+msgid "JSON"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:23
+#: js/components/formEditors.es6:187
+msgid "XML"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:30
+msgid "No Authorization"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:34
+msgid "Basic Authorization"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:223
+msgid "Name required"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:227
+msgid "URL required"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:237
+msgid "Please enter both name and url of your service."
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:311
+msgid "Custom HTTP Headers"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:319
+#: js/components/RESTServices/RESTServicesForm.es6:412
+#: js/components/accountSettings.es6:222
+#: js/components/searchcollectionlist.es6:125
+#: js/components/searchcollectionlist.es6:143
+msgid "Name"
+msgstr "नाम"
+
+#: js/components/RESTServices/RESTServicesForm.es6:330
+#: js/components/reportViewItem.es6:66
+msgid "Value"
+msgstr "मूल्य"
+
+#: js/components/RESTServices/RESTServicesForm.es6:355
+msgid "Add header"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:371
+msgid "Add field(s)"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:378
+msgid "Select fields subset"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:414
+#: js/components/RESTServices/RESTServicesList.es6:150
+msgid "Service Name"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:423
+msgid "Endpoint URL"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:425
+msgid "https://"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:438
+msgid "Enabled"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:448
+msgid "Receive emails notifications"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:458
+#: js/components/formEditors.es6:330
+#: js/components/modalForms/submission.es6:527
+#: js/components/searchcollectionlist.es6:128
 msgid "Type"
 msgstr "प्रकार"
 
-#: js/components/formEditors.es6:477
-#: js/components/searchcollectionlist.es6:138
-msgid "Created"
-msgstr "बनाया"
+#: js/components/RESTServices/RESTServicesForm.es6:464
+msgid "Security"
+msgstr ""
 
-#: js/components/formEditors.es6:478 js/components/header.es6:180
-#: js/components/map.es6:419
-msgid "Language"
-msgstr "भाषा"
+#: js/components/RESTServices/RESTServicesForm.es6:484
+msgid "Username"
+msgstr "उपयोगकर्ता नाम"
 
-#: js/components/formEditors.es6:479
-#| msgid "Include groups in headers"
-msgid "Include Groups"
-msgstr "समूह शामिल करें"
+#: js/components/RESTServices/RESTServicesForm.es6:491
+msgid "Password"
+msgstr ""
 
-#: js/components/formEditors.es6:492 js/components/map.es6:427
-#| msgid "Default response"
+#: js/components/RESTServices/RESTServicesForm.es6:508
+#: js/components/mapSettings.es6:358
+#: js/components/modalForms/projectSettings.es6:874
+#: js/components/modalForms/tableColumnFilter.es6:235
+#: js/components/reports.es6:301 js/components/reports.es6:425
+#: js/components/reports.es6:712
+msgid "Save"
+msgstr "बचा ले"
+
+#: js/components/RESTServices/RESTServicesForm.es6:508 js/mixins.es6:763
+msgid "Create"
+msgstr "बनाएं"
+
+#: js/components/RESTServices/RESTServicesList.es6:45
+msgid "Could not load REST Services"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:71
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:114
+msgid "This project doesn't have any REST Services yet!"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:118
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:120
+#: js/i18nMissingStrings.es6:183
+msgid "Learn more"
+msgstr "और जानें"
+
+#: js/components/RESTServices/RESTServicesList.es6:135
+msgid "REST Services: ##number##"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:144
+msgid "Need help?"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:151
+msgid "Count"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:179
+#: js/components/modalForms/sharingForm.es6:299
+#: js/components/modalForms/submission.es6:512 js/components/table.es6:266
+msgid "Edit"
+msgstr "संपादित करें"
+
+#: js/components/RESTServices/RESTServicesList.es6:188
+#: js/components/assetrow.es6:435 js/components/formEditors.es6:218
+#: js/components/formEditors.es6:380 js/components/librarySidebar.es6:142
+#: js/components/librarySidebar.es6:383 js/components/mapSettings.es6:199
+#: js/components/modalForms/submission.es6:133
+#: js/components/modalForms/translationSettings.es6:128
+#: js/components/reports.es6:294 js/formbuild/containers/KoboMatrix.es6:327
+#: js/formbuild/containers/KoboMatrix.es6:348 js/mixins.es6:568
+#: js/mixins.es6:571
+msgid "Delete"
+msgstr "हटाना"
+
+#: js/components/accountSettings.es6:76
+msgid "Male"
+msgstr "पुरुष"
+
+#: js/components/accountSettings.es6:80
+msgid "Female"
+msgstr "महिला"
+
+#: js/components/accountSettings.es6:84
+msgid "Other"
+msgstr "अन्य"
+
+#: js/components/accountSettings.es6:194 js/components/accountSettings.es6:565
+#: js/components/modalForms/projectSettings.es6:779
+#: js/components/modalForms/translationTable.es6:12
+msgid "Save Changes"
+msgstr "परिवर्तनों को सुरक्षित करें"
+
+#: js/components/accountSettings.es6:209
+msgid "Privacy"
+msgstr "गोपनीयता"
+
+#: js/components/accountSettings.es6:216
+msgid "Require authentication to see forms and submit data"
+msgstr "फॉर्म देखने और डेटा जमा करने के लिए प्रमाणन की आवश्यकता है"
+
+#: js/components/accountSettings.es6:226
+msgid "Use this to display your real name to other users"
+msgstr "अपने वास्तविक नाम को अन्य उपयोगकर्ताओं को प्रदर्शित करने के लिए इसका उपयोग करें"
+
+#: js/components/accountSettings.es6:232
+msgid "Email"
+msgstr "ईमेल"
+
+#: js/components/accountSettings.es6:245
+msgid "Modify Password"
+msgstr "पासवर्ड संशोधित करें"
+
+#: js/components/accountSettings.es6:251
+msgid "Organization"
+msgstr "संगठन"
+
+#: js/components/accountSettings.es6:260
+msgid "Organization Website"
+msgstr "संगठन की वेबसाइट"
+
+#: js/components/accountSettings.es6:268
+msgid "This will be used to create a hyperlink for your organization name. "
+msgstr "इसका उपयोग आपके संगठन नाम के लिए हाइपरलिंक बनाने के लिए किया जाएगा."
+
+#: js/components/accountSettings.es6:274
+msgid "Primary Sector"
+msgstr "प्राथमिक क्षेत्र"
+
+#: js/components/accountSettings.es6:287
+msgid "Select the primary sector in which you work. "
+msgstr "प्राथमिक क्षेत्र चुनें, जिसमें आप काम करते हैं."
+
+#: js/components/accountSettings.es6:293
+msgid "Gender"
+msgstr "लिंग"
+
+#: js/components/accountSettings.es6:308
+msgid "Bio"
+msgstr "जीवनी"
+
+#: js/components/accountSettings.es6:320
+msgid "Phone Number"
+msgstr "फ़ोन नंबर"
+
+#: js/components/accountSettings.es6:329
+msgid "Address"
+msgstr "पता"
+
+#: js/components/accountSettings.es6:338
+msgid "City"
+msgstr "शहर"
+
+#: js/components/accountSettings.es6:347
+#: js/components/modalForms/projectSettings.es6:836
+msgid "Country"
+msgstr "देश"
+
+#: js/components/accountSettings.es6:362
+msgid "Default Form Language"
+msgstr "डिफ़ॉल्ट फॉर्म भाषा"
+
+#: js/components/accountSettings.es6:376
+msgid "Social"
+msgstr "सामाजिक"
+
+#: js/components/accountSettings.es6:411 js/editorMixins/editableForm.es6:853
+msgid "Metadata"
+msgstr "मेटाडेटा"
+
+#: js/components/accountSettings.es6:448
+msgid "This field is required."
+msgstr "यह फ़ील्ड आवश्यक है."
+
+#: js/components/accountSettings.es6:458
+msgid "This field must match the Verify Password field."
+msgstr "यह फ़ील्ड सत्यापन पासवर्ड क्षेत्र से मेल खाना चाहिए."
+
+#: js/components/accountSettings.es6:523
+msgid "Reset Password"
+msgstr "रीसेट पासवर्ड"
+
+#: js/components/accountSettings.es6:528
+msgid "Current Password"
+msgstr "वर्तमान पासवर्ड"
+
+#: js/components/accountSettings.es6:536
+msgid "Forgot Password?"
+msgstr "पासवर्ड भूल गए?"
+
+#: js/components/accountSettings.es6:542
+msgid "New Password"
+msgstr "नया पासवर्ड"
+
+#: js/components/accountSettings.es6:552
+msgid "Verify Password"
+msgstr "पासवर्ड को सत्यापित करें"
+
+#: js/components/assetrow.es6:34 js/components/reports.es6:800
+#: js/components/reports.es6:862
+msgid "untitled"
+msgstr "शीर्षकहीन"
+
+#: js/components/assetrow.es6:328 js/i18nMissingStrings.es6:204
+msgid "More Actions"
+msgstr "और क्रियाएँ"
+
+#: js/components/assetrow.es6:375 js/components/formEditors.es6:367
+#: js/components/formLanding.es6:385
+msgid "Download"
+msgstr "डाउनलोड"
+
+#: js/components/assetrow.es6:382
+msgid "Move to"
+msgstr "स्थानांतरित करें"
+
+#: js/components/assetrow.es6:413 js/mixins.es6:594
+msgid "Archive"
+msgstr "संग्रह"
+
+#: js/components/assetrow.es6:424 js/components/formLanding.es6:414
+msgid "Create template"
+msgstr ""
+
+#: js/components/drawer.es6:73 js/components/helpBubbles.es6:161
+#: js/components/librarySidebar.es6:265
+msgid "new"
+msgstr "नया"
+
+#: js/components/drawer.es6:149 js/components/searchcollectionlist.es6:200
+msgid "Projects"
+msgstr "परियोजनाएं"
+
+#: js/components/drawer.es6:150 js/components/searchcollectionlist.es6:203
+msgid "Library"
+msgstr "लाइब्रेरी"
+
+#: js/components/drawer.es6:171
+msgid "Projects (legacy)"
+msgstr "परियोजनाएं (विरासत)"
+
+#: js/components/drawer.es6:179
+msgid "Source"
+msgstr ""
+
+#: js/components/formEditors.es6:106
+msgid "Failed to retrieve the export task."
+msgstr "निर्यात कार्य प्राप्त करने में विफल."
+
+#: js/components/formEditors.es6:110
+msgid "Failed to create the export."
+msgstr "निर्यात बनाने में विफल."
+
+#: js/components/formEditors.es6:179 js/components/map.es6:737
 msgid "Default"
 msgstr "डिफ़ॉल्ट"
 
-#: js/components/formEditors.es6:495
-#| msgid "Note"
-msgid "No"
-msgstr "नहीं"
+#: js/components/formEditors.es6:216
+msgid "Delete export?"
+msgstr ""
 
-#: js/components/formEditors.es6:495
-#| msgid "yes"
+#: js/components/formEditors.es6:217
+msgid ""
+"Are you sure you want to delete this export? This action is not reversible."
+msgstr ""
+
+#: js/components/formEditors.es6:218 js/components/librarySidebar.es6:117
+#: js/components/librarySidebar.es6:142 js/components/librarySidebar.es6:172
+#: js/components/mapSettings.es6:199 js/components/modal.es6:161
+#: js/components/modalForms/copyTeamPermissions.es6:79
+#: js/components/modalForms/submission.es6:133
+#: js/components/modalForms/translationSettings.es6:128
+#: js/components/modalForms/translationSettings.es6:210
+#: js/components/modalForms/translationTable.es6:149
+#: js/components/table.es6:799 js/editorMixins/editableForm.es6:574
+#: js/formbuild/containers/KoboMatrix.es6:179
+#: js/formbuild/containers/KoboMatrix.es6:327
+#: js/formbuild/containers/KoboMatrix.es6:348 js/mixins.es6:52
+#: js/mixins.es6:113 js/mixins.es6:471 js/mixins.es6:572 js/mixins.es6:594
+#: js/mixins.es6:621 js/mixins.es6:763
+msgid "Cancel"
+msgstr "रद्द"
+
+#: js/components/formEditors.es6:223
+msgid "Failed to delete export."
+msgstr ""
+
+#: js/components/formEditors.es6:241
+msgid "Download Data"
+msgstr "डेटा डाउनलोड करें"
+
+#: js/components/formEditors.es6:247
+msgid "Select export type"
+msgstr "निर्यात प्रकार का चयन करें"
+
+#: js/components/formEditors.es6:250
+msgid "XLS"
+msgstr "XLS"
+
+#: js/components/formEditors.es6:251
+msgid "XLS (legacy)"
+msgstr "XLS (विरासत)"
+
+#: js/components/formEditors.es6:252
+msgid "CSV"
+msgstr "CSV"
+
+#: js/components/formEditors.es6:253
+msgid "CSV (legacy)"
+msgstr "CSV (विरासत)"
+
+#: js/components/formEditors.es6:254
+msgid "Media Attachments (ZIP)"
+msgstr "मीडिया अटैचमेंट (ZIP)"
+
+#: js/components/formEditors.es6:255
+msgid "GPS coordinates (KML)"
+msgstr "जीपीएस निर्देशांक (KML)"
+
+#: js/components/formEditors.es6:256
+msgid "Excel Analyser"
+msgstr "एक्सेल विश्लेषक"
+
+#: js/components/formEditors.es6:257
+msgid "SPSS Labels"
+msgstr "SPSS लेबल"
+
+#: js/components/formEditors.es6:263
+msgid "Value and header format"
+msgstr "मूल्य और हेडर प्रारूप"
+
+#: js/components/formEditors.es6:266
+msgid "XML values and headers"
+msgstr "XML मूल्य और हैडर"
+
+#: js/components/formEditors.es6:268
+#: js/components/modalForms/tableColumnFilter.es6:147
+msgid "Labels"
+msgstr "लेबल"
+
+#: js/components/formEditors.es6:283
+msgid "Include groups in headers"
+msgstr "हेडर में समूह शामिल करें"
+
+#: js/components/formEditors.es6:288
+msgid "Group separator"
+msgstr "समूह विभाजक"
+
+#: js/components/formEditors.es6:300
+msgid "Include fields from all ___ deployed versions"
+msgstr ""
+
+#: js/components/formEditors.es6:315
+msgid "Export"
+msgstr "निर्यात"
+
+#: js/components/formEditors.es6:326
+msgid "Exports"
+msgstr ""
+
+#: js/components/formEditors.es6:331
+#: js/components/searchcollectionlist.es6:149
+msgid "Created"
+msgstr "बनाया"
+
+#: js/components/formEditors.es6:332 js/components/header.es6:149
+#: js/components/map.es6:729
+msgid "Language"
+msgstr "भाषा"
+
+#: js/components/formEditors.es6:333
+msgid "Include Groups"
+msgstr "समूह शामिल करें"
+
+#: js/components/formEditors.es6:334
+msgid "Multiple Versions"
+msgstr ""
+
+#: js/components/formEditors.es6:354 js/components/formEditors.es6:361
 msgid "Yes"
 msgstr "हाँ"
 
-#: js/components/formEditors.es6:505
-#| msgid "Import Failed."
+#: js/components/formEditors.es6:354 js/components/formEditors.es6:361
+msgid "No"
+msgstr "नहीं"
+
+#: js/components/formEditors.es6:373
 msgid "Export Failed"
 msgstr "निर्यात विफल रहा"
 
-#: js/components/formEditors.es6:509
-#| msgid "Deploying..."
+#: js/components/formEditors.es6:377
 msgid "processing..."
 msgstr "प्रसंस्करण..."
 
-#: js/components/formLanding.es6:59
+#: js/components/formLanding.es6:51
 msgid "undeployed"
 msgstr "अपरिवर्तित"
 
-#: js/components/formLanding.es6:74 js/components/formLanding.es6:139
-#: js/components/searchcollectionlist.es6:123
-#: js/components/searchcollectionlist.es6:141
+#: js/components/formLanding.es6:66 js/components/formLanding.es6:153
+#: js/components/searchcollectionlist.es6:134
+#: js/components/searchcollectionlist.es6:152
 msgid "Last Modified"
 msgstr "अंतिम बार संशोधित"
 
-#: js/components/formLanding.es6:78
+#: js/components/formLanding.es6:70
 msgid "questions"
 msgstr "प्रशन"
 
-#: js/components/formLanding.es6:87
+#: js/components/formLanding.es6:79
 msgid "redeploy"
 msgstr "पुनर्वित्त"
 
-#: js/components/formLanding.es6:87
+#: js/components/formLanding.es6:86
 msgid "deploy"
 msgstr "तैनात करना"
 
-#: js/components/formLanding.es6:132
+#: js/components/formLanding.es6:93
+msgid "unarchive"
+msgstr ""
+
+#: js/components/formLanding.es6:146
 msgid "Form history"
 msgstr "प्रपत्र का इतिहास"
 
-#: js/components/formLanding.es6:138
+#: js/components/formLanding.es6:152
 msgid "Version"
 msgstr "संस्करण"
 
-#: js/components/formLanding.es6:149
+#: js/components/formLanding.es6:154 js/mixins.es6:49 js/mixins.es6:468
+msgid "Clone"
+msgstr "क्लोन"
+
+#: js/components/formLanding.es6:163
 msgid "Deployed"
 msgstr "तैनात"
 
-#: js/components/formLanding.es6:159
+#: js/components/formLanding.es6:173
 msgid "Clone this version as a new project"
 msgstr "इस संस्करण को एक नई परियोजना के रूप में क्लोन करें"
 
-#: js/components/formLanding.es6:172
+#: js/components/formLanding.es6:186
 msgid "Hide full history"
 msgstr "पूरा इतिहास छुपाएं"
 
-#: js/components/formLanding.es6:172
+#: js/components/formLanding.es6:186
 msgid "Show full history"
 msgstr "पूरा इतिहास दिखाएँ"
 
-#: js/components/formLanding.es6:184
+#: js/components/formLanding.es6:198
 msgid "Online-Offline (multiple submission)"
 msgstr "ऑनलाइन - ऑफ़लाइन (एकाधिक प्रस्तुतीकरण)"
 
-#: js/components/formLanding.es6:185
+#: js/components/formLanding.es6:199
 msgid ""
 "This allows online and offline submissions and is the best option for "
 "collecting data in the field. "
 msgstr "यह ऑनलाइन और ऑफ़लाइन प्रस्तुतियाँ प्रदान करता है और क्षेत्र में डेटा एकत्र करने का सर्वोत्तम विकल्प है."
 
-#: js/components/formLanding.es6:188
+#: js/components/formLanding.es6:202
 msgid "Online-Only (multiple submissions)"
 msgstr "ऑनलाइन - केवल (एकाधिक प्रस्तुतीकरण)"
 
-#: js/components/formLanding.es6:189
-#| msgid ""
-#| "s the best option when entering many records at once on a computer, . "
-#| "foranscribing paper records"
+#: js/components/formLanding.es6:203
 msgid ""
 "This is the best option when entering many records at once on a computer, "
 "e.g. for transcribing paper records."
 msgstr "कंप्यूटर पर एक साथ कई रिकॉर्ड दर्ज करते समय यह सबसे अच्छा विकल्प है, उदाहरण पेपर रिकॉर्डों को ट्रांसक्रिप्शन करने के लिए"
 
-#: js/components/formLanding.es6:192
-#| msgid "Online-Only (multiple submissions)"
+#: js/components/formLanding.es6:206
 msgid "Online-Only (single submission)"
 msgstr "केवल ऑनलाइन (एकल सबमिशन)"
 
-#: js/components/formLanding.es6:193
+#: js/components/formLanding.es6:207
 msgid ""
 "This allows a single submission, and can be paired with the \"returnURL\" "
 "parameter to redirect the user to a URL of your choice after the form has "
 "been submitted."
 msgstr "यह एक एकल सबमिशन की अनुमति देता है, और \"returnURL\" पैरामीटर के साथ युग्मित किया जा सकता है ताकि फ़ॉर्म सबमिट किए जाने के बाद उपयोगकर्ता को अपनी पसंद के URL में रीडायरेक्ट किया जा सके."
 
-#: js/components/formLanding.es6:196
+#: js/components/formLanding.es6:210
 msgid "Embeddable web form code"
 msgstr "एम्बेडेबल वेब फ़ॉर्म कोड"
 
-#: js/components/formLanding.es6:197
+#: js/components/formLanding.es6:211
 msgid ""
 "Use this html5 code snippet to integrate your form on your own website using"
 " smaller margins. "
 msgstr "छोटे मार्जिन का उपयोग करके अपनी स्वयं की वेबसाइट पर अपने फ़ॉर्म को एकीकृत करने के लिए इस html5 कोड स्निपेट का उपयोग करें."
 
-#: js/components/formLanding.es6:200
+#: js/components/formLanding.es6:214
 msgid "View only"
 msgstr "केवल देखें"
 
-#: js/components/formLanding.es6:201
+#: js/components/formLanding.es6:215
 msgid ""
 "Use this version for testing, getting feedback. Does not allow submitting "
 "data. "
 msgstr "परीक्षण, प्रतिक्रिया प्राप्त करने के लिए इस संस्करण का उपयोग करें. सबमिट करने की अनुमति नहीं देता है."
 
-#: js/components/formLanding.es6:204
+#: js/components/formLanding.es6:218
 msgid "Android application"
 msgstr "एंड्रॉइड एप्लिकेशन"
 
-#: js/components/formLanding.es6:205
+#: js/components/formLanding.es6:219
 msgid "Use this option to collect data in the field with your Android device."
 msgstr "अपने एंड्रॉइड डिवाइस के साथ फ़ील्ड में डेटा एकत्र करने के लिए इस विकल्प का उपयोग करें."
 
-#: js/components/formLanding.es6:230 js/components/formSummary.es6:207
+#: js/components/formLanding.es6:244 js/components/formSummary.es6:209
 msgid "Collect data"
 msgstr "डेटा इकट्ठा करना"
 
-#: js/components/formLanding.es6:254 js/components/formLanding.es6:274
+#: js/components/formLanding.es6:269 js/components/formLanding.es6:290
 msgid "Copy"
 msgstr "प्रतिलिपि"
 
-#: js/components/formLanding.es6:261 js/components/table.es6:174
+#: js/components/formLanding.es6:276 js/components/table.es6:260
 msgid "Open"
 msgstr "खुला"
 
-#: js/components/formLanding.es6:268
+#: js/components/formLanding.es6:283
 msgid "Download KoboCollect"
 msgstr "डाउनलोड कोबोंकरेत्र"
 
-#: js/components/formLanding.es6:293
+#: js/components/formLanding.es6:309
 msgid "Install"
 msgstr "इंस्टॉल करें"
 
-#: js/components/formLanding.es6:297
+#: js/components/formLanding.es6:313
 msgid "on your Android device."
 msgstr "आपके एंड्रॉइड डिवाइस पर"
 
-#: js/components/formLanding.es6:299
+#: js/components/formLanding.es6:315
 msgid "Click on"
 msgstr "पर क्लिक करें"
 
-#: js/components/formLanding.es6:299
+#: js/components/formLanding.es6:315
 msgid "to open settings."
 msgstr "सेटिंग्स खोलने के लिए."
 
-#: js/components/formLanding.es6:301
+#: js/components/formLanding.es6:317
 msgid "Enter the server URL"
 msgstr "सर्वर यूआरएल दर्ज करें"
 
-#: js/components/formLanding.es6:303
+#: js/components/formLanding.es6:319
 msgid "and your username and password"
 msgstr "और अपना उपयोगकर्ता नाम और पासवर्ड"
 
-#: js/components/formLanding.es6:305
+#: js/components/formLanding.es6:321
 msgid "Open \"Get Blank Form\" and select this project. "
 msgstr "खोलें \"रिक्त फॉर्म प्राप्त करें\" और इस प्रोजेक्ट का चयन करें."
 
-#: js/components/formLanding.es6:306
+#: js/components/formLanding.es6:322
 msgid "Open \"Enter Data.\""
 msgstr "खोलें \"डेटा दर्ज करें.\""
 
-#: js/components/formLanding.es6:336
+#: js/components/formLanding.es6:348
 msgid "edit"
 msgstr "संपादित करें"
 
-#: js/components/formLanding.es6:342
+#: js/components/formLanding.es6:354
 msgid "Editing capabilities not granted, you can only view this form"
 msgstr "संपादन क्षमता नहीं दी गई है, आप केवल इस फॉर्म को देख सकते हैं"
 
-#: js/components/formLanding.es6:348
+#: js/components/formLanding.es6:361
 msgid "Preview"
 msgstr "पूर्वावलोकन"
 
-#: js/components/formLanding.es6:378
+#: js/components/formLanding.es6:368
+#: js/components/modalForms/projectSettings.es6:135
+msgid "Replace form"
+msgstr ""
+
+#: js/components/formLanding.es6:393
+msgid "Download PDF"
+msgstr ""
+
+#: js/components/formLanding.es6:399
 msgid "Share this project"
 msgstr "इस परियोजना को साझा करें"
 
-#: js/components/formLanding.es6:383
+#: js/components/formLanding.es6:405
 msgid "Clone this project"
 msgstr "इस परियोजना को क्लोन करें"
 
-#: js/components/formLanding.es6:411
+#: js/components/formLanding.es6:420 js/components/formLanding.es6:454
+msgid "Manage Translations"
+msgstr ""
+
+#: js/components/formLanding.es6:433
+msgid "Languages:"
+msgstr ""
+
+#: js/components/formLanding.es6:436
+msgid "This project has no languages defined yet"
+msgstr ""
+
+#: js/components/formLanding.es6:443
+#: js/components/modalForms/submission.es6:31
+#: js/components/modalForms/translationSettings.es6:282
+#: js/components/reports.es6:647
+msgid "Unnamed language"
+msgstr ""
+
+#: js/components/formLanding.es6:486
 msgid "Current version"
 msgstr "वर्तमान संस्करण"
 
-#: js/components/formLanding.es6:412
+#: js/components/formLanding.es6:487
 msgid "Archived version"
 msgstr "संग्रहित संस्करण"
 
-#: js/components/formLanding.es6:413
+#: js/components/formLanding.es6:488
 msgid "Draft version"
 msgstr "ड्राफ़्ट संस्करण"
 
-#: js/components/formSubScreens.es6:153 js/components/formSummary.es6:333
+#: js/components/formSubScreens.es6:162 js/components/formSummary.es6:335
 msgid "Access Denied"
 msgstr "पहुंच अस्वीकृत"
 
-#: js/components/formSubScreens.es6:155 js/components/formSummary.es6:335
+#: js/components/formSubScreens.es6:164 js/components/formSummary.es6:337
 msgid "You do not have permission to view this page."
 msgstr "आपको इस पृष्ठ को देखने की अनुमति नहीं है"
 
-#: js/components/formSummary.es6:140
-#: js/components/searchcollectionlist.es6:144
+#: js/components/formSummary.es6:142
+#: js/components/searchcollectionlist.es6:155
 msgid "Submissions"
 msgstr "प्रस्तुतियाँ"
 
-#: js/components/formSummary.es6:146
+#: js/components/formSummary.es6:148
 msgid "Past 7 days"
 msgstr "पिछले 7 दिन"
 
-#: js/components/formSummary.es6:149
+#: js/components/formSummary.es6:151
 msgid "Past 31 days"
 msgstr "पिछले 31 दिन"
 
-#: js/components/formSummary.es6:156
+#: js/components/formSummary.es6:158
 msgid "No chart data available for current period."
 msgstr "वर्तमान अवधि के लिए कोई चार्ट डेटा उपलब्ध नहीं है."
 
-#: js/components/formSummary.es6:164 js/components/formSummary.es6:167
+#: js/components/formSummary.es6:166 js/components/formSummary.es6:169
 msgid "Today"
 msgstr "आज"
 
-#: js/components/formSummary.es6:184
+#: js/components/formSummary.es6:186
 msgid "Total"
 msgstr "कुल"
 
-#: js/components/formSummary.es6:213
-#| msgid "More for"
-msgid "Share form"
-msgstr "फॉर्म साझा करें"
+#: js/components/formSummary.es6:215
+msgid "Share project"
+msgstr ""
 
-#: js/components/formSummary.es6:225
-#| msgid "Edit"
+#: js/components/formSummary.es6:227
 msgid "Edit form"
 msgstr "फॉर्म संपादित करें"
 
-#: js/components/formSummary.es6:231 js/editorMixins/editableForm.es6:476
+#: js/components/formSummary.es6:233 js/editorMixins/editableForm.es6:708
 msgid "Preview form"
 msgstr "पूर्वावलोकन फ़ॉर्म"
 
-#: js/components/formSummary.es6:239 js/i18nMissingStrings.es6:121
+#: js/components/formSummary.es6:241 js/i18nMissingStrings.es6:150
 msgid "Reports"
 msgstr "रिपोर्टें"
 
-#: js/components/formSummary.es6:240 js/components/formViewTabs.es6:104
+#: js/components/formSummary.es6:242 js/components/formViewTabs.es6:104
 msgid "Reports (legacy)"
 msgstr "रिपोर्ट (विरासत)"
 
-#: js/components/formSummary.es6:241 js/components/formViewTabs.es6:105
+#: js/components/formSummary.es6:243 js/components/formViewTabs.es6:105
 msgid "Table"
 msgstr "टेबल"
 
-#: js/components/formSummary.es6:242 js/components/formViewTabs.es6:106
+#: js/components/formSummary.es6:244 js/components/formViewTabs.es6:106
 msgid "Gallery"
 msgstr "गेलरी"
 
-#: js/components/formSummary.es6:243 js/components/formViewTabs.es6:107
+#: js/components/formSummary.es6:245 js/components/formViewTabs.es6:107
 msgid "Downloads"
 msgstr "डाउनलोड"
 
-#: js/components/formSummary.es6:244 js/components/formViewTabs.es6:108
+#: js/components/formSummary.es6:246 js/components/formViewTabs.es6:108
 msgid "Map"
 msgstr "नक्शा"
 
-#: js/components/formSummary.es6:293
+#: js/components/formSummary.es6:295
 msgid "Team members"
 msgstr "टीम के सदस्य"
 
-#: js/components/formSummary.es6:355
-#| msgid "Project description"
+#: js/components/formSummary.es6:350
+#: js/components/modalForms/projectSettings.es6:802
+msgid "Description"
+msgstr "विवरण"
+
+#: js/components/formSummary.es6:357
 msgid "Project country"
 msgstr "परियोजना देश"
 
-#: js/components/formSummary.es6:381
-msgid "Quick Links"
-msgstr "त्वरित सम्पक"
+#: js/components/formSummary.es6:363
+#: js/components/modalForms/projectSettings.es6:820
+msgid "Sector"
+msgstr "क्षेत्र"
 
-#: js/components/formSummary.es6:389
-#| msgid "expand details"
+#: js/components/formSummary.es6:380
 msgid "Form details"
 msgstr "फॉर्म विवरण"
 
-#: js/components/formSummary.es6:394
-#| msgid "Last Modified"
+#: js/components/formSummary.es6:385 js/components/templatesList.es6:81
 msgid "Last modified"
 msgstr "अंतिम बार संशोधित"
 
-#: js/components/formSummary.es6:399
-#| msgid "submissions"
+#: js/components/formSummary.es6:390
 msgid "Latest submission"
 msgstr "नवीनतम प्रस्तुतियाँ"
 
-#: js/components/formSummary.es6:405
-#| msgid "Question"
+#: js/components/formSummary.es6:396 js/components/templatesList.es6:84
 msgid "Questions"
 msgstr "प्रशन"
 
-#: js/components/formSummary.es6:412
+#: js/components/formSummary.es6:403
 msgid "Languages"
 msgstr "भाषाओं"
 
-#: js/components/formSummary.es6:428 js/i18nMissingStrings.es6:120
+#: js/components/formSummary.es6:421
+msgid "Quick Links"
+msgstr "त्वरित सम्पक"
+
+#: js/components/formSummary.es6:431 js/i18nMissingStrings.es6:149
 msgid "Data"
 msgstr "जानकारी"
 
@@ -776,751 +1242,1380 @@ msgstr "जानकारी"
 msgid "Summary"
 msgstr "सारांश"
 
-#: js/components/header.es6:129
+#: js/components/formViewTabs.es6:116
+msgid "Sharing"
+msgstr ""
+
+#: js/components/formViewTabs.es6:117
+msgid "REST Services"
+msgstr ""
+
+#: js/components/formViewTabs.es6:118
+msgid "Kobocat (legacy)"
+msgstr ""
+
+#: js/components/header.es6:86
 msgid "Please refresh the page"
 msgstr "कृपया पृष्ठ को रीफ्रेश करें"
 
-#: js/components/header.es6:173
+#: js/components/header.es6:132
 msgid "Account Settings"
 msgstr "अकाउंट सेटिंग"
 
-#: js/components/header.es6:189
+#: js/components/header.es6:139
+msgid "Terms of Service"
+msgstr ""
+
+#: js/components/header.es6:142
+msgid "Privacy Policy"
+msgstr ""
+
+#: js/components/header.es6:161
 msgid "Logout"
 msgstr "लोग आउट"
 
-#: js/components/header.es6:199
-msgid "not logged in"
-msgstr "लोग इन नहीं है"
+#: js/components/header.es6:171
+msgid "n/a"
+msgstr ""
 
-#: js/components/header.es6:270
+#: js/components/header.es6:196
+msgid "Please enter a title for your project"
+msgstr "कृपया अपने परियोजना के लिए एक शीर्षक दर्ज करें"
+
+#: js/components/header.es6:260
 msgid "Search Projects"
 msgstr "खोज परियोजनाएं"
 
-#: js/components/header.es6:275 js/editorMixins/editableForm.es6:546
+#: js/components/header.es6:265 js/editorMixins/editableForm.es6:883
 msgid "Search Library"
 msgstr "लाइब्रेरी में खोज"
 
-#: js/components/header.es6:288
+#: js/components/header.es6:279
 msgid "Project title"
 msgstr "परियोजना का शीर्षक"
 
-#: js/components/header.es6:296
+#: js/components/header.es6:288
 msgid "submissions"
 msgstr "प्रस्तुतियाँ"
 
-#: js/components/librarySidebar.es6:111 js/components/librarySidebar.es6:113
+#: js/components/helpBubbles.es6:239
+msgid "Intercom"
+msgstr ""
+
+#: js/components/helpBubbles.es6:408
+msgid "Help Resources"
+msgstr ""
+
+#: js/components/helpBubbles.es6:418
+msgid "KoBoToolbox Help Center"
+msgstr ""
+
+#: js/components/helpBubbles.es6:419
+msgid ""
+"A vast collection of user support articles and tutorials related to KoBo"
+msgstr ""
+
+#: js/components/helpBubbles.es6:429
+msgid "KoBoToolbox Community Forum"
+msgstr ""
+
+#: js/components/helpBubbles.es6:430
+msgid ""
+"Post your questions to get answers from experienced KoBo users around the "
+"world"
+msgstr ""
+
+#: js/components/helpBubbles.es6:435
+msgid "Notifications"
+msgstr ""
+
+#: js/components/helpBubbles.es6:527
+msgid "Help"
+msgstr ""
+
+#: js/components/librarySidebar.es6:115 js/components/librarySidebar.es6:117
 msgid "Create collection"
 msgstr "संग्रह बनाएं"
 
-#: js/components/librarySidebar.es6:112
+#: js/components/librarySidebar.es6:116
 msgid ""
 "Please enter the name of your new Collection. Collections can help you "
 "better organize your library, and it is possible to share each collection "
 "with different people."
 msgstr "कृपया अपने नए संग्रह का नाम दर्ज करें. संग्रह आपकी लाइब्रेरी को व्यवस्थित करने में आपकी सहायता कर सकता है, और प्रत्येक संग्रह को अलग-अलग लोगों के साथ साझा करना संभव है."
 
-#: js/components/librarySidebar.es6:113 js/components/librarySidebar.es6:139
-#: js/components/librarySidebar.es6:164 js/components/submission.es6:96
-#: js/components/table.es6:467 js/editorMixins/editableForm.es6:684
-#: js/formbuild/containers/KoboMatrix.es6:169
-#: js/formbuild/containers/KoboMatrix.es6:310
-#: js/formbuild/containers/KoboMatrix.es6:331 js/mixins.es6:46
-#: js/mixins.es6:77 js/mixins.es6:285 js/mixins.es6:366 js/mixins.es6:388
-msgid "Cancel"
-msgstr "रद्द"
-
-#: js/components/librarySidebar.es6:137
+#: js/components/librarySidebar.es6:140
 msgid "Delete collection"
 msgstr "संग्रह हटाएं"
 
-#: js/components/librarySidebar.es6:138
+#: js/components/librarySidebar.es6:141
 msgid ""
 "are you sure you want to delete this collection? this action is not "
 "reversible"
 msgstr "क्या आप इस संग्रह को हटाना चाहते हैं? यह क्रिया प्रतिवर्ती नहीं है."
 
-#: js/components/librarySidebar.es6:145
-msgid "Failed to delete collection."
-msgstr "संग्रह हटाने में विफल."
-
-#: js/components/librarySidebar.es6:161
+#: js/components/librarySidebar.es6:169
 msgid "Rename collection"
 msgstr "संग्रह का नाम बदलें"
 
-#: js/components/librarySidebar.es6:162
+#: js/components/librarySidebar.es6:170
 msgid "Please enter the name of your new collection."
 msgstr "कृपया अपने नए संग्रह का नाम दर्ज करें."
 
-#: js/components/librarySidebar.es6:164 js/mixins.es6:46 js/mixins.es6:77
-#: js/mixins.es6:285
+#: js/components/librarySidebar.es6:172 js/mixins.es6:52 js/mixins.es6:113
+#: js/mixins.es6:471
 msgid "Ok"
 msgstr "ठीक है"
 
-#: js/components/librarySidebar.es6:236
+#: js/components/librarySidebar.es6:247
 msgid "unexpected error removing public permission"
 msgstr "सार्वजनिक अनुमति को हटाने में अप्रत्याशित त्रुटि"
 
-#: js/components/librarySidebar.es6:256 js/components/submission.es6:238
+#: js/components/librarySidebar.es6:269
+#: js/components/modalForms/submission.es6:528 js/lists/library.es6:65
 msgid "Question"
 msgstr "प्रश्न"
 
-#: js/components/librarySidebar.es6:269
+#: js/components/librarySidebar.es6:274 js/lists/library.es6:67
+msgid "Template"
+msgstr ""
+
+#: js/components/librarySidebar.es6:285
+msgid "upload"
+msgstr "अपलोड करें"
+
+#: js/components/librarySidebar.es6:291
 msgid "collection"
 msgstr "संग्रह"
 
-#: js/components/librarySidebar.es6:280
-#: js/components/searchcollectionlist.es6:105
+#: js/components/librarySidebar.es6:302
+#: js/components/searchcollectionlist.es6:111
 msgid "My Library"
 msgstr "मेरी लाइब्रेरी"
 
-#: js/components/librarySidebar.es6:320
+#: js/components/librarySidebar.es6:342
 msgid "Make Private"
 msgstr "निजी  करें"
 
-#: js/components/librarySidebar.es6:329
+#: js/components/librarySidebar.es6:351
 msgid "Make Public"
 msgstr "सार्वजनिक करें"
 
-#: js/components/librarySidebar.es6:351
+#: js/components/librarySidebar.es6:361
+msgid "Share"
+msgstr "साझा करें"
+
+#: js/components/librarySidebar.es6:373
 msgid "Rename"
 msgstr "नाम बदलें"
 
-#: js/components/librarySidebar.es6:372
+#: js/components/librarySidebar.es6:394
 msgid "Unsubscribe"
 msgstr "सदस्यता समाप्त करें"
 
-#: js/components/librarySidebar.es6:387
+#: js/components/librarySidebar.es6:409
 msgid "Public Collections"
 msgstr "सार्वजनिक संग्रह"
 
-#: js/components/librarySidebar.es6:413
+#: js/components/librarySidebar.es6:435
 msgid "by ___"
 msgstr "द्वारा  ___"
 
-#: js/components/librarySidebar.es6:425
+#: js/components/librarySidebar.es6:447
 msgid "unsubscribe"
 msgstr "सदस्यता समाप्त करें"
 
-#: js/components/librarySidebar.es6:432
+#: js/components/librarySidebar.es6:454
 msgid "subscribe"
 msgstr "सदस्यता लें"
 
-#: js/components/list.es6:44
+#: js/components/list.es6:47
 msgid "Search..."
 msgstr "खोज..."
 
-#: js/components/list.es6:117
-msgid "Search Tags"
-msgstr "खोज टैग"
-
-#: js/components/list.es6:118
-msgid "No results found"
-msgstr "कोई परिणाम नहीं मिला"
-
-#: js/components/list.es6:185
-msgid "Collections are loading..."
-msgstr "संग्रह लोड हो रहे हैं..."
-
-#: js/components/list.es6:192
-msgid "Filter by"
-msgstr "के द्वारा छनित"
-
-#: js/components/list.es6:196
+#: js/components/list.es6:179
 msgid "Select Collection Name"
 msgstr "संग्रह नाम चुनें"
 
-#: js/components/list.es6:244
+#: js/components/list.es6:181
+msgid "Collections are loading..."
+msgstr "संग्रह लोड हो रहे हैं..."
+
+#: js/components/list.es6:228
 msgid "assets found"
 msgstr "संपत्तियां मिली"
 
-#: js/components/list.es6:249
+#: js/components/list.es6:234
 msgid "expand details"
 msgstr "विस्तार विवरण"
 
-#: js/components/list.es6:286
+#: js/components/list.es6:273
 msgid "searching for \"___\""
 msgstr "\"___\" के लिए खोज रहे हैं"
 
-#: js/components/list.es6:289 js/components/list.es6:299
+#: js/components/list.es6:276 js/components/list.es6:286
 msgid "tagged with [___]"
 msgstr "[___] साथ टैग किया गया"
 
-#: js/components/list.es6:296
+#: js/components/list.es6:283
 msgid "searched for \"___\""
 msgstr "\"___\" के लिए खोजा"
 
-#: js/components/list.es6:302
+#: js/components/list.es6:289
 msgid "found ## results"
 msgstr "## परिणाम मिला"
 
-#: js/components/list.es6:309
+#: js/components/list.es6:296
 msgid "## ___ available"
 msgstr "## ___  उपलब्ध"
 
-#: js/components/list.es6:353
+#: js/components/list.es6:340
 msgid "success"
 msgstr "सफलता"
 
-#: js/components/list.es6:354
+#: js/components/list.es6:341
 msgid "yes"
 msgstr "हाँ"
 
-#: js/components/list.es6:354
+#: js/components/list.es6:341
 msgid "no"
 msgstr "नहीं"
 
-#: js/components/list.es6:357
+#: js/components/list.es6:344
 msgid "count"
 msgstr "गिनती"
 
-#: js/components/map.es6:107
+#: js/components/map.es6:129
 msgid ""
 "This map display is currently limited to 5000 records for performance "
 "reasons."
 msgstr "यह नक्शा वर्तमान में प्रदर्शन कारणों से 5000 रिकॉर्ड तक सीमित है."
 
-#: js/components/map.es6:132 js/components/map.es6:203
-#: js/components/submission.es6:79 js/components/table.es6:96
-#: js/components/table.es6:105
-#| msgid "error loading data"
+#: js/components/map.es6:267 js/components/map.es6:410
+#: js/components/modalForms/submission.es6:115 js/components/table.es6:114
+#: js/components/table.es6:123
 msgid "Error: could not load data."
 msgstr "त्रुटि: डेटा लोड नहीं कर सका."
 
-#: js/components/map.es6:384
+#: js/components/map.es6:673
 msgid "Disaggregate by survey responses"
 msgstr "सर्वेक्षण प्रतिक्रियाओं से अलग."
 
-#: js/components/map.es6:390
+#: js/components/map.es6:678
 msgid "Disaggregated using:"
 msgstr "का उपयोग कर अलग"
 
-#: js/components/map.es6:398
+#: js/components/map.es6:692
 msgid "Toggle Fullscreen"
 msgstr "पूर्णस्क्रीन चालू करें"
 
-#: js/components/map.es6:404
-#| msgid "Show latest first"
+#: js/components/map.es6:698
 msgid "Show as points"
 msgstr "अंक के रूप में दिखाएं"
 
-#: js/components/map.es6:411
+#: js/components/map.es6:704
+msgid "Toggle layers"
+msgstr ""
+
+#: js/components/map.es6:710
+msgid "Map display settings"
+msgstr ""
+
+#: js/components/map.es6:716
 msgid "Show as heatmap"
 msgstr "हीटमैप के रूप में दिखाएं"
 
-#: js/components/map.es6:432
+#: js/components/map.es6:742
 msgid "-- See all data --"
 msgstr "-- सभी डेटा देखें --"
 
-#: js/components/map.es6:457
-msgid "not set"
-msgstr "सेट नहीं"
+#: js/components/map.es6:746
+msgid "untranslated: "
+msgstr ""
 
-#: js/components/map.es6:464
-msgid "Legend"
-msgstr "किंवदंती"
+#: js/components/map.es6:746
+msgid "Question label not set"
+msgstr ""
 
-#: js/components/modal.es6:37
-msgid "Sharing Permissions"
-msgstr "साझाकरण अनुमतियां"
-
-#: js/components/modal.es6:43
-msgid "Uploading XLS file"
-msgstr "XLS फ़ाइल अपलोड हो रही है"
-
-#: js/components/modal.es6:44
-msgid "Uploading: "
-msgstr "अपलोडिंग"
-
-#: js/components/modal.es6:50
-msgid "Create New Project from Scratch"
-msgstr "स्क्रैच से नई परियोजना बनाएं"
-
-#: js/components/modal.es6:63 js/editorMixins/editableForm.es6:720
-msgid "Form Preview"
-msgstr "फार्म पूर्वावलोकन"
-
-#: js/components/modal.es6:69
-#| msgid "Record"
-msgid "Record #"
-msgstr "रिकॉर्ड #"
-
-#: js/components/modal.es6:123
-msgid "Create project"
-msgstr "परियोजना बनाएं"
-
-#: js/components/reportViewItem.es6:18
-msgid "Mean"
-msgstr "माध्य"
-
-#: js/components/reportViewItem.es6:18
-msgid "Median"
-msgstr "माध्यिका"
-
-#: js/components/reportViewItem.es6:18
-msgid "Mode"
-msgstr "साधन"
-
-#: js/components/reportViewItem.es6:18
-msgid "Standard deviation"
-msgstr "मानक विचलन"
-
-#: js/components/reportViewItem.es6:30 js/components/reportViewItem.es6:31
-#: js/components/reportViewItem.es6:32 js/components/reportViewItem.es6:33
-msgid "N/A"
-msgstr "एन / ए"
-
-#: js/components/reportViewItem.es6:40
-msgid "Value"
-msgstr "मूल्य"
-
-#: js/components/reportViewItem.es6:40
-msgid "Frequency"
-msgstr "आवृत्ति"
-
-#: js/components/reportViewItem.es6:40
-msgid "Percentage"
-msgstr "प्रतिशत"
-
-#: js/components/reportViewItem.es6:314
-msgid "Type: "
-msgstr "प्रकार:"
-
-#: js/components/reportViewItem.es6:314
-msgid ". "
-msgstr "."
-
-#: js/components/reportViewItem.es6:319
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#2 में से #1 उत्तरदाताओं ने इस प्रश्न का उत्तर दिया."
-
-#: js/components/reportViewItem.es6:326
-msgid "(# were without data.)"
-msgstr "(# डेटा के बिना थे.)"
-
-#: js/components/reportViewItem.es6:334
-msgid "Override Graph Style"
-msgstr "ग्राफ स्टाइल ओवरराइड करें"
-
-#: js/components/reports.es6:286 js/components/reports.es6:939
-#| msgid "Untitled"
-msgid "Untitled Report"
-msgstr "शीर्षकहीन रिपोर्ट"
-
-#: js/components/reports.es6:289
-msgid "Include the following questions:"
-msgstr "निम्नलिखित प्रश्न शामिल करें:"
-
-#: js/components/reports.es6:302 js/components/reports.es6:426
-#: js/components/reports.es6:672
-msgid "Save"
-msgstr "बचा ले"
-
-#: js/components/reports.es6:378 js/components/reports.es6:575
-msgid "Chart Type"
-msgstr "चार्ट प्रकार"
-
-#: js/components/reports.es6:378 js/components/reports.es6:575
-msgid "Colors"
-msgstr "रंग"
-
-#: js/components/reports.es6:412 js/components/reports.es6:618
-msgid "Width: "
-msgstr "चौड़ाई"
-
-#: js/components/reports.es6:422
+#: js/components/map.es6:762 js/components/mapSettings.es6:351
+#: js/components/modalForms/tableColumnFilter.es6:230
+#: js/components/reports.es6:421
 msgid "Reset"
 msgstr "रीसेट"
 
-#: js/components/reports.es6:578
-msgid "Group By"
-msgstr "समूह द्वारा"
+#: js/components/map.es6:769
+msgid "not set"
+msgstr "सेट नहीं"
 
-#: js/components/reports.es6:582
-msgid "Translation"
-msgstr "अनुवाद"
+#: js/components/map.es6:789
+msgid "Legend"
+msgstr "किंवदंती"
 
-#: js/components/reports.es6:630
+#: js/components/map.es6:804
+msgid "Map Settings"
+msgstr ""
+
+#: js/components/mapSettings.es6:51
+msgid "Best for qualitative data"
+msgstr ""
+
+#: js/components/mapSettings.es6:52
+msgid "Best for sequential data"
+msgstr ""
+
+#: js/components/mapSettings.es6:53
+msgid "Best for diverging data"
+msgstr ""
+
+#: js/components/mapSettings.es6:154
+msgid "Please add a name for your layer file."
+msgstr ""
+
+#: js/components/mapSettings.es6:173
+msgid "Upload error: ##error_message##."
+msgstr ""
+
+#: js/components/mapSettings.es6:179
+msgid "Upload error: not a valid map overlay format."
+msgstr ""
+
+#: js/components/mapSettings.es6:194
+msgid "Delete File"
+msgstr ""
+
+#: js/components/mapSettings.es6:196
+msgid ""
+"Are you sure you want to delete this file? <br/><br/><strong>This action "
+"cannot be undone.</strong>"
+msgstr ""
+
+#: js/components/mapSettings.es6:215
+msgid "Overlays"
+msgstr ""
+
+#: js/components/mapSettings.es6:217
+msgid "Marker Colors"
+msgstr ""
+
+#: js/components/mapSettings.es6:219
+msgid "Geopoint question"
+msgstr ""
+
+#: js/components/mapSettings.es6:260
+msgid "Choose the Geopoint question you would like to display on the map:"
+msgstr ""
+
+#: js/components/mapSettings.es6:289
+msgid "Uploaded layers"
+msgstr ""
+
+#: js/components/mapSettings.es6:300
+msgid "Delete layer"
+msgstr ""
+
+#: js/components/mapSettings.es6:312
+msgid ""
+"Use the form below to upload files with map data in one of these formats: "
+"CSV, KML, KMZ, WKT or GEOJSON. The data will be made available as layers for"
+" display on the map."
+msgstr ""
+
+#: js/components/mapSettings.es6:317
+msgid "Layer name"
+msgstr ""
+
+#: js/components/mapSettings.es6:328
+msgid "Upload"
+msgstr ""
+
+#: js/components/mapSettings.es6:337
+msgid "Choose the color set for the disaggregated map markers."
+msgstr ""
+
+#: js/components/modal.es6:38
+msgid "Sharing Permissions"
+msgstr "साझाकरण अनुमतियां"
+
+#: js/components/modal.es6:44 js/components/modal.es6:133
+msgid "Uploading XLS file"
+msgstr "XLS फ़ाइल अपलोड हो रही है"
+
+#: js/components/modal.es6:45 js/components/modal.es6:134
+msgid "Uploading: "
+msgstr "अपलोडिंग"
+
+#: js/components/modal.es6:63 js/editorMixins/editableForm.es6:945
+msgid "Form Preview"
+msgstr "फार्म पूर्वावलोकन"
+
+#: js/components/modal.es6:78
+msgid "Edit REST Service"
+msgstr ""
+
+#: js/components/modal.es6:80
+msgid "New REST Service"
+msgstr ""
+
+#: js/components/modal.es6:89
+msgid "Table display options"
+msgstr ""
+
+#: js/components/modal.es6:93
+msgid "Manage Languages"
+msgstr ""
+
+#: js/components/modal.es6:98
+msgid "Translations Table"
+msgstr ""
+
+#: js/components/modal.es6:142 js/components/modal.es6:148
+#: js/components/modal.es6:151
+msgid "Submission Record"
+msgstr ""
+
+#: js/components/modal.es6:148 js/components/modal.es6:151
+#: js/components/table.es6:829 js/components/table.es6:957
+msgid "of"
+msgstr "का"
+
+#: js/components/modal.es6:161
+msgid "Close"
+msgstr ""
+
+#: js/components/modal.es6:173
+msgid "Close Translations Table?"
+msgstr ""
+
+#: js/components/modal.es6:174
+#: js/components/modalForms/translationTable.es6:148
+msgid "You will lose all unsaved changes."
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:34
+msgid "permissions were copied successfully"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:73
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:77
+msgid "Are you sure you want to copy permissions?"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:79
+msgid "Proceed"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:113
+#: js/components/modalForms/submission.es6:309
+#: js/components/modalForms/submission.es6:386 js/components/table.es6:473
+msgid "Unlabelled"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:125
+msgid "Copy team from another project"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:132
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:141
+msgid "Select source project…"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:154
+msgid "copy"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:76
+#: js/components/modalForms/projectSettings.es6:197
+#: js/components/modalForms/projectSettings.es6:218
+msgid "Import"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:79
+#: js/components/modalForms/submission.es6:492
+#: js/components/modalForms/submission.es6:500
+#: js/components/modalForms/translationTable.es6:176
+#: js/components/table.es6:948
+msgid "Next"
+msgstr "अगला"
+
+#: js/components/modalForms/projectSettings.es6:133
+#: js/components/modalForms/projectSettings.es6:873
+msgid "Create project"
+msgstr "परियोजना बनाएं"
+
+#: js/components/modalForms/projectSettings.es6:139
+msgid "Project settings"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:145
+msgid "Choose a source"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:146
+msgid "Choose template"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:147
+msgid "Upload XLSForm"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:148
+msgid "Import XLSForm"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:149
+msgid "Project details"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:210
+msgid "Choose"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:413
+msgid "Error: asset could not be created."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:433
+msgid "Error: new project could not be created."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:457
+#: js/components/modalForms/projectSettings.es6:872 js/mixins.es6:767
+msgid "Please wait…"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:483
+msgid "Retrieving form, please wait..."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:512
+msgid "Failed to reload project after import!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:518
+#: js/components/modalForms/projectSettings.es6:576 js/mixins.es6:380
+#: js/mixins.es6:389 js/mixins.es6:392
+msgid "Import Failed!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:530
+msgid "Could not initialize XLSForm import!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:571
+msgid "Failed to reload project after upload!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:589
+msgid "Could not import XLSForm!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:600
+msgid "Please enter a title for your project!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:621
+msgid "Use a template"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:631
+msgid ""
+"Choose one of the options below to continue. You will be prompted to enter "
+"name and other details in further steps."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:639
+msgid "Build from scratch"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:649
+msgid "Upload an XLSForm"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:654
+msgid "Import an XLSForm via URL"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:691
+msgid "Import an XLSForm from your computer."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:704
+msgid " Drag and drop the XLSForm file here or click to browse"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:709
+msgid "Uploading file…"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:724
+msgid "Enter a valid XLSForm URL in the field below."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:726
+msgid "Having issues? See this help article."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:733
+msgid "URL"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:789
+msgid "Project Name"
+msgstr "परियोजना का नाम"
+
+#: js/components/modalForms/projectSettings.es6:793
+msgid "Enter title of project here"
+msgstr "परियोजना का शीर्षक यहां दर्ज करें"
+
+#: js/components/modalForms/projectSettings.es6:807
+msgid "Enter short description here"
+msgstr "संक्षिप्त विवरण यहां दर्ज करें"
+
+#: js/components/modalForms/projectSettings.es6:813
+msgid ""
+"Please specify the country and the sector where this project will be "
+"deployed. "
+msgstr "कृपया देश और क्षेत्र को निर्दिष्ट करें जहां इस परियोजना को तैनात किया जाएगा."
+
+#: js/components/modalForms/projectSettings.es6:854
+msgid ""
+"Help KoboToolbox improve this product by sharing the sector and country "
+"where this project will be deployed."
+msgstr "यह प्रोजेक्ट जहां तैनात किया जाएगा, उस क्षेत्र और देश को साझा करके कोबोटुलबॉक्स को इस उत्पाद को बेहतर बनाने में सहायता करें. "
+
+#: js/components/modalForms/projectSettings.es6:854
+msgid ""
+"All the information is submitted anonymously, and will not include the "
+"project name or description listed above."
+msgstr "सभी जानकारी गुमनाम रूप से प्रस्तुत की जाती है, और ऊपर सूचीबद्ध प्रोजेक्ट नाम या विवरण शामिल नहीं होगा."
+
+#: js/components/modalForms/projectSettings.es6:888 js/mixins.es6:619
+msgid "Unarchive Project"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:898 js/mixins.es6:591
+msgid "Archive Project"
+msgstr "संग्रह परियोजना"
+
+#: js/components/modalForms/projectSettings.es6:904
+msgid "Unarchive project to resume accepting submissions."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:904
+msgid "Archive project to stop accepting submissions."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:916
+msgid "Delete Project and Data"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:946
+#: js/components/modalForms/translationTable.es6:192
+msgid "Back"
+msgstr "पीछे"
+
+#: js/components/modalForms/projectSettings.es6:954
+msgid "loading…"
+msgstr ""
+
+#: js/components/modalForms/sharingForm.es6:27
+msgid "View Form"
+msgstr "फॉर्म देखें"
+
+#: js/components/modalForms/sharingForm.es6:28
+msgid "Edit Form"
+msgstr "फॉर्म संपादित करें"
+
+#: js/components/modalForms/sharingForm.es6:29
+msgid "View Submissions"
+msgstr "प्रस्तुतियाँ देखें"
+
+#: js/components/modalForms/sharingForm.es6:30
+msgid "Add Submissions"
+msgstr "प्रस्तुतियाँ जोड़ें"
+
+#: js/components/modalForms/sharingForm.es6:31
+msgid "Edit Submissions"
+msgstr "प्रस्तुतियाँ संपादित करें"
+
+#: js/components/modalForms/sharingForm.es6:32
+msgid "Validate Submissions"
+msgstr "प्रस्तुतियो की पुष्टि करे"
+
+#: js/components/modalForms/sharingForm.es6:137
+msgid "Share by link"
+msgstr "लिंक द्वारा साझा करें"
+
+#: js/components/modalForms/sharingForm.es6:142
+msgid "Shareable link"
+msgstr "साझा करने योग्य लिंक"
+
+#: js/components/modalForms/sharingForm.es6:153
+msgid "Share data publicly"
+msgstr "डेटा को सार्वजनिक रूप से साझा करें"
+
+#: js/components/modalForms/sharingForm.es6:298
+msgid "View"
+msgstr ""
+
+#: js/components/modalForms/sharingForm.es6:310
+msgid "Who has access"
+msgstr "किसकी पहुंच है"
+
+#: js/components/modalForms/sharingForm.es6:321
+msgid "is owner"
+msgstr "मालिक है"
+
+#: js/components/modalForms/sharingForm.es6:332
+msgid "Invite collaborators"
+msgstr "सहयोगियों को आमंत्रित करें"
+
+#: js/components/modalForms/sharingForm.es6:338
+msgid "Enter a username"
+msgstr "उपयोगकर्ता नाम दर्ज करें"
+
+#: js/components/modalForms/sharingForm.es6:354
+msgid "invite"
+msgstr "आमंत्रण"
+
+#: js/components/modalForms/sharingForm.es6:362
+msgid "Select share settings"
+msgstr "साझा सेटिंग्स का चयन करें"
+
+#: js/components/modalForms/submission.es6:131
+msgid "Delete submission?"
+msgstr "सबमिशन हटाएं?"
+
+#: js/components/modalForms/submission.es6:132
+msgid "Are you sure you want to delete this submission?"
+msgstr "क्या आप वाकई इस सबमिशन को हटाना चाहते हैं?"
+
+#: js/components/modalForms/submission.es6:132
+msgid "This action cannot be undone"
+msgstr "इस क्रिया को पूर्ववत नहीं किया जा सकता है"
+
+#: js/components/modalForms/submission.es6:137
+msgid "submission deleted"
+msgstr "सबमिशन हटा दिया गया"
+
+#: js/components/modalForms/submission.es6:308
+msgid "Repeat group: "
+msgstr ""
+
+#: js/components/modalForms/submission.es6:357
+msgid "Unlabelled group"
+msgstr ""
+
+#: js/components/modalForms/submission.es6:430
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr ""
+
+#: js/components/modalForms/submission.es6:432
+msgid "Refresh submission"
+msgstr ""
+
+#: js/components/modalForms/submission.es6:441
+msgid "Language:"
+msgstr ""
+
+#: js/components/modalForms/submission.es6:454
+msgid "Validation status:"
+msgstr ""
+
+#: js/components/modalForms/submission.es6:475
+#: js/components/modalForms/submission.es6:483
+msgid "Previous"
+msgstr "पिछला"
+
+#: js/components/modalForms/submission.es6:518
+msgid "Delete submission"
+msgstr "प्रस्तुतियाँ हटाएं"
+
+#: js/components/modalForms/submission.es6:529
+msgid "Response"
+msgstr "प्रतिक्रिया"
+
+#: js/components/modalForms/submission.es6:541
+msgid "start"
+msgstr "प्रारंभ"
+
+#: js/components/modalForms/submission.es6:548
+msgid "end"
+msgstr "समाप्त"
+
+#: js/components/modalForms/submission.es6:555
+msgid "__version__"
+msgstr "__version__"
+
+#: js/components/modalForms/submission.es6:562
+msgid "instanceID"
+msgstr "instanceID"
+
+#: js/components/modalForms/tableColumnFilter.es6:109
+msgid "There was an error, table settings could not be saved."
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:144
+msgid "XML Values"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:165
+msgid "Display labels or XML values?"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:175
+msgid "Show group names in table headers"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:183
+msgid "Show HXL tags"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:190
+msgid ""
+"Note: Only users with the \"edit form\" permission can see the following two"
+" options. If other users can view submissions on this project, their table "
+"view will be restricted by the choices made below."
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:194
+msgid "Set a frozen first column in the table."
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:208
+msgid "Restrict the visible columns in the table display"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:209
+msgid "All columns are visible by default"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:126
+msgid "Delete language?"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:127
+msgid ""
+"Are you sure you want to delete this language? This action is not "
+"reversible."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:208
+msgid "Change default language?"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:209
+msgid ""
+"Are you sure you would like to set ##lang## as the default language for this"
+" form?"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:210
+#: js/components/modalForms/translationTable.es6:149
+msgid "Confirm"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:238
+msgid "There is nothing to translate in this form."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:260
+msgid ""
+"Here you can add more languages to your project, and translate the strings "
+"in each of them."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:261
+msgid ""
+"Please name your default language before adding languages and translations."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:262
+msgid "For the language code field, we suggest using the"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:264
+msgid "official language code"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:266
+msgid "(e.g. \"English (en)\" or \"Rohingya (rhg)\")."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:268
+msgid "Read more."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:274
+msgid "Current languages"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:286
+msgid "default"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:295
+msgid "Make default"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:307
+msgid "Edit language"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:324
+msgid "Update translations"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:334
+msgid "Delete language"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:364
+msgid "Add language"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:374
+msgid "Add a new language"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:480
+msgid "Name must be unique!"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:487
+msgid "Code must be unique!"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:516
+msgid "Language name"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:527
+msgid "Language code"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:542
+msgid "Update"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:542
+msgid "Add"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:13
+msgid "* Save Changes"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:14
+msgid "Saving…"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:62
+msgid "Original string"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:67
+msgid "##lang## translation"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:147
+msgid "Go back?"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:175
+#: js/components/table.es6:947
+msgid "Prev"
+msgstr "पिछला"
+
+#: js/components/passwordStrength.es6:23
+msgid "Password strength"
+msgstr ""
+
+#: js/components/reportViewItem.es6:23
+msgid "Mean"
+msgstr "माध्य"
+
+#: js/components/reportViewItem.es6:23
+msgid "Median"
+msgstr "माध्यिका"
+
+#: js/components/reportViewItem.es6:23
+msgid "Mode"
+msgstr "साधन"
+
+#: js/components/reportViewItem.es6:23
+msgid "Standard deviation"
+msgstr "मानक विचलन"
+
+#: js/components/reportViewItem.es6:40 js/components/reportViewItem.es6:41
+#: js/components/reportViewItem.es6:42 js/components/reportViewItem.es6:43
+#: js/components/reportViewItem.es6:53 js/components/reportViewItem.es6:54
+#: js/components/reportViewItem.es6:55 js/components/reportViewItem.es6:56
+msgid "N/A"
+msgstr "एन / ए"
+
+#: js/components/reportViewItem.es6:66
+msgid "Frequency"
+msgstr "आवृत्ति"
+
+#: js/components/reportViewItem.es6:66
+msgid "Percentage"
+msgstr "प्रतिशत"
+
+#: js/components/reportViewItem.es6:353
+msgid "Type: "
+msgstr "प्रकार:"
+
+#: js/components/reportViewItem.es6:353
+msgid ". "
+msgstr "."
+
+#: js/components/reportViewItem.es6:358
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#2 में से #1 उत्तरदाताओं ने इस प्रश्न का उत्तर दिया."
+
+#: js/components/reportViewItem.es6:365
+msgid "(# were without data.)"
+msgstr "(# डेटा के बिना थे.)"
+
+#: js/components/reportViewItem.es6:373
+msgid "Override Graph Style"
+msgstr "ग्राफ स्टाइल ओवरराइड करें"
+
+#: js/components/reports.es6:270 js/components/reports.es6:528
+msgid "Unlabeled"
+msgstr ""
+
+#: js/components/reports.es6:281 js/components/reports.es6:983
+msgid "Untitled Report"
+msgstr "शीर्षकहीन रिपोर्ट"
+
+#: js/components/reports.es6:284
+msgid "Include the following questions:"
+msgstr "निम्नलिखित प्रश्न शामिल करें:"
+
+#: js/components/reports.es6:377 js/components/reports.es6:635
+#: js/components/reports.es6:670
+msgid "Chart Type"
+msgstr "चार्ट प्रकार"
+
+#: js/components/reports.es6:377 js/components/reports.es6:635
+#: js/components/reports.es6:678
+msgid "Colors"
+msgstr "रंग"
+
+#: js/components/reports.es6:411 js/components/reports.es6:685
+msgid "Width: "
+msgstr "चौड़ाई"
+
+#: js/components/reports.es6:617
 msgid "No grouping"
 msgstr "कोई समूह नहीं"
 
-#: js/components/reports.es6:783
+#: js/components/reports.es6:638 js/components/reports.es6:689
+msgid "Group By"
+msgstr "समूह द्वारा"
+
+#: js/components/reports.es6:643 js/components/reports.es6:699
+msgid "Translation"
+msgstr "अनुवाद"
+
+#: js/components/reports.es6:824
 msgid ""
 "Could not load grouped results via \"##\". Will attempt to load the "
 "ungrouped report."
 msgstr "\"##\" के माध्यम से समूहीकृत परिणामों को लोड नहीं किया जा सका. असंगठित रिपोर्ट लोड करने का प्रयास करेगा."
 
-#: js/components/reports.es6:832
-#| msgid "Could not redirect to asset."
+#: js/components/reports.es6:873
 msgid "Could not refresh report."
 msgstr "रिपोर्ट रीफ्रेश नहीं कर सका."
 
-#: js/components/reports.es6:939
-#| msgid "Reports"
+#: js/components/reports.es6:983
 msgid "Custom Reports"
 msgstr "कस्टम रिपोर्ट्स"
 
-#: js/components/reports.es6:945
-#| msgid "Default response"
+#: js/components/reports.es6:989
 msgid "Default Report"
 msgstr "डिफ़ॉल्ट रिपोर्ट"
 
-#: js/components/reports.es6:955
-#| msgid "Untitled"
+#: js/components/reports.es6:999
 msgid "Untitled report"
 msgstr "शीर्षक रहित रिपोर्ट"
 
-#: js/components/reports.es6:963
-#| msgid "Create project"
+#: js/components/reports.es6:1008
 msgid "Create New Report"
 msgstr "नई रिपोर्ट बनाएं"
 
-#: js/components/reports.es6:970
-#| msgid "Enter your question"
+#: js/components/reports.es6:1016
 msgid "Edit Report Questions"
 msgstr "रिपोर्ट प्रश्न संपादित करें"
 
-#: js/components/reports.es6:977 js/components/table.es6:591
-msgid "Expand"
-msgstr "विस्तृत करें"
+#: js/components/reports.es6:1024 js/components/table.es6:921
+msgid "Toggle fullscreen"
+msgstr ""
 
-#: js/components/reports.es6:983 js/components/table.es6:570
+#: js/components/reports.es6:1031 js/components/table.es6:899
 msgid "Print"
 msgstr "प्रिंट"
 
-#: js/components/reports.es6:989
-#| msgid "report type"
+#: js/components/reports.es6:1038
 msgid "Configure Report Style"
 msgstr "रिपोर्ट की शैली कॉन्फ़िगर करें"
 
-#: js/components/reports.es6:1037 js/components/reports.es6:1081
+#: js/components/reports.es6:1084 js/components/reports.es6:1127
 msgid "This report cannot be loaded."
 msgstr "यह रिपोर्ट लोड नहीं की जा सकती"
 
-#: js/components/reports.es6:1103
+#: js/components/reports.es6:1161
 msgid "This report has no data."
 msgstr "इस रिपोर्ट में कोई डेटा नहीं है"
 
-#: js/components/reports.es6:1123
+#: js/components/reports.es6:1163
+msgid "Try changing Report Style to \"No grouping\"."
+msgstr ""
+
+#: js/components/reports.es6:1177
 msgid ""
 "For performance reasons, this report only includes the first ## questions."
 msgstr "प्रदर्शन कारणों से, इस रिपोर्ट में केवल पहले ## प्रश्न शामिल हैं."
 
-#: js/components/reports.es6:1126
+#: js/components/reports.es6:1180
 msgid "Show all (##)"
 msgstr "सब दिखाओ (##)"
 
-#: js/components/reports.es6:1132
+#: js/components/reports.es6:1186
 msgid "Warning"
 msgstr "चेतावनी"
 
-#: js/components/reports.es6:1133
+#: js/components/reports.es6:1187
 msgid ""
 "This is an automated report based on raw data submitted to this project. "
 "Please conduct proper data cleaning prior to using the graphs and figures "
 "used on this page. "
 msgstr "यह इस प्रोजेक्ट को सबमिट किए गए कच्चे डेटा के आधार पर एक स्वचालित रिपोर्ट है. कृपया इस पृष्ठ पर उपयोग किए गए आलेखों और आंकड़ों के उपयोग से पहले उचित डेटा की सफाई करें."
 
-#: js/components/reports.es6:1139
-#| msgid "report type"
+#: js/components/reports.es6:1195
 msgid "Edit Report Style"
 msgstr "रिपोर्ट की शैली संपादित करें"
 
-#: js/components/reports.es6:1145
-#| msgid "Report"
+#: js/components/reports.es6:1201
 msgid "Custom Report"
 msgstr "कस्टम रिपोर्ट"
 
-#: js/components/reports.es6:1151
-#| msgid "Question hint"
+#: js/components/reports.es6:1207
 msgid "Question Style"
 msgstr "प्रश्न शैली"
 
-#: js/components/searchcollectionlist.es6:120
+#: js/components/searchcollectionlist.es6:131
+#: js/components/templatesList.es6:78
 msgid "Owner"
 msgstr "मालिक"
 
-#: js/components/searchcollectionlist.es6:135
+#: js/components/searchcollectionlist.es6:146
 msgid "Shared by"
 msgstr "द्वारा साझा किया गया"
 
-#: js/components/searchcollectionlist.es6:178 js/lists/sidebarForms.es6:99
+#: js/components/searchcollectionlist.es6:189 js/lists/sidebarForms.es6:101
 msgid "Active Projects"
 msgstr "सक्रिय प्रोजेक्ट"
 
-#: js/components/searchcollectionlist.es6:239
+#: js/components/searchcollectionlist.es6:241
+msgid "Your search returned no results."
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:267
 msgid ""
 "Let's get started by creating your first project. Click the New button to "
 "create a new form."
 msgstr "अपनी पहली परियोजना बनाकर शुरू करते हैं. नया फ़ॉर्म बनाने के लिए नया बटन क्लिक करें."
 
-#: js/components/searchcollectionlist.es6:247
+#: js/components/searchcollectionlist.es6:269
+msgid ""
+"Advanced users: You also drag and drop XLSForms here and they will be "
+"uploaded and converted to projects."
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:278
 msgid ""
 "Let's get started by creating your first library question or question block."
 " Click the New button to create a new question or block."
 msgstr "अपना पहला लाइब्रेरी प्रश्न या प्रश्न ब्लॉक बनाकर शुरू करते हैं. नया प्रश्न या ब्लॉक बनाने के लिए नया बटन क्लिक करें."
 
-#: js/components/sharingForm.es6:22
-#| msgid "View only"
-msgid "View Form"
-msgstr "फॉर्म देखें"
+#: js/components/searchcollectionlist.es6:299
+msgid "Drop files to upload"
+msgstr ""
 
-#: js/components/sharingForm.es6:23
-#| msgid "Edit in Form Builder"
-msgid "Edit Form"
-msgstr "फॉर्म संपादित करें"
-
-#: js/components/sharingForm.es6:24
-#| msgid "Submissions"
-msgid "View Submissions"
-msgstr "प्रस्तुतियाँ देखें"
-
-#: js/components/sharingForm.es6:25
-#| msgid "Submissions"
-msgid "Add Submissions"
-msgstr "प्रस्तुतियाँ जोड़ें"
-
-#: js/components/sharingForm.es6:26
-#| msgid "Submissions"
-msgid "Edit Submissions"
-msgstr "प्रस्तुतियाँ संपादित करें"
-
-#: js/components/sharingForm.es6:27
-#| msgid "Submissions"
-msgid "Validate Submissions"
-msgstr "प्रस्तुतियो की पुष्टि करे"
-
-#: js/components/sharingForm.es6:132
-msgid "Share by link"
-msgstr "लिंक द्वारा साझा करें"
-
-#: js/components/sharingForm.es6:136
-msgid "Shareable link"
-msgstr "साझा करने योग्य लिंक"
-
-#: js/components/sharingForm.es6:149
-#| msgid "Shared by"
-msgid "Share data publicly"
-msgstr "डेटा को सार्वजनिक रूप से साझा करें"
-
-#: js/components/sharingForm.es6:291
-msgid "Who has access"
-msgstr "किसकी पहुंच है"
-
-#: js/components/sharingForm.es6:302
-msgid "is owner"
-msgstr "मालिक है"
-
-#: js/components/sharingForm.es6:313
-msgid "Invite collaborators"
-msgstr "सहयोगियों को आमंत्रित करें"
-
-#: js/components/sharingForm.es6:319
-msgid "Enter a username"
-msgstr "उपयोगकर्ता नाम दर्ज करें"
-
-#: js/components/sharingForm.es6:332
-msgid "invite"
-msgstr "आमंत्रण"
-
-#: js/components/sharingForm.es6:340
-msgid "Select share settings"
-msgstr "साझा सेटिंग्स का चयन करें"
-
-#: js/components/submission.es6:94
-#| msgid "submissions"
-msgid "Delete submission?"
-msgstr "सबमिशन हटाएं?"
-
-#: js/components/submission.es6:95
-#| msgid "Are you sure you want to delete this question?"
-msgid "Are you sure you want to delete this submission?"
-msgstr "क्या आप वाकई इस सबमिशन को हटाना चाहते हैं?"
-
-#: js/components/submission.es6:95
-#| msgid "This action cannot be undone."
-msgid "This action cannot be undone"
-msgstr "इस क्रिया को पूर्ववत नहीं किया जा सकता है"
-
-#: js/components/submission.es6:100
-#| msgid "submissions"
-msgid "submission deleted"
-msgstr "सबमिशन हटा दिया गया"
-
-#: js/components/submission.es6:186 js/components/table.es6:180
-#| msgid "Validation Criteria"
-msgid "Validation status"
-msgstr "प्रमाणीकरण की स्थिति"
-
-#: js/components/submission.es6:202
-#| msgid "revisions"
-msgid "Previous"
-msgstr "पिछला"
-
-#: js/components/submission.es6:210 js/components/table.es6:621
-msgid "Next"
-msgstr "अगला"
-
-#: js/components/submission.es6:227
-#| msgid "submissions"
-msgid "Delete submission"
-msgstr "प्रस्तुतियाँ हटाएं"
-
-#: js/components/submission.es6:239
-#| msgid "Response Type"
-msgid "Response"
-msgstr "प्रतिक्रिया"
-
-#: js/components/submission.es6:246
-msgid "start"
-msgstr "प्रारंभ"
-
-#: js/components/submission.es6:253
-#| msgid "Gender"
-msgid "end"
-msgstr "समाप्त"
-
-#: js/components/submission.es6:300
-#| msgid "Version"
-msgid "__version__"
-msgstr "__version__"
-
-#: js/components/submission.es6:307
-msgid "instanceID"
-msgstr "instanceID"
-
-#: js/components/table.es6:94
+#: js/components/table.es6:112
 msgid "The query did not return any results."
 msgstr "क्वेरी ने कोई परिणाम नहीं लौटाया."
 
-#: js/components/table.es6:465
-#| msgid "Create group with selected questions"
+#: js/components/table.es6:278 js/components/table.es6:572
+msgid "Validation status"
+msgstr "प्रमाणीकरण की स्थिति"
+
+#: js/components/table.es6:566
+msgid "Multi-select checkboxes column"
+msgstr ""
+
+#: js/components/table.es6:704
+msgid "There was an error loading Enketo."
+msgstr ""
+
+#: js/components/table.es6:797
 msgid "Update status of selected submissions"
 msgstr "चयनित प्रस्तुतियाँ की स्थिति अपडेट करें"
 
-#: js/components/table.es6:466
+#: js/components/table.es6:798
 msgid ""
 "You have selected ## submissions. Are you sure you would like to update "
 "their status? This action is irreversible."
 msgstr "आपने ## सबमिशन का चयन किया है. क्या आप वाकई उनकी स्थिति अपडेट करना चाहते हैं? यह क्रिया अपरिवर्तनीय है."
 
-#: js/components/table.es6:467
-#| msgid "Validation Criteria"
+#: js/components/table.es6:799
 msgid "Update Validation Status"
 msgstr "प्रमाणीकरण स्थिति अपडेट करें"
 
-#: js/components/table.es6:474
-#| msgid "failed to update profile"
+#: js/components/table.es6:806
 msgid "Failed to update status."
 msgstr "स्थिति अपडेट करने में विफल."
 
-#: js/components/table.es6:517 js/components/table.es6:630
-msgid "of"
-msgstr "का"
-
-#: js/components/table.es6:517
-#| msgid "Filter results"
+#: js/components/table.es6:829
 msgid "results"
 msgstr "परिणाम"
 
-#: js/components/table.es6:527
+#: js/components/table.es6:839
 msgid "All ## selected. "
 msgstr "सभी ## चयनित."
 
-#: js/components/table.es6:529
-#| msgid "Collection"
+#: js/components/table.es6:841
 msgid "Clear selection"
 msgstr "चयन साफ़ करें"
 
-#: js/components/table.es6:535
+#: js/components/table.es6:847
 msgid "## selected. "
 msgstr "## चयनित."
 
-#: js/components/table.es6:539
-#| msgid "Select Many"
+#: js/components/table.es6:851
 msgid "Select all ##"
 msgstr "सभी का चयन करे ##"
 
-#: js/components/table.es6:575
+#: js/components/table.es6:904
 msgid "Update selected"
 msgstr "अपडेट चयनित"
 
-#: js/components/table.es6:577
+#: js/components/table.es6:906
 msgid "Updated status to:"
 msgstr "अपडेट की गई स्थिति:"
 
-#: js/components/table.es6:591
-msgid "Contract"
-msgstr "अनुबंध"
+#: js/components/table.es6:929
+msgid "Display options"
+msgstr ""
 
-#: js/components/table.es6:602
-#| msgid "Select question from list"
-msgid "Show/hide question groups"
-msgstr "प्रश्न समूह दिखाएँ / छुपाएं"
-
-#: js/components/table.es6:620
-#| msgid "Preview"
-msgid "Prev"
-msgstr "पिछला"
-
-#: js/components/table.es6:628
-#| msgid "No results found"
+#: js/components/table.es6:955
 msgid "No rows found"
 msgstr "कोई पंक्ति नहीं मिली"
 
-#: js/components/table.es6:629
+#: js/components/table.es6:956
 msgid "Page"
 msgstr "पृष्ठ"
 
-#: js/components/table.es6:631
+#: js/components/table.es6:958
 msgid "rows"
 msgstr "पंक्तियों"
 
 #: js/components/tagInput.es6:35
-msgid "#tags +"
-msgstr "#टैग +"
+msgid "Add tag(s)"
+msgstr ""
 
-#: js/constants.es6:13
+#: js/components/templatesList.es6:67
+msgid "You have no templates. Go to Library and create some."
+msgstr ""
+
+#: js/components/templatesList.es6:75
+msgid "Template name"
+msgstr ""
+
+#: js/components/templatesList.es6:92
+msgid "me"
+msgstr "मैं"
+
+#: js/constants.es6:37
 msgid "Default - single page"
 msgstr "डिफ़ॉल्ट - एक पृष्ठ"
 
-#: js/constants.es6:14
+#: js/constants.es6:38
 msgid "Grid theme"
 msgstr "ग्रिड थीम"
 
-#: js/constants.es6:15
+#: js/constants.es6:39
 msgid "Grid theme with headings in ALL CAPS"
 msgstr "सभी कैप्स में शीर्षकों के साथ ग्रिड थीम"
 
-#: js/constants.es6:16
+#: js/constants.es6:40
 msgid "Multiple pages"
 msgstr "एकाधिक पृष्ठों"
 
-#: js/constants.es6:17
+#: js/constants.es6:41
 msgid "Grid theme + Multiple pages"
 msgstr "ग्रिड थीम + एकाधिक पृष्ठों"
 
-#: js/constants.es6:18
-#| msgid "Grid theme + Multiple pages"
+#: js/constants.es6:42
 msgid "Grid theme + Multiple pages + headings in ALL CAPS"
 msgstr "सभी कैप्स में ग्रिड थीम + एकाधिक पेज + शीर्षक"
 
-#: js/constants.es6:24
+#: js/constants.es6:52
 msgid "Not Approved"
 msgstr "अस्वीकृत"
 
-#: js/constants.es6:28
+#: js/constants.es6:56
 msgid "Approved"
 msgstr "मंजूर की"
 
-#: js/constants.es6:32
+#: js/constants.es6:60
 msgid "On Hold"
 msgstr "होल्ड पर"
 
-#: js/editorMixins/assetNavigator.es6:82
+#: js/constants.es6:74
+msgid "question"
+msgstr ""
+
+#: js/constants.es6:78
+msgid "block"
+msgstr ""
+
+#: js/constants.es6:82
+msgid "template"
+msgstr ""
+
+#: js/constants.es6:86
+msgid "project"
+msgstr "परियोजना"
+
+#: js/dataInterface.es6:35
+msgid ""
+"Please try reloading the page. If you need to contact support, note the "
+"following message: <pre>##server_message##</pre>"
+msgstr ""
+
+#: js/dataInterface.es6:41
+msgid "You are not logged in"
+msgstr ""
+
+#: js/editorMixins/assetNavigator.es6:81
 msgid "loading"
 msgstr "लोड हो रहा है"
 
-#: js/editorMixins/assetNavigator.es6:90
+#: js/editorMixins/assetNavigator.es6:89
 msgid "no search results found"
 msgstr "कोई खोज परिणाम नहीं मिला"
 
@@ -1528,1070 +2623,1157 @@ msgstr "कोई खोज परिणाम नहीं मिला"
 msgid "block of ___ questions"
 msgstr " ___ सवालों के ब्लॉक"
 
-#: js/editorMixins/assetNavigator.es6:231
-msgid "loading library assets"
-msgstr "लोडिंग लाइब्रेरी संपत्तियां"
-
-#: js/editorMixins/assetNavigator.es6:267
+#: js/editorMixins/assetNavigator.es6:201
 msgid "search library"
 msgstr "लाइब्रेरी में खोज"
 
-#: js/editorMixins/cascadeMixin.es6:57 js/editorMixins/cascadeMixin.es6:68
-#: js/editorMixins/cascadeMixin.es6:94
+#: js/editorMixins/cascadeMixin.es6:52 js/editorMixins/cascadeMixin.es6:63
+#: js/editorMixins/cascadeMixin.es6:89
 msgid "Paste your formatted table from excel in the box below."
 msgstr "नीचे दिए गए बॉक्स में एक्सेल करके अपनी फ़ॉर्मेट की गई तालिका को चिपकाएं."
 
-#: js/editorMixins/cascadeMixin.es6:74
+#: js/editorMixins/cascadeMixin.es6:69
 msgid "add cascade with # questions"
 msgstr " # प्रश्न के साथ कैस्केड जोड़ें"
 
-#: js/editorMixins/cascadeMixin.es6:100
+#: js/editorMixins/cascadeMixin.es6:95
 msgid "OK"
 msgstr "ठीक"
 
-#: js/editorMixins/cascadeMixin.es6:111
+#: js/editorMixins/cascadeMixin.es6:106
 msgid "Learn more about importing cascading lists from Excel"
 msgstr "एक्सेल से कैस्केडिंग सूचियों को आयात करने के बारे में और जानें"
 
-#: js/editorMixins/cascadeMixin.es6:125
+#: js/editorMixins/cascadeMixin.es6:120
 msgid "DONE"
 msgstr "किया हुआ"
 
-#: js/editorMixins/editableForm.es6:169
-msgid "none (0 metadata specified)"
-msgstr "कोई नहीं ( 0 मेटाडेटा निर्दिष्ट)"
+#: js/editorMixins/editableForm.es6:200 js/editorMixins/editableForm.es6:262
+#: js/editorMixins/editableForm.es6:572
+msgid "You have unsaved changes. Leave form without saving?"
+msgstr ""
 
-#: js/editorMixins/editableForm.es6:176
-msgid "metadata:"
-msgstr "मेटाडेटा:"
+#: js/editorMixins/editableForm.es6:332
+msgid "Unknown Enketo preview error"
+msgstr ""
 
-#: js/editorMixins/editableForm.es6:246
-msgid "you have unsaved changes"
-msgstr "आपके पास सहेजे नहीं गए परिवर्तन हैं"
+#: js/editorMixins/editableForm.es6:407
+msgid ""
+"Your changes could not be saved, likely because of a lost internet "
+"connection."
+msgstr ""
 
-#: js/editorMixins/editableForm.es6:406 js/i18nMissingStrings.es6:128
+#: js/editorMixins/editableForm.es6:407
+msgid ""
+"Keep this window open and try saving again while using a better connection."
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:414
+msgid "Error saving form"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:416
+msgid "Dismiss"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:471 js/i18nMissingStrings.es6:157
 msgid "create"
 msgstr "बनाएं"
 
-#: js/editorMixins/editableForm.es6:408 js/editorMixins/editableForm.es6:410
-#: js/i18nMissingStrings.es6:129
+#: js/editorMixins/editableForm.es6:473 js/editorMixins/editableForm.es6:475
+#: js/i18nMissingStrings.es6:158
 msgid "save"
 msgstr "बचा ले"
 
-#: js/editorMixins/editableForm.es6:408
+#: js/editorMixins/editableForm.es6:473
 msgid "retry"
 msgstr "पुन: प्रयास"
 
-#: js/editorMixins/editableForm.es6:447
-msgid "share"
-msgstr "साझा करें"
-
-#: js/editorMixins/editableForm.es6:484
-msgid "Expand / collapse questions"
-msgstr "सवालों को विस्तृत करें / संक्षिप्त करें"
-
-#: js/editorMixins/editableForm.es6:492
-msgid "Create group with selected questions"
-msgstr "चयनित प्रश्नों के साथ समूह बनाएं"
-
-#: js/editorMixins/editableForm.es6:492
-msgid "Grouping disabled. Please select at least one question."
-msgstr "समूहिंग अक्षम. कृपया कम से कम एक प्रश्न का चयन करें."
-
-#: js/editorMixins/editableForm.es6:496
-msgid "Download form"
-msgstr "डाउनलोड फ़ॉर्म"
-
-#: js/editorMixins/editableForm.es6:506
-msgid "Web form layout"
-msgstr "वेब फ़ॉर्म लेआउट"
-
-#: js/editorMixins/editableForm.es6:508
-msgid "Layout"
-msgstr "लेआउट"
-
-#: js/editorMixins/editableForm.es6:514
-msgid "Attach media files"
-msgstr "मीडिया फ़ाइलें संलग्न करें"
-
-#: js/editorMixins/editableForm.es6:521
-msgid "Insert cascading select"
-msgstr "कैस्केडिंग चयन को सम्मिलित करें"
-
-#: js/editorMixins/editableForm.es6:553
-msgid "form style"
-msgstr "फार्म शैली"
-
-#: js/editorMixins/editableForm.es6:554
-msgid "Read more about form styles"
-msgstr "फॉर्म शैलियों के बारे में और पढ़ें"
-
-#: js/editorMixins/editableForm.es6:560
-msgid ""
-"select the form style that you would like to use. this will only affect web "
-"forms."
-msgstr "उस फॉर्म शैली का चयन करें जिसे आप उपयोग करना चाहते हैं. यह केवल वेब फ़ॉर्म को प्रभावित करेगा."
-
-#: js/editorMixins/editableForm.es6:562
-msgid ""
-"select the form style. this will only affect the Enketo preview, and it will"
-" not be saved with the question or block."
-msgstr "फॉर्म शैली का चयन करें. यह केवल Enketo पूर्वावलोकन को प्रभावित करेगा, और यह प्रश्न या ब्लॉक से सहेजा नहीं जाएगा."
-
-#: js/editorMixins/editableForm.es6:572
-msgid "custom form style: \"{label}\""
-msgstr "कस्टम फॉर्म शैली: \"{label}\""
-
-#: js/editorMixins/editableForm.es6:588
-msgid "Error loading survey:"
-msgstr "सर्वेक्षण लोड करने में त्रुटि:"
-
-#: js/editorMixins/editableForm.es6:595
-msgid "Back"
-msgstr "पीछे"
-
-#: js/editorMixins/editableForm.es6:682
-msgid "you have unsaved changes. leave form without saving?"
-msgstr "आपके पास सहेजे नहीं गए परिवर्तन हैं. बचत के बिना फॉर्म छोड़ दें?"
-
-#: js/editorMixins/editableForm.es6:684
+#: js/editorMixins/editableForm.es6:574
 msgid "Yes, leave form"
 msgstr "हाँ, फॉर्म छोड़ दें"
 
-#: js/editorMixins/editableForm.es6:731
+#: js/editorMixins/editableForm.es6:653
+msgid "Return to list"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:676
+msgid "share"
+msgstr "साझा करें"
+
+#: js/editorMixins/editableForm.es6:718
+msgid "Expand / collapse questions"
+msgstr "सवालों को विस्तृत करें / संक्षिप्त करें"
+
+#: js/editorMixins/editableForm.es6:727
+msgid "Create group with selected questions"
+msgstr "चयनित प्रश्नों के साथ समूह बनाएं"
+
+#: js/editorMixins/editableForm.es6:727
+msgid "Grouping disabled. Please select at least one question."
+msgstr "समूहिंग अक्षम. कृपया कम से कम एक प्रश्न का चयन करें."
+
+#: js/editorMixins/editableForm.es6:734
+msgid "Download form"
+msgstr "डाउनलोड फ़ॉर्म"
+
+#: js/editorMixins/editableForm.es6:742
+msgid "Attach media files"
+msgstr "मीडिया फ़ाइलें संलग्न करें"
+
+#: js/editorMixins/editableForm.es6:752
+msgid "Insert cascading select"
+msgstr "कैस्केडिंग चयन को सम्मिलित करें"
+
+#: js/editorMixins/editableForm.es6:771
+msgid "Add from Library"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:785
+msgid "Layout & Settings"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:788
+msgid "Layout"
+msgstr "लेआउट"
+
+#: js/editorMixins/editableForm.es6:815
+msgid "Form style"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:819
+msgid "Read more about form styles"
+msgstr "फॉर्म शैलियों के बारे में और पढ़ें"
+
+#: js/editorMixins/editableForm.es6:830
+msgid ""
+"Select the form style that you would like to use. This will only affect web "
+"forms."
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:832
+msgid ""
+"Select the form style. This will only affect the Enketo preview, and it will"
+" not be saved with the question or block."
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:867
+msgid "Details"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:901
+msgid "Error loading survey:"
+msgstr "सर्वेक्षण लोड करने में त्रुटि:"
+
+#: js/editorMixins/editableForm.es6:960
 msgid "Error generating preview"
 msgstr "पूर्वावलोकन उत्पन्न करने में त्रुटि"
 
-#: js/editorMixins/editableForm.es6:739
+#: js/editorMixins/editableForm.es6:970
 msgid "Import Cascading Select Questions"
 msgstr "कैस्केडिंग चयन प्रश्नों को आयात करें"
 
-#: js/formbuild/containers/KoboMatrix.es6:40 js/i18nMissingStrings.es6:102
-msgid "Select One"
-msgstr "एक चुनो"
-
-#: js/formbuild/containers/KoboMatrix.es6:44 js/i18nMissingStrings.es6:103
-msgid "Select Many"
-msgstr "कई चुनें"
-
-#: js/formbuild/containers/KoboMatrix.es6:48 js/i18nMissingStrings.es6:53
-msgid "Text"
-msgstr "टेक्स्ट"
-
-#: js/formbuild/containers/KoboMatrix.es6:52 js/i18nMissingStrings.es6:54
-msgid "Number"
-msgstr "संख्या"
-
-#: js/formbuild/containers/KoboMatrix.es6:167
+#: js/formbuild/containers/KoboMatrix.es6:177
 msgid "Change column type?"
 msgstr "कॉलम प्रकार बदलें?"
 
-#: js/formbuild/containers/KoboMatrix.es6:168
+#: js/formbuild/containers/KoboMatrix.es6:178
 msgid ""
 "Are you sure you want to change the type? This action is irreversible, your "
 "existing option choices will be erased."
 msgstr "क्या आप वाकई इस प्रकार को बदलना चाहते हैं? यह क्रिया अपरिवर्तनीय है, आपके मौजूदा विकल्प मिटा दिए जाएंगे."
 
-#: js/formbuild/containers/KoboMatrix.es6:169
+#: js/formbuild/containers/KoboMatrix.es6:179
 msgid "Change type"
 msgstr "प्रकार बदलें"
 
-#: js/formbuild/containers/KoboMatrix.es6:196
-#: js/formbuild/containers/KoboMatrix.es6:199
+#: js/formbuild/containers/KoboMatrix.es6:206
+#: js/formbuild/containers/KoboMatrix.es6:209
 msgid "Option 1"
 msgstr "विकल्प 1"
 
-#: js/formbuild/containers/KoboMatrix.es6:207
-#: js/formbuild/containers/KoboMatrix.es6:210
+#: js/formbuild/containers/KoboMatrix.es6:217
+#: js/formbuild/containers/KoboMatrix.es6:220
 msgid "Option 2"
 msgstr "विकल्प 2"
 
-#: js/formbuild/containers/KoboMatrix.es6:262
-#: js/formbuild/containers/KoboMatrix.es6:265
+#: js/formbuild/containers/KoboMatrix.es6:279
+#: js/formbuild/containers/KoboMatrix.es6:282
 msgid "Row"
 msgstr "पंक्ति"
 
-#: js/formbuild/containers/KoboMatrix.es6:280
-#: js/formbuild/containers/KoboMatrix.es6:289
+#: js/formbuild/containers/KoboMatrix.es6:297
+#: js/formbuild/containers/KoboMatrix.es6:306
 msgid "Column"
 msgstr "कॉलम"
 
-#: js/formbuild/containers/KoboMatrix.es6:308
-#| msgid "Delete Project"
+#: js/formbuild/containers/KoboMatrix.es6:325
 msgid "Delete row?"
 msgstr "पंक्ति को हटाएं"
 
-#: js/formbuild/containers/KoboMatrix.es6:309
-#| msgid ""
-#| "u sure you want to delete this collection? this action is not ersible"
+#: js/formbuild/containers/KoboMatrix.es6:326
 msgid ""
 "Are you sure you want to delete this row? This action cannot be undone."
 msgstr "क्या आप वाकई इस पंक्ति को हटाना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता है."
 
-#: js/formbuild/containers/KoboMatrix.es6:329
-#| msgid "Delete collection"
+#: js/formbuild/containers/KoboMatrix.es6:346
 msgid "Delete column?"
 msgstr "कॉलम हटाएं"
 
-#: js/formbuild/containers/KoboMatrix.es6:330
-#| msgid ""
-#| "u sure you want to delete this collection? this action is not ersible"
+#: js/formbuild/containers/KoboMatrix.es6:347
 msgid ""
 "Are you sure you want to delete this column? This action cannot be undone."
 msgstr "क्या आप वाकई इस कॉलम को हटाना चाहते हैं? इस क्रिया को पूर्ववत नहीं किया जा सकता है."
 
-#: js/formbuild/containers/KoboMatrix.es6:397 js/i18nMissingStrings.es6:17
-msgid "Response Type"
-msgstr "प्रतिक्रिया प्रकार"
-
-#: js/formbuild/containers/KoboMatrix.es6:404
-#: js/formbuild/containers/KoboMatrix.es6:431
-#: js/formbuild/containers/KoboMatrix.es6:512
-#| msgid "Labels"
+#: js/formbuild/containers/KoboMatrix.es6:426
+#: js/formbuild/containers/KoboMatrix.es6:450
+#: js/formbuild/containers/KoboMatrix.es6:532
 msgid "Label"
 msgstr "लेबल"
 
-#: js/formbuild/containers/KoboMatrix.es6:411
-#| msgid "Data column name"
+#: js/formbuild/containers/KoboMatrix.es6:433
 msgid "Data Column Suffix"
 msgstr "डेटा कॉलम का प्रत्यय"
 
-#: js/formbuild/containers/KoboMatrix.es6:418
+#: js/formbuild/containers/KoboMatrix.es6:440
 msgid "Required"
 msgstr "आवश्यक"
 
-#: js/formbuild/containers/KoboMatrix.es6:432
-#| msgid "Data column name"
+#: js/formbuild/containers/KoboMatrix.es6:451
 msgid "Data Column Name"
 msgstr "डेटा कॉलम का नाम"
 
-#: js/formbuild/containers/KoboMatrix.es6:464
-#| msgid "Delete collection"
+#: js/formbuild/containers/KoboMatrix.es6:484
 msgid "Delete column"
 msgstr "कॉलम हटाएं"
 
-#: js/formbuild/containers/KoboMatrix.es6:519
-#| msgid "Data column name"
+#: js/formbuild/containers/KoboMatrix.es6:539
 msgid "Data Column Prefix"
 msgstr "डेटा कॉलम का उपसर्ग"
 
-#: js/formbuild/containers/KoboMatrix.es6:527
-#| msgid "Delete Project"
+#: js/formbuild/containers/KoboMatrix.es6:547
 msgid "Delete row"
 msgstr "पंक्ति को हटाएं"
 
-#: js/i18nMissingStrings.es6:8
+#: js/i18nMissingStrings.es6:10
+msgid "Use a few words, avoid common phrases"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:11
+msgid "No need for symbols, digits, or uppercase letters"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:12
+msgid "Add another word or two. Uncommon words are better."
+msgstr ""
+
+#: js/i18nMissingStrings.es6:13
+msgid "Straight rows of keys are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:14
+msgid "Short keyboard patterns are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:15
+msgid "Use a longer keyboard pattern with more turns"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:16
+msgid "Repeats like \"aaa\" are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:17
+msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr ""
+
+#: js/i18nMissingStrings.es6:18
+msgid "Avoid repeated words and characters"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:19
+msgid "Sequences like abc or 6543 are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:20
+msgid "Avoid sequences"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:21
+msgid "Recent years are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:22
+msgid "Avoid recent years"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:23
+msgid "Avoid years that are associated with you"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:24
+msgid "Dates are often easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:25
+msgid "Avoid dates and years that are associated with you"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:26
+msgid "This is a top-10 common password"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:27
+msgid "This is a top-100 common password"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:28
+msgid "This is a very common password"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:29
+msgid "This is similar to a commonly used password"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:30
+msgid "A word by itself is easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:31
+msgid "Names and surnames by themselves are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:32
+msgid "Common names and surnames are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:33
+msgid "Capitalization doesn't help very much"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:34
+msgid "All-uppercase is almost as easy to guess as all-lowercase"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:35
+msgid "Reversed words aren't much harder to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:36
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:39
 msgid "Add another condition"
 msgstr "एक और शर्त जोड़ें"
 
-#: js/i18nMissingStrings.es6:10
+#: js/i18nMissingStrings.es6:41
 msgid "Question should match all of these criteria"
 msgstr "प्रश्न इन सभी मानदंडों से मेल खाना चाहिए"
 
-#: js/i18nMissingStrings.es6:11
+#: js/i18nMissingStrings.es6:42
 msgid "Question should match any of these criteria"
 msgstr "प्रश्न इन मानदंडों में से किसी से मेल खाना चाहिए"
 
-#: js/i18nMissingStrings.es6:12
-msgid "Click to add another response..."
-msgstr "एक और प्रतिक्रिया जोड़ने के लिए क्लिक करें..."
-
-#: js/i18nMissingStrings.es6:13
-msgid "AUTOMATIC"
-msgstr "स्वचालित"
-
-#: js/i18nMissingStrings.es6:14
-msgid "Skip Logic"
-msgstr "तर्क छोड़ें"
-
-#: js/i18nMissingStrings.es6:15
-msgid "Question Options"
-msgstr "प्रश्न विकल्प"
-
-#: js/i18nMissingStrings.es6:16
-msgid "Validation Criteria"
-msgstr "मान्यकरण मापदंड"
-
-#: js/i18nMissingStrings.es6:18
+#: js/i18nMissingStrings.es6:49
 msgid "A constraint message to be read in case of error:"
 msgstr "त्रुटि के मामले में पढ़ने के लिए एक बाध्य संदेश:"
 
-#: js/i18nMissingStrings.es6:19
+#: js/i18nMissingStrings.es6:50
 msgid "Row could not be displayed:"
 msgstr "पंक्ति प्रदर्शित नहीं की जा सकी:"
 
-#: js/i18nMissingStrings.es6:20
-msgid ""
-"This question could not be imported. Please re-create it manually. Please "
-"contact us at help@kobotoolbox.org so we can fix this bug!"
-msgstr "यह प्रश्न आयात नहीं किया जा सका. कृपया मैन्युअल रूप से इसे पुन: बनाएं. help@kobotoolbox.org पर हमसे संपर्क करें ताकि हम इस बग को ठीक कर सकें!"
-
-#: js/i18nMissingStrings.es6:21
-msgid "Add Question"
-msgstr "सवाल जोड़ें"
-
-#: js/i18nMissingStrings.es6:22
-msgid "or"
-msgstr "या"
-
-#: js/i18nMissingStrings.es6:23
-msgid "Import XLS"
-msgstr "आयात XLS"
-
-#: js/i18nMissingStrings.es6:24
+#: js/i18nMissingStrings.es6:55
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "यह प्रश्न केवल तभी प्रदर्शित किया जाएगा यदि निम्नलिखित शर्तों को लागू किया जाए"
 
-#: js/i18nMissingStrings.es6:25
+#: js/i18nMissingStrings.es6:56
 msgid "Save and Exit"
 msgstr "सहेजें और बाहर निकलें"
 
-#: js/i18nMissingStrings.es6:26
+#: js/i18nMissingStrings.es6:57
 msgid "Show All Responses"
 msgstr "सभी की प्रतिक्रियाएं दिखाएँ"
 
-#: js/i18nMissingStrings.es6:27
+#: js/i18nMissingStrings.es6:58
 msgid "Question Library"
 msgstr "प्रश्न लाइब्रेरी"
 
-#: js/i18nMissingStrings.es6:28
+#: js/i18nMissingStrings.es6:59
 msgid "Form ID"
 msgstr "फॉर्म आईडी"
 
-#: js/i18nMissingStrings.es6:29
+#: js/i18nMissingStrings.es6:60
 msgid "Unique form name"
 msgstr "अद्वितीय फॉर्म का नाम"
 
-#: js/i18nMissingStrings.es6:30
+#: js/i18nMissingStrings.es6:61
 msgid "Web form style (Optional)"
 msgstr "वेब फ़ॉर्म शैली (वैकल्पिक)"
 
-#: js/i18nMissingStrings.es6:31
+#: js/i18nMissingStrings.es6:62
 msgid "This allows using different Enketo styles, e.g. 'theme-grid'"
 msgstr "यह अलग-अलग अेनकेतो शैलियों का उपयोग करने की अनुमति देता है, उदाहरण 'theme-grid'"
 
-#: js/i18nMissingStrings.es6:32
+#: js/i18nMissingStrings.es6:63
 msgid "Multiple pages + Grid theme"
 msgstr "एकाधिक पृष्ठों + ग्रिड थीम"
 
-#: js/i18nMissingStrings.es6:33
+#: js/i18nMissingStrings.es6:64
 msgid "Version (Optional)"
 msgstr "संस्करण (वैकल्पिक)"
 
-#: js/i18nMissingStrings.es6:34
+#: js/i18nMissingStrings.es6:65
 msgid "A version ID of the form"
 msgstr "फ़ॉर्म  का संस्करण आईडी"
 
-#: js/i18nMissingStrings.es6:35
+#: js/i18nMissingStrings.es6:66
 msgid "Hidden meta questions to include in your form to help with analysis"
 msgstr "विश्लेषण के साथ सहायता के लिए आपके फॉर्म में शामिल करने के लिए छिपे हुए मेटा प्रश्न"
 
-#: js/i18nMissingStrings.es6:36
+#: js/i18nMissingStrings.es6:67
 msgid "Meta questions for collecting with cell phones"
 msgstr "सेल फोन के साथ इकट्ठा करने के लिए मेटा प्रश्न"
 
-#: js/i18nMissingStrings.es6:37
-msgid "This form is currently empty."
-msgstr "यह फ़ॉर्म वर्तमान में खाली है"
-
-#: js/i18nMissingStrings.es6:38
+#: js/i18nMissingStrings.es6:69
 msgid ""
 "You can add questions, notes, prompts, or other fields by clicking on the "
 "'+' sign below."
 msgstr "नीचे दिए गए '+' चिन्ह पर क्लिक करके आप प्रश्न, नोट, संकेत, या अन्य फ़ील्ड जोड़ सकते हैं."
 
-#: js/i18nMissingStrings.es6:39
+#: js/i18nMissingStrings.es6:70
 msgid "Vertical"
 msgstr "खड़ा"
 
-#: js/i18nMissingStrings.es6:40
+#: js/i18nMissingStrings.es6:71
 msgid "Donut"
 msgstr "डोनट"
 
-#: js/i18nMissingStrings.es6:41
-msgid "Area"
-msgstr "क्षेत्र"
-
-#: js/i18nMissingStrings.es6:42
+#: js/i18nMissingStrings.es6:73
 msgid "Horizontal"
 msgstr "आड़ा"
 
-#: js/i18nMissingStrings.es6:43
+#: js/i18nMissingStrings.es6:74
 msgid "Pie"
 msgstr "पाई"
 
-#: js/i18nMissingStrings.es6:44
-msgid "Line"
-msgstr "लाइन"
-
-#: js/i18nMissingStrings.es6:45
+#: js/i18nMissingStrings.es6:76
 msgid "Draft"
 msgstr "मसौदा"
 
-#: js/i18nMissingStrings.es6:46
-msgid "Value:"
-msgstr "मूल्य:"
-
-#: js/i18nMissingStrings.es6:47
+#: js/i18nMissingStrings.es6:78
 msgid "Items cannot be selected more than once"
 msgstr "आइटम को एक से अधिक बार नहीं चुना जा सकता"
 
-#: js/i18nMissingStrings.es6:48
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "मैन्युअल रूप से XLSForm कोड में अपना मान्यकरण तर्क दर्ज करें"
-
-#: js/i18nMissingStrings.es6:49
+#: js/i18nMissingStrings.es6:80
 msgid "[button triggers] Settings"
 msgstr "सेटिंग्स"
 
-#: js/i18nMissingStrings.es6:50
+#: js/i18nMissingStrings.es6:81
 msgid "[button triggers] Delete Question"
 msgstr "प्रश्न हटाएं"
 
-#: js/i18nMissingStrings.es6:51
+#: js/i18nMissingStrings.es6:82
 msgid "[button triggers] Duplicate Question"
 msgstr "डुप्लिकेट प्रश्न"
 
-#: js/i18nMissingStrings.es6:52
+#: js/i18nMissingStrings.es6:83
 msgid "[button triggers] Add Question to Library"
 msgstr "प्रश्न लाइब्रेरी में जोड़ें"
 
-#: js/i18nMissingStrings.es6:55
-msgid "Decimal"
-msgstr "दशमलव"
-
-#: js/i18nMissingStrings.es6:56
-msgid "Date"
-msgstr "तारीख"
-
-#: js/i18nMissingStrings.es6:57
-msgid "Time"
-msgstr "समय"
-
-#: js/i18nMissingStrings.es6:58
-msgid "Date & time"
-msgstr "दिनांक और समय"
-
-#: js/i18nMissingStrings.es6:59
+#: js/i18nMissingStrings.es6:90
 msgid "GPS"
 msgstr "GPS"
 
-#: js/i18nMissingStrings.es6:60
-msgid "Photo"
-msgstr "तस्वीर"
-
-#: js/i18nMissingStrings.es6:61
-msgid "Audio"
-msgstr "ऑडियो"
-
-#: js/i18nMissingStrings.es6:62
-msgid "Video"
-msgstr "वीडियो"
-
-#: js/i18nMissingStrings.es6:63
-msgid "Note"
-msgstr "टिप्पणी"
-
-#: js/i18nMissingStrings.es6:64
+#: js/i18nMissingStrings.es6:95
 msgid "Barcode"
 msgstr "बारकोड"
 
-#: js/i18nMissingStrings.es6:65
-msgid "Acknowledge"
-msgstr "स्वीकार करते हैं"
-
-#: js/i18nMissingStrings.es6:66
-msgid "Calculate"
-msgstr "गणना"
-
-#: js/i18nMissingStrings.es6:67
+#: js/i18nMissingStrings.es6:98
 msgid "Matrix / Rating"
 msgstr "मैट्रिक्स / रेटिंग"
 
-#: js/i18nMissingStrings.es6:68
-msgid "Ranking"
-msgstr "श्रेणी"
-
-#: js/i18nMissingStrings.es6:69
+#: js/i18nMissingStrings.es6:100
 msgid "Are you sure you want to split apart this group?"
 msgstr "क्या आप वाकई इस समूह को अलग करना चाहते हैं?"
 
-#: js/i18nMissingStrings.es6:70
-msgid ""
-"You can't display nested groups on the same screen - the setting has been "
-"removed from the parent group"
-msgstr "आप एक ही स्क्रीन पर नेस्टेड समूह प्रदर्शित नहीं कर सकते - सेटिंग को मूल समूह से हटा दिया गया है"
-
-#: js/i18nMissingStrings.es6:71
-msgid "Note: Rank and Matrix question types are currently in beta."
-msgstr "नोट: रैंक और मैट्रिक्स प्रश्न प्रकार वर्तमान में बीटा में हैं"
-
-#: js/i18nMissingStrings.es6:72
+#: js/i18nMissingStrings.es6:102
 msgid "Enter your question"
 msgstr "अपना प्रश्न दर्ज करें"
 
-#: js/i18nMissingStrings.es6:73
-msgid "Note: Rank and Matrix question types are currently in beta"
-msgstr "नोट: रैंक और मैट्रिक्स प्रश्न प्रकार वर्तमान में बीटा में हैं"
-
-#: js/i18nMissingStrings.es6:74
+#: js/i18nMissingStrings.es6:103
 msgid "Select question from list"
 msgstr "सूची से सवाल का चयन करें"
 
-#: js/i18nMissingStrings.es6:75
+#: js/i18nMissingStrings.es6:104
 msgid "Question hint"
 msgstr "प्रश्न संकेत"
 
-#: js/i18nMissingStrings.es6:76
-msgid "Error Message"
-msgstr "त्रुटि संदेश"
-
-#: js/i18nMissingStrings.es6:77
-msgid "Data column name"
-msgstr "डेटा कॉलम का नाम"
-
-#: js/i18nMissingStrings.es6:78
-msgid "Default response"
-msgstr "डिफ़ॉल्ट प्रतिक्रिया"
-
-#: js/i18nMissingStrings.es6:79
-msgid "Repeat"
-msgstr "दोहराएँ"
-
-#: js/i18nMissingStrings.es6:80
-msgid "Repeat this group if necessary"
-msgstr "यदि आवश्यक हो तो इस समूह को दोहराएं"
-
-#: js/i18nMissingStrings.es6:81
-msgid "Mandatory response"
-msgstr "अनिवार्य प्रतिक्रिया"
-
-#: js/i18nMissingStrings.es6:82
-msgid "Appearance (advanced)"
-msgstr "उपस्थिति (उन्नत)"
-
-#: js/i18nMissingStrings.es6:83
-msgid "Show all questions in this group on the same screen"
-msgstr "एक ही स्क्रीन पर इस समूह में सभी प्रश्न दिखाएं"
-
-#: js/i18nMissingStrings.es6:84
+#: js/i18nMissingStrings.es6:113
 msgid "Please check your connection and try again."
 msgstr "अपने कनेक्शन की जांच करें और पुन: प्रयास करें."
 
-#: js/i18nMissingStrings.es6:85
+#: js/i18nMissingStrings.es6:114
 msgid ""
 "The server encountered an error while trying to deploy the project. If this "
 "problem persists, please contact <a "
 "href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>."
 msgstr "प्रोजेक्ट को परिनियोजित करने का प्रयास करते समय सर्वर को एक त्रुटि मिली. अगर यह समस्या बनी रहती है, तो कृपया <a href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a> से संपर्क करें."
 
-#: js/i18nMissingStrings.es6:86
+#: js/i18nMissingStrings.es6:115
 msgid "The form id was not valid."
 msgstr "फ़ॉर्म आईडी वैध नहीं था."
 
-#: js/i18nMissingStrings.es6:87
+#: js/i18nMissingStrings.es6:116
 msgid "failed to change password"
 msgstr "पासवर्ड बदलने में विफल"
 
-#: js/i18nMissingStrings.es6:88
+#: js/i18nMissingStrings.es6:117
 msgid "Tags are loading..."
 msgstr "टैग लोड हो रहे हैं ..."
 
-#: js/i18nMissingStrings.es6:89
+#: js/i18nMissingStrings.es6:118
 msgid "library"
 msgstr "लाइब्रेरी"
 
-#: js/i18nMissingStrings.es6:90
+#: js/i18nMissingStrings.es6:119
 msgid "Collection"
 msgstr "संग्रह"
 
-#: js/i18nMissingStrings.es6:91
+#: js/i18nMissingStrings.es6:120
 msgid "collection loading..."
 msgstr "संग्रह लोड हो रहा है ..."
 
-#: js/i18nMissingStrings.es6:92
+#: js/i18nMissingStrings.es6:121
 msgid "new collection inside \"___\""
 msgstr " \"___\" के अंदर नया संग्रह"
 
-#: js/i18nMissingStrings.es6:93
+#: js/i18nMissingStrings.es6:122
 msgid "new question inside \"___\""
 msgstr "\"___\" के अंदर नया सवाल"
 
-#: js/i18nMissingStrings.es6:94
+#: js/i18nMissingStrings.es6:123
 msgid "new block inside \"___\""
 msgstr " \"___\" के अंदर नया ब्लॉक"
 
-#: js/i18nMissingStrings.es6:95
+#: js/i18nMissingStrings.es6:124
 msgid "upload into \"___\""
 msgstr "\"___\" में अपलोड करें"
 
-#: js/i18nMissingStrings.es6:96
+#: js/i18nMissingStrings.es6:125
 msgid "Are you sure you want to delete this collection?"
 msgstr "क्या आप इस संग्रह को हटाना चाहते हैं?"
 
-#: js/i18nMissingStrings.es6:97
-msgid "This action cannot be undone."
-msgstr "इस क्रिया को पूर्ववत नहीं किया जा सकता है."
-
-#: js/i18nMissingStrings.es6:98
-msgid "Add a condition"
-msgstr "एक शर्त जोड़ें"
-
-#: js/i18nMissingStrings.es6:99
-msgid "Manually enter your skip logic in XLSForm code"
-msgstr "मैन्युअल रूप से XLSForm कोड में अपना छोड़ तर्क दर्ज करें"
-
-#: js/i18nMissingStrings.es6:100
-msgid "response value"
-msgstr "प्रतिक्रिया मूल्य"
-
-#: js/i18nMissingStrings.es6:101
-msgid "Are you sure you want to delete this question?"
-msgstr "क्या आप वाकई इस प्रश्न को हटाना चाहते हैं?"
-
-#: js/i18nMissingStrings.es6:104
+#: js/i18nMissingStrings.es6:133
 msgid "Unable to deploy"
 msgstr "तैनात करने में असमर्थ"
 
-#: js/i18nMissingStrings.es6:107
+#: js/i18nMissingStrings.es6:136
 msgid "profile"
 msgstr "प्रोफ़ाइल"
 
-#: js/i18nMissingStrings.es6:108
+#: js/i18nMissingStrings.es6:137
 msgid "logout"
 msgstr "लोग आउट"
 
-#: js/i18nMissingStrings.es6:109
+#: js/i18nMissingStrings.es6:138
 msgid "log in"
 msgstr "लॉग इन करें"
 
-#: js/i18nMissingStrings.es6:110
+#: js/i18nMissingStrings.es6:139
 msgid "Link to share"
 msgstr "साझा करने के लिए लिंक"
 
-#: js/i18nMissingStrings.es6:111
+#: js/i18nMissingStrings.es6:140
 msgid "Invite people and specify access rights"
 msgstr "लोगों को आमंत्रित करें और पहुंच अधिकार निर्दिष्ट करें"
 
-#: js/i18nMissingStrings.es6:112
+#: js/i18nMissingStrings.es6:141
 msgid "Your username, bio, and links appear on your public profile"
 msgstr "आपके उपयोगकर्ता नाम, जीवनी और लिंक आपकी सार्वजनिक प्रोफ़ाइल पर दिखाई देते हैं"
 
-#: js/i18nMissingStrings.es6:113
+#: js/i18nMissingStrings.es6:142
 msgid "Download form as"
 msgstr "इस के रूप में फार्म डाउनलोड"
 
-#: js/i18nMissingStrings.es6:114
+#: js/i18nMissingStrings.es6:143
 msgid "add to library"
 msgstr "लाइब्रेरी में जोड़ें"
 
-#: js/i18nMissingStrings.es6:115
+#: js/i18nMissingStrings.es6:144
 msgid "Allow others to access your project."
 msgstr "दूसरों को अपनी परियोजना का उपयोग करने की अनुमति दें"
 
-#: js/i18nMissingStrings.es6:116
+#: js/i18nMissingStrings.es6:145
 msgid "Shared with "
 msgstr "इसके साथ साझा किया गया"
 
-#: js/i18nMissingStrings.es6:117
+#: js/i18nMissingStrings.es6:146
 msgid "Share the sector and country with developers"
 msgstr "डेवलपर्स के साथ क्षेत्र और देश को साझा करें"
 
-#: js/i18nMissingStrings.es6:118
+#: js/i18nMissingStrings.es6:147
 msgid "Leave Beta"
 msgstr "बीटा छोड़ें"
 
-#: js/i18nMissingStrings.es6:119
+#: js/i18nMissingStrings.es6:148
 msgid "Form"
 msgstr "फ़ॉर्म "
 
-#: js/i18nMissingStrings.es6:122
-msgid "Settings"
-msgstr "सेटिंग्स"
-
-#: js/i18nMissingStrings.es6:123
+#: js/i18nMissingStrings.es6:152
 msgid "Undeployed draft"
 msgstr "अपरिवर्तित मसौदा"
 
-#: js/i18nMissingStrings.es6:124
+#: js/i18nMissingStrings.es6:153
 msgid "Scheduled server maintenance"
 msgstr "अनुसूचित सर्वर रखरखाव"
 
-#: js/i18nMissingStrings.es6:125
+#: js/i18nMissingStrings.es6:154
 msgid "Project description"
 msgstr "परियोजना विवरण"
 
-#: js/i18nMissingStrings.es6:126
+#: js/i18nMissingStrings.es6:155
 msgid "none"
 msgstr "कोई नहीं"
 
-#: js/i18nMissingStrings.es6:127
+#: js/i18nMissingStrings.es6:156
 msgid "report type"
 msgstr "रिपोर्ट का प्रकार"
 
-#: js/i18nMissingStrings.es6:130
+#: js/i18nMissingStrings.es6:159
 msgid "form name"
 msgstr "फ़ार्म का नाम"
 
-#: js/i18nMissingStrings.es6:131
+#: js/i18nMissingStrings.es6:160
 msgid "Ask support about this error"
 msgstr "इस त्रुटि के बारे में support को पूछें"
 
-#: js/i18nMissingStrings.es6:132
+#: js/i18nMissingStrings.es6:161
 msgid "Collections"
 msgstr "संग्रह"
 
-#: js/i18nMissingStrings.es6:133
+#: js/i18nMissingStrings.es6:162
 msgid "collection not loaded"
 msgstr "संग्रह लोड नहीं किया गया"
 
-#: js/i18nMissingStrings.es6:134
+#: js/i18nMissingStrings.es6:163
 msgid "collection name"
 msgstr "संग्रह का नाम"
 
-#: js/i18nMissingStrings.es6:135
+#: js/i18nMissingStrings.es6:164
 msgid "No assets to display"
 msgstr "प्रदर्शित करने के लिए कोई संपत्ति नहीं"
 
-#: js/i18nMissingStrings.es6:136
+#: js/i18nMissingStrings.es6:165
 msgid "Form Overview"
 msgstr "फ़ॉर्म  अवलोकन"
 
-#: js/i18nMissingStrings.es6:137
+#: js/i18nMissingStrings.es6:166
 msgid "Edit in Form Builder"
 msgstr "फ़ॉर्म बिल्डर में संपादित करें"
 
-#: js/i18nMissingStrings.es6:138
+#: js/i18nMissingStrings.es6:167
 msgid "make new collection: \"{label}\""
 msgstr "नया संग्रह करें: \"{label}\""
 
-#: js/i18nMissingStrings.es6:139
+#: js/i18nMissingStrings.es6:168
 msgid "owner"
 msgstr "मालिक"
 
-#: js/i18nMissingStrings.es6:140
+#: js/i18nMissingStrings.es6:169
 msgid "viewer"
 msgstr "दर्शक"
 
-#: js/i18nMissingStrings.es6:141
+#: js/i18nMissingStrings.es6:170
 msgid "viewers"
 msgstr "दर्शक"
 
-#: js/i18nMissingStrings.es6:142
+#: js/i18nMissingStrings.es6:171
 msgid "editor"
 msgstr "संपादक"
 
-#: js/i18nMissingStrings.es6:143
+#: js/i18nMissingStrings.es6:172
 msgid "editors"
 msgstr "संपादकों"
 
-#: js/i18nMissingStrings.es6:144
+#: js/i18nMissingStrings.es6:173
 msgid "status"
 msgstr "स्थिति"
 
-#: js/i18nMissingStrings.es6:145
+#: js/i18nMissingStrings.es6:174
 msgid "public"
 msgstr "सार्वजनिक"
 
-#: js/i18nMissingStrings.es6:146
+#: js/i18nMissingStrings.es6:175
 msgid "private"
 msgstr "निजी"
 
-#: js/i18nMissingStrings.es6:147
+#: js/i18nMissingStrings.es6:176
 msgid "revisions"
 msgstr "परिवर्तित"
 
-#: js/i18nMissingStrings.es6:148
+#: js/i18nMissingStrings.es6:177
 msgid "created"
 msgstr "बनाया"
 
-#: js/i18nMissingStrings.es6:149
+#: js/i18nMissingStrings.es6:178
 msgid "modified"
 msgstr "संशोधित"
 
-#: js/i18nMissingStrings.es6:150
+#: js/i18nMissingStrings.es6:179
 msgid "no language information"
 msgstr "कोई भाषा की जानकारी नहीं"
 
-#: js/i18nMissingStrings.es6:151
+#: js/i18nMissingStrings.es6:180
 msgid "no translations"
 msgstr "कोई अनुवाद नहीं"
 
-#: js/i18nMissingStrings.es6:152
+#: js/i18nMissingStrings.es6:181
 msgid "languages"
 msgstr "भाषाओं"
 
-#: js/i18nMissingStrings.es6:153
+#: js/i18nMissingStrings.es6:182
 msgid "Collecting Data with Web Forms"
 msgstr "वेबफॉर्म के साथ डेटा एकत्र करना"
 
-#: js/i18nMissingStrings.es6:154
-msgid "Learn more"
-msgstr "और जानें"
-
-#: js/i18nMissingStrings.es6:155
+#: js/i18nMissingStrings.es6:184
 msgid "Choose an option"
 msgstr "एक विकल्प चुनें"
 
-#: js/i18nMissingStrings.es6:156
+#: js/i18nMissingStrings.es6:185
 msgid "Collecting Data with Android App"
 msgstr "एंड्रॉइड ऐप के साथ डेटा एकत्र करना"
 
-#: js/i18nMissingStrings.es6:157
+#: js/i18nMissingStrings.es6:186
 msgid "preview"
 msgstr "पूर्वावलोकन"
 
-#: js/i18nMissingStrings.es6:158
+#: js/i18nMissingStrings.es6:187
 msgid "clone"
 msgstr "क्लोन"
 
-#: js/i18nMissingStrings.es6:159
+#: js/i18nMissingStrings.es6:188
 msgid "new form name"
 msgstr "नया फ़ार्म का नाम"
 
-#: js/i18nMissingStrings.es6:160
+#: js/i18nMissingStrings.es6:189
 msgid ""
 "You are about to permanently delete this ___. Are you sure you want to "
 "continue?"
 msgstr "आप इसे ___ स्थायी रूप से हटाना चाहते हैं. क्या आप वाकई जारी रखना चाहते हैं?"
 
-#: js/i18nMissingStrings.es6:161
+#: js/i18nMissingStrings.es6:190
 msgid "Current Version"
 msgstr "वर्तमान संस्करण"
 
-#: js/i18nMissingStrings.es6:162
+#: js/i18nMissingStrings.es6:191
 msgid "Modified Date"
 msgstr "संशोधित दिनांक"
 
-#: js/i18nMissingStrings.es6:163
+#: js/i18nMissingStrings.es6:192
 msgid "(deployed)"
 msgstr "(तैनात)"
 
-#: js/i18nMissingStrings.es6:164
+#: js/i18nMissingStrings.es6:193
 msgid "(archived)"
 msgstr "(संग्रहित)"
 
-#: js/i18nMissingStrings.es6:165
+#: js/i18nMissingStrings.es6:194
 msgid "(undeployed draft)"
 msgstr "(अपरिवर्तित मसौदा)"
 
-#: js/i18nMissingStrings.es6:166
+#: js/i18nMissingStrings.es6:195
 msgid "Previous Versions"
 msgstr "पिछले संस्करणों"
 
-#: js/i18nMissingStrings.es6:167
+#: js/i18nMissingStrings.es6:196
 msgid "collections"
 msgstr "संग्रह"
 
-#: js/i18nMissingStrings.es6:168
+#: js/i18nMissingStrings.es6:197
 msgid "my forms"
 msgstr "मेरे फॉर्म"
 
-#: js/i18nMissingStrings.es6:169
+#: js/i18nMissingStrings.es6:198
 msgid "shared with me"
 msgstr "मेरे साथ साझा किया"
 
-#: js/i18nMissingStrings.es6:170
+#: js/i18nMissingStrings.es6:199
 msgid "error loading data"
 msgstr "डेटा लोड करने में त्रुटि"
 
-#: js/i18nMissingStrings.es6:171
+#: js/i18nMissingStrings.es6:200
 msgid "results loaded"
 msgstr "परिणाम लोड किए गए"
 
-#: js/i18nMissingStrings.es6:172
+#: js/i18nMissingStrings.es6:201
 msgid ""
 "Warning! You are about to delete this collection with all its questions and "
 "blocks. Are you sure you want to continue?"
 msgstr "चेतावनी! आप इस संग्रह को उसके सभी प्रश्नों और ब्लॉकों के साथ हटाने वाले हैं. क्या आप वाकई जारी रखना चाहते हैं?"
 
-#: js/i18nMissingStrings.es6:173
+#: js/i18nMissingStrings.es6:202
 msgid "new name?"
 msgstr "नया नाम?"
 
-#: js/i18nMissingStrings.es6:174
+#: js/i18nMissingStrings.es6:203
 msgid "Delete Project"
 msgstr "परियोजना को हटा दें"
 
-#: js/i18nMissingStrings.es6:175
-msgid "More Actions"
-msgstr "और क्रियाएँ"
-
-#: js/i18nMissingStrings.es6:176
+#: js/i18nMissingStrings.es6:205
 msgid "Archived"
 msgstr "संग्रहित संग्रह"
 
-#: js/lists/library.es6:62 js/mixins.es6:318
+#: js/lists/library.es6:64
+msgid "Show All"
+msgstr ""
+
+#: js/lists/library.es6:66
+msgid "Block"
+msgstr ""
+
+#: js/lists/library.es6:72
+msgid "Filter by type:"
+msgstr ""
+
+#: js/lists/library.es6:91
 msgid "library item"
 msgstr "लाइब्रेरी आइटम"
 
-#: js/lists/library.es6:63
+#: js/lists/library.es6:92
 msgid "library items"
 msgstr "लाइब्रेरी आइटम"
 
-#: js/lists/sidebarForms.es6:142
+#: js/lists/sidebarForms.es6:146
 msgid "Deleted"
 msgstr "नष्ट कर दिया"
 
-#: js/mixins.es6:35
+#: js/mixins.es6:41
 msgid "copied to clipboard"
 msgstr "क्लिपबोर्ड पर कॉपी किया गया"
 
-#: js/mixins.es6:39 js/mixins.es6:279
+#: js/mixins.es6:45 js/mixins.es6:464
 msgid "Clone of"
 msgstr "का क्लोन"
 
-#: js/mixins.es6:43 js/mixins.es6:282
-msgid "Clone form"
-msgstr "से क्लोन"
+#: js/mixins.es6:50 js/mixins.es6:469
+msgid "Enter the name of the cloned ##ASSET_TYPE##."
+msgstr ""
 
-#: js/mixins.es6:44 js/mixins.es6:283
-msgid "Enter the name of the cloned form"
-msgstr "क्लोन फ़ॉर्म का नाम दर्ज करें"
+#: js/mixins.es6:82 js/mixins.es6:500
+msgid "Create new template from this project"
+msgstr ""
 
-#: js/mixins.es6:73
+#: js/mixins.es6:83 js/mixins.es6:501
+msgid "Enter the name of the new template."
+msgstr ""
+
+#: js/mixins.es6:87
+msgid "deploying to kobocat..."
+msgstr "कोबोकेट में तैनात..."
+
+#: js/mixins.es6:90
+msgid "deployed form"
+msgstr "तैनात फ़ॉर्म"
+
+#: js/mixins.es6:107
 msgid "Overwrite existing deployment"
 msgstr "मौजूदा तैनाती को अधिलेखित करें"
 
-#: js/mixins.es6:74
+#: js/mixins.es6:109
 msgid ""
 "This form has already been deployed. Are you sure you want overwrite the "
 "existing deployment? <br/><br/><strong>This action cannot be "
 "undone.</strong>"
 msgstr "यह फ़ॉर्म पहले से ही तैनात किया गया है. क्या आप वाकई मौजूदा तैनाती को अधिलेखित करना चाहते हैं? <br/><br/><strong>इस क्रिया को पूर्ववत नहीं किया जा सकता है.</strong>"
 
-#: js/mixins.es6:81
+#: js/mixins.es6:117
 msgid "Deploying..."
 msgstr "तैनाती..."
 
-#: js/mixins.es6:84
+#: js/mixins.es6:120
 msgid "redeployed form"
 msgstr "पुन: तैनाती करना"
 
-#: js/mixins.es6:109
-msgid "deploying to kobocat..."
-msgstr "कोबोकेट में तैनात..."
+#: js/mixins.es6:332
+msgid "## files"
+msgstr ""
 
-#: js/mixins.es6:112
-msgid "deployed form"
-msgstr "तैनात फ़ॉर्म"
-
-#: js/mixins.es6:200
-msgid "Could not redirect to asset."
-msgstr "संपत्ति पर रीडायरेक्ट नहीं किया जा सका."
-
-#: js/mixins.es6:210
-msgid "Replace operation completed"
-msgstr "बदलने के ऑपरेशन पूरा हुआ"
-
-#: js/mixins.es6:212
-msgid "XLS Upload completed"
-msgstr "XLS अपलोड पूर्ण हुआ"
-
-#: js/mixins.es6:218
+#: js/mixins.es6:359
 msgid ""
-"Your library assets have uploaded and are being processed. This may take a "
-"few moments."
-msgstr "आपकी लाइब्रेरी की परिसंपत्तियों ने अपलोड किया है और उन्हें संसाधित किया जा रहा है. इसमें कुछ क्षण लग सकते हैं."
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr ""
 
-#: js/mixins.es6:220
-msgid ""
-"Your library assets have uploaded and are queued for processing. This may "
-"take a few moments."
-msgstr "आपकी लाइब्रेरी संपत्ति अपलोड हो चुकी है और प्रसंस्करण के लिए कतारबद्ध हैं. इसमें कुछ क्षण लग सकते हैं."
+#: js/mixins.es6:370
+msgid "XLS Import completed"
+msgstr ""
 
-#: js/mixins.es6:225
-msgid "Import Failure."
-msgstr "आयात विफलता."
+#: js/mixins.es6:375
+msgid "Your upload is being processed. This may take a few moments."
+msgstr ""
 
-#: js/mixins.es6:228
-msgid "Import Failed."
-msgstr "आयात असफल रहा."
+#: js/mixins.es6:377
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr ""
 
-#: js/mixins.es6:236
+#: js/mixins.es6:399
 msgid "Failed to create import."
 msgstr "आयात बनाने में विफल."
 
-#: js/mixins.es6:250
+#: js/mixins.es6:421
 msgid "Upload error: could not recognize Excel file."
 msgstr "अपलोड त्रुटि: एक्सेल फ़ाइल को पहचान नहीं सका."
 
-#: js/mixins.es6:293
+#: js/mixins.es6:422
+msgid "Uploaded file name: "
+msgstr ""
+
+#: js/mixins.es6:425
+msgid "Could not recognize the dropped item(s)."
+msgstr ""
+
+#: js/mixins.es6:474
+msgid "Cloning..."
+msgstr ""
+
+#: js/mixins.es6:483
 msgid "cloned project created"
 msgstr "क्लोन परियोजना बनाया"
 
-#: js/mixins.es6:315
-msgid "project"
-msgstr "परियोजना"
+#: js/mixins.es6:509
+msgid "Create new project from this template"
+msgstr ""
 
-#: js/mixins.es6:328
+#: js/mixins.es6:510
+msgid "Enter the name of the new project."
+msgstr ""
+
+#: js/mixins.es6:529
 msgid "deleted permanently"
 msgstr "स्थायी रूप से हटा दिया गया"
 
-#: js/mixins.es6:336
+#: js/mixins.es6:539
 msgid "You are about to permanently delete this item from your library."
 msgstr "आप इस आइटम को अपनी लाइब्रेरी से स्थायी रूप से हटाने वाले हैं."
 
-#: js/mixins.es6:338
+#: js/mixins.es6:541
 msgid "You are about to permanently delete this draft."
 msgstr "आप इस मसौदा को स्थायी रूप से हटाने वाले हैं."
 
-#: js/mixins.es6:341
+#: js/mixins.es6:544
 msgid "You are about to permanently delete this form."
 msgstr "आप इस फ़ॉर्म को स्थायी रूप से हटाने वाले हैं."
 
-#: js/mixins.es6:342
+#: js/mixins.es6:545
 msgid "All data gathered for this form will be deleted."
 msgstr "इस फ़ॉर्म के लिए इकट्ठा किए गए सभी डेटा हटा दिए जाएंगे."
 
-#: js/mixins.es6:343
+#: js/mixins.es6:546
 msgid "All questions created for this form will be deleted."
 msgstr "इस फ़ॉर्म के लिए बनाए गए सभी प्रश्नों को हटा दिया जाएगा."
 
-#: js/mixins.es6:344
+#: js/mixins.es6:547
 msgid "The form associated with this project will be deleted."
 msgstr "इस परियोजना से जुड़े फॉर्म को हटा दिया जाएगा."
 
-#: js/mixins.es6:345
+#: js/mixins.es6:548
 msgid ""
 "I understand that if I delete this project I will not be able to recover it."
 msgstr "मैं समझता हूं कि अगर मैं इस परियोजना को हटा देता हूं तो मैं इसे पुनर्प्राप्त नहीं करपाऊँगा."
 
-#: js/mixins.es6:385
-msgid "Archive Project"
-msgstr "संग्रह परियोजना"
-
-#: js/mixins.es6:386
+#: js/mixins.es6:592
 msgid "Are you sure you want to archive this project?"
 msgstr "क्या आप वाकई इस परियोजना को संग्रहित करना चाहते हैं?"
 
-#: js/mixins.es6:387
+#: js/mixins.es6:593
 msgid "Your form will not accept submissions while it is archived."
 msgstr "आपका फ़ॉर्म संग्रहित होने के दौरान प्रस्तुतियाँ स्वीकार नहीं करेगा."
 
-#: js/mixins.es6:397
-msgid "archived project"
-msgstr "संग्रहीत परियोजना"
+#: js/mixins.es6:620
+msgid "Are you sure you want to unarchive this project?"
+msgstr ""
 
-#: js/models/surveyScope.es6:34
+#: js/mixins.es6:621
+msgid "Unarchive"
+msgstr ""
+
+#: js/mixins.es6:791
+msgid "Failed to create new asset!"
+msgstr ""
+
+#: js/models/surveyScope.es6:35
 msgid "question has been added to the library"
 msgstr "सवाल लाइब्रेरी  में जोड़ा गया है"
 
-#: js/ui.es6:159
+#: js/stores.es6:365
+msgid "failed to list assets"
+msgstr "संपत्ति की सूची में विफल"
+
+#: js/ui.es6:166
 msgid "No name"
 msgstr "कोई नाम नहीं"
 
-#: js/ui.es6:180
+#: js/ui.es6:188
 msgid "no name"
 msgstr "कोई नाम नहीं"
 
-#: js/ui.es6:184
+#: js/ui.es6:192
 msgid "and one other question"
 msgstr "और एक अन्य सवाल"
 
-#: js/ui.es6:186
+#: js/ui.es6:194
 msgid "and ## other questions"
 msgstr "और ## अन्य सवाल"
+
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#~ msgid "Deploy this project"
+#~ msgstr "Deploy this project"
+
+#~ msgid "Redeploy this project"
+#~ msgstr "Redeploy this project"
+
+#~ msgid "Replace with XLS"
+#~ msgstr "Replace with XLS"
+
+#~ msgid "Project"
+#~ msgstr "Project"
+
+#~ msgid "source"
+#~ msgstr "source"
+
+#~ msgid "help"
+#~ msgstr "help"
+
+#~ msgid ""
+#~ "This information will be used to help you filter results on the project list"
+#~ " page."
+#~ msgstr ""
+#~ "This information will be used to help you filter results on the project list"
+#~ " page."
+
+#~ msgid "Previous Exports"
+#~ msgstr "Previous Exports"
+
+#~ msgid "Share form"
+#~ msgstr "Share form"
+
+#~ msgid "not logged in"
+#~ msgstr "not logged in"
+
+#~ msgid "Failed to delete collection."
+#~ msgstr "Failed to delete collection."
+
+#~ msgid "Search Tags"
+#~ msgstr "Search Tags"
+
+#~ msgid "No results found"
+#~ msgstr "No results found"
+
+#~ msgid "Filter by"
+#~ msgstr "Filter by"
+
+#~ msgid "Create New Project from Scratch"
+#~ msgstr "Create New Project from Scratch"
+
+#~ msgid "Record #"
+#~ msgstr "Record #"
+
+#~ msgid "Expand"
+#~ msgstr "Expand"
+
+#~ msgid "Contract"
+#~ msgstr "Contract"
+
+#~ msgid "Show/hide question groups"
+#~ msgstr "Show/hide question groups"
+
+#~ msgid "#tags +"
+#~ msgstr "#tags +"
+
+#~ msgid "loading library assets"
+#~ msgstr "loading library assets"
+
+#~ msgid "none (0 metadata specified)"
+#~ msgstr "none (0 metadata specified)"
+
+#~ msgid "metadata:"
+#~ msgstr "metadata:"
+
+#~ msgid "you have unsaved changes"
+#~ msgstr "you have unsaved changes"
+
+#~ msgid "Web form layout"
+#~ msgstr "Web form layout"
+
+#~ msgid "form style"
+#~ msgstr "form style"
+
+#~ msgid ""
+#~ "select the form style that you would like to use. this will only affect web "
+#~ "forms."
+#~ msgstr ""
+#~ "select the form style that you would like to use. this will only affect web "
+#~ "forms."
+
+#~ msgid ""
+#~ "select the form style. this will only affect the Enketo preview, and it will"
+#~ " not be saved with the question or block."
+#~ msgstr ""
+#~ "select the form style. this will only affect the Enketo preview, and it will"
+#~ " not be saved with the question or block."
+
+#~ msgid "custom form style: \"{label}\""
+#~ msgstr "custom form style: \"{label}\""
+
+#~ msgid "you have unsaved changes. leave form without saving?"
+#~ msgstr "you have unsaved changes. leave form without saving?"
+
+#~ msgid "Note: Rank and Matrix question types are currently in beta."
+#~ msgstr "Note: Rank and Matrix question types are currently in beta."
+
+#~ msgid "Note: Rank and Matrix question types are currently in beta"
+#~ msgstr "Note: Rank and Matrix question types are currently in beta"
+
+#~ msgid "Clone form"
+#~ msgstr "Clone form"
+
+#~ msgid "Enter the name of the cloned form"
+#~ msgstr "Enter the name of the cloned form"
+
+#~ msgid "Could not redirect to asset."
+#~ msgstr "Could not redirect to asset."
+
+#~ msgid "Replace operation completed"
+#~ msgstr "Replace operation completed"
+
+#~ msgid "XLS Upload completed"
+#~ msgstr "XLS Upload completed"
+
+#~ msgid ""
+#~ "Your library assets have uploaded and are being processed. This may take a "
+#~ "few moments."
+#~ msgstr ""
+#~ "Your library assets have uploaded and are being processed. This may take a "
+#~ "few moments."
+
+#~ msgid ""
+#~ "Your library assets have uploaded and are queued for processing. This may "
+#~ "take a few moments."
+#~ msgstr ""
+#~ "Your library assets have uploaded and are queued for processing. This may "
+#~ "take a few moments."
+
+#~ msgid "Import Failure."
+#~ msgstr "Import Failure."
+
+#~ msgid "Import Failed."
+#~ msgstr "Import Failed."
+
+#~ msgid "archived project"
+#~ msgstr "archived project"
 
 #~ msgid "Group by question"
 #~ msgstr "Group by question"
@@ -2652,6 +3834,3 @@ msgstr "और ## अन्य सवाल"
 
 #~ msgid "Only 1 file can be uploaded in this case"
 #~ msgstr "Only 1 file can be uploaded in this case"
-
-#~ msgid "failed to list assets"
-#~ msgstr "failed to list assets"

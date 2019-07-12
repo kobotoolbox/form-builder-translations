@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koboform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-05-29 14:07+0000\n"
+"POT-Creation-Date: 2019-07-12 15:18+0000\n"
 "PO-Revision-Date: 2017-03-27 19:56+0000\n"
 "Last-Translator: Penar Musaraj <pmusaraj@gmail.com>\n"
 "Language-Team: English (http://www.transifex.com/kobotoolbox/koboform/"
@@ -21,23 +21,43 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: hub/actions.py:74
+#: hub/actions.py:76
 #, python-format
 msgid "Successfully deleted %(count)d related objects."
 msgstr ""
 
-#: hub/actions.py:87
+#: hub/actions.py:89
 #, python-format
 msgid "Cannot delete %(name)s"
 msgstr ""
 
-#: hub/actions.py:89
+#: hub/actions.py:91
 msgid "Are you sure?"
 msgstr ""
 
-#: hub/actions.py:112
+#: hub/actions.py:114
 #, python-format
-msgid "Remove related objects for these %(verbose_name_plural)s"
+msgid ""
+"Remove related objects for these %(verbose_name_plural)s (deletion step 1)"
+msgstr ""
+
+#: hub/actions.py:139
+#, python-format
+msgid ""
+"View these %(verbose_name_plural)s in the KoBoCAT admin interface (deletion "
+"step 2)"
+msgstr ""
+
+#: hub/models.py:61
+msgid ""
+"A JSON representation of a *list* of Django queries, e.g. "
+"`[{\"email__iendswith\": \"@kobotoolbox.org\"}, {\"email__iendswith\": "
+"\"@kbtdev.org\"}]`. A matching user is one who would be returned by ANY of "
+"the queries in the list."
+msgstr ""
+
+#: hub/models.py:103
+msgid "JSON structure is incorrect."
 msgstr ""
 
 #: hub/templates/delete_related_for_selected_confirmation.html:9
@@ -74,11 +94,125 @@ msgstr ""
 msgid "No, take me back"
 msgstr ""
 
-#: kobo/apps/reports/report_data.py:150
+#: kobo/apps/external_integrations/__init__.py:6
+msgid "External integrations"
+msgstr ""
+
+#: kobo/apps/external_integrations/models.py:11
+msgid "allowed origin"
+msgstr ""
+
+#: kobo/apps/external_integrations/models.py:12
+msgid "do not include http:// or https://"
+msgstr ""
+
+#: kobo/apps/external_integrations/models.py:28
+msgid "allowed CORS origin"
+msgstr ""
+
+#: kobo/apps/help/serializers.py:52
+msgid "Value must be a JSON object of name/value pairs."
+msgstr ""
+
+#: kobo/apps/hook/serializers/v2/hook.py:42
+#, fuzzy
+#| msgid "Invalid token."
+msgid "Invalid scheme"
+msgstr "Invalid token."
+
+#: kobo/apps/hook/serializers/v2/hook.py:45
+msgid "Unsecured endpoint is not allowed"
+msgstr ""
+
+#: kobo/apps/hook/tasks.py:142
+msgid "REST Services Failure Report"
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:3
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:3
+msgid "Asset"
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:4
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:4
+msgid "Hook"
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:5
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:5
+msgid "Submission"
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:6
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:6
+msgid "Status code"
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:7
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:7
+msgid "Message"
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:8
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:8
+msgid "Date"
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:10
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:10
+msgid "Dear"
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:11
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:12
+msgid "Some submissions could not be sent to their external endpoint."
+msgstr ""
+
+#: kobo/apps/hook/templates/reports/failures_email_body.html:36
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:29
+#: kpi/templates/registration/activation_email.txt:12
+msgid "Best,"
+msgstr ""
+
+#: kobo/apps/hook/views/v2/hook.py:171
+msgid "Task successfully scheduled"
+msgstr ""
+
+#: kobo/apps/hook/views/v2/hook.py:196
+msgid "No data to retry"
+msgstr ""
+
+#: kobo/apps/hook/views/v2/hook.py:199
+msgid "Can not retry on disabled hooks"
+msgstr ""
+
+#: kobo/apps/hook/views/v2/hook_log.py:110
+msgid "An error has occurred when sending the data. Please try again later."
+msgstr ""
+
+#: kobo/apps/hook/views/v2/hook_log.py:113
+msgid "Data is being or has already been processed"
+msgstr ""
+
+#: kobo/apps/hook/views/v2/hook_signal.py:52
+msgid "This field is required."
+msgstr ""
+
+#: kobo/apps/hook/views/v2/hook_signal.py:70
+msgid ""
+"We got and saved your data, but may not have fully processed it. You should "
+"not try to resubmit."
+msgstr ""
+
+#: kobo/apps/hook/views/v2/hook_signal.py:78
+msgid "Your data for instance {} has been already submitted."
+msgstr ""
+
+#: kobo/apps/reports/report_data.py:137
 msgid "`split_by` field '{}' not found."
 msgstr ""
 
-#: kobo/apps/reports/report_data.py:152
+#: kobo/apps/reports/report_data.py:139
 msgid "`split_by` field '{}' is not a select one question."
 msgstr ""
 
@@ -1918,12 +2052,80 @@ msgstr ""
 msgid "Zulu"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:132
+#: kpi/deployment_backends/kc_access/shadow_models.py:144
 msgid "Require authentication to see forms and submit data"
 msgstr ""
 
-#: kpi/deployment_backends/kobocat_backend.py:467
-msgid "The specified asset has not been deployed"
+#: kpi/deployment_backends/kc_access/shadow_models.py:170
+msgid "object ID"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:209
+#, fuzzy
+#| msgid "Username"
+msgid "username"
+msgstr "Username"
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:210
+msgid "password"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:211
+msgid "last login"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:212
+msgid "superuser status"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:213
+msgid "first name"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:214
+msgid "last name"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:215
+msgid "email address"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:216
+msgid "staff status"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:217
+msgid "active"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:218
+msgid "date joined"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:246
+msgid "Key"
+msgstr ""
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:249
+#, fuzzy
+#| msgid "Username"
+msgid "User"
+msgstr "Username"
+
+#: kpi/deployment_backends/kc_access/shadow_models.py:250
+msgid "Created"
+msgstr ""
+
+#: kpi/deployment_backends/kobocat_backend.py:488
+msgid "Primary key must be provided"
+msgstr ""
+
+#: kpi/deployment_backends/kobocat_backend.py:538
+msgid "`Fields` param is not supported with XML format"
+msgstr ""
+
+#: kpi/deployment_backends/kobocat_backend.py:624
+msgid "KoBoCat returned an unexpected response: {}"
 msgstr ""
 
 #: kpi/forms.py:12
@@ -1965,41 +2167,97 @@ msgstr ""
 msgid "Country"
 msgstr ""
 
-#: kpi/models/asset.py:462
+#: kpi/models/asset.py:481
 msgid "Can view asset"
 msgstr ""
 
-#: kpi/models/asset.py:463
+#: kpi/models/asset.py:482
 msgid "Can change asset's sharing settings"
 msgstr ""
 
-#: kpi/models/asset.py:465
+#: kpi/models/asset.py:484
 msgid "Can submit data to asset"
 msgstr ""
 
-#: kpi/models/asset.py:466
+#: kpi/models/asset.py:485
 msgid "Can view submitted data for asset"
 msgstr ""
 
-#: kpi/models/asset.py:467
+#: kpi/models/asset.py:486
+msgid "Can make partial actions onsubmitted data for asset for specific users"
+msgstr ""
+
+#: kpi/models/asset.py:489
 msgid "Can modify submitted data for asset"
 msgstr ""
 
-#: kpi/models/asset.py:468
+#: kpi/models/asset.py:490
 msgid "Can delete submitted data for asset"
 msgstr ""
 
-#: kpi/models/asset.py:469
+#: kpi/models/asset.py:491
 msgid "Can change sharing settings for asset's submitted data"
 msgstr ""
 
-#: kpi/models/asset.py:471
+#: kpi/models/asset.py:493
 msgid "Can validate submitted data asset"
 msgstr ""
 
-#: kpi/models/authorized_application.py:50
+#: kpi/models/asset.py:516
+msgid "View asset"
+msgstr ""
+
+#: kpi/models/asset.py:517
+msgid "Change asset"
+msgstr ""
+
+#: kpi/models/asset.py:518
+msgid "Add submissions"
+msgstr ""
+
+#: kpi/models/asset.py:519
+msgid "View submissions"
+msgstr ""
+
+#: kpi/models/asset.py:520
+msgid "Partial View submissions"
+msgstr ""
+
+#: kpi/models/asset.py:521
+msgid "Change submissions"
+msgstr ""
+
+#: kpi/models/asset.py:522
+msgid "Validate submissions"
+msgstr ""
+
+#: kpi/models/asset.py:690
+msgid "Only partial permissions for submissions are supported"
+msgstr ""
+
+#: kpi/models/asset.py:965
+msgid "Can not assign '{}' permission to owner"
+msgstr ""
+
+#: kpi/models/asset.py:969 kpi/serializers/v2/asset_permission.py:141
+msgid "Can not assign '{}' permission. Partial permissions are missing."
+msgstr ""
+
+#: kpi/models/authorized_application.py:53
 msgid "Invalid token."
 msgstr "Invalid token."
+
+#: kpi/models/collection.py:90
+msgid "View collection"
+msgstr ""
+
+#: kpi/models/collection.py:91
+msgid "Change collection"
+msgstr ""
+
+#: kpi/serializers/v2/asset_permission.py:135
+msgid "Invalid partial permissions"
+msgstr ""
 
 #: kpi/templates/base.html:39
 msgid "Terms and Conditions"
@@ -2040,10 +2298,6 @@ msgid ""
 "to us directly."
 msgstr ""
 
-#: kpi/templates/registration/activation_email.txt:12
-msgid "Best,"
-msgstr ""
-
 #: kpi/templates/registration/activation_email_subject.txt:2
 msgid "Activate your KoBoToolbox Account"
 msgstr ""
@@ -2053,7 +2307,7 @@ msgid "Forgot?"
 msgstr ""
 
 #: kpi/templates/registration/login.html:20
-#: kpi/templates/registration/registration_form.html:46
+#: kpi/templates/registration/registration_form.html:50
 msgid "or"
 msgstr ""
 
@@ -2105,18 +2359,60 @@ msgstr ""
 msgid "Create an account"
 msgstr ""
 
-#: kpi/templates/registration/registration_form.html:44
+#: kpi/templates/registration/registration_form.html:48
 msgid "Create Account"
 msgstr ""
 
-#: kpi/templates/registration/registration_form.html:46
+#: kpi/templates/registration/registration_form.html:50
 msgid "login"
 msgstr ""
 
-#: kpi/views.py:421
+#: kpi/utils/mongo_helper.py:85
+msgid "Invalid _uuid specified"
+msgstr ""
+
+#: kpi/utils/mongo_helper.py:270
+msgid "Invalid `query` param"
+msgstr ""
+
+#: kpi/utils/mongo_helper.py:276
+msgid "Invalid `sort` param"
+msgstr ""
+
+#: kpi/utils/mongo_helper.py:286
+msgid "Invalid `start/limit` params"
+msgstr ""
+
+#: kpi/utils/mongo_helper.py:292
+msgid "Invalid `fields` params"
+msgstr ""
+
+#: kpi/utils/mongo_helper.py:295
+msgid "Invalid `instances_ids` param"
+msgstr ""
+
+#: kpi/utils/mongo_helper.py:298
+msgid "Invalid `submitted_by` param"
+msgstr ""
+
+#: kpi/views/__init__.py:87
 msgid "No key provided"
 msgstr ""
 
-#: kpi/views.py:438
+#: kpi/views/__init__.py:104
 msgid "Invalid or expired key"
+msgstr ""
+
+#: kpi/views/v2/asset_permission.py:198
+#: kpi/views/v2/collection_permission.py:184
+msgid "Source and destination objects don't seem to have the same type"
+msgstr ""
+
+#: kpi/views/v2/asset_permission.py:213
+#: kpi/views/v2/collection_permission.py:199
+msgid "Owner's permissions cannot be deleted"
+msgstr ""
+
+#: kpi/views/v2/data.py:167
+msgid "The specified asset has not been deployed"
 msgstr ""

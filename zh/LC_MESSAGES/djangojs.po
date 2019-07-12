@@ -7,8 +7,8 @@ msgid ""
 msgstr ""
 "Project-Id-Version: koboform\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2018-02-09 13:25-0500\n"
-"PO-Revision-Date: 2018-04-10 02:05+0000\n"
+"POT-Creation-Date: 2019-07-12 11:37-0400\n"
+"PO-Revision-Date: 2019-07-12 15:41+0000\n"
 "Last-Translator: ShaobinYu <shaobinyu@sdu.edu.cn>\n"
 "Language-Team: Chinese (http://www.transifex.com/kobotoolbox/koboform/language/zh/)\n"
 "MIME-Version: 1.0\n"
@@ -16,7 +16,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: zh\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Poedit 2.0.6\n"
+"X-Generator: Poedit 1.8.8\n"
 "X-Poedit-Basepath: ../../../jsapp\n"
 "X-Poedit-KeywordsList: t;_t\n"
 "X-Poedit-SearchPath-0: js\n"
@@ -24,751 +24,1217 @@ msgstr ""
 "X-Poedit-SearchPathExcluded-0: js/libs\n"
 "X-Poedit-SourceCharset: UTF-8\n"
 
-#: js/actions.es6:287
+#: xlform/src/mv.skipLogicHelpers.coffee:418 js/i18nMissingStrings.es6:127
+msgid "Add a condition"
+msgstr "新建条件"
+
+#: xlform/src/mv.skipLogicHelpers.coffee:419 js/i18nMissingStrings.es6:128
+msgid "Manually enter your skip logic in XLSForm code"
+msgstr "手动输入跳转逻辑（XLSForm代码）"
+
+#: xlform/src/mv.validationLogicHelpers.coffee:75 js/i18nMissingStrings.es6:79
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr "手动输入验证逻辑（XLSForm代码）"
+
+#: xlform/src/mv.validationLogicHelpers.coffee:93
+msgid "Validation Code:"
+msgstr ""
+
+#: xlform/src/view.choices.templates.coffee:8 js/i18nMissingStrings.es6:43
+msgid "Click to add another response..."
+msgstr "点击以添加另一个回答"
+
+#: xlform/src/view.choices.templates.coffee:8 js/i18nMissingStrings.es6:77
+msgid "Value:"
+msgstr "值："
+
+#: xlform/src/view.choices.templates.coffee:8 js/i18nMissingStrings.es6:44
+msgid "AUTOMATIC"
+msgstr "自动"
+
+#: xlform/src/view.icons.coffee:9 js/formbuild/containers/KoboMatrix.es6:42
+#: js/i18nMissingStrings.es6:131
+msgid "Select One"
+msgstr "单选"
+
+#: xlform/src/view.icons.coffee:14 js/formbuild/containers/KoboMatrix.es6:46
+#: js/i18nMissingStrings.es6:132
+msgid "Select Many"
+msgstr "多选"
+
+#: xlform/src/view.icons.coffee:19 js/formbuild/containers/KoboMatrix.es6:50
+#: js/i18nMissingStrings.es6:84
+msgid "Text"
+msgstr "文本"
+
+#: xlform/src/view.icons.coffee:24 js/formbuild/containers/KoboMatrix.es6:54
+#: js/i18nMissingStrings.es6:85
+msgid "Number"
+msgstr "数字"
+
+#: xlform/src/view.icons.coffee:31 js/i18nMissingStrings.es6:86
+msgid "Decimal"
+msgstr "带小数点数字"
+
+#: xlform/src/view.icons.coffee:36
+#: js/components/RESTServices/RESTServiceLogs.es6:274
+#: js/i18nMissingStrings.es6:87
+msgid "Date"
+msgstr "日期"
+
+#: xlform/src/view.icons.coffee:41 js/i18nMissingStrings.es6:88
+msgid "Time"
+msgstr "时间"
+
+#: xlform/src/view.icons.coffee:46 js/i18nMissingStrings.es6:89
+msgid "Date & time"
+msgstr "日期时间"
+
+#: xlform/src/view.icons.coffee:53
+msgid "Point"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:58 js/i18nMissingStrings.es6:91
+msgid "Photo"
+msgstr "图片"
+
+#: xlform/src/view.icons.coffee:63 js/i18nMissingStrings.es6:92
+msgid "Audio"
+msgstr "音频"
+
+#: xlform/src/view.icons.coffee:68 js/i18nMissingStrings.es6:93
+msgid "Video"
+msgstr "视频"
+
+#: xlform/src/view.icons.coffee:75 js/i18nMissingStrings.es6:75
+msgid "Line"
+msgstr "折线图"
+
+#: xlform/src/view.icons.coffee:80 js/i18nMissingStrings.es6:94
+msgid "Note"
+msgstr "备注显示"
+
+#: xlform/src/view.icons.coffee:85
+msgid "Barcode / QR Code"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:90 js/i18nMissingStrings.es6:96
+msgid "Acknowledge"
+msgstr "同意勾选"
+
+#: xlform/src/view.icons.coffee:97 js/i18nMissingStrings.es6:72
+msgid "Area"
+msgstr "面积图"
+
+#: xlform/src/view.icons.coffee:102
+msgid "Rating"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:107
+msgid "Question Matrix"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:112 js/i18nMissingStrings.es6:99
+msgid "Ranking"
+msgstr "排序"
+
+#: xlform/src/view.icons.coffee:119 js/i18nMissingStrings.es6:97
+msgid "Calculate"
+msgstr "计算"
+
+#: xlform/src/view.icons.coffee:124
+msgid "File"
+msgstr ""
+
+#: xlform/src/view.icons.coffee:129
+msgid "Range"
+msgstr ""
+
+#: xlform/src/view.row.coffee:199 js/i18nMissingStrings.es6:101
+msgid ""
+"You can't display nested groups on the same screen - the setting has been "
+"removed from the parent group"
+msgstr "不能在同一页显示篏套的组 - 该设置已经从父组中移除"
+
+#: xlform/src/view.row.templates.coffee:18
+#: xlform/src/view.row.templates.coffee:34 js/i18nMissingStrings.es6:151
+msgid "Settings"
+msgstr "设置"
+
+#: xlform/src/view.row.templates.coffee:19
+msgid "All group settings"
+msgstr "全部组设置"
+
+#: xlform/src/view.row.templates.coffee:20
+#: xlform/src/view.row.templates.coffee:36 js/i18nMissingStrings.es6:45
+msgid "Skip Logic"
+msgstr "跳转逻辑"
+
+#: xlform/src/view.row.templates.coffee:35 js/i18nMissingStrings.es6:46
+msgid "Question Options"
+msgstr "问题选项"
+
+#: xlform/src/view.row.templates.coffee:37 js/i18nMissingStrings.es6:47
+msgid "Validation Criteria"
+msgstr "验证条件"
+
+#: xlform/src/view.row.templates.coffee:38
+#: js/formbuild/containers/KoboMatrix.es6:414 js/i18nMissingStrings.es6:48
+msgid "Response Type"
+msgstr "回答类型"
+
+#: xlform/src/view.row.templates.coffee:116
+msgid ""
+"Note: The Matrix question type only works in Enketo web forms using the "
+"'grid' style."
+msgstr ""
+
+#: xlform/src/view.row.templates.coffee:281 js/i18nMissingStrings.es6:51
+msgid ""
+"This question could not be imported. Please re-create it manually. Please "
+"contact us at help@kobotoolbox.org so we can fix this bug!"
+msgstr "此问题无法导入。请手动重新创建。你可以联系help@kobotoolbox.org以便我们修复此bug！"
+
+#: xlform/src/view.rowDetail.SkipLogic.coffee:262
+#: js/i18nMissingStrings.es6:129
+msgid "response value"
+msgstr "回答值"
+
+#: xlform/src/view.rowDetail.coffee:192
+msgid "Guidance hint"
+msgstr ""
+
+#: xlform/src/view.rowDetail.coffee:199 js/i18nMissingStrings.es6:105
+msgid "Error Message"
+msgstr "错误信息"
+
+#: xlform/src/view.rowDetail.coffee:262 js/i18nMissingStrings.es6:106
+msgid "Data column name"
+msgstr "数据列名称"
+
+#: xlform/src/view.rowDetail.coffee:284
+msgid "HXL"
+msgstr ""
+
+#: xlform/src/view.rowDetail.coffee:380 js/i18nMissingStrings.es6:107
+msgid "Default response"
+msgstr "默认回答"
+
+#: xlform/src/view.rowDetail.coffee:393 js/i18nMissingStrings.es6:108
+msgid "Repeat"
+msgstr "重复"
+
+#: xlform/src/view.rowDetail.coffee:393 js/i18nMissingStrings.es6:109
+msgid "Repeat this group if necessary"
+msgstr "假如可能，重复这一组"
+
+#: xlform/src/view.rowDetail.coffee:400 js/i18nMissingStrings.es6:110
+msgid "Mandatory response"
+msgstr "强制回答"
+
+#: xlform/src/view.rowDetail.coffee:419 xlform/src/view.rowDetail.coffee:425
+#: xlform/src/view.rowDetail.coffee:427 js/i18nMissingStrings.es6:111
+msgid "Appearance (advanced)"
+msgstr "外观(高级)"
+
+#: xlform/src/view.rowDetail.coffee:419 js/i18nMissingStrings.es6:112
+msgid "Show all questions in this group on the same screen"
+msgstr "在同一页面显示本组内的全部问题"
+
+#: xlform/src/view.rowSelector.templates.coffee:33
+#: js/i18nMissingStrings.es6:52
+msgid "Add Question"
+msgstr "添加问题"
+
+#: xlform/src/view.surveyApp.coffee:588 js/i18nMissingStrings.es6:130
+msgid "Are you sure you want to delete this question?"
+msgstr "确定要删除此问题吗？"
+
+#: xlform/src/view.surveyApp.coffee:589 js/i18nMissingStrings.es6:126
+msgid "This action cannot be undone."
+msgstr "此操作不可撤销。"
+
+#: xlform/src/view.surveyApp.templates.coffee:6
+msgid "Start from Scratch"
+msgstr "从头开始"
+
+#: xlform/src/view.surveyApp.templates.coffee:7 js/i18nMissingStrings.es6:53
+msgid "or"
+msgstr "或者"
+
+#: xlform/src/view.surveyApp.templates.coffee:11 js/i18nMissingStrings.es6:54
+msgid "Import XLS"
+msgstr "导入XLS"
+
+#: xlform/src/view.surveyApp.templates.coffee:33 js/i18nMissingStrings.es6:68
+msgid "This form is currently empty."
+msgstr "该表单当前为空"
+
+#: js/actions.es6:286
 msgid "updated profile successfully"
 msgstr "个人资料更新成功"
 
-#: js/actions.es6:290
+#: js/actions.es6:297
+msgid "Some fields contain errors"
+msgstr ""
+
+#: js/actions.es6:299
 msgid "failed to update profile"
 msgstr "个人资料更新失败"
 
-#: js/actions.es6:306
+#: js/actions.es6:322
 msgid "successfully uploaded file; processing may take a few minutes"
 msgstr "文件上传成功；请稍候数分钟等待系统处理。"
 
-#: js/actions.es6:312
+#: js/actions.es6:328
 msgid "Error: import.status not available"
 msgstr "错误：导入状态（import.status）不可用。"
 
-#: js/actions.es6:349
+#: js/actions.es6:357
 msgid "successfully updated"
 msgstr "更新成功"
 
-#: js/actions.es6:410
+#: js/actions.es6:397
 msgid "please check your connection and try again."
 msgstr "请检查网络连接并重试。"
 
-#: js/actions.es6:413
+#: js/actions.es6:400
 msgid "if this problem persists, contact help@kobotoolbox.org"
 msgstr "假如此问题持续出现，请联系help@kobotoolbox.org"
 
-#: js/actions.es6:420
+#: js/actions.es6:407
 msgid "your form id was not valid:"
 msgstr "表单编号无效："
 
-#: js/actions.es6:426
+#: js/actions.es6:413
 msgid "your form cannot be deployed because it contains errors:"
 msgstr "表单包含错误，无法部署："
 
-#: js/app.es6:229
+#: js/actions/help.es6:39
+msgid "Failed to get in app messages."
+msgstr ""
+
+#: js/actions/help.es6:52
+msgid "Failed to set message readTime."
+msgstr ""
+
+#: js/actions/help.es6:61
+msgid "Failed to set message acknowledged."
+msgstr ""
+
+#: js/app.es6:256
 msgid "path not found / recognized"
 msgstr "路径未找到或未识别"
 
-#: js/components/accountSettings.es6:68
-msgid "Male"
-msgstr "男"
-
-#: js/components/accountSettings.es6:72
-msgid "Female"
-msgstr "女"
-
-#: js/components/accountSettings.es6:76
-msgid "Other"
-msgstr "其他"
-
-#: js/components/accountSettings.es6:141 js/components/accountSettings.es6:392
-#: js/components/formEditors.es6:99 js/components/formLanding.es6:398
-#: js/components/formSubScreens.es6:142 js/components/formSummary.es6:322
-#: js/components/modal.es6:136 js/components/reports.es6:1046
-#: js/components/reports.es6:1090 js/components/searchcollectionlist.es6:212
-#: js/components/searchcollectionlist.es6:229
-#: js/components/sharingForm.es6:250 js/components/submission.es6:161
-#: js/editorMixins/editableForm.es6:606 js/lists/sidebarForms.es6:87
-#: js/lists/sidebarForms.es6:109
-msgid "loading..."
-msgstr "加载中"
-
-#: js/components/accountSettings.es6:161 js/components/accountSettings.es6:447
-#: js/components/formEditors.es6:244
-msgid "Save Changes"
-msgstr "保存更改"
-
-#: js/components/accountSettings.es6:173
-msgid "Privacy"
-msgstr "隐私"
-
-#: js/components/accountSettings.es6:182
-msgid "Require authentication to see forms and submit data"
-msgstr "需要验证才可查看表单并提交数据"
-
-#: js/components/accountSettings.es6:187
-#: js/components/searchcollectionlist.es6:117
-#: js/components/searchcollectionlist.es6:132
-msgid "Name"
-msgstr "名称"
-
-#: js/components/accountSettings.es6:192
-msgid "Use this to display your real name to other users"
-msgstr "使用此项以向其他用户显示你的真实姓名"
-
-#: js/components/accountSettings.es6:197
-msgid "Email"
-msgstr "电子邮箱"
-
-#: js/components/accountSettings.es6:205
-msgid "Modify Password"
-msgstr "修改密码"
-
-#: js/components/accountSettings.es6:210
-msgid "Organization"
-msgstr "单位"
-
-#: js/components/accountSettings.es6:217
-msgid "Organization Website"
-msgstr "单位网址"
-
-#: js/components/accountSettings.es6:222
-msgid "This will be used to create a hyperlink for your organization name. "
-msgstr "将被用于创建一个你单位名称的链接。"
-
-#: js/components/accountSettings.es6:227
-msgid "Primary Sector"
-msgstr "主要从事行业"
-
-#: js/components/accountSettings.es6:234
-msgid "Select the primary sector in which you work. "
-msgstr "选择你主要从事的行业"
-
-#: js/components/accountSettings.es6:239
-msgid "Gender"
-msgstr "性别"
-
-#: js/components/accountSettings.es6:248
-msgid "Bio"
-msgstr "个人简介"
-
-#: js/components/accountSettings.es6:255
-msgid "Phone Number"
-msgstr "电话号码"
-
-#: js/components/accountSettings.es6:262
-msgid "Address"
-msgstr "地址"
-
-#: js/components/accountSettings.es6:269
-msgid "City"
-msgstr "城市"
-
-#: js/components/accountSettings.es6:276 js/components/formEditors.es6:169
-msgid "Country"
-msgstr "国家"
-
-#: js/components/accountSettings.es6:285
-msgid "Default Form Language"
-msgstr "默认表单语言"
-
-#: js/components/accountSettings.es6:294
-msgid "Social"
-msgstr "社交媒体"
-
-#: js/components/accountSettings.es6:314
-msgid "Metadata"
-msgstr "元数据（metadata）"
-
-#: js/components/accountSettings.es6:349
-msgid "This field is required."
-msgstr "该项为必填项"
-
-#: js/components/accountSettings.es6:359
-msgid "This field must match the Verify Password field."
-msgstr "该项必须与“验证密码”项相一致"
-
-#: js/components/accountSettings.es6:415
-msgid "Reset Password"
-msgstr "重置密码"
-
-#: js/components/accountSettings.es6:419
-msgid "Current Password"
-msgstr "当前密码"
-
-#: js/components/accountSettings.es6:425
-msgid "Forgot Password?"
-msgstr "忘记密码？"
-
-#: js/components/accountSettings.es6:430
-msgid "New Password"
-msgstr "新密码"
-
-#: js/components/accountSettings.es6:438
-msgid "Verify Password"
-msgstr "验证密码"
-
-#: js/components/assetrow.es6:49 js/components/reports.es6:759
-#: js/components/reports.es6:821
-msgid "untitled"
-msgstr "未命名"
-
-#: js/components/assetrow.es6:186
-msgid "me"
-msgstr "我"
-
-#: js/components/assetrow.es6:230 js/components/submission.es6:221
-msgid "Edit"
-msgstr "编辑"
-
-#: js/components/assetrow.es6:241
-msgid "Tags"
-msgstr "标签"
-
-#: js/components/assetrow.es6:252 js/components/librarySidebar.es6:339
-msgid "Share"
-msgstr "共享"
-
-#: js/components/assetrow.es6:262 js/components/formLanding.es6:140
-msgid "Clone"
-msgstr "克隆"
-
-#: js/components/assetrow.es6:296
-msgid "Deploy this project"
-msgstr "部署项目"
-
-#: js/components/assetrow.es6:296
-msgid "Redeploy this project"
-msgstr "重新部署项目"
-
-#: js/components/assetrow.es6:310 js/components/formLanding.es6:356
-msgid "Replace with XLS"
-msgstr "用XLS替换"
-
-#: js/components/assetrow.es6:319 js/components/formEditors.es6:499
-#: js/components/formLanding.es6:370
-msgid "Download"
-msgstr "下载"
-
-#: js/components/assetrow.es6:327
-msgid "Move to"
-msgstr "移至"
-
-#: js/components/assetrow.es6:359 js/mixins.es6:388
-msgid "Archive"
-msgstr "存档"
-
-#: js/components/assetrow.es6:370 js/components/librarySidebar.es6:139
-#: js/components/librarySidebar.es6:361 js/components/reports.es6:296
-#: js/components/submission.es6:96 js/formbuild/containers/KoboMatrix.es6:310
-#: js/formbuild/containers/KoboMatrix.es6:331 js/mixins.es6:362
-#: js/mixins.es6:365
-msgid "Delete"
-msgstr "删除"
-
-#: js/components/drawer.es6:70 js/components/librarySidebar.es6:253
-msgid "new"
-msgstr "新"
-
-#: js/components/drawer.es6:73
-msgid "Project"
-msgstr "项目"
-
-#: js/components/drawer.es6:81 js/components/librarySidebar.es6:264
-msgid "upload"
-msgstr "上传"
-
-#: js/components/drawer.es6:161 js/components/searchcollectionlist.es6:188
-msgid "Projects"
-msgstr "项目"
-
-#: js/components/drawer.es6:162 js/components/searchcollectionlist.es6:191
-msgid "Library"
-msgstr "库"
-
-#: js/components/drawer.es6:180
-msgid "Projects (legacy)"
-msgstr "项目(传统)"
-
-#: js/components/drawer.es6:184
-msgid "source"
-msgstr "源代码"
-
-#: js/components/drawer.es6:188
-msgid "help"
-msgstr "帮助"
-
-#: js/components/formEditors.es6:88 js/components/header.es6:237
-msgid "Please enter a title for your project"
-msgstr "请输入项目标题"
-
-#: js/components/formEditors.es6:131
-msgid "Project Name"
-msgstr "项目名称"
-
-#: js/components/formEditors.es6:135
-msgid "Enter title of project here"
-msgstr "请在此输入项目标题"
-
-#: js/components/formEditors.es6:142 js/components/formSummary.es6:348
-msgid "Description"
-msgstr "说明"
-
-#: js/components/formEditors.es6:147
-msgid "Enter short description here"
-msgstr "请在此处输入简短介绍"
-
-#: js/components/formEditors.es6:151
-msgid ""
-"Please specify the country and the sector where this project will be "
-"deployed. "
-msgstr "请指定项目将要被部署至的国家和行业。"
-
-#: js/components/formEditors.es6:152
-msgid ""
-"This information will be used to help you filter results on the project list"
-" page."
-msgstr "此信息将帮助你在项目列表页中筛选出本项目。"
-
-#: js/components/formEditors.es6:158 js/components/formSummary.es6:361
-msgid "Sector"
-msgstr "行业"
-
-#: js/components/formEditors.es6:185
-msgid ""
-"Help KoboToolbox improve this product by sharing the sector and country "
-"where this project will be deployed."
-msgstr "共享项目部署的行业和国家等信息以帮助KoboToolbox不断改进产品。"
-
-#: js/components/formEditors.es6:187
-msgid ""
-"All the information is submitted anonymously, and will not include the "
-"project name or description listed above."
-msgstr "所有信息将被匿名提交，不会包含上述项目名称或简介。"
-
-#: js/components/formEditors.es6:308
-msgid "Failed to retrieve the export task."
-msgstr "拉取导出任务失败。"
-
-#: js/components/formEditors.es6:312
-msgid "Failed to create the export."
-msgstr "导出创建失败。"
-
-#: js/components/formEditors.es6:388 js/components/formLanding.es6:390
-#: js/components/formSubScreens.es6:130 js/components/formSummary.es6:315
-#: js/components/reports.es6:1059 js/editorMixins/editableForm.es6:698
+#: js/components/RESTServices.es6:16 js/components/formEditors.es6:235
+#: js/components/formLanding.es6:464 js/components/formSubScreens.es6:132
+#: js/components/formSummary.es6:317 js/components/reports.es6:1106
+#: js/editorMixins/editableForm.es6:921
 msgid "Untitled"
 msgstr "未命名的"
 
-#: js/components/formEditors.es6:395
-#| msgid "Download"
-msgid "Download Data"
-msgstr "下载数据"
+#: js/components/RESTServices/RESTServiceLogs.es6:57
+#: js/components/RESTServices/RESTServicesForm.es6:103
+msgid "Could not load REST Service"
+msgstr ""
 
-#: js/components/formEditors.es6:401
-msgid "Select export type"
-msgstr "选择导出类型"
+#: js/components/RESTServices/RESTServiceLogs.es6:76
+#: js/components/RESTServices/RESTServiceLogs.es6:97
+msgid "Could not load REST Service logs"
+msgstr ""
 
-#: js/components/formEditors.es6:404
-msgid "XLS"
-msgstr " XLS"
+#: js/components/RESTServices/RESTServiceLogs.es6:174
+msgid "Submission Failure Detail (##id##)"
+msgstr ""
 
-#: js/components/formEditors.es6:405
-msgid "XLS (legacy)"
-msgstr "XLS (传统)"
+#: js/components/RESTServices/RESTServiceLogs.es6:235
+msgid "Loading…"
+msgstr ""
 
-#: js/components/formEditors.es6:406
-msgid "CSV"
-msgstr "CSV"
+#: js/components/RESTServices/RESTServiceLogs.es6:235
+msgid "Load more"
+msgstr ""
 
-#: js/components/formEditors.es6:407
-msgid "CSV (legacy)"
-msgstr "CSV (传统)"
+#: js/components/RESTServices/RESTServiceLogs.es6:247
+msgid "There are no logs yet"
+msgstr ""
 
-#: js/components/formEditors.es6:408
-msgid "Media Attachments (ZIP)"
-msgstr "媒体附件 (ZIP)"
+#: js/components/RESTServices/RESTServiceLogs.es6:261
+msgid "Submission"
+msgstr ""
 
-#: js/components/formEditors.es6:409
-msgid "GPS coordinates (KML)"
-msgstr "GPS坐标 (KML)"
+#: js/components/RESTServices/RESTServiceLogs.es6:263
+msgid "Status"
+msgstr ""
 
-#: js/components/formEditors.es6:410
-msgid "Excel Analyser"
-msgstr "Excel 分析器 Excel Analyser"
+#: js/components/RESTServices/RESTServiceLogs.es6:267
+msgid "Retry all submissions"
+msgstr ""
 
-#: js/components/formEditors.es6:411
-msgid "SPSS Labels"
-msgstr "SPSS标签"
+#: js/components/RESTServices/RESTServiceLogs.es6:282
+#: js/components/RESTServices/RESTServicesList.es6:168
+msgid "Success"
+msgstr ""
 
-#: js/components/formEditors.es6:416
-msgid "Value and header format"
-msgstr "数值与标题格式"
+#: js/components/RESTServices/RESTServiceLogs.es6:286
+#: js/components/RESTServices/RESTServicesList.es6:168
+msgid "Pending"
+msgstr ""
 
-#: js/components/formEditors.es6:419
-msgid "XML values and headers"
-msgstr "XML值与标题"
+#: js/components/RESTServices/RESTServiceLogs.es6:289
+msgid "Pending (##count##×)"
+msgstr ""
 
-#: js/components/formEditors.es6:421
-msgid "Labels"
-msgstr "标签"
+#: js/components/RESTServices/RESTServiceLogs.es6:294
+#: js/components/RESTServices/RESTServicesList.es6:168
+msgid "Failed"
+msgstr ""
 
-#: js/components/formEditors.es6:438
-msgid "Include groups in headers"
-msgstr "标题中包含组"
+#: js/components/RESTServices/RESTServiceLogs.es6:302
+msgid "Open submission"
+msgstr ""
 
-#: js/components/formEditors.es6:443
-msgid "Group separator"
-msgstr "组分隔符"
+#: js/components/RESTServices/RESTServiceLogs.es6:319
+msgid "Retry submission"
+msgstr ""
 
-#: js/components/formEditors.es6:462
-#| msgid "Report"
-msgid "Export"
-msgstr "导出"
+#: js/components/RESTServices/RESTServiceLogs.es6:328
+msgid "More info"
+msgstr ""
 
-#: js/components/formEditors.es6:472
-#| msgid "Previous Versions"
-msgid "Previous Exports"
-msgstr "历史导出"
+#: js/components/RESTServices/RESTServiceLogs.es6:354
+#: js/components/RESTServices/RESTServicesForm.es6:402
+#: js/components/RESTServices/RESTServicesList.es6:210
+#: js/components/accountSettings.es6:170 js/components/accountSettings.es6:497
+#: js/components/formLanding.es6:473 js/components/formSubScreens.es6:151
+#: js/components/formSummary.es6:324 js/components/modal.es6:214
+#: js/components/modalForms/sharingForm.es6:258
+#: js/components/modalForms/submission.es6:398
+#: js/components/modalForms/translationSettings.es6:249
+#: js/components/reports.es6:1093 js/components/reports.es6:1136
+#: js/components/searchcollectionlist.es6:232
+#: js/components/searchcollectionlist.es6:257
+#: js/components/templatesList.es6:60 js/editorMixins/editableForm.es6:914
+#: js/lists/sidebarForms.es6:89 js/lists/sidebarForms.es6:111
+msgid "loading..."
+msgstr "加载中"
 
-#: js/components/formEditors.es6:476 js/components/submission.es6:237
-#| msgid "Type: "
+#: js/components/RESTServices/RESTServicesForm.es6:19
+msgid "JSON"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:23
+#: js/components/formEditors.es6:187
+msgid "XML"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:30
+msgid "No Authorization"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:34
+msgid "Basic Authorization"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:223
+msgid "Name required"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:227
+msgid "URL required"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:237
+msgid "Please enter both name and url of your service."
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:311
+msgid "Custom HTTP Headers"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:319
+#: js/components/RESTServices/RESTServicesForm.es6:412
+#: js/components/accountSettings.es6:222
+#: js/components/searchcollectionlist.es6:125
+#: js/components/searchcollectionlist.es6:143
+msgid "Name"
+msgstr "名称"
+
+#: js/components/RESTServices/RESTServicesForm.es6:330
+#: js/components/reportViewItem.es6:66
+msgid "Value"
+msgstr "值"
+
+#: js/components/RESTServices/RESTServicesForm.es6:355
+msgid "Add header"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:371
+msgid "Add field(s)"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:378
+msgid "Select fields subset"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:414
+#: js/components/RESTServices/RESTServicesList.es6:150
+msgid "Service Name"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:423
+msgid "Endpoint URL"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:425
+msgid "https://"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:438
+msgid "Enabled"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:448
+msgid "Receive emails notifications"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesForm.es6:458
+#: js/components/formEditors.es6:330
+#: js/components/modalForms/submission.es6:527
+#: js/components/searchcollectionlist.es6:128
 msgid "Type"
 msgstr "类型"
 
-#: js/components/formEditors.es6:477
-#: js/components/searchcollectionlist.es6:138
-msgid "Created"
-msgstr "已创建"
+#: js/components/RESTServices/RESTServicesForm.es6:464
+msgid "Security"
+msgstr ""
 
-#: js/components/formEditors.es6:478 js/components/header.es6:180
-#: js/components/map.es6:419
-msgid "Language"
-msgstr "语言"
+#: js/components/RESTServices/RESTServicesForm.es6:484
+msgid "Username"
+msgstr "用户名"
 
-#: js/components/formEditors.es6:479
-#| msgid "Include groups in headers"
-msgid "Include Groups"
-msgstr "包含组"
+#: js/components/RESTServices/RESTServicesForm.es6:491
+msgid "Password"
+msgstr ""
 
-#: js/components/formEditors.es6:492 js/components/map.es6:427
-#| msgid "Default response"
+#: js/components/RESTServices/RESTServicesForm.es6:508
+#: js/components/mapSettings.es6:358
+#: js/components/modalForms/projectSettings.es6:874
+#: js/components/modalForms/tableColumnFilter.es6:235
+#: js/components/reports.es6:301 js/components/reports.es6:425
+#: js/components/reports.es6:712
+msgid "Save"
+msgstr "保存"
+
+#: js/components/RESTServices/RESTServicesForm.es6:508 js/mixins.es6:763
+msgid "Create"
+msgstr "创建"
+
+#: js/components/RESTServices/RESTServicesList.es6:45
+msgid "Could not load REST Services"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:71
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:114
+msgid "This project doesn't have any REST Services yet!"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:118
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:120
+#: js/i18nMissingStrings.es6:183
+msgid "Learn more"
+msgstr "了解更多"
+
+#: js/components/RESTServices/RESTServicesList.es6:135
+msgid "REST Services: ##number##"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:144
+msgid "Need help?"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:151
+msgid "Count"
+msgstr ""
+
+#: js/components/RESTServices/RESTServicesList.es6:179
+#: js/components/modalForms/sharingForm.es6:299
+#: js/components/modalForms/submission.es6:512 js/components/table.es6:266
+msgid "Edit"
+msgstr "编辑"
+
+#: js/components/RESTServices/RESTServicesList.es6:188
+#: js/components/assetrow.es6:435 js/components/formEditors.es6:218
+#: js/components/formEditors.es6:380 js/components/librarySidebar.es6:142
+#: js/components/librarySidebar.es6:383 js/components/mapSettings.es6:199
+#: js/components/modalForms/submission.es6:133
+#: js/components/modalForms/translationSettings.es6:128
+#: js/components/reports.es6:294 js/formbuild/containers/KoboMatrix.es6:327
+#: js/formbuild/containers/KoboMatrix.es6:348 js/mixins.es6:568
+#: js/mixins.es6:571
+msgid "Delete"
+msgstr "删除"
+
+#: js/components/accountSettings.es6:76
+msgid "Male"
+msgstr "男"
+
+#: js/components/accountSettings.es6:80
+msgid "Female"
+msgstr "女"
+
+#: js/components/accountSettings.es6:84
+msgid "Other"
+msgstr "其他"
+
+#: js/components/accountSettings.es6:194 js/components/accountSettings.es6:565
+#: js/components/modalForms/projectSettings.es6:779
+#: js/components/modalForms/translationTable.es6:12
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: js/components/accountSettings.es6:209
+msgid "Privacy"
+msgstr "隐私"
+
+#: js/components/accountSettings.es6:216
+msgid "Require authentication to see forms and submit data"
+msgstr "需要验证才可查看表单并提交数据"
+
+#: js/components/accountSettings.es6:226
+msgid "Use this to display your real name to other users"
+msgstr "使用此项以向其他用户显示你的真实姓名"
+
+#: js/components/accountSettings.es6:232
+msgid "Email"
+msgstr "电子邮箱"
+
+#: js/components/accountSettings.es6:245
+msgid "Modify Password"
+msgstr "修改密码"
+
+#: js/components/accountSettings.es6:251
+msgid "Organization"
+msgstr "单位"
+
+#: js/components/accountSettings.es6:260
+msgid "Organization Website"
+msgstr "单位网址"
+
+#: js/components/accountSettings.es6:268
+msgid "This will be used to create a hyperlink for your organization name. "
+msgstr "将被用于创建一个你单位名称的链接。"
+
+#: js/components/accountSettings.es6:274
+msgid "Primary Sector"
+msgstr "主要从事行业"
+
+#: js/components/accountSettings.es6:287
+msgid "Select the primary sector in which you work. "
+msgstr "选择你主要从事的行业"
+
+#: js/components/accountSettings.es6:293
+msgid "Gender"
+msgstr "性别"
+
+#: js/components/accountSettings.es6:308
+msgid "Bio"
+msgstr "个人简介"
+
+#: js/components/accountSettings.es6:320
+msgid "Phone Number"
+msgstr "电话号码"
+
+#: js/components/accountSettings.es6:329
+msgid "Address"
+msgstr "地址"
+
+#: js/components/accountSettings.es6:338
+msgid "City"
+msgstr "城市"
+
+#: js/components/accountSettings.es6:347
+#: js/components/modalForms/projectSettings.es6:836
+msgid "Country"
+msgstr "国家"
+
+#: js/components/accountSettings.es6:362
+msgid "Default Form Language"
+msgstr "默认表单语言"
+
+#: js/components/accountSettings.es6:376
+msgid "Social"
+msgstr "社交媒体"
+
+#: js/components/accountSettings.es6:411 js/editorMixins/editableForm.es6:853
+msgid "Metadata"
+msgstr "元数据（metadata）"
+
+#: js/components/accountSettings.es6:448
+msgid "This field is required."
+msgstr "该项为必填项"
+
+#: js/components/accountSettings.es6:458
+msgid "This field must match the Verify Password field."
+msgstr "该项必须与“验证密码”项相一致"
+
+#: js/components/accountSettings.es6:523
+msgid "Reset Password"
+msgstr "重置密码"
+
+#: js/components/accountSettings.es6:528
+msgid "Current Password"
+msgstr "当前密码"
+
+#: js/components/accountSettings.es6:536
+msgid "Forgot Password?"
+msgstr "忘记密码？"
+
+#: js/components/accountSettings.es6:542
+msgid "New Password"
+msgstr "新密码"
+
+#: js/components/accountSettings.es6:552
+msgid "Verify Password"
+msgstr "验证密码"
+
+#: js/components/assetrow.es6:34 js/components/reports.es6:800
+#: js/components/reports.es6:862
+msgid "untitled"
+msgstr "未命名"
+
+#: js/components/assetrow.es6:328 js/i18nMissingStrings.es6:204
+msgid "More Actions"
+msgstr "更多操作"
+
+#: js/components/assetrow.es6:375 js/components/formEditors.es6:367
+#: js/components/formLanding.es6:385
+msgid "Download"
+msgstr "下载"
+
+#: js/components/assetrow.es6:382
+msgid "Move to"
+msgstr "移至"
+
+#: js/components/assetrow.es6:413 js/mixins.es6:594
+msgid "Archive"
+msgstr "存档"
+
+#: js/components/assetrow.es6:424 js/components/formLanding.es6:414
+msgid "Create template"
+msgstr ""
+
+#: js/components/drawer.es6:73 js/components/helpBubbles.es6:161
+#: js/components/librarySidebar.es6:265
+msgid "new"
+msgstr "新"
+
+#: js/components/drawer.es6:149 js/components/searchcollectionlist.es6:200
+msgid "Projects"
+msgstr "项目"
+
+#: js/components/drawer.es6:150 js/components/searchcollectionlist.es6:203
+msgid "Library"
+msgstr "库"
+
+#: js/components/drawer.es6:171
+msgid "Projects (legacy)"
+msgstr "项目(传统)"
+
+#: js/components/drawer.es6:179
+msgid "Source"
+msgstr ""
+
+#: js/components/formEditors.es6:106
+msgid "Failed to retrieve the export task."
+msgstr "拉取导出任务失败。"
+
+#: js/components/formEditors.es6:110
+msgid "Failed to create the export."
+msgstr "导出创建失败。"
+
+#: js/components/formEditors.es6:179 js/components/map.es6:737
 msgid "Default"
 msgstr "默认"
 
-#: js/components/formEditors.es6:495
-#| msgid "Note"
-msgid "No"
-msgstr "否"
+#: js/components/formEditors.es6:216
+msgid "Delete export?"
+msgstr ""
 
-#: js/components/formEditors.es6:495
-#| msgid "yes"
+#: js/components/formEditors.es6:217
+msgid ""
+"Are you sure you want to delete this export? This action is not reversible."
+msgstr ""
+
+#: js/components/formEditors.es6:218 js/components/librarySidebar.es6:117
+#: js/components/librarySidebar.es6:142 js/components/librarySidebar.es6:172
+#: js/components/mapSettings.es6:199 js/components/modal.es6:161
+#: js/components/modalForms/copyTeamPermissions.es6:79
+#: js/components/modalForms/submission.es6:133
+#: js/components/modalForms/translationSettings.es6:128
+#: js/components/modalForms/translationSettings.es6:210
+#: js/components/modalForms/translationTable.es6:149
+#: js/components/table.es6:799 js/editorMixins/editableForm.es6:574
+#: js/formbuild/containers/KoboMatrix.es6:179
+#: js/formbuild/containers/KoboMatrix.es6:327
+#: js/formbuild/containers/KoboMatrix.es6:348 js/mixins.es6:52
+#: js/mixins.es6:113 js/mixins.es6:471 js/mixins.es6:572 js/mixins.es6:594
+#: js/mixins.es6:621 js/mixins.es6:763
+msgid "Cancel"
+msgstr "取消"
+
+#: js/components/formEditors.es6:223
+msgid "Failed to delete export."
+msgstr ""
+
+#: js/components/formEditors.es6:241
+msgid "Download Data"
+msgstr "下载数据"
+
+#: js/components/formEditors.es6:247
+msgid "Select export type"
+msgstr "选择导出类型"
+
+#: js/components/formEditors.es6:250
+msgid "XLS"
+msgstr " XLS"
+
+#: js/components/formEditors.es6:251
+msgid "XLS (legacy)"
+msgstr "XLS (传统)"
+
+#: js/components/formEditors.es6:252
+msgid "CSV"
+msgstr "CSV"
+
+#: js/components/formEditors.es6:253
+msgid "CSV (legacy)"
+msgstr "CSV (传统)"
+
+#: js/components/formEditors.es6:254
+msgid "Media Attachments (ZIP)"
+msgstr "媒体附件 (ZIP)"
+
+#: js/components/formEditors.es6:255
+msgid "GPS coordinates (KML)"
+msgstr "GPS坐标 (KML)"
+
+#: js/components/formEditors.es6:256
+msgid "Excel Analyser"
+msgstr "Excel 分析器 Excel Analyser"
+
+#: js/components/formEditors.es6:257
+msgid "SPSS Labels"
+msgstr "SPSS标签"
+
+#: js/components/formEditors.es6:263
+msgid "Value and header format"
+msgstr "数值与标题格式"
+
+#: js/components/formEditors.es6:266
+msgid "XML values and headers"
+msgstr "XML值与标题"
+
+#: js/components/formEditors.es6:268
+#: js/components/modalForms/tableColumnFilter.es6:147
+msgid "Labels"
+msgstr "标签"
+
+#: js/components/formEditors.es6:283
+msgid "Include groups in headers"
+msgstr "标题中包含组"
+
+#: js/components/formEditors.es6:288
+msgid "Group separator"
+msgstr "组分隔符"
+
+#: js/components/formEditors.es6:300
+msgid "Include fields from all ___ deployed versions"
+msgstr ""
+
+#: js/components/formEditors.es6:315
+msgid "Export"
+msgstr "导出"
+
+#: js/components/formEditors.es6:326
+msgid "Exports"
+msgstr ""
+
+#: js/components/formEditors.es6:331
+#: js/components/searchcollectionlist.es6:149
+msgid "Created"
+msgstr "已创建"
+
+#: js/components/formEditors.es6:332 js/components/header.es6:149
+#: js/components/map.es6:729
+msgid "Language"
+msgstr "语言"
+
+#: js/components/formEditors.es6:333
+msgid "Include Groups"
+msgstr "包含组"
+
+#: js/components/formEditors.es6:334
+msgid "Multiple Versions"
+msgstr ""
+
+#: js/components/formEditors.es6:354 js/components/formEditors.es6:361
 msgid "Yes"
 msgstr "是"
 
-#: js/components/formEditors.es6:505
-#| msgid "Import Failed."
+#: js/components/formEditors.es6:354 js/components/formEditors.es6:361
+msgid "No"
+msgstr "否"
+
+#: js/components/formEditors.es6:373
 msgid "Export Failed"
 msgstr "导出失败"
 
-#: js/components/formEditors.es6:509
-#| msgid "Deploying..."
+#: js/components/formEditors.es6:377
 msgid "processing..."
 msgstr "正在处理中……"
 
-#: js/components/formLanding.es6:59
+#: js/components/formLanding.es6:51
 msgid "undeployed"
 msgstr "未部署的"
 
-#: js/components/formLanding.es6:74 js/components/formLanding.es6:139
-#: js/components/searchcollectionlist.es6:123
-#: js/components/searchcollectionlist.es6:141
+#: js/components/formLanding.es6:66 js/components/formLanding.es6:153
+#: js/components/searchcollectionlist.es6:134
+#: js/components/searchcollectionlist.es6:152
 msgid "Last Modified"
 msgstr "最近修改"
 
-#: js/components/formLanding.es6:78
+#: js/components/formLanding.es6:70
 msgid "questions"
 msgstr "问题"
 
-#: js/components/formLanding.es6:87
+#: js/components/formLanding.es6:79
 msgid "redeploy"
 msgstr "重新部署"
 
-#: js/components/formLanding.es6:87
+#: js/components/formLanding.es6:86
 msgid "deploy"
 msgstr "部署"
 
-#: js/components/formLanding.es6:132
+#: js/components/formLanding.es6:93
+msgid "unarchive"
+msgstr ""
+
+#: js/components/formLanding.es6:146
 msgid "Form history"
 msgstr "表单历史"
 
-#: js/components/formLanding.es6:138
+#: js/components/formLanding.es6:152
 msgid "Version"
 msgstr "版本"
 
-#: js/components/formLanding.es6:149
+#: js/components/formLanding.es6:154 js/mixins.es6:49 js/mixins.es6:468
+msgid "Clone"
+msgstr "克隆"
+
+#: js/components/formLanding.es6:163
 msgid "Deployed"
 msgstr "已部署"
 
-#: js/components/formLanding.es6:159
+#: js/components/formLanding.es6:173
 msgid "Clone this version as a new project"
 msgstr "克隆此版本为新项目"
 
-#: js/components/formLanding.es6:172
+#: js/components/formLanding.es6:186
 msgid "Hide full history"
 msgstr "隐藏完整历史记录"
 
-#: js/components/formLanding.es6:172
+#: js/components/formLanding.es6:186
 msgid "Show full history"
 msgstr "显示完整历史记录"
 
-#: js/components/formLanding.es6:184
+#: js/components/formLanding.es6:198
 msgid "Online-Offline (multiple submission)"
 msgstr "在线-离线(多次提交)"
 
-#: js/components/formLanding.es6:185
+#: js/components/formLanding.es6:199
 msgid ""
 "This allows online and offline submissions and is the best option for "
 "collecting data in the field. "
 msgstr "可以在线或离线提交数据，适合野外数据采集。"
 
-#: js/components/formLanding.es6:188
+#: js/components/formLanding.es6:202
 msgid "Online-Only (multiple submissions)"
 msgstr "仅在线(多次提交)"
 
-#: js/components/formLanding.es6:189
-#| msgid ""
-#| "s the best option when entering many records at once on a computer, . "
-#| "foranscribing paper records"
+#: js/components/formLanding.es6:203
 msgid ""
 "This is the best option when entering many records at once on a computer, "
 "e.g. for transcribing paper records."
 msgstr "适合在一台电脑上录入大量记录，如转录纸质问卷。"
 
-#: js/components/formLanding.es6:192
-#| msgid "Online-Only (multiple submissions)"
+#: js/components/formLanding.es6:206
 msgid "Online-Only (single submission)"
 msgstr "仅在线(单次提交)"
 
-#: js/components/formLanding.es6:193
+#: js/components/formLanding.es6:207
 msgid ""
 "This allows a single submission, and can be paired with the \"returnURL\" "
 "parameter to redirect the user to a URL of your choice after the form has "
 "been submitted."
 msgstr "此选项允许单次提交，同时还可以与\"returnURL\"参数结合，在表单提交后重定向用户到您指定的地址。"
 
-#: js/components/formLanding.es6:196
+#: js/components/formLanding.es6:210
 msgid "Embeddable web form code"
 msgstr "嵌入式web表单代码"
 
-#: js/components/formLanding.es6:197
+#: js/components/formLanding.es6:211
 msgid ""
 "Use this html5 code snippet to integrate your form on your own website using"
 " smaller margins. "
 msgstr "生成html5代码片段以便将表单嵌入到其它网站。"
 
-#: js/components/formLanding.es6:200
+#: js/components/formLanding.es6:214
 msgid "View only"
 msgstr "仅查看"
 
-#: js/components/formLanding.es6:201
+#: js/components/formLanding.es6:215
 msgid ""
 "Use this version for testing, getting feedback. Does not allow submitting "
 "data. "
 msgstr "用于测试或听取反馈意见，无法提交数据。"
 
-#: js/components/formLanding.es6:204
+#: js/components/formLanding.es6:218
 msgid "Android application"
 msgstr "安卓应用"
 
-#: js/components/formLanding.es6:205
+#: js/components/formLanding.es6:219
 msgid "Use this option to collect data in the field with your Android device."
 msgstr "使用您的安卓设备在野外采集数据。"
 
-#: js/components/formLanding.es6:230 js/components/formSummary.es6:207
+#: js/components/formLanding.es6:244 js/components/formSummary.es6:209
 msgid "Collect data"
 msgstr "采集数据"
 
-#: js/components/formLanding.es6:254 js/components/formLanding.es6:274
+#: js/components/formLanding.es6:269 js/components/formLanding.es6:290
 msgid "Copy"
 msgstr "复制"
 
-#: js/components/formLanding.es6:261 js/components/table.es6:174
+#: js/components/formLanding.es6:276 js/components/table.es6:260
 msgid "Open"
 msgstr "打开"
 
-#: js/components/formLanding.es6:268
+#: js/components/formLanding.es6:283
 msgid "Download KoboCollect"
 msgstr "下载KoboCollect"
 
-#: js/components/formLanding.es6:293
+#: js/components/formLanding.es6:309
 msgid "Install"
 msgstr "安装"
 
-#: js/components/formLanding.es6:297
+#: js/components/formLanding.es6:313
 msgid "on your Android device."
 msgstr "至你的安卓设备上。"
 
-#: js/components/formLanding.es6:299
+#: js/components/formLanding.es6:315
 msgid "Click on"
 msgstr "点击"
 
-#: js/components/formLanding.es6:299
+#: js/components/formLanding.es6:315
 msgid "to open settings."
 msgstr "打开设置。"
 
-#: js/components/formLanding.es6:301
+#: js/components/formLanding.es6:317
 msgid "Enter the server URL"
 msgstr "输入服务器URL"
 
-#: js/components/formLanding.es6:303
+#: js/components/formLanding.es6:319
 msgid "and your username and password"
 msgstr "以及你的用户名和密码"
 
-#: js/components/formLanding.es6:305
+#: js/components/formLanding.es6:321
 msgid "Open \"Get Blank Form\" and select this project. "
 msgstr "打开\"Get Blank Form\"并选择此项目。"
 
-#: js/components/formLanding.es6:306
+#: js/components/formLanding.es6:322
 msgid "Open \"Enter Data.\""
 msgstr "打开\"Enter Data.\""
 
-#: js/components/formLanding.es6:336
+#: js/components/formLanding.es6:348
 msgid "edit"
 msgstr "编辑"
 
-#: js/components/formLanding.es6:342
+#: js/components/formLanding.es6:354
 msgid "Editing capabilities not granted, you can only view this form"
 msgstr "没有编辑权限，你只能查看此表单"
 
-#: js/components/formLanding.es6:348
+#: js/components/formLanding.es6:361
 msgid "Preview"
 msgstr "预览"
 
-#: js/components/formLanding.es6:378
+#: js/components/formLanding.es6:368
+#: js/components/modalForms/projectSettings.es6:135
+msgid "Replace form"
+msgstr ""
+
+#: js/components/formLanding.es6:393
+msgid "Download PDF"
+msgstr ""
+
+#: js/components/formLanding.es6:399
 msgid "Share this project"
 msgstr "共享此项目"
 
-#: js/components/formLanding.es6:383
+#: js/components/formLanding.es6:405
 msgid "Clone this project"
 msgstr "克隆此项目"
 
-#: js/components/formLanding.es6:411
+#: js/components/formLanding.es6:420 js/components/formLanding.es6:454
+msgid "Manage Translations"
+msgstr ""
+
+#: js/components/formLanding.es6:433
+msgid "Languages:"
+msgstr ""
+
+#: js/components/formLanding.es6:436
+msgid "This project has no languages defined yet"
+msgstr ""
+
+#: js/components/formLanding.es6:443
+#: js/components/modalForms/submission.es6:31
+#: js/components/modalForms/translationSettings.es6:282
+#: js/components/reports.es6:647
+msgid "Unnamed language"
+msgstr ""
+
+#: js/components/formLanding.es6:486
 msgid "Current version"
 msgstr "当前版本"
 
-#: js/components/formLanding.es6:412
+#: js/components/formLanding.es6:487
 msgid "Archived version"
 msgstr "已存档版本"
 
-#: js/components/formLanding.es6:413
+#: js/components/formLanding.es6:488
 msgid "Draft version"
 msgstr "草稿版本"
 
-#: js/components/formSubScreens.es6:153 js/components/formSummary.es6:333
+#: js/components/formSubScreens.es6:162 js/components/formSummary.es6:335
 msgid "Access Denied"
 msgstr "访问被拒绝"
 
-#: js/components/formSubScreens.es6:155 js/components/formSummary.es6:335
+#: js/components/formSubScreens.es6:164 js/components/formSummary.es6:337
 msgid "You do not have permission to view this page."
 msgstr "您没有权限查看该页面。"
 
-#: js/components/formSummary.es6:140
-#: js/components/searchcollectionlist.es6:144
+#: js/components/formSummary.es6:142
+#: js/components/searchcollectionlist.es6:155
 msgid "Submissions"
 msgstr "已提交回答"
 
-#: js/components/formSummary.es6:146
+#: js/components/formSummary.es6:148
 msgid "Past 7 days"
 msgstr "前7天"
 
-#: js/components/formSummary.es6:149
+#: js/components/formSummary.es6:151
 msgid "Past 31 days"
 msgstr "前31天"
 
-#: js/components/formSummary.es6:156
+#: js/components/formSummary.es6:158
 msgid "No chart data available for current period."
 msgstr "当前时间段无可用图表数据。"
 
-#: js/components/formSummary.es6:164 js/components/formSummary.es6:167
+#: js/components/formSummary.es6:166 js/components/formSummary.es6:169
 msgid "Today"
 msgstr "今天"
 
-#: js/components/formSummary.es6:184
+#: js/components/formSummary.es6:186
 msgid "Total"
 msgstr "全部"
 
-#: js/components/formSummary.es6:213
-#| msgid "More for"
-msgid "Share form"
-msgstr "共享表单"
+#: js/components/formSummary.es6:215
+msgid "Share project"
+msgstr ""
 
-#: js/components/formSummary.es6:225
-#| msgid "Edit"
+#: js/components/formSummary.es6:227
 msgid "Edit form"
 msgstr "编辑表单"
 
-#: js/components/formSummary.es6:231 js/editorMixins/editableForm.es6:476
+#: js/components/formSummary.es6:233 js/editorMixins/editableForm.es6:708
 msgid "Preview form"
 msgstr "预览表单"
 
-#: js/components/formSummary.es6:239 js/i18nMissingStrings.es6:121
+#: js/components/formSummary.es6:241 js/i18nMissingStrings.es6:150
 msgid "Reports"
 msgstr "报告"
 
-#: js/components/formSummary.es6:240 js/components/formViewTabs.es6:104
+#: js/components/formSummary.es6:242 js/components/formViewTabs.es6:104
 msgid "Reports (legacy)"
 msgstr "报告(传统)"
 
-#: js/components/formSummary.es6:241 js/components/formViewTabs.es6:105
+#: js/components/formSummary.es6:243 js/components/formViewTabs.es6:105
 msgid "Table"
 msgstr "表格"
 
-#: js/components/formSummary.es6:242 js/components/formViewTabs.es6:106
+#: js/components/formSummary.es6:244 js/components/formViewTabs.es6:106
 msgid "Gallery"
 msgstr "相册"
 
-#: js/components/formSummary.es6:243 js/components/formViewTabs.es6:107
+#: js/components/formSummary.es6:245 js/components/formViewTabs.es6:107
 msgid "Downloads"
 msgstr "下载"
 
-#: js/components/formSummary.es6:244 js/components/formViewTabs.es6:108
+#: js/components/formSummary.es6:246 js/components/formViewTabs.es6:108
 msgid "Map"
 msgstr "地图"
 
-#: js/components/formSummary.es6:293
+#: js/components/formSummary.es6:295
 msgid "Team members"
 msgstr "组成员"
 
-#: js/components/formSummary.es6:355
-#| msgid "Project description"
+#: js/components/formSummary.es6:350
+#: js/components/modalForms/projectSettings.es6:802
+msgid "Description"
+msgstr "说明"
+
+#: js/components/formSummary.es6:357
 msgid "Project country"
 msgstr "项目所在国家"
 
-#: js/components/formSummary.es6:381
-msgid "Quick Links"
-msgstr "快速链接"
+#: js/components/formSummary.es6:363
+#: js/components/modalForms/projectSettings.es6:820
+msgid "Sector"
+msgstr "行业"
 
-#: js/components/formSummary.es6:389
-#| msgid "expand details"
+#: js/components/formSummary.es6:380
 msgid "Form details"
 msgstr "表单详情"
 
-#: js/components/formSummary.es6:394
-#| msgid "Last Modified"
+#: js/components/formSummary.es6:385 js/components/templatesList.es6:81
 msgid "Last modified"
 msgstr "最近修改"
 
-#: js/components/formSummary.es6:399
-#| msgid "submissions"
+#: js/components/formSummary.es6:390
 msgid "Latest submission"
 msgstr "最新提交"
 
-#: js/components/formSummary.es6:405
-#| msgid "Question"
+#: js/components/formSummary.es6:396 js/components/templatesList.es6:84
 msgid "Questions"
 msgstr "问题"
 
-#: js/components/formSummary.es6:412
+#: js/components/formSummary.es6:403
 msgid "Languages"
 msgstr "语言"
 
-#: js/components/formSummary.es6:428 js/i18nMissingStrings.es6:120
+#: js/components/formSummary.es6:421
+msgid "Quick Links"
+msgstr "快速链接"
+
+#: js/components/formSummary.es6:431 js/i18nMissingStrings.es6:149
 msgid "Data"
 msgstr "数据"
 
@@ -776,751 +1242,1380 @@ msgstr "数据"
 msgid "Summary"
 msgstr "概要"
 
-#: js/components/header.es6:129
+#: js/components/formViewTabs.es6:116
+msgid "Sharing"
+msgstr ""
+
+#: js/components/formViewTabs.es6:117
+msgid "REST Services"
+msgstr ""
+
+#: js/components/formViewTabs.es6:118
+msgid "Kobocat (legacy)"
+msgstr ""
+
+#: js/components/header.es6:86
 msgid "Please refresh the page"
 msgstr "请刷新页面"
 
-#: js/components/header.es6:173
+#: js/components/header.es6:132
 msgid "Account Settings"
 msgstr "账户设置"
 
-#: js/components/header.es6:189
+#: js/components/header.es6:139
+msgid "Terms of Service"
+msgstr ""
+
+#: js/components/header.es6:142
+msgid "Privacy Policy"
+msgstr ""
+
+#: js/components/header.es6:161
 msgid "Logout"
 msgstr "注销"
 
-#: js/components/header.es6:199
-msgid "not logged in"
-msgstr "未登录"
+#: js/components/header.es6:171
+msgid "n/a"
+msgstr ""
 
-#: js/components/header.es6:270
+#: js/components/header.es6:196
+msgid "Please enter a title for your project"
+msgstr "请输入项目标题"
+
+#: js/components/header.es6:260
 msgid "Search Projects"
 msgstr "搜索项目"
 
-#: js/components/header.es6:275 js/editorMixins/editableForm.es6:546
+#: js/components/header.es6:265 js/editorMixins/editableForm.es6:883
 msgid "Search Library"
 msgstr "搜索库"
 
-#: js/components/header.es6:288
+#: js/components/header.es6:279
 msgid "Project title"
 msgstr "项目标题"
 
-#: js/components/header.es6:296
+#: js/components/header.es6:288
 msgid "submissions"
 msgstr "已提交回答"
 
-#: js/components/librarySidebar.es6:111 js/components/librarySidebar.es6:113
+#: js/components/helpBubbles.es6:239
+msgid "Intercom"
+msgstr ""
+
+#: js/components/helpBubbles.es6:408
+msgid "Help Resources"
+msgstr ""
+
+#: js/components/helpBubbles.es6:418
+msgid "KoBoToolbox Help Center"
+msgstr ""
+
+#: js/components/helpBubbles.es6:419
+msgid ""
+"A vast collection of user support articles and tutorials related to KoBo"
+msgstr ""
+
+#: js/components/helpBubbles.es6:429
+msgid "KoBoToolbox Community Forum"
+msgstr ""
+
+#: js/components/helpBubbles.es6:430
+msgid ""
+"Post your questions to get answers from experienced KoBo users around the "
+"world"
+msgstr ""
+
+#: js/components/helpBubbles.es6:435
+msgid "Notifications"
+msgstr ""
+
+#: js/components/helpBubbles.es6:527
+msgid "Help"
+msgstr ""
+
+#: js/components/librarySidebar.es6:115 js/components/librarySidebar.es6:117
 msgid "Create collection"
 msgstr "创建收藏"
 
-#: js/components/librarySidebar.es6:112
+#: js/components/librarySidebar.es6:116
 msgid ""
 "Please enter the name of your new Collection. Collections can help you "
 "better organize your library, and it is possible to share each collection "
 "with different people."
 msgstr "请输入新建的收藏的名称。收藏可以更好地帮助你组织库中的项目。你可以与不同的人共享各个收藏。"
 
-#: js/components/librarySidebar.es6:113 js/components/librarySidebar.es6:139
-#: js/components/librarySidebar.es6:164 js/components/submission.es6:96
-#: js/components/table.es6:467 js/editorMixins/editableForm.es6:684
-#: js/formbuild/containers/KoboMatrix.es6:169
-#: js/formbuild/containers/KoboMatrix.es6:310
-#: js/formbuild/containers/KoboMatrix.es6:331 js/mixins.es6:46
-#: js/mixins.es6:77 js/mixins.es6:285 js/mixins.es6:366 js/mixins.es6:388
-msgid "Cancel"
-msgstr "取消"
-
-#: js/components/librarySidebar.es6:137
+#: js/components/librarySidebar.es6:140
 msgid "Delete collection"
 msgstr "删除收藏"
 
-#: js/components/librarySidebar.es6:138
+#: js/components/librarySidebar.es6:141
 msgid ""
 "are you sure you want to delete this collection? this action is not "
 "reversible"
 msgstr "确定要删除此收藏吗？此操作不可逆。"
 
-#: js/components/librarySidebar.es6:145
-msgid "Failed to delete collection."
-msgstr "删除收藏失败。"
-
-#: js/components/librarySidebar.es6:161
+#: js/components/librarySidebar.es6:169
 msgid "Rename collection"
 msgstr "重命名收藏"
 
-#: js/components/librarySidebar.es6:162
+#: js/components/librarySidebar.es6:170
 msgid "Please enter the name of your new collection."
 msgstr "请输入新建的收藏的名称。"
 
-#: js/components/librarySidebar.es6:164 js/mixins.es6:46 js/mixins.es6:77
-#: js/mixins.es6:285
+#: js/components/librarySidebar.es6:172 js/mixins.es6:52 js/mixins.es6:113
+#: js/mixins.es6:471
 msgid "Ok"
 msgstr "确定"
 
-#: js/components/librarySidebar.es6:236
+#: js/components/librarySidebar.es6:247
 msgid "unexpected error removing public permission"
 msgstr "在删除公共权限时发生意外错误"
 
-#: js/components/librarySidebar.es6:256 js/components/submission.es6:238
+#: js/components/librarySidebar.es6:269
+#: js/components/modalForms/submission.es6:528 js/lists/library.es6:65
 msgid "Question"
 msgstr "问题"
 
-#: js/components/librarySidebar.es6:269
+#: js/components/librarySidebar.es6:274 js/lists/library.es6:67
+msgid "Template"
+msgstr ""
+
+#: js/components/librarySidebar.es6:285
+msgid "upload"
+msgstr "上传"
+
+#: js/components/librarySidebar.es6:291
 msgid "collection"
 msgstr "收藏"
 
-#: js/components/librarySidebar.es6:280
-#: js/components/searchcollectionlist.es6:105
+#: js/components/librarySidebar.es6:302
+#: js/components/searchcollectionlist.es6:111
 msgid "My Library"
 msgstr "我的库"
 
-#: js/components/librarySidebar.es6:320
+#: js/components/librarySidebar.es6:342
 msgid "Make Private"
 msgstr "设置为私有"
 
-#: js/components/librarySidebar.es6:329
+#: js/components/librarySidebar.es6:351
 msgid "Make Public"
 msgstr "设置为公开"
 
-#: js/components/librarySidebar.es6:351
+#: js/components/librarySidebar.es6:361
+msgid "Share"
+msgstr "共享"
+
+#: js/components/librarySidebar.es6:373
 msgid "Rename"
 msgstr "重命名"
 
-#: js/components/librarySidebar.es6:372
+#: js/components/librarySidebar.es6:394
 msgid "Unsubscribe"
 msgstr "退订"
 
-#: js/components/librarySidebar.es6:387
+#: js/components/librarySidebar.es6:409
 msgid "Public Collections"
 msgstr "公共收藏"
 
-#: js/components/librarySidebar.es6:413
+#: js/components/librarySidebar.es6:435
 msgid "by ___"
 msgstr "由 ___"
 
-#: js/components/librarySidebar.es6:425
+#: js/components/librarySidebar.es6:447
 msgid "unsubscribe"
 msgstr "退订"
 
-#: js/components/librarySidebar.es6:432
+#: js/components/librarySidebar.es6:454
 msgid "subscribe"
 msgstr "订阅"
 
-#: js/components/list.es6:44
+#: js/components/list.es6:47
 msgid "Search..."
 msgstr "搜索……"
 
-#: js/components/list.es6:117
-msgid "Search Tags"
-msgstr "搜索标签"
-
-#: js/components/list.es6:118
-msgid "No results found"
-msgstr "未找到结果"
-
-#: js/components/list.es6:185
-msgid "Collections are loading..."
-msgstr "正在加载收藏..."
-
-#: js/components/list.es6:192
-msgid "Filter by"
-msgstr "通过……来筛选"
-
-#: js/components/list.es6:196
+#: js/components/list.es6:179
 msgid "Select Collection Name"
 msgstr "选择收藏名称"
 
-#: js/components/list.es6:244
+#: js/components/list.es6:181
+msgid "Collections are loading..."
+msgstr "正在加载收藏..."
+
+#: js/components/list.es6:228
 msgid "assets found"
 msgstr "已找到资源"
 
-#: js/components/list.es6:249
+#: js/components/list.es6:234
 msgid "expand details"
 msgstr "展开详情"
 
-#: js/components/list.es6:286
+#: js/components/list.es6:273
 msgid "searching for \"___\""
 msgstr "搜索 \"___\""
 
-#: js/components/list.es6:289 js/components/list.es6:299
+#: js/components/list.es6:276 js/components/list.es6:286
 msgid "tagged with [___]"
 msgstr "标记为 [___]"
 
-#: js/components/list.es6:296
+#: js/components/list.es6:283
 msgid "searched for \"___\""
 msgstr "已搜索到 \"___\""
 
-#: js/components/list.es6:302
+#: js/components/list.es6:289
 msgid "found ## results"
 msgstr "找到##条结果"
 
-#: js/components/list.es6:309
+#: js/components/list.es6:296
 msgid "## ___ available"
 msgstr "## ___ 可用"
 
-#: js/components/list.es6:353
+#: js/components/list.es6:340
 msgid "success"
 msgstr "成功"
 
-#: js/components/list.es6:354
+#: js/components/list.es6:341
 msgid "yes"
 msgstr "是"
 
-#: js/components/list.es6:354
+#: js/components/list.es6:341
 msgid "no"
 msgstr "否"
 
-#: js/components/list.es6:357
+#: js/components/list.es6:344
 msgid "count"
 msgstr "计算"
 
-#: js/components/map.es6:107
+#: js/components/map.es6:129
 msgid ""
 "This map display is currently limited to 5000 records for performance "
 "reasons."
 msgstr "受限于性能，目前地图仅可显示不超过5000条记录。"
 
-#: js/components/map.es6:132 js/components/map.es6:203
-#: js/components/submission.es6:79 js/components/table.es6:96
-#: js/components/table.es6:105
-#| msgid "error loading data"
+#: js/components/map.es6:267 js/components/map.es6:410
+#: js/components/modalForms/submission.es6:115 js/components/table.es6:114
+#: js/components/table.es6:123
 msgid "Error: could not load data."
 msgstr "错误：无法加载数据。"
 
-#: js/components/map.es6:384
+#: js/components/map.es6:673
 msgid "Disaggregate by survey responses"
 msgstr "按调查结果分解"
 
-#: js/components/map.es6:390
+#: js/components/map.es6:678
 msgid "Disaggregated using:"
 msgstr "已按依据分解："
 
-#: js/components/map.es6:398
+#: js/components/map.es6:692
 msgid "Toggle Fullscreen"
 msgstr "全屏"
 
-#: js/components/map.es6:404
-#| msgid "Show latest first"
+#: js/components/map.es6:698
 msgid "Show as points"
 msgstr "显示为点"
 
-#: js/components/map.es6:411
+#: js/components/map.es6:704
+msgid "Toggle layers"
+msgstr ""
+
+#: js/components/map.es6:710
+msgid "Map display settings"
+msgstr ""
+
+#: js/components/map.es6:716
 msgid "Show as heatmap"
 msgstr "显示为热力图"
 
-#: js/components/map.es6:432
+#: js/components/map.es6:742
 msgid "-- See all data --"
 msgstr "-- 查看全部数据 --"
 
-#: js/components/map.es6:457
-msgid "not set"
-msgstr "未设置"
+#: js/components/map.es6:746
+msgid "untranslated: "
+msgstr ""
 
-#: js/components/map.es6:464
-msgid "Legend"
-msgstr "传统"
+#: js/components/map.es6:746
+msgid "Question label not set"
+msgstr ""
 
-#: js/components/modal.es6:37
-msgid "Sharing Permissions"
-msgstr "共享权限"
-
-#: js/components/modal.es6:43
-msgid "Uploading XLS file"
-msgstr "正在上传XLS文件"
-
-#: js/components/modal.es6:44
-msgid "Uploading: "
-msgstr "上传中……"
-
-#: js/components/modal.es6:50
-msgid "Create New Project from Scratch"
-msgstr "从头开始创建新项目"
-
-#: js/components/modal.es6:63 js/editorMixins/editableForm.es6:720
-msgid "Form Preview"
-msgstr "表单预览"
-
-#: js/components/modal.es6:69
-#| msgid "Record"
-msgid "Record #"
-msgstr "第 # 号记录"
-
-#: js/components/modal.es6:123
-msgid "Create project"
-msgstr "创建新项目"
-
-#: js/components/reportViewItem.es6:18
-msgid "Mean"
-msgstr "平均值"
-
-#: js/components/reportViewItem.es6:18
-msgid "Median"
-msgstr "中位数"
-
-#: js/components/reportViewItem.es6:18
-msgid "Mode"
-msgstr "众数"
-
-#: js/components/reportViewItem.es6:18
-msgid "Standard deviation"
-msgstr "标准差"
-
-#: js/components/reportViewItem.es6:30 js/components/reportViewItem.es6:31
-#: js/components/reportViewItem.es6:32 js/components/reportViewItem.es6:33
-msgid "N/A"
-msgstr "N/A"
-
-#: js/components/reportViewItem.es6:40
-msgid "Value"
-msgstr "值"
-
-#: js/components/reportViewItem.es6:40
-msgid "Frequency"
-msgstr "频度"
-
-#: js/components/reportViewItem.es6:40
-msgid "Percentage"
-msgstr "百分比"
-
-#: js/components/reportViewItem.es6:314
-msgid "Type: "
-msgstr "类型："
-
-#: js/components/reportViewItem.es6:314
-msgid ". "
-msgstr "."
-
-#: js/components/reportViewItem.es6:319
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#2 名应答者中的 #1 名回答了此问题。"
-
-#: js/components/reportViewItem.es6:326
-msgid "(# were without data.)"
-msgstr "(#个没有数据。)"
-
-#: js/components/reportViewItem.es6:334
-msgid "Override Graph Style"
-msgstr "覆盖图表样式"
-
-#: js/components/reports.es6:286 js/components/reports.es6:939
-#| msgid "Untitled"
-msgid "Untitled Report"
-msgstr "未命名的报告"
-
-#: js/components/reports.es6:289
-msgid "Include the following questions:"
-msgstr "包含以下问题："
-
-#: js/components/reports.es6:302 js/components/reports.es6:426
-#: js/components/reports.es6:672
-msgid "Save"
-msgstr "保存"
-
-#: js/components/reports.es6:378 js/components/reports.es6:575
-msgid "Chart Type"
-msgstr "图表类型"
-
-#: js/components/reports.es6:378 js/components/reports.es6:575
-msgid "Colors"
-msgstr "颜色"
-
-#: js/components/reports.es6:412 js/components/reports.es6:618
-msgid "Width: "
-msgstr "宽度："
-
-#: js/components/reports.es6:422
+#: js/components/map.es6:762 js/components/mapSettings.es6:351
+#: js/components/modalForms/tableColumnFilter.es6:230
+#: js/components/reports.es6:421
 msgid "Reset"
 msgstr "重置"
 
-#: js/components/reports.es6:578
-msgid "Group By"
-msgstr "分组依据"
+#: js/components/map.es6:769
+msgid "not set"
+msgstr "未设置"
 
-#: js/components/reports.es6:582
-msgid "Translation"
-msgstr "翻译"
+#: js/components/map.es6:789
+msgid "Legend"
+msgstr "传统"
 
-#: js/components/reports.es6:630
+#: js/components/map.es6:804
+msgid "Map Settings"
+msgstr ""
+
+#: js/components/mapSettings.es6:51
+msgid "Best for qualitative data"
+msgstr ""
+
+#: js/components/mapSettings.es6:52
+msgid "Best for sequential data"
+msgstr ""
+
+#: js/components/mapSettings.es6:53
+msgid "Best for diverging data"
+msgstr ""
+
+#: js/components/mapSettings.es6:154
+msgid "Please add a name for your layer file."
+msgstr ""
+
+#: js/components/mapSettings.es6:173
+msgid "Upload error: ##error_message##."
+msgstr ""
+
+#: js/components/mapSettings.es6:179
+msgid "Upload error: not a valid map overlay format."
+msgstr ""
+
+#: js/components/mapSettings.es6:194
+msgid "Delete File"
+msgstr ""
+
+#: js/components/mapSettings.es6:196
+msgid ""
+"Are you sure you want to delete this file? <br/><br/><strong>This action "
+"cannot be undone.</strong>"
+msgstr ""
+
+#: js/components/mapSettings.es6:215
+msgid "Overlays"
+msgstr ""
+
+#: js/components/mapSettings.es6:217
+msgid "Marker Colors"
+msgstr ""
+
+#: js/components/mapSettings.es6:219
+msgid "Geopoint question"
+msgstr ""
+
+#: js/components/mapSettings.es6:260
+msgid "Choose the Geopoint question you would like to display on the map:"
+msgstr ""
+
+#: js/components/mapSettings.es6:289
+msgid "Uploaded layers"
+msgstr ""
+
+#: js/components/mapSettings.es6:300
+msgid "Delete layer"
+msgstr ""
+
+#: js/components/mapSettings.es6:312
+msgid ""
+"Use the form below to upload files with map data in one of these formats: "
+"CSV, KML, KMZ, WKT or GEOJSON. The data will be made available as layers for"
+" display on the map."
+msgstr ""
+
+#: js/components/mapSettings.es6:317
+msgid "Layer name"
+msgstr ""
+
+#: js/components/mapSettings.es6:328
+msgid "Upload"
+msgstr ""
+
+#: js/components/mapSettings.es6:337
+msgid "Choose the color set for the disaggregated map markers."
+msgstr ""
+
+#: js/components/modal.es6:38
+msgid "Sharing Permissions"
+msgstr "共享权限"
+
+#: js/components/modal.es6:44 js/components/modal.es6:133
+msgid "Uploading XLS file"
+msgstr "正在上传XLS文件"
+
+#: js/components/modal.es6:45 js/components/modal.es6:134
+msgid "Uploading: "
+msgstr "上传中……"
+
+#: js/components/modal.es6:63 js/editorMixins/editableForm.es6:945
+msgid "Form Preview"
+msgstr "表单预览"
+
+#: js/components/modal.es6:78
+msgid "Edit REST Service"
+msgstr ""
+
+#: js/components/modal.es6:80
+msgid "New REST Service"
+msgstr ""
+
+#: js/components/modal.es6:89
+msgid "Table display options"
+msgstr ""
+
+#: js/components/modal.es6:93
+msgid "Manage Languages"
+msgstr ""
+
+#: js/components/modal.es6:98
+msgid "Translations Table"
+msgstr ""
+
+#: js/components/modal.es6:142 js/components/modal.es6:148
+#: js/components/modal.es6:151
+msgid "Submission Record"
+msgstr ""
+
+#: js/components/modal.es6:148 js/components/modal.es6:151
+#: js/components/table.es6:829 js/components/table.es6:957
+msgid "of"
+msgstr "中的"
+
+#: js/components/modal.es6:161
+msgid "Close"
+msgstr ""
+
+#: js/components/modal.es6:173
+msgid "Close Translations Table?"
+msgstr ""
+
+#: js/components/modal.es6:174
+#: js/components/modalForms/translationTable.es6:148
+msgid "You will lose all unsaved changes."
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:34
+msgid "permissions were copied successfully"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:73
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:77
+msgid "Are you sure you want to copy permissions?"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:79
+msgid "Proceed"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:113
+#: js/components/modalForms/submission.es6:309
+#: js/components/modalForms/submission.es6:386 js/components/table.es6:473
+msgid "Unlabelled"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:125
+msgid "Copy team from another project"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:132
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:141
+msgid "Select source project…"
+msgstr ""
+
+#: js/components/modalForms/copyTeamPermissions.es6:154
+msgid "copy"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:76
+#: js/components/modalForms/projectSettings.es6:197
+#: js/components/modalForms/projectSettings.es6:218
+msgid "Import"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:79
+#: js/components/modalForms/submission.es6:492
+#: js/components/modalForms/submission.es6:500
+#: js/components/modalForms/translationTable.es6:176
+#: js/components/table.es6:948
+msgid "Next"
+msgstr "下一个"
+
+#: js/components/modalForms/projectSettings.es6:133
+#: js/components/modalForms/projectSettings.es6:873
+msgid "Create project"
+msgstr "创建新项目"
+
+#: js/components/modalForms/projectSettings.es6:139
+msgid "Project settings"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:145
+msgid "Choose a source"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:146
+msgid "Choose template"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:147
+msgid "Upload XLSForm"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:148
+msgid "Import XLSForm"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:149
+msgid "Project details"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:210
+msgid "Choose"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:413
+msgid "Error: asset could not be created."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:433
+msgid "Error: new project could not be created."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:457
+#: js/components/modalForms/projectSettings.es6:872 js/mixins.es6:767
+msgid "Please wait…"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:483
+msgid "Retrieving form, please wait..."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:512
+msgid "Failed to reload project after import!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:518
+#: js/components/modalForms/projectSettings.es6:576 js/mixins.es6:380
+#: js/mixins.es6:389 js/mixins.es6:392
+msgid "Import Failed!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:530
+msgid "Could not initialize XLSForm import!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:571
+msgid "Failed to reload project after upload!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:589
+msgid "Could not import XLSForm!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:600
+msgid "Please enter a title for your project!"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:621
+msgid "Use a template"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:631
+msgid ""
+"Choose one of the options below to continue. You will be prompted to enter "
+"name and other details in further steps."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:639
+msgid "Build from scratch"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:649
+msgid "Upload an XLSForm"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:654
+msgid "Import an XLSForm via URL"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:691
+msgid "Import an XLSForm from your computer."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:704
+msgid " Drag and drop the XLSForm file here or click to browse"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:709
+msgid "Uploading file…"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:724
+msgid "Enter a valid XLSForm URL in the field below."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:726
+msgid "Having issues? See this help article."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:733
+msgid "URL"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:789
+msgid "Project Name"
+msgstr "项目名称"
+
+#: js/components/modalForms/projectSettings.es6:793
+msgid "Enter title of project here"
+msgstr "请在此输入项目标题"
+
+#: js/components/modalForms/projectSettings.es6:807
+msgid "Enter short description here"
+msgstr "请在此处输入简短介绍"
+
+#: js/components/modalForms/projectSettings.es6:813
+msgid ""
+"Please specify the country and the sector where this project will be "
+"deployed. "
+msgstr "请指定项目将要被部署至的国家和行业。"
+
+#: js/components/modalForms/projectSettings.es6:854
+msgid ""
+"Help KoboToolbox improve this product by sharing the sector and country "
+"where this project will be deployed."
+msgstr "共享项目部署的行业和国家等信息以帮助KoboToolbox不断改进产品。"
+
+#: js/components/modalForms/projectSettings.es6:854
+msgid ""
+"All the information is submitted anonymously, and will not include the "
+"project name or description listed above."
+msgstr "所有信息将被匿名提交，不会包含上述项目名称或简介。"
+
+#: js/components/modalForms/projectSettings.es6:888 js/mixins.es6:619
+msgid "Unarchive Project"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:898 js/mixins.es6:591
+msgid "Archive Project"
+msgstr "将项目存档"
+
+#: js/components/modalForms/projectSettings.es6:904
+msgid "Unarchive project to resume accepting submissions."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:904
+msgid "Archive project to stop accepting submissions."
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:916
+msgid "Delete Project and Data"
+msgstr ""
+
+#: js/components/modalForms/projectSettings.es6:946
+#: js/components/modalForms/translationTable.es6:192
+msgid "Back"
+msgstr "后退"
+
+#: js/components/modalForms/projectSettings.es6:954
+msgid "loading…"
+msgstr ""
+
+#: js/components/modalForms/sharingForm.es6:27
+msgid "View Form"
+msgstr "查看表单"
+
+#: js/components/modalForms/sharingForm.es6:28
+msgid "Edit Form"
+msgstr "编辑表单"
+
+#: js/components/modalForms/sharingForm.es6:29
+msgid "View Submissions"
+msgstr "查看已提交回答"
+
+#: js/components/modalForms/sharingForm.es6:30
+msgid "Add Submissions"
+msgstr "添加回答"
+
+#: js/components/modalForms/sharingForm.es6:31
+msgid "Edit Submissions"
+msgstr "编辑已提交的回答"
+
+#: js/components/modalForms/sharingForm.es6:32
+msgid "Validate Submissions"
+msgstr "验证已提交的回答"
+
+#: js/components/modalForms/sharingForm.es6:137
+msgid "Share by link"
+msgstr "通过链接分享"
+
+#: js/components/modalForms/sharingForm.es6:142
+msgid "Shareable link"
+msgstr "可分享的链接"
+
+#: js/components/modalForms/sharingForm.es6:153
+msgid "Share data publicly"
+msgstr "公开分享数据"
+
+#: js/components/modalForms/sharingForm.es6:298
+msgid "View"
+msgstr ""
+
+#: js/components/modalForms/sharingForm.es6:310
+msgid "Who has access"
+msgstr "谁有访问权限"
+
+#: js/components/modalForms/sharingForm.es6:321
+msgid "is owner"
+msgstr "所有者"
+
+#: js/components/modalForms/sharingForm.es6:332
+msgid "Invite collaborators"
+msgstr "邀请合作者"
+
+#: js/components/modalForms/sharingForm.es6:338
+msgid "Enter a username"
+msgstr "请输入用户名"
+
+#: js/components/modalForms/sharingForm.es6:354
+msgid "invite"
+msgstr "邀请"
+
+#: js/components/modalForms/sharingForm.es6:362
+msgid "Select share settings"
+msgstr "选择分享选项"
+
+#: js/components/modalForms/submission.es6:131
+msgid "Delete submission?"
+msgstr "删除已提交回答？"
+
+#: js/components/modalForms/submission.es6:132
+msgid "Are you sure you want to delete this submission?"
+msgstr "确定要删除该提交的回答吗？"
+
+#: js/components/modalForms/submission.es6:132
+msgid "This action cannot be undone"
+msgstr "此操作不可撤销。"
+
+#: js/components/modalForms/submission.es6:137
+msgid "submission deleted"
+msgstr "回答已删除"
+
+#: js/components/modalForms/submission.es6:308
+msgid "Repeat group: "
+msgstr ""
+
+#: js/components/modalForms/submission.es6:357
+msgid "Unlabelled group"
+msgstr ""
+
+#: js/components/modalForms/submission.es6:430
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr ""
+
+#: js/components/modalForms/submission.es6:432
+msgid "Refresh submission"
+msgstr ""
+
+#: js/components/modalForms/submission.es6:441
+msgid "Language:"
+msgstr ""
+
+#: js/components/modalForms/submission.es6:454
+msgid "Validation status:"
+msgstr ""
+
+#: js/components/modalForms/submission.es6:475
+#: js/components/modalForms/submission.es6:483
+msgid "Previous"
+msgstr "以前"
+
+#: js/components/modalForms/submission.es6:518
+msgid "Delete submission"
+msgstr "删除已提交回答"
+
+#: js/components/modalForms/submission.es6:529
+msgid "Response"
+msgstr "回答"
+
+#: js/components/modalForms/submission.es6:541
+msgid "start"
+msgstr "开始"
+
+#: js/components/modalForms/submission.es6:548
+msgid "end"
+msgstr "结束"
+
+#: js/components/modalForms/submission.es6:555
+msgid "__version__"
+msgstr "__版本__"
+
+#: js/components/modalForms/submission.es6:562
+msgid "instanceID"
+msgstr "instanceID"
+
+#: js/components/modalForms/tableColumnFilter.es6:109
+msgid "There was an error, table settings could not be saved."
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:144
+msgid "XML Values"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:165
+msgid "Display labels or XML values?"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:175
+msgid "Show group names in table headers"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:183
+msgid "Show HXL tags"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:190
+msgid ""
+"Note: Only users with the \"edit form\" permission can see the following two"
+" options. If other users can view submissions on this project, their table "
+"view will be restricted by the choices made below."
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:194
+msgid "Set a frozen first column in the table."
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:208
+msgid "Restrict the visible columns in the table display"
+msgstr ""
+
+#: js/components/modalForms/tableColumnFilter.es6:209
+msgid "All columns are visible by default"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:126
+msgid "Delete language?"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:127
+msgid ""
+"Are you sure you want to delete this language? This action is not "
+"reversible."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:208
+msgid "Change default language?"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:209
+msgid ""
+"Are you sure you would like to set ##lang## as the default language for this"
+" form?"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:210
+#: js/components/modalForms/translationTable.es6:149
+msgid "Confirm"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:238
+msgid "There is nothing to translate in this form."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:260
+msgid ""
+"Here you can add more languages to your project, and translate the strings "
+"in each of them."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:261
+msgid ""
+"Please name your default language before adding languages and translations."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:262
+msgid "For the language code field, we suggest using the"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:264
+msgid "official language code"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:266
+msgid "(e.g. \"English (en)\" or \"Rohingya (rhg)\")."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:268
+msgid "Read more."
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:274
+msgid "Current languages"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:286
+msgid "default"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:295
+msgid "Make default"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:307
+msgid "Edit language"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:324
+msgid "Update translations"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:334
+msgid "Delete language"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:364
+msgid "Add language"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:374
+msgid "Add a new language"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:480
+msgid "Name must be unique!"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:487
+msgid "Code must be unique!"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:516
+msgid "Language name"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:527
+msgid "Language code"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:542
+msgid "Update"
+msgstr ""
+
+#: js/components/modalForms/translationSettings.es6:542
+msgid "Add"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:13
+msgid "* Save Changes"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:14
+msgid "Saving…"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:62
+msgid "Original string"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:67
+msgid "##lang## translation"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:147
+msgid "Go back?"
+msgstr ""
+
+#: js/components/modalForms/translationTable.es6:175
+#: js/components/table.es6:947
+msgid "Prev"
+msgstr "以前"
+
+#: js/components/passwordStrength.es6:23
+msgid "Password strength"
+msgstr ""
+
+#: js/components/reportViewItem.es6:23
+msgid "Mean"
+msgstr "平均值"
+
+#: js/components/reportViewItem.es6:23
+msgid "Median"
+msgstr "中位数"
+
+#: js/components/reportViewItem.es6:23
+msgid "Mode"
+msgstr "众数"
+
+#: js/components/reportViewItem.es6:23
+msgid "Standard deviation"
+msgstr "标准差"
+
+#: js/components/reportViewItem.es6:40 js/components/reportViewItem.es6:41
+#: js/components/reportViewItem.es6:42 js/components/reportViewItem.es6:43
+#: js/components/reportViewItem.es6:53 js/components/reportViewItem.es6:54
+#: js/components/reportViewItem.es6:55 js/components/reportViewItem.es6:56
+msgid "N/A"
+msgstr "N/A"
+
+#: js/components/reportViewItem.es6:66
+msgid "Frequency"
+msgstr "频度"
+
+#: js/components/reportViewItem.es6:66
+msgid "Percentage"
+msgstr "百分比"
+
+#: js/components/reportViewItem.es6:353
+msgid "Type: "
+msgstr "类型："
+
+#: js/components/reportViewItem.es6:353
+msgid ". "
+msgstr "."
+
+#: js/components/reportViewItem.es6:358
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#2 名应答者中的 #1 名回答了此问题。"
+
+#: js/components/reportViewItem.es6:365
+msgid "(# were without data.)"
+msgstr "(#个没有数据。)"
+
+#: js/components/reportViewItem.es6:373
+msgid "Override Graph Style"
+msgstr "覆盖图表样式"
+
+#: js/components/reports.es6:270 js/components/reports.es6:528
+msgid "Unlabeled"
+msgstr ""
+
+#: js/components/reports.es6:281 js/components/reports.es6:983
+msgid "Untitled Report"
+msgstr "未命名的报告"
+
+#: js/components/reports.es6:284
+msgid "Include the following questions:"
+msgstr "包含以下问题："
+
+#: js/components/reports.es6:377 js/components/reports.es6:635
+#: js/components/reports.es6:670
+msgid "Chart Type"
+msgstr "图表类型"
+
+#: js/components/reports.es6:377 js/components/reports.es6:635
+#: js/components/reports.es6:678
+msgid "Colors"
+msgstr "颜色"
+
+#: js/components/reports.es6:411 js/components/reports.es6:685
+msgid "Width: "
+msgstr "宽度："
+
+#: js/components/reports.es6:617
 msgid "No grouping"
 msgstr "未分组"
 
-#: js/components/reports.es6:783
+#: js/components/reports.es6:638 js/components/reports.es6:689
+msgid "Group By"
+msgstr "分组依据"
+
+#: js/components/reports.es6:643 js/components/reports.es6:699
+msgid "Translation"
+msgstr "翻译"
+
+#: js/components/reports.es6:824
 msgid ""
 "Could not load grouped results via \"##\". Will attempt to load the "
 "ungrouped report."
 msgstr "无法通过\"##\"加载分组结果，即将尝试加载未分组的报告。"
 
-#: js/components/reports.es6:832
-#| msgid "Could not redirect to asset."
+#: js/components/reports.es6:873
 msgid "Could not refresh report."
 msgstr "无法刷新报告。"
 
-#: js/components/reports.es6:939
-#| msgid "Reports"
+#: js/components/reports.es6:983
 msgid "Custom Reports"
 msgstr "定制报告"
 
-#: js/components/reports.es6:945
-#| msgid "Default response"
+#: js/components/reports.es6:989
 msgid "Default Report"
 msgstr "默认报告"
 
-#: js/components/reports.es6:955
-#| msgid "Untitled"
+#: js/components/reports.es6:999
 msgid "Untitled report"
 msgstr "未命名的报告"
 
-#: js/components/reports.es6:963
-#| msgid "Create project"
+#: js/components/reports.es6:1008
 msgid "Create New Report"
 msgstr "创建新报告"
 
-#: js/components/reports.es6:970
-#| msgid "Enter your question"
+#: js/components/reports.es6:1016
 msgid "Edit Report Questions"
 msgstr "编辑报告问题"
 
-#: js/components/reports.es6:977 js/components/table.es6:591
-msgid "Expand"
-msgstr "展开"
+#: js/components/reports.es6:1024 js/components/table.es6:921
+msgid "Toggle fullscreen"
+msgstr ""
 
-#: js/components/reports.es6:983 js/components/table.es6:570
+#: js/components/reports.es6:1031 js/components/table.es6:899
 msgid "Print"
 msgstr "打印"
 
-#: js/components/reports.es6:989
-#| msgid "report type"
+#: js/components/reports.es6:1038
 msgid "Configure Report Style"
 msgstr "配置报告样式"
 
-#: js/components/reports.es6:1037 js/components/reports.es6:1081
+#: js/components/reports.es6:1084 js/components/reports.es6:1127
 msgid "This report cannot be loaded."
 msgstr "该报告无法加载。"
 
-#: js/components/reports.es6:1103
+#: js/components/reports.es6:1161
 msgid "This report has no data."
 msgstr "此报告没有数据。"
 
-#: js/components/reports.es6:1123
+#: js/components/reports.es6:1163
+msgid "Try changing Report Style to \"No grouping\"."
+msgstr ""
+
+#: js/components/reports.es6:1177
 msgid ""
 "For performance reasons, this report only includes the first ## questions."
 msgstr "受限于性能，此报告仅包含前 ## 个问题。"
 
-#: js/components/reports.es6:1126
+#: js/components/reports.es6:1180
 msgid "Show all (##)"
 msgstr "显示全部 (##)"
 
-#: js/components/reports.es6:1132
+#: js/components/reports.es6:1186
 msgid "Warning"
 msgstr "警告"
 
-#: js/components/reports.es6:1133
+#: js/components/reports.es6:1187
 msgid ""
 "This is an automated report based on raw data submitted to this project. "
 "Please conduct proper data cleaning prior to using the graphs and figures "
 "used on this page. "
 msgstr "以下是根据项目已提交的原始数据自动生成的报告。请在使用本页面的图表或插图前进行合理的数据清洗。"
 
-#: js/components/reports.es6:1139
-#| msgid "report type"
+#: js/components/reports.es6:1195
 msgid "Edit Report Style"
 msgstr "编辑报告样式"
 
-#: js/components/reports.es6:1145
-#| msgid "Report"
+#: js/components/reports.es6:1201
 msgid "Custom Report"
 msgstr "定制报告"
 
-#: js/components/reports.es6:1151
-#| msgid "Question hint"
+#: js/components/reports.es6:1207
 msgid "Question Style"
 msgstr "问题样式"
 
-#: js/components/searchcollectionlist.es6:120
+#: js/components/searchcollectionlist.es6:131
+#: js/components/templatesList.es6:78
 msgid "Owner"
 msgstr "所有者"
 
-#: js/components/searchcollectionlist.es6:135
+#: js/components/searchcollectionlist.es6:146
 msgid "Shared by"
 msgstr "由……共享"
 
-#: js/components/searchcollectionlist.es6:178 js/lists/sidebarForms.es6:99
+#: js/components/searchcollectionlist.es6:189 js/lists/sidebarForms.es6:101
 msgid "Active Projects"
 msgstr "已激活的项目"
 
-#: js/components/searchcollectionlist.es6:239
+#: js/components/searchcollectionlist.es6:241
+msgid "Your search returned no results."
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:267
 msgid ""
 "Let's get started by creating your first project. Click the New button to "
 "create a new form."
 msgstr "让我们开始创建第一个项目。点击“新建”按钮创建新表单。"
 
-#: js/components/searchcollectionlist.es6:247
+#: js/components/searchcollectionlist.es6:269
+msgid ""
+"Advanced users: You also drag and drop XLSForms here and they will be "
+"uploaded and converted to projects."
+msgstr ""
+
+#: js/components/searchcollectionlist.es6:278
 msgid ""
 "Let's get started by creating your first library question or question block."
 " Click the New button to create a new question or block."
 msgstr "让我们开始创建第一个问题库或问题块。点击“新建”按钮创建新的问题或问题块。"
 
-#: js/components/sharingForm.es6:22
-#| msgid "View only"
-msgid "View Form"
-msgstr "查看表单"
+#: js/components/searchcollectionlist.es6:299
+msgid "Drop files to upload"
+msgstr ""
 
-#: js/components/sharingForm.es6:23
-#| msgid "Edit in Form Builder"
-msgid "Edit Form"
-msgstr "编辑表单"
-
-#: js/components/sharingForm.es6:24
-#| msgid "Submissions"
-msgid "View Submissions"
-msgstr "查看已提交回答"
-
-#: js/components/sharingForm.es6:25
-#| msgid "Submissions"
-msgid "Add Submissions"
-msgstr "添加回答"
-
-#: js/components/sharingForm.es6:26
-#| msgid "Submissions"
-msgid "Edit Submissions"
-msgstr "编辑已提交的回答"
-
-#: js/components/sharingForm.es6:27
-#| msgid "Submissions"
-msgid "Validate Submissions"
-msgstr "验证已提交的回答"
-
-#: js/components/sharingForm.es6:132
-msgid "Share by link"
-msgstr "通过链接分享"
-
-#: js/components/sharingForm.es6:136
-msgid "Shareable link"
-msgstr "可分享的链接"
-
-#: js/components/sharingForm.es6:149
-#| msgid "Shared by"
-msgid "Share data publicly"
-msgstr "公开分享数据"
-
-#: js/components/sharingForm.es6:291
-msgid "Who has access"
-msgstr "谁有访问权限"
-
-#: js/components/sharingForm.es6:302
-msgid "is owner"
-msgstr "所有者"
-
-#: js/components/sharingForm.es6:313
-msgid "Invite collaborators"
-msgstr "邀请合作者"
-
-#: js/components/sharingForm.es6:319
-msgid "Enter a username"
-msgstr "请输入用户名"
-
-#: js/components/sharingForm.es6:332
-msgid "invite"
-msgstr "邀请"
-
-#: js/components/sharingForm.es6:340
-msgid "Select share settings"
-msgstr "选择分享选项"
-
-#: js/components/submission.es6:94
-#| msgid "submissions"
-msgid "Delete submission?"
-msgstr "删除已提交回答？"
-
-#: js/components/submission.es6:95
-#| msgid "Are you sure you want to delete this question?"
-msgid "Are you sure you want to delete this submission?"
-msgstr "确定要删除该提交的回答吗？"
-
-#: js/components/submission.es6:95
-#| msgid "This action cannot be undone."
-msgid "This action cannot be undone"
-msgstr "此操作不可撤销。"
-
-#: js/components/submission.es6:100
-#| msgid "submissions"
-msgid "submission deleted"
-msgstr "回答已删除"
-
-#: js/components/submission.es6:186 js/components/table.es6:180
-#| msgid "Validation Criteria"
-msgid "Validation status"
-msgstr "验证状态"
-
-#: js/components/submission.es6:202
-#| msgid "revisions"
-msgid "Previous"
-msgstr "以前"
-
-#: js/components/submission.es6:210 js/components/table.es6:621
-msgid "Next"
-msgstr "下一个"
-
-#: js/components/submission.es6:227
-#| msgid "submissions"
-msgid "Delete submission"
-msgstr "删除已提交回答"
-
-#: js/components/submission.es6:239
-#| msgid "Response Type"
-msgid "Response"
-msgstr "回答"
-
-#: js/components/submission.es6:246
-msgid "start"
-msgstr "开始"
-
-#: js/components/submission.es6:253
-#| msgid "Gender"
-msgid "end"
-msgstr "结束"
-
-#: js/components/submission.es6:300
-#| msgid "Version"
-msgid "__version__"
-msgstr "__版本__"
-
-#: js/components/submission.es6:307
-msgid "instanceID"
-msgstr "instanceID"
-
-#: js/components/table.es6:94
+#: js/components/table.es6:112
 msgid "The query did not return any results."
 msgstr "查询未返回任何结果。"
 
-#: js/components/table.es6:465
-#| msgid "Create group with selected questions"
+#: js/components/table.es6:278 js/components/table.es6:572
+msgid "Validation status"
+msgstr "验证状态"
+
+#: js/components/table.es6:566
+msgid "Multi-select checkboxes column"
+msgstr ""
+
+#: js/components/table.es6:704
+msgid "There was an error loading Enketo."
+msgstr ""
+
+#: js/components/table.es6:797
 msgid "Update status of selected submissions"
 msgstr "更新已选定回答的状态"
 
-#: js/components/table.es6:466
+#: js/components/table.es6:798
 msgid ""
 "You have selected ## submissions. Are you sure you would like to update "
 "their status? This action is irreversible."
 msgstr "您已经选择了##个已提交回答。确定要更新他们的状态吗？此操作不可逆。"
 
-#: js/components/table.es6:467
-#| msgid "Validation Criteria"
+#: js/components/table.es6:799
 msgid "Update Validation Status"
 msgstr "更新验证状态"
 
-#: js/components/table.es6:474
-#| msgid "failed to update profile"
+#: js/components/table.es6:806
 msgid "Failed to update status."
 msgstr "状态更新失败。"
 
-#: js/components/table.es6:517 js/components/table.es6:630
-msgid "of"
-msgstr "中的"
-
-#: js/components/table.es6:517
-#| msgid "Filter results"
+#: js/components/table.es6:829
 msgid "results"
 msgstr "结果"
 
-#: js/components/table.es6:527
+#: js/components/table.es6:839
 msgid "All ## selected. "
 msgstr "已选择全部##条。"
 
-#: js/components/table.es6:529
-#| msgid "Collection"
+#: js/components/table.es6:841
 msgid "Clear selection"
 msgstr "清除选择"
 
-#: js/components/table.es6:535
+#: js/components/table.es6:847
 msgid "## selected. "
 msgstr "已选择##条。"
 
-#: js/components/table.es6:539
-#| msgid "Select Many"
+#: js/components/table.es6:851
 msgid "Select all ##"
 msgstr "选择全部##条"
 
-#: js/components/table.es6:575
+#: js/components/table.es6:904
 msgid "Update selected"
 msgstr "更新已选择的"
 
-#: js/components/table.es6:577
+#: js/components/table.es6:906
 msgid "Updated status to:"
 msgstr "更新状态至："
 
-#: js/components/table.es6:591
-msgid "Contract"
-msgstr "缩小"
+#: js/components/table.es6:929
+msgid "Display options"
+msgstr ""
 
-#: js/components/table.es6:602
-#| msgid "Select question from list"
-msgid "Show/hide question groups"
-msgstr "显示/隐藏问题组"
-
-#: js/components/table.es6:620
-#| msgid "Preview"
-msgid "Prev"
-msgstr "以前"
-
-#: js/components/table.es6:628
-#| msgid "No results found"
+#: js/components/table.es6:955
 msgid "No rows found"
 msgstr "未找到行"
 
-#: js/components/table.es6:629
+#: js/components/table.es6:956
 msgid "Page"
 msgstr "页"
 
-#: js/components/table.es6:631
+#: js/components/table.es6:958
 msgid "rows"
 msgstr "行"
 
 #: js/components/tagInput.es6:35
-msgid "#tags +"
-msgstr "#tags +"
+msgid "Add tag(s)"
+msgstr ""
 
-#: js/constants.es6:13
+#: js/components/templatesList.es6:67
+msgid "You have no templates. Go to Library and create some."
+msgstr ""
+
+#: js/components/templatesList.es6:75
+msgid "Template name"
+msgstr ""
+
+#: js/components/templatesList.es6:92
+msgid "me"
+msgstr "我"
+
+#: js/constants.es6:37
 msgid "Default - single page"
 msgstr "默认 - 单页"
 
-#: js/constants.es6:14
+#: js/constants.es6:38
 msgid "Grid theme"
 msgstr "网格主题"
 
-#: js/constants.es6:15
+#: js/constants.es6:39
 msgid "Grid theme with headings in ALL CAPS"
 msgstr "标题全部大写的格栅主题"
 
-#: js/constants.es6:16
+#: js/constants.es6:40
 msgid "Multiple pages"
 msgstr "多页"
 
-#: js/constants.es6:17
+#: js/constants.es6:41
 msgid "Grid theme + Multiple pages"
 msgstr "网格主题+多页"
 
-#: js/constants.es6:18
-#| msgid "Grid theme + Multiple pages"
+#: js/constants.es6:42
 msgid "Grid theme + Multiple pages + headings in ALL CAPS"
 msgstr "格栅主题 + 多页 + 标题全部大写"
 
-#: js/constants.es6:24
+#: js/constants.es6:52
 msgid "Not Approved"
 msgstr "未通过批准"
 
-#: js/constants.es6:28
+#: js/constants.es6:56
 msgid "Approved"
 msgstr "通过批准"
 
-#: js/constants.es6:32
+#: js/constants.es6:60
 msgid "On Hold"
 msgstr "暂停"
 
-#: js/editorMixins/assetNavigator.es6:82
+#: js/constants.es6:74
+msgid "question"
+msgstr ""
+
+#: js/constants.es6:78
+msgid "block"
+msgstr ""
+
+#: js/constants.es6:82
+msgid "template"
+msgstr ""
+
+#: js/constants.es6:86
+msgid "project"
+msgstr "项目"
+
+#: js/dataInterface.es6:35
+msgid ""
+"Please try reloading the page. If you need to contact support, note the "
+"following message: <pre>##server_message##</pre>"
+msgstr ""
+
+#: js/dataInterface.es6:41
+msgid "You are not logged in"
+msgstr ""
+
+#: js/editorMixins/assetNavigator.es6:81
 msgid "loading"
 msgstr "加载中"
 
-#: js/editorMixins/assetNavigator.es6:90
+#: js/editorMixins/assetNavigator.es6:89
 msgid "no search results found"
 msgstr "未找到搜索结果"
 
@@ -1528,1070 +2623,1157 @@ msgstr "未找到搜索结果"
 msgid "block of ___ questions"
 msgstr "___问题块"
 
-#: js/editorMixins/assetNavigator.es6:231
-msgid "loading library assets"
-msgstr "正在加载库资源"
-
-#: js/editorMixins/assetNavigator.es6:267
+#: js/editorMixins/assetNavigator.es6:201
 msgid "search library"
 msgstr "搜索库"
 
-#: js/editorMixins/cascadeMixin.es6:57 js/editorMixins/cascadeMixin.es6:68
-#: js/editorMixins/cascadeMixin.es6:94
+#: js/editorMixins/cascadeMixin.es6:52 js/editorMixins/cascadeMixin.es6:63
+#: js/editorMixins/cascadeMixin.es6:89
 msgid "Paste your formatted table from excel in the box below."
 msgstr "将格式化的表格从excel粘贴到下框中。"
 
-#: js/editorMixins/cascadeMixin.es6:74
+#: js/editorMixins/cascadeMixin.es6:69
 msgid "add cascade with # questions"
 msgstr "添加#个问题的级联"
 
-#: js/editorMixins/cascadeMixin.es6:100
+#: js/editorMixins/cascadeMixin.es6:95
 msgid "OK"
 msgstr "确定"
 
-#: js/editorMixins/cascadeMixin.es6:111
+#: js/editorMixins/cascadeMixin.es6:106
 msgid "Learn more about importing cascading lists from Excel"
 msgstr "了解更多关于从excel中导入级联列表的知识"
 
-#: js/editorMixins/cascadeMixin.es6:125
+#: js/editorMixins/cascadeMixin.es6:120
 msgid "DONE"
 msgstr "完成"
 
-#: js/editorMixins/editableForm.es6:169
-msgid "none (0 metadata specified)"
-msgstr "无(已指定0个metadata)"
+#: js/editorMixins/editableForm.es6:200 js/editorMixins/editableForm.es6:262
+#: js/editorMixins/editableForm.es6:572
+msgid "You have unsaved changes. Leave form without saving?"
+msgstr ""
 
-#: js/editorMixins/editableForm.es6:176
-msgid "metadata:"
-msgstr "元数据（metadata）："
+#: js/editorMixins/editableForm.es6:332
+msgid "Unknown Enketo preview error"
+msgstr ""
 
-#: js/editorMixins/editableForm.es6:246
-msgid "you have unsaved changes"
-msgstr "你有未保存的修改"
+#: js/editorMixins/editableForm.es6:407
+msgid ""
+"Your changes could not be saved, likely because of a lost internet "
+"connection."
+msgstr ""
 
-#: js/editorMixins/editableForm.es6:406 js/i18nMissingStrings.es6:128
+#: js/editorMixins/editableForm.es6:407
+msgid ""
+"Keep this window open and try saving again while using a better connection."
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:414
+msgid "Error saving form"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:416
+msgid "Dismiss"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:471 js/i18nMissingStrings.es6:157
 msgid "create"
 msgstr "创建"
 
-#: js/editorMixins/editableForm.es6:408 js/editorMixins/editableForm.es6:410
-#: js/i18nMissingStrings.es6:129
+#: js/editorMixins/editableForm.es6:473 js/editorMixins/editableForm.es6:475
+#: js/i18nMissingStrings.es6:158
 msgid "save"
 msgstr "保存"
 
-#: js/editorMixins/editableForm.es6:408
+#: js/editorMixins/editableForm.es6:473
 msgid "retry"
 msgstr "重试"
 
-#: js/editorMixins/editableForm.es6:447
-msgid "share"
-msgstr "共享"
-
-#: js/editorMixins/editableForm.es6:484
-msgid "Expand / collapse questions"
-msgstr "展开/折叠问题"
-
-#: js/editorMixins/editableForm.es6:492
-msgid "Create group with selected questions"
-msgstr "从选定的问题创建问题组"
-
-#: js/editorMixins/editableForm.es6:492
-msgid "Grouping disabled. Please select at least one question."
-msgstr "分组不可用。请至少选择一个问题。"
-
-#: js/editorMixins/editableForm.es6:496
-msgid "Download form"
-msgstr "下载表单"
-
-#: js/editorMixins/editableForm.es6:506
-msgid "Web form layout"
-msgstr "Web表单布局"
-
-#: js/editorMixins/editableForm.es6:508
-msgid "Layout"
-msgstr "布局"
-
-#: js/editorMixins/editableForm.es6:514
-msgid "Attach media files"
-msgstr "附加媒体文件"
-
-#: js/editorMixins/editableForm.es6:521
-msgid "Insert cascading select"
-msgstr "插入级联选择题"
-
-#: js/editorMixins/editableForm.es6:553
-msgid "form style"
-msgstr "表单样式"
-
-#: js/editorMixins/editableForm.es6:554
-msgid "Read more about form styles"
-msgstr "查看更多关于表单样式的说明"
-
-#: js/editorMixins/editableForm.es6:560
-msgid ""
-"select the form style that you would like to use. this will only affect web "
-"forms."
-msgstr "选择要使用的表单样式，该选项仅影响web表单。"
-
-#: js/editorMixins/editableForm.es6:562
-msgid ""
-"select the form style. this will only affect the Enketo preview, and it will"
-" not be saved with the question or block."
-msgstr "选择表单样式。此操作仅影响Enketo预览，并不会随问题或块被保存。"
-
-#: js/editorMixins/editableForm.es6:572
-msgid "custom form style: \"{label}\""
-msgstr "自定义表单样式：\"{label}\""
-
-#: js/editorMixins/editableForm.es6:588
-msgid "Error loading survey:"
-msgstr "问卷加载错误："
-
-#: js/editorMixins/editableForm.es6:595
-msgid "Back"
-msgstr "后退"
-
-#: js/editorMixins/editableForm.es6:682
-msgid "you have unsaved changes. leave form without saving?"
-msgstr "你有未保存的修改，确定直接退出吗？"
-
-#: js/editorMixins/editableForm.es6:684
+#: js/editorMixins/editableForm.es6:574
 msgid "Yes, leave form"
 msgstr "是，离开表单"
 
-#: js/editorMixins/editableForm.es6:731
+#: js/editorMixins/editableForm.es6:653
+msgid "Return to list"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:676
+msgid "share"
+msgstr "共享"
+
+#: js/editorMixins/editableForm.es6:718
+msgid "Expand / collapse questions"
+msgstr "展开/折叠问题"
+
+#: js/editorMixins/editableForm.es6:727
+msgid "Create group with selected questions"
+msgstr "从选定的问题创建问题组"
+
+#: js/editorMixins/editableForm.es6:727
+msgid "Grouping disabled. Please select at least one question."
+msgstr "分组不可用。请至少选择一个问题。"
+
+#: js/editorMixins/editableForm.es6:734
+msgid "Download form"
+msgstr "下载表单"
+
+#: js/editorMixins/editableForm.es6:742
+msgid "Attach media files"
+msgstr "附加媒体文件"
+
+#: js/editorMixins/editableForm.es6:752
+msgid "Insert cascading select"
+msgstr "插入级联选择题"
+
+#: js/editorMixins/editableForm.es6:771
+msgid "Add from Library"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:785
+msgid "Layout & Settings"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:788
+msgid "Layout"
+msgstr "布局"
+
+#: js/editorMixins/editableForm.es6:815
+msgid "Form style"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:819
+msgid "Read more about form styles"
+msgstr "查看更多关于表单样式的说明"
+
+#: js/editorMixins/editableForm.es6:830
+msgid ""
+"Select the form style that you would like to use. This will only affect web "
+"forms."
+msgstr "选择你要使用的表单样式。该设置仅对Web表单有效。"
+
+#: js/editorMixins/editableForm.es6:832
+msgid ""
+"Select the form style. This will only affect the Enketo preview, and it will"
+" not be saved with the question or block."
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:867
+msgid "Details"
+msgstr ""
+
+#: js/editorMixins/editableForm.es6:901
+msgid "Error loading survey:"
+msgstr "问卷加载错误："
+
+#: js/editorMixins/editableForm.es6:960
 msgid "Error generating preview"
 msgstr "生成预览失败"
 
-#: js/editorMixins/editableForm.es6:739
+#: js/editorMixins/editableForm.es6:970
 msgid "Import Cascading Select Questions"
 msgstr "导入级联选择问题"
 
-#: js/formbuild/containers/KoboMatrix.es6:40 js/i18nMissingStrings.es6:102
-msgid "Select One"
-msgstr "单选"
-
-#: js/formbuild/containers/KoboMatrix.es6:44 js/i18nMissingStrings.es6:103
-msgid "Select Many"
-msgstr "多选"
-
-#: js/formbuild/containers/KoboMatrix.es6:48 js/i18nMissingStrings.es6:53
-msgid "Text"
-msgstr "文本"
-
-#: js/formbuild/containers/KoboMatrix.es6:52 js/i18nMissingStrings.es6:54
-msgid "Number"
-msgstr "数字"
-
-#: js/formbuild/containers/KoboMatrix.es6:167
+#: js/formbuild/containers/KoboMatrix.es6:177
 msgid "Change column type?"
 msgstr "更改列的类型？"
 
-#: js/formbuild/containers/KoboMatrix.es6:168
+#: js/formbuild/containers/KoboMatrix.es6:178
 msgid ""
 "Are you sure you want to change the type? This action is irreversible, your "
 "existing option choices will be erased."
 msgstr "确定要更改此类型吗？此操作不可逆，您当前的选项设置将会被擦除。"
 
-#: js/formbuild/containers/KoboMatrix.es6:169
+#: js/formbuild/containers/KoboMatrix.es6:179
 msgid "Change type"
 msgstr "更改类型"
 
-#: js/formbuild/containers/KoboMatrix.es6:196
-#: js/formbuild/containers/KoboMatrix.es6:199
+#: js/formbuild/containers/KoboMatrix.es6:206
+#: js/formbuild/containers/KoboMatrix.es6:209
 msgid "Option 1"
 msgstr "选项1"
 
-#: js/formbuild/containers/KoboMatrix.es6:207
-#: js/formbuild/containers/KoboMatrix.es6:210
+#: js/formbuild/containers/KoboMatrix.es6:217
+#: js/formbuild/containers/KoboMatrix.es6:220
 msgid "Option 2"
 msgstr "选项2"
 
-#: js/formbuild/containers/KoboMatrix.es6:262
-#: js/formbuild/containers/KoboMatrix.es6:265
+#: js/formbuild/containers/KoboMatrix.es6:279
+#: js/formbuild/containers/KoboMatrix.es6:282
 msgid "Row"
 msgstr "行"
 
-#: js/formbuild/containers/KoboMatrix.es6:280
-#: js/formbuild/containers/KoboMatrix.es6:289
+#: js/formbuild/containers/KoboMatrix.es6:297
+#: js/formbuild/containers/KoboMatrix.es6:306
 msgid "Column"
 msgstr "列"
 
-#: js/formbuild/containers/KoboMatrix.es6:308
-#| msgid "Delete Project"
+#: js/formbuild/containers/KoboMatrix.es6:325
 msgid "Delete row?"
 msgstr "删除行？"
 
-#: js/formbuild/containers/KoboMatrix.es6:309
-#| msgid ""
-#| "u sure you want to delete this collection? this action is not ersible"
+#: js/formbuild/containers/KoboMatrix.es6:326
 msgid ""
 "Are you sure you want to delete this row? This action cannot be undone."
 msgstr "确定要删除这行吗？此操作不可逆。"
 
-#: js/formbuild/containers/KoboMatrix.es6:329
-#| msgid "Delete collection"
+#: js/formbuild/containers/KoboMatrix.es6:346
 msgid "Delete column?"
 msgstr "删除列？"
 
-#: js/formbuild/containers/KoboMatrix.es6:330
-#| msgid ""
-#| "u sure you want to delete this collection? this action is not ersible"
+#: js/formbuild/containers/KoboMatrix.es6:347
 msgid ""
 "Are you sure you want to delete this column? This action cannot be undone."
 msgstr "确定要删除这列吗？此操作不可逆。"
 
-#: js/formbuild/containers/KoboMatrix.es6:397 js/i18nMissingStrings.es6:17
-msgid "Response Type"
-msgstr "回答类型"
-
-#: js/formbuild/containers/KoboMatrix.es6:404
-#: js/formbuild/containers/KoboMatrix.es6:431
-#: js/formbuild/containers/KoboMatrix.es6:512
-#| msgid "Labels"
+#: js/formbuild/containers/KoboMatrix.es6:426
+#: js/formbuild/containers/KoboMatrix.es6:450
+#: js/formbuild/containers/KoboMatrix.es6:532
 msgid "Label"
 msgstr "标签"
 
-#: js/formbuild/containers/KoboMatrix.es6:411
-#| msgid "Data column name"
+#: js/formbuild/containers/KoboMatrix.es6:433
 msgid "Data Column Suffix"
 msgstr "数据列后缀"
 
-#: js/formbuild/containers/KoboMatrix.es6:418
+#: js/formbuild/containers/KoboMatrix.es6:440
 msgid "Required"
 msgstr "必填"
 
-#: js/formbuild/containers/KoboMatrix.es6:432
-#| msgid "Data column name"
+#: js/formbuild/containers/KoboMatrix.es6:451
 msgid "Data Column Name"
 msgstr "数据列名称"
 
-#: js/formbuild/containers/KoboMatrix.es6:464
-#| msgid "Delete collection"
+#: js/formbuild/containers/KoboMatrix.es6:484
 msgid "Delete column"
 msgstr "删除列"
 
-#: js/formbuild/containers/KoboMatrix.es6:519
-#| msgid "Data column name"
+#: js/formbuild/containers/KoboMatrix.es6:539
 msgid "Data Column Prefix"
 msgstr "数据列前缀"
 
-#: js/formbuild/containers/KoboMatrix.es6:527
-#| msgid "Delete Project"
+#: js/formbuild/containers/KoboMatrix.es6:547
 msgid "Delete row"
 msgstr "删除行"
 
-#: js/i18nMissingStrings.es6:8
+#: js/i18nMissingStrings.es6:10
+msgid "Use a few words, avoid common phrases"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:11
+msgid "No need for symbols, digits, or uppercase letters"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:12
+msgid "Add another word or two. Uncommon words are better."
+msgstr ""
+
+#: js/i18nMissingStrings.es6:13
+msgid "Straight rows of keys are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:14
+msgid "Short keyboard patterns are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:15
+msgid "Use a longer keyboard pattern with more turns"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:16
+msgid "Repeats like \"aaa\" are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:17
+msgid "Repeats like \"abcabcabc\" are only slightly harder to guess than \"abc\""
+msgstr ""
+
+#: js/i18nMissingStrings.es6:18
+msgid "Avoid repeated words and characters"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:19
+msgid "Sequences like abc or 6543 are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:20
+msgid "Avoid sequences"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:21
+msgid "Recent years are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:22
+msgid "Avoid recent years"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:23
+msgid "Avoid years that are associated with you"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:24
+msgid "Dates are often easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:25
+msgid "Avoid dates and years that are associated with you"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:26
+msgid "This is a top-10 common password"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:27
+msgid "This is a top-100 common password"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:28
+msgid "This is a very common password"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:29
+msgid "This is similar to a commonly used password"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:30
+msgid "A word by itself is easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:31
+msgid "Names and surnames by themselves are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:32
+msgid "Common names and surnames are easy to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:33
+msgid "Capitalization doesn't help very much"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:34
+msgid "All-uppercase is almost as easy to guess as all-lowercase"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:35
+msgid "Reversed words aren't much harder to guess"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:36
+msgid "Predictable substitutions like '@' instead of 'a' don't help very much"
+msgstr ""
+
+#: js/i18nMissingStrings.es6:39
 msgid "Add another condition"
 msgstr "添加另一个条件"
 
-#: js/i18nMissingStrings.es6:10
+#: js/i18nMissingStrings.es6:41
 msgid "Question should match all of these criteria"
 msgstr "问题需要匹配所有的条件"
 
-#: js/i18nMissingStrings.es6:11
+#: js/i18nMissingStrings.es6:42
 msgid "Question should match any of these criteria"
 msgstr "问题需要匹配任何一个条件"
 
-#: js/i18nMissingStrings.es6:12
-msgid "Click to add another response..."
-msgstr "点击以添加另一个回答"
-
-#: js/i18nMissingStrings.es6:13
-msgid "AUTOMATIC"
-msgstr "自动"
-
-#: js/i18nMissingStrings.es6:14
-msgid "Skip Logic"
-msgstr "跳转逻辑"
-
-#: js/i18nMissingStrings.es6:15
-msgid "Question Options"
-msgstr "问题选项"
-
-#: js/i18nMissingStrings.es6:16
-msgid "Validation Criteria"
-msgstr "验证条件"
-
-#: js/i18nMissingStrings.es6:18
+#: js/i18nMissingStrings.es6:49
 msgid "A constraint message to be read in case of error:"
 msgstr "错误发生时要读取的限制信息："
 
-#: js/i18nMissingStrings.es6:19
+#: js/i18nMissingStrings.es6:50
 msgid "Row could not be displayed:"
 msgstr "无法显示的行："
 
-#: js/i18nMissingStrings.es6:20
-msgid ""
-"This question could not be imported. Please re-create it manually. Please "
-"contact us at help@kobotoolbox.org so we can fix this bug!"
-msgstr "此问题无法导入。请手动重新创建。你可以联系help@kobotoolbox.org以便我们修复此bug！"
-
-#: js/i18nMissingStrings.es6:21
-msgid "Add Question"
-msgstr "添加问题"
-
-#: js/i18nMissingStrings.es6:22
-msgid "or"
-msgstr "或者"
-
-#: js/i18nMissingStrings.es6:23
-msgid "Import XLS"
-msgstr "导入XLS"
-
-#: js/i18nMissingStrings.es6:24
+#: js/i18nMissingStrings.es6:55
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "此问题仅在满足下列条件时显示"
 
-#: js/i18nMissingStrings.es6:25
+#: js/i18nMissingStrings.es6:56
 msgid "Save and Exit"
 msgstr "保存并退出"
 
-#: js/i18nMissingStrings.es6:26
+#: js/i18nMissingStrings.es6:57
 msgid "Show All Responses"
 msgstr "显示全部回答"
 
-#: js/i18nMissingStrings.es6:27
+#: js/i18nMissingStrings.es6:58
 msgid "Question Library"
 msgstr "问题库"
 
-#: js/i18nMissingStrings.es6:28
+#: js/i18nMissingStrings.es6:59
 msgid "Form ID"
 msgstr "表单编号"
 
-#: js/i18nMissingStrings.es6:29
+#: js/i18nMissingStrings.es6:60
 msgid "Unique form name"
 msgstr "唯一的表单名称"
 
-#: js/i18nMissingStrings.es6:30
+#: js/i18nMissingStrings.es6:61
 msgid "Web form style (Optional)"
 msgstr "Web表单样式(可选)"
 
-#: js/i18nMissingStrings.es6:31
+#: js/i18nMissingStrings.es6:62
 msgid "This allows using different Enketo styles, e.g. 'theme-grid'"
 msgstr "这样允许使用不同的Enketo样式，如'theme-grid'"
 
-#: js/i18nMissingStrings.es6:32
+#: js/i18nMissingStrings.es6:63
 msgid "Multiple pages + Grid theme"
 msgstr "多页 + 网格主题"
 
-#: js/i18nMissingStrings.es6:33
+#: js/i18nMissingStrings.es6:64
 msgid "Version (Optional)"
 msgstr "版本(可选)"
 
-#: js/i18nMissingStrings.es6:34
+#: js/i18nMissingStrings.es6:65
 msgid "A version ID of the form"
 msgstr "表单版本编号"
 
-#: js/i18nMissingStrings.es6:35
+#: js/i18nMissingStrings.es6:66
 msgid "Hidden meta questions to include in your form to help with analysis"
 msgstr "隐藏在表单中的元问题（meta questions）以帮助后期数据分析"
 
-#: js/i18nMissingStrings.es6:36
+#: js/i18nMissingStrings.es6:67
 msgid "Meta questions for collecting with cell phones"
 msgstr "用于收集手机号码的元问题"
 
-#: js/i18nMissingStrings.es6:37
-msgid "This form is currently empty."
-msgstr "该表单当前为空"
-
-#: js/i18nMissingStrings.es6:38
+#: js/i18nMissingStrings.es6:69
 msgid ""
 "You can add questions, notes, prompts, or other fields by clicking on the "
 "'+' sign below."
 msgstr "通过点击下方'+'符号以添加问题、备注、提示，或其它字段。"
 
-#: js/i18nMissingStrings.es6:39
+#: js/i18nMissingStrings.es6:70
 msgid "Vertical"
 msgstr "垂直"
 
-#: js/i18nMissingStrings.es6:40
+#: js/i18nMissingStrings.es6:71
 msgid "Donut"
 msgstr "圆环图"
 
-#: js/i18nMissingStrings.es6:41
-msgid "Area"
-msgstr "面积图"
-
-#: js/i18nMissingStrings.es6:42
+#: js/i18nMissingStrings.es6:73
 msgid "Horizontal"
 msgstr "水平"
 
-#: js/i18nMissingStrings.es6:43
+#: js/i18nMissingStrings.es6:74
 msgid "Pie"
 msgstr "饼图"
 
-#: js/i18nMissingStrings.es6:44
-msgid "Line"
-msgstr "折线图"
-
-#: js/i18nMissingStrings.es6:45
+#: js/i18nMissingStrings.es6:76
 msgid "Draft"
 msgstr "草稿"
 
-#: js/i18nMissingStrings.es6:46
-msgid "Value:"
-msgstr "值："
-
-#: js/i18nMissingStrings.es6:47
+#: js/i18nMissingStrings.es6:78
 msgid "Items cannot be selected more than once"
 msgstr "项目只允许被选择一次"
 
-#: js/i18nMissingStrings.es6:48
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "手动输入验证逻辑（XLSForm代码）"
-
-#: js/i18nMissingStrings.es6:49
+#: js/i18nMissingStrings.es6:80
 msgid "[button triggers] Settings"
 msgstr "设置"
 
-#: js/i18nMissingStrings.es6:50
+#: js/i18nMissingStrings.es6:81
 msgid "[button triggers] Delete Question"
 msgstr "删除问题"
 
-#: js/i18nMissingStrings.es6:51
+#: js/i18nMissingStrings.es6:82
 msgid "[button triggers] Duplicate Question"
 msgstr "创建问题副本"
 
-#: js/i18nMissingStrings.es6:52
+#: js/i18nMissingStrings.es6:83
 msgid "[button triggers] Add Question to Library"
 msgstr "添加问题到库中"
 
-#: js/i18nMissingStrings.es6:55
-msgid "Decimal"
-msgstr "带小数点数字"
-
-#: js/i18nMissingStrings.es6:56
-msgid "Date"
-msgstr "日期"
-
-#: js/i18nMissingStrings.es6:57
-msgid "Time"
-msgstr "时间"
-
-#: js/i18nMissingStrings.es6:58
-msgid "Date & time"
-msgstr "日期时间"
-
-#: js/i18nMissingStrings.es6:59
+#: js/i18nMissingStrings.es6:90
 msgid "GPS"
 msgstr "  GPS"
 
-#: js/i18nMissingStrings.es6:60
-msgid "Photo"
-msgstr "图片"
-
-#: js/i18nMissingStrings.es6:61
-msgid "Audio"
-msgstr "音频"
-
-#: js/i18nMissingStrings.es6:62
-msgid "Video"
-msgstr "视频"
-
-#: js/i18nMissingStrings.es6:63
-msgid "Note"
-msgstr "备注显示"
-
-#: js/i18nMissingStrings.es6:64
+#: js/i18nMissingStrings.es6:95
 msgid "Barcode"
 msgstr "条形码"
 
-#: js/i18nMissingStrings.es6:65
-msgid "Acknowledge"
-msgstr "同意勾选"
-
-#: js/i18nMissingStrings.es6:66
-msgid "Calculate"
-msgstr "计算"
-
-#: js/i18nMissingStrings.es6:67
+#: js/i18nMissingStrings.es6:98
 msgid "Matrix / Rating"
 msgstr "矩阵 / 评分表"
 
-#: js/i18nMissingStrings.es6:68
-msgid "Ranking"
-msgstr "排序"
-
-#: js/i18nMissingStrings.es6:69
+#: js/i18nMissingStrings.es6:100
 msgid "Are you sure you want to split apart this group?"
 msgstr "确定要将此组拆开吗？"
 
-#: js/i18nMissingStrings.es6:70
-msgid ""
-"You can't display nested groups on the same screen - the setting has been "
-"removed from the parent group"
-msgstr "不能在同一页显示篏套的组 - 该设置已经从父组中移除"
-
-#: js/i18nMissingStrings.es6:71
-msgid "Note: Rank and Matrix question types are currently in beta."
-msgstr "注意：排序和矩阵式问题类型尚在测试阶段。"
-
-#: js/i18nMissingStrings.es6:72
+#: js/i18nMissingStrings.es6:102
 msgid "Enter your question"
 msgstr "请输入你的问题"
 
-#: js/i18nMissingStrings.es6:73
-msgid "Note: Rank and Matrix question types are currently in beta"
-msgstr "注意：排序和矩阵式问题类型尚在测试阶段。"
-
-#: js/i18nMissingStrings.es6:74
+#: js/i18nMissingStrings.es6:103
 msgid "Select question from list"
 msgstr "从列表中选择问题"
 
-#: js/i18nMissingStrings.es6:75
+#: js/i18nMissingStrings.es6:104
 msgid "Question hint"
 msgstr "问题提示"
 
-#: js/i18nMissingStrings.es6:76
-msgid "Error Message"
-msgstr "错误信息"
-
-#: js/i18nMissingStrings.es6:77
-msgid "Data column name"
-msgstr "数据列名称"
-
-#: js/i18nMissingStrings.es6:78
-msgid "Default response"
-msgstr "默认回答"
-
-#: js/i18nMissingStrings.es6:79
-msgid "Repeat"
-msgstr "重复"
-
-#: js/i18nMissingStrings.es6:80
-msgid "Repeat this group if necessary"
-msgstr "假如可能，重复这一组"
-
-#: js/i18nMissingStrings.es6:81
-msgid "Mandatory response"
-msgstr "强制回答"
-
-#: js/i18nMissingStrings.es6:82
-msgid "Appearance (advanced)"
-msgstr "外观(高级)"
-
-#: js/i18nMissingStrings.es6:83
-msgid "Show all questions in this group on the same screen"
-msgstr "在同一页面显示本组内的全部问题"
-
-#: js/i18nMissingStrings.es6:84
+#: js/i18nMissingStrings.es6:113
 msgid "Please check your connection and try again."
 msgstr "请检查网络连接并重试。"
 
-#: js/i18nMissingStrings.es6:85
+#: js/i18nMissingStrings.es6:114
 msgid ""
 "The server encountered an error while trying to deploy the project. If this "
 "problem persists, please contact <a "
 "href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>."
 msgstr "在尝试部署项目时服务器遇到了错误。假如此问题持续出现，请联系<a href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>。"
 
-#: js/i18nMissingStrings.es6:86
+#: js/i18nMissingStrings.es6:115
 msgid "The form id was not valid."
 msgstr "表单编号无效："
 
-#: js/i18nMissingStrings.es6:87
+#: js/i18nMissingStrings.es6:116
 msgid "failed to change password"
 msgstr "修改密码失败"
 
-#: js/i18nMissingStrings.es6:88
+#: js/i18nMissingStrings.es6:117
 msgid "Tags are loading..."
 msgstr "正在加载标签"
 
-#: js/i18nMissingStrings.es6:89
+#: js/i18nMissingStrings.es6:118
 msgid "library"
 msgstr "库"
 
-#: js/i18nMissingStrings.es6:90
+#: js/i18nMissingStrings.es6:119
 msgid "Collection"
 msgstr "收藏"
 
-#: js/i18nMissingStrings.es6:91
+#: js/i18nMissingStrings.es6:120
 msgid "collection loading..."
 msgstr "正在加载收藏……"
 
-#: js/i18nMissingStrings.es6:92
+#: js/i18nMissingStrings.es6:121
 msgid "new collection inside \"___\""
 msgstr "在 \"___\" 里的新收藏"
 
-#: js/i18nMissingStrings.es6:93
+#: js/i18nMissingStrings.es6:122
 msgid "new question inside \"___\""
 msgstr "在 \"___\" 里的新问题"
 
-#: js/i18nMissingStrings.es6:94
+#: js/i18nMissingStrings.es6:123
 msgid "new block inside \"___\""
 msgstr "在 \"___\" 里的新问题块"
 
-#: js/i18nMissingStrings.es6:95
+#: js/i18nMissingStrings.es6:124
 msgid "upload into \"___\""
 msgstr "上传至 \"___\""
 
-#: js/i18nMissingStrings.es6:96
+#: js/i18nMissingStrings.es6:125
 msgid "Are you sure you want to delete this collection?"
 msgstr "确定要删除此收藏吗？"
 
-#: js/i18nMissingStrings.es6:97
-msgid "This action cannot be undone."
-msgstr "此操作不可撤销。"
-
-#: js/i18nMissingStrings.es6:98
-msgid "Add a condition"
-msgstr "新建条件"
-
-#: js/i18nMissingStrings.es6:99
-msgid "Manually enter your skip logic in XLSForm code"
-msgstr "手动输入跳转逻辑（XLSForm代码）"
-
-#: js/i18nMissingStrings.es6:100
-msgid "response value"
-msgstr "回答值"
-
-#: js/i18nMissingStrings.es6:101
-msgid "Are you sure you want to delete this question?"
-msgstr "确定要删除此问题吗？"
-
-#: js/i18nMissingStrings.es6:104
+#: js/i18nMissingStrings.es6:133
 msgid "Unable to deploy"
 msgstr "无法部署"
 
-#: js/i18nMissingStrings.es6:107
+#: js/i18nMissingStrings.es6:136
 msgid "profile"
 msgstr "个人资料"
 
-#: js/i18nMissingStrings.es6:108
+#: js/i18nMissingStrings.es6:137
 msgid "logout"
 msgstr "注销"
 
-#: js/i18nMissingStrings.es6:109
+#: js/i18nMissingStrings.es6:138
 msgid "log in"
 msgstr "登录"
 
-#: js/i18nMissingStrings.es6:110
+#: js/i18nMissingStrings.es6:139
 msgid "Link to share"
 msgstr "创建链接以共享"
 
-#: js/i18nMissingStrings.es6:111
+#: js/i18nMissingStrings.es6:140
 msgid "Invite people and specify access rights"
 msgstr "邀请其他人并指定访问权限"
 
-#: js/i18nMissingStrings.es6:112
+#: js/i18nMissingStrings.es6:141
 msgid "Your username, bio, and links appear on your public profile"
 msgstr "你的姓名，个人简介以及相关链接将显示在你的公开个人资料页上"
 
-#: js/i18nMissingStrings.es6:113
+#: js/i18nMissingStrings.es6:142
 msgid "Download form as"
 msgstr "下载表单"
 
-#: js/i18nMissingStrings.es6:114
+#: js/i18nMissingStrings.es6:143
 msgid "add to library"
 msgstr "添加到库中"
 
-#: js/i18nMissingStrings.es6:115
+#: js/i18nMissingStrings.es6:144
 msgid "Allow others to access your project."
 msgstr "允许其他人访问你的项目。"
 
-#: js/i18nMissingStrings.es6:116
+#: js/i18nMissingStrings.es6:145
 msgid "Shared with "
 msgstr "与……共享"
 
-#: js/i18nMissingStrings.es6:117
+#: js/i18nMissingStrings.es6:146
 msgid "Share the sector and country with developers"
 msgstr "向开发者共享行业和国家信息"
 
-#: js/i18nMissingStrings.es6:118
+#: js/i18nMissingStrings.es6:147
 msgid "Leave Beta"
 msgstr "离开测试版"
 
-#: js/i18nMissingStrings.es6:119
+#: js/i18nMissingStrings.es6:148
 msgid "Form"
 msgstr "表单"
 
-#: js/i18nMissingStrings.es6:122
-msgid "Settings"
-msgstr "设置"
-
-#: js/i18nMissingStrings.es6:123
+#: js/i18nMissingStrings.es6:152
 msgid "Undeployed draft"
 msgstr "未部署的草稿"
 
-#: js/i18nMissingStrings.es6:124
+#: js/i18nMissingStrings.es6:153
 msgid "Scheduled server maintenance"
 msgstr "计划服务器维护"
 
-#: js/i18nMissingStrings.es6:125
+#: js/i18nMissingStrings.es6:154
 msgid "Project description"
 msgstr "项目说明"
 
-#: js/i18nMissingStrings.es6:126
+#: js/i18nMissingStrings.es6:155
 msgid "none"
 msgstr "没有"
 
-#: js/i18nMissingStrings.es6:127
+#: js/i18nMissingStrings.es6:156
 msgid "report type"
 msgstr "报告类型"
 
-#: js/i18nMissingStrings.es6:130
+#: js/i18nMissingStrings.es6:159
 msgid "form name"
 msgstr "表单名称"
 
-#: js/i18nMissingStrings.es6:131
+#: js/i18nMissingStrings.es6:160
 msgid "Ask support about this error"
 msgstr "询问有关此错误的技术支持"
 
-#: js/i18nMissingStrings.es6:132
+#: js/i18nMissingStrings.es6:161
 msgid "Collections"
 msgstr "收藏"
 
-#: js/i18nMissingStrings.es6:133
+#: js/i18nMissingStrings.es6:162
 msgid "collection not loaded"
 msgstr "收藏未能加载"
 
-#: js/i18nMissingStrings.es6:134
+#: js/i18nMissingStrings.es6:163
 msgid "collection name"
 msgstr "收藏名"
 
-#: js/i18nMissingStrings.es6:135
+#: js/i18nMissingStrings.es6:164
 msgid "No assets to display"
 msgstr "没有可显示的资源"
 
-#: js/i18nMissingStrings.es6:136
+#: js/i18nMissingStrings.es6:165
 msgid "Form Overview"
 msgstr "表单预览"
 
-#: js/i18nMissingStrings.es6:137
+#: js/i18nMissingStrings.es6:166
 msgid "Edit in Form Builder"
 msgstr "在表单设计器中编辑"
 
-#: js/i18nMissingStrings.es6:138
+#: js/i18nMissingStrings.es6:167
 msgid "make new collection: \"{label}\""
 msgstr "创建新收藏：\"{label}\""
 
-#: js/i18nMissingStrings.es6:139
+#: js/i18nMissingStrings.es6:168
 msgid "owner"
 msgstr "所有者"
 
-#: js/i18nMissingStrings.es6:140
+#: js/i18nMissingStrings.es6:169
 msgid "viewer"
 msgstr "查看者"
 
-#: js/i18nMissingStrings.es6:141
+#: js/i18nMissingStrings.es6:170
 msgid "viewers"
 msgstr "查看者"
 
-#: js/i18nMissingStrings.es6:142
+#: js/i18nMissingStrings.es6:171
 msgid "editor"
 msgstr "编辑"
 
-#: js/i18nMissingStrings.es6:143
+#: js/i18nMissingStrings.es6:172
 msgid "editors"
 msgstr "编辑"
 
-#: js/i18nMissingStrings.es6:144
+#: js/i18nMissingStrings.es6:173
 msgid "status"
 msgstr "状态"
 
-#: js/i18nMissingStrings.es6:145
+#: js/i18nMissingStrings.es6:174
 msgid "public"
 msgstr "公共"
 
-#: js/i18nMissingStrings.es6:146
+#: js/i18nMissingStrings.es6:175
 msgid "private"
 msgstr "私有"
 
-#: js/i18nMissingStrings.es6:147
+#: js/i18nMissingStrings.es6:176
 msgid "revisions"
 msgstr "修订"
 
-#: js/i18nMissingStrings.es6:148
+#: js/i18nMissingStrings.es6:177
 msgid "created"
 msgstr "已创建"
 
-#: js/i18nMissingStrings.es6:149
+#: js/i18nMissingStrings.es6:178
 msgid "modified"
 msgstr "修改后的"
 
-#: js/i18nMissingStrings.es6:150
+#: js/i18nMissingStrings.es6:179
 msgid "no language information"
 msgstr "无语言信息"
 
-#: js/i18nMissingStrings.es6:151
+#: js/i18nMissingStrings.es6:180
 msgid "no translations"
 msgstr "无翻译"
 
-#: js/i18nMissingStrings.es6:152
+#: js/i18nMissingStrings.es6:181
 msgid "languages"
 msgstr "语言"
 
-#: js/i18nMissingStrings.es6:153
+#: js/i18nMissingStrings.es6:182
 msgid "Collecting Data with Web Forms"
 msgstr "通过web表单采集数据"
 
-#: js/i18nMissingStrings.es6:154
-msgid "Learn more"
-msgstr "了解更多"
-
-#: js/i18nMissingStrings.es6:155
+#: js/i18nMissingStrings.es6:184
 msgid "Choose an option"
 msgstr "选择一个选项"
 
-#: js/i18nMissingStrings.es6:156
+#: js/i18nMissingStrings.es6:185
 msgid "Collecting Data with Android App"
 msgstr "通过安卓APP采集数据"
 
-#: js/i18nMissingStrings.es6:157
+#: js/i18nMissingStrings.es6:186
 msgid "preview"
 msgstr "预览"
 
-#: js/i18nMissingStrings.es6:158
+#: js/i18nMissingStrings.es6:187
 msgid "clone"
 msgstr "克隆"
 
-#: js/i18nMissingStrings.es6:159
+#: js/i18nMissingStrings.es6:188
 msgid "new form name"
 msgstr "新表单名称"
 
-#: js/i18nMissingStrings.es6:160
+#: js/i18nMissingStrings.es6:189
 msgid ""
 "You are about to permanently delete this ___. Are you sure you want to "
 "continue?"
 msgstr "即将永久删除___。确定要继续吗？"
 
-#: js/i18nMissingStrings.es6:161
+#: js/i18nMissingStrings.es6:190
 msgid "Current Version"
 msgstr "当前版本"
 
-#: js/i18nMissingStrings.es6:162
+#: js/i18nMissingStrings.es6:191
 msgid "Modified Date"
 msgstr "修改日期"
 
-#: js/i18nMissingStrings.es6:163
+#: js/i18nMissingStrings.es6:192
 msgid "(deployed)"
 msgstr "(已部署)"
 
-#: js/i18nMissingStrings.es6:164
+#: js/i18nMissingStrings.es6:193
 msgid "(archived)"
 msgstr "(已存档)"
 
-#: js/i18nMissingStrings.es6:165
+#: js/i18nMissingStrings.es6:194
 msgid "(undeployed draft)"
 msgstr "(未部署的草稿)"
 
-#: js/i18nMissingStrings.es6:166
+#: js/i18nMissingStrings.es6:195
 msgid "Previous Versions"
 msgstr "历史版本"
 
-#: js/i18nMissingStrings.es6:167
+#: js/i18nMissingStrings.es6:196
 msgid "collections"
 msgstr "收藏"
 
-#: js/i18nMissingStrings.es6:168
+#: js/i18nMissingStrings.es6:197
 msgid "my forms"
 msgstr "我的表单"
 
-#: js/i18nMissingStrings.es6:169
+#: js/i18nMissingStrings.es6:198
 msgid "shared with me"
 msgstr "与我共享的"
 
-#: js/i18nMissingStrings.es6:170
+#: js/i18nMissingStrings.es6:199
 msgid "error loading data"
 msgstr "数据加载错误"
 
-#: js/i18nMissingStrings.es6:171
+#: js/i18nMissingStrings.es6:200
 msgid "results loaded"
 msgstr "结果已加载"
 
-#: js/i18nMissingStrings.es6:172
+#: js/i18nMissingStrings.es6:201
 msgid ""
 "Warning! You are about to delete this collection with all its questions and "
 "blocks. Are you sure you want to continue?"
 msgstr "警告！即将删除此收藏及其所有的问题与问题块。确定要继续吗？"
 
-#: js/i18nMissingStrings.es6:173
+#: js/i18nMissingStrings.es6:202
 msgid "new name?"
 msgstr "新名称？"
 
-#: js/i18nMissingStrings.es6:174
+#: js/i18nMissingStrings.es6:203
 msgid "Delete Project"
 msgstr "删除项目"
 
-#: js/i18nMissingStrings.es6:175
-msgid "More Actions"
-msgstr "更多操作"
-
-#: js/i18nMissingStrings.es6:176
+#: js/i18nMissingStrings.es6:205
 msgid "Archived"
 msgstr "已存档"
 
-#: js/lists/library.es6:62 js/mixins.es6:318
+#: js/lists/library.es6:64
+msgid "Show All"
+msgstr ""
+
+#: js/lists/library.es6:66
+msgid "Block"
+msgstr ""
+
+#: js/lists/library.es6:72
+msgid "Filter by type:"
+msgstr ""
+
+#: js/lists/library.es6:91
 msgid "library item"
 msgstr "库项目"
 
-#: js/lists/library.es6:63
+#: js/lists/library.es6:92
 msgid "library items"
 msgstr "库项目"
 
-#: js/lists/sidebarForms.es6:142
+#: js/lists/sidebarForms.es6:146
 msgid "Deleted"
 msgstr "已删除"
 
-#: js/mixins.es6:35
+#: js/mixins.es6:41
 msgid "copied to clipboard"
 msgstr "复制至剪贴板"
 
-#: js/mixins.es6:39 js/mixins.es6:279
+#: js/mixins.es6:45 js/mixins.es6:464
 msgid "Clone of"
 msgstr "克隆"
 
-#: js/mixins.es6:43 js/mixins.es6:282
-msgid "Clone form"
-msgstr "克隆表单"
+#: js/mixins.es6:50 js/mixins.es6:469
+msgid "Enter the name of the cloned ##ASSET_TYPE##."
+msgstr ""
 
-#: js/mixins.es6:44 js/mixins.es6:283
-msgid "Enter the name of the cloned form"
-msgstr "请输入克隆的表单名称"
+#: js/mixins.es6:82 js/mixins.es6:500
+msgid "Create new template from this project"
+msgstr ""
 
-#: js/mixins.es6:73
+#: js/mixins.es6:83 js/mixins.es6:501
+msgid "Enter the name of the new template."
+msgstr ""
+
+#: js/mixins.es6:87
+msgid "deploying to kobocat..."
+msgstr "部署至kobocat"
+
+#: js/mixins.es6:90
+msgid "deployed form"
+msgstr "已部署表单"
+
+#: js/mixins.es6:107
 msgid "Overwrite existing deployment"
 msgstr "覆盖当前部署项目"
 
-#: js/mixins.es6:74
+#: js/mixins.es6:109
 msgid ""
 "This form has already been deployed. Are you sure you want overwrite the "
 "existing deployment? <br/><br/><strong>This action cannot be "
 "undone.</strong>"
 msgstr "该表单已经部署。确定要覆盖当前的部署吗？<br/><br/><strong>此操作不可撤销。</strong>"
 
-#: js/mixins.es6:81
+#: js/mixins.es6:117
 msgid "Deploying..."
 msgstr "正在部署……"
 
-#: js/mixins.es6:84
+#: js/mixins.es6:120
 msgid "redeployed form"
 msgstr "重新部署表单"
 
-#: js/mixins.es6:109
-msgid "deploying to kobocat..."
-msgstr "部署至kobocat"
+#: js/mixins.es6:332
+msgid "## files"
+msgstr ""
 
-#: js/mixins.es6:112
-msgid "deployed form"
-msgstr "已部署表单"
-
-#: js/mixins.es6:200
-msgid "Could not redirect to asset."
-msgstr "无法重定向到资源"
-
-#: js/mixins.es6:210
-msgid "Replace operation completed"
-msgstr "替换操作完成"
-
-#: js/mixins.es6:212
-msgid "XLS Upload completed"
-msgstr "XLS上传完成"
-
-#: js/mixins.es6:218
+#: js/mixins.es6:359
 msgid ""
-"Your library assets have uploaded and are being processed. This may take a "
-"few moments."
-msgstr "你的库资源已上传，系统正在处理中，请稍候。"
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr ""
 
-#: js/mixins.es6:220
-msgid ""
-"Your library assets have uploaded and are queued for processing. This may "
-"take a few moments."
-msgstr "你的库资源已上传，正在排队等待系统处理，请稍候。"
+#: js/mixins.es6:370
+msgid "XLS Import completed"
+msgstr ""
 
-#: js/mixins.es6:225
-msgid "Import Failure."
-msgstr "导入失败。"
+#: js/mixins.es6:375
+msgid "Your upload is being processed. This may take a few moments."
+msgstr ""
 
-#: js/mixins.es6:228
-msgid "Import Failed."
-msgstr "导入失败。"
+#: js/mixins.es6:377
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr ""
 
-#: js/mixins.es6:236
+#: js/mixins.es6:399
 msgid "Failed to create import."
 msgstr "创建导入失败。"
 
-#: js/mixins.es6:250
+#: js/mixins.es6:421
 msgid "Upload error: could not recognize Excel file."
 msgstr "上传错误：无法识别Excel文件。"
 
-#: js/mixins.es6:293
+#: js/mixins.es6:422
+msgid "Uploaded file name: "
+msgstr ""
+
+#: js/mixins.es6:425
+msgid "Could not recognize the dropped item(s)."
+msgstr ""
+
+#: js/mixins.es6:474
+msgid "Cloning..."
+msgstr ""
+
+#: js/mixins.es6:483
 msgid "cloned project created"
 msgstr "已创建克隆项目"
 
-#: js/mixins.es6:315
-msgid "project"
-msgstr "项目"
+#: js/mixins.es6:509
+msgid "Create new project from this template"
+msgstr ""
 
-#: js/mixins.es6:328
+#: js/mixins.es6:510
+msgid "Enter the name of the new project."
+msgstr ""
+
+#: js/mixins.es6:529
 msgid "deleted permanently"
 msgstr "永久删除"
 
-#: js/mixins.es6:336
+#: js/mixins.es6:539
 msgid "You are about to permanently delete this item from your library."
 msgstr "您即将从库里永久删除该项目。"
 
-#: js/mixins.es6:338
+#: js/mixins.es6:541
 msgid "You are about to permanently delete this draft."
 msgstr "即将永久删除草稿。"
 
-#: js/mixins.es6:341
+#: js/mixins.es6:544
 msgid "You are about to permanently delete this form."
 msgstr "即将永久删除表单。"
 
-#: js/mixins.es6:342
+#: js/mixins.es6:545
 msgid "All data gathered for this form will be deleted."
 msgstr "表单收集的所有数据将会被删除。"
 
-#: js/mixins.es6:343
+#: js/mixins.es6:546
 msgid "All questions created for this form will be deleted."
 msgstr "表单创建的所有问题将会被删除。"
 
-#: js/mixins.es6:344
+#: js/mixins.es6:547
 msgid "The form associated with this project will be deleted."
 msgstr "与项目关联的表单将会被删除。"
 
-#: js/mixins.es6:345
+#: js/mixins.es6:548
 msgid ""
 "I understand that if I delete this project I will not be able to recover it."
 msgstr "我明白项目一旦被删除将无法恢复。"
 
-#: js/mixins.es6:385
-msgid "Archive Project"
-msgstr "将项目存档"
-
-#: js/mixins.es6:386
+#: js/mixins.es6:592
 msgid "Are you sure you want to archive this project?"
 msgstr "确定要将项目存档吗？"
 
-#: js/mixins.es6:387
+#: js/mixins.es6:593
 msgid "Your form will not accept submissions while it is archived."
 msgstr "存档后将无法向表单提交新的回答。"
 
-#: js/mixins.es6:397
-msgid "archived project"
-msgstr "已存档项目"
+#: js/mixins.es6:620
+msgid "Are you sure you want to unarchive this project?"
+msgstr ""
 
-#: js/models/surveyScope.es6:34
+#: js/mixins.es6:621
+msgid "Unarchive"
+msgstr ""
+
+#: js/mixins.es6:791
+msgid "Failed to create new asset!"
+msgstr ""
+
+#: js/models/surveyScope.es6:35
 msgid "question has been added to the library"
 msgstr "问题已被添加至库"
 
-#: js/ui.es6:159
+#: js/stores.es6:365
+msgid "failed to list assets"
+msgstr "拉取资源列表失败"
+
+#: js/ui.es6:166
 msgid "No name"
 msgstr "没有名称"
 
-#: js/ui.es6:180
+#: js/ui.es6:188
 msgid "no name"
 msgstr "没有名称"
 
-#: js/ui.es6:184
+#: js/ui.es6:192
 msgid "and one other question"
 msgstr "以及另一个问题"
 
-#: js/ui.es6:186
+#: js/ui.es6:194
 msgid "and ## other questions"
 msgstr "以及另##个问题"
+
+#~ msgid "Tags"
+#~ msgstr "Tags"
+
+#~ msgid "Deploy this project"
+#~ msgstr "Deploy this project"
+
+#~ msgid "Redeploy this project"
+#~ msgstr "Redeploy this project"
+
+#~ msgid "Replace with XLS"
+#~ msgstr "Replace with XLS"
+
+#~ msgid "Project"
+#~ msgstr "Project"
+
+#~ msgid "source"
+#~ msgstr "source"
+
+#~ msgid "help"
+#~ msgstr "help"
+
+#~ msgid ""
+#~ "This information will be used to help you filter results on the project list"
+#~ " page."
+#~ msgstr ""
+#~ "This information will be used to help you filter results on the project list"
+#~ " page."
+
+#~ msgid "Previous Exports"
+#~ msgstr "Previous Exports"
+
+#~ msgid "Share form"
+#~ msgstr "Share form"
+
+#~ msgid "not logged in"
+#~ msgstr "not logged in"
+
+#~ msgid "Failed to delete collection."
+#~ msgstr "Failed to delete collection."
+
+#~ msgid "Search Tags"
+#~ msgstr "Search Tags"
+
+#~ msgid "No results found"
+#~ msgstr "No results found"
+
+#~ msgid "Filter by"
+#~ msgstr "Filter by"
+
+#~ msgid "Create New Project from Scratch"
+#~ msgstr "Create New Project from Scratch"
+
+#~ msgid "Record #"
+#~ msgstr "Record #"
+
+#~ msgid "Expand"
+#~ msgstr "Expand"
+
+#~ msgid "Contract"
+#~ msgstr "Contract"
+
+#~ msgid "Show/hide question groups"
+#~ msgstr "Show/hide question groups"
+
+#~ msgid "#tags +"
+#~ msgstr "#tags +"
+
+#~ msgid "loading library assets"
+#~ msgstr "loading library assets"
+
+#~ msgid "none (0 metadata specified)"
+#~ msgstr "none (0 metadata specified)"
+
+#~ msgid "metadata:"
+#~ msgstr "metadata:"
+
+#~ msgid "you have unsaved changes"
+#~ msgstr "you have unsaved changes"
+
+#~ msgid "Web form layout"
+#~ msgstr "Web form layout"
+
+#~ msgid "form style"
+#~ msgstr "form style"
+
+#~ msgid ""
+#~ "select the form style that you would like to use. this will only affect web "
+#~ "forms."
+#~ msgstr ""
+#~ "select the form style that you would like to use. this will only affect web "
+#~ "forms."
+
+#~ msgid ""
+#~ "select the form style. this will only affect the Enketo preview, and it will"
+#~ " not be saved with the question or block."
+#~ msgstr ""
+#~ "select the form style. this will only affect the Enketo preview, and it will"
+#~ " not be saved with the question or block."
+
+#~ msgid "custom form style: \"{label}\""
+#~ msgstr "custom form style: \"{label}\""
+
+#~ msgid "you have unsaved changes. leave form without saving?"
+#~ msgstr "you have unsaved changes. leave form without saving?"
+
+#~ msgid "Note: Rank and Matrix question types are currently in beta."
+#~ msgstr "Note: Rank and Matrix question types are currently in beta."
+
+#~ msgid "Note: Rank and Matrix question types are currently in beta"
+#~ msgstr "Note: Rank and Matrix question types are currently in beta"
+
+#~ msgid "Clone form"
+#~ msgstr "Clone form"
+
+#~ msgid "Enter the name of the cloned form"
+#~ msgstr "Enter the name of the cloned form"
+
+#~ msgid "Could not redirect to asset."
+#~ msgstr "Could not redirect to asset."
+
+#~ msgid "Replace operation completed"
+#~ msgstr "Replace operation completed"
+
+#~ msgid "XLS Upload completed"
+#~ msgstr "XLS Upload completed"
+
+#~ msgid ""
+#~ "Your library assets have uploaded and are being processed. This may take a "
+#~ "few moments."
+#~ msgstr ""
+#~ "Your library assets have uploaded and are being processed. This may take a "
+#~ "few moments."
+
+#~ msgid ""
+#~ "Your library assets have uploaded and are queued for processing. This may "
+#~ "take a few moments."
+#~ msgstr ""
+#~ "Your library assets have uploaded and are queued for processing. This may "
+#~ "take a few moments."
+
+#~ msgid "Import Failure."
+#~ msgstr "Import Failure."
+
+#~ msgid "Import Failed."
+#~ msgstr "Import Failed."
+
+#~ msgid "archived project"
+#~ msgstr "archived project"
 
 #~ msgid "Group by question"
 #~ msgstr "Group by question"
@@ -2652,6 +3834,3 @@ msgstr "以及另##个问题"
 
 #~ msgid "Only 1 file can be uploaded in this case"
 #~ msgstr "Only 1 file can be uploaded in this case"
-
-#~ msgid "failed to list assets"
-#~ msgstr "failed to list assets"
