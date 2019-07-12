@@ -16,7 +16,7 @@ To update the KPI UI's translatable sources using Poedit, follow these instructi
         1. Click File, Preferences, and choose the Extractors tab.
         1. Click JavaScript and click the Edit button.
         1. Append `;*.es6` to the "List of extensions…" field.
-        1. Click OK and close the Preferences window. ~~but leave the Preferences window open.~~
+        1. Click OK and close the Preferences window but leave the Preferences window open.
     * Enable CoffeeScript parsing. By default, `gettext` doesn't have a CoffeeScript parser, but the `C/C++` extractor works fairly well with .coffee files.
         1. Inside the Extractors tab of the Preferences window, click PHP.
         1. Click the Edit button.
