@@ -45,7 +45,7 @@ To update the KPI UI's translatable sources using Poedit, follow these instructi
 
 ## Step 4: Use the Transifex web interface to translate the new strings
 
-* The Transifex project is called "koboform" and is available at https://www.transifex.com/kobotoolbox/koboform/.
+* The Transifex project is called "koboform" and is available at https://www.transifex.com/kobotoolbox/kobotoolbox/.
 
 ## Step 5: Retrieve the new translations from Transifex and commit to this repository
 
