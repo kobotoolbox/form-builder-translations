@@ -30,7 +30,7 @@ You might be wondering: "I just added a new string to KPI. How do I translate it
 
 ## Step 4: Use the Transifex web interface to translate the new strings
 
-* The Transifex project is called "koboform" and is available at https://www.transifex.com/kobotoolbox/kobotoolbox/.
+* The Transifex project is called "kobotoolbox" and is available at https://www.transifex.com/kobotoolbox/kobotoolbox/.
 
 ## Step 5: Retrieve the new translations from Transifex and commit to this repository
 
