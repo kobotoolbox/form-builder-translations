@@ -13,7 +13,7 @@ jobs:
         - name: Install Transifex
           run: sudo apt install transifex-client
         - name: Pull translations
-          run: tx pull --all
+          run: tx pull --mode onlyreviewed --all
           env: 
             TX_TOKEN: ${{ secrets.TRANSIFEX_API }}
         - name: Commit the files to transifex
