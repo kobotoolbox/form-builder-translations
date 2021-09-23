@@ -51,3 +51,7 @@ To update the KPI UI's translatable sources using Poedit, follow these instructi
 
 * From the `locale` directory inside the KPI root, run `tx pull --all`;
 * Commit and push the updates to this repository, `form-builder-translations`, whose root should be the `locale` directory.
+
+# Languages lists
+
+The `<lang>/languages.json` files, besides containing localized names of languages, is the source data for building languages selectors in KPI. When creating new languages, please make sure to duplicate `en/languages.json` to new directory and treat existing english names as fallback/default values.
