@@ -3,132 +3,48 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Translators:
-# Translators:
 # d0d1b3721f62133f8e8b6eb710e58ad1, 2017
 msgid ""
 msgstr ""
-"Project-Id-Version: koboform\n"
+"Project-Id-Version: KoBoToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2019-07-12 15:18+0000\n"
-"PO-Revision-Date: 2019-07-12 15:40+0000\n"
-"Last-Translator: d0d1b3721f62133f8e8b6eb710e58ad1\n"
-"Language-Team: Portuguese (http://www.transifex.com/kobotoolbox/koboform/language/pt/)\n"
+"POT-Creation-Date: 2021-12-09 19:04+0000\n"
+"PO-Revision-Date: 2021-11-10 20:24+0000\n"
+"Last-Translator: Jackie <jackie@kobotoolbox.org>\n"
+"Language-Team: Portuguese (http://www.transifex.com/kobotoolbox/kobotoolbox/language/pt/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: pt\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: hub/actions.py:76
-#, python-format
-msgid "Successfully deleted %(count)d related objects."
-msgstr ""
-
-#: hub/actions.py:89
-#, python-format
-msgid "Cannot delete %(name)s"
-msgstr ""
-
-#: hub/actions.py:91
-msgid "Are you sure?"
-msgstr ""
-
-#: hub/actions.py:114
-#, python-format
-msgid ""
-"Remove related objects for these %(verbose_name_plural)s (deletion step 1)"
-msgstr ""
-
-#: hub/actions.py:139
-#, python-format
-msgid ""
-"View these %(verbose_name_plural)s in the KoBoCAT admin interface (deletion "
-"step 2)"
-msgstr ""
-
-#: hub/models.py:61
-msgid ""
-"A JSON representation of a *list* of Django queries, e.g. "
-"`[{\"email__iendswith\": \"@kobotoolbox.org\"}, {\"email__iendswith\": "
-"\"@kbtdev.org\"}]`. A matching user is one who would be returned by ANY of "
-"the queries in the list."
-msgstr ""
-
-#: hub/models.py:103
-msgid "JSON structure is incorrect."
-msgstr ""
-
-#: hub/templates/delete_related_for_selected_confirmation.html:9
-msgid "Home"
-msgstr ""
-
-#: hub/templates/delete_related_for_selected_confirmation.html:12
-msgid "Delete related objects"
-msgstr ""
-
-#: hub/templates/delete_related_for_selected_confirmation.html:18
-msgid ""
-"Your account doesn't have permission to delete the following types of "
-"objects:"
-msgstr ""
-
-#: hub/templates/delete_related_for_selected_confirmation.html:25
-msgid "The following related objects are protected:"
-msgstr ""
-
-#: hub/templates/delete_related_for_selected_confirmation.html:32
-msgid "Are you sure you want to delete all of the following objects?"
-msgstr ""
-
-#: hub/templates/delete_related_for_selected_confirmation.html:34
-msgid "Objects"
-msgstr ""
-
 #: hub/templates/delete_related_for_selected_confirmation.html:45
 msgid "Yes, I'm sure"
 msgstr ""
 
-#: hub/templates/delete_related_for_selected_confirmation.html:46
-msgid "No, take me back"
-msgstr ""
-
-#: kobo/apps/external_integrations/__init__.py:6
-msgid "External integrations"
-msgstr ""
-
-#: kobo/apps/external_integrations/models.py:11
-msgid "allowed origin"
-msgstr ""
-
-#: kobo/apps/external_integrations/models.py:12
-msgid "do not include http:// or https://"
-msgstr ""
-
-#: kobo/apps/external_integrations/models.py:28
-msgid "allowed CORS origin"
-msgstr ""
-
-#: kobo/apps/help/serializers.py:52
-msgid "Value must be a JSON object of name/value pairs."
-msgstr ""
-
-#: kobo/apps/hook/serializers/v2/hook.py:42
-#| msgid "Invalid token."
+#: kobo/apps/hook/serializers/v2/hook.py:46
 msgid "Invalid scheme"
 msgstr ""
 
-#: kobo/apps/hook/serializers/v2/hook.py:45
+#: kobo/apps/hook/serializers/v2/hook.py:49
 msgid "Unsecured endpoint is not allowed"
 msgstr ""
 
-#: kobo/apps/hook/tasks.py:142
+#: kobo/apps/hook/serializers/v2/hook.py:60
+msgid "Invalid JSON"
+msgstr ""
+
+#: kobo/apps/hook/serializers/v2/hook.py:70
+msgid "Can be used only with JSON submission format"
+msgstr ""
+
+#: kobo/apps/hook/tasks.py:148
 msgid "REST Services Failure Report"
 msgstr ""
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:3
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:3
-msgid "Asset"
+msgid "Project name"
 msgstr ""
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:4
@@ -154,7 +70,7 @@ msgstr ""
 #: kobo/apps/hook/templates/reports/failures_email_body.html:8
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:8
 msgid "Date"
-msgstr "Data"
+msgstr ""
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:10
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:10
@@ -163,1964 +79,1959 @@ msgstr ""
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:11
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:12
-msgid "Some submissions could not be sent to their external endpoint."
+msgid "Some submissions could not be sent to their external endpoints."
 msgstr ""
 
-#: kobo/apps/hook/templates/reports/failures_email_body.html:36
+#: kobo/apps/hook/templates/reports/failures_email_body.html:37
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:29
 #: kpi/templates/registration/activation_email.txt:12
 msgid "Best,"
 msgstr ""
 
-#: kobo/apps/hook/views/v2/hook.py:171
+#: kobo/apps/hook/views/v2/hook.py:174
 msgid "Task successfully scheduled"
 msgstr ""
 
-#: kobo/apps/hook/views/v2/hook.py:196
+#: kobo/apps/hook/views/v2/hook.py:201
 msgid "No data to retry"
 msgstr ""
 
-#: kobo/apps/hook/views/v2/hook.py:199
+#: kobo/apps/hook/views/v2/hook.py:204
 msgid "Can not retry on disabled hooks"
 msgstr ""
 
-#: kobo/apps/hook/views/v2/hook_log.py:110
+#: kobo/apps/hook/views/v2/hook_log.py:105
 msgid "An error has occurred when sending the data. Please try again later."
 msgstr ""
 
-#: kobo/apps/hook/views/v2/hook_log.py:113
+#: kobo/apps/hook/views/v2/hook_log.py:108
 msgid "Data is being or has already been processed"
 msgstr ""
 
-#: kobo/apps/hook/views/v2/hook_signal.py:52
-msgid "This field is required."
-msgstr "Este campo é obrigatório."
+#: kobo/apps/hook/views/v2/hook_signal.py:54
+#: kpi/deployment_backends/base_backend.py:408
+#: kpi/deployment_backends/base_backend.py:415
+msgid "A positive integer is required."
+msgstr ""
 
-#: kobo/apps/hook/views/v2/hook_signal.py:70
+#: kobo/apps/hook/views/v2/hook_signal.py:71
 msgid ""
 "We got and saved your data, but may not have fully processed it. You should "
 "not try to resubmit."
 msgstr ""
 
-#: kobo/apps/hook/views/v2/hook_signal.py:78
+#: kobo/apps/hook/views/v2/hook_signal.py:80
 msgid "Your data for instance {} has been already submitted."
 msgstr ""
 
-#: kobo/apps/reports/report_data.py:137
-msgid "`split_by` field '{}' not found."
+#: kobo/apps/reports/report_data.py:134
+msgid "`{}` not found."
 msgstr ""
 
 #: kobo/apps/reports/report_data.py:139
-msgid "`split_by` field '{}' is not a select one question."
+msgid "`{}` is not a select one question."
 msgstr ""
 
-#: kobo/static_lists.py:11
+#: kobo/static_lists.py:9
 msgid "Public Administration"
 msgstr "Administração Pública"
 
-#: kobo/static_lists.py:12
+#: kobo/static_lists.py:10
 msgid "Arts, Entertainment, and Recreation"
 msgstr "Artes, Entretenimento e Recreação"
 
-#: kobo/static_lists.py:13
+#: kobo/static_lists.py:11
 msgid "Educational Services / Higher Education"
 msgstr "Serviços Educacionais / Ensino Superior"
 
-#: kobo/static_lists.py:14
+#: kobo/static_lists.py:12
 msgid "Health Services / Public Health"
 msgstr "Serviços de saúde / Saúde Pública"
 
-#: kobo/static_lists.py:15
+#: kobo/static_lists.py:13
 msgid "Finance and Insurance"
 msgstr "Finanças e Seguros"
 
-#: kobo/static_lists.py:16
+#: kobo/static_lists.py:14
 msgid "Information / Media"
 msgstr "Informação / Mídia"
 
-#: kobo/static_lists.py:17
+#: kobo/static_lists.py:15
 msgid "Economic/Social Development"
 msgstr "Desenvolvimento Econômico / Social"
 
-#: kobo/static_lists.py:18
+#: kobo/static_lists.py:16
 msgid "Security / Police / Peacekeeping"
 msgstr "Segurança / Polícia / Manutenção da paz"
 
-#: kobo/static_lists.py:19
+#: kobo/static_lists.py:17
 msgid "Disarmament & Demobilization"
 msgstr "Desarmamento e Desmobilização"
 
-#: kobo/static_lists.py:20
+#: kobo/static_lists.py:18
 msgid "Environment"
 msgstr "Meio Ambiente"
 
-#: kobo/static_lists.py:21
+#: kobo/static_lists.py:19
 msgid "Private sector"
 msgstr "Setor Privado"
 
-#: kobo/static_lists.py:22
+#: kobo/static_lists.py:20
 msgid "Humanitarian - Coordination / Information Management"
 msgstr "Humanitário - Coordenação / Gestão da Informação"
 
-#: kobo/static_lists.py:23
+#: kobo/static_lists.py:21
 msgid "Humanitarian - Multiple Clusters"
 msgstr "Humanitários - Múltiplos Clusters"
 
-#: kobo/static_lists.py:24
+#: kobo/static_lists.py:22
 msgid "Humanitarian - Camp Management & Coordination"
 msgstr "Humanitário - Gestão e Coordenação de Acampamentos"
 
-#: kobo/static_lists.py:25
+#: kobo/static_lists.py:23
 msgid "Humanitarian - Early Recovery"
 msgstr "Humanitária - Recuperação Rápida"
 
-#: kobo/static_lists.py:26
+#: kobo/static_lists.py:24
 msgid "Humanitarian - Education"
 msgstr "Humanitário - Educação"
 
-#: kobo/static_lists.py:27
+#: kobo/static_lists.py:25
 msgid "Humanitarian - Emergency Shelter"
 msgstr "Humanitário - Abrigo de Emergência"
 
-#: kobo/static_lists.py:28
+#: kobo/static_lists.py:26
 msgid "Humanitarian - Emergency Telecoms"
 msgstr "Humanitário - Telecomunicações de Emergência"
 
-#: kobo/static_lists.py:29
+#: kobo/static_lists.py:27
 msgid "Humanitarian - Food Security"
 msgstr "Humanitário - Segurança Alimentar"
 
-#: kobo/static_lists.py:30
+#: kobo/static_lists.py:28
 msgid "Humanitarian - Health"
 msgstr "Humanitário - Saúde"
 
-#: kobo/static_lists.py:31
+#: kobo/static_lists.py:29
 msgid "Humanitarian - Logistics"
 msgstr "Humanitário - Logística"
 
-#: kobo/static_lists.py:32
+#: kobo/static_lists.py:30
 msgid "Humanitarian - Nutrition"
 msgstr "Humanitário - Nutrição"
 
-#: kobo/static_lists.py:33
+#: kobo/static_lists.py:31
 msgid "Humanitarian - Protection"
 msgstr "Humanitário - Proteção"
 
-#: kobo/static_lists.py:34
+#: kobo/static_lists.py:32
 msgid "Humanitarian - Sanitation, Water & Hygiene"
 msgstr "Humanitário - Saneamento, Água e Higiene"
 
-#: kobo/static_lists.py:35 kpi/forms.py:40
+#: kobo/static_lists.py:33 kpi/forms.py:40
 msgid "Other"
 msgstr "Outro"
 
-#: kobo/static_lists.py:57
+#: kobo/static_lists.py:53
 msgid "Afghanistan"
 msgstr ""
 
-#: kobo/static_lists.py:58
+#: kobo/static_lists.py:54
 msgid "land Islands"
 msgstr ""
 
-#: kobo/static_lists.py:59
+#: kobo/static_lists.py:55
 msgid "Albania"
 msgstr ""
 
-#: kobo/static_lists.py:60
+#: kobo/static_lists.py:56
 msgid "Algeria"
 msgstr ""
 
-#: kobo/static_lists.py:61
+#: kobo/static_lists.py:57
 msgid "American Samoa"
 msgstr ""
 
-#: kobo/static_lists.py:62
+#: kobo/static_lists.py:58
 msgid "Andorra"
 msgstr ""
 
-#: kobo/static_lists.py:63
+#: kobo/static_lists.py:59
 msgid "Angola"
 msgstr ""
 
-#: kobo/static_lists.py:64
+#: kobo/static_lists.py:60
 msgid "Anguilla"
 msgstr ""
 
-#: kobo/static_lists.py:65
+#: kobo/static_lists.py:61
 msgid "Antarctica"
 msgstr ""
 
-#: kobo/static_lists.py:66
+#: kobo/static_lists.py:62
 msgid "Antigua and Barbuda"
 msgstr ""
 
-#: kobo/static_lists.py:67
+#: kobo/static_lists.py:63
 msgid "Argentina"
 msgstr ""
 
-#: kobo/static_lists.py:68
+#: kobo/static_lists.py:64
 msgid "Armenia"
 msgstr ""
 
-#: kobo/static_lists.py:69
+#: kobo/static_lists.py:65
 msgid "Aruba"
 msgstr ""
 
-#: kobo/static_lists.py:70
+#: kobo/static_lists.py:66
 msgid "Australia"
 msgstr ""
 
-#: kobo/static_lists.py:71
+#: kobo/static_lists.py:67
 msgid "Austria"
 msgstr ""
 
-#: kobo/static_lists.py:72
+#: kobo/static_lists.py:68
 msgid "Azerbaijan"
 msgstr ""
 
-#: kobo/static_lists.py:73
+#: kobo/static_lists.py:69
 msgid "Bahamas"
 msgstr ""
 
-#: kobo/static_lists.py:74
+#: kobo/static_lists.py:70
 msgid "Bahrain"
 msgstr ""
 
-#: kobo/static_lists.py:75
+#: kobo/static_lists.py:71
 msgid "Bangladesh"
 msgstr ""
 
-#: kobo/static_lists.py:76
+#: kobo/static_lists.py:72
 msgid "Barbados"
 msgstr ""
 
-#: kobo/static_lists.py:77
+#: kobo/static_lists.py:73
 msgid "Belarus"
 msgstr ""
 
-#: kobo/static_lists.py:78
+#: kobo/static_lists.py:74
 msgid "Belgium"
 msgstr ""
 
-#: kobo/static_lists.py:79
+#: kobo/static_lists.py:75
 msgid "Belize"
 msgstr ""
 
-#: kobo/static_lists.py:80
+#: kobo/static_lists.py:76
 msgid "Benin"
 msgstr ""
 
-#: kobo/static_lists.py:81
+#: kobo/static_lists.py:77
 msgid "Bermuda"
 msgstr ""
 
-#: kobo/static_lists.py:82
+#: kobo/static_lists.py:78
 msgid "Bhutan"
 msgstr ""
 
-#: kobo/static_lists.py:83
+#: kobo/static_lists.py:79
 msgid "Bolivia, Plurinational State of"
 msgstr ""
 
-#: kobo/static_lists.py:84
+#: kobo/static_lists.py:80
 msgid "Bosnia and Herzegovina"
 msgstr ""
 
-#: kobo/static_lists.py:85
+#: kobo/static_lists.py:81
 msgid "Bonaire, Sint Eustatius and Saba"
 msgstr ""
 
-#: kobo/static_lists.py:86
+#: kobo/static_lists.py:82
 msgid "Botswana"
 msgstr ""
 
-#: kobo/static_lists.py:87
+#: kobo/static_lists.py:83
 msgid "Bouvet Island"
 msgstr ""
 
-#: kobo/static_lists.py:88
+#: kobo/static_lists.py:84
 msgid "Brazil"
 msgstr ""
 
-#: kobo/static_lists.py:89
+#: kobo/static_lists.py:85
 msgid "British Indian Ocean Territory"
 msgstr ""
 
-#: kobo/static_lists.py:90
+#: kobo/static_lists.py:86
 msgid "Brunei Darussalam"
 msgstr ""
 
-#: kobo/static_lists.py:91
+#: kobo/static_lists.py:87
 msgid "Bulgaria"
 msgstr ""
 
-#: kobo/static_lists.py:92
+#: kobo/static_lists.py:88
 msgid "Burkina Faso"
 msgstr ""
 
-#: kobo/static_lists.py:93
+#: kobo/static_lists.py:89
 msgid "Burundi"
 msgstr ""
 
-#: kobo/static_lists.py:94
+#: kobo/static_lists.py:90
 msgid "Cambodia"
 msgstr ""
 
-#: kobo/static_lists.py:95
+#: kobo/static_lists.py:91
 msgid "Cameroon"
 msgstr ""
 
-#: kobo/static_lists.py:96
+#: kobo/static_lists.py:92
 msgid "Canada"
 msgstr ""
 
-#: kobo/static_lists.py:97
+#: kobo/static_lists.py:93
 msgid "Cape Verde"
 msgstr ""
 
-#: kobo/static_lists.py:98
+#: kobo/static_lists.py:94
 msgid "Cayman Islands"
 msgstr ""
 
-#: kobo/static_lists.py:99
+#: kobo/static_lists.py:95
 msgid "Central African Republic"
 msgstr ""
 
-#: kobo/static_lists.py:100
+#: kobo/static_lists.py:96
 msgid "Chad"
 msgstr ""
 
-#: kobo/static_lists.py:101
+#: kobo/static_lists.py:97
 msgid "Chile"
 msgstr ""
 
-#: kobo/static_lists.py:102
+#: kobo/static_lists.py:98
 msgid "China"
 msgstr ""
 
-#: kobo/static_lists.py:103
+#: kobo/static_lists.py:99
 msgid "Christmas Island"
 msgstr ""
 
-#: kobo/static_lists.py:104
+#: kobo/static_lists.py:100
 msgid "Cocos (Keeling) Islands"
 msgstr ""
 
-#: kobo/static_lists.py:105
+#: kobo/static_lists.py:101
 msgid "Colombia"
 msgstr ""
 
-#: kobo/static_lists.py:106
+#: kobo/static_lists.py:102
 msgid "Comoros"
 msgstr ""
 
-#: kobo/static_lists.py:107
+#: kobo/static_lists.py:103
 msgid "Congo"
 msgstr ""
 
-#: kobo/static_lists.py:108
+#: kobo/static_lists.py:104
 msgid "Congo, The Democratic Republic of the"
 msgstr ""
 
-#: kobo/static_lists.py:109
+#: kobo/static_lists.py:105
 msgid "Cook Islands"
 msgstr ""
 
-#: kobo/static_lists.py:110
+#: kobo/static_lists.py:106
 msgid "Costa Rica"
 msgstr ""
 
-#: kobo/static_lists.py:111
+#: kobo/static_lists.py:107
 msgid "Cte d'Ivoire"
 msgstr ""
 
-#: kobo/static_lists.py:112
+#: kobo/static_lists.py:108
 msgid "Croatia"
 msgstr ""
 
-#: kobo/static_lists.py:113
+#: kobo/static_lists.py:109
 msgid "Cuba"
 msgstr ""
 
-#: kobo/static_lists.py:114
+#: kobo/static_lists.py:110
 msgid "Curaao"
 msgstr ""
 
-#: kobo/static_lists.py:115
+#: kobo/static_lists.py:111
 msgid "Cyprus"
 msgstr ""
 
-#: kobo/static_lists.py:116
+#: kobo/static_lists.py:112
 msgid "Czech Republic"
 msgstr ""
 
-#: kobo/static_lists.py:117
+#: kobo/static_lists.py:113
 msgid "Denmark"
 msgstr ""
 
-#: kobo/static_lists.py:118
+#: kobo/static_lists.py:114
 msgid "Djibouti"
 msgstr ""
 
-#: kobo/static_lists.py:119
+#: kobo/static_lists.py:115
 msgid "Dominica"
 msgstr ""
 
-#: kobo/static_lists.py:120
+#: kobo/static_lists.py:116
 msgid "Dominican Republic"
 msgstr ""
 
-#: kobo/static_lists.py:121
+#: kobo/static_lists.py:117
 msgid "Ecuador"
 msgstr ""
 
-#: kobo/static_lists.py:122
+#: kobo/static_lists.py:118
 msgid "Egypt"
 msgstr ""
 
-#: kobo/static_lists.py:123
+#: kobo/static_lists.py:119
 msgid "El Salvador"
 msgstr ""
 
-#: kobo/static_lists.py:124
+#: kobo/static_lists.py:120
 msgid "Equatorial Guinea"
 msgstr ""
 
-#: kobo/static_lists.py:125
+#: kobo/static_lists.py:121
 msgid "Eritrea"
 msgstr ""
 
-#: kobo/static_lists.py:126
+#: kobo/static_lists.py:122
 msgid "Estonia"
 msgstr ""
 
-#: kobo/static_lists.py:127
+#: kobo/static_lists.py:123
 msgid "Ethiopia"
 msgstr ""
 
-#: kobo/static_lists.py:128
+#: kobo/static_lists.py:124
 msgid "Falkland Islands (Malvinas)"
 msgstr ""
 
-#: kobo/static_lists.py:129
+#: kobo/static_lists.py:125
 msgid "Faroe Islands"
 msgstr ""
 
-#: kobo/static_lists.py:130
+#: kobo/static_lists.py:126
 msgid "Fiji"
 msgstr ""
 
-#: kobo/static_lists.py:131
+#: kobo/static_lists.py:127
 msgid "Finland"
 msgstr ""
 
-#: kobo/static_lists.py:132
+#: kobo/static_lists.py:128
 msgid "France"
 msgstr ""
 
-#: kobo/static_lists.py:133
+#: kobo/static_lists.py:129
 msgid "French Guiana"
 msgstr ""
 
-#: kobo/static_lists.py:134
+#: kobo/static_lists.py:130
 msgid "French Polynesia"
 msgstr ""
 
-#: kobo/static_lists.py:135
+#: kobo/static_lists.py:131
 msgid "French Southern Territories"
 msgstr ""
 
-#: kobo/static_lists.py:136
+#: kobo/static_lists.py:132
 msgid "Gabon"
 msgstr ""
 
-#: kobo/static_lists.py:137
+#: kobo/static_lists.py:133
 msgid "Gambia"
 msgstr ""
 
-#: kobo/static_lists.py:138
+#: kobo/static_lists.py:134
 msgid "Georgia"
 msgstr ""
 
-#: kobo/static_lists.py:139
+#: kobo/static_lists.py:135
 msgid "Germany"
 msgstr ""
 
-#: kobo/static_lists.py:140
+#: kobo/static_lists.py:136
 msgid "Ghana"
 msgstr ""
 
-#: kobo/static_lists.py:141
+#: kobo/static_lists.py:137
 msgid "Gibraltar"
 msgstr ""
 
-#: kobo/static_lists.py:142
+#: kobo/static_lists.py:138
 msgid "Greece"
 msgstr ""
 
-#: kobo/static_lists.py:143
+#: kobo/static_lists.py:139
 msgid "Greenland"
 msgstr ""
 
-#: kobo/static_lists.py:144
+#: kobo/static_lists.py:140
 msgid "Grenada"
 msgstr ""
 
-#: kobo/static_lists.py:145
+#: kobo/static_lists.py:141
 msgid "Guadeloupe"
 msgstr ""
 
-#: kobo/static_lists.py:146
+#: kobo/static_lists.py:142
 msgid "Guam"
 msgstr ""
 
-#: kobo/static_lists.py:147
+#: kobo/static_lists.py:143
 msgid "Guatemala"
 msgstr ""
 
-#: kobo/static_lists.py:148
+#: kobo/static_lists.py:144
 msgid "Guernsey"
 msgstr ""
 
-#: kobo/static_lists.py:149
+#: kobo/static_lists.py:145
 msgid "Guinea"
 msgstr ""
 
-#: kobo/static_lists.py:150
+#: kobo/static_lists.py:146
 msgid "Guinea-Bissau"
 msgstr ""
 
-#: kobo/static_lists.py:151
+#: kobo/static_lists.py:147
 msgid "Guyana"
 msgstr ""
 
-#: kobo/static_lists.py:152
+#: kobo/static_lists.py:148
 msgid "Haiti"
 msgstr ""
 
-#: kobo/static_lists.py:153
+#: kobo/static_lists.py:149
 msgid "Heard Island and McDonald Islands"
 msgstr ""
 
-#: kobo/static_lists.py:154
+#: kobo/static_lists.py:150
 msgid "Holy See (Vatican City State)"
 msgstr ""
 
-#: kobo/static_lists.py:155
+#: kobo/static_lists.py:151
 msgid "Honduras"
 msgstr ""
 
-#: kobo/static_lists.py:156
+#: kobo/static_lists.py:152
 msgid "Hong Kong"
 msgstr ""
 
-#: kobo/static_lists.py:157
+#: kobo/static_lists.py:153
 msgid "Hungary"
 msgstr ""
 
-#: kobo/static_lists.py:158
+#: kobo/static_lists.py:154
 msgid "Iceland"
 msgstr ""
 
-#: kobo/static_lists.py:159
+#: kobo/static_lists.py:155
 msgid "India"
 msgstr ""
 
-#: kobo/static_lists.py:160
+#: kobo/static_lists.py:156
 msgid "Indonesia"
 msgstr ""
 
-#: kobo/static_lists.py:161
+#: kobo/static_lists.py:157
 msgid "Iran, Islamic Republic of"
 msgstr ""
 
-#: kobo/static_lists.py:162
+#: kobo/static_lists.py:158
 msgid "Iraq"
 msgstr ""
 
-#: kobo/static_lists.py:163
+#: kobo/static_lists.py:159
 msgid "Ireland"
 msgstr ""
 
-#: kobo/static_lists.py:164
+#: kobo/static_lists.py:160
 msgid "Isle of Man"
 msgstr ""
 
-#: kobo/static_lists.py:165
+#: kobo/static_lists.py:161
 msgid "Israel"
 msgstr ""
 
-#: kobo/static_lists.py:166
+#: kobo/static_lists.py:162
 msgid "Italy"
 msgstr ""
 
-#: kobo/static_lists.py:167
+#: kobo/static_lists.py:163
 msgid "Jamaica"
 msgstr ""
 
-#: kobo/static_lists.py:168
+#: kobo/static_lists.py:164
 msgid "Japan"
 msgstr ""
 
-#: kobo/static_lists.py:169
+#: kobo/static_lists.py:165
 msgid "Jersey"
 msgstr ""
 
-#: kobo/static_lists.py:170
+#: kobo/static_lists.py:166
 msgid "Jordan"
 msgstr ""
 
-#: kobo/static_lists.py:171
+#: kobo/static_lists.py:167
 msgid "Kazakhstan"
 msgstr ""
 
-#: kobo/static_lists.py:172
+#: kobo/static_lists.py:168
 msgid "Kenya"
 msgstr ""
 
-#: kobo/static_lists.py:173
+#: kobo/static_lists.py:169
 msgid "Kiribati"
 msgstr ""
 
-#: kobo/static_lists.py:174
+#: kobo/static_lists.py:170
 msgid "Korea, Democratic People's Republic of"
 msgstr ""
 
-#: kobo/static_lists.py:175
+#: kobo/static_lists.py:171
 msgid "Korea, Republic of"
 msgstr ""
 
-#: kobo/static_lists.py:176
+#: kobo/static_lists.py:172
 msgid "Kuwait"
 msgstr ""
 
-#: kobo/static_lists.py:177
+#: kobo/static_lists.py:173
 msgid "Kyrgyzstan"
 msgstr ""
 
-#: kobo/static_lists.py:178
+#: kobo/static_lists.py:174
 msgid "Lao People's Democratic Republic"
 msgstr ""
 
-#: kobo/static_lists.py:179
+#: kobo/static_lists.py:175
 msgid "Latvia"
 msgstr ""
 
-#: kobo/static_lists.py:180
+#: kobo/static_lists.py:176
 msgid "Lebanon"
 msgstr ""
 
-#: kobo/static_lists.py:181
+#: kobo/static_lists.py:177
 msgid "Lesotho"
 msgstr ""
 
-#: kobo/static_lists.py:182
+#: kobo/static_lists.py:178
 msgid "Liberia"
 msgstr ""
 
-#: kobo/static_lists.py:183
+#: kobo/static_lists.py:179
 msgid "Libya"
 msgstr ""
 
-#: kobo/static_lists.py:184
+#: kobo/static_lists.py:180
 msgid "Liechtenstein"
 msgstr ""
 
-#: kobo/static_lists.py:185
+#: kobo/static_lists.py:181
 msgid "Lithuania"
 msgstr ""
 
-#: kobo/static_lists.py:186
+#: kobo/static_lists.py:182
 msgid "Luxembourg"
 msgstr ""
 
-#: kobo/static_lists.py:187
+#: kobo/static_lists.py:183
 msgid "Macao"
 msgstr ""
 
-#: kobo/static_lists.py:188
+#: kobo/static_lists.py:184
 msgid "Macedonia, The Former Yugoslav Republic of"
 msgstr ""
 
-#: kobo/static_lists.py:189
+#: kobo/static_lists.py:185
 msgid "Madagascar"
 msgstr ""
 
-#: kobo/static_lists.py:190
+#: kobo/static_lists.py:186
 msgid "Malawi"
 msgstr ""
 
-#: kobo/static_lists.py:191
+#: kobo/static_lists.py:187
 msgid "Malaysia"
 msgstr ""
 
-#: kobo/static_lists.py:192
+#: kobo/static_lists.py:188
 msgid "Maldives"
 msgstr ""
 
-#: kobo/static_lists.py:193
+#: kobo/static_lists.py:189
 msgid "Mali"
 msgstr ""
 
-#: kobo/static_lists.py:194
+#: kobo/static_lists.py:190
 msgid "Malta"
 msgstr ""
 
-#: kobo/static_lists.py:195
+#: kobo/static_lists.py:191
 msgid "Marshall Islands"
 msgstr ""
 
-#: kobo/static_lists.py:196
+#: kobo/static_lists.py:192
 msgid "Martinique"
 msgstr ""
 
-#: kobo/static_lists.py:197
+#: kobo/static_lists.py:193
 msgid "Mauritania"
 msgstr ""
 
-#: kobo/static_lists.py:198
+#: kobo/static_lists.py:194
 msgid "Mauritius"
 msgstr ""
 
-#: kobo/static_lists.py:199
+#: kobo/static_lists.py:195
 msgid "Mayotte"
 msgstr ""
 
-#: kobo/static_lists.py:200
+#: kobo/static_lists.py:196
 msgid "Mexico"
 msgstr ""
 
-#: kobo/static_lists.py:201
+#: kobo/static_lists.py:197
 msgid "Micronesia, Federated States of"
 msgstr ""
 
-#: kobo/static_lists.py:202
+#: kobo/static_lists.py:198
 msgid "Moldova, Republic of"
 msgstr ""
 
-#: kobo/static_lists.py:203
+#: kobo/static_lists.py:199
 msgid "Monaco"
 msgstr ""
 
-#: kobo/static_lists.py:204
+#: kobo/static_lists.py:200
 msgid "Mongolia"
 msgstr ""
 
-#: kobo/static_lists.py:205
+#: kobo/static_lists.py:201
 msgid "Montenegro"
 msgstr ""
 
-#: kobo/static_lists.py:206
+#: kobo/static_lists.py:202
 msgid "Montserrat"
 msgstr ""
 
-#: kobo/static_lists.py:207
+#: kobo/static_lists.py:203
 msgid "Morocco"
 msgstr ""
 
-#: kobo/static_lists.py:208
+#: kobo/static_lists.py:204
 msgid "Mozambique"
 msgstr ""
 
-#: kobo/static_lists.py:209
+#: kobo/static_lists.py:205
 msgid "Myanmar"
 msgstr ""
 
-#: kobo/static_lists.py:210
+#: kobo/static_lists.py:206
 msgid "Namibia"
 msgstr ""
 
-#: kobo/static_lists.py:211 kobo/static_lists.py:432
+#: kobo/static_lists.py:207 kobo/static_lists.py:428
 msgid "Nauru"
 msgstr ""
 
-#: kobo/static_lists.py:212
+#: kobo/static_lists.py:208
 msgid "Nepal"
 msgstr ""
 
-#: kobo/static_lists.py:213
+#: kobo/static_lists.py:209
 msgid "Netherlands"
 msgstr ""
 
-#: kobo/static_lists.py:214
+#: kobo/static_lists.py:210
 msgid "Netherlands Antilles"
 msgstr ""
 
-#: kobo/static_lists.py:215
+#: kobo/static_lists.py:211
 msgid "New Caledonia"
 msgstr ""
 
-#: kobo/static_lists.py:216
+#: kobo/static_lists.py:212
 msgid "New Zealand"
 msgstr ""
 
-#: kobo/static_lists.py:217
+#: kobo/static_lists.py:213
 msgid "Nicaragua"
 msgstr ""
 
-#: kobo/static_lists.py:218
+#: kobo/static_lists.py:214
 msgid "Niger"
 msgstr ""
 
-#: kobo/static_lists.py:219
+#: kobo/static_lists.py:215
 msgid "Nigeria"
 msgstr ""
 
-#: kobo/static_lists.py:220
+#: kobo/static_lists.py:216
 msgid "Niue"
 msgstr ""
 
-#: kobo/static_lists.py:221
+#: kobo/static_lists.py:217
 msgid "Norfolk Island"
 msgstr ""
 
-#: kobo/static_lists.py:222
+#: kobo/static_lists.py:218
 msgid "Northern Mariana Islands"
 msgstr ""
 
-#: kobo/static_lists.py:223
+#: kobo/static_lists.py:219
 msgid "Norway"
 msgstr ""
 
-#: kobo/static_lists.py:224
+#: kobo/static_lists.py:220
 msgid "Oman"
 msgstr ""
 
-#: kobo/static_lists.py:225
+#: kobo/static_lists.py:221
 msgid "Pakistan"
 msgstr ""
 
-#: kobo/static_lists.py:226
+#: kobo/static_lists.py:222
 msgid "Palau"
 msgstr ""
 
-#: kobo/static_lists.py:227
+#: kobo/static_lists.py:223
 msgid "occupied Palestinian territory"
 msgstr ""
 
-#: kobo/static_lists.py:228
+#: kobo/static_lists.py:224
 msgid "Panama"
 msgstr ""
 
-#: kobo/static_lists.py:229
+#: kobo/static_lists.py:225
 msgid "Papua New Guinea"
 msgstr ""
 
-#: kobo/static_lists.py:230
+#: kobo/static_lists.py:226
 msgid "Paraguay"
 msgstr ""
 
-#: kobo/static_lists.py:231
+#: kobo/static_lists.py:227
 msgid "Peru"
 msgstr ""
 
-#: kobo/static_lists.py:232
+#: kobo/static_lists.py:228
 msgid "Philippines"
 msgstr ""
 
-#: kobo/static_lists.py:233
+#: kobo/static_lists.py:229
 msgid "Pitcairn"
 msgstr ""
 
-#: kobo/static_lists.py:234
+#: kobo/static_lists.py:230
 msgid "Poland"
 msgstr ""
 
-#: kobo/static_lists.py:235
+#: kobo/static_lists.py:231
 msgid "Portugal"
 msgstr ""
 
-#: kobo/static_lists.py:236
+#: kobo/static_lists.py:232
 msgid "Puerto Rico"
 msgstr ""
 
-#: kobo/static_lists.py:237
+#: kobo/static_lists.py:233
 msgid "Qatar"
 msgstr ""
 
-#: kobo/static_lists.py:238
+#: kobo/static_lists.py:234
 msgid "Runion"
 msgstr ""
 
-#: kobo/static_lists.py:239
+#: kobo/static_lists.py:235
 msgid "Romania"
 msgstr ""
 
-#: kobo/static_lists.py:240
+#: kobo/static_lists.py:236
 msgid "Russian Federation"
 msgstr ""
 
-#: kobo/static_lists.py:241
+#: kobo/static_lists.py:237
 msgid "Rwanda"
 msgstr ""
 
-#: kobo/static_lists.py:242
+#: kobo/static_lists.py:238
 msgid "Saint Barthlemy"
 msgstr ""
 
-#: kobo/static_lists.py:243
+#: kobo/static_lists.py:239
 msgid "Saint Helena, Ascension and Tristan da Cunha"
 msgstr ""
 
-#: kobo/static_lists.py:244
+#: kobo/static_lists.py:240
 msgid "Saint Kitts and Nevis"
 msgstr ""
 
-#: kobo/static_lists.py:245
+#: kobo/static_lists.py:241
 msgid "Saint Lucia"
 msgstr ""
 
-#: kobo/static_lists.py:246
+#: kobo/static_lists.py:242
 msgid "Saint Martin (French part)"
 msgstr ""
 
-#: kobo/static_lists.py:247
+#: kobo/static_lists.py:243
 msgid "Saint Pierre and Miquelon"
 msgstr ""
 
-#: kobo/static_lists.py:248
+#: kobo/static_lists.py:244
 msgid "Saint Vincent and the Grenadines"
 msgstr ""
 
-#: kobo/static_lists.py:249
+#: kobo/static_lists.py:245
 msgid "Samoa"
 msgstr ""
 
-#: kobo/static_lists.py:250
+#: kobo/static_lists.py:246
 msgid "San Marino"
 msgstr ""
 
-#: kobo/static_lists.py:251
+#: kobo/static_lists.py:247
 msgid "So Tom and Prncipe"
 msgstr ""
 
-#: kobo/static_lists.py:252
+#: kobo/static_lists.py:248
 msgid "Saudi Arabia"
 msgstr ""
 
-#: kobo/static_lists.py:253
+#: kobo/static_lists.py:249
 msgid "Senegal"
 msgstr ""
 
-#: kobo/static_lists.py:254
+#: kobo/static_lists.py:250
 msgid "Serbia"
 msgstr ""
 
-#: kobo/static_lists.py:255
+#: kobo/static_lists.py:251
 msgid "Seychelles"
 msgstr ""
 
-#: kobo/static_lists.py:256
+#: kobo/static_lists.py:252
 msgid "Sierra Leone"
 msgstr ""
 
-#: kobo/static_lists.py:257
+#: kobo/static_lists.py:253
 msgid "Singapore"
 msgstr ""
 
-#: kobo/static_lists.py:258
+#: kobo/static_lists.py:254
 msgid "Sint Maarten (Dutch part)"
 msgstr ""
 
-#: kobo/static_lists.py:259
+#: kobo/static_lists.py:255
 msgid "Slovakia"
 msgstr ""
 
-#: kobo/static_lists.py:260
+#: kobo/static_lists.py:256
 msgid "Slovenia"
 msgstr ""
 
-#: kobo/static_lists.py:261
+#: kobo/static_lists.py:257
 msgid "Solomon Islands"
 msgstr ""
 
-#: kobo/static_lists.py:262
+#: kobo/static_lists.py:258
 msgid "Somalia"
 msgstr ""
 
-#: kobo/static_lists.py:263
+#: kobo/static_lists.py:259
 msgid "South Africa"
 msgstr ""
 
-#: kobo/static_lists.py:264
+#: kobo/static_lists.py:260
 msgid "South Georgia and the South Sandwich Islands"
 msgstr ""
 
-#: kobo/static_lists.py:265
+#: kobo/static_lists.py:261
 msgid "Spain"
 msgstr ""
 
-#: kobo/static_lists.py:266
+#: kobo/static_lists.py:262
 msgid "Sri Lanka"
 msgstr ""
 
-#: kobo/static_lists.py:267
+#: kobo/static_lists.py:263
 msgid "South Sudan"
 msgstr ""
 
-#: kobo/static_lists.py:268
+#: kobo/static_lists.py:264
 msgid "Sudan"
 msgstr ""
 
-#: kobo/static_lists.py:269
-#| msgid "Username"
+#: kobo/static_lists.py:265
 msgid "Suriname"
 msgstr ""
 
-#: kobo/static_lists.py:270
+#: kobo/static_lists.py:266
 msgid "Svalbard and Jan Mayen"
 msgstr ""
 
-#: kobo/static_lists.py:271
+#: kobo/static_lists.py:267
 msgid "Swaziland"
 msgstr ""
 
-#: kobo/static_lists.py:272
+#: kobo/static_lists.py:268
 msgid "Sweden"
 msgstr ""
 
-#: kobo/static_lists.py:273
+#: kobo/static_lists.py:269
 msgid "Switzerland"
 msgstr ""
 
-#: kobo/static_lists.py:274
+#: kobo/static_lists.py:270
 msgid "Syrian Arab Republic"
 msgstr ""
 
-#: kobo/static_lists.py:275
+#: kobo/static_lists.py:271
 msgid "Taiwan, Province of China"
 msgstr ""
 
-#: kobo/static_lists.py:276
+#: kobo/static_lists.py:272
 msgid "Tajikistan"
 msgstr ""
 
-#: kobo/static_lists.py:277
+#: kobo/static_lists.py:273
 msgid "Tanzania, United Republic of"
 msgstr ""
 
-#: kobo/static_lists.py:278
+#: kobo/static_lists.py:274
 msgid "Thailand"
 msgstr ""
 
-#: kobo/static_lists.py:279
+#: kobo/static_lists.py:275
 msgid "Timor-Leste"
 msgstr ""
 
-#: kobo/static_lists.py:280
+#: kobo/static_lists.py:276
 msgid "Togo"
 msgstr ""
 
-#: kobo/static_lists.py:281
+#: kobo/static_lists.py:277
 msgid "Tokelau"
 msgstr ""
 
-#: kobo/static_lists.py:282
+#: kobo/static_lists.py:278
 msgid "Tonga"
 msgstr ""
 
-#: kobo/static_lists.py:283
+#: kobo/static_lists.py:279
 msgid "Trinidad and Tobago"
 msgstr ""
 
-#: kobo/static_lists.py:284
+#: kobo/static_lists.py:280
 msgid "Tunisia"
 msgstr ""
 
-#: kobo/static_lists.py:285
+#: kobo/static_lists.py:281
 msgid "Turkey"
 msgstr ""
 
-#: kobo/static_lists.py:286
+#: kobo/static_lists.py:282
 msgid "Turkmenistan"
 msgstr ""
 
-#: kobo/static_lists.py:287
+#: kobo/static_lists.py:283
 msgid "Turks and Caicos Islands"
 msgstr ""
 
-#: kobo/static_lists.py:288
+#: kobo/static_lists.py:284
 msgid "Tuvalu"
 msgstr ""
 
-#: kobo/static_lists.py:289
+#: kobo/static_lists.py:285
 msgid "Uganda"
 msgstr ""
 
-#: kobo/static_lists.py:290
+#: kobo/static_lists.py:286
 msgid "Ukraine"
 msgstr ""
 
-#: kobo/static_lists.py:291
+#: kobo/static_lists.py:287
 msgid "United Arab Emirates"
 msgstr ""
 
-#: kobo/static_lists.py:292
+#: kobo/static_lists.py:288
 msgid "United Kingdom"
 msgstr ""
 
-#: kobo/static_lists.py:293
+#: kobo/static_lists.py:289
 msgid "United States"
 msgstr ""
 
-#: kobo/static_lists.py:294
+#: kobo/static_lists.py:290
 msgid "United States Minor Outlying Islands"
 msgstr ""
 
-#: kobo/static_lists.py:295
+#: kobo/static_lists.py:291
 msgid "Uruguay"
 msgstr ""
 
-#: kobo/static_lists.py:296
+#: kobo/static_lists.py:292
 msgid "Uzbekistan"
 msgstr ""
 
-#: kobo/static_lists.py:297
+#: kobo/static_lists.py:293
 msgid "Vanuatu"
 msgstr ""
 
-#: kobo/static_lists.py:298
+#: kobo/static_lists.py:294
 msgid "Venezuela, Bolivarian Republic of"
 msgstr ""
 
-#: kobo/static_lists.py:299
+#: kobo/static_lists.py:295
 msgid "Viet Nam"
 msgstr ""
 
-#: kobo/static_lists.py:300
+#: kobo/static_lists.py:296
 msgid "Virgin Islands, British"
 msgstr ""
 
-#: kobo/static_lists.py:301
+#: kobo/static_lists.py:297
 msgid "Virgin Islands, U.S."
 msgstr ""
 
-#: kobo/static_lists.py:302
+#: kobo/static_lists.py:298
 msgid "Wallis and Futuna"
 msgstr ""
 
-#: kobo/static_lists.py:303
+#: kobo/static_lists.py:299
 msgid "Western Sahara"
 msgstr ""
 
-#: kobo/static_lists.py:304
+#: kobo/static_lists.py:300
 msgid "Yemen"
 msgstr ""
 
-#: kobo/static_lists.py:305
+#: kobo/static_lists.py:301
 msgid "Zambia"
 msgstr ""
 
-#: kobo/static_lists.py:306
+#: kobo/static_lists.py:302
 msgid "Zimbabwe"
 msgstr ""
 
-#: kobo/static_lists.py:322
+#: kobo/static_lists.py:318
 msgid "Afar"
 msgstr ""
 
-#: kobo/static_lists.py:323
+#: kobo/static_lists.py:319
 msgid "Abkhazian"
 msgstr ""
 
-#: kobo/static_lists.py:324
+#: kobo/static_lists.py:320
 msgid "Afrikaans"
 msgstr ""
 
-#: kobo/static_lists.py:325
+#: kobo/static_lists.py:321
 msgid "Akan"
 msgstr ""
 
-#: kobo/static_lists.py:326
+#: kobo/static_lists.py:322
 msgid "Albanian"
 msgstr ""
 
-#: kobo/static_lists.py:327
+#: kobo/static_lists.py:323
 msgid "Amharic"
 msgstr ""
 
-#: kobo/static_lists.py:328
+#: kobo/static_lists.py:324
 msgid "Arabic"
 msgstr ""
 
-#: kobo/static_lists.py:329
+#: kobo/static_lists.py:325
 msgid "Aragonese"
 msgstr ""
 
-#: kobo/static_lists.py:330
+#: kobo/static_lists.py:326
 msgid "Armenian"
 msgstr ""
 
-#: kobo/static_lists.py:331
+#: kobo/static_lists.py:327
 msgid "Assamese"
 msgstr ""
 
-#: kobo/static_lists.py:332
+#: kobo/static_lists.py:328
 msgid "Avaric"
 msgstr ""
 
-#: kobo/static_lists.py:333
+#: kobo/static_lists.py:329
 msgid "Avestan"
 msgstr ""
 
-#: kobo/static_lists.py:334
+#: kobo/static_lists.py:330
 msgid "Aymara"
 msgstr ""
 
-#: kobo/static_lists.py:335
+#: kobo/static_lists.py:331
 msgid "Azerbaijani"
 msgstr ""
 
-#: kobo/static_lists.py:336
+#: kobo/static_lists.py:332
 msgid "Bashkir"
 msgstr ""
 
-#: kobo/static_lists.py:337
+#: kobo/static_lists.py:333
 msgid "Bambara"
 msgstr ""
 
-#: kobo/static_lists.py:338
+#: kobo/static_lists.py:334
 msgid "Basque"
 msgstr ""
 
-#: kobo/static_lists.py:339
+#: kobo/static_lists.py:335
 msgid "Belarusian"
 msgstr ""
 
-#: kobo/static_lists.py:340
+#: kobo/static_lists.py:336
 msgid "Bengali"
 msgstr ""
 
-#: kobo/static_lists.py:341
+#: kobo/static_lists.py:337
 msgid "Bihari languages"
 msgstr ""
 
-#: kobo/static_lists.py:342
+#: kobo/static_lists.py:338
 msgid "Bislama"
 msgstr ""
 
-#: kobo/static_lists.py:343
+#: kobo/static_lists.py:339
 msgid "Bosnian"
 msgstr ""
 
-#: kobo/static_lists.py:344
+#: kobo/static_lists.py:340
 msgid "Breton"
 msgstr ""
 
-#: kobo/static_lists.py:345
+#: kobo/static_lists.py:341
 msgid "Bulgarian"
 msgstr ""
 
-#: kobo/static_lists.py:346
+#: kobo/static_lists.py:342
 msgid "Burmese"
 msgstr ""
 
-#: kobo/static_lists.py:347
+#: kobo/static_lists.py:343
 msgid "Catalan; Valencian"
 msgstr ""
 
-#: kobo/static_lists.py:348
+#: kobo/static_lists.py:344
 msgid "Chamorro"
 msgstr ""
 
-#: kobo/static_lists.py:349
+#: kobo/static_lists.py:345
 msgid "Chechen"
 msgstr ""
 
-#: kobo/static_lists.py:350
+#: kobo/static_lists.py:346
 msgid "Chinese"
 msgstr ""
 
-#: kobo/static_lists.py:351
+#: kobo/static_lists.py:347
 msgid ""
 "Church Slavic; Old Slavonic; Church Slavonic; Old Bulgarian; Old Church "
 "Slavonic"
 msgstr ""
 
-#: kobo/static_lists.py:352
+#: kobo/static_lists.py:348
 msgid "Chuvash"
 msgstr ""
 
-#: kobo/static_lists.py:353
+#: kobo/static_lists.py:349
 msgid "Cornish"
 msgstr ""
 
-#: kobo/static_lists.py:354
+#: kobo/static_lists.py:350
 msgid "Corsican"
 msgstr ""
 
-#: kobo/static_lists.py:355
+#: kobo/static_lists.py:351
 msgid "Cree"
 msgstr ""
 
-#: kobo/static_lists.py:356
+#: kobo/static_lists.py:352
 msgid "Czech"
 msgstr ""
 
-#: kobo/static_lists.py:357
+#: kobo/static_lists.py:353
 msgid "Danish"
 msgstr ""
 
-#: kobo/static_lists.py:358
+#: kobo/static_lists.py:354
 msgid "Divehi; Dhivehi; Maldivian"
 msgstr ""
 
-#: kobo/static_lists.py:359
+#: kobo/static_lists.py:355
 msgid "Dutch; Flemish"
 msgstr ""
 
-#: kobo/static_lists.py:360
+#: kobo/static_lists.py:356
 msgid "Dzongkha"
 msgstr ""
 
-#: kobo/static_lists.py:361
+#: kobo/static_lists.py:357
 msgid "English"
 msgstr ""
 
-#: kobo/static_lists.py:362
+#: kobo/static_lists.py:358
 msgid "Esperanto"
 msgstr ""
 
-#: kobo/static_lists.py:363
+#: kobo/static_lists.py:359
 msgid "Estonian"
 msgstr ""
 
-#: kobo/static_lists.py:364
+#: kobo/static_lists.py:360
 msgid "Ewe"
 msgstr ""
 
-#: kobo/static_lists.py:365
+#: kobo/static_lists.py:361
 msgid "Faroese"
 msgstr ""
 
-#: kobo/static_lists.py:366
+#: kobo/static_lists.py:362
 msgid "Fijian"
 msgstr ""
 
-#: kobo/static_lists.py:367
+#: kobo/static_lists.py:363
 msgid "Finnish"
 msgstr ""
 
-#: kobo/static_lists.py:368
+#: kobo/static_lists.py:364
 msgid "French"
 msgstr ""
 
-#: kobo/static_lists.py:369
+#: kobo/static_lists.py:365
 msgid "Western Frisian"
 msgstr ""
 
-#: kobo/static_lists.py:370
+#: kobo/static_lists.py:366
 msgid "Fulah"
 msgstr ""
 
-#: kobo/static_lists.py:371
+#: kobo/static_lists.py:367
 msgid "Georgian"
 msgstr ""
 
-#: kobo/static_lists.py:372
+#: kobo/static_lists.py:368
 msgid "German"
 msgstr ""
 
-#: kobo/static_lists.py:373
+#: kobo/static_lists.py:369
 msgid "Gaelic; Scottish Gaelic"
 msgstr ""
 
-#: kobo/static_lists.py:374
+#: kobo/static_lists.py:370
 msgid "Irish"
 msgstr ""
 
-#: kobo/static_lists.py:375
+#: kobo/static_lists.py:371
 msgid "Galician"
 msgstr ""
 
-#: kobo/static_lists.py:376
+#: kobo/static_lists.py:372
 msgid "Manx"
 msgstr ""
 
-#: kobo/static_lists.py:377
+#: kobo/static_lists.py:373
 msgid "Greek, Modern (1453-)"
 msgstr ""
 
-#: kobo/static_lists.py:378
+#: kobo/static_lists.py:374
 msgid "Guarani"
 msgstr ""
 
-#: kobo/static_lists.py:379
+#: kobo/static_lists.py:375
 msgid "Gujarati"
 msgstr ""
 
-#: kobo/static_lists.py:380
+#: kobo/static_lists.py:376
 msgid "Haitian; Haitian Creole"
 msgstr ""
 
-#: kobo/static_lists.py:381
+#: kobo/static_lists.py:377
 msgid "Hausa"
 msgstr ""
 
-#: kobo/static_lists.py:382
+#: kobo/static_lists.py:378
 msgid "Hebrew"
 msgstr ""
 
-#: kobo/static_lists.py:383
+#: kobo/static_lists.py:379
 msgid "Herero"
 msgstr ""
 
-#: kobo/static_lists.py:384
+#: kobo/static_lists.py:380
 msgid "Hindi"
 msgstr ""
 
-#: kobo/static_lists.py:385
+#: kobo/static_lists.py:381
 msgid "Hiri Motu"
 msgstr ""
 
-#: kobo/static_lists.py:386
+#: kobo/static_lists.py:382
 msgid "Croatian"
 msgstr ""
 
-#: kobo/static_lists.py:387
+#: kobo/static_lists.py:383
 msgid "Hungarian"
 msgstr ""
 
-#: kobo/static_lists.py:388
+#: kobo/static_lists.py:384
 msgid "Igbo"
 msgstr ""
 
-#: kobo/static_lists.py:389
+#: kobo/static_lists.py:385
 msgid "Icelandic"
 msgstr ""
 
-#: kobo/static_lists.py:390
+#: kobo/static_lists.py:386
 msgid "Ido"
 msgstr ""
 
-#: kobo/static_lists.py:391
+#: kobo/static_lists.py:387
 msgid "Sichuan Yi; Nuosu"
 msgstr ""
 
-#: kobo/static_lists.py:392
+#: kobo/static_lists.py:388
 msgid "Inuktitut"
 msgstr ""
 
-#: kobo/static_lists.py:393
+#: kobo/static_lists.py:389
 msgid "Interlingue; Occidental"
 msgstr ""
 
-#: kobo/static_lists.py:394
+#: kobo/static_lists.py:390
 msgid "Interlingua (International Auxiliary Language Association)"
 msgstr ""
 
-#: kobo/static_lists.py:395
+#: kobo/static_lists.py:391
 msgid "Indonesian"
 msgstr ""
 
-#: kobo/static_lists.py:396
+#: kobo/static_lists.py:392
 msgid "Inupiaq"
 msgstr ""
 
-#: kobo/static_lists.py:397
+#: kobo/static_lists.py:393
 msgid "Italian"
 msgstr ""
 
-#: kobo/static_lists.py:398
+#: kobo/static_lists.py:394
 msgid "Javanese"
 msgstr ""
 
-#: kobo/static_lists.py:399
+#: kobo/static_lists.py:395
 msgid "Japanese"
 msgstr ""
 
-#: kobo/static_lists.py:400
+#: kobo/static_lists.py:396
 msgid "Kalaallisut; Greenlandic"
 msgstr ""
 
-#: kobo/static_lists.py:401
+#: kobo/static_lists.py:397
 msgid "Kannada"
 msgstr ""
 
-#: kobo/static_lists.py:402
+#: kobo/static_lists.py:398
 msgid "Kashmiri"
 msgstr ""
 
-#: kobo/static_lists.py:403
+#: kobo/static_lists.py:399
 msgid "Kanuri"
 msgstr ""
 
-#: kobo/static_lists.py:404
+#: kobo/static_lists.py:400
 msgid "Kazakh"
 msgstr ""
 
-#: kobo/static_lists.py:405
+#: kobo/static_lists.py:401
 msgid "Central Khmer"
 msgstr ""
 
-#: kobo/static_lists.py:406
+#: kobo/static_lists.py:402
 msgid "Kikuyu; Gikuyu"
 msgstr ""
 
-#: kobo/static_lists.py:407
+#: kobo/static_lists.py:403
 msgid "Kinyarwanda"
 msgstr ""
 
-#: kobo/static_lists.py:408
+#: kobo/static_lists.py:404
 msgid "Kirghiz; Kyrgyz"
 msgstr ""
 
-#: kobo/static_lists.py:409
+#: kobo/static_lists.py:405
 msgid "Komi"
 msgstr ""
 
-#: kobo/static_lists.py:410
+#: kobo/static_lists.py:406
 msgid "Kongo"
 msgstr ""
 
-#: kobo/static_lists.py:411
+#: kobo/static_lists.py:407
 msgid "Korean"
 msgstr ""
 
-#: kobo/static_lists.py:412
+#: kobo/static_lists.py:408
 msgid "Kuanyama; Kwanyama"
 msgstr ""
 
-#: kobo/static_lists.py:413
+#: kobo/static_lists.py:409
 msgid "Kurdish"
 msgstr ""
 
-#: kobo/static_lists.py:414
+#: kobo/static_lists.py:410
 msgid "Lao"
 msgstr ""
 
-#: kobo/static_lists.py:415
+#: kobo/static_lists.py:411
 msgid "Latin"
 msgstr ""
 
-#: kobo/static_lists.py:416
+#: kobo/static_lists.py:412
 msgid "Latvian"
 msgstr ""
 
-#: kobo/static_lists.py:417
+#: kobo/static_lists.py:413
 msgid "Limburgan; Limburger; Limburgish"
 msgstr ""
 
-#: kobo/static_lists.py:418
+#: kobo/static_lists.py:414
 msgid "Lingala"
 msgstr ""
 
-#: kobo/static_lists.py:419
+#: kobo/static_lists.py:415
 msgid "Lithuanian"
 msgstr ""
 
-#: kobo/static_lists.py:420
+#: kobo/static_lists.py:416
 msgid "Luxembourgish; Letzeburgesch"
 msgstr ""
 
-#: kobo/static_lists.py:421
+#: kobo/static_lists.py:417
 msgid "Luba-Katanga"
 msgstr ""
 
-#: kobo/static_lists.py:422
+#: kobo/static_lists.py:418
 msgid "Ganda"
 msgstr ""
 
-#: kobo/static_lists.py:423
+#: kobo/static_lists.py:419
 msgid "Macedonian"
 msgstr ""
 
-#: kobo/static_lists.py:424
+#: kobo/static_lists.py:420
 msgid "Marshallese"
 msgstr ""
 
-#: kobo/static_lists.py:425
+#: kobo/static_lists.py:421
 msgid "Malayalam"
 msgstr ""
 
-#: kobo/static_lists.py:426
+#: kobo/static_lists.py:422
 msgid "Maori"
 msgstr ""
 
-#: kobo/static_lists.py:427
+#: kobo/static_lists.py:423
 msgid "Marathi"
 msgstr ""
 
-#: kobo/static_lists.py:428
+#: kobo/static_lists.py:424
 msgid "Malay"
 msgstr ""
 
-#: kobo/static_lists.py:429
+#: kobo/static_lists.py:425
 msgid "Malagasy"
 msgstr ""
 
-#: kobo/static_lists.py:430
+#: kobo/static_lists.py:426
 msgid "Maltese"
 msgstr ""
 
-#: kobo/static_lists.py:431
+#: kobo/static_lists.py:427
 msgid "Mongolian"
 msgstr ""
 
-#: kobo/static_lists.py:433
+#: kobo/static_lists.py:429
 msgid "Navajo; Navaho"
 msgstr ""
 
-#: kobo/static_lists.py:434
+#: kobo/static_lists.py:430
 msgid "Ndebele, South; South Ndebele"
 msgstr ""
 
-#: kobo/static_lists.py:435
+#: kobo/static_lists.py:431
 msgid "Ndebele, North; North Ndebele"
 msgstr ""
 
-#: kobo/static_lists.py:436
+#: kobo/static_lists.py:432
 msgid "Ndonga"
 msgstr ""
 
-#: kobo/static_lists.py:437
+#: kobo/static_lists.py:433
 msgid "Nepali"
 msgstr ""
 
-#: kobo/static_lists.py:438
+#: kobo/static_lists.py:434
 msgid "Norwegian Nynorsk; Nynorsk, Norwegian"
 msgstr ""
 
-#: kobo/static_lists.py:439
+#: kobo/static_lists.py:435
 msgid "Bokml, Norwegian; Norwegian Bokml"
 msgstr ""
 
-#: kobo/static_lists.py:440
+#: kobo/static_lists.py:436
 msgid "Norwegian"
 msgstr ""
 
-#: kobo/static_lists.py:441
+#: kobo/static_lists.py:437
 msgid "Chichewa; Chewa; Nyanja"
 msgstr ""
 
-#: kobo/static_lists.py:442
+#: kobo/static_lists.py:438
 msgid "Occitan (post 1500); Provenal"
 msgstr ""
 
-#: kobo/static_lists.py:443
+#: kobo/static_lists.py:439
 msgid "Ojibwa"
 msgstr ""
 
-#: kobo/static_lists.py:444
+#: kobo/static_lists.py:440
 msgid "Oriya"
 msgstr ""
 
-#: kobo/static_lists.py:445
+#: kobo/static_lists.py:441
 msgid "Oromo"
 msgstr ""
 
-#: kobo/static_lists.py:446
+#: kobo/static_lists.py:442
 msgid "Ossetian; Ossetic"
 msgstr ""
 
-#: kobo/static_lists.py:447
+#: kobo/static_lists.py:443
 msgid "Panjabi; Punjabi"
 msgstr ""
 
-#: kobo/static_lists.py:448
+#: kobo/static_lists.py:444
 msgid "Persian"
 msgstr ""
 
-#: kobo/static_lists.py:449
+#: kobo/static_lists.py:445
 msgid "Pali"
 msgstr ""
 
-#: kobo/static_lists.py:450
+#: kobo/static_lists.py:446
 msgid "Polish"
 msgstr ""
 
-#: kobo/static_lists.py:451
+#: kobo/static_lists.py:447
 msgid "Portuguese"
 msgstr ""
 
-#: kobo/static_lists.py:452
+#: kobo/static_lists.py:448
 msgid "Pushto; Pashto"
 msgstr ""
 
-#: kobo/static_lists.py:453
+#: kobo/static_lists.py:449
 msgid "Quechua"
 msgstr ""
 
-#: kobo/static_lists.py:454
+#: kobo/static_lists.py:450
 msgid "Romansh"
 msgstr ""
 
-#: kobo/static_lists.py:455
+#: kobo/static_lists.py:451
 msgid "Romanian; Moldavian; Moldovan"
 msgstr ""
 
-#: kobo/static_lists.py:456
+#: kobo/static_lists.py:452
 msgid "Rundi"
 msgstr ""
 
-#: kobo/static_lists.py:457
+#: kobo/static_lists.py:453
 msgid "Russian"
 msgstr ""
 
-#: kobo/static_lists.py:458
+#: kobo/static_lists.py:454
 msgid "Sango"
 msgstr ""
 
-#: kobo/static_lists.py:459
+#: kobo/static_lists.py:455
 msgid "Sanskrit"
 msgstr ""
 
-#: kobo/static_lists.py:460
+#: kobo/static_lists.py:456
 msgid "Sinhala; Sinhalese"
 msgstr ""
 
-#: kobo/static_lists.py:461
+#: kobo/static_lists.py:457
 msgid "Slovak"
 msgstr ""
 
-#: kobo/static_lists.py:462
+#: kobo/static_lists.py:458
 msgid "Slovenian"
 msgstr ""
 
-#: kobo/static_lists.py:463
+#: kobo/static_lists.py:459
 msgid "Northern Sami"
 msgstr ""
 
-#: kobo/static_lists.py:464
+#: kobo/static_lists.py:460
 msgid "Samoan"
 msgstr ""
 
-#: kobo/static_lists.py:465
+#: kobo/static_lists.py:461
 msgid "Shona"
 msgstr ""
 
-#: kobo/static_lists.py:466
+#: kobo/static_lists.py:462
 msgid "Sindhi"
 msgstr ""
 
-#: kobo/static_lists.py:467
+#: kobo/static_lists.py:463
 msgid "Somali"
 msgstr ""
 
-#: kobo/static_lists.py:468
+#: kobo/static_lists.py:464
 msgid "Sotho, Southern"
 msgstr ""
 
-#: kobo/static_lists.py:469
+#: kobo/static_lists.py:465
 msgid "Spanish; Castilian"
 msgstr ""
 
-#: kobo/static_lists.py:470
+#: kobo/static_lists.py:466
 msgid "Sardinian"
 msgstr ""
 
-#: kobo/static_lists.py:471
+#: kobo/static_lists.py:467
 msgid "Serbian"
 msgstr ""
 
-#: kobo/static_lists.py:472
+#: kobo/static_lists.py:468
 msgid "Swati"
 msgstr ""
 
-#: kobo/static_lists.py:473
+#: kobo/static_lists.py:469
 msgid "Sundanese"
 msgstr ""
 
-#: kobo/static_lists.py:474
+#: kobo/static_lists.py:470
 msgid "Swahili"
 msgstr ""
 
-#: kobo/static_lists.py:475
+#: kobo/static_lists.py:471
 msgid "Swedish"
 msgstr ""
 
-#: kobo/static_lists.py:476
+#: kobo/static_lists.py:472
 msgid "Tahitian"
 msgstr ""
 
-#: kobo/static_lists.py:477
+#: kobo/static_lists.py:473
 msgid "Tamil"
 msgstr ""
 
-#: kobo/static_lists.py:478
+#: kobo/static_lists.py:474
 msgid "Tatar"
 msgstr ""
 
-#: kobo/static_lists.py:479
+#: kobo/static_lists.py:475
 msgid "Telugu"
 msgstr ""
 
-#: kobo/static_lists.py:480
+#: kobo/static_lists.py:476
 msgid "Tajik"
 msgstr ""
 
-#: kobo/static_lists.py:481
+#: kobo/static_lists.py:477
 msgid "Tagalog"
 msgstr ""
 
-#: kobo/static_lists.py:482
+#: kobo/static_lists.py:478
 msgid "Thai"
 msgstr ""
 
-#: kobo/static_lists.py:483
+#: kobo/static_lists.py:479
 msgid "Tibetan"
 msgstr ""
 
-#: kobo/static_lists.py:484
+#: kobo/static_lists.py:480
 msgid "Tigrinya"
 msgstr ""
 
-#: kobo/static_lists.py:485
+#: kobo/static_lists.py:481
 msgid "Tonga (Tonga Islands)"
 msgstr ""
 
-#: kobo/static_lists.py:486
+#: kobo/static_lists.py:482
 msgid "Tswana"
 msgstr ""
 
-#: kobo/static_lists.py:487
+#: kobo/static_lists.py:483
 msgid "Tsonga"
 msgstr ""
 
-#: kobo/static_lists.py:488
+#: kobo/static_lists.py:484
 msgid "Turkmen"
 msgstr ""
 
-#: kobo/static_lists.py:489
+#: kobo/static_lists.py:485
 msgid "Turkish"
 msgstr ""
 
-#: kobo/static_lists.py:490
+#: kobo/static_lists.py:486
 msgid "Twi"
 msgstr ""
 
-#: kobo/static_lists.py:491
+#: kobo/static_lists.py:487
 msgid "Uighur; Uyghur"
 msgstr ""
 
-#: kobo/static_lists.py:492
+#: kobo/static_lists.py:488
 msgid "Ukrainian"
 msgstr ""
 
-#: kobo/static_lists.py:493
+#: kobo/static_lists.py:489
 msgid "Urdu"
 msgstr ""
 
-#: kobo/static_lists.py:494
+#: kobo/static_lists.py:490
 msgid "Uzbek"
 msgstr ""
 
-#: kobo/static_lists.py:495
+#: kobo/static_lists.py:491
 msgid "Venda"
 msgstr ""
 
-#: kobo/static_lists.py:496
+#: kobo/static_lists.py:492
 msgid "Vietnamese"
 msgstr ""
 
-#: kobo/static_lists.py:497
+#: kobo/static_lists.py:493
 msgid "Volapk"
 msgstr ""
 
-#: kobo/static_lists.py:498
+#: kobo/static_lists.py:494
 msgid "Welsh"
 msgstr ""
 
-#: kobo/static_lists.py:499
+#: kobo/static_lists.py:495
 msgid "Walloon"
 msgstr ""
 
-#: kobo/static_lists.py:500
+#: kobo/static_lists.py:496
 msgid "Wolof"
 msgstr ""
 
-#: kobo/static_lists.py:501
+#: kobo/static_lists.py:497
 msgid "Xhosa"
 msgstr ""
 
-#: kobo/static_lists.py:502
+#: kobo/static_lists.py:498
 msgid "Yiddish"
 msgstr ""
 
-#: kobo/static_lists.py:503
+#: kobo/static_lists.py:499
 msgid "Yoruba"
 msgstr ""
 
-#: kobo/static_lists.py:504
+#: kobo/static_lists.py:500
 msgid "Zhuang; Chuang"
 msgstr ""
 
-#: kobo/static_lists.py:505
+#: kobo/static_lists.py:501
 msgid "Zulu"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:144
-msgid "Require authentication to see forms and submit data"
-msgstr "Exigir autenticação para ver formulários e enviar dados"
-
-#: kpi/deployment_backends/kc_access/shadow_models.py:170
-msgid "object ID"
+#: kpi/deployment_backends/base_backend.py:336
+msgid ""
+"This param is not implemented. Use `count` property of the response instead."
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:209
-#| msgid "Username"
-msgid "username"
+#: kpi/deployment_backends/base_backend.py:347
+msgid "This param is not supported in `XML` format"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:210
-msgid "password"
+#: kpi/deployment_backends/base_backend.py:352
+msgid "This is not supported in `XML` format"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:211
-msgid "last login"
+#: kpi/deployment_backends/base_backend.py:372
+#: kpi/deployment_backends/base_backend.py:401
+#: kpi/deployment_backends/base_backend.py:423
+msgid "Value must be valid JSON."
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:212
-msgid "superuser status"
+#: kpi/deployment_backends/base_backend.py:378
+msgid "Value must be a list."
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:213
-msgid "first name"
+#: kpi/deployment_backends/kobocat_backend.py:141
+msgid "No submissions match the given `submission_ids`"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:214
-msgid "last name"
+#: kpi/deployment_backends/kobocat_backend.py:1394
+msgid "KoBoCAT returned an unexpected response: {}"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:215
-msgid "email address"
+#: kpi/deployment_backends/kobocat_backend.py:1446
+msgid "Something went wrong"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:216
-msgid "staff status"
+#: kpi/exceptions.py:49
+msgid "Must call `asset.connect_deployment()` first"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:217
-msgid "active"
+#: kpi/exceptions.py:60
+msgid "Invalid search. Please try again"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:218
-msgid "date joined"
+#: kpi/exceptions.py:66
+msgid "Invalid payload for bulk updating of submissions"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:246
-msgid "Key"
+#: kpi/exceptions.py:73
+msgid "An error occurred trying to bulk update the submissions."
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:249
-#| msgid "Username"
-msgid "User"
+#: kpi/exceptions.py:97
+msgid "An error occurred trying to duplicate the submission"
 msgstr ""
 
-#: kpi/deployment_backends/kc_access/shadow_models.py:250
-msgid "Created"
-msgstr "Criado"
-
-#: kpi/deployment_backends/kobocat_backend.py:488
-msgid "Primary key must be provided"
+#: kpi/exceptions.py:107
+msgid "The specified object has not been deployed"
 msgstr ""
 
-#: kpi/deployment_backends/kobocat_backend.py:538
-msgid "`Fields` param is not supported with XML format"
+#: kpi/exceptions.py:122
+msgid "Your query is too short"
 msgstr ""
 
-#: kpi/deployment_backends/kobocat_backend.py:624
-msgid "KoBoCat returned an unexpected response: {}"
+#: kpi/fields/writable_json.py:30
+#, python-brace-format
+msgid "Unable to parse JSON: {error}"
 msgstr ""
 
 #: kpi/forms.py:12
@@ -2136,7 +2047,7 @@ msgstr "Usuário"
 
 #: kpi/forms.py:26
 msgid "Name"
-msgstr "Nome"
+msgstr ""
 
 #: kpi/forms.py:30
 msgid "Organization name"
@@ -2144,121 +2055,407 @@ msgstr ""
 
 #: kpi/forms.py:34
 msgid "Gender"
-msgstr "Gênero"
+msgstr ""
 
 #: kpi/forms.py:38
 msgid "Male"
-msgstr "Masculino"
+msgstr ""
 
 #: kpi/forms.py:39
 msgid "Female"
-msgstr "Feminino"
+msgstr ""
 
 #: kpi/forms.py:44
 msgid "Sector"
-msgstr "Setor"
+msgstr ""
 
 #: kpi/forms.py:50
 msgid "Country"
-msgstr "País"
+msgstr ""
 
-#: kpi/models/asset.py:481
+#: kpi/models/asset.py:205
 msgid "Can view asset"
 msgstr ""
 
-#: kpi/models/asset.py:482
-msgid "Can change asset's sharing settings"
+#: kpi/models/asset.py:206
+msgid "Can discover asset in public lists"
 msgstr ""
 
-#: kpi/models/asset.py:484
+#: kpi/models/asset.py:207
+msgid "Can manage all aspects of asset"
+msgstr ""
+
+#: kpi/models/asset.py:209
 msgid "Can submit data to asset"
 msgstr ""
 
-#: kpi/models/asset.py:485
+#: kpi/models/asset.py:210
 msgid "Can view submitted data for asset"
 msgstr ""
 
-#: kpi/models/asset.py:486
-msgid "Can make partial actions onsubmitted data for asset for specific users"
+#: kpi/models/asset.py:211
+msgid ""
+"Can make partial actions on submitted data for asset for specific users"
 msgstr ""
 
-#: kpi/models/asset.py:489
+#: kpi/models/asset.py:214
 msgid "Can modify submitted data for asset"
 msgstr ""
 
-#: kpi/models/asset.py:490
+#: kpi/models/asset.py:215
 msgid "Can delete submitted data for asset"
 msgstr ""
 
-#: kpi/models/asset.py:491
-msgid "Can change sharing settings for asset's submitted data"
-msgstr ""
-
-#: kpi/models/asset.py:493
+#: kpi/models/asset.py:216
 msgid "Can validate submitted data asset"
 msgstr ""
 
-#: kpi/models/asset.py:516
-msgid "View asset"
+#: kpi/models/asset.py:239
+msgid "project"
 msgstr ""
 
-#: kpi/models/asset.py:517
-msgid "Change asset"
+#: kpi/models/asset.py:239
+msgid "form"
 msgstr ""
 
-#: kpi/models/asset.py:518
+#: kpi/models/asset.py:241
+msgid "template"
+msgstr ""
+
+#: kpi/models/asset.py:242
+msgid "block"
+msgstr ""
+
+#: kpi/models/asset.py:243
+msgid "question"
+msgstr ""
+
+#: kpi/models/asset.py:244
+msgid "text"
+msgstr ""
+
+#: kpi/models/asset.py:245
+msgid "empty"
+msgstr ""
+
+#: kpi/models/asset.py:246
+msgid "collection"
+msgstr ""
+
+#: kpi/models/asset.py:253
+msgid "View ##asset_type_label##"
+msgstr ""
+
+#: kpi/models/asset.py:254
+msgid "Edit ##asset_type_label##"
+msgstr ""
+
+#: kpi/models/asset.py:255
+msgid "Discover ##asset_type_label##"
+msgstr ""
+
+#: kpi/models/asset.py:256
+msgid "Manage ##asset_type_label##"
+msgstr ""
+
+#: kpi/models/asset.py:257
 msgid "Add submissions"
 msgstr ""
 
-#: kpi/models/asset.py:519
+#: kpi/models/asset.py:258
 msgid "View submissions"
 msgstr ""
 
-#: kpi/models/asset.py:520
-msgid "Partial View submissions"
+#: kpi/models/asset.py:261
+msgid "Act on submissions only from specific users"
 msgstr ""
 
-#: kpi/models/asset.py:521
-msgid "Change submissions"
+#: kpi/models/asset.py:264
+msgid "View submissions only from specific users"
 msgstr ""
 
-#: kpi/models/asset.py:522
+#: kpi/models/asset.py:267
+msgid "Edit submissions only from specific users"
+msgstr ""
+
+#: kpi/models/asset.py:270
+msgid "Delete submissions only from specific users"
+msgstr ""
+
+#: kpi/models/asset.py:273
+msgid "Validate submissions only from specific users"
+msgstr ""
+
+#: kpi/models/asset.py:276
+msgid "Edit submissions"
+msgstr ""
+
+#: kpi/models/asset.py:277
+msgid "Delete submissions"
+msgstr ""
+
+#: kpi/models/asset.py:278
 msgid "Validate submissions"
 msgstr ""
 
-#: kpi/models/asset.py:690
+#: kpi/models/asset.py:479
 msgid "Only partial permissions for submissions are supported"
 msgstr ""
 
-#: kpi/models/asset.py:965
+#: kpi/models/asset.py:1024
 msgid "Can not assign '{}' permission to owner"
 msgstr ""
 
-#: kpi/models/asset.py:969 kpi/serializers/v2/asset_permission.py:141
+#: kpi/models/asset.py:1028
 msgid "Can not assign '{}' permission. Partial permissions are missing."
 msgstr ""
 
-#: kpi/models/authorized_application.py:53
+#: kpi/models/authorized_application.py:50
 msgid "Invalid token."
 msgstr "Token inválido"
 
-#: kpi/models/collection.py:90
-msgid "View collection"
+#: kpi/serializers/current_user.py:96
+msgid "Incorrect current password."
 msgstr ""
 
-#: kpi/models/collection.py:91
-msgid "Change collection"
+#: kpi/serializers/current_user.py:104
+msgid "`current_password` and `new_password` must both be sent together; "
 msgstr ""
 
-#: kpi/serializers/v2/asset_permission.py:135
-msgid "Invalid partial permissions"
+#: kpi/serializers/v2/asset.py:494
+msgid "The property is required"
 msgstr ""
 
-#: kpi/templates/base.html:39
+#: kpi/serializers/v2/asset.py:498
+msgid "The property must be an array"
+msgstr ""
+
+#: kpi/serializers/v2/asset.py:511
+#, python-brace-format
+msgid "Some fields are invalid, choices are: `{valid_fields}`"
+msgstr ""
+
+#: kpi/serializers/v2/asset.py:528
+msgid "User cannot update current parent collection"
+msgstr ""
+
+#: kpi/serializers/v2/asset.py:538
+#: kpi/tests/api/v2/test_api_collections.py:482
+msgid "Target collection not found"
+msgstr ""
+
+#: kpi/serializers/v2/asset.py:542
+#: kpi/tests/api/v2/test_api_collections.py:472
+msgid "User cannot update target parent collection"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:60
+msgid "`export_settings` must contain all the following required keys: {}"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:71
+msgid "`export_settings` can contain only the following valid keys: {}"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:83
+msgid "`multiple_select` must be either {}"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:90
+msgid "`type` must be either {}"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:100
+msgid "`group_sep` must be a non-empty value"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:105
+msgid "`lang` for this asset must be either {}"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:115
+#: kpi/serializers/v2/export_task.py:229
+msgid "Must be a JSON object"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:130
+#: kpi/serializers/v2/export_task.py:247
+msgid "All values in the array must be integers"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:141
+msgid "`fields` must be an array"
+msgstr ""
+
+#: kpi/serializers/v2/asset_export_settings.py:145
+msgid "All values in the `fields` array must be strings"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:117
+msgid "JSON is invalid"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:130
+msgid "Invalid content"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:143
+msgid "No files have been submitted"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:158
+msgid "File already exists"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:208
+msgid ""
+"You cannot upload media file with two different ways at the same time. "
+"Please choose between binary upload, base64 or remote URL."
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:221
+msgid "This field is required"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:229
+msgid "`redirect_url` is required"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:239
+msgid "`filename` is required"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:253
+msgid "`redirect_url` is invalid"
+msgstr ""
+
+#: kpi/serializers/v2/asset_file.py:287
+msgid "Only `{}` MIME types are allowed"
+msgstr ""
+
+#: kpi/serializers/v2/asset_permission_assignment.py:151
+msgid "This field is required for the '{}' permission"
+msgstr ""
+
+#: kpi/serializers/v2/asset_permission_assignment.py:165
+#: kpi/serializers/v2/asset_permission_assignment.py:170
+#: kpi/serializers/v2/asset_permission_assignment.py:175
+msgid "Invalid `url`"
+msgstr ""
+
+#: kpi/serializers/v2/asset_permission_assignment.py:180
+msgid "Invalid `filters`"
+msgstr ""
+
+#: kpi/serializers/v2/asset_permission_assignment.py:197
+#, python-brace-format
+msgid ""
+"{permission} cannot be assigned explicitly to Asset objects of this type."
+msgstr ""
+
+#: kpi/serializers/v2/data.py:61
+msgid "Confirmation is required"
+msgstr ""
+
+#: kpi/serializers/v2/data.py:70
+msgid "`submission_ids` must only contain integer values"
+msgstr ""
+
+#: kpi/serializers/v2/data.py:75
+msgid "`submission_ids` must contain at least one value"
+msgstr ""
+
+#: kpi/serializers/v2/data.py:83
+msgid "`data` is required"
+msgstr ""
+
+#: kpi/serializers/v2/data.py:91
+msgid "`validation_status.uid` is required"
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:123
+msgid "Must contain all the following required keys: {}"
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:137
+msgid "Can contain only the following valid keys: {}"
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
+msgid "Must be an array"
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:159
+msgid "All values in the array must be strings"
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:169
+msgid "Must be a non-empty value"
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:182
+msgid "For this asset must be either {}"
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
+msgid "Must be either {}"
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:204
+msgid "The asset must be deployed."
+msgstr ""
+
+#: kpi/serializers/v2/export_task.py:221
+msgid "The export name must be a string."
+msgstr ""
+
+#: kpi/serializers/v2/paired_data.py:86
+msgid "Source cannot be changed"
+msgstr ""
+
+#: kpi/serializers/v2/paired_data.py:92
+#, python-brace-format
+msgid "Data sharing for `{source_uid}` is not enabled"
+msgstr ""
+
+#: kpi/serializers/v2/paired_data.py:104
+#, python-brace-format
+msgid "Pairing data with `{source_uid}` is not allowed"
+msgstr ""
+
+#: kpi/serializers/v2/paired_data.py:109
+#, python-brace-format
+msgid "Source `{source}` is already paired"
+msgstr ""
+
+#: kpi/serializers/v2/paired_data.py:142
+#, python-brace-format
+msgid "Some fields are invalid, choices are: `{source_fields}`"
+msgstr ""
+
+#: kpi/serializers/v2/paired_data.py:162
+msgid "Only letters, numbers and `-` are allowed"
+msgstr ""
+
+#: kpi/serializers/v2/paired_data.py:169
+msgid "Extension must be `xml`"
+msgstr ""
+
+#: kpi/serializers/v2/paired_data.py:202
+#, python-brace-format
+msgid "`{basename}` is already used"
+msgstr ""
+
+#: kpi/serializers/v2/user_asset_subscription.py:47
+#, python-brace-format
+msgid "Invalid asset type. Only `{asset_type}` is allowed"
+msgstr ""
+
+#: kpi/templates/base.html:41
 msgid "Terms and Conditions"
 msgstr ""
 
-#: kpi/templates/base.html:42
+#: kpi/templates/base.html:44
 msgid "Privacy Policy"
 msgstr ""
 
@@ -2281,16 +2478,19 @@ msgstr ""
 
 #: kpi/templates/registration/activation_email.txt:4
 msgid ""
-"Confirming your account will give you full access to KoBoToolbox "
-"applications. Please visit the following url to finish activation of your "
-"new account."
+"Confirming your account will give you access to KoBoToolbox applications. "
+"Please visit the following URL to finish activation of your new account."
+msgstr ""
+
+#: kpi/templates/registration/activation_email.txt:8
+msgid "Your username is: "
 msgstr ""
 
 #: kpi/templates/registration/activation_email.txt:10
 msgid ""
-"Please visit http://help.kobotoolbox.org to find information on how to get "
-"started. There you can also post questions to the community (recommended) or"
-" to us directly."
+"Please visit https://community.kobotoolbox.org/ to find information on how "
+"to get started. There you can also post questions to the community "
+"(recommended) or to us directly."
 msgstr ""
 
 #: kpi/templates/registration/activation_email_subject.txt:2
@@ -2301,12 +2501,12 @@ msgstr ""
 msgid "Forgot?"
 msgstr ""
 
-#: kpi/templates/registration/login.html:20
+#: kpi/templates/registration/login.html:19
 #: kpi/templates/registration/registration_form.html:50
 msgid "or"
-msgstr "ou"
+msgstr ""
 
-#: kpi/templates/registration/login.html:20
+#: kpi/templates/registration/login.html:19
 msgid "create an account"
 msgstr ""
 
@@ -2336,7 +2536,7 @@ msgstr ""
 
 #: kpi/templates/registration/password_reset_form.html:14
 msgid "Reset Password"
-msgstr "Redefinir senha"
+msgstr ""
 
 #: kpi/templates/registration/registration_complete.html:8
 msgid "Account created!"
@@ -2360,54 +2560,56 @@ msgstr ""
 
 #: kpi/templates/registration/registration_form.html:50
 msgid "login"
-msgstr "entrar"
-
-#: kpi/utils/mongo_helper.py:85
-msgid "Invalid _uuid specified"
 msgstr ""
 
-#: kpi/utils/mongo_helper.py:270
-msgid "Invalid `query` param"
+#: kpi/utils/two_database_configuration_checker.py:40
+msgid "Exactly two databases must be configured"
 msgstr ""
 
-#: kpi/utils/mongo_helper.py:276
-msgid "Invalid `sort` param"
+#: kpi/utils/two_database_configuration_checker.py:41
+msgid ""
+"KPI and KoBoCAT must each have their own databases. Configure the KPI "
+"database as 'default' and the KoBoCAT database as 'kobocat'."
 msgstr ""
 
-#: kpi/utils/mongo_helper.py:286
-msgid "Invalid `start/limit` params"
+#: kpi/utils/two_database_configuration_checker.py:62
+msgid "KPI may not share a database with KoBoCAT"
 msgstr ""
 
-#: kpi/utils/mongo_helper.py:292
-msgid "Invalid `fields` params"
+#: kpi/utils/two_database_configuration_checker.py:63
+msgid "KPI and KoBoCAT must each have their own databases."
 msgstr ""
 
-#: kpi/utils/mongo_helper.py:295
-msgid "Invalid `instances_ids` param"
+#: kpi/utils/two_database_configuration_checker.py:126
+msgid "Incomplete migration from shared-database installation"
 msgstr ""
 
-#: kpi/utils/mongo_helper.py:298
-msgid "Invalid `submitted_by` param"
+#: kpi/utils/two_database_configuration_checker.py:127
+msgid ""
+"The KoBoCAT database was originally shared by KPI, but the KPI tables were "
+"not copied from that shared database to the new, KPI-only database."
 msgstr ""
 
-#: kpi/views/__init__.py:87
+#: kpi/views/__init__.py:83
 msgid "No key provided"
 msgstr ""
 
-#: kpi/views/__init__.py:104
+#: kpi/views/__init__.py:100
 msgid "Invalid or expired key"
 msgstr ""
 
-#: kpi/views/v2/asset_permission.py:198
-#: kpi/views/v2/collection_permission.py:184
+#: kpi/views/v2/asset_permission_assignment.py:223
 msgid "Source and destination objects don't seem to have the same type"
 msgstr ""
 
-#: kpi/views/v2/asset_permission.py:213
-#: kpi/views/v2/collection_permission.py:199
+#: kpi/views/v2/asset_permission_assignment.py:250
 msgid "Owner's permissions cannot be deleted"
 msgstr ""
 
-#: kpi/views/v2/data.py:167
+#: kpi/views/v2/data.py:296
 msgid "The specified asset has not been deployed"
+msgstr ""
+
+#: kpi/views/v2/data.py:510
+msgid "A positive integer is required"
 msgstr ""
