@@ -8,13 +8,13 @@ You might be wondering: "I just added a new string to KPI. How do I translate it
 
 * Save a copy of the metadata at the top of the old PO files found in `en/LC_MESSAGES/`.
 
-## Step 1: Convert Frontend Strings JSON to PO file
+## Step 1: Convert front-end Strings JSON to PO file
 
 ⚠️ This process does not work unless you are using a Linux environment.
 
 * Install the translate toolkit, run `sudo apt install translate-toolkit`.
 
-* Once installed, move to the KPI root director and run `json2po jsapp/compiled/extracted-stings.json locale/en/LC_MESSAGES/djangojs.po`.
+* Once installed, move to the KPI root directory and run `json2po jsapp/compiled/extracted-strings.json locale/en/LC_MESSAGES/djangojs.po`.
 
 * Copy the metadata from the old strings to the new ones.
 
