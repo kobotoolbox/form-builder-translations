@@ -3,13 +3,17 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Translators:
-# Translators:
+# brice76, 2021
 # brice76, 2021
 # Diane Detoeuf, 2021
+# Diane Detoeuf, 2021
+# DRK LV Badisches Rotes Kreuz, 2021
 # DRK LV Badisches Rotes Kreuz, 2021
 # Jackie <jackie@kobotoolbox.org>, 2022
+# JEAN SAMUEL KAMBOU NGUIEGAING, 2023
 # Jules merlain Cheumetou nitcheu, 2021
+# Jules merlain Cheumetou nitcheu, 2021
+# Kassim Sinaly THERA, 2021
 # Kassim Sinaly THERA, 2021
 # K. Eyram ADZANADO, 2021-2022
 # Kuichue Blanche Jumaelle, 2021-2022
@@ -17,20 +21,336 @@
 # Penar Musaraj <pmusaraj@gmail.com>, 2017-2018
 # Tortue Torche, 2019-2020
 # William Gustave, 2021
+# William Gustave, 2021
+# Yann Bourgeois, 2021
 # Yann Bourgeois, 2021
 msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2022-11-23 01:27+0000\n"
+"POT-Creation-Date: 2023-03-07 14:37+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: K. Eyram ADZANADO, 2021-2022\n"
+"Last-Translator: Yann Bourgeois, 2021\n"
 "Language-Team: French (http://www.transifex.com/kobotoolbox/kobotoolbox/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:21
+msgid "Please enter your verification token"
+msgstr "Veuillez entrer votre jeton de vérification"
+
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:25
+msgid ""
+"Please enter the verification token displayed by your authenticator app."
+msgstr "Veuillez entrer le jeton de vérification affiché sur l’application d’authentification."
+
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:32
+msgid "Problems with the token"
+msgstr "Problèmes avec le jeton"
+
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:37
+msgid "Continue"
+msgstr "Continuer"
+
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:45
+msgid "Verification issues"
+msgstr "Problèmes de vérification"
+
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:53
+msgid "Back"
+msgstr "Retour"
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:3
+msgid ""
+"To confirm the new email address associated with your KoboToolbox account, "
+"please follow the link below."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:7
+msgid ""
+"This link will expire in one hour. To request a new verification link, "
+"please go to your account settings and re-enter your new email address:"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:10
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:14
+#: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:15
+#: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:15
+#: kobo/apps/hook/templates/reports/failures_email_body.html:37
+#: kobo/apps/hook/templates/reports/failures_email_body.txt:29
+msgid "Best,"
+msgstr "Cordialement,"
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:2
+msgid "Thanks for signing up with KoboToolbox!"
+msgstr "Merci de vous inscrire à KoboToolbox !"
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:4
+msgid ""
+"Confirming your account will give you access to KoboToolbox applications. "
+"Please visit the following URL to finish activation of your new account."
+msgstr "La confirmation de votre compte vous permettra d'accéder aux applications KoboToolbox. Veuillez visiter l'URL suivante pour terminer l'activation de votre nouveau compte."
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:8
+msgid "Your username is: "
+msgstr "Votre nom d'utilisateur est :"
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
+msgid ""
+"For help getting started, check out the KoboToolbox user documentation: "
+"https://support.kobotoolbox.com "
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:12
+msgid ""
+"You can also join the KoboToolbox community forum to ask questions, share "
+"solutions, and chat with thousands of users: "
+"https://community.kobotoolbox.org"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:2
+msgid "Activate your KoboToolbox Account"
+msgstr "Activez votre compte KoboToolbox"
+
+#: kobo/apps/accounts/templates/account/email/email_confirmation_subject.txt:3
+msgid "KoboToolbox account email address verification"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:4
+#: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:5
+msgid "Hello from KoboToolbox,"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:6
+msgid "We’ve received a password reset request for your user account."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:8
+msgid "To reset your password, click the link below."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:11
+#, python-format
+msgid "Your username is %(username)s."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:13
+#: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:9
+msgid ""
+"If you did not request a password reset, you can safely ignore this email."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/password_reset_key_subject.txt:3
+msgid "KoboToolbox Password Reset"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:6
+msgid ""
+"You are receiving this email because you or someone else has requested a "
+"password for their KoboToolbox account."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:7
+#, python-format
+msgid ""
+"However, we do not have any record of an account with email %(email)s in our"
+" database."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:11
+msgid ""
+"If it was you, please try another email address you might have used to "
+"create your account, or double check that your account was not registered on"
+" a different KoboToolbox server."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email/unknown_account_subject.txt:3
+msgid "KoboToolbox Password Reset Unsuccessful"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email_confirm.html:15
+msgid "Confirm E-mail Address"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email_confirm.html:19
+#, python-format
+msgid ""
+"Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
+"address for user %(user_display)s."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/email_confirm.html:26
+msgid "Confirm"
+msgstr "Confirmer"
+
+#: kobo/apps/accounts/templates/account/email_confirm.html:30
+msgid "Activation failed"
+msgstr "Échec de l’activation"
+
+#: kobo/apps/accounts/templates/account/email_confirm.html:33
+msgid ""
+"Sorry, we couldn't activate your account. The link we sent you has expired."
+msgstr "Nous n'avons pas pu activer votre compte ; le lien que nous vous avons envoyé a expiré."
+
+#: kobo/apps/accounts/templates/account/email_confirm.html:39
+msgid ""
+"This e-mail confirmation link expired or is invalid.\n"
+"      If you need to request a new link to verify your email address change,\n"
+"      please go to your account settings page and enter your email address again."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/login.html:29
+msgid "Login"
+msgstr "Connexion"
+
+#: kobo/apps/accounts/templates/account/login.html:36
+#: kobo/apps/accounts/templates/account/signup.html:29
+msgid "Create an account"
+msgstr "Créer un compte"
+
+#: kobo/apps/accounts/templates/account/login.html:41
+msgid "Forgot password?"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/login.html:50
+msgid "Log in using SSO"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/login.html:52
+#: kobo/apps/accounts/templates/account/signup.html:71
+msgid ""
+"If you set up Single Sign On in your account settings, you will only be able"
+" to log in through this method."
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/login.html:64
+msgid "SSO Login"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/password_reset.html:10
+msgid "Password Reset"
+msgstr "Réinitialisation du mot de passe"
+
+#: kobo/apps/accounts/templates/account/password_reset.html:19
+msgid "Reset Password"
+msgstr "Modifiez votre mot de passe"
+
+#: kobo/apps/accounts/templates/account/password_reset_complete.html:11
+#: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:11
+msgid "Password reset successfully"
+msgstr "Mot de passe réinitialisé"
+
+#: kobo/apps/accounts/templates/account/password_reset_complete.html:14
+#: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:14
+msgid "Log in"
+msgstr "Connexion"
+
+#: kobo/apps/accounts/templates/account/password_reset_done.html:12
+msgid ""
+"Your request has been received. If the email address you entered corresponds"
+" to an account on this service, a message has been sent with password reset "
+"instructions. If you do not receive an email, your account might be "
+"registered under a different address, or you might have entered your address"
+" incorrectly."
+msgstr "Votre demande a été reçue. Si l'adresse e-mail que vous avez saisie correspond à un compte sur ce service, un message a été envoyé avec des instructions de réinitialisation du mot de passe. Si vous ne recevez pas d'e-mail, votre compte est peut-être enregistré sous une adresse différente ou vous avez peut-être mal saisi votre adresse."
+
+#: kobo/apps/accounts/templates/account/password_reset_from_key.html:12
+msgid "Password reset failed"
+msgstr "La réinitialisation du mot de passe a échoué"
+
+#: kobo/apps/accounts/templates/account/password_reset_from_key.html:21
+msgid "Submit"
+msgstr "Envoyer"
+
+#: kobo/apps/accounts/templates/account/signup.html:55
+msgid "Create Account"
+msgstr "Créer un compte"
+
+#: kobo/apps/accounts/templates/account/signup.html:59
+#: kobo/apps/accounts/templates/socialaccount/login.html:39
+msgid "or"
+msgstr "ou"
+
+#: kobo/apps/accounts/templates/account/signup.html:59
+msgid "login"
+msgstr "connexion"
+
+#: kobo/apps/accounts/templates/account/signup.html:69
+msgid "Register using SSO"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/signup.html:83
+msgid "Register with SSO"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/verification_sent.html:8
+msgid "Confirm your email address"
+msgstr ""
+
+#: kobo/apps/accounts/templates/account/verification_sent.html:11
+msgid "Please click the activation link in the email just sent to you."
+msgstr "Veuillez cliquer sur le lien d'activation dans le courriel que vous venez de recevoir."
+
+#: kobo/apps/accounts/templates/socialaccount/login.html:14
+msgid "Set up Single Sign On"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/login.html:16
+#, python-format
+msgid ""
+"Click the button below to connect your KoboToolbox account with your "
+"%(appname)s account."
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/login.html:18
+msgid "This will allow you to use single sign-on (SSO) in the future."
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/login.html:23
+#, python-format
+msgid "Connect with %(appname)s"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/login.html:27
+msgid "Log in with Single Sign On"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/login.html:29
+#, python-format
+msgid ""
+"Click the button below to log in to KoboToolbox with your %(appname)s "
+"account."
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/login.html:34
+#, python-format
+msgid "Log in with %(appname)s"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/login.html:39
+msgid "go back"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/signup.html:10
+#, python-format
+msgid "Welcome to KoboToolbox, %(username)s!"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#, python-format
+msgid "You are about to use your %(appname)s account to login to KoboToolbox."
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+msgid "As a final step, please complete the following form"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/signup.html:39
+msgid "Save and Access"
+msgstr ""
 
 #: kobo/apps/hook/tasks.py:148
 msgid "REST Services Failure Report"
@@ -76,44 +396,13 @@ msgstr "Cher/Chère"
 msgid "Some submissions could not be sent to their external endpoints."
 msgstr "Certaines présentations n'ont pas pu être envoyées à leurs destinataires."
 
-#: kobo/apps/hook/templates/reports/failures_email_body.html:37
-#: kobo/apps/hook/templates/reports/failures_email_body.txt:29
-#: kpi/templates/registration/activation_email.txt:12
-msgid "Best,"
-msgstr "Cordialement,"
-
 #: kobo/apps/languages/templates/admin/languages_change_list.html:8
 msgid "Import"
-msgstr ""
-
-#: kobo/apps/mfa/templates/mfa_token.html:21
-msgid "Please enter your verification token"
-msgstr ""
-
-#: kobo/apps/mfa/templates/mfa_token.html:25
-msgid ""
-"Please enter the verification token displayed by your authenticator app."
-msgstr ""
-
-#: kobo/apps/mfa/templates/mfa_token.html:32
-msgid "Problems with the token"
-msgstr ""
-
-#: kobo/apps/mfa/templates/mfa_token.html:37
-msgid "Continue"
-msgstr ""
-
-#: kobo/apps/mfa/templates/mfa_token.html:45
-msgid "Verification issues"
-msgstr ""
-
-#: kobo/apps/mfa/templates/mfa_token.html:53
-msgid "Back"
-msgstr ""
+msgstr "Importer"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr ""
+msgstr "L'authentification multi-facteur est activée pour ce compte."
 
 #: kpi/templates/base.html:34
 msgid "Terms and Conditions"
@@ -125,252 +414,49 @@ msgstr "Politique de confidentialité"
 
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
-msgstr ""
+msgstr "Navigateurs modernes"
 
 #: kpi/templates/modern_browsers.html:8
 msgid ""
 "Ouch! Sorry, you were probably sent here because your browser is outdated or"
 " perhaps it has its key features disabled by using \"private browsing\" "
 "mode."
-msgstr ""
+msgstr "Toutes nos excuses. Vous avez probablement été dirigé(e) ici parce que votre navigateur est obsolète ou que ses principales fonctionnalités ont été désactivées en utilisant le mode « navigation privée »."
 
 #: kpi/templates/modern_browsers.html:12
 msgid ""
 "If you are using an outdated browser, we recommend upgrading to a recent "
 "version of one of the following excellent modern browsers:"
-msgstr ""
+msgstr "Si vous utilisez un navigateur obsolète, nous vous recommandons de passer à une version récente de l'un des excellents navigateurs modernes suivants :"
 
 #: kpi/templates/modern_browsers.html:17
 msgid "Firefox download page"
-msgstr ""
+msgstr "Page de téléchargement de Firefox"
 
 #: kpi/templates/modern_browsers.html:18
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: kpi/templates/modern_browsers.html:22
 msgid "Chrome download page"
-msgstr ""
+msgstr "Page de téléchargement de Chrome"
 
 #: kpi/templates/modern_browsers.html:23
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 #: kpi/templates/modern_browsers.html:27
 msgid "Edge download page"
-msgstr ""
+msgstr "Page de téléchargement de Edge"
 
 #: kpi/templates/modern_browsers.html:28
 msgid "Edge"
-msgstr ""
+msgstr "Edge"
 
 #: kpi/templates/modern_browsers.html:32
 msgid "Opera download page"
-msgstr ""
+msgstr "Page de téléchargement de Opera"
 
 #: kpi/templates/modern_browsers.html:33
 msgid "Opera"
-msgstr ""
-
-#: kpi/templates/registration/activate.html:10
-msgid "Activation failed"
-msgstr "Activation echoué"
-
-#: kpi/templates/registration/activate.html:14
-msgid ""
-"Sorry, we couldn't activate your account. The link we sent you has expired."
-msgstr "Désolé, nous n'avons pas pu activer votre compte. Le lien que nous vous avons envoyé a expiré."
-
-#: kpi/templates/registration/activate.html:18
-msgid "Click here to create a new account"
-msgstr "Cliquez ici pour créer un nouveau compte"
-
-#: kpi/templates/registration/activation_email.txt:2
-msgid "Thanks for signing up with KoboToolbox!"
-msgstr ""
-
-#: kpi/templates/registration/activation_email.txt:4
-msgid ""
-"Confirming your account will give you access to KoboToolbox applications. "
-"Please visit the following URL to finish activation of your new account."
-msgstr ""
-
-#: kpi/templates/registration/activation_email.txt:8
-#| msgid "Username"
-msgid "Your username is: "
-msgstr "Votre nom d'utilisateur est:"
-
-#: kpi/templates/registration/activation_email.txt:10
-msgid ""
-"Please visit https://community.kobotoolbox.org/ to find information on how "
-"to get started. There you can also post questions to the community "
-"(recommended) or to us directly."
-msgstr "Veuillez s'il vous plaît visiter le site https://community.kobotoolbox.org/ pour avoir plus d'informations sur comment débuter. Sur ce site vous pouvez également poser des questions à la communauté (ce qui est recommandée) ou à nous directement."
-
-#: kpi/templates/registration/activation_email_subject.txt:2
-msgid "Activate your KoboToolbox Account"
-msgstr ""
-
-#: kpi/templates/registration/login.html:12
-msgid "Forgot?"
-msgstr "Mot de passe oublié?"
-
-#: kpi/templates/registration/login.html:20
-msgid "Login"
-msgstr ""
-
-#: kpi/templates/registration/login.html:27
-#: kpi/templates/registration/registration_form.html:58
-msgid "or"
-msgstr "ou"
-
-#: kpi/templates/registration/login.html:27
-msgid "create an account"
-msgstr "Ouvrir un compte"
-
-#: kpi/templates/registration/password_reset_complete.html:11
-msgid "Password reset successfully"
-msgstr "Mot de passe réinitialisé"
-
-#: kpi/templates/registration/password_reset_complete.html:14
-msgid "Log in"
-msgstr "Connexion"
-
-#: kpi/templates/registration/password_reset_confirm.html:19
-msgid "Submit"
-msgstr "Soumettre"
-
-#: kpi/templates/registration/password_reset_confirm.html:22
-msgid "Password reset failed"
-msgstr "La réinitialisation du mot de passe a échoué."
-
-#: kpi/templates/registration/password_reset_done.html:12
-msgid ""
-"Your request has been received. If the email address you entered corresponds"
-" to an account on this service, a message has been sent with password reset "
-"instructions. If you do not receive an email, your account might be "
-"registered under a different address, or you might have entered your address"
-" incorrectly."
-msgstr ""
-
-#: kpi/templates/registration/password_reset_form.html:10
-msgid "Password Reset"
-msgstr "Réinitialisation du mot de passe"
-
-#: kpi/templates/registration/password_reset_form.html:19
-msgid "Reset Password"
-msgstr "Modifiez votre mot de passe"
-
-#: kpi/templates/registration/registration_complete.html:8
-msgid "Account created!"
-msgstr "Compte créé!"
-
-#: kpi/templates/registration/registration_complete.html:11
-msgid "Thanks for creating a KoboToolbox account."
-msgstr ""
-
-#: kpi/templates/registration/registration_complete.html:14
-msgid "Please click the activation link in the email just sent to you."
-msgstr "Veuillez cliquer sur le lien d'activation dans le courriel qu’on vient de vous envoyer."
-
-#: kpi/templates/registration/registration_form.html:28
-msgid "Create an account"
-msgstr "Ouvrir un compte"
-
-#: kpi/templates/registration/registration_form.html:54
-msgid "Create Account"
-msgstr "Créer un compte"
-
-#: kpi/templates/registration/registration_form.html:58
-msgid "login"
-msgstr "Connexion"
-
-#~ msgid "Invalid scheme"
-#~ msgstr "Invalid token."
-
-#~ msgid "Public Administration"
-#~ msgstr "Public Administration"
-
-#~ msgid "Arts, Entertainment, and Recreation"
-#~ msgstr "Arts, Entertainment, and Recreation"
-
-#~ msgid "Educational Services / Higher Education"
-#~ msgstr "Educational Services / Higher Education"
-
-#~ msgid "Health Services / Public Health"
-#~ msgstr "Health Services / Public Health"
-
-#~ msgid "Finance and Insurance"
-#~ msgstr "Finance and Insurance"
-
-#~ msgid "Information / Media"
-#~ msgstr "Information / Media"
-
-#~ msgid "Economic/Social Development"
-#~ msgstr "Economic/Social Development"
-
-#~ msgid "Security / Police / Peacekeeping"
-#~ msgstr "Security / Police / Peacekeeping"
-
-#~ msgid "Disarmament & Demobilization"
-#~ msgstr "Disarmament & Demobilization"
-
-#~ msgid "Environment"
-#~ msgstr "Environment"
-
-#~ msgid "Private sector"
-#~ msgstr "Private sector"
-
-#~ msgid "Humanitarian - Coordination / Information Management"
-#~ msgstr "Humanitarian - Coordination / Information Management"
-
-#~ msgid "Humanitarian - Multiple Clusters"
-#~ msgstr "Humanitarian - Multiple Clusters"
-
-#~ msgid "Humanitarian - Camp Management & Coordination"
-#~ msgstr "Humanitarian - Camp Management & Coordination"
-
-#~ msgid "Humanitarian - Early Recovery"
-#~ msgstr "Humanitarian - Early Recovery"
-
-#~ msgid "Humanitarian - Education"
-#~ msgstr "Humanitarian - Education"
-
-#~ msgid "Humanitarian - Emergency Shelter"
-#~ msgstr "Humanitarian - Emergency Shelter"
-
-#~ msgid "Humanitarian - Emergency Telecoms"
-#~ msgstr "Humanitarian - Emergency Telecoms"
-
-#~ msgid "Humanitarian - Food Security"
-#~ msgstr "Humanitarian - Food Security"
-
-#~ msgid "Humanitarian - Health"
-#~ msgstr "Humanitarian - Health"
-
-#~ msgid "Humanitarian - Logistics"
-#~ msgstr "Humanitarian - Logistics"
-
-#~ msgid "Humanitarian - Nutrition"
-#~ msgstr "Humanitarian - Nutrition"
-
-#~ msgid "Humanitarian - Protection"
-#~ msgstr "Humanitarian - Protection"
-
-#~ msgid "Humanitarian - Sanitation, Water & Hygiene"
-#~ msgstr "Humanitarian - Sanitation, Water & Hygiene"
-
-#~ msgid "Other"
-#~ msgstr "Other"
-
-#~ msgid "Suriname"
-#~ msgstr "Username"
-
-#~ msgid "User"
-#~ msgstr "Username"
-
-#~ msgid "Username"
-#~ msgstr "Username"
-
-#~ msgid "Invalid token."
-#~ msgstr "Invalid token."
+msgstr "Opera"
