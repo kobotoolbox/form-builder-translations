@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Translators:
 # Kurund Jalmi <kurund.jalmi@gmail.com>, 2017
 # Smrity Ramavarapu, 2021
 # Smrity Ramavarapu, 2021
@@ -14,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-07 14:37+0000\n"
+"POT-Creation-Date: 2023-08-16 20:25+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: zeeshan azmi <zishan.azmi@webaccessglobal.com>, 2017\n"
 "Language-Team: Hindi (http://app.transifex.com/kobotoolbox/kobotoolbox/language/hi/)\n"
@@ -23,6 +22,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hi\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: hub/templates/admin/loginas/change_form.html:7
+msgid "Log in as user"
+msgstr ""
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:21
 msgid "Please enter your verification token"
@@ -62,7 +65,7 @@ msgid ""
 msgstr "यह लिंक एक घंटे के बाद अमान्य हो जाएगा। एक नए प्रमाणीकरण लिंक का अनुरोध करने के लिए कृपया अपनी खाता (अकाउंट) सेटिंग्स पर जाएँ और अपना नया ईमेल पता दोबारा दर्ज करें:"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:10
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:14
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:22
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:15
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:15
 #: kobo/apps/hook/templates/reports/failures_email_body.html:37
@@ -70,34 +73,34 @@ msgstr "यह लिंक एक घंटे के बाद अमान्
 msgid "Best,"
 msgstr "शुभकामनाएँ।"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:2
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
 msgid "Thanks for signing up with KoboToolbox!"
 msgstr "KoboToolbox के साथ साइन अप करने के लिए धन्यवाद!"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:4
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:11
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
 msgstr "आपके खाते की पुष्टि करने से आप KoboToolbox एप्लीकेशंस का इस्तेमाल कर सकेंगे। अपने नए खाते के सक्रियण को पूरा करने के लिए कृपया निम्नलिखित यूआरएल पर जाएँ।"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:8
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:13
 msgid "Your username is: "
 msgstr "आपका यूज़रनेम है: "
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:20
 msgid ""
 "For help getting started, check out the KoboToolbox user documentation: "
 "https://support.kobotoolbox.com "
 msgstr "शुरू करने में सहायता के लिए KoboToolbox उपयोगकर्ता दस्तावेज़ देखें: https://support.kobotoolbox.com "
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:12
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:21
 msgid ""
 "You can also join the KoboToolbox community forum to ask questions, share "
 "solutions, and chat with thousands of users: "
 "https://community.kobotoolbox.org"
 msgstr "प्रश्न पूछने, समाधान साझा करने, और हज़ारों उपयोगकर्ताओं से बातचीत करने के लिए आप KoboToolbox समुदाय मंच से भी जुड़ सकते हैं: https://community.kobotoolbox.org"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:2
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:10
 msgid "Activate your KoboToolbox Account"
 msgstr "अपने KoboToolbox खाते को सक्रिय करें।"
 
@@ -231,6 +234,7 @@ msgstr "पासवर्ड सफलतापूर्वक रीसेट 
 
 #: kobo/apps/accounts/templates/account/password_reset_complete.html:14
 #: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:14
+#: kobo/apps/accounts/templates/socialaccount/login.html:34
 msgid "Log in"
 msgstr "लॉग इन करें"
 
@@ -301,40 +305,37 @@ msgid "Connect with %(appname)s"
 msgstr "%(appname)s के साथ जोड़ें"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
-msgid "Log in with Single Sign On"
-msgstr "सिंगल साइन ऑन से लॉग इन करें"
+msgid "Log in with "
+msgstr ""
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
-msgid ""
-"Click the button below to log in to KoboToolbox with your %(appname)s "
-"account."
-msgstr "अपने %(appname)s खाते से KoboToolbox में लॉग इन करने के लिए नीचे बटन को क्लिक करें।"
-
-#: kobo/apps/accounts/templates/socialaccount/login.html:34
-#, python-format
-msgid "Log in with %(appname)s"
-msgstr "%(appname)s से लॉग इन करें"
+msgid "Log in to KoboToolbox with your %(appname)s account."
+msgstr ""
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
 msgstr "वापस जाएँ"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:10
+#: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
 msgstr "KoboToolbox में स्वागत है, %(username)s!"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#: kobo/apps/accounts/templates/socialaccount/signup.html:13
+msgid "Welcome to KoboToolbox!"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
 msgstr "KoboToolbox में लॉगइन करने के लिए आप अपना %(appname)s खाता इस्तेमाल करने वाले हैं।"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
 msgstr "अंतिम चरण में, कृपया नीचे दिए गए फ़ॉर्म को पूरा करें"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:39
+#: kobo/apps/accounts/templates/socialaccount/signup.html:43
 msgid "Save and Access"
 msgstr "सुरक्षित करें (सेव) और जुड़ें (एक्सेस)"
 
@@ -390,11 +391,11 @@ msgstr "आयात करें"
 msgid "Multi-factor authentication is enabled for this account. "
 msgstr "इस खाते के लिए मल्टी-फ़ैक्टर प्रमाणीकरण सक्षम है। "
 
-#: kpi/templates/base.html:34
+#: kpi/templates/base.html:37
 msgid "Terms and Conditions"
 msgstr "नियम और शर्तें"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:40
 msgid "Privacy Policy"
 msgstr "गोपनीयता नीति"
 

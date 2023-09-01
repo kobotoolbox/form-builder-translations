@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Translators:
 # brice76, 2021
 # brice76, 2021
 # Diane Detoeuf, 2021
@@ -30,7 +29,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-07 14:37+0000\n"
+"POT-Creation-Date: 2023-08-16 20:25+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Yann Bourgeois, 2021\n"
 "Language-Team: French (http://app.transifex.com/kobotoolbox/kobotoolbox/language/fr/)\n"
@@ -39,6 +38,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: fr\n"
 "Plural-Forms: nplurals=3; plural=(n == 0 || n == 1) ? 0 : n != 0 && n % 1000000 == 0 ? 1 : 2;\n"
+
+#: hub/templates/admin/loginas/change_form.html:7
+msgid "Log in as user"
+msgstr ""
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:21
 msgid "Please enter your verification token"
@@ -78,7 +81,7 @@ msgid ""
 msgstr "Ce lien expire dans une heure. Pour demander un nouveau lien de vérification, rendez-vous dans les paramètres de votre compte et saisissez à nouveau votre nouvelle adresse e-mail :"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:10
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:14
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:22
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:15
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:15
 #: kobo/apps/hook/templates/reports/failures_email_body.html:37
@@ -86,34 +89,34 @@ msgstr "Ce lien expire dans une heure. Pour demander un nouveau lien de vérific
 msgid "Best,"
 msgstr "Cordialement,"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:2
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
 msgid "Thanks for signing up with KoboToolbox!"
 msgstr "Merci de vous inscrire à KoboToolbox !"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:4
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:11
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
 msgstr "La confirmation de votre compte vous permettra d'accéder aux applications KoboToolbox. Veuillez visiter l'URL suivante pour terminer l'activation de votre nouveau compte."
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:8
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:13
 msgid "Your username is: "
 msgstr "Votre nom d'utilisateur est :"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:20
 msgid ""
 "For help getting started, check out the KoboToolbox user documentation: "
 "https://support.kobotoolbox.com "
 msgstr "Pour vous aider à démarrer, consultez le guide d'utilisation de KoboToolbox à l’adresse : https://support.kobotoolbox.com "
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:12
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:21
 msgid ""
 "You can also join the KoboToolbox community forum to ask questions, share "
 "solutions, and chat with thousands of users: "
 "https://community.kobotoolbox.org"
 msgstr "Vous pouvez également rejoindre le forum de la communauté KoboToolbox pour poser des questions, partager des solutions et discuter avec des milliers d'utilisateurs à l’adresse : https://community.kobotoolbox.org"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:2
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:10
 msgid "Activate your KoboToolbox Account"
 msgstr "Activez votre compte KoboToolbox"
 
@@ -247,6 +250,7 @@ msgstr "Mot de passe réinitialisé"
 
 #: kobo/apps/accounts/templates/account/password_reset_complete.html:14
 #: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:14
+#: kobo/apps/accounts/templates/socialaccount/login.html:34
 msgid "Log in"
 msgstr "Connexion"
 
@@ -317,40 +321,37 @@ msgid "Connect with %(appname)s"
 msgstr "Se connecter avec %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
-msgid "Log in with Single Sign On"
-msgstr "Se connecter avec l'authentification unique SSO"
+msgid "Log in with "
+msgstr ""
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
-msgid ""
-"Click the button below to log in to KoboToolbox with your %(appname)s "
-"account."
-msgstr "Cliquez sur le bouton ci-dessous pour vous connecter à KoboToolbox avec votre compte %(appname)s."
-
-#: kobo/apps/accounts/templates/socialaccount/login.html:34
-#, python-format
-msgid "Log in with %(appname)s"
-msgstr "Se connecter avec %(appname)s"
+msgid "Log in to KoboToolbox with your %(appname)s account."
+msgstr ""
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
 msgstr "retour"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:10
+#: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
 msgstr "Bienvenue sur KoboToolbox, %(username)s !"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#: kobo/apps/accounts/templates/socialaccount/signup.html:13
+msgid "Welcome to KoboToolbox!"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
 msgstr "Vous êtes sur le point d'utiliser votre compte %(appname)s pour vous connecter à KoboToolbox."
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
 msgstr "Pour terminer, veuillez remplir le formulaire ci-après"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:39
+#: kobo/apps/accounts/templates/socialaccount/signup.html:43
 msgid "Save and Access"
 msgstr "Sauvegarder et accéder"
 
@@ -406,11 +407,11 @@ msgstr "Importer"
 msgid "Multi-factor authentication is enabled for this account. "
 msgstr "L'authentification multi-facteur est activée pour ce compte."
 
-#: kpi/templates/base.html:34
+#: kpi/templates/base.html:37
 msgid "Terms and Conditions"
 msgstr "Conditions générales"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:40
 msgid "Privacy Policy"
 msgstr "Politique de confidentialité"
 

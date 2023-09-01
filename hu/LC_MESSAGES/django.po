@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Translators:
 # Aron Gergely, 2022
 # Aron Gergely, 2022
 # Mariann Urban, 2022
@@ -12,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-07 14:37+0000\n"
+"POT-Creation-Date: 2023-08-16 20:25+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Mariann Urban, 2022\n"
 "Language-Team: Hungarian (http://app.transifex.com/kobotoolbox/kobotoolbox/language/hu/)\n"
@@ -21,6 +20,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: hu\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
+
+#: hub/templates/admin/loginas/change_form.html:7
+msgid "Log in as user"
+msgstr ""
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:21
 msgid "Please enter your verification token"
@@ -60,7 +63,7 @@ msgid ""
 msgstr "Ez a hivatkozás egy óra múlva lejár. Egy új ellenőrző hivatkozásért adja meg ismét új e-mail-címét a fiókbeállításoknál:"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:10
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:14
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:22
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:15
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:15
 #: kobo/apps/hook/templates/reports/failures_email_body.html:37
@@ -68,34 +71,34 @@ msgstr "Ez a hivatkozás egy óra múlva lejár. Egy új ellenőrző hivatkozás
 msgid "Best,"
 msgstr "Üdvözlettel,"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:2
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
 msgid "Thanks for signing up with KoboToolbox!"
 msgstr "Köszönjük, hogy regisztrált a KoboToolbox alkalmazásra!"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:4
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:11
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
 msgstr "Ha megerősíti a fiókját, hozzáférést kap a KoboToolbox alkalmazásokhoz. Új fiókjának aktiválását a következő URL-címre látogatva fejezheti be."
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:8
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:13
 msgid "Your username is: "
 msgstr "A felhasználóneve: "
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:20
 msgid ""
 "For help getting started, check out the KoboToolbox user documentation: "
 "https://support.kobotoolbox.com "
 msgstr "Az első lépésekhez a KoboToolbox felhasználói dokumentációjában talál segítséget: https://support.kobotoolbox.com "
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:12
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:21
 msgid ""
 "You can also join the KoboToolbox community forum to ask questions, share "
 "solutions, and chat with thousands of users: "
 "https://community.kobotoolbox.org"
 msgstr "Csatlakozhat a KoboToolbox közösségi fórumához is, ahol feltehet kérdéseket, megoszthatja megoldásait és több ezer felhasználóval cseveghet: https://community.kobotoolbox.org"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:2
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:10
 msgid "Activate your KoboToolbox Account"
 msgstr "Aktiválja KoboToolbox-fiókját"
 
@@ -229,6 +232,7 @@ msgstr "Sikeres jelszó-visszaállítás"
 
 #: kobo/apps/accounts/templates/account/password_reset_complete.html:14
 #: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:14
+#: kobo/apps/accounts/templates/socialaccount/login.html:34
 msgid "Log in"
 msgstr "Bejelentkezés"
 
@@ -299,40 +303,37 @@ msgid "Connect with %(appname)s"
 msgstr "Összekapcsolás ezzel a fiókkal: %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
-msgid "Log in with Single Sign On"
-msgstr "Bejelentkezés egyszeri belépéssel (SSO)"
+msgid "Log in with "
+msgstr ""
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
-msgid ""
-"Click the button below to log in to KoboToolbox with your %(appname)s "
-"account."
-msgstr "Kattintson az alábbi gombra, ha %(appname)s-fiókjával kíván belépni a KoboToolbox alkalmazásba."
-
-#: kobo/apps/accounts/templates/socialaccount/login.html:34
-#, python-format
-msgid "Log in with %(appname)s"
-msgstr "Bejelentkezés %(appname)s-fiókkal"
+msgid "Log in to KoboToolbox with your %(appname)s account."
+msgstr ""
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
 msgstr "vissza"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:10
+#: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
 msgstr "Üdvözöl a KoboToolbox, kedves %(username)s!"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#: kobo/apps/accounts/templates/socialaccount/signup.html:13
+msgid "Welcome to KoboToolbox!"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
 msgstr "A(z) %(appname)s-fiókjával készül a KoboToolbox alkalmazásba bejelentkezni."
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
 msgstr "Utolsó lépésként töltse ki a következő űrlapot"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:39
+#: kobo/apps/accounts/templates/socialaccount/signup.html:43
 msgid "Save and Access"
 msgstr "Mentés és hozzáférés"
 
@@ -388,11 +389,11 @@ msgstr "Importálás"
 msgid "Multi-factor authentication is enabled for this account. "
 msgstr "Ehhez a fiókhoz a többfaktoros hitelesítés engedélyezve van. "
 
-#: kpi/templates/base.html:34
+#: kpi/templates/base.html:37
 msgid "Terms and Conditions"
 msgstr "Felhasználási feltételek"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:40
 msgid "Privacy Policy"
 msgstr "Adatvédelmi szabályzat"
 

@@ -3,7 +3,6 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
-# Translators:
 # 366ed2bf29e62b010d8715287bd97cc3_f587f89, 2021
 # Hakan Cetinkaya <cetinkayahakan90@gmail.com>, 2023
 # 366ed2bf29e62b010d8715287bd97cc3_f587f89, 2021
@@ -17,7 +16,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-03-07 14:37+0000\n"
+"POT-Creation-Date: 2023-08-16 20:25+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: suheyla ustun, 2023\n"
 "Language-Team: Turkish (http://app.transifex.com/kobotoolbox/kobotoolbox/language/tr/)\n"
@@ -26,6 +25,10 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: tr\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
+
+#: hub/templates/admin/loginas/change_form.html:7
+msgid "Log in as user"
+msgstr ""
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:21
 msgid "Please enter your verification token"
@@ -65,7 +68,7 @@ msgid ""
 msgstr "Bu bağlantı bir saat içinde sona erecek. Yeni bir doğrulama bağlantısı istemek için lütfen hesap ayarlarınıza gidin ve e-posta adresinizi tekrar girin:"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:10
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:14
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:22
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:15
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:15
 #: kobo/apps/hook/templates/reports/failures_email_body.html:37
@@ -73,34 +76,34 @@ msgstr "Bu bağlantı bir saat içinde sona erecek. Yeni bir doğrulama bağlant
 msgid "Best,"
 msgstr "En iyi dileklerimle,"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:2
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
 msgid "Thanks for signing up with KoboToolbox!"
 msgstr "KoboToolbox'a kaydolduğunuz için teşekkürler!"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:4
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:11
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
 msgstr "Hesabınızı onaylamak size KoboToolbox uygulamalarına erişim sağlayacaktır. Yeni hesabınızın aktivasyonunu tamamlamak için lütfen aşağıdaki URL'yi ziyaret edin."
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:8
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:13
 msgid "Your username is: "
 msgstr "Kullanıcı adınız: "
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:20
 msgid ""
 "For help getting started, check out the KoboToolbox user documentation: "
 "https://support.kobotoolbox.com "
 msgstr "Başlarken yardım almak için KoboToolbox kullanıcı belgelerine göz atın: https://support.kobotoolbox.com"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:12
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:21
 msgid ""
 "You can also join the KoboToolbox community forum to ask questions, share "
 "solutions, and chat with thousands of users: "
 "https://community.kobotoolbox.org"
 msgstr "Ayrıca sorular sormak, çözümleri paylaşmak ve binlerce kullanıcıyla sohbet etmek için KoboToolbox topluluk forumuna katılabilirsiniz: https://community.kobotoolbox.org"
 
-#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:2
+#: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:10
 msgid "Activate your KoboToolbox Account"
 msgstr "KoboToolbox Hesabınızı Etkinleştirin"
 
@@ -234,6 +237,7 @@ msgstr "Şifre başarıyla sıfırlandı"
 
 #: kobo/apps/accounts/templates/account/password_reset_complete.html:14
 #: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:14
+#: kobo/apps/accounts/templates/socialaccount/login.html:34
 msgid "Log in"
 msgstr "Oturum aç"
 
@@ -304,40 +308,37 @@ msgid "Connect with %(appname)s"
 msgstr "%(appname)s ile bağlanın"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
-msgid "Log in with Single Sign On"
-msgstr "Tek Oturum Açma ile oturum açın"
+msgid "Log in with "
+msgstr ""
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
-msgid ""
-"Click the button below to log in to KoboToolbox with your %(appname)s "
-"account."
-msgstr "%(appname)shesabınızla KoboToolbox'ta oturum açmak için aşağıdaki düğmeyi tıklayın."
-
-#: kobo/apps/accounts/templates/socialaccount/login.html:34
-#, python-format
-msgid "Log in with %(appname)s"
-msgstr "%(appname)s ile giriş yap"
+msgid "Log in to KoboToolbox with your %(appname)s account."
+msgstr ""
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
 msgstr "Geri git"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:10
+#: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
 msgstr "KoboToolbox'a Hoşgeldin %(username)s!"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#: kobo/apps/accounts/templates/socialaccount/signup.html:13
+msgid "Welcome to KoboToolbox!"
+msgstr ""
+
+#: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
 msgstr "KoboToolbox'ta oturum açmak için %(appname)shesabınızı kullanmak üzeresiniz."
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:14
+#: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
 msgstr "Son adım olarak lütfen aşağıdaki formu doldurun"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:39
+#: kobo/apps/accounts/templates/socialaccount/signup.html:43
 msgid "Save and Access"
 msgstr "Kaydet ve Eriş"
 
@@ -393,11 +394,11 @@ msgstr "İçe Aktar"
 msgid "Multi-factor authentication is enabled for this account. "
 msgstr "Bu hesap için çok faktörlü kimlik doğrulama etkinleştirilmiştir."
 
-#: kpi/templates/base.html:34
+#: kpi/templates/base.html:37
 msgid "Terms and Conditions"
 msgstr "Şartlar ve Koşullar"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:40
 msgid "Privacy Policy"
 msgstr "Gizlilik Politikası"
 
