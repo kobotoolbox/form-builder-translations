@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 20:25+0000\n"
+"POT-Creation-Date: 2023-09-07 13:51+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Sk.Humaun Kabir, 2021\n"
 "Language-Team: Bengali (http://app.transifex.com/kobotoolbox/kobotoolbox/language/bn/)\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 "X-Generator: Translate Toolkit 3.6.0\n"
+
+#: .%23%23field_label%23%23+(required)
+msgid "##field_label## (required)"
+msgstr "##field_label## (প্রয়োজনীয়)"
 
 #: .Use+a+few+words,+avoid+common+phrases
 msgid "Use a few words, avoid common phrases"
@@ -130,13 +134,13 @@ msgstr "'a'-এর পরিবর্তে '@'-এর মতো অনুমা
 msgid "Password strength"
 msgstr "পাসওয়ার্ডের মজবুতি"
 
-#: .%23%23field_label%23%23+(required)
-msgid "##field_label## (required)"
-msgstr "##field_label## (প্রয়োজনীয়)"
-
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "পথ পাওয়া যায় না / স্বীকৃত"
+
+#: .Untitled
+msgid "Untitled"
+msgstr "শিরোনামহীন"
 
 #: .Failed+to+update+permissions
 msgid "Failed to update permissions"
@@ -265,10 +269,6 @@ msgstr "জমা দেওয়ার পুনরায় চেষ্টা
 #: .Retrying+all+submissions+failed
 msgid "Retrying all submissions failed"
 msgstr "সকল জমা পুনরায় করার চেষ্টা ব্যর্থ হয়েছে"
-
-#: .Untitled
-msgid "Untitled"
-msgstr "শিরোনামহীন"
 
 #: .Submissions
 msgid "Submissions"
@@ -680,21 +680,161 @@ msgstr "প্রশ্নের ধরন"
 msgid "loading…"
 msgstr "লোডিং হচ্ছে..."
 
-#: .Successfuly+removed+from+collection
-msgid "Successfuly removed from collection"
-msgstr "সংগ্রহ থেকে সফলভাবে সরানো হয়েছে"
+#: .Who+has+access
+msgid "Who has access"
+msgstr "যার প্রবেশাধিকার আছে"
 
-#: .Successfuly+moved+to+collection
-msgid "Successfuly moved to collection"
-msgstr "সফলভাবে সংগ্রহে সরানো হয়েছে"
+#: .Add+user
+msgid "Add user"
+msgstr "ব্যবহারকারী যোগ করুন"
 
-#: .Move+to+collection+failed
-msgid "Move to collection failed"
-msgstr "সংগ্রহে সরানো ব্যর্থ হয়েছে"
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "লিংক দ্বারা সর্বজনীনভাবে শেয়ার করুন"
 
-#: .Failed+to+get+the+results
-msgid "Failed to get the results"
-msgstr "ফলাফল পেতে ব্যর্থ হয়েছে"
+#: .Waiting+for+all+projects+to+load%E2%80%A6
+msgid "Waiting for all projects to load…"
+msgstr "সকল প্রকল্প লোড হওয়ার জন্য অপেক্ষা করা হচ্ছে..."
+
+#: .URL+is+empty%21
+msgid "URL is empty!"
+msgstr "URL খালি!"
+
+#: .Add
+msgid "Add"
+msgstr "যুক্ত করুন"
+
+#: .You+must+redeploy+this+form+to+see+media+changes.
+msgid "You must redeploy this form to see media changes."
+msgstr "মিডিয়া পরিবর্তনগুলি দেখতে আপনাকে অবশ্যই এই ফর্মটি পুনরায় স্থাপন করতে হবে।"
+
+#: .Attach+files
+msgid "Attach files"
+msgstr "ফাইলগুলি যুক্ত করুন"
+
+#: .Learn+more+about+form+media
+msgid "Learn more about form media"
+msgstr "ফর্ম মিডিয়া সম্পর্কে আরও জানুন"
+
+#: .Drag+and+drop+files+here
+msgid "Drag and drop files here"
+msgstr "এখানে ফাইল টেনে আনুন"
+
+#: .or
+msgid "or"
+msgstr "বা"
+
+#: .click+here+to+browse
+msgid "click here to browse"
+msgstr "ব্রাউজ করতে এখানে ক্লিক করুন"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "ফাইল আপলোড করা হচ্ছে..."
+
+#: .You+can+also+add+files+using+a+URL
+msgid "You can also add files using a URL"
+msgstr "আপনি একটি URL ব্যবহার করে ফাইল যোগ করতে পারেন"
+
+#: .Paste+URL+here
+msgid "Paste URL here"
+msgstr "এখানে URL পেস্ট করুন"
+
+#: .Attached+files
+msgid "Attached files"
+msgstr "সংযুক্ত ফাইল"
+
+#: .loading+media
+msgid "loading media"
+msgstr "লোডিং মিডিয়া"
+
+#: .No+files+uploaded+yet
+msgid "No files uploaded yet"
+msgstr "কোন ফাইল এখনো আপলোড হয়নি"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "কার্যকারিতার কারণে ডিফল্ট মানচিত্রটি ##number##  সাম্প্রতিক জমাতে সীমাবদ্ধ। এই সীমা বাড়ানোর জন্য মানচিত্র সেটিংসে যান।"
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "ত্রুটি: ডাটা লোড করা যায়নি।"
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "সমীক্ষার প্রতিক্রিয়াগুলি নিরিখে আলাদা করুন।"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "ব্যবহার করে আলাদা করা হয়েছে:"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "কোন \"জিওপয়েন্ট\" প্রতিক্রিয়া পাওয়া যায়নি"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "মানচিত্রটি ডাটা দেখায় না কারণ এই ফর্মটিতে একটি \"জিওপয়েন্ট\" ক্ষেত্র নেই।"
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "ফুলস্ক্রিন টগল করুন"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "পয়েন্ট আকারে দেখান"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "স্তরগুলি টগল করুন"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "মানচিত্র প্রদর্শন সেটিংস"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "হিটম্যাপ হিসাবে দেখান"
+
+#: .Language
+msgid "Language"
+msgstr "ভাষা"
+
+#: .Default
+msgid "Default"
+msgstr "ডিফল্ট"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- সকল ডাটা দেখুন --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "অনুবাদ করা হয়নি: "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "প্রশ্ন লেবেল সেট করা হয়নি"
+
+#: .Reset
+msgid "Reset"
+msgstr "পুনরায় সেট করুন"
+
+#: .not+set
+msgid "not set"
+msgstr "সেট করা হয়নি"
+
+#: .Legend
+msgid "Legend"
+msgstr "কিংবদন্তি"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "ম্যাপ সেটিংস"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -854,557 +994,6 @@ msgstr "প্রিভিউ তৈরি করার সময় ত্র�
 msgid "Import Cascading Select Questions"
 msgstr "ক্যাসকেডিং নির্বাচন প্রশ্ন ইম্পোর্ট করুন"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "জমা uuids পেতে ব্যর্থ হয়েছে।"
-
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "জমা পেতে ব্যর্থ হয়েছে।"
-
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "জমাগুলি আপডেট করতে ব্যর্থ হয়েছে।"
-
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "কিছু জমাগুলির মান আপডেট করতে ব্যর্থ হয়েছে।"
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "জমাগুলির মান আপডেট করতে ব্যর্থ হয়েছে৷"
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "জমাগুলি মুছে ফেলতে ব্যর্থ হয়েছে৷"
-
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "আপনার মিডিয়া আপলোড করা যায়নি"
-
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "আপনার মিডিয়া পেতে কিছু ভুল হয়েছে"
-
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "সফলভাবে মিডিয়া মুছে ফেলা হয়েছে"
-
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "মিডিয়া মুছে ফেলতে ব্যর্থ!"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "এক্সপোর্ট তৈরি করতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "এক্সপোর্ট মুছে ফেলতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "এক্সপোর্ট সেটিং আপডেট করতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "এক্সপোর্ট সেটিং তৈরি করতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "এক্সপোর্ট সেটিং মুছে ফেলতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+attach+to+source
-msgid "Failed to attach to source"
-msgstr "উৎস সংযুক্ত করতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+detach+from+source
-msgid "Failed to detach from source"
-msgstr "উৎস থেকে বিচ্ছিন্ন করতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+patch+source
-msgid "Failed to patch source"
-msgstr "উৎস প্যাচ করতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+retrieve+sharing+enabled+assets
-msgid "Failed to retrieve sharing enabled assets"
-msgstr "শেয়ারিং সক্ষম সম্পদ পুনরুদ্ধার করতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+toggle+sharing
-msgid "Failed to toggle sharing"
-msgstr "শেয়ারিং টগল করতে ব্যর্থ হয়েছে"
-
-#: .Failed+to+update+column+filters
-msgid "Failed to update column filters"
-msgstr "কলাম ফিল্টার আপডেট করতে ব্যর্থ হয়েছে"
-
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "কার্যকারিতার কারণে ডিফল্ট মানচিত্রটি ##number##  সাম্প্রতিক জমাতে সীমাবদ্ধ। এই সীমা বাড়ানোর জন্য মানচিত্র সেটিংসে যান।"
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "ত্রুটি: ডাটা লোড করা যায়নি।"
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "সমীক্ষার প্রতিক্রিয়াগুলি নিরিখে আলাদা করুন।"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "ব্যবহার করে আলাদা করা হয়েছে:"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "কোন \"জিওপয়েন্ট\" প্রতিক্রিয়া পাওয়া যায়নি"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "মানচিত্রটি ডাটা দেখায় না কারণ এই ফর্মটিতে একটি \"জিওপয়েন্ট\" ক্ষেত্র নেই।"
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "ফুলস্ক্রিন টগল করুন"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "পয়েন্ট আকারে দেখান"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "স্তরগুলি টগল করুন"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "মানচিত্র প্রদর্শন সেটিংস"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "হিটম্যাপ হিসাবে দেখান"
-
-#: .Language
-msgid "Language"
-msgstr "ভাষা"
-
-#: .Default
-msgid "Default"
-msgstr "ডিফল্ট"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- সকল ডাটা দেখুন --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "অনুবাদ করা হয়নি: "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "প্রশ্ন লেবেল সেট করা হয়নি"
-
-#: .Reset
-msgid "Reset"
-msgstr "পুনরায় সেট করুন"
-
-#: .not+set
-msgid "not set"
-msgstr "সেট করা হয়নি"
-
-#: .Legend
-msgid "Legend"
-msgstr "কিংবদন্তি"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "ম্যাপ সেটিংস"
-
-#: .Who+has+access
-msgid "Who has access"
-msgstr "যার প্রবেশাধিকার আছে"
-
-#: .Add+user
-msgid "Add user"
-msgstr "ব্যবহারকারী যোগ করুন"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "লিংক দ্বারা সর্বজনীনভাবে শেয়ার করুন"
-
-#: .Waiting+for+all+projects+to+load%E2%80%A6
-msgid "Waiting for all projects to load…"
-msgstr "সকল প্রকল্প লোড হওয়ার জন্য অপেক্ষা করা হচ্ছে..."
-
-#: .new
-msgid "new"
-msgstr "নতুন"
-
-#: .Projects
-msgid "Projects"
-msgstr "প্রকল্পগুলি"
-
-#: .Library
-msgid "Library"
-msgstr "লাইব্রেরি"
-
-#: .Projects+(legacy)
-msgid "Projects (legacy)"
-msgstr "প্রকল্প (উত্তরাধিকার)"
-
-#: .Source
-msgid "Source"
-msgstr "উৎস"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "সম্পদ তালিকা করতে ব্যর্থ হয়েছে"
-
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "পেজটি রিফ্রেশ করুন"
-
-#: .Log+In
-msgid "Log In"
-msgstr "লগ ইন করুন"
-
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "অ্যাকাউন্ট সেটিংস"
-
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "পরিষেবার শর্তাবলী"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "গোপনীয়তার নীতিমালা"
-
-#: .Logout
-msgid "Logout"
-msgstr "লগ আউট করুন"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "আমার লাইব্রেরি সার্চ করুন"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "পাবলিক সংগ্রহ সার্চ করুন"
-
-#: .Search+Projects
-msgid "Search Projects"
-msgstr "প্রকল্প সার্চ করুন"
-
-#: .submissions
-msgid "submissions"
-msgstr "জমা"
-
-#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
-msgid ""
-"The stored permissions are invalid. Please assign them again. If this "
-"problem persists, contact help@kobotoolbox.org"
-msgstr "সঞ্চিত অনুমতি অবৈধ. তাদের আবার বরাদ্দ করুন. যদি এই সমস্যাটি থেকে যায়, তাহলে help@kobotoolbox.org এ যোগাযোগ করুন"
-
-#: .Table
-msgid "Table"
-msgstr "টেবিল"
-
-#: .Reports
-msgid "Reports"
-msgstr "রিপোর্টগুলি"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "গ্যালারী"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "ডাউনলোডগুলি"
-
-#: .Map
-msgid "Map"
-msgstr "ম্যাপ"
-
-#: .Summary
-msgid "Summary"
-msgstr "সারাংশ"
-
-#: .Form
-msgid "Form"
-msgstr "ফর্ম"
-
-#: .Settings
-msgid "Settings"
-msgstr "সেটিংস"
-
-#: .General
-msgid "General"
-msgstr "সাধারণ"
-
-#: .Media
-msgid "Media"
-msgstr "মিডিয়া"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "শেয়ার করা হচ্ছে"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "সংযুক্ত প্রকল্প"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "REST পরিষেবা"
-
-#: .URL+is+empty%21
-msgid "URL is empty!"
-msgstr "URL খালি!"
-
-#: .Add
-msgid "Add"
-msgstr "যুক্ত করুন"
-
-#: .You+must+redeploy+this+form+to+see+media+changes.
-msgid "You must redeploy this form to see media changes."
-msgstr "মিডিয়া পরিবর্তনগুলি দেখতে আপনাকে অবশ্যই এই ফর্মটি পুনরায় স্থাপন করতে হবে।"
-
-#: .Attach+files
-msgid "Attach files"
-msgstr "ফাইলগুলি যুক্ত করুন"
-
-#: .Learn+more+about+form+media
-msgid "Learn more about form media"
-msgstr "ফর্ম মিডিয়া সম্পর্কে আরও জানুন"
-
-#: .Drag+and+drop+files+here
-msgid "Drag and drop files here"
-msgstr "এখানে ফাইল টেনে আনুন"
-
-#: .or
-msgid "or"
-msgstr "বা"
-
-#: .click+here+to+browse
-msgid "click here to browse"
-msgstr "ব্রাউজ করতে এখানে ক্লিক করুন"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "ফাইল আপলোড করা হচ্ছে..."
-
-#: .You+can+also+add+files+using+a+URL
-msgid "You can also add files using a URL"
-msgstr "আপনি একটি URL ব্যবহার করে ফাইল যোগ করতে পারেন"
-
-#: .Paste+URL+here
-msgid "Paste URL here"
-msgstr "এখানে URL পেস্ট করুন"
-
-#: .Attached+files
-msgid "Attached files"
-msgstr "সংযুক্ত ফাইল"
-
-#: .loading+media
-msgid "loading media"
-msgstr "লোডিং মিডিয়া"
-
-#: .No+files+uploaded+yet
-msgid "No files uploaded yet"
-msgstr "কোন ফাইল এখনো আপলোড হয়নি"
-
-#: .Create
-msgid "Create"
-msgstr "তৈরি করুন"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "অনুগ্রহ করে অপেক্ষা করুন..."
-
-#: .Failed+to+create+new+asset%21
-msgid "Failed to create new asset!"
-msgstr "নতুন সম্পদ তৈরি করতে ব্যর্থ!"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "ক্লিপবোর্ডে কপি করা হয়েছে"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "-এর ক্লোন"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "##ASSET_TYPE## ক্লোনের নাম লিখুন। আসল নাম রাখতে খালি রেখে দিন।"
-
-#: .Ok
-msgid "Ok"
-msgstr "ঠিক আছে"
-
-#: .Create+new+template+from+this+project
-msgid "Create new template from this project"
-msgstr "এই প্রকল্প থেকে নতুন টেমপ্লেট তৈরি করুন"
-
-#: .Enter+the+name+of+the+new+template.
-msgid "Enter the name of the new template."
-msgstr "নতুন টেমপ্লেটের নাম লিখুন।"
-
-#: .deploying+to+kobocat...
-msgid "deploying to kobocat..."
-msgstr "kobocat-এ মোতায়েন করা হচ্ছে..."
-
-#: .deployed+form
-msgid "deployed form"
-msgstr "মোতায়েন ফর্ম"
-
-#: .Overwrite+existing+deployment
-msgid "Overwrite existing deployment"
-msgstr "বিদ্যমান স্থাপনা ওভাররাইট করুন"
-
-#: .Deploying...
-msgid "Deploying..."
-msgstr "মোতায়েন করা হচ্ছে..."
-
-#: .redeployed+form
-msgid "redeployed form"
-msgstr "পুনরায় স্থাপন করা ফর্ম"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "## ফাইলগুলি"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "XLSForm আমদানি ব্যর্থ হয়েছে। XLSForm এবং/বা URL বৈধ কিনা পরীক্ষা করুন এবং \"প্রতিস্থাপন ফর্ম\" আইকন ব্যবহার করে আবার চেষ্টা করুন।"
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "XLS ইম্পোর্ট সম্পন্ন হয়েছে"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "আপনার আপলোড প্রক্রিয়া করা হচ্ছে। এটি কয়েক মিনিট সময় লাগতে পারে।"
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "আপনার আপলোড প্রক্রিয়াকরণের জন্য সারিবদ্ধ করা হচ্ছে। এটি কয়েক মিনিট সময় লাগতে পারে।"
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "ইম্পোর্ট করা ব্যর্থ হয়েছে!"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "ইম্পোর্ট তৈরি করতে ব্যর্থ হয়েছে।"
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "আপলোড ত্রুটি: এক্সেল ফাইল চেনা যায়নি।"
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "আপলোড করা ফাইলের নাম: "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "বাদ দেওয়া আইটেম(গুলি) চিনতে পারেনি।"
-
-#: .Cloning...
-msgid "Cloning..."
-msgstr "ক্লোনিং..."
-
-#: .cloned+%23%23ASSET_TYPE%23%23+created
-msgid "cloned ##ASSET_TYPE## created"
-msgstr "ক্লোন ##ASSET_TYPE## তৈরি করা হয়েছে"
-
-#: .Create+new+project+from+this+template
-msgid "Create new project from this template"
-msgstr "এই টেমপ্লেট থেকে নতুন প্রকল্প তৈরি করুন"
-
-#: .Enter+the+name+of+the+new+project.
-msgid "Enter the name of the new project."
-msgstr "নতুন প্রকল্পের নাম লিখুন।"
-
-#: .%23%23ASSET_TYPE%23%23+deleted+permanently
-msgid "##ASSET_TYPE## deleted permanently"
-msgstr "##ASSET_TYPE## স্থায়ীভাবে মুছে ফেলা হয়েছে"
-
-#: .You+are+about+to+permanently+delete+this+item+from+your+library.
-msgid "You are about to permanently delete this item from your library."
-msgstr "আপনি আপনার লাইব্রেরি থেকে এই আইটেমটি স্থায়ীভাবে মুছে ফেলতে চলেছেন।"
-
-#: .You+are+about+to+permanently+delete+this+draft.
-msgid "You are about to permanently delete this draft."
-msgstr "আপনি এই খসড়াটি স্থায়ীভাবে মুছে ফেলতে পারবেন।"
-
-#: .You+are+about+to+permanently+delete+this+form.
-msgid "You are about to permanently delete this form."
-msgstr "আপনি এই ফর্মটি স্থায়ীভাবে মুছে ফেলতে পারবেন।"
-
-#: .All+data+gathered+for+this+form+will+be+deleted.
-msgid "All data gathered for this form will be deleted."
-msgstr "এই ফর্মের জন্য সংগ্রহ করা সকল ডাটা মুছে ফেলা হবে।"
-
-#: .The+form+associated+with+this+project+will+be+deleted.
-msgid "The form associated with this project will be deleted."
-msgstr "এই প্রকল্পের সাথে যুক্ত ফর্মটি মুছে ফেলা হবে।"
-
-#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
-msgid ""
-"I understand that if I delete this project I will not be able to recover it."
-msgstr "আমি বুঝি যে আমি এই প্রকল্পটি মুছে দিলে আমি এটি পুনরুদ্ধার করতে সক্ষম হব না।"
-
-#: .Delete
-msgid "Delete"
-msgstr "বাতিল করুন"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "আর্কাইভ করা প্রকল্প"
-
-#: .Are+you+sure+you+want+to+archive+this+project%3F
-msgid "Are you sure you want to archive this project?"
-msgstr "আপনি কি নিশ্চিত আপনি এই প্রকল্প আর্কাইভ করতে চান?"
-
-#: .Your+form+will+not+accept+submissions+while+it+is+archived.
-msgid "Your form will not accept submissions while it is archived."
-msgstr "আর্কাইভ করা অবস্থায় আপনার ফর্ম জমা গ্রহণ করবে না।"
-
-#: .Archive
-msgid "Archive"
-msgstr "আর্কাইভ"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "আন আর্কাইভ করা প্রকল্প"
-
-#: .Are+you+sure+you+want+to+unarchive+this+project%3F
-msgid "Are you sure you want to unarchive this project?"
-msgstr "আপনি কি নিশ্চিত আপনি এই প্রকল্পটি আন আর্কাইভ করতে চান?"
-
-#: .Unarchive
-msgid "Unarchive"
-msgstr "আন আর্কাইভ"
-
-#: .Remove+shared+form
-msgid "Remove shared form"
-msgstr "শেয়ার করা ফর্ম সরান"
-
-#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
-msgid "Are you sure you want to remove this shared form?"
-msgstr "আপনি কি এই শেয়ার করা ফর্মটি সরানোর বিষয়ে নিশ্চিত?"
-
-#: .Remove
-msgid "Remove"
-msgstr "মুছে ফেলুন"
-
 #: .Import
 msgid "Import"
 msgstr "ইমপোর্ট করুন"
@@ -1453,6 +1042,10 @@ msgstr "ত্রুটি: সম্পদ তৈরি করা যায়�
 msgid "Error: new project could not be created."
 msgstr "ত্রুটি: নতুন প্রকল্প তৈরি করা যায়নি।"
 
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "অনুগ্রহ করে অপেক্ষা করুন..."
+
 #: .Retrieving+form,+please+wait...
 msgid "Retrieving form, please wait..."
 msgstr "ফর্ম পুনরুদ্ধার করা হচ্ছে, অনুগ্রহ করে অপেক্ষা করুন..."
@@ -1460,6 +1053,10 @@ msgstr "ফর্ম পুনরুদ্ধার করা হচ্ছে, �
 #: .Failed+to+reload+project+after+import%21
 msgid "Failed to reload project after import!"
 msgstr "ইম্পোর্ট-এর পর প্রকল্প পুনরায় লোড করতে ব্যর্থ হয়েছে!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "ইম্পোর্ট করা ব্যর্থ হয়েছে!"
 
 #: .Could+not+initialize+XLSForm+import%21
 msgid "Could not initialize XLSForm import!"
@@ -1577,6 +1174,14 @@ msgstr "আপনার প্রকল্প ব্যক্তিগতভা�
 msgid "Save"
 msgstr "সেভ করুন"
 
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "আন আর্কাইভ করা প্রকল্প"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "আর্কাইভ করা প্রকল্প"
+
 #: .Archive+project+to+stop+accepting+submissions.
 msgid "Archive project to stop accepting submissions."
 msgstr "জমা গ্রহণ বন্ধ করার জন্য প্রকল্প সংরক্ষণাগার।"
@@ -1597,6 +1202,476 @@ msgstr "ফিরে যান"
 msgid ""
 "Form replacing is not available due to form's Locking Profile restrictions."
 msgstr "ফর্মের লকিং প্রোফাইল সীমাবদ্ধতার কারণে ফর্ম প্রতিস্থাপন উপলভ্য নয়।"
+
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "জমা uuids পেতে ব্যর্থ হয়েছে।"
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "জমা পেতে ব্যর্থ হয়েছে।"
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "জমাগুলি আপডেট করতে ব্যর্থ হয়েছে।"
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "কিছু জমাগুলির মান আপডেট করতে ব্যর্থ হয়েছে।"
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "জমাগুলির মান আপডেট করতে ব্যর্থ হয়েছে৷"
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "জমাগুলি মুছে ফেলতে ব্যর্থ হয়েছে৷"
+
+#: .Successfuly+removed+from+collection
+msgid "Successfuly removed from collection"
+msgstr "সংগ্রহ থেকে সফলভাবে সরানো হয়েছে"
+
+#: .Successfuly+moved+to+collection
+msgid "Successfuly moved to collection"
+msgstr "সফলভাবে সংগ্রহে সরানো হয়েছে"
+
+#: .Move+to+collection+failed
+msgid "Move to collection failed"
+msgstr "সংগ্রহে সরানো ব্যর্থ হয়েছে"
+
+#: .Failed+to+get+the+results
+msgid "Failed to get the results"
+msgstr "ফলাফল পেতে ব্যর্থ হয়েছে"
+
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "আপনার মিডিয়া আপলোড করা যায়নি"
+
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "আপনার মিডিয়া পেতে কিছু ভুল হয়েছে"
+
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "সফলভাবে মিডিয়া মুছে ফেলা হয়েছে"
+
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "মিডিয়া মুছে ফেলতে ব্যর্থ!"
+
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "এক্সপোর্ট তৈরি করতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "এক্সপোর্ট মুছে ফেলতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "এক্সপোর্ট সেটিং আপডেট করতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "এক্সপোর্ট সেটিং তৈরি করতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "এক্সপোর্ট সেটিং মুছে ফেলতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+attach+to+source
+msgid "Failed to attach to source"
+msgstr "উৎস সংযুক্ত করতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+detach+from+source
+msgid "Failed to detach from source"
+msgstr "উৎস থেকে বিচ্ছিন্ন করতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+patch+source
+msgid "Failed to patch source"
+msgstr "উৎস প্যাচ করতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+retrieve+sharing+enabled+assets
+msgid "Failed to retrieve sharing enabled assets"
+msgstr "শেয়ারিং সক্ষম সম্পদ পুনরুদ্ধার করতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+toggle+sharing
+msgid "Failed to toggle sharing"
+msgstr "শেয়ারিং টগল করতে ব্যর্থ হয়েছে"
+
+#: .Failed+to+update+column+filters
+msgid "Failed to update column filters"
+msgstr "কলাম ফিল্টার আপডেট করতে ব্যর্থ হয়েছে"
+
+#: .Create
+msgid "Create"
+msgstr "তৈরি করুন"
+
+#: .Failed+to+create+new+asset%21
+msgid "Failed to create new asset!"
+msgstr "নতুন সম্পদ তৈরি করতে ব্যর্থ!"
+
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "ক্লিপবোর্ডে কপি করা হয়েছে"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "-এর ক্লোন"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "##ASSET_TYPE## ক্লোনের নাম লিখুন। আসল নাম রাখতে খালি রেখে দিন।"
+
+#: .Ok
+msgid "Ok"
+msgstr "ঠিক আছে"
+
+#: .Create+new+template+from+this+project
+msgid "Create new template from this project"
+msgstr "এই প্রকল্প থেকে নতুন টেমপ্লেট তৈরি করুন"
+
+#: .Enter+the+name+of+the+new+template.
+msgid "Enter the name of the new template."
+msgstr "নতুন টেমপ্লেটের নাম লিখুন।"
+
+#: .deploying+to+kobocat...
+msgid "deploying to kobocat..."
+msgstr "kobocat-এ মোতায়েন করা হচ্ছে..."
+
+#: .deployed+form
+msgid "deployed form"
+msgstr "মোতায়েন ফর্ম"
+
+#: .Overwrite+existing+deployment
+msgid "Overwrite existing deployment"
+msgstr "বিদ্যমান স্থাপনা ওভাররাইট করুন"
+
+#: .Deploying...
+msgid "Deploying..."
+msgstr "মোতায়েন করা হচ্ছে..."
+
+#: .redeployed+form
+msgid "redeployed form"
+msgstr "পুনরায় স্থাপন করা ফর্ম"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "## ফাইলগুলি"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "XLSForm আমদানি ব্যর্থ হয়েছে। XLSForm এবং/বা URL বৈধ কিনা পরীক্ষা করুন এবং \"প্রতিস্থাপন ফর্ম\" আইকন ব্যবহার করে আবার চেষ্টা করুন।"
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "XLS ইম্পোর্ট সম্পন্ন হয়েছে"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "আপনার আপলোড প্রক্রিয়া করা হচ্ছে। এটি কয়েক মিনিট সময় লাগতে পারে।"
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "আপনার আপলোড প্রক্রিয়াকরণের জন্য সারিবদ্ধ করা হচ্ছে। এটি কয়েক মিনিট সময় লাগতে পারে।"
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "ইম্পোর্ট তৈরি করতে ব্যর্থ হয়েছে।"
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "আপলোড ত্রুটি: এক্সেল ফাইল চেনা যায়নি।"
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "আপলোড করা ফাইলের নাম: "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "বাদ দেওয়া আইটেম(গুলি) চিনতে পারেনি।"
+
+#: .Cloning...
+msgid "Cloning..."
+msgstr "ক্লোনিং..."
+
+#: .cloned+%23%23ASSET_TYPE%23%23+created
+msgid "cloned ##ASSET_TYPE## created"
+msgstr "ক্লোন ##ASSET_TYPE## তৈরি করা হয়েছে"
+
+#: .Create+new+project+from+this+template
+msgid "Create new project from this template"
+msgstr "এই টেমপ্লেট থেকে নতুন প্রকল্প তৈরি করুন"
+
+#: .Enter+the+name+of+the+new+project.
+msgid "Enter the name of the new project."
+msgstr "নতুন প্রকল্পের নাম লিখুন।"
+
+#: .%23%23ASSET_TYPE%23%23+deleted+permanently
+msgid "##ASSET_TYPE## deleted permanently"
+msgstr "##ASSET_TYPE## স্থায়ীভাবে মুছে ফেলা হয়েছে"
+
+#: .You+are+about+to+permanently+delete+this+item+from+your+library.
+msgid "You are about to permanently delete this item from your library."
+msgstr "আপনি আপনার লাইব্রেরি থেকে এই আইটেমটি স্থায়ীভাবে মুছে ফেলতে চলেছেন।"
+
+#: .You+are+about+to+permanently+delete+this+draft.
+msgid "You are about to permanently delete this draft."
+msgstr "আপনি এই খসড়াটি স্থায়ীভাবে মুছে ফেলতে পারবেন।"
+
+#: .You+are+about+to+permanently+delete+this+form.
+msgid "You are about to permanently delete this form."
+msgstr "আপনি এই ফর্মটি স্থায়ীভাবে মুছে ফেলতে পারবেন।"
+
+#: .All+data+gathered+for+this+form+will+be+deleted.
+msgid "All data gathered for this form will be deleted."
+msgstr "এই ফর্মের জন্য সংগ্রহ করা সকল ডাটা মুছে ফেলা হবে।"
+
+#: .The+form+associated+with+this+project+will+be+deleted.
+msgid "The form associated with this project will be deleted."
+msgstr "এই প্রকল্পের সাথে যুক্ত ফর্মটি মুছে ফেলা হবে।"
+
+#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
+msgid ""
+"I understand that if I delete this project I will not be able to recover it."
+msgstr "আমি বুঝি যে আমি এই প্রকল্পটি মুছে দিলে আমি এটি পুনরুদ্ধার করতে সক্ষম হব না।"
+
+#: .Delete
+msgid "Delete"
+msgstr "বাতিল করুন"
+
+#: .Are+you+sure+you+want+to+archive+this+project%3F
+msgid "Are you sure you want to archive this project?"
+msgstr "আপনি কি নিশ্চিত আপনি এই প্রকল্প আর্কাইভ করতে চান?"
+
+#: .Your+form+will+not+accept+submissions+while+it+is+archived.
+msgid "Your form will not accept submissions while it is archived."
+msgstr "আর্কাইভ করা অবস্থায় আপনার ফর্ম জমা গ্রহণ করবে না।"
+
+#: .Archive
+msgid "Archive"
+msgstr "আর্কাইভ"
+
+#: .Are+you+sure+you+want+to+unarchive+this+project%3F
+msgid "Are you sure you want to unarchive this project?"
+msgstr "আপনি কি নিশ্চিত আপনি এই প্রকল্পটি আন আর্কাইভ করতে চান?"
+
+#: .Unarchive
+msgid "Unarchive"
+msgstr "আন আর্কাইভ"
+
+#: .Remove+shared+form
+msgid "Remove shared form"
+msgstr "শেয়ার করা ফর্ম সরান"
+
+#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
+msgid "Are you sure you want to remove this shared form?"
+msgstr "আপনি কি এই শেয়ার করা ফর্মটি সরানোর বিষয়ে নিশ্চিত?"
+
+#: .Remove
+msgid "Remove"
+msgstr "মুছে ফেলুন"
+
+#: .Table
+msgid "Table"
+msgstr "টেবিল"
+
+#: .Reports
+msgid "Reports"
+msgstr "রিপোর্টগুলি"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "গ্যালারী"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "ডাউনলোডগুলি"
+
+#: .Map
+msgid "Map"
+msgstr "ম্যাপ"
+
+#: .Summary
+msgid "Summary"
+msgstr "সারাংশ"
+
+#: .Form
+msgid "Form"
+msgstr "ফর্ম"
+
+#: .Settings
+msgid "Settings"
+msgstr "সেটিংস"
+
+#: .General
+msgid "General"
+msgstr "সাধারণ"
+
+#: .Media
+msgid "Media"
+msgstr "মিডিয়া"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "শেয়ার করা হচ্ছে"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "সংযুক্ত প্রকল্প"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "REST পরিষেবা"
+
+#: .All+questions
+msgid "All questions"
+msgstr "সকল প্রশ্নগুলি"
+
+#: .Image+Gallery
+msgid "Image Gallery"
+msgstr "ছবির গ্যালারি"
+
+#: .From
+msgid "From"
+msgstr "হতে"
+
+#: .Between
+msgid "Between"
+msgstr "মধ্যে"
+
+#: .and
+msgid "and"
+msgstr "এবং"
+
+#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
+msgid ""
+"The stored permissions are invalid. Please assign them again. If this "
+"problem persists, contact help@kobotoolbox.org"
+msgstr "সঞ্চিত অনুমতি অবৈধ. তাদের আবার বরাদ্দ করুন. যদি এই সমস্যাটি থেকে যায়, তাহলে help@kobotoolbox.org এ যোগাযোগ করুন"
+
+#: .new
+msgid "new"
+msgstr "নতুন"
+
+#: .Projects
+msgid "Projects"
+msgstr "প্রকল্পগুলি"
+
+#: .Library
+msgid "Library"
+msgstr "লাইব্রেরি"
+
+#: .Projects+(legacy)
+msgid "Projects (legacy)"
+msgstr "প্রকল্প (উত্তরাধিকার)"
+
+#: .Source
+msgid "Source"
+msgstr "উৎস"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "সম্পদ তালিকা করতে ব্যর্থ হয়েছে"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "পেজটি রিফ্রেশ করুন"
+
+#: .Log+In
+msgid "Log In"
+msgstr "লগ ইন করুন"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "অ্যাকাউন্ট সেটিংস"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "পরিষেবার শর্তাবলী"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "গোপনীয়তার নীতিমালা"
+
+#: .Logout
+msgid "Logout"
+msgstr "লগ আউট করুন"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "আমার লাইব্রেরি সার্চ করুন"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "পাবলিক সংগ্রহ সার্চ করুন"
+
+#: .Search+Projects
+msgid "Search Projects"
+msgstr "প্রকল্প সার্চ করুন"
+
+#: .submissions
+msgid "submissions"
+msgstr "জমা"
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "অনুগ্রহ করে হেডার বোতাম ব্যবহার করে লগ ইন করার চেষ্টা করুন বা যদি আপনি মনে করেন এটি একটি ত্রুটি।"
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "যদি আপনি মনে করেন এটি একটি ত্রুটি অনুগ্রহ করে [সহায়তা দলের সাথে যোগাযোগ করুন]।"
+
+#: .Access+denied
+msgid "Access denied"
+msgstr "অ্যাক্সেস অস্বীকৃত"
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "হয় আপনার এই পেজটিতে অ্যাক্সেস নেই বা এই পেজটি কেবল বিদ্যমান নেই।"
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "অতিরিক্ত তথ্য:"
+
+#: .This+field+is+required.
+msgid "This field is required."
+msgstr "ঘরটি অবশ্যই পূরণ করতে হবে।"
+
+#: .This+field+must+match+the+Verify+Password+field.
+msgid "This field must match the Verify Password field."
+msgstr "এই ক্ষেত্রটি অবশ্যই পাসওয়ার্ড যাচাইয়ের ক্ষেত্রের সাথে মেলে।"
+
+#: .Save+Password
+msgid "Save Password"
+msgstr "পাসওয়ার্ড সেভ করুন"
+
+#: .Reset+Password
+msgid "Reset Password"
+msgstr "পাসওয়ার্ড রিসেট করুন"
+
+#: .Current+Password
+msgid "Current Password"
+msgstr "বর্তমান পাসওয়ার্ড"
+
+#: .Forgot+Password%3F
+msgid "Forgot Password?"
+msgstr "পাসওয়ার্ড ভুলে গেছেন?"
+
+#: .New+Password
+msgid "New Password"
+msgstr "নতুন পাসওয়ার্ড"
+
+#: .Verify+Password
+msgid "Verify Password"
+msgstr "পাসওয়ার্ড ভেরিফাই করুন"
 
 #: .Success%21
 msgid "Success!"
@@ -1677,311 +1752,6 @@ msgstr "অনুবাদ টেবিল বন্ধ করবেন?"
 #: .You+will+lose+all+unsaved+changes.
 msgid "You will lose all unsaved changes."
 msgstr "আপনি সব অসংরক্ষিত পরিবর্তন হারাবেন।"
-
-#: .All+questions
-msgid "All questions"
-msgstr "সকল প্রশ্নগুলি"
-
-#: .Image+Gallery
-msgid "Image Gallery"
-msgstr "ছবির গ্যালারি"
-
-#: .From
-msgid "From"
-msgstr "হতে"
-
-#: .Between
-msgid "Between"
-msgstr "মধ্যে"
-
-#: .and
-msgid "and"
-msgstr "এবং"
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "অনুগ্রহ করে হেডার বোতাম ব্যবহার করে লগ ইন করার চেষ্টা করুন বা যদি আপনি মনে করেন এটি একটি ত্রুটি।"
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "যদি আপনি মনে করেন এটি একটি ত্রুটি অনুগ্রহ করে [সহায়তা দলের সাথে যোগাযোগ করুন]।"
-
-#: .Access+denied
-msgid "Access denied"
-msgstr "অ্যাক্সেস অস্বীকৃত"
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "হয় আপনার এই পেজটিতে অ্যাক্সেস নেই বা এই পেজটি কেবল বিদ্যমান নেই।"
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "অতিরিক্ত তথ্য:"
-
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "মালিকের ডাটা পেতে ব্যর্থ হয়েছে।"
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "তারিখ তৈরী"
-
-#: .Owner
-msgid "Owner"
-msgstr "মালিক"
-
-#: .Tags
-msgid "Tags"
-msgstr "ট্যাগগুলি"
-
-#: .Items
-msgid "Items"
-msgstr "আইটেমগুলি"
-
-#: .Organization
-msgid "Organization"
-msgstr "সংস্থা"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "সম্পূর্ণ বিবরণ লুকান"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "সম্পূর্ণ বিবরণ দেখান"
-
-#: .Name
-msgid "Name"
-msgstr "নাম"
-
-#: .Type
-msgid "Type"
-msgstr "ধরন"
-
-#: .Shared+by
-msgid "Shared by"
-msgstr "-দ্বারা শেয়ার করা হচ্ছে"
-
-#: .Created
-msgid "Created"
-msgstr "তৈরি হয়েছে"
-
-#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
-msgid ""
-"Let's get started by creating your first project. Click the New button to "
-"create a new form."
-msgstr "আপনার প্রথম প্রকল্প তৈরি করে শুরু করা যাক. একটি নতুন ফর্ম তৈরি করতে নতুন বোতামে ক্লিক করুন।"
-
-#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
-msgid ""
-"Advanced users: You can also drag and drop XLSForms here and they will be "
-"uploaded and converted to projects."
-msgstr "উন্নত ব্যবহারকারী: আপনি এখানে XLSForms টেনে আনতে পারেন এবং সেগুলি আপলোড করা হবে এবং প্রকল্পে রূপান্তরিত হবে।"
-
-#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
-msgid ""
-"Let's get started by creating your first library question or question block."
-" Click the New button to create a new question or block."
-msgstr "আপনার প্রথম লাইব্রেরি প্রশ্ন বা প্রশ্ন ব্লক তৈরি করে শুরু করা যাক। একটি নতুন প্রশ্ন বা ব্লক তৈরি করতে নতুন বোতামে ক্লিক করুন।"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "সম্পদ পাবলিক স্ট্যাটাস পরিবর্তন করতে ব্যর্থ হয়েছে।"
-
-#: .Make+public
-msgid "Make public"
-msgstr "জনসাধারণের জন্য উন্মুক্ত করুন"
-
-#: .Make+private
-msgid "Make private"
-msgstr "প্রাইভেট করুন"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "এই ##asset_type## খালি।"
-
-#: .Show+less
-msgid "Show less"
-msgstr "কম দেখান"
-
-#: .Show+more
-msgid "Show more"
-msgstr "আরও দেখান"
-
-#: .Vertical
-msgid "Vertical"
-msgstr "উল্লম্ব"
-
-#: .Donut
-msgid "Donut"
-msgstr "ডোনাট"
-
-#: .Area
-msgid "Area"
-msgstr "অঞ্চল"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "অনুভূমিক"
-
-#: .Pie
-msgid "Pie"
-msgstr "পাই"
-
-#: .Line
-msgid "Line"
-msgstr "লাইন"
-
-#: .Unlabeled
-msgid "Unlabeled"
-msgstr "লেবেলবিহীন"
-
-#: .Include+the+following+questions
-msgid "Include the following questions:"
-msgstr "নিম্নলিখিত প্রশ্নগুলি অন্তর্ভুক্ত করুন:"
-
-#: .Chart+Type
-msgid "Chart Type"
-msgstr "চার্টের ধরন"
-
-#: .Colors
-msgid "Colors"
-msgstr "রং"
-
-#: .No+grouping
-msgid "No grouping"
-msgstr "কোনো গ্রুপিং নেই"
-
-#: .Group+By
-msgid "Group By"
-msgstr "-দ্বারা গ্রুপ"
-
-#: .Translation
-msgid "Translation"
-msgstr "অনুবাদ"
-
-#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
-msgid "This project has no submitted data. Please collect some and try again."
-msgstr "এই প্রকল্পের কোনো জমা তথ্য নেই. কিছু সংগ্রহ করুন এবং আবার চেষ্টা করুন।"
-
-#: .results
-msgid "results"
-msgstr "ফলাফল"
-
-#: .Edit
-msgid "Edit"
-msgstr "সম্পাদনা করুন"
-
-#: .Validation
-msgid "Validation"
-msgstr "কার্যকারিতা"
-
-#: .Show+All
-msgid "Show All"
-msgstr "সবগুলি দেখুন"
-
-#: .Search
-msgid "Search"
-msgstr "সার্চ করুন"
-
-#: .Display+options
-msgid "Display options"
-msgstr "বিকল্পগুলি প্রদর্শন করুন"
-
-#: .Prev
-msgid "Prev"
-msgstr "পূর্ববর্তী"
-
-#: .Your+filters+returned+no+submissions.
-msgid "Your filters returned no submissions."
-msgstr "আপনার ফিল্টার কোন জমা রিটার্ন করেনি।"
-
-#: .Page
-msgid "Page"
-msgstr "পেজ"
-
-#: .rows
-msgid "rows"
-msgstr "সারি"
-
-#: .My+Projects
-msgid "My Projects"
-msgstr "আমার প্রকল্পগুলি"
-
-#: .Is
-msgid "Is"
-msgstr "হয়"
-
-#: .Is+not
-msgid "Is not"
-msgstr "হয় না"
-
-#: .Contains
-msgid "Contains"
-msgstr "ধারণ করে"
-
-#: .Does+not+contain
-msgid "Does not contain"
-msgstr "ধারণ করে না"
-
-#: .Starts+with
-msgid "Starts with"
-msgstr "সঙ্গে শুরু হয়"
-
-#: .Ends+with
-msgid "Ends with"
-msgstr "সঙ্গে শেষ হয়"
-
-#: .Is+empty
-msgid "Is empty"
-msgstr "খালি"
-
-#: .Is+not+empty
-msgid "Is not empty"
-msgstr "খালি নয়"
-
-#: .Project+name
-msgid "Project name"
-msgstr "প্রকল্পের নাম"
-
-#: .Status
-msgid "Status"
-msgstr "স্ট্যাটাস"
-
-#: .Owner+username
-msgid "Owner username"
-msgstr "মালিকের ব্যবহারকারী নাম"
-
-#: .Owner+full+name
-msgid "Owner full name"
-msgstr "মালিকের পূর্ণ নাম"
-
-#: .Owner+email
-msgid "Owner email"
-msgstr "মালিকের ইমেইল"
-
-#: .Owner+organization
-msgid "Owner organization"
-msgstr "মালিকের সংস্থা"
-
-#: .Date+modified
-msgid "Date modified"
-msgstr "তারিখ পরিবর্তন করা হয়েছে"
-
-#: .Date+deployed
-msgid "Date deployed"
-msgstr "তারিখ স্থাপন"
-
-#: .Countries
-msgid "Countries"
-msgstr "দেশগুলি"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "অভিভাবক কালেকশন"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2079,41 +1849,195 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "এই প্রকল্পে তাদের থেকে গতিশীল ডাটা ইম্পোর্ট করতে অন্যান্য প্রকল্পের(গুলির) সাথে সংযোগ করুন। ডাইনামিক ডাটা অ্যাটাচমেন্ট সম্পর্কে আরও জানুন"
 
-#: .DONE
-msgid "DONE"
-msgstr "সম্পন্ন হয়েছে"
+#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
+msgid "This project has no submitted data. Please collect some and try again."
+msgstr "এই প্রকল্পের কোনো জমা তথ্য নেই. কিছু সংগ্রহ করুন এবং আবার চেষ্টা করুন।"
 
-#: .This+field+is+required.
-msgid "This field is required."
-msgstr "ঘরটি অবশ্যই পূরণ করতে হবে।"
+#: .results
+msgid "results"
+msgstr "ফলাফল"
 
-#: .This+field+must+match+the+Verify+Password+field.
-msgid "This field must match the Verify Password field."
-msgstr "এই ক্ষেত্রটি অবশ্যই পাসওয়ার্ড যাচাইয়ের ক্ষেত্রের সাথে মেলে।"
+#: .Edit
+msgid "Edit"
+msgstr "সম্পাদনা করুন"
 
-#: .Save+Password
-msgid "Save Password"
-msgstr "পাসওয়ার্ড সেভ করুন"
+#: .Validation
+msgid "Validation"
+msgstr "কার্যকারিতা"
 
-#: .Reset+Password
-msgid "Reset Password"
-msgstr "পাসওয়ার্ড রিসেট করুন"
+#: .Show+All
+msgid "Show All"
+msgstr "সবগুলি দেখুন"
 
-#: .Current+Password
-msgid "Current Password"
-msgstr "বর্তমান পাসওয়ার্ড"
+#: .Search
+msgid "Search"
+msgstr "সার্চ করুন"
 
-#: .Forgot+Password%3F
-msgid "Forgot Password?"
-msgstr "পাসওয়ার্ড ভুলে গেছেন?"
+#: .Display+options
+msgid "Display options"
+msgstr "বিকল্পগুলি প্রদর্শন করুন"
 
-#: .New+Password
-msgid "New Password"
-msgstr "নতুন পাসওয়ার্ড"
+#: .Prev
+msgid "Prev"
+msgstr "পূর্ববর্তী"
 
-#: .Verify+Password
-msgid "Verify Password"
-msgstr "পাসওয়ার্ড ভেরিফাই করুন"
+#: .Your+filters+returned+no+submissions.
+msgid "Your filters returned no submissions."
+msgstr "আপনার ফিল্টার কোন জমা রিটার্ন করেনি।"
+
+#: .Page
+msgid "Page"
+msgstr "পেজ"
+
+#: .rows
+msgid "rows"
+msgstr "সারি"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "এই ##asset_type## খালি।"
+
+#: .Show+less
+msgid "Show less"
+msgstr "কম দেখান"
+
+#: .Show+more
+msgid "Show more"
+msgstr "আরও দেখান"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "সম্পদ পাবলিক স্ট্যাটাস পরিবর্তন করতে ব্যর্থ হয়েছে।"
+
+#: .Make+public
+msgid "Make public"
+msgstr "জনসাধারণের জন্য উন্মুক্ত করুন"
+
+#: .Make+private
+msgid "Make private"
+msgstr "প্রাইভেট করুন"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "মালিকের ডাটা পেতে ব্যর্থ হয়েছে।"
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "তারিখ তৈরী"
+
+#: .Owner
+msgid "Owner"
+msgstr "মালিক"
+
+#: .Tags
+msgid "Tags"
+msgstr "ট্যাগগুলি"
+
+#: .Items
+msgid "Items"
+msgstr "আইটেমগুলি"
+
+#: .Organization
+msgid "Organization"
+msgstr "সংস্থা"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "সম্পূর্ণ বিবরণ লুকান"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "সম্পূর্ণ বিবরণ দেখান"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "উল্লম্ব"
+
+#: .Donut
+msgid "Donut"
+msgstr "ডোনাট"
+
+#: .Area
+msgid "Area"
+msgstr "অঞ্চল"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "অনুভূমিক"
+
+#: .Pie
+msgid "Pie"
+msgstr "পাই"
+
+#: .Line
+msgid "Line"
+msgstr "লাইন"
+
+#: .Unlabeled
+msgid "Unlabeled"
+msgstr "লেবেলবিহীন"
+
+#: .Include+the+following+questions
+msgid "Include the following questions:"
+msgstr "নিম্নলিখিত প্রশ্নগুলি অন্তর্ভুক্ত করুন:"
+
+#: .Chart+Type
+msgid "Chart Type"
+msgstr "চার্টের ধরন"
+
+#: .Colors
+msgid "Colors"
+msgstr "রং"
+
+#: .Name
+msgid "Name"
+msgstr "নাম"
+
+#: .Type
+msgid "Type"
+msgstr "ধরন"
+
+#: .Shared+by
+msgid "Shared by"
+msgstr "-দ্বারা শেয়ার করা হচ্ছে"
+
+#: .Created
+msgid "Created"
+msgstr "তৈরি হয়েছে"
+
+#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
+msgid ""
+"Let's get started by creating your first project. Click the New button to "
+"create a new form."
+msgstr "আপনার প্রথম প্রকল্প তৈরি করে শুরু করা যাক. একটি নতুন ফর্ম তৈরি করতে নতুন বোতামে ক্লিক করুন।"
+
+#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
+msgid ""
+"Advanced users: You can also drag and drop XLSForms here and they will be "
+"uploaded and converted to projects."
+msgstr "উন্নত ব্যবহারকারী: আপনি এখানে XLSForms টেনে আনতে পারেন এবং সেগুলি আপলোড করা হবে এবং প্রকল্পে রূপান্তরিত হবে।"
+
+#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
+msgid ""
+"Let's get started by creating your first library question or question block."
+" Click the New button to create a new question or block."
+msgstr "আপনার প্রথম লাইব্রেরি প্রশ্ন বা প্রশ্ন ব্লক তৈরি করে শুরু করা যাক। একটি নতুন প্রশ্ন বা ব্লক তৈরি করতে নতুন বোতামে ক্লিক করুন।"
+
+#: .No+grouping
+msgid "No grouping"
+msgstr "কোনো গ্রুপিং নেই"
+
+#: .Group+By
+msgid "Group By"
+msgstr "-দ্বারা গ্রুপ"
+
+#: .Translation
+msgid "Translation"
+msgstr "অনুবাদ"
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "অভিভাবক কালেকশন"
 
 #: .Subscribers
 msgid "Subscribers"
@@ -2216,32 +2140,157 @@ msgstr "শহর"
 msgid "Social"
 msgstr "সামাজিক"
 
-#: .Community+plan+(free+access)
-msgid "Community plan (free access)"
-msgstr "জনগোষ্ঠী পরিকল্পনা (ফ্রি অ্যাক্সেস)"
-
-#: .Free+access+to+all+services.+5GB+of+media+attachments+per+account,+10,000+submissions+per+month,+as+well+as+25+minutes+of+automatic+speech+recognition+and+20,000+characters+of+machine+translation+per+month.
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"Free access to all services. 5GB of media attachments per account, 10,000 "
-"submissions per month, as well as 25 minutes of automatic speech recognition"
-" and 20,000 characters of machine translation per month."
-msgstr "সকল পরিষেবা ফ্রি অ্যাক্সেস. প্রতি অ্যাকাউন্টে 5GB মিডিয়া সংযুক্তি, প্রতি মাসে 10,000 জমা দেওয়া, সেইসাথে 25 মিনিট স্বয়ংক্রিয় স্পীচ রিকগনিশন এবং প্রতি মাসে 20,000 অক্ষরের মেশিন অনুবাদ।"
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr ""
 
-#: .Current+Plan
-msgid "Current Plan"
-msgstr "বর্তমান পরিকল্পনা"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr ""
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr ""
+
+#: .Annual
+msgid "Annual"
+msgstr ""
+
+#: .Monthly
+msgid "Monthly"
+msgstr ""
+
+#: .your+plan
+msgid "your plan"
+msgstr ""
+
+#: .Free
+msgid "Free"
+msgstr ""
 
 #: .Upgrade
 msgid "Upgrade"
 msgstr "আপগ্রেড করুন"
 
-#: .Add+ons+and+upgrades+to+your+plan
-msgid "Add ons and upgrades to your plan"
-msgstr "আপনার পরিকল্পনায় অন এবং আপগ্রেড যোগ করুন"
+#: .Manage
+msgid "Manage"
+msgstr ""
+
+#: .Change+plan
+msgid "Change plan"
+msgstr ""
+
+#: .Need+More%3F
+msgid "Need More?"
+msgstr ""
+
+#: .We+offer+several+add-on+options+to+increase+your+limits+or+the+capacity+of+certain+features+for+a+period+of+time,+depending+on+which+plan+you+use.
+msgid ""
+"We offer several add-on options to increase your limits or the capacity of "
+"certain features for a period of time, depending on which plan you use."
+msgstr ""
+
+#: .If+your+organization+has+larger+or+more+specific+needs,+please+contact+our+team+to+learn+about+our+enterprise+options.
+msgid ""
+"If your organization has larger or more specific needs, please contact our "
+"team to learn about our enterprise options."
+msgstr ""
+
+#: .Get+in+touch+for+Enterprise+options
+msgid "Get in touch for Enterprise options"
+msgstr ""
+
+#: .Collapse
+msgid "Collapse"
+msgstr ""
+
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr ""
+
+#: .My+Projects
+msgid "My Projects"
+msgstr "আমার প্রকল্পগুলি"
+
+#: .Is
+msgid "Is"
+msgstr "হয়"
+
+#: .Is+not
+msgid "Is not"
+msgstr "হয় না"
+
+#: .Contains
+msgid "Contains"
+msgstr "ধারণ করে"
+
+#: .Does+not+contain
+msgid "Does not contain"
+msgstr "ধারণ করে না"
+
+#: .Starts+with
+msgid "Starts with"
+msgstr "সঙ্গে শুরু হয়"
+
+#: .Ends+with
+msgid "Ends with"
+msgstr "সঙ্গে শেষ হয়"
+
+#: .Is+empty
+msgid "Is empty"
+msgstr "খালি"
+
+#: .Is+not+empty
+msgid "Is not empty"
+msgstr "খালি নয়"
+
+#: .Project+name
+msgid "Project name"
+msgstr "প্রকল্পের নাম"
+
+#: .Status
+msgid "Status"
+msgstr "স্ট্যাটাস"
+
+#: .Owner+username
+msgid "Owner username"
+msgstr "মালিকের ব্যবহারকারী নাম"
+
+#: .Owner+full+name
+msgid "Owner full name"
+msgstr "মালিকের পূর্ণ নাম"
+
+#: .Owner+email
+msgid "Owner email"
+msgstr "মালিকের ইমেইল"
+
+#: .Owner+organization
+msgid "Owner organization"
+msgstr "মালিকের সংস্থা"
+
+#: .Date+modified
+msgid "Date modified"
+msgstr "তারিখ পরিবর্তন করা হয়েছে"
+
+#: .Date+deployed
+msgid "Date deployed"
+msgstr "তারিখ স্থাপন"
+
+#: .Countries
+msgid "Countries"
+msgstr "দেশগুলি"
 
 #: .Security
 msgid "Security"
 msgstr "নিরাপত্তা"
+
+#: .DONE
+msgid "DONE"
+msgstr "সম্পন্ন হয়েছে"
 
 #: .Previous
 msgid "Previous"
@@ -2295,13 +2344,190 @@ msgstr "শেয়ার করুন"
 msgid "View containing Collection"
 msgstr "ধারণকারী সংগ্রহ দেখুন"
 
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "প্রশ্ন লাইব্রেরিতে যোগ করা হয়েছে"
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr ""
 
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "গ্রুপটিকে লাইব্রেরিতে ব্লক হিসেবে যুক্ত করা হয়েছে"
+#: .Item
+msgid "Item"
+msgstr "আইটেম"
+
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "##total_count##-এর"
+
+#: .Transcript
+msgid "Transcript"
+msgstr "ট্রান্সক্রিপ্ট"
+
+#: .Translations
+msgid "Translations"
+msgstr "অনুবাদ"
+
+#: .Analysis
+msgid "Analysis"
+msgstr "বিশ্লেষণ"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "সর্বশেষ পরিবর্তিত ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "তৈরি হয়েছে ##date##"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "অনুমতি সফলভাবে কপি করা হয়েছে"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "আপনি ##source to ##টার্গেট থেকে অনুমতিগুলি কপি করতে চলেছেন।৷ এই পদক্ষেপটি পূর্বাবস্থায় ফিরানো যাবে না।"
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "আপনি কি নিশ্চিত আপনি অনুমতি কপি করতে চান?"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "এগিয়ে যান"
+
+#: .Unlabelled
+msgid "Unlabelled"
+msgstr "লেবেলবিহীন"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "অন্য প্রকল্প থেকে কপি করা দল"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "এটি এই প্রকল্পে সংজ্ঞায়িত বিদ্যমান শেয়ারিং সেটিংস ওভাররাইট করবে।"
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "উত্স প্রকল্প নির্বাচন করুন..."
+
+#: .copy
+msgid "copy"
+msgstr "কপি করুন"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "কমা দ্বারা পৃথক ব্যবহারকারীর নাম লিখুন"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "ব্যবহারকারী্কে খুঁজে পাওয়া যায় না:"
+
+#: .username
+msgid "username"
+msgstr "ব্যবহারকারীর নাম"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "অনুমতি দিন"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "পারমিশন আপডেট করুন"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "যে কেউ এই ফর্ম দেখতে পারেন"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "যে কেউ এই ফর্মে করা জমাগুলি দেখতে পারেন"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "শেয়ারযোগ্য লিংক"
+
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "আপনি সংরক্ষণ না করে চলে যেতে চান?"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "অনুমতি অপসারণ করবেন?"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "এই ক্রিয়াটি ব্যবহারকারী ##username##-এর জন্য সকল অনুমতি মুছে ফেলবে"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
+msgid "##permission_label## (##username_list##)"
+msgstr "##permission_label## (##username_list##)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
+msgid "##permission_label## (##username_list## and 1 other)"
+msgstr "##permission_label## (##username_list## এবং 1 অন্য)"
+
+#: .is+owner
+msgid "is owner"
+msgstr "মালিক"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "REST পরিষেবাগুলি লোড করা যায়নি।"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "আপনি কি নিশ্চিত যে আপনি ##target মুছে ফেলতে চান?"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "আপনি ##target মুছে ফেলতে চলেছেন। এই পদক্ষেপটি পূর্বাবস্থায় ফেরানো যাবে না।"
+
+#: .Confirm
+msgid "Confirm"
+msgstr "নিশ্চিত করুন"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "একটি নতুন পরিষেবা নিবন্ধন করুন।"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "এই প্রকল্পের এখনো কোনো REST পরিষেবা নেই!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "তৃতীয় পক্ষের আবেদনে স্বয়ংক্রিয়ভাবে জমা পোস্ট করতে আপনি REST পরিষেবা ব্যবহার করতে পারেন।"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "আরও জানুন"
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "REST পরিষেবা: ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "সাহায্যের প্রয়োজন?"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "পরিষেবার নাম"
+
+#: .Success
+msgid "Success"
+msgstr "সফলতা"
+
+#: .Pending
+msgid "Pending"
+msgstr "বিচারাধীন"
+
+#: .Failed
+msgid "Failed"
+msgstr "ব্যর্থ হয়েছে"
 
 #: .Paste+your+formatted+table+from+excel+in+the+box+below.
 msgid "Paste your formatted table from excel in the box below."
@@ -2334,6 +2560,54 @@ msgstr "___ প্রশ্নের ব্লক"
 #: .search+library
 msgid "search library"
 msgstr "লাইব্রেরি সার্চ করুন"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "REST পরিষেবা লোড করা যায়নি"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "REST পরিষেবা লগগুলি লোড করা যায়নি।"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "জমার ব্যর্থতার বিস্তারিত (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "REST পরিষেবাগুলিতে ফিরে যান"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "লোড হচ্ছে..."
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "এখনো কোন লগ নেই"
+
+#: .Submission
+msgid "Submission"
+msgstr "দাখিল"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "সকল জমা পুনরায় চেষ্টা করুন"
+
+#: .Date
+msgid "Date"
+msgstr "তারিখ"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "বিচারাধীন (##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "আবার জমা দেওয়ার চেষ্টা করুন"
+
+#: .More+info
+msgid "More info"
+msgstr "আরও তথ্য"
 
 #: .Marker+Colors
 msgid "Marker Colors"
@@ -2417,202 +2691,13 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "ডিফল্টরূপে মানচিত্রটি ##QUERY_LIMIT_DEFAULT##-এর সাম্প্রতিক জমার মধ্যে সীমাবদ্ধ। আপনি এই সীমাকে অস্থায়ীভাবে একটি ভিন্ন মান বাড়াতে পারেন। নোট করুন যে আপনি যখনই মানচিত্রটি পুনরায় খুলবেন তখন এটি পুনরায় সেট করা হবে৷"
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "অনুমতি সফলভাবে কপি করা হয়েছে"
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "প্রশ্ন লাইব্রেরিতে যোগ করা হয়েছে"
 
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "আপনি ##source to ##টার্গেট থেকে অনুমতিগুলি কপি করতে চলেছেন।৷ এই পদক্ষেপটি পূর্বাবস্থায় ফিরানো যাবে না।"
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "আপনি কি নিশ্চিত আপনি অনুমতি কপি করতে চান?"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "এগিয়ে যান"
-
-#: .Unlabelled
-msgid "Unlabelled"
-msgstr "লেবেলবিহীন"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "অন্য প্রকল্প থেকে কপি করা দল"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "এটি এই প্রকল্পে সংজ্ঞায়িত বিদ্যমান শেয়ারিং সেটিংস ওভাররাইট করবে।"
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "উত্স প্রকল্প নির্বাচন করুন..."
-
-#: .copy
-msgid "copy"
-msgstr "কপি করুন"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "REST পরিষেবাগুলি লোড করা যায়নি।"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "আপনি কি নিশ্চিত যে আপনি ##target মুছে ফেলতে চান?"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "আপনি ##target মুছে ফেলতে চলেছেন। এই পদক্ষেপটি পূর্বাবস্থায় ফেরানো যাবে না।"
-
-#: .Confirm
-msgid "Confirm"
-msgstr "নিশ্চিত করুন"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "একটি নতুন পরিষেবা নিবন্ধন করুন।"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "এই প্রকল্পের এখনো কোনো REST পরিষেবা নেই!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "তৃতীয় পক্ষের আবেদনে স্বয়ংক্রিয়ভাবে জমা পোস্ট করতে আপনি REST পরিষেবা ব্যবহার করতে পারেন।"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "আরও জানুন"
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "REST পরিষেবা: ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "সাহায্যের প্রয়োজন?"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "পরিষেবার নাম"
-
-#: .Success
-msgid "Success"
-msgstr "সফলতা"
-
-#: .Pending
-msgid "Pending"
-msgstr "বিচারাধীন"
-
-#: .Failed
-msgid "Failed"
-msgstr "ব্যর্থ হয়েছে"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "REST পরিষেবা লোড করা যায়নি"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "REST পরিষেবা লগগুলি লোড করা যায়নি।"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "জমার ব্যর্থতার বিস্তারিত (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "REST পরিষেবাগুলিতে ফিরে যান"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "লোড হচ্ছে..."
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "এখনো কোন লগ নেই"
-
-#: .Submission
-msgid "Submission"
-msgstr "দাখিল"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "সকল জমা পুনরায় চেষ্টা করুন"
-
-#: .Date
-msgid "Date"
-msgstr "তারিখ"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "বিচারাধীন (##count##×)"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "আবার জমা দেওয়ার চেষ্টা করুন"
-
-#: .More+info
-msgid "More info"
-msgstr "আরও তথ্য"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "যে কেউ এই ফর্ম দেখতে পারেন"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "যে কেউ এই ফর্মে করা জমাগুলি দেখতে পারেন"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "শেয়ারযোগ্য লিংক"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "কমা দ্বারা পৃথক ব্যবহারকারীর নাম লিখুন"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "ব্যবহারকারী্কে খুঁজে পাওয়া যায় না:"
-
-#: .username
-msgid "username"
-msgstr "ব্যবহারকারীর নাম"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "অনুমতি দিন"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "পারমিশন আপডেট করুন"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "অনুমতি অপসারণ করবেন?"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "এই ক্রিয়াটি ব্যবহারকারী ##username##-এর জন্য সকল অনুমতি মুছে ফেলবে"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
-msgid "##permission_label## (##username_list##)"
-msgstr "##permission_label## (##username_list##)"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
-msgid "##permission_label## (##username_list## and 1 other)"
-msgstr "##permission_label## (##username_list## এবং 1 অন্য)"
-
-#: .is+owner
-msgid "is owner"
-msgstr "মালিক"
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "গ্রুপটিকে লাইব্রেরিতে ব্লক হিসেবে যুক্ত করা হয়েছে"
 
 #: .Search...
 msgid "Search..."
@@ -2646,41 +2731,9 @@ msgstr "সম্পদ পাওয়া গেছে"
 msgid "expand details"
 msgstr "বিস্তারিত প্রসারিত করুন"
 
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr ""
-
-#: .Item
-msgid "Item"
-msgstr "আইটেম"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "##total_count##-এর"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "ট্রান্সক্রিপ্ট"
-
-#: .Translations
-msgid "Translations"
-msgstr "অনুবাদ"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "বিশ্লেষণ"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "সর্বশেষ পরিবর্তিত ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "তৈরি হয়েছে ##date##"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "আপনি সংরক্ষণ না করে চলে যেতে চান?"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "নির্বাচন করুন..."
 
 #: .Audit+settings
 msgid "Audit settings"
@@ -2709,6 +2762,14 @@ msgstr "ব্যাকগ্রাউন্ডের অডিও রেকর�
 #: .Audio+quality
 msgid "Audio quality"
 msgstr "অডিও মান"
+
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "আপনার কোন টেমপ্লেট নেই। লাইব্রেরিতে যান এবং কিছু তৈরি করুন।"
+
+#: .Template+name
+msgid "Template name"
+msgstr "টেম্পলেট নাম"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -2746,6 +2807,38 @@ msgstr "লকের কার্যকারিতা"
 #: .Unlocked+functionalities
 msgid "Unlocked functionalities"
 msgstr "আনলকের কার্যকারিতা"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "সার্চ..."
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "অনুগ্রহ করে আপনার ##type##-এর জন্য একটি শিরোনাম লিখুন"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "শিরোনামহীন ##type##"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "শিরোনামহীন সংগ্রহ"
+
+#: .project+title
+msgid "project title"
+msgstr "প্রকল্প শিরোনাম"
+
+#: .Profile
+msgid "Profile"
+msgstr "প্রোফাইল"
+
+#: .Usage
+msgid "Usage"
+msgstr ""
+
+#: .Your+Plan
+msgid "Your Plan"
+msgstr "আপনার প্ল্যান"
 
 #: .Incorrect+token
 msgid "Incorrect token"
@@ -2830,61 +2923,72 @@ msgstr "অনুগ্রহ করে মনে রাখবেন যে দ�
 msgid "Issues with the token"
 msgstr "টোকেন নিয়ে সমস্যা"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "নির্বাচন করুন..."
+#: .Type+
+msgid "Type: "
+msgstr "ধরন: "
 
-#: .Profile
-msgid "Profile"
-msgstr "প্রোফাইল"
+#: ..+
+msgid ". "
+msgstr ". "
 
-#: .Usage
-msgid "Usage"
-msgstr ""
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#2 উত্তরদাতাদের মধ্যে #1 এই প্রশ্নের উত্তর দিয়েছেন। "
 
-#: .Your+Plan
-msgid "Your Plan"
-msgstr "আপনার প্ল্যান"
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# ডেটা ছাড়াই ছিল।)"
 
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "সার্চ..."
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "গ্রাফ ধরন ওভাররাইড করুন"
 
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "অনুগ্রহ করে আপনার ##type##-এর জন্য একটি শিরোনাম লিখুন"
+#: .Deploy+this+project
+msgid "Deploy this project"
+msgstr "এই প্রকল্প স্থাপন করুন"
 
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "শিরোনামহীন ##type##"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "সহায়তার রিসোর্সসমূহ"
 
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "শিরোনামহীন সংগ্রহ"
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "KoboToolbox সহায়তা কেন্দ্র"
 
-#: .project+title
-msgid "project title"
-msgstr "প্রকল্প শিরোনাম"
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "Kobo সম্পর্কিত ব্যবহারকারী সহায়তা আর্টিকেল এবং টিউটোরিয়ালের একটি বিশাল সংগ্রহ"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "আপনার কোন টেমপ্লেট নেই। লাইব্রেরিতে যান এবং কিছু তৈরি করুন।"
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "KoboToolbox কমিউনিটি ফোরাম"
 
-#: .Template+name
-msgid "Template name"
-msgstr "টেম্পলেট নাম"
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "বিশ্বজুড়ে অভিজ্ঞ কোবো ব্যবহারকারীদের কাছ থেকে উত্তর পেতে আপনার প্রশ্ন পোস্ট করুন"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "ট্যাগ আপডেট করতে ব্যর্থ হয়েছে"
+#: .Notifications
+msgid "Notifications"
+msgstr "নোটিফিকেশন"
 
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "আপডেট হচ্ছে..."
+#: .Help
+msgid "Help"
+msgstr "সাহায্য করুন"
 
-#: .Update
-msgid "Update"
-msgstr "আপডেট করুন"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "##submissionTotal##-এর মধ্যে ##submissionIndex## জমা হয়েছে"
+
+#: .download
+msgid "download"
+msgstr "ডাউনলোড করুন"
+
+#: .process
+msgid "process"
+msgstr "প্রক্রিয়াকরণ করুন"
 
 #: .Question+Block
 msgid "Question Block"
@@ -2897,6 +3001,22 @@ msgstr "টেমপ্লেট"
 #: .Collection
 msgid "Collection"
 msgstr "সংগ্রহ"
+
+#: .Choose+desired+type
+msgid "Choose desired type"
+msgstr "পছন্দসই টাইপ নির্বাচন করুন"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "ট্যাগ আপডেট করতে ব্যর্থ হয়েছে"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "আপডেট হচ্ছে..."
+
+#: .Update
+msgid "Update"
+msgstr "আপডেট করুন"
 
 #: .%23%23type%23%23+%23%23name%23%23+created
 msgid "##type## ##name## created"
@@ -2980,14 +3100,6 @@ msgstr "ইম্পোর্ট করা প্রশ্ন আপডেট �
 msgid "Accept"
 msgstr "গ্রহণ করুন"
 
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "পছন্দসই টাইপ নির্বাচন করুন"
-
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "অসমর্থিত মিডিয়ার ধরন: ##QUESTION_TYPE##"
-
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
 msgstr "একটি ত্রুটি ছিল, টেবিল সেটিংস সংরক্ষণ করা যাবে না।"
@@ -3011,6 +3123,83 @@ msgstr "টেবিল হেডারে গ্রুপের নাম দ�
 #: .Show+HXL+tags
 msgid "Show HXL tags"
 msgstr "HXL ট্যাগ দেখান"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "কোনো জমা পাওয়া যায়নি। এটা মুছে ফেলা হতে পারে। জমা দেওয়ার আইডি: ##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "জমা মুছে ফেলবেন?"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "আপনি কি এই জমাটি মুছে ফেলার বিষয়ে নিশ্চিত?"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "এই ক্রিয়াটি পূর্বাবস্থায় ফেরানো যাবে না"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "ডুপ্লিকেট তৈরি করা হয়েছে"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "জমা রেকর্ডের একটি সদৃশ সফলভাবে তৈরি করা হয়েছে৷ আপনি নীচের নতুন উদাহরণ দেখতে পারেন এবং নীচের অ্যাকশন বোতামগুলি ব্যবহার করে পরিবর্তন করতে পারেন।"
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "ডুপ্লিকেট জমা বাতিল করুন"
+
+#: .Discard
+msgid "Discard"
+msgstr "বাতিল করুন"
+
+#: .Language
+msgid "Language:"
+msgstr "ভাষা:"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "কার্যকারিতার স্ট্যাটাস:"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "এই জমা দেওয়ার জন্য সবচেয়ে সাম্প্রতিক ডেটা লোড করতে নীচের বোতামে ক্লিক করুন। "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "জমা রিফ্রেশ করুন"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "পটভূমি অডিও রেকর্ডিং"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "XML নামগুলি প্রদর্শন করুন"
+
+#: .View
+msgid "View"
+msgstr "দেখুন"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "নকল"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "জমা মুছে ফেলুন"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "অসমর্থিত মিডিয়ার ধরন: ##QUESTION_TYPE##"
 
 #: .n/d
 msgid "n/d"
@@ -3104,99 +3293,6 @@ msgstr "পৌনঃপুনিকতা"
 #: .Percentage
 msgid "Percentage"
 msgstr "শতাংশ"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "কোনো জমা পাওয়া যায়নি। এটা মুছে ফেলা হতে পারে। জমা দেওয়ার আইডি: ##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "জমা মুছে ফেলবেন?"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "আপনি কি এই জমাটি মুছে ফেলার বিষয়ে নিশ্চিত?"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "এই ক্রিয়াটি পূর্বাবস্থায় ফেরানো যাবে না"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "ডুপ্লিকেট তৈরি করা হয়েছে"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "জমা রেকর্ডের একটি সদৃশ সফলভাবে তৈরি করা হয়েছে৷ আপনি নীচের নতুন উদাহরণ দেখতে পারেন এবং নীচের অ্যাকশন বোতামগুলি ব্যবহার করে পরিবর্তন করতে পারেন।"
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "ডুপ্লিকেট জমা বাতিল করুন"
-
-#: .Discard
-msgid "Discard"
-msgstr "বাতিল করুন"
-
-#: .Language
-msgid "Language:"
-msgstr "ভাষা:"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "কার্যকারিতার স্ট্যাটাস:"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "এই জমা দেওয়ার জন্য সবচেয়ে সাম্প্রতিক ডেটা লোড করতে নীচের বোতামে ক্লিক করুন। "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "জমা রিফ্রেশ করুন"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "পটভূমি অডিও রেকর্ডিং"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "XML নামগুলি প্রদর্শন করুন"
-
-#: .View
-msgid "View"
-msgstr "দেখুন"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "নকল"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "জমা মুছে ফেলুন"
-
-#: .%2A+Save+Changes
-msgid "* Save Changes"
-msgstr "* পরিবর্তনগুলি সংরক্ষন করুন"
-
-#: .updated+text
-msgid "updated text"
-msgstr "টেক্সট আপডেট করা হয়েছে"
-
-#: .translation
-msgid "translation"
-msgstr "অনুবাদ"
-
-#: .Original+string
-msgid "Original string"
-msgstr "আসল স্ট্রিং"
-
-#: .Go+back%3F
-msgid "Go back?"
-msgstr "ফিরে যাবেন?"
 
 #: .Delete+language%3F
 msgid "Delete language?"
@@ -3292,9 +3388,25 @@ msgstr "ভাষা যোগ করুন"
 msgid "Add a new language"
 msgstr "নতুন ভাষা যোগ করুন"
 
-#: .Deploy+this+project
-msgid "Deploy this project"
-msgstr "এই প্রকল্প স্থাপন করুন"
+#: .%2A+Save+Changes
+msgid "* Save Changes"
+msgstr "* পরিবর্তনগুলি সংরক্ষন করুন"
+
+#: .updated+text
+msgid "updated text"
+msgstr "টেক্সট আপডেট করা হয়েছে"
+
+#: .translation
+msgid "translation"
+msgstr "অনুবাদ"
+
+#: .Original+string
+msgid "Original string"
+msgstr "আসল স্ট্রিং"
+
+#: .Go+back%3F
+msgid "Go back?"
+msgstr "ফিরে যাবেন?"
 
 #: .JSON
 msgid "JSON"
@@ -3378,205 +3490,9 @@ msgstr "JSON জমা দেওয়ার চারপাশে কাস্�
 msgid "Add Custom Wrapper"
 msgstr "কাস্টম মোড়ক যোগ করুন"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "সহায়তার রিসোর্সসমূহ"
-
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "KoboToolbox সহায়তা কেন্দ্র"
-
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "Kobo সম্পর্কিত ব্যবহারকারী সহায়তা আর্টিকেল এবং টিউটোরিয়ালের একটি বিশাল সংগ্রহ"
-
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "KoboToolbox কমিউনিটি ফোরাম"
-
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "বিশ্বজুড়ে অভিজ্ঞ কোবো ব্যবহারকারীদের কাছ থেকে উত্তর পেতে আপনার প্রশ্ন পোস্ট করুন"
-
-#: .Notifications
-msgid "Notifications"
-msgstr "নোটিফিকেশন"
-
-#: .Help
-msgid "Help"
-msgstr "সাহায্য করুন"
-
-#: .Type+
-msgid "Type: "
-msgstr "ধরন: "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#2 উত্তরদাতাদের মধ্যে #1 এই প্রশ্নের উত্তর দিয়েছেন। "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# ডেটা ছাড়াই ছিল।)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "গ্রাফ ধরন ওভাররাইড করুন"
-
-#: .filter
-msgid "filter"
-msgstr "ফিল্টার"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "কোনো ফিল্টার নেই, আপনি নীচে একটি যোগ করতে পারেন"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "ফিল্টার যোগ করুন"
-
-#: .Apply
-msgid "Apply"
-msgstr "আবেদন করুন"
-
-#: .fields
-msgid "fields"
-msgstr "ফিল্ডগুলি"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "##submissionTotal##-এর মধ্যে ##submissionIndex## জমা হয়েছে"
-
-#: .download
-msgid "download"
-msgstr "ডাউনলোড করুন"
-
-#: .process
-msgid "process"
-msgstr "প্রক্রিয়াকরণ করুন"
-
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "Enketo লোড করার সময় একটি ত্রুটি হয়েছে৷"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "সকল ফলাফলগুলি নির্বাচন করুন (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "দৃশ্যমান ফলাফলগুলি নির্বাচন করুন (##count##)"
-
-#: .None
-msgid "None"
-msgstr "কোনোটা নয়"
-
-#: .Update+status+of+selected+submissions
-msgid "Update status of selected submissions"
-msgstr "নির্বাচিত জমার স্ট্যাটাস আপডেট করুন"
-
-#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
-msgid ""
-"You have selected ## submissions. Are you sure you would like to update "
-"their status? This action is irreversible."
-msgstr "আপনি ## জমা নির্বাচন করেছেন। আপনি কি তাদের স্ট্যাটাস আপডেট করার বিষয়ে নিশ্চিত? এই কার্যটি অপরিবর্তনীয়৷"
-
-#: .Update+Validation+Status
-msgid "Update Validation Status"
-msgstr "কার্যকারিতার স্ট্যাটাস আপডেট করুন"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
-msgid ""
-"You are about to permanently delete ##count## submissions. It is not "
-"possible to recover deleted submissions."
-msgstr "আপনি স্থায়ীভাবে জমাগুলি ##count## মুছে ফেলতে চলেছেন৷ মুছে ফেলা জমা পুনরুদ্ধার করা সম্ভব নয়।"
-
-#: .Delete+selected+submissions
-msgid "Delete selected submissions"
-msgstr "নির্বাচিত জমাগুলি মুঁছে ফেলুন"
-
-#: .Delete+selected
-msgid "Delete selected"
-msgstr "নির্বাচিতগুলি মুঁছে ফেলুন"
-
-#: .%23%23count%23%23+selected
-msgid "##count## selected"
-msgstr "##count## নির্বাচন করা হয়েছে"
-
-#: .Change+status
-msgid "Change status"
-msgstr "স্ট্যাটাস পরিবর্তন করুন"
-
-#: .Set+status+%23%23status%23%23
-msgid "Set status: ##status##"
-msgstr "স্টাস্টস সেট করুন: ##status##"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "ফিল্ডগুলি লুকান"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "A→Z অনুযায়ী সাজান"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "Z→A অনুযায়ী সাজান"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "ফিল্ড লুকান"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "ফিল্ড আনফ্রিজ করুন"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "ফিল্ড ফ্রিজ করুন"
-
-#: .Delete+export%3F
-msgid "Delete export?"
-msgstr "এক্সপোর্ট মুছে ফেলবেন?"
-
-#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
-msgid ""
-"Are you sure you want to delete this export? This action is not reversible."
-msgstr "আপনি কি এই এক্সপোর্ট মুছে ফেলার বিষয়ে নিশ্চিত? এই পদক্ষেপ পরিবর্তনযোগ্য না।"
-
-#: .Unknown
-msgid "Unknown"
-msgstr "অজানা"
-
-#: .Export+Failed
-msgid "Export Failed"
-msgstr "এক্সপোর্ট ব্যর্থ হয়েছে"
-
-#: .Processing%E2%80%A6
-msgid "Processing…"
-msgstr "প্রক্রিয়া করা হচ্ছে..."
-
-#: .Exports
-msgid "Exports"
-msgstr "এক্সপোর্টগুলি"
-
-#: .Include+Groups
-msgid "Include Groups"
-msgstr "গ্রুপ অন্তর্ভুক্ত করুন"
-
-#: .Multiple+Versions
-msgid "Multiple Versions"
-msgstr "একাধিক সংস্করণ"
-
-#: .There+is+nothing+to+download+yet.
-msgid "There is nothing to download yet."
-msgstr "এখনো ডাউনলোড করার কিছু নেই।"
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -3591,6 +3507,10 @@ msgid ""
 "Are you sure you want to delete this settings? This action is not "
 "reversible."
 msgstr "আপনি কি নিশ্চিত আপনি এই সেটিংস মুছে দিতে চান? এই কার্যটি পরিবর্তনযোগ্য না।"
+
+#: .None
+msgid "None"
+msgstr "কোনোটা নয়"
 
 #: .Include+data+from+all
 msgid "Include data from all"
@@ -3666,6 +3586,135 @@ msgid ""
 "using one of the other export types available."
 msgstr "এই এক্সপোর্ট বিন্যাস ভবিষ্যতে সমর্থিত হবে না. অনুগ্রহ করে উপলভ্য অন্যান্য এক্সপোর্ট এর প্রকারের একটি ব্যবহার বিবেচনা করুন।"
 
+#: .Delete+export%3F
+msgid "Delete export?"
+msgstr "এক্সপোর্ট মুছে ফেলবেন?"
+
+#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
+msgid ""
+"Are you sure you want to delete this export? This action is not reversible."
+msgstr "আপনি কি এই এক্সপোর্ট মুছে ফেলার বিষয়ে নিশ্চিত? এই পদক্ষেপ পরিবর্তনযোগ্য না।"
+
+#: .Unknown
+msgid "Unknown"
+msgstr "অজানা"
+
+#: .Export+Failed
+msgid "Export Failed"
+msgstr "এক্সপোর্ট ব্যর্থ হয়েছে"
+
+#: .Processing%E2%80%A6
+msgid "Processing…"
+msgstr "প্রক্রিয়া করা হচ্ছে..."
+
+#: .Exports
+msgid "Exports"
+msgstr "এক্সপোর্টগুলি"
+
+#: .Include+Groups
+msgid "Include Groups"
+msgstr "গ্রুপ অন্তর্ভুক্ত করুন"
+
+#: .Multiple+Versions
+msgid "Multiple Versions"
+msgstr "একাধিক সংস্করণ"
+
+#: .There+is+nothing+to+download+yet.
+msgid "There is nothing to download yet."
+msgstr "এখনো ডাউনলোড করার কিছু নেই।"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "সকল ফলাফলগুলি নির্বাচন করুন (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "দৃশ্যমান ফলাফলগুলি নির্বাচন করুন (##count##)"
+
+#: .Update+status+of+selected+submissions
+msgid "Update status of selected submissions"
+msgstr "নির্বাচিত জমার স্ট্যাটাস আপডেট করুন"
+
+#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
+msgid ""
+"You have selected ## submissions. Are you sure you would like to update "
+"their status? This action is irreversible."
+msgstr "আপনি ## জমা নির্বাচন করেছেন। আপনি কি তাদের স্ট্যাটাস আপডেট করার বিষয়ে নিশ্চিত? এই কার্যটি অপরিবর্তনীয়৷"
+
+#: .Update+Validation+Status
+msgid "Update Validation Status"
+msgstr "কার্যকারিতার স্ট্যাটাস আপডেট করুন"
+
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
+msgid ""
+"You are about to permanently delete ##count## submissions. It is not "
+"possible to recover deleted submissions."
+msgstr "আপনি স্থায়ীভাবে জমাগুলি ##count## মুছে ফেলতে চলেছেন৷ মুছে ফেলা জমা পুনরুদ্ধার করা সম্ভব নয়।"
+
+#: .Delete+selected+submissions
+msgid "Delete selected submissions"
+msgstr "নির্বাচিত জমাগুলি মুঁছে ফেলুন"
+
+#: .Delete+selected
+msgid "Delete selected"
+msgstr "নির্বাচিতগুলি মুঁছে ফেলুন"
+
+#: .%23%23count%23%23+selected
+msgid "##count## selected"
+msgstr "##count## নির্বাচন করা হয়েছে"
+
+#: .Change+status
+msgid "Change status"
+msgstr "স্ট্যাটাস পরিবর্তন করুন"
+
+#: .Set+status+%23%23status%23%23
+msgid "Set status: ##status##"
+msgstr "স্টাস্টস সেট করুন: ##status##"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "A→Z অনুযায়ী সাজান"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "Z→A অনুযায়ী সাজান"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "ফিল্ড লুকান"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "ফিল্ড আনফ্রিজ করুন"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "ফিল্ড ফ্রিজ করুন"
+
+#: .hide+fields
+msgid "hide fields"
+msgstr "ফিল্ডগুলি লুকান"
+
+#: .filter
+msgid "filter"
+msgstr "ফিল্টার"
+
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "কোনো ফিল্টার নেই, আপনি নীচে একটি যোগ করতে পারেন"
+
+#: .Add+filter
+msgid "Add filter"
+msgstr "ফিল্টার যোগ করুন"
+
+#: .Apply
+msgid "Apply"
+msgstr "আবেদন করুন"
+
+#: .fields
+msgid "fields"
+msgstr "ফিল্ডগুলি"
+
 #: .Two-factor+authentication
 msgid "Two-factor authentication"
 msgstr "টু-ফ্যাক্টর প্রমাণীকরণ"
@@ -3735,14 +3784,6 @@ msgstr "একক-সাইন অন"
 #: .There+are+no+projects+to+display.
 msgid "There are no projects to display."
 msgstr "প্রদর্শন করার জন্য কোনো প্রকল্প নেই।"
-
-#: .and+one+other+question
-msgid "and one other question"
-msgstr "এবং অন্য একটি প্রশ্ন"
-
-#: .and+%23%23+other+questions
-msgid "and ## other questions"
-msgstr "এবং ## অন্যান্য প্রশ্ন"
 
 #: .Asset+seems+to+not+have+the+processing+feature+enabled%21
 msgid "Asset seems to not have the processing feature enabled!"
@@ -3864,6 +3905,22 @@ msgstr "অনুবাদ তৈরি করুন"
 msgid "new translation"
 msgstr "নতুন অনুবাদ"
 
+#: .and+one+other+question
+msgid "and one other question"
+msgstr "এবং অন্য একটি প্রশ্ন"
+
+#: .and+%23%23+other+questions
+msgid "and ## other questions"
+msgstr "এবং ## অন্যান্য প্রশ্ন"
+
+#: .An+error+occured
+msgid "An error occured"
+msgstr "একটি ত্রুটি ঘটেছে"
+
+#: .Incorrect+token+or+something+went+wrong
+msgid "Incorrect token or something went wrong"
+msgstr "ভুল টোকেন বা কিছু ভুল হয়েছে"
+
 #: .Mean
 msgid "Mean"
 msgstr "গড়"
@@ -3880,17 +3937,57 @@ msgstr "মোড"
 msgid "Standard deviation"
 msgstr "আদর্শ বিচ্যুতি"
 
-#: .An+error+occured
-msgid "An error occured"
-msgstr "একটি ত্রুটি ঘটেছে"
+#: .CSV+(legacy)
+msgid "CSV (legacy)"
+msgstr "CSV (legacy)"
 
-#: .Incorrect+token+or+something+went+wrong
-msgid "Incorrect token or something went wrong"
-msgstr "ভুল টোকেন বা কিছু ভুল হয়েছে"
+#: .CSV
+msgid "CSV"
+msgstr "CSV"
 
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "টাইপ করুন এবং ENTER দিয়ে নিশ্চিত করুন"
+#: .GeoJSON
+msgid "GeoJSON"
+msgstr "GeoJSON"
+
+#: .GPS+coordinates+(KML)
+msgid "GPS coordinates (KML)"
+msgstr "GPS স্থানাঙ্ক (KML)"
+
+#: .SPSS+Labels
+msgid "SPSS Labels"
+msgstr "SPSS লেবেল"
+
+#: .XLS+(legacy)
+msgid "XLS (legacy)"
+msgstr "XLS (legacy)"
+
+#: .XLS
+msgid "XLS"
+msgstr "XLS"
+
+#: .Media+Attachments+(ZIP)
+msgid "Media Attachments (ZIP)"
+msgstr "মিডিয়া সংযুক্তি (ZIP)"
+
+#: .XML+values+and+headers
+msgid "XML values and headers"
+msgstr "XML মান এবং হেডার"
+
+#: .Separate+columns
+msgid "Separate columns"
+msgstr "পৃথক কলাম"
+
+#: .Single+column
+msgid "Single column"
+msgstr "একক কলাম"
+
+#: .Single+and+separate+columns
+msgid "Single and separate columns"
+msgstr "একক এবং পৃথক কলাম"
+
+#: .Add+tag(s)
+msgid "Add tag(s)"
+msgstr "ট্যাগ যোগ করুন"
 
 #: .Name+must+be+unique%21
 msgid "Name must be unique!"
@@ -3920,69 +4017,13 @@ msgstr "ভাষার কোড"
 msgid "Set"
 msgstr "সেট করুন"
 
-#: .Add+tag(s)
-msgid "Add tag(s)"
-msgstr "ট্যাগ যোগ করুন"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "এক্সপোর্ট টাইপ নির্বাচন করুন"
 
-#: .Filter+by
-msgid "Filter by"
-msgstr "-দ্বারা ফিল্টার করুন"
-
-#: .Select+field
-msgid "Select field"
-msgstr "ফিল্ড নির্বাচন করুন"
-
-#: .Condition
-msgid "Condition"
-msgstr "শর্ত"
-
-#: .Select+condition
-msgid "Select condition"
-msgstr "শর্ত নির্বাচন করুন"
-
-#: .Enter+value
-msgid "Enter value"
-msgstr "মান লিখুন"
-
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "আপনি কি এই প্রশ্নটি মুছে দেওয়ার বিষয়ে নিশ্চিত?"
-
-#: .This+action+cannot+be+undone.
-msgid "This action cannot be undone."
-msgstr "এই ক্রিয়াটি পূর্বাবস্থায় ফেরানো যাবে না।"
-
-#: .[button+triggers]+Settings
-msgid "[button triggers] Settings"
-msgstr ""
-
-#: .[button+triggers]+Delete+Question
-msgid "[button triggers] Delete Question"
-msgstr ""
-
-#: .[button+triggers]+Duplicate+Question
-msgid "[button triggers] Duplicate Question"
-msgstr ""
-
-#: .[button+triggers]+Add+Question+to+Library
-msgid "[button triggers] Add Question to Library"
-msgstr ""
-
-#: .archived
-msgid "archived"
-msgstr "আর্কাইভ করা হয়েছে"
-
-#: .deployed
-msgid "deployed"
-msgstr "মোতায়েন করা হয়েছে"
-
-#: .draft
-msgid "draft"
-msgstr "ড্রাফট"
-
-#: .me
-msgid "me"
-msgstr "আমি"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "টাইপ করুন এবং ENTER দিয়ে নিশ্চিত করুন"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4040,57 +4081,25 @@ msgstr "instanceID"
 msgid "Submitted by"
 msgstr "-দ্বারা জমা দেওয়া হয়েছে"
 
-#: .CSV+(legacy)
-msgid "CSV (legacy)"
-msgstr "CSV (legacy)"
+#: .Filter+by
+msgid "Filter by"
+msgstr "-দ্বারা ফিল্টার করুন"
 
-#: .CSV
-msgid "CSV"
-msgstr "CSV"
+#: .Select+field
+msgid "Select field"
+msgstr "ফিল্ড নির্বাচন করুন"
 
-#: .GeoJSON
-msgid "GeoJSON"
-msgstr "GeoJSON"
+#: .Condition
+msgid "Condition"
+msgstr "শর্ত"
 
-#: .GPS+coordinates+(KML)
-msgid "GPS coordinates (KML)"
-msgstr "GPS স্থানাঙ্ক (KML)"
+#: .Select+condition
+msgid "Select condition"
+msgstr "শর্ত নির্বাচন করুন"
 
-#: .SPSS+Labels
-msgid "SPSS Labels"
-msgstr "SPSS লেবেল"
-
-#: .XLS+(legacy)
-msgid "XLS (legacy)"
-msgstr "XLS (legacy)"
-
-#: .XLS
-msgid "XLS"
-msgstr "XLS"
-
-#: .Media+Attachments+(ZIP)
-msgid "Media Attachments (ZIP)"
-msgstr "মিডিয়া সংযুক্তি (ZIP)"
-
-#: .XML+values+and+headers
-msgid "XML values and headers"
-msgstr "XML মান এবং হেডার"
-
-#: .Separate+columns
-msgid "Separate columns"
-msgstr "পৃথক কলাম"
-
-#: .Single+column
-msgid "Single column"
-msgstr "একক কলাম"
-
-#: .Single+and+separate+columns
-msgid "Single and separate columns"
-msgstr "একক এবং পৃথক কলাম"
-
-#: .Select+export+type
-msgid "Select export type"
-msgstr "এক্সপোর্ট টাইপ নির্বাচন করুন"
+#: .Enter+value
+msgid "Enter value"
+msgstr "মান লিখুন"
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4103,6 +4112,42 @@ msgstr "একটি ফিল্ড খুঁজুন"
 #: .No+results
 msgid "No results"
 msgstr "কোনো ফলাফল পাওয়া যায়নি"
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "আপনি কি এই প্রশ্নটি মুছে দেওয়ার বিষয়ে নিশ্চিত?"
+
+#: .This+action+cannot+be+undone.
+msgid "This action cannot be undone."
+msgstr "এই ক্রিয়াটি পূর্বাবস্থায় ফেরানো যাবে না।"
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr ""
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr ""
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr ""
+
+#: .archived
+msgid "archived"
+msgstr "আর্কাইভ করা হয়েছে"
+
+#: .deployed
+msgid "deployed"
+msgstr "মোতায়েন করা হয়েছে"
+
+#: .draft
+msgid "draft"
+msgstr "ড্রাফট"
+
+#: .me
+msgid "me"
+msgstr "আমি"
 
 #: .Delete%3F
 msgid "Delete?"

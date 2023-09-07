@@ -1,13 +1,13 @@
 # 
 # Translators:
-# Hosein Nematolahi <hosein.ne88@gmail.com>, 2022
+# Hosein Nematolahi <hosein.ne88@gmail.com>, 2022-2023
 msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 20:25+0000\n"
+"POT-Creation-Date: 2023-09-07 13:51+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: Hosein Nematolahi <hosein.ne88@gmail.com>, 2022\n"
+"Last-Translator: Hosein Nematolahi <hosein.ne88@gmail.com>, 2022-2023\n"
 "Language-Team: Persian (http://app.transifex.com/kobotoolbox/kobotoolbox/language/fa/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -15,6 +15,10 @@ msgstr ""
 "Language: fa\n"
 "Plural-Forms: nplurals=2; plural=(n > 1);\n"
 "X-Generator: Translate Toolkit 3.6.0\n"
+
+#: .%23%23field_label%23%23+(required)
+msgid "##field_label## (required)"
+msgstr "##field_label##(الزامی)"
 
 #: .Use+a+few+words,+avoid+common+phrases
 msgid "Use a few words, avoid common phrases"
@@ -128,13 +132,13 @@ msgstr "جایگزین‌های قابل پیش‌بینی مانند '@' به �
 msgid "Password strength"
 msgstr "قدرت رمز عبور"
 
-#: .%23%23field_label%23%23+(required)
-msgid "##field_label## (required)"
-msgstr "##field_label##(الزامی)"
-
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "مسیر پیدا نشد / شناسایی شد."
+
+#: .Untitled
+msgid "Untitled"
+msgstr "بدون عنوان"
 
 #: .Failed+to+update+permissions
 msgid "Failed to update permissions"
@@ -263,10 +267,6 @@ msgstr "تقاضای کوشش دوباره ارسال ناموفق بود"
 #: .Retrying+all+submissions+failed
 msgid "Retrying all submissions failed"
 msgstr "تلاش مجدد همه ارسال ها ناموفق بود"
-
-#: .Untitled
-msgid "Untitled"
-msgstr "بدون عنوان"
 
 #: .Submissions
 msgid "Submissions"
@@ -678,21 +678,161 @@ msgstr "سبک پرسش"
 msgid "loading…"
 msgstr "در حال بارگذاری…"
 
-#: .Successfuly+removed+from+collection
-msgid "Successfuly removed from collection"
-msgstr "با موفقیت از مجموعه حذف شد"
+#: .Who+has+access
+msgid "Who has access"
+msgstr "چه کسی دسترسی دارد"
 
-#: .Successfuly+moved+to+collection
-msgid "Successfuly moved to collection"
-msgstr "با موفقیت به مجموعه منتقل شد"
+#: .Add+user
+msgid "Add user"
+msgstr "افزودن کاربر"
 
-#: .Move+to+collection+failed
-msgid "Move to collection failed"
-msgstr "انتقال به مجموعه ناموفق بود"
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "به صورت همگانی از طریق لینک به اشتراک بگذارید."
 
-#: .Failed+to+get+the+results
-msgid "Failed to get the results"
-msgstr "دریافت نتیجه ناموفق بود"
+#: .Waiting+for+all+projects+to+load%E2%80%A6
+msgid "Waiting for all projects to load…"
+msgstr "در حال انتظار برای بارگیری همه پروژه‌ها…"
+
+#: .URL+is+empty%21
+msgid "URL is empty!"
+msgstr "URL محتویات ندارد!"
+
+#: .Add
+msgid "Add"
+msgstr "افزودن"
+
+#: .You+must+redeploy+this+form+to+see+media+changes.
+msgid "You must redeploy this form to see media changes."
+msgstr "برای مشاهده تغییرات رسانه باید این فرم را مجدداً مستقر کنید."
+
+#: .Attach+files
+msgid "Attach files"
+msgstr "فایل‌ها را پیوست کنید."
+
+#: .Learn+more+about+form+media
+msgid "Learn more about form media"
+msgstr "درباره رسانه فرم بیشتر بیاموزید."
+
+#: .Drag+and+drop+files+here
+msgid "Drag and drop files here"
+msgstr "فایل ها را در اینجا بکشید و رها کنید."
+
+#: .or
+msgid "or"
+msgstr "یا"
+
+#: .click+here+to+browse
+msgid "click here to browse"
+msgstr "برای مرور، اینجا را کلیک کنید."
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "در حال آپلود فایل…"
+
+#: .You+can+also+add+files+using+a+URL
+msgid "You can also add files using a URL"
+msgstr "همچنین می‌توانید با استفاده از URL فایل‌ها را اضافه کنید."
+
+#: .Paste+URL+here
+msgid "Paste URL here"
+msgstr "URL را در اینجا جایگذاری کنید."
+
+#: .Attached+files
+msgid "Attached files"
+msgstr "فایل‌های پیوست شده"
+
+#: .loading+media
+msgid "loading media"
+msgstr "در حال بارگذاری رسانه"
+
+#: .No+files+uploaded+yet
+msgid "No files uploaded yet"
+msgstr "هنوز هیچ فایلی آپلود (بارگذاری) نشده است."
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "به‌طور پیش‌فرض و به دلایل عملکردی، نقشه محدود به ارسال‌های اخیر##number## است. برای افزایش این محدودیت به تنظیمات نقشه بروید."
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "خطا: داده‌ها بارگیری نشد."
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "تفکیک بر اساس پاسخ‌های نظرسنجی"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "تفکیک با استفاده از:"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "هیچگونه پاسخ «موقعیت جغرافیائی» (Geopoint) دریافت نشده است."
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "نقشه، داده‌ها را نشان نمی‌دهد زیرا این فرم، فیلد «موقعیت جغرافیائی» (Geopoint) ندارد. "
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "تغییر وضعیت تمام صفحه"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "نمایش نقطه‌ای"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "تغییر وضعیت لایه‌ها"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "تنظیمات نمایش نقشه"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "نمایش به صورت نقشه حرارتی"
+
+#: .Language
+msgid "Language"
+msgstr "زبان"
+
+#: .Default
+msgid "Default"
+msgstr "پیش‌فرض"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- مشاهده همه داده‌ها --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "ترجمه نشده:"
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "برچسب پرسش تنظیم نشده است."
+
+#: .Reset
+msgid "Reset"
+msgstr "بازنشانی"
+
+#: .not+set
+msgid "not set"
+msgstr "تنظیم نشده"
+
+#: .Legend
+msgid "Legend"
+msgstr "راهنما"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "تنظیمات نقشه"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -852,557 +992,6 @@ msgstr "خطا در ایجاد پیش‌نمایش"
 msgid "Import Cascading Select Questions"
 msgstr "سوالات آبشاری انتخاب شده را وارد کنید."
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "دریافت uuids ارسال ناموفق بود."
-
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "دریافت ارسال ناموفق بود."
-
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "بروزرسانی ارسال ناموفق بود."
-
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "برخی از ارقام ارسالی بروزرسانی نشد."
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "ارقام ارسالی بروزرسانی نشد."
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "پاک کردن ارسال ناموفق بود."
-
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "فایل چندرسانه ای آپلود نشد"
-
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "در دریافت فایل چند رسانه ای شما مشکلی پیش آمد"
-
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "میدیا با موفقیت پاک شد"
-
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "حذف میدیا ناموفق بود!"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "صدور ایجاد نشد"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "حذف صدور ناموفق بود"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "بروزرسانی تنظیمات صدور ناموفق بود"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "ایجاد تنظیمات صدور ناموفق بود"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "حذف تنظیمات صدور ناموفق بود"
-
-#: .Failed+to+attach+to+source
-msgid "Failed to attach to source"
-msgstr "ضمیمه به منبع ناموفق بود"
-
-#: .Failed+to+detach+from+source
-msgid "Failed to detach from source"
-msgstr "از منبع جدا نشد"
-
-#: .Failed+to+patch+source
-msgid "Failed to patch source"
-msgstr "رفع مشکل منبع ناموفق بود"
-
-#: .Failed+to+retrieve+sharing+enabled+assets
-msgid "Failed to retrieve sharing enabled assets"
-msgstr "اشتراک گذاری بازیابی فعال شده، ناموفق بود"
-
-#: .Failed+to+toggle+sharing
-msgid "Failed to toggle sharing"
-msgstr "تغییر وضعیت اشتراک‌گذاری انجام نشد"
-
-#: .Failed+to+update+column+filters
-msgid "Failed to update column filters"
-msgstr "ستون های دارای فیلتر به روز نشد"
-
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "به‌طور پیش‌فرض و به دلایل عملکردی، نقشه محدود به ارسال‌های اخیر##number## است. برای افزایش این محدودیت به تنظیمات نقشه بروید."
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "خطا: داده‌ها بارگیری نشد."
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "تفکیک بر اساس پاسخ‌های نظرسنجی"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "تفکیک با استفاده از:"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "هیچگونه پاسخ «موقعیت جغرافیائی» (Geopoint) دریافت نشده است."
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "نقشه، داده‌ها را نشان نمی‌دهد زیرا این فرم، فیلد «موقعیت جغرافیائی» (Geopoint) ندارد. "
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "تغییر وضعیت تمام صفحه"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "نمایش نقطه‌ای"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "تغییر وضعیت لایه‌ها"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "تنظیمات نمایش نقشه"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "نمایش به صورت نقشه حرارتی"
-
-#: .Language
-msgid "Language"
-msgstr "زبان"
-
-#: .Default
-msgid "Default"
-msgstr "پیش‌فرض"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- مشاهده همه داده‌ها --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "ترجمه نشده:"
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "برچسب پرسش تنظیم نشده است."
-
-#: .Reset
-msgid "Reset"
-msgstr "بازنشانی"
-
-#: .not+set
-msgid "not set"
-msgstr "تنظیم نشده"
-
-#: .Legend
-msgid "Legend"
-msgstr "راهنما"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "تنظیمات نقشه"
-
-#: .Who+has+access
-msgid "Who has access"
-msgstr "چه کسی دسترسی دارد"
-
-#: .Add+user
-msgid "Add user"
-msgstr "افزودن کاربر"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "به صورت همگانی از طریق لینک به اشتراک بگذارید."
-
-#: .Waiting+for+all+projects+to+load%E2%80%A6
-msgid "Waiting for all projects to load…"
-msgstr "در حال انتظار برای بارگیری همه پروژه‌ها…"
-
-#: .new
-msgid "new"
-msgstr "جدید"
-
-#: .Projects
-msgid "Projects"
-msgstr "پروژه‌ها"
-
-#: .Library
-msgid "Library"
-msgstr "کتابخانه"
-
-#: .Projects+(legacy)
-msgid "Projects (legacy)"
-msgstr "پروژه‌ها (legacy)"
-
-#: .Source
-msgid "Source"
-msgstr "منبع"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "فهرست کردن دارایی‌ها ناموفق بود."
-
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "لطفا صفحه را refresh کنید."
-
-#: .Log+In
-msgid "Log In"
-msgstr "به سیستم وارد شوید (Login)"
-
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "تنظیمات حساب کاربری"
-
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "شرایط استفاده از خدمات"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "سیاست حفظ حریم خصوصی"
-
-#: .Logout
-msgid "Logout"
-msgstr "خروج از سیستم"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "جستجو در کتابخانه من"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "جستجو در مجموعه‌های همگانی"
-
-#: .Search+Projects
-msgid "Search Projects"
-msgstr "جستجو در پروژه‌ها"
-
-#: .submissions
-msgid "submissions"
-msgstr "موارد ارسالی"
-
-#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
-msgid ""
-"The stored permissions are invalid. Please assign them again. If this "
-"problem persists, contact help@kobotoolbox.org"
-msgstr "مجوزهای ذخیره شده نامعتبرند. لطفا دوباره آن‌ها را تخصیص دهید. اگر این مشکل ادامه داشت، با help@kobotoolbox.org تماس بگیرید."
-
-#: .Table
-msgid "Table"
-msgstr "جدول"
-
-#: .Reports
-msgid "Reports"
-msgstr "گزارش‌ها"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "گالری"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "دانلودها"
-
-#: .Map
-msgid "Map"
-msgstr "نقشه"
-
-#: .Summary
-msgid "Summary"
-msgstr "خلاصه"
-
-#: .Form
-msgid "Form"
-msgstr "فرم"
-
-#: .Settings
-msgid "Settings"
-msgstr "تنظیمات"
-
-#: .General
-msgid "General"
-msgstr "همگانی"
-
-#: .Media
-msgid "Media"
-msgstr "رسانه‌ها"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "به اشتراک گذاری"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "اتصال پروژه‌ها"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "خدمات REST"
-
-#: .URL+is+empty%21
-msgid "URL is empty!"
-msgstr "URL محتویات ندارد!"
-
-#: .Add
-msgid "Add"
-msgstr "افزودن"
-
-#: .You+must+redeploy+this+form+to+see+media+changes.
-msgid "You must redeploy this form to see media changes."
-msgstr "برای مشاهده تغییرات رسانه باید این فرم را مجدداً مستقر کنید."
-
-#: .Attach+files
-msgid "Attach files"
-msgstr "فایل‌ها را پیوست کنید."
-
-#: .Learn+more+about+form+media
-msgid "Learn more about form media"
-msgstr "درباره رسانه فرم بیشتر بیاموزید."
-
-#: .Drag+and+drop+files+here
-msgid "Drag and drop files here"
-msgstr "فایل ها را در اینجا بکشید و رها کنید."
-
-#: .or
-msgid "or"
-msgstr "یا"
-
-#: .click+here+to+browse
-msgid "click here to browse"
-msgstr "برای مرور، اینجا را کلیک کنید."
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "در حال آپلود فایل…"
-
-#: .You+can+also+add+files+using+a+URL
-msgid "You can also add files using a URL"
-msgstr "همچنین می‌توانید با استفاده از URL فایل‌ها را اضافه کنید."
-
-#: .Paste+URL+here
-msgid "Paste URL here"
-msgstr "URL را در اینجا جایگذاری کنید."
-
-#: .Attached+files
-msgid "Attached files"
-msgstr "فایل‌های پیوست شده"
-
-#: .loading+media
-msgid "loading media"
-msgstr "در حال بارگذاری رسانه"
-
-#: .No+files+uploaded+yet
-msgid "No files uploaded yet"
-msgstr "هنوز هیچ فایلی آپلود (بارگذاری) نشده است."
-
-#: .Create
-msgid "Create"
-msgstr "ایجاد"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "لطفا منتظر بمانید..."
-
-#: .Failed+to+create+new+asset%21
-msgid "Failed to create new asset!"
-msgstr "دارایی جدید ایجاد نشد!"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "به کلیپ بورد کپی شد."
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "شبیه‌سازی"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "نام شبیه‌سازی شده##ASSET_TYPE## را وارد کنید. برای حفظ نام اصلی، خالی بگذارید.\n "
-
-#: .Ok
-msgid "Ok"
-msgstr "تایید"
-
-#: .Create+new+template+from+this+project
-msgid "Create new template from this project"
-msgstr "یک قالب جدید از این پروژه ایجاد کنید."
-
-#: .Enter+the+name+of+the+new+template.
-msgid "Enter the name of the new template."
-msgstr "نام قالب جدید را وارد کنید."
-
-#: .deploying+to+kobocat...
-msgid "deploying to kobocat..."
-msgstr "در حال اعزام به کوبوکت (kobocat)..."
-
-#: .deployed+form
-msgid "deployed form"
-msgstr "فرم مستقر شده"
-
-#: .Overwrite+existing+deployment
-msgid "Overwrite existing deployment"
-msgstr "بازنویسی استقرار موجود"
-
-#: .Deploying...
-msgid "Deploying..."
-msgstr "در حال استقرار..."
-
-#: .redeployed+form
-msgid "redeployed form"
-msgstr "فرم بازاستقرار یافته"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "##فایل‌ها"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "وارد کردن XLSForm انجام نشد. بررسی کنید که آیا XLSForm و یا URL معتبر است و با استفاده از نماد \"جایگزینی فرم\" دوباره تلاش کنید."
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "وارد کردن XLS انجام شد."
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "آپلود شما در حال پردازش است. ممکن است چند لحظه طول بکشد."
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "آپلود شما در صف پردازش است. ممکن است چند لحظه طول بکشد."
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "وارد کردن فایل انجام نشد."
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "وارد کردن ناموفق بود."
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "خطای آپلود: فایل اکسل شناسایی نشد."
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "نام فایل آپلود شده:"
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "مورد(های) حذف شده شناسایی نشد."
-
-#: .Cloning...
-msgid "Cloning..."
-msgstr "در حال شبیه‌سازی..."
-
-#: .cloned+%23%23ASSET_TYPE%23%23+created
-msgid "cloned ##ASSET_TYPE## created"
-msgstr "شبیه‌سازی ##ASSET_TYPE## ایجاد شد."
-
-#: .Create+new+project+from+this+template
-msgid "Create new project from this template"
-msgstr "پروژه جدید را از این الگو ایجاد کنید."
-
-#: .Enter+the+name+of+the+new+project.
-msgid "Enter the name of the new project."
-msgstr "نام پروژه جدید را وارد کنید."
-
-#: .%23%23ASSET_TYPE%23%23+deleted+permanently
-msgid "##ASSET_TYPE## deleted permanently"
-msgstr "##ASSET_TYPE## برای همیشه حذف شد."
-
-#: .You+are+about+to+permanently+delete+this+item+from+your+library.
-msgid "You are about to permanently delete this item from your library."
-msgstr "شما در شرف حذف دائمی این مورد از کتابخانه خود هستید."
-
-#: .You+are+about+to+permanently+delete+this+draft.
-msgid "You are about to permanently delete this draft."
-msgstr "شما در شرف حذف دائمی این پیش‌نویس هستید."
-
-#: .You+are+about+to+permanently+delete+this+form.
-msgid "You are about to permanently delete this form."
-msgstr "شما در شرف حذف دائمی این فرم هستید."
-
-#: .All+data+gathered+for+this+form+will+be+deleted.
-msgid "All data gathered for this form will be deleted."
-msgstr "همه داده‌های جمع‌آوری شده برای این فرم حذف خواهند شد."
-
-#: .The+form+associated+with+this+project+will+be+deleted.
-msgid "The form associated with this project will be deleted."
-msgstr "فرم مرتبط با این پروژه حذف خواهد شد."
-
-#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
-msgid ""
-"I understand that if I delete this project I will not be able to recover it."
-msgstr "من متوجهم که اگر این پروژه را حذف کنم نمی‌توانم آن را بازیابی کنم."
-
-#: .Delete
-msgid "Delete"
-msgstr "حذف"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "بایگانی پروژه"
-
-#: .Are+you+sure+you+want+to+archive+this+project%3F
-msgid "Are you sure you want to archive this project?"
-msgstr "آیا مطمئن هستید که می‌خواهید این پروژه را بایگانی کنید؟"
-
-#: .Your+form+will+not+accept+submissions+while+it+is+archived.
-msgid "Your form will not accept submissions while it is archived."
-msgstr "فرم شما هنگامی که بایگانی می‌شود، موارد ارسالی را نمی پذیرد."
-
-#: .Archive
-msgid "Archive"
-msgstr "بایگانی"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "پروژه بایگانی نشده"
-
-#: .Are+you+sure+you+want+to+unarchive+this+project%3F
-msgid "Are you sure you want to unarchive this project?"
-msgstr "آیا مطمئنید که می‌خواهید این پروژه را از بایگانی خارج کنید؟"
-
-#: .Unarchive
-msgid "Unarchive"
-msgstr "لغو بایگانی"
-
-#: .Remove+shared+form
-msgid "Remove shared form"
-msgstr "فرم به اشتراک گذاشته شده را حذف کنید."
-
-#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
-msgid "Are you sure you want to remove this shared form?"
-msgstr "آیا مطمئنید که می خواهید این فرم مشترک را حذف کنید؟"
-
-#: .Remove
-msgid "Remove"
-msgstr "حذف "
-
 #: .Import
 msgid "Import"
 msgstr "وارد کردن"
@@ -1451,6 +1040,10 @@ msgstr "خطا: دارایی نمی‌تواند ایجاد شود."
 msgid "Error: new project could not be created."
 msgstr "خطا: پروژه جدید ایجاد نشد."
 
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "لطفا منتظر بمانید..."
+
 #: .Retrieving+form,+please+wait...
 msgid "Retrieving form, please wait..."
 msgstr "در حال بازیابی فرم، لطفا صبر کنید..."
@@ -1458,6 +1051,10 @@ msgstr "در حال بازیابی فرم، لطفا صبر کنید..."
 #: .Failed+to+reload+project+after+import%21
 msgid "Failed to reload project after import!"
 msgstr "پروژه پس از وارد کردن، دوباره بارگیری نشد!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "وارد کردن فایل انجام نشد."
 
 #: .Could+not+initialize+XLSForm+import%21
 msgid "Could not initialize XLSForm import!"
@@ -1575,6 +1172,14 @@ msgstr "لطفاً مشخص کنید که آیا پروژه شما اطلاعا�
 msgid "Save"
 msgstr "ذخیره"
 
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "پروژه بایگانی نشده"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "بایگانی پروژه"
+
 #: .Archive+project+to+stop+accepting+submissions.
 msgid "Archive project to stop accepting submissions."
 msgstr "برای توقف پذیرش ارسالات، پروژه را بایگانی کنید."
@@ -1595,6 +1200,476 @@ msgstr "قبلی"
 msgid ""
 "Form replacing is not available due to form's Locking Profile restrictions."
 msgstr "به دلیل محدودیت‌های قفل کردن پروفایل فرم، جایگزینی فرم در دسترس نیست."
+
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "دریافت uuids ارسال ناموفق بود."
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "دریافت ارسال ناموفق بود."
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "بروزرسانی ارسال ناموفق بود."
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "برخی از ارقام ارسالی بروزرسانی نشد."
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "ارقام ارسالی بروزرسانی نشد."
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "پاک کردن ارسال ناموفق بود."
+
+#: .Successfuly+removed+from+collection
+msgid "Successfuly removed from collection"
+msgstr "با موفقیت از مجموعه حذف شد"
+
+#: .Successfuly+moved+to+collection
+msgid "Successfuly moved to collection"
+msgstr "با موفقیت به مجموعه منتقل شد"
+
+#: .Move+to+collection+failed
+msgid "Move to collection failed"
+msgstr "انتقال به مجموعه ناموفق بود"
+
+#: .Failed+to+get+the+results
+msgid "Failed to get the results"
+msgstr "دریافت نتیجه ناموفق بود"
+
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "فایل چندرسانه ای آپلود نشد"
+
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "در دریافت فایل چند رسانه ای شما مشکلی پیش آمد"
+
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "میدیا با موفقیت پاک شد"
+
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "حذف میدیا ناموفق بود!"
+
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "صدور ایجاد نشد"
+
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "حذف صدور ناموفق بود"
+
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "بروزرسانی تنظیمات صدور ناموفق بود"
+
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "ایجاد تنظیمات صدور ناموفق بود"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "حذف تنظیمات صدور ناموفق بود"
+
+#: .Failed+to+attach+to+source
+msgid "Failed to attach to source"
+msgstr "ضمیمه به منبع ناموفق بود"
+
+#: .Failed+to+detach+from+source
+msgid "Failed to detach from source"
+msgstr "از منبع جدا نشد"
+
+#: .Failed+to+patch+source
+msgid "Failed to patch source"
+msgstr "رفع مشکل منبع ناموفق بود"
+
+#: .Failed+to+retrieve+sharing+enabled+assets
+msgid "Failed to retrieve sharing enabled assets"
+msgstr "اشتراک گذاری بازیابی فعال شده، ناموفق بود"
+
+#: .Failed+to+toggle+sharing
+msgid "Failed to toggle sharing"
+msgstr "تغییر وضعیت اشتراک‌گذاری انجام نشد"
+
+#: .Failed+to+update+column+filters
+msgid "Failed to update column filters"
+msgstr "ستون های دارای فیلتر به روز نشد"
+
+#: .Create
+msgid "Create"
+msgstr "ایجاد"
+
+#: .Failed+to+create+new+asset%21
+msgid "Failed to create new asset!"
+msgstr "دارایی جدید ایجاد نشد!"
+
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "به کلیپ بورد کپی شد."
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "شبیه‌سازی"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "نام شبیه‌سازی شده##ASSET_TYPE## را وارد کنید. برای حفظ نام اصلی، خالی بگذارید.\n "
+
+#: .Ok
+msgid "Ok"
+msgstr "تایید"
+
+#: .Create+new+template+from+this+project
+msgid "Create new template from this project"
+msgstr "یک قالب جدید از این پروژه ایجاد کنید."
+
+#: .Enter+the+name+of+the+new+template.
+msgid "Enter the name of the new template."
+msgstr "نام قالب جدید را وارد کنید."
+
+#: .deploying+to+kobocat...
+msgid "deploying to kobocat..."
+msgstr "در حال اعزام به کوبوکت (kobocat)..."
+
+#: .deployed+form
+msgid "deployed form"
+msgstr "فرم مستقر شده"
+
+#: .Overwrite+existing+deployment
+msgid "Overwrite existing deployment"
+msgstr "بازنویسی استقرار موجود"
+
+#: .Deploying...
+msgid "Deploying..."
+msgstr "در حال استقرار..."
+
+#: .redeployed+form
+msgid "redeployed form"
+msgstr "فرم بازاستقرار یافته"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "##فایل‌ها"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "وارد کردن XLSForm انجام نشد. بررسی کنید که آیا XLSForm و یا URL معتبر است و با استفاده از نماد \"جایگزینی فرم\" دوباره تلاش کنید."
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "وارد کردن XLS انجام شد."
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "فایل شما در حال پردازش است. ممکن است چند لحظه طول بکشد."
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "آپلود شما در صف پردازش است. ممکن است چند لحظه طول بکشد."
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "وارد کردن ناموفق بود."
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "خطای آپلود: فایل اکسل شناسایی نشد."
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "نام فایل آپلود شده:"
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "مورد(های) حذف شده شناسایی نشد."
+
+#: .Cloning...
+msgid "Cloning..."
+msgstr "در حال شبیه‌سازی..."
+
+#: .cloned+%23%23ASSET_TYPE%23%23+created
+msgid "cloned ##ASSET_TYPE## created"
+msgstr "شبیه‌سازی ##ASSET_TYPE## ایجاد شد."
+
+#: .Create+new+project+from+this+template
+msgid "Create new project from this template"
+msgstr "پروژه جدید را از این الگو ایجاد کنید."
+
+#: .Enter+the+name+of+the+new+project.
+msgid "Enter the name of the new project."
+msgstr "نام پروژه جدید را وارد کنید."
+
+#: .%23%23ASSET_TYPE%23%23+deleted+permanently
+msgid "##ASSET_TYPE## deleted permanently"
+msgstr "##ASSET_TYPE## برای همیشه حذف شد."
+
+#: .You+are+about+to+permanently+delete+this+item+from+your+library.
+msgid "You are about to permanently delete this item from your library."
+msgstr "شما در شرف حذف دائمی این مورد از کتابخانه خود هستید."
+
+#: .You+are+about+to+permanently+delete+this+draft.
+msgid "You are about to permanently delete this draft."
+msgstr "شما در شرف حذف دائمی این پیش‌نویس هستید."
+
+#: .You+are+about+to+permanently+delete+this+form.
+msgid "You are about to permanently delete this form."
+msgstr "شما در شرف حذف دائمی این فرم هستید."
+
+#: .All+data+gathered+for+this+form+will+be+deleted.
+msgid "All data gathered for this form will be deleted."
+msgstr "همه داده‌های جمع‌آوری شده برای این فرم حذف خواهند شد."
+
+#: .The+form+associated+with+this+project+will+be+deleted.
+msgid "The form associated with this project will be deleted."
+msgstr "فرم مرتبط با این پروژه حذف خواهد شد."
+
+#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
+msgid ""
+"I understand that if I delete this project I will not be able to recover it."
+msgstr "من متوجهم که اگر این پروژه را حذف کنم نمی‌توانم آن را بازیابی کنم."
+
+#: .Delete
+msgid "Delete"
+msgstr "حذف"
+
+#: .Are+you+sure+you+want+to+archive+this+project%3F
+msgid "Are you sure you want to archive this project?"
+msgstr "آیا مطمئن هستید که می‌خواهید این پروژه را بایگانی کنید؟"
+
+#: .Your+form+will+not+accept+submissions+while+it+is+archived.
+msgid "Your form will not accept submissions while it is archived."
+msgstr "فرم شما هنگامی که بایگانی می‌شود، موارد ارسالی را نمی پذیرد."
+
+#: .Archive
+msgid "Archive"
+msgstr "بایگانی"
+
+#: .Are+you+sure+you+want+to+unarchive+this+project%3F
+msgid "Are you sure you want to unarchive this project?"
+msgstr "آیا مطمئنید که می‌خواهید این پروژه را از بایگانی خارج کنید؟"
+
+#: .Unarchive
+msgid "Unarchive"
+msgstr "لغو بایگانی"
+
+#: .Remove+shared+form
+msgid "Remove shared form"
+msgstr "فرم به اشتراک گذاشته شده را حذف کنید."
+
+#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
+msgid "Are you sure you want to remove this shared form?"
+msgstr "آیا مطمئنید که می خواهید این فرم مشترک را حذف کنید؟"
+
+#: .Remove
+msgid "Remove"
+msgstr "حذف "
+
+#: .Table
+msgid "Table"
+msgstr "جدول"
+
+#: .Reports
+msgid "Reports"
+msgstr "گزارش‌ها"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "گالری"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "دانلودها"
+
+#: .Map
+msgid "Map"
+msgstr "نقشه"
+
+#: .Summary
+msgid "Summary"
+msgstr "خلاصه"
+
+#: .Form
+msgid "Form"
+msgstr "فرم"
+
+#: .Settings
+msgid "Settings"
+msgstr "تنظیمات"
+
+#: .General
+msgid "General"
+msgstr "همگانی"
+
+#: .Media
+msgid "Media"
+msgstr "رسانه‌ها"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "به اشتراک گذاری"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "اتصال پروژه‌ها"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "خدمات REST"
+
+#: .All+questions
+msgid "All questions"
+msgstr "همه پرسش‌ها"
+
+#: .Image+Gallery
+msgid "Image Gallery"
+msgstr "گالری عکس"
+
+#: .From
+msgid "From"
+msgstr "از"
+
+#: .Between
+msgid "Between"
+msgstr "بین"
+
+#: .and
+msgid "and"
+msgstr "و"
+
+#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
+msgid ""
+"The stored permissions are invalid. Please assign them again. If this "
+"problem persists, contact help@kobotoolbox.org"
+msgstr "مجوزهای ذخیره شده نامعتبرند. لطفا دوباره آن‌ها را تخصیص دهید. اگر این مشکل ادامه داشت، با help@kobotoolbox.org تماس بگیرید."
+
+#: .new
+msgid "new"
+msgstr "جدید"
+
+#: .Projects
+msgid "Projects"
+msgstr "پروژه‌ها"
+
+#: .Library
+msgid "Library"
+msgstr "کتابخانه"
+
+#: .Projects+(legacy)
+msgid "Projects (legacy)"
+msgstr "پروژه‌ها (legacy)"
+
+#: .Source
+msgid "Source"
+msgstr "منبع"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "فهرست کردن دارایی‌ها ناموفق بود."
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "لطفا صفحه را refresh کنید."
+
+#: .Log+In
+msgid "Log In"
+msgstr "به سیستم وارد شوید (Login)"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "تنظیمات حساب کاربری"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "شرایط استفاده از خدمات"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "سیاست حفظ حریم خصوصی"
+
+#: .Logout
+msgid "Logout"
+msgstr "خروج از سیستم"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "جستجو در کتابخانه من"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "جستجو در مجموعه‌های همگانی"
+
+#: .Search+Projects
+msgid "Search Projects"
+msgstr "جستجو در پروژه‌ها"
+
+#: .submissions
+msgid "submissions"
+msgstr "موارد ارسالی"
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "لطفاً سعی کنید با استفاده از دکمه header وارد شوید یا اگر فکر می‌کنید خطایی رخ داده است [با تیم پشتیبانی تماس بگیرید]."
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "لطفاً [با تیم پشتیبانی تماس بگیرید] اگر فکر می‌کنید خطایی رخ داده است."
+
+#: .Access+denied
+msgid "Access denied"
+msgstr "عدم دسترسی"
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "شما به این صفحه دسترسی ندارید یا این صفحه وجود ندارد."
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "توضیحات بیشتر:"
+
+#: .This+field+is+required.
+msgid "This field is required."
+msgstr "این فیلد الزامی است."
+
+#: .This+field+must+match+the+Verify+Password+field.
+msgid "This field must match the Verify Password field."
+msgstr "این فیلد باید با فیلد تایید رمز عبور مطابقت داشته باشد."
+
+#: .Save+Password
+msgid "Save Password"
+msgstr "ذخیره رمز عبور"
+
+#: .Reset+Password
+msgid "Reset Password"
+msgstr "بازنشانی رمز عبور"
+
+#: .Current+Password
+msgid "Current Password"
+msgstr "رمز عبور فعلی"
+
+#: .Forgot+Password%3F
+msgid "Forgot Password?"
+msgstr "رمز عبور را فراموش کرده‌اید؟"
+
+#: .New+Password
+msgid "New Password"
+msgstr "رمز عبور جدید"
+
+#: .Verify+Password
+msgid "Verify Password"
+msgstr "تایید رمز عبور"
 
 #: .Success%21
 msgid "Success!"
@@ -1675,311 +1750,6 @@ msgstr "جدول ترجمه‌ها بسته شود؟"
 #: .You+will+lose+all+unsaved+changes.
 msgid "You will lose all unsaved changes."
 msgstr "همه تغییرات ذخیره نشده را از دست خواهید داد."
-
-#: .All+questions
-msgid "All questions"
-msgstr "همه پرسش‌ها"
-
-#: .Image+Gallery
-msgid "Image Gallery"
-msgstr "گالری عکس"
-
-#: .From
-msgid "From"
-msgstr "از"
-
-#: .Between
-msgid "Between"
-msgstr "بین"
-
-#: .and
-msgid "and"
-msgstr "و"
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "لطفاً سعی کنید با استفاده از دکمه header وارد شوید یا اگر فکر می‌کنید خطایی رخ داده است [با تیم پشتیبانی تماس بگیرید]."
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "لطفاً [با تیم پشتیبانی تماس بگیرید] اگر فکر می‌کنید خطایی رخ داده است."
-
-#: .Access+denied
-msgid "Access denied"
-msgstr "عدم دسترسی"
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "شما به این صفحه دسترسی ندارید یا این صفحه وجود ندارد."
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "توضیحات بیشتر:"
-
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "اطلاعات مالک دریافت نشد."
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "تاریخ ایجاد"
-
-#: .Owner
-msgid "Owner"
-msgstr "مالک"
-
-#: .Tags
-msgid "Tags"
-msgstr "برچسب‌ها"
-
-#: .Items
-msgid "Items"
-msgstr "موارد"
-
-#: .Organization
-msgid "Organization"
-msgstr "سازمان"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "مخفی کردن جزئیات کامل"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "نمایش جزئیات کامل"
-
-#: .Name
-msgid "Name"
-msgstr "نام"
-
-#: .Type
-msgid "Type"
-msgstr "نوع"
-
-#: .Shared+by
-msgid "Shared by"
-msgstr "به اشتراک گذاشته شده توسط"
-
-#: .Created
-msgid "Created"
-msgstr "ایجاد شده"
-
-#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
-msgid ""
-"Let's get started by creating your first project. Click the New button to "
-"create a new form."
-msgstr "بیایید با ایجاد اولین پروژه خود شروع کنید. برای ایجاد فرم جدید روی دکمه جدید کلیک کنید."
-
-#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
-msgid ""
-"Advanced users: You can also drag and drop XLSForms here and they will be "
-"uploaded and converted to projects."
-msgstr "کاربرهای پیشرفته: همچنین می توانید XLSForms را در اینجا بکشید و رها کنید تا آپلود و به آیتم‌های کتابخانه تبدیل شوند."
-
-#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
-msgid ""
-"Let's get started by creating your first library question or question block."
-" Click the New button to create a new question or block."
-msgstr "بیایید با ایجاد اولین پرسش کتابخانه یا بلوک پرسش شروع کنیم. برای ایجاد یک پرسش یا بلوک جدید، روی دکمه جدید کلیک کنید."
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "تغییر وضعیت همگانی دارایی ناموفق بود."
-
-#: .Make+public
-msgid "Make public"
-msgstr "همگانی کنید"
-
-#: .Make+private
-msgid "Make private"
-msgstr "شخصی سازی"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "این ##asset_type## خالی است."
-
-#: .Show+less
-msgid "Show less"
-msgstr "نمایش کمتر"
-
-#: .Show+more
-msgid "Show more"
-msgstr "نمایش بیشتر"
-
-#: .Vertical
-msgid "Vertical"
-msgstr "عمودی"
-
-#: .Donut
-msgid "Donut"
-msgstr "دونات"
-
-#: .Area
-msgid "Area"
-msgstr "محدوده"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "افقی"
-
-#: .Pie
-msgid "Pie"
-msgstr "دایره‌ای"
-
-#: .Line
-msgid "Line"
-msgstr "خط"
-
-#: .Unlabeled
-msgid "Unlabeled"
-msgstr "بدون برچسب"
-
-#: .Include+the+following+questions
-msgid "Include the following questions:"
-msgstr "پرسش‌های زیر را بگنجانید:"
-
-#: .Chart+Type
-msgid "Chart Type"
-msgstr "نوع نمودار"
-
-#: .Colors
-msgid "Colors"
-msgstr "رنگ‌ها"
-
-#: .No+grouping
-msgid "No grouping"
-msgstr "بدون گروه‌بندی"
-
-#: .Group+By
-msgid "Group By"
-msgstr "گروه‌بندی بر اساس"
-
-#: .Translation
-msgid "Translation"
-msgstr "ترجمه"
-
-#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
-msgid "This project has no submitted data. Please collect some and try again."
-msgstr "این پروژه هیچ داده‌ای ندارد. لطفا مقداری داده جمع‌آوری و دوباره امتحان کنید."
-
-#: .results
-msgid "results"
-msgstr "نتایج"
-
-#: .Edit
-msgid "Edit"
-msgstr "ویرایش"
-
-#: .Validation
-msgid "Validation"
-msgstr "اعتبار سنجی"
-
-#: .Show+All
-msgid "Show All"
-msgstr "نمایش همه"
-
-#: .Search
-msgid "Search"
-msgstr "جستجو"
-
-#: .Display+options
-msgid "Display options"
-msgstr "گزینه‌های نمایش"
-
-#: .Prev
-msgid "Prev"
-msgstr "قبلی"
-
-#: .Your+filters+returned+no+submissions.
-msgid "Your filters returned no submissions."
-msgstr "فیلترهای شما هیچ مورد ارسالی نداشتند."
-
-#: .Page
-msgid "Page"
-msgstr "صفحه"
-
-#: .rows
-msgid "rows"
-msgstr "ردیف‌ها"
-
-#: .My+Projects
-msgid "My Projects"
-msgstr "پروژه‌های من"
-
-#: .Is
-msgid "Is"
-msgstr "هست"
-
-#: .Is+not
-msgid "Is not"
-msgstr "نیست"
-
-#: .Contains
-msgid "Contains"
-msgstr "شامل می‌شود"
-
-#: .Does+not+contain
-msgid "Does not contain"
-msgstr "شامل نمی‌شود"
-
-#: .Starts+with
-msgid "Starts with"
-msgstr "آغاز می‌شود با"
-
-#: .Ends+with
-msgid "Ends with"
-msgstr "به پایان می‌رسد با"
-
-#: .Is+empty
-msgid "Is empty"
-msgstr "خالی است."
-
-#: .Is+not+empty
-msgid "Is not empty"
-msgstr "خالی نیست."
-
-#: .Project+name
-msgid "Project name"
-msgstr "نام پروژه"
-
-#: .Status
-msgid "Status"
-msgstr "وضعیت"
-
-#: .Owner+username
-msgid "Owner username"
-msgstr "نام کاربری مالک"
-
-#: .Owner+full+name
-msgid "Owner full name"
-msgstr "نام و نام خانوادگی مالک"
-
-#: .Owner+email
-msgid "Owner email"
-msgstr "ایمیل مالک"
-
-#: .Owner+organization
-msgid "Owner organization"
-msgstr "سازمان مالک"
-
-#: .Date+modified
-msgid "Date modified"
-msgstr "تاریخ تغییرات"
-
-#: .Date+deployed
-msgid "Date deployed"
-msgstr "تاریخ استقرار"
-
-#: .Countries
-msgid "Countries"
-msgstr "کشورها"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "مجموعه پدر یا مادر"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2077,41 +1847,195 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "به پروژه(های) دیگر متصل شوید تا داده‌های پویا را از آن‌ها به این پروژه وارد کنید. درباره پیوست‌های داده پویا بیشتر بیاموزید."
 
-#: .DONE
-msgid "DONE"
-msgstr "انجام شد."
+#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
+msgid "This project has no submitted data. Please collect some and try again."
+msgstr "این پروژه هیچ داده‌ای ندارد. لطفا مقداری داده جمع‌آوری و دوباره امتحان کنید."
 
-#: .This+field+is+required.
-msgid "This field is required."
-msgstr "این فیلد الزامی است."
+#: .results
+msgid "results"
+msgstr "نتایج"
 
-#: .This+field+must+match+the+Verify+Password+field.
-msgid "This field must match the Verify Password field."
-msgstr "این فیلد باید با فیلد تایید رمز عبور مطابقت داشته باشد."
+#: .Edit
+msgid "Edit"
+msgstr "ویرایش"
 
-#: .Save+Password
-msgid "Save Password"
-msgstr "ذخیره رمز عبور"
+#: .Validation
+msgid "Validation"
+msgstr "اعتبار سنجی"
 
-#: .Reset+Password
-msgid "Reset Password"
-msgstr "بازنشانی رمز عبور"
+#: .Show+All
+msgid "Show All"
+msgstr "نمایش همه"
 
-#: .Current+Password
-msgid "Current Password"
-msgstr "رمز عبور فعلی"
+#: .Search
+msgid "Search"
+msgstr "جستجو"
 
-#: .Forgot+Password%3F
-msgid "Forgot Password?"
-msgstr "رمز عبور را فراموش کرده‌اید؟"
+#: .Display+options
+msgid "Display options"
+msgstr "گزینه‌های نمایش"
 
-#: .New+Password
-msgid "New Password"
-msgstr "رمز عبور جدید"
+#: .Prev
+msgid "Prev"
+msgstr "قبلی"
 
-#: .Verify+Password
-msgid "Verify Password"
-msgstr "تایید رمز عبور"
+#: .Your+filters+returned+no+submissions.
+msgid "Your filters returned no submissions."
+msgstr "فیلترهای شما هیچ مورد ارسالی نداشتند."
+
+#: .Page
+msgid "Page"
+msgstr "صفحه"
+
+#: .rows
+msgid "rows"
+msgstr "ردیف‌ها"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "این ##asset_type## خالی است."
+
+#: .Show+less
+msgid "Show less"
+msgstr "نمایش کمتر"
+
+#: .Show+more
+msgid "Show more"
+msgstr "نمایش بیشتر"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "تغییر وضعیت همگانی دارایی ناموفق بود."
+
+#: .Make+public
+msgid "Make public"
+msgstr "همگانی کنید"
+
+#: .Make+private
+msgid "Make private"
+msgstr "شخصی سازی"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "اطلاعات مالک دریافت نشد."
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "تاریخ ایجاد"
+
+#: .Owner
+msgid "Owner"
+msgstr "مالک"
+
+#: .Tags
+msgid "Tags"
+msgstr "برچسب‌ها"
+
+#: .Items
+msgid "Items"
+msgstr "موارد"
+
+#: .Organization
+msgid "Organization"
+msgstr "سازمان"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "مخفی کردن جزئیات کامل"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "نمایش جزئیات کامل"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "عمودی"
+
+#: .Donut
+msgid "Donut"
+msgstr "دونات"
+
+#: .Area
+msgid "Area"
+msgstr "محدوده"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "افقی"
+
+#: .Pie
+msgid "Pie"
+msgstr "دایره‌ای"
+
+#: .Line
+msgid "Line"
+msgstr "خط"
+
+#: .Unlabeled
+msgid "Unlabeled"
+msgstr "بدون برچسب"
+
+#: .Include+the+following+questions
+msgid "Include the following questions:"
+msgstr "پرسش‌های زیر را بگنجانید:"
+
+#: .Chart+Type
+msgid "Chart Type"
+msgstr "نوع نمودار"
+
+#: .Colors
+msgid "Colors"
+msgstr "رنگ‌ها"
+
+#: .Name
+msgid "Name"
+msgstr "نام"
+
+#: .Type
+msgid "Type"
+msgstr "نوع"
+
+#: .Shared+by
+msgid "Shared by"
+msgstr "به اشتراک گذاشته شده توسط"
+
+#: .Created
+msgid "Created"
+msgstr "ایجاد شده"
+
+#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
+msgid ""
+"Let's get started by creating your first project. Click the New button to "
+"create a new form."
+msgstr "بیایید با ایجاد اولین پروژه خود شروع کنید. برای ایجاد فرم جدید روی دکمه جدید کلیک کنید."
+
+#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
+msgid ""
+"Advanced users: You can also drag and drop XLSForms here and they will be "
+"uploaded and converted to projects."
+msgstr "کاربرهای پیشرفته: همچنین می توانید XLSForms را در اینجا بکشید و رها کنید تا آپلود و به آیتم‌های کتابخانه تبدیل شوند."
+
+#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
+msgid ""
+"Let's get started by creating your first library question or question block."
+" Click the New button to create a new question or block."
+msgstr "بیایید با ایجاد اولین پرسش کتابخانه یا بلوک پرسش شروع کنیم. برای ایجاد یک پرسش یا بلوک جدید، روی دکمه جدید کلیک کنید."
+
+#: .No+grouping
+msgid "No grouping"
+msgstr "بدون گروه‌بندی"
+
+#: .Group+By
+msgid "Group By"
+msgstr "گروه‌بندی بر اساس"
+
+#: .Translation
+msgid "Translation"
+msgstr "ترجمه"
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "مجموعه پدر یا مادر"
 
 #: .Subscribers
 msgid "Subscribers"
@@ -2136,31 +2060,31 @@ msgstr "همه داده‌ها را برون بُرد (Export) کنید."
 
 #: .Your+account+total+use
 msgid "Your account total use"
-msgstr ""
+msgstr "مصرف کل حساب شما"
 
 #: .Monthly+use
 msgid "Monthly use"
-msgstr ""
+msgstr "مصرف ماهیانه"
 
 #: .Storage
 msgid "Storage"
-msgstr ""
+msgstr "فضا ذخیره سازی"
 
 #: .per+account
 msgid "per account"
-msgstr ""
+msgstr "هر نام کاربری"
 
 #: .Current+use
 msgid "Current use"
-msgstr ""
+msgstr "تابحال استفاده شده"
 
 #: .Transcription+minutes
 msgid "Transcription minutes"
-msgstr ""
+msgstr "دقیقه های رونویسی"
 
 #: .Translation+characters
 msgid "Translation characters"
-msgstr ""
+msgstr "کارکترهای ترجمه"
 
 #: .Male
 msgid "Male"
@@ -2214,32 +2138,157 @@ msgstr "شهر"
 msgid "Social"
 msgstr "اجتماعی"
 
-#: .Community+plan+(free+access)
-msgid "Community plan (free access)"
-msgstr "طرح جامعه (دسترسی رایگان)"
-
-#: .Free+access+to+all+services.+5GB+of+media+attachments+per+account,+10,000+submissions+per+month,+as+well+as+25+minutes+of+automatic+speech+recognition+and+20,000+characters+of+machine+translation+per+month.
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"Free access to all services. 5GB of media attachments per account, 10,000 "
-"submissions per month, as well as 25 minutes of automatic speech recognition"
-" and 20,000 characters of machine translation per month."
-msgstr "دسترسی رایگان به همه خدمات. ۵ گیگابایت پیوست رسانه‌ای به ازای هر حساب کاربری، ۱۰۰۰۰ ارسال در ماه، همچنین ۲۵ دقیقه بازشناسی گفتار اتوماتیک و ۲۰۰۰۰ کاراکتر ترجمه با ماشین در ماه."
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr ""
 
-#: .Current+Plan
-msgid "Current Plan"
-msgstr "برنامه فعلی"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr ""
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr ""
+
+#: .Annual
+msgid "Annual"
+msgstr ""
+
+#: .Monthly
+msgid "Monthly"
+msgstr ""
+
+#: .your+plan
+msgid "your plan"
+msgstr ""
+
+#: .Free
+msgid "Free"
+msgstr ""
 
 #: .Upgrade
 msgid "Upgrade"
 msgstr "ارتقاء"
 
-#: .Add+ons+and+upgrades+to+your+plan
-msgid "Add ons and upgrades to your plan"
-msgstr "امکانات جانبی و ارتقاء برنامه شما"
+#: .Manage
+msgid "Manage"
+msgstr ""
+
+#: .Change+plan
+msgid "Change plan"
+msgstr ""
+
+#: .Need+More%3F
+msgid "Need More?"
+msgstr ""
+
+#: .We+offer+several+add-on+options+to+increase+your+limits+or+the+capacity+of+certain+features+for+a+period+of+time,+depending+on+which+plan+you+use.
+msgid ""
+"We offer several add-on options to increase your limits or the capacity of "
+"certain features for a period of time, depending on which plan you use."
+msgstr ""
+
+#: .If+your+organization+has+larger+or+more+specific+needs,+please+contact+our+team+to+learn+about+our+enterprise+options.
+msgid ""
+"If your organization has larger or more specific needs, please contact our "
+"team to learn about our enterprise options."
+msgstr ""
+
+#: .Get+in+touch+for+Enterprise+options
+msgid "Get in touch for Enterprise options"
+msgstr ""
+
+#: .Collapse
+msgid "Collapse"
+msgstr ""
+
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr ""
+
+#: .My+Projects
+msgid "My Projects"
+msgstr "پروژه‌های من"
+
+#: .Is
+msgid "Is"
+msgstr "هست"
+
+#: .Is+not
+msgid "Is not"
+msgstr "نیست"
+
+#: .Contains
+msgid "Contains"
+msgstr "شامل می‌شود"
+
+#: .Does+not+contain
+msgid "Does not contain"
+msgstr "شامل نمی‌شود"
+
+#: .Starts+with
+msgid "Starts with"
+msgstr "آغاز می‌شود با"
+
+#: .Ends+with
+msgid "Ends with"
+msgstr "به پایان می‌رسد با"
+
+#: .Is+empty
+msgid "Is empty"
+msgstr "خالی است."
+
+#: .Is+not+empty
+msgid "Is not empty"
+msgstr "خالی نیست."
+
+#: .Project+name
+msgid "Project name"
+msgstr "نام پروژه"
+
+#: .Status
+msgid "Status"
+msgstr "وضعیت"
+
+#: .Owner+username
+msgid "Owner username"
+msgstr "نام کاربری مالک"
+
+#: .Owner+full+name
+msgid "Owner full name"
+msgstr "نام و نام خانوادگی مالک"
+
+#: .Owner+email
+msgid "Owner email"
+msgstr "ایمیل مالک"
+
+#: .Owner+organization
+msgid "Owner organization"
+msgstr "سازمان مالک"
+
+#: .Date+modified
+msgid "Date modified"
+msgstr "تاریخ تغییرات"
+
+#: .Date+deployed
+msgid "Date deployed"
+msgstr "تاریخ استقرار"
+
+#: .Countries
+msgid "Countries"
+msgstr "کشورها"
 
 #: .Security
 msgid "Security"
 msgstr "امنیت"
+
+#: .DONE
+msgid "DONE"
+msgstr "انجام شد."
 
 #: .Previous
 msgid "Previous"
@@ -2293,13 +2342,190 @@ msgstr "به اشتراک گذاری"
 msgid "View containing Collection"
 msgstr "مشاهده محتویات مجموعه"
 
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "پرسش به کتابخانه اضافه شده است."
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr "مشکلی بوجود آمده است."
 
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "گروه به عنوان یک بلوک به کتابخانه اضافه شده است."
+#: .Item
+msgid "Item"
+msgstr "مورد"
+
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "از##total_count##"
+
+#: .Transcript
+msgid "Transcript"
+msgstr "رونوشت"
+
+#: .Translations
+msgid "Translations"
+msgstr "ترجمه‌ها"
+
+#: .Analysis
+msgid "Analysis"
+msgstr "تحلیل"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "تاریخ آخرین تغییرات ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "ایجاد شده##date##"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "مجوزها با موفقیت کپی شدند."
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "شما در حال کپی کردن مجوزها از ##source to ##target هستید. این عمل قابل بازگشت نیست."
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "آیا مطمئن هستید که می‌خواهید مجوزها را کپی کنید؟"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "ادامه دهید."
+
+#: .Unlabelled
+msgid "Unlabelled"
+msgstr "بدون برچسب"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "تیم را از پروژه دیگری کپی کنید."
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "با این کار، تنظیمات به اشتراک‌گذاری موجود تعریف شده در این پروژه بازنویسی می‌شوند."
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "پروژه منبع را انتخاب کنید…"
+
+#: .copy
+msgid "copy"
+msgstr "کپی"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "نام‌های کاربری که با ویرگول از هم جدا شده‌اند را وارد کنید."
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "کاربر پیدا نشد:"
+
+#: .username
+msgid "username"
+msgstr "نام کاربری"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "اعطای مجوزها"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "به روز رسانی مجوزها"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "هر کسی می‌تواند این فرم را مشاهده کند."
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "همه می‌توانند موارد ارسالی به این فرم را ببینند."
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "لینک قابل اشتراک گذاری"
+
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "می‌خواهید بدون ذخیره کردن خارج شوید؟"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "مجوزها حذف شوند؟"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "این اقدام، همه مجوزهای کاربر را حذف می‌کند.##username##"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
+msgid "##permission_label## (##username_list##)"
+msgstr "##permission_label## (##username_list##)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
+msgid "##permission_label## (##username_list## and 1 other)"
+msgstr "##permission_label## (##username_list##و یکی دیگر)"
+
+#: .is+owner
+msgid "is owner"
+msgstr "مالک است."
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "خدمات REST بارگیری نشد."
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "آیا مطمئنید که می‌خواهید ##هدف را حذف کنید؟"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "شما در حال حذف ##هدف هستید. این عمل قابل لغو نیست."
+
+#: .Confirm
+msgid "Confirm"
+msgstr "تایید"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "ثبت خدمات جدید"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "این پروژه هنوز هیچ خدمات REST ندارد!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "شما می‌توانید از خدمات REST برای ارسال خودکار مطالب ارسالی به یک برنامه شخص ثالث استفاده کنید."
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "بیشتر بیاموزید"
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "خدمات REST: ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "به کمک نیاز دارید؟"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "نام خدمات"
+
+#: .Success
+msgid "Success"
+msgstr "موفق"
+
+#: .Pending
+msgid "Pending"
+msgstr "در حال انتظار"
+
+#: .Failed
+msgid "Failed"
+msgstr "ناموفق"
 
 #: .Paste+your+formatted+table+from+excel+in+the+box+below.
 msgid "Paste your formatted table from excel in the box below."
@@ -2332,6 +2558,54 @@ msgstr "بلوک ___  پرسش‌ها"
 #: .search+library
 msgid "search library"
 msgstr "جستجو در کتابخانه"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "خدمات REST بارگیری نشد."
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "گزارش‌های خدمات REST بارگیری نشد."
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "جزئیات ارسال ناموفق (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "بازگشت به خدمات REST"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "در حال بارگذاری…"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "هنوز هیچ گزارشی وجود ندارد."
+
+#: .Submission
+msgid "Submission"
+msgstr "ارسال"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "همه موارد ارسالی را دوباره امتحان کنید."
+
+#: .Date
+msgid "Date"
+msgstr "تاریخ"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "در حال انتظار(##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "تلاش دوباره برای ارسال"
+
+#: .More+info
+msgid "More info"
+msgstr "اطلاعات بیشتر"
 
 #: .Marker+Colors
 msgid "Marker Colors"
@@ -2415,202 +2689,13 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "به‌طور پیش‌فرض، نقشه به ##QUERY_LIMIT_DEFAULT##جدیدترین ارسال‌ها محدود می‌شود. شما می‌توانید به طور موقت این محدودیت را به مقدار دیگری افزایش دهید. توجه داشته باشید که هر زمان که نقشه را دوباره باز کنید، این بازنشانی می‌شود."
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "مجوزها با موفقیت کپی شدند."
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "پرسش به کتابخانه اضافه شده است."
 
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "شما در حال کپی کردن مجوزها از ##source to ##target هستید. این عمل قابل بازگشت نیست."
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "آیا مطمئن هستید که می‌خواهید مجوزها را کپی کنید؟"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "ادامه دهید."
-
-#: .Unlabelled
-msgid "Unlabelled"
-msgstr "بدون برچسب"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "تیم را از پروژه دیگری کپی کنید."
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "با این کار، تنظیمات به اشتراک‌گذاری موجود تعریف شده در این پروژه بازنویسی می‌شوند."
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "پروژه منبع را انتخاب کنید…"
-
-#: .copy
-msgid "copy"
-msgstr "کپی"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "خدمات REST بارگیری نشد."
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "آیا مطمئنید که می‌خواهید ##هدف را حذف کنید؟"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "شما در حال حذف ##هدف هستید. این عمل قابل لغو نیست."
-
-#: .Confirm
-msgid "Confirm"
-msgstr "تایید"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "ثبت خدمات جدید"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "این پروژه هنوز هیچ خدمات REST ندارد!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "شما می‌توانید از خدمات REST برای ارسال خودکار مطالب ارسالی به یک برنامه شخص ثالث استفاده کنید."
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "بیشتر بیاموزید"
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "خدمات REST: ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "به کمک نیاز دارید؟"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "نام خدمات"
-
-#: .Success
-msgid "Success"
-msgstr "موفق"
-
-#: .Pending
-msgid "Pending"
-msgstr "در حال انتظار"
-
-#: .Failed
-msgid "Failed"
-msgstr "ناموفق"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "خدمات REST بارگیری نشد."
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "گزارش‌های خدمات REST بارگیری نشد."
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "جزئیات ارسال ناموفق (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "بازگشت به خدمات REST"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "در حال بارگذاری…"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "هنوز هیچ گزارشی وجود ندارد."
-
-#: .Submission
-msgid "Submission"
-msgstr "ارسال"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "همه موارد ارسالی را دوباره امتحان کنید."
-
-#: .Date
-msgid "Date"
-msgstr "تاریخ"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "در حال انتظار(##count##×)"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "تلاش دوباره برای ارسال"
-
-#: .More+info
-msgid "More info"
-msgstr "اطلاعات بیشتر"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "هر کسی می‌تواند این فرم را مشاهده کند."
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "همه می‌توانند موارد ارسالی به این فرم را ببینند."
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "لینک قابل اشتراک گذاری"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "نام‌های کاربری که با ویرگول از هم جدا شده‌اند را وارد کنید."
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "کاربر پیدا نشد:"
-
-#: .username
-msgid "username"
-msgstr "نام کاربری"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "اعطای مجوزها"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "به روز رسانی مجوزها"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "مجوزها حذف شوند؟"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "این اقدام، همه مجوزهای کاربر را حذف می‌کند.##username##"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
-msgid "##permission_label## (##username_list##)"
-msgstr "##permission_label## (##username_list##)"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
-msgid "##permission_label## (##username_list## and 1 other)"
-msgstr "##permission_label## (##username_list##و یکی دیگر)"
-
-#: .is+owner
-msgid "is owner"
-msgstr "مالک است."
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "گروه به عنوان یک بلوک به کتابخانه اضافه شده است."
 
 #: .Search...
 msgid "Search..."
@@ -2644,41 +2729,9 @@ msgstr "دارایی‌های پیدا شده"
 msgid "expand details"
 msgstr "مشاهده جزئیات بیشتر"
 
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr ""
-
-#: .Item
-msgid "Item"
-msgstr "مورد"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "از##total_count##"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "رونوشت"
-
-#: .Translations
-msgid "Translations"
-msgstr "ترجمه‌ها"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "تحلیل"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "تاریخ آخرین تغییرات ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "ایجاد شده##date##"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "می‌خواهید بدون ذخیره کردن خارج شوید؟"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "انتخاب..…"
 
 #: .Audit+settings
 msgid "Audit settings"
@@ -2707,6 +2760,14 @@ msgstr "ضبط صدا را در پس زمینه فعال کنید"
 #: .Audio+quality
 msgid "Audio quality"
 msgstr "کیفیت صدا"
+
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "شما هیچ الگوئی ندارید. به کتابخانه بروید و تعدادی ایجاد کنید."
+
+#: .Template+name
+msgid "Template name"
+msgstr "نام الگو"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -2744,6 +2805,38 @@ msgstr "قابلیت های قفل شده"
 #: .Unlocked+functionalities
 msgid "Unlocked functionalities"
 msgstr "قابلیت های باز شده"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "جستجو..…"
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "لطفا عنوانی انتخاب کنید برای پروژه ##type##خویش"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "##type##بدون عنوان"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "مجموعه بدون عنوان"
+
+#: .project+title
+msgid "project title"
+msgstr "عنوان پروژه"
+
+#: .Profile
+msgid "Profile"
+msgstr "پروفایل"
+
+#: .Usage
+msgid "Usage"
+msgstr "استفاده"
+
+#: .Your+Plan
+msgid "Your Plan"
+msgstr "برنامه شما"
 
 #: .Incorrect+token
 msgid "Incorrect token"
@@ -2828,61 +2921,72 @@ msgstr "لطفا توجه کنید که جهت تغییر احراز هویت د
 msgid "Issues with the token"
 msgstr "توکن مشکل دارد"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "انتخاب..…"
+#: .Type+
+msgid "Type: "
+msgstr "نوع:"
 
-#: .Profile
-msgid "Profile"
-msgstr "پروفایل"
+#: ..+
+msgid ". "
+msgstr "."
 
-#: .Usage
-msgid "Usage"
-msgstr ""
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#1 از #2 پاسخ دهنده به این سوال پاسخ داده اند."
 
-#: .Your+Plan
-msgid "Your Plan"
-msgstr "برنامه شما"
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# بدون داده)"
 
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "جستجو..…"
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "لغو سبک نمودار"
 
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "لطفا عنوانی انتخاب کنید برای پروژه ##type##خویش"
+#: .Deploy+this+project
+msgid "Deploy this project"
+msgstr "این پروژه اجرا شود"
 
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "##type##بدون عنوان"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "منابع راهنما"
 
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "مجموعه بدون عنوان"
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "مرکز کمک رسانی جعبه ابزار کوبو"
 
-#: .project+title
-msgid "project title"
-msgstr "عنوان پروژه"
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "مجموعه کاملی از مقالات و دروس پشتیبانی کاربر مربوط به کوبو"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "شما هیچ الگوئی ندارید. به کتابخانه بروید و تعدادی ایجاد کنید."
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "محل فعالیتهای گروهی جعبه ابزار کوبو"
 
-#: .Template+name
-msgid "Template name"
-msgstr "نام الگو"
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "سوالات خود را پست کنید تا از کاربران مجرب کوبو در سراسر دنیا پاسخ دریافت کنید"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "به روز رسانی برچسب ناموفق بود"
+#: .Notifications
+msgid "Notifications"
+msgstr "اعلان ها"
 
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "در حال بروزرسانی..."
+#: .Help
+msgid "Help"
+msgstr "کمک"
 
-#: .Update
-msgid "Update"
-msgstr "بروزرسانی"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "ارسال ##submissionIndex## از ##submissionTotal##"
+
+#: .download
+msgid "download"
+msgstr "دانلود"
+
+#: .process
+msgid "process"
+msgstr "فرآیند"
 
 #: .Question+Block
 msgid "Question Block"
@@ -2895,6 +2999,22 @@ msgstr "الگو"
 #: .Collection
 msgid "Collection"
 msgstr "مجموعه"
+
+#: .Choose+desired+type
+msgid "Choose desired type"
+msgstr "نوع مورد نظر را انتخاب کنید"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "به روز رسانی برچسب ناموفق بود"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "در حال بروزرسانی..."
+
+#: .Update
+msgid "Update"
+msgstr "بروزرسانی"
 
 #: .%23%23type%23%23+%23%23name%23%23+created
 msgid "##type## ##name## created"
@@ -2978,14 +3098,6 @@ msgstr "به روز رسانی سوالات وارد شده"
 msgid "Accept"
 msgstr "پذیرفتن"
 
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "نوع مورد نظر را انتخاب کنید"
-
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "نوع رسانه پشتیبانی نشده: ##QUESTION_TYPE##"
-
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
 msgstr "وجود خطا، تنظیمات جدول ذخیره نشد."
@@ -3009,6 +3121,83 @@ msgstr "نمایش نام گروه ها در سرفصل های جدول"
 #: .Show+HXL+tags
 msgid "Show HXL tags"
 msgstr "نمایش تگ های HXL"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "ارسال یافت نشد. ممکن است پاک شده باشد. شماره ارسال: ##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "ارسال حذف شود؟"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "آیا مطمئن هستید که می خواهید این ارسال را حذف کنید؟"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "این عمل قابل لغو نیست"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "کپی ایجاد شد"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "یک کپی از رکورد ارسال با موفقیت ایجاد شد. شما می توانید مورد جدید را در پائین ببینید و با استفاده از دکمه های پائین تغییرات اعمال کنید."
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "لغو کپی ارسال"
+
+#: .Discard
+msgid "Discard"
+msgstr "لغو"
+
+#: .Language
+msgid "Language:"
+msgstr "زبان:"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "وضعیت اعتبار سنجی:"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "روی دکمه زیر کلیک کنید تا جدیدترین داده ها برای این ارسال بارگیری شود."
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "تازه سازی ارسال"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "ضبط صدا در پس زمینه"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "نمایش نامهای XML"
+
+#: .View
+msgid "View"
+msgstr "نمایش"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "کپی"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "حذف ارسال"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "نوع رسانه پشتیبانی نشده: ##QUESTION_TYPE##"
 
 #: .n/d
 msgid "n/d"
@@ -3102,99 +3291,6 @@ msgstr "کرات"
 #: .Percentage
 msgid "Percentage"
 msgstr "درصد"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "ارسال یافت نشد. ممکن است پاک شده باشد. شماره ارسال: ##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "ارسال حذف شود؟"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "آیا مطمئن هستید که می خواهید این ارسال را حذف کنید؟"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "این عمل قابل لغو نیست"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "کپی ایجاد شد"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "یک کپی از رکورد ارسال با موفقیت ایجاد شد. شما می توانید مورد جدید را در پائین ببینید و با استفاده از دکمه های پائین تغییرات اعمال کنید."
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "لغو کپی ارسال"
-
-#: .Discard
-msgid "Discard"
-msgstr "لغو"
-
-#: .Language
-msgid "Language:"
-msgstr "زبان:"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "وضعیت اعتبار سنجی:"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "روی دکمه زیر کلیک کنید تا جدیدترین داده ها برای این ارسال بارگیری شود."
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "تازه سازی ارسال"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "ضبط صدا در پس زمینه"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "نمایش نامهای XML"
-
-#: .View
-msgid "View"
-msgstr "نمایش"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "کپی"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "حذف ارسال"
-
-#: .%2A+Save+Changes
-msgid "* Save Changes"
-msgstr "ذخیره تغییرات"
-
-#: .updated+text
-msgid "updated text"
-msgstr "متن بروزرسانی شده"
-
-#: .translation
-msgid "translation"
-msgstr "ترجمه"
-
-#: .Original+string
-msgid "Original string"
-msgstr "رشته اصلی"
-
-#: .Go+back%3F
-msgid "Go back?"
-msgstr "برگشتن به عقب؟"
 
 #: .Delete+language%3F
 msgid "Delete language?"
@@ -3290,9 +3386,25 @@ msgstr "افزودن زبان"
 msgid "Add a new language"
 msgstr "افزودن زبان جدید"
 
-#: .Deploy+this+project
-msgid "Deploy this project"
-msgstr "این پروژه اجرا شود"
+#: .%2A+Save+Changes
+msgid "* Save Changes"
+msgstr "ذخیره تغییرات"
+
+#: .updated+text
+msgid "updated text"
+msgstr "متن بروزرسانی شده"
+
+#: .translation
+msgid "translation"
+msgstr "ترجمه"
+
+#: .Original+string
+msgid "Original string"
+msgstr "رشته اصلی"
+
+#: .Go+back%3F
+msgid "Go back?"
+msgstr "برگشتن به عقب؟"
 
 #: .JSON
 msgid "JSON"
@@ -3376,205 +3488,9 @@ msgstr "اضافه کردن روپوش برای فایل ارسالی JSON (%ف�
 msgid "Add Custom Wrapper"
 msgstr "اضافه کردن روپوش سفارشی"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "منابع راهنما"
-
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "مرکز کمک رسانی جعبه ابزار کوبو"
-
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "مجموعه کاملی از مقالات و دروس پشتیبانی کاربر مربوط به کوبو"
-
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "محل فعالیتهای گروهی جعبه ابزار کوبو"
-
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "سوالات خود را پست کنید تا از کاربران مجرب کوبو در سراسر دنیا پاسخ دریافت کنید"
-
-#: .Notifications
-msgid "Notifications"
-msgstr "اعلان ها"
-
-#: .Help
-msgid "Help"
-msgstr "کمک"
-
-#: .Type+
-msgid "Type: "
-msgstr "نوع:"
-
-#: ..+
-msgid ". "
-msgstr "."
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#1 از #2 پاسخ دهنده به این سوال پاسخ داده اند."
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# بدون داده)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "لغو سبک نمودار"
-
-#: .filter
-msgid "filter"
-msgstr "فیلتر"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "فیلتری وجود ندارد، می توانید در زیر یک فیلتر اضافه کنید"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "اضافه کردن فیلتر"
-
-#: .Apply
-msgid "Apply"
-msgstr "درخواست دادن"
-
-#: .fields
-msgid "fields"
-msgstr "زمینه ها"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "ارسال ##submissionIndex## از ##submissionTotal##"
-
-#: .download
-msgid "download"
-msgstr "دانلود"
-
-#: .process
-msgid "process"
-msgstr "فرآیند"
-
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "هنگام بارگیری Enketo خطایی روی داد."
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "انتخاب همه نتایج (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "انتخاب نتایج قابل ملاحظه (##count##)"
-
-#: .None
-msgid "None"
-msgstr "هیچکدام"
-
-#: .Update+status+of+selected+submissions
-msgid "Update status of selected submissions"
-msgstr "به روز رسانی وضعیت ارسالی انتخاب شده"
-
-#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
-msgid ""
-"You have selected ## submissions. Are you sure you would like to update "
-"their status? This action is irreversible."
-msgstr "شما ## ارسال انتخاب کرده اید. آیا مطمئن هستید که می خواهید وضعیت آنها را به روز رسانی کنید؟ این عمل قابل بازگشت نیست."
-
-#: .Update+Validation+Status
-msgid "Update Validation Status"
-msgstr "به روز رسانی وضعیت اعتبارسنجی"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
-msgid ""
-"You are about to permanently delete ##count## submissions. It is not "
-"possible to recover deleted submissions."
-msgstr "شما در شرف حذف دائمی ##count## ارسالی هستید. امکان بازیابی موارد ارسالی حذف شده وجود ندارد."
-
-#: .Delete+selected+submissions
-msgid "Delete selected submissions"
-msgstr "پاک کردن ارسالهای انتخاب شده"
-
-#: .Delete+selected
-msgid "Delete selected"
-msgstr "حذف انتخاب شده"
-
-#: .%23%23count%23%23+selected
-msgid "##count## selected"
-msgstr "##count## انتخاب شده"
-
-#: .Change+status
-msgid "Change status"
-msgstr "تغییر وضعیت"
-
-#: .Set+status+%23%23status%23%23
-msgid "Set status: ##status##"
-msgstr "تنظیم وضعیت: ##status##"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "زمینه ها مخفی شوند"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "مرتب کردن از ا تا ی"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "مرتب کردن از ی تا ا"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "زمینه مخفی شود"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "زمینه آزاد شود"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "زمینه غیرفعال شود"
-
-#: .Delete+export%3F
-msgid "Delete export?"
-msgstr "حذف صدور؟"
-
-#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
-msgid ""
-"Are you sure you want to delete this export? This action is not reversible."
-msgstr "آیا مطمئنید که می خواهید این صدور را حذف کنید؟ این عمل برگشت پذیر نیست."
-
-#: .Unknown
-msgid "Unknown"
-msgstr "ناشناخته"
-
-#: .Export+Failed
-msgid "Export Failed"
-msgstr "صدور انجام نشد"
-
-#: .Processing%E2%80%A6
-msgid "Processing…"
-msgstr "درحال انجام..."
-
-#: .Exports
-msgid "Exports"
-msgstr "صدوری ها"
-
-#: .Include+Groups
-msgid "Include Groups"
-msgstr "گروه‌ها شامل‌شوند"
-
-#: .Multiple+Versions
-msgid "Multiple Versions"
-msgstr "نسخه های چندگانه"
-
-#: .There+is+nothing+to+download+yet.
-msgid "There is nothing to download yet."
-msgstr "هنوز چیزی برای دانلود وجود ندارد."
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -3589,6 +3505,10 @@ msgid ""
 "Are you sure you want to delete this settings? This action is not "
 "reversible."
 msgstr "آیا مطمئن هستید که می خواهید این تنظیمات را حذف کنید؟ این عمل برگشت پذیر نیست."
+
+#: .None
+msgid "None"
+msgstr "هیچکدام"
 
 #: .Include+data+from+all
 msgid "Include data from all"
@@ -3664,6 +3584,135 @@ msgid ""
 "using one of the other export types available."
 msgstr "این فرمت خروجی در آینده پشتیبانی نخواهد شد. لطفاً از فرمت های موجود استفاده کنید."
 
+#: .Delete+export%3F
+msgid "Delete export?"
+msgstr "حذف صدور؟"
+
+#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
+msgid ""
+"Are you sure you want to delete this export? This action is not reversible."
+msgstr "آیا مطمئنید که می خواهید این صدور را حذف کنید؟ این عمل برگشت پذیر نیست."
+
+#: .Unknown
+msgid "Unknown"
+msgstr "ناشناخته"
+
+#: .Export+Failed
+msgid "Export Failed"
+msgstr "صدور انجام نشد"
+
+#: .Processing%E2%80%A6
+msgid "Processing…"
+msgstr "درحال انجام..."
+
+#: .Exports
+msgid "Exports"
+msgstr "صدوری ها"
+
+#: .Include+Groups
+msgid "Include Groups"
+msgstr "گروه‌ها شامل‌شوند"
+
+#: .Multiple+Versions
+msgid "Multiple Versions"
+msgstr "نسخه های چندگانه"
+
+#: .There+is+nothing+to+download+yet.
+msgid "There is nothing to download yet."
+msgstr "هنوز چیزی برای دانلود وجود ندارد."
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "انتخاب همه نتایج (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "انتخاب نتایج قابل ملاحظه (##count##)"
+
+#: .Update+status+of+selected+submissions
+msgid "Update status of selected submissions"
+msgstr "به روز رسانی وضعیت ارسالی انتخاب شده"
+
+#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
+msgid ""
+"You have selected ## submissions. Are you sure you would like to update "
+"their status? This action is irreversible."
+msgstr "شما ## ارسال انتخاب کرده اید. آیا مطمئن هستید که می خواهید وضعیت آنها را به روز رسانی کنید؟ این عمل قابل بازگشت نیست."
+
+#: .Update+Validation+Status
+msgid "Update Validation Status"
+msgstr "به روز رسانی وضعیت اعتبارسنجی"
+
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
+msgid ""
+"You are about to permanently delete ##count## submissions. It is not "
+"possible to recover deleted submissions."
+msgstr "شما در شرف حذف دائمی ##count## ارسالی هستید. امکان بازیابی موارد ارسالی حذف شده وجود ندارد."
+
+#: .Delete+selected+submissions
+msgid "Delete selected submissions"
+msgstr "پاک کردن ارسالهای انتخاب شده"
+
+#: .Delete+selected
+msgid "Delete selected"
+msgstr "حذف انتخاب شده"
+
+#: .%23%23count%23%23+selected
+msgid "##count## selected"
+msgstr "##count## انتخاب شده"
+
+#: .Change+status
+msgid "Change status"
+msgstr "تغییر وضعیت"
+
+#: .Set+status+%23%23status%23%23
+msgid "Set status: ##status##"
+msgstr "تنظیم وضعیت: ##status##"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "مرتب کردن از ا تا ی"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "مرتب کردن از ی تا ا"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "زمینه مخفی شود"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "زمینه آزاد شود"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "زمینه غیرفعال شود"
+
+#: .hide+fields
+msgid "hide fields"
+msgstr "زمینه ها مخفی شوند"
+
+#: .filter
+msgid "filter"
+msgstr "فیلتر"
+
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "فیلتری وجود ندارد، می توانید در زیر یک فیلتر اضافه کنید"
+
+#: .Add+filter
+msgid "Add filter"
+msgstr "اضافه کردن فیلتر"
+
+#: .Apply
+msgid "Apply"
+msgstr "درخواست دادن"
+
+#: .fields
+msgid "fields"
+msgstr "زمینه ها"
+
 #: .Two-factor+authentication
 msgid "Two-factor authentication"
 msgstr "احراز هویت دو مرحله ای"
@@ -3733,14 +3782,6 @@ msgstr "شناسائی یگانه"
 #: .There+are+no+projects+to+display.
 msgid "There are no projects to display."
 msgstr "پروژه ای برای نمایش وجود ندارد."
-
-#: .and+one+other+question
-msgid "and one other question"
-msgstr "و یک سوال دیگر"
-
-#: .and+%23%23+other+questions
-msgid "and ## other questions"
-msgstr "و ## سوالات دیگر"
 
 #: .Asset+seems+to+not+have+the+processing+feature+enabled%21
 msgid "Asset seems to not have the processing feature enabled!"
@@ -3862,6 +3903,22 @@ msgstr "ایجاد ترجمه"
 msgid "new translation"
 msgstr "ترجمه جدید"
 
+#: .and+one+other+question
+msgid "and one other question"
+msgstr "و یک سوال دیگر"
+
+#: .and+%23%23+other+questions
+msgid "and ## other questions"
+msgstr "و ## سوالات دیگر"
+
+#: .An+error+occured
+msgid "An error occured"
+msgstr "خطائی رخ داد"
+
+#: .Incorrect+token+or+something+went+wrong
+msgid "Incorrect token or something went wrong"
+msgstr "توکن نادرست یا مشکل دیگری اتفاق افتاد"
+
 #: .Mean
 msgid "Mean"
 msgstr "متوسط"
@@ -3878,17 +3935,57 @@ msgstr "حالت"
 msgid "Standard deviation"
 msgstr "انحراف معیار"
 
-#: .An+error+occured
-msgid "An error occured"
-msgstr "خطائی رخ داد"
+#: .CSV+(legacy)
+msgid "CSV (legacy)"
+msgstr "CSV (legacy)"
 
-#: .Incorrect+token+or+something+went+wrong
-msgid "Incorrect token or something went wrong"
-msgstr "توکن نادرست یا مشکل دیگری اتفاق افتاد"
+#: .CSV
+msgid "CSV"
+msgstr "CSV"
 
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "تایپ کرده و با ENTER تائید کنید"
+#: .GeoJSON
+msgid "GeoJSON"
+msgstr "GeoJSON"
+
+#: .GPS+coordinates+(KML)
+msgid "GPS coordinates (KML)"
+msgstr "مختصات GPS (KML)"
+
+#: .SPSS+Labels
+msgid "SPSS Labels"
+msgstr "برچسب SPSS"
+
+#: .XLS+(legacy)
+msgid "XLS (legacy)"
+msgstr "XLS (legacy)"
+
+#: .XLS
+msgid "XLS"
+msgstr "XLS"
+
+#: .Media+Attachments+(ZIP)
+msgid "Media Attachments (ZIP)"
+msgstr "پیوست های رسانه (ZIP)"
+
+#: .XML+values+and+headers
+msgid "XML values and headers"
+msgstr "ارقام و سربرگهای XML"
+
+#: .Separate+columns
+msgid "Separate columns"
+msgstr "ستونهای جداگانه"
+
+#: .Single+column
+msgid "Single column"
+msgstr "تک ستونی"
+
+#: .Single+and+separate+columns
+msgid "Single and separate columns"
+msgstr "ستونهای تکی و جداگانه"
+
+#: .Add+tag(s)
+msgid "Add tag(s)"
+msgstr "افزودن تگ (ها)"
 
 #: .Name+must+be+unique%21
 msgid "Name must be unique!"
@@ -3918,69 +4015,13 @@ msgstr "کد زبان"
 msgid "Set"
 msgstr "تنظیم"
 
-#: .Add+tag(s)
-msgid "Add tag(s)"
-msgstr "افزودن تگ (ها)"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "انتخاب نوع خروجی"
 
-#: .Filter+by
-msgid "Filter by"
-msgstr "فیلتر با"
-
-#: .Select+field
-msgid "Select field"
-msgstr "انتخاب زمینه"
-
-#: .Condition
-msgid "Condition"
-msgstr "شرط"
-
-#: .Select+condition
-msgid "Select condition"
-msgstr "انتخاب شرط"
-
-#: .Enter+value
-msgid "Enter value"
-msgstr "وارد کردن رقم"
-
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "آیا مطمئن هستید که می خواهید این سوال را حذف کنید؟"
-
-#: .This+action+cannot+be+undone.
-msgid "This action cannot be undone."
-msgstr "این عمل قابل بازگشت نیست."
-
-#: .[button+triggers]+Settings
-msgid "[button triggers] Settings"
-msgstr ""
-
-#: .[button+triggers]+Delete+Question
-msgid "[button triggers] Delete Question"
-msgstr ""
-
-#: .[button+triggers]+Duplicate+Question
-msgid "[button triggers] Duplicate Question"
-msgstr ""
-
-#: .[button+triggers]+Add+Question+to+Library
-msgid "[button triggers] Add Question to Library"
-msgstr ""
-
-#: .archived
-msgid "archived"
-msgstr "بایگانی شده"
-
-#: .deployed
-msgid "deployed"
-msgstr "اجرا شده"
-
-#: .draft
-msgid "draft"
-msgstr "نسخه اولیه"
-
-#: .me
-msgid "me"
-msgstr "من"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "تایپ کرده و با ENTER تائید کنید"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4038,57 +4079,25 @@ msgstr "شناسه نمونه"
 msgid "Submitted by"
 msgstr "ارسالی توسط"
 
-#: .CSV+(legacy)
-msgid "CSV (legacy)"
-msgstr "CSV (legacy)"
+#: .Filter+by
+msgid "Filter by"
+msgstr "فیلتر با"
 
-#: .CSV
-msgid "CSV"
-msgstr "CSV"
+#: .Select+field
+msgid "Select field"
+msgstr "انتخاب زمینه"
 
-#: .GeoJSON
-msgid "GeoJSON"
-msgstr "GeoJSON"
+#: .Condition
+msgid "Condition"
+msgstr "شرط"
 
-#: .GPS+coordinates+(KML)
-msgid "GPS coordinates (KML)"
-msgstr "مختصات GPS (KML)"
+#: .Select+condition
+msgid "Select condition"
+msgstr "انتخاب شرط"
 
-#: .SPSS+Labels
-msgid "SPSS Labels"
-msgstr "برچسب SPSS"
-
-#: .XLS+(legacy)
-msgid "XLS (legacy)"
-msgstr "XLS (legacy)"
-
-#: .XLS
-msgid "XLS"
-msgstr "XLS"
-
-#: .Media+Attachments+(ZIP)
-msgid "Media Attachments (ZIP)"
-msgstr "پیوست های رسانه (ZIP)"
-
-#: .XML+values+and+headers
-msgid "XML values and headers"
-msgstr "ارقام و سربرگهای XML"
-
-#: .Separate+columns
-msgid "Separate columns"
-msgstr "ستونهای جداگانه"
-
-#: .Single+column
-msgid "Single column"
-msgstr "تک ستونی"
-
-#: .Single+and+separate+columns
-msgid "Single and separate columns"
-msgstr "ستونهای تکی و جداگانه"
-
-#: .Select+export+type
-msgid "Select export type"
-msgstr "انتخاب نوع خروجی"
+#: .Enter+value
+msgid "Enter value"
+msgstr "وارد کردن رقم"
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4101,6 +4110,42 @@ msgstr "جست و جوی زمینه"
 #: .No+results
 msgid "No results"
 msgstr "نتیجه ای پیدا نشد"
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "آیا مطمئن هستید که می خواهید این سوال را حذف کنید؟"
+
+#: .This+action+cannot+be+undone.
+msgid "This action cannot be undone."
+msgstr "این عمل قابل بازگشت نیست."
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr ""
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr ""
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr ""
+
+#: .archived
+msgid "archived"
+msgstr "بایگانی شده"
+
+#: .deployed
+msgid "deployed"
+msgstr "اجرا شده"
+
+#: .draft
+msgid "draft"
+msgstr "نسخه اولیه"
+
+#: .me
+msgid "me"
+msgstr "من"
 
 #: .Delete%3F
 msgid "Delete?"

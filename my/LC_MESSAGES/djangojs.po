@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 20:25+0000\n"
+"POT-Creation-Date: 2023-09-07 13:51+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Myo Oo <myo.oo.uch@gmail.com>, 2023\n"
 "Language-Team: Burmese (http://app.transifex.com/kobotoolbox/kobotoolbox/language/my/)\n"
@@ -17,6 +17,10 @@ msgstr ""
 "Language: my\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Translate Toolkit 3.6.0\n"
+
+#: .%23%23field_label%23%23+(required)
+msgid "##field_label## (required)"
+msgstr "##field_label##(လိုအပ်သော)"
 
 #: .Use+a+few+words,+avoid+common+phrases
 msgid "Use a few words, avoid common phrases"
@@ -130,13 +134,13 @@ msgstr "“a” အစား “@” ကိုအသုံးပြုခြင�
 msgid "Password strength"
 msgstr "စကားဝှက်ပြင်းအား"
 
-#: .%23%23field_label%23%23+(required)
-msgid "##field_label## (required)"
-msgstr "##field_label##(လိုအပ်သော)"
-
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "လင့်ခ်ကို ရှာမတွေ့ပါ/ အသိအမှတ်မပြုပါ"
+
+#: .Untitled
+msgid "Untitled"
+msgstr "ခေါင်းစဥ်မရှိသော"
 
 #: .Failed+to+update+permissions
 msgid "Failed to update permissions"
@@ -265,10 +269,6 @@ msgstr "တင်သွင်းချက်ကို ပြန်လည်ပ�
 #: .Retrying+all+submissions+failed
 msgid "Retrying all submissions failed"
 msgstr "တင်သွင်းချက်အားလုံးကို ပြန်လည်ပြုလုပ်ခြင်း မအောင်မြင်ပါ"
-
-#: .Untitled
-msgid "Untitled"
-msgstr "ခေါင်းစဥ်မရှိသော"
 
 #: .Submissions
 msgid "Submissions"
@@ -680,21 +680,161 @@ msgstr "မေးခွန်းပုံစံ"
 msgid "loading…"
 msgstr "ဖွင့်နေသည်…"
 
-#: .Successfuly+removed+from+collection
-msgid "Successfuly removed from collection"
-msgstr "စုစည်းမှုမှ အောင်မြင်စွာဖယ်ရှားပြီး"
+#: .Who+has+access
+msgid "Who has access"
+msgstr "သုံးစွဲခွင့်ရှိသူ"
 
-#: .Successfuly+moved+to+collection
-msgid "Successfuly moved to collection"
-msgstr "စုစည်းမှုသို့ အောင်မြင်စွာ ‌ရွှေ့ပြောင်းပြီး"
+#: .Add+user
+msgid "Add user"
+msgstr "အသုံးပြုသူပေါင်းထည့်ပါ"
 
-#: .Move+to+collection+failed
-msgid "Move to collection failed"
-msgstr "စုစည်းမှုသို့ ‌ရွှေ့ပြောင်းခြင်း မအောင်မြင်ပါ"
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "လင့်ခ်ဖြင့် လူအများသို့ မျှဝေပါ"
 
-#: .Failed+to+get+the+results
-msgid "Failed to get the results"
-msgstr "ရလဒ်များ ရယူခြင်း မအောင်မြင်ပါ"
+#: .Waiting+for+all+projects+to+load%E2%80%A6
+msgid "Waiting for all projects to load…"
+msgstr "ပရောဂျက်အားလုံးဖွင့်ရန် စောင့်ဆိုင်းဆဲ..."
+
+#: .URL+is+empty%21
+msgid "URL is empty!"
+msgstr "URL မှာ အခွံဖြစ်နေသည်"
+
+#: .Add
+msgid "Add"
+msgstr "ထည့်ရန်"
+
+#: .You+must+redeploy+this+form+to+see+media+changes.
+msgid "You must redeploy this form to see media changes."
+msgstr "မီဒီယာပြောင်းလဲမှုများကို မြင်ရရန် ဤဖောင်ကို သင်ပြန်လည်၍ အသုံးပြုလုပ်ရမည်။"
+
+#: .Attach+files
+msgid "Attach files"
+msgstr "ဖိုင်များတွဲရန်"
+
+#: .Learn+more+about+form+media
+msgid "Learn more about form media"
+msgstr "ဖောင်မီဒီယာနှင့် ပတ်သက်၍ ပိုမိုလေ့လာရန်"
+
+#: .Drag+and+drop+files+here
+msgid "Drag and drop files here"
+msgstr "ဖိုင်များကို ဤနေရာသို့ ဆွဲယူထည့်သွင်းပါ"
+
+#: .or
+msgid "or"
+msgstr "သို့မဟုတ်"
+
+#: .click+here+to+browse
+msgid "click here to browse"
+msgstr "ဖိုင်‌ေရွးရန်အတွက် ဤနေရာကို နှိပ်ပါ"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "ဖိုင်ကို တင်နေပါသည်..."
+
+#: .You+can+also+add+files+using+a+URL
+msgid "You can also add files using a URL"
+msgstr "URL တစ်ခုကို အသုံးပြု၍လည်း ဖိုင်များကို ထည့်သွင်းနိုင်ပါသည်"
+
+#: .Paste+URL+here
+msgid "Paste URL here"
+msgstr "URL ကို ဤနေရာတွင် paste ချပါ"
+
+#: .Attached+files
+msgid "Attached files"
+msgstr "တွဲထားသော ဖိုင်များ"
+
+#: .loading+media
+msgid "loading media"
+msgstr "မီဒီယာကို ဖတ်နေသည်"
+
+#: .No+files+uploaded+yet
+msgid "No files uploaded yet"
+msgstr "အပ်လုတ် တင်ထားသော ဖိုင်များ မရှိသေးပါ"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "လုပ်ဆောင်မှုအကြောင်းပြချက်များအတွက် မြေပုံရွေးချယ်မှုကို##number## ကြိုတင်သတ်မှတ်ချက်အနေဖြင့် လတ်တလော တင်သွင်းချက်များအတွက်သာ ကန့်သတ်ထားပါသည်။ ကန့်သတ်ချက်ကို ပြင်ဆင်ရန် မြေပုံဆက်တင်သို့ သွားပါ။"
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "အမှား- အချက်အလက်ကို ဖွင့်၍ မရပါ။"
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "ဆာဗေးဖြေဆိုမှုများဖြင့် ခွဲထုတ်ပါ"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "အောက်ပါတို့ကို အသုံးပြု၍ ခွဲထုတ်ပါ-"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "\"geopoint\" ဖြေဆိုချက်များ မရရှိပါ"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "ဤဖောင်ပုံစံတွင် \"geopoint\" ထည့်သွင်းရန် နေရာမပါရှိသဖြင့် မြေပုံအချက်အလက်များ မပြသပါ။"
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "မျက်နှာပြင်ပြည့် ပြောင်းလဲပါ"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "ပွိုင့်များအဖြစ်ပြသပါ"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "အလွှာများကို ပြောင်းလဲပါ"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "မြေပုံပြသမှုဆက်တင်များ"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "heatmap အဖြစ်ပြသပါ"
+
+#: .Language
+msgid "Language"
+msgstr "ဘာသာစကား"
+
+#: .Default
+msgid "Default"
+msgstr "ကြိုတင်သတ်မှတ်ချက်"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- အချက်အလက်အားလုံးကြည့်ရှု့ပါ --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "ဘာသာပြန်ဆိုမထားသော- "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "မေးခွန်းအညွှန်း သတ်မှတ်မထားပါ"
+
+#: .Reset
+msgid "Reset"
+msgstr "ပြန်ချိန်ပါ"
+
+#: .not+set
+msgid "not set"
+msgstr "မသတ်မှတ်ပါ"
+
+#: .Legend
+msgid "Legend"
+msgstr "အညွှန်း"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "မြေပုံဆက်တင်များ"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -854,557 +994,6 @@ msgstr "အစမ်း အမှားရှာကြည့်မည်"
 msgid "Import Cascading Select Questions"
 msgstr "ရွေးချယ်ထားသောမေးခွန်းများကို တင်သွင်းမည်"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "တင်သွင်းချက်များ၏ uuid များကို ရယူခြင်း မအောင်မြင်ပါ။"
-
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "တင်သွင်းချက်ကို ရယူခြင်း မအောင်မြင်ပါ။"
-
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "တင်သွင်းချက်များကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ။"
-
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "အချို့သော တင်သွင်းချက်များ၏ တန်ဖိုးများကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ။"
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "တင်သွင်းချက်များ၏ တန်ဖိုးများကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ။"
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "တင်သွင်းချက်များကို ဖျက်ခြင်း မအောင်မြင်ပါ။"
-
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "သင်၏ မီဒီယာဖိုင်ကို အက်ပ်လုတ် မလုပ်နိုင်ပါ"
-
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "သင့်၏ မီဒီယာဖိုင်အား ရယူရာတွင် တစ်စုံတစ်ရာ မှားယွင်းသွားပါသည်"
-
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "မီဒီယာဖိုင်ကို အောင်မြင်စွာ ဖျက်ပြီး"
-
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "မီဒီယာကို ဖျက်ခြင်း မအောင်မြင်ပါ။"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "ထုတ်ယူမှုကို ဖန်တီးခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "ထုတ်ယူမှုကို ဖျက်ခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "ထုတ်ယူမှု ဆက်တင်ကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "ထုတ်ယူမှု ဆက်တင်ကို ဖန်တီးခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "ထုတ်ယူမှု ဆက်တင်ကို ပယ်ဖျက်ခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+attach+to+source
-msgid "Failed to attach to source"
-msgstr "မူရင်းဖိုင်ကို ဖိုင်တွဲခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+detach+from+source
-msgid "Failed to detach from source"
-msgstr "မူရင်းဖိုင်မှ ခွဲထုတ်ခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+patch+source
-msgid "Failed to patch source"
-msgstr "ဆော့ဝဲဗားရှင်းကို ကြည့်ရှုခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+retrieve+sharing+enabled+assets
-msgid "Failed to retrieve sharing enabled assets"
-msgstr "မျှ‌‌ေဝခွင့်ပေးထားသော asset များကို ထုတ်ယူကြည့်ရှုခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+toggle+sharing
-msgid "Failed to toggle sharing"
-msgstr "မျှ‌ေဝမှု အဖွင့်အပိတ်လုပ်ခြင်း မအောင်မြင်ပါ"
-
-#: .Failed+to+update+column+filters
-msgid "Failed to update column filters"
-msgstr "တိုင်စစ်ထုတ်မှုများကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ"
-
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "လုပ်ဆောင်မှုအကြောင်းပြချက်များအတွက် မြေပုံရွေးချယ်မှုကို##number## ကြိုတင်သတ်မှတ်ချက်အနေဖြင့် လတ်တလော တင်သွင်းချက်များအတွက်သာ ကန့်သတ်ထားပါသည်။ ကန့်သတ်ချက်ကို ပြင်ဆင်ရန် မြေပုံဆက်တင်သို့ သွားပါ။"
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "အမှား- အချက်အလက်ကို ဖွင့်၍ မရပါ။"
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "ဆာဗေးဖြေဆိုမှုများဖြင့် ခွဲထုတ်ပါ"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "အောက်ပါတို့ကို အသုံးပြု၍ ခွဲထုတ်ပါ-"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "\"geopoint\" ဖြေဆိုချက်များ မရရှိပါ"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "ဤဖောင်ပုံစံတွင် \"geopoint\" ထည့်သွင်းရန် နေရာမပါရှိသဖြင့် မြေပုံအချက်အလက်များ မပြသပါ။"
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "မျက်နှာပြင်ပြည့် ပြောင်းလဲပါ"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "ပွိုင့်များအဖြစ်ပြသပါ"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "အလွှာများကို ပြောင်းလဲပါ"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "မြေပုံပြသမှုဆက်တင်များ"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "heatmap အဖြစ်ပြသပါ"
-
-#: .Language
-msgid "Language"
-msgstr "ဘာသာစကား"
-
-#: .Default
-msgid "Default"
-msgstr "ကြိုတင်သတ်မှတ်ချက်"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- အချက်အလက်အားလုံးကြည့်ရှု့ပါ --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "ဘာသာပြန်ဆိုမထားသော- "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "မေးခွန်းအညွှန်း သတ်မှတ်မထားပါ"
-
-#: .Reset
-msgid "Reset"
-msgstr "ပြန်ချိန်ပါ"
-
-#: .not+set
-msgid "not set"
-msgstr "မသတ်မှတ်ပါ"
-
-#: .Legend
-msgid "Legend"
-msgstr "အညွှန်း"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "မြေပုံဆက်တင်များ"
-
-#: .Who+has+access
-msgid "Who has access"
-msgstr "သုံးစွဲခွင့်ရှိသူ"
-
-#: .Add+user
-msgid "Add user"
-msgstr "အသုံးပြုသူပေါင်းထည့်ပါ"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "လင့်ခ်ဖြင့် လူအများသို့ မျှဝေပါ"
-
-#: .Waiting+for+all+projects+to+load%E2%80%A6
-msgid "Waiting for all projects to load…"
-msgstr "ပရောဂျက်အားလုံးဖွင့်ရန် စောင့်ဆိုင်းဆဲ..."
-
-#: .new
-msgid "new"
-msgstr "အသစ်"
-
-#: .Projects
-msgid "Projects"
-msgstr "ပ‌ရောဂျက်များ"
-
-#: .Library
-msgid "Library"
-msgstr "စာကြည့်တိုက်"
-
-#: .Projects+(legacy)
-msgid "Projects (legacy)"
-msgstr "ပ‌ရေဦဂျက်များ (စနစ်ဟောင်း)"
-
-#: .Source
-msgid "Source"
-msgstr "အရင်းအမြစ်"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "asset များ စာရင်းပြရန် မအောင်မြင်ပါ"
-
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "ကျေးဇူးပြု၍ ဤစာမျက်နှာကို refresh လုပ်ပါ"
-
-#: .Log+In
-msgid "Log In"
-msgstr "လော့အင် ဝင်ရန်"
-
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "အကောင့်ဆက်တင်များ"
-
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "ဝန်ဆောင်မှုဆိုင်ရာ စည်းမျဉ်းများ"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "လုံခြုံရေးမူဝါဒများ"
-
-#: .Logout
-msgid "Logout"
-msgstr "ပြန်ထွက်မည်"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "ကျွန်ုပ်၏ စာကြည့်တိုက်တွင် ရှာမည်"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "အများသုံး စုစည်းမှုများတွင် ရှာမည်"
-
-#: .Search+Projects
-msgid "Search Projects"
-msgstr "ပ‌ရောဂျက်များ ရှာမည်"
-
-#: .submissions
-msgid "submissions"
-msgstr "တင်သွင်းခြင်းများ"
-
-#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
-msgid ""
-"The stored permissions are invalid. Please assign them again. If this "
-"problem persists, contact help@kobotoolbox.org"
-msgstr "သိမ်းဆည်းထားသော ခွင့်ပြုချက်များမှာ အကျုံးမဝင်ပါ။ ကျေးဇူးပြု၍ ၎င်းတို့ကို ပြန်လည် နေရာချထားပါ။ အကယ်၍ ဤပြဿနာ ဆက်လက်ဖြစ်ပွာနေပါက help@kobotoolbox.org ထံသို့ ဆက်သွယ်ပါ"
-
-#: .Table
-msgid "Table"
-msgstr "ဇယား"
-
-#: .Reports
-msgid "Reports"
-msgstr "အစီရင်ခံစာများ"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "ပုံပြခန်း"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "‌‌ဒေါင်းလုတ်များ"
-
-#: .Map
-msgid "Map"
-msgstr "မြေပုံ"
-
-#: .Summary
-msgid "Summary"
-msgstr "အနှစ်ချုပ်"
-
-#: .Form
-msgid "Form"
-msgstr "ဖောင်"
-
-#: .Settings
-msgid "Settings"
-msgstr "ဆက်တင်များ"
-
-#: .General
-msgid "General"
-msgstr "အထွ​ေထွ​ေ"
-
-#: .Media
-msgid "Media"
-msgstr "မီဒီယာ"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "မျှ‌​ဝေထားသောအရာများ"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "ချိတ်ဆက် ပ‌ရောဂျက်များ"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "REST ဝန်ဆောင်မှုများ"
-
-#: .URL+is+empty%21
-msgid "URL is empty!"
-msgstr "URL မှာ အခွံဖြစ်နေသည်"
-
-#: .Add
-msgid "Add"
-msgstr "ထည့်ရန်"
-
-#: .You+must+redeploy+this+form+to+see+media+changes.
-msgid "You must redeploy this form to see media changes."
-msgstr "မီဒီယာပြောင်းလဲမှုများကို မြင်ရရန် ဤဖောင်ကို သင်ပြန်လည်၍ အသုံးပြုလုပ်ရမည်။"
-
-#: .Attach+files
-msgid "Attach files"
-msgstr "ဖိုင်များတွဲရန်"
-
-#: .Learn+more+about+form+media
-msgid "Learn more about form media"
-msgstr "ဖောင်မီဒီယာနှင့် ပတ်သက်၍ ပိုမိုလေ့လာရန်"
-
-#: .Drag+and+drop+files+here
-msgid "Drag and drop files here"
-msgstr "ဖိုင်များကို ဤနေရာသို့ ဆွဲယူထည့်သွင်းပါ"
-
-#: .or
-msgid "or"
-msgstr "သို့မဟုတ်"
-
-#: .click+here+to+browse
-msgid "click here to browse"
-msgstr "ဖိုင်‌ေရွးရန်အတွက် ဤနေရာကို နှိပ်ပါ"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "ဖိုင်ကို တင်နေပါသည်..."
-
-#: .You+can+also+add+files+using+a+URL
-msgid "You can also add files using a URL"
-msgstr "URL တစ်ခုကို အသုံးပြု၍လည်း ဖိုင်များကို ထည့်သွင်းနိုင်ပါသည်"
-
-#: .Paste+URL+here
-msgid "Paste URL here"
-msgstr "URL ကို ဤနေရာတွင် paste ချပါ"
-
-#: .Attached+files
-msgid "Attached files"
-msgstr "တွဲထားသော ဖိုင်များ"
-
-#: .loading+media
-msgid "loading media"
-msgstr "မီဒီယာကို ဖတ်နေသည်"
-
-#: .No+files+uploaded+yet
-msgid "No files uploaded yet"
-msgstr "အပ်လုတ် တင်ထားသော ဖိုင်များ မရှိသေးပါ"
-
-#: .Create
-msgid "Create"
-msgstr "ဖန်တီးသည်"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "ကျေးဇူးပြု၍ ခေတ္တစောင့်ပါ..."
-
-#: .Failed+to+create+new+asset%21
-msgid "Failed to create new asset!"
-msgstr "အကြောင်းအရာအသစ်ဖန်တီးမှု မအောင်မြင်ပါ။"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "clipboard သို့ ကော်ပီကူးပြီးပါပြီ"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "၏ပုံတူပွား"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "ပုံတူပွားထားသည့်အရာ၏ အမည်ကို ထည့်ပါ##ASSET_TYPE##။ မူလအမည်ကို ဆက်သုံးရန် ကွက်လပ်ထားခဲ့ပါ။"
-
-#: .Ok
-msgid "Ok"
-msgstr "Ok"
-
-#: .Create+new+template+from+this+project
-msgid "Create new template from this project"
-msgstr "ဤပရောဂျက်မှ ဖောင်ပုံစံအသစ် ဖန်တီးပါ"
-
-#: .Enter+the+name+of+the+new+template.
-msgid "Enter the name of the new template."
-msgstr "ဖောင်ပုံစံအသစ်၏ အမည်ကို ထည့်ပါ"
-
-#: .deploying+to+kobocat...
-msgid "deploying to kobocat..."
-msgstr "kobocat တွင် ထည့်သွင်းအသုံးပြုနေသည်..."
-
-#: .deployed+form
-msgid "deployed form"
-msgstr "အသုံးချပုံစံ"
-
-#: .Overwrite+existing+deployment
-msgid "Overwrite existing deployment"
-msgstr "လက်ရှိထည့်သွင်းအသုံးနေမှုအား ဖျက်၍ အသစ်ထည့်သွင်းပါ"
-
-#: .Deploying...
-msgid "Deploying..."
-msgstr "ထည့်သွင်းအသုံးပြုနေသည်..."
-
-#: .redeployed+form
-msgid "redeployed form"
-msgstr "ပြန်လည်အသုံးပြုသည့်ဖောင်ပုံစံ"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "## ဖိုင်များ"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "XLSForm တင်ပို့မှု မအောင်မြင်ပါ။ XLSForm နှင့်/သို့မဟုတ် URL မှန်ကန်မှု ရှိ မရှိ စစ်ဆေးပြီး \"Replace form\" ခလုတ်ကို အသုံးပြု၍ ထပ်မံ ကြိုးစားကြည့်ပါ။"
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "XLS တင်ပို့မှု ပြီးစီးပါပြီ"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "သင့်တင်ပို့သည့်အရာကို စစ်ဆေးနေပါသည်။ အချိန်အနည်းငယ် ကြာနိုင်ပါသည်။"
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "သင့်တင်ပို့သည့်အရာကို စစ်ဆေးရန် တန်းစီထားပါသည်။ အချိန်အနည်းငယ် ကြာနိုင်ပါသည်။"
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "တင်ပို့မှု မအောင်မြင်ပါ။"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "တင်ပို့ခြင်း ဖန်တီးမှု မအောင်မြင်ပါ။"
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "တင်ပို့မှုအမှား။ Excel ဖိုင်ကို အသိအမှတ်ပြု၍ မရပါ။"
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "တင်ပို့သည့်ဖိုင်၏အမည်- "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "တင်ပို့သည့်အကြောင်းအရာ(များ)ကို အသိအမှတ်ပြု၍ မရပါ။"
-
-#: .Cloning...
-msgid "Cloning..."
-msgstr "ပုံတူပွားနေသည်..."
-
-#: .cloned+%23%23ASSET_TYPE%23%23+created
-msgid "cloned ##ASSET_TYPE## created"
-msgstr "ပုံတူပွား ##ASSET_TYPE## ကို ဖန်တီးပြီးပါပြီ"
-
-#: .Create+new+project+from+this+template
-msgid "Create new project from this template"
-msgstr "ယခုဖောင်ပုံစံဖြင့် ပရောဂျက်အသစ်ကို ဖန်တီးပါ"
-
-#: .Enter+the+name+of+the+new+project.
-msgid "Enter the name of the new project."
-msgstr "ပရောဂျက်အသစ်၏အမည်ကို ထည့်ပါ။"
-
-#: .%23%23ASSET_TYPE%23%23+deleted+permanently
-msgid "##ASSET_TYPE## deleted permanently"
-msgstr "##ASSET_TYPE##လုံးဝအမြဲပယ်ဖျက်ပြီးပါပြီ"
-
-#: .You+are+about+to+permanently+delete+this+item+from+your+library.
-msgid "You are about to permanently delete this item from your library."
-msgstr "သင့်စာကြည့်တိုက်မှ ဤအရာကို လုံးဝအမြဲပယ်ဖျက်ပါတော့မယ်။"
-
-#: .You+are+about+to+permanently+delete+this+draft.
-msgid "You are about to permanently delete this draft."
-msgstr "ဤအကြမ်းထည်ကို လုံးဝ ပယ်ဖျက်ပါတော့မည်"
-
-#: .You+are+about+to+permanently+delete+this+form.
-msgid "You are about to permanently delete this form."
-msgstr "ဤဖောင်ပုံစံကို လုံးဝပယ်ဖျက်ပါတော့မည်။"
-
-#: .All+data+gathered+for+this+form+will+be+deleted.
-msgid "All data gathered for this form will be deleted."
-msgstr "ဤဖောင်ပုံစံအတွက် စုဆောင်းထားသော အချက်အလက်အားလုံးကို ပယ်ဖျက်ပါမည်။"
-
-#: .The+form+associated+with+this+project+will+be+deleted.
-msgid "The form associated with this project will be deleted."
-msgstr "ဤပရောဂျက်နှင့်ဆက်စပ်နေသော ဖောင်ပုံစံကို ပယ်ဖျက်ပါမည်။"
-
-#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
-msgid ""
-"I understand that if I delete this project I will not be able to recover it."
-msgstr "ဤပရောဂျက်ကို ပယ်ဖျက်ပြီးပါက ပြန်လည်ရယူ၍ မရတော့ကြောင်း သိရှိပါသည်။"
-
-#: .Delete
-msgid "Delete"
-msgstr "ပယ်ဖျက်သည်"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "ပရောဂျက်ကို မှတ်တမ်းသိမ်းဆည်းသည်"
-
-#: .Are+you+sure+you+want+to+archive+this+project%3F
-msgid "Are you sure you want to archive this project?"
-msgstr "ဤပရောဂျက်ကို မှတ်တမ်းသိမ်းဆည်းချင်တာ သေချာပါသလား?"
-
-#: .Your+form+will+not+accept+submissions+while+it+is+archived.
-msgid "Your form will not accept submissions while it is archived."
-msgstr "မှတ်တမ်းအဖြစ်သိမ်းဆည်းထားချိန်တွင် သင့်ဖောင်ကို တင်သွင်းခြင်းအား လက်မခံပါ။"
-
-#: .Archive
-msgid "Archive"
-msgstr "မှတ်တမ်းသိမ်းဆည်းသည်"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "ပရောဂျက်ကို မှတ်တမ်းသိမ်းဆည်းထားခြင်းမှ ပြန်လည်ရယူသည်"
-
-#: .Are+you+sure+you+want+to+unarchive+this+project%3F
-msgid "Are you sure you want to unarchive this project?"
-msgstr "ဤပရောဂျက်ကို မှတ်တမ်းသိမ်းဆည်းထားခြင်းမှ ပြန်လည်ရယူချင်တာ သေချာပါသလား?"
-
-#: .Unarchive
-msgid "Unarchive"
-msgstr "မှတ်တမ်းသိမ်းဆည်းထားခြင်းမှ ပြန်လည်ရယူသည်"
-
-#: .Remove+shared+form
-msgid "Remove shared form"
-msgstr "မျှဝေထားသောဖောင်အား ဖယ်ရှားသည်"
-
-#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
-msgid "Are you sure you want to remove this shared form?"
-msgstr "ဤမျှဝေထားသောဖောင်အား ဖယ်ရှားမှာ သေချာပါသလား?"
-
-#: .Remove
-msgid "Remove"
-msgstr "ဖယ်ရှားသည်"
-
 #: .Import
 msgid "Import"
 msgstr "ကူးယူခြင်း"
@@ -1453,6 +1042,10 @@ msgstr "အမှား- အကြောင်းအရာကို ဖန်တ
 msgid "Error: new project could not be created."
 msgstr "အမှား- ပရောဂျက်အသစ်ကို ဖန်တီး၍ မရပါ။"
 
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "ကျေးဇူးပြု၍ ခေတ္တစောင့်ပါ..."
+
 #: .Retrieving+form,+please+wait...
 msgid "Retrieving form, please wait..."
 msgstr "ဖောင်ကို ပြန်လည်ရယူနေပါသည်၊ ကျေးဇူးပြု၍ စောင့်ပေးပါ..."
@@ -1460,6 +1053,10 @@ msgstr "ဖောင်ကို ပြန်လည်ရယူနေပါသ�
 #: .Failed+to+reload+project+after+import%21
 msgid "Failed to reload project after import!"
 msgstr "တင်ပို့ပြီးနောက် ပရောဂျက်ကို ဖွင့်၍ မရပါ။"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "တင်ပို့မှု မအောင်မြင်ပါ။"
 
 #: .Could+not+initialize+XLSForm+import%21
 msgid "Could not initialize XLSForm import!"
@@ -1577,6 +1174,14 @@ msgstr "ကျေးဇူးပြု၍ မည်သူမည်ဝါ ဖြ�
 msgid "Save"
 msgstr "သိမ်းဆည်းမည်"
 
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "ပရောဂျက်ကို မှတ်တမ်းသိမ်းဆည်းထားခြင်းမှ ပြန်လည်ရယူသည်"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "ပရောဂျက်ကို မှတ်တမ်းသိမ်းဆည်းသည်"
+
 #: .Archive+project+to+stop+accepting+submissions.
 msgid "Archive project to stop accepting submissions."
 msgstr "ထည့်သွင်းမှုများ လက်ခံခြင်းကို ရပ်တန့်ရန်အတွက် ပ‌ရောဂျက်ကို မှတ်တမ်းအဖြစ်သိမ်းဆည်းရန်။"
@@ -1597,6 +1202,476 @@ msgstr "နောက်သို့"
 msgid ""
 "Form replacing is not available due to form's Locking Profile restrictions."
 msgstr "ဖောင်၏ ပိတ်ထားသောပရိုဖိုင် ကန့်သတ်ချက်များကြောင့် ဖောင်လဲလှယ်၍ မရနိုင်ပါ။"
+
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "တင်သွင်းချက်များ၏ uuid များကို ရယူခြင်း မအောင်မြင်ပါ။"
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "တင်သွင်းချက်ကို ရယူခြင်း မအောင်မြင်ပါ။"
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "တင်သွင်းချက်များကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ။"
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "အချို့သော တင်သွင်းချက်များ၏ တန်ဖိုးများကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ။"
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "တင်သွင်းချက်များ၏ တန်ဖိုးများကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ။"
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "တင်သွင်းချက်များကို ဖျက်ခြင်း မအောင်မြင်ပါ။"
+
+#: .Successfuly+removed+from+collection
+msgid "Successfuly removed from collection"
+msgstr "စုစည်းမှုမှ အောင်မြင်စွာဖယ်ရှားပြီး"
+
+#: .Successfuly+moved+to+collection
+msgid "Successfuly moved to collection"
+msgstr "စုစည်းမှုသို့ အောင်မြင်စွာ ‌ရွှေ့ပြောင်းပြီး"
+
+#: .Move+to+collection+failed
+msgid "Move to collection failed"
+msgstr "စုစည်းမှုသို့ ‌ရွှေ့ပြောင်းခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+get+the+results
+msgid "Failed to get the results"
+msgstr "ရလဒ်များ ရယူခြင်း မအောင်မြင်ပါ"
+
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "သင်၏ မီဒီယာဖိုင်ကို အက်ပ်လုတ် မလုပ်နိုင်ပါ"
+
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "သင့်၏ မီဒီယာဖိုင်အား ရယူရာတွင် တစ်စုံတစ်ရာ မှားယွင်းသွားပါသည်"
+
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "မီဒီယာဖိုင်ကို အောင်မြင်စွာ ဖျက်ပြီး"
+
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "မီဒီယာကို ဖျက်ခြင်း မအောင်မြင်ပါ။"
+
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "ထုတ်ယူမှုကို ဖန်တီးခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "ထုတ်ယူမှုကို ဖျက်ခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "ထုတ်ယူမှု ဆက်တင်ကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "ထုတ်ယူမှု ဆက်တင်ကို ဖန်တီးခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "ထုတ်ယူမှု ဆက်တင်ကို ပယ်ဖျက်ခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+attach+to+source
+msgid "Failed to attach to source"
+msgstr "မူရင်းဖိုင်ကို ဖိုင်တွဲခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+detach+from+source
+msgid "Failed to detach from source"
+msgstr "မူရင်းဖိုင်မှ ခွဲထုတ်ခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+patch+source
+msgid "Failed to patch source"
+msgstr "ဆော့ဝဲဗားရှင်းကို ကြည့်ရှုခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+retrieve+sharing+enabled+assets
+msgid "Failed to retrieve sharing enabled assets"
+msgstr "မျှ‌‌ေဝခွင့်ပေးထားသော asset များကို ထုတ်ယူကြည့်ရှုခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+toggle+sharing
+msgid "Failed to toggle sharing"
+msgstr "မျှ‌ေဝမှု အဖွင့်အပိတ်လုပ်ခြင်း မအောင်မြင်ပါ"
+
+#: .Failed+to+update+column+filters
+msgid "Failed to update column filters"
+msgstr "တိုင်စစ်ထုတ်မှုများကို ပြင်ဆင်ခြင်း မအောင်မြင်ပါ"
+
+#: .Create
+msgid "Create"
+msgstr "ဖန်တီးသည်"
+
+#: .Failed+to+create+new+asset%21
+msgid "Failed to create new asset!"
+msgstr "အကြောင်းအရာအသစ်ဖန်တီးမှု မအောင်မြင်ပါ။"
+
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "clipboard သို့ ကော်ပီကူးပြီးပါပြီ"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "၏ပုံတူပွား"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "ပုံတူပွားထားသည့်အရာ၏ အမည်ကို ထည့်ပါ##ASSET_TYPE##။ မူလအမည်ကို ဆက်သုံးရန် ကွက်လပ်ထားခဲ့ပါ။"
+
+#: .Ok
+msgid "Ok"
+msgstr "Ok"
+
+#: .Create+new+template+from+this+project
+msgid "Create new template from this project"
+msgstr "ဤပရောဂျက်မှ ဖောင်ပုံစံအသစ် ဖန်တီးပါ"
+
+#: .Enter+the+name+of+the+new+template.
+msgid "Enter the name of the new template."
+msgstr "ဖောင်ပုံစံအသစ်၏ အမည်ကို ထည့်ပါ"
+
+#: .deploying+to+kobocat...
+msgid "deploying to kobocat..."
+msgstr "kobocat တွင် ထည့်သွင်းအသုံးပြုနေသည်..."
+
+#: .deployed+form
+msgid "deployed form"
+msgstr "အသုံးချပုံစံ"
+
+#: .Overwrite+existing+deployment
+msgid "Overwrite existing deployment"
+msgstr "လက်ရှိထည့်သွင်းအသုံးနေမှုအား ဖျက်၍ အသစ်ထည့်သွင်းပါ"
+
+#: .Deploying...
+msgid "Deploying..."
+msgstr "ထည့်သွင်းအသုံးပြုနေသည်..."
+
+#: .redeployed+form
+msgid "redeployed form"
+msgstr "ပြန်လည်အသုံးပြုသည့်ဖောင်ပုံစံ"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "## ဖိုင်များ"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "XLSForm တင်ပို့မှု မအောင်မြင်ပါ။ XLSForm နှင့်/သို့မဟုတ် URL မှန်ကန်မှု ရှိ မရှိ စစ်ဆေးပြီး \"Replace form\" ခလုတ်ကို အသုံးပြု၍ ထပ်မံ ကြိုးစားကြည့်ပါ။"
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "XLS တင်ပို့မှု ပြီးစီးပါပြီ"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "သင့်တင်ပို့သည့်အရာကို စစ်ဆေးနေပါသည်။ အချိန်အနည်းငယ် ကြာနိုင်ပါသည်။"
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "သင့်တင်ပို့သည့်အရာကို စစ်ဆေးရန် တန်းစီထားပါသည်။ အချိန်အနည်းငယ် ကြာနိုင်ပါသည်။"
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "တင်ပို့ခြင်း ဖန်တီးမှု မအောင်မြင်ပါ။"
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "တင်ပို့မှုအမှား။ Excel ဖိုင်ကို အသိအမှတ်ပြု၍ မရပါ။"
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "တင်ပို့သည့်ဖိုင်၏အမည်- "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "တင်ပို့သည့်အကြောင်းအရာ(များ)ကို အသိအမှတ်ပြု၍ မရပါ။"
+
+#: .Cloning...
+msgid "Cloning..."
+msgstr "ပုံတူပွားနေသည်..."
+
+#: .cloned+%23%23ASSET_TYPE%23%23+created
+msgid "cloned ##ASSET_TYPE## created"
+msgstr "ပုံတူပွား ##ASSET_TYPE## ကို ဖန်တီးပြီးပါပြီ"
+
+#: .Create+new+project+from+this+template
+msgid "Create new project from this template"
+msgstr "ယခုဖောင်ပုံစံဖြင့် ပရောဂျက်အသစ်ကို ဖန်တီးပါ"
+
+#: .Enter+the+name+of+the+new+project.
+msgid "Enter the name of the new project."
+msgstr "ပရောဂျက်အသစ်၏အမည်ကို ထည့်ပါ။"
+
+#: .%23%23ASSET_TYPE%23%23+deleted+permanently
+msgid "##ASSET_TYPE## deleted permanently"
+msgstr "##ASSET_TYPE##လုံးဝအမြဲပယ်ဖျက်ပြီးပါပြီ"
+
+#: .You+are+about+to+permanently+delete+this+item+from+your+library.
+msgid "You are about to permanently delete this item from your library."
+msgstr "သင့်စာကြည့်တိုက်မှ ဤအရာကို လုံးဝအမြဲပယ်ဖျက်ပါတော့မယ်။"
+
+#: .You+are+about+to+permanently+delete+this+draft.
+msgid "You are about to permanently delete this draft."
+msgstr "ဤအကြမ်းထည်ကို လုံးဝ ပယ်ဖျက်ပါတော့မည်"
+
+#: .You+are+about+to+permanently+delete+this+form.
+msgid "You are about to permanently delete this form."
+msgstr "ဤဖောင်ပုံစံကို လုံးဝပယ်ဖျက်ပါတော့မည်။"
+
+#: .All+data+gathered+for+this+form+will+be+deleted.
+msgid "All data gathered for this form will be deleted."
+msgstr "ဤဖောင်ပုံစံအတွက် စုဆောင်းထားသော အချက်အလက်အားလုံးကို ပယ်ဖျက်ပါမည်။"
+
+#: .The+form+associated+with+this+project+will+be+deleted.
+msgid "The form associated with this project will be deleted."
+msgstr "ဤပရောဂျက်နှင့်ဆက်စပ်နေသော ဖောင်ပုံစံကို ပယ်ဖျက်ပါမည်။"
+
+#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
+msgid ""
+"I understand that if I delete this project I will not be able to recover it."
+msgstr "ဤပရောဂျက်ကို ပယ်ဖျက်ပြီးပါက ပြန်လည်ရယူ၍ မရတော့ကြောင်း သိရှိပါသည်။"
+
+#: .Delete
+msgid "Delete"
+msgstr "ပယ်ဖျက်သည်"
+
+#: .Are+you+sure+you+want+to+archive+this+project%3F
+msgid "Are you sure you want to archive this project?"
+msgstr "ဤပရောဂျက်ကို မှတ်တမ်းသိမ်းဆည်းချင်တာ သေချာပါသလား?"
+
+#: .Your+form+will+not+accept+submissions+while+it+is+archived.
+msgid "Your form will not accept submissions while it is archived."
+msgstr "မှတ်တမ်းအဖြစ်သိမ်းဆည်းထားချိန်တွင် သင့်ဖောင်ကို တင်သွင်းခြင်းအား လက်မခံပါ။"
+
+#: .Archive
+msgid "Archive"
+msgstr "မှတ်တမ်းသိမ်းဆည်းသည်"
+
+#: .Are+you+sure+you+want+to+unarchive+this+project%3F
+msgid "Are you sure you want to unarchive this project?"
+msgstr "ဤပရောဂျက်ကို မှတ်တမ်းသိမ်းဆည်းထားခြင်းမှ ပြန်လည်ရယူချင်တာ သေချာပါသလား?"
+
+#: .Unarchive
+msgid "Unarchive"
+msgstr "မှတ်တမ်းသိမ်းဆည်းထားခြင်းမှ ပြန်လည်ရယူသည်"
+
+#: .Remove+shared+form
+msgid "Remove shared form"
+msgstr "မျှဝေထားသောဖောင်အား ဖယ်ရှားသည်"
+
+#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
+msgid "Are you sure you want to remove this shared form?"
+msgstr "ဤမျှဝေထားသောဖောင်အား ဖယ်ရှားမှာ သေချာပါသလား?"
+
+#: .Remove
+msgid "Remove"
+msgstr "ဖယ်ရှားသည်"
+
+#: .Table
+msgid "Table"
+msgstr "ဇယား"
+
+#: .Reports
+msgid "Reports"
+msgstr "အစီရင်ခံစာများ"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "ပုံပြခန်း"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "‌‌ဒေါင်းလုတ်များ"
+
+#: .Map
+msgid "Map"
+msgstr "မြေပုံ"
+
+#: .Summary
+msgid "Summary"
+msgstr "အနှစ်ချုပ်"
+
+#: .Form
+msgid "Form"
+msgstr "ဖောင်"
+
+#: .Settings
+msgid "Settings"
+msgstr "ဆက်တင်များ"
+
+#: .General
+msgid "General"
+msgstr "အထွ​ေထွ​ေ"
+
+#: .Media
+msgid "Media"
+msgstr "မီဒီယာ"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "မျှ‌​ဝေထားသောအရာများ"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "ချိတ်ဆက် ပ‌ရောဂျက်များ"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "REST ဝန်ဆောင်မှုများ"
+
+#: .All+questions
+msgid "All questions"
+msgstr "မေးခွန်းများအားလုံး"
+
+#: .Image+Gallery
+msgid "Image Gallery"
+msgstr "ပုံပြခန်း"
+
+#: .From
+msgid "From"
+msgstr "မှ"
+
+#: .Between
+msgid "Between"
+msgstr "အကြား"
+
+#: .and
+msgid "and"
+msgstr "နှင့်"
+
+#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
+msgid ""
+"The stored permissions are invalid. Please assign them again. If this "
+"problem persists, contact help@kobotoolbox.org"
+msgstr "သိမ်းဆည်းထားသော ခွင့်ပြုချက်များမှာ အကျုံးမဝင်ပါ။ ကျေးဇူးပြု၍ ၎င်းတို့ကို ပြန်လည် နေရာချထားပါ။ အကယ်၍ ဤပြဿနာ ဆက်လက်ဖြစ်ပွာနေပါက help@kobotoolbox.org ထံသို့ ဆက်သွယ်ပါ"
+
+#: .new
+msgid "new"
+msgstr "အသစ်"
+
+#: .Projects
+msgid "Projects"
+msgstr "ပ‌ရောဂျက်များ"
+
+#: .Library
+msgid "Library"
+msgstr "စာကြည့်တိုက်"
+
+#: .Projects+(legacy)
+msgid "Projects (legacy)"
+msgstr "ပ‌ရေဦဂျက်များ (စနစ်ဟောင်း)"
+
+#: .Source
+msgid "Source"
+msgstr "အရင်းအမြစ်"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "asset များ စာရင်းပြရန် မအောင်မြင်ပါ"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "ကျေးဇူးပြု၍ ဤစာမျက်နှာကို refresh လုပ်ပါ"
+
+#: .Log+In
+msgid "Log In"
+msgstr "လော့အင် ဝင်ရန်"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "အကောင့်ဆက်တင်များ"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "ဝန်ဆောင်မှုဆိုင်ရာ စည်းမျဉ်းများ"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "လုံခြုံရေးမူဝါဒများ"
+
+#: .Logout
+msgid "Logout"
+msgstr "ပြန်ထွက်မည်"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "ကျွန်ုပ်၏ စာကြည့်တိုက်တွင် ရှာမည်"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "အများသုံး စုစည်းမှုများတွင် ရှာမည်"
+
+#: .Search+Projects
+msgid "Search Projects"
+msgstr "ပ‌ရောဂျက်များ ရှာမည်"
+
+#: .submissions
+msgid "submissions"
+msgstr "တင်သွင်းခြင်းများ"
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "ကျေးဇူးပြု၍ ခေါင်းစီးခလုတ်ကို အသုံးပြု၍ လော့အင်ဝင်ရန် ကြိုးစားကြည့်ပါ သို့မဟုတ် အမှားတစ်စုံတစ်ရာ ဖြစ်နေသည်ဟု သင်ယူဆပါက [Support အဖွဲ့ကို ဆက်သွယ်ပါ]။"
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "အမှားတစ်စုံတစ်ရာ ဖြစ်နေသည်ဟု သင်ယူဆပါက ကျေးဇူးပြ၍ [Support အဖွဲ့ကို ဆက်သွယ်ပါ]။"
+
+#: .Access+denied
+msgid "Access denied"
+msgstr "ဝင်‌ရောက်အသုံးပြုခွင့် ပိတ်ပင်ထားသည်"
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "သင့်တွင် ဤစာမျက်နှာအား ဝင်‌ေရာက်အသုံးပြုခွင့် မရှိခြင်းသော်လည်းကောင်း၊ ဤစာမျက်နှာ လုံးဝရှိမနေခြင်းသော်လည်းကောင်း ဖြစ်နိုင်ပါသည်။"
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "ထပ်ဆောင်းအသေးစိတ်အချက်အလက်များ-"
+
+#: .This+field+is+required.
+msgid "This field is required."
+msgstr "ဤအကွက်တွင် ဖြည့်သွင်းရန်လိုအပ်သည်။"
+
+#: .This+field+must+match+the+Verify+Password+field.
+msgid "This field must match the Verify Password field."
+msgstr "ဤအကွက်နှင့် စကားဝှက်ကို အတည်ပြုပါ အကွက်တို့ တူညီရပါမည်။"
+
+#: .Save+Password
+msgid "Save Password"
+msgstr "စကားဝှက်ကို သိမ်းရန်"
+
+#: .Reset+Password
+msgid "Reset Password"
+msgstr "စကား၀ှက်ပြန်လည်ထားမည်"
+
+#: .Current+Password
+msgid "Current Password"
+msgstr "လက်ရှိ စကားဝှက်"
+
+#: .Forgot+Password%3F
+msgid "Forgot Password?"
+msgstr "စကားဝှက် မေ့သွားပါသလား"
+
+#: .New+Password
+msgid "New Password"
+msgstr "စကားဝှက် အသစ်"
+
+#: .Verify+Password
+msgid "Verify Password"
+msgstr "စကားဝှက်ကို အတည်ပြုပါ"
 
 #: .Success%21
 msgid "Success!"
@@ -1677,311 +1752,6 @@ msgstr "ဘာသာပြန် ဇယာကို ပိတ်မလား"
 #: .You+will+lose+all+unsaved+changes.
 msgid "You will lose all unsaved changes."
 msgstr "သိမ်းမှတ်မထားသော ပြောင်းလဲမှုအားလုံးကို သင်ဆုံးရှုံးသွားလိမ့်မည်ဖြစ်သည်။"
-
-#: .All+questions
-msgid "All questions"
-msgstr "မေးခွန်းများအားလုံး"
-
-#: .Image+Gallery
-msgid "Image Gallery"
-msgstr "ပုံပြခန်း"
-
-#: .From
-msgid "From"
-msgstr "မှ"
-
-#: .Between
-msgid "Between"
-msgstr "အကြား"
-
-#: .and
-msgid "and"
-msgstr "နှင့်"
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "ကျေးဇူးပြု၍ ခေါင်းစီးခလုတ်ကို အသုံးပြု၍ လော့အင်ဝင်ရန် ကြိုးစားကြည့်ပါ သို့မဟုတ် အမှားတစ်စုံတစ်ရာ ဖြစ်နေသည်ဟု သင်ယူဆပါက [Support အဖွဲ့ကို ဆက်သွယ်ပါ]။"
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "အမှားတစ်စုံတစ်ရာ ဖြစ်နေသည်ဟု သင်ယူဆပါက ကျေးဇူးပြ၍ [Support အဖွဲ့ကို ဆက်သွယ်ပါ]။"
-
-#: .Access+denied
-msgid "Access denied"
-msgstr "ဝင်‌ရောက်အသုံးပြုခွင့် ပိတ်ပင်ထားသည်"
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "သင့်တွင် ဤစာမျက်နှာအား ဝင်‌ေရာက်အသုံးပြုခွင့် မရှိခြင်းသော်လည်းကောင်း၊ ဤစာမျက်နှာ လုံးဝရှိမနေခြင်းသော်လည်းကောင်း ဖြစ်နိုင်ပါသည်။"
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "ထပ်ဆောင်းအသေးစိတ်အချက်အလက်များ-"
-
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "ပိုင်ရှင်အချက်အလက်ကို ရယူနိုင်ခြင်းမရှိပါ။"
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "ဖန်တီးသည့် ရက်စွဲ"
-
-#: .Owner
-msgid "Owner"
-msgstr "ပိုင်ရှင်"
-
-#: .Tags
-msgid "Tags"
-msgstr "တက်ဂ်များ"
-
-#: .Items
-msgid "Items"
-msgstr "ပစ္စည်းများ"
-
-#: .Organization
-msgid "Organization"
-msgstr "အဖွဲ့အစည်း"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "အသေးစိတ်အချက်အလက် အပြည့်အစုံကို ဖျောက်ရန်"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "အသေးစိတ်အချက်အလက် အပြည့်အစုံကို ပြရန်"
-
-#: .Name
-msgid "Name"
-msgstr "အမည်"
-
-#: .Type
-msgid "Type"
-msgstr "အမျိုးအစား"
-
-#: .Shared+by
-msgid "Shared by"
-msgstr "မျှ‌‌ဝေသူ"
-
-#: .Created
-msgid "Created"
-msgstr "ဖန်တီးခဲ့သည်"
-
-#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
-msgid ""
-"Let's get started by creating your first project. Click the New button to "
-"create a new form."
-msgstr "သင်၏ ပထမဆုံး ပ‌ရောဂျက်ကို ဖန်တီးခြင်းအားဖြင့် စတင်လိုက်ကြပါရအောင်။ ဖောင်အသစ်တစ်စောင် ဖန်တီးရန်အတွက် အသစ် ဟူသော ခလုတ်ကို နှိပ်ပါ။"
-
-#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
-msgid ""
-"Advanced users: You can also drag and drop XLSForms here and they will be "
-"uploaded and converted to projects."
-msgstr "ကျွမ်းကျင်အဆင့်အသုံးပြုသူများ- XLSForms များကိုလည်း ဤနေရာသို့ ဆွဲယူထည့်သွင်းနိုင်ပါသည်။ ၎င်းတို့ကို အပ်လုတ်လုပ်ပြီး ပ‌ရောဂျက်များအဖြစ် ပြောင်းလဲပေးမည်ဖြစ်ပါသည်။"
-
-#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
-msgid ""
-"Let's get started by creating your first library question or question block."
-" Click the New button to create a new question or block."
-msgstr "သင်၏ ပထမဆုံး စာကြည့်တိုက်မေးခွန်း သို့မဟုတ် မေးခွန်းတွဲကို ဖန်တီးခြင်းအားဖြင့် စတင်လိုက်ကြပါစို့။ မေးခွန်း သို့မဟုတ် မေးခွန်းတွဲ အသစ်တစ်ခု ဖန်တီးရန်အတွက် အသစ် ဟူသော ခလုတ်ကို နှိပ်ပါ။"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "asset ၏ အများမြင် အခြေအနေကို ပြင်၍ မရပါ။"
-
-#: .Make+public
-msgid "Make public"
-msgstr "အများမြင် ပြုလုပ်မည်"
-
-#: .Make+private
-msgid "Make private"
-msgstr "ကိုယ်တစ်ယောက်တည်းသာမြင်ရန် ပြုလုပ်မည်"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "ဤ ##asset_type## မှာ အခွံဖြစ်နေသည်။"
-
-#: .Show+less
-msgid "Show less"
-msgstr "လျှော့၍ပြရန်"
-
-#: .Show+more
-msgid "Show more"
-msgstr "ပို၍ပြရန်"
-
-#: .Vertical
-msgid "Vertical"
-msgstr "ဒေါင်လိုက်"
-
-#: .Donut
-msgid "Donut"
-msgstr "ဒိုးနပ်"
-
-#: .Area
-msgid "Area"
-msgstr "ဧရိယာ"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "အလျားလိုက်"
-
-#: .Pie
-msgid "Pie"
-msgstr "စက်ဝိုင်းစိတ်"
-
-#: .Line
-msgid "Line"
-msgstr "မျဉ်း"
-
-#: .Unlabeled
-msgid "Unlabeled"
-msgstr "ခေါင်းစဉ်တပ်မထားသော"
-
-#: .Include+the+following+questions
-msgid "Include the following questions:"
-msgstr "အောက်ပါမေးခွန်းများ အပါအဝင်-"
-
-#: .Chart+Type
-msgid "Chart Type"
-msgstr "ပုံစံကားချပ်အမျိုးအစား"
-
-#: .Colors
-msgid "Colors"
-msgstr "အ‌ရောင်များ"
-
-#: .No+grouping
-msgid "No grouping"
-msgstr "အုပ်စုဖွဲ့ထားခြင်း မရှိပါ"
-
-#: .Group+By
-msgid "Group By"
-msgstr "အုပ်စုဖွဲ့ရန်"
-
-#: .Translation
-msgid "Translation"
-msgstr "ဘာသာပြန်"
-
-#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
-msgid "This project has no submitted data. Please collect some and try again."
-msgstr "ဤပ‌ရောဂျက်တွင် တင်သွင်းထားသော ‌ဒေတာများမရှိပါ။ ကျေးဇူးပြု၍ တင်သွင်းခြင်းအနည်းငယ် ကောက်ခံပြီး ပြန်လည်ကြိုးစားပါ။"
-
-#: .results
-msgid "results"
-msgstr "ရလဒ်များ"
-
-#: .Edit
-msgid "Edit"
-msgstr "ပြင်ဆင်ရန်"
-
-#: .Validation
-msgid "Validation"
-msgstr "စစ်ဆေးခြင်း"
-
-#: .Show+All
-msgid "Show All"
-msgstr "အားလုံးကို ပြရန်"
-
-#: .Search
-msgid "Search"
-msgstr "ရှာရန်"
-
-#: .Display+options
-msgid "Display options"
-msgstr "‌ေရွးချယ်စရာများ ပြရန်"
-
-#: .Prev
-msgid "Prev"
-msgstr "ယခင်"
-
-#: .Your+filters+returned+no+submissions.
-msgid "Your filters returned no submissions."
-msgstr "သင်၏ စစ်ထုတ်မှုမှ မည်သည့် တင်သွင်းခြင်းမျှ ပြန်ထွက်မလာပါ။"
-
-#: .Page
-msgid "Page"
-msgstr "စာမျက်နှာ"
-
-#: .rows
-msgid "rows"
-msgstr "အတန်းများ"
-
-#: .My+Projects
-msgid "My Projects"
-msgstr "ကျွနု်ပ်၏ ပ‌ေရာဂျက်များ"
-
-#: .Is
-msgid "Is"
-msgstr "ဖြစ်"
-
-#: .Is+not
-msgid "Is not"
-msgstr "မဖြစ်"
-
-#: .Contains
-msgid "Contains"
-msgstr "ပါဝင်"
-
-#: .Does+not+contain
-msgid "Does not contain"
-msgstr "မပါဝင်"
-
-#: .Starts+with
-msgid "Starts with"
-msgstr "အစ"
-
-#: .Ends+with
-msgid "Ends with"
-msgstr "အဆုံး"
-
-#: .Is+empty
-msgid "Is empty"
-msgstr "အခွံ"
-
-#: .Is+not+empty
-msgid "Is not empty"
-msgstr "အခွံမဟုတ်"
-
-#: .Project+name
-msgid "Project name"
-msgstr "စီမံကိန်းအမည်"
-
-#: .Status
-msgid "Status"
-msgstr "အခြေအနေ"
-
-#: .Owner+username
-msgid "Owner username"
-msgstr "ပိုင်ရှင်၏ အသုံးပြုသူအမည်"
-
-#: .Owner+full+name
-msgid "Owner full name"
-msgstr "ပိုင်ရှင် အမည်အပြည့်အစုံ"
-
-#: .Owner+email
-msgid "Owner email"
-msgstr "ပိုင်ရှင် အီးမေး"
-
-#: .Owner+organization
-msgid "Owner organization"
-msgstr "ပိုင်ရှင် အဖွဲ့အစည်း"
-
-#: .Date+modified
-msgid "Date modified"
-msgstr "ပြင်ဆင်သည့် နေ့စွဲ"
-
-#: .Date+deployed
-msgid "Date deployed"
-msgstr "အသုံးပြုသည့် နေ့စွဲ"
-
-#: .Countries
-msgid "Countries"
-msgstr "နိုင်ငံများ"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "ပင်မ စုစည်းမှု"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2079,41 +1849,195 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "အခြား ပ‌ေရာဂျက်များမှ ‌ေဒတာအရှင်များ ဤပ‌ေရာဂျက်သို့ ထည့်သွင်းရန် အခြားပ‌ေရာဂျက်များနှင့် ချိတ်ဆက်ပါ။ ‌ေဒတာအရှင် ဖိုင်တွဲခြင်းနှင့် ပတ်သက်ပြီး ပိုမိုလေ့လာရန်"
 
-#: .DONE
-msgid "DONE"
-msgstr "ပြီးစီး"
+#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
+msgid "This project has no submitted data. Please collect some and try again."
+msgstr "ဤပ‌ရောဂျက်တွင် တင်သွင်းထားသော ‌ဒေတာများမရှိပါ။ ကျေးဇူးပြု၍ တင်သွင်းခြင်းအနည်းငယ် ကောက်ခံပြီး ပြန်လည်ကြိုးစားပါ။"
 
-#: .This+field+is+required.
-msgid "This field is required."
-msgstr "ဤအကွက်တွင် ဖြည့်သွင်းရန်လိုအပ်သည်။"
+#: .results
+msgid "results"
+msgstr "ရလဒ်များ"
 
-#: .This+field+must+match+the+Verify+Password+field.
-msgid "This field must match the Verify Password field."
-msgstr "ဤအကွက်နှင့် စကားဝှက်ကို အတည်ပြုပါ အကွက်တို့ တူညီရပါမည်။"
+#: .Edit
+msgid "Edit"
+msgstr "ပြင်ဆင်ရန်"
 
-#: .Save+Password
-msgid "Save Password"
-msgstr "စကားဝှက်ကို သိမ်းရန်"
+#: .Validation
+msgid "Validation"
+msgstr "စစ်ဆေးခြင်း"
 
-#: .Reset+Password
-msgid "Reset Password"
-msgstr "စကား၀ှက်ပြန်လည်ထားမည်"
+#: .Show+All
+msgid "Show All"
+msgstr "အားလုံးကို ပြရန်"
 
-#: .Current+Password
-msgid "Current Password"
-msgstr "လက်ရှိ စကားဝှက်"
+#: .Search
+msgid "Search"
+msgstr "ရှာရန်"
 
-#: .Forgot+Password%3F
-msgid "Forgot Password?"
-msgstr "စကားဝှက် မေ့သွားပါသလား"
+#: .Display+options
+msgid "Display options"
+msgstr "‌ေရွးချယ်စရာများ ပြရန်"
 
-#: .New+Password
-msgid "New Password"
-msgstr "စကားဝှက် အသစ်"
+#: .Prev
+msgid "Prev"
+msgstr "ယခင်"
 
-#: .Verify+Password
-msgid "Verify Password"
-msgstr "စကားဝှက်ကို အတည်ပြုပါ"
+#: .Your+filters+returned+no+submissions.
+msgid "Your filters returned no submissions."
+msgstr "သင်၏ စစ်ထုတ်မှုမှ မည်သည့် တင်သွင်းခြင်းမျှ ပြန်ထွက်မလာပါ။"
+
+#: .Page
+msgid "Page"
+msgstr "စာမျက်နှာ"
+
+#: .rows
+msgid "rows"
+msgstr "အတန်းများ"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "ဤ ##asset_type## မှာ အခွံဖြစ်နေသည်။"
+
+#: .Show+less
+msgid "Show less"
+msgstr "လျှော့၍ပြရန်"
+
+#: .Show+more
+msgid "Show more"
+msgstr "ပို၍ပြရန်"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "asset ၏ အများမြင် အခြေအနေကို ပြင်၍ မရပါ။"
+
+#: .Make+public
+msgid "Make public"
+msgstr "အများမြင် ပြုလုပ်မည်"
+
+#: .Make+private
+msgid "Make private"
+msgstr "ကိုယ်တစ်ယောက်တည်းသာမြင်ရန် ပြုလုပ်မည်"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "ပိုင်ရှင်အချက်အလက်ကို ရယူနိုင်ခြင်းမရှိပါ။"
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "ဖန်တီးသည့် ရက်စွဲ"
+
+#: .Owner
+msgid "Owner"
+msgstr "ပိုင်ရှင်"
+
+#: .Tags
+msgid "Tags"
+msgstr "တက်ဂ်များ"
+
+#: .Items
+msgid "Items"
+msgstr "ပစ္စည်းများ"
+
+#: .Organization
+msgid "Organization"
+msgstr "အဖွဲ့အစည်း"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "အသေးစိတ်အချက်အလက် အပြည့်အစုံကို ဖျောက်ရန်"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "အသေးစိတ်အချက်အလက် အပြည့်အစုံကို ပြရန်"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "ဒေါင်လိုက်"
+
+#: .Donut
+msgid "Donut"
+msgstr "ဒိုးနပ်"
+
+#: .Area
+msgid "Area"
+msgstr "ဧရိယာ"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "အလျားလိုက်"
+
+#: .Pie
+msgid "Pie"
+msgstr "စက်ဝိုင်းစိတ်"
+
+#: .Line
+msgid "Line"
+msgstr "မျဉ်း"
+
+#: .Unlabeled
+msgid "Unlabeled"
+msgstr "ခေါင်းစဉ်တပ်မထားသော"
+
+#: .Include+the+following+questions
+msgid "Include the following questions:"
+msgstr "အောက်ပါမေးခွန်းများ အပါအဝင်-"
+
+#: .Chart+Type
+msgid "Chart Type"
+msgstr "ပုံစံကားချပ်အမျိုးအစား"
+
+#: .Colors
+msgid "Colors"
+msgstr "အ‌ရောင်များ"
+
+#: .Name
+msgid "Name"
+msgstr "အမည်"
+
+#: .Type
+msgid "Type"
+msgstr "အမျိုးအစား"
+
+#: .Shared+by
+msgid "Shared by"
+msgstr "မျှ‌‌ဝေသူ"
+
+#: .Created
+msgid "Created"
+msgstr "ဖန်တီးခဲ့သည်"
+
+#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
+msgid ""
+"Let's get started by creating your first project. Click the New button to "
+"create a new form."
+msgstr "သင်၏ ပထမဆုံး ပ‌ရောဂျက်ကို ဖန်တီးခြင်းအားဖြင့် စတင်လိုက်ကြပါရအောင်။ ဖောင်အသစ်တစ်စောင် ဖန်တီးရန်အတွက် အသစ် ဟူသော ခလုတ်ကို နှိပ်ပါ။"
+
+#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
+msgid ""
+"Advanced users: You can also drag and drop XLSForms here and they will be "
+"uploaded and converted to projects."
+msgstr "ကျွမ်းကျင်အဆင့်အသုံးပြုသူများ- XLSForms များကိုလည်း ဤနေရာသို့ ဆွဲယူထည့်သွင်းနိုင်ပါသည်။ ၎င်းတို့ကို အပ်လုတ်လုပ်ပြီး ပ‌ရောဂျက်များအဖြစ် ပြောင်းလဲပေးမည်ဖြစ်ပါသည်။"
+
+#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
+msgid ""
+"Let's get started by creating your first library question or question block."
+" Click the New button to create a new question or block."
+msgstr "သင်၏ ပထမဆုံး စာကြည့်တိုက်မေးခွန်း သို့မဟုတ် မေးခွန်းတွဲကို ဖန်တီးခြင်းအားဖြင့် စတင်လိုက်ကြပါစို့။ မေးခွန်း သို့မဟုတ် မေးခွန်းတွဲ အသစ်တစ်ခု ဖန်တီးရန်အတွက် အသစ် ဟူသော ခလုတ်ကို နှိပ်ပါ။"
+
+#: .No+grouping
+msgid "No grouping"
+msgstr "အုပ်စုဖွဲ့ထားခြင်း မရှိပါ"
+
+#: .Group+By
+msgid "Group By"
+msgstr "အုပ်စုဖွဲ့ရန်"
+
+#: .Translation
+msgid "Translation"
+msgstr "ဘာသာပြန်"
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "ပင်မ စုစည်းမှု"
 
 #: .Subscribers
 msgid "Subscribers"
@@ -2216,32 +2140,157 @@ msgstr "မြို့"
 msgid "Social"
 msgstr "လူမှုကွန်ရက်"
 
-#: .Community+plan+(free+access)
-msgid "Community plan (free access)"
-msgstr "ရပ်ရွာသုံး (အခမဲ့ အသုံးပြုခွင့်)"
-
-#: .Free+access+to+all+services.+5GB+of+media+attachments+per+account,+10,000+submissions+per+month,+as+well+as+25+minutes+of+automatic+speech+recognition+and+20,000+characters+of+machine+translation+per+month.
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"Free access to all services. 5GB of media attachments per account, 10,000 "
-"submissions per month, as well as 25 minutes of automatic speech recognition"
-" and 20,000 characters of machine translation per month."
-msgstr "ဝန်ဆောင်မှုများအားလုံးကို အခမဲ့ အသုံးပြုခွင့်။ အကောင့်တစ်ခုလျှင် မီဒီယာဖိုင်တွဲပမာဏ 5GB၊ တစ်လလျှင် တင်သွင်းခြင်း 10,000 အပြင် တစ်လလျှင် အလိုအလျှောက် စကားသံကို စာသားအဖြစ် သိရှိခြင်းအတွက် 25 မိနစ်နှင့် ကွန်ပျူတာ ဘာသာပြန်ခြင်းအတွက် အက္ခရာ 20,000။"
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr ""
 
-#: .Current+Plan
-msgid "Current Plan"
-msgstr "လက်ရှိ ပလန်"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr ""
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr ""
+
+#: .Annual
+msgid "Annual"
+msgstr ""
+
+#: .Monthly
+msgid "Monthly"
+msgstr ""
+
+#: .your+plan
+msgid "your plan"
+msgstr ""
+
+#: .Free
+msgid "Free"
+msgstr ""
 
 #: .Upgrade
 msgid "Upgrade"
 msgstr "အဆင့်မြှင့်မည်"
 
-#: .Add+ons+and+upgrades+to+your+plan
-msgid "Add ons and upgrades to your plan"
-msgstr "သင့်ပလန်အတွက် add on များနှင့် အဆင့်မြှင့်တင်မှုများ"
+#: .Manage
+msgid "Manage"
+msgstr ""
+
+#: .Change+plan
+msgid "Change plan"
+msgstr ""
+
+#: .Need+More%3F
+msgid "Need More?"
+msgstr ""
+
+#: .We+offer+several+add-on+options+to+increase+your+limits+or+the+capacity+of+certain+features+for+a+period+of+time,+depending+on+which+plan+you+use.
+msgid ""
+"We offer several add-on options to increase your limits or the capacity of "
+"certain features for a period of time, depending on which plan you use."
+msgstr ""
+
+#: .If+your+organization+has+larger+or+more+specific+needs,+please+contact+our+team+to+learn+about+our+enterprise+options.
+msgid ""
+"If your organization has larger or more specific needs, please contact our "
+"team to learn about our enterprise options."
+msgstr ""
+
+#: .Get+in+touch+for+Enterprise+options
+msgid "Get in touch for Enterprise options"
+msgstr ""
+
+#: .Collapse
+msgid "Collapse"
+msgstr ""
+
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr ""
+
+#: .My+Projects
+msgid "My Projects"
+msgstr "ကျွနု်ပ်၏ ပ‌ေရာဂျက်များ"
+
+#: .Is
+msgid "Is"
+msgstr "ဖြစ်"
+
+#: .Is+not
+msgid "Is not"
+msgstr "မဖြစ်"
+
+#: .Contains
+msgid "Contains"
+msgstr "ပါဝင်"
+
+#: .Does+not+contain
+msgid "Does not contain"
+msgstr "မပါဝင်"
+
+#: .Starts+with
+msgid "Starts with"
+msgstr "အစ"
+
+#: .Ends+with
+msgid "Ends with"
+msgstr "အဆုံး"
+
+#: .Is+empty
+msgid "Is empty"
+msgstr "အခွံ"
+
+#: .Is+not+empty
+msgid "Is not empty"
+msgstr "အခွံမဟုတ်"
+
+#: .Project+name
+msgid "Project name"
+msgstr "စီမံကိန်းအမည်"
+
+#: .Status
+msgid "Status"
+msgstr "အခြေအနေ"
+
+#: .Owner+username
+msgid "Owner username"
+msgstr "ပိုင်ရှင်၏ အသုံးပြုသူအမည်"
+
+#: .Owner+full+name
+msgid "Owner full name"
+msgstr "ပိုင်ရှင် အမည်အပြည့်အစုံ"
+
+#: .Owner+email
+msgid "Owner email"
+msgstr "ပိုင်ရှင် အီးမေး"
+
+#: .Owner+organization
+msgid "Owner organization"
+msgstr "ပိုင်ရှင် အဖွဲ့အစည်း"
+
+#: .Date+modified
+msgid "Date modified"
+msgstr "ပြင်ဆင်သည့် နေ့စွဲ"
+
+#: .Date+deployed
+msgid "Date deployed"
+msgstr "အသုံးပြုသည့် နေ့စွဲ"
+
+#: .Countries
+msgid "Countries"
+msgstr "နိုင်ငံများ"
 
 #: .Security
 msgid "Security"
 msgstr "လုံခြုံရေး"
+
+#: .DONE
+msgid "DONE"
+msgstr "ပြီးစီး"
 
 #: .Previous
 msgid "Previous"
@@ -2295,13 +2344,190 @@ msgstr "မျှဝေရန်"
 msgid "View containing Collection"
 msgstr "ပါဝင်သော စုစည်းမှုများ ကြည့်ရန်"
 
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "မေးခွန်းအား စာကြည့်တိုက်သို့ ထည့်သွင်းပြီးပါပြီ"
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr ""
 
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "အုပ်စုအား စာကြည့်တိုက်သို့ မေးခွန်းတွဲတစ်ခုအဖြစ် ထည့်သွင်းပြီးပါပြီ"
+#: .Item
+msgid "Item"
+msgstr "ပစ္စည်း"
+
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "စုစုပေါင်း ##total_count## ခုမှ"
+
+#: .Transcript
+msgid "Transcript"
+msgstr "စာသားမှတ်တမ်း"
+
+#: .Translations
+msgid "Translations"
+msgstr "ဘာသာပြန်များ"
+
+#: .Analysis
+msgid "Analysis"
+msgstr "ခွဲခြမ်းစိတ်ဖြာခြင်း"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "နောက်ဆုံး ပြင်ဆင်သည့် ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "ဖန်တီးသည့် ##date##"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "ခွင့်ပြုချက်များအား အောင်မြင်စွာ မိတ္တုကူးပြီး"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "##source to ##target ခွင့်ပြုချက်များ မိတ္တူကူးယူတော့မည် ဖြစ်သည်။ ဤလုပ်ဆောင်ချက်ကို လုပ်ဆောင်ပြီးမှ ပြန်ပြင်၍ မရပါ။"
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "ခွင့်ပြုချက်များအား မိတ္တူကူးယူလိုသည်မှ သေချာပါသလား။"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "‌ဆက်လက်လုပ်ဆောင်ရန်"
+
+#: .Unlabelled
+msgid "Unlabelled"
+msgstr "အမည်တပ်မထားသော"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "အခြားပ‌ေရာဂျက်တစ်ခုမှ အဖွဲ့ကို မိတ္တူကူးရန်"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "၎င်းက လက်ရှိ ဤပ‌ေရာဂျက်တွင် သတ်မှတ်ထားသော မျှ‌ေဝမှု ဆက်တင်များအား ဖုံးပစ်ပါလိမ့်မည်။"
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "မူရင်း ပ‌ေရာဂျက်ကို ‌ေရွးချယ်ပါ…"
+
+#: .copy
+msgid "copy"
+msgstr "မိတ္တူကူးရန်"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "အသုံးပြုသူအမည်များအား ကော်မာခံ၍ ထည့်သွင်းပါ"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "အသုံးပြုသူကို ရှာမတွေ့ပါ-"
+
+#: .username
+msgid "username"
+msgstr "အသုံးပြုသူအမည်"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "ခွင့်ပြုချက်များ ပေးရန်"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "ခွင့်ပြုချက်များ ပြင်ဆင်ရန်"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "ဤဖောင်ကို မည်သူမဆို ကြည့်နိုင်သည်"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "ဤဖောင်သို့ တင်သွင်းသော တင်သွင်းခြင်းများကို မည်သူမဆို ကြည့်နိုင်သည်"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "မျှ‌ေဝနိုင်သော လင့်ခ်"
+
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "သင် မသိမ်းဘဲ ထွက်လိုပါသလား။"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "ခွင့်ပြုချက်များ ရုတ်သိမ်းမည်လား"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "ဤလုပ်ဆောင်ချက်သည် အသုံးပြုသူ ##username## အတွက် ခွင့်ပြုချက်အားလုံးကို ရုတ်သိမ်းပါလိမ့်မည်"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
+msgid "##permission_label## (##username_list##)"
+msgstr "##permission_label## (##username_list##)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
+msgid "##permission_label## (##username_list## and 1 other)"
+msgstr "##permission_label## (##username_list## နှင့် အခြား 1 ဦး)"
+
+#: .is+owner
+msgid "is owner"
+msgstr "ပိုင်ရှင် ဖြစ်သူ"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "REST ဝန်ဆောင်မှုများကို မဖတ်နိုင်ပါ"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "##target ကို ဖျက်လိုသည်မှ သေချာပါသလား။"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "သင် ##target ကို ဖျက်ပါတော့မည်။ ဤလုပ်ဆောင်ချက်ကို လုပ်ဆောင်ပြီးမှ ပြန်ပြင်၍ မရပါ။"
+
+#: .Confirm
+msgid "Confirm"
+msgstr "အတည်ပြုပါသည်"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "ဝန်ဆောင်မှုအသစ်တစ်ခု မှတ်ပုံတင်ရန်"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "ဤပ‌ေရာဂျက်တွင် မည်သည့် REST ဝန်ဆောင်မှုများမျှ မရှိသေးပါ။"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "တတိယကြားခံ အက်ပလီကေးရှင်းများသို့ အလိုအလျောက် ပို့စ် တင်သွင်းခြင်းများ ပြုလုပ်ရန် REST ဝန်ဆောင်မှုများကို သင်အသုံးပြုနိုင်ပါသည်။"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "ပိုမိုလေ့လာရန်"
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "REST ဝန်ဆောင်မှုများ- ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "အကူအညီလိုပါသလား"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "ဝန်ဆောင်မှုအမည်"
+
+#: .Success
+msgid "Success"
+msgstr "အောင်မြင်ပါသည်"
+
+#: .Pending
+msgid "Pending"
+msgstr "ဆိုင်ငံ့ထားသည်"
+
+#: .Failed
+msgid "Failed"
+msgstr "မအောင်မြင်ပါ"
 
 #: .Paste+your+formatted+table+from+excel+in+the+box+below.
 msgid "Paste your formatted table from excel in the box below."
@@ -2334,6 +2560,54 @@ msgstr "___ မေးခွန်းများ၏ မေးခွန်းတ�
 #: .search+library
 msgid "search library"
 msgstr "စာကြည့်တိုက်တွင် ရှာရန်"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "REST ဝန်ဆောင်မှုကို မဖတ်နိုင်ပါ"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "REST ဝန်ဆောင်မှု မှတ်တမ်းများကို မဖတ်နိုင်ပါ"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "တင်သွင်းခြင်း မအောင်မြင်မှု အသေးစိတ်အချက်အလက် (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "REST ဝန်ဆောင်မှုများသို့ ပြန်သွားရန်"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "ဖတ်နေသည်…"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "မည်သည့် မှတ်တမ်းမျှ မရှိပါ"
+
+#: .Submission
+msgid "Submission"
+msgstr "တင်သွင်းခြင်း"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "တင်သွင်းခြင်းအားလုံးကို ပြန်လုပ်ကြည့်ရန်"
+
+#: .Date
+msgid "Date"
+msgstr "နေ့စွဲ"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "ဆိုင်ငံ့ထားသည် (##count##x)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "တင်သွင်းခြင်းကို ပြန်လုပ်ကြည့်ရန်"
+
+#: .More+info
+msgid "More info"
+msgstr "ထပ်ဆောင်းအချက်အလက်"
 
 #: .Marker+Colors
 msgid "Marker Colors"
@@ -2417,202 +2691,13 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "မူရင်းအတိုင်းဆိုပါက မြေပုံသည် နောက်ဆုံး ##QUERY_LIMIT_DEFAULT## အကျဆုံး တင်သွင်းခြင်းများတွင်သာ ကန့်သတ်ထားသည်။ အဆိုပါ ကန့်သတ်တန်ဖိုးကို အခြားတန်ဖိုးတစ်ခုသို့ သင်ယာယီ တိုးမြှင့်နိုင်သည်။ သင် မြေပုံကိုပြန်ဖွင့်လိုက်တိုင်းတွင် ဤကန့်သတ်တန်ဖိုးက မူလအတိုင်း ပြန်သတ်မှတ်သွားမည်ဆိုသည်ကို သတိပြုပါ။"
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "ခွင့်ပြုချက်များအား အောင်မြင်စွာ မိတ္တုကူးပြီး"
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "မေးခွန်းအား စာကြည့်တိုက်သို့ ထည့်သွင်းပြီးပါပြီ"
 
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "##source to ##target ခွင့်ပြုချက်များ မိတ္တူကူးယူတော့မည် ဖြစ်သည်။ ဤလုပ်ဆောင်ချက်ကို လုပ်ဆောင်ပြီးမှ ပြန်ပြင်၍ မရပါ။"
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "ခွင့်ပြုချက်များအား မိတ္တူကူးယူလိုသည်မှ သေချာပါသလား။"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "‌ဆက်လက်လုပ်ဆောင်ရန်"
-
-#: .Unlabelled
-msgid "Unlabelled"
-msgstr "အမည်တပ်မထားသော"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "အခြားပ‌ေရာဂျက်တစ်ခုမှ အဖွဲ့ကို မိတ္တူကူးရန်"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "၎င်းက လက်ရှိ ဤပ‌ေရာဂျက်တွင် သတ်မှတ်ထားသော မျှ‌ေဝမှု ဆက်တင်များအား ဖုံးပစ်ပါလိမ့်မည်။"
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "မူရင်း ပ‌ေရာဂျက်ကို ‌ေရွးချယ်ပါ…"
-
-#: .copy
-msgid "copy"
-msgstr "မိတ္တူကူးရန်"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "REST ဝန်ဆောင်မှုများကို မဖတ်နိုင်ပါ"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "##target ကို ဖျက်လိုသည်မှ သေချာပါသလား။"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "သင် ##target ကို ဖျက်ပါတော့မည်။ ဤလုပ်ဆောင်ချက်ကို လုပ်ဆောင်ပြီးမှ ပြန်ပြင်၍ မရပါ။"
-
-#: .Confirm
-msgid "Confirm"
-msgstr "အတည်ပြုပါသည်"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "ဝန်ဆောင်မှုအသစ်တစ်ခု မှတ်ပုံတင်ရန်"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "ဤပ‌ေရာဂျက်တွင် မည်သည့် REST ဝန်ဆောင်မှုများမျှ မရှိသေးပါ။"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "တတိယကြားခံ အက်ပလီကေးရှင်းများသို့ အလိုအလျောက် ပို့စ် တင်သွင်းခြင်းများ ပြုလုပ်ရန် REST ဝန်ဆောင်မှုများကို သင်အသုံးပြုနိုင်ပါသည်။"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "ပိုမိုလေ့လာရန်"
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "REST ဝန်ဆောင်မှုများ- ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "အကူအညီလိုပါသလား"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "ဝန်ဆောင်မှုအမည်"
-
-#: .Success
-msgid "Success"
-msgstr "အောင်မြင်ပါသည်"
-
-#: .Pending
-msgid "Pending"
-msgstr "ဆိုင်ငံ့ထားသည်"
-
-#: .Failed
-msgid "Failed"
-msgstr "မအောင်မြင်ပါ"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "REST ဝန်ဆောင်မှုကို မဖတ်နိုင်ပါ"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "REST ဝန်ဆောင်မှု မှတ်တမ်းများကို မဖတ်နိုင်ပါ"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "တင်သွင်းခြင်း မအောင်မြင်မှု အသေးစိတ်အချက်အလက် (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "REST ဝန်ဆောင်မှုများသို့ ပြန်သွားရန်"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "ဖတ်နေသည်…"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "မည်သည့် မှတ်တမ်းမျှ မရှိပါ"
-
-#: .Submission
-msgid "Submission"
-msgstr "တင်သွင်းခြင်း"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "တင်သွင်းခြင်းအားလုံးကို ပြန်လုပ်ကြည့်ရန်"
-
-#: .Date
-msgid "Date"
-msgstr "နေ့စွဲ"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "ဆိုင်ငံ့ထားသည် (##count##x)"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "တင်သွင်းခြင်းကို ပြန်လုပ်ကြည့်ရန်"
-
-#: .More+info
-msgid "More info"
-msgstr "ထပ်ဆောင်းအချက်အလက်"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "ဤဖောင်ကို မည်သူမဆို ကြည့်နိုင်သည်"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "ဤဖောင်သို့ တင်သွင်းသော တင်သွင်းခြင်းများကို မည်သူမဆို ကြည့်နိုင်သည်"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "မျှ‌ေဝနိုင်သော လင့်ခ်"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "အသုံးပြုသူအမည်များအား ကော်မာခံ၍ ထည့်သွင်းပါ"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "အသုံးပြုသူကို ရှာမတွေ့ပါ-"
-
-#: .username
-msgid "username"
-msgstr "အသုံးပြုသူအမည်"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "ခွင့်ပြုချက်များ ပေးရန်"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "ခွင့်ပြုချက်များ ပြင်ဆင်ရန်"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "ခွင့်ပြုချက်များ ရုတ်သိမ်းမည်လား"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "ဤလုပ်ဆောင်ချက်သည် အသုံးပြုသူ ##username## အတွက် ခွင့်ပြုချက်အားလုံးကို ရုတ်သိမ်းပါလိမ့်မည်"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
-msgid "##permission_label## (##username_list##)"
-msgstr "##permission_label## (##username_list##)"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
-msgid "##permission_label## (##username_list## and 1 other)"
-msgstr "##permission_label## (##username_list## နှင့် အခြား 1 ဦး)"
-
-#: .is+owner
-msgid "is owner"
-msgstr "ပိုင်ရှင် ဖြစ်သူ"
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "အုပ်စုအား စာကြည့်တိုက်သို့ မေးခွန်းတွဲတစ်ခုအဖြစ် ထည့်သွင်းပြီးပါပြီ"
 
 #: .Search...
 msgid "Search..."
@@ -2646,41 +2731,9 @@ msgstr "assets တွေ့ရှိပါသည်"
 msgid "expand details"
 msgstr "အသေးစိတ်ကို ဖြန့်ကြည့်ပါ"
 
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr ""
-
-#: .Item
-msgid "Item"
-msgstr "ပစ္စည်း"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "စုစုပေါင်း ##total_count## ခုမှ"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "စာသားမှတ်တမ်း"
-
-#: .Translations
-msgid "Translations"
-msgstr "ဘာသာပြန်များ"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "ခွဲခြမ်းစိတ်ဖြာခြင်း"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "နောက်ဆုံး ပြင်ဆင်သည့် ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "ဖန်တီးသည့် ##date##"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "သင် မသိမ်းဘဲ ထွက်လိုပါသလား။"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "ရွေးချယ်ပါ"
 
 #: .Audit+settings
 msgid "Audit settings"
@@ -2709,6 +2762,14 @@ msgstr "နောက်ခံအသံသွင်းခြင်းကို �
 #: .Audio+quality
 msgid "Audio quality"
 msgstr "အသံ အရည်အသွေး"
+
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "သင့်တွင် မည်သည့်တန်းပလိတ်မှမရှိပါ။ စာကြည့်တိုက်သို့သွားပြီး အချို့ကိုဖန်တီးလိုက်ပါ။"
+
+#: .Template+name
+msgid "Template name"
+msgstr "တန်းပလိတ်အမည်"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -2746,6 +2807,38 @@ msgstr "လုပ်ဆောင်နိုင်စွမ်းကို လ�
 #: .Unlocked+functionalities
 msgid "Unlocked functionalities"
 msgstr "လုပ်ဆောင်နိုင်စွမ်းကို လော့ပြန်ဖွင့်သည်။"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "ရှာဖွေသည်.."
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "ကျေးဇူးပြု၍ သင်၏ ##type##ကိုရိုက်ထည့်ပါ။"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "နာမည်မရှိသော ##type##"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "နာမည်မရှိသောစုစည်းချက်များ"
+
+#: .project+title
+msgid "project title"
+msgstr "လုပ်ငန်းခေါင်းစဉ်"
+
+#: .Profile
+msgid "Profile"
+msgstr "ပရိုဖိုင်"
+
+#: .Usage
+msgid "Usage"
+msgstr ""
+
+#: .Your+Plan
+msgid "Your Plan"
+msgstr "သင်၏ အကြံအစဥ်များ"
 
 #: .Incorrect+token
 msgid "Incorrect token"
@@ -2830,61 +2923,72 @@ msgstr "အချက်အလက်နှစ်ခုသက်သေပြခြ
 msgid "Issues with the token"
 msgstr "တုန်ကင်နှင့်ပြဿနာများ"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "ရွေးချယ်ပါ"
+#: .Type+
+msgid "Type: "
+msgstr "အမျိုးအစား:"
 
-#: .Profile
-msgid "Profile"
-msgstr "ပရိုဖိုင်"
+#: ..+
+msgid ". "
+msgstr ". "
 
-#: .Usage
-msgid "Usage"
-msgstr ""
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#2 မှ #1 သက်ဆိုင်ရာများ ဤမေးခွန်းကို ဖြေကြားခဲ့သည်။"
 
-#: .Your+Plan
-msgid "Your Plan"
-msgstr "သင်၏ အကြံအစဥ်များ"
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(#အချက်အလက်မပါခဲ့ကြပါ)"
 
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "ရှာဖွေသည်.."
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "ဂရပ်ပုံစံကို ကျော်သွားသည်"
 
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "ကျေးဇူးပြု၍ သင်၏ ##type##ကိုရိုက်ထည့်ပါ။"
+#: .Deploy+this+project
+msgid "Deploy this project"
+msgstr "ဤလုပ်ငန်းကို အသုံးပြုမည်။"
 
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "နာမည်မရှိသော ##type##"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "အကူအညီ အရင်းအမြစ်များ"
 
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "နာမည်မရှိသောစုစည်းချက်များ"
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "Kobo Toolbox အကူအညီဆန်တာ"
 
-#: .project+title
-msgid "project title"
-msgstr "လုပ်ငန်းခေါင်းစဉ်"
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "အသုံးပြုသူ၏ ကြီးမားသောစုစည်းမှုသည် Koboနှင့် သက်ဆိုင်သော စာမူများနှင့် စစ်ဆေးမှုများကိုထောက်ပံ့ပေးထားပါသည်။"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "သင့်တွင် မည်သည့်တန်းပလိတ်မှမရှိပါ။ စာကြည့်တိုက်သို့သွားပြီး အချို့ကိုဖန်တီးလိုက်ပါ။"
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "Kobo Toolbox အဖွဲ့အစည်းပုံစံ"
 
-#: .Template+name
-msgid "Template name"
-msgstr "တန်းပလိတ်အမည်"
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "ကမ္ဘာအနှံ့ရှိ Koboသုံးပြုသူများ၏ အတွေ့အကြုံမှ မေးခွန်းများရယူရန် သင်၏မေးခွန်းများကို ပို့စ်တင်ပါ။"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "tags ကိုအဆင့်မြှင့်တင်ရန် ကျရှုံးပါသည်"
+#: .Notifications
+msgid "Notifications"
+msgstr "သတိပေးချက်များ"
 
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "အဆင့်မြှင့်တင်နေသည်..."
+#: .Help
+msgid "Help"
+msgstr "အကူအညီ"
 
-#: .Update
-msgid "Update"
-msgstr "အဆင်မြှင့်တင်သည်"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "##submissionTotal##၏ အပ်နှံခြင်း ##submissionIndex##"
+
+#: .download
+msgid "download"
+msgstr "ဒေါင်းလုတ်ရယူမည်"
+
+#: .process
+msgid "process"
+msgstr "ဖြစ်စဉ်​"
 
 #: .Question+Block
 msgid "Question Block"
@@ -2897,6 +3001,22 @@ msgstr "တန်းပလိတ်"
 #: .Collection
 msgid "Collection"
 msgstr "စုစည်းမှုများ"
+
+#: .Choose+desired+type
+msgid "Choose desired type"
+msgstr "နှစ်သက်သော အမျိုးအစား ရွေးချယ်မည်"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "tags ကိုအဆင့်မြှင့်တင်ရန် ကျရှုံးပါသည်"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "အဆင့်မြှင့်တင်နေသည်..."
+
+#: .Update
+msgid "Update"
+msgstr "အဆင်မြှင့်တင်သည်"
 
 #: .%23%23type%23%23+%23%23name%23%23+created
 msgid "##type## ##name## created"
@@ -2980,14 +3100,6 @@ msgstr "တင်သွင်းထားသောမေးခွန်းမျ
 msgid "Accept"
 msgstr "လက်ခံမည်"
 
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "နှစ်သက်သော အမျိုးအစား ရွေးချယ်မည်"
-
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "မပေးထားသော မီဒီယာအမျိုးအစား: ##QUESTION_TYPE##"
-
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
 msgstr "အမှားတစ်ခုရှိပါက ဇယားဆက်တင်များကို သိမ်းဆည်း၍မရနိုင်ပါ"
@@ -3011,6 +3123,83 @@ msgstr "ဇယားခေါင်းစဉ်ရှိ အဖွဲ့အမ�
 #: .Show+HXL+tags
 msgid "Show HXL tags"
 msgstr "HXL tags ကိုပြသပါ"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "အပ်နှံခြင်းကိုရှာဖွေ၍မရနိုင်ပါ။ ၎င်းသည် ဖျက်ထားခံထားရသည် ဖြစ်နိုင်သည်။ အပ်နှံခြင်း ID:##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "အပ်နှံခြင်းကို ဖျက်မှာလား?"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "ဤအပ်နှံခြင်းကိုဖျက်သိမ်းဖို့ သေချာပါသလား?"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "ဤလုပ်ရပ်ကို အပြီးမသပ်၍မရနိုင်ပါ"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "ပုံတူကို တီထွင်ခဲ့ပါသည်"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "အပ်နှံခြင်းမှတ်တမ်း၏ အပွားတစ်ခုကို အောင်မြင်စွာ ဖန်တီးခဲ့ပါသည်။ သင်သည် အောက်ရှိ သာဓကအသစ်ကို ဖွင့်ကြည့်နိုင်ပြီး အောက်ရှိ လုပ်ရပ်ခလုတ်များကို အသုံးပြု၍ ပြောင်းလဲမှုများပြုလုပ်နိုင်သည်။"
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "တူညီသော အပ်နှံခြင်းကိုဖျက်မည်"
+
+#: .Discard
+msgid "Discard"
+msgstr "ဖျက်မည်"
+
+#: .Language
+msgid "Language:"
+msgstr "ဘာသာစကား"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "မှန်ကန်ခြင်းအဆင့်"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "ဤအပ်နှံခြင်းအတွက် မကြာသေးခင်ကအချက်အလက်များကို ပြန်လည်ရယူရန် အောက်ရှိခလုတ်ကိုနှိပ်ပေးပါ။"
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "အပ်နှံခြင်းကို စခရင်ပြန်လည် စစ်ကြည့်သည်။"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "နောက်ခံအသံ မှတ်တမ်းတင်ထားခြင်း"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "XML အမည်ကို ပြသပါ"
+
+#: .View
+msgid "View"
+msgstr "ဖွင့်ကြည့်မည်"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "ပွားယူမည်"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "အပ်နှံထားခြင်းကို ဖျက်သိမ်းမည်"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "မပေးထားသော မီဒီယာအမျိုးအစား: ##QUESTION_TYPE##"
 
 #: .n/d
 msgid "n/d"
@@ -3104,99 +3293,6 @@ msgstr "ကြိမ်နှုန်း"
 #: .Percentage
 msgid "Percentage"
 msgstr "ရာခိုင်နှုန်း"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "အပ်နှံခြင်းကိုရှာဖွေ၍မရနိုင်ပါ။ ၎င်းသည် ဖျက်ထားခံထားရသည် ဖြစ်နိုင်သည်။ အပ်နှံခြင်း ID:##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "အပ်နှံခြင်းကို ဖျက်မှာလား?"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "ဤအပ်နှံခြင်းကိုဖျက်သိမ်းဖို့ သေချာပါသလား?"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "ဤလုပ်ရပ်ကို အပြီးမသပ်၍မရနိုင်ပါ"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "ပုံတူကို တီထွင်ခဲ့ပါသည်"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "အပ်နှံခြင်းမှတ်တမ်း၏ အပွားတစ်ခုကို အောင်မြင်စွာ ဖန်တီးခဲ့ပါသည်။ သင်သည် အောက်ရှိ သာဓကအသစ်ကို ဖွင့်ကြည့်နိုင်ပြီး အောက်ရှိ လုပ်ရပ်ခလုတ်များကို အသုံးပြု၍ ပြောင်းလဲမှုများပြုလုပ်နိုင်သည်။"
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "တူညီသော အပ်နှံခြင်းကိုဖျက်မည်"
-
-#: .Discard
-msgid "Discard"
-msgstr "ဖျက်မည်"
-
-#: .Language
-msgid "Language:"
-msgstr "ဘာသာစကား"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "မှန်ကန်ခြင်းအဆင့်"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "ဤအပ်နှံခြင်းအတွက် မကြာသေးခင်ကအချက်အလက်များကို ပြန်လည်ရယူရန် အောက်ရှိခလုတ်ကိုနှိပ်ပေးပါ။"
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "အပ်နှံခြင်းကို စခရင်ပြန်လည် စစ်ကြည့်သည်။"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "နောက်ခံအသံ မှတ်တမ်းတင်ထားခြင်း"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "XML အမည်ကို ပြသပါ"
-
-#: .View
-msgid "View"
-msgstr "ဖွင့်ကြည့်မည်"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "ပွားယူမည်"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "အပ်နှံထားခြင်းကို ဖျက်သိမ်းမည်"
-
-#: .%2A+Save+Changes
-msgid "* Save Changes"
-msgstr "*ပြောင်းလဲမှုများသိမ်းဆည်းမည်"
-
-#: .updated+text
-msgid "updated text"
-msgstr "အဆင့်မြှင့်တင်ထားသောစာ"
-
-#: .translation
-msgid "translation"
-msgstr "ဘာသာပြန်ခြင်း"
-
-#: .Original+string
-msgid "Original string"
-msgstr "မူရင်းကြိုး"
-
-#: .Go+back%3F
-msgid "Go back?"
-msgstr "ပြန်သွားမှာလား?"
 
 #: .Delete+language%3F
 msgid "Delete language?"
@@ -3292,9 +3388,25 @@ msgstr "ဘာသာစကားထည့်မည်"
 msgid "Add a new language"
 msgstr "ဘာသာစကားအသစ်တစ်ခုထည့်မည်"
 
-#: .Deploy+this+project
-msgid "Deploy this project"
-msgstr "ဤလုပ်ငန်းကို အသုံးပြုမည်။"
+#: .%2A+Save+Changes
+msgid "* Save Changes"
+msgstr "*ပြောင်းလဲမှုများသိမ်းဆည်းမည်"
+
+#: .updated+text
+msgid "updated text"
+msgstr "အဆင့်မြှင့်တင်ထားသောစာ"
+
+#: .translation
+msgid "translation"
+msgstr "ဘာသာပြန်ခြင်း"
+
+#: .Original+string
+msgid "Original string"
+msgstr "မူရင်းကြိုး"
+
+#: .Go+back%3F
+msgid "Go back?"
+msgstr "ပြန်သွားမှာလား?"
 
 #: .JSON
 msgid "JSON"
@@ -3378,205 +3490,9 @@ msgstr "JSON အပ်နှံမှုအတွက် စိတ်ကြို
 msgid "Add Custom Wrapper"
 msgstr "စိတ်ကြိုက် ထုတ်ပိုးမှုကိုရွေးချယ်မည်"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "အကူအညီ အရင်းအမြစ်များ"
-
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "Kobo Toolbox အကူအညီဆန်တာ"
-
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "အသုံးပြုသူ၏ ကြီးမားသောစုစည်းမှုသည် Koboနှင့် သက်ဆိုင်သော စာမူများနှင့် စစ်ဆေးမှုများကိုထောက်ပံ့ပေးထားပါသည်။"
-
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "Kobo Toolbox အဖွဲ့အစည်းပုံစံ"
-
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "ကမ္ဘာအနှံ့ရှိ Koboသုံးပြုသူများ၏ အတွေ့အကြုံမှ မေးခွန်းများရယူရန် သင်၏မေးခွန်းများကို ပို့စ်တင်ပါ။"
-
-#: .Notifications
-msgid "Notifications"
-msgstr "သတိပေးချက်များ"
-
-#: .Help
-msgid "Help"
-msgstr "အကူအညီ"
-
-#: .Type+
-msgid "Type: "
-msgstr "အမျိုးအစား:"
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#2 မှ #1 သက်ဆိုင်ရာများ ဤမေးခွန်းကို ဖြေကြားခဲ့သည်။"
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(#အချက်အလက်မပါခဲ့ကြပါ)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "ဂရပ်ပုံစံကို ကျော်သွားသည်"
-
-#: .filter
-msgid "filter"
-msgstr "စစ်ထုတ်မှု"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "မည်သည့်စစ်ထုတ်မှုမှမရှိပါ။ သင်အောက်ရှိ တစ်ခုကို ထည့်နိုင်သည်။"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "စစ်ထုတ်မှုထည့်မည်"
-
-#: .Apply
-msgid "Apply"
-msgstr "အသုံးပြုမည်"
-
-#: .fields
-msgid "fields"
-msgstr "နယ်ပယ်များ"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "##submissionTotal##၏ အပ်နှံခြင်း ##submissionIndex##"
-
-#: .download
-msgid "download"
-msgstr "ဒေါင်းလုတ်ရယူမည်"
-
-#: .process
-msgid "process"
-msgstr "ဖြစ်စဉ်​"
-
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "Enketo ကိုဆောင်ရွက်ရာတွင် အမှားတစ်ခု ရှိသည်"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "(##count##)ရလဒ်အားလုံးကို ရွေးချယ်မည်"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "(##count##)မြင်ရသော ရလဒ်များကို ရွေးချယ်မည်။"
-
-#: .None
-msgid "None"
-msgstr "မည်သည့်အရာမှ"
-
-#: .Update+status+of+selected+submissions
-msgid "Update status of selected submissions"
-msgstr "ရွေးချယ်ထားသော အပ်နှံခြင်း၏ အဆင့်ကို မြှင့်တင်မည်။"
-
-#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
-msgid ""
-"You have selected ## submissions. Are you sure you would like to update "
-"their status? This action is irreversible."
-msgstr "သင်သည် ## အပ်နှံခြင်းကို ရွေးချယ်ပြီးပါပြီ။ သူတို့၏အဆင့်ကို သင်ပြောင်းချင်တာသေချာပါသလား? ဤလုပ်ရပ်သည် ပြန်ပြောင်း၍မရနိုင်ပါ။"
-
-#: .Update+Validation+Status
-msgid "Update Validation Status"
-msgstr "မှန်ကန်ကြောင်းပြ အဆင့်ကို ပြောင်းလဲမည်။"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
-msgid ""
-"You are about to permanently delete ##count## submissions. It is not "
-"possible to recover deleted submissions."
-msgstr "သင်သည်##count## အပ်နှံထားသည်များကို ယာယီဖျက်ပါတော့မည်။ ဖျက်ပြီးသွားသော အပ်နှံထားသည်များကို ပြန်လှည်ရယူရန် မဖြစ်နိုင်ပါ။"
-
-#: .Delete+selected+submissions
-msgid "Delete selected submissions"
-msgstr "ရွေးချယ်ထားသော အပ်နှံထားခြင်းကို ဖျက်မည်။"
-
-#: .Delete+selected
-msgid "Delete selected"
-msgstr "ရွေးချယ်ထားသည်ကို ဖျက်မည်"
-
-#: .%23%23count%23%23+selected
-msgid "##count## selected"
-msgstr "##count##ရွေးချယ်ခဲ့သည်"
-
-#: .Change+status
-msgid "Change status"
-msgstr "အဆင့်ပြောင်းလဲမည်"
-
-#: .Set+status+%23%23status%23%23
-msgid "Set status: ##status##"
-msgstr "သတ်မှတ်ထားသော အဆင့်:##status##"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "နယ်ပယ်များကို ဖွက်ထားမည်"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "အမျိုးအစား Aမှ Z"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "အမျိုးအစား ZမှA"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "နယ်ပယ်ကို ဖွက်မည်"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "နယ်ပယ်ကို မရပ်စဲအောင်လုပ်မည်"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "နယ်ပယ်ကို ရပ်စဲအောင်လုပ်မည်"
-
-#: .Delete+export%3F
-msgid "Delete export?"
-msgstr "ထုတ်ယူမှုကို ဖျက်မှာလား?"
-
-#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
-msgid ""
-"Are you sure you want to delete this export? This action is not reversible."
-msgstr "ဤထုတ်ယူမှုကို ဖျက်ရန်သေချာပါသလား? ဤလုပ်ရပ်သည် ပြန်ပြင်၍မရနိုင်ပါ။"
-
-#: .Unknown
-msgid "Unknown"
-msgstr "မသိသော"
-
-#: .Export+Failed
-msgid "Export Failed"
-msgstr "ထုတ်ယူမှူကျရှုံးပါသည်"
-
-#: .Processing%E2%80%A6
-msgid "Processing…"
-msgstr "ဆောင်ရွက်နေသည်..."
-
-#: .Exports
-msgid "Exports"
-msgstr "ထုတ်ယူမှုများ"
-
-#: .Include+Groups
-msgid "Include Groups"
-msgstr "အဖွဲ့များတွင်ပါဝင်ပါ"
-
-#: .Multiple+Versions
-msgid "Multiple Versions"
-msgstr "များစွာသောဗားရှင်းများ"
-
-#: .There+is+nothing+to+download+yet.
-msgid "There is nothing to download yet."
-msgstr "ဒေါင်းလုတ်ရယူရန် ဘယ်အရာမှမရှိပါ"
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -3591,6 +3507,10 @@ msgid ""
 "Are you sure you want to delete this settings? This action is not "
 "reversible."
 msgstr "ဤဆက်တင်ကို ဖျက်ချင်တာ သေချာပါသလား? ဤလုပ်ရပ်သည် ပြန်ပြောင်း၍မရနိုင်ပါ။"
+
+#: .None
+msgid "None"
+msgstr "မည်သည့်အရာမှ"
 
 #: .Include+data+from+all
 msgid "Include data from all"
@@ -3666,6 +3586,135 @@ msgid ""
 "using one of the other export types available."
 msgstr "ဤထုတ်သွားသောပုံစံသည် အနာဂတ်တွင် အကူအညီမဖြစ်နိုင်ပါ။ ကျေးဇူးပြု၍ အခြားထုတ်သွားသောပုံစံများထဲမှတစ်ခုကို အသုံးပြု၍ ရရှိရန် ကျေးဇူးပြု၍ စဉ်းစားကြည့်ပါ။"
 
+#: .Delete+export%3F
+msgid "Delete export?"
+msgstr "ထုတ်ယူမှုကို ဖျက်မှာလား?"
+
+#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
+msgid ""
+"Are you sure you want to delete this export? This action is not reversible."
+msgstr "ဤထုတ်ယူမှုကို ဖျက်ရန်သေချာပါသလား? ဤလုပ်ရပ်သည် ပြန်ပြင်၍မရနိုင်ပါ။"
+
+#: .Unknown
+msgid "Unknown"
+msgstr "မသိသော"
+
+#: .Export+Failed
+msgid "Export Failed"
+msgstr "ထုတ်ယူမှူကျရှုံးပါသည်"
+
+#: .Processing%E2%80%A6
+msgid "Processing…"
+msgstr "ဆောင်ရွက်နေသည်..."
+
+#: .Exports
+msgid "Exports"
+msgstr "ထုတ်ယူမှုများ"
+
+#: .Include+Groups
+msgid "Include Groups"
+msgstr "အဖွဲ့များတွင်ပါဝင်ပါ"
+
+#: .Multiple+Versions
+msgid "Multiple Versions"
+msgstr "များစွာသောဗားရှင်းများ"
+
+#: .There+is+nothing+to+download+yet.
+msgid "There is nothing to download yet."
+msgstr "ဒေါင်းလုတ်ရယူရန် ဘယ်အရာမှမရှိပါ"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "(##count##)ရလဒ်အားလုံးကို ရွေးချယ်မည်"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "(##count##)မြင်ရသော ရလဒ်များကို ရွေးချယ်မည်။"
+
+#: .Update+status+of+selected+submissions
+msgid "Update status of selected submissions"
+msgstr "ရွေးချယ်ထားသော အပ်နှံခြင်း၏ အဆင့်ကို မြှင့်တင်မည်။"
+
+#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
+msgid ""
+"You have selected ## submissions. Are you sure you would like to update "
+"their status? This action is irreversible."
+msgstr "သင်သည် ## အပ်နှံခြင်းကို ရွေးချယ်ပြီးပါပြီ။ သူတို့၏အဆင့်ကို သင်ပြောင်းချင်တာသေချာပါသလား? ဤလုပ်ရပ်သည် ပြန်ပြောင်း၍မရနိုင်ပါ။"
+
+#: .Update+Validation+Status
+msgid "Update Validation Status"
+msgstr "မှန်ကန်ကြောင်းပြ အဆင့်ကို ပြောင်းလဲမည်။"
+
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
+msgid ""
+"You are about to permanently delete ##count## submissions. It is not "
+"possible to recover deleted submissions."
+msgstr "သင်သည်##count## အပ်နှံထားသည်များကို ယာယီဖျက်ပါတော့မည်။ ဖျက်ပြီးသွားသော အပ်နှံထားသည်များကို ပြန်လှည်ရယူရန် မဖြစ်နိုင်ပါ။"
+
+#: .Delete+selected+submissions
+msgid "Delete selected submissions"
+msgstr "ရွေးချယ်ထားသော အပ်နှံထားခြင်းကို ဖျက်မည်။"
+
+#: .Delete+selected
+msgid "Delete selected"
+msgstr "ရွေးချယ်ထားသည်ကို ဖျက်မည်"
+
+#: .%23%23count%23%23+selected
+msgid "##count## selected"
+msgstr "##count##ရွေးချယ်ခဲ့သည်"
+
+#: .Change+status
+msgid "Change status"
+msgstr "အဆင့်ပြောင်းလဲမည်"
+
+#: .Set+status+%23%23status%23%23
+msgid "Set status: ##status##"
+msgstr "သတ်မှတ်ထားသော အဆင့်:##status##"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "အမျိုးအစား Aမှ Z"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "အမျိုးအစား ZမှA"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "နယ်ပယ်ကို ဖွက်မည်"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "နယ်ပယ်ကို မရပ်စဲအောင်လုပ်မည်"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "နယ်ပယ်ကို ရပ်စဲအောင်လုပ်မည်"
+
+#: .hide+fields
+msgid "hide fields"
+msgstr "နယ်ပယ်များကို ဖွက်ထားမည်"
+
+#: .filter
+msgid "filter"
+msgstr "စစ်ထုတ်မှု"
+
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "မည်သည့်စစ်ထုတ်မှုမှမရှိပါ။ သင်အောက်ရှိ တစ်ခုကို ထည့်နိုင်သည်။"
+
+#: .Add+filter
+msgid "Add filter"
+msgstr "စစ်ထုတ်မှုထည့်မည်"
+
+#: .Apply
+msgid "Apply"
+msgstr "အသုံးပြုမည်"
+
+#: .fields
+msgid "fields"
+msgstr "နယ်ပယ်များ"
+
 #: .Two-factor+authentication
 msgid "Two-factor authentication"
 msgstr "အချက်အလက်နှစ်ခုနှင့် မှန်ကန်ကြောင်းပြခြင်း"
@@ -3735,14 +3784,6 @@ msgstr "Single-Sign On"
 #: .There+are+no+projects+to+display.
 msgid "There are no projects to display."
 msgstr "လုပ်ငန်းစဉ်များ ပြသရန်မရှိသေးပါ"
-
-#: .and+one+other+question
-msgid "and one other question"
-msgstr "ပြီးနောက်အခြားမေးခွန်းတစ်ခု"
-
-#: .and+%23%23+other+questions
-msgid "and ## other questions"
-msgstr "နှင့် ## အခြားမေးခွန်းများ"
 
 #: .Asset+seems+to+not+have+the+processing+feature+enabled%21
 msgid "Asset seems to not have the processing feature enabled!"
@@ -3864,6 +3905,22 @@ msgstr "ဘာသာပြန်ဆိုမှု ဖန်တီးပါ"
 msgid "new translation"
 msgstr "ဘာသာပြန်ဆိုမှု အသစ်"
 
+#: .and+one+other+question
+msgid "and one other question"
+msgstr "ပြီးနောက်အခြားမေးခွန်းတစ်ခု"
+
+#: .and+%23%23+other+questions
+msgid "and ## other questions"
+msgstr "နှင့် ## အခြားမေးခွန်းများ"
+
+#: .An+error+occured
+msgid "An error occured"
+msgstr "ချို့ယွင်းချက်တစ်ခု ဖြစ်ခဲ့ပါသည်"
+
+#: .Incorrect+token+or+something+went+wrong
+msgid "Incorrect token or something went wrong"
+msgstr "မမှန်ကန်သည့်တိုကင် သို့မဟုတ် တစုံတခု မှားယွင်းခဲ့ပါသည်"
+
 #: .Mean
 msgid "Mean"
 msgstr "ဆိုလိုရင်း"
@@ -3880,17 +3937,57 @@ msgstr "ပုံစံ"
 msgid "Standard deviation"
 msgstr "စံသတ်မှတ်ချက် ကွဲလွဲခြင်း"
 
-#: .An+error+occured
-msgid "An error occured"
-msgstr "ချို့ယွင်းချက်တစ်ခု ဖြစ်ခဲ့ပါသည်"
+#: .CSV+(legacy)
+msgid "CSV (legacy)"
+msgstr "CSV (စနစ်ဟောင်း)"
 
-#: .Incorrect+token+or+something+went+wrong
-msgid "Incorrect token or something went wrong"
-msgstr "မမှန်ကန်သည့်တိုကင် သို့မဟုတ် တစုံတခု မှားယွင်းခဲ့ပါသည်"
+#: .CSV
+msgid "CSV"
+msgstr "CSV"
 
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "ရိုက်သွင်းပြီး ENTER ဖြင့် အတည်ပြုပါ"
+#: .GeoJSON
+msgid "GeoJSON"
+msgstr "GeoJSON"
+
+#: .GPS+coordinates+(KML)
+msgid "GPS coordinates (KML)"
+msgstr "GPS တည်နေရာ (KML)"
+
+#: .SPSS+Labels
+msgid "SPSS Labels"
+msgstr "SPSS အညွှန်းများ"
+
+#: .XLS+(legacy)
+msgid "XLS (legacy)"
+msgstr "XLS (စနစ်ဟောင်း)"
+
+#: .XLS
+msgid "XLS"
+msgstr "XLS"
+
+#: .Media+Attachments+(ZIP)
+msgid "Media Attachments (ZIP)"
+msgstr "မီဒီယာ ဖိုင်တွဲများ (ZIP)"
+
+#: .XML+values+and+headers
+msgid "XML values and headers"
+msgstr "XML တန်ဖိုးများနှင့် ခေါင်းစီးများ"
+
+#: .Separate+columns
+msgid "Separate columns"
+msgstr "သီးခြား ကော်လံများ"
+
+#: .Single+column
+msgid "Single column"
+msgstr "တစ်ခုတည်းသော ကော်လံ"
+
+#: .Single+and+separate+columns
+msgid "Single and separate columns"
+msgstr "တစ်ခုတည်းသော ကော်လန်နှင့် သီးခြားတိုင်များ"
+
+#: .Add+tag(s)
+msgid "Add tag(s)"
+msgstr "တပ်ဂ် (များ) ထည့်သွင်းမည်"
 
 #: .Name+must+be+unique%21
 msgid "Name must be unique!"
@@ -3920,69 +4017,13 @@ msgstr "ဘာသာစကားကုတ်"
 msgid "Set"
 msgstr "သတ်မှတ်ရန်"
 
-#: .Add+tag(s)
-msgid "Add tag(s)"
-msgstr "တပ်ဂ် (များ) ထည့်သွင်းမည်"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "ထုတ်ယူမှု အမျိုးအစားကို ‌ေရွးချယ်ရန်"
 
-#: .Filter+by
-msgid "Filter by"
-msgstr "စစ်ထုတ်ရန်"
-
-#: .Select+field
-msgid "Select field"
-msgstr "အကွက်‌ေရွးရန်"
-
-#: .Condition
-msgid "Condition"
-msgstr "အခြေအနေ"
-
-#: .Select+condition
-msgid "Select condition"
-msgstr "အခြေအနေရွေးရန်"
-
-#: .Enter+value
-msgid "Enter value"
-msgstr "တန်ဖိုးထည့်သွင်းရန်"
-
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "ဤမေးခွန်းကို ဖျက်လိုသည်မှာ သေချာပါသလား။"
-
-#: .This+action+cannot+be+undone.
-msgid "This action cannot be undone."
-msgstr "ဤလုပ်ရပ်သည် ပြန်ပြင်၍မရနိုင်ပါ။"
-
-#: .[button+triggers]+Settings
-msgid "[button triggers] Settings"
-msgstr ""
-
-#: .[button+triggers]+Delete+Question
-msgid "[button triggers] Delete Question"
-msgstr ""
-
-#: .[button+triggers]+Duplicate+Question
-msgid "[button triggers] Duplicate Question"
-msgstr ""
-
-#: .[button+triggers]+Add+Question+to+Library
-msgid "[button triggers] Add Question to Library"
-msgstr ""
-
-#: .archived
-msgid "archived"
-msgstr "မှတ်တမ်းအဖြစ်သိမ်းဆည်းထားသည်"
-
-#: .deployed
-msgid "deployed"
-msgstr "အသုံးပြုထားသည်"
-
-#: .draft
-msgid "draft"
-msgstr "မူကြမ်း"
-
-#: .me
-msgid "me"
-msgstr "ကျွန်ုပ်"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "ရိုက်သွင်းပြီး ENTER ဖြင့် အတည်ပြုပါ"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4040,57 +4081,25 @@ msgstr "ဉပမာ ID"
 msgid "Submitted by"
 msgstr "တင်သွင်းသူ"
 
-#: .CSV+(legacy)
-msgid "CSV (legacy)"
-msgstr "CSV (စနစ်ဟောင်း)"
+#: .Filter+by
+msgid "Filter by"
+msgstr "စစ်ထုတ်ရန်"
 
-#: .CSV
-msgid "CSV"
-msgstr "CSV"
+#: .Select+field
+msgid "Select field"
+msgstr "အကွက်‌ေရွးရန်"
 
-#: .GeoJSON
-msgid "GeoJSON"
-msgstr "GeoJSON"
+#: .Condition
+msgid "Condition"
+msgstr "အခြေအနေ"
 
-#: .GPS+coordinates+(KML)
-msgid "GPS coordinates (KML)"
-msgstr "GPS တည်နေရာ (KML)"
+#: .Select+condition
+msgid "Select condition"
+msgstr "အခြေအနေရွေးရန်"
 
-#: .SPSS+Labels
-msgid "SPSS Labels"
-msgstr "SPSS အညွှန်းများ"
-
-#: .XLS+(legacy)
-msgid "XLS (legacy)"
-msgstr "XLS (စနစ်ဟောင်း)"
-
-#: .XLS
-msgid "XLS"
-msgstr "XLS"
-
-#: .Media+Attachments+(ZIP)
-msgid "Media Attachments (ZIP)"
-msgstr "မီဒီယာ ဖိုင်တွဲများ (ZIP)"
-
-#: .XML+values+and+headers
-msgid "XML values and headers"
-msgstr "XML တန်ဖိုးများနှင့် ခေါင်းစီးများ"
-
-#: .Separate+columns
-msgid "Separate columns"
-msgstr "သီးခြား ကော်လံများ"
-
-#: .Single+column
-msgid "Single column"
-msgstr "တစ်ခုတည်းသော ကော်လံ"
-
-#: .Single+and+separate+columns
-msgid "Single and separate columns"
-msgstr "တစ်ခုတည်းသော ကော်လန်နှင့် သီးခြားတိုင်များ"
-
-#: .Select+export+type
-msgid "Select export type"
-msgstr "ထုတ်ယူမှု အမျိုးအစားကို ‌ေရွးချယ်ရန်"
+#: .Enter+value
+msgid "Enter value"
+msgstr "တန်ဖိုးထည့်သွင်းရန်"
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4103,6 +4112,42 @@ msgstr "အကွက်တစ်ခုတွင် ရှာရန်"
 #: .No+results
 msgid "No results"
 msgstr "ရလဒ် မရှိပါ"
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "ဤမေးခွန်းကို ဖျက်လိုသည်မှာ သေချာပါသလား။"
+
+#: .This+action+cannot+be+undone.
+msgid "This action cannot be undone."
+msgstr "ဤလုပ်ရပ်သည် ပြန်ပြင်၍မရနိုင်ပါ။"
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr ""
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr ""
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr ""
+
+#: .archived
+msgid "archived"
+msgstr "မှတ်တမ်းအဖြစ်သိမ်းဆည်းထားသည်"
+
+#: .deployed
+msgid "deployed"
+msgstr "အသုံးပြုထားသည်"
+
+#: .draft
+msgid "draft"
+msgstr "မူကြမ်း"
+
+#: .me
+msgid "me"
+msgstr "ကျွန်ုပ်"
 
 #: .Delete%3F
 msgid "Delete?"

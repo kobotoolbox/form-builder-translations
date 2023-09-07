@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 20:25+0000\n"
+"POT-Creation-Date: 2023-09-07 13:51+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Thai (http://app.transifex.com/kobotoolbox/kobotoolbox/language/th/)\n"
@@ -14,6 +14,10 @@ msgstr ""
 "Language: th\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
 "X-Generator: Translate Toolkit 3.6.0\n"
+
+#: .%23%23field_label%23%23+(required)
+msgid "##field_label## (required)"
+msgstr "##field_label## (จำเป็น)"
 
 #: .Use+a+few+words,+avoid+common+phrases
 msgid "Use a few words, avoid common phrases"
@@ -127,13 +131,13 @@ msgstr "การเปลี่ยนอักษรที่คาดเดา
 msgid "Password strength"
 msgstr "ความแข็งแรงของรหัสผ่าน"
 
-#: .%23%23field_label%23%23+(required)
-msgid "##field_label## (required)"
-msgstr "##field_label## (จำเป็น)"
-
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "ไม่พบ/รู้จักเส้นทาง"
+
+#: .Untitled
+msgid "Untitled"
+msgstr "ไม่มีชื่อ"
 
 #: .Failed+to+update+permissions
 msgid "Failed to update permissions"
@@ -262,10 +266,6 @@ msgstr "คำขอลองส่งอีกครั้งล้มเหล
 #: .Retrying+all+submissions+failed
 msgid "Retrying all submissions failed"
 msgstr "การลองส่งทั้งหมดอีกครั้งล้มเหลว"
-
-#: .Untitled
-msgid "Untitled"
-msgstr "ไม่มีชื่อ"
 
 #: .Submissions
 msgid "Submissions"
@@ -677,21 +677,161 @@ msgstr "รูปแบบคำถาม"
 msgid "loading…"
 msgstr "กำลังโหลด..."
 
-#: .Successfuly+removed+from+collection
-msgid "Successfuly removed from collection"
-msgstr "นำออกจากคอลเลกชันเสร็จสมบูรณ์"
+#: .Who+has+access
+msgid "Who has access"
+msgstr "ใครมีสิทธิ์เข้าถึง"
 
-#: .Successfuly+moved+to+collection
-msgid "Successfuly moved to collection"
-msgstr "ย้ายไปยังคอลเลกชันเสร็จสมบูรณ์"
+#: .Add+user
+msgid "Add user"
+msgstr "เพิ่มผู้ใช้"
 
-#: .Move+to+collection+failed
-msgid "Move to collection failed"
-msgstr "ย้ายไปยังคอลเลกชันล้มเหลว"
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "แชร์แบบสาธารณะด้วยลิงก์"
 
-#: .Failed+to+get+the+results
-msgid "Failed to get the results"
-msgstr "ไม่สามารถรับผลลัพธ์ได้"
+#: .Waiting+for+all+projects+to+load%E2%80%A6
+msgid "Waiting for all projects to load…"
+msgstr "กำลังรอโหลดโครงการทั้งหมด..."
+
+#: .URL+is+empty%21
+msgid "URL is empty!"
+msgstr "URL ว่างเปล่า!"
+
+#: .Add
+msgid "Add"
+msgstr "เพิ่ม"
+
+#: .You+must+redeploy+this+form+to+see+media+changes.
+msgid "You must redeploy this form to see media changes."
+msgstr "คุณต้องนำแบบฟอร์มนี้ไปใช้อีกครั้งเพื่อดูการเปลี่ยนแปลงของสื่อ"
+
+#: .Attach+files
+msgid "Attach files"
+msgstr "แนบไฟล์"
+
+#: .Learn+more+about+form+media
+msgid "Learn more about form media"
+msgstr "ดูข้อมูลเพิ่มเติมเกี่ยวกับสื่อฟอร์ม (form media)"
+
+#: .Drag+and+drop+files+here
+msgid "Drag and drop files here"
+msgstr "ลากแล้วปล่อยไฟล์ที่นี่"
+
+#: .or
+msgid "or"
+msgstr "หรือ"
+
+#: .click+here+to+browse
+msgid "click here to browse"
+msgstr "คลิกที่นี่เพื่อเรียกดู"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "กำลังอัปโหลดไฟล์..."
+
+#: .You+can+also+add+files+using+a+URL
+msgid "You can also add files using a URL"
+msgstr "คุณยังสามารถเพิ่มไฟล์โดยใช้ URL"
+
+#: .Paste+URL+here
+msgid "Paste URL here"
+msgstr "วาง URL ที่นี่"
+
+#: .Attached+files
+msgid "Attached files"
+msgstr "ไฟล์ที่แนบมา"
+
+#: .loading+media
+msgid "loading media"
+msgstr "กำลังโหลดสื่อ"
+
+#: .No+files+uploaded+yet
+msgid "No files uploaded yet"
+msgstr "ยังไม่มีไฟล์ที่อัปโหลด"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "โดยค่าเริ่มต้นแผนที่จะจำกัดเฉพาะการส่งข้อมูล ##number## ครั้งล่าสุดด้วยเหตุผลด้านประสิทธิภาพ ไปที่การตั้งค่าแผนที่เพื่อเพิ่มขีดจำกัดนี้"
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "ข้อผิดพลาด: ไม่สามารถโหลดข้อมูลได้"
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "แยกตามคำตอบของการสำรวจ"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "แยกโดยใช้:"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "ยังไม่ได้รับคำตอบเกี่ยวกับ “จุดทางภูมิศาสตร์ (geopoint)”"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "แผนที่ไม่แสดงข้อมูลเนื่องจากแบบฟอร์มนี้ไม่มีฟิลด์ \"จุดทางภูมิศาสตร์\""
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "สลับโหมดเต็มหน้าจอ"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "แสดงเป็นจุด"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "สลับเลเยอร์"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "การตั้งค่าการแสดงแผนที่"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "แสดงเป็นแผนที่ความร้อน"
+
+#: .Language
+msgid "Language"
+msgstr "ภาษา"
+
+#: .Default
+msgid "Default"
+msgstr "ค่าเริ่มต้น"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- ดูข้อมูลทั้งหมด --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "ไม่ได้แปล: "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "ไม่ได้ตั้งป้ายกำกับคำถาม"
+
+#: .Reset
+msgid "Reset"
+msgstr "รีเซต"
+
+#: .not+set
+msgid "not set"
+msgstr "ไม่ได้ตั้งค่า"
+
+#: .Legend
+msgid "Legend"
+msgstr "คำอธิบายสัญลักษณ์"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "การตั้งค่าแผนที่"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -851,557 +991,6 @@ msgstr "เกิดข้อผิดพลาดขณะสร้างหน
 msgid "Import Cascading Select Questions"
 msgstr "นำเข้าคำถามการเลือกแบบต่อเรียง"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "ไม่สามารถรับ uuid การส่งข้อมูลได้"
-
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "ไม่สามารถรับการส่งข้อมูลได้"
-
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "ไม่สามารถอัปเดตการส่งข้อมูลได้"
-
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "ไม่สามารถอัปเดตค่าการส่งข้อมูลบางรายการได้"
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "ไม่สามารถอัปเดตค่าการส่งข้อมูลได้"
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "ไม่สามารถลบการส่งข้อมูลได้"
-
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "ไม่สามารถอัปโหลดสื่อของคุณได้"
-
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "เกิดข้อผิดพลาดในการรับสื่อของคุณ"
-
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "ลบสื่อเสร็จสมบูรณ์"
-
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "ไม่สามารถลบสื่อได้!"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "ไม่สามารถสร้างการส่งออกได้"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "ไม่สามารถลบการส่งออกได้"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "ไม่สามารถอัปเดตการตั้งค่าการส่งออกได้"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "ไม่สามารถสร้างการตั้งค่าการส่งออกได้"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "ไม่สามารถลบการตั้งค่าการส่งออกได้"
-
-#: .Failed+to+attach+to+source
-msgid "Failed to attach to source"
-msgstr "ไม่สามารถแนบกับแหล่งที่มาได้"
-
-#: .Failed+to+detach+from+source
-msgid "Failed to detach from source"
-msgstr "ไม่สามารถแยกออกจากแหล่งที่มาได้"
-
-#: .Failed+to+patch+source
-msgid "Failed to patch source"
-msgstr "ไม่สามารถแพทช์แหล่งที่มาได้"
-
-#: .Failed+to+retrieve+sharing+enabled+assets
-msgid "Failed to retrieve sharing enabled assets"
-msgstr "ไม่สามารถเรียกสินทรัพย์ที่เปิดใช้การแชร์ได้"
-
-#: .Failed+to+toggle+sharing
-msgid "Failed to toggle sharing"
-msgstr "ไม่สามารถสลับการแชร์ได้"
-
-#: .Failed+to+update+column+filters
-msgid "Failed to update column filters"
-msgstr "ไม่สามารถอัปเดตตัวกรองคอลัมน์ได้"
-
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "โดยค่าเริ่มต้นแผนที่จะจำกัดเฉพาะการส่งข้อมูล ##number## ครั้งล่าสุดด้วยเหตุผลด้านประสิทธิภาพ ไปที่การตั้งค่าแผนที่เพื่อเพิ่มขีดจำกัดนี้"
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "ข้อผิดพลาด: ไม่สามารถโหลดข้อมูลได้"
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "แยกตามคำตอบของการสำรวจ"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "แยกโดยใช้:"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "ยังไม่ได้รับคำตอบเกี่ยวกับ “จุดทางภูมิศาสตร์ (geopoint)”"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "แผนที่ไม่แสดงข้อมูลเนื่องจากแบบฟอร์มนี้ไม่มีฟิลด์ \"จุดทางภูมิศาสตร์\""
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "สลับโหมดเต็มหน้าจอ"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "แสดงเป็นจุด"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "สลับเลเยอร์"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "การตั้งค่าการแสดงแผนที่"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "แสดงเป็นแผนที่ความร้อน"
-
-#: .Language
-msgid "Language"
-msgstr "ภาษา"
-
-#: .Default
-msgid "Default"
-msgstr "ค่าเริ่มต้น"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- ดูข้อมูลทั้งหมด --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "ไม่ได้แปล: "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "ไม่ได้ตั้งป้ายกำกับคำถาม"
-
-#: .Reset
-msgid "Reset"
-msgstr "รีเซต"
-
-#: .not+set
-msgid "not set"
-msgstr "ไม่ได้ตั้งค่า"
-
-#: .Legend
-msgid "Legend"
-msgstr "คำอธิบายสัญลักษณ์"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "การตั้งค่าแผนที่"
-
-#: .Who+has+access
-msgid "Who has access"
-msgstr "ใครมีสิทธิ์เข้าถึง"
-
-#: .Add+user
-msgid "Add user"
-msgstr "เพิ่มผู้ใช้"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "แชร์แบบสาธารณะด้วยลิงก์"
-
-#: .Waiting+for+all+projects+to+load%E2%80%A6
-msgid "Waiting for all projects to load…"
-msgstr "กำลังรอโหลดโครงการทั้งหมด..."
-
-#: .new
-msgid "new"
-msgstr "ใหม่"
-
-#: .Projects
-msgid "Projects"
-msgstr "โครงการ"
-
-#: .Library
-msgid "Library"
-msgstr "ไลบรารี"
-
-#: .Projects+(legacy)
-msgid "Projects (legacy)"
-msgstr "โครงการ (เดิม)"
-
-#: .Source
-msgid "Source"
-msgstr "แหล่งที่มา"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "แสดงรายการสินทรัพย์ไม่สำเร็จ"
-
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "กรุณารีเฟรชหน้า"
-
-#: .Log+In
-msgid "Log In"
-msgstr "เข้าสู่ระบบ"
-
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "การตั้งค่าบัญชี"
-
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "ข้อกำหนดบริการ"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "นโยบายความเป็นส่วนตัว"
-
-#: .Logout
-msgid "Logout"
-msgstr "ออกจากระบบ"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "ค้นไลบรารีของฉัน"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "ค้นคอลเลกชันสาธารณะ"
-
-#: .Search+Projects
-msgid "Search Projects"
-msgstr "ค้นโครงการ"
-
-#: .submissions
-msgid "submissions"
-msgstr "การส่งข้อมูล"
-
-#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
-msgid ""
-"The stored permissions are invalid. Please assign them again. If this "
-"problem persists, contact help@kobotoolbox.org"
-msgstr "สิทธิ์การอนุญาตที่เก็บไว้ไม่ถูกต้อง โปรดกำหนดอีกครั้ง หากปัญหายังคงมีอยู่ติดต่อ help@kobotoolbox.org"
-
-#: .Table
-msgid "Table"
-msgstr "ตาราง"
-
-#: .Reports
-msgid "Reports"
-msgstr "รายงาน"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "แกลเลอรี่"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "สิ่งที่ดาวน์โหลด"
-
-#: .Map
-msgid "Map"
-msgstr "แผนที่"
-
-#: .Summary
-msgid "Summary"
-msgstr "สรุป"
-
-#: .Form
-msgid "Form"
-msgstr "แบบฟอร์ม"
-
-#: .Settings
-msgid "Settings"
-msgstr "การตั้งค่า"
-
-#: .General
-msgid "General"
-msgstr "ทั่วไป"
-
-#: .Media
-msgid "Media"
-msgstr "สื่อ"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "การแชร์"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "เชื่อมต่อโครงการ"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "บริการ REST"
-
-#: .URL+is+empty%21
-msgid "URL is empty!"
-msgstr "URL ว่างเปล่า!"
-
-#: .Add
-msgid "Add"
-msgstr "เพิ่ม"
-
-#: .You+must+redeploy+this+form+to+see+media+changes.
-msgid "You must redeploy this form to see media changes."
-msgstr "คุณต้องนำแบบฟอร์มนี้ไปใช้อีกครั้งเพื่อดูการเปลี่ยนแปลงของสื่อ"
-
-#: .Attach+files
-msgid "Attach files"
-msgstr "แนบไฟล์"
-
-#: .Learn+more+about+form+media
-msgid "Learn more about form media"
-msgstr "ดูข้อมูลเพิ่มเติมเกี่ยวกับสื่อฟอร์ม (form media)"
-
-#: .Drag+and+drop+files+here
-msgid "Drag and drop files here"
-msgstr "ลากแล้วปล่อยไฟล์ที่นี่"
-
-#: .or
-msgid "or"
-msgstr "หรือ"
-
-#: .click+here+to+browse
-msgid "click here to browse"
-msgstr "คลิกที่นี่เพื่อเรียกดู"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "กำลังอัปโหลดไฟล์..."
-
-#: .You+can+also+add+files+using+a+URL
-msgid "You can also add files using a URL"
-msgstr "คุณยังสามารถเพิ่มไฟล์โดยใช้ URL"
-
-#: .Paste+URL+here
-msgid "Paste URL here"
-msgstr "วาง URL ที่นี่"
-
-#: .Attached+files
-msgid "Attached files"
-msgstr "ไฟล์ที่แนบมา"
-
-#: .loading+media
-msgid "loading media"
-msgstr "กำลังโหลดสื่อ"
-
-#: .No+files+uploaded+yet
-msgid "No files uploaded yet"
-msgstr "ยังไม่มีไฟล์ที่อัปโหลด"
-
-#: .Create
-msgid "Create"
-msgstr "สร้าง"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "กรุณารอ..."
-
-#: .Failed+to+create+new+asset%21
-msgid "Failed to create new asset!"
-msgstr "สร้างสินทรัพย์ (asset) ใหม่ไม่สำเร็จ!"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "คัดลอกไปที่คลิปบอร์ดแล้ว"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "โคลนของ"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "ป้อนชื่อของ##ASSET_TYPE##ที่โคลนมา เว้นว่างไว้เพื่อคงชื่อเดิมไว้"
-
-#: .Ok
-msgid "Ok"
-msgstr "ตกลง"
-
-#: .Create+new+template+from+this+project
-msgid "Create new template from this project"
-msgstr "สร้างเทมเพลตใหม่จากโครงการนี้"
-
-#: .Enter+the+name+of+the+new+template.
-msgid "Enter the name of the new template."
-msgstr "ป้อนชื่อเทมเพลตใหม่"
-
-#: .deploying+to+kobocat...
-msgid "deploying to kobocat..."
-msgstr "กำลังนำไปใช้งานกับโคโบแคท.."
-
-#: .deployed+form
-msgid "deployed form"
-msgstr "นำไปใช้งานจาก"
-
-#: .Overwrite+existing+deployment
-msgid "Overwrite existing deployment"
-msgstr "เขียนทับการนำไปใช้งานที่มีอยู่"
-
-#: .Deploying...
-msgid "Deploying..."
-msgstr "กำลังนำไปใช้งาน.."
-
-#: .redeployed+form
-msgid "redeployed form"
-msgstr "นำไปใช้อีกครั้งจาก"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "## ไฟล์"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "การนำเข้า XLSForm ไม่สำเร็จ ตรวจสอบว่า XLSForm และ/หรือ URL ถูกต้อง แล้วลองอีกครั้งโดยใช้ไอคอน \"แทนที่แบบฟอร์ม\""
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "การนำเข้า XLS เสร็จสมบูรณ์"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "กำลังประมวลผลการอัปโหลดของคุณ การดำเนินการนี้อาจใช้เวลาสักครู่"
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "การอัปโหลดของคุณกำลังอยู่ในคิวสำหรับการประมวลผล การดำเนินการนี้อาจใช้เวลาสักครู่"
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "การนำเข้าไม่สำเร็จ!"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "ทำการนำเข้าไม่สำเร็จ"
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "ข้อผิดพลาดในการอัปโหลด: ไม่รู้จักไฟล์ Excel"
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "ชื่อไฟล์ที่อัปโหลด: "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "ไม่รู้จักรายการที่นำมาปล่อยไว้"
-
-#: .Cloning...
-msgid "Cloning..."
-msgstr "กำลังโคลน..."
-
-#: .cloned+%23%23ASSET_TYPE%23%23+created
-msgid "cloned ##ASSET_TYPE## created"
-msgstr "##ASSET_TYPE##ที่โคลนมาได้รับการสร้างขึ้น"
-
-#: .Create+new+project+from+this+template
-msgid "Create new project from this template"
-msgstr "สร้างโครงการใหม่จากเทมเพลตนี้"
-
-#: .Enter+the+name+of+the+new+project.
-msgid "Enter the name of the new project."
-msgstr "ป้อนชื่อโครงการใหม่"
-
-#: .%23%23ASSET_TYPE%23%23+deleted+permanently
-msgid "##ASSET_TYPE## deleted permanently"
-msgstr "##ASSET_TYPE##ถูกลบอย่างถาวร"
-
-#: .You+are+about+to+permanently+delete+this+item+from+your+library.
-msgid "You are about to permanently delete this item from your library."
-msgstr "คุณกำลังจะลบรายการนี้ออกจากไลบรารีของคุณอย่างถาวร"
-
-#: .You+are+about+to+permanently+delete+this+draft.
-msgid "You are about to permanently delete this draft."
-msgstr "คุณกำลังจะลบฉบับร่างนี้อย่างถาวร"
-
-#: .You+are+about+to+permanently+delete+this+form.
-msgid "You are about to permanently delete this form."
-msgstr "คุณกำลังจะลบแบบฟอร์มนี้อย่างถาวร"
-
-#: .All+data+gathered+for+this+form+will+be+deleted.
-msgid "All data gathered for this form will be deleted."
-msgstr "ข้อมูลทั้งหมดที่รวบรวมไว้สำหรับแบบฟอร์มนี้จะถูกลบ"
-
-#: .The+form+associated+with+this+project+will+be+deleted.
-msgid "The form associated with this project will be deleted."
-msgstr "แบบฟอร์มที่เกี่ยวข้องกับโครงการนี้จะถูกลบ"
-
-#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
-msgid ""
-"I understand that if I delete this project I will not be able to recover it."
-msgstr "ฉันทราบว่าถ้าฉันลบโครงการนี้ ฉันจะไม่สามารถกู้คืนได้"
-
-#: .Delete
-msgid "Delete"
-msgstr "ลบ"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "เก็บโครงการอย่างถาวร"
-
-#: .Are+you+sure+you+want+to+archive+this+project%3F
-msgid "Are you sure you want to archive this project?"
-msgstr "คุณแน่ใจหรือไม่ว่าต้องการเก็บโครงการนี้อย่างถาวร"
-
-#: .Your+form+will+not+accept+submissions+while+it+is+archived.
-msgid "Your form will not accept submissions while it is archived."
-msgstr "แบบฟอร์มของคุณจะไม่ยอมรับการส่งข้อมูลขณะที่แบบฟอร์มถูกเก็บถาวร"
-
-#: .Archive
-msgid "Archive"
-msgstr "หน่วยเก็บถาวร"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "ยกเลิกการเก็บโครงการถาวร"
-
-#: .Are+you+sure+you+want+to+unarchive+this+project%3F
-msgid "Are you sure you want to unarchive this project?"
-msgstr "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเก็บถาวรสำหรับโครงการนี้"
-
-#: .Unarchive
-msgid "Unarchive"
-msgstr "ยกเลิกการเก็บถาวร"
-
-#: .Remove+shared+form
-msgid "Remove shared form"
-msgstr "ลบแบบฟอร์มที่ใช้ร่วมกัน"
-
-#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
-msgid "Are you sure you want to remove this shared form?"
-msgstr "คุณแน่ใจหรือไม่ที่จะลบแบบฟอร์มที่ใช้ร่วมกันนี้"
-
-#: .Remove
-msgid "Remove"
-msgstr "ลบออก"
-
 #: .Import
 msgid "Import"
 msgstr "นำเข้า"
@@ -1450,6 +1039,10 @@ msgstr "ข้อผิดพลาด: ไม่สามารถสร้า�
 msgid "Error: new project could not be created."
 msgstr "ข้อผิดพลาด: ไม่สามารถสร้างโครงการใหม่ได้"
 
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "กรุณารอ..."
+
 #: .Retrieving+form,+please+wait...
 msgid "Retrieving form, please wait..."
 msgstr "กำลังเรียกแบบฟอร์ม กรุณารอสักครู่..."
@@ -1457,6 +1050,10 @@ msgstr "กำลังเรียกแบบฟอร์ม กรุณา�
 #: .Failed+to+reload+project+after+import%21
 msgid "Failed to reload project after import!"
 msgstr "ไม่สามารถโหลดโครงการซ้ำหลังจากนำเข้า!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "การนำเข้าไม่สำเร็จ!"
 
 #: .Could+not+initialize+XLSForm+import%21
 msgid "Could not initialize XLSForm import!"
@@ -1574,6 +1171,14 @@ msgstr "โปรดระบุว่าโครงการของคุณ
 msgid "Save"
 msgstr "บันทึก"
 
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "ยกเลิกการเก็บโครงการถาวร"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "เก็บโครงการอย่างถาวร"
+
 #: .Archive+project+to+stop+accepting+submissions.
 msgid "Archive project to stop accepting submissions."
 msgstr "เก็บโครงการถาวรเพื่อหยุดรับการส่งข้อมูล"
@@ -1594,6 +1199,476 @@ msgstr "ย้อนกลับ"
 msgid ""
 "Form replacing is not available due to form's Locking Profile restrictions."
 msgstr "ไม่สามารถแทนที่แบบฟอร์มได้เนื่องจากข้อจำกัดในโพรไฟล์การล็อกของแบบฟอร์ม"
+
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "ไม่สามารถรับ uuid การส่งข้อมูลได้"
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "ไม่สามารถรับการส่งข้อมูลได้"
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "ไม่สามารถอัปเดตการส่งข้อมูลได้"
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "ไม่สามารถอัปเดตค่าการส่งข้อมูลบางรายการได้"
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "ไม่สามารถอัปเดตค่าการส่งข้อมูลได้"
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "ไม่สามารถลบการส่งข้อมูลได้"
+
+#: .Successfuly+removed+from+collection
+msgid "Successfuly removed from collection"
+msgstr "นำออกจากคอลเลกชันเสร็จสมบูรณ์"
+
+#: .Successfuly+moved+to+collection
+msgid "Successfuly moved to collection"
+msgstr "ย้ายไปยังคอลเลกชันเสร็จสมบูรณ์"
+
+#: .Move+to+collection+failed
+msgid "Move to collection failed"
+msgstr "ย้ายไปยังคอลเลกชันล้มเหลว"
+
+#: .Failed+to+get+the+results
+msgid "Failed to get the results"
+msgstr "ไม่สามารถรับผลลัพธ์ได้"
+
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "ไม่สามารถอัปโหลดสื่อของคุณได้"
+
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "เกิดข้อผิดพลาดในการรับสื่อของคุณ"
+
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "ลบสื่อเสร็จสมบูรณ์"
+
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "ไม่สามารถลบสื่อได้!"
+
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "ไม่สามารถสร้างการส่งออกได้"
+
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "ไม่สามารถลบการส่งออกได้"
+
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "ไม่สามารถอัปเดตการตั้งค่าการส่งออกได้"
+
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "ไม่สามารถสร้างการตั้งค่าการส่งออกได้"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "ไม่สามารถลบการตั้งค่าการส่งออกได้"
+
+#: .Failed+to+attach+to+source
+msgid "Failed to attach to source"
+msgstr "ไม่สามารถแนบกับแหล่งที่มาได้"
+
+#: .Failed+to+detach+from+source
+msgid "Failed to detach from source"
+msgstr "ไม่สามารถแยกออกจากแหล่งที่มาได้"
+
+#: .Failed+to+patch+source
+msgid "Failed to patch source"
+msgstr "ไม่สามารถแพทช์แหล่งที่มาได้"
+
+#: .Failed+to+retrieve+sharing+enabled+assets
+msgid "Failed to retrieve sharing enabled assets"
+msgstr "ไม่สามารถเรียกสินทรัพย์ที่เปิดใช้การแชร์ได้"
+
+#: .Failed+to+toggle+sharing
+msgid "Failed to toggle sharing"
+msgstr "ไม่สามารถสลับการแชร์ได้"
+
+#: .Failed+to+update+column+filters
+msgid "Failed to update column filters"
+msgstr "ไม่สามารถอัปเดตตัวกรองคอลัมน์ได้"
+
+#: .Create
+msgid "Create"
+msgstr "สร้าง"
+
+#: .Failed+to+create+new+asset%21
+msgid "Failed to create new asset!"
+msgstr "สร้างสินทรัพย์ (asset) ใหม่ไม่สำเร็จ!"
+
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "คัดลอกไปที่คลิปบอร์ดแล้ว"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "โคลนของ"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "ป้อนชื่อของ##ASSET_TYPE##ที่โคลนมา เว้นว่างไว้เพื่อคงชื่อเดิมไว้"
+
+#: .Ok
+msgid "Ok"
+msgstr "ตกลง"
+
+#: .Create+new+template+from+this+project
+msgid "Create new template from this project"
+msgstr "สร้างเทมเพลตใหม่จากโครงการนี้"
+
+#: .Enter+the+name+of+the+new+template.
+msgid "Enter the name of the new template."
+msgstr "ป้อนชื่อเทมเพลตใหม่"
+
+#: .deploying+to+kobocat...
+msgid "deploying to kobocat..."
+msgstr "กำลังนำไปใช้งานกับโคโบแคท.."
+
+#: .deployed+form
+msgid "deployed form"
+msgstr "นำไปใช้งานจาก"
+
+#: .Overwrite+existing+deployment
+msgid "Overwrite existing deployment"
+msgstr "เขียนทับการนำไปใช้งานที่มีอยู่"
+
+#: .Deploying...
+msgid "Deploying..."
+msgstr "กำลังนำไปใช้งาน.."
+
+#: .redeployed+form
+msgid "redeployed form"
+msgstr "นำไปใช้อีกครั้งจาก"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "## ไฟล์"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "การนำเข้า XLSForm ไม่สำเร็จ ตรวจสอบว่า XLSForm และ/หรือ URL ถูกต้อง แล้วลองอีกครั้งโดยใช้ไอคอน \"แทนที่แบบฟอร์ม\""
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "การนำเข้า XLS เสร็จสมบูรณ์"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "กำลังประมวลผลการอัปโหลดของคุณ การดำเนินการนี้อาจใช้เวลาสักครู่"
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "การอัปโหลดของคุณกำลังอยู่ในคิวสำหรับการประมวลผล การดำเนินการนี้อาจใช้เวลาสักครู่"
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "ทำการนำเข้าไม่สำเร็จ"
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "ข้อผิดพลาดในการอัปโหลด: ไม่รู้จักไฟล์ Excel"
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "ชื่อไฟล์ที่อัปโหลด: "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "ไม่รู้จักรายการที่นำมาปล่อยไว้"
+
+#: .Cloning...
+msgid "Cloning..."
+msgstr "กำลังโคลน..."
+
+#: .cloned+%23%23ASSET_TYPE%23%23+created
+msgid "cloned ##ASSET_TYPE## created"
+msgstr "##ASSET_TYPE##ที่โคลนมาได้รับการสร้างขึ้น"
+
+#: .Create+new+project+from+this+template
+msgid "Create new project from this template"
+msgstr "สร้างโครงการใหม่จากเทมเพลตนี้"
+
+#: .Enter+the+name+of+the+new+project.
+msgid "Enter the name of the new project."
+msgstr "ป้อนชื่อโครงการใหม่"
+
+#: .%23%23ASSET_TYPE%23%23+deleted+permanently
+msgid "##ASSET_TYPE## deleted permanently"
+msgstr "##ASSET_TYPE##ถูกลบอย่างถาวร"
+
+#: .You+are+about+to+permanently+delete+this+item+from+your+library.
+msgid "You are about to permanently delete this item from your library."
+msgstr "คุณกำลังจะลบรายการนี้ออกจากไลบรารีของคุณอย่างถาวร"
+
+#: .You+are+about+to+permanently+delete+this+draft.
+msgid "You are about to permanently delete this draft."
+msgstr "คุณกำลังจะลบฉบับร่างนี้อย่างถาวร"
+
+#: .You+are+about+to+permanently+delete+this+form.
+msgid "You are about to permanently delete this form."
+msgstr "คุณกำลังจะลบแบบฟอร์มนี้อย่างถาวร"
+
+#: .All+data+gathered+for+this+form+will+be+deleted.
+msgid "All data gathered for this form will be deleted."
+msgstr "ข้อมูลทั้งหมดที่รวบรวมไว้สำหรับแบบฟอร์มนี้จะถูกลบ"
+
+#: .The+form+associated+with+this+project+will+be+deleted.
+msgid "The form associated with this project will be deleted."
+msgstr "แบบฟอร์มที่เกี่ยวข้องกับโครงการนี้จะถูกลบ"
+
+#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
+msgid ""
+"I understand that if I delete this project I will not be able to recover it."
+msgstr "ฉันทราบว่าถ้าฉันลบโครงการนี้ ฉันจะไม่สามารถกู้คืนได้"
+
+#: .Delete
+msgid "Delete"
+msgstr "ลบ"
+
+#: .Are+you+sure+you+want+to+archive+this+project%3F
+msgid "Are you sure you want to archive this project?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการเก็บโครงการนี้อย่างถาวร"
+
+#: .Your+form+will+not+accept+submissions+while+it+is+archived.
+msgid "Your form will not accept submissions while it is archived."
+msgstr "แบบฟอร์มของคุณจะไม่ยอมรับการส่งข้อมูลขณะที่แบบฟอร์มถูกเก็บถาวร"
+
+#: .Archive
+msgid "Archive"
+msgstr "หน่วยเก็บถาวร"
+
+#: .Are+you+sure+you+want+to+unarchive+this+project%3F
+msgid "Are you sure you want to unarchive this project?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการยกเลิกการเก็บถาวรสำหรับโครงการนี้"
+
+#: .Unarchive
+msgid "Unarchive"
+msgstr "ยกเลิกการเก็บถาวร"
+
+#: .Remove+shared+form
+msgid "Remove shared form"
+msgstr "ลบแบบฟอร์มที่ใช้ร่วมกัน"
+
+#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
+msgid "Are you sure you want to remove this shared form?"
+msgstr "คุณแน่ใจหรือไม่ที่จะลบแบบฟอร์มที่ใช้ร่วมกันนี้"
+
+#: .Remove
+msgid "Remove"
+msgstr "ลบออก"
+
+#: .Table
+msgid "Table"
+msgstr "ตาราง"
+
+#: .Reports
+msgid "Reports"
+msgstr "รายงาน"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "แกลเลอรี่"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "สิ่งที่ดาวน์โหลด"
+
+#: .Map
+msgid "Map"
+msgstr "แผนที่"
+
+#: .Summary
+msgid "Summary"
+msgstr "สรุป"
+
+#: .Form
+msgid "Form"
+msgstr "แบบฟอร์ม"
+
+#: .Settings
+msgid "Settings"
+msgstr "การตั้งค่า"
+
+#: .General
+msgid "General"
+msgstr "ทั่วไป"
+
+#: .Media
+msgid "Media"
+msgstr "สื่อ"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "การแชร์"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "เชื่อมต่อโครงการ"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "บริการ REST"
+
+#: .All+questions
+msgid "All questions"
+msgstr "คำถามทั้งหมด"
+
+#: .Image+Gallery
+msgid "Image Gallery"
+msgstr "แกลเลอรี่รูปภาพ"
+
+#: .From
+msgid "From"
+msgstr "จาก"
+
+#: .Between
+msgid "Between"
+msgstr "ระหว่าง"
+
+#: .and
+msgid "and"
+msgstr "และ"
+
+#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
+msgid ""
+"The stored permissions are invalid. Please assign them again. If this "
+"problem persists, contact help@kobotoolbox.org"
+msgstr "สิทธิ์การอนุญาตที่เก็บไว้ไม่ถูกต้อง โปรดกำหนดอีกครั้ง หากปัญหายังคงมีอยู่ติดต่อ help@kobotoolbox.org"
+
+#: .new
+msgid "new"
+msgstr "ใหม่"
+
+#: .Projects
+msgid "Projects"
+msgstr "โครงการ"
+
+#: .Library
+msgid "Library"
+msgstr "ไลบรารี"
+
+#: .Projects+(legacy)
+msgid "Projects (legacy)"
+msgstr "โครงการ (เดิม)"
+
+#: .Source
+msgid "Source"
+msgstr "แหล่งที่มา"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "แสดงรายการสินทรัพย์ไม่สำเร็จ"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "กรุณารีเฟรชหน้า"
+
+#: .Log+In
+msgid "Log In"
+msgstr "เข้าสู่ระบบ"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "การตั้งค่าบัญชี"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "ข้อกำหนดบริการ"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "นโยบายความเป็นส่วนตัว"
+
+#: .Logout
+msgid "Logout"
+msgstr "ออกจากระบบ"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "ค้นไลบรารีของฉัน"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "ค้นคอลเลกชันสาธารณะ"
+
+#: .Search+Projects
+msgid "Search Projects"
+msgstr "ค้นโครงการ"
+
+#: .submissions
+msgid "submissions"
+msgstr "การส่งข้อมูล"
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "โปรดลองเข้าสู่ระบบโดยใช้ปุ่มบนส่วนหัว หรือ [ติดต่อทีมช่วยเหลือ] หากคุณคิดว่ามีข้อผิดพลาด"
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "โปรด [ติดต่อทีมช่วยเหลือ] หากคุณคิดว่ามีข้อผิดพลาด"
+
+#: .Access+denied
+msgid "Access denied"
+msgstr "ปฏิเสธการเข้าใช้"
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "คุณอาจไม่มีสิทธิ์เข้าถึงหน้านี้หรือไม่มีหน้านี้"
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "รายละเอียดเพิ่มเติม:"
+
+#: .This+field+is+required.
+msgid "This field is required."
+msgstr "ฟิลด์นี้จำเป็น"
+
+#: .This+field+must+match+the+Verify+Password+field.
+msgid "This field must match the Verify Password field."
+msgstr "ฟิลด์นี้ต้องตรงกับฟิลด์ยืนยันรหัสผ่าน"
+
+#: .Save+Password
+msgid "Save Password"
+msgstr "บันทึกรหัสผ่าน"
+
+#: .Reset+Password
+msgid "Reset Password"
+msgstr "รีเซตรหัสผ่าน"
+
+#: .Current+Password
+msgid "Current Password"
+msgstr "รหัสผ่านปัจจุบัน"
+
+#: .Forgot+Password%3F
+msgid "Forgot Password?"
+msgstr "ลืมรหัสผ่านใช่ไหม"
+
+#: .New+Password
+msgid "New Password"
+msgstr "รหัสผ่านใหม่"
+
+#: .Verify+Password
+msgid "Verify Password"
+msgstr "ยืนยันรหัสผ่าน"
 
 #: .Success%21
 msgid "Success!"
@@ -1674,311 +1749,6 @@ msgstr "ปิดตารางคำแปลใช่หรือไม่"
 #: .You+will+lose+all+unsaved+changes.
 msgid "You will lose all unsaved changes."
 msgstr "คุณจะสูญเสียการเปลี่ยนแปลงที่ไม่ได้บันทึกทั้งหมด"
-
-#: .All+questions
-msgid "All questions"
-msgstr "คำถามทั้งหมด"
-
-#: .Image+Gallery
-msgid "Image Gallery"
-msgstr "แกลเลอรี่รูปภาพ"
-
-#: .From
-msgid "From"
-msgstr "จาก"
-
-#: .Between
-msgid "Between"
-msgstr "ระหว่าง"
-
-#: .and
-msgid "and"
-msgstr "และ"
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "โปรดลองเข้าสู่ระบบโดยใช้ปุ่มบนส่วนหัว หรือ [ติดต่อทีมช่วยเหลือ] หากคุณคิดว่ามีข้อผิดพลาด"
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "โปรด [ติดต่อทีมช่วยเหลือ] หากคุณคิดว่ามีข้อผิดพลาด"
-
-#: .Access+denied
-msgid "Access denied"
-msgstr "ปฏิเสธการเข้าใช้"
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "คุณอาจไม่มีสิทธิ์เข้าถึงหน้านี้หรือไม่มีหน้านี้"
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "รายละเอียดเพิ่มเติม:"
-
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "รับข้อมูลเจ้าของไม่สำเร็จ"
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "วันที่สร้าง"
-
-#: .Owner
-msgid "Owner"
-msgstr "เจ้าของ"
-
-#: .Tags
-msgid "Tags"
-msgstr "แท็ก"
-
-#: .Items
-msgid "Items"
-msgstr "รายการ"
-
-#: .Organization
-msgid "Organization"
-msgstr "องค์กร"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "ซ่อนรายละเอียดทั้งหมด"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "แสดงรายละเอียดทั้งหมด"
-
-#: .Name
-msgid "Name"
-msgstr "ชื่อ"
-
-#: .Type
-msgid "Type"
-msgstr "ชนิด"
-
-#: .Shared+by
-msgid "Shared by"
-msgstr "แชร์โดย"
-
-#: .Created
-msgid "Created"
-msgstr "สร้างขึ้น"
-
-#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
-msgid ""
-"Let's get started by creating your first project. Click the New button to "
-"create a new form."
-msgstr "เริ่มต้นด้วยการสร้างโครงการแรกของคุณ คลิกปุ่ม ใหม่ เพื่อสร้างแบบฟอร์มใหม่"
-
-#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
-msgid ""
-"Advanced users: You can also drag and drop XLSForms here and they will be "
-"uploaded and converted to projects."
-msgstr "ผู้ใช้ขั้นสูง: คุณยังสามารถลากแล้วปล่อย XLSForm ไว้ที่นี่ จากนั้นระบบจะอัปโหลดและแปลงเป็นโครงการ"
-
-#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
-msgid ""
-"Let's get started by creating your first library question or question block."
-" Click the New button to create a new question or block."
-msgstr "เริ่มด้วยการสร้างคำถามห้องสมุดแรกหรือบล็อกคำถาม คลิกปุ่ม ใหม่ เพื่อสร้างคำถามหรือบล็อกใหม่"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "เปลี่ยนสถานะสาธารณะของสินทรัพย์ไม่สำเร็จ"
-
-#: .Make+public
-msgid "Make public"
-msgstr "เปิดเผยต่อสาธารณะ"
-
-#: .Make+private
-msgid "Make private"
-msgstr "ทำให้เป็นส่วนตัว"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "##asset_type##นี้ว่างเปล่า"
-
-#: .Show+less
-msgid "Show less"
-msgstr "แสดงน้อยลง"
-
-#: .Show+more
-msgid "Show more"
-msgstr "แสดงมากขึ้น"
-
-#: .Vertical
-msgid "Vertical"
-msgstr "แนวตั้ง"
-
-#: .Donut
-msgid "Donut"
-msgstr "โดนัท"
-
-#: .Area
-msgid "Area"
-msgstr "พื้นที่"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "แนวนอน"
-
-#: .Pie
-msgid "Pie"
-msgstr "วงกลม"
-
-#: .Line
-msgid "Line"
-msgstr "เส้น"
-
-#: .Unlabeled
-msgid "Unlabeled"
-msgstr "ไม่มีป้ายกำกับ"
-
-#: .Include+the+following+questions
-msgid "Include the following questions:"
-msgstr "รวมคำถามต่อไปนี้ไว้ด้วย:"
-
-#: .Chart+Type
-msgid "Chart Type"
-msgstr "ชนิดของแผนภูมิ"
-
-#: .Colors
-msgid "Colors"
-msgstr "สี"
-
-#: .No+grouping
-msgid "No grouping"
-msgstr "ไม่จัดกลุ่ม"
-
-#: .Group+By
-msgid "Group By"
-msgstr "จัดกลุ่มตาม"
-
-#: .Translation
-msgid "Translation"
-msgstr "คำแปล"
-
-#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
-msgid "This project has no submitted data. Please collect some and try again."
-msgstr "โครงการนี้ไม่มีข้อมูลที่ส่งมา โปรดรวบรวมแล้วลองอีกครั้ง"
-
-#: .results
-msgid "results"
-msgstr "ผลลัพธ์"
-
-#: .Edit
-msgid "Edit"
-msgstr "แก้ไข"
-
-#: .Validation
-msgid "Validation"
-msgstr "การตรวจสอบ"
-
-#: .Show+All
-msgid "Show All"
-msgstr "แสดงทั้งหมด"
-
-#: .Search
-msgid "Search"
-msgstr "ค้นหา"
-
-#: .Display+options
-msgid "Display options"
-msgstr "ตัวเลือกการแสดงผล"
-
-#: .Prev
-msgid "Prev"
-msgstr "ก่อนหน้า"
-
-#: .Your+filters+returned+no+submissions.
-msgid "Your filters returned no submissions."
-msgstr "ตัวกรองของคุณไม่พบการส่งข้อมูล"
-
-#: .Page
-msgid "Page"
-msgstr "หน้า"
-
-#: .rows
-msgid "rows"
-msgstr "แถว"
-
-#: .My+Projects
-msgid "My Projects"
-msgstr "โครงการของฉัน"
-
-#: .Is
-msgid "Is"
-msgstr "คือ"
-
-#: .Is+not
-msgid "Is not"
-msgstr "ไม่ใช่"
-
-#: .Contains
-msgid "Contains"
-msgstr "มี"
-
-#: .Does+not+contain
-msgid "Does not contain"
-msgstr "ไม่มี"
-
-#: .Starts+with
-msgid "Starts with"
-msgstr "เริ่มด้วย"
-
-#: .Ends+with
-msgid "Ends with"
-msgstr "จบด้วย"
-
-#: .Is+empty
-msgid "Is empty"
-msgstr "ว่างเปล่า"
-
-#: .Is+not+empty
-msgid "Is not empty"
-msgstr "ไม่ว่างเปล่า"
-
-#: .Project+name
-msgid "Project name"
-msgstr "ชื่อโครงการ"
-
-#: .Status
-msgid "Status"
-msgstr "สถานะ"
-
-#: .Owner+username
-msgid "Owner username"
-msgstr "ชื่อผู้ใช้ของเจ้าของ"
-
-#: .Owner+full+name
-msgid "Owner full name"
-msgstr "ชื่อ-นามสกุลของเจ้าของ"
-
-#: .Owner+email
-msgid "Owner email"
-msgstr "อีเมลของเจ้าของ"
-
-#: .Owner+organization
-msgid "Owner organization"
-msgstr "องค์กรของเจ้าของ"
-
-#: .Date+modified
-msgid "Date modified"
-msgstr "แก้ไขข้อมูลแล้ว"
-
-#: .Date+deployed
-msgid "Date deployed"
-msgstr "กำหนดวันแล้ว"
-
-#: .Countries
-msgid "Countries"
-msgstr "ประเทศ"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "คอลเลกชันต้นกำเนิด"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2076,41 +1846,195 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "เชื่อมต่อกับโครงการอื่นเพื่อนำเข้าข้อมูลเชิงไดนามิกจากโครงการเหล่านั้นมายังโครงการนี้ ดูข้อมูลเพิ่มเติมเกี่ยวกับการแนบข้อมูลเชิงไดนามิก"
 
-#: .DONE
-msgid "DONE"
-msgstr "เสร็จแล้ว"
+#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
+msgid "This project has no submitted data. Please collect some and try again."
+msgstr "โครงการนี้ไม่มีข้อมูลที่ส่งมา โปรดรวบรวมแล้วลองอีกครั้ง"
 
-#: .This+field+is+required.
-msgid "This field is required."
-msgstr "ฟิลด์นี้จำเป็น"
+#: .results
+msgid "results"
+msgstr "ผลลัพธ์"
 
-#: .This+field+must+match+the+Verify+Password+field.
-msgid "This field must match the Verify Password field."
-msgstr "ฟิลด์นี้ต้องตรงกับฟิลด์ยืนยันรหัสผ่าน"
+#: .Edit
+msgid "Edit"
+msgstr "แก้ไข"
 
-#: .Save+Password
-msgid "Save Password"
-msgstr "บันทึกรหัสผ่าน"
+#: .Validation
+msgid "Validation"
+msgstr "การตรวจสอบ"
 
-#: .Reset+Password
-msgid "Reset Password"
-msgstr "รีเซตรหัสผ่าน"
+#: .Show+All
+msgid "Show All"
+msgstr "แสดงทั้งหมด"
 
-#: .Current+Password
-msgid "Current Password"
-msgstr "รหัสผ่านปัจจุบัน"
+#: .Search
+msgid "Search"
+msgstr "ค้นหา"
 
-#: .Forgot+Password%3F
-msgid "Forgot Password?"
-msgstr "ลืมรหัสผ่านใช่ไหม"
+#: .Display+options
+msgid "Display options"
+msgstr "ตัวเลือกการแสดงผล"
 
-#: .New+Password
-msgid "New Password"
-msgstr "รหัสผ่านใหม่"
+#: .Prev
+msgid "Prev"
+msgstr "ก่อนหน้า"
 
-#: .Verify+Password
-msgid "Verify Password"
-msgstr "ยืนยันรหัสผ่าน"
+#: .Your+filters+returned+no+submissions.
+msgid "Your filters returned no submissions."
+msgstr "ตัวกรองของคุณไม่พบการส่งข้อมูล"
+
+#: .Page
+msgid "Page"
+msgstr "หน้า"
+
+#: .rows
+msgid "rows"
+msgstr "แถว"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "##asset_type##นี้ว่างเปล่า"
+
+#: .Show+less
+msgid "Show less"
+msgstr "แสดงน้อยลง"
+
+#: .Show+more
+msgid "Show more"
+msgstr "แสดงมากขึ้น"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "เปลี่ยนสถานะสาธารณะของสินทรัพย์ไม่สำเร็จ"
+
+#: .Make+public
+msgid "Make public"
+msgstr "เปิดเผยต่อสาธารณะ"
+
+#: .Make+private
+msgid "Make private"
+msgstr "ทำให้เป็นส่วนตัว"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "รับข้อมูลเจ้าของไม่สำเร็จ"
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "วันที่สร้าง"
+
+#: .Owner
+msgid "Owner"
+msgstr "เจ้าของ"
+
+#: .Tags
+msgid "Tags"
+msgstr "แท็ก"
+
+#: .Items
+msgid "Items"
+msgstr "รายการ"
+
+#: .Organization
+msgid "Organization"
+msgstr "องค์กร"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "ซ่อนรายละเอียดทั้งหมด"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "แสดงรายละเอียดทั้งหมด"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "แนวตั้ง"
+
+#: .Donut
+msgid "Donut"
+msgstr "โดนัท"
+
+#: .Area
+msgid "Area"
+msgstr "พื้นที่"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "แนวนอน"
+
+#: .Pie
+msgid "Pie"
+msgstr "วงกลม"
+
+#: .Line
+msgid "Line"
+msgstr "เส้น"
+
+#: .Unlabeled
+msgid "Unlabeled"
+msgstr "ไม่มีป้ายกำกับ"
+
+#: .Include+the+following+questions
+msgid "Include the following questions:"
+msgstr "รวมคำถามต่อไปนี้ไว้ด้วย:"
+
+#: .Chart+Type
+msgid "Chart Type"
+msgstr "ชนิดของแผนภูมิ"
+
+#: .Colors
+msgid "Colors"
+msgstr "สี"
+
+#: .Name
+msgid "Name"
+msgstr "ชื่อ"
+
+#: .Type
+msgid "Type"
+msgstr "ชนิด"
+
+#: .Shared+by
+msgid "Shared by"
+msgstr "แชร์โดย"
+
+#: .Created
+msgid "Created"
+msgstr "สร้างขึ้น"
+
+#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
+msgid ""
+"Let's get started by creating your first project. Click the New button to "
+"create a new form."
+msgstr "เริ่มต้นด้วยการสร้างโครงการแรกของคุณ คลิกปุ่ม ใหม่ เพื่อสร้างแบบฟอร์มใหม่"
+
+#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
+msgid ""
+"Advanced users: You can also drag and drop XLSForms here and they will be "
+"uploaded and converted to projects."
+msgstr "ผู้ใช้ขั้นสูง: คุณยังสามารถลากแล้วปล่อย XLSForm ไว้ที่นี่ จากนั้นระบบจะอัปโหลดและแปลงเป็นโครงการ"
+
+#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
+msgid ""
+"Let's get started by creating your first library question or question block."
+" Click the New button to create a new question or block."
+msgstr "เริ่มด้วยการสร้างคำถามห้องสมุดแรกหรือบล็อกคำถาม คลิกปุ่ม ใหม่ เพื่อสร้างคำถามหรือบล็อกใหม่"
+
+#: .No+grouping
+msgid "No grouping"
+msgstr "ไม่จัดกลุ่ม"
+
+#: .Group+By
+msgid "Group By"
+msgstr "จัดกลุ่มตาม"
+
+#: .Translation
+msgid "Translation"
+msgstr "คำแปล"
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "คอลเลกชันต้นกำเนิด"
 
 #: .Subscribers
 msgid "Subscribers"
@@ -2213,32 +2137,157 @@ msgstr "เมือง"
 msgid "Social"
 msgstr "โซเชียล"
 
-#: .Community+plan+(free+access)
-msgid "Community plan (free access)"
-msgstr "แผนชุมชน (เข้าถึงฟรี)"
-
-#: .Free+access+to+all+services.+5GB+of+media+attachments+per+account,+10,000+submissions+per+month,+as+well+as+25+minutes+of+automatic+speech+recognition+and+20,000+characters+of+machine+translation+per+month.
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"Free access to all services. 5GB of media attachments per account, 10,000 "
-"submissions per month, as well as 25 minutes of automatic speech recognition"
-" and 20,000 characters of machine translation per month."
-msgstr "เข้าถึงทุกบริการฟรี แนบสื่อได้ 5GB ต่อบัญชี, การส่งข้อมูล 10,000 ครั้งต่อเดือน รวมถึงการใช้งานการรู้จำเสียงพูดแบบอัตโนมัติ 25 นาที และการแปลด้วยเครื่อง 20,000 ตัวอักษรต่อเดือน"
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr ""
 
-#: .Current+Plan
-msgid "Current Plan"
-msgstr "แผนปัจจุบัน"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr ""
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr ""
+
+#: .Annual
+msgid "Annual"
+msgstr ""
+
+#: .Monthly
+msgid "Monthly"
+msgstr ""
+
+#: .your+plan
+msgid "your plan"
+msgstr ""
+
+#: .Free
+msgid "Free"
+msgstr ""
 
 #: .Upgrade
 msgid "Upgrade"
 msgstr "อัพเกรด"
 
-#: .Add+ons+and+upgrades+to+your+plan
-msgid "Add ons and upgrades to your plan"
-msgstr "การเสริมและการอัพเกรดไปยังแผนของคุณ"
+#: .Manage
+msgid "Manage"
+msgstr ""
+
+#: .Change+plan
+msgid "Change plan"
+msgstr ""
+
+#: .Need+More%3F
+msgid "Need More?"
+msgstr ""
+
+#: .We+offer+several+add-on+options+to+increase+your+limits+or+the+capacity+of+certain+features+for+a+period+of+time,+depending+on+which+plan+you+use.
+msgid ""
+"We offer several add-on options to increase your limits or the capacity of "
+"certain features for a period of time, depending on which plan you use."
+msgstr ""
+
+#: .If+your+organization+has+larger+or+more+specific+needs,+please+contact+our+team+to+learn+about+our+enterprise+options.
+msgid ""
+"If your organization has larger or more specific needs, please contact our "
+"team to learn about our enterprise options."
+msgstr ""
+
+#: .Get+in+touch+for+Enterprise+options
+msgid "Get in touch for Enterprise options"
+msgstr ""
+
+#: .Collapse
+msgid "Collapse"
+msgstr ""
+
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr ""
+
+#: .My+Projects
+msgid "My Projects"
+msgstr "โครงการของฉัน"
+
+#: .Is
+msgid "Is"
+msgstr "คือ"
+
+#: .Is+not
+msgid "Is not"
+msgstr "ไม่ใช่"
+
+#: .Contains
+msgid "Contains"
+msgstr "มี"
+
+#: .Does+not+contain
+msgid "Does not contain"
+msgstr "ไม่มี"
+
+#: .Starts+with
+msgid "Starts with"
+msgstr "เริ่มด้วย"
+
+#: .Ends+with
+msgid "Ends with"
+msgstr "จบด้วย"
+
+#: .Is+empty
+msgid "Is empty"
+msgstr "ว่างเปล่า"
+
+#: .Is+not+empty
+msgid "Is not empty"
+msgstr "ไม่ว่างเปล่า"
+
+#: .Project+name
+msgid "Project name"
+msgstr "ชื่อโครงการ"
+
+#: .Status
+msgid "Status"
+msgstr "สถานะ"
+
+#: .Owner+username
+msgid "Owner username"
+msgstr "ชื่อผู้ใช้ของเจ้าของ"
+
+#: .Owner+full+name
+msgid "Owner full name"
+msgstr "ชื่อ-นามสกุลของเจ้าของ"
+
+#: .Owner+email
+msgid "Owner email"
+msgstr "อีเมลของเจ้าของ"
+
+#: .Owner+organization
+msgid "Owner organization"
+msgstr "องค์กรของเจ้าของ"
+
+#: .Date+modified
+msgid "Date modified"
+msgstr "แก้ไขข้อมูลแล้ว"
+
+#: .Date+deployed
+msgid "Date deployed"
+msgstr "กำหนดวันแล้ว"
+
+#: .Countries
+msgid "Countries"
+msgstr "ประเทศ"
 
 #: .Security
 msgid "Security"
 msgstr "ความปลอดภัย"
+
+#: .DONE
+msgid "DONE"
+msgstr "เสร็จแล้ว"
 
 #: .Previous
 msgid "Previous"
@@ -2292,13 +2341,190 @@ msgstr "แชร์"
 msgid "View containing Collection"
 msgstr "ดูคอลเลกชัน"
 
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "เพิ่มคำถามไปยังไลบรารีแล้ว"
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr ""
 
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "เพิ่มกลุ่มไปยังไลบรารีในรูปแบบบล็อกแล้ว"
+#: .Item
+msgid "Item"
+msgstr "รายการที่"
+
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "จาก ##total_count##"
+
+#: .Transcript
+msgid "Transcript"
+msgstr "ข้อความถอดเสียง"
+
+#: .Translations
+msgid "Translations"
+msgstr "คำแปล"
+
+#: .Analysis
+msgid "Analysis"
+msgstr "การวิเคราะห์"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "แก้ไขล่าสุดเมื่อวันที่ ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "สร้างขึ้นเมื่อวันที่ ##date##"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "คัดลอกสิทธิ์การอนุญาตเรียบร้อยแล้ว"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "คุณกำลังคัดลอกคำอนุญาตจาก ##source to ##target เมื่อทำเสร็จแล้วไม่สามารถยกเลิกได้"
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "แน่ใจหรือว่าต้องการคัดลอกสิทธิ์การอนุญาต"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "ดำเนินการต่อ"
+
+#: .Unlabelled
+msgid "Unlabelled"
+msgstr "ไม่มีป้ายกำกับ"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "คัดลอกทีมจากโครงการอื่น"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "คำสั่งนี้จะบันทึกทับการตั้งค่าการแชร์ที่มีอยู่ตามที่กำหนดไว้ในโครงการนี้"
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "เลือกโครงการตั้งต้น..."
+
+#: .copy
+msgid "copy"
+msgstr "คัดลอก"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "ใส่ชื่อผู้ใช้ คั่นด้วยเครื่องหมายจุลภาค"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "ไม่พบผู้ใช้:"
+
+#: .username
+msgid "username"
+msgstr "ชื่อผู้ใช้"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "อนุมัติสิทธิ์การอนุญาต"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "อัปเดตสิทธิ์การอนุญาต"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "ทุกคนเห็นแบบฟอร์มนี้ได้"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "ทุกคนเห็นการส่งข้อมูลที่มายังแบบฟอร์มนี้ได้"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "ลิงค์ที่แชร์ได้"
+
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "ต้องการออกโดยไม่บันทึกใช่ไหม"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "ลบสิทธิ์การอนุญาตใช่ไหม"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "การดำเนินการนี้จะลบสิทธิ์การอนุญาตทั้งหมดสำหรับผู้ใช้ ##username##"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
+msgid "##permission_label## (##username_list##)"
+msgstr "##permission_label## (##username_list##)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
+msgid "##permission_label## (##username_list## and 1 other)"
+msgstr "##permission_label## (##username_list## และอีก 1 คน)"
+
+#: .is+owner
+msgid "is owner"
+msgstr "คือเจ้าของ"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "โหลดบริการ REST ไม่ได้"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "แน่ใจหรือว่าต้องการลบ ##target"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "คุณกำลังจะลบ ##target เมื่อทำเสร็จแล้วไม่สามารถยกเลิกได้"
+
+#: .Confirm
+msgid "Confirm"
+msgstr "ยืนยัน"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "ลงทะเบียนบริการใหม่"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "โครงการนี้ยังไม่มีบริการ REST ใดๆ!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "คุณสามารถใช้บริการ REST เพื่อโพสต์การส่งข้อมูลไปยังแอปพลิเคชันของบุคคลที่สามได้โดยอัตโนมัติ"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "ดูข้อมูลเพิ่มเติม"
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "บริการ REST: ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "ต้องการความช่วยเหลือใช่ไหม"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "ชื่อบริการ"
+
+#: .Success
+msgid "Success"
+msgstr "สำเร็จ"
+
+#: .Pending
+msgid "Pending"
+msgstr "รอดำเนินการ"
+
+#: .Failed
+msgid "Failed"
+msgstr "ล้มเหลว"
 
 #: .Paste+your+formatted+table+from+excel+in+the+box+below.
 msgid "Paste your formatted table from excel in the box below."
@@ -2331,6 +2557,54 @@ msgstr "บล็อกคำถาม ___ ข้อ"
 #: .search+library
 msgid "search library"
 msgstr "ค้นไลบรารี"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "โหลดบริการ REST ไม่ได้"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "โหลดบันทึกบริการ REST ไม่ได้"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "รายละเอียดการส่งข้อมูลที่ล้มเหลว (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "กลับไปที่บริการ REST"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "กำลังโหลด..."
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "ยังไม่มีบันทึก"
+
+#: .Submission
+msgid "Submission"
+msgstr "การส่งข้อมูล"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "ลองส่งใหม่ทั้งหมด"
+
+#: .Date
+msgid "Date"
+msgstr "วันที่"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "รอดำเนินการ (##count##x)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "ลองส่งอีกครั้ง"
+
+#: .More+info
+msgid "More info"
+msgstr "ข้อมูลเพิ่มเติม"
 
 #: .Marker+Colors
 msgid "Marker Colors"
@@ -2414,202 +2688,13 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "ตามค่าเริ่มต้น ระบบจะจำกัดแผนที่ไว้เพียงการส่งข้อมูล ##QUERY_LIMIT_DEFAULT## ครั้งล่าสุดเท่านั้น แต่คุณสามารถเพิ่มขีดจำกัดนี้เป็นค่าอื่นได้ชั่วคราว โปรดทราบว่าระบบจะรีเซตค่านี้ทุกครั้งที่คุณเปิดแผนที่ใหม่"
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "คัดลอกสิทธิ์การอนุญาตเรียบร้อยแล้ว"
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "เพิ่มคำถามไปยังไลบรารีแล้ว"
 
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "คุณกำลังคัดลอกคำอนุญาตจาก ##source to ##target เมื่อทำเสร็จแล้วไม่สามารถยกเลิกได้"
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "แน่ใจหรือว่าต้องการคัดลอกสิทธิ์การอนุญาต"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "ดำเนินการต่อ"
-
-#: .Unlabelled
-msgid "Unlabelled"
-msgstr "ไม่มีป้ายกำกับ"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "คัดลอกทีมจากโครงการอื่น"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "คำสั่งนี้จะบันทึกทับการตั้งค่าการแชร์ที่มีอยู่ตามที่กำหนดไว้ในโครงการนี้"
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "เลือกโครงการตั้งต้น..."
-
-#: .copy
-msgid "copy"
-msgstr "คัดลอก"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "โหลดบริการ REST ไม่ได้"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "แน่ใจหรือว่าต้องการลบ ##target"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "คุณกำลังจะลบ ##target เมื่อทำเสร็จแล้วไม่สามารถยกเลิกได้"
-
-#: .Confirm
-msgid "Confirm"
-msgstr "ยืนยัน"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "ลงทะเบียนบริการใหม่"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "โครงการนี้ยังไม่มีบริการ REST ใดๆ!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "คุณสามารถใช้บริการ REST เพื่อโพสต์การส่งข้อมูลไปยังแอปพลิเคชันของบุคคลที่สามได้โดยอัตโนมัติ"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "ดูข้อมูลเพิ่มเติม"
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "บริการ REST: ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "ต้องการความช่วยเหลือใช่ไหม"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "ชื่อบริการ"
-
-#: .Success
-msgid "Success"
-msgstr "สำเร็จ"
-
-#: .Pending
-msgid "Pending"
-msgstr "รอดำเนินการ"
-
-#: .Failed
-msgid "Failed"
-msgstr "ล้มเหลว"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "โหลดบริการ REST ไม่ได้"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "โหลดบันทึกบริการ REST ไม่ได้"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "รายละเอียดการส่งข้อมูลที่ล้มเหลว (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "กลับไปที่บริการ REST"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "กำลังโหลด..."
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "ยังไม่มีบันทึก"
-
-#: .Submission
-msgid "Submission"
-msgstr "การส่งข้อมูล"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "ลองส่งใหม่ทั้งหมด"
-
-#: .Date
-msgid "Date"
-msgstr "วันที่"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "รอดำเนินการ (##count##x)"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "ลองส่งอีกครั้ง"
-
-#: .More+info
-msgid "More info"
-msgstr "ข้อมูลเพิ่มเติม"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "ทุกคนเห็นแบบฟอร์มนี้ได้"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "ทุกคนเห็นการส่งข้อมูลที่มายังแบบฟอร์มนี้ได้"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "ลิงค์ที่แชร์ได้"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "ใส่ชื่อผู้ใช้ คั่นด้วยเครื่องหมายจุลภาค"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "ไม่พบผู้ใช้:"
-
-#: .username
-msgid "username"
-msgstr "ชื่อผู้ใช้"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "อนุมัติสิทธิ์การอนุญาต"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "อัปเดตสิทธิ์การอนุญาต"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "ลบสิทธิ์การอนุญาตใช่ไหม"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "การดำเนินการนี้จะลบสิทธิ์การอนุญาตทั้งหมดสำหรับผู้ใช้ ##username##"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
-msgid "##permission_label## (##username_list##)"
-msgstr "##permission_label## (##username_list##)"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
-msgid "##permission_label## (##username_list## and 1 other)"
-msgstr "##permission_label## (##username_list## และอีก 1 คน)"
-
-#: .is+owner
-msgid "is owner"
-msgstr "คือเจ้าของ"
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "เพิ่มกลุ่มไปยังไลบรารีในรูปแบบบล็อกแล้ว"
 
 #: .Search...
 msgid "Search..."
@@ -2643,41 +2728,9 @@ msgstr "พบสินทรัพย์"
 msgid "expand details"
 msgstr "ขยายรายละเอียด"
 
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr ""
-
-#: .Item
-msgid "Item"
-msgstr "รายการที่"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "จาก ##total_count##"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "ข้อความถอดเสียง"
-
-#: .Translations
-msgid "Translations"
-msgstr "คำแปล"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "การวิเคราะห์"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "แก้ไขล่าสุดเมื่อวันที่ ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "สร้างขึ้นเมื่อวันที่ ##date##"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "ต้องการออกโดยไม่บันทึกใช่ไหม"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "เลือก..."
 
 #: .Audit+settings
 msgid "Audit settings"
@@ -2706,6 +2759,14 @@ msgstr "เปิดใช้งานการบันทึกเสียง
 #: .Audio+quality
 msgid "Audio quality"
 msgstr "คุณภาพเสียง"
+
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "คุณไม่มีเทมเพลต ไปที่ไลบรารี่และสร้างเทมเพลต"
+
+#: .Template+name
+msgid "Template name"
+msgstr "ชื่อเทมเพลต"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -2743,6 +2804,38 @@ msgstr "ฟังก์ชันที่ถูกล็อก"
 #: .Unlocked+functionalities
 msgid "Unlocked functionalities"
 msgstr "ฟังก์ชันที่ถูกปลดล็อก"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "ค้นหา..."
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "กรุณาป้อนชื่อสำหรับ##type##"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "##type##ที่ไม่มีชื่อ"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "คอลเลกชันที่ไม่มีชื่อ"
+
+#: .project+title
+msgid "project title"
+msgstr "ชื่อโครงการ"
+
+#: .Profile
+msgid "Profile"
+msgstr "โพรไฟล์"
+
+#: .Usage
+msgid "Usage"
+msgstr ""
+
+#: .Your+Plan
+msgid "Your Plan"
+msgstr "แผนของคุณ"
 
 #: .Incorrect+token
 msgid "Incorrect token"
@@ -2827,61 +2920,72 @@ msgstr "โปรดทราบว่าในการกำหนดค่า
 msgid "Issues with the token"
 msgstr "ปัญหาเกี่ยวกับโทเค็น"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "เลือก..."
+#: .Type+
+msgid "Type: "
+msgstr "ชนิด: "
 
-#: .Profile
-msgid "Profile"
-msgstr "โพรไฟล์"
+#: ..+
+msgid ". "
+msgstr ". "
 
-#: .Usage
-msgid "Usage"
-msgstr ""
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "ผู้ตอบคำถาม #1 ใน #2 คนตอบคำถามนี้ "
 
-#: .Your+Plan
-msgid "Your Plan"
-msgstr "แผนของคุณ"
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# ไม่มีข้อมูล)"
 
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "ค้นหา..."
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "แทนที่รูปแบบกราฟ"
 
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "กรุณาป้อนชื่อสำหรับ##type##"
+#: .Deploy+this+project
+msgid "Deploy this project"
+msgstr "นำโครงการนี้ไปใช้งาน"
 
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "##type##ที่ไม่มีชื่อ"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "แหล่งความช่วยเหลือ"
 
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "คอลเลกชันที่ไม่มีชื่อ"
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "ศูนย์ช่วยเหลือ KoboToolbox"
 
-#: .project+title
-msgid "project title"
-msgstr "ชื่อโครงการ"
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "บทความและบทช่วยสอนสนับสนุนผู้ใช้มากมายหลายคอลเลกชันที่เกี่ยวข้องกับ Kobo"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "คุณไม่มีเทมเพลต ไปที่ไลบรารี่และสร้างเทมเพลต"
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "ฟอรัมชุมชน KoboToolbox"
 
-#: .Template+name
-msgid "Template name"
-msgstr "ชื่อเทมเพลต"
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "โพสต์คำถามของคุณเพื่อรับคำตอบจากผู้ใช้ Kobo ที่มีประสบการณ์ทั่วโลก"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "อัปเดตแท็กไม่สำเร็จ"
+#: .Notifications
+msgid "Notifications"
+msgstr "การแจ้งเตือน"
 
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "กำลังอัปเดต..."
+#: .Help
+msgid "Help"
+msgstr "ช่วยเหลือ"
 
-#: .Update
-msgid "Update"
-msgstr "อัปเดต"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "การส่งข้อมูลที่ ##submissionIndex## จาก ##submissionTotal##"
+
+#: .download
+msgid "download"
+msgstr "ดาวน์โหลด"
+
+#: .process
+msgid "process"
+msgstr "กระบวนการ"
 
 #: .Question+Block
 msgid "Question Block"
@@ -2894,6 +2998,22 @@ msgstr "เทมเพลต"
 #: .Collection
 msgid "Collection"
 msgstr "คอลเลกชัน"
+
+#: .Choose+desired+type
+msgid "Choose desired type"
+msgstr "เลือกชนิดที่ต้องการ"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "อัปเดตแท็กไม่สำเร็จ"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "กำลังอัปเดต..."
+
+#: .Update
+msgid "Update"
+msgstr "อัปเดต"
 
 #: .%23%23type%23%23+%23%23name%23%23+created
 msgid "##type## ##name## created"
@@ -2977,14 +3097,6 @@ msgstr "กำลังอัปเดตคำถามที่นำเข้
 msgid "Accept"
 msgstr "ยอมรับ"
 
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "เลือกชนิดที่ต้องการ"
-
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "ชนิดสื่อที่ไม่รองรับ: ##QUESTION_TYPE##"
-
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
 msgstr "เกิดข้อผิดพลาด ไม่สามารถบันทึกการตั้งค่าตารางได้"
@@ -3008,6 +3120,83 @@ msgstr "แสดงชื่อกลุ่มที่ส่วนหัวข
 #: .Show+HXL+tags
 msgid "Show HXL tags"
 msgstr "แสดงแท็ก HXL"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "ไม่พบการส่งข้อมูล อาจถูกลบไปแล้ว ไอดีการส่งข้อมูล:##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "ลบการส่งข้อมูลใช่ไหม"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "คุณแน่ใจไหมว่าต้องการลบการส่งข้อมูลครั้งนี้"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "การดำเนินการนี้ไม่สามารถยกเลิกได้"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "สร้างสำเนาแล้ว"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "สร้างสำเนาบันทึกการส่งข้อมูลสำเร็จแล้ว คุณสามารถดูกรณีตัวอย่างใหม่ด้านล่างและทำการเปลี่ยนแปลงโดยใช้ปุ่มการดำเนินการด้านล่าง"
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "ละทิ้งการส่งข้อมูลซ้ำ"
+
+#: .Discard
+msgid "Discard"
+msgstr "ละทิ้ง"
+
+#: .Language
+msgid "Language:"
+msgstr "ภาษา:"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "สถานะการตรวจสอบ:"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "คลิกที่ปุ่มด้านล่างเพื่อโหลดข้อมูลล่าสุดสำหรับการส่งข้อมูลครั้งนี้ "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "รีเฟรชการส่งข้อมูล"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "การบันทึกเสียงเบื้องหลัง"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "แสดงชื่อ XML"
+
+#: .View
+msgid "View"
+msgstr "มุมมอง"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "ทำสำเนา"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "ลบการส่งข้อมูล"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "ชนิดสื่อที่ไม่รองรับ: ##QUESTION_TYPE##"
 
 #: .n/d
 msgid "n/d"
@@ -3101,99 +3290,6 @@ msgstr "ความถี่"
 #: .Percentage
 msgid "Percentage"
 msgstr "ร้อยละ"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "ไม่พบการส่งข้อมูล อาจถูกลบไปแล้ว ไอดีการส่งข้อมูล:##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "ลบการส่งข้อมูลใช่ไหม"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "คุณแน่ใจไหมว่าต้องการลบการส่งข้อมูลครั้งนี้"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "การดำเนินการนี้ไม่สามารถยกเลิกได้"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "สร้างสำเนาแล้ว"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "สร้างสำเนาบันทึกการส่งข้อมูลสำเร็จแล้ว คุณสามารถดูกรณีตัวอย่างใหม่ด้านล่างและทำการเปลี่ยนแปลงโดยใช้ปุ่มการดำเนินการด้านล่าง"
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "ละทิ้งการส่งข้อมูลซ้ำ"
-
-#: .Discard
-msgid "Discard"
-msgstr "ละทิ้ง"
-
-#: .Language
-msgid "Language:"
-msgstr "ภาษา:"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "สถานะการตรวจสอบ:"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "คลิกที่ปุ่มด้านล่างเพื่อโหลดข้อมูลล่าสุดสำหรับการส่งข้อมูลครั้งนี้ "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "รีเฟรชการส่งข้อมูล"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "การบันทึกเสียงเบื้องหลัง"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "แสดงชื่อ XML"
-
-#: .View
-msgid "View"
-msgstr "มุมมอง"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "ทำสำเนา"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "ลบการส่งข้อมูล"
-
-#: .%2A+Save+Changes
-msgid "* Save Changes"
-msgstr "* บันทึกการเปลี่ยนแปลง"
-
-#: .updated+text
-msgid "updated text"
-msgstr "ข้อความที่อัปเดต"
-
-#: .translation
-msgid "translation"
-msgstr "คำแปล"
-
-#: .Original+string
-msgid "Original string"
-msgstr "สตริงเดิม"
-
-#: .Go+back%3F
-msgid "Go back?"
-msgstr "ย้อนกลับใช่ไหม"
 
 #: .Delete+language%3F
 msgid "Delete language?"
@@ -3289,9 +3385,25 @@ msgstr "เพื่มภาษา"
 msgid "Add a new language"
 msgstr "เพิ่มภาษาใหม่"
 
-#: .Deploy+this+project
-msgid "Deploy this project"
-msgstr "นำโครงการนี้ไปใช้งาน"
+#: .%2A+Save+Changes
+msgid "* Save Changes"
+msgstr "* บันทึกการเปลี่ยนแปลง"
+
+#: .updated+text
+msgid "updated text"
+msgstr "ข้อความที่อัปเดต"
+
+#: .translation
+msgid "translation"
+msgstr "คำแปล"
+
+#: .Original+string
+msgid "Original string"
+msgstr "สตริงเดิม"
+
+#: .Go+back%3F
+msgid "Go back?"
+msgstr "ย้อนกลับใช่ไหม"
 
 #: .JSON
 msgid "JSON"
@@ -3375,205 +3487,9 @@ msgstr "เพิ่ม wrapper ที่กำหนดเองสำหรั
 msgid "Add Custom Wrapper"
 msgstr "เพื่ม Wrapper ที่กำหนดเอง"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "แหล่งความช่วยเหลือ"
-
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "ศูนย์ช่วยเหลือ KoboToolbox"
-
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "บทความและบทช่วยสอนสนับสนุนผู้ใช้มากมายหลายคอลเลกชันที่เกี่ยวข้องกับ Kobo"
-
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "ฟอรัมชุมชน KoboToolbox"
-
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "โพสต์คำถามของคุณเพื่อรับคำตอบจากผู้ใช้ Kobo ที่มีประสบการณ์ทั่วโลก"
-
-#: .Notifications
-msgid "Notifications"
-msgstr "การแจ้งเตือน"
-
-#: .Help
-msgid "Help"
-msgstr "ช่วยเหลือ"
-
-#: .Type+
-msgid "Type: "
-msgstr "ชนิด: "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "ผู้ตอบคำถาม #1 ใน #2 คนตอบคำถามนี้ "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# ไม่มีข้อมูล)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "แทนที่รูปแบบกราฟ"
-
-#: .filter
-msgid "filter"
-msgstr "ตัวกรอง"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "ไม่มีตัวกรอง คุณสามารถเพิ่มตัวกรองด้านล่าง"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "เพิ่มตัวกรอง"
-
-#: .Apply
-msgid "Apply"
-msgstr "ใช้"
-
-#: .fields
-msgid "fields"
-msgstr "ฟิลด์"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "การส่งข้อมูลที่ ##submissionIndex## จาก ##submissionTotal##"
-
-#: .download
-msgid "download"
-msgstr "ดาวน์โหลด"
-
-#: .process
-msgid "process"
-msgstr "กระบวนการ"
-
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "เกิดข้อผิดพลาดในการโหลด Enketo"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "เลือกผลลัพธ์ทั้งหมด (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "เลือกผลลัพธ์ที่แสดง (##count##)"
-
-#: .None
-msgid "None"
-msgstr "ไม่มี"
-
-#: .Update+status+of+selected+submissions
-msgid "Update status of selected submissions"
-msgstr "อัปเดตสถานะของการส่งข้อมูลที่เลือก"
-
-#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
-msgid ""
-"You have selected ## submissions. Are you sure you would like to update "
-"their status? This action is irreversible."
-msgstr "คุณได้เลือกการส่งข้อมูลจำนวน ## รายการ คุณแน่ใจหรือไม่ว่าต้องการอัปเดตสถานะของรายการเหล่านี้ การดำเนินการนี้ไม่สามารถย้อนกลับได้"
-
-#: .Update+Validation+Status
-msgid "Update Validation Status"
-msgstr "อัปเดตสถานะการตรวจสอบ"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
-msgid ""
-"You are about to permanently delete ##count## submissions. It is not "
-"possible to recover deleted submissions."
-msgstr "คุณกำลังจะลบการส่งข้อมูล ##count## รายการอย่างถาวร ไม่สามารถกู้คืนการส่งที่ถูกลบได้"
-
-#: .Delete+selected+submissions
-msgid "Delete selected submissions"
-msgstr "ลบการส่งข้อมูลที่เลือก"
-
-#: .Delete+selected
-msgid "Delete selected"
-msgstr "ลบสิ่งที่เลือก"
-
-#: .%23%23count%23%23+selected
-msgid "##count## selected"
-msgstr "เลือก ##count## แล้ว"
-
-#: .Change+status
-msgid "Change status"
-msgstr "เปลี่ยนสถานะ"
-
-#: .Set+status+%23%23status%23%23
-msgid "Set status: ##status##"
-msgstr "ตั้งสถานะ: ##status##"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "ซ่อนฟิลด์"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "เรียงลำดับ A→Z"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "เรียงลำดับ Z→A"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "ซ่อนฟิลด์"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "ยกเลิกการตรึงฟิลด์"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "ตรึงฟิลด์"
-
-#: .Delete+export%3F
-msgid "Delete export?"
-msgstr "ลบการส่งออกหรือไม่"
-
-#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
-msgid ""
-"Are you sure you want to delete this export? This action is not reversible."
-msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบการส่งออกนี้ การดำเนินการนี้ไม่สามารถย้อนกลับได้"
-
-#: .Unknown
-msgid "Unknown"
-msgstr "ไม่ทราบ"
-
-#: .Export+Failed
-msgid "Export Failed"
-msgstr "การส่งออกไม่สำเร็จ"
-
-#: .Processing%E2%80%A6
-msgid "Processing…"
-msgstr "อยู่ในระหว่างการประมวลผล..."
-
-#: .Exports
-msgid "Exports"
-msgstr "การส่งออก"
-
-#: .Include+Groups
-msgid "Include Groups"
-msgstr "รวมกลุ่มต่างๆ ไว้ด้วย"
-
-#: .Multiple+Versions
-msgid "Multiple Versions"
-msgstr "หลายเวอร์ชัน"
-
-#: .There+is+nothing+to+download+yet.
-msgid "There is nothing to download yet."
-msgstr "ยังไม่มีอะไรให้ดาวน์โหลด"
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -3588,6 +3504,10 @@ msgid ""
 "Are you sure you want to delete this settings? This action is not "
 "reversible."
 msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบการตั้งค่านี้ การดำเนินการนี้ไม่สามารถย้อนกลับได้"
+
+#: .None
+msgid "None"
+msgstr "ไม่มี"
 
 #: .Include+data+from+all
 msgid "Include data from all"
@@ -3663,6 +3583,135 @@ msgid ""
 "using one of the other export types available."
 msgstr "รูปแบบการส่งออกนี้จะไม่ได้รับการรองรับในอนาคต โปรดพิจารณาใช้ประเภทการส่งออกอื่นที่มีอยู่"
 
+#: .Delete+export%3F
+msgid "Delete export?"
+msgstr "ลบการส่งออกหรือไม่"
+
+#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
+msgid ""
+"Are you sure you want to delete this export? This action is not reversible."
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบการส่งออกนี้ การดำเนินการนี้ไม่สามารถย้อนกลับได้"
+
+#: .Unknown
+msgid "Unknown"
+msgstr "ไม่ทราบ"
+
+#: .Export+Failed
+msgid "Export Failed"
+msgstr "การส่งออกไม่สำเร็จ"
+
+#: .Processing%E2%80%A6
+msgid "Processing…"
+msgstr "อยู่ในระหว่างการประมวลผล..."
+
+#: .Exports
+msgid "Exports"
+msgstr "การส่งออก"
+
+#: .Include+Groups
+msgid "Include Groups"
+msgstr "รวมกลุ่มต่างๆ ไว้ด้วย"
+
+#: .Multiple+Versions
+msgid "Multiple Versions"
+msgstr "หลายเวอร์ชัน"
+
+#: .There+is+nothing+to+download+yet.
+msgid "There is nothing to download yet."
+msgstr "ยังไม่มีอะไรให้ดาวน์โหลด"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "เลือกผลลัพธ์ทั้งหมด (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "เลือกผลลัพธ์ที่แสดง (##count##)"
+
+#: .Update+status+of+selected+submissions
+msgid "Update status of selected submissions"
+msgstr "อัปเดตสถานะของการส่งข้อมูลที่เลือก"
+
+#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
+msgid ""
+"You have selected ## submissions. Are you sure you would like to update "
+"their status? This action is irreversible."
+msgstr "คุณได้เลือกการส่งข้อมูลจำนวน ## รายการ คุณแน่ใจหรือไม่ว่าต้องการอัปเดตสถานะของรายการเหล่านี้ การดำเนินการนี้ไม่สามารถย้อนกลับได้"
+
+#: .Update+Validation+Status
+msgid "Update Validation Status"
+msgstr "อัปเดตสถานะการตรวจสอบ"
+
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
+msgid ""
+"You are about to permanently delete ##count## submissions. It is not "
+"possible to recover deleted submissions."
+msgstr "คุณกำลังจะลบการส่งข้อมูล ##count## รายการอย่างถาวร ไม่สามารถกู้คืนการส่งที่ถูกลบได้"
+
+#: .Delete+selected+submissions
+msgid "Delete selected submissions"
+msgstr "ลบการส่งข้อมูลที่เลือก"
+
+#: .Delete+selected
+msgid "Delete selected"
+msgstr "ลบสิ่งที่เลือก"
+
+#: .%23%23count%23%23+selected
+msgid "##count## selected"
+msgstr "เลือก ##count## แล้ว"
+
+#: .Change+status
+msgid "Change status"
+msgstr "เปลี่ยนสถานะ"
+
+#: .Set+status+%23%23status%23%23
+msgid "Set status: ##status##"
+msgstr "ตั้งสถานะ: ##status##"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "เรียงลำดับ A→Z"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "เรียงลำดับ Z→A"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "ซ่อนฟิลด์"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "ยกเลิกการตรึงฟิลด์"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "ตรึงฟิลด์"
+
+#: .hide+fields
+msgid "hide fields"
+msgstr "ซ่อนฟิลด์"
+
+#: .filter
+msgid "filter"
+msgstr "ตัวกรอง"
+
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "ไม่มีตัวกรอง คุณสามารถเพิ่มตัวกรองด้านล่าง"
+
+#: .Add+filter
+msgid "Add filter"
+msgstr "เพิ่มตัวกรอง"
+
+#: .Apply
+msgid "Apply"
+msgstr "ใช้"
+
+#: .fields
+msgid "fields"
+msgstr "ฟิลด์"
+
 #: .Two-factor+authentication
 msgid "Two-factor authentication"
 msgstr "การรับรองความถูกต้องแบบสองขั้นตอน"
@@ -3732,14 +3781,6 @@ msgstr "การเข้าสู่ระบบแบบครั้งเด
 #: .There+are+no+projects+to+display.
 msgid "There are no projects to display."
 msgstr "ไม่มีโครงการที่จะแสดง"
-
-#: .and+one+other+question
-msgid "and one other question"
-msgstr "และอีกหนึ่งคำถาม"
-
-#: .and+%23%23+other+questions
-msgid "and ## other questions"
-msgstr "และอีก ## คำถาม"
 
 #: .Asset+seems+to+not+have+the+processing+feature+enabled%21
 msgid "Asset seems to not have the processing feature enabled!"
@@ -3861,6 +3902,22 @@ msgstr "สร้างคำแปล"
 msgid "new translation"
 msgstr "คำแปลใหม่"
 
+#: .and+one+other+question
+msgid "and one other question"
+msgstr "และอีกหนึ่งคำถาม"
+
+#: .and+%23%23+other+questions
+msgid "and ## other questions"
+msgstr "และอีก ## คำถาม"
+
+#: .An+error+occured
+msgid "An error occured"
+msgstr "เกิดข้อผิดพลาด"
+
+#: .Incorrect+token+or+something+went+wrong
+msgid "Incorrect token or something went wrong"
+msgstr "โทเค็นไม่ถูกต้องหรือมีบางอย่างผิดพลาด"
+
 #: .Mean
 msgid "Mean"
 msgstr "ค่าเฉลี่ย"
@@ -3877,17 +3934,57 @@ msgstr "ค่าฐานนิยม"
 msgid "Standard deviation"
 msgstr "ส่วนเบี่ยงเบนมาตรฐาน"
 
-#: .An+error+occured
-msgid "An error occured"
-msgstr "เกิดข้อผิดพลาด"
+#: .CSV+(legacy)
+msgid "CSV (legacy)"
+msgstr "CSV (เดิม)"
 
-#: .Incorrect+token+or+something+went+wrong
-msgid "Incorrect token or something went wrong"
-msgstr "โทเค็นไม่ถูกต้องหรือมีบางอย่างผิดพลาด"
+#: .CSV
+msgid "CSV"
+msgstr "CSV"
 
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "พิมพ์และยืนยันด้วย ENTER"
+#: .GeoJSON
+msgid "GeoJSON"
+msgstr "GeoJSON"
+
+#: .GPS+coordinates+(KML)
+msgid "GPS coordinates (KML)"
+msgstr "พิกัด GPS (KML)"
+
+#: .SPSS+Labels
+msgid "SPSS Labels"
+msgstr "ป้ายกำกับ SPSS"
+
+#: .XLS+(legacy)
+msgid "XLS (legacy)"
+msgstr "XLS (เดิม)"
+
+#: .XLS
+msgid "XLS"
+msgstr "XLS"
+
+#: .Media+Attachments+(ZIP)
+msgid "Media Attachments (ZIP)"
+msgstr "ไฟล์สื่อแนบ (ZIP)"
+
+#: .XML+values+and+headers
+msgid "XML values and headers"
+msgstr "ค่าและส่วนหัว XML"
+
+#: .Separate+columns
+msgid "Separate columns"
+msgstr "แยกเป็นหลายคอลัมน์"
+
+#: .Single+column
+msgid "Single column"
+msgstr "คอลัมน์เดียว"
+
+#: .Single+and+separate+columns
+msgid "Single and separate columns"
+msgstr "คอลัมน์เดียวและแยกเป็นหลายคอลัมน์"
+
+#: .Add+tag(s)
+msgid "Add tag(s)"
+msgstr "เพิ่มแท็ก"
 
 #: .Name+must+be+unique%21
 msgid "Name must be unique!"
@@ -3917,69 +4014,13 @@ msgstr "รหัสภาษา"
 msgid "Set"
 msgstr "ตั้ง"
 
-#: .Add+tag(s)
-msgid "Add tag(s)"
-msgstr "เพิ่มแท็ก"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "เลือกชนิดการส่งออก"
 
-#: .Filter+by
-msgid "Filter by"
-msgstr "กรองโดย"
-
-#: .Select+field
-msgid "Select field"
-msgstr "เลือกฟิลด์"
-
-#: .Condition
-msgid "Condition"
-msgstr "เงื่อนไข"
-
-#: .Select+condition
-msgid "Select condition"
-msgstr "เลือกเงื่อนไข"
-
-#: .Enter+value
-msgid "Enter value"
-msgstr "ป้อนค่า"
-
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบคำถามนี้"
-
-#: .This+action+cannot+be+undone.
-msgid "This action cannot be undone."
-msgstr "การดำเนินการนี้ไม่สามารถยกเลิกได้"
-
-#: .[button+triggers]+Settings
-msgid "[button triggers] Settings"
-msgstr ""
-
-#: .[button+triggers]+Delete+Question
-msgid "[button triggers] Delete Question"
-msgstr ""
-
-#: .[button+triggers]+Duplicate+Question
-msgid "[button triggers] Duplicate Question"
-msgstr ""
-
-#: .[button+triggers]+Add+Question+to+Library
-msgid "[button triggers] Add Question to Library"
-msgstr ""
-
-#: .archived
-msgid "archived"
-msgstr "เก็บถาวรแล้ว"
-
-#: .deployed
-msgid "deployed"
-msgstr "นำไปใช้งานแล้ว"
-
-#: .draft
-msgid "draft"
-msgstr "ร่าง"
-
-#: .me
-msgid "me"
-msgstr "ฉัน"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "พิมพ์และยืนยันด้วย ENTER"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4037,57 +4078,25 @@ msgstr "instanceID"
 msgid "Submitted by"
 msgstr "ส่งมาโดย"
 
-#: .CSV+(legacy)
-msgid "CSV (legacy)"
-msgstr "CSV (เดิม)"
+#: .Filter+by
+msgid "Filter by"
+msgstr "กรองโดย"
 
-#: .CSV
-msgid "CSV"
-msgstr "CSV"
+#: .Select+field
+msgid "Select field"
+msgstr "เลือกฟิลด์"
 
-#: .GeoJSON
-msgid "GeoJSON"
-msgstr "GeoJSON"
+#: .Condition
+msgid "Condition"
+msgstr "เงื่อนไข"
 
-#: .GPS+coordinates+(KML)
-msgid "GPS coordinates (KML)"
-msgstr "พิกัด GPS (KML)"
+#: .Select+condition
+msgid "Select condition"
+msgstr "เลือกเงื่อนไข"
 
-#: .SPSS+Labels
-msgid "SPSS Labels"
-msgstr "ป้ายกำกับ SPSS"
-
-#: .XLS+(legacy)
-msgid "XLS (legacy)"
-msgstr "XLS (เดิม)"
-
-#: .XLS
-msgid "XLS"
-msgstr "XLS"
-
-#: .Media+Attachments+(ZIP)
-msgid "Media Attachments (ZIP)"
-msgstr "ไฟล์สื่อแนบ (ZIP)"
-
-#: .XML+values+and+headers
-msgid "XML values and headers"
-msgstr "ค่าและส่วนหัว XML"
-
-#: .Separate+columns
-msgid "Separate columns"
-msgstr "แยกเป็นหลายคอลัมน์"
-
-#: .Single+column
-msgid "Single column"
-msgstr "คอลัมน์เดียว"
-
-#: .Single+and+separate+columns
-msgid "Single and separate columns"
-msgstr "คอลัมน์เดียวและแยกเป็นหลายคอลัมน์"
-
-#: .Select+export+type
-msgid "Select export type"
-msgstr "เลือกชนิดการส่งออก"
+#: .Enter+value
+msgid "Enter value"
+msgstr "ป้อนค่า"
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4100,6 +4109,42 @@ msgstr "ค้นหาฟิลด์"
 #: .No+results
 msgid "No results"
 msgstr "ไม่มีผลลัพธ์"
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "คุณแน่ใจหรือไม่ว่าต้องการลบคำถามนี้"
+
+#: .This+action+cannot+be+undone.
+msgid "This action cannot be undone."
+msgstr "การดำเนินการนี้ไม่สามารถยกเลิกได้"
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr ""
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr ""
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr ""
+
+#: .archived
+msgid "archived"
+msgstr "เก็บถาวรแล้ว"
+
+#: .deployed
+msgid "deployed"
+msgstr "นำไปใช้งานแล้ว"
+
+#: .draft
+msgid "draft"
+msgstr "ร่าง"
+
+#: .me
+msgid "me"
+msgstr "ฉัน"
 
 #: .Delete%3F
 msgid "Delete?"

@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 20:25+0000\n"
+"POT-Creation-Date: 2023-09-07 13:51+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: jmacura <macurajan@gmail.com>, 2022\n"
 "Language-Team: Czech (http://app.transifex.com/kobotoolbox/kobotoolbox/language/cs/)\n"
@@ -19,6 +19,10 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 "X-Generator: Translate Toolkit 3.6.0\n"
+
+#: .%23%23field_label%23%23+(required)
+msgid "##field_label## (required)"
+msgstr "##field_label## (vyžadováno)"
 
 #: .Use+a+few+words,+avoid+common+phrases
 msgid "Use a few words, avoid common phrases"
@@ -132,13 +136,13 @@ msgstr "Předvídatelné záměny jako „@“ místo „a“ příliš nepomáh
 msgid "Password strength"
 msgstr "Síla hesla"
 
-#: .%23%23field_label%23%23+(required)
-msgid "##field_label## (required)"
-msgstr "##field_label## (vyžadováno)"
-
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "cesta nebyla nalezena/rozpoznána"
+
+#: .Untitled
+msgid "Untitled"
+msgstr "Bez názvu"
 
 #: .Failed+to+update+permissions
 msgid "Failed to update permissions"
@@ -267,10 +271,6 @@ msgstr "Selhal požadavek na opakování příspěvku"
 #: .Retrying+all+submissions+failed
 msgid "Retrying all submissions failed"
 msgstr "Opakování všech příspěvků selhalo"
-
-#: .Untitled
-msgid "Untitled"
-msgstr "Bez názvu"
 
 #: .Submissions
 msgid "Submissions"
@@ -682,21 +682,161 @@ msgstr "Styl otázky"
 msgid "loading…"
 msgstr "načítání…"
 
-#: .Successfuly+removed+from+collection
-msgid "Successfuly removed from collection"
-msgstr "Úspěšně vyřazeno ze sbírky"
+#: .Who+has+access
+msgid "Who has access"
+msgstr "Kdo má přístup"
 
-#: .Successfuly+moved+to+collection
-msgid "Successfuly moved to collection"
-msgstr "Úspěšně přesunuto do sbírky"
+#: .Add+user
+msgid "Add user"
+msgstr "Přidat uživatele"
 
-#: .Move+to+collection+failed
-msgid "Move to collection failed"
-msgstr "Přesun do sbírky se nezdařil"
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "Sdílet veřejně odkazem"
 
-#: .Failed+to+get+the+results
-msgid "Failed to get the results"
-msgstr "Výsledky se nepodařilo získat"
+#: .Waiting+for+all+projects+to+load%E2%80%A6
+msgid "Waiting for all projects to load…"
+msgstr "Čeká se na načtení všech projektů…"
+
+#: .URL+is+empty%21
+msgid "URL is empty!"
+msgstr "Adresa URL je prázdná!"
+
+#: .Add
+msgid "Add"
+msgstr "Přidat"
+
+#: .You+must+redeploy+this+form+to+see+media+changes.
+msgid "You must redeploy this form to see media changes."
+msgstr "Pokud chcete zobrazit změny médií, musíte tento formulář znovu zveřejnit."
+
+#: .Attach+files
+msgid "Attach files"
+msgstr "Přiložit soubory"
+
+#: .Learn+more+about+form+media
+msgid "Learn more about form media"
+msgstr "Další informace o médiích formuláře"
+
+#: .Drag+and+drop+files+here
+msgid "Drag and drop files here"
+msgstr "Sem přetáhněte soubory"
+
+#: .or
+msgid "or"
+msgstr "nebo"
+
+#: .click+here+to+browse
+msgid "click here to browse"
+msgstr "zde klikněte na tlačítko Procházet"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "Nahrávání souboru…"
+
+#: .You+can+also+add+files+using+a+URL
+msgid "You can also add files using a URL"
+msgstr "Soubory můžete přidávat také pomocí adresy URL"
+
+#: .Paste+URL+here
+msgid "Paste URL here"
+msgstr "Sem vložte adresu URL"
+
+#: .Attached+files
+msgid "Attached files"
+msgstr "Přiložené soubory"
+
+#: .loading+media
+msgid "loading media"
+msgstr "načítání médií"
+
+#: .No+files+uploaded+yet
+msgid "No files uploaded yet"
+msgstr "Zatím nebyly nahrány žádné soubory"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "Ve výchozím nastavení je mapa z důvodů výkonu omezena na ##number## nejnovějších příspěvků. Chcete-li tento limit zvýšit, přejděte do nastavení mapy."
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "Chyba: nepodařilo se načíst data."
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "Rozdělení podle odpovědí v průzkumu"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "Rozděleno pomocí:"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "Nebyly obdrženy žádné odpovědi typu „geopoint“"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "Mapa nezobrazuje data, protože tento formulář nemá pole typu „geopoint“."
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "Přepnout na celou obrazovku"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "Zobrazit jako body"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "Přepnout vrstvy"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "Nastavení zobrazení mapy"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "Zobrazit jako tepelnou mapu"
+
+#: .Language
+msgid "Language"
+msgstr "Jazyk"
+
+#: .Default
+msgid "Default"
+msgstr "Výchozí"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- Zobrazit všechna data --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "nepřeloženo: "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "Štítek otázky není nastaven"
+
+#: .Reset
+msgid "Reset"
+msgstr "Reset"
+
+#: .not+set
+msgid "not set"
+msgstr "nenastaveno"
+
+#: .Legend
+msgid "Legend"
+msgstr "Legenda"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "Nastavení mapy"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -856,557 +996,6 @@ msgstr "Chyba při vytváření náhledu"
 msgid "Import Cascading Select Questions"
 msgstr "Import kaskádového výběru otázky"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "Nepodařilo se získat identifikátory UUID příspěvků."
-
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "Nepodařilo se získat příspěvek."
-
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "Nepodařilo se aktualizovat příspěvky."
-
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "Nepodařilo se aktualizovat některé hodnoty příspěvků."
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "Nepodařilo se aktualizovat hodnoty příspěvků."
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "Nepodařilo se smazat příspěvky."
-
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "Média se nepodařilo nahrát"
-
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "Došlo k chybě při získávání vašich médií"
-
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "Média byla úspěšně smazána"
-
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "Média se nepodařilo smazat!"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "Nepodařilo se vytvořit export"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "Nepodařilo se smazat export"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "Nepodařilo se aktualizovat nastavení exportu"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "Nepodařilo se vytvořit nastavení exportu"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "Nepodařilo se smazat nastavení exportu"
-
-#: .Failed+to+attach+to+source
-msgid "Failed to attach to source"
-msgstr "Nepodařilo se připojit ke zdroji"
-
-#: .Failed+to+detach+from+source
-msgid "Failed to detach from source"
-msgstr "Nepodařilo se odpojit od zdroje"
-
-#: .Failed+to+patch+source
-msgid "Failed to patch source"
-msgstr "Nepodařilo se opravit zdroj"
-
-#: .Failed+to+retrieve+sharing+enabled+assets
-msgid "Failed to retrieve sharing enabled assets"
-msgstr "Nepodařilo se načíst položky s povoleným sdílením"
-
-#: .Failed+to+toggle+sharing
-msgid "Failed to toggle sharing"
-msgstr "Nepodařilo se přepnout sdílení"
-
-#: .Failed+to+update+column+filters
-msgid "Failed to update column filters"
-msgstr "Nepodařilo se aktualizovat filtry sloupců"
-
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "Ve výchozím nastavení je mapa z důvodů výkonu omezena na ##number## nejnovějších příspěvků. Chcete-li tento limit zvýšit, přejděte do nastavení mapy."
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "Chyba: nepodařilo se načíst data."
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "Rozdělení podle odpovědí v průzkumu"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "Rozděleno pomocí:"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "Nebyly obdrženy žádné odpovědi typu „geopoint“"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "Mapa nezobrazuje data, protože tento formulář nemá pole typu „geopoint“."
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "Přepnout na celou obrazovku"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "Zobrazit jako body"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "Přepnout vrstvy"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "Nastavení zobrazení mapy"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "Zobrazit jako tepelnou mapu"
-
-#: .Language
-msgid "Language"
-msgstr "Jazyk"
-
-#: .Default
-msgid "Default"
-msgstr "Výchozí"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- Zobrazit všechna data --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "nepřeloženo: "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "Štítek otázky není nastaven"
-
-#: .Reset
-msgid "Reset"
-msgstr "Reset"
-
-#: .not+set
-msgid "not set"
-msgstr "nenastaveno"
-
-#: .Legend
-msgid "Legend"
-msgstr "Legenda"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "Nastavení mapy"
-
-#: .Who+has+access
-msgid "Who has access"
-msgstr "Kdo má přístup"
-
-#: .Add+user
-msgid "Add user"
-msgstr "Přidat uživatele"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "Sdílet veřejně odkazem"
-
-#: .Waiting+for+all+projects+to+load%E2%80%A6
-msgid "Waiting for all projects to load…"
-msgstr "Čeká se na načtení všech projektů…"
-
-#: .new
-msgid "new"
-msgstr "nový"
-
-#: .Projects
-msgid "Projects"
-msgstr "Projekty"
-
-#: .Library
-msgid "Library"
-msgstr "Knihovna"
-
-#: .Projects+(legacy)
-msgid "Projects (legacy)"
-msgstr "Projekty (dřívější)"
-
-#: .Source
-msgid "Source"
-msgstr "Zdroj"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "selhalo vypsání položek"
-
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "Obnovte prosím stránku"
-
-#: .Log+In
-msgid "Log In"
-msgstr "Přihlášení"
-
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "Nastavení účtu"
-
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "Podmínky služby"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "Zásady ochrany osobních údajů"
-
-#: .Logout
-msgid "Logout"
-msgstr "Odhlásit"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "Prohledat mou knihovnu"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "Prohledat veřejné sbírky"
-
-#: .Search+Projects
-msgid "Search Projects"
-msgstr "Hledat projekty"
-
-#: .submissions
-msgid "submissions"
-msgstr "příspěvky"
-
-#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
-msgid ""
-"The stored permissions are invalid. Please assign them again. If this "
-"problem persists, contact help@kobotoolbox.org"
-msgstr "Uložená oprávnění jsou neplatná. Přiřaďte je znovu. Pokud problém přetrvává, obraťte se na help@kobotoolbox.org"
-
-#: .Table
-msgid "Table"
-msgstr "Tabulka"
-
-#: .Reports
-msgid "Reports"
-msgstr "Hlášení"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "Galerie"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "Stahování"
-
-#: .Map
-msgid "Map"
-msgstr "Mapa"
-
-#: .Summary
-msgid "Summary"
-msgstr "Souhrn"
-
-#: .Form
-msgid "Form"
-msgstr "Formulář"
-
-#: .Settings
-msgid "Settings"
-msgstr "Nastavení"
-
-#: .General
-msgid "General"
-msgstr "Obecné"
-
-#: .Media
-msgid "Media"
-msgstr "Média"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "Sdílení"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "Spojit projekty"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "Služby REST"
-
-#: .URL+is+empty%21
-msgid "URL is empty!"
-msgstr "Adresa URL je prázdná!"
-
-#: .Add
-msgid "Add"
-msgstr "Přidat"
-
-#: .You+must+redeploy+this+form+to+see+media+changes.
-msgid "You must redeploy this form to see media changes."
-msgstr "Pokud chcete zobrazit změny médií, musíte tento formulář znovu zveřejnit."
-
-#: .Attach+files
-msgid "Attach files"
-msgstr "Přiložit soubory"
-
-#: .Learn+more+about+form+media
-msgid "Learn more about form media"
-msgstr "Další informace o médiích formuláře"
-
-#: .Drag+and+drop+files+here
-msgid "Drag and drop files here"
-msgstr "Sem přetáhněte soubory"
-
-#: .or
-msgid "or"
-msgstr "nebo"
-
-#: .click+here+to+browse
-msgid "click here to browse"
-msgstr "zde klikněte na tlačítko Procházet"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "Nahrávání souboru…"
-
-#: .You+can+also+add+files+using+a+URL
-msgid "You can also add files using a URL"
-msgstr "Soubory můžete přidávat také pomocí adresy URL"
-
-#: .Paste+URL+here
-msgid "Paste URL here"
-msgstr "Sem vložte adresu URL"
-
-#: .Attached+files
-msgid "Attached files"
-msgstr "Přiložené soubory"
-
-#: .loading+media
-msgid "loading media"
-msgstr "načítání médií"
-
-#: .No+files+uploaded+yet
-msgid "No files uploaded yet"
-msgstr "Zatím nebyly nahrány žádné soubory"
-
-#: .Create
-msgid "Create"
-msgstr "Vytvořit"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "Čekejte prosím…"
-
-#: .Failed+to+create+new+asset%21
-msgid "Failed to create new asset!"
-msgstr "Nepodařilo se vytvořit novou položku!"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "zkopírováno do schránky"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "Klon"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "Zadejte název klonované položky (##ASSET_TYPE##). Pro zachování původního názvu ponechte pole prázdné."
-
-#: .Ok
-msgid "Ok"
-msgstr "OK"
-
-#: .Create+new+template+from+this+project
-msgid "Create new template from this project"
-msgstr "Vytvoření nové šablony z tohoto projektu"
-
-#: .Enter+the+name+of+the+new+template.
-msgid "Enter the name of the new template."
-msgstr "Zadejte název nové šablony."
-
-#: .deploying+to+kobocat...
-msgid "deploying to kobocat..."
-msgstr "zveřejňuje se na kobocat…"
-
-#: .deployed+form
-msgid "deployed form"
-msgstr "zveřejněný formulář"
-
-#: .Overwrite+existing+deployment
-msgid "Overwrite existing deployment"
-msgstr "Přepsat stávající zveřejnění"
-
-#: .Deploying...
-msgid "Deploying..."
-msgstr "Zveřejňování…"
-
-#: .redeployed+form
-msgid "redeployed form"
-msgstr "znovu zveřejněný formulář"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "## souborů"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "Import souboru XLSForm se nezdařil. Zkontrolujte, zda jsou soubor XLSForm a/nebo adresa URL platné, a zkuste to znovu pomocí ikony „Nahradit formulář“."
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "Import XLS dokončen"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "Vaše nahraná data se zpracovávají. Může to chvíli trvat."
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "Vaše nahraná data jsou zařazena do fronty ke zpracování. Může to chvíli trvat."
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "Import selhal!"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "Nepovedlo se vytvořit import."
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "Chyba při nahrávání: nelze rozpoznat soubor aplikace Excel."
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "Název nahraného souboru: "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "Nepodařilo se rozpoznat položku(y)."
-
-#: .Cloning...
-msgid "Cloning..."
-msgstr "Klonování…"
-
-#: .cloned+%23%23ASSET_TYPE%23%23+created
-msgid "cloned ##ASSET_TYPE## created"
-msgstr "klon položky (##ASSET_TYPE##) vytvořen"
-
-#: .Create+new+project+from+this+template
-msgid "Create new project from this template"
-msgstr "Vytvoření nového projektu z této šablony"
-
-#: .Enter+the+name+of+the+new+project.
-msgid "Enter the name of the new project."
-msgstr "Zadejte název nového projektu."
-
-#: .%23%23ASSET_TYPE%23%23+deleted+permanently
-msgid "##ASSET_TYPE## deleted permanently"
-msgstr "Položka (##ASSET_TYPE##) byla trvale smazána"
-
-#: .You+are+about+to+permanently+delete+this+item+from+your+library.
-msgid "You are about to permanently delete this item from your library."
-msgstr "Tuto položku se chystáte trvale smazat ze své knihovny."
-
-#: .You+are+about+to+permanently+delete+this+draft.
-msgid "You are about to permanently delete this draft."
-msgstr "Chystáte se tento koncept trvale smazat."
-
-#: .You+are+about+to+permanently+delete+this+form.
-msgid "You are about to permanently delete this form."
-msgstr "Chystáte se tento formulář trvale smazat."
-
-#: .All+data+gathered+for+this+form+will+be+deleted.
-msgid "All data gathered for this form will be deleted."
-msgstr "Všechny údaje shromážděné pro tento formulář budou vymazány."
-
-#: .The+form+associated+with+this+project+will+be+deleted.
-msgid "The form associated with this project will be deleted."
-msgstr "Formulář spojený s tímto projektem bude vymazán."
-
-#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
-msgid ""
-"I understand that if I delete this project I will not be able to recover it."
-msgstr "Chápu, že pokud tento projekt smažu, nebude ho možné obnovit."
-
-#: .Delete
-msgid "Delete"
-msgstr "Smazat"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "Archivovat projekt"
-
-#: .Are+you+sure+you+want+to+archive+this+project%3F
-msgid "Are you sure you want to archive this project?"
-msgstr "Opravdu chcete tento projekt archivovat?"
-
-#: .Your+form+will+not+accept+submissions+while+it+is+archived.
-msgid "Your form will not accept submissions while it is archived."
-msgstr "Dokud je váš formulář archivován, nebudou přijímány příspěvky."
-
-#: .Archive
-msgid "Archive"
-msgstr "Archivovat"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "Zrušit archivaci projektu"
-
-#: .Are+you+sure+you+want+to+unarchive+this+project%3F
-msgid "Are you sure you want to unarchive this project?"
-msgstr "Opravdu chcete zrušit archivaci tohoto projektu?"
-
-#: .Unarchive
-msgid "Unarchive"
-msgstr "Zrušit archivaci"
-
-#: .Remove+shared+form
-msgid "Remove shared form"
-msgstr "Odebrat sdílený formulář"
-
-#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
-msgid "Are you sure you want to remove this shared form?"
-msgstr "Opravdu chcete tento sdílený formulář odebrat?"
-
-#: .Remove
-msgid "Remove"
-msgstr "Odebrat"
-
 #: .Import
 msgid "Import"
 msgstr "Import"
@@ -1455,6 +1044,10 @@ msgstr "Chyba: položku se nepodařilo vytvořit."
 msgid "Error: new project could not be created."
 msgstr "Chyba: nový projekt se nepodařilo vytvořit."
 
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "Čekejte prosím…"
+
 #: .Retrieving+form,+please+wait...
 msgid "Retrieving form, please wait..."
 msgstr "Načítání formuláře, počkejte prosím…"
@@ -1462,6 +1055,10 @@ msgstr "Načítání formuláře, počkejte prosím…"
 #: .Failed+to+reload+project+after+import%21
 msgid "Failed to reload project after import!"
 msgstr "Po importu se nepodařilo projekt znovu načíst!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "Import selhal!"
 
 #: .Could+not+initialize+XLSForm+import%21
 msgid "Could not initialize XLSForm import!"
@@ -1579,6 +1176,14 @@ msgstr "Uveďte, zda váš projekt shromažďuje osobní údaje"
 msgid "Save"
 msgstr "Uložit"
 
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "Zrušit archivaci projektu"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "Archivovat projekt"
+
 #: .Archive+project+to+stop+accepting+submissions.
 msgid "Archive project to stop accepting submissions."
 msgstr "Archivujte projekt, aby přestal přijímat příspěvky."
@@ -1599,6 +1204,476 @@ msgstr "Zpět"
 msgid ""
 "Form replacing is not available due to form's Locking Profile restrictions."
 msgstr "Nahrazení formuláře není k dispozici z důvodu Uzamknutého profilu."
+
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "Nepodařilo se získat identifikátory UUID příspěvků."
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "Nepodařilo se získat příspěvek."
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "Nepodařilo se aktualizovat příspěvky."
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "Nepodařilo se aktualizovat některé hodnoty příspěvků."
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "Nepodařilo se aktualizovat hodnoty příspěvků."
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "Nepodařilo se smazat příspěvky."
+
+#: .Successfuly+removed+from+collection
+msgid "Successfuly removed from collection"
+msgstr "Úspěšně vyřazeno ze sbírky"
+
+#: .Successfuly+moved+to+collection
+msgid "Successfuly moved to collection"
+msgstr "Úspěšně přesunuto do sbírky"
+
+#: .Move+to+collection+failed
+msgid "Move to collection failed"
+msgstr "Přesun do sbírky se nezdařil"
+
+#: .Failed+to+get+the+results
+msgid "Failed to get the results"
+msgstr "Výsledky se nepodařilo získat"
+
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "Média se nepodařilo nahrát"
+
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "Došlo k chybě při získávání vašich médií"
+
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "Média byla úspěšně smazána"
+
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "Média se nepodařilo smazat!"
+
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "Nepodařilo se vytvořit export"
+
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "Nepodařilo se smazat export"
+
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "Nepodařilo se aktualizovat nastavení exportu"
+
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "Nepodařilo se vytvořit nastavení exportu"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "Nepodařilo se smazat nastavení exportu"
+
+#: .Failed+to+attach+to+source
+msgid "Failed to attach to source"
+msgstr "Nepodařilo se připojit ke zdroji"
+
+#: .Failed+to+detach+from+source
+msgid "Failed to detach from source"
+msgstr "Nepodařilo se odpojit od zdroje"
+
+#: .Failed+to+patch+source
+msgid "Failed to patch source"
+msgstr "Nepodařilo se opravit zdroj"
+
+#: .Failed+to+retrieve+sharing+enabled+assets
+msgid "Failed to retrieve sharing enabled assets"
+msgstr "Nepodařilo se načíst položky s povoleným sdílením"
+
+#: .Failed+to+toggle+sharing
+msgid "Failed to toggle sharing"
+msgstr "Nepodařilo se přepnout sdílení"
+
+#: .Failed+to+update+column+filters
+msgid "Failed to update column filters"
+msgstr "Nepodařilo se aktualizovat filtry sloupců"
+
+#: .Create
+msgid "Create"
+msgstr "Vytvořit"
+
+#: .Failed+to+create+new+asset%21
+msgid "Failed to create new asset!"
+msgstr "Nepodařilo se vytvořit novou položku!"
+
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "zkopírováno do schránky"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "Klon"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "Zadejte název klonované položky (##ASSET_TYPE##). Pro zachování původního názvu ponechte pole prázdné."
+
+#: .Ok
+msgid "Ok"
+msgstr "OK"
+
+#: .Create+new+template+from+this+project
+msgid "Create new template from this project"
+msgstr "Vytvoření nové šablony z tohoto projektu"
+
+#: .Enter+the+name+of+the+new+template.
+msgid "Enter the name of the new template."
+msgstr "Zadejte název nové šablony."
+
+#: .deploying+to+kobocat...
+msgid "deploying to kobocat..."
+msgstr "zveřejňuje se na kobocat…"
+
+#: .deployed+form
+msgid "deployed form"
+msgstr "zveřejněný formulář"
+
+#: .Overwrite+existing+deployment
+msgid "Overwrite existing deployment"
+msgstr "Přepsat stávající zveřejnění"
+
+#: .Deploying...
+msgid "Deploying..."
+msgstr "Zveřejňování…"
+
+#: .redeployed+form
+msgid "redeployed form"
+msgstr "znovu zveřejněný formulář"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "## souborů"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "Import souboru XLSForm se nezdařil. Zkontrolujte, zda jsou soubor XLSForm a/nebo adresa URL platné, a zkuste to znovu pomocí ikony „Nahradit formulář“."
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "Import XLS dokončen"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "Vaše nahraná data se zpracovávají. Může to chvíli trvat."
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "Vaše nahraná data jsou zařazena do fronty ke zpracování. Může to chvíli trvat."
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "Nepovedlo se vytvořit import."
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "Chyba při nahrávání: nelze rozpoznat soubor aplikace Excel."
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "Název nahraného souboru: "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "Nepodařilo se rozpoznat položku(y)."
+
+#: .Cloning...
+msgid "Cloning..."
+msgstr "Klonování…"
+
+#: .cloned+%23%23ASSET_TYPE%23%23+created
+msgid "cloned ##ASSET_TYPE## created"
+msgstr "klon položky (##ASSET_TYPE##) vytvořen"
+
+#: .Create+new+project+from+this+template
+msgid "Create new project from this template"
+msgstr "Vytvoření nového projektu z této šablony"
+
+#: .Enter+the+name+of+the+new+project.
+msgid "Enter the name of the new project."
+msgstr "Zadejte název nového projektu."
+
+#: .%23%23ASSET_TYPE%23%23+deleted+permanently
+msgid "##ASSET_TYPE## deleted permanently"
+msgstr "Položka (##ASSET_TYPE##) byla trvale smazána"
+
+#: .You+are+about+to+permanently+delete+this+item+from+your+library.
+msgid "You are about to permanently delete this item from your library."
+msgstr "Tuto položku se chystáte trvale smazat ze své knihovny."
+
+#: .You+are+about+to+permanently+delete+this+draft.
+msgid "You are about to permanently delete this draft."
+msgstr "Chystáte se tento koncept trvale smazat."
+
+#: .You+are+about+to+permanently+delete+this+form.
+msgid "You are about to permanently delete this form."
+msgstr "Chystáte se tento formulář trvale smazat."
+
+#: .All+data+gathered+for+this+form+will+be+deleted.
+msgid "All data gathered for this form will be deleted."
+msgstr "Všechny údaje shromážděné pro tento formulář budou vymazány."
+
+#: .The+form+associated+with+this+project+will+be+deleted.
+msgid "The form associated with this project will be deleted."
+msgstr "Formulář spojený s tímto projektem bude vymazán."
+
+#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
+msgid ""
+"I understand that if I delete this project I will not be able to recover it."
+msgstr "Chápu, že pokud tento projekt smažu, nebude ho možné obnovit."
+
+#: .Delete
+msgid "Delete"
+msgstr "Smazat"
+
+#: .Are+you+sure+you+want+to+archive+this+project%3F
+msgid "Are you sure you want to archive this project?"
+msgstr "Opravdu chcete tento projekt archivovat?"
+
+#: .Your+form+will+not+accept+submissions+while+it+is+archived.
+msgid "Your form will not accept submissions while it is archived."
+msgstr "Dokud je váš formulář archivován, nebudou přijímány příspěvky."
+
+#: .Archive
+msgid "Archive"
+msgstr "Archivovat"
+
+#: .Are+you+sure+you+want+to+unarchive+this+project%3F
+msgid "Are you sure you want to unarchive this project?"
+msgstr "Opravdu chcete zrušit archivaci tohoto projektu?"
+
+#: .Unarchive
+msgid "Unarchive"
+msgstr "Zrušit archivaci"
+
+#: .Remove+shared+form
+msgid "Remove shared form"
+msgstr "Odebrat sdílený formulář"
+
+#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
+msgid "Are you sure you want to remove this shared form?"
+msgstr "Opravdu chcete tento sdílený formulář odebrat?"
+
+#: .Remove
+msgid "Remove"
+msgstr "Odebrat"
+
+#: .Table
+msgid "Table"
+msgstr "Tabulka"
+
+#: .Reports
+msgid "Reports"
+msgstr "Hlášení"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "Galerie"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "Stahování"
+
+#: .Map
+msgid "Map"
+msgstr "Mapa"
+
+#: .Summary
+msgid "Summary"
+msgstr "Souhrn"
+
+#: .Form
+msgid "Form"
+msgstr "Formulář"
+
+#: .Settings
+msgid "Settings"
+msgstr "Nastavení"
+
+#: .General
+msgid "General"
+msgstr "Obecné"
+
+#: .Media
+msgid "Media"
+msgstr "Média"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "Sdílení"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "Spojit projekty"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "Služby REST"
+
+#: .All+questions
+msgid "All questions"
+msgstr "Všechny otázky"
+
+#: .Image+Gallery
+msgid "Image Gallery"
+msgstr "Galerie obrázků"
+
+#: .From
+msgid "From"
+msgstr "Od"
+
+#: .Between
+msgid "Between"
+msgstr "Mezi"
+
+#: .and
+msgid "and"
+msgstr "a"
+
+#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
+msgid ""
+"The stored permissions are invalid. Please assign them again. If this "
+"problem persists, contact help@kobotoolbox.org"
+msgstr "Uložená oprávnění jsou neplatná. Přiřaďte je znovu. Pokud problém přetrvává, obraťte se na help@kobotoolbox.org"
+
+#: .new
+msgid "new"
+msgstr "nový"
+
+#: .Projects
+msgid "Projects"
+msgstr "Projekty"
+
+#: .Library
+msgid "Library"
+msgstr "Knihovna"
+
+#: .Projects+(legacy)
+msgid "Projects (legacy)"
+msgstr "Projekty (dřívější)"
+
+#: .Source
+msgid "Source"
+msgstr "Zdroj"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "selhalo vypsání položek"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "Obnovte prosím stránku"
+
+#: .Log+In
+msgid "Log In"
+msgstr "Přihlášení"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "Nastavení účtu"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "Podmínky služby"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "Zásady ochrany osobních údajů"
+
+#: .Logout
+msgid "Logout"
+msgstr "Odhlásit"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "Prohledat mou knihovnu"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "Prohledat veřejné sbírky"
+
+#: .Search+Projects
+msgid "Search Projects"
+msgstr "Hledat projekty"
+
+#: .submissions
+msgid "submissions"
+msgstr "příspěvky"
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "Pokud se domníváte, že se jedná o chybu, zkuste se přihlásit pomocí tlačítka v záhlaví nebo [kontaktujte tým podpory]."
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "Pokud se domníváte, že se jedná o chybu, kontaktujte [tým podpory]."
+
+#: .Access+denied
+msgid "Access denied"
+msgstr "Přístup odepřen"
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "Buď nemáte přístup k této stránce, nebo tato stránka prostě neexistuje."
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "Další podrobnosti:"
+
+#: .This+field+is+required.
+msgid "This field is required."
+msgstr "Toto pole je povinné."
+
+#: .This+field+must+match+the+Verify+Password+field.
+msgid "This field must match the Verify Password field."
+msgstr "Toto pole musí odpovídat poli Ověřit heslo."
+
+#: .Save+Password
+msgid "Save Password"
+msgstr "Uložit heslo"
+
+#: .Reset+Password
+msgid "Reset Password"
+msgstr "Obnovit heslo"
+
+#: .Current+Password
+msgid "Current Password"
+msgstr "Aktuální heslo"
+
+#: .Forgot+Password%3F
+msgid "Forgot Password?"
+msgstr "Zapomenuté heslo?"
+
+#: .New+Password
+msgid "New Password"
+msgstr "Nové heslo"
+
+#: .Verify+Password
+msgid "Verify Password"
+msgstr "Ověřit heslo"
 
 #: .Success%21
 msgid "Success!"
@@ -1679,311 +1754,6 @@ msgstr "Zavřít tabulku překladů?"
 #: .You+will+lose+all+unsaved+changes.
 msgid "You will lose all unsaved changes."
 msgstr "Ztratíte všechny neuložené změny."
-
-#: .All+questions
-msgid "All questions"
-msgstr "Všechny otázky"
-
-#: .Image+Gallery
-msgid "Image Gallery"
-msgstr "Galerie obrázků"
-
-#: .From
-msgid "From"
-msgstr "Od"
-
-#: .Between
-msgid "Between"
-msgstr "Mezi"
-
-#: .and
-msgid "and"
-msgstr "a"
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "Pokud se domníváte, že se jedná o chybu, zkuste se přihlásit pomocí tlačítka v záhlaví nebo [kontaktujte tým podpory]."
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "Pokud se domníváte, že se jedná o chybu, kontaktujte [tým podpory]."
-
-#: .Access+denied
-msgid "Access denied"
-msgstr "Přístup odepřen"
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "Buď nemáte přístup k této stránce, nebo tato stránka prostě neexistuje."
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "Další podrobnosti:"
-
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "Nepodařilo se získat údaje o vlastníkovi."
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "Datum vytvoření"
-
-#: .Owner
-msgid "Owner"
-msgstr "Vlastník"
-
-#: .Tags
-msgid "Tags"
-msgstr "Tagy"
-
-#: .Items
-msgid "Items"
-msgstr "Položky"
-
-#: .Organization
-msgid "Organization"
-msgstr "Organizace"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "Skrýt podrobnosti"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "Zobrazit všechny podrobnosti"
-
-#: .Name
-msgid "Name"
-msgstr "Jméno"
-
-#: .Type
-msgid "Type"
-msgstr "Typ"
-
-#: .Shared+by
-msgid "Shared by"
-msgstr "Sdíleno"
-
-#: .Created
-msgid "Created"
-msgstr "Vytvořeno"
-
-#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
-msgid ""
-"Let's get started by creating your first project. Click the New button to "
-"create a new form."
-msgstr "Začněme vytvořením prvního projektu. Klepnutím na tlačítko Nový vytvoříte nový formulář."
-
-#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
-msgid ""
-"Advanced users: You can also drag and drop XLSForms here and they will be "
-"uploaded and converted to projects."
-msgstr "Pokročilí uživatelé: Sem můžete také přetáhnout soubory XLSForm, aby se nahrály a převedly na projekty."
-
-#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
-msgid ""
-"Let's get started by creating your first library question or question block."
-" Click the New button to create a new question or block."
-msgstr "Začněme vytvořením první otázky nebo bloku otázek v knihovně. Klepnutím na tlačítko Nový vytvoříte novou otázku nebo blok."
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "Nepodařilo se změnit veřejný stav položky."
-
-#: .Make+public
-msgid "Make public"
-msgstr "Zveřejnit"
-
-#: .Make+private
-msgid "Make private"
-msgstr "Nastavit jako soukromé"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "Tato položka (##asset_type##) je prázdná."
-
-#: .Show+less
-msgid "Show less"
-msgstr "Zobrazit méně"
-
-#: .Show+more
-msgid "Show more"
-msgstr "Zobrazit více"
-
-#: .Vertical
-msgid "Vertical"
-msgstr "Sloupcový"
-
-#: .Donut
-msgid "Donut"
-msgstr "Prstencový"
-
-#: .Area
-msgid "Area"
-msgstr "Plošný"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "Pruhový"
-
-#: .Pie
-msgid "Pie"
-msgstr "Výsečový"
-
-#: .Line
-msgid "Line"
-msgstr "Spojnicový"
-
-#: .Unlabeled
-msgid "Unlabeled"
-msgstr "Neoznačeno"
-
-#: .Include+the+following+questions
-msgid "Include the following questions:"
-msgstr "Zahrnout následující otázky:"
-
-#: .Chart+Type
-msgid "Chart Type"
-msgstr "Typ grafu"
-
-#: .Colors
-msgid "Colors"
-msgstr "Barvy"
-
-#: .No+grouping
-msgid "No grouping"
-msgstr "Bez seskupení"
-
-#: .Group+By
-msgid "Group By"
-msgstr "Seskupit podle"
-
-#: .Translation
-msgid "Translation"
-msgstr "Překlad"
-
-#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
-msgid "This project has no submitted data. Please collect some and try again."
-msgstr "U tohoto projektu nebyla obdržena žádná data. Prosím shromážděte nějaká a zkuste to znovu."
-
-#: .results
-msgid "results"
-msgstr "výsledky"
-
-#: .Edit
-msgid "Edit"
-msgstr "Upravit"
-
-#: .Validation
-msgid "Validation"
-msgstr "Ověření"
-
-#: .Show+All
-msgid "Show All"
-msgstr "Zobrazit vše"
-
-#: .Search
-msgid "Search"
-msgstr "Hledat"
-
-#: .Display+options
-msgid "Display options"
-msgstr "Možnosti zobrazení"
-
-#: .Prev
-msgid "Prev"
-msgstr "Náhled"
-
-#: .Your+filters+returned+no+submissions.
-msgid "Your filters returned no submissions."
-msgstr "S použitými filtry nebyly nalezeny žádné příspěvky."
-
-#: .Page
-msgid "Page"
-msgstr "Strana"
-
-#: .rows
-msgid "rows"
-msgstr "řádky"
-
-#: .My+Projects
-msgid "My Projects"
-msgstr "Moje projekty"
-
-#: .Is
-msgid "Is"
-msgstr "Je"
-
-#: .Is+not
-msgid "Is not"
-msgstr "Není"
-
-#: .Contains
-msgid "Contains"
-msgstr "Obsahuje"
-
-#: .Does+not+contain
-msgid "Does not contain"
-msgstr "Neobsahuje"
-
-#: .Starts+with
-msgid "Starts with"
-msgstr "Začíná na"
-
-#: .Ends+with
-msgid "Ends with"
-msgstr "Končí na"
-
-#: .Is+empty
-msgid "Is empty"
-msgstr "Je prázdný"
-
-#: .Is+not+empty
-msgid "Is not empty"
-msgstr "Není prázdný"
-
-#: .Project+name
-msgid "Project name"
-msgstr "Název projektu"
-
-#: .Status
-msgid "Status"
-msgstr "Stav"
-
-#: .Owner+username
-msgid "Owner username"
-msgstr "Uživatelské jméno vlastníka"
-
-#: .Owner+full+name
-msgid "Owner full name"
-msgstr "Celé jméno vlastníka"
-
-#: .Owner+email
-msgid "Owner email"
-msgstr "E-mail vlastníka"
-
-#: .Owner+organization
-msgid "Owner organization"
-msgstr "Organizace vlastníka"
-
-#: .Date+modified
-msgid "Date modified"
-msgstr "Datum úpravy"
-
-#: .Date+deployed
-msgid "Date deployed"
-msgstr "Datum zveřejnění"
-
-#: .Countries
-msgid "Countries"
-msgstr "Země"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "Nadřazená sbírka"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2081,41 +1851,195 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "Propojte s jiným projektem (projekty) pro import dynamických dat do tohoto projektu. Zjistěte si další informace o připojování dynamických dat"
 
-#: .DONE
-msgid "DONE"
-msgstr "HOTOVO"
+#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
+msgid "This project has no submitted data. Please collect some and try again."
+msgstr "U tohoto projektu nebyla obdržena žádná data. Prosím shromážděte nějaká a zkuste to znovu."
 
-#: .This+field+is+required.
-msgid "This field is required."
-msgstr "Toto pole je povinné."
+#: .results
+msgid "results"
+msgstr "výsledky"
 
-#: .This+field+must+match+the+Verify+Password+field.
-msgid "This field must match the Verify Password field."
-msgstr "Toto pole musí odpovídat poli Ověřit heslo."
+#: .Edit
+msgid "Edit"
+msgstr "Upravit"
 
-#: .Save+Password
-msgid "Save Password"
-msgstr "Uložit heslo"
+#: .Validation
+msgid "Validation"
+msgstr "Ověření"
 
-#: .Reset+Password
-msgid "Reset Password"
-msgstr "Obnovit heslo"
+#: .Show+All
+msgid "Show All"
+msgstr "Zobrazit vše"
 
-#: .Current+Password
-msgid "Current Password"
-msgstr "Aktuální heslo"
+#: .Search
+msgid "Search"
+msgstr "Hledat"
 
-#: .Forgot+Password%3F
-msgid "Forgot Password?"
-msgstr "Zapomenuté heslo?"
+#: .Display+options
+msgid "Display options"
+msgstr "Možnosti zobrazení"
 
-#: .New+Password
-msgid "New Password"
-msgstr "Nové heslo"
+#: .Prev
+msgid "Prev"
+msgstr "Náhled"
 
-#: .Verify+Password
-msgid "Verify Password"
-msgstr "Ověřit heslo"
+#: .Your+filters+returned+no+submissions.
+msgid "Your filters returned no submissions."
+msgstr "S použitými filtry nebyly nalezeny žádné příspěvky."
+
+#: .Page
+msgid "Page"
+msgstr "Strana"
+
+#: .rows
+msgid "rows"
+msgstr "řádky"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "Tato položka (##asset_type##) je prázdná."
+
+#: .Show+less
+msgid "Show less"
+msgstr "Zobrazit méně"
+
+#: .Show+more
+msgid "Show more"
+msgstr "Zobrazit více"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "Nepodařilo se změnit veřejný stav položky."
+
+#: .Make+public
+msgid "Make public"
+msgstr "Zveřejnit"
+
+#: .Make+private
+msgid "Make private"
+msgstr "Nastavit jako soukromé"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "Nepodařilo se získat údaje o vlastníkovi."
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "Datum vytvoření"
+
+#: .Owner
+msgid "Owner"
+msgstr "Vlastník"
+
+#: .Tags
+msgid "Tags"
+msgstr "Tagy"
+
+#: .Items
+msgid "Items"
+msgstr "Položky"
+
+#: .Organization
+msgid "Organization"
+msgstr "Organizace"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "Skrýt podrobnosti"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "Zobrazit všechny podrobnosti"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "Sloupcový"
+
+#: .Donut
+msgid "Donut"
+msgstr "Prstencový"
+
+#: .Area
+msgid "Area"
+msgstr "Plošný"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "Pruhový"
+
+#: .Pie
+msgid "Pie"
+msgstr "Výsečový"
+
+#: .Line
+msgid "Line"
+msgstr "Spojnicový"
+
+#: .Unlabeled
+msgid "Unlabeled"
+msgstr "Neoznačeno"
+
+#: .Include+the+following+questions
+msgid "Include the following questions:"
+msgstr "Zahrnout následující otázky:"
+
+#: .Chart+Type
+msgid "Chart Type"
+msgstr "Typ grafu"
+
+#: .Colors
+msgid "Colors"
+msgstr "Barvy"
+
+#: .Name
+msgid "Name"
+msgstr "Jméno"
+
+#: .Type
+msgid "Type"
+msgstr "Typ"
+
+#: .Shared+by
+msgid "Shared by"
+msgstr "Sdíleno"
+
+#: .Created
+msgid "Created"
+msgstr "Vytvořeno"
+
+#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
+msgid ""
+"Let's get started by creating your first project. Click the New button to "
+"create a new form."
+msgstr "Začněme vytvořením prvního projektu. Klepnutím na tlačítko Nový vytvoříte nový formulář."
+
+#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
+msgid ""
+"Advanced users: You can also drag and drop XLSForms here and they will be "
+"uploaded and converted to projects."
+msgstr "Pokročilí uživatelé: Sem můžete také přetáhnout soubory XLSForm, aby se nahrály a převedly na projekty."
+
+#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
+msgid ""
+"Let's get started by creating your first library question or question block."
+" Click the New button to create a new question or block."
+msgstr "Začněme vytvořením první otázky nebo bloku otázek v knihovně. Klepnutím na tlačítko Nový vytvoříte novou otázku nebo blok."
+
+#: .No+grouping
+msgid "No grouping"
+msgstr "Bez seskupení"
+
+#: .Group+By
+msgid "Group By"
+msgstr "Seskupit podle"
+
+#: .Translation
+msgid "Translation"
+msgstr "Překlad"
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "Nadřazená sbírka"
 
 #: .Subscribers
 msgid "Subscribers"
@@ -2218,32 +2142,157 @@ msgstr "Město"
 msgid "Social"
 msgstr "Sociální sítě"
 
-#: .Community+plan+(free+access)
-msgid "Community plan (free access)"
-msgstr "Komunitní tarif (přístup zdarma)"
-
-#: .Free+access+to+all+services.+5GB+of+media+attachments+per+account,+10,000+submissions+per+month,+as+well+as+25+minutes+of+automatic+speech+recognition+and+20,000+characters+of+machine+translation+per+month.
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"Free access to all services. 5GB of media attachments per account, 10,000 "
-"submissions per month, as well as 25 minutes of automatic speech recognition"
-" and 20,000 characters of machine translation per month."
-msgstr "Volný přístup ke všem službám. 5 GB mediálních příloh na účet, 10 000 příspěvků měsíčně, a také 25 minut automatického rozpoznávání řeči a 20 000 znaků strojového překladu měsíčně."
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr ""
 
-#: .Current+Plan
-msgid "Current Plan"
-msgstr "Aktuální tarif"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr ""
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr ""
+
+#: .Annual
+msgid "Annual"
+msgstr ""
+
+#: .Monthly
+msgid "Monthly"
+msgstr ""
+
+#: .your+plan
+msgid "your plan"
+msgstr ""
+
+#: .Free
+msgid "Free"
+msgstr ""
 
 #: .Upgrade
 msgid "Upgrade"
 msgstr "Upgradovat"
 
-#: .Add+ons+and+upgrades+to+your+plan
-msgid "Add ons and upgrades to your plan"
-msgstr "Doplňky a upgrady vašeho tarifu"
+#: .Manage
+msgid "Manage"
+msgstr ""
+
+#: .Change+plan
+msgid "Change plan"
+msgstr ""
+
+#: .Need+More%3F
+msgid "Need More?"
+msgstr ""
+
+#: .We+offer+several+add-on+options+to+increase+your+limits+or+the+capacity+of+certain+features+for+a+period+of+time,+depending+on+which+plan+you+use.
+msgid ""
+"We offer several add-on options to increase your limits or the capacity of "
+"certain features for a period of time, depending on which plan you use."
+msgstr ""
+
+#: .If+your+organization+has+larger+or+more+specific+needs,+please+contact+our+team+to+learn+about+our+enterprise+options.
+msgid ""
+"If your organization has larger or more specific needs, please contact our "
+"team to learn about our enterprise options."
+msgstr ""
+
+#: .Get+in+touch+for+Enterprise+options
+msgid "Get in touch for Enterprise options"
+msgstr ""
+
+#: .Collapse
+msgid "Collapse"
+msgstr ""
+
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr ""
+
+#: .My+Projects
+msgid "My Projects"
+msgstr "Moje projekty"
+
+#: .Is
+msgid "Is"
+msgstr "Je"
+
+#: .Is+not
+msgid "Is not"
+msgstr "Není"
+
+#: .Contains
+msgid "Contains"
+msgstr "Obsahuje"
+
+#: .Does+not+contain
+msgid "Does not contain"
+msgstr "Neobsahuje"
+
+#: .Starts+with
+msgid "Starts with"
+msgstr "Začíná na"
+
+#: .Ends+with
+msgid "Ends with"
+msgstr "Končí na"
+
+#: .Is+empty
+msgid "Is empty"
+msgstr "Je prázdný"
+
+#: .Is+not+empty
+msgid "Is not empty"
+msgstr "Není prázdný"
+
+#: .Project+name
+msgid "Project name"
+msgstr "Název projektu"
+
+#: .Status
+msgid "Status"
+msgstr "Stav"
+
+#: .Owner+username
+msgid "Owner username"
+msgstr "Uživatelské jméno vlastníka"
+
+#: .Owner+full+name
+msgid "Owner full name"
+msgstr "Celé jméno vlastníka"
+
+#: .Owner+email
+msgid "Owner email"
+msgstr "E-mail vlastníka"
+
+#: .Owner+organization
+msgid "Owner organization"
+msgstr "Organizace vlastníka"
+
+#: .Date+modified
+msgid "Date modified"
+msgstr "Datum úpravy"
+
+#: .Date+deployed
+msgid "Date deployed"
+msgstr "Datum zveřejnění"
+
+#: .Countries
+msgid "Countries"
+msgstr "Země"
 
 #: .Security
 msgid "Security"
 msgstr "Zabezpečení"
+
+#: .DONE
+msgid "DONE"
+msgstr "HOTOVO"
 
 #: .Previous
 msgid "Previous"
@@ -2297,13 +2346,190 @@ msgstr "Sdílet"
 msgid "View containing Collection"
 msgstr "Zobrazit obsahující sbírku"
 
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "otázka byla přidána do knihovny"
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr ""
 
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "skupina byla přidána do knihovny jako blok"
+#: .Item
+msgid "Item"
+msgstr "Položka"
+
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "z ##total_count##"
+
+#: .Transcript
+msgid "Transcript"
+msgstr "Přepis"
+
+#: .Translations
+msgid "Translations"
+msgstr "Překlady"
+
+#: .Analysis
+msgid "Analysis"
+msgstr "Analýza"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "naposledy upraveno ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "vytvořeno ##date##"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "oprávnění byla úspěšně zkopírována"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "Chystáte se zkopírovat oprávnění z ##source to ##target. Tuto akci nelze vrátit zpět."
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "Opravdu chcete zkopírovat oprávnění?"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "Pokračovat"
+
+#: .Unlabelled
+msgid "Unlabelled"
+msgstr "Bez označení"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "Kopírovat tým z jiného projektu"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "Tím se přepíší všechna stávající nastavení sdílení definovaná v tomto projektu."
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "Vyberte zdrojový projekt…"
+
+#: .copy
+msgid "copy"
+msgstr "kopírovat"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "Zadejte uživatelská jména oddělená čárkou"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "Uživatel nenalezen:"
+
+#: .username
+msgid "username"
+msgstr "uživatelské jméno"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "Udělit oprávnění"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "Aktualizovat oprávnění"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "Tento formulář může zobrazit kdokoli"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "Kdokoli si může prohlédnout příspěvky poslané do tohoto formuláře"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "Sdílený odkaz"
+
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "Chcete odejít bez uložení dat?"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "Odebrat oprávnění?"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "Tato akce odebere uživateli ##username## všechna oprávnění"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
+msgid "##permission_label## (##username_list##)"
+msgstr "##permission_label## (##username_list##)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
+msgid "##permission_label## (##username_list## and 1 other)"
+msgstr "##permission_label## (##username_list## a 1 další)"
+
+#: .is+owner
+msgid "is owner"
+msgstr "je vlastník"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "Nelze načíst služby REST"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "Opravdu chcete smazat ##target?"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "Chystáte se smazat ##target. Tuto akci nelze vzít zpět."
+
+#: .Confirm
+msgid "Confirm"
+msgstr "Potvrdit"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "Registrovat novou službu"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "Tento projekt zatím nemá žádné služby REST!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "Služby REST můžete použít k automatickému odesílání příspěvků do aplikace třetí strany."
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "Více informací"
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "Služby REST: ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "Potřebujete pomoc?"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "Název služby"
+
+#: .Success
+msgid "Success"
+msgstr "Povedlo se"
+
+#: .Pending
+msgid "Pending"
+msgstr "Čekající"
+
+#: .Failed
+msgid "Failed"
+msgstr "Selhalo"
 
 #: .Paste+your+formatted+table+from+excel+in+the+box+below.
 msgid "Paste your formatted table from excel in the box below."
@@ -2336,6 +2562,54 @@ msgstr "blok ___ otázek"
 #: .search+library
 msgid "search library"
 msgstr "prohledat knihovnu"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "Nelze načíst službu REST"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "Nelze načíst protokoly služby REST"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "Podrobnosti selhání příspěvku (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "Zpět ke službám REST"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "Načítání…"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "Zatím nejsou k dispozici žádné protokoly"
+
+#: .Submission
+msgid "Submission"
+msgstr "Příspěvek"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "Opakovat všechny příspěvky"
+
+#: .Date
+msgid "Date"
+msgstr "Datum"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "Čekající (##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "Opakovat příspěvek"
+
+#: .More+info
+msgid "More info"
+msgstr "Více informací"
 
 #: .Marker+Colors
 msgid "Marker Colors"
@@ -2419,202 +2693,13 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "Ve výchozím nastavení je u mapy limit nejnovějších podání omezen na ##QUERY_LIMIT_DEFAULT##. Tento limit můžete dočasně zvýšit na jinou hodnotu. Limit se obnoví vždy, když mapu znovu otevřete."
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "oprávnění byla úspěšně zkopírována"
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "otázka byla přidána do knihovny"
 
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "Chystáte se zkopírovat oprávnění z ##source to ##target. Tuto akci nelze vrátit zpět."
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "Opravdu chcete zkopírovat oprávnění?"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "Pokračovat"
-
-#: .Unlabelled
-msgid "Unlabelled"
-msgstr "Bez označení"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "Kopírovat tým z jiného projektu"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "Tím se přepíší všechna stávající nastavení sdílení definovaná v tomto projektu."
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "Vyberte zdrojový projekt…"
-
-#: .copy
-msgid "copy"
-msgstr "kopírovat"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "Nelze načíst služby REST"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "Opravdu chcete smazat ##target?"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "Chystáte se smazat ##target. Tuto akci nelze vzít zpět."
-
-#: .Confirm
-msgid "Confirm"
-msgstr "Potvrdit"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "Registrovat novou službu"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "Tento projekt zatím nemá žádné služby REST!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "Služby REST můžete použít k automatickému odesílání příspěvků do aplikace třetí strany."
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "Více informací"
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "Služby REST: ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "Potřebujete pomoc?"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "Název služby"
-
-#: .Success
-msgid "Success"
-msgstr "Povedlo se"
-
-#: .Pending
-msgid "Pending"
-msgstr "Čekající"
-
-#: .Failed
-msgid "Failed"
-msgstr "Selhalo"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "Nelze načíst službu REST"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "Nelze načíst protokoly služby REST"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "Podrobnosti selhání příspěvku (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "Zpět ke službám REST"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "Načítání…"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "Zatím nejsou k dispozici žádné protokoly"
-
-#: .Submission
-msgid "Submission"
-msgstr "Příspěvek"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "Opakovat všechny příspěvky"
-
-#: .Date
-msgid "Date"
-msgstr "Datum"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "Čekající (##count##×)"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "Opakovat příspěvek"
-
-#: .More+info
-msgid "More info"
-msgstr "Více informací"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "Tento formulář může zobrazit kdokoli"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "Kdokoli si může prohlédnout příspěvky poslané do tohoto formuláře"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "Sdílený odkaz"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "Zadejte uživatelská jména oddělená čárkou"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "Uživatel nenalezen:"
-
-#: .username
-msgid "username"
-msgstr "uživatelské jméno"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "Udělit oprávnění"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "Aktualizovat oprávnění"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "Odebrat oprávnění?"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "Tato akce odebere uživateli ##username## všechna oprávnění"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
-msgid "##permission_label## (##username_list##)"
-msgstr "##permission_label## (##username_list##)"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
-msgid "##permission_label## (##username_list## and 1 other)"
-msgstr "##permission_label## (##username_list## a 1 další)"
-
-#: .is+owner
-msgid "is owner"
-msgstr "je vlastník"
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "skupina byla přidána do knihovny jako blok"
 
 #: .Search...
 msgid "Search..."
@@ -2648,41 +2733,9 @@ msgstr "nalezených položek"
 msgid "expand details"
 msgstr "rozbalit podrobnosti"
 
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr ""
-
-#: .Item
-msgid "Item"
-msgstr "Položka"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "z ##total_count##"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "Přepis"
-
-#: .Translations
-msgid "Translations"
-msgstr "Překlady"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "Analýza"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "naposledy upraveno ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "vytvořeno ##date##"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "Chcete odejít bez uložení dat?"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "Vybrat…"
 
 #: .Audit+settings
 msgid "Audit settings"
@@ -2711,6 +2764,14 @@ msgstr "Povolení nahrávání zvuku na pozadí"
 #: .Audio+quality
 msgid "Audio quality"
 msgstr "Kvalita zvuku"
+
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "Nemáte žádné šablony. Přejděte do knihovny a nějaké si vytvořte."
+
+#: .Template+name
+msgid "Template name"
+msgstr "Název šablony"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -2748,6 +2809,38 @@ msgstr "Uzamknuté funkce"
 #: .Unlocked+functionalities
 msgid "Unlocked functionalities"
 msgstr "Odemknuté funkce"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "Hledat…"
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "Zadejte název ##type##"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "##type## bez názvu"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "sbírka bez názvu"
+
+#: .project+title
+msgid "project title"
+msgstr "název projektu"
+
+#: .Profile
+msgid "Profile"
+msgstr "Profil"
+
+#: .Usage
+msgid "Usage"
+msgstr ""
+
+#: .Your+Plan
+msgid "Your Plan"
+msgstr "Váš tarif"
 
 #: .Incorrect+token
 msgid "Incorrect token"
@@ -2832,61 +2925,72 @@ msgstr "Upozorňujeme, že pro opětovné nastavení dvoufaktorového ověřová
 msgid "Issues with the token"
 msgstr "Problémy s tokenem"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "Vybrat…"
+#: .Type+
+msgid "Type: "
+msgstr "Typ: "
 
-#: .Profile
-msgid "Profile"
-msgstr "Profil"
+#: ..+
+msgid ". "
+msgstr ". "
 
-#: .Usage
-msgid "Usage"
-msgstr ""
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "Počet respondentů, kteří odpověděli na tuto otázku: #1 z #2. "
 
-#: .Your+Plan
-msgid "Your Plan"
-msgstr "Váš tarif"
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# bylo bez dat.)"
 
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "Hledat…"
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "Přepsat styl grafu"
 
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "Zadejte název ##type##"
+#: .Deploy+this+project
+msgid "Deploy this project"
+msgstr "Zveřejnit tento projekt"
 
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "##type## bez názvu"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "Zdroje nápovědy"
 
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "sbírka bez názvu"
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "Centrum nápovědy KoboToolbox"
 
-#: .project+title
-msgid "project title"
-msgstr "název projektu"
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "Rozsáhlá sbírka článků uživatelské podpory a návodů týkajících se služby Kobo"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "Nemáte žádné šablony. Přejděte do knihovny a nějaké si vytvořte."
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "Komunitní fórum KoboToolbox"
 
-#: .Template+name
-msgid "Template name"
-msgstr "Název šablony"
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "Pošlete své dotazy a získejte odpovědi od zkušených uživatelů služby Kobo z celého světa"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "Nepodařilo se aktualizovat tagy"
+#: .Notifications
+msgid "Notifications"
+msgstr "Oznámení"
 
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "Aktualizace…"
+#: .Help
+msgid "Help"
+msgstr "Nápověda"
 
-#: .Update
-msgid "Update"
-msgstr "Aktualizovat"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "Příspěvek ##submissionIndex## z ##submissionTotal##"
+
+#: .download
+msgid "download"
+msgstr "stáhnout"
+
+#: .process
+msgid "process"
+msgstr "zpracovat"
 
 #: .Question+Block
 msgid "Question Block"
@@ -2899,6 +3003,22 @@ msgstr "Šablona"
 #: .Collection
 msgid "Collection"
 msgstr "Sbírka"
+
+#: .Choose+desired+type
+msgid "Choose desired type"
+msgstr "Vyberte požadovaný typ"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "Nepodařilo se aktualizovat tagy"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "Aktualizace…"
+
+#: .Update
+msgid "Update"
+msgstr "Aktualizovat"
 
 #: .%23%23type%23%23+%23%23name%23%23+created
 msgid "##type## ##name## created"
@@ -2982,14 +3102,6 @@ msgstr "Aktualizace importovaných otázek"
 msgid "Accept"
 msgstr "Přijmout"
 
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "Vyberte požadovaný typ"
-
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "Nepodporovaný typ médií: ##QUESTION_TYPE##"
-
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
 msgstr "Došlo k chybě, nastavení tabulky nelze uložit."
@@ -3013,6 +3125,83 @@ msgstr "Zobrazit názvy skupin v záhlaví tabulky"
 #: .Show+HXL+tags
 msgid "Show HXL tags"
 msgstr "Zobrazit tagy HXL"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "Příspěvek se nepodařilo nalézt. Možná byl smazán. ID příspěvku: ##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "Smazat příspěvek?"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "Opravdu chcete tento příspěvek smazat?"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "Tuto akci nelze vrátit zpět"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "Duplikát vytvořen"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "Duplikát záznamu o příspěvku byl úspěšně vytvořen. Novou instanci si můžete prohlédnout níže a pomocí akčních kláves provést změny."
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "Zahodit duplicitní příspěvek"
+
+#: .Discard
+msgid "Discard"
+msgstr "Zahodit"
+
+#: .Language
+msgid "Language:"
+msgstr "Jazyk:"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "Stav ověření:"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "Kliknutím na tlačítko níže načtete nejnovější údaje pro tento příspěvek. "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "Obnovit příspěvek"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "Nahrávání zvuku na pozadí"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "Zobrazit názvy XML"
+
+#: .View
+msgid "View"
+msgstr "Zobrazit"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "Duplikovat"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "Smazat příspěvek"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "Nepodporovaný typ médií: ##QUESTION_TYPE##"
 
 #: .n/d
 msgid "n/d"
@@ -3106,99 +3295,6 @@ msgstr "Frekvence"
 #: .Percentage
 msgid "Percentage"
 msgstr "Procento"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "Příspěvek se nepodařilo nalézt. Možná byl smazán. ID příspěvku: ##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "Smazat příspěvek?"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "Opravdu chcete tento příspěvek smazat?"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "Tuto akci nelze vrátit zpět"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "Duplikát vytvořen"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "Duplikát záznamu o příspěvku byl úspěšně vytvořen. Novou instanci si můžete prohlédnout níže a pomocí akčních kláves provést změny."
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "Zahodit duplicitní příspěvek"
-
-#: .Discard
-msgid "Discard"
-msgstr "Zahodit"
-
-#: .Language
-msgid "Language:"
-msgstr "Jazyk:"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "Stav ověření:"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "Kliknutím na tlačítko níže načtete nejnovější údaje pro tento příspěvek. "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "Obnovit příspěvek"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "Nahrávání zvuku na pozadí"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "Zobrazit názvy XML"
-
-#: .View
-msgid "View"
-msgstr "Zobrazit"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "Duplikovat"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "Smazat příspěvek"
-
-#: .%2A+Save+Changes
-msgid "* Save Changes"
-msgstr "* Uložit změny"
-
-#: .updated+text
-msgid "updated text"
-msgstr "aktualizovaný text"
-
-#: .translation
-msgid "translation"
-msgstr "překlad"
-
-#: .Original+string
-msgid "Original string"
-msgstr "Původní řetězec"
-
-#: .Go+back%3F
-msgid "Go back?"
-msgstr "Vrátit se?"
 
 #: .Delete+language%3F
 msgid "Delete language?"
@@ -3294,9 +3390,25 @@ msgstr "Přidat jazyk"
 msgid "Add a new language"
 msgstr "Přidat nový jazyk"
 
-#: .Deploy+this+project
-msgid "Deploy this project"
-msgstr "Zveřejnit tento projekt"
+#: .%2A+Save+Changes
+msgid "* Save Changes"
+msgstr "* Uložit změny"
+
+#: .updated+text
+msgid "updated text"
+msgstr "aktualizovaný text"
+
+#: .translation
+msgid "translation"
+msgstr "překlad"
+
+#: .Original+string
+msgid "Original string"
+msgstr "Původní řetězec"
+
+#: .Go+back%3F
+msgid "Go back?"
+msgstr "Vrátit se?"
 
 #: .JSON
 msgid "JSON"
@@ -3380,205 +3492,9 @@ msgstr "Přidejte vlastní obálku kolem příspěvku JSON (%SUBMISSION% bude na
 msgid "Add Custom Wrapper"
 msgstr "Přidat vlastní obálku"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "Zdroje nápovědy"
-
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "Centrum nápovědy KoboToolbox"
-
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "Rozsáhlá sbírka článků uživatelské podpory a návodů týkajících se služby Kobo"
-
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "Komunitní fórum KoboToolbox"
-
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "Pošlete své dotazy a získejte odpovědi od zkušených uživatelů služby Kobo z celého světa"
-
-#: .Notifications
-msgid "Notifications"
-msgstr "Oznámení"
-
-#: .Help
-msgid "Help"
-msgstr "Nápověda"
-
-#: .Type+
-msgid "Type: "
-msgstr "Typ: "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "Počet respondentů, kteří odpověděli na tuto otázku: #1 z #2. "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# bylo bez dat.)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "Přepsat styl grafu"
-
-#: .filter
-msgid "filter"
-msgstr "filtrovat"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "Nejsou zde žádné filtry, můžete je přidat níže"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "Přidat filtr"
-
-#: .Apply
-msgid "Apply"
-msgstr "Použít"
-
-#: .fields
-msgid "fields"
-msgstr "pole"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "Příspěvek ##submissionIndex## z ##submissionTotal##"
-
-#: .download
-msgid "download"
-msgstr "stáhnout"
-
-#: .process
-msgid "process"
-msgstr "zpracovat"
-
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "Došlo k chybě při načítání systému Enketo."
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "Vybrat všechny výsledky (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "Vybrat viditelné výsledky (##count##)"
-
-#: .None
-msgid "None"
-msgstr "Žádné"
-
-#: .Update+status+of+selected+submissions
-msgid "Update status of selected submissions"
-msgstr "Aktualizace stavu vybraných příspěvků"
-
-#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
-msgid ""
-"You have selected ## submissions. Are you sure you would like to update "
-"their status? This action is irreversible."
-msgstr "Vybrali jste ## příspěvků. Jste si jisti, že chcete aktualizovat jejich stav? Tato akce je nevratná."
-
-#: .Update+Validation+Status
-msgid "Update Validation Status"
-msgstr "Aktualizovat stav ověření"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
-msgid ""
-"You are about to permanently delete ##count## submissions. It is not "
-"possible to recover deleted submissions."
-msgstr "Chystáte se trvale smazat ##count## příspěvků. Smazané příspěvky není možné obnovit."
-
-#: .Delete+selected+submissions
-msgid "Delete selected submissions"
-msgstr "Smazat vybrané příspěvky"
-
-#: .Delete+selected
-msgid "Delete selected"
-msgstr "Smazat vybrané"
-
-#: .%23%23count%23%23+selected
-msgid "##count## selected"
-msgstr "Vybráno: ##count##"
-
-#: .Change+status
-msgid "Change status"
-msgstr "Změnit stav"
-
-#: .Set+status+%23%23status%23%23
-msgid "Set status: ##status##"
-msgstr "Natavit stav: ##status##"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "skrýt pole"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "Seřadit A→Z"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "Seřadit Z→A"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "Skrýt pole"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "Zrušit zmrazení pole"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "Zmrazit pole"
-
-#: .Delete+export%3F
-msgid "Delete export?"
-msgstr "Smazat export?"
-
-#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
-msgid ""
-"Are you sure you want to delete this export? This action is not reversible."
-msgstr "Opravdu chcete tento export smazat? Tuto akci nelze vrátit zpět."
-
-#: .Unknown
-msgid "Unknown"
-msgstr "Neznámé"
-
-#: .Export+Failed
-msgid "Export Failed"
-msgstr "Export selhal"
-
-#: .Processing%E2%80%A6
-msgid "Processing…"
-msgstr "Zpracování…"
-
-#: .Exports
-msgid "Exports"
-msgstr "Exporty"
-
-#: .Include+Groups
-msgid "Include Groups"
-msgstr "Zahrnout skupiny"
-
-#: .Multiple+Versions
-msgid "Multiple Versions"
-msgstr "Více verzí"
-
-#: .There+is+nothing+to+download+yet.
-msgid "There is nothing to download yet."
-msgstr "Zatím zde není nic ke stažení."
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -3593,6 +3509,10 @@ msgid ""
 "Are you sure you want to delete this settings? This action is not "
 "reversible."
 msgstr "Opravdu chcete toto nastavení smazat? Tuto akci nelze vrátit zpět."
+
+#: .None
+msgid "None"
+msgstr "Žádné"
 
 #: .Include+data+from+all
 msgid "Include data from all"
@@ -3668,6 +3588,135 @@ msgid ""
 "using one of the other export types available."
 msgstr "Tento formát exportu nebude v budoucnu podporován. Zvažte prosím použití některého z dalších dostupných typů exportu."
 
+#: .Delete+export%3F
+msgid "Delete export?"
+msgstr "Smazat export?"
+
+#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
+msgid ""
+"Are you sure you want to delete this export? This action is not reversible."
+msgstr "Opravdu chcete tento export smazat? Tuto akci nelze vrátit zpět."
+
+#: .Unknown
+msgid "Unknown"
+msgstr "Neznámé"
+
+#: .Export+Failed
+msgid "Export Failed"
+msgstr "Export selhal"
+
+#: .Processing%E2%80%A6
+msgid "Processing…"
+msgstr "Zpracování…"
+
+#: .Exports
+msgid "Exports"
+msgstr "Exporty"
+
+#: .Include+Groups
+msgid "Include Groups"
+msgstr "Zahrnout skupiny"
+
+#: .Multiple+Versions
+msgid "Multiple Versions"
+msgstr "Více verzí"
+
+#: .There+is+nothing+to+download+yet.
+msgid "There is nothing to download yet."
+msgstr "Zatím zde není nic ke stažení."
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "Vybrat všechny výsledky (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "Vybrat viditelné výsledky (##count##)"
+
+#: .Update+status+of+selected+submissions
+msgid "Update status of selected submissions"
+msgstr "Aktualizace stavu vybraných příspěvků"
+
+#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
+msgid ""
+"You have selected ## submissions. Are you sure you would like to update "
+"their status? This action is irreversible."
+msgstr "Vybrali jste ## příspěvků. Jste si jisti, že chcete aktualizovat jejich stav? Tato akce je nevratná."
+
+#: .Update+Validation+Status
+msgid "Update Validation Status"
+msgstr "Aktualizovat stav ověření"
+
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
+msgid ""
+"You are about to permanently delete ##count## submissions. It is not "
+"possible to recover deleted submissions."
+msgstr "Chystáte se trvale smazat ##count## příspěvků. Smazané příspěvky není možné obnovit."
+
+#: .Delete+selected+submissions
+msgid "Delete selected submissions"
+msgstr "Smazat vybrané příspěvky"
+
+#: .Delete+selected
+msgid "Delete selected"
+msgstr "Smazat vybrané"
+
+#: .%23%23count%23%23+selected
+msgid "##count## selected"
+msgstr "Vybráno: ##count##"
+
+#: .Change+status
+msgid "Change status"
+msgstr "Změnit stav"
+
+#: .Set+status+%23%23status%23%23
+msgid "Set status: ##status##"
+msgstr "Natavit stav: ##status##"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "Seřadit A→Z"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "Seřadit Z→A"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "Skrýt pole"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "Zrušit zmrazení pole"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "Zmrazit pole"
+
+#: .hide+fields
+msgid "hide fields"
+msgstr "skrýt pole"
+
+#: .filter
+msgid "filter"
+msgstr "filtrovat"
+
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "Nejsou zde žádné filtry, můžete je přidat níže"
+
+#: .Add+filter
+msgid "Add filter"
+msgstr "Přidat filtr"
+
+#: .Apply
+msgid "Apply"
+msgstr "Použít"
+
+#: .fields
+msgid "fields"
+msgstr "pole"
+
 #: .Two-factor+authentication
 msgid "Two-factor authentication"
 msgstr "Dvoufázové ověřování"
@@ -3737,14 +3786,6 @@ msgstr "Jednotné přihlašování (SSO)"
 #: .There+are+no+projects+to+display.
 msgid "There are no projects to display."
 msgstr "Nejsou zde žádné projekty k zobrazení."
-
-#: .and+one+other+question
-msgid "and one other question"
-msgstr "a ještě jedna otázka"
-
-#: .and+%23%23+other+questions
-msgid "and ## other questions"
-msgstr "a další otázky (##)"
 
 #: .Asset+seems+to+not+have+the+processing+feature+enabled%21
 msgid "Asset seems to not have the processing feature enabled!"
@@ -3866,6 +3907,22 @@ msgstr "vytvořit překlad"
 msgid "new translation"
 msgstr "nový překlad"
 
+#: .and+one+other+question
+msgid "and one other question"
+msgstr "a ještě jedna otázka"
+
+#: .and+%23%23+other+questions
+msgid "and ## other questions"
+msgstr "a další otázky (##)"
+
+#: .An+error+occured
+msgid "An error occured"
+msgstr "Došlo k chybě"
+
+#: .Incorrect+token+or+something+went+wrong
+msgid "Incorrect token or something went wrong"
+msgstr "Nesprávný token nebo se něco pokazilo"
+
 #: .Mean
 msgid "Mean"
 msgstr "Průměr"
@@ -3882,17 +3939,57 @@ msgstr "Mód"
 msgid "Standard deviation"
 msgstr "Standardní odchylka"
 
-#: .An+error+occured
-msgid "An error occured"
-msgstr "Došlo k chybě"
+#: .CSV+(legacy)
+msgid "CSV (legacy)"
+msgstr "CSV (dřívější)"
 
-#: .Incorrect+token+or+something+went+wrong
-msgid "Incorrect token or something went wrong"
-msgstr "Nesprávný token nebo se něco pokazilo"
+#: .CSV
+msgid "CSV"
+msgstr "CSV"
 
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "Zadejte a potvrďte klávesou ENTER"
+#: .GeoJSON
+msgid "GeoJSON"
+msgstr "GeoJSON"
+
+#: .GPS+coordinates+(KML)
+msgid "GPS coordinates (KML)"
+msgstr "Souřadnice GPS (KML)"
+
+#: .SPSS+Labels
+msgid "SPSS Labels"
+msgstr "Štítky SPSS"
+
+#: .XLS+(legacy)
+msgid "XLS (legacy)"
+msgstr "XLS (dřívější)"
+
+#: .XLS
+msgid "XLS"
+msgstr "XLS"
+
+#: .Media+Attachments+(ZIP)
+msgid "Media Attachments (ZIP)"
+msgstr "Mediální přílohy (ZIP)"
+
+#: .XML+values+and+headers
+msgid "XML values and headers"
+msgstr "Hodnoty XML a záhlaví"
+
+#: .Separate+columns
+msgid "Separate columns"
+msgstr "Oddělené sloupce"
+
+#: .Single+column
+msgid "Single column"
+msgstr "Jeden sloupec"
+
+#: .Single+and+separate+columns
+msgid "Single and separate columns"
+msgstr "Jednotlivé a samostatné sloupce"
+
+#: .Add+tag(s)
+msgid "Add tag(s)"
+msgstr "Přidat tag(y)"
 
 #: .Name+must+be+unique%21
 msgid "Name must be unique!"
@@ -3922,69 +4019,13 @@ msgstr "Kód jazyka"
 msgid "Set"
 msgstr "Nastavit"
 
-#: .Add+tag(s)
-msgid "Add tag(s)"
-msgstr "Přidat tag(y)"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "Zvolit typ exportu"
 
-#: .Filter+by
-msgid "Filter by"
-msgstr "Filtrovat podle"
-
-#: .Select+field
-msgid "Select field"
-msgstr "Vyberte pole"
-
-#: .Condition
-msgid "Condition"
-msgstr "Podmínka"
-
-#: .Select+condition
-msgid "Select condition"
-msgstr "Vyberte podmínku"
-
-#: .Enter+value
-msgid "Enter value"
-msgstr "Zadejte hodnotu"
-
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "Opravdu chcete tuto otázku smazat?"
-
-#: .This+action+cannot+be+undone.
-msgid "This action cannot be undone."
-msgstr "Tuto akci nelze vzít zpět."
-
-#: .[button+triggers]+Settings
-msgid "[button triggers] Settings"
-msgstr ""
-
-#: .[button+triggers]+Delete+Question
-msgid "[button triggers] Delete Question"
-msgstr ""
-
-#: .[button+triggers]+Duplicate+Question
-msgid "[button triggers] Duplicate Question"
-msgstr ""
-
-#: .[button+triggers]+Add+Question+to+Library
-msgid "[button triggers] Add Question to Library"
-msgstr ""
-
-#: .archived
-msgid "archived"
-msgstr "archivováno"
-
-#: .deployed
-msgid "deployed"
-msgstr "zveřejněno"
-
-#: .draft
-msgid "draft"
-msgstr "koncept"
-
-#: .me
-msgid "me"
-msgstr "já"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "Zadejte a potvrďte klávesou ENTER"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4042,57 +4083,25 @@ msgstr "ID instance"
 msgid "Submitted by"
 msgstr "Odesláno"
 
-#: .CSV+(legacy)
-msgid "CSV (legacy)"
-msgstr "CSV (dřívější)"
+#: .Filter+by
+msgid "Filter by"
+msgstr "Filtrovat podle"
 
-#: .CSV
-msgid "CSV"
-msgstr "CSV"
+#: .Select+field
+msgid "Select field"
+msgstr "Vyberte pole"
 
-#: .GeoJSON
-msgid "GeoJSON"
-msgstr "GeoJSON"
+#: .Condition
+msgid "Condition"
+msgstr "Podmínka"
 
-#: .GPS+coordinates+(KML)
-msgid "GPS coordinates (KML)"
-msgstr "Souřadnice GPS (KML)"
+#: .Select+condition
+msgid "Select condition"
+msgstr "Vyberte podmínku"
 
-#: .SPSS+Labels
-msgid "SPSS Labels"
-msgstr "Štítky SPSS"
-
-#: .XLS+(legacy)
-msgid "XLS (legacy)"
-msgstr "XLS (dřívější)"
-
-#: .XLS
-msgid "XLS"
-msgstr "XLS"
-
-#: .Media+Attachments+(ZIP)
-msgid "Media Attachments (ZIP)"
-msgstr "Mediální přílohy (ZIP)"
-
-#: .XML+values+and+headers
-msgid "XML values and headers"
-msgstr "Hodnoty XML a záhlaví"
-
-#: .Separate+columns
-msgid "Separate columns"
-msgstr "Oddělené sloupce"
-
-#: .Single+column
-msgid "Single column"
-msgstr "Jeden sloupec"
-
-#: .Single+and+separate+columns
-msgid "Single and separate columns"
-msgstr "Jednotlivé a samostatné sloupce"
-
-#: .Select+export+type
-msgid "Select export type"
-msgstr "Zvolit typ exportu"
+#: .Enter+value
+msgid "Enter value"
+msgstr "Zadejte hodnotu"
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4105,6 +4114,42 @@ msgstr "Najít pole"
 #: .No+results
 msgid "No results"
 msgstr "Žádné výsledky"
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "Opravdu chcete tuto otázku smazat?"
+
+#: .This+action+cannot+be+undone.
+msgid "This action cannot be undone."
+msgstr "Tuto akci nelze vzít zpět."
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr ""
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr ""
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr ""
+
+#: .archived
+msgid "archived"
+msgstr "archivováno"
+
+#: .deployed
+msgid "deployed"
+msgstr "zveřejněno"
+
+#: .draft
+msgid "draft"
+msgstr "koncept"
+
+#: .me
+msgid "me"
+msgstr "já"
 
 #: .Delete%3F
 msgid "Delete?"

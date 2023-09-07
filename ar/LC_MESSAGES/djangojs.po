@@ -28,7 +28,7 @@
 # Mohammed Mouayad, 2021
 # Mohammed Mouayad, 2021
 # Najdat Abdeen, 2021
-# Najdat Abdeen, 2021
+# Najdat Abdeen, 2021,2023
 # Penar Musaraj <pmusaraj@gmail.com>, 2018
 # Saad Al-Momen <salmoomen@yahoo.com>, 2017
 # Samer Em, 2021-2022
@@ -42,9 +42,9 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-08-16 20:25+0000\n"
+"POT-Creation-Date: 2023-09-07 13:51+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: Yaman Kassas, 2021\n"
+"Last-Translator: Najdat Abdeen, 2021,2023\n"
 "Language-Team: Arabic (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -52,6 +52,10 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 "X-Generator: Translate Toolkit 3.6.0\n"
+
+#: .%23%23field_label%23%23+(required)
+msgid "##field_label## (required)"
+msgstr "##field_label## (مطلوب)"
 
 #: .Use+a+few+words,+avoid+common+phrases
 msgid "Use a few words, avoid common phrases"
@@ -165,13 +169,13 @@ msgstr "لا تساعد كثيراً الاستبدالات المتوقعة م�
 msgid "Password strength"
 msgstr "كلمة المرور قوية"
 
-#: .%23%23field_label%23%23+(required)
-msgid "##field_label## (required)"
-msgstr "##field_label## (مطلوب)"
-
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "لم يتم العثور/التعرّف على المسار"
+
+#: .Untitled
+msgid "Untitled"
+msgstr "بلا عنوان"
 
 #: .Failed+to+update+permissions
 msgid "Failed to update permissions"
@@ -300,10 +304,6 @@ msgstr "فشل طلب إعادة محاولة عملية الإرسال"
 #: .Retrying+all+submissions+failed
 msgid "Retrying all submissions failed"
 msgstr "فشلت إعادة محاولة كافة عمليات الإرسال"
-
-#: .Untitled
-msgid "Untitled"
-msgstr "بلا عنوان"
 
 #: .Submissions
 msgid "Submissions"
@@ -715,21 +715,161 @@ msgstr "نمط السؤال"
 msgid "loading…"
 msgstr "جاري التحميل…"
 
-#: .Successfuly+removed+from+collection
-msgid "Successfuly removed from collection"
-msgstr "تمت الإزالة من التشكيل بنجاح"
+#: .Who+has+access
+msgid "Who has access"
+msgstr "من لديه حق الوصول"
 
-#: .Successfuly+moved+to+collection
-msgid "Successfuly moved to collection"
-msgstr "تم نقله إلى التشكيل بنجاح"
+#: .Add+user
+msgid "Add user"
+msgstr "إضافة مستخدم"
 
-#: .Move+to+collection+failed
-msgid "Move to collection failed"
-msgstr "فشل النقل إلى التشكيل"
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "المشاركة بشكل عام عن طريق رابط"
 
-#: .Failed+to+get+the+results
-msgid "Failed to get the results"
-msgstr "فشل في الحصول على النتائج"
+#: .Waiting+for+all+projects+to+load%E2%80%A6
+msgid "Waiting for all projects to load…"
+msgstr "في انتظار تحميل جميع المشروعات ..."
+
+#: .URL+is+empty%21
+msgid "URL is empty!"
+msgstr "عنوان الإنترنت (URL) فارغ!"
+
+#: .Add
+msgid "Add"
+msgstr "إضافة"
+
+#: .You+must+redeploy+this+form+to+see+media+changes.
+msgid "You must redeploy this form to see media changes."
+msgstr "يجب إعادة توزيع هذا النموذج لمشاهدة تغييرات الوسائط."
+
+#: .Attach+files
+msgid "Attach files"
+msgstr "إرفاق ملفات"
+
+#: .Learn+more+about+form+media
+msgid "Learn more about form media"
+msgstr "تعرف على المزيد حول وسائط النموذج"
+
+#: .Drag+and+drop+files+here
+msgid "Drag and drop files here"
+msgstr "قم بسحب وإدراج الملفات هنا"
+
+#: .or
+msgid "or"
+msgstr "أو"
+
+#: .click+here+to+browse
+msgid "click here to browse"
+msgstr "انقر هنا للتصفح"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "جار رفع الملف ..."
+
+#: .You+can+also+add+files+using+a+URL
+msgid "You can also add files using a URL"
+msgstr "يمكنك أيضاً إضافة ملفات باستخدام عنوان الإنترنت (URL)"
+
+#: .Paste+URL+here
+msgid "Paste URL here"
+msgstr "قم بلصق عنوان الإنترنت (URL) هنا"
+
+#: .Attached+files
+msgid "Attached files"
+msgstr "الملفات المرفقة"
+
+#: .loading+media
+msgid "loading media"
+msgstr "تحميل الوسائط"
+
+#: .No+files+uploaded+yet
+msgid "No files uploaded yet"
+msgstr "لم يتم رفع ملفات بعد"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "افتراضياً، تقتصر الخريطة على ##number##  أحدث عمليات الإرسال لأسباب تتعلق بالأداء. انتقل إلى إعدادات الخريطة لزيادة هذا الحد."
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "خطأ: لم يتم تحميل البيانات."
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "التجزئة على حسب الاستجابات بالاستبيان"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "المفصلة طبقاً للاستخدام:"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "لم يتم استلام أية استجابة لـ \"النقطة الجغرافية\""
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "لا تعرض الخريطة البيانات لأن هذا النموذج لا يحتوي على حقل \"النقطة الجغرافية\"."
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "تبديل وضع ملء الشاشة"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "الأظهار كنقاط"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "تبديل الشرائح"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "إعدادات عرض الخريطة"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "الأظهار كخريطة حرارية"
+
+#: .Language
+msgid "Language"
+msgstr "اللغة"
+
+#: .Default
+msgid "Default"
+msgstr "أفتراضي"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- شاهد كل البيانات --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "غير مترجم: "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "لم يتم تسمية السؤال"
+
+#: .Reset
+msgid "Reset"
+msgstr "إعادة الضبط"
+
+#: .not+set
+msgid "not set"
+msgstr "غير مضبوطة"
+
+#: .Legend
+msgid "Legend"
+msgstr "مفتاح الخريطة"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "إعدادات الخريطة"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -889,557 +1029,6 @@ msgstr "خطأ في تشغيل المعاينة"
 msgid "Import Cascading Select Questions"
 msgstr "استيراد أسئلة تحديد متتالية"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "فشل تحديث قيم عمليات الإرسال."
-
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "فشل في عملية الإرسال."
-
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "فشل تحديث عمليات الإرسال."
-
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "فشل تحديث بعض قيم عمليات الإرسال."
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "فشل تحديث قيم عمليات الإرسال."
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "فشل حذف عمليات الإرسال."
-
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "تعذر رفع الوسائط الخاصة بك"
-
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "حدث خطأ أثناء الحصول على الوسائط الخاصة بك"
-
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "تم حذف الوسائط بنجاح"
-
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "فشل حذف الوسائط!"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "فشل في إنشاء التصدير"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "فشل في حذف التصدير"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "فشل تحديث إعدادات التصدير"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "فشل إنشاء إعدادات التصدير"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "فشل حذف إعدادات التصدير"
-
-#: .Failed+to+attach+to+source
-msgid "Failed to attach to source"
-msgstr "فشلت عملية الارتباط بالمصدر"
-
-#: .Failed+to+detach+from+source
-msgid "Failed to detach from source"
-msgstr "فشلت عملية الفصل عن المصدر"
-
-#: .Failed+to+patch+source
-msgid "Failed to patch source"
-msgstr "فشل تصحيح المصدر"
-
-#: .Failed+to+retrieve+sharing+enabled+assets
-msgid "Failed to retrieve sharing enabled assets"
-msgstr "فشل في استرداد مشاركة الأصول المتاحة"
-
-#: .Failed+to+toggle+sharing
-msgid "Failed to toggle sharing"
-msgstr "فشل في تبديل المشاركة"
-
-#: .Failed+to+update+column+filters
-msgid "Failed to update column filters"
-msgstr "فشل في تحديث عوامل تصفية العمود"
-
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "افتراضياً، تقتصر الخريطة على ##number##  أحدث عمليات الإرسال لأسباب تتعلق بالأداء. انتقل إلى إعدادات الخريطة لزيادة هذا الحد."
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "خطأ: لم يتم تحميل البيانات."
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "التجزئة على حسب الاستجابات بالاستبيان"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "المفصلة طبقاً للاستخدام:"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "لم يتم استلام أية استجابة لـ \"النقطة الجغرافية\""
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "لا تعرض الخريطة البيانات لأن هذا النموذج لا يحتوي على حقل \"النقطة الجغرافية\"."
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "تبديل وضع ملء الشاشة"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "الأظهار كنقاط"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "تبديل الشرائح"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "إعدادات عرض الخريطة"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "الأظهار كخريطة حرارية"
-
-#: .Language
-msgid "Language"
-msgstr "اللغة"
-
-#: .Default
-msgid "Default"
-msgstr "أفتراضي"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- شاهد كل البيانات --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "غير مترجم: "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "لم يتم تسمية السؤال"
-
-#: .Reset
-msgid "Reset"
-msgstr "إعادة الضبط"
-
-#: .not+set
-msgid "not set"
-msgstr "غير مضبوطة"
-
-#: .Legend
-msgid "Legend"
-msgstr "مفتاح الخريطة"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "إعدادات الخريطة"
-
-#: .Who+has+access
-msgid "Who has access"
-msgstr "من لديه حق الوصول"
-
-#: .Add+user
-msgid "Add user"
-msgstr "إضافة مستخدم"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "المشاركة بشكل عام عن طريق رابط"
-
-#: .Waiting+for+all+projects+to+load%E2%80%A6
-msgid "Waiting for all projects to load…"
-msgstr "في انتظار تحميل جميع المشروعات ..."
-
-#: .new
-msgid "new"
-msgstr "جديد"
-
-#: .Projects
-msgid "Projects"
-msgstr "المشروعات"
-
-#: .Library
-msgid "Library"
-msgstr "المكتبة"
-
-#: .Projects+(legacy)
-msgid "Projects (legacy)"
-msgstr "المشروعات (القديمة)"
-
-#: .Source
-msgid "Source"
-msgstr "المصدر"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "فشل إدراج الأصول"
-
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "الرجاء إعادة تحميل الصفحة"
-
-#: .Log+In
-msgid "Log In"
-msgstr "تسجيل الدخول"
-
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "إعدادات الحساب"
-
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "شروط الخدمة"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "سياسة الخصوصية"
-
-#: .Logout
-msgid "Logout"
-msgstr "تسجيل خروج"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "ابحث في مكتبتي"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "ابحث في المجموعات العامة"
-
-#: .Search+Projects
-msgid "Search Projects"
-msgstr "البحث في المشروعات"
-
-#: .submissions
-msgid "submissions"
-msgstr "عمليات الإرسال"
-
-#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
-msgid ""
-"The stored permissions are invalid. Please assign them again. If this "
-"problem persists, contact help@kobotoolbox.org"
-msgstr "الصلاحيات التي تم حفظها غير سليمة. يرجى تعيينها مرة أخرى. إذا استمرت هذه المشكلة، يرجى التواصل مع help@kobotoolbox.org"
-
-#: .Table
-msgid "Table"
-msgstr "الجدول"
-
-#: .Reports
-msgid "Reports"
-msgstr "التقرير"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "ألبوم الصور"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "التحميلات"
-
-#: .Map
-msgid "Map"
-msgstr "الخريطة"
-
-#: .Summary
-msgid "Summary"
-msgstr "الملخص"
-
-#: .Form
-msgid "Form"
-msgstr "النماذج"
-
-#: .Settings
-msgid "Settings"
-msgstr "الإعدادات"
-
-#: .General
-msgid "General"
-msgstr "عام"
-
-#: .Media
-msgid "Media"
-msgstr "الوسائط المتعددة"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "مشاركة"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "الربط بين المشروعات"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "خدمات (REST)"
-
-#: .URL+is+empty%21
-msgid "URL is empty!"
-msgstr "عنوان الإنترنت (URL) فارغ!"
-
-#: .Add
-msgid "Add"
-msgstr "إضافة"
-
-#: .You+must+redeploy+this+form+to+see+media+changes.
-msgid "You must redeploy this form to see media changes."
-msgstr "يجب إعادة توزيع هذا النموذج لمشاهدة تغييرات الوسائط."
-
-#: .Attach+files
-msgid "Attach files"
-msgstr "إرفاق ملفات"
-
-#: .Learn+more+about+form+media
-msgid "Learn more about form media"
-msgstr "تعرف على المزيد حول وسائط النموذج"
-
-#: .Drag+and+drop+files+here
-msgid "Drag and drop files here"
-msgstr "قم بسحب وإدراج الملفات هنا"
-
-#: .or
-msgid "or"
-msgstr "أو"
-
-#: .click+here+to+browse
-msgid "click here to browse"
-msgstr "انقر هنا للتصفح"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "جار رفع الملف ..."
-
-#: .You+can+also+add+files+using+a+URL
-msgid "You can also add files using a URL"
-msgstr "يمكنك أيضاً إضافة ملفات باستخدام عنوان الإنترنت (URL)"
-
-#: .Paste+URL+here
-msgid "Paste URL here"
-msgstr "قم بلصق عنوان الإنترنت (URL) هنا"
-
-#: .Attached+files
-msgid "Attached files"
-msgstr "الملفات المرفقة"
-
-#: .loading+media
-msgid "loading media"
-msgstr "تحميل الوسائط"
-
-#: .No+files+uploaded+yet
-msgid "No files uploaded yet"
-msgstr "لم يتم رفع ملفات بعد"
-
-#: .Create
-msgid "Create"
-msgstr "إنشاء"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "يرجى الانتظار …"
-
-#: .Failed+to+create+new+asset%21
-msgid "Failed to create new asset!"
-msgstr "فشل إنشاء أصل جديد!"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "تم النسخ إلى الحافظة"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "استنساخ من"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "أدخل أسم المستنسخ ##ASSET_TYPE##. اتركه فارغاً للاحتفاظ بالاسم الأصلي."
-
-#: .Ok
-msgid "Ok"
-msgstr "حسناً"
-
-#: .Create+new+template+from+this+project
-msgid "Create new template from this project"
-msgstr "إنشاء قالب جديد من هذا المشروع"
-
-#: .Enter+the+name+of+the+new+template.
-msgid "Enter the name of the new template."
-msgstr "أدخل اسم القالب الجديد."
-
-#: .deploying+to+kobocat...
-msgid "deploying to kobocat..."
-msgstr "توزيع على كوبوكات (kobocat) ..."
-
-#: .deployed+form
-msgid "deployed form"
-msgstr "تم توزيع النموذج"
-
-#: .Overwrite+existing+deployment
-msgid "Overwrite existing deployment"
-msgstr "استبدال التوزيع الحالي"
-
-#: .Deploying...
-msgid "Deploying..."
-msgstr "جارٍ التوزيع ..."
-
-#: .redeployed+form
-msgid "redeployed form"
-msgstr "نموذج معاد توزيعه"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "## ملفات"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "فشل استيراد ملف بصيغة (XLSForm). تحقق من أن ملف بصيغة (XLSForm) أو عنوان الإنترنت (URL) صالح، وحاول مرة أخرى باستخدام أيقونة \"استبدال النموذج\"."
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "اكتمل استيراد (XLS)"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "عملية الرفع الخاصة بك قيد المعالجة. هذا قد يستغرق بضع دقائق."
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "عملية الرفع الخاص بك في قائمة الانتظار للمعالجة. هذا قد يستغرق بضع دقائق."
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "فشل الاستيراد!"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "أخفقت محاولة إنشاء استيراد."
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "خطأ في الرفع: تعذر التعرف على ملف أكسل (Excel)."
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "أسم الملف الذي تم رفعه: "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "تعذر التعرف على العنصر (العناصر) التي تم وضعها."
-
-#: .Cloning...
-msgid "Cloning..."
-msgstr "جاري الاستنساخ ..."
-
-#: .cloned+%23%23ASSET_TYPE%23%23+created
-msgid "cloned ##ASSET_TYPE## created"
-msgstr "تم استنساخ ##ASSET_TYPE##"
-
-#: .Create+new+project+from+this+template
-msgid "Create new project from this template"
-msgstr "إنشاء مشروع جديد من هذا القالب"
-
-#: .Enter+the+name+of+the+new+project.
-msgid "Enter the name of the new project."
-msgstr "أدخل أسم المشروع الجديد."
-
-#: .%23%23ASSET_TYPE%23%23+deleted+permanently
-msgid "##ASSET_TYPE## deleted permanently"
-msgstr "تم حذف ##ASSET_TYPE## نهائياً"
-
-#: .You+are+about+to+permanently+delete+this+item+from+your+library.
-msgid "You are about to permanently delete this item from your library."
-msgstr "أنت على وشك القيام بحذف هذا العنصر من مكتبتك بشكل نهائي."
-
-#: .You+are+about+to+permanently+delete+this+draft.
-msgid "You are about to permanently delete this draft."
-msgstr "أنت على وشك حذف هذه المسودة نهائياً."
-
-#: .You+are+about+to+permanently+delete+this+form.
-msgid "You are about to permanently delete this form."
-msgstr "أنت على وشك حذف هذا النموذج نهائياً."
-
-#: .All+data+gathered+for+this+form+will+be+deleted.
-msgid "All data gathered for this form will be deleted."
-msgstr "سوف يتم حذف كل البيانات التي تم جمعها على هذا النموذج."
-
-#: .The+form+associated+with+this+project+will+be+deleted.
-msgid "The form associated with this project will be deleted."
-msgstr "سوف يتم حذف النموذج المصاحب للمشروع."
-
-#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
-msgid ""
-"I understand that if I delete this project I will not be able to recover it."
-msgstr "أنا أفهم انه لو تم حذف هذا المشروع فلن استطيع استعادته."
-
-#: .Delete
-msgid "Delete"
-msgstr "حذف"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "أدرج المشروع في الأرشيف"
-
-#: .Are+you+sure+you+want+to+archive+this+project%3F
-msgid "Are you sure you want to archive this project?"
-msgstr "هل أنت متأكد من وضع المشروع في الأرشيف؟"
-
-#: .Your+form+will+not+accept+submissions+while+it+is+archived.
-msgid "Your form will not accept submissions while it is archived."
-msgstr "لن يقبل نموذجك عمليات الإرسال عندما يكون في الأرشيف."
-
-#: .Archive
-msgid "Archive"
-msgstr "الأرشيف"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "مشروع غير مؤرشف"
-
-#: .Are+you+sure+you+want+to+unarchive+this+project%3F
-msgid "Are you sure you want to unarchive this project?"
-msgstr "هل أنت متأكد أنك تريد التراجع عن أرشفة هذا المشروع؟"
-
-#: .Unarchive
-msgid "Unarchive"
-msgstr "إلغاء الأرشفة"
-
-#: .Remove+shared+form
-msgid "Remove shared form"
-msgstr "إزالة النموذج الذي تمت مشاركته"
-
-#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
-msgid "Are you sure you want to remove this shared form?"
-msgstr "هل أنت متأكد أنك تريد إزالة هذا النموذج الذي تم مشاركته؟"
-
-#: .Remove
-msgid "Remove"
-msgstr "إزالة"
-
 #: .Import
 msgid "Import"
 msgstr "استيراد"
@@ -1488,6 +1077,10 @@ msgstr "خطأ: الأصل لا يمكن إنشاؤه."
 msgid "Error: new project could not be created."
 msgstr "خطأ: تعذر إنشاء مشروع جديد."
 
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "يرجى الانتظار …"
+
 #: .Retrieving+form,+please+wait...
 msgid "Retrieving form, please wait..."
 msgstr "جاري استرداد النموذج، برجاء الانتظار ..."
@@ -1495,6 +1088,10 @@ msgstr "جاري استرداد النموذج، برجاء الانتظار ...
 #: .Failed+to+reload+project+after+import%21
 msgid "Failed to reload project after import!"
 msgstr "فشل في إعادة تحميل المشروع بعد استيراده!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "فشل الاستيراد!"
 
 #: .Could+not+initialize+XLSForm+import%21
 msgid "Could not initialize XLSForm import!"
@@ -1612,6 +1209,14 @@ msgstr "يُرجى التوضيح إذا كان مشروعك يجمع معلوم
 msgid "Save"
 msgstr "حفظ"
 
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "مشروع غير مؤرشف"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "أدرج المشروع في الأرشيف"
+
 #: .Archive+project+to+stop+accepting+submissions.
 msgid "Archive project to stop accepting submissions."
 msgstr "قم بأرشفة المشروع لوقف قبول عمليات الإرسال."
@@ -1632,6 +1237,476 @@ msgstr "الرجوع"
 msgid ""
 "Form replacing is not available due to form's Locking Profile restrictions."
 msgstr "استبدال النموذج غير متاح بسبب قيود ملف تعريف النموذج."
+
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "فشل تحديث قيم عمليات الإرسال."
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "فشل في عملية الإرسال."
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "فشل تحديث عمليات الإرسال."
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "فشل تحديث بعض قيم عمليات الإرسال."
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "فشل تحديث قيم عمليات الإرسال."
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "فشل حذف عمليات الإرسال."
+
+#: .Successfuly+removed+from+collection
+msgid "Successfuly removed from collection"
+msgstr "تمت الإزالة من التشكيل بنجاح"
+
+#: .Successfuly+moved+to+collection
+msgid "Successfuly moved to collection"
+msgstr "تم نقله إلى التشكيل بنجاح"
+
+#: .Move+to+collection+failed
+msgid "Move to collection failed"
+msgstr "فشل النقل إلى التشكيل"
+
+#: .Failed+to+get+the+results
+msgid "Failed to get the results"
+msgstr "فشل في الحصول على النتائج"
+
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "تعذر رفع الوسائط الخاصة بك"
+
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "حدث خطأ أثناء الحصول على الوسائط الخاصة بك"
+
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "تم حذف الوسائط بنجاح"
+
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "فشل حذف الوسائط!"
+
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "فشل في إنشاء التصدير"
+
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "فشل في حذف التصدير"
+
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "فشل تحديث إعدادات التصدير"
+
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "فشل إنشاء إعدادات التصدير"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "فشل حذف إعدادات التصدير"
+
+#: .Failed+to+attach+to+source
+msgid "Failed to attach to source"
+msgstr "فشلت عملية الارتباط بالمصدر"
+
+#: .Failed+to+detach+from+source
+msgid "Failed to detach from source"
+msgstr "فشلت عملية الفصل عن المصدر"
+
+#: .Failed+to+patch+source
+msgid "Failed to patch source"
+msgstr "فشل تصحيح المصدر"
+
+#: .Failed+to+retrieve+sharing+enabled+assets
+msgid "Failed to retrieve sharing enabled assets"
+msgstr "فشل في استرداد مشاركة الأصول المتاحة"
+
+#: .Failed+to+toggle+sharing
+msgid "Failed to toggle sharing"
+msgstr "فشل في تبديل المشاركة"
+
+#: .Failed+to+update+column+filters
+msgid "Failed to update column filters"
+msgstr "فشل في تحديث عوامل تصفية العمود"
+
+#: .Create
+msgid "Create"
+msgstr "إنشاء"
+
+#: .Failed+to+create+new+asset%21
+msgid "Failed to create new asset!"
+msgstr "فشل إنشاء أصل جديد!"
+
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "تم النسخ إلى الحافظة"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "استنساخ من"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "أدخل أسم المستنسخ ##ASSET_TYPE##. اتركه فارغاً للاحتفاظ بالاسم الأصلي."
+
+#: .Ok
+msgid "Ok"
+msgstr "حسناً"
+
+#: .Create+new+template+from+this+project
+msgid "Create new template from this project"
+msgstr "إنشاء قالب جديد من هذا المشروع"
+
+#: .Enter+the+name+of+the+new+template.
+msgid "Enter the name of the new template."
+msgstr "أدخل اسم القالب الجديد."
+
+#: .deploying+to+kobocat...
+msgid "deploying to kobocat..."
+msgstr "توزيع على كوبوكات (kobocat) ..."
+
+#: .deployed+form
+msgid "deployed form"
+msgstr "تم توزيع النموذج"
+
+#: .Overwrite+existing+deployment
+msgid "Overwrite existing deployment"
+msgstr "استبدال التوزيع الحالي"
+
+#: .Deploying...
+msgid "Deploying..."
+msgstr "جارٍ التوزيع ..."
+
+#: .redeployed+form
+msgid "redeployed form"
+msgstr "نموذج معاد توزيعه"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "## ملفات"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "فشل استيراد ملف بصيغة (XLSForm). تحقق من أن ملف بصيغة (XLSForm) أو عنوان الإنترنت (URL) صالح، وحاول مرة أخرى باستخدام أيقونة \"استبدال النموذج\"."
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "اكتمل استيراد (XLS)"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "عملية الرفع الخاصة بك قيد المعالجة. هذا قد يستغرق بضع دقائق."
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "عملية الرفع الخاص بك في قائمة الانتظار للمعالجة. هذا قد يستغرق بضع دقائق."
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "أخفقت محاولة إنشاء استيراد."
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "خطأ في الرفع: تعذر التعرف على ملف أكسل (Excel)."
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "أسم الملف الذي تم رفعه: "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "تعذر التعرف على العنصر (العناصر) التي تم وضعها."
+
+#: .Cloning...
+msgid "Cloning..."
+msgstr "جاري الاستنساخ ..."
+
+#: .cloned+%23%23ASSET_TYPE%23%23+created
+msgid "cloned ##ASSET_TYPE## created"
+msgstr "تم استنساخ ##ASSET_TYPE##"
+
+#: .Create+new+project+from+this+template
+msgid "Create new project from this template"
+msgstr "إنشاء مشروع جديد من هذا القالب"
+
+#: .Enter+the+name+of+the+new+project.
+msgid "Enter the name of the new project."
+msgstr "أدخل أسم المشروع الجديد."
+
+#: .%23%23ASSET_TYPE%23%23+deleted+permanently
+msgid "##ASSET_TYPE## deleted permanently"
+msgstr "تم حذف ##ASSET_TYPE## نهائياً"
+
+#: .You+are+about+to+permanently+delete+this+item+from+your+library.
+msgid "You are about to permanently delete this item from your library."
+msgstr "أنت على وشك القيام بحذف هذا العنصر من مكتبتك بشكل نهائي."
+
+#: .You+are+about+to+permanently+delete+this+draft.
+msgid "You are about to permanently delete this draft."
+msgstr "أنت على وشك حذف هذه المسودة نهائياً."
+
+#: .You+are+about+to+permanently+delete+this+form.
+msgid "You are about to permanently delete this form."
+msgstr "أنت على وشك حذف هذا النموذج نهائياً."
+
+#: .All+data+gathered+for+this+form+will+be+deleted.
+msgid "All data gathered for this form will be deleted."
+msgstr "سوف يتم حذف كل البيانات التي تم جمعها على هذا النموذج."
+
+#: .The+form+associated+with+this+project+will+be+deleted.
+msgid "The form associated with this project will be deleted."
+msgstr "سوف يتم حذف النموذج المصاحب للمشروع."
+
+#: .I+understand+that+if+I+delete+this+project+I+will+not+be+able+to+recover+it.
+msgid ""
+"I understand that if I delete this project I will not be able to recover it."
+msgstr "أنا أفهم انه لو تم حذف هذا المشروع فلن استطيع استعادته."
+
+#: .Delete
+msgid "Delete"
+msgstr "حذف"
+
+#: .Are+you+sure+you+want+to+archive+this+project%3F
+msgid "Are you sure you want to archive this project?"
+msgstr "هل أنت متأكد من وضع المشروع في الأرشيف؟"
+
+#: .Your+form+will+not+accept+submissions+while+it+is+archived.
+msgid "Your form will not accept submissions while it is archived."
+msgstr "لن يقبل نموذجك عمليات الإرسال عندما يكون في الأرشيف."
+
+#: .Archive
+msgid "Archive"
+msgstr "الأرشيف"
+
+#: .Are+you+sure+you+want+to+unarchive+this+project%3F
+msgid "Are you sure you want to unarchive this project?"
+msgstr "هل أنت متأكد أنك تريد التراجع عن أرشفة هذا المشروع؟"
+
+#: .Unarchive
+msgid "Unarchive"
+msgstr "إلغاء الأرشفة"
+
+#: .Remove+shared+form
+msgid "Remove shared form"
+msgstr "إزالة النموذج الذي تمت مشاركته"
+
+#: .Are+you+sure+you+want+to+remove+this+shared+form%3F
+msgid "Are you sure you want to remove this shared form?"
+msgstr "هل أنت متأكد أنك تريد إزالة هذا النموذج الذي تم مشاركته؟"
+
+#: .Remove
+msgid "Remove"
+msgstr "إزالة"
+
+#: .Table
+msgid "Table"
+msgstr "الجدول"
+
+#: .Reports
+msgid "Reports"
+msgstr "التقرير"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "ألبوم الصور"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "التحميلات"
+
+#: .Map
+msgid "Map"
+msgstr "الخريطة"
+
+#: .Summary
+msgid "Summary"
+msgstr "الملخص"
+
+#: .Form
+msgid "Form"
+msgstr "النماذج"
+
+#: .Settings
+msgid "Settings"
+msgstr "الإعدادات"
+
+#: .General
+msgid "General"
+msgstr "عام"
+
+#: .Media
+msgid "Media"
+msgstr "الوسائط المتعددة"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "مشاركة"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "الربط بين المشروعات"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "خدمات (REST)"
+
+#: .All+questions
+msgid "All questions"
+msgstr "كل الأسئلة"
+
+#: .Image+Gallery
+msgid "Image Gallery"
+msgstr "صورة ألبوم الصور"
+
+#: .From
+msgid "From"
+msgstr "من"
+
+#: .Between
+msgid "Between"
+msgstr "بين"
+
+#: .and
+msgid "and"
+msgstr "و"
+
+#: .The+stored+permissions+are+invalid.+Please+assign+them+again.+If+this+problem+persists,+contact+help@kobotoolbox.org
+msgid ""
+"The stored permissions are invalid. Please assign them again. If this "
+"problem persists, contact help@kobotoolbox.org"
+msgstr "الصلاحيات التي تم حفظها غير سليمة. يرجى تعيينها مرة أخرى. إذا استمرت هذه المشكلة، يرجى التواصل مع help@kobotoolbox.org"
+
+#: .new
+msgid "new"
+msgstr "جديد"
+
+#: .Projects
+msgid "Projects"
+msgstr "المشروعات"
+
+#: .Library
+msgid "Library"
+msgstr "المكتبة"
+
+#: .Projects+(legacy)
+msgid "Projects (legacy)"
+msgstr "المشروعات (القديمة)"
+
+#: .Source
+msgid "Source"
+msgstr "المصدر"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "فشل إدراج الأصول"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "الرجاء إعادة تحميل الصفحة"
+
+#: .Log+In
+msgid "Log In"
+msgstr "تسجيل الدخول"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "إعدادات الحساب"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "شروط الخدمة"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "سياسة الخصوصية"
+
+#: .Logout
+msgid "Logout"
+msgstr "تسجيل خروج"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "ابحث في مكتبتي"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "ابحث في المجموعات العامة"
+
+#: .Search+Projects
+msgid "Search Projects"
+msgstr "البحث في المشروعات"
+
+#: .submissions
+msgid "submissions"
+msgstr "عمليات الإرسال"
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "يرجى محاولة تسجيل الدخول باستخدام الزر في عنوان التبويب، أو [اتصل بفريق الدعم] إذا كنت تعتقد أن هذا خطأ."
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "يرجى [الاتصال بفريق الدعم] إذا كنت تعتقد أنه خطأ."
+
+#: .Access+denied
+msgid "Access denied"
+msgstr "تم رفض الدخول"
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "إما أنك لا تستطيع الوصول إلى هذه الصفحة أو أن هذه الصفحة ببساطة غير موجودة."
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "تفاصيل إضافية:"
+
+#: .This+field+is+required.
+msgid "This field is required."
+msgstr "هذا الحقل مطلوب."
+
+#: .This+field+must+match+the+Verify+Password+field.
+msgid "This field must match the Verify Password field."
+msgstr "هذا الحقل يجب أن يتطابق مع حقل تأكيد كلمة المرور."
+
+#: .Save+Password
+msgid "Save Password"
+msgstr "حفظ كلمة المرور"
+
+#: .Reset+Password
+msgid "Reset Password"
+msgstr "أعد تعيين كلمة المرور"
+
+#: .Current+Password
+msgid "Current Password"
+msgstr "كلمة المرور الحالية"
+
+#: .Forgot+Password%3F
+msgid "Forgot Password?"
+msgstr "نسيت كلمة المرور؟"
+
+#: .New+Password
+msgid "New Password"
+msgstr "كلمة المرور الجديدة"
+
+#: .Verify+Password
+msgid "Verify Password"
+msgstr "تأكيد كلمة المرور"
 
 #: .Success%21
 msgid "Success!"
@@ -1712,311 +1787,6 @@ msgstr "هل تريد إغلاق جدول الترجمات؟"
 #: .You+will+lose+all+unsaved+changes.
 msgid "You will lose all unsaved changes."
 msgstr "ستفقد كل التغييرات التي لم يتم حفظها."
-
-#: .All+questions
-msgid "All questions"
-msgstr "كل الأسئلة"
-
-#: .Image+Gallery
-msgid "Image Gallery"
-msgstr "صورة ألبوم الصور"
-
-#: .From
-msgid "From"
-msgstr "من"
-
-#: .Between
-msgid "Between"
-msgstr "بين"
-
-#: .and
-msgid "and"
-msgstr "و"
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "يرجى محاولة تسجيل الدخول باستخدام الزر في عنوان التبويب، أو [اتصل بفريق الدعم] إذا كنت تعتقد أن هذا خطأ."
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "يرجى [الاتصال بفريق الدعم] إذا كنت تعتقد أنه خطأ."
-
-#: .Access+denied
-msgid "Access denied"
-msgstr "تم رفض الدخول"
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "إما أنك لا تستطيع الوصول إلى هذه الصفحة أو أن هذه الصفحة ببساطة غير موجودة."
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "تفاصيل إضافية:"
-
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "فشل في الحصول على بيانات المالك."
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "تاريخ الإنشاء"
-
-#: .Owner
-msgid "Owner"
-msgstr "المالك"
-
-#: .Tags
-msgid "Tags"
-msgstr "الوسوم الدلالية"
-
-#: .Items
-msgid "Items"
-msgstr "العناصر"
-
-#: .Organization
-msgid "Organization"
-msgstr "المنظمة"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "إخفاء التفاصيل الكاملة"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "إظهار التفاصيل الكاملة"
-
-#: .Name
-msgid "Name"
-msgstr "الاسم"
-
-#: .Type
-msgid "Type"
-msgstr "النوع"
-
-#: .Shared+by
-msgid "Shared by"
-msgstr "مشاركة من قبل"
-
-#: .Created
-msgid "Created"
-msgstr "تم الإنشاء"
-
-#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
-msgid ""
-"Let's get started by creating your first project. Click the New button to "
-"create a new form."
-msgstr "لنبدأ من خلال إنشاء أول مشروع لك. اضغط على زر جديد لإنشاء نموذج جديد."
-
-#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
-msgid ""
-"Advanced users: You can also drag and drop XLSForms here and they will be "
-"uploaded and converted to projects."
-msgstr "المستخدمون المتقدمون: يمكنكم أيضاً سحب وإدراج ملفات بصيغة (XLSForms) هنا وسيتم رفعها وتحويلها إلى مشروعات."
-
-#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
-msgid ""
-"Let's get started by creating your first library question or question block."
-" Click the New button to create a new question or block."
-msgstr "لنبدأ من خلال أن ننشئ لك أول مكتبة للأسئلة أو مجمع للأسئلة. اضغط على زر جديد لإنشاء أسئلة جديدة أو مجمع جديد."
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "فشل في تغيير الحالة العامة للأصل."
-
-#: .Make+public
-msgid "Make public"
-msgstr "تغيير الحالة إلى عامة"
-
-#: .Make+private
-msgid "Make private"
-msgstr "تغيير الحالة إلى خاصة"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "هذا ##asset_type## فارغ."
-
-#: .Show+less
-msgid "Show less"
-msgstr "قم بعرض أقل"
-
-#: .Show+more
-msgid "Show more"
-msgstr "قم بعرض المزيد"
-
-#: .Vertical
-msgid "Vertical"
-msgstr "عمودي"
-
-#: .Donut
-msgid "Donut"
-msgstr "كعكة"
-
-#: .Area
-msgid "Area"
-msgstr "المساحة"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "أفقي"
-
-#: .Pie
-msgid "Pie"
-msgstr "دائري"
-
-#: .Line
-msgid "Line"
-msgstr "الخط"
-
-#: .Unlabeled
-msgid "Unlabeled"
-msgstr "بدون تحديد التسمية"
-
-#: .Include+the+following+questions
-msgid "Include the following questions:"
-msgstr "يتضمن الأسئلة التالية:"
-
-#: .Chart+Type
-msgid "Chart Type"
-msgstr "نوع الرسم البياني"
-
-#: .Colors
-msgid "Colors"
-msgstr "الألوان"
-
-#: .No+grouping
-msgid "No grouping"
-msgstr "من دون تصنيف"
-
-#: .Group+By
-msgid "Group By"
-msgstr "التصنيف حسب"
-
-#: .Translation
-msgid "Translation"
-msgstr "الترجمة"
-
-#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
-msgid "This project has no submitted data. Please collect some and try again."
-msgstr "لا يوجد بيانات مقدمة لهذا المشروع. يرجى جمع بعضها والمحاولة مرة أخرى."
-
-#: .results
-msgid "results"
-msgstr "النتائج"
-
-#: .Edit
-msgid "Edit"
-msgstr "تحرير"
-
-#: .Validation
-msgid "Validation"
-msgstr "التحقق"
-
-#: .Show+All
-msgid "Show All"
-msgstr "عرض الكل"
-
-#: .Search
-msgid "Search"
-msgstr "البحث"
-
-#: .Display+options
-msgid "Display options"
-msgstr "خيارات العرض"
-
-#: .Prev
-msgid "Prev"
-msgstr "السابق"
-
-#: .Your+filters+returned+no+submissions.
-msgid "Your filters returned no submissions."
-msgstr "لا تظهر عوامل التصفية التي استعملتها أي عمليات إرسال."
-
-#: .Page
-msgid "Page"
-msgstr "الصفحة"
-
-#: .rows
-msgid "rows"
-msgstr "صف"
-
-#: .My+Projects
-msgid "My Projects"
-msgstr "مشروعاتي"
-
-#: .Is
-msgid "Is"
-msgstr "تكون"
-
-#: .Is+not
-msgid "Is not"
-msgstr "لا تكون"
-
-#: .Contains
-msgid "Contains"
-msgstr "تحتوي"
-
-#: .Does+not+contain
-msgid "Does not contain"
-msgstr "لا تحتوي"
-
-#: .Starts+with
-msgid "Starts with"
-msgstr "تبدأ ب"
-
-#: .Ends+with
-msgid "Ends with"
-msgstr "تنتهي ب"
-
-#: .Is+empty
-msgid "Is empty"
-msgstr "فارغ"
-
-#: .Is+not+empty
-msgid "Is not empty"
-msgstr "ليس فارغاً"
-
-#: .Project+name
-msgid "Project name"
-msgstr "اسم المشروع"
-
-#: .Status
-msgid "Status"
-msgstr "الحالة"
-
-#: .Owner+username
-msgid "Owner username"
-msgstr "اسم المستخدم الخاص بالمالك"
-
-#: .Owner+full+name
-msgid "Owner full name"
-msgstr "الاسم الكامل للمالك"
-
-#: .Owner+email
-msgid "Owner email"
-msgstr "البريد الإلكتروني للمالك"
-
-#: .Owner+organization
-msgid "Owner organization"
-msgstr "المنظمة المالكة"
-
-#: .Date+modified
-msgid "Date modified"
-msgstr "تاريخ التعديل"
-
-#: .Date+deployed
-msgid "Date deployed"
-msgstr "تاريخ النشر"
-
-#: .Countries
-msgid "Countries"
-msgstr "البلدان"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "التشكيل الأساسي"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2114,41 +1884,195 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "قم بالربط مع مشروع (مشروعات) أخرى لاستيراد البيانات الديناميكية منها إلى هذا المشروع. تعرف على المزيد حول مرفقات البيانات الديناميكية"
 
-#: .DONE
-msgid "DONE"
-msgstr "تم"
+#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
+msgid "This project has no submitted data. Please collect some and try again."
+msgstr "لا يوجد بيانات مقدمة لهذا المشروع. يرجى جمع بعضها والمحاولة مرة أخرى."
 
-#: .This+field+is+required.
-msgid "This field is required."
-msgstr "هذا الحقل مطلوب."
+#: .results
+msgid "results"
+msgstr "النتائج"
 
-#: .This+field+must+match+the+Verify+Password+field.
-msgid "This field must match the Verify Password field."
-msgstr "هذا الحقل يجب أن يتطابق مع حقل تأكيد كلمة المرور."
+#: .Edit
+msgid "Edit"
+msgstr "تحرير"
 
-#: .Save+Password
-msgid "Save Password"
-msgstr "حفظ كلمة المرور"
+#: .Validation
+msgid "Validation"
+msgstr "التحقق"
 
-#: .Reset+Password
-msgid "Reset Password"
-msgstr "أعد تعيين كلمة المرور"
+#: .Show+All
+msgid "Show All"
+msgstr "عرض الكل"
 
-#: .Current+Password
-msgid "Current Password"
-msgstr "كلمة المرور الحالية"
+#: .Search
+msgid "Search"
+msgstr "البحث"
 
-#: .Forgot+Password%3F
-msgid "Forgot Password?"
-msgstr "نسيت كلمة المرور؟"
+#: .Display+options
+msgid "Display options"
+msgstr "خيارات العرض"
 
-#: .New+Password
-msgid "New Password"
-msgstr "كلمة المرور الجديدة"
+#: .Prev
+msgid "Prev"
+msgstr "السابق"
 
-#: .Verify+Password
-msgid "Verify Password"
-msgstr "تأكيد كلمة المرور"
+#: .Your+filters+returned+no+submissions.
+msgid "Your filters returned no submissions."
+msgstr "لا تظهر عوامل التصفية التي استعملتها أي عمليات إرسال."
+
+#: .Page
+msgid "Page"
+msgstr "الصفحة"
+
+#: .rows
+msgid "rows"
+msgstr "صف"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "هذا ##asset_type## فارغ."
+
+#: .Show+less
+msgid "Show less"
+msgstr "قم بعرض أقل"
+
+#: .Show+more
+msgid "Show more"
+msgstr "قم بعرض المزيد"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "فشل في تغيير الحالة العامة للأصل."
+
+#: .Make+public
+msgid "Make public"
+msgstr "تغيير الحالة إلى عامة"
+
+#: .Make+private
+msgid "Make private"
+msgstr "تغيير الحالة إلى خاصة"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "فشل في الحصول على بيانات المالك."
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "تاريخ الإنشاء"
+
+#: .Owner
+msgid "Owner"
+msgstr "المالك"
+
+#: .Tags
+msgid "Tags"
+msgstr "الوسوم الدلالية"
+
+#: .Items
+msgid "Items"
+msgstr "العناصر"
+
+#: .Organization
+msgid "Organization"
+msgstr "المنظمة"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "إخفاء التفاصيل الكاملة"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "إظهار التفاصيل الكاملة"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "عمودي"
+
+#: .Donut
+msgid "Donut"
+msgstr "كعكة"
+
+#: .Area
+msgid "Area"
+msgstr "المساحة"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "أفقي"
+
+#: .Pie
+msgid "Pie"
+msgstr "دائري"
+
+#: .Line
+msgid "Line"
+msgstr "الخط"
+
+#: .Unlabeled
+msgid "Unlabeled"
+msgstr "بدون تحديد التسمية"
+
+#: .Include+the+following+questions
+msgid "Include the following questions:"
+msgstr "يتضمن الأسئلة التالية:"
+
+#: .Chart+Type
+msgid "Chart Type"
+msgstr "نوع الرسم البياني"
+
+#: .Colors
+msgid "Colors"
+msgstr "الألوان"
+
+#: .Name
+msgid "Name"
+msgstr "الاسم"
+
+#: .Type
+msgid "Type"
+msgstr "النوع"
+
+#: .Shared+by
+msgid "Shared by"
+msgstr "مشاركة من قبل"
+
+#: .Created
+msgid "Created"
+msgstr "تم الإنشاء"
+
+#: .Let%27s+get+started+by+creating+your+first+project.+Click+the+New+button+to+create+a+new+form.
+msgid ""
+"Let's get started by creating your first project. Click the New button to "
+"create a new form."
+msgstr "لنبدأ من خلال إنشاء أول مشروع لك. اضغط على زر جديد لإنشاء نموذج جديد."
+
+#: .Advanced+users+You+can+also+drag+and+drop+XLSForms+here+and+they+will+be+uploaded+and+converted+to+projects.
+msgid ""
+"Advanced users: You can also drag and drop XLSForms here and they will be "
+"uploaded and converted to projects."
+msgstr "المستخدمون المتقدمون: يمكنكم أيضاً سحب وإدراج ملفات بصيغة (XLSForms) هنا وسيتم رفعها وتحويلها إلى مشروعات."
+
+#: .Let%27s+get+started+by+creating+your+first+library+question+or+question+block.+Click+the+New+button+to+create+a+new+question+or+block.
+msgid ""
+"Let's get started by creating your first library question or question block."
+" Click the New button to create a new question or block."
+msgstr "لنبدأ من خلال أن ننشئ لك أول مكتبة للأسئلة أو مجمع للأسئلة. اضغط على زر جديد لإنشاء أسئلة جديدة أو مجمع جديد."
+
+#: .No+grouping
+msgid "No grouping"
+msgstr "من دون تصنيف"
+
+#: .Group+By
+msgid "Group By"
+msgstr "التصنيف حسب"
+
+#: .Translation
+msgid "Translation"
+msgstr "الترجمة"
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "التشكيل الأساسي"
 
 #: .Subscribers
 msgid "Subscribers"
@@ -2173,31 +2097,31 @@ msgstr "تصدير كل البيانات"
 
 #: .Your+account+total+use
 msgid "Your account total use"
-msgstr ""
+msgstr "الاستخدام الكامل لحسابك"
 
 #: .Monthly+use
 msgid "Monthly use"
-msgstr ""
+msgstr "الإستخدام الشهري"
 
 #: .Storage
 msgid "Storage"
-msgstr ""
+msgstr "التخزين"
 
 #: .per+account
 msgid "per account"
-msgstr ""
+msgstr "لكل حساب"
 
 #: .Current+use
 msgid "Current use"
-msgstr ""
+msgstr "الاستخدام الحالي"
 
 #: .Transcription+minutes
 msgid "Transcription minutes"
-msgstr ""
+msgstr "الدقائق التي تم تفريغ الحوار منها"
 
 #: .Translation+characters
 msgid "Translation characters"
-msgstr ""
+msgstr "الحروف التي تمت ترجمتها"
 
 #: .Male
 msgid "Male"
@@ -2251,32 +2175,157 @@ msgstr "المدينة"
 msgid "Social"
 msgstr "الاجتماعي"
 
-#: .Community+plan+(free+access)
-msgid "Community plan (free access)"
-msgstr "خطة مجتمعية (إمكانية الوصول المجاني)"
-
-#: .Free+access+to+all+services.+5GB+of+media+attachments+per+account,+10,000+submissions+per+month,+as+well+as+25+minutes+of+automatic+speech+recognition+and+20,000+characters+of+machine+translation+per+month.
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"Free access to all services. 5GB of media attachments per account, 10,000 "
-"submissions per month, as well as 25 minutes of automatic speech recognition"
-" and 20,000 characters of machine translation per month."
-msgstr "إمكانية الوصول المجاني لكل الخدمات بما فيها 5 جيجابايت من مرفقات الوسائط لكل حساب، و 10 آلاف عملية إرسال كل شهر، و25 دقيقة من التعرف الصوتي وإملاء النصوص آلياً، وترجمة 20 ألف حرف آلياً كل شهر."
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr ""
 
-#: .Current+Plan
-msgid "Current Plan"
-msgstr "الخطة الحالية"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr ""
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr ""
+
+#: .Annual
+msgid "Annual"
+msgstr ""
+
+#: .Monthly
+msgid "Monthly"
+msgstr ""
+
+#: .your+plan
+msgid "your plan"
+msgstr ""
+
+#: .Free
+msgid "Free"
+msgstr ""
 
 #: .Upgrade
 msgid "Upgrade"
 msgstr "ترقية"
 
-#: .Add+ons+and+upgrades+to+your+plan
-msgid "Add ons and upgrades to your plan"
-msgstr "الإضافات والترقيات لخطتك"
+#: .Manage
+msgid "Manage"
+msgstr ""
+
+#: .Change+plan
+msgid "Change plan"
+msgstr ""
+
+#: .Need+More%3F
+msgid "Need More?"
+msgstr ""
+
+#: .We+offer+several+add-on+options+to+increase+your+limits+or+the+capacity+of+certain+features+for+a+period+of+time,+depending+on+which+plan+you+use.
+msgid ""
+"We offer several add-on options to increase your limits or the capacity of "
+"certain features for a period of time, depending on which plan you use."
+msgstr ""
+
+#: .If+your+organization+has+larger+or+more+specific+needs,+please+contact+our+team+to+learn+about+our+enterprise+options.
+msgid ""
+"If your organization has larger or more specific needs, please contact our "
+"team to learn about our enterprise options."
+msgstr ""
+
+#: .Get+in+touch+for+Enterprise+options
+msgid "Get in touch for Enterprise options"
+msgstr ""
+
+#: .Collapse
+msgid "Collapse"
+msgstr ""
+
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr ""
+
+#: .My+Projects
+msgid "My Projects"
+msgstr "مشروعاتي"
+
+#: .Is
+msgid "Is"
+msgstr "تكون"
+
+#: .Is+not
+msgid "Is not"
+msgstr "لا تكون"
+
+#: .Contains
+msgid "Contains"
+msgstr "تحتوي"
+
+#: .Does+not+contain
+msgid "Does not contain"
+msgstr "لا تحتوي"
+
+#: .Starts+with
+msgid "Starts with"
+msgstr "تبدأ ب"
+
+#: .Ends+with
+msgid "Ends with"
+msgstr "تنتهي ب"
+
+#: .Is+empty
+msgid "Is empty"
+msgstr "فارغ"
+
+#: .Is+not+empty
+msgid "Is not empty"
+msgstr "ليس فارغاً"
+
+#: .Project+name
+msgid "Project name"
+msgstr "اسم المشروع"
+
+#: .Status
+msgid "Status"
+msgstr "الحالة"
+
+#: .Owner+username
+msgid "Owner username"
+msgstr "اسم المستخدم الخاص بالمالك"
+
+#: .Owner+full+name
+msgid "Owner full name"
+msgstr "الاسم الكامل للمالك"
+
+#: .Owner+email
+msgid "Owner email"
+msgstr "البريد الإلكتروني للمالك"
+
+#: .Owner+organization
+msgid "Owner organization"
+msgstr "المنظمة المالكة"
+
+#: .Date+modified
+msgid "Date modified"
+msgstr "تاريخ التعديل"
+
+#: .Date+deployed
+msgid "Date deployed"
+msgstr "تاريخ النشر"
+
+#: .Countries
+msgid "Countries"
+msgstr "البلدان"
 
 #: .Security
 msgid "Security"
 msgstr "الأمان"
+
+#: .DONE
+msgid "DONE"
+msgstr "تم"
 
 #: .Previous
 msgid "Previous"
@@ -2330,13 +2379,190 @@ msgstr "مشاركة"
 msgid "View containing Collection"
 msgstr "عودة لمحتوى التشكيل"
 
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "تم إضافة السؤال إلى المكتبة"
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr "حصل خطأ ما"
 
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "تمت إضافة المجموعة إلى المكتبة كمجمع"
+#: .Item
+msgid "Item"
+msgstr "بند"
+
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "من ##total_count##"
+
+#: .Transcript
+msgid "Transcript"
+msgstr "نص"
+
+#: .Translations
+msgid "Translations"
+msgstr "الترجمات"
+
+#: .Analysis
+msgid "Analysis"
+msgstr "تحليل"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "آخر تعديل ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "تم الإنشاء ##date##"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "تم نسخ الصلاحيات بنجاح"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "أنت على وشك نسخ الصلاحيات من ##source to ##الهدف. لا يمكن التراجع عن هذا الإجراء."
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "هل أنت متأكد أنك تريد نسخ الصلاحيات؟"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "تمت المعالجة"
+
+#: .Unlabelled
+msgid "Unlabelled"
+msgstr "بدون تحديد التسمية"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "نسخ الفريق من مشروع آخر"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "سيؤدي هذا إلى استبدال أي إعدادات مشاركة حالية محددة في هذا المشروع."
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "حدد مشروع المصدر ..."
+
+#: .copy
+msgid "copy"
+msgstr "نسخ"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "أدخل أسماء المستخدمين مفصولة بفاصلة"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "لم يتم العثور على المستخدم:"
+
+#: .username
+msgid "username"
+msgstr "أسم المستخدم"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "منح الصلاحيات"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "تحديث الصلاحيات"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "يمكن لأي شخص مشاهدة هذا النموذج"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "يمكن لأي شخص عرض عمليات الإرسال إلى هذا النموذج"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "رابط قابل للمشاركة"
+
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "هل تريد المغادرة بدون حفظ؟"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "إزالة الصلاحيات؟"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "سيؤدي هذا الإجراء إلى إزالة جميع الصلاحيات للمستخدم ##username##"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
+msgid "##permission_label## (##username_list##)"
+msgstr "##permission_label## (##username_list##)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
+msgid "##permission_label## (##username_list## and 1 other)"
+msgstr "##permission_label## (##username_list## و 1 آخر)"
+
+#: .is+owner
+msgid "is owner"
+msgstr "المالك"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "تعذر تحميل خدمات (REST)"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "هل أنت متأكد أنك تريد حذف ## الهدف؟"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "أنت على وشك حذف ## الهدف. لا يمكن التراجع عن هذا الإجراء."
+
+#: .Confirm
+msgid "Confirm"
+msgstr "تأكيد"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "سجل خدمة جديدة"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "لا يحتوي هذا المشروع على أي خدمات (REST) حتى الآن!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "يمكنك استخدام خدمات (REST) لنشر عمليات الإرسال تلقائياً إلى تطبيق جهة خارجية."
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "معرفة المزيد"
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "خدمات (REST): ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "هل تحتاج إلى المساعدة؟"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "أسم الخدمة"
+
+#: .Success
+msgid "Success"
+msgstr "نجاح"
+
+#: .Pending
+msgid "Pending"
+msgstr "قيد الانتظار"
+
+#: .Failed
+msgid "Failed"
+msgstr "فشل"
 
 #: .Paste+your+formatted+table+from+excel+in+the+box+below.
 msgid "Paste your formatted table from excel in the box below."
@@ -2369,6 +2595,54 @@ msgstr "مجمع به ___ سؤال/أسئلة"
 #: .search+library
 msgid "search library"
 msgstr "بحث في المكتبة"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "تعذر تحميل خدمة (REST)"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "تعذر تحميل سجلات الأداء لخدمة (REST)"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "تفاصيل فشل عملية الإرسال (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "العودة إلى خدمات (REST)"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "جار التحميل …"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "لا توجد سجلات أداء حتى الآن"
+
+#: .Submission
+msgid "Submission"
+msgstr "عملية الإرسال"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "إعادة المحاولة لجميع عمليات الإرسال"
+
+#: .Date
+msgid "Date"
+msgstr "التاريخ"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "قيد الانتظار (##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "إعادة محاولة عملية الإرسال"
+
+#: .More+info
+msgid "More info"
+msgstr "المزيد من المعلومات"
 
 #: .Marker+Colors
 msgid "Marker Colors"
@@ -2452,202 +2726,13 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "بشكل افتراضي، تقتصر الخريطة على أحدث ##QUERY_LIMIT_DEFAULT## عملية إرسال. يمكنك زيادة هذا الحد مؤقتاً إلى قيمة مختلفة. لاحظ أنه يتم إعادة تعيين هذا كلما قمت بإعادة فتح الخريطة."
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "تم نسخ الصلاحيات بنجاح"
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "تم إضافة السؤال إلى المكتبة"
 
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "أنت على وشك نسخ الصلاحيات من ##source to ##الهدف. لا يمكن التراجع عن هذا الإجراء."
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "هل أنت متأكد أنك تريد نسخ الصلاحيات؟"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "تمت المعالجة"
-
-#: .Unlabelled
-msgid "Unlabelled"
-msgstr "بدون تحديد التسمية"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "نسخ الفريق من مشروع آخر"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "سيؤدي هذا إلى استبدال أي إعدادات مشاركة حالية محددة في هذا المشروع."
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "حدد مشروع المصدر ..."
-
-#: .copy
-msgid "copy"
-msgstr "نسخ"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "تعذر تحميل خدمات (REST)"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "هل أنت متأكد أنك تريد حذف ## الهدف؟"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "أنت على وشك حذف ## الهدف. لا يمكن التراجع عن هذا الإجراء."
-
-#: .Confirm
-msgid "Confirm"
-msgstr "تأكيد"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "سجل خدمة جديدة"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "لا يحتوي هذا المشروع على أي خدمات (REST) حتى الآن!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "يمكنك استخدام خدمات (REST) لنشر عمليات الإرسال تلقائياً إلى تطبيق جهة خارجية."
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "معرفة المزيد"
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "خدمات (REST): ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "هل تحتاج إلى المساعدة؟"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "أسم الخدمة"
-
-#: .Success
-msgid "Success"
-msgstr "نجاح"
-
-#: .Pending
-msgid "Pending"
-msgstr "قيد الانتظار"
-
-#: .Failed
-msgid "Failed"
-msgstr "فشل"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "تعذر تحميل خدمة (REST)"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "تعذر تحميل سجلات الأداء لخدمة (REST)"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "تفاصيل فشل عملية الإرسال (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "العودة إلى خدمات (REST)"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "جار التحميل …"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "لا توجد سجلات أداء حتى الآن"
-
-#: .Submission
-msgid "Submission"
-msgstr "عملية الإرسال"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "إعادة المحاولة لجميع عمليات الإرسال"
-
-#: .Date
-msgid "Date"
-msgstr "التاريخ"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "قيد الانتظار (##count##×)"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "إعادة محاولة عملية الإرسال"
-
-#: .More+info
-msgid "More info"
-msgstr "المزيد من المعلومات"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "يمكن لأي شخص مشاهدة هذا النموذج"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "يمكن لأي شخص عرض عمليات الإرسال إلى هذا النموذج"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "رابط قابل للمشاركة"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "أدخل أسماء المستخدمين مفصولة بفاصلة"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "لم يتم العثور على المستخدم:"
-
-#: .username
-msgid "username"
-msgstr "أسم المستخدم"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "منح الصلاحيات"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "تحديث الصلاحيات"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "إزالة الصلاحيات؟"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "سيؤدي هذا الإجراء إلى إزالة جميع الصلاحيات للمستخدم ##username##"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
-msgid "##permission_label## (##username_list##)"
-msgstr "##permission_label## (##username_list##)"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
-msgid "##permission_label## (##username_list## and 1 other)"
-msgstr "##permission_label## (##username_list## و 1 آخر)"
-
-#: .is+owner
-msgid "is owner"
-msgstr "المالك"
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "تمت إضافة المجموعة إلى المكتبة كمجمع"
 
 #: .Search...
 msgid "Search..."
@@ -2681,41 +2766,9 @@ msgstr "وجدت أصول"
 msgid "expand details"
 msgstr "توسيع التفاصيل"
 
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr ""
-
-#: .Item
-msgid "Item"
-msgstr "بند"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "من ##total_count##"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "نص"
-
-#: .Translations
-msgid "Translations"
-msgstr "الترجمات"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "تحليل"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "آخر تعديل ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "تم الإنشاء ##date##"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "هل تريد المغادرة بدون حفظ؟"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "اختيار ..."
 
 #: .Audit+settings
 msgid "Audit settings"
@@ -2744,6 +2797,14 @@ msgstr "تفعيل التسجيل الصوتي في الخلفية"
 #: .Audio+quality
 msgid "Audio quality"
 msgstr "جودة الصوت"
+
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "ليس لديك قوالب. اذهب إلى المكتبة وأنشئ بعضها."
+
+#: .Template+name
+msgid "Template name"
+msgstr "أسم القالب"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -2781,6 +2842,38 @@ msgstr "خصائص وظيفية مقيدة"
 #: .Unlocked+functionalities
 msgid "Unlocked functionalities"
 msgstr "خصائص وظيفية غير مقيدة"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "بحث ..."
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "الرجاء إدخال عنوان ##type## الخاص بك"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "##type## بلا عنوان"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "تشكيل بدون عنوان"
+
+#: .project+title
+msgid "project title"
+msgstr "عنوان المشروع"
+
+#: .Profile
+msgid "Profile"
+msgstr "الملف الشخصي"
+
+#: .Usage
+msgid "Usage"
+msgstr "الاستخدام"
+
+#: .Your+Plan
+msgid "Your Plan"
+msgstr "خطتك"
 
 #: .Incorrect+token
 msgid "Incorrect token"
@@ -2865,61 +2958,72 @@ msgstr "يرجى ملاحظة أنه لإعادة تهيئة المصادقة ا
 msgid "Issues with the token"
 msgstr "مشكلات مع الرمز المميز"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "اختيار ..."
+#: .Type+
+msgid "Type: "
+msgstr "النوع: "
 
-#: .Profile
-msgid "Profile"
-msgstr "الملف الشخصي"
+#: ..+
+msgid ". "
+msgstr ". "
 
-#: .Usage
-msgid "Usage"
-msgstr ""
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "# 1 من # 2 مشارك أجاب على هذا السؤال. "
 
-#: .Your+Plan
-msgid "Your Plan"
-msgstr "خطتك"
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# كانوا بلا بيانات.)"
 
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "بحث ..."
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "تجاوز نمط الرسم البياني"
 
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "الرجاء إدخال عنوان ##type## الخاص بك"
+#: .Deploy+this+project
+msgid "Deploy this project"
+msgstr "توزيع هذا المشروع"
 
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "##type## بلا عنوان"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "موارد المساعدة"
 
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "تشكيل بدون عنوان"
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "مركز تعليمات كوبو-تولبوكس"
 
-#: .project+title
-msgid "project title"
-msgstr "عنوان المشروع"
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "مجموعة كبيرة من مقالات دعم المستخدم والبرامج التعليمية المتعلقة بكوبو"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "ليس لديك قوالب. اذهب إلى المكتبة وأنشئ بعضها."
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "منتدى مجتمع كوبو-تولبوكس"
 
-#: .Template+name
-msgid "Template name"
-msgstr "أسم القالب"
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "أرسل أسئلتك لتحصل على إجابات من مستخدمي كوبو (Kobo) ذوي الخبرة من كل أنحاء العالم"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "فشل تحديث الوسوم الدلالية"
+#: .Notifications
+msgid "Notifications"
+msgstr "إشعارات"
 
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "جاري التحديث ..."
+#: .Help
+msgid "Help"
+msgstr "المساعدة"
 
-#: .Update
-msgid "Update"
-msgstr "تحديث"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "الإدخالات ##submissionIndex## من ##submissionTotal##"
+
+#: .download
+msgid "download"
+msgstr "تحميل"
+
+#: .process
+msgid "process"
+msgstr "معالجة"
 
 #: .Question+Block
 msgid "Question Block"
@@ -2932,6 +3036,22 @@ msgstr "قالب"
 #: .Collection
 msgid "Collection"
 msgstr "التشكيل"
+
+#: .Choose+desired+type
+msgid "Choose desired type"
+msgstr "اختر النوع المطلوب"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "فشل تحديث الوسوم الدلالية"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "جاري التحديث ..."
+
+#: .Update
+msgid "Update"
+msgstr "تحديث"
 
 #: .%23%23type%23%23+%23%23name%23%23+created
 msgid "##type## ##name## created"
@@ -3015,14 +3135,6 @@ msgstr "تحديث الأسئلة المستوردة"
 msgid "Accept"
 msgstr "أقبل"
 
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "اختر النوع المطلوب"
-
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "نوع وسائط غير مدعوم: ##QUESTION_TYPE##"
-
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
 msgstr "حدث خطأ، تعذر حفظ إعدادات الجدول."
@@ -3046,6 +3158,83 @@ msgstr "إظهار أسماء المجموعات في عناوين تبويب ا
 #: .Show+HXL+tags
 msgid "Show HXL tags"
 msgstr "أظهر الوسوم الدلالية (HXL)"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "لا يمكن العثور على عملية الإرسال. من الممكن أن يكون قد تم حذفها. معرّف عملية الإرسال: ##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "حذف عملية الإرسال؟"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "هل انت متأكد بأنك تود حذف عملية الإرسال هذه؟"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "هذا الإجراء لا يمكن التراجع عنه"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "تم إنشاء نسخة مكررة"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "تم إنشاء نسخة مكررة من سجل الإرسال بنجاح. يمكنك عرض النسخة الجديدة أدناه وإجراء التغييرات باستخدام أزرار الإجراء الموجودة أسفل الصفحة."
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "تجاهل عملية الإرسال المكررة"
+
+#: .Discard
+msgid "Discard"
+msgstr "تجاهل"
+
+#: .Language
+msgid "Language:"
+msgstr "اللغة:"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "حالة التحقق:"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "انقر فوق الزر أدناه لتحميل أحدث البيانات لعملية الإرسال هذه. "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "تحديث عملية الإرسال"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "تسجيل صوت الخلفية"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "عرض أسماء (XML)"
+
+#: .View
+msgid "View"
+msgstr "عرض"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "تكرار"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "حذف عملية الإرسال"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "نوع وسائط غير مدعوم: ##QUESTION_TYPE##"
 
 #: .n/d
 msgid "n/d"
@@ -3139,99 +3328,6 @@ msgstr "التردد"
 #: .Percentage
 msgid "Percentage"
 msgstr "النسبة"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "لا يمكن العثور على عملية الإرسال. من الممكن أن يكون قد تم حذفها. معرّف عملية الإرسال: ##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "حذف عملية الإرسال؟"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "هل انت متأكد بأنك تود حذف عملية الإرسال هذه؟"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "هذا الإجراء لا يمكن التراجع عنه"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "تم إنشاء نسخة مكررة"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "تم إنشاء نسخة مكررة من سجل الإرسال بنجاح. يمكنك عرض النسخة الجديدة أدناه وإجراء التغييرات باستخدام أزرار الإجراء الموجودة أسفل الصفحة."
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "تجاهل عملية الإرسال المكررة"
-
-#: .Discard
-msgid "Discard"
-msgstr "تجاهل"
-
-#: .Language
-msgid "Language:"
-msgstr "اللغة:"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "حالة التحقق:"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "انقر فوق الزر أدناه لتحميل أحدث البيانات لعملية الإرسال هذه. "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "تحديث عملية الإرسال"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "تسجيل صوت الخلفية"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "عرض أسماء (XML)"
-
-#: .View
-msgid "View"
-msgstr "عرض"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "تكرار"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "حذف عملية الإرسال"
-
-#: .%2A+Save+Changes
-msgid "* Save Changes"
-msgstr "* حفظ التغييرات"
-
-#: .updated+text
-msgid "updated text"
-msgstr "النص المحدث"
-
-#: .translation
-msgid "translation"
-msgstr "الترجمة"
-
-#: .Original+string
-msgid "Original string"
-msgstr "النص الأصلي"
-
-#: .Go+back%3F
-msgid "Go back?"
-msgstr "العودة؟"
 
 #: .Delete+language%3F
 msgid "Delete language?"
@@ -3327,9 +3423,25 @@ msgstr "إضافة لغة"
 msgid "Add a new language"
 msgstr "إضافة لغة جديدة"
 
-#: .Deploy+this+project
-msgid "Deploy this project"
-msgstr "توزيع هذا المشروع"
+#: .%2A+Save+Changes
+msgid "* Save Changes"
+msgstr "* حفظ التغييرات"
+
+#: .updated+text
+msgid "updated text"
+msgstr "النص المحدث"
+
+#: .translation
+msgid "translation"
+msgstr "الترجمة"
+
+#: .Original+string
+msgid "Original string"
+msgstr "النص الأصلي"
+
+#: .Go+back%3F
+msgid "Go back?"
+msgstr "العودة؟"
 
 #: .JSON
 msgid "JSON"
@@ -3413,205 +3525,9 @@ msgstr "إضافة غلاف مخصص حول عملية إرسال JSON (سيتم
 msgid "Add Custom Wrapper"
 msgstr "إضافة غلاف مخصص"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "موارد المساعدة"
-
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "مركز تعليمات كوبو-تولبوكس"
-
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "مجموعة كبيرة من مقالات دعم المستخدم والبرامج التعليمية المتعلقة بكوبو"
-
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "منتدى مجتمع كوبو-تولبوكس"
-
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "أرسل أسئلتك لتحصل على إجابات من مستخدمي كوبو (Kobo) ذوي الخبرة من كل أنحاء العالم"
-
-#: .Notifications
-msgid "Notifications"
-msgstr "إشعارات"
-
-#: .Help
-msgid "Help"
-msgstr "المساعدة"
-
-#: .Type+
-msgid "Type: "
-msgstr "النوع: "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "# 1 من # 2 مشارك أجاب على هذا السؤال. "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# كانوا بلا بيانات.)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "تجاوز نمط الرسم البياني"
-
-#: .filter
-msgid "filter"
-msgstr "فلتر"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "لا يوجد فلتر، يمكنك إضافة واحد بالأسفل"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "إضافة فلتر"
-
-#: .Apply
-msgid "Apply"
-msgstr "تطبيق"
-
-#: .fields
-msgid "fields"
-msgstr "حقول"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "الإدخالات ##submissionIndex## من ##submissionTotal##"
-
-#: .download
-msgid "download"
-msgstr "تحميل"
-
-#: .process
-msgid "process"
-msgstr "معالجة"
-
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "حدث خطأ أثناء تحميل تطبيق (Enketo)."
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "حدد كل النتائج (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "حدد النتائج المعروضة (##count##)"
-
-#: .None
-msgid "None"
-msgstr "لا شيئ"
-
-#: .Update+status+of+selected+submissions
-msgid "Update status of selected submissions"
-msgstr "تحديث الحالة لعمليات الإرسال المحددة"
-
-#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
-msgid ""
-"You have selected ## submissions. Are you sure you would like to update "
-"their status? This action is irreversible."
-msgstr "لقد اخترت ## عملية إرسال. هل أنت متأكد أنك تريد تحديث حالتهم؟ هذا الإجراء غير قابل للتراجع."
-
-#: .Update+Validation+Status
-msgid "Update Validation Status"
-msgstr "تحديث حالة التحقق"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
-msgid ""
-"You are about to permanently delete ##count## submissions. It is not "
-"possible to recover deleted submissions."
-msgstr "أنت على وشك حذف ##count## عملية إرسال بشكل نهائي. لا يمكن استعادة عمليات الإرسال المحذوفة."
-
-#: .Delete+selected+submissions
-msgid "Delete selected submissions"
-msgstr "حذف عمليات الإرسال المحددة"
-
-#: .Delete+selected
-msgid "Delete selected"
-msgstr "حذف المحدد"
-
-#: .%23%23count%23%23+selected
-msgid "##count## selected"
-msgstr "تم تحديد ##count##"
-
-#: .Change+status
-msgid "Change status"
-msgstr "تغيير الحالة"
-
-#: .Set+status+%23%23status%23%23
-msgid "Set status: ##status##"
-msgstr "تعيين الحالة: ##status##"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "إخفاء حقول"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "ترتيب من الأصغر للأكبر"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "ترتيب من الأكبر للأصغر"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "إخفاء الحقل"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "إلغاء تجميد الحقل"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "حقل مجمد"
-
-#: .Delete+export%3F
-msgid "Delete export?"
-msgstr "حذف التصدير؟"
-
-#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
-msgid ""
-"Are you sure you want to delete this export? This action is not reversible."
-msgstr "هل أنت متأكد أنك تريد حذف هذا التصدير؟ هذا الإجراء لا يمكن التراجع عنه."
-
-#: .Unknown
-msgid "Unknown"
-msgstr "غير معروف"
-
-#: .Export+Failed
-msgid "Export Failed"
-msgstr "فشل التصدير"
-
-#: .Processing%E2%80%A6
-msgid "Processing…"
-msgstr "قيد المعالجة …"
-
-#: .Exports
-msgid "Exports"
-msgstr "التصديرات"
-
-#: .Include+Groups
-msgid "Include Groups"
-msgstr "تضمين مجموعات"
-
-#: .Multiple+Versions
-msgid "Multiple Versions"
-msgstr "نسخ متعددة"
-
-#: .There+is+nothing+to+download+yet.
-msgid "There is nothing to download yet."
-msgstr "لا يوجد شيء لتحميله حتى الآن."
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -3626,6 +3542,10 @@ msgid ""
 "Are you sure you want to delete this settings? This action is not "
 "reversible."
 msgstr "هل أنت متأكد أنك تريد حذف هذه الإعدادات؟ هذا الإجراء لا يمكن التراجع عنه."
+
+#: .None
+msgid "None"
+msgstr "لا شيئ"
 
 #: .Include+data+from+all
 msgid "Include data from all"
@@ -3701,6 +3621,135 @@ msgid ""
 "using one of the other export types available."
 msgstr "لن يتم دعم تنسيق التصدير هذا في المستقبل. يرجى النظر في استخدام أحد أنواع التصدير الأخرى المتاحة."
 
+#: .Delete+export%3F
+msgid "Delete export?"
+msgstr "حذف التصدير؟"
+
+#: .Are+you+sure+you+want+to+delete+this+export%3F+This+action+is+not+reversible.
+msgid ""
+"Are you sure you want to delete this export? This action is not reversible."
+msgstr "هل أنت متأكد أنك تريد حذف هذا التصدير؟ هذا الإجراء لا يمكن التراجع عنه."
+
+#: .Unknown
+msgid "Unknown"
+msgstr "غير معروف"
+
+#: .Export+Failed
+msgid "Export Failed"
+msgstr "فشل التصدير"
+
+#: .Processing%E2%80%A6
+msgid "Processing…"
+msgstr "قيد المعالجة …"
+
+#: .Exports
+msgid "Exports"
+msgstr "التصديرات"
+
+#: .Include+Groups
+msgid "Include Groups"
+msgstr "تضمين مجموعات"
+
+#: .Multiple+Versions
+msgid "Multiple Versions"
+msgstr "نسخ متعددة"
+
+#: .There+is+nothing+to+download+yet.
+msgid "There is nothing to download yet."
+msgstr "لا يوجد شيء لتحميله حتى الآن."
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "حدد كل النتائج (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "حدد النتائج المعروضة (##count##)"
+
+#: .Update+status+of+selected+submissions
+msgid "Update status of selected submissions"
+msgstr "تحديث الحالة لعمليات الإرسال المحددة"
+
+#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
+msgid ""
+"You have selected ## submissions. Are you sure you would like to update "
+"their status? This action is irreversible."
+msgstr "لقد اخترت ## عملية إرسال. هل أنت متأكد أنك تريد تحديث حالتهم؟ هذا الإجراء غير قابل للتراجع."
+
+#: .Update+Validation+Status
+msgid "Update Validation Status"
+msgstr "تحديث حالة التحقق"
+
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
+msgid ""
+"You are about to permanently delete ##count## submissions. It is not "
+"possible to recover deleted submissions."
+msgstr "أنت على وشك حذف ##count## عملية إرسال بشكل نهائي. لا يمكن استعادة عمليات الإرسال المحذوفة."
+
+#: .Delete+selected+submissions
+msgid "Delete selected submissions"
+msgstr "حذف عمليات الإرسال المحددة"
+
+#: .Delete+selected
+msgid "Delete selected"
+msgstr "حذف المحدد"
+
+#: .%23%23count%23%23+selected
+msgid "##count## selected"
+msgstr "تم تحديد ##count##"
+
+#: .Change+status
+msgid "Change status"
+msgstr "تغيير الحالة"
+
+#: .Set+status+%23%23status%23%23
+msgid "Set status: ##status##"
+msgstr "تعيين الحالة: ##status##"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "ترتيب من الأصغر للأكبر"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "ترتيب من الأكبر للأصغر"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "إخفاء الحقل"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "إلغاء تجميد الحقل"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "حقل مجمد"
+
+#: .hide+fields
+msgid "hide fields"
+msgstr "إخفاء حقول"
+
+#: .filter
+msgid "filter"
+msgstr "فلتر"
+
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "لا يوجد فلتر، يمكنك إضافة واحد بالأسفل"
+
+#: .Add+filter
+msgid "Add filter"
+msgstr "إضافة فلتر"
+
+#: .Apply
+msgid "Apply"
+msgstr "تطبيق"
+
+#: .fields
+msgid "fields"
+msgstr "حقول"
+
 #: .Two-factor+authentication
 msgid "Two-factor authentication"
 msgstr "مصادقة ثنائية"
@@ -3770,14 +3819,6 @@ msgstr "الدخول المفرد"
 #: .There+are+no+projects+to+display.
 msgid "There are no projects to display."
 msgstr "لا توجد مشاريع للعرض."
-
-#: .and+one+other+question
-msgid "and one other question"
-msgstr "وسؤال آخر"
-
-#: .and+%23%23+other+questions
-msgid "and ## other questions"
-msgstr "و## سؤال آخر/أسئلة أخرى"
 
 #: .Asset+seems+to+not+have+the+processing+feature+enabled%21
 msgid "Asset seems to not have the processing feature enabled!"
@@ -3899,6 +3940,22 @@ msgstr "إنشاء الترجمة"
 msgid "new translation"
 msgstr "ترجمة جديدة"
 
+#: .and+one+other+question
+msgid "and one other question"
+msgstr "وسؤال آخر"
+
+#: .and+%23%23+other+questions
+msgid "and ## other questions"
+msgstr "و## سؤال آخر/أسئلة أخرى"
+
+#: .An+error+occured
+msgid "An error occured"
+msgstr "حدث خطأ"
+
+#: .Incorrect+token+or+something+went+wrong
+msgid "Incorrect token or something went wrong"
+msgstr "رمز مميز خاطئ أو حدث خطأ ما"
+
 #: .Mean
 msgid "Mean"
 msgstr "المتوسط"
@@ -3915,17 +3972,57 @@ msgstr "الوضع"
 msgid "Standard deviation"
 msgstr "الانحراف المعياري"
 
-#: .An+error+occured
-msgid "An error occured"
-msgstr "حدث خطأ"
+#: .CSV+(legacy)
+msgid "CSV (legacy)"
+msgstr "CSV (تابع)"
 
-#: .Incorrect+token+or+something+went+wrong
-msgid "Incorrect token or something went wrong"
-msgstr "رمز مميز خاطئ أو حدث خطأ ما"
+#: .CSV
+msgid "CSV"
+msgstr "CSV"
 
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "قم بالكتابة ثم التأكيد باستخدام مفتاح (ENTER)"
+#: .GeoJSON
+msgid "GeoJSON"
+msgstr "التنسيق الجغرافي (GeoJSON)"
+
+#: .GPS+coordinates+(KML)
+msgid "GPS coordinates (KML)"
+msgstr "إحداثيات نظام تحديد المواقع العالمي (KML)"
+
+#: .SPSS+Labels
+msgid "SPSS Labels"
+msgstr "تسميات (SPSS)"
+
+#: .XLS+(legacy)
+msgid "XLS (legacy)"
+msgstr "XLS (تابع)"
+
+#: .XLS
+msgid "XLS"
+msgstr "XLS"
+
+#: .Media+Attachments+(ZIP)
+msgid "Media Attachments (ZIP)"
+msgstr "مرفق وسائط متعددة (ZIP)"
+
+#: .XML+values+and+headers
+msgid "XML values and headers"
+msgstr "قيم (XML) وعناوين التبويب"
+
+#: .Separate+columns
+msgid "Separate columns"
+msgstr "أعمدة منفصلة"
+
+#: .Single+column
+msgid "Single column"
+msgstr "عمود مفرد"
+
+#: .Single+and+separate+columns
+msgid "Single and separate columns"
+msgstr "أعمدة مفردة ومنفصلة"
+
+#: .Add+tag(s)
+msgid "Add tag(s)"
+msgstr "أضف وسم (وسوم) دلالي"
 
 #: .Name+must+be+unique%21
 msgid "Name must be unique!"
@@ -3955,69 +4052,13 @@ msgstr "كود اللغة"
 msgid "Set"
 msgstr "ضبط"
 
-#: .Add+tag(s)
-msgid "Add tag(s)"
-msgstr "أضف وسم (وسوم) دلالي"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "حدد نوع التصدير"
 
-#: .Filter+by
-msgid "Filter by"
-msgstr "رتب من خلال"
-
-#: .Select+field
-msgid "Select field"
-msgstr "اختر الحقل"
-
-#: .Condition
-msgid "Condition"
-msgstr "حالة"
-
-#: .Select+condition
-msgid "Select condition"
-msgstr "حدد الشرط"
-
-#: .Enter+value
-msgid "Enter value"
-msgstr "أدخل القيمة"
-
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "هل ترغب بالتأكيد في حذف هذا السؤال؟"
-
-#: .This+action+cannot+be+undone.
-msgid "This action cannot be undone."
-msgstr "لا يمكن التراجع عن هذا الإجراء."
-
-#: .[button+triggers]+Settings
-msgid "[button triggers] Settings"
-msgstr ""
-
-#: .[button+triggers]+Delete+Question
-msgid "[button triggers] Delete Question"
-msgstr ""
-
-#: .[button+triggers]+Duplicate+Question
-msgid "[button triggers] Duplicate Question"
-msgstr ""
-
-#: .[button+triggers]+Add+Question+to+Library
-msgid "[button triggers] Add Question to Library"
-msgstr ""
-
-#: .archived
-msgid "archived"
-msgstr "الأرشيف"
-
-#: .deployed
-msgid "deployed"
-msgstr "نشر"
-
-#: .draft
-msgid "draft"
-msgstr "مسودة"
-
-#: .me
-msgid "me"
-msgstr "أنا"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "قم بالكتابة ثم التأكيد باستخدام مفتاح (ENTER)"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4075,57 +4116,25 @@ msgstr "مُعرف الحالة"
 msgid "Submitted by"
 msgstr "تم إرساله من قبل"
 
-#: .CSV+(legacy)
-msgid "CSV (legacy)"
-msgstr "CSV (تابع)"
+#: .Filter+by
+msgid "Filter by"
+msgstr "رتب من خلال"
 
-#: .CSV
-msgid "CSV"
-msgstr "CSV"
+#: .Select+field
+msgid "Select field"
+msgstr "اختر الحقل"
 
-#: .GeoJSON
-msgid "GeoJSON"
-msgstr "التنسيق الجغرافي (GeoJSON)"
+#: .Condition
+msgid "Condition"
+msgstr "حالة"
 
-#: .GPS+coordinates+(KML)
-msgid "GPS coordinates (KML)"
-msgstr "إحداثيات نظام تحديد المواقع العالمي (KML)"
+#: .Select+condition
+msgid "Select condition"
+msgstr "حدد الشرط"
 
-#: .SPSS+Labels
-msgid "SPSS Labels"
-msgstr "تسميات (SPSS)"
-
-#: .XLS+(legacy)
-msgid "XLS (legacy)"
-msgstr "XLS (تابع)"
-
-#: .XLS
-msgid "XLS"
-msgstr "XLS"
-
-#: .Media+Attachments+(ZIP)
-msgid "Media Attachments (ZIP)"
-msgstr "مرفق وسائط متعددة (ZIP)"
-
-#: .XML+values+and+headers
-msgid "XML values and headers"
-msgstr "قيم (XML) وعناوين التبويب"
-
-#: .Separate+columns
-msgid "Separate columns"
-msgstr "أعمدة منفصلة"
-
-#: .Single+column
-msgid "Single column"
-msgstr "عمود مفرد"
-
-#: .Single+and+separate+columns
-msgid "Single and separate columns"
-msgstr "أعمدة مفردة ومنفصلة"
-
-#: .Select+export+type
-msgid "Select export type"
-msgstr "حدد نوع التصدير"
+#: .Enter+value
+msgid "Enter value"
+msgstr "أدخل القيمة"
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4138,6 +4147,42 @@ msgstr "إيجاد حقل"
 #: .No+results
 msgid "No results"
 msgstr "لا يوجد نتائج"
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "هل ترغب بالتأكيد في حذف هذا السؤال؟"
+
+#: .This+action+cannot+be+undone.
+msgid "This action cannot be undone."
+msgstr "لا يمكن التراجع عن هذا الإجراء."
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr ""
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr ""
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr ""
+
+#: .archived
+msgid "archived"
+msgstr "الأرشيف"
+
+#: .deployed
+msgid "deployed"
+msgstr "نشر"
+
+#: .draft
+msgid "draft"
+msgstr "مسودة"
+
+#: .me
+msgid "me"
+msgstr "أنا"
 
 #: .Delete%3F
 msgid "Delete?"
