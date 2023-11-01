@@ -27,7 +27,7 @@
 # Mohammed Alwadhaf, 2021-2023
 # Mohammed Manar Yazji, 2021
 # Mohammed Manar Yazji, 2021
-# Najdat Abdeen, 2021
+# Najdat Abdeen, 2021,2023
 # Najdat Abdeen, 2021,2023
 # salem Alkilani, 2021
 # salem Alkilani, 2021
@@ -48,7 +48,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-10-09 17:21+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: Najdat Abdeen, 2021,2023\n"
+"Last-Translator: Zakaria Aldakheel, 2021\n"
 "Language-Team: Arabic (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ar/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -62,40 +62,40 @@ msgstr "تسجيل الدخول كمستخدم"
 
 #: kobo/apps/accounts/forms.py:53
 msgid "Male"
-msgstr ""
+msgstr "ذكر"
 
 #: kobo/apps/accounts/forms.py:54
 msgid "Female"
-msgstr ""
+msgstr "أنثى"
 
 #: kobo/apps/accounts/forms.py:55 kobo/static_lists.py:37
 msgid "Other"
-msgstr ""
+msgstr "أخرى"
 
 #: kobo/apps/accounts/forms.py:77
 msgid "Password confirmation"
-msgstr ""
+msgstr "تأكيد كلمة المرور"
 
 #: kobo/apps/accounts/forms.py:183
 msgid "You must type the same password each time."
-msgstr ""
+msgstr "يجب عليك كتابة كلمة المرور ذاتها في كل مرة."
 
 #: kobo/apps/accounts/mfa/forms.py:57
 msgid "Enter the ##token length##-character token"
-msgstr ""
+msgstr "أدخل الرمز المميز المؤلف من ##token length##-حرف"
 
 #: kobo/apps/accounts/mfa/forms.py:69
 msgid "Your token is invalid"
-msgstr ""
+msgstr "الرمز المميز الخاص بك غير صالح"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:21
 msgid "Please enter your verification token"
-msgstr "يرجى إدخال رمز التحقق الخاص بك."
+msgstr "من فضلك أدخل الرمز المميز للتحقق الخاص بك"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:25
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
-msgstr "يرجى إدخال رمز التحقق الذي يظهر على تطبيق المصادقة الخاص بك."
+msgstr "الرجاء إدخال الرمز المميز للتحقق الذي يعرضه تطبيق المصادقة الخاص بك."
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:32
 msgid "Problems with the token"
@@ -123,7 +123,7 @@ msgstr "لتأكيد العنوان البريدي الجديد المرتبط �
 msgid ""
 "This link will expire in one hour. To request a new verification link, "
 "please go to your account settings and re-enter your new email address:"
-msgstr "هذا الرابط سينتهي صلاحيته في ساعة واحدة. لطلب رابط التحقق الجديد، يرجى الذهاب إلى إعدادات حسابك وإعادة إدخال العنوان البريدي الجديد الخاص بك."
+msgstr "هذا الرابط سينتهي صلاحيته في ساعة واحدة. لطلب رابط التحقق الجديد، يرجى الذهاب إلى إعدادات حسابك وإعادة إدخال العنوان البريدي الجديد الخاص بك:"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:10
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:29
@@ -132,7 +132,7 @@ msgstr "هذا الرابط سينتهي صلاحيته في ساعة واحدة
 #: kobo/apps/hook/templates/reports/failures_email_body.html:37
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:29
 msgid "Best,"
-msgstr "مع خالص التحية،"
+msgstr "الأفضل،"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
 msgid "Thanks for signing up with KoboToolbox!"
@@ -152,7 +152,7 @@ msgstr "اسم المستخدم الخاص بك هو: "
 msgid ""
 "For help getting started, check out the KoboToolbox user documentation: "
 "https://support.kobotoolbox.com "
-msgstr "للحصول على المساعدة في البدء، يرجى الاطلاع على وثائق مستخدم KoboToolbox على الرابط التالي:  https://support.kobotoolbox.com"
+msgstr "للحصول على المساعدة في البدء، يرجى الاطلاع على وثائق مستخدم KoboToolbox على الرابط التالي: https://support.kobotoolbox.com"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:27
 msgid ""
@@ -363,12 +363,12 @@ msgstr "الاتصال ب %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
-msgstr "تسجيل الدخول باستخدام"
+msgstr "تسجيل الدخول باستخدام "
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
 msgid "Log in to KoboToolbox with your %(appname)s account."
-msgstr "يرجى تسجيل الدخول باستخدام حساب الكوبو %(appname)sالخاص بك"
+msgstr "سجّل الدخول إلى KoboToolbox باستخدام حساب %(appname)s الخاص بك."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
@@ -381,12 +381,12 @@ msgstr "مرحبا بك في KoboToolbox %(username)s!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
-msgstr "مرحبا بك في KoboToolbox"
+msgstr "مرحبًا في KoboToolbox!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
-msgstr "أنت على وشك استخدام حساب %(appname)s لتسجيل الدخول إلى  KoboToolbox"
+msgstr "أنت على وشك استخدام حساب %(appname)s لتسجيل الدخول إلى KoboToolbox"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
@@ -401,23 +401,23 @@ msgid ""
 "Usernames must be between 2 and 30 characters in length, and may only "
 "consist of lowercase letters, numbers, and underscores, where the first "
 "character must be a letter."
-msgstr ""
+msgstr "يجب أن يتراوح طول أسماء المستخدمين بين 2 و30 محرف، ولا يجوز أن تتكون إلا من أحرف صغيرة وأرقام تحتيات تحتية، ويجب أن يبدأ الاسم بحرف."
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
 msgid "Invalid scheme"
-msgstr ""
+msgstr "مخطط غير صالح"
 
 #: kobo/apps/hook/serializers/v2/hook.py:49
 msgid "Unsecured endpoint is not allowed"
-msgstr ""
+msgstr "غير مسموح بنقطة النهاية غير الآمنة"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
 msgid "Invalid JSON"
-msgstr ""
+msgstr "تنسيق JSON غير صالح"
 
 #: kobo/apps/hook/serializers/v2/hook.py:70
 msgid "Can be used only with JSON submission format"
-msgstr ""
+msgstr "يمكن استخدامه فقط مع تنسيق إرسال JSON"
 
 #: kobo/apps/hook/tasks.py:148
 msgid "REST Services Failure Report"
@@ -426,7 +426,7 @@ msgstr "تقرير فشل خدمات (REST)"
 #: kobo/apps/hook/templates/reports/failures_email_body.html:3
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:3
 msgid "Project name"
-msgstr "أسم المشروع"
+msgstr "اسم المشروع"
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:4
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:4
@@ -465,39 +465,39 @@ msgstr "تعذر إرسال بعض عمليات الإرسال إلى وجهته
 
 #: kobo/apps/hook/views/v2/hook.py:174
 msgid "Task successfully scheduled"
-msgstr ""
+msgstr "تمت جدولة المهمة بنجاح"
 
 #: kobo/apps/hook/views/v2/hook.py:203
 msgid "No data to retry"
-msgstr ""
+msgstr "لا توجد بيانات لإعادة المحاولة"
 
 #: kobo/apps/hook/views/v2/hook.py:206
 msgid "Can not retry on disabled hooks"
-msgstr ""
+msgstr "لا يمكن إعادة المحاولة على الوصلات المعطلة"
 
 #: kobo/apps/hook/views/v2/hook_log.py:121
 msgid "An error has occurred when sending the data. Please try again later."
-msgstr ""
+msgstr "حدث خطأ أثناء إرسال البيانات. الرجاء معاودة المحاولة في وقت لاحق."
 
 #: kobo/apps/hook/views/v2/hook_log.py:125
 msgid "Data is being or has already been processed"
-msgstr ""
+msgstr "البيانات قيد المعالجة أو تمت معالجتها بالفعل"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
 #: kpi/deployment_backends/base_backend.py:449
 #: kpi/deployment_backends/base_backend.py:456
 msgid "A positive integer is required."
-msgstr ""
+msgstr "مطلوب عدد صحيح موجب."
 
 #: kobo/apps/hook/views/v2/hook_signal.py:71
 msgid ""
 "We got and saved your data, but may not have fully processed it. You should "
 "not try to resubmit."
-msgstr ""
+msgstr "لقد حصلنا على بياناتك وحفظناها، لكن ربما لم نقم بمعالجتها بشكل كامل. لا تحاول إعادة الإرسال."
 
 #: kobo/apps/hook/views/v2/hook_signal.py:80
 msgid "Your data for instance {} has been already submitted."
-msgstr ""
+msgstr "لقد تم باإرسال بياناتك على سبيل المثال {}."
 
 #: kobo/apps/languages/templates/admin/languages_change_list.html:8
 msgid "Import"
@@ -505,11 +505,11 @@ msgstr "استيراد"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
-msgstr ""
+msgstr "لم يتم العثور على `{}`."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr ""
+msgstr "ليس `{}` سؤال تحديد خيار واحد."
 
 #: kobo/settings/base.py:243
 msgid ""
@@ -517,276 +517,276 @@ msgid ""
 " codes instead. If you cannot access those either, then you will need to "
 "request assistance by contacting [##support email##](mailto:##support "
 "email##)."
-msgstr ""
+msgstr "إذا لم تتمكن من الوصول إلى تطبيق المصادقة الخاص بك، فيرجى إدخال أحد الرموز الاحتياطية الخاصة بك بدلاً من ذلك. إذا لم تتمكن من الوصول إليهما أيضًا، فستحتاج إلى طلب المساعدة عن طريق الاتصال بـ [##support email##] (mailto:##support email##)."
 
 #: kobo/settings/base.py:451
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
 "characters. It cannot be similar to your name, username, or email address."
-msgstr ""
+msgstr "يجب أن تتكون كلمة المرور من 10 محارف على الأقل وأن تحتوي على 3 أو أكثر مما يلي: أحرف كبيرة وأحرف صغيرة وأرقام وأحرف خاصة. ولا يمكن أن تكون مشابهة لاسمك أو اسم المستخدم أو عنوان البريد الإلكتروني الخاص بك."
 
 #: kobo/static_lists.py:13
 msgid "Public Administration"
-msgstr ""
+msgstr "الإدارة العامة"
 
 #: kobo/static_lists.py:14
 msgid "Arts, Entertainment, and Recreation"
-msgstr ""
+msgstr "الفنون والترفيه والتسلية"
 
 #: kobo/static_lists.py:15
 msgid "Educational Services / Higher Education"
-msgstr ""
+msgstr "الخدمات التعليمية / التعليم العالي"
 
 #: kobo/static_lists.py:16
 msgid "Health Services / Public Health"
-msgstr ""
+msgstr "الخدمات الصحية / الصحة العامة"
 
 #: kobo/static_lists.py:17
 msgid "Finance and Insurance"
-msgstr ""
+msgstr "التمويل والتأمين"
 
 #: kobo/static_lists.py:18
 msgid "Information / Media"
-msgstr ""
+msgstr "المعلومات / وسائل الإعلام"
 
 #: kobo/static_lists.py:19
 msgid "Economic/Social Development"
-msgstr ""
+msgstr "التنمية الاقتصادية والاجتماعية"
 
 #: kobo/static_lists.py:20
 msgid "Security / Police / Peacekeeping"
-msgstr ""
+msgstr "الأمن / الشرطة / حفظ السلام"
 
 #: kobo/static_lists.py:21
 msgid "Disarmament & Demobilization"
-msgstr ""
+msgstr "نزع السلاح والتسريح"
 
 #: kobo/static_lists.py:22
 msgid "Environment"
-msgstr ""
+msgstr "البيئة"
 
 #: kobo/static_lists.py:23
 msgid "Private sector"
-msgstr ""
+msgstr "القطاع الخاص"
 
 #: kobo/static_lists.py:24
 msgid "Humanitarian - Coordination / Information Management"
-msgstr ""
+msgstr "الشؤون الإنسانية - التنسيق / إدارة المعلومات"
 
 #: kobo/static_lists.py:25
 msgid "Humanitarian - Multiple Clusters"
-msgstr ""
+msgstr "الشؤون الإنسانية - عناقيد المجموعات المتعددة"
 
 #: kobo/static_lists.py:26
 msgid "Humanitarian - Camp Management & Coordination"
-msgstr ""
+msgstr "الشؤون الإنسانية - إدارة وتنسيق المخيمات"
 
 #: kobo/static_lists.py:27
 msgid "Humanitarian - Early Recovery"
-msgstr ""
+msgstr "الشؤون الإنسانية - التعافي المبكر"
 
 #: kobo/static_lists.py:28
 msgid "Humanitarian - Education"
-msgstr ""
+msgstr "الشؤون الإنسانية - التعليم"
 
 #: kobo/static_lists.py:29
 msgid "Humanitarian - Emergency Shelter"
-msgstr ""
+msgstr "الشؤون الإنسانية - المأوى في حالات الطوارئ"
 
 #: kobo/static_lists.py:30
 msgid "Humanitarian - Emergency Telecoms"
-msgstr ""
+msgstr "الشؤون الإنسانية - اتصالات الطوارئ"
 
 #: kobo/static_lists.py:31
 msgid "Humanitarian - Food Security"
-msgstr ""
+msgstr "الشؤون الإنسانية - الأمن الغذائي"
 
 #: kobo/static_lists.py:32
 msgid "Humanitarian - Health"
-msgstr ""
+msgstr "الشؤون الإنسانية - الصحة"
 
 #: kobo/static_lists.py:33
 msgid "Humanitarian - Logistics"
-msgstr ""
+msgstr "الشؤون الإنسانية - اللوجستية"
 
 #: kobo/static_lists.py:34
 msgid "Humanitarian - Nutrition"
-msgstr ""
+msgstr "الشؤون الإنسانية - التغذية"
 
 #: kobo/static_lists.py:35
 msgid "Humanitarian - Protection"
-msgstr ""
+msgstr "الشؤون الإنسانية - الحماية"
 
 #: kobo/static_lists.py:36
 msgid "Humanitarian - Sanitation, Water & Hygiene"
-msgstr ""
+msgstr "الشؤون الإنسانية - الصرف الصحي والمياه والنظافة"
 
 #: kobo/static_lists.py:344 kobo/static_lists.py:355
 msgid "Sector"
-msgstr ""
+msgstr "القطاع"
 
 #: kobo/static_lists.py:345 kobo/static_lists.py:359
 msgid "Country"
-msgstr ""
+msgstr "البلد"
 
 #: kobo/static_lists.py:346
 msgid "Operational purpose of data"
-msgstr ""
+msgstr "الغرض التشغيلي للبيانات"
 
 #: kobo/static_lists.py:347
 msgid "Does this project collect personally identifiable information?"
-msgstr ""
+msgstr "هل يجمع هذا المشروع معلومات تعريف الشخصية؟"
 
 #: kobo/static_lists.py:348
 msgid "Description"
-msgstr ""
+msgstr "الوصف"
 
 #: kobo/static_lists.py:352 kpi/password_validation.py:109
 msgid "Full name"
-msgstr ""
+msgstr "الاسم بالكامل"
 
 #: kobo/static_lists.py:353
 msgid "Organization"
-msgstr ""
+msgstr "المنظمة"
 
 #: kobo/static_lists.py:354
 msgid "Organization website"
-msgstr ""
+msgstr "الموقع الخاص بالمنظمة"
 
 #: kobo/static_lists.py:356
 msgid "Gender"
-msgstr ""
+msgstr "النوع الاجتماعي"
 
 #: kobo/static_lists.py:357
 msgid "Bio"
-msgstr ""
+msgstr "النبذة التعريفية"
 
 #: kobo/static_lists.py:358
 msgid "City"
-msgstr ""
+msgstr "المدينة"
 
 #: kobo/static_lists.py:360
 msgid "Twitter"
-msgstr ""
+msgstr "تويتر"
 
 #: kobo/static_lists.py:361
 msgid "LinkedIn"
-msgstr ""
+msgstr "لينكدن"
 
 #: kobo/static_lists.py:362
 msgid "Instagram"
-msgstr ""
+msgstr "انستغرام"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
-msgstr ""
+msgstr "اسم المستخدم / كلمة المرور غير صحيحة"
 
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr ""
+msgstr "هذه المعلمة لم يتم تنفيذها. استخدم خاصية `count` من الإجابة بدلاً منها."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
-msgstr ""
+msgstr "هذه المعلمة غير مدعومة بتنسيق `XML`"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr ""
+msgstr "هذا غير مدعوم بتنسيق `XML`"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
 #: kpi/deployment_backends/base_backend.py:464 kpi/views/v2/data.py:522
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "يجب أن تكون القيمة بتنسيق JSON صالحة."
 
 #: kpi/deployment_backends/base_backend.py:419
 msgid "Value must be a list."
-msgstr ""
+msgstr "يجب أن تكون القيمة قائمة."
 
 #: kpi/deployment_backends/kobocat_backend.py:180
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
-msgstr ""
+msgstr "لا توجد عمليات إرسال تتطابق مع `submission_ids` المحددة"
 
 #: kpi/deployment_backends/kobocat_backend.py:551
 msgid "Your submission XML is malformed."
-msgstr ""
+msgstr "ملف XML الخاص بالإرسال الخاص بك مكتوب بشكل غير صحيح."
 
 #: kpi/deployment_backends/kobocat_backend.py:558
 msgid "Your submission XML is missing critical elements."
-msgstr ""
+msgstr "يفتقد ملف XML المرسل الخاص بك إلى العناصر المهمة."
 
 #: kpi/deployment_backends/kobocat_backend.py:571
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr ""
+msgstr "تعذر العثور على الإرسال الذي حاولت تعديله، أو ليس لديك إمكانية الوصول إليه."
 
 #: kpi/deployment_backends/kobocat_backend.py:1596
 msgid "KoBoCAT returned an unexpected response: {}"
-msgstr ""
+msgstr "قام KoBoCAT بإرجاع إجابة غير متوقعة: {}"
 
 #: kpi/deployment_backends/kobocat_backend.py:1648
 msgid "Something went wrong"
-msgstr ""
+msgstr "حدث خطأ ما"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr ""
+msgstr "يجب أن تطلب `asset.connect_deployment()` أولاً"
 
 #: kpi/exceptions.py:74
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
-msgstr ""
+msgstr "وصولك مقيد. يرجى إعادته عن طريق تغيير كلمة المرور الخاصة بك على ##koboform_url##/accounts/password/reset/."
 
 #: kpi/exceptions.py:83
 msgid "Invalid search. Please try again"
-msgstr ""
+msgstr "البحث غير صالح. حاول مرة أخرى"
 
 #: kpi/exceptions.py:105
 msgid "Invalid payload for bulk updating of submissions"
-msgstr ""
+msgstr "الحمولة غير صالحة لتحديث مجموعة الإرسالات"
 
 #: kpi/exceptions.py:112
 msgid "An error occurred trying to bulk update the submissions."
-msgstr ""
+msgstr "حدث خطأ أثناء محاولة التحديث المجمع للإرسالات."
 
 #: kpi/exceptions.py:136
 msgid "An error occurred trying to duplicate the submission"
-msgstr ""
+msgstr "حدث خطأ أثناء محاولة تكرار الإرسال"
 
 #: kpi/exceptions.py:150
 msgid "The specified object has not been deployed"
-msgstr ""
+msgstr "لم يتم نشر الكائن المحدد"
 
 #: kpi/exceptions.py:159
 msgid "Bad syntax"
-msgstr ""
+msgstr "بناء جملة غير صحيح"
 
 #: kpi/exceptions.py:164
 msgid "Not supported field lookup"
-msgstr ""
+msgstr "البحث الميداني غير معتمد"
 
 #: kpi/exceptions.py:175
 msgid "Your query is too short"
-msgstr ""
+msgstr "استعلامك قصير جدًا"
 
 #: kpi/fields/jsonschema_form_field.py:23
 #: kpi/fields/jsonschema_form_field.py:26
 msgid "Enter valid JSON."
-msgstr ""
+msgstr "أدخل JSON صالحًا."
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr ""
+msgstr "لا يمكن إخفاء الحقل `##place_holder##`."
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
 msgid "Unable to parse JSON: {error}"
-msgstr ""
+msgstr "غير قادر على تحليل JSON:"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
@@ -794,462 +794,462 @@ msgstr "تم تمكين المصادقة متعددة العوامل لهذا ا
 
 #: kpi/models/asset.py:249
 msgid "Can view asset"
-msgstr ""
+msgstr "يمكن عرض الأصول"
 
 #: kpi/models/asset.py:250
 msgid "Can discover asset in public lists"
-msgstr ""
+msgstr "يمكن اكتشاف الأصول في القوائم العامة"
 
 #: kpi/models/asset.py:251
 msgid "Can manage all aspects of asset"
-msgstr ""
+msgstr "يمكن إدارة جميع جوانب الأصول"
 
 #: kpi/models/asset.py:253
 msgid "Can submit data to asset"
-msgstr ""
+msgstr "يمكن إرسال البيانات إلى الأصول"
 
 #: kpi/models/asset.py:254
 msgid "Can view submitted data for asset"
-msgstr ""
+msgstr "يمكن عرض البيانات المقدمة للأصول"
 
 #: kpi/models/asset.py:255
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr ""
+msgstr "يمكن اتخاذ إجراءات جزئية على البيانات المقدمة للأصول لمستخدمين محددين"
 
 #: kpi/models/asset.py:258
 msgid "Can modify submitted data for asset"
-msgstr ""
+msgstr "يمكن تعديل البيانات المقدمة للأصل"
 
 #: kpi/models/asset.py:259
 msgid "Can delete submitted data for asset"
-msgstr ""
+msgstr "يمكن حذف البيانات المقدمة من أجل الأصل"
 
 #: kpi/models/asset.py:260
 msgid "Can validate submitted data asset"
-msgstr ""
+msgstr "يمكن التحقق من صحة أصول البيانات المقدمة"
 
 #: kpi/models/asset.py:283
 msgid "project"
-msgstr ""
+msgstr "مشروع"
 
 #: kpi/models/asset.py:283
 msgid "form"
-msgstr ""
+msgstr "استمارة"
 
 #: kpi/models/asset.py:285
 msgid "template"
-msgstr ""
+msgstr "قالب"
 
 #: kpi/models/asset.py:286
 msgid "block"
-msgstr ""
+msgstr "مجمع"
 
 #: kpi/models/asset.py:287
 msgid "question"
-msgstr ""
+msgstr "السؤال"
 
 #: kpi/models/asset.py:288
 msgid "text"
-msgstr ""
+msgstr "نص"
 
 #: kpi/models/asset.py:289
 msgid "empty"
-msgstr ""
+msgstr "فارغ"
 
 #: kpi/models/asset.py:290
 msgid "collection"
-msgstr ""
+msgstr "تشكيل"
 
 #: kpi/models/asset.py:297
 msgid "View ##asset_type_label##"
-msgstr ""
+msgstr "عرض ##asset_type_label##"
 
 #: kpi/models/asset.py:298
 msgid "Edit ##asset_type_label##"
-msgstr ""
+msgstr "تحرير ##asset_type_label##"
 
 #: kpi/models/asset.py:299
 msgid "Discover ##asset_type_label##"
-msgstr ""
+msgstr "اكتشف ##asset_type_label##"
 
 #: kpi/models/asset.py:300
 msgid "Manage ##asset_type_label##"
-msgstr ""
+msgstr "إدارة ##asset_type_label##"
 
 #: kpi/models/asset.py:301
 msgid "Add submissions"
-msgstr ""
+msgstr "إضافة الإرسالات"
 
 #: kpi/models/asset.py:302
 msgid "View submissions"
-msgstr ""
+msgstr "عرض الإرسالات"
 
 #: kpi/models/asset.py:305
 msgid "Act on submissions only from specific users"
-msgstr ""
+msgstr "التعامل مع الطلبات الواردة من مستخدمين محددين فقط"
 
 #: kpi/models/asset.py:308
 msgid "View submissions only from specific users"
-msgstr ""
+msgstr "عرض الإرسالات من مستخدمين محددين فقط"
 
 #: kpi/models/asset.py:311
 msgid "Edit submissions only from specific users"
-msgstr ""
+msgstr "تحرير الإرسالات من مستخدمين محددين فقط"
 
 #: kpi/models/asset.py:314
 msgid "Delete submissions only from specific users"
-msgstr ""
+msgstr "حذف الإرسالات من مستخدمين محددين فقط"
 
 #: kpi/models/asset.py:317
 msgid "Validate submissions only from specific users"
-msgstr ""
+msgstr "التحقق من صحة الإرسالات من مستخدمين محددين فقط"
 
 #: kpi/models/asset.py:320
 msgid "Edit submissions"
-msgstr ""
+msgstr "تحرير الإرسالات"
 
 #: kpi/models/asset.py:321
 msgid "Delete submissions"
-msgstr ""
+msgstr "حذف عملية الإرسال"
 
 #: kpi/models/asset.py:322
 msgid "Validate submissions"
-msgstr ""
+msgstr "التحقق من الإرسالات"
 
 #: kpi/models/asset.py:558
 msgid "Only partial permissions for submissions are supported"
-msgstr ""
+msgstr "يتوفر دعم جزئي فقط لأذونات عمليات الإرسال"
 
 #: kpi/models/asset.py:1256
 msgid "Can not assign '{}' permission to owner"
-msgstr ""
+msgstr "لا يمكن تعيين الإذن '{}' للمالك"
 
 #: kpi/models/asset.py:1260
 msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr ""
+msgstr "لا يمكن تعيين الإذن '{}'. أذونات جزئية مفقودة."
 
 #: kpi/models/authorized_application.py:40
 msgid "Invalid token."
-msgstr ""
+msgstr "رمز مميز غير صالح."
 
 #: kpi/models/import_export_task.py:142
 msgid "Cannot access data"
-msgstr ""
+msgstr "لا يمكن الوصول إلى البيانات"
 
 #: kpi/models/import_export_task.py:578
 msgid "This data does not exist or you do not have access to it"
-msgstr ""
+msgstr "هذه البيانات غير موجودة أو ليس لديك حق الوصول إليها"
 
 #: kpi/password_validation.py:95
 msgid "You cannot reuse your last password."
-msgstr ""
+msgstr "لا يمكنك إعادة استخدام كلمة المرور الأخيرة الخاصة بك."
 
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
-msgstr ""
+msgstr "لا يمكن أن تكون كلمة المرور الخاصة بك هي نفس كلمة المرور السابقة."
 
 #: kpi/password_validation.py:110
 msgid "Organization name"
-msgstr ""
+msgstr "المنظمة"
 
 #: kpi/password_validation.py:170
 msgid ""
 "The password must contain at least ##number of rules## different kinds of "
 "characters."
-msgstr ""
+msgstr "يجب أن تحتوي كلمة المرور على الأقل ##number of rules## أنواع مختلفة من الشخصيات."
 
 #: kpi/serializers/current_user.py:150
 msgid "Incorrect current password."
-msgstr ""
+msgstr "كلمة المرور الحالية غير صحيحة."
 
 #: kpi/serializers/current_user.py:170
 msgid "`current_password` and `new_password` must both be"
-msgstr ""
+msgstr "يجب أن يكون كل من `current_password` و `new_password` كلاهما"
 
 #: kpi/serializers/current_user.py:197
 #: kpi/serializers/v2/asset_permission_assignment.py:287
 msgid "This field may not be blank."
-msgstr ""
+msgstr "لا يجوز أن يكون هذا الحقل فارغاً."
 
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr ""
+msgstr "تم إلغاء حذف %(count)d من المشروع"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr ""
+msgstr "%(count)d تم حذف المشروع"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr ""
+msgstr "تمت إزالة %(count)d من المشروع من الأرشيف"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr ""
+msgstr "تمت أرشفة %(count)d من المشروع"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
-msgstr ""
+msgstr "تم حذف مشروع واحد أو العديد من المشاريع بالفعل!"
 
 #: kpi/serializers/v2/asset.py:173
 msgid "One or many projects are already being deleted!"
-msgstr ""
+msgstr "تم بالفعل حذف مشروع واحد أو عدة مشاريع!"
 
 #: kpi/serializers/v2/asset.py:246
 msgid "`action` parameter is required"
-msgstr ""
+msgstr "معلمة `action` مطلوبة"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr ""
+msgstr "القيم المدعومة لمعلمة `action` هي: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
-msgstr ""
+msgstr "لا يمكن أرشفة مشاريع المشاريع"
 
 #: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
-msgstr ""
+msgstr "التأكيد مطلوب"
 
 #: kpi/serializers/v2/asset.py:780
 msgid "The property is required"
-msgstr ""
+msgstr "العقار مطلوب"
 
 #: kpi/serializers/v2/asset.py:784
 msgid "The property must be an array"
-msgstr ""
+msgstr "يجب أن تكون الخاصية مصفوفة"
 
 #: kpi/serializers/v2/asset.py:806
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr ""
+msgstr "بعض الحقول غير صالحة، الاختيارات هي: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "User cannot update current parent collection"
-msgstr ""
+msgstr "لا يمكن للمستخدم تحديث المجموعة الأصلية الحالية"
 
 #: kpi/serializers/v2/asset.py:838
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
-msgstr ""
+msgstr "لم يتم العثور على المجموعة المستهدفة"
 
 #: kpi/serializers/v2/asset.py:842
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr ""
+msgstr "لا يمكن للمستخدم تحديث المجموعة الأصلية المستهدفة"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr ""
+msgstr "يجب أن تحتوي `export_settings` على جميع المفاتيح المطلوبة التالية: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr ""
+msgstr "يمكن أن يحتوي `export_settings` على المفاتيح الصالحة التالية فقط: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr ""
+msgstr "يجب أ، تكون `multiple_select` إما {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr ""
+msgstr "يجب أن يكون `type` إما {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr ""
+msgstr "يجب أن تكون `group_sep` قيمة غير فارغة"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr ""
+msgstr "يجب أن تكون `lang` لهذا الأصل إما {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
 msgid "Must be a JSON object"
-msgstr ""
+msgstr "يجب أن يكون كائن JSON"
 
 #: kpi/serializers/v2/asset_export_settings.py:134
 #: kpi/serializers/v2/export_task.py:247
 msgid "All values in the array must be integers"
-msgstr ""
+msgstr "يجب أن تكون جميع القيم في المصفوفة أعدادًا صحيحة"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr ""
+msgstr "يجب أن تكون `fields` مصفوفة"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr ""
+msgstr "يجب أن تكون جميع القيم الموجودة في مصفوفة `fields` عبارة عن سلاسل"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
-msgstr ""
+msgstr "JSON غير صالح"
 
 #: kpi/serializers/v2/asset_file.py:130
 msgid "Invalid content"
-msgstr ""
+msgstr "محتوى غير صالح"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
-msgstr ""
+msgstr "لم يتم إرسال أي ملفات"
 
 #: kpi/serializers/v2/asset_file.py:158
 msgid "File already exists"
-msgstr ""
+msgstr "الملف موجود بالفعل"
 
 #: kpi/serializers/v2/asset_file.py:208
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr ""
+msgstr "لا يمكنك تحميل ملف الوسائط بطريقتين مختلفتين في نفس الوقت. يرجى الاختيار بين التحميل الثنائي أو base64 أو عنوان URL البعيد."
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
-msgstr ""
+msgstr "هذا الحقل مطلوب"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr ""
+msgstr "مطلوب `redirect_url`"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr ""
+msgstr "`filename` مطلوب"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr ""
+msgstr "`redirect_url` غير صالح"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr ""
+msgstr "يُسمح فقط بأنواع `{}` MIME"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:162
 msgid "This field is required for the '{}' permission"
-msgstr ""
+msgstr "هذا الحقل مطلوب للحصول على إذن '{}'"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:176
 #: kpi/serializers/v2/asset_permission_assignment.py:181
 #: kpi/serializers/v2/asset_permission_assignment.py:186
 #: kpi/serializers/v2/asset_permission_assignment.py:492
 msgid "Invalid `url`"
-msgstr ""
+msgstr "`url` غير صالح"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
-msgstr ""
+msgstr "`filters` غير صالحة"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:208
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr ""
+msgstr "لا يمكن تعيين {permission} تعيين بشكل صريح لكائنات الأصول من هذا النوع."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:286
 msgid "Not a valid list."
-msgstr ""
+msgstr "ليست قائمة صالحة."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:485
 #: kpi/serializers/v2/asset_permission_assignment.py:488
 msgid "Invalid hyperlink - Object does not exist."
-msgstr ""
+msgstr "ارتباط تشعبي غير صالح - الكائن غير موجود."
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr ""
+msgstr "يجب أن يحتوي `submission_ids` على قيم عددية فقط"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr ""
+msgstr "يجب أن يحتوي `submission_ids` على قيمة واحدة على الأقل"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr ""
+msgstr "`data` مطلوبة"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr ""
+msgstr "`validation_status.uid` مطلوب"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
-msgstr ""
+msgstr "يجب أن يحتوي على كافة المفاتيح المطلوبة التالية: {}"
 
 #: kpi/serializers/v2/export_task.py:137
 msgid "Can contain only the following valid keys: {}"
-msgstr ""
+msgstr "يمكن أن يحتوي على المفاتيح الصالحة التالية فقط: {}"
 
 #: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
 msgid "Must be an array"
-msgstr ""
+msgstr "يجب أن تكون مصفوفة"
 
 #: kpi/serializers/v2/export_task.py:159
 msgid "All values in the array must be strings"
-msgstr ""
+msgstr "يجب أن تكون كافة القيم في المصفوفة عبارة عن سلاسل"
 
 #: kpi/serializers/v2/export_task.py:169
 msgid "Must be a non-empty value"
-msgstr ""
+msgstr "يجب أن تكون قيمة غير فارغة"
 
 #: kpi/serializers/v2/export_task.py:182
 msgid "For this asset must be either {}"
-msgstr ""
+msgstr "لهذا الأصل يجب أن يكون إما {}"
 
 #: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
 msgid "Must be either {}"
-msgstr ""
+msgstr "يجب أن يكون إما {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr ""
+msgstr "يجب نشر الأصل."
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr ""
+msgstr "يجب أن يكون اسم التصدير عبارة عن سلسلة."
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
-msgstr ""
+msgstr "لا يمكن تغيير المصدر"
 
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr ""
+msgstr "مشاركة البيانات لـ `{source_uid}` غير ممكّن"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr ""
+msgstr "إقران البيانات مع `{source_uid}` غير مسموح"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr ""
+msgstr "المصدر `{source}` تم إقرانه بالفعل"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr ""
+msgstr "بعض الحقول غير صالحة، الاختيارات هي: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr ""
+msgstr "يُسمح فقط بالأحرف والأرقام و`-`"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr ""
+msgstr "يجب أن يكون الامتداد `xml`"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr ""
+msgstr "`{basename}` مستخدم بالفعل"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr ""
+msgstr "نوع الأصل غير صالح. يُسمح باستخدام `{asset_type}` فقط"
 
 #: kpi/templates/base.html:37
 msgid "Terms and Conditions"
@@ -1310,76 +1310,76 @@ msgstr "Opera"
 
 #: kpi/tests/test_registration.py:70
 msgid "This email domain is not allowed to create an account"
-msgstr ""
+msgstr "غير مسموح لمجال البريد الإلكتروني هذا بإنشاء حساب"
 
 #: kpi/utils/two_database_configuration_checker.py:41
 msgid "Exactly two databases must be configured"
-msgstr ""
+msgstr "يجب تكوين قاعدتي بيانات بالضبط"
 
 #: kpi/utils/two_database_configuration_checker.py:42
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr ""
+msgstr "يجب أن يكون لكل من KPI وKoBoCAT قواعد بيانات خاصة بهما. قم بتكوين قاعدة بيانات مؤشرات الأداء الرئيسية بحيث تكون 'default' وقاعدة بيانات KoBoCAT بحيث تكون 'kobocat'."
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr ""
+msgstr "لا يجوز أن تتشارك KPI قاعدة بيانات مع KoBoCAT"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr ""
+msgstr "يجب أن يكون لكل من KPI وKoBoCAT قواعد بيانات خاصة بهما."
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr ""
+msgstr "ترحيل غير كامل من تثبيت قاعدة البيانات المشتركة"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr ""
+msgstr "تمت مشاركة قاعدة بيانات KoBoCAT في الأصل بواسطة مؤشرات الأداء الرئيسية، ولكن لم يتم نسخ جداول مؤشرات الأداء الرئيسية من قاعدة البيانات المشتركة هذه إلى قاعدة البيانات الجديدة الخاصة بمؤشرات الأداء الرئيسية فقط."
 
 #: kpi/views/current_user.py:106
 msgid "Invalid confirmation"
-msgstr ""
+msgstr "تأكيد غير صالح"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr ""
+msgstr "تتوفر التنسيقات التالية فقط: ##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:193
 msgid "Source and destination objects don't seem to have the same type"
-msgstr ""
+msgstr "لا يبدو أن كائنات المصدر والوجهة لها نفس النوع"
 
 #: kpi/views/v2/asset_permission_assignment.py:220
 msgid "Owner's permissions cannot be deleted"
-msgstr ""
+msgstr "لا يمكن حذف أذونات المالك"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr ""
+msgstr "معلمة الاستعلام `xpath` مطلوبة"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
-msgstr ""
+msgstr "بناء جملة XPath غير صالح"
 
 #: kpi/views/v2/attachment.py:98
 msgid "The path could not be found in the submission"
-msgstr ""
+msgstr "لا يمكن العثور على المسار في الإرسال"
 
 #: kpi/views/v2/attachment.py:107
 msgid "The error occurred during conversion"
-msgstr ""
+msgstr "حدث الخطأ أثناء التحويل"
 
 #: kpi/views/v2/attachment.py:111
 msgid "Conversion is not supported for {}"
-msgstr ""
+msgstr "التحويل غير مدعوم لأجل {}"
 
 #: kpi/views/v2/data.py:317
 msgid "The specified asset has not been deployed"
-msgstr ""
+msgstr "لم يتم نشر الأصل المحدد"
 
 #: kpi/views/v2/data.py:621
 msgid "A positive integer is required"
-msgstr ""
+msgstr "مطلوب عدد صحيح موجب"
