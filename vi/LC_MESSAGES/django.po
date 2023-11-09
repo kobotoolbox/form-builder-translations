@@ -19,35 +19,35 @@ msgstr ""
 
 #: hub/templates/admin/loginas/change_form.html:7
 msgid "Log in as user"
-msgstr ""
+msgstr "Đăng nhập với tư cách người dùng"
 
 #: kobo/apps/accounts/forms.py:53
 msgid "Male"
-msgstr ""
+msgstr "Nam"
 
 #: kobo/apps/accounts/forms.py:54
 msgid "Female"
-msgstr ""
+msgstr "Nữ"
 
 #: kobo/apps/accounts/forms.py:55 kobo/static_lists.py:37
 msgid "Other"
-msgstr ""
+msgstr "Khác"
 
 #: kobo/apps/accounts/forms.py:77
 msgid "Password confirmation"
-msgstr ""
+msgstr "Xác nhận mật khẩu"
 
 #: kobo/apps/accounts/forms.py:183
 msgid "You must type the same password each time."
-msgstr ""
+msgstr "Bạn phải nhập đúng một mật khẩu cho mỗi lần nhập."
 
 #: kobo/apps/accounts/mfa/forms.py:57
 msgid "Enter the ##token length##-character token"
-msgstr ""
+msgstr "Nhập mã xác thực dài ##token length## ký tự"
 
 #: kobo/apps/accounts/mfa/forms.py:69
 msgid "Your token is invalid"
-msgstr ""
+msgstr "Mã xác thực không hợp lệ"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:21
 msgid "Please enter your verification token"
@@ -324,12 +324,12 @@ msgstr "Kết nối bằng %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
-msgstr ""
+msgstr "Đăng nhập bằng "
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
 msgid "Log in to KoboToolbox with your %(appname)s account."
-msgstr ""
+msgstr "Đăng nhập vào KoboToolbox bằng tài khoản %(appname)s."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
@@ -342,7 +342,7 @@ msgstr "Chào mừng đến với KoboToolbox, %(username)s!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
-msgstr ""
+msgstr "Chào mừng bạn đến với KoboToolbox!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
@@ -362,23 +362,23 @@ msgid ""
 "Usernames must be between 2 and 30 characters in length, and may only "
 "consist of lowercase letters, numbers, and underscores, where the first "
 "character must be a letter."
-msgstr ""
+msgstr "Tên người dùng phải dài từ 2 đến 30 ký tự, chỉ được chứa chữ in thường, số và dấu gạch dưới, trong đó ký tự đầu tiên phải là một chữ cái."
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
 msgid "Invalid scheme"
-msgstr ""
+msgstr "Sơ đồ không hợp lệ"
 
 #: kobo/apps/hook/serializers/v2/hook.py:49
 msgid "Unsecured endpoint is not allowed"
-msgstr ""
+msgstr "Không cho phép điểm cuối không bảo mật"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
 msgid "Invalid JSON"
-msgstr ""
+msgstr "JSON không hợp lệ"
 
 #: kobo/apps/hook/serializers/v2/hook.py:70
 msgid "Can be used only with JSON submission format"
-msgstr ""
+msgstr "Chỉ có thể sử dụng với định dạng JSON"
 
 #: kobo/apps/hook/tasks.py:148
 msgid "REST Services Failure Report"
@@ -426,39 +426,39 @@ msgstr "Một số lần gửi đã không đến được điểm cuối bên n
 
 #: kobo/apps/hook/views/v2/hook.py:174
 msgid "Task successfully scheduled"
-msgstr ""
+msgstr "Tác vụ được lên lịch thành công"
 
 #: kobo/apps/hook/views/v2/hook.py:203
 msgid "No data to retry"
-msgstr ""
+msgstr "Không có dữ liệu để thử lại"
 
 #: kobo/apps/hook/views/v2/hook.py:206
 msgid "Can not retry on disabled hooks"
-msgstr ""
+msgstr "Không thể thử lại trên các móc bị vô hiệu hóa"
 
 #: kobo/apps/hook/views/v2/hook_log.py:121
 msgid "An error has occurred when sending the data. Please try again later."
-msgstr ""
+msgstr "Có lỗi xảy ra khi gửi dữ liệu. Xin vui lòng thử lại sau."
 
 #: kobo/apps/hook/views/v2/hook_log.py:125
 msgid "Data is being or has already been processed"
-msgstr ""
+msgstr "Dữ liệu đang hoặc đã được xử lý"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
 #: kpi/deployment_backends/base_backend.py:449
 #: kpi/deployment_backends/base_backend.py:456
 msgid "A positive integer is required."
-msgstr ""
+msgstr "Bắt buộc phải có số nguyên dương."
 
 #: kobo/apps/hook/views/v2/hook_signal.py:71
 msgid ""
 "We got and saved your data, but may not have fully processed it. You should "
 "not try to resubmit."
-msgstr ""
+msgstr "Chúng tôi đã nhận và lưu dữ liệu của bạn, nhưng chúng chưa hoàn toàn được xử lý. Bạn không nên gửi lại dữ lại."
 
 #: kobo/apps/hook/views/v2/hook_signal.py:80
 msgid "Your data for instance {} has been already submitted."
-msgstr ""
+msgstr "Dữ liệu của bạn cho thực thể {} đã được gửi."
 
 #: kobo/apps/languages/templates/admin/languages_change_list.html:8
 msgid "Import"
@@ -466,11 +466,11 @@ msgstr "Nhập"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
-msgstr ""
+msgstr "Không tìm thấy `{}`."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr ""
+msgstr "`{}` không phải là câu hỏi chọn một đáp án."
 
 #: kobo/settings/base.py:243
 msgid ""
@@ -478,276 +478,276 @@ msgid ""
 " codes instead. If you cannot access those either, then you will need to "
 "request assistance by contacting [##support email##](mailto:##support "
 "email##)."
-msgstr ""
+msgstr "Nếu không thể truy cập ứng dụng xác thực, bạn cần nhập một trong các mã dự phòng. Nếu không sử dụng được các mã dự phòng này, bạn sẽ cần liên hệ đến [##support email##](mailto:##support email##) để được trợ giúp."
 
 #: kobo/settings/base.py:451
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
 "characters. It cannot be similar to your name, username, or email address."
-msgstr ""
+msgstr "Mật khẩu phải có tối thiểu 10 ký tự và đáp ứng được từ 3 điều kiện sau trở lên: chữ in hoa, chữ thường, số và ký tự đặc biệt. Mật khẩu không được giống tên của bạn, tên người dùng hoặc địa chỉ email của bạn."
 
 #: kobo/static_lists.py:13
 msgid "Public Administration"
-msgstr ""
+msgstr "Hành chính công"
 
 #: kobo/static_lists.py:14
 msgid "Arts, Entertainment, and Recreation"
-msgstr ""
+msgstr "Nghệ thuật, Vui chơi và Giải trí"
 
 #: kobo/static_lists.py:15
 msgid "Educational Services / Higher Education"
-msgstr ""
+msgstr "Dịch vụ Giáo dục / Giáo dục đại học"
 
 #: kobo/static_lists.py:16
 msgid "Health Services / Public Health"
-msgstr ""
+msgstr "Dịch vụ y tế / Y tế Công cộng"
 
 #: kobo/static_lists.py:17
 msgid "Finance and Insurance"
-msgstr ""
+msgstr "Tài chính và Bảo hiểm"
 
 #: kobo/static_lists.py:18
 msgid "Information / Media"
-msgstr ""
+msgstr "Thông tin / Truyền thông"
 
 #: kobo/static_lists.py:19
 msgid "Economic/Social Development"
-msgstr ""
+msgstr "Phát triển Kinh tế/Xã hội"
 
 #: kobo/static_lists.py:20
 msgid "Security / Police / Peacekeeping"
-msgstr ""
+msgstr "An ninh / Cảnh sát / Gìn giữ hòa bình"
 
 #: kobo/static_lists.py:21
 msgid "Disarmament & Demobilization"
-msgstr ""
+msgstr "Xuất ngũ & Giải trừ quân bị"
 
 #: kobo/static_lists.py:22
 msgid "Environment"
-msgstr ""
+msgstr "Môi trường"
 
 #: kobo/static_lists.py:23
 msgid "Private sector"
-msgstr ""
+msgstr "Khu vực tư nhân"
 
 #: kobo/static_lists.py:24
 msgid "Humanitarian - Coordination / Information Management"
-msgstr ""
+msgstr "Nhân đạo – Điều phối / Quản lý thông tin"
 
 #: kobo/static_lists.py:25
 msgid "Humanitarian - Multiple Clusters"
-msgstr ""
+msgstr "Nhân đạo – Đa cụm"
 
 #: kobo/static_lists.py:26
 msgid "Humanitarian - Camp Management & Coordination"
-msgstr ""
+msgstr "Nhân đạo – Quản lý & Điều phối trại"
 
 #: kobo/static_lists.py:27
 msgid "Humanitarian - Early Recovery"
-msgstr ""
+msgstr "Nhân đạo – Phục hồi sớm"
 
 #: kobo/static_lists.py:28
 msgid "Humanitarian - Education"
-msgstr ""
+msgstr "Nhân đạo – Giáo dục"
 
 #: kobo/static_lists.py:29
 msgid "Humanitarian - Emergency Shelter"
-msgstr ""
+msgstr "Nhân đạo – Nơi trú ẩn khẩn cấp"
 
 #: kobo/static_lists.py:30
 msgid "Humanitarian - Emergency Telecoms"
-msgstr ""
+msgstr "Nhân đạo – Viễn thông khẩn cấp"
 
 #: kobo/static_lists.py:31
 msgid "Humanitarian - Food Security"
-msgstr ""
+msgstr "Nhân đạo – An toàn Thực phẩm"
 
 #: kobo/static_lists.py:32
 msgid "Humanitarian - Health"
-msgstr ""
+msgstr "Nhân đạo – Y tế"
 
 #: kobo/static_lists.py:33
 msgid "Humanitarian - Logistics"
-msgstr ""
+msgstr "Nhân đạo – Hậu cần"
 
 #: kobo/static_lists.py:34
 msgid "Humanitarian - Nutrition"
-msgstr ""
+msgstr "Nhân đạo – Dinh dưỡng"
 
 #: kobo/static_lists.py:35
 msgid "Humanitarian - Protection"
-msgstr ""
+msgstr "Nhân đạo – Bảo vệ"
 
 #: kobo/static_lists.py:36
 msgid "Humanitarian - Sanitation, Water & Hygiene"
-msgstr ""
+msgstr "Nhân đạo – Nước sạch, Vệ sinh môi trường và Vệ sinh cá nhân"
 
 #: kobo/static_lists.py:344 kobo/static_lists.py:355
 msgid "Sector"
-msgstr ""
+msgstr "Ngành"
 
 #: kobo/static_lists.py:345 kobo/static_lists.py:359
 msgid "Country"
-msgstr ""
+msgstr "Quốc gia"
 
 #: kobo/static_lists.py:346
 msgid "Operational purpose of data"
-msgstr ""
+msgstr "Mục đích hoạt động của dữ liệu"
 
 #: kobo/static_lists.py:347
 msgid "Does this project collect personally identifiable information?"
-msgstr ""
+msgstr "Dự án này có thu thập thông tin cá nhân có thể nhận diện được không?"
 
 #: kobo/static_lists.py:348
 msgid "Description"
-msgstr ""
+msgstr "Mô tả"
 
 #: kobo/static_lists.py:352 kpi/password_validation.py:109
 msgid "Full name"
-msgstr ""
+msgstr "Tên đầy đủ"
 
 #: kobo/static_lists.py:353
 msgid "Organization"
-msgstr ""
+msgstr "Tổ chức"
 
 #: kobo/static_lists.py:354
 msgid "Organization website"
-msgstr ""
+msgstr "Trang web tổ chức"
 
 #: kobo/static_lists.py:356
 msgid "Gender"
-msgstr ""
+msgstr "Giới tính"
 
 #: kobo/static_lists.py:357
 msgid "Bio"
-msgstr ""
+msgstr "Tiểu sử"
 
 #: kobo/static_lists.py:358
 msgid "City"
-msgstr ""
+msgstr "Thành phố"
 
 #: kobo/static_lists.py:360
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: kobo/static_lists.py:361
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: kobo/static_lists.py:362
 msgid "Instagram"
-msgstr ""
+msgstr "Instagram"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
-msgstr ""
+msgstr "Tên người dùng/mật khẩu không hợp lệ"
 
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr ""
+msgstr "Tham số này không được triển khai. Thay vào đó, hãy sử dụng thuộc tính `count` của phản hồi."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
-msgstr ""
+msgstr "Tham số này không được hỗ trợ ở định dạng `XML`"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr ""
+msgstr "Yếu tố này không được hỗ trợ ở định dạng `XML`"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
 #: kpi/deployment_backends/base_backend.py:464 kpi/views/v2/data.py:522
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "Giá trị phải là JSON hợp lệ."
 
 #: kpi/deployment_backends/base_backend.py:419
 msgid "Value must be a list."
-msgstr ""
+msgstr "Giá trị phải là một danh sách."
 
 #: kpi/deployment_backends/kobocat_backend.py:180
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
-msgstr ""
+msgstr "Không có nội dung gửi nào phù hợp với `submission_ids`"
 
 #: kpi/deployment_backends/kobocat_backend.py:551
 msgid "Your submission XML is malformed."
-msgstr ""
+msgstr "XML bạn gửi bị hỏng."
 
 #: kpi/deployment_backends/kobocat_backend.py:558
 msgid "Your submission XML is missing critical elements."
-msgstr ""
+msgstr "XML bạn gửi thiếu các thành phần quan trọng."
 
 #: kpi/deployment_backends/kobocat_backend.py:571
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr ""
+msgstr "Không tìm thấy nội dung gửi mà bạn muốn chỉnh sửa hoặc bạn không có quyền truy cập."
 
 #: kpi/deployment_backends/kobocat_backend.py:1596
 msgid "KoBoCAT returned an unexpected response: {}"
-msgstr ""
+msgstr "KoBoCAT trả về phản hồi ngoài dự kiến: {}"
 
 #: kpi/deployment_backends/kobocat_backend.py:1648
 msgid "Something went wrong"
-msgstr ""
+msgstr "Đã xảy ra lỗi"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr ""
+msgstr "Đầu tiên phải gọi `asset.connect_deployment()`"
 
 #: kpi/exceptions.py:74
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
-msgstr ""
+msgstr "Quyền truy cập của bạn bị hạn chế. Vui lòng lấy lại quyền truy cập bằng cách đổi mật khẩu tại ##koboform_url##/accounts/password/reset/."
 
 #: kpi/exceptions.py:83
 msgid "Invalid search. Please try again"
-msgstr ""
+msgstr "Tìm kiếm không hợp lệ. Vui lòng thử lại"
 
 #: kpi/exceptions.py:105
 msgid "Invalid payload for bulk updating of submissions"
-msgstr ""
+msgstr "Tải trọng cập nhật nội dung gửi hàng loạt không hợp lệ"
 
 #: kpi/exceptions.py:112
 msgid "An error occurred trying to bulk update the submissions."
-msgstr ""
+msgstr "Có lỗi xảy ra trong khi cập nhật hàng loạt nội dung gửi."
 
 #: kpi/exceptions.py:136
 msgid "An error occurred trying to duplicate the submission"
-msgstr ""
+msgstr "Có lỗi xảy ra trong khi sao chép nội dung gửi"
 
 #: kpi/exceptions.py:150
 msgid "The specified object has not been deployed"
-msgstr ""
+msgstr "Đối tượng được chỉ định chưa được triển khai"
 
 #: kpi/exceptions.py:159
 msgid "Bad syntax"
-msgstr ""
+msgstr "Cú pháp kém"
 
 #: kpi/exceptions.py:164
 msgid "Not supported field lookup"
-msgstr ""
+msgstr "Không hỗ trợ tìm kiếm trường"
 
 #: kpi/exceptions.py:175
 msgid "Your query is too short"
-msgstr ""
+msgstr "Truy vấn của bạn quá ngắn"
 
 #: kpi/fields/jsonschema_form_field.py:23
 #: kpi/fields/jsonschema_form_field.py:26
 msgid "Enter valid JSON."
-msgstr ""
+msgstr "Nhập JSON hợp lệ."
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr ""
+msgstr "Không thể ẩn trường `##place_holder##`."
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
 msgid "Unable to parse JSON: {error}"
-msgstr ""
+msgstr "Không thể phân tích JSON: {error}"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
@@ -755,462 +755,462 @@ msgstr "Xác thực nhiều yếu tố được bật cho tài khoản này. "
 
 #: kpi/models/asset.py:249
 msgid "Can view asset"
-msgstr ""
+msgstr "Có thể xem tài sản"
 
 #: kpi/models/asset.py:250
 msgid "Can discover asset in public lists"
-msgstr ""
+msgstr "Có thể tìm ra tài sản trong các danh sách công khai"
 
 #: kpi/models/asset.py:251
 msgid "Can manage all aspects of asset"
-msgstr ""
+msgstr "Có thể quản lý tất cả khía cạnh của tài sản"
 
 #: kpi/models/asset.py:253
 msgid "Can submit data to asset"
-msgstr ""
+msgstr "Có thể gửi dữ liệu đến tài sản"
 
 #: kpi/models/asset.py:254
 msgid "Can view submitted data for asset"
-msgstr ""
+msgstr "Có thể xem các dữ liệu đã được gửi của tài sản"
 
 #: kpi/models/asset.py:255
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr ""
+msgstr "Có thể thực hiện một vài thao tác lên các dữ liệu được gửi đi của tài sản, dành cho người dùng cụ thể"
 
 #: kpi/models/asset.py:258
 msgid "Can modify submitted data for asset"
-msgstr ""
+msgstr "Có thể chỉnh sửa các dữ liệu đã được gửi của tài sản"
 
 #: kpi/models/asset.py:259
 msgid "Can delete submitted data for asset"
-msgstr ""
+msgstr "Có thể xóa các dữ liệu đã được gửi của tài sản"
 
 #: kpi/models/asset.py:260
 msgid "Can validate submitted data asset"
-msgstr ""
+msgstr "Có thể xác thực các dữ liệu đã được gửi của tài sản"
 
 #: kpi/models/asset.py:283
 msgid "project"
-msgstr ""
+msgstr "dự án"
 
 #: kpi/models/asset.py:283
 msgid "form"
-msgstr ""
+msgstr "biểu mẫu"
 
 #: kpi/models/asset.py:285
 msgid "template"
-msgstr ""
+msgstr "bản mẫu"
 
 #: kpi/models/asset.py:286
 msgid "block"
-msgstr ""
+msgstr "khối"
 
 #: kpi/models/asset.py:287
 msgid "question"
-msgstr ""
+msgstr "câu hỏi"
 
 #: kpi/models/asset.py:288
 msgid "text"
-msgstr ""
+msgstr "văn bản"
 
 #: kpi/models/asset.py:289
 msgid "empty"
-msgstr ""
+msgstr "trống"
 
 #: kpi/models/asset.py:290
 msgid "collection"
-msgstr ""
+msgstr "bộ sưu tập"
 
 #: kpi/models/asset.py:297
 msgid "View ##asset_type_label##"
-msgstr ""
+msgstr "Xem ##asset_type_label##"
 
 #: kpi/models/asset.py:298
 msgid "Edit ##asset_type_label##"
-msgstr ""
+msgstr "Chỉnh sửa ##asset_type_label##"
 
 #: kpi/models/asset.py:299
 msgid "Discover ##asset_type_label##"
-msgstr ""
+msgstr "Khám phá ##asset_type_label##"
 
 #: kpi/models/asset.py:300
 msgid "Manage ##asset_type_label##"
-msgstr ""
+msgstr "Quản lý ##asset_type_label##"
 
 #: kpi/models/asset.py:301
 msgid "Add submissions"
-msgstr ""
+msgstr "Thêm nội dung gửi"
 
 #: kpi/models/asset.py:302
 msgid "View submissions"
-msgstr ""
+msgstr "Xem nội dung gửi"
 
 #: kpi/models/asset.py:305
 msgid "Act on submissions only from specific users"
-msgstr ""
+msgstr "Thao tác lên nội dung được gửi chỉ từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:308
 msgid "View submissions only from specific users"
-msgstr ""
+msgstr "Xem nội dung được gửi chỉ từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:311
 msgid "Edit submissions only from specific users"
-msgstr ""
+msgstr "Sửa nội dung được gửi chỉ từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:314
 msgid "Delete submissions only from specific users"
-msgstr ""
+msgstr "Xóa nội dung được gửi chỉ từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:317
 msgid "Validate submissions only from specific users"
-msgstr ""
+msgstr "Xác thực nội dung được gửi chỉ từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:320
 msgid "Edit submissions"
-msgstr ""
+msgstr "Sửa nội dung gửi"
 
 #: kpi/models/asset.py:321
 msgid "Delete submissions"
-msgstr ""
+msgstr "Xóa nội dung gửi"
 
 #: kpi/models/asset.py:322
 msgid "Validate submissions"
-msgstr ""
+msgstr "Xác thực nội dung gửi"
 
 #: kpi/models/asset.py:558
 msgid "Only partial permissions for submissions are supported"
-msgstr ""
+msgstr "Chỉ hỗ trợ một số quyền hạn lên nội dung gửi"
 
 #: kpi/models/asset.py:1256
 msgid "Can not assign '{}' permission to owner"
-msgstr ""
+msgstr "Không thể cấp quyền hạn '{}' cho chủ sở hữu"
 
 #: kpi/models/asset.py:1260
 msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr ""
+msgstr "Không thể cấp quyền hạn '{}'. Một phần quyền hạn đang bị thiếu."
 
 #: kpi/models/authorized_application.py:40
 msgid "Invalid token."
-msgstr ""
+msgstr "Mã xác thực không hợp lệ."
 
 #: kpi/models/import_export_task.py:142
 msgid "Cannot access data"
-msgstr ""
+msgstr "Không thể truy cập dữ liệu"
 
 #: kpi/models/import_export_task.py:578
 msgid "This data does not exist or you do not have access to it"
-msgstr ""
+msgstr "Dữ liệu này không tồn tại hoặc bạn không có quyền truy cập"
 
 #: kpi/password_validation.py:95
 msgid "You cannot reuse your last password."
-msgstr ""
+msgstr "Bạn không thể sử dụng lại mật khẩu trước đó."
 
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
-msgstr ""
+msgstr "Mật khẩu này không được giống với mật khẩu trước đó."
 
 #: kpi/password_validation.py:110
 msgid "Organization name"
-msgstr ""
+msgstr "Tên tổ chức"
 
 #: kpi/password_validation.py:170
 msgid ""
 "The password must contain at least ##number of rules## different kinds of "
 "characters."
-msgstr ""
+msgstr "Mật khẩu phải có tối thiểu ##number of rules## loại ký tự khác nhau."
 
 #: kpi/serializers/current_user.py:150
 msgid "Incorrect current password."
-msgstr ""
+msgstr "Mật khẩu hiện tại không đúng."
 
 #: kpi/serializers/current_user.py:170
 msgid "`current_password` and `new_password` must both be"
-msgstr ""
+msgstr "`current_password` và `new_password` đều phải"
 
 #: kpi/serializers/current_user.py:197
 #: kpi/serializers/v2/asset_permission_assignment.py:287
 msgid "This field may not be blank."
-msgstr ""
+msgstr "Trường này không được để trống."
 
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr ""
+msgstr "%(count)d dự án đã được khôi phục"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr ""
+msgstr "%(count)d dự án đã bị xóa"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr ""
+msgstr "%(count)d dự án đã được hủy lưu trữ"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr ""
+msgstr "%(count)d dự án đã được lưu trữ"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
-msgstr ""
+msgstr "Một hoặc nhiều dự án đã bị xóa!"
 
 #: kpi/serializers/v2/asset.py:173
 msgid "One or many projects are already being deleted!"
-msgstr ""
+msgstr "Một hoặc nhiều dự án đang bị xóa!"
 
 #: kpi/serializers/v2/asset.py:246
 msgid "`action` parameter is required"
-msgstr ""
+msgstr "Bắt buộc phải có tham số `action`"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr ""
+msgstr "Các giá trị `action` được hỗ trợ là: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
-msgstr ""
+msgstr "Không thể lưu trữ các dự án nháp"
 
 #: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
-msgstr ""
+msgstr "Bắt buộc phải có xác nhận"
 
 #: kpi/serializers/v2/asset.py:780
 msgid "The property is required"
-msgstr ""
+msgstr "Bắt buộc phải có thuộc tính"
 
 #: kpi/serializers/v2/asset.py:784
 msgid "The property must be an array"
-msgstr ""
+msgstr "Thuộc tính phải là một mảng"
 
 #: kpi/serializers/v2/asset.py:806
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr ""
+msgstr "Một số trường không hợp lệ, các lựa chọn là: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "User cannot update current parent collection"
-msgstr ""
+msgstr "Người dùng không thể cập nhật bộ sưu tập gốc hiện tại"
 
 #: kpi/serializers/v2/asset.py:838
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
-msgstr ""
+msgstr "Không tìm thấy bộ sưu tập đích"
 
 #: kpi/serializers/v2/asset.py:842
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr ""
+msgstr "Người dùng không thể cập nhật bộ sưu tập gốc đích"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr ""
+msgstr "`export_settings` phải chứa các khóa bắt buộc sau đây: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr ""
+msgstr "`export_settings` chỉ có thể chứa các khóa hợp lệ sau đây: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr ""
+msgstr "`multiple_select` phải là {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr ""
+msgstr "`type` phải là {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr ""
+msgstr "`group_sep` phải là giá trị không trống"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr ""
+msgstr "`lang` dành cho tài sản này phải là {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
 msgid "Must be a JSON object"
-msgstr ""
+msgstr "Phải là một đối tượng JSON"
 
 #: kpi/serializers/v2/asset_export_settings.py:134
 #: kpi/serializers/v2/export_task.py:247
 msgid "All values in the array must be integers"
-msgstr ""
+msgstr "Tất cả giá trị trong mảng phải là số nguyên"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr ""
+msgstr "`fields` phải là một mảng"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr ""
+msgstr "Tất cả giá trị trong mảng `fields` phải là chuỗi"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
-msgstr ""
+msgstr "JSON không hợp lệ"
 
 #: kpi/serializers/v2/asset_file.py:130
 msgid "Invalid content"
-msgstr ""
+msgstr "Nội dung không hợp lệ"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
-msgstr ""
+msgstr "Không có tập tin nào được gửi"
 
 #: kpi/serializers/v2/asset_file.py:158
 msgid "File already exists"
-msgstr ""
+msgstr "Tập tin đã tồn tại"
 
 #: kpi/serializers/v2/asset_file.py:208
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr ""
+msgstr "Bạn không thể tải tập tin đa phương tiện bằng hai cách khác nhau cùng một lúc. Vui lòng chọn tải lên nhị phân, base64 hoặc URL từ xa."
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
-msgstr ""
+msgstr "Trường này là bắt buộc"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr ""
+msgstr "Bắt buộc phải có `redirect_url`"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr ""
+msgstr "Bắt buộc phải có `filename`"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr ""
+msgstr "`redirect_url` không hợp lệ"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr ""
+msgstr "Chỉ cho phép loại MIME `{}`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:162
 msgid "This field is required for the '{}' permission"
-msgstr ""
+msgstr "Quyền hạn '{}' bắt buộc phải có trường này"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:176
 #: kpi/serializers/v2/asset_permission_assignment.py:181
 #: kpi/serializers/v2/asset_permission_assignment.py:186
 #: kpi/serializers/v2/asset_permission_assignment.py:492
 msgid "Invalid `url`"
-msgstr ""
+msgstr "`url` không hợp lệ"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
-msgstr ""
+msgstr "`filters` không hợp lệ"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:208
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr ""
+msgstr "{permission} không thể gán rõ vào đối tượng tài sản thuộc loại này."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:286
 msgid "Not a valid list."
-msgstr ""
+msgstr "Không phải là danh sách hợp lệ."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:485
 #: kpi/serializers/v2/asset_permission_assignment.py:488
 msgid "Invalid hyperlink - Object does not exist."
-msgstr ""
+msgstr "Siêu liên kết không hợp lệ – Đối tượng không tồn tại."
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr ""
+msgstr "`submission_ids` chỉ được chứa các giá trị số nguyên"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr ""
+msgstr "`submission_ids` phải chứa ít nhất một giá trị"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr ""
+msgstr "Bắt buộc phải có `data`"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr ""
+msgstr "Bắt buộc phải có `validation_status.uid`"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
-msgstr ""
+msgstr "Phải chứa tất cả các khóa bắt buộc sau đây: {}"
 
 #: kpi/serializers/v2/export_task.py:137
 msgid "Can contain only the following valid keys: {}"
-msgstr ""
+msgstr "Chỉ có thể chứa các khóa hợp lệ sau đây: {}"
 
 #: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
 msgid "Must be an array"
-msgstr ""
+msgstr "Phải là một mảng"
 
 #: kpi/serializers/v2/export_task.py:159
 msgid "All values in the array must be strings"
-msgstr ""
+msgstr "Tất cả giá trị trong mảng phải là chuỗi"
 
 #: kpi/serializers/v2/export_task.py:169
 msgid "Must be a non-empty value"
-msgstr ""
+msgstr "Phải là một giá trị không trống"
 
 #: kpi/serializers/v2/export_task.py:182
 msgid "For this asset must be either {}"
-msgstr ""
+msgstr "Tài sản này phải là {}"
 
 #: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
 msgid "Must be either {}"
-msgstr ""
+msgstr "Phải là {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr ""
+msgstr "Phải triển khai tài sản."
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr ""
+msgstr "Tên xuất ra phải là một chuỗi."
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
-msgstr ""
+msgstr "Không thể thay đổi nguồn"
 
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr ""
+msgstr "Không bật chia sẻ dữ liệu cho `{source_uid}`"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr ""
+msgstr "Không cho phép ghép nối dữ liệu với `{source_uid}`"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr ""
+msgstr "Nguồn `{source}` đã được ghép nối"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr ""
+msgstr "Một số trường không hợp lệ, các lựa chọn là: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr ""
+msgstr "Chỉ cho phép chữ cái, số và `-`"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr ""
+msgstr "Phần mở rộng phải là `xml`"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr ""
+msgstr "`{basename}` đã được sử dụng"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr ""
+msgstr "Loại tài sản không hợp lệ. Chỉ cho phép `{asset_type}`"
 
 #: kpi/templates/base.html:37
 msgid "Terms and Conditions"
@@ -1271,76 +1271,76 @@ msgstr "Opera"
 
 #: kpi/tests/test_registration.py:70
 msgid "This email domain is not allowed to create an account"
-msgstr ""
+msgstr "Tên miền email này không được phép sử dụng để tạo tài khoản"
 
 #: kpi/utils/two_database_configuration_checker.py:41
 msgid "Exactly two databases must be configured"
-msgstr ""
+msgstr "Phải cấu hình chính xác hai cơ sở dữ liệu"
 
 #: kpi/utils/two_database_configuration_checker.py:42
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr ""
+msgstr "KPI và KoBoCAT phải có cơ sở dữ liệu riêng. Hãy cấu hình cơ sở dữ liệu KPI dưới dạng 'mặc định' và cơ sở dữ liệu KoBoCAT dưới dạng 'kobocat'."
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr ""
+msgstr "KPI có thể không chung cơ sở dữ liệu với KoBoCAT"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr ""
+msgstr "KPI và KoBoCAT phải có cơ sở dữ liệu riêng."
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr ""
+msgstr "Di chuyển không hoàn chỉnh từ việc cài đặt cơ sở dữ liệu chung"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr ""
+msgstr "Cơ sở dữ liệu KoBoCAT ban đầu được chia sẻ từ KPI, nhưng các bảng KPI không được sao chép từ cơ sở dữ liệu chung sang cơ sở dữ liệu mới chỉ dành cho KPI."
 
 #: kpi/views/current_user.py:106
 msgid "Invalid confirmation"
-msgstr ""
+msgstr "Xác thực không hợp lệ"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr ""
+msgstr "Chỉ có sẵn các định dạng sau: ##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:193
 msgid "Source and destination objects don't seem to have the same type"
-msgstr ""
+msgstr "Đối tượng nguồn và đối tượng đích không cùng loại"
 
 #: kpi/views/v2/asset_permission_assignment.py:220
 msgid "Owner's permissions cannot be deleted"
-msgstr ""
+msgstr "Không thể xóa quyền hạn của chủ sở hữu"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr ""
+msgstr "Bắt buộc phải có tham số truy vấn `xpath`"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
-msgstr ""
+msgstr "Cú pháp XPath không hợp lệ"
 
 #: kpi/views/v2/attachment.py:98
 msgid "The path could not be found in the submission"
-msgstr ""
+msgstr "Không tìm thấy đường dẫn trong nội dung gửi"
 
 #: kpi/views/v2/attachment.py:107
 msgid "The error occurred during conversion"
-msgstr ""
+msgstr "Có lỗi xảy ra trong khi chuyển đổi"
 
 #: kpi/views/v2/attachment.py:111
 msgid "Conversion is not supported for {}"
-msgstr ""
+msgstr "Không hỗ trợ chuyển đổi cho {}"
 
 #: kpi/views/v2/data.py:317
 msgid "The specified asset has not been deployed"
-msgstr ""
+msgstr "Tài sản được chỉ định chưa được triển khai"
 
 #: kpi/views/v2/data.py:621
 msgid "A positive integer is required"
-msgstr ""
+msgstr "Bắt buộc phải có số nguyên dương"
