@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-09 17:21+0000\n"
+"POT-Creation-Date: 2023-11-16 14:06+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: d0d1b3721f62133f8e8b6eb710e58ad1, 2017\n"
 "Language-Team: Portuguese (http://app.transifex.com/kobotoolbox/kobotoolbox/language/pt/)\n"
@@ -35,7 +35,7 @@ msgstr "Feminino"
 msgid "Other"
 msgstr "Outro"
 
-#: kobo/apps/accounts/forms.py:77
+#: kobo/apps/accounts/forms.py:77 kobo/static_lists.py:368
 msgid "Password confirmation"
 msgstr "Confirmação de senha"
 
@@ -474,7 +474,7 @@ msgstr "`{}` não encontrada."
 msgid "`{}` is not a select one question."
 msgstr "`{}` não é uma pergunta de seleção única."
 
-#: kobo/settings/base.py:243
+#: kobo/settings/base.py:244
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -482,7 +482,7 @@ msgid ""
 "email##)."
 msgstr "Caso não consiga acessar seu aplicativo autenticador, insira um de seus códigos de backup. Se você também não puder acessá-los, será necessário solicitar assistência entrando em contato com [##support email##](mailto:##support email##)."
 
-#: kobo/settings/base.py:451
+#: kobo/settings/base.py:443
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -613,7 +613,7 @@ msgstr "Nome completo"
 msgid "Organization"
 msgstr "Organização"
 
-#: kobo/static_lists.py:354
+#: kobo/static_lists.py:354 kobo/static_lists.py:367
 msgid "Organization website"
 msgstr "Site da organização"
 
@@ -640,6 +640,46 @@ msgstr "LinkedIn"
 #: kobo/static_lists.py:362
 msgid "Instagram"
 msgstr "Instagram"
+
+#: kobo/static_lists.py:365 kpi/password_validation.py:110
+msgid "Organization name"
+msgstr "Nome da organização"
+
+#: kobo/static_lists.py:366
+msgid "Organization type"
+msgstr ""
+
+#: kobo/static_lists.py:369
+msgid "I want to receive occasional updates about KoboToolbox"
+msgstr ""
+
+#: kobo/static_lists.py:370
+msgid "I want to receive occasional updates"
+msgstr ""
+
+#: kobo/static_lists.py:371
+msgid "In order to proceed, select the checkbox above agreeing to our terms."
+msgstr ""
+
+#: kobo/static_lists.py:372
+msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
+msgstr ""
+
+#: kobo/static_lists.py:373
+msgid "Country Name"
+msgstr ""
+
+#: kobo/static_lists.py:374
+msgid "Select a type"
+msgstr ""
+
+#: kobo/static_lists.py:375
+msgid "Sector name"
+msgstr ""
+
+#: kobo/static_lists.py:376
+msgid "Personal Details"
+msgstr ""
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -668,30 +708,30 @@ msgstr "O valor deve ser JSON válido."
 msgid "Value must be a list."
 msgstr "O valor deve ser uma lista."
 
-#: kpi/deployment_backends/kobocat_backend.py:180
+#: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
 msgstr "Nenhum envio corresponde ao `submission_ids` fornecido"
 
-#: kpi/deployment_backends/kobocat_backend.py:551
+#: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
 msgstr "Seu XML de envio está malformado."
 
-#: kpi/deployment_backends/kobocat_backend.py:558
+#: kpi/deployment_backends/kobocat_backend.py:556
 msgid "Your submission XML is missing critical elements."
 msgstr "Faltam elementos críticos em seu XML de envio."
 
-#: kpi/deployment_backends/kobocat_backend.py:571
+#: kpi/deployment_backends/kobocat_backend.py:569
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
 msgstr "O envio que você tentou editar não pôde ser encontrado, ou você não tem acesso a ele."
 
-#: kpi/deployment_backends/kobocat_backend.py:1596
+#: kpi/deployment_backends/kobocat_backend.py:1590
 msgid "KoBoCAT returned an unexpected response: {}"
 msgstr "KoBoCAT retornou uma resposta inesperada: {}"
 
-#: kpi/deployment_backends/kobocat_backend.py:1648
+#: kpi/deployment_backends/kobocat_backend.py:1642
 msgid "Something went wrong"
 msgstr "Algo deu errado"
 
@@ -911,10 +951,6 @@ msgstr "Você não pode reutilizar sua última senha."
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
 msgstr "Sua senha não pode ser igual à anterior."
-
-#: kpi/password_validation.py:110
-msgid "Organization name"
-msgstr "Nome da organização"
 
 #: kpi/password_validation.py:170
 msgid ""
@@ -1214,11 +1250,11 @@ msgstr "`{basename}` já está em uso"
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
 msgstr "Tipo de recurso inválido. Apenas `{asset_type}` é permitido"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:29
 msgid "Terms and Conditions"
 msgstr "Termos e Condições"
 
-#: kpi/templates/base.html:40
+#: kpi/templates/base.html:34
 msgid "Privacy Policy"
 msgstr "Política de Privacidade"
 
@@ -1271,7 +1307,7 @@ msgstr "Página de download do Opera"
 msgid "Opera"
 msgstr "Opera"
 
-#: kpi/tests/test_registration.py:70
+#: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
 msgstr "Este domínio de e-mail não tem permissão para criar uma conta"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-09 17:21+0000\n"
+"POT-Creation-Date: 2023-11-16 14:06+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Leszek Pietrzak <leszek@magicznyleszek.xyz>, 2023\n"
 "Language-Team: Chinese (http://app.transifex.com/kobotoolbox/kobotoolbox/language/zh/)\n"
@@ -37,7 +37,7 @@ msgstr "女"
 msgid "Other"
 msgstr "其他"
 
-#: kobo/apps/accounts/forms.py:77
+#: kobo/apps/accounts/forms.py:77 kobo/static_lists.py:368
 msgid "Password confirmation"
 msgstr "确认密码"
 
@@ -476,7 +476,7 @@ msgstr "未找到`{}`"
 msgid "`{}` is not a select one question."
 msgstr "`{}`不是一个单项选择题。"
 
-#: kobo/settings/base.py:243
+#: kobo/settings/base.py:244
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -484,7 +484,7 @@ msgid ""
 "email##)."
 msgstr "如果你无法访问身份验证应用程序，请输入你的备份代码。如果你也无法访问这些代码，则需要联系 [##support email##]（mailto:##support email##）请求帮助。"
 
-#: kobo/settings/base.py:451
+#: kobo/settings/base.py:443
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -615,7 +615,7 @@ msgstr "全名"
 msgid "Organization"
 msgstr "组织"
 
-#: kobo/static_lists.py:354
+#: kobo/static_lists.py:354 kobo/static_lists.py:367
 msgid "Organization website"
 msgstr "机构网址"
 
@@ -642,6 +642,46 @@ msgstr "领英"
 #: kobo/static_lists.py:362
 msgid "Instagram"
 msgstr "Instagram"
+
+#: kobo/static_lists.py:365 kpi/password_validation.py:110
+msgid "Organization name"
+msgstr "组织名称"
+
+#: kobo/static_lists.py:366
+msgid "Organization type"
+msgstr ""
+
+#: kobo/static_lists.py:369
+msgid "I want to receive occasional updates about KoboToolbox"
+msgstr ""
+
+#: kobo/static_lists.py:370
+msgid "I want to receive occasional updates"
+msgstr ""
+
+#: kobo/static_lists.py:371
+msgid "In order to proceed, select the checkbox above agreeing to our terms."
+msgstr ""
+
+#: kobo/static_lists.py:372
+msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
+msgstr ""
+
+#: kobo/static_lists.py:373
+msgid "Country Name"
+msgstr ""
+
+#: kobo/static_lists.py:374
+msgid "Select a type"
+msgstr ""
+
+#: kobo/static_lists.py:375
+msgid "Sector name"
+msgstr ""
+
+#: kobo/static_lists.py:376
+msgid "Personal Details"
+msgstr ""
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -670,30 +710,30 @@ msgstr "值必须是有效的 JSON。"
 msgid "Value must be a list."
 msgstr "值必须为列表。"
 
-#: kpi/deployment_backends/kobocat_backend.py:180
+#: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
 msgstr "没有提交的文件与给定的`submission_ids`匹配"
 
-#: kpi/deployment_backends/kobocat_backend.py:551
+#: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
 msgstr "你提交的 XML 不规范。"
 
-#: kpi/deployment_backends/kobocat_backend.py:558
+#: kpi/deployment_backends/kobocat_backend.py:556
 msgid "Your submission XML is missing critical elements."
 msgstr "你提交的XML缺少关键元素。"
 
-#: kpi/deployment_backends/kobocat_backend.py:571
+#: kpi/deployment_backends/kobocat_backend.py:569
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
 msgstr "找不到您试图编辑的提交，或者您没有访问权限。"
 
-#: kpi/deployment_backends/kobocat_backend.py:1596
+#: kpi/deployment_backends/kobocat_backend.py:1590
 msgid "KoBoCAT returned an unexpected response: {}"
 msgstr "KoBoCAT 返回了意外响应： {}"
 
-#: kpi/deployment_backends/kobocat_backend.py:1648
+#: kpi/deployment_backends/kobocat_backend.py:1642
 msgid "Something went wrong"
 msgstr "出现错误"
 
@@ -913,10 +953,6 @@ msgstr "您不能重复使用上一次的密码。"
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
 msgstr "您的密码不能与之前的密码相同。"
-
-#: kpi/password_validation.py:110
-msgid "Organization name"
-msgstr "组织名称"
 
 #: kpi/password_validation.py:170
 msgid ""
@@ -1216,11 +1252,11 @@ msgstr "`{basename}`已使用"
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
 msgstr "无效资产类型。仅支持使用 `{asset_type}`"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:29
 msgid "Terms and Conditions"
 msgstr "条款和条件"
 
-#: kpi/templates/base.html:40
+#: kpi/templates/base.html:34
 msgid "Privacy Policy"
 msgstr "隐私政策"
 
@@ -1273,7 +1309,7 @@ msgstr "Opera下载页面"
 msgid "Opera"
 msgstr "Opera"
 
-#: kpi/tests/test_registration.py:70
+#: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
 msgstr "该电子邮件域不允许创建帐户"
 

@@ -11,7 +11,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-09 17:21+0000\n"
+"POT-Creation-Date: 2023-11-16 14:06+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Jiří Podhorecký, 2021-2022\n"
 "Language-Team: Czech (http://app.transifex.com/kobotoolbox/kobotoolbox/language/cs/)\n"
@@ -37,7 +37,7 @@ msgstr "Žena"
 msgid "Other"
 msgstr "Jiné"
 
-#: kobo/apps/accounts/forms.py:77
+#: kobo/apps/accounts/forms.py:77 kobo/static_lists.py:368
 msgid "Password confirmation"
 msgstr "Potvrzení hesla"
 
@@ -476,7 +476,7 @@ msgstr "`{}` nebyl nalezen."
 msgid "`{}` is not a select one question."
 msgstr "`{}` není otázka s výběrem jedné odpovědi."
 
-#: kobo/settings/base.py:243
+#: kobo/settings/base.py:244
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -484,7 +484,7 @@ msgid ""
 "email##)."
 msgstr "Pokud nemáte přístup ke své ověřovací aplikaci, zadejte namísto toho jeden ze svých záložních kódů. Pokud k nim také nemáte přístup, budete muset požádat o pomoc. Kontaktujete prosím [##support email##](mailto:##support email##)."
 
-#: kobo/settings/base.py:451
+#: kobo/settings/base.py:443
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -615,7 +615,7 @@ msgstr "Úplný název"
 msgid "Organization"
 msgstr "Organizace"
 
-#: kobo/static_lists.py:354
+#: kobo/static_lists.py:354 kobo/static_lists.py:367
 msgid "Organization website"
 msgstr "Webová stránka organizace"
 
@@ -642,6 +642,46 @@ msgstr "LinkedIn"
 #: kobo/static_lists.py:362
 msgid "Instagram"
 msgstr "Instagram"
+
+#: kobo/static_lists.py:365 kpi/password_validation.py:110
+msgid "Organization name"
+msgstr "Název organizace"
+
+#: kobo/static_lists.py:366
+msgid "Organization type"
+msgstr ""
+
+#: kobo/static_lists.py:369
+msgid "I want to receive occasional updates about KoboToolbox"
+msgstr ""
+
+#: kobo/static_lists.py:370
+msgid "I want to receive occasional updates"
+msgstr ""
+
+#: kobo/static_lists.py:371
+msgid "In order to proceed, select the checkbox above agreeing to our terms."
+msgstr ""
+
+#: kobo/static_lists.py:372
+msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
+msgstr ""
+
+#: kobo/static_lists.py:373
+msgid "Country Name"
+msgstr ""
+
+#: kobo/static_lists.py:374
+msgid "Select a type"
+msgstr ""
+
+#: kobo/static_lists.py:375
+msgid "Sector name"
+msgstr ""
+
+#: kobo/static_lists.py:376
+msgid "Personal Details"
+msgstr ""
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -670,30 +710,30 @@ msgstr "Hodnota musí být v platném formátu JSON."
 msgid "Value must be a list."
 msgstr "Hodnota musí mít podobu seznamu."
 
-#: kpi/deployment_backends/kobocat_backend.py:180
+#: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
 msgstr "Daným `submission_ids` neodpovídají žádná odeslaná data."
 
-#: kpi/deployment_backends/kobocat_backend.py:551
+#: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
 msgstr "Váš příspěvek XML má špatný formát."
 
-#: kpi/deployment_backends/kobocat_backend.py:558
+#: kpi/deployment_backends/kobocat_backend.py:556
 msgid "Your submission XML is missing critical elements."
 msgstr "Ve vašem příspěvku XML chybí kritické prvky."
 
-#: kpi/deployment_backends/kobocat_backend.py:571
+#: kpi/deployment_backends/kobocat_backend.py:569
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
 msgstr "Příspěvky, které jste se pokusili upravit, nelze najít nebo k nim nemáte přístup."
 
-#: kpi/deployment_backends/kobocat_backend.py:1596
+#: kpi/deployment_backends/kobocat_backend.py:1590
 msgid "KoBoCAT returned an unexpected response: {}"
 msgstr "KoBoCAT vrátil neočekávanou odpověď: {}"
 
-#: kpi/deployment_backends/kobocat_backend.py:1648
+#: kpi/deployment_backends/kobocat_backend.py:1642
 msgid "Something went wrong"
 msgstr "Něco se pokazilo"
 
@@ -913,10 +953,6 @@ msgstr "Své poslední heslo nemůžete použít opakovaně."
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
 msgstr "Vaše heslo nesmí být stejné jako to předchozí."
-
-#: kpi/password_validation.py:110
-msgid "Organization name"
-msgstr "Název organizace"
 
 #: kpi/password_validation.py:170
 msgid ""
@@ -1216,11 +1252,11 @@ msgstr "`{basename}` se již používá"
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
 msgstr "Neplatný typ položky. Povolen je pouze `{asset_type}`"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:29
 msgid "Terms and Conditions"
 msgstr "Smluvní podmínky"
 
-#: kpi/templates/base.html:40
+#: kpi/templates/base.html:34
 msgid "Privacy Policy"
 msgstr "Zásady ochrany osobních údajů"
 
@@ -1273,7 +1309,7 @@ msgstr "Stránka pro stažení Opery"
 msgid "Opera"
 msgstr "Opera"
 
-#: kpi/tests/test_registration.py:70
+#: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
 msgstr "Není povoleno vytvořit účet pomocí této e-mailové domény"
 

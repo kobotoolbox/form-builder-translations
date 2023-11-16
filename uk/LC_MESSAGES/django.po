@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-09 17:21+0000\n"
+"POT-Creation-Date: 2023-11-16 14:06+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Yuliia Zakharchenko <y.zakharchenko@r2p.org.ua>, 2023\n"
 "Language-Team: Ukrainian (http://app.transifex.com/kobotoolbox/kobotoolbox/language/uk/)\n"
@@ -40,7 +40,7 @@ msgstr "Жіноча"
 msgid "Other"
 msgstr "Інше"
 
-#: kobo/apps/accounts/forms.py:77
+#: kobo/apps/accounts/forms.py:77 kobo/static_lists.py:368
 msgid "Password confirmation"
 msgstr "Підтвердження пароля"
 
@@ -479,7 +479,7 @@ msgstr "`{}` не знайдено."
 msgid "`{}` is not a select one question."
 msgstr "`{}` не є питанням з можливістю вибору."
 
-#: kobo/settings/base.py:243
+#: kobo/settings/base.py:244
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -487,7 +487,7 @@ msgid ""
 "email##)."
 msgstr "Якщо ви не можете отримати доступ до програми-автентифікатора, введіть один із резервних кодів. Якщо ви не можете отримати доступ і до них, вам потрібно звернутися за допомогою до [##support email##] (mailto:##support email##)."
 
-#: kobo/settings/base.py:451
+#: kobo/settings/base.py:443
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -618,7 +618,7 @@ msgstr "Повне ім'я"
 msgid "Organization"
 msgstr "Організація"
 
-#: kobo/static_lists.py:354
+#: kobo/static_lists.py:354 kobo/static_lists.py:367
 msgid "Organization website"
 msgstr "Вебсайт організації"
 
@@ -645,6 +645,46 @@ msgstr "LinkedIn"
 #: kobo/static_lists.py:362
 msgid "Instagram"
 msgstr "Instagram"
+
+#: kobo/static_lists.py:365 kpi/password_validation.py:110
+msgid "Organization name"
+msgstr "Назва організації"
+
+#: kobo/static_lists.py:366
+msgid "Organization type"
+msgstr ""
+
+#: kobo/static_lists.py:369
+msgid "I want to receive occasional updates about KoboToolbox"
+msgstr ""
+
+#: kobo/static_lists.py:370
+msgid "I want to receive occasional updates"
+msgstr ""
+
+#: kobo/static_lists.py:371
+msgid "In order to proceed, select the checkbox above agreeing to our terms."
+msgstr ""
+
+#: kobo/static_lists.py:372
+msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
+msgstr ""
+
+#: kobo/static_lists.py:373
+msgid "Country Name"
+msgstr ""
+
+#: kobo/static_lists.py:374
+msgid "Select a type"
+msgstr ""
+
+#: kobo/static_lists.py:375
+msgid "Sector name"
+msgstr ""
+
+#: kobo/static_lists.py:376
+msgid "Personal Details"
+msgstr ""
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -673,30 +713,30 @@ msgstr "Значення має бути коректним JSON."
 msgid "Value must be a list."
 msgstr "Значення має бути списком."
 
-#: kpi/deployment_backends/kobocat_backend.py:180
+#: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
 msgstr "Жодна заявка не відповідає заданим `submission_ids`"
 
-#: kpi/deployment_backends/kobocat_backend.py:551
+#: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
 msgstr "Ваш XML-файл не має правильного формату."
 
-#: kpi/deployment_backends/kobocat_backend.py:558
+#: kpi/deployment_backends/kobocat_backend.py:556
 msgid "Your submission XML is missing critical elements."
 msgstr "У вашому XML-файлі не вистачає важливих елементів."
 
-#: kpi/deployment_backends/kobocat_backend.py:571
+#: kpi/deployment_backends/kobocat_backend.py:569
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
 msgstr "Надсилання, яке ви намагалися відредагувати, не було знайдено, або у вас немає до нього доступу."
 
-#: kpi/deployment_backends/kobocat_backend.py:1596
+#: kpi/deployment_backends/kobocat_backend.py:1590
 msgid "KoBoCAT returned an unexpected response: {}"
 msgstr "KoBoCAT дав несподівану відповідь: {}"
 
-#: kpi/deployment_backends/kobocat_backend.py:1648
+#: kpi/deployment_backends/kobocat_backend.py:1642
 msgid "Something went wrong"
 msgstr "Щось пішло не так"
 
@@ -916,10 +956,6 @@ msgstr "Ви не можете використовувати свій оста�
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
 msgstr "Ваш пароль не збігається з попереднім."
-
-#: kpi/password_validation.py:110
-msgid "Organization name"
-msgstr "Назва організації"
 
 #: kpi/password_validation.py:170
 msgid ""
@@ -1219,11 +1255,11 @@ msgstr "`{basename}` вже використовується"
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
 msgstr "Недійсний тип ресурсу. Допускається тільки `{asset_type}`"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:29
 msgid "Terms and Conditions"
 msgstr "Умови та положення"
 
-#: kpi/templates/base.html:40
+#: kpi/templates/base.html:34
 msgid "Privacy Policy"
 msgstr "Політика конфіденційності"
 
@@ -1276,7 +1312,7 @@ msgstr "Сторінка завантаження Opera"
 msgid "Opera"
 msgstr "Opera"
 
-#: kpi/tests/test_registration.py:70
+#: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
 msgstr "На цьому поштовому домені не дозволено створювати облікові записи"
 

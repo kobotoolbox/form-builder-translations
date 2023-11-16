@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-10-09 17:21+0000\n"
+"POT-Creation-Date: 2023-11-16 14:06+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: zeeshan azmi <zishan.azmi@webaccessglobal.com>, 2017\n"
 "Language-Team: Hindi (http://app.transifex.com/kobotoolbox/kobotoolbox/language/hi/)\n"
@@ -39,7 +39,7 @@ msgstr "महिला"
 msgid "Other"
 msgstr "अन्य"
 
-#: kobo/apps/accounts/forms.py:77
+#: kobo/apps/accounts/forms.py:77 kobo/static_lists.py:368
 msgid "Password confirmation"
 msgstr "पासवर्ड पुष्टि"
 
@@ -478,7 +478,7 @@ msgstr "`{}` नहीं मिला।"
 msgid "`{}` is not a select one question."
 msgstr "`{}` कोई चुनिंदा प्रश्न नहीं है।"
 
-#: kobo/settings/base.py:243
+#: kobo/settings/base.py:244
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -486,7 +486,7 @@ msgid ""
 "email##)."
 msgstr "यदि आप अपने प्रमाणक ऐप तक नहीं पहुंच सकते हैं, तो कृपया इसकी जगह अपना कोई एक बैकअप कोड दर्ज करें। यदि आप उन तक भी नहीं पहुंच सकते हैं, तो आपको [##support email##](mailto: ##support email##) से संपर्क करके सहायता का अनुरोध करना होगा।"
 
-#: kobo/settings/base.py:451
+#: kobo/settings/base.py:443
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -617,7 +617,7 @@ msgstr "पूरा नाम"
 msgid "Organization"
 msgstr "संगठन"
 
-#: kobo/static_lists.py:354
+#: kobo/static_lists.py:354 kobo/static_lists.py:367
 msgid "Organization website"
 msgstr "संगठन की वेबसाइट"
 
@@ -644,6 +644,46 @@ msgstr "लिंक्डइन"
 #: kobo/static_lists.py:362
 msgid "Instagram"
 msgstr "इंस्टाग्राम"
+
+#: kobo/static_lists.py:365 kpi/password_validation.py:110
+msgid "Organization name"
+msgstr "संगठन का नाम"
+
+#: kobo/static_lists.py:366
+msgid "Organization type"
+msgstr ""
+
+#: kobo/static_lists.py:369
+msgid "I want to receive occasional updates about KoboToolbox"
+msgstr ""
+
+#: kobo/static_lists.py:370
+msgid "I want to receive occasional updates"
+msgstr ""
+
+#: kobo/static_lists.py:371
+msgid "In order to proceed, select the checkbox above agreeing to our terms."
+msgstr ""
+
+#: kobo/static_lists.py:372
+msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
+msgstr ""
+
+#: kobo/static_lists.py:373
+msgid "Country Name"
+msgstr ""
+
+#: kobo/static_lists.py:374
+msgid "Select a type"
+msgstr ""
+
+#: kobo/static_lists.py:375
+msgid "Sector name"
+msgstr ""
+
+#: kobo/static_lists.py:376
+msgid "Personal Details"
+msgstr ""
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -672,30 +712,30 @@ msgstr "मान (वैल्यू) एक मान्य JSON होना 
 msgid "Value must be a list."
 msgstr "मान एक सूची होनी चाहिए।"
 
-#: kpi/deployment_backends/kobocat_backend.py:180
+#: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
 msgstr "कोई भी सबमिशन दिए गए `submission_ids` से मेल नहीं खाता"
 
-#: kpi/deployment_backends/kobocat_backend.py:551
+#: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
 msgstr "आपका सबमिशन XML ग़लत (malformed) है।"
 
-#: kpi/deployment_backends/kobocat_backend.py:558
+#: kpi/deployment_backends/kobocat_backend.py:556
 msgid "Your submission XML is missing critical elements."
 msgstr "आपके सबमिशन XML में महत्वपूर्ण तत्व ग़ायब हैं।"
 
-#: kpi/deployment_backends/kobocat_backend.py:571
+#: kpi/deployment_backends/kobocat_backend.py:569
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
 msgstr "आपने जिस सबमिशन को संपादित करने का प्रयास किया, वह नहीं मिल सका, या आपके पास उस तक पहुंच नहीं है।"
 
-#: kpi/deployment_backends/kobocat_backend.py:1596
+#: kpi/deployment_backends/kobocat_backend.py:1590
 msgid "KoBoCAT returned an unexpected response: {}"
 msgstr "KoBoCAT ने एक अप्रत्याशित प्रतिक्रिया दी: {}"
 
-#: kpi/deployment_backends/kobocat_backend.py:1648
+#: kpi/deployment_backends/kobocat_backend.py:1642
 msgid "Something went wrong"
 msgstr "कोई गड़बड़ हुई है"
 
@@ -915,10 +955,6 @@ msgstr "आप अपने अंतिम पासवर्ड का पु�
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
 msgstr "आपका पासवर्ड आपके पिछले पासवर्ड के समान नहीं हो सकता।"
-
-#: kpi/password_validation.py:110
-msgid "Organization name"
-msgstr "संगठन का नाम"
 
 #: kpi/password_validation.py:170
 msgid ""
@@ -1218,11 +1254,11 @@ msgstr "`{basename}` पहले से ही प्रयोग किया 
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
 msgstr "अमान्य एसेट प्रकार। केवल `{asset_type}` की अनुमति है"
 
-#: kpi/templates/base.html:37
+#: kpi/templates/base.html:29
 msgid "Terms and Conditions"
 msgstr "नियम और शर्तें"
 
-#: kpi/templates/base.html:40
+#: kpi/templates/base.html:34
 msgid "Privacy Policy"
 msgstr "गोपनीयता नीति"
 
@@ -1275,7 +1311,7 @@ msgstr "ऑपेरा डाउनलोड पृष्ठ"
 msgid "Opera"
 msgstr "ऑपेरा"
 
-#: kpi/tests/test_registration.py:70
+#: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
 msgstr "इस ईमेल डोमेन को खाता बनाने की अनुमति नहीं है"
 
