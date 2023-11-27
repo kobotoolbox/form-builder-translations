@@ -32,7 +32,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 14:06+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: Komlavi Eyram ADZANADO (Eyram), 2023\n"
+"Last-Translator: Yann Bourgeois, 2021\n"
 "Language-Team: French (http://app.transifex.com/kobotoolbox/kobotoolbox/language/fr/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -169,7 +169,7 @@ msgstr "Pour réinitialiser votre mot de passe, cliquer sur le lien ci-dessous."
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:11
 #, python-format
 msgid "Your username is %(username)s."
-msgstr "Votre nom d'utilisateur est %(username)s."
+msgstr "Votre nom d'utilisateur est : %(username)s"
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:13
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:9
@@ -489,11 +489,11 @@ msgstr "Importer"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
-msgstr "'{}' introuvable."
+msgstr "`{}` introuvable."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr "'{}' n’est pas une question à une seule sélection."
+msgstr "`{}` n’est pas une question à une seule sélection."
 
 #: kobo/settings/base.py:244
 msgid ""
@@ -668,7 +668,7 @@ msgstr "Nom de l’organisation"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr "Type d'organisation"
+msgstr "Nom de l’organisation"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
@@ -676,31 +676,31 @@ msgstr "Je souhaite recevoir des mises à jour occasionnelles sur KoboToolbox"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "Je souhaite recevoir des mises à jour occasionnelles"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "Pour continuer, cochez la case ci-dessus pour accepter nos conditions."
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "J’accepte le ##terms_of_service## et le ##privacy_policy##"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "Nom du pays"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "Sélectionnez un type"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "Nom du secteur"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "Informations Personnelles"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -709,15 +709,15 @@ msgstr "Nom d’utilisateur/mot de passe non valide"
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "Ce paramètre n’est pas implémenté. Utilisez plutôt la propriété 'count' de la réponse."
+msgstr "Ce paramètre n’est pas implémenté. Utilisez plutôt la propriété `count` de la réponse."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
-msgstr "Ce paramètre n’est pas pris en charge au format 'XML'"
+msgstr "Ce paramètre n’est pas pris en charge au format `XML`"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr "Ceci n’est pas pris en charge au format 'XML'"
+msgstr "Ceci n’est pas pris en charge au format `XML`"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
@@ -1103,7 +1103,7 @@ msgstr "`fields` doit être un tableau"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "Toutes les valeurs du tableau 'fields' doivent être des chaînes de caractères"
+msgstr "Toutes les valeurs du tableau `fields` doivent être des chaînes de caractères"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
@@ -1160,7 +1160,7 @@ msgstr "`url` non valide"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
-msgstr "`filters` non valides"
+msgstr "`filters` non valide(s)"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:208
 #, python-brace-format
@@ -1255,7 +1255,7 @@ msgstr "Certains champs ne sont pas valides, les options sont : `{source_fields}
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr "Seuls les lettres, les chiffres et le symbole '-' sont autorisés"
+msgstr "Seuls les lettres, les chiffres et le symbole `-` sont autorisés"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
