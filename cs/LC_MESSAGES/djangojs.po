@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-15 22:18+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: Jiří Podhorecký, 2022-2023\n"
+"Last-Translator: jmacura <macurajan@gmail.com>, 2022\n"
 "Language-Team: Czech (http://app.transifex.com/kobotoolbox/kobotoolbox/language/cs/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -79,7 +79,7 @@ msgstr "Využití"
 
 #: jsapp/js/account/accountSidebar.tsx:64
 msgid "Plans"
-msgstr ""
+msgstr "Tarify"
 
 #: jsapp/js/account/plan.component.tsx:219
 msgid ""
@@ -109,7 +109,7 @@ msgstr "Roční"
 
 #: jsapp/js/account/plan.component.tsx:494
 msgid "Your plan"
-msgstr ""
+msgstr "Váš tarif"
 
 #: jsapp/js/account/plan.component.tsx:512
 msgid "Free"
@@ -156,7 +156,7 @@ msgid ""
 "Two-factor authentication (2FA) verifies your identity using an "
 "authenticator application in addition to your usual password. We recommend "
 "enabling two-factor authentication for an additional layer of protection."
-msgstr ""
+msgstr "Dvoufázové ověřování (2FA) využívá k ověření vaší identity nejen vaše obvyklé heslo, ale i kód z ověřovací aplikace. Jeho použití doporučujeme, protože přináší další stupeň zabezpečení."
 
 #: jsapp/js/account/security/mfa/mfaSection.component.tsx:199
 msgid "Enabled"
@@ -188,15 +188,15 @@ msgstr "Dvoufázové ověřování pro váš účet bylo deaktivováno ##date##"
 
 #: jsapp/js/account/security/mfa/mfaSection.component.tsx:267
 msgid "This feature is not available on your current plan. Please visit the "
-msgstr ""
+msgstr "Tato funkce není ve vašem tarifu dostupná. Přejděte na "
 
 #: jsapp/js/account/security/mfa/mfaSection.component.tsx:268
 msgid "Plans page"
-msgstr ""
+msgstr "stránku Tarify"
 
 #: jsapp/js/account/security/mfa/mfaSection.component.tsx:269
 msgid " to upgrade your account."
-msgstr ""
+msgstr " a účet upgradujte."
 
 #: jsapp/js/account/security/password/passwordSection.component.tsx:14
 msgid "Password"
@@ -212,7 +212,7 @@ msgstr "Toto pole je povinné."
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:69
 msgid "Passwords don't match"
-msgstr "Hesla se neshodují."
+msgstr "Hesla se neshodují"
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:85
 #: jsapp/js/actions.es6:421
@@ -238,7 +238,7 @@ msgid ""
 "for single-sign on (SSO). Afterwards, you will only be able to sign in via "
 "SSO unless you disable this setting here. This will also update your email "
 "address in case your current address is different."
-msgstr ""
+msgstr "Když účet KoboToolbox propojíte s přihlašovacím řešením, které používáte ve své organizaci, budete se moci připojovat v rámci jednotného přihlašování (pokud zde toto nastavení nedeaktivujete). Dojde také k aktualizaci vaší e-mailové adresy, pokud se bude lišit)."
 
 #: jsapp/js/account/security/sso/ssoSection.component.tsx:47
 msgid "Already connected"
@@ -250,7 +250,7 @@ msgstr "Zakázat"
 
 #: jsapp/js/account/usage.component.tsx:69
 msgid "##start_date## to ##end_date##"
-msgstr ""
+msgstr "##start_date## do ##end_date##"
 
 #: jsapp/js/account/usage.component.tsx:120
 msgid "Your account total use"
@@ -258,12 +258,12 @@ msgstr "Celkové využití vašeho účtu"
 
 #: jsapp/js/account/usage.component.tsx:123
 msgid "Last update: ##LAST_UPDATE_TIME##"
-msgstr ""
+msgstr "Poslední aktualizace: ##LAST_UPDATE_TIME##"
 
 #: jsapp/js/account/usage.component.tsx:136
 #: jsapp/js/projects/projectViews/constants.ts:303
 msgid "Submissions"
-msgstr "Odeslaná data"
+msgstr "Odeslaná data z formuláře"
 
 #: jsapp/js/account/usage.component.tsx:147
 msgid "Storage"
@@ -344,19 +344,19 @@ msgstr "nepodařilo se načíst token API"
 
 #: jsapp/js/actions.es6:465
 msgid "submission deleted"
-msgstr "příspěvek smazán"
+msgstr "odeslaná data z formuláře smazána"
 
 #: jsapp/js/actions.es6:470
 msgid "failed to delete submission"
-msgstr "nepodařilo se smazat příspěvek"
+msgstr "nepodařilo se smazat odeslaná data z formuláře"
 
 #: jsapp/js/actions.es6:478
 msgid "Successfully duplicated submission"
-msgstr "Příspěvek byl úspěšně duplikován"
+msgstr "Odeslaná data z formuláře byla úspěšně duplikována"
 
 #: jsapp/js/actions.es6:483
 msgid "Failed to duplicate submission"
-msgstr "Nepodařilo se duplikovat příspěvek"
+msgstr "Nepodařilo se duplikovat odeslaná data z formuláře"
 
 #: jsapp/js/actions.es6:521
 msgid "REST Service added successfully"
@@ -384,15 +384,15 @@ msgstr "Službu REST nelze smazat"
 
 #: jsapp/js/actions.es6:606
 msgid "Submission retry requested successfully"
-msgstr "Opakování příspěvku úspěšně vyžádáno"
+msgstr "Opakování odeslání dat z formuláře úspěšně vyžádáno"
 
 #: jsapp/js/actions.es6:609
 msgid "Submission retry request failed"
-msgstr "Selhal požadavek na opakování příspěvku"
+msgstr "Selhal požadavek na opakování odeslání dat z formuláře"
 
 #: jsapp/js/actions.es6:632
 msgid "Retrying all submissions failed"
-msgstr "Opakování všech odeslaných dat selhalo."
+msgstr "Opakování všech odeslání dat z formuláře selhalo"
 
 #: jsapp/js/actions/dataShareActions.es6:36
 msgid "Failed to attach to source"
@@ -476,7 +476,7 @@ msgstr "Došlo k chybě"
 
 #: jsapp/js/actions/mfaActions.ts:100
 msgid "An error occurred while checking subscription status"
-msgstr ""
+msgstr "Při kontrole stavu odběru došlo k chybě"
 
 #: jsapp/js/actions/mfaActions.ts:117 jsapp/js/actions/mfaActions.ts:135
 #: jsapp/js/actions/mfaActions.ts:153
@@ -485,27 +485,27 @@ msgstr "Nesprávný token nebo se něco pokazilo"
 
 #: jsapp/js/actions/submissions.es6:75
 msgid "Failed to get submissions uuids."
-msgstr "Nepodařilo se získat identifikátory UUID odeslaných dat."
+msgstr "Nepodařilo se získat identifikátory UUID odeslaní dat z formuláře."
 
 #: jsapp/js/actions/submissions.es6:111
 msgid "Failed to get submission."
-msgstr "Nepodařilo se získat příspěvek."
+msgstr "Nepodařilo se získat odeslaná data z formuláře."
 
 #: jsapp/js/actions/submissions.es6:120 jsapp/js/actions/submissions.es6:129
 msgid "Failed to update submissions."
-msgstr "Nepodařilo se aktualizovat odeslaná data."
+msgstr "Nepodařilo se aktualizovat odeslaná data z formuláře."
 
 #: jsapp/js/actions/submissions.es6:145
 msgid "Failed to update some submissions values."
-msgstr "Nepodařilo se aktualizovat některé hodnoty odeslaných dat."
+msgstr "Nepodařilo se aktualizovat některé hodnoty odeslaných dat z formuláře."
 
 #: jsapp/js/actions/submissions.es6:149
 msgid "Failed to update submissions values."
-msgstr "Nepodařilo se aktualizovat hodnoty odeslaných dat."
+msgstr "Nepodařilo se aktualizovat hodnoty odeslaných dat z formuláře."
 
 #: jsapp/js/actions/submissions.es6:158
 msgid "Failed to delete submissions."
-msgstr "Nepodařilo se smazat odeslaná data."
+msgstr "Nepodařilo se smazat odeslaná data z formuláře."
 
 #: jsapp/js/alertify.ts:164
 msgid "Delete?"
@@ -556,11 +556,11 @@ msgstr "Zrušit"
 
 #: jsapp/js/api.ts:37 jsapp/js/components/reports/reports.js:466
 msgid "An error occurred"
-msgstr "Došlo k chybě."
+msgstr "Došlo k chybě"
 
 #: jsapp/js/api.ts:43
 msgid "Your connection is offline"
-msgstr ""
+msgstr "Jste offline"
 
 #: jsapp/js/assetQuickActions.tsx:66
 msgid "##ASSET_TYPE## deleted permanently"
@@ -602,7 +602,7 @@ msgstr "Opravdu chcete tento projekt archivovat?"
 
 #: jsapp/js/assetQuickActions.tsx:161
 msgid "Your form will not accept submissions while it is archived."
-msgstr "Dokud je váš formulář archivován, odeslaná data nebudou přijímány."
+msgstr "Dokud je váš formulář archivován, odeslaná data z formuláře nebudou přijímány."
 
 #: jsapp/js/assetQuickActions.tsx:163
 msgid "Archive"
@@ -769,7 +769,7 @@ msgstr "Nelze načíst protokoly služby REST"
 
 #: jsapp/js/components/RESTServices/RESTServiceLogs.es6:170
 msgid "Submission Failure Detail (##id##)"
-msgstr "Podrobnosti selhání příspěvku (##id##)"
+msgstr "Podrobnosti selhání odesílaní dat z formuláře (##id##)"
 
 #: jsapp/js/components/RESTServices/RESTServicesForm.es6:21
 msgid "JSON"
@@ -838,7 +838,7 @@ msgstr "Tento projekt zatím nemá žádné služby REST!"
 msgid ""
 "You can use REST Services to automatically post submissions to a third-party"
 " application."
-msgstr "Služby REST můžete použít k automatickému zasílání odeslaných dat do aplikace třetí strany."
+msgstr "Služby REST můžete použít k automatickému zasílání odeslaných dat z formuláře do aplikace třetí strany."
 
 #: jsapp/js/components/RESTServices/RESTServicesList.es6:132
 #: jsapp/js/i18nMissingStrings.es6:153
@@ -946,7 +946,7 @@ msgstr "Podařilo se!"
 #: jsapp/js/components/bigModal/bigModal.es6:47
 #: jsapp/js/components/bigModal/bigModal.es6:49
 msgid "Submission Record"
-msgstr "Záznam o příspěvku"
+msgstr "Záznam o odeslaní dat z formuláře"
 
 #: jsapp/js/components/bigModal/bigModal.es6:43
 #: jsapp/js/components/bigModal/bigModal.es6:49
@@ -1069,7 +1069,7 @@ msgid ""
 "authenticator app fails. These codes are unique and will not be stored in "
 "your Kobo account. This is your only opportunity to save them. Please "
 "download the file and keep it somewhere safe."
-msgstr ""
+msgstr "Pomocí následujících obnovovacích kódů se k účtu budete moci připojit i v případě, že ověřovací aplikace selže. Tyto kódy jsou jedinečné a ve vašem účtu Kobo se nebudou ukládat. Máte teď jedinou příležitost si je uložit. Stáhněte si je a uložte je na bezpečném místě."
 
 #: jsapp/js/components/bigModal/mfaModals.tsx:329
 msgid "Download codes"
@@ -1130,7 +1130,7 @@ msgid ""
 "it again. If you cannot complete the process, 2FA will remain disabled for "
 "your account. In this case, you can enable it again at any time through the "
 "usual process."
-msgstr ""
+msgstr "Jakmile bude stávající dvoufaktorové ověřování deaktivováno, budete vyzváni, abyste ho nakonfigurovali znovu. Pokud se vám to nepodaří, bude dvoufaktorové ověřování u vašeho účtu deaktivováno i nadále. Můžete ho pak kdykoli znovu aktivovat, a to obvyklým postupem."
 
 #: jsapp/js/components/bigModal/mfaModals.tsx:523
 msgid "Issues with the token"
@@ -1413,7 +1413,7 @@ msgstr "Poslední zveřejnění"
 
 #: jsapp/js/components/formSummaryProjectInfo.tsx:114
 msgid "Latest submission"
-msgstr "Poslední příspěvek"
+msgstr "Poslední odeslaná data z formuláře"
 
 #: jsapp/js/components/formSummaryProjectInfo.tsx:127
 #: jsapp/js/components/library/assetInfoBox.es6:118
@@ -1477,11 +1477,11 @@ msgstr "Nastavení účtu"
 
 #: jsapp/js/components/header/accountMenu.tsx:125
 msgid "Terms of Service"
-msgstr "Podmínky služby"
+msgstr "Podmínkami služby"
 
 #: jsapp/js/components/header/accountMenu.tsx:130
 msgid "Privacy Policy"
-msgstr "Zásady ochrany osobních údajů"
+msgstr "Zásadami ochrany osobních údajů"
 
 #: jsapp/js/components/header/accountMenu.tsx:143
 #: jsapp/js/components/map.es6:847
@@ -1528,7 +1528,7 @@ msgstr "Hledat…"
 
 #: jsapp/js/components/header/mainHeader.component.tsx:149
 msgid "submissions"
-msgstr "odeslaná data"
+msgstr "odeslaná data z formuláře"
 
 #: jsapp/js/components/languages/languageSelector.tsx:324
 msgid "original"
@@ -1818,7 +1818,7 @@ msgstr "Změnit jazyky"
 msgid ""
 "By default map is limited to the ##number##  most recent submissions for "
 "performance reasons. Go to map settings to increase this limit."
-msgstr "Ve výchozím nastavení je mapa z výkonnostních důvodů omezena na ##number## nejnovějších odeslaných dat. Chcete-li tento limit zvýšit, přejděte do nastavení mapy."
+msgstr "Ve výchozím nastavení je mapa z výkonnostních důvodů omezena na ##number## nejnovějších odeslání dat z formuláře. Chcete-li tento limit zvýšit, přejděte do nastavení mapy."
 
 #: jsapp/js/components/map.es6:342 jsapp/js/components/map.es6:519
 #: jsapp/js/components/submissions/submissionModal.es6:130
@@ -1911,11 +1911,11 @@ msgstr "Více odpovědí"
 
 #: jsapp/js/components/modalForms/bulkEditSubmissionsForm.es6:80
 msgid "Displaying multiple submissions (##count## selected of ##total##)"
-msgstr "Zobrazení více odeslaných dat (vybráno ##count## z ##total##)"
+msgstr "Zobrazení více odeslaných dat z formuláře (vybráno ##count## z ##total##)"
 
 #: jsapp/js/components/modalForms/bulkEditSubmissionsForm.es6:88
 msgid "Editing \"##question##\" for ##count## submissions"
-msgstr "Úpravy „##question##“ pro ##count## odeslaná data"
+msgstr "Úpravy „##question##“ pro ##count## odeslaná data z formuláře"
 
 #: jsapp/js/components/modalForms/bulkEditSubmissionsForm.es6:207
 msgid "in the help article"
@@ -1947,7 +1947,7 @@ msgid ""
 "only one submission, click on the desired submission on the navigation menu "
 "on the top-left corner of this table, or go back to the general table view. "
 "You can learn more about bulk actions"
-msgstr "V současné době se zobrazuje vícero odeslaných dat najednou. Můžete vybrat konkrétní otázky a hromadně upravit nebo odstranit odpovědi. Pokud chcete upravit pouze jeden set odeslaných dat, klikněte na požadovaná odeslaná data v navigační nabídce v levém horním rohu této tabulky, anebo se vraťte do obecného zobrazení tabulky. O hromadných akcích se můžete dozvědět více"
+msgstr "V současné době se zobrazuje vícero odeslaných dat z formuláře najednou. Můžete vybrat konkrétní otázky a hromadně upravit nebo odstranit odpovědi. Pokud chcete upravit pouze jeden set odeslaných dat z formuláře, klikněte na požadovaná odeslaná data z formuláře v navigační nabídce v levém horním rohu této tabulky, anebo se vraťte do obecného zobrazení tabulky. O hromadných akcích se můžete dozvědět více"
 
 #: jsapp/js/components/modalForms/bulkEditSubmissionsForm.es6:338
 msgid "Updated responses"
@@ -1985,7 +1985,7 @@ msgid ""
 " the XML syntax in the text box below. You can also select one of the "
 "existing responses from the table of responses. Learn more about how to edit"
 " specific responses for one or multiple submissions"
-msgstr "Chystáte se upravit odpovědi pro jeden set či vícero odeslaných dat najednou. Použijte syntaxi XML v níže uvedeném textovém poli. Můžete také vybrat jednu ze stávajících odpovědí z tabulky odpovědí. Další informace o tom, jak upravit konkrétní odpovědi pro jedno nebo vícero odeslaných dat."
+msgstr "Chystáte se upravit odpovědi pro jeden set či vícero odeslaných dat z formuláře najednou. Použijte syntaxi XML v níže uvedeném textovém poli. Můžete také vybrat jednu ze stávajících odpovědí z tabulky odpovědí. Další informace o tom, jak upravit konkrétní odpovědi pro jedno nebo vícero odeslaných dat z formuláře"
 
 #: jsapp/js/components/modalForms/bulkEditSubmissionsForm.es6:443
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:197
@@ -2001,7 +2001,7 @@ msgstr "Uložit"
 
 #: jsapp/js/components/modalForms/bulkEditSubmissionsForm.es6:487
 msgid "Type new response for selected submissions"
-msgstr "Zadejte novou odpověď pro vybraná odeslaná data"
+msgstr "Zadejte novou odpověď pro vybraná odeslaná data z formuláře"
 
 #: jsapp/js/components/modalForms/bulkEditSubmissionsForm.es6:541
 msgid "Select"
@@ -2023,7 +2023,7 @@ msgstr "Procento"
 
 #: jsapp/js/components/modalForms/encryptForm.es6:121
 msgid "Submission URL"
-msgstr "Adresa URL příspěvku"
+msgstr "Adresa URL odeslaných dat z formuláře"
 
 #: jsapp/js/components/modalForms/encryptForm.es6:131
 msgid "Public key"
@@ -2314,7 +2314,7 @@ msgstr "Sem zadejte název projektu"
 
 #: jsapp/js/components/modalForms/projectSettings.es6:922
 msgid "Please enter a description for your project"
-msgstr ""
+msgstr "Zadejte popis vašeho projektu"
 
 #: jsapp/js/components/modalForms/projectSettings.es6:941
 msgid "Please choose a sector"
@@ -2346,11 +2346,11 @@ msgstr "Uveďte, zda váš projekt shromažďuje osobní údaje"
 
 #: jsapp/js/components/modalForms/projectSettings.es6:1043
 msgid "Archive project to stop accepting submissions."
-msgstr "Archivujte projekt, aby přestal přijímat odeslaná data."
+msgstr "Archivujte projekt, aby přestal přijímat odeslaná data z formuláře."
 
 #: jsapp/js/components/modalForms/projectSettings.es6:1048
 msgid "Unarchive project to resume accepting submissions."
-msgstr "Zrušte archivaci projektu, aby se obnovilo přijímání odeslaných dat."
+msgstr "Zrušte archivaci projektu, aby se obnovilo přijímání odeslaných dat z formuláře."
 
 #: jsapp/js/components/modalForms/projectSettings.es6:1061
 msgid "Delete Project and Data"
@@ -2602,7 +2602,7 @@ msgstr "Sdílený odkaz"
 msgid ""
 "Anyone can see this blank form and add submissions to it because you have "
 "not set [your account] to require authentication."
-msgstr ""
+msgstr "Tento prázdný formulář si bude moci zobrazit každý a bude k němu moci přidávat odeslaná data z formuláře, protože jste u [svého účtu] nenastavili požadavek na ověření."
 
 #: jsapp/js/components/permissions/userAssetPermsEditor.component.tsx:35
 msgid "Enter usernames separated by comma"
@@ -2644,7 +2644,7 @@ msgstr "##permission_label## (##username_list## a 1 další)"
 msgid ""
 "##permission_label## (##username_list## and ##hidden_username_count## "
 "others)"
-msgstr ""
+msgstr "##permission_label## (##username_list## a ##hidden_username_count## další/dalších)"
 
 #: jsapp/js/components/permissions/validatePermissions.ts:8
 msgid ""
@@ -2708,7 +2708,7 @@ msgstr "vytvořeno ##date##"
 #: jsapp/js/components/processing/singleProcessingRoute.tsx:115
 #: jsapp/js/components/processing/singleProcessingRoute.tsx:130
 msgid "There is no data for this question for the current submission"
-msgstr "Pro tuto otázku nejsou v aktuálním příspěvku žádná data"
+msgstr "Pro tuto otázku nejsou v aktuálním příspěvku žádná odeslaná data z formuláře"
 
 #: jsapp/js/components/processing/singleProcessingStore.ts:546
 #: jsapp/js/router/accessDenied.tsx:47
@@ -2780,7 +2780,7 @@ msgid ""
 "servers beyond the short period needed for completing the transcription, and"
 " we do not allow Google to use the audio for improving its transcription "
 "service."
-msgstr ""
+msgstr "Automatický přepis poskytuje platforma Google Cloud Platform. Používáním této služby souhlasíte s tím, že zvukový soubor bude za účelem přepisu odeslán na servery společnosti Google, kde bude uložen jen po krátkou dobu nezbytnou k dokončení přepisu. Společnosti Google jsme nepovolili používat zvukové stopy k vylepšování jejího přepisovací služby."
 
 #: jsapp/js/components/processing/transcriptTabContent.tsx:317
 #: jsapp/js/components/processing/translationsTabContent.tsx:429
@@ -2825,7 +2825,7 @@ msgid ""
 "service you agree that your transcript text will be sent to Google's servers"
 " for the purpose of translation. However, it will not be stored on Google's "
 "servers beyond the very short period needed for completing the translation."
-msgstr ""
+msgstr "Automatické překlady poskytuje platforma Google Cloud Platform. Používáním této služby souhlasíte s tím, že váš text bude za účelem překladu odeslán na servery společnosti Google, kde bude uložen jen po krátkou dobu nezbytnou k dokončení překladu."
 
 #: jsapp/js/components/processing/translationsTabContent.tsx:438
 msgid "create translation"
@@ -2928,11 +2928,11 @@ msgstr "Žádné"
 
 #: jsapp/js/components/projectDownloads/projectExportsCreator.es6:537
 msgid "Include fields from all ##count## versions"
-msgstr ""
+msgstr "Obsahuje pole ze všech ##count## verzí"
 
 #: jsapp/js/components/projectDownloads/projectExportsCreator.es6:550
 msgid "Export ##SELECT_MANY## questions as…"
-msgstr ""
+msgstr "Exportovat otázky (v počtu ##SELECT_MANY##) jako…"
 
 #: jsapp/js/components/projectDownloads/projectExportsCreator.es6:559
 #: jsapp/js/constants.ts:388 jsapp/js/formbuild/containers/KoboMatrix.es6:44
@@ -3217,11 +3217,11 @@ msgstr "Plošný"
 
 #: jsapp/js/components/reports/reportsConstants.ts:131
 msgid "Polar area"
-msgstr ""
+msgstr "Polární"
 
 #: jsapp/js/components/reports/reportsConstants.ts:136
 msgid "Radar"
-msgstr ""
+msgstr "Paprskový"
 
 #: jsapp/js/components/submissions/audioCell.tsx:38
 #: jsapp/js/components/submissions/table.es6:505
@@ -3252,7 +3252,7 @@ msgstr "Použít"
 
 #: jsapp/js/components/submissions/mediaCell.tsx:127
 msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "Příspěvek ##submissionIndex## z ##submissionTotal##"
+msgstr "Odeslaná data z formuláře ##submissionIndex## z ##submissionTotal##"
 
 #: jsapp/js/components/submissions/mediaCell.tsx:152
 msgid "download"
@@ -3266,15 +3266,15 @@ msgstr "zpracovat"
 msgid ""
 "The submission could not be found. It may have been deleted. Submission ID: "
 "##id##"
-msgstr "Příspěvek se nepodařilo nalézt. Možná byl smazán. ID příspěvku: ##id##"
+msgstr "Odeslaná data z formuláře se nepodařilo nalézt. Možná byl smazán. ID příspěvku: ##id##"
 
 #: jsapp/js/components/submissions/submissionModal.es6:155
 msgid "Delete submission?"
-msgstr "Smazat příspěvek?"
+msgstr "Smazat odeslaná data z formuláře?"
 
 #: jsapp/js/components/submissions/submissionModal.es6:156
 msgid "Are you sure you want to delete this submission?"
-msgstr "Opravdu chcete tento příspěvek smazat?"
+msgstr "Opravdu chcete tato odeslaná data z formuláře smazat?"
 
 #: jsapp/js/components/submissions/submissionModal.es6:156
 msgid "This action cannot be undone"
@@ -3288,11 +3288,11 @@ msgstr "Duplikát vytvořen"
 msgid ""
 "A duplicate of the submission record was successfully created. You can view "
 "the new instance below and make changes using the action buttons below."
-msgstr "Duplikát záznamu o příspěvku byl úspěšně vytvořen. Novou instanci si můžete prohlédnout níže a pomocí akčních kláves provést změny."
+msgstr "Duplikát záznamu o odeslaných datech z formuláře byl úspěšně vytvořen. Novou instanci si můžete prohlédnout níže a pomocí akčních kláves provést změny."
 
 #: jsapp/js/components/submissions/submissionModal.es6:302
 msgid "Source submission uuid: "
-msgstr ""
+msgstr "Identifikátor UUID zdrojových odeslaných dat z formuláře: "
 
 #: jsapp/js/components/submissions/submissionModal.es6:314
 #: jsapp/js/components/submissions/submissionModal.es6:506
@@ -3302,7 +3302,7 @@ msgstr "Načítání…"
 
 #: jsapp/js/components/submissions/submissionModal.es6:324
 msgid "Discard duplicated submission"
-msgstr "Zahodit duplicitní příspěvek"
+msgstr "Zahodit duplicitní odeslaná data z formuláře"
 
 #: jsapp/js/components/submissions/submissionModal.es6:336
 #: jsapp/js/components/submissions/submissionModal.es6:409
@@ -3317,11 +3317,11 @@ msgstr "Stav ověření:"
 #: jsapp/js/components/submissions/submissionModal.es6:384
 msgid ""
 "Click on the button below to load the most recent data for this submission. "
-msgstr "Kliknutím na tlačítko níže načtete nejnovější údaje pro tento příspěvek. "
+msgstr "Kliknutím na tlačítko níže načtete nejnovější údaje pro tato odeslaná data z formuláře. "
 
 #: jsapp/js/components/submissions/submissionModal.es6:386
 msgid "Refresh submission"
-msgstr "Obnovit příspěvek"
+msgstr "Obnovit odeslaná data z formuláře"
 
 #: jsapp/js/components/submissions/submissionModal.es6:395
 msgid "Background audio recording"
@@ -3346,7 +3346,7 @@ msgstr "Duplikovat"
 
 #: jsapp/js/components/submissions/submissionModal.es6:552
 msgid "Delete submission"
-msgstr "Smazat příspěvek"
+msgstr "Smazat odeslaná data z formuláře"
 
 #: jsapp/js/components/submissions/submissionUtils.ts:540
 msgid "Could not find ##fileName##"
@@ -3375,13 +3375,13 @@ msgstr "Vybrat viditelné výsledky (##count##)"
 
 #: jsapp/js/components/submissions/tableBulkOptions.es6:82
 msgid "Update status of selected submissions"
-msgstr "Aktualizace stavu vybraných odeslaných dat"
+msgstr "Aktualizace stavu vybraných odeslaných dat z formuláře"
 
 #: jsapp/js/components/submissions/tableBulkOptions.es6:83
 msgid ""
 "You have selected ## submissions. Are you sure you would like to update "
 "their status? This action is irreversible."
-msgstr "Vybrali jste ## odeslaných dat. Jste si jisti, že chcete aktualizovat jejich stav? Tato akce je nevratná."
+msgstr "Vybrali jste ## odeslaných dat z formuláře. Jste si jisti, že chcete aktualizovat jejich stav? Tato akce je nevratná."
 
 #: jsapp/js/components/submissions/tableBulkOptions.es6:84
 msgid "Update Validation Status"
@@ -3391,11 +3391,11 @@ msgstr "Aktualizovat stav ověření"
 msgid ""
 "You are about to permanently delete ##count## submissions. It is not "
 "possible to recover deleted submissions."
-msgstr "Chystáte se trvale smazat ##count## odeslaných dat. Odstraněná odeslaná data není možné obnovit."
+msgstr "Chystáte se trvale smazat ##count## odeslaných dat z formuláře. Odstraněná odeslaná data z formuláře není možné obnovit."
 
 #: jsapp/js/components/submissions/tableBulkOptions.es6:139
 msgid "Delete selected submissions"
-msgstr "Smazat vybraná odeslaná data"
+msgstr "Smazat vybraná odeslaná data z formuláře"
 
 #: jsapp/js/components/submissions/tableBulkOptions.es6:141
 msgid "Delete selected"
@@ -3513,57 +3513,57 @@ msgstr "Název šablony"
 
 #: jsapp/js/components/usageContainer.tsx:34
 msgid "Yearly"
-msgstr ""
+msgstr "Ročně"
 
 #: jsapp/js/components/usageContainer.tsx:50
 msgid "used out of"
-msgstr ""
+msgstr "použito z"
 
 #: jsapp/js/components/usageLimits/overLimitBanner.component.tsx:27
 msgid "You are approaching your"
-msgstr ""
+msgstr "Blížíte se k"
 
 #: jsapp/js/components/usageLimits/overLimitBanner.component.tsx:28
 msgid "You have reached your"
-msgstr ""
+msgstr "Dosáhli jste"
 
 #: jsapp/js/components/usageLimits/overLimitBanner.component.tsx:30
 msgid "monthly"
-msgstr ""
+msgstr "měsíčního"
 
 #: jsapp/js/components/usageLimits/overLimitBanner.component.tsx:30
 msgid "yearly"
-msgstr ""
+msgstr "ročního"
 
 #: jsapp/js/components/usageLimits/overLimitBanner.component.tsx:34
 msgid " and "
-msgstr ""
+msgstr " a "
 
 #: jsapp/js/components/usageLimits/overLimitBanner.component.tsx:38
 #: jsapp/js/components/usageLimits/overLimitModal.component.tsx:62
 msgid "limit"
-msgstr ""
+msgstr "limitu"
 
 #: jsapp/js/components/usageLimits/overLimitBanner.component.tsx:42
 #: jsapp/js/components/usageLimits/overLimitModal.component.tsx:66
 msgid "Please"
-msgstr ""
+msgstr "Prosím"
 
 #: jsapp/js/components/usageLimits/overLimitModal.component.tsx:45
 msgid "You have reached your plan limit"
-msgstr ""
+msgstr "Dosáhli jste limitu svého tarifu"
 
 #: jsapp/js/components/usageLimits/overLimitModal.component.tsx:51
 msgid "Dear"
-msgstr ""
+msgstr "Vážení"
 
 #: jsapp/js/components/usageLimits/overLimitModal.component.tsx:54
 msgid "You have reached the"
-msgstr ""
+msgstr "Dosáhli jste"
 
 #: jsapp/js/components/usageLimits/overLimitModal.component.tsx:63
 msgid "included with your current plan."
-msgstr ""
+msgstr "zahrnutého ve vašem stávajícím tarifu."
 
 #: jsapp/js/constants.ts:161
 msgid "Default - single page"
@@ -3742,17 +3742,17 @@ msgstr "Archivováno"
 
 #: jsapp/js/constants.ts:581
 msgid "Online-Offline (multiple submission)"
-msgstr "Online–offline (vícenásobné příspěvky)"
+msgstr "Online–offline (vícenásobná odeslaná data z formuláře)"
 
 #: jsapp/js/constants.ts:583
 msgid ""
 "This allows online and offline submissions and is the best option for "
 "collecting data in the field."
-msgstr "Umožňuje online i offline odeslání dat a je tou nejlepší volbou pro sběr dat v terénu."
+msgstr "Umožňuje online i offline odeslání dat z formuláře a je tou nejlepší volbou pro sběr dat v terénu."
 
 #: jsapp/js/constants.ts:588
 msgid "Online-Only (multiple submissions)"
-msgstr "Pouze online (vícenásobné odeslání dat)"
+msgstr "Pouze online (vícenásobné odeslání dat z formuláře)"
 
 #: jsapp/js/constants.ts:590
 msgid ""
@@ -3762,14 +3762,14 @@ msgstr "Tato možnost je nejlepší při zadávání mnoha záznamů najednou do
 
 #: jsapp/js/constants.ts:595
 msgid "Online-Only (single submission)"
-msgstr "Pouze online (jednorázové příspěvky)"
+msgstr "Pouze online (jednorázové odeslání dat z formuláře)"
 
 #: jsapp/js/constants.ts:597
 msgid ""
 "This allows a single submission, and can be paired with the \"return_url\" "
 "parameter to redirect the user to a URL of your choice after the form has "
 "been submitted."
-msgstr "Tento parametr umožňuje jednorázové příspěvky a může být spojen s parametrem „return_url“, který uživatele po odeslání formuláře přesměruje na vámi zvolenou adresu URL."
+msgstr "Tento parametr umožňuje jednorázové odeslání dat z formuláře a může být spojen s parametrem „return_url“, který uživatele po odeslání formuláře přesměruje na vámi zvolenou adresu URL."
 
 #: jsapp/js/constants.ts:602
 msgid "Online-only (once per respondent)"
@@ -4158,7 +4158,7 @@ msgstr "Přidat otázku"
 
 #: jsapp/js/i18nMissingStrings.es6:24
 msgid "Import XLS"
-msgstr ""
+msgstr "Importovat soubor XLS"
 
 #: jsapp/js/i18nMissingStrings.es6:25
 msgid "This question will only be displayed if the following conditions apply"
@@ -4166,51 +4166,51 @@ msgstr "Tato otázka se zobrazí pouze v případě, že platí následující 
 
 #: jsapp/js/i18nMissingStrings.es6:26
 msgid "Save and Exit"
-msgstr ""
+msgstr "Uložit a ukončit"
 
 #: jsapp/js/i18nMissingStrings.es6:27
 msgid "Show All Responses"
-msgstr ""
+msgstr "Zobrazit všechny odpovědi"
 
 #: jsapp/js/i18nMissingStrings.es6:28
 msgid "Question Library"
-msgstr ""
+msgstr "Knihovna otázek"
 
 #: jsapp/js/i18nMissingStrings.es6:29
 msgid "Form ID"
-msgstr ""
+msgstr "ID formuláře"
 
 #: jsapp/js/i18nMissingStrings.es6:30
 msgid "Unique form name"
-msgstr ""
+msgstr "Jedinečný název formuláře"
 
 #: jsapp/js/i18nMissingStrings.es6:31
 msgid "Web form style (Optional)"
-msgstr ""
+msgstr "Styl webového formuláře (nepovinné)"
 
 #: jsapp/js/i18nMissingStrings.es6:32
 msgid "This allows using different Enketo styles, e.g. 'theme-grid'"
-msgstr ""
+msgstr "Umožňuje použít jiné styly Enketo, např. „theme-grid“"
 
 #: jsapp/js/i18nMissingStrings.es6:33
 msgid "Multiple pages + Grid theme"
-msgstr ""
+msgstr "Více stránek + motiv mřížky"
 
 #: jsapp/js/i18nMissingStrings.es6:34
 msgid "Version (Optional)"
-msgstr ""
+msgstr "Verze (nepovinné)"
 
 #: jsapp/js/i18nMissingStrings.es6:35
 msgid "A version ID of the form"
-msgstr ""
+msgstr "ID verze formuláře"
 
 #: jsapp/js/i18nMissingStrings.es6:36
 msgid "Hidden meta questions to include in your form to help with analysis"
-msgstr ""
+msgstr "Skryté meta otázky, které můžete zahrnout do formuláře a které pak usnadňují analýzu"
 
 #: jsapp/js/i18nMissingStrings.es6:37
 msgid "Meta questions for collecting with cell phones"
-msgstr ""
+msgstr "Meta otázky pro sběr odpovědí z mobilních telefonů"
 
 #: jsapp/js/i18nMissingStrings.es6:38
 msgid "This form is currently empty."
@@ -4224,7 +4224,7 @@ msgstr "Kliknutím na znaménko „+“ uvedené níže můžete přidat otázky
 
 #: jsapp/js/i18nMissingStrings.es6:47
 msgid "Value:"
-msgstr ""
+msgstr "Hodnota:"
 
 #: jsapp/js/i18nMissingStrings.es6:48
 msgid "Items cannot be selected more than once"
@@ -4253,19 +4253,19 @@ msgstr "Přidat otázku do knihovny"
 
 #: jsapp/js/i18nMissingStrings.es6:60
 msgid "GPS"
-msgstr ""
+msgstr "GPS"
 
 #: jsapp/js/i18nMissingStrings.es6:65
 msgid "Barcode"
-msgstr ""
+msgstr "Čárový kód"
 
 #: jsapp/js/i18nMissingStrings.es6:68
 msgid "Matrix / Rating"
-msgstr ""
+msgstr "Matice / hodnocení"
 
 #: jsapp/js/i18nMissingStrings.es6:70
 msgid "Are you sure you want to split apart this group?"
-msgstr ""
+msgstr "Opravdu chcete tuto skupinu rozdělit?"
 
 #: jsapp/js/i18nMissingStrings.es6:71
 msgid ""
@@ -4319,46 +4319,46 @@ msgstr "Zobrazit všechny otázky v této skupině na stejné obrazovce"
 
 #: jsapp/js/i18nMissingStrings.es6:83
 msgid "Please check your connection and try again."
-msgstr ""
+msgstr "Zkontrolujte prosím své připojení a zkuste to znovu."
 
 #: jsapp/js/i18nMissingStrings.es6:84
 msgid ""
 "The server encountered an error while trying to deploy the project. If this "
 "problem persists, please contact <a "
 "href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>."
-msgstr ""
+msgstr "Při zveřejňování projektu se na serveru vyskytla chyba. Pokud tento problém přetrvává, obraťte se na <a href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>."
 
 #: jsapp/js/i18nMissingStrings.es6:85
 msgid "The form id was not valid."
-msgstr ""
+msgstr "ID formuláře nebylo platné."
 
 #: jsapp/js/i18nMissingStrings.es6:88
 msgid "library"
-msgstr ""
+msgstr "knihovna"
 
 #: jsapp/js/i18nMissingStrings.es6:90
 msgid "collection loading..."
-msgstr ""
+msgstr "sbírka se načítá…"
 
 #: jsapp/js/i18nMissingStrings.es6:91
 msgid "new collection inside \"___\""
-msgstr ""
+msgstr "nová sbírka ve sbírce \"___\""
 
 #: jsapp/js/i18nMissingStrings.es6:92
 msgid "new question inside \"___\""
-msgstr ""
+msgstr "nová otázka ve sbírce \"___\""
 
 #: jsapp/js/i18nMissingStrings.es6:93
 msgid "new block inside \"___\""
-msgstr ""
+msgstr "nový blok ve sbírce \"___\""
 
 #: jsapp/js/i18nMissingStrings.es6:94
 msgid "upload into \"___\""
-msgstr ""
+msgstr "nahrát do sbírky \"___\""
 
 #: jsapp/js/i18nMissingStrings.es6:95
 msgid "Are you sure you want to delete this collection?"
-msgstr ""
+msgstr "Opravdu chcete tuto sbírku smazat?"
 
 #: jsapp/js/i18nMissingStrings.es6:97
 msgid "Add a condition"
@@ -4378,55 +4378,55 @@ msgstr "Opravdu chcete tuto otázku smazat?"
 
 #: jsapp/js/i18nMissingStrings.es6:103
 msgid "Unable to deploy"
-msgstr ""
+msgstr "Nelze zveřejnit"
 
 #: jsapp/js/i18nMissingStrings.es6:106
 msgid "profile"
-msgstr ""
+msgstr "profil"
 
 #: jsapp/js/i18nMissingStrings.es6:107
 msgid "logout"
-msgstr ""
+msgstr "odhlásit"
 
 #: jsapp/js/i18nMissingStrings.es6:108
 msgid "log in"
-msgstr ""
+msgstr "přihlásit se"
 
 #: jsapp/js/i18nMissingStrings.es6:109
 msgid "Link to share"
-msgstr ""
+msgstr "Odkaz ke sdílení"
 
 #: jsapp/js/i18nMissingStrings.es6:110
 msgid "Invite people and specify access rights"
-msgstr ""
+msgstr "Pozvěte ostatní a stanovte přístupová oprávnění"
 
 #: jsapp/js/i18nMissingStrings.es6:111
 msgid "Your username, bio, and links appear on your public profile"
-msgstr ""
+msgstr "Vaše uživatelské jméno, informace o vaší osobě a odkazy jsou zobrazeny ve veřejném profilu"
 
 #: jsapp/js/i18nMissingStrings.es6:112
 msgid "Download form as"
-msgstr ""
+msgstr "Stáhnout formulář jako"
 
 #: jsapp/js/i18nMissingStrings.es6:113
 msgid "add to library"
-msgstr ""
+msgstr "přidat do knihovny"
 
 #: jsapp/js/i18nMissingStrings.es6:114
 msgid "Allow others to access your project."
-msgstr ""
+msgstr "Povolit ostatním přístup k vašemu projektu."
 
 #: jsapp/js/i18nMissingStrings.es6:115
 msgid "Shared with "
-msgstr ""
+msgstr "Projekt sdílen s"
 
 #: jsapp/js/i18nMissingStrings.es6:116
 msgid "Share the sector and country with developers"
-msgstr ""
+msgstr "Sdílet odvětví a zemi s vývojáři"
 
 #: jsapp/js/i18nMissingStrings.es6:117
 msgid "Leave Beta"
-msgstr ""
+msgstr "Opustit verzi beta"
 
 #: jsapp/js/i18nMissingStrings.es6:118
 #: jsapp/js/project/projectTopTabs.component.tsx:72
@@ -4440,51 +4440,51 @@ msgstr "Data"
 
 #: jsapp/js/i18nMissingStrings.es6:122
 msgid "Undeployed draft"
-msgstr ""
+msgstr "Nezveřejněný koncept"
 
 #: jsapp/js/i18nMissingStrings.es6:123
 msgid "Scheduled server maintenance"
-msgstr ""
+msgstr "Naplánovaná údržba serveru"
 
 #: jsapp/js/i18nMissingStrings.es6:124
 msgid "Project description"
-msgstr ""
+msgstr "Popis projektu"
 
 #: jsapp/js/i18nMissingStrings.es6:125
 msgid "none"
-msgstr ""
+msgstr "žádné"
 
 #: jsapp/js/i18nMissingStrings.es6:126
 msgid "report type"
-msgstr ""
+msgstr "typ hlášení"
 
 #: jsapp/js/i18nMissingStrings.es6:129
 msgid "form name"
-msgstr ""
+msgstr "název formuláře"
 
 #: jsapp/js/i18nMissingStrings.es6:130
 msgid "Ask support about this error"
-msgstr ""
+msgstr "Tuto chybu zkonzultujte s podporou"
 
 #: jsapp/js/i18nMissingStrings.es6:131
 msgid "Collections"
-msgstr ""
+msgstr "Sbírky"
 
 #: jsapp/js/i18nMissingStrings.es6:132
 msgid "collection not loaded"
-msgstr ""
+msgstr "sbírka se nenačetla"
 
 #: jsapp/js/i18nMissingStrings.es6:133
 msgid "collection name"
-msgstr ""
+msgstr "název sbírky"
 
 #: jsapp/js/i18nMissingStrings.es6:134
 msgid "No assets to display"
-msgstr ""
+msgstr "Žádné položky k zobrazení"
 
 #: jsapp/js/i18nMissingStrings.es6:135
 msgid "Form Overview"
-msgstr ""
+msgstr "Přehled formuláře"
 
 #: jsapp/js/i18nMissingStrings.es6:136
 msgid "Edit in Form Builder"
@@ -4492,167 +4492,167 @@ msgstr "Upravit v nástroji Form Builder"
 
 #: jsapp/js/i18nMissingStrings.es6:137
 msgid "make new collection: \"{label}\""
-msgstr ""
+msgstr "vytvořit novou kolekci: \"{label}\""
 
 #: jsapp/js/i18nMissingStrings.es6:138
 msgid "owner"
-msgstr ""
+msgstr "vlastník"
 
 #: jsapp/js/i18nMissingStrings.es6:139
 msgid "viewer"
-msgstr ""
+msgstr "prohlížející"
 
 #: jsapp/js/i18nMissingStrings.es6:140
 msgid "viewers"
-msgstr ""
+msgstr "prohlížející"
 
 #: jsapp/js/i18nMissingStrings.es6:141
 msgid "editor"
-msgstr ""
+msgstr "editor"
 
 #: jsapp/js/i18nMissingStrings.es6:142
 msgid "editors"
-msgstr ""
+msgstr "editoři"
 
 #: jsapp/js/i18nMissingStrings.es6:143
 msgid "status"
-msgstr ""
+msgstr "stav"
 
 #: jsapp/js/i18nMissingStrings.es6:144
 msgid "public"
-msgstr ""
+msgstr "veřejné"
 
 #: jsapp/js/i18nMissingStrings.es6:145
 msgid "private"
-msgstr ""
+msgstr "soukromé"
 
 #: jsapp/js/i18nMissingStrings.es6:146
 msgid "revisions"
-msgstr ""
+msgstr "revize"
 
 #: jsapp/js/i18nMissingStrings.es6:147
 msgid "created"
-msgstr ""
+msgstr "vytvořeno"
 
 #: jsapp/js/i18nMissingStrings.es6:148
 msgid "modified"
-msgstr ""
+msgstr "upraveno"
 
 #: jsapp/js/i18nMissingStrings.es6:149
 msgid "no language information"
-msgstr ""
+msgstr "žádné informace o jazyce"
 
 #: jsapp/js/i18nMissingStrings.es6:150
 msgid "no translations"
-msgstr ""
+msgstr "žádné překlady"
 
 #: jsapp/js/i18nMissingStrings.es6:151
 msgid "languages"
-msgstr ""
+msgstr "jazyky"
 
 #: jsapp/js/i18nMissingStrings.es6:152
 msgid "Collecting Data with Web Forms"
-msgstr ""
+msgstr "Sběr dat pomocí webových formulářů"
 
 #: jsapp/js/i18nMissingStrings.es6:154
 msgid "Choose an option"
-msgstr ""
+msgstr "Vyberte možnost"
 
 #: jsapp/js/i18nMissingStrings.es6:155
 msgid "Collecting Data with Android App"
-msgstr ""
+msgstr "Sběr dat pomocí aplikace Android"
 
 #: jsapp/js/i18nMissingStrings.es6:156
 msgid "preview"
-msgstr ""
+msgstr "náhled"
 
 #: jsapp/js/i18nMissingStrings.es6:157
 msgid "clone"
-msgstr ""
+msgstr "klonovat"
 
 #: jsapp/js/i18nMissingStrings.es6:158
 msgid "new form name"
-msgstr ""
+msgstr "název nového formuláře"
 
 #: jsapp/js/i18nMissingStrings.es6:159
 msgid ""
 "You are about to permanently delete this ___. Are you sure you want to "
 "continue?"
-msgstr ""
+msgstr "Chystáte se trvale smazat tuto položku: ___. Opravdu chcete pokračovat?"
 
 #: jsapp/js/i18nMissingStrings.es6:160
 msgid "Current Version"
-msgstr ""
+msgstr "Aktuální verze"
 
 #: jsapp/js/i18nMissingStrings.es6:161
 msgid "Modified Date"
-msgstr ""
+msgstr "Datum úpravy"
 
 #: jsapp/js/i18nMissingStrings.es6:162
 msgid "(deployed)"
-msgstr ""
+msgstr "(zveřejněno)"
 
 #: jsapp/js/i18nMissingStrings.es6:163
 msgid "(archived)"
-msgstr ""
+msgstr "(archivováno)"
 
 #: jsapp/js/i18nMissingStrings.es6:164
 msgid "(undeployed draft)"
-msgstr ""
+msgstr "(nezveřejněný koncept)"
 
 #: jsapp/js/i18nMissingStrings.es6:165
 msgid "Previous Versions"
-msgstr ""
+msgstr "Předchozí verze"
 
 #: jsapp/js/i18nMissingStrings.es6:166
 msgid "collections"
-msgstr ""
+msgstr "sbírky"
 
 #: jsapp/js/i18nMissingStrings.es6:167
 msgid "my forms"
-msgstr ""
+msgstr "mé formuláře"
 
 #: jsapp/js/i18nMissingStrings.es6:168
 msgid "shared with me"
-msgstr ""
+msgstr "sdíleno se mnou"
 
 #: jsapp/js/i18nMissingStrings.es6:169
 msgid "error loading data"
-msgstr ""
+msgstr "chyba při načítání dat"
 
 #: jsapp/js/i18nMissingStrings.es6:170
 msgid "results loaded"
-msgstr ""
+msgstr "výsledky načteny"
 
 #: jsapp/js/i18nMissingStrings.es6:171
 msgid ""
 "Warning! You are about to delete this collection with all its questions and "
 "blocks. Are you sure you want to continue?"
-msgstr ""
+msgstr "Varování! Chystáte se smazat tuto sbírku se všemi otázkami a bloky. Opravdu chcete pokračovat?"
 
 #: jsapp/js/i18nMissingStrings.es6:172
 msgid "new name?"
-msgstr ""
+msgstr "nový název?"
 
 #: jsapp/js/i18nMissingStrings.es6:173
 msgid "Delete Project"
-msgstr ""
+msgstr "Smazat projekt"
 
 #: jsapp/js/i18nMissingStrings.es6:174
 msgid "More Actions"
-msgstr ""
+msgstr "Další akce"
 
 #: jsapp/js/i18nMissingStrings.es6:176
 msgid "Please make sure the following details are filled out correctly:"
-msgstr ""
+msgstr "Zkontrolujte prosím, zda jsou následující údaje vyplněny správně:"
 
 #: jsapp/js/i18nMissingStrings.es6:177
 msgid "I agree, let's go"
-msgstr ""
+msgstr "Souhlasím, jdeme na to"
 
 #: jsapp/js/i18nMissingStrings.es6:178
 msgid "I don't agree, log me out"
-msgstr ""
+msgstr "Nesouhlasím, odhlaste mě"
 
 #: jsapp/js/mixins.tsx:124
 msgid "copied to clipboard"
@@ -4672,7 +4672,7 @@ msgstr "Souhrn"
 
 #: jsapp/js/project/submissionsCountGraph.component.tsx:69
 msgid "Today"
-msgstr ""
+msgstr "Dnes"
 
 #: jsapp/js/project/submissionsCountGraph.component.tsx:281
 msgid "Past 7 days"
@@ -4684,11 +4684,11 @@ msgstr "Posledních 31 dní"
 
 #: jsapp/js/project/submissionsCountGraph.component.tsx:283
 msgid "Past 3 months"
-msgstr ""
+msgstr "Poslední 3 měsíce"
 
 #: jsapp/js/project/submissionsCountGraph.component.tsx:284
 msgid "Past 12 months"
-msgstr ""
+msgstr "Posledních 12 měsíců"
 
 #: jsapp/js/project/submissionsCountGraph.component.tsx:301
 msgid "No chart data available for current period."
@@ -4817,34 +4817,34 @@ msgstr "Odstranit projekty: ##count##"
 
 #: jsapp/js/projects/projectsTable/bulkActions/bulkDeletePrompt.tsx:80
 msgid "You are about to permanently delete ##count## projects"
-msgstr "Chystáte se trvale smazat projekty v počtu ##count##."
+msgstr "Chystáte se trvale smazat projekty v počtu ##count##"
 
 #: jsapp/js/projects/projectsTable/bulkActions/bulkDeletePrompt.tsx:89
 msgid "All data gathered for these projects will be deleted"
-msgstr "Všechny údaje shromážděné pro tyto projekty budou vymazány."
+msgstr "Všechny údaje shromážděné pro tyto projekty budou vymazány"
 
 #: jsapp/js/projects/projectsTable/bulkActions/bulkDeletePrompt.tsx:95
 msgid "Forms associated with these projects will be deleted"
-msgstr "Formuláře spojené s těmito projekty budou vymazány."
+msgstr "Formuláře spojené s těmito projekty budou vymazány"
 
 #: jsapp/js/projects/projectsTable/bulkActions/bulkDeletePrompt.tsx:103
 msgid ""
 "I understand that if I delete these projects I will not be able to recover "
 "them"
-msgstr "Jsem srozuměn/a s tím, že pokud tyto projekty smažu, nebude je možné obnovit."
+msgstr "Jsem srozuměn/a s tím, že pokud tyto projekty smažu, nebude je možné obnovit"
 
 #: jsapp/js/projects/projectsTable/projectBulkActions.tsx:25
 msgid "Delete projects"
-msgstr ""
+msgstr "Smazat projekty"
 
 #: jsapp/js/projects/projectsTable/projectBulkActions.tsx:36
 #: jsapp/js/projects/projectsTable/projectQuickActionsEmpty.tsx:16
 msgid "Archive/Unarchive"
-msgstr ""
+msgstr "Archivovat / zrušit archivaci"
 
 #: jsapp/js/projects/projectsTable/projectBulkActions.tsx:47
 msgid "Share projects"
-msgstr ""
+msgstr "Sdílet projekty"
 
 #: jsapp/js/projects/projectsTable/projectQuickActions.tsx:41
 msgid "Archive project"
@@ -4856,7 +4856,7 @@ msgstr "Zrušit archivaci projektu"
 
 #: jsapp/js/projects/projectsTable/projectQuickActions.tsx:83
 msgid "Draft project selected"
-msgstr ""
+msgstr "Byl vybrán koncept projektu"
 
 #: jsapp/js/projects/projectsTable/projectQuickActions.tsx:95
 #: jsapp/js/projects/projectsTable/projectQuickActionsEmpty.tsx:30
@@ -4865,11 +4865,11 @@ msgstr "Sdílet projekt"
 
 #: jsapp/js/projects/projectsTable/projectQuickActions.tsx:109
 msgid "Delete 1 project"
-msgstr ""
+msgstr "Smazat jeden projekt"
 
 #: jsapp/js/projects/projectsTable/projectQuickActions.tsx:109
 msgid "Delete project"
-msgstr ""
+msgstr "Smazat projekt"
 
 #: jsapp/js/projects/projectsTable/projectsTable.tsx:84
 msgid "There are no projects to display."
@@ -4895,11 +4895,11 @@ msgstr "Pokud se domníváte, že se jedná o chybu, zkuste se přihlásit pomo
 
 #: jsapp/js/router/accessDenied.tsx:27
 msgid "Access Denied"
-msgstr ""
+msgstr "Přístup odepřen"
 
 #: jsapp/js/router/accessDenied.tsx:41
 msgid "You don't have access to this page."
-msgstr ""
+msgstr "K této stránce nemáte přístup."
 
 #: jsapp/js/router/accessDenied.tsx:44
 msgid ""
@@ -4910,13 +4910,13 @@ msgstr "Buď nemáte přístup k této stránce, nebo tato stránka prostě nee
 msgid ""
 "We're sorry, but there was an unexpected error while trying to serve this "
 "page."
-msgstr ""
+msgstr "Při načítání této stránky bohužel došlo k neočekávané chybě."
 
 #: jsapp/js/router/accessDenied.tsx:50
 msgid ""
 "Please try again later, or [contact the support team] if this happens "
 "repeatedly."
-msgstr ""
+msgstr "Zkuste to prosím znovu později, anebo se v případě opakovaných problémů [obraťte na tým podpory]."
 
 #: jsapp/js/router/accessDenied.tsx:86
 msgid "Additional details:"
@@ -4924,13 +4924,13 @@ msgstr "Další podrobnosti:"
 
 #: jsapp/js/router/invalidatedPassword.component.tsx:44
 msgid "Temporary Access Restriction: Password Update Required"
-msgstr "Dočasné omezení přístupu – ⁠je nutná aktualizace hesla."
+msgstr "Dočasné omezení přístupu – ⁠je nutná aktualizace hesla"
 
 #: jsapp/js/router/invalidatedPassword.component.tsx:50
 msgid ""
 "You must update your password before proceeding. Please do so promptly to "
 "ensure the security of your data."
-msgstr ""
+msgstr "Před pokračováním je nutné provést aktualizaci hesla. Učiňte tak neprodleně, abyste zajistili bezpečnost svých dat."
 
 #: jsapp/js/router/invalidatedPassword.component.tsx:59
 msgid "Update password"

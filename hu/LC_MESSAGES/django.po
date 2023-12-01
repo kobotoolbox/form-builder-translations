@@ -195,7 +195,7 @@ msgstr "E-mail-cím megerősítése"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "Kérjük ellenőrizze, hogy a(z) <a href=\"mailto:%(email)s\">%(email)s</a> valóban a(z) %(user_display)s felhasználó e-mail-cím."
+msgstr "Erősítse meg, hogy <a href=\"mailto:%(email)s\">%(email)s</a> a(z) %(user_display)s felhasználó e-mail címe."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -324,7 +324,7 @@ msgstr "Ezáltal a jövőben használhatja az egyszeri bejelentkezést (SSO)."
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
 msgid "Connect with %(appname)s"
-msgstr "Összekapcsolás ezzel a fiókkal: %(appname)s"
+msgstr "Összekapcsolás ezzel: %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
@@ -342,7 +342,7 @@ msgstr "vissza"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
-msgstr "Üdvözli a KoboToolbox, kedves %(username)s!"
+msgstr "Üdvözli a KoboToolbox, %(username)s!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
@@ -649,39 +649,39 @@ msgstr "Szervezet neve"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "Szervezet típusa"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "Szeretnék rendszeres tájékoztatást kapni a KoboToolbox újdonságairól"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "Szeretnék rendszeres tájékoztatást kapni az újdonságokról"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "Továbblépéshez és a szabályzatunk elfogadásához jelölje be a fenti jelölőnégyzetet."
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "##terms_of_service## és ##privacy_policy## elfogadása"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "Ország neve"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "Válasszon egy típust"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "Ágazat neve"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "Személyes adatok"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -690,7 +690,7 @@ msgstr "Érvénytelen felhasználónév/jelszó"
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "Ez a paraméter nincs implementálva. Használja ehelyett a válasz `count` tulajdonságát."
+msgstr "Ez a paraméter nincs implementálva. Használja helyette a válasz `count` tulajdonságát."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
@@ -713,7 +713,7 @@ msgstr "Az értéknek listának kell lennie."
 #: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
-msgstr "Nincs olyan űrlapválasz, ahol ez a `submission_ids` értéke"
+msgstr "Nincs olyan űrlapválasz, ahol ez a(z) `submission_ids` értéke"
 
 #: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
@@ -739,7 +739,7 @@ msgstr "Valamilyen hiba történt"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr "Először az `asset.connect_deployment()` eljárást kell kezdeményezni"
+msgstr "Először a(z) `asset.connect_deployment()` eljárást kell kezdeményezni"
 
 #: kpi/exceptions.py:74
 msgid ""
@@ -966,7 +966,7 @@ msgstr "Hibás jelenlegi jelszó."
 
 #: kpi/serializers/current_user.py:170
 msgid "`current_password` and `new_password` must both be"
-msgstr "Mind a `current_password`, mind a `new_password` szükséges"
+msgstr "Mind `current_password` és `new_password` szükséges"
 
 #: kpi/serializers/current_user.py:197
 #: kpi/serializers/v2/asset_permission_assignment.py:287
@@ -1007,7 +1007,7 @@ msgstr "`action` paraméter szükséges"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr "Az `action` elfogadható értékei: "
+msgstr "A(z) `action` elfogadható értékei: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
@@ -1046,27 +1046,27 @@ msgstr "A felhasználó nem frissítheti a cél szülőgyűjteményt"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "Az `export_settings`-nek tartalmaznia kell a következő szükséges kulcsokat: {}"
+msgstr "`export_settings` elemnek a következő szükséges kulcsok mindegyikét tartalmaznia kell: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "Az `export_settings` csak a következő érvényes kulcsokat tartalmazhatja: {}"
+msgstr "`export_settings` csak a következő érvényes kulcsokat tartalmazhatja: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr "A `multiple_select` csak a következők egyike lehet: {}"
+msgstr "`multiple_select` csak a következők egyike lehet: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr "A `type` csak a következők egyike lehet: {}"
+msgstr "`type` csak a következők egyike lehet: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr "A `group_sep` csak nem üres érték lehet"
+msgstr "`group_sep` csak nem-üres érték lehet"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "A jelenlegi eszközhöz a `lang` csak a következők egyike lehet: {}"
+msgstr "`lang` ehhez az eszközhöz csak a következők egyike lehet: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
@@ -1080,11 +1080,11 @@ msgstr "A tömbben minden értéknek egész számnak kell lennie"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr "A `fields` csak tömb lehet"
+msgstr "A(z) `fields` csak tömb lehet"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "A `fields` tömbben minden értéknek karakterláncnak kell lennie"
+msgstr "A(z) `fields` tömbben minden értéknek karakterláncnak kell lennie"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
@@ -1114,15 +1114,15 @@ msgstr "A mező kitöltése kötelező"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr "A `redirect_url` szükséges"
+msgstr "`redirect_url` szükséges"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr "A `filename` szükséges"
+msgstr "`filename` szükséges"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr "A `redirect_url` érvénytelen"
+msgstr "`redirect_url` érvénytelen"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
@@ -1160,19 +1160,19 @@ msgstr "Érvénytelen hiperhivatkozás – Az objektum nem létezik."
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` csak egész értéket tartalmazhat"
+msgstr "`submission_ids` csak egész értékeket tartalmazhat"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr "A `submission_ids` legalább egy értéket tartalmaznia kell"
+msgstr "`submission_ids` elemnek legalább egy értéket tartalmaznia kell"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr "A `data` szükséges"
+msgstr "`data` szükséges"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr "A `validation_status.uid` szükséges"
+msgstr "`validation_status.uid` szükséges"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
@@ -1240,7 +1240,7 @@ msgstr "Csak betűk, számok és `-` engedélyezettek"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr "A kiterjesztésnek `xml`-nek kell lennie"
+msgstr "A kiterjesztés csak `xml` lehet"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
