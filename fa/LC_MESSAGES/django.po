@@ -196,7 +196,7 @@ msgstr "آدرس ایمیل را تائید کنید"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "لطفا تائید کنید که <a href=\"mailto:%(email)s\">%(email)s</a> آدرس ایمیل کاربر %(user_display)s است."
+msgstr "لطفاً تأیید کنید که <a href=\"mailto:%(email)s\">%(email)s</a> ایمیل آدرس برای کاربر است %(user_display)s."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -316,7 +316,7 @@ msgstr "راه اندازی Single Sign On"
 msgid ""
 "Click the button below to connect your KoboToolbox account with your "
 "%(appname)s account."
-msgstr "روی دکمه زیر کلیک کنید تا حساب KoboToolbox خود را به حساب %(appname)s خود متصل کنید."
+msgstr "روی دکمه زیر کلیک کنید تا حساب KoboToolbox خود را به حساب %(appname)s خود وصل کنید."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:18
 msgid "This will allow you to use single sign-on (SSO) in the future."
@@ -325,7 +325,7 @@ msgstr "این به شما امکان می‌دهد تا در آینده از si
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
 msgid "Connect with %(appname)s"
-msgstr "با %(appname)s متصل شوید"
+msgstr "وصل شوید با %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
@@ -352,7 +352,7 @@ msgstr "به جعبه ابزار کوبو (KoboToolbox) خوش آمدید!"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
-msgstr "شما در شرف استفاده از حساب کاربری %(appname)s خود برای ورود به جعبه ابزار کوبو هستید."
+msgstr "قرار است شما برای ورود به جعبه ابزار کوبو (KoboToolbox) از حساب کاربری %(appname)s خود استفاده نمایید."
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
@@ -471,11 +471,11 @@ msgstr "ورودی"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
-msgstr "\"{}\" پیدا نشد."
+msgstr "`{}` پیدا نشد."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr "\"{}\" یک سوال انتخابی نیست."
+msgstr "`{}` سوال انتخابی نیست."
 
 #: kobo/settings/base.py:244
 msgid ""
@@ -650,39 +650,39 @@ msgstr "سازمان"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "نوعیت سازمان"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "من می خواهم بعضی اوقات به روز رسانی های KoboToolbox را دریافت کنم"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "من می خواهم به روز رسانی های گاه به گاه را دریافت کنم"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "برای ادامه، با موافقت با شرایط ما، کادر بالا را انتخاب کنید."
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "من با مورد ##terms_of_service## و ##privacy_policy## موافقم."
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "نام کشور"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "یک نوع را انتخاب کنید"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "نام سکتور"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "جزئیات شخصی"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -691,15 +691,15 @@ msgstr "نام کاربری/رمز عبور نامعتبر است"
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "این پارامتر اجرا نمی شود. به جای آن از ویژگی `count` پاسخ استفاده کنید."
+msgstr "این پارامتر اجرا نمی شود. به جای آن از ویژگی پاسخ `count` استفاده کنید."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
-msgstr "این پارامتر در قالب `XML` پشتیبانی نمی شود"
+msgstr "این پارامتر در قالب `XML` پذیرفته نمی شود"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr "این در قالب `XML` پشتیبانی نمی شود"
+msgstr "این در قالب `XML` پذیرفته نمی شود"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
@@ -977,7 +977,7 @@ msgstr "این فیلد ممکن است خالی نباشد."
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "%(count)d پروژه حذف شده است"
+msgstr "%(count)d پروژه حذف نشده است"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
@@ -987,7 +987,7 @@ msgstr "%(count)d پروژه حذف شده است"
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "%(count)d پروژه از بایگانی خارج شده است"
+msgstr "%(count)d پروژه از بایگانی خارج نشده است"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
@@ -1008,7 +1008,7 @@ msgstr "پارامتر `action` مورد نیاز است"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr "مقادیر پشتیبانی شده برای `action` عبارتند از: "
+msgstr "مقادیر پذیرفته شده برای `action` عبارتند از: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
@@ -1029,7 +1029,7 @@ msgstr "ویژگی باید یک آرایه باشد"
 #: kpi/serializers/v2/asset.py:806
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "برخی از فیلدها نامعتبر هستند، گزینه ها عبارتند از: `{valid_fields}`"
+msgstr "برخی از بخش ها باطل هستند، گزینه ها عبارتند از: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "User cannot update current parent collection"
@@ -1047,27 +1047,27 @@ msgstr "کاربر نمی تواند مجموعه والد هدف را به رو
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` باید شامل تمام کلیدهای مورد نیاز زیر باشد: {}"
+msgstr "`export_settings` باید شامل تمام کلیدهای مورد نیاز ذیل باشد: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` فقط می‌تواند حاوی کلیدهای معتبر زیر باشد: {}"
+msgstr "`export_settings` فقط می تواند حاوی کلیدهای درست ذیل باشد: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` باید یکی از این دو باشد {}"
+msgstr "`multiple_select` باید یا {} باشد"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr "`type` باید یکی از این دو باشد {}"
+msgstr "`type` باید یا {} باشد"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` باید مقداری غیر خالی باشد"
+msgstr "`group_sep` باید یک عدد خالی نباشد باشد"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "`lang` برای این دارایی باید {} باشد"
+msgstr "`lang` برای این دارایی باید یا {} باشید"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
@@ -1081,11 +1081,11 @@ msgstr "تمام مقادیر موجود در آرایه باید اعداد ص�
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr "`fields` باید یک آرایه باشد"
+msgstr "`fields` باید یک صف باشد"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "همه مقادیر در آرایه `fields` باید رشته ای باشند"
+msgstr "تمام مقادیر صف `fields` باید رشته ای باشند"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
@@ -1115,11 +1115,11 @@ msgstr "این فیلد الزامی است"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr "`redirect_url` مورد نیاز است"
+msgstr "`redirect_url` (الزامی)"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr "`filename` مورد نیاز است"
+msgstr "`filename` (الزامی)"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
@@ -1138,11 +1138,11 @@ msgstr "این فیلد برای مجوز '{}' مورد نیاز است"
 #: kpi/serializers/v2/asset_permission_assignment.py:186
 #: kpi/serializers/v2/asset_permission_assignment.py:492
 msgid "Invalid `url`"
-msgstr "`url` نامعتبر است"
+msgstr "`url` قابل پذیرش نیست"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
-msgstr "`filters` نامعتبر است"
+msgstr "`filters` قابل پذیرش نیست"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:208
 #, python-brace-format
@@ -1161,19 +1161,19 @@ msgstr "پیوند نامعتبر - شی وجود ندارد."
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` فقط باید حاوی مقادیر صحیح باشد"
+msgstr "`submission_ids` فقط باید حاوی اعداد صحیح باشد"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` باید حداقل یک مقدار داشته باشد"
+msgstr "`submission_ids` باید حداقل یک عدد داشته باشد"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr "`data` مورد نیاز است"
+msgstr "`data` (الزامی)"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` لازم است"
+msgstr "`validation_status.uid` (الزامی)"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
@@ -1223,17 +1223,17 @@ msgstr "اشتراک گذاری داده برای `{source_uid}` فعال نیس
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "جفت کردن داده ها با `{source_uid}` مجاز نیست"
+msgstr "اتصال داده ها با `{source_uid}` مجاز نیست"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr "منبع `{source}` قبلاً جفت شده است"
+msgstr "منبع `{source}` قبلاً متصل شده است"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "برخی از فیلدها نامعتبر هستند، گزینه ها عبارتند از: `{source_fields}`"
+msgstr "برخی از بخش ها باطل هستند، گزینه ها عبارتند از: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
@@ -1241,7 +1241,7 @@ msgstr "فقط حروف، اعداد و `-` مجاز هستند"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr "پسوند باید xml باشد"
+msgstr "پسوند باید `xml` باشد"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
@@ -1251,7 +1251,7 @@ msgstr "`{basename}` قبلاً استفاده شده است"
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "نوع دارایی نامعتبر است. فقط `{asset_type}` مجاز است"
+msgstr "نوع دارایی پذیرفتنی نیست. فقط `{asset_type}` مجاز است"
 
 #: kpi/templates/base.html:29
 msgid "Terms and Conditions"
