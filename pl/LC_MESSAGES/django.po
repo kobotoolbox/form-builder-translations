@@ -20,7 +20,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-11-16 14:06+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: Jackie <jackie@kobotoolbox.org>, 2023\n"
+"Last-Translator: Patrycja Drozd, 2022\n"
 "Language-Team: Polish (http://app.transifex.com/kobotoolbox/kobotoolbox/language/pl/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -118,7 +118,7 @@ msgstr "Po potwierdzeniu rejestracji Twoje konto da Ci dostęp do aplikacji Kobo
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
 msgid "Your username is: "
-msgstr "Twoja nazwa użytkownika:"
+msgstr "Twoja nazwa użytkownika: "
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:25
 msgid ""
@@ -180,7 +180,7 @@ msgstr "Otrzymałeś ten e-mail, ponieważ Ty lub ktoś inny poprosił o hasło 
 msgid ""
 "However, we do not have any record of an account with email %(email)s in our"
 " database."
-msgstr "Nie mamy jednak w naszej bazie danych konta o adresie e-mail %(email)s."
+msgstr "W naszej bazie danych nie ma jednak konta powiązanego z tym adresem email: %(email)s."
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:11
 msgid ""
@@ -202,7 +202,7 @@ msgstr "Potwierdź adres e-mail"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "Prosimy o potwierdzenie, że <a href=\"mailto:%(email)s\">%(email)s</a> jest adresem e-mail użytkownika %(user_display)s."
+msgstr "Potwierdź, że <a href=\"mailto:%(email)s\">%(email)s</a> to adres e-mail użytkownika %(user_display)s."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -335,12 +335,12 @@ msgstr "Połącz z %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
-msgstr "Zaloguj się za pośrednictwem"
+msgstr "Zaloguj się za pośrednictwem "
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
 msgid "Log in to KoboToolbox with your %(appname)s account."
-msgstr "Zaloguj się do KoboToolbox za pomocą swojego konta %(appname)s."
+msgstr "Zaloguj się do KoboToolbox za pomocą konta %(appname)s."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
@@ -349,7 +349,7 @@ msgstr "Powrót"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
-msgstr "Witaj w aplikacji KoboToolbox, %(username)s!"
+msgstr "Witamy w KoboToolbox, %(username)s!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
@@ -358,7 +358,7 @@ msgstr "Witamy w KoboToolbox!"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
-msgstr "Za chwilę użyjesz swojego konta %(appname)s do zalogowania się w KoboToolbox."
+msgstr "Za chwilę użyjesz swojego konta %(appname)s do zalogowania się do KoboToolbox."
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
@@ -656,39 +656,39 @@ msgstr "Nazwa organizacji"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "Typ organizacji"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "Chcę otrzymywać aktualności o KoboToolbox"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "Chcę otrzymywać aktualności"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "Aby kontynuować, zaakceptuj nasz regulamin, zaznaczając okienko powyżej."
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "Akceptuję ##terms_of_service## i ##privacy_policy##"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "Nazwa kraju"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "Wybierz typ"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "Nazwa sektora"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "Dane personalne"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -697,7 +697,7 @@ msgstr "Nieprawidłowe nazwa użytkownika / hasło"
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "Ten parametr nie jest zaimplementowany. Zamiast tego użyj właściwości `count` odpowiedzi."
+msgstr "Ten parametr nie jest zaimplementowany. Zamiast tego użyj właściwości (`count`) odpowiedzi."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
@@ -746,7 +746,7 @@ msgstr "Coś poszło nie tak"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr "Najpierw należy wywołać funkcję `asset.connect_deployment()`"
+msgstr "Najpierw konieczne jest `asset.connect_deployment()`"
 
 #: kpi/exceptions.py:74
 msgid ""
@@ -802,7 +802,7 @@ msgstr "Nie można przeanalizować JSON: {error}"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr "Uwierzytelnianie wielopoziomowe jest włączone dla tego konta."
+msgstr "Uwierzytelnianie wielopoziomowe jest włączone dla tego konta. "
 
 #: kpi/models/asset.py:249
 msgid "Can view asset"
@@ -983,22 +983,22 @@ msgstr "To pole nie może być puste."
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "Projekt %(count)d został przywrócony"
+msgstr "%(count)d projekt został przywrócony"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr "Projekt %(count)d został usunięty"
+msgstr "%(count)d projekt został usunięty"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "Projekt %(count)d nie został zarchiwizowany"
+msgstr "%(count)d projekt nie został zarchiwizowany"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr "Projekt %(count)d został zarchiwizowany"
+msgstr "%(count)d projekt został zarchiwizowany"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
@@ -1014,7 +1014,7 @@ msgstr "Parametr `action` jest wymagany"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr "Obsługiwane wartości parametru `action` to:"
+msgstr "Obsługiwane wartości `action` to: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
@@ -1035,7 +1035,7 @@ msgstr "Właściwość musi być tablicą"
 #: kpi/serializers/v2/asset.py:806
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "Niektóre pola są nieprawidłowe. Dostępne opcje to: `{valid_fields} `"
+msgstr "Niektóre pola są nieprawidłowe. Dostępne opcje to: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "User cannot update current parent collection"
@@ -1061,11 +1061,11 @@ msgstr "`export_settings` może zawierać tylko następujące prawidłowe klucze
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` musi mieć wartość {}"
+msgstr "`multiple_select` musi być albo {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr "`type` musi mieć wartość {}"
+msgstr "`type` musi być albo {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
@@ -1073,7 +1073,7 @@ msgstr "`group_sep` musi być wartością niepustą"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "`lang` dla tego zasobu musi mieć wartość {}"
+msgstr "`lang` dla tego zasobu musi być albo {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
@@ -1087,11 +1087,11 @@ msgstr "Wszystkie wartości w tablicy muszą być liczbami całkowitymi"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr "`fields` muszą być tablicą"
+msgstr "`fields` musi być tablicą"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "Wszystkie wartości w tablicy `fields` muszą być ciągami znaków"
+msgstr "Wszystkie wartości w tablicy `fields` muszą być ciągami"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
@@ -1121,19 +1121,19 @@ msgstr "To pole jest wymagane"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr "`redirect_url` jest wymagany"
+msgstr "Pole `redirect_url` jest wymagane"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr "`filename` jest wymagana"
+msgstr "Pole `filename` jest wymagane"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr "`redirect_url` jest nieprawidłowy"
+msgstr "JSON `redirect_url` jest nieprawidłowy"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr "Dozwolone są tylko typy MIME `{}`"
+msgstr "Dozwolone są tylko następujące typy MIME: `{}`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:162
 msgid "This field is required for the '{}' permission"
@@ -1144,11 +1144,11 @@ msgstr "To pole jest wymagane dla uprawnienia '{}'"
 #: kpi/serializers/v2/asset_permission_assignment.py:186
 #: kpi/serializers/v2/asset_permission_assignment.py:492
 msgid "Invalid `url`"
-msgstr "Nieprawidłowy `url`"
+msgstr "`url` jest nieprawidłowe"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
-msgstr "Nieprawidłowe `filters`"
+msgstr "`filters` jest nieprawidłowe"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:208
 #, python-brace-format
@@ -1171,15 +1171,15 @@ msgstr "`submission_ids` może zawierać wyłącznie wartości całkowite"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` musi zawierać co najmniej jedną wartość"
+msgstr "`submission_ids` musi zawierać przynajmniej jedną wartość"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr "`data` są wymagane"
+msgstr "Pole `data` jest wymagane"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` jest wymagany"
+msgstr "Pole `validation_status.uid` jest wymagane"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
@@ -1243,11 +1243,11 @@ msgstr "Niektóre pola są nieprawidłowe. Dostępne opcje to: `{source_fields}`
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr "Dozwolone są tylko litery, cyfry i `-`."
+msgstr "Dozwolone są tylko litery, cyfry i `-`"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr "Rozszerzenie musi mieć format `xml`"
+msgstr "Rozszerzenie musi być `xml`"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
@@ -1354,7 +1354,7 @@ msgstr "Nieprawidłowe potwierdzenie"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr "Dostępne są tylko następujące formaty:##format list##"
+msgstr "Dostępne są tylko następujące formaty: ##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:193
 msgid "Source and destination objects don't seem to have the same type"

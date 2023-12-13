@@ -320,7 +320,7 @@ msgstr "การทำเช่นนี้จะทำให้คุณสา
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
 msgid "Connect with %(appname)s"
-msgstr "เชื่อมต่อกับ %(appname)s"
+msgstr "เชื่อมต่อด้วย %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
@@ -645,39 +645,39 @@ msgstr "ชื่อองค์กร"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "ประเภทองค์กร"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "ฉันต้องการรับการอัปเดตเป็นครั้งคราวเกี่ยวกับ KoboToolbox"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "ฉันต้องการรับการอัปเดตเป็นครั้งคราว"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "เพื่อดำเนินการต่อ ให้เลือกกล่องกาเครื่องหมายด้านบนเพื่อยอมรับข้อกำหนดของเรา"
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "ฉันยอมรับ ##terms_of_service## และ ##privacy_policy##"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "ชื่อประเทศ"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "เลือกประเภท"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "ชื่อภาค"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "รายละเอียดส่วนตัว"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -694,7 +694,7 @@ msgstr "พารามิเตอร์นี้ไม่ได้รับก
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr "สิ่งนี้ไม่ได้รับการสนับสนุนในรูปแบบ `XML`"
+msgstr "ไม่สนับสนุนในรูปแบบ `XML`"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
@@ -709,7 +709,7 @@ msgstr "ค่าต้องเป็นรายการ"
 #: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
-msgstr "ไม่มีการส่งข้อมูลที่ตรงกับ `submission_ids` ที่ระบุ"
+msgstr "ไม่มีการส่งที่ตรงกับ `submission_ids` ที่กำหนด"
 
 #: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
@@ -735,7 +735,7 @@ msgstr "มีบางอย่างผิดพลาด"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr "ต้องเรียก `asset.connect_deployment()` ก่อน"
+msgstr "ต้องเรียกใช้ `asset.connect_deployment()` ก่อน"
 
 #: kpi/exceptions.py:74
 msgid ""
@@ -782,7 +782,7 @@ msgstr "ใส่ JSON ที่ถูกต้อง"
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr "ไม่สามารถซ่อนฟิลด์ `##place_holder##` ได้"
+msgstr "ไม่สามารถซ่อนเขตข้อมูล `##place_holder##` ได้"
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
@@ -972,22 +972,22 @@ msgstr "ฟิลด์นี้ต้องไม่เว้นว่าง"
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "ยกเลิกการลบโครงการ %(count)d แล้ว"
+msgstr "ยกเลิกการลบโครงการ %(count)d รายการแล้ว"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr "ลบโครงการ %(count)d แล้ว"
+msgstr "ลบโครงการ %(count)d รายการแล้ว"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "ยกเลิกการเก็บถาวรโครงการ %(count)d แล้ว"
+msgstr "ยกเลิกการเก็บถาวรโครงการ %(count)d รายการแล้ว"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr "เก็บถาวรโครงการ %(count)d แล้ว"
+msgstr "เก็บถาวรโครงการ %(count)d รายการแล้ว"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
@@ -1003,7 +1003,7 @@ msgstr "จำเป็นต้องมีพารามิเตอร์ `a
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr "ค่าที่รองรับสำหรับ `action` คือ: "
+msgstr "ค่าที่สนับสนุนสำหรับ `action` คือ: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
@@ -1024,7 +1024,7 @@ msgstr "คุณสมบัติต้องเป็นอาร์เรย
 #: kpi/serializers/v2/asset.py:806
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "บางฟิลด์ไม่ถูกต้อง ตัวเลือกคือ: `{valid_fields}`"
+msgstr "เขตข้อมูลบางรายการไม่ถูกต้อง ตัวเลือกคือ: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "User cannot update current parent collection"
@@ -1050,11 +1050,11 @@ msgstr "`export_settings` สามารถมีได้เฉพาะคี
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` ต้องเป็น {}"
+msgstr "`multiple_select`ต้องเป็น {} อย่างใดอย่างหนึ่ง"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr "`type` ต้องเป็น {}"
+msgstr "`type` ต้องเป็น {} อย่างใดอย่างหนึ่ง"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
@@ -1062,7 +1062,7 @@ msgstr "`group_sep` ต้องเป็นค่าที่ไม่ว่า
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "`lang` สำหรับเนื้อหานี้ต้องเป็น {}"
+msgstr "`lang` สำหรับเนื้อหานี้ต้องเป็น {} อย่างใดอย่างหนึ่ง"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
@@ -1110,11 +1110,11 @@ msgstr "ฟิลด์นี้จำเป็น"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr "จำเป็นต้องมี `redirect_url`"
+msgstr "ต้องระบุ `redirect_url`"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr "จำเป็นต้องระบุ `filename`"
+msgstr "ต้องระบุ `filename`"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
@@ -1122,7 +1122,7 @@ msgstr "`redirect_url` ไม่ถูกต้อง"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr "อนุญาตเฉพาะประเภท MIME `{}` เท่านั้น"
+msgstr "อนุญาตเฉพาะ `{}` ประเภท MIME เท่านั้น"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:162
 msgid "This field is required for the '{}' permission"
@@ -1164,11 +1164,11 @@ msgstr "`submission_ids` ต้องมีอย่างน้อยหนึ�
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr "จำเป็นต้องมี `data`"
+msgstr "ต้องระบุ `data`"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr "จำเป็นต้องมี `validation_status.uid`"
+msgstr "ต้องระบุ `validation_status.uid`"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
@@ -1213,12 +1213,12 @@ msgstr "ไม่สามารถเปลี่ยนแหล่งที่
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "การแชร์ข้อมูลสำหรับ `{source_uid}` ไม่ได้เปิดใช้งานอยู่"
+msgstr "ไม่ได้เปิดใช้งานการแชร์ข้อมูลสำหรับ `{source_uid}`"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "ไม่อนุญาตให้มีการจับคู่ข้อมูลกับ `{source_uid}`"
+msgstr "ไม่อนุญาตการจับคู่ข้อมูลด้วย `{source_uid}`"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
@@ -1228,20 +1228,20 @@ msgstr "จับคู่แหล่งที่มา `{source}` แล้ว
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "บางฟิลด์ไม่ถูกต้อง ตัวเลือกคือ: `{source_fields}`"
+msgstr "เขตข้อมูลบางรายการไม่ถูกต้อง ตัวเลือกคือ: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr "อนุญาตให้ใช้เฉพาะตัวอักษร ตัวเลข และ `-` เท่านั้น"
+msgstr "อนุญาตเฉพาะตัวอักษร ตัวเลข และ `-` เท่านั้น"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr "สกุลแฟ้มต้องเป็น `xml`"
+msgstr "นามสกุลต้องเป็น `xml`"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr "`{basename}` ถูกใช้ไปแล้ว"
+msgstr "ใช้ `{basename}` แล้ว"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
@@ -1355,7 +1355,7 @@ msgstr "ไม่สามารถลบสิทธิ์การอนุญ
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr "จำเป็นต้องมีพารามิเตอร์ข้อคำถาม `xpath`"
+msgstr "จำเป็นต้องมีพารามิเตอร์คิวรี `xpath`"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"

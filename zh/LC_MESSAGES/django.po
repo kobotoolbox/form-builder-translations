@@ -23,7 +23,7 @@ msgstr ""
 
 #: hub/templates/admin/loginas/change_form.html:7
 msgid "Log in as user"
-msgstr "以用户登录"
+msgstr "以用户身份登录"
 
 #: kobo/apps/accounts/forms.py:53
 msgid "Male"
@@ -43,15 +43,15 @@ msgstr "确认密码"
 
 #: kobo/apps/accounts/forms.py:183
 msgid "You must type the same password each time."
-msgstr "每次必须输入相同密码"
+msgstr "你必须每次输入相同的密码。"
 
 #: kobo/apps/accounts/mfa/forms.py:57
 msgid "Enter the ##token length##-character token"
-msgstr "输入##token length##个字符的令牌"
+msgstr "输入 ##token length##- 字符令牌"
 
 #: kobo/apps/accounts/mfa/forms.py:69
 msgid "Your token is invalid"
-msgstr "令牌无效"
+msgstr "你的字符令牌无效"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:21
 msgid "Please enter your verification token"
@@ -173,7 +173,7 @@ msgstr "你收到此电子邮件是因为你或其他人请求了KoboToolbox账�
 msgid ""
 "However, we do not have any record of an account with email %(email)s in our"
 " database."
-msgstr "但是我们的数据库中没有与电子邮箱%(email)s关联账户的记录。"
+msgstr "但是%(email)s我们的数据库中没有任何与电子邮件关联帐户的记录。"
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:11
 msgid ""
@@ -195,7 +195,7 @@ msgstr "确认电子邮箱地址"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "请确认<a href=\"mailto:%(email)s\">%(email)s</a>是用户%(user_display)s的电子邮箱地址。"
+msgstr "请确认<a href=\"mailto:%(email)s\">%(email)s</a> 是用户%(user_display)s的电子邮件地址。"
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -315,7 +315,7 @@ msgstr "设置单一登录（SSO）"
 msgid ""
 "Click the button below to connect your KoboToolbox account with your "
 "%(appname)s account."
-msgstr "点击下面的按钮，将KoboToolbox账户与%(appname)s账户关联。"
+msgstr "单击下面的按钮，将你的 KoboToolbox 帐户关联至你的%(appname)s帐户。"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:18
 msgid "This will allow you to use single sign-on (SSO) in the future."
@@ -324,16 +324,16 @@ msgstr "然后你将可以使用单一登录（SSO）。"
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
 msgid "Connect with %(appname)s"
-msgstr "与%(appname)s关联"
+msgstr "与%(appname)s连接"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
-msgstr "使用以下设备登录 "
+msgstr "登录方式 "
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
 msgid "Log in to KoboToolbox with your %(appname)s account."
-msgstr "使用您的%(appname)s账户登录KoboToolbox。"
+msgstr "使用你的%(appname)s帐户登录 KoboToolbox。"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
@@ -342,16 +342,16 @@ msgstr "返回"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
-msgstr "欢迎使用KoboToolbox，%(username)s！"
+msgstr "欢迎来到KoboToolbox，%(username)s！"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
-msgstr "欢迎使用KoboToolbox！"
+msgstr "欢迎来到KoboToolbox！"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
-msgstr "你将使用%(appname)s账户登录到KoboToolbox。"
+msgstr "你将使用你的%(appname)s帐户登录 KoboToolbox。"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
@@ -366,23 +366,23 @@ msgid ""
 "Usernames must be between 2 and 30 characters in length, and may only "
 "consist of lowercase letters, numbers, and underscores, where the first "
 "character must be a letter."
-msgstr "用户名长度须在2致30位字符之间，只能由小写字母、数字和下划线组成，其中第一个字符必须是字母。"
+msgstr "用户名长度必须在 2 到 30 个字符之间，并且只能包含小写字母、数字和下划线，其中第一个字符必须是字母。"
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
 msgid "Invalid scheme"
-msgstr "方案无效"
+msgstr "无效方案"
 
 #: kobo/apps/hook/serializers/v2/hook.py:49
 msgid "Unsecured endpoint is not allowed"
-msgstr "不允许使用未加密的端点"
+msgstr "不允许使用不安全的端点"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
 msgid "Invalid JSON"
-msgstr "无效JSON"
+msgstr "无效的 JSON"
 
 #: kobo/apps/hook/serializers/v2/hook.py:70
 msgid "Can be used only with JSON submission format"
-msgstr "仅支持与JSON提交格式一起使用"
+msgstr "只能与 JSON 提交格式一起使用"
 
 #: kobo/apps/hook/tasks.py:148
 msgid "REST Services Failure Report"
@@ -434,35 +434,35 @@ msgstr "任务安排成功"
 
 #: kobo/apps/hook/views/v2/hook.py:203
 msgid "No data to retry"
-msgstr "无数据重试"
+msgstr "没有数据可重试"
 
 #: kobo/apps/hook/views/v2/hook.py:206
 msgid "Can not retry on disabled hooks"
-msgstr "无法重试已禁用的钩子"
+msgstr "无法在禁用的钩子上重试"
 
 #: kobo/apps/hook/views/v2/hook_log.py:121
 msgid "An error has occurred when sending the data. Please try again later."
-msgstr "发送数据时发生错误，请稍后再试。"
+msgstr "发送数据时发生错误。 请稍后重试。"
 
 #: kobo/apps/hook/views/v2/hook_log.py:125
 msgid "Data is being or has already been processed"
-msgstr "数据正在或已经被处理"
+msgstr "数据正在处理或已完成处理"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
 #: kpi/deployment_backends/base_backend.py:449
 #: kpi/deployment_backends/base_backend.py:456
 msgid "A positive integer is required."
-msgstr "必须是正整数。"
+msgstr "须填一个正整数。"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:71
 msgid ""
 "We got and saved your data, but may not have fully processed it. You should "
 "not try to resubmit."
-msgstr "我们获取并保存了你的数据，但可能尚未完全处理。您无需重新提交。"
+msgstr "我们获取并保存了你的数据，但可能尚未处理完成。 你不应该重新提交数据。"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:80
 msgid "Your data for instance {} has been already submitted."
-msgstr "例如你的数据 {} 已提交。"
+msgstr "你的实例 {} 数据已提交。"
 
 #: kobo/apps/languages/templates/admin/languages_change_list.html:8
 msgid "Import"
@@ -470,11 +470,11 @@ msgstr "导入"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
-msgstr "未找到`{}`"
+msgstr "未找到`{}`。"
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr "`{}`不是一个单项选择题。"
+msgstr "`{}`不是单选题。"
 
 #: kobo/settings/base.py:244
 msgid ""
@@ -482,30 +482,30 @@ msgid ""
 " codes instead. If you cannot access those either, then you will need to "
 "request assistance by contacting [##support email##](mailto:##support "
 "email##)."
-msgstr "如果你无法访问身份验证应用程序，请输入你的备份代码。如果你也无法访问这些代码，则需要联系 [##support email##]（mailto:##support email##）请求帮助。"
+msgstr "如果你无法访问身份验证器应用程序，请输入你其中一个备用验证码来替代。 如果你两者都无法访问，那么你将需要联系 [##support email##](mailto: ##support email##) 来请求帮助。"
 
 #: kobo/settings/base.py:443
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
 "characters. It cannot be similar to your name, username, or email address."
-msgstr "密码长度至少为 10 个字符，必须包含 3 个或更多以下字符：大写字母、小写字母、数字和特殊字符。密码不能与你的姓名、用户名或电子邮件地址相似。"
+msgstr "密码长度至少为10个字符，且包含大写字母、小写字母、数字、特殊字符中的3种或以上。 它不能与你的姓名、用户名或电子邮件地址相似。"
 
 #: kobo/static_lists.py:13
 msgid "Public Administration"
-msgstr "公共行政管理"
+msgstr "公共管理"
 
 #: kobo/static_lists.py:14
 msgid "Arts, Entertainment, and Recreation"
-msgstr "艺术、娱乐与休闲"
+msgstr "艺术、娱乐和休闲"
 
 #: kobo/static_lists.py:15
 msgid "Educational Services / Higher Education"
-msgstr "教育服务 / 高等教育"
+msgstr "教育服务/高等教育"
 
 #: kobo/static_lists.py:16
 msgid "Health Services / Public Health"
-msgstr "医疗服务/公共卫生"
+msgstr "卫生服务/公共卫生"
 
 #: kobo/static_lists.py:17
 msgid "Finance and Insurance"
@@ -525,7 +525,7 @@ msgstr "安全/警察/维和"
 
 #: kobo/static_lists.py:21
 msgid "Disarmament & Demobilization"
-msgstr "解除武装和复员"
+msgstr "裁军和复员"
 
 #: kobo/static_lists.py:22
 msgid "Environment"
@@ -533,7 +533,7 @@ msgstr "环境"
 
 #: kobo/static_lists.py:23
 msgid "Private sector"
-msgstr "私营企业"
+msgstr "私营部门"
 
 #: kobo/static_lists.py:24
 msgid "Humanitarian - Coordination / Information Management"
@@ -557,23 +557,23 @@ msgstr "人道主义 - 教育"
 
 #: kobo/static_lists.py:29
 msgid "Humanitarian - Emergency Shelter"
-msgstr "人道主义 - 应急住所"
+msgstr "人道主义 - 紧急避难所"
 
 #: kobo/static_lists.py:30
 msgid "Humanitarian - Emergency Telecoms"
-msgstr "人道主义 - 紧急电信"
+msgstr "人道主义 - 紧急通信"
 
 #: kobo/static_lists.py:31
 msgid "Humanitarian - Food Security"
-msgstr "人道主义 - 食品安全"
+msgstr "人道主义 - 粮食安全"
 
 #: kobo/static_lists.py:32
 msgid "Humanitarian - Health"
-msgstr "人道主义 - 医疗"
+msgstr "人道主义 - 健康"
 
 #: kobo/static_lists.py:33
 msgid "Humanitarian - Logistics"
-msgstr "人道主义 - 后勤"
+msgstr "人道主义 - 物流"
 
 #: kobo/static_lists.py:34
 msgid "Humanitarian - Nutrition"
@@ -581,11 +581,11 @@ msgstr "人道主义 - 营养"
 
 #: kobo/static_lists.py:35
 msgid "Humanitarian - Protection"
-msgstr "人道主义 - 防护"
+msgstr "人道主义 - 保护"
 
 #: kobo/static_lists.py:36
 msgid "Humanitarian - Sanitation, Water & Hygiene"
-msgstr "人道主义 - 环境卫生、水和个人卫生"
+msgstr "人道主义 - 卫生设备、水以及卫生状况"
 
 #: kobo/static_lists.py:344 kobo/static_lists.py:355
 msgid "Sector"
@@ -617,7 +617,7 @@ msgstr "组织"
 
 #: kobo/static_lists.py:354 kobo/static_lists.py:367
 msgid "Organization website"
-msgstr "机构网址"
+msgstr "组织网站"
 
 #: kobo/static_lists.py:356
 msgid "Gender"
@@ -649,56 +649,56 @@ msgstr "组织名称"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "组织类型"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "我希望收到有关 KoboToolbox 不定期的更新"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "我想收到不定期的更新"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "继续下一步前，请勾选上面的复选框并同意我们的条款。"
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "我同意##terms_of_service##以及##privacy_policy##"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "国家名"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "选择类型"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "部门名称"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "个人资料"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
-msgstr "您输入的用户名或密码错误"
+msgstr "无效的用户名/密码"
 
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "此参数未执行。请使用响应的 `count` 属性。"
+msgstr "该参数未执行。 请改用响应的`count`属性。"
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
-msgstr "`XML` 格式不支持该参数"
+msgstr "该参数不支持`XML`格式"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr "`XML` 格式不支持"
+msgstr "不支持`XML`格式"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
@@ -708,34 +708,34 @@ msgstr "值必须是有效的 JSON。"
 
 #: kpi/deployment_backends/base_backend.py:419
 msgid "Value must be a list."
-msgstr "值必须为列表。"
+msgstr "值必须是一个列表。"
 
 #: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
-msgstr "没有提交的文件与给定的`submission_ids`匹配"
+msgstr "没有提交内容与给定的`submission_ids`匹配"
 
 #: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
-msgstr "你提交的 XML 不规范。"
+msgstr "你提交的 XML 格式不正确。"
 
 #: kpi/deployment_backends/kobocat_backend.py:556
 msgid "Your submission XML is missing critical elements."
-msgstr "你提交的XML缺少关键元素。"
+msgstr "你提交的 XML 缺少关键元素。"
 
 #: kpi/deployment_backends/kobocat_backend.py:569
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr "找不到您试图编辑的提交，或者您没有访问权限。"
+msgstr "无法找到你尝试编辑的提交内容，或者你没有访问其的权限。"
 
 #: kpi/deployment_backends/kobocat_backend.py:1590
 msgid "KoBoCAT returned an unexpected response: {}"
-msgstr "KoBoCAT 返回了意外响应： {}"
+msgstr "KoBoCAT 返回了意外响应：{}"
 
 #: kpi/deployment_backends/kobocat_backend.py:1642
 msgid "Something went wrong"
-msgstr "出现错误"
+msgstr "出现问题"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
@@ -745,23 +745,23 @@ msgstr "必须先调用`asset.connect_deployment()`"
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
-msgstr "您的访问受限。请在##koboform_url##/accounts/password/reset/ 上更改密码以恢复访问权限。"
+msgstr "你的访问受限。 请通过##koboform_url##/accounts/password/reset/ 更改密码来重新获取你的访问权限。"
 
 #: kpi/exceptions.py:83
 msgid "Invalid search. Please try again"
-msgstr "搜索无效。请再试一次"
+msgstr "无效搜索。 请重试"
 
 #: kpi/exceptions.py:105
 msgid "Invalid payload for bulk updating of submissions"
-msgstr "批量更新提交文件的有效载荷无效"
+msgstr "批量提交的更新内容无效"
 
 #: kpi/exceptions.py:112
 msgid "An error occurred trying to bulk update the submissions."
-msgstr "批量更新提交内容时出现错误。"
+msgstr "尝试提交批量更新时出错。"
 
 #: kpi/exceptions.py:136
 msgid "An error occurred trying to duplicate the submission"
-msgstr "尝试重复提交内容时出现错误"
+msgstr "尝试重复提交时出错"
 
 #: kpi/exceptions.py:150
 msgid "The specified object has not been deployed"
@@ -773,20 +773,20 @@ msgstr "语法错误"
 
 #: kpi/exceptions.py:164
 msgid "Not supported field lookup"
-msgstr "不支持字段查询"
+msgstr "不支持字段查找"
 
 #: kpi/exceptions.py:175
 msgid "Your query is too short"
-msgstr "您的查询过短"
+msgstr "你的查询内容太短"
 
 #: kpi/fields/jsonschema_form_field.py:23
 #: kpi/fields/jsonschema_form_field.py:26
 msgid "Enter valid JSON."
-msgstr "请输入有效 JSON。"
+msgstr "输入有效的 JSON。"
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr "`##place_holder##`字段不能被隐藏。"
+msgstr "`##place_holder##`字段无法隐藏。"
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
@@ -799,40 +799,40 @@ msgstr "此帐户启用了多重身份验证。 "
 
 #: kpi/models/asset.py:249
 msgid "Can view asset"
-msgstr "可查看资产"
+msgstr "可以查看静态资源"
 
 #: kpi/models/asset.py:250
 msgid "Can discover asset in public lists"
-msgstr "可在公共列表中发现资产"
+msgstr "可以在公共列表中的查看静态资源"
 
 #: kpi/models/asset.py:251
 msgid "Can manage all aspects of asset"
-msgstr "可管理资产的各个方面"
+msgstr "可以管理静态资源的各个层面"
 
 #: kpi/models/asset.py:253
 msgid "Can submit data to asset"
-msgstr "可向资产提交数据"
+msgstr "可以向静态资源中提交数据"
 
 #: kpi/models/asset.py:254
 msgid "Can view submitted data for asset"
-msgstr "可查看已提交的资产数据"
+msgstr "可以查看提交的静态资源数据"
 
 #: kpi/models/asset.py:255
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr "可对特定用户提交的资产数据进行部分操作"
+msgstr "可以对特定用户提交的静态资源数据进行部分操作"
 
 #: kpi/models/asset.py:258
 msgid "Can modify submitted data for asset"
-msgstr "可修改已提交的资产数据"
+msgstr "可以修改提交的静态资源数据"
 
 #: kpi/models/asset.py:259
 msgid "Can delete submitted data for asset"
-msgstr "可删除已提交的资产数据"
+msgstr "可以删除已提交的静态资源数据"
 
 #: kpi/models/asset.py:260
 msgid "Can validate submitted data asset"
-msgstr "可验证提交的数据资产"
+msgstr "可以验证提交的静态资源数据"
 
 #: kpi/models/asset.py:283
 msgid "project"
@@ -840,7 +840,7 @@ msgstr "项目"
 
 #: kpi/models/asset.py:283
 msgid "form"
-msgstr "表单"
+msgstr "形式"
 
 #: kpi/models/asset.py:285
 msgid "template"
@@ -884,55 +884,55 @@ msgstr "管理 ##asset_type_label##"
 
 #: kpi/models/asset.py:301
 msgid "Add submissions"
-msgstr "添加提交物"
+msgstr "添加提交内容"
 
 #: kpi/models/asset.py:302
 msgid "View submissions"
-msgstr "查看提交物"
+msgstr "查看提交内容"
 
 #: kpi/models/asset.py:305
 msgid "Act on submissions only from specific users"
-msgstr "仅对特定用户提交的信息采取行动"
+msgstr "仅操作特定用户提交的内容"
 
 #: kpi/models/asset.py:308
 msgid "View submissions only from specific users"
-msgstr "仅查看特定用户提交的信息"
+msgstr "仅查看特定用户提交的内容"
 
 #: kpi/models/asset.py:311
 msgid "Edit submissions only from specific users"
-msgstr "仅编辑特定用户提交的信息"
+msgstr "仅编辑特定用户提交的内容"
 
 #: kpi/models/asset.py:314
 msgid "Delete submissions only from specific users"
-msgstr "仅删除特定用户提交的信息"
+msgstr "仅删除特定用户提交的内容"
 
 #: kpi/models/asset.py:317
 msgid "Validate submissions only from specific users"
-msgstr "仅验证特定用户提交的信息"
+msgstr "仅验证特定用户提交的内容"
 
 #: kpi/models/asset.py:320
 msgid "Edit submissions"
-msgstr "编辑提交的信息"
+msgstr "编辑提交内容"
 
 #: kpi/models/asset.py:321
 msgid "Delete submissions"
-msgstr "删除提交的信息"
+msgstr "删除提交内容"
 
 #: kpi/models/asset.py:322
 msgid "Validate submissions"
-msgstr "验证提交的信息"
+msgstr "验证提交内容"
 
 #: kpi/models/asset.py:558
 msgid "Only partial permissions for submissions are supported"
-msgstr "仅支持提交的部分权限"
+msgstr "仅支持部分提交权限"
 
 #: kpi/models/asset.py:1256
 msgid "Can not assign '{}' permission to owner"
-msgstr "无法为所有者分配'{}'权限"
+msgstr "无法将'{}'权限分配给用户"
 
 #: kpi/models/asset.py:1260
 msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr "无法分配'{}'权限。部分权限缺失。"
+msgstr "无法分配'{}'权限。 缺少部分权限。"
 
 #: kpi/models/authorized_application.py:40
 msgid "Invalid token."
@@ -944,25 +944,25 @@ msgstr "无法访问数据"
 
 #: kpi/models/import_export_task.py:578
 msgid "This data does not exist or you do not have access to it"
-msgstr "该数据不存在或者您没有访问权限"
+msgstr "该数据不存在或你访问其的权限"
 
 #: kpi/password_validation.py:95
 msgid "You cannot reuse your last password."
-msgstr "您不能重复使用上一次的密码。"
+msgstr "你不能重复使用上次的密码。"
 
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
-msgstr "您的密码不能与之前的密码相同。"
+msgstr "你的密码不能与之前的密码相同。"
 
 #: kpi/password_validation.py:170
 msgid ""
 "The password must contain at least ##number of rules## different kinds of "
 "characters."
-msgstr "密码必须至少包含##number of rules##个不同的字符。"
+msgstr "密码必须至少包含##number of rules##种不同类型的字符。"
 
 #: kpi/serializers/current_user.py:150
 msgid "Incorrect current password."
-msgstr "当前密码有误"
+msgstr "当前密码不正确。"
 
 #: kpi/serializers/current_user.py:170
 msgid "`current_password` and `new_password` must both be"
@@ -971,27 +971,27 @@ msgstr "`current_password`和`new_password`必须都是"
 #: kpi/serializers/current_user.py:197
 #: kpi/serializers/v2/asset_permission_assignment.py:287
 msgid "This field may not be blank."
-msgstr "该字段不得为空。"
+msgstr "该字段不能为空。"
 
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "%(count)d 项目已恢复"
+msgstr "%(count)d项目已被撤销删除"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr "%(count)d 项目已删除"
+msgstr "%(count)d项目已被删除"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "%(count)d 项目已取消存档"
+msgstr "%(count)d项目已撤销存档"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr "%(count)d 项目已存档"
+msgstr "%(count)d项目已存档"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
@@ -999,19 +999,19 @@ msgstr "一个或多个项目已被删除！"
 
 #: kpi/serializers/v2/asset.py:173
 msgid "One or many projects are already being deleted!"
-msgstr "一个或多个项目正在被删除！"
+msgstr "一个或多个项目已正在被删除！"
 
 #: kpi/serializers/v2/asset.py:246
 msgid "`action` parameter is required"
-msgstr "参数 `action` 为必填项"
+msgstr "`action`参数为必填项"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr "支持的 `action` 值有 "
+msgstr "支持`action`的值为： "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
-msgstr "草案项目不能存档"
+msgstr "项目草稿无法存档"
 
 #: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
@@ -1019,20 +1019,20 @@ msgstr "需要确认"
 
 #: kpi/serializers/v2/asset.py:780
 msgid "The property is required"
-msgstr "需要属性"
+msgstr "属性为必填项"
 
 #: kpi/serializers/v2/asset.py:784
 msgid "The property must be an array"
-msgstr "属性必须是数组"
+msgstr "该属性必须是一个数组"
 
 #: kpi/serializers/v2/asset.py:806
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "某些字段无效，可供选择的字段有：`{valid_fields}`"
+msgstr "有些字段无效，选择有：`{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "User cannot update current parent collection"
-msgstr "用户无法更新当前父级集合"
+msgstr "用户无法更新当前父集"
 
 #: kpi/serializers/v2/asset.py:838
 #: kpi/tests/api/v2/test_api_collections.py:482
@@ -1042,57 +1042,57 @@ msgstr "未找到目标集合"
 #: kpi/serializers/v2/asset.py:842
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr "用户无法更新目标父级集合"
+msgstr "用户无法更新目标父集"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` 必须包含以下所有必填键：{}"
+msgstr "`export_settings`必须包含以下所有必需的键：{}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` 只能包含以下有效键：{}"
+msgstr "`export_settings`只能包含以下有效键：{}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` 必须是{}或"
+msgstr "`multiple_select`必须为这其中一种 {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr "`type` 必须是{}或"
+msgstr "`type`必须为这其中一种 {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` 必须是非空值"
+msgstr "`group_sep`必须为非空值"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "该资产的`lang`必须是{}或"
+msgstr "该静态资源的`lang`必须为这其中一种 {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
 msgid "Must be a JSON object"
-msgstr "必须是 JSON 对象"
+msgstr "必须为 JSON 对象"
 
 #: kpi/serializers/v2/asset_export_settings.py:134
 #: kpi/serializers/v2/export_task.py:247
 msgid "All values in the array must be integers"
-msgstr "数组中的所有数值都必须是整数"
+msgstr "数组中的所有值都必须为整数"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr "`fields`必须是数组"
+msgstr "`fields`必须为一个数组"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "`fields`数组中的所有值都必须是字符串"
+msgstr "`fields`数组中的所有值都必须为字符串"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
-msgstr "JSON无效"
+msgstr "JSON 无效"
 
 #: kpi/serializers/v2/asset_file.py:130
 msgid "Invalid content"
-msgstr "内容无效"
+msgstr "无效内容"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
@@ -1106,11 +1106,11 @@ msgstr "文件已存在"
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr "你不能同时使用两种不同的方式上传媒体文件。请选择二进制上传、base64 或远程 URL。"
+msgstr "你不能同时以两种不同方式上传媒体文件。请选择二进制上传、base64 或远程 URL方式进行上传。"
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
-msgstr "该字段为必填字段。"
+msgstr "此字段为必填项"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
@@ -1118,7 +1118,7 @@ msgstr "`redirect_url`为必填项"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr "`filename` 为必填项"
+msgstr "`filename`为必填项"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
@@ -1126,18 +1126,18 @@ msgstr "`redirect_url`无效"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr "只允许使用 `{}` MIME 类型"
+msgstr "仅允许`{}`MIME 类型"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:162
 msgid "This field is required for the '{}' permission"
-msgstr "该字段是\"{}\"权限的必填字段"
+msgstr "必须填写该字段以获取'{}'权限"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:176
 #: kpi/serializers/v2/asset_permission_assignment.py:181
 #: kpi/serializers/v2/asset_permission_assignment.py:186
 #: kpi/serializers/v2/asset_permission_assignment.py:492
 msgid "Invalid `url`"
-msgstr "无效 `url`"
+msgstr "无效的`url`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
@@ -1147,24 +1147,24 @@ msgstr "无效的`filters`"
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "{permission}不能明确分配给此类资产对象。"
+msgstr "{permission}无法明确分配给该类型的 Asset 对象。"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:286
 msgid "Not a valid list."
-msgstr "名单无效。"
+msgstr "不是有效的列表。"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:485
 #: kpi/serializers/v2/asset_permission_assignment.py:488
 msgid "Invalid hyperlink - Object does not exist."
-msgstr "无效超链接 - 对象不存在。"
+msgstr "超链接无效 - 对象不存在。"
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` 必须只包含整数值"
+msgstr "`submission_ids`只能包含整数值"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` 必须包含至少一个值"
+msgstr "`submission_ids`必须包含至少一个值"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
@@ -1176,7 +1176,7 @@ msgstr "`validation_status.uid`为必填项"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
-msgstr "必须包含以下所有必填键：{}"
+msgstr "必须包含以下所有必填的键：{}"
 
 #: kpi/serializers/v2/export_task.py:137
 msgid "Can contain only the following valid keys: {}"
@@ -1184,73 +1184,73 @@ msgstr "只能包含以下有效键：{}"
 
 #: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
 msgid "Must be an array"
-msgstr "必须是数组"
+msgstr "必须为一个数组"
 
 #: kpi/serializers/v2/export_task.py:159
 msgid "All values in the array must be strings"
-msgstr "数组中的所有值都必须是字符串"
+msgstr "数组中的所有值都必须为字符串"
 
 #: kpi/serializers/v2/export_task.py:169
 msgid "Must be a non-empty value"
-msgstr "必须是非空值"
+msgstr "必须为非空值"
 
 #: kpi/serializers/v2/export_task.py:182
 msgid "For this asset must be either {}"
-msgstr "对于此资产必须是{}或"
+msgstr "对于此静态资源必须为这其中一种{}"
 
 #: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
 msgid "Must be either {}"
-msgstr "必须是{}或"
+msgstr "必须为这其中之一 {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr "必须部署该资产。"
+msgstr "必须部署静态资源。"
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr "导出名称必须是字符串。"
+msgstr "导出名称必须为字符串。"
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
-msgstr "来源不可更改"
+msgstr "来源无法更改"
 
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "未启用 `{source_uid}` 的数据共享"
+msgstr "未启用`{source_uid}`的数据共享"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "不允许将数据与 `{source_uid}` 配对"
+msgstr "不允许将数据与`{source_uid}`配对"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr "数据源 `{source}`已配对"
+msgstr "来源`{source}`已配对"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "某些字段无效，可供选择的字段有：`{source_fields}`"
+msgstr "有些字段无效，选择为：`{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr "只允许使用字母、数字和 `-`"
+msgstr "只允许使用字母、数字和`-`"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr "扩展名必须是 `xml`"
+msgstr "扩展名必须为`xml`"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr "`{basename}`已使用"
+msgstr "`{basename}`已被使用"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "无效资产类型。仅支持使用 `{asset_type}`"
+msgstr "静态资源类型无效。 只允许`{asset_type}`"
 
 #: kpi/templates/base.html:29
 msgid "Terms and Conditions"
@@ -1321,25 +1321,25 @@ msgstr "必须配置两个数据库"
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "KPI 和 KoBoCAT 必须各有自己的数据库。将 KPI 数据库配置为 \"默认\"，将 KoBoCAT 数据库配置为 \"kobocat\"。"
+msgstr "KPI 和 KoBoCAT 必须各自拥有其自身的数据库。 将 KPI 数据库配置为“默认”，将 KoBoCAT 数据库配置为“kobocat”。"
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr "KPI 不会与 KoBoCAT 共享数据库"
+msgstr "KPI 不得与 KoBoCAT 共享数据库"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr "KPI 和 KoBoCAT 必须各自拥有自己的数据库。"
+msgstr "KPI 和 KoBoCAT 必须各自拥有其自身的数据库。"
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr "未完成从共享数据库安装的迁移"
+msgstr "共享数据库中的安装迁移不完整"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr "KoBoCAT 数据库最初由 KPI 共享，但 KPI 表并未从共享数据库复制到新的 KPI 专用数据库。"
+msgstr "KoBoCAT 数据库最初由 KPI 共享，但 KPI 表格并未从该共享数据库复制至新的仅包含 KPI 的数据库。"
 
 #: kpi/views/current_user.py:106
 msgid "Invalid confirmation"
@@ -1347,27 +1347,27 @@ msgstr "确认无效"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr "仅提供以下格式：##format list##"
+msgstr "仅可用以下格式：##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:193
 msgid "Source and destination objects don't seem to have the same type"
-msgstr "源对象和目标对象的类型似乎不一样"
+msgstr "源对象和目标对象似乎类型不相同"
 
 #: kpi/views/v2/asset_permission_assignment.py:220
 msgid "Owner's permissions cannot be deleted"
-msgstr "无法删除所有者的权限"
+msgstr "所有者权限无法删除"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr "查询参数 `xpath` 为必填项"
+msgstr "`xpath`查询参数为必填项"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
-msgstr "XPath 语法无效"
+msgstr "无效的 XPath 语法"
 
 #: kpi/views/v2/attachment.py:98
 msgid "The path could not be found in the submission"
-msgstr "提交的文件中找不到路径"
+msgstr "提交时找不到路径"
 
 #: kpi/views/v2/attachment.py:107
 msgid "The error occurred during conversion"
@@ -1375,12 +1375,12 @@ msgstr "转换过程中出现错误"
 
 #: kpi/views/v2/attachment.py:111
 msgid "Conversion is not supported for {}"
-msgstr "不支持 {} 的转换"
+msgstr "{}不支持转换"
 
 #: kpi/views/v2/data.py:317
 msgid "The specified asset has not been deployed"
-msgstr "未部署指定资产"
+msgstr "指定静态资源尚未部署"
 
 #: kpi/views/v2/data.py:621
 msgid "A positive integer is required"
-msgstr "必须是正整数"
+msgstr "须填一个正整数"

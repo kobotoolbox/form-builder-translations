@@ -193,7 +193,7 @@ msgstr "Bestätigen Sie Ihre E-Mail-Adresse"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "Bestätigen Sie bitte, dass <a href=\"mailto:%(email)s\">%(email)s</a> eine E-Mail-Adresse für den Nutzer %(user_display)s ist."
+msgstr "Bitte bestätigen Sie, dass <a href=\"mailto:%(email)s\">%(email)s</a> eine E-Mail-Adresse für den Benutzer %(user_display)s ist."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -313,7 +313,7 @@ msgstr "Einmalanmeldung (SSO) einrichten"
 msgid ""
 "Click the button below to connect your KoboToolbox account with your "
 "%(appname)s account."
-msgstr "Klicken Sie auf die Schaltfläche unten, um Ihr KoboToolbox-Konto mit Ihrem %(appname)s-Konto zu verbinden."
+msgstr "Klicken Sie auf den Button unten, um Ihr KoboToolbox-Konto mit Ihrem %(appname)s-Konto zu verbinden."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:18
 msgid "This will allow you to use single sign-on (SSO) in the future."
@@ -322,7 +322,7 @@ msgstr "Dadurch können Sie in Zukunft die Einmalanmeldung (SSO) nutzen."
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
 msgid "Connect with %(appname)s"
-msgstr "Mit %(appname)s verbinden"
+msgstr "Verbinden mit %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
@@ -331,7 +331,7 @@ msgstr "Anmelden mit "
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
 msgid "Log in to KoboToolbox with your %(appname)s account."
-msgstr "Klicken Sie auf die Schaltfläche unten, um sich bei KoboToolbox mit Ihrem %(appname)s-Konto anzumelden."
+msgstr "Melden Sie sich mit Ihrem %(appname)s-Konto bei KoboToolbox an."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
@@ -468,7 +468,7 @@ msgstr "Importieren"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
-msgstr "`{}` nicht gefunden."
+msgstr "`{}` wurde nicht gefunden."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
@@ -647,39 +647,39 @@ msgstr "Organisation"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "Organisationstyp"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "Ich möchte gelegentlich Updates über KoboToolbox erhalten"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "Ich möchte gelegentlich Updates erhalten"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "Aktivieren Sie bitte das Kästchen oben und stimmen Sie unseren Nutzungsbedingungen zu, um fortzufahren."
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "Ich stimme den ##terms_of_service## und ##privacy_policy## zu"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "Ländername"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "Wählen Sie einen Typ aus"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "Name Sektor"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "Persönliche Daten"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -688,7 +688,7 @@ msgstr "Benutzername/Kennwort ungültig"
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "Dieser Parameter ist nicht implementiert. Verwenden Sie stattdessen die Eigenschaft `count` der Antwort."
+msgstr "Dieser Parameter ist nicht implementiert. Verwenden Sie stattdessen `count` Eigenschaft der Antwort."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
@@ -711,7 +711,7 @@ msgstr "Der Wert muss eine Liste sein."
 #: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
-msgstr "Keine Einsendungen stimmen mit den angegebenen `submission_ids` überein"
+msgstr "Keine Übermittlungen stimmen mit den angegebenen `submission_ids` überein"
 
 #: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
@@ -737,7 +737,7 @@ msgstr "Etwas ist schiefgelaufen"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr "Muss zuerst `asset.connect_deployment()` aufrufen"
+msgstr "Muss zuerst `asset.connect_deployment()` abrufen"
 
 #: kpi/exceptions.py:74
 msgid ""
@@ -784,7 +784,7 @@ msgstr "Geben Sie ein gültiges JSON ein."
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr "Das Feld `##place_holder##` kann nicht ausgeblendet werden."
+msgstr "Das `##place_holder##`-Feld kann nicht ausgeblendet werden."
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
@@ -964,7 +964,7 @@ msgstr "Falsches aktuelles Passwort."
 
 #: kpi/serializers/current_user.py:170
 msgid "`current_password` and `new_password` must both be"
-msgstr "`current_password` und `new_password` müssen beide"
+msgstr "`current_password`und `new_password` müssen sein"
 
 #: kpi/serializers/current_user.py:197
 #: kpi/serializers/v2/asset_permission_assignment.py:287
@@ -974,22 +974,22 @@ msgstr "Dieses Feld darf nicht leer sein."
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "Projekt %(count)d wurde wiederhergestellt"
+msgstr "%(count)d Projekt wurde wiederhergestellt"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr "Projekt %(count)d wurde gelöscht"
+msgstr "%(count)d Projekt wurde gelöscht"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "Projekt %(count)d wurde dearchiviert"
+msgstr "%(count)d Projekt wurde dearchiviert"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr "Projekt %(count)d wurde archiviert"
+msgstr "%(count)d Projekt wurde archiviert"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
@@ -1001,7 +1001,7 @@ msgstr "Ein oder mehrere Projekte werden bereits gelöscht!"
 
 #: kpi/serializers/v2/asset.py:246
 msgid "`action` parameter is required"
-msgstr "Der Parameter `action` ist erforderlich"
+msgstr "`action`-Parameter ist erforderlich"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
@@ -1082,7 +1082,7 @@ msgstr "`fields` muss ein Array sein"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "Alle Werte im Array `fields` müssen Zeichenfolgen sein"
+msgstr "Alle Werte im `fields`-Array müssen Zeichenfolgen sein"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
@@ -1225,7 +1225,7 @@ msgstr "Das Koppeln von Daten mit `{source_uid}` ist nicht zulässig"
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr "Quelle `{source}` ist bereits gekoppelt"
+msgstr "Die Quelle `{source}` ist bereits gekoppelt"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
@@ -1234,11 +1234,11 @@ msgstr "Einige Felder sind ungültig. Zur Auswahl stehen: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr "Es sind nur Buchstaben, Zahlen und `-` zulässig"
+msgstr "Es sind nur Buchstaben, Zahlen und `-` erlaubt"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr "Die Erweiterung muss `xml` sein"
+msgstr "Erweiterung muss `xml` sein"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
@@ -1357,7 +1357,7 @@ msgstr "Die Berechtigungen des/der Eigentümer*in können nicht gelöscht werden
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr "Der Abfrageparameter `xpath` ist erforderlich"
+msgstr "`xpath`-Abfrageparameter ist erforderlich"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
