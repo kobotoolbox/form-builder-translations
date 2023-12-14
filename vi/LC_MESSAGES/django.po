@@ -169,7 +169,7 @@ msgstr "Bạn nhận được email này vì bạn hoặc ai đó đã yêu cầ
 msgid ""
 "However, we do not have any record of an account with email %(email)s in our"
 " database."
-msgstr "Tuy nhiên, chúng tôi không thể tìm được tài khoản nào có địa chỉ email %(email)s trong cơ sở dữ liệu."
+msgstr "Tuy nhiên, chúng tôi không thể tìm được tài khoản nào có địa chỉ e-mail %(email)s trong cơ sở dữ liệu."
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:11
 msgid ""
@@ -191,7 +191,7 @@ msgstr "Xác nhận địa chỉ email"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "Vui lòng xác nhận rằng <a href=\"mailto:%(email)s\">%(email)s</a> là địa chỉ email cho người dùng %(user_display)s."
+msgstr "Vui lòng xác nhận <a href=\"mailto:%(email)s\">%(email)s</a> là địa chỉ e-mail của người dùng %(user_display)s."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -320,7 +320,7 @@ msgstr "Điều này sẽ cho phép bạn sử dụng Đăng nhập một lần 
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
 msgid "Connect with %(appname)s"
-msgstr "Kết nối bằng %(appname)s"
+msgstr "Kết nối với %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
@@ -329,7 +329,7 @@ msgstr "Đăng nhập bằng "
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
 msgid "Log in to KoboToolbox with your %(appname)s account."
-msgstr "Đăng nhập vào KoboToolbox bằng tài khoản %(appname)s."
+msgstr "Đăng nhập Kobo Toolbox bằng tài khoản %(appname)s của bạn."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
@@ -338,7 +338,7 @@ msgstr "quay lại"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
-msgstr "Chào mừng đến với KoboToolbox, %(username)s!"
+msgstr "Chào mừng bạn đến với KoboToolbox, %(username)s!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
@@ -521,7 +521,7 @@ msgstr "An ninh / Cảnh sát / Gìn giữ hòa bình"
 
 #: kobo/static_lists.py:21
 msgid "Disarmament & Demobilization"
-msgstr "Xuất ngũ & Giải trừ quân bị"
+msgstr "Xuất ngũ &amp; Giải trừ quân bị"
 
 #: kobo/static_lists.py:22
 msgid "Environment"
@@ -541,7 +541,7 @@ msgstr "Nhân đạo – Đa cụm"
 
 #: kobo/static_lists.py:26
 msgid "Humanitarian - Camp Management & Coordination"
-msgstr "Nhân đạo – Quản lý & Điều phối trại"
+msgstr "Nhân đạo – Quản lý &amp; Điều phối trại"
 
 #: kobo/static_lists.py:27
 msgid "Humanitarian - Early Recovery"
@@ -645,39 +645,39 @@ msgstr "Tên tổ chức"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "Loại tổ chức"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "Tôi muôn nhận cập nhật thường xuyên về KoboToolbox"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "Tôi muôn nhận cập nhật thường xuyên"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "Để tiếp tục, hãy chọn vào hộp kiểm ở trên để đồng ý với điều khoản của chúng tôi."
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "Tôi đồng ý với ##terms_of_service## và ##privacy_policy##"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "Tên quốc gia"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "Chọn loại"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "Tên ngành"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "Thông tin cá nhân"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -690,11 +690,11 @@ msgstr "Tham số này không được triển khai. Thay vào đó, hãy sử d
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
-msgstr "Tham số này không được hỗ trợ ở định dạng `XML`"
+msgstr "Không hỗ trợ tham số này ở định dạng `XML`"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr "Yếu tố này không được hỗ trợ ở định dạng `XML`"
+msgstr "Không hỗ trợ cái này ở định dạng `XML`"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
@@ -735,7 +735,7 @@ msgstr "Đã xảy ra lỗi"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr "Đầu tiên phải gọi `asset.connect_deployment()`"
+msgstr "Phải gọi `asset.connect_deployment()` trước"
 
 #: kpi/exceptions.py:74
 msgid ""
@@ -962,7 +962,7 @@ msgstr "Mật khẩu hiện tại không đúng."
 
 #: kpi/serializers/current_user.py:170
 msgid "`current_password` and `new_password` must both be"
-msgstr "`current_password` và `new_password` đều phải"
+msgstr "`current_password` và `new_password` đều phải là"
 
 #: kpi/serializers/current_user.py:197
 #: kpi/serializers/v2/asset_permission_assignment.py:287
@@ -972,22 +972,22 @@ msgstr "Trường này không được để trống."
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "%(count)d dự án đã được khôi phục"
+msgstr "Dự án %(count)d đã được khôi phục"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr "%(count)d dự án đã bị xóa"
+msgstr "Dự án %(count)d đã bị xóa"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "%(count)d dự án đã được hủy lưu trữ"
+msgstr "Dự án %(count)d đã bị hủy lưu lại"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr "%(count)d dự án đã được lưu trữ"
+msgstr "Dự án %(count)d đã được lưu lại"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
@@ -999,7 +999,7 @@ msgstr "Một hoặc nhiều dự án đang bị xóa!"
 
 #: kpi/serializers/v2/asset.py:246
 msgid "`action` parameter is required"
-msgstr "Bắt buộc phải có tham số `action`"
+msgstr "Phải có tham số `action`"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
@@ -1024,7 +1024,7 @@ msgstr "Thuộc tính phải là một mảng"
 #: kpi/serializers/v2/asset.py:806
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "Một số trường không hợp lệ, các lựa chọn là: `{valid_fields}`"
+msgstr "Một số trường không hợp lệ, các lựa chọn: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "User cannot update current parent collection"
@@ -1042,7 +1042,7 @@ msgstr "Người dùng không thể cập nhật bộ sưu tập gốc đích"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` phải chứa các khóa bắt buộc sau đây: {}"
+msgstr "`export_settings` phải chứa tất cả các khóa bắt buộc sau đây: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
@@ -1058,11 +1058,11 @@ msgstr "`type` phải là {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` phải là giá trị không trống"
+msgstr "`group_sep` phải là một giá trị không trống"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "`lang` dành cho tài sản này phải là {}"
+msgstr "`lang` của tài sản này phải là {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
@@ -1156,7 +1156,7 @@ msgstr "Siêu liên kết không hợp lệ – Đối tượng không tồn t�
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` chỉ được chứa các giá trị số nguyên"
+msgstr "`submission_ids` chỉ được chứa giá trị số nguyên"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
