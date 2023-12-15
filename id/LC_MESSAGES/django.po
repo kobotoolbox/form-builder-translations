@@ -44,7 +44,7 @@ msgstr "Anda harus mengetik kata sandi yang sama setiap kali."
 
 #: kobo/apps/accounts/mfa/forms.py:57
 msgid "Enter the ##token length##-character token"
-msgstr "Masukkan token karakter##token length##"
+msgstr "Masukkan token ##token length## karakter"
 
 #: kobo/apps/accounts/mfa/forms.py:69
 msgid "Your token is invalid"
@@ -170,7 +170,7 @@ msgstr "Anda menerima email ini karena Anda atau orang lain telah meminta kata s
 msgid ""
 "However, we do not have any record of an account with email %(email)s in our"
 " database."
-msgstr "Sayangnya, kami tidak memiliki catatan akun dengan email %(email)s di basis data kami."
+msgstr "Sayangnya, kami tidak memiliki catatan akun dengan email %(email)s di dalam basis data kami."
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:11
 msgid ""
@@ -192,7 +192,7 @@ msgstr "Konfirmasi Alamat Email"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "Mohon konfirmasi bahwa <a href=\"mailto:%(email)s\">%(email)s</a> adalah alamat email untuk pengguna %(user_display)s."
+msgstr "Silakan konfirmasi bahwa <a href=\"mailto:%(email)s\">%(email)s</a> adalah alamat email untuk pengguna %(user_display)s."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -312,7 +312,7 @@ msgstr "Siapkan Akses Menyeluruh"
 msgid ""
 "Click the button below to connect your KoboToolbox account with your "
 "%(appname)s account."
-msgstr "Klik tombol di bawah ini untuk menghubungkan akun KoboToolbox Anda dengan akun %(appname)s Anda."
+msgstr "Klik tombol di bawah ini untuk menghubungkan akun KoboToolbox Anda dengan akun %(appname)s."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:18
 msgid "This will allow you to use single sign-on (SSO) in the future."
@@ -471,7 +471,7 @@ msgstr "`{}` tidak ditemukan."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr "`{}` bukan pertanyaan pilihan tunggal."
+msgstr "`{}` bukan pertanyaan pilih satu."
 
 #: kobo/settings/base.py:244
 msgid ""
@@ -522,7 +522,7 @@ msgstr "Keamanan / Polisi / Pasukan Perdamaian"
 
 #: kobo/static_lists.py:21
 msgid "Disarmament & Demobilization"
-msgstr "Gencatan Senjata & Demobilisasi"
+msgstr "Gencatan Senjata &amp; Demobilisasi"
 
 #: kobo/static_lists.py:22
 msgid "Environment"
@@ -542,7 +542,7 @@ msgstr "Kemanusiaan - Berbagai Kelompok"
 
 #: kobo/static_lists.py:26
 msgid "Humanitarian - Camp Management & Coordination"
-msgstr "Kemanusiaan - Manajemen & Koordinasi Kamp"
+msgstr "Kemanusiaan - Manajemen &amp; Koordinasi Kamp"
 
 #: kobo/static_lists.py:27
 msgid "Humanitarian - Early Recovery"
@@ -582,7 +582,7 @@ msgstr "Kemanusiaan - Perlindungan"
 
 #: kobo/static_lists.py:36
 msgid "Humanitarian - Sanitation, Water & Hygiene"
-msgstr "Kemanusiaan - Sanitasi, Air, & Kebersihan"
+msgstr "Kemanusiaan - Sanitasi, Air, &amp; Kebersihan"
 
 #: kobo/static_lists.py:344 kobo/static_lists.py:355
 msgid "Sector"
@@ -614,7 +614,7 @@ msgstr "Organisasi"
 
 #: kobo/static_lists.py:354 kobo/static_lists.py:367
 msgid "Organization website"
-msgstr "Situs organisasi"
+msgstr "Situs web organisasi"
 
 #: kobo/static_lists.py:356
 msgid "Gender"
@@ -646,39 +646,39 @@ msgstr "Nama organisasi"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "Jenis organisasi"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "Saya ingin menerima pembaruan sesekali tentang KoboToolbox"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "Saya ingin menerima pembaruan sesekali"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "Untuk melanjutkan, pilih kotak centang di atas untuk menyetujui syarat kami."
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "Saya setuju dengan ##terms_of_service## dan ##privacy_policy##"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "Nama Negara"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "Pilih jenis"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "Nama sektor"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "Data Pribadi"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -687,7 +687,7 @@ msgstr "Nama pengguna/kata sandi tidak valid"
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "Parameter ini tidak diimplementasikan. Gunakan properti `count` dari respons sebagai gantinya."
+msgstr "Parameter ini belum diterapkan. Gunakan properti `count` dari respons sebagai gantinya."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
@@ -695,7 +695,7 @@ msgstr "Parameter ini tidak didukung dalam format `XML`"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr "Ini tidak didukung dalam format `XML`"
+msgstr "Tidak didukung dalam format `XML`"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
@@ -736,7 +736,7 @@ msgstr "Terjadi kesalahan"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr "Harus memanggil `asset.connect_deployment()` terlebih dahulu"
+msgstr "Harus menghubungi `asset.connect_deployment()` terlebih dahulu"
 
 #: kpi/exceptions.py:74
 msgid ""
@@ -973,22 +973,22 @@ msgstr "Bagian ini tidak boleh kosong."
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "Proyek %(count)d telah dibatalkan penghapusannya"
+msgstr "%(count)d proyek telah dibatalkan penghapusannya"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr "Proyek %(count)d telah dihapus"
+msgstr "%(count)d proyek telah dihapus"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "Proyek %(count)d telah dibatalkan pengarsipannya"
+msgstr "%(count)d proyek telah dibatalkan pengarsipannya"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr "Proyek %(count)d telah diarsipkan"
+msgstr "%(count)d proyek telah diarsipkan"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
@@ -1047,15 +1047,15 @@ msgstr "`export_settings` harus berisi semua kunci yang diperlukan berikut: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` hanya bisa berisi kunci valid berikut: {}"
+msgstr "`export_settings` hanya dapat berisi kunci yang valid berikut: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` harus berupa {}"
+msgstr "`multiple_select` harus salah satu dari {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr "`type` harus berupa {}"
+msgstr "`type` harus salah satu dari {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
@@ -1063,7 +1063,7 @@ msgstr "`group_sep` harus berupa nilai yang tidak kosong"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "`lang` untuk aset ini harus berupa {}"
+msgstr "`lang` untuk aset ini harus salah satu dari {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
@@ -1123,7 +1123,7 @@ msgstr "`redirect_url` tidak valid"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr "Hanya jenis MIME `{}` yang diizinkan"
+msgstr "Hanya tipe MIME `{}` yang diizinkan"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:162
 msgid "This field is required for the '{}' permission"
@@ -1161,7 +1161,7 @@ msgstr "`submission_ids` hanya boleh berisi nilai bilangan bulat"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` harus berisi setidaknya satu nilai"
+msgstr "`submission_ids` harus berisi minimal satu nilai"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
