@@ -178,7 +178,7 @@ msgstr "Bu e-postayı, siz veya bir başkası tarafından KoboToolbox hesabını
 msgid ""
 "However, we do not have any record of an account with email %(email)s in our"
 " database."
-msgstr "Ancak veri tabanımızda %(email)s e-posta adresini içeren bir hesap kaydı bulunamadı."
+msgstr "Ancak veri tabanımızda %(email)s e-posta adresini içeren bir hesap kaydı mevcut değil."
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:11
 msgid ""
@@ -200,7 +200,7 @@ msgstr "E-posta Adresinizi Onaylayın"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "Lütfen <a href=\"mailto:%(email)s\">%(email)s</a> e-posta adresinin %(user_display)s kullanıcısına ait olduğunu onaylayın."
+msgstr "Lütfen <a href=\"mailto:%(email)s\">%(email)s</a> e-posta adresinin %(user_display)s kullanıcısının e-posta adresi olduğunu onaylayın."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -320,7 +320,7 @@ msgstr "Tek Oturum Açma’yı (SSO) Ayarlayın"
 msgid ""
 "Click the button below to connect your KoboToolbox account with your "
 "%(appname)s account."
-msgstr "KoboToolbox hesabınızı kendi %(appname)s hesabınıza bağlamak için aşağıdaki butona tıklayın."
+msgstr "KoboToolbox hesabınıza %(appname)s hesabınızla bağlanmak için aşağıdaki butona tıklayın."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:18
 msgid "This will allow you to use single sign-on (SSO) in the future."
@@ -333,12 +333,12 @@ msgstr "%(appname)s ile bağlanın"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
-msgstr "Şununla giriş yapın"
+msgstr "Şununla giriş yapın "
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
 msgid "Log in to KoboToolbox with your %(appname)s account."
-msgstr "KoboToolbox'ta %(appname)s hesabınızla oturum açın."
+msgstr "KoboToolbox’a %(appname)s hesabınızla giriş yapın."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
@@ -347,7 +347,7 @@ msgstr "geri git"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
-msgstr "KoboToolbox'a hoş geldiniz %(username)s!"
+msgstr "KoboToolbox'a hoş geldiniz, %(username)s!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
@@ -356,7 +356,7 @@ msgstr "KoboToolbox'a hoş geldiniz!"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
-msgstr "KoboToolbox'ta oturum açmak için %(appname)s hesabınızı kullanmak üzeresiniz."
+msgstr "KoboToolbox'a giriş yapmak için %(appname)s hesabınızı kullanmak üzeresiniz."
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
@@ -654,39 +654,39 @@ msgstr "Kuruluş adı"
 
 #: kobo/static_lists.py:366
 msgid "Organization type"
-msgstr ""
+msgstr "Kuruluş türü"
 
 #: kobo/static_lists.py:369
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "KoboToolbox ile ilgili güncellemeler almak istiyorum"
 
 #: kobo/static_lists.py:370
 msgid "I want to receive occasional updates"
-msgstr ""
+msgstr "Güncellemeler almak istiyorum"
 
 #: kobo/static_lists.py:371
 msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr ""
+msgstr "Devam etmek için yukarıdaki şartlarımızı kabul eden onay kutusunu işaretleyin."
 
 #: kobo/static_lists.py:372
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "##terms_of_service## ve ##privacy_policy## hükümlerini kabul ediyorum"
 
 #: kobo/static_lists.py:373
 msgid "Country Name"
-msgstr ""
+msgstr "Ülke Adı"
 
 #: kobo/static_lists.py:374
 msgid "Select a type"
-msgstr ""
+msgstr "Bir tür seçin"
 
 #: kobo/static_lists.py:375
 msgid "Sector name"
-msgstr ""
+msgstr "Sektör adı"
 
 #: kobo/static_lists.py:376
 msgid "Personal Details"
-msgstr ""
+msgstr "Kişisel Bilgiler"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -695,15 +695,15 @@ msgstr "Geçersiz kullanıcı adı/parola"
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "Bu parametre uygulanamaz. Bunun yerine, yanıtın `count` özelliğini kullanın."
+msgstr "Bu parametre uygulanmaz. Bunun yerine, yanıtın `count` özelliğini kullanın."
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
-msgstr "Bu parametre `XML` formatında desteklememektedir"
+msgstr "Bu parametre `XML` biçiminde desteklenmez"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr "Bu, `XML` formatında desteklenmemektedir"
+msgstr "Bu, `XML` biçiminde desteklenmez"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
@@ -718,7 +718,7 @@ msgstr "Değer, bir liste olmalıdır."
 #: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
-msgstr "Belirtilen `submission_ids` ile eşleşen bir gönderim yok"
+msgstr "Verilen `submission_ids` ile eşleşen gönderim yok"
 
 #: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
@@ -744,7 +744,7 @@ msgstr "Bir şeyler ters gitti"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr "Önce `asset.connect_deployment()` çağrılmalıdır"
+msgstr "Önce `asset.connect_deployment()` birimini aramalısınız"
 
 #: kpi/exceptions.py:74
 msgid ""
@@ -971,7 +971,7 @@ msgstr "Mevcut parola yanlış."
 
 #: kpi/serializers/current_user.py:170
 msgid "`current_password` and `new_password` must both be"
-msgstr "`current_password` ve `new_password` alanlarının her ikisi de"
+msgstr "`current_password` ve `new_password` şöyle olmalıdır:"
 
 #: kpi/serializers/current_user.py:197
 #: kpi/serializers/v2/asset_permission_assignment.py:287
@@ -1012,7 +1012,7 @@ msgstr "`action` parametresi gereklidir"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr "`action` parametresi için desteklenen değerler şunlardır: "
+msgstr "`action` için desteklenen değerler şunlardır: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
@@ -1033,7 +1033,7 @@ msgstr "Property bir dizi olmalıdır"
 #: kpi/serializers/v2/asset.py:806
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "Bazı alanlar geçersiz, seçenekleriniz şunlardır: `{valid_fields}`"
+msgstr "Bazı alanlar geçersiz olup seçenekler şunlardır: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "User cannot update current parent collection"
@@ -1051,27 +1051,27 @@ msgstr "Kullanıcı, hedef üst koleksiyonu güncelleyemez"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings`, şu gerekli anahtarların tümünü içermelidir: {}"
+msgstr "`export_settings` şu zorunlu anahtarların tümünü içermelidir: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` yalnızca şu geçerli anahtarları içerebilir: {}"
+msgstr "`export_settings` sadece şu geçerli anahtarları içerebilir: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select`, {} seçeneklerinden biri olmalıdır"
+msgstr "`multiple_select` {} seçeneklerinden biri olmalıdır"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr "`type`, {} seçeneklerinden biri olmalıdır"
+msgstr "`type` {} seçeneklerinden biri olmalıdır"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` değeri boş olamaz"
+msgstr "`group_sep` boş olmayan bir değer olmalıdır"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "Bu öğe için `lang` değeri, {} seçeneklerinden biri olmalıdır"
+msgstr "Bu varlık için `lang` {} seçeneklerinden biri olmalıdır"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
@@ -1085,11 +1085,11 @@ msgstr "Dizideki tüm değerler tam sayı olmalıdır"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr "`fields`, bir dizi olmalıdır"
+msgstr "`fields` bir dizi olmalıdır"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "`fields` dizisindeki tüm değerler bir karakter dizisi/yazı olmalıdır"
+msgstr "`fields` dizisindeki tüm değerler, karakter dizisi/yazı olmalıdır"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
@@ -1119,15 +1119,15 @@ msgstr "Bu alan boş bırakılamaz"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr "`redirect_url` değeri gereklidir"
+msgstr "`redirect_url` zorunludur"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr "`filename` değeri gereklidir"
+msgstr "`filename` zorunludur"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr "`redirect_url` geçersiz"
+msgstr "`redirect_url` geçersizdir"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
@@ -1142,11 +1142,11 @@ msgstr "Bu alan '{}' izni için gereklidir"
 #: kpi/serializers/v2/asset_permission_assignment.py:186
 #: kpi/serializers/v2/asset_permission_assignment.py:492
 msgid "Invalid `url`"
-msgstr "Geçersiz `url` değeri"
+msgstr "Geçersiz `url`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
-msgstr "Geçersiz `filters` değeri"
+msgstr "Geçersiz `filters`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:208
 #, python-brace-format
@@ -1165,7 +1165,7 @@ msgstr "Geçersiz köprü - Nesne mevcut değil."
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` yalnızca tam sayı değerleri içerebilir"
+msgstr "`submission_ids` yalnızca tamsayı değerler içermelidir"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
@@ -1173,11 +1173,11 @@ msgstr "`submission_ids` en az bir değer içermelidir"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr "`data` değeri gereklidir"
+msgstr "`data` zorunludur"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` değeri gereklidir"
+msgstr "`validation_status.uid` zorunludur"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
@@ -1227,25 +1227,25 @@ msgstr "`{source_uid}` için veri paylaşımı etkin değil"
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "Verileri `{source_uid}` ile eşleştirmeye izin verilmiyor"
+msgstr "`{source_uid}` ile veri eşleştirmesine izin verilmez"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr "`{source}` kaynağı zaten eşlenmiş"
+msgstr "Kaynak `{source}` zaten eşleştirilmiş"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "Bazı alanlar geçersiz, seçenekleriniz şunlardır: `{source_fields}`"
+msgstr "Bazı alanlar geçersiz olup seçenekler şunlardır: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr "Yalnızca harflere, sayılara ve `-` karakterine izin verilir"
+msgstr "Yalnızca harf, sayı ve `-` kullanılmasına izin verilir"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr "Dosya uzantısı `xml` olmalıdır"
+msgstr "Uzantı `xml` olmalıdır"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
@@ -1255,7 +1255,7 @@ msgstr "`{basename}` zaten kullanımda"
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "Geçersiz varlık türü. Yalnızca `{asset_type}` türündeki varlıklara izin verilir"
+msgstr "Geçersiz varlık türü. Yalnızca `{asset_type}` kullanılmasına izin verilir"
 
 #: kpi/templates/base.html:29
 msgid "Terms and Conditions"
@@ -1364,7 +1364,7 @@ msgstr "Sahibin izinleri silinemez"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr "`xpath` sorgu parametresi gereklidir"
+msgstr "`xpath` sorgu parametresi zorunludur"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
