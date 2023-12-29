@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-15 22:18+0000\n"
+"POT-Creation-Date: 2023-12-22 01:14+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Sk.Humaun Kabir, 2021\n"
 "Language-Team: Bengali (http://app.transifex.com/kobotoolbox/kobotoolbox/language/bn/)\n"
@@ -20,43 +20,63 @@ msgstr ""
 "Language: bn\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:15
+#: jsapp/js/account/accountFieldsEditor.component.tsx:17
+msgid "Non-profit organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:18
+msgid "Government institution"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:19
+msgid "Educational organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:20
+msgid "A commercial/for-profit company"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:21
+msgid "I am not associated with any organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:24
 msgid "Male"
 msgstr "পুরুষ"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:16
+#: jsapp/js/account/accountFieldsEditor.component.tsx:25
 msgid "Female"
 msgstr "মহিলা"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:17
+#: jsapp/js/account/accountFieldsEditor.component.tsx:26
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:94
+#: jsapp/js/account/accountFieldsEditor.component.tsx:138
 msgid "Privacy"
 msgstr "গোপনীয়তা"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:101
+#: jsapp/js/account/accountFieldsEditor.component.tsx:145
 msgid "Require authentication to see forms and submit data"
 msgstr "ফর্ম দেখতে ও তথ্য জমা দিতে চাইলে পরিচয় যাচাইকরণ (অথেন্টিকেশন) করতে হবে।"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:117
+#: jsapp/js/account/accountFieldsEditor.component.tsx:161
 msgid "Use this to display your real name to other users"
 msgstr "এখানে আপনার আসল নাম লিখলে অন্য ইউজাররা তা দেখতে পাবে"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:249
+#: jsapp/js/account/accountFieldsEditor.component.tsx:319
 msgid "Social"
 msgstr "সামাজিক"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:86
+#: jsapp/js/account/accountSettingsRoute.tsx:89
 msgid "You have unsaved changes. Leave settings without saving?"
 msgstr "কয়েকটি পরিবর্তন সেভ করা হয় নি। সেভ না করেই সেটিংস থেকে চলে যাবেন?"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:109
+#: jsapp/js/account/accountSettingsRoute.tsx:112
 msgid "Updated profile successfully"
 msgstr "প্রোফাইল সফলভাবে আপডেট করা হয়েছে"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:138
+#: jsapp/js/account/accountSettingsRoute.tsx:141
 #: jsapp/js/components/modalForms/projectSettings.es6:894
 #: jsapp/js/components/modalForms/translationTable.es6:23
 msgid "Save Changes"
@@ -213,12 +233,12 @@ msgid "Passwords don't match"
 msgstr "পাসওয়ার্ড মিলছে না"
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:85
-#: jsapp/js/actions.es6:421
+#: jsapp/js/actions.es6:408
 msgid "changed password successfully"
 msgstr "পাসওয়ার্ড সফলভাবে পরিবর্তন করা হয়েছে"
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:108
-#: jsapp/js/actions.es6:424 jsapp/js/i18nMissingStrings.es6:86
+#: jsapp/js/actions.es6:411 jsapp/js/i18nMissingStrings.es6:86
 msgid "failed to change password"
 msgstr "পাসওয়ার্ড পরিবর্তন করা যায় নি"
 
@@ -226,11 +246,11 @@ msgstr "পাসওয়ার্ড পরিবর্তন করা যা
 msgid "Current Password"
 msgstr "বর্তমান পাসওয়ার্ড"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:34
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:33
 msgid "Single-Sign On"
 msgstr "সিঙ্গেল সাইনঅন"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:40
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:39
 msgid ""
 "Connect your KoboToolbox account with your organization's identity provider "
 "for single-sign on (SSO). Afterwards, you will only be able to sign in via "
@@ -238,11 +258,11 @@ msgid ""
 "address in case your current address is different."
 msgstr "আপনার সংস্থার সিঙ্গেল সাইনঅনের (SSO) যে পরিচয় সেবাদাতা রয়েছে সেটির সাথে আপনার KoboToolbox অ্যাকাউন্টটি সংযুক্ত করুন। তা করলে তারপর থেকে, এখানে এসে এই সেটিংটি বন্ধ না করা পর্যন্ত আপনি SSO ছাড়া আর কোনো উপায়ে সাইনইন করতে পারবেন না। আপনার বর্তমান ইমেইল অ্যাড্রেসটি ভিন্ন হয়ে থাকলে সেক্ষেত্রে সেটিও আপডেট করা হবে।"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:47
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:46
 msgid "Already connected"
 msgstr "সংযুক্তই আছে"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:76
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:75
 msgid "Disable"
 msgstr "নিষ্ক্রিয় করুন"
 
@@ -272,7 +292,7 @@ msgid "per account"
 msgstr "প্রতি অ্যাকাউন্টের জন্য"
 
 #: jsapp/js/account/usage.component.tsx:154
-#: jsapp/js/project/submissionsCountGraph.component.tsx:319
+#: jsapp/js/project/submissionsCountGraph.component.tsx:321
 msgid "Total"
 msgstr "মোট"
 
@@ -284,111 +304,111 @@ msgstr "প্রতিলিপিজনিত মিনিট"
 msgid "Translation characters"
 msgstr "অনুবাদের অক্ষর"
 
-#: jsapp/js/actions.es6:91 jsapp/js/actions.es6:97
+#: jsapp/js/actions.es6:90 jsapp/js/actions.es6:96
 msgid "Failed to update permissions"
 msgstr "অনুমতি আপডেট করা যায় নি"
 
-#: jsapp/js/actions.es6:94
+#: jsapp/js/actions.es6:93
 msgid "Failed to remove permissions"
 msgstr "অনুমতি মুছে ফেলা যায় নি"
 
-#: jsapp/js/actions.es6:160
+#: jsapp/js/actions.es6:159
 msgid "successfully updated"
 msgstr "আপডেট সফল হয়েছে"
 
-#: jsapp/js/actions.es6:200
+#: jsapp/js/actions.es6:199
 msgid "please check your connection and try again."
 msgstr "আপনার ইন্টারনেট সংযোগ ঠিক আছে কিনা তা অনুগ্রহ করে দেখে নিয়ে তারপর আবার চেষ্টা করুন।"
 
-#: jsapp/js/actions.es6:203 jsapp/js/actions.es6:213
+#: jsapp/js/actions.es6:202 jsapp/js/actions.es6:212
 msgid "if this problem persists, contact help@kobotoolbox.org"
 msgstr "এই সমস্যার সমাধান না হলে help@kobotoolbox.org অ্যাড্রেসে যোগাযোগ করুন"
 
-#: jsapp/js/actions.es6:211
+#: jsapp/js/actions.es6:210
 msgid "your form id was not valid:"
 msgstr "আপনার ফর্ম আইডি সঠিক ছিল না:"
 
-#: jsapp/js/actions.es6:217
+#: jsapp/js/actions.es6:216
 msgid "your form cannot be deployed because it contains errors:"
 msgstr "আপনার ফর্মটি ডিপ্লয় করা যাচ্ছে না কারণ সেটিতে ত্রুটি রয়েছে:"
 
-#: jsapp/js/actions.es6:221
+#: jsapp/js/actions.es6:220
 msgid "unable to deploy"
 msgstr "ডিপ্লয় করা যাচ্ছে না"
 
-#: jsapp/js/actions.es6:236
+#: jsapp/js/actions.es6:235
 msgid "Project unarchived successfully"
 msgstr "প্রকল্প সফলভাবে আনআর্কাইভ করা হয়েছে"
 
-#: jsapp/js/actions.es6:238
+#: jsapp/js/actions.es6:237
 msgid "Project archived successfully"
 msgstr "প্রকল্প সফলভাবে আর্কাইভ করা হয়েছে"
 
-#: jsapp/js/actions.es6:352
+#: jsapp/js/actions.es6:351
 msgid "Unable to delete asset!"
 msgstr "অ্যাসেট মুছে ফেলা যাচ্ছে না!"
 
-#: jsapp/js/actions.es6:353
+#: jsapp/js/actions.es6:352
 msgid "Error details:"
 msgstr "ত্রুটির বিবরণ:"
 
-#: jsapp/js/actions.es6:369
+#: jsapp/js/actions.es6:368
 msgid "Could not create project!"
 msgstr "প্রকল্প তৈরি করা যায় নি!"
 
-#: jsapp/js/actions.es6:435
+#: jsapp/js/actions.es6:422
 msgid "failed to load API token"
 msgstr "API টোকেন লোড করা যায় নি"
 
-#: jsapp/js/actions.es6:465
+#: jsapp/js/actions.es6:452
 msgid "submission deleted"
 msgstr "সাবমিশন মুছে ফেলা হয়েছে"
 
-#: jsapp/js/actions.es6:470
+#: jsapp/js/actions.es6:457
 msgid "failed to delete submission"
 msgstr "সাবমিশন মুছে ফেলা যায় নি"
 
-#: jsapp/js/actions.es6:478
+#: jsapp/js/actions.es6:465
 msgid "Successfully duplicated submission"
 msgstr "সাবমিশন সফলভাবে কপি করা হয়েছে"
 
-#: jsapp/js/actions.es6:483
+#: jsapp/js/actions.es6:470
 msgid "Failed to duplicate submission"
 msgstr "সাবমিশন কপি করা যায় নি"
 
-#: jsapp/js/actions.es6:521
+#: jsapp/js/actions.es6:508
 msgid "REST Service added successfully"
 msgstr "REST সেবা সফলভাবে যোগ করা হয়েছে"
 
-#: jsapp/js/actions.es6:524
+#: jsapp/js/actions.es6:511
 msgid "Failed adding REST Service"
 msgstr "REST সেবা যোগ করা যায় নি"
 
-#: jsapp/js/actions.es6:544
+#: jsapp/js/actions.es6:531
 msgid "REST Service updated successfully"
 msgstr "REST সেবা সফলভাবে আপডেট করা হয়েছে"
 
-#: jsapp/js/actions.es6:547
+#: jsapp/js/actions.es6:534
 msgid "Failed saving REST Service"
 msgstr "REST সেবা সেভ করা যায় নি"
 
-#: jsapp/js/actions.es6:567
+#: jsapp/js/actions.es6:554
 msgid "REST Service deleted permanently"
 msgstr "REST সেবা চিরতরে মুছে ফেলা হয়েছে"
 
-#: jsapp/js/actions.es6:570
+#: jsapp/js/actions.es6:557
 msgid "Could not delete REST Service"
 msgstr "REST সেবা মুছে ফেলা যায় নি"
 
-#: jsapp/js/actions.es6:606
+#: jsapp/js/actions.es6:593
 msgid "Submission retry requested successfully"
 msgstr "সাবমিশন আবার জমা দেওয়ার অনুরোধ সফল হয়েছে"
 
-#: jsapp/js/actions.es6:609
+#: jsapp/js/actions.es6:596
 msgid "Submission retry request failed"
 msgstr "সাবমিশন আবার জমা দেওয়ার অনুরোধ বিফল হয়েছে"
 
-#: jsapp/js/actions.es6:632
+#: jsapp/js/actions.es6:619
 msgid "Retrying all submissions failed"
 msgstr "সব সাবমিশন আবার জমা দেওয়ার চেষ্টা বিফল হয়েছে"
 
@@ -509,8 +529,8 @@ msgstr "সাবমিশনগুলো মুছে ফেলা যায় �
 msgid "Delete?"
 msgstr "মুছে ফেলবেন?"
 
-#: jsapp/js/alertify.ts:165 jsapp/js/assetQuickActions.tsx:128
-#: jsapp/js/assetQuickActions.tsx:131
+#: jsapp/js/alertify.ts:165 jsapp/js/assetQuickActions.tsx:129
+#: jsapp/js/assetQuickActions.tsx:132
 #: jsapp/js/components/modalForms/translationSettings.es6:153
 #: jsapp/js/components/processing/transcriptTabContent.tsx:417
 #: jsapp/js/components/processing/translationsTabContent.tsx:540
@@ -529,10 +549,10 @@ msgstr "বাতিল করুন"
 msgid "This action is not reversible"
 msgstr "কাজটি করা হয়ে গেলে তা কিন্তু আর বাতিল করা যাবে না"
 
-#: jsapp/js/alertify.ts:174 jsapp/js/assetQuickActions.tsx:132
-#: jsapp/js/assetQuickActions.tsx:163 jsapp/js/assetQuickActions.tsx:201
-#: jsapp/js/assetQuickActions.tsx:250 jsapp/js/assetQuickActions.tsx:325
-#: jsapp/js/assetQuickActions.tsx:423 jsapp/js/assetQuickActions.tsx:483
+#: jsapp/js/alertify.ts:174 jsapp/js/assetQuickActions.tsx:133
+#: jsapp/js/assetQuickActions.tsx:164 jsapp/js/assetQuickActions.tsx:202
+#: jsapp/js/assetQuickActions.tsx:251 jsapp/js/assetQuickActions.tsx:326
+#: jsapp/js/assetQuickActions.tsx:424 jsapp/js/assetQuickActions.tsx:484
 #: jsapp/js/components/RESTServices/RESTServicesList.es6:82
 #: jsapp/js/components/bigModal/bigModal.es6:276
 #: jsapp/js/components/dataAttachments/connectProjects.es6:265
@@ -552,175 +572,175 @@ msgstr "কাজটি করা হয়ে গেলে তা কিন্ত�
 msgid "Cancel"
 msgstr "বাতিল করুন"
 
-#: jsapp/js/api.ts:37 jsapp/js/components/reports/reports.js:466
+#: jsapp/js/api.ts:54 jsapp/js/components/reports/reports.js:466
 msgid "An error occurred"
 msgstr "কোনো একটি ত্রুটি পাওয়া গেছে"
 
-#: jsapp/js/api.ts:43
+#: jsapp/js/api.ts:61
 msgid "Your connection is offline"
 msgstr "আপনার সংযোগটি অফলাইন হয়ে আছে (ইন্টারনেট নেই)"
 
-#: jsapp/js/assetQuickActions.tsx:66
+#: jsapp/js/assetQuickActions.tsx:67
 msgid "##ASSET_TYPE## deleted permanently"
 msgstr "##ASSET_TYPE## চিরতরে মুছে ফেলা হয়েছে"
 
-#: jsapp/js/assetQuickActions.tsx:82
+#: jsapp/js/assetQuickActions.tsx:83
 msgid "You are about to permanently delete this item from your library."
 msgstr "আপনি আপনার লাইব্রেরি থেকে এই আইটেমটি চিরতরে মুছে ফেলতে যাচ্ছেন।"
 
-#: jsapp/js/assetQuickActions.tsx:85
+#: jsapp/js/assetQuickActions.tsx:86
 msgid "You are about to permanently delete this draft."
 msgstr "আপনি এই খসড়াটি চিরতরে মুছে ফেলতে যাচ্ছেন।"
 
-#: jsapp/js/assetQuickActions.tsx:88
+#: jsapp/js/assetQuickActions.tsx:89
 msgid "You are about to permanently delete this form."
 msgstr "আপনি এই ফর্মটি চিরতরে মুছে ফেলতে যাচ্ছেন।"
 
-#: jsapp/js/assetQuickActions.tsx:92
+#: jsapp/js/assetQuickActions.tsx:93
 msgid "All data gathered for this form will be deleted."
 msgstr "এই ফর্মের জন্য সংগ্রহ করা সব তথ্য মুছে ফেলা হবে।"
 
-#: jsapp/js/assetQuickActions.tsx:97
+#: jsapp/js/assetQuickActions.tsx:98
 msgid "The form associated with this project will be deleted."
 msgstr "এই প্রকল্পের সাথে সংশ্লিষ্ট ফর্মটি মুছে ফেলা হবে।"
 
-#: jsapp/js/assetQuickActions.tsx:102
+#: jsapp/js/assetQuickActions.tsx:103
 msgid ""
 "I understand that if I delete this project I will not be able to recover it."
 msgstr "আমি বুঝতে পারছি যে, এই প্রকল্পটি একবার মুছে ফেললে এটি আর ফিরে পাওয়া যাবে না।"
 
-#: jsapp/js/assetQuickActions.tsx:158
+#: jsapp/js/assetQuickActions.tsx:159
 #: jsapp/js/components/modalForms/projectSettings.es6:1035
 msgid "Archive Project"
 msgstr "প্রকল্প আর্কাইভ করুন"
 
-#: jsapp/js/assetQuickActions.tsx:159
+#: jsapp/js/assetQuickActions.tsx:160
 msgid "Are you sure you want to archive this project?"
 msgstr "আপনি কি সত্যিই এই প্রকল্পটি আর্কাইভ করতে চান?"
 
-#: jsapp/js/assetQuickActions.tsx:161
+#: jsapp/js/assetQuickActions.tsx:162
 msgid "Your form will not accept submissions while it is archived."
 msgstr "আর্কাইভ করা অবস্থায় আপনার ফর্মে সাবমিশন জমা হবে না।"
 
-#: jsapp/js/assetQuickActions.tsx:163
+#: jsapp/js/assetQuickActions.tsx:164
 msgid "Archive"
 msgstr "আর্কাইভ করুন"
 
-#: jsapp/js/assetQuickActions.tsx:199
+#: jsapp/js/assetQuickActions.tsx:200
 #: jsapp/js/components/modalForms/projectSettings.es6:1025
 msgid "Unarchive Project"
 msgstr "প্রকল্প আনআর্কাইভ করুন"
 
-#: jsapp/js/assetQuickActions.tsx:200
+#: jsapp/js/assetQuickActions.tsx:201
 msgid "Are you sure you want to unarchive this project?"
 msgstr "আপনি কি সত্যিই এই প্রকল্পটি আনআর্কাইভ করতে চান?"
 
-#: jsapp/js/assetQuickActions.tsx:201
+#: jsapp/js/assetQuickActions.tsx:202
 msgid "Unarchive"
 msgstr "আনআর্কাইভ করুন"
 
-#: jsapp/js/assetQuickActions.tsx:239 jsapp/js/mixins.tsx:129
+#: jsapp/js/assetQuickActions.tsx:240 jsapp/js/mixins.tsx:129
 msgid "Clone of"
 msgstr "-এর কপি"
 
-#: jsapp/js/assetQuickActions.tsx:245 jsapp/js/mixins.tsx:133
+#: jsapp/js/assetQuickActions.tsx:246 jsapp/js/mixins.tsx:133
 msgid "Clone"
 msgstr "কপি তৈরি করুন"
 
-#: jsapp/js/assetQuickActions.tsx:247 jsapp/js/mixins.tsx:135
+#: jsapp/js/assetQuickActions.tsx:248 jsapp/js/mixins.tsx:135
 msgid ""
 "Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
 "original name."
 msgstr "কপি করা ##ASSET_TYPE##টির নাম দিন। যেটি থেকে কপি করা হয়েছে সেই নামই ব্যবহার করতে চাইলে খালি রেখে দিন।"
 
-#: jsapp/js/assetQuickActions.tsx:250 jsapp/js/assetQuickActions.tsx:483
+#: jsapp/js/assetQuickActions.tsx:251 jsapp/js/assetQuickActions.tsx:484
 #: jsapp/js/mixins.tsx:138
 msgid "Ok"
 msgstr "আচ্ছা"
 
-#: jsapp/js/assetQuickActions.tsx:253
+#: jsapp/js/assetQuickActions.tsx:254
 msgid "Cloning..."
 msgstr "কপি তৈরি হচ্ছে…"
 
-#: jsapp/js/assetQuickActions.tsx:290
+#: jsapp/js/assetQuickActions.tsx:291
 msgid "cloned ##ASSET_TYPE## created"
 msgstr "##ASSET_TYPE## কপি করা হয়েছে"
 
-#: jsapp/js/assetQuickActions.tsx:325
+#: jsapp/js/assetQuickActions.tsx:326
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:202
 msgid "Create"
 msgstr "তৈরি করুন"
 
-#: jsapp/js/assetQuickActions.tsx:332
+#: jsapp/js/assetQuickActions.tsx:333
 #: jsapp/js/components/modalForms/projectSettings.es6:527
 #: jsapp/js/components/modalForms/projectSettings.es6:1010
 msgid "Please wait…"
 msgstr "অনুগ্রহ করে অপেক্ষা করুন…"
 
-#: jsapp/js/assetQuickActions.tsx:363
+#: jsapp/js/assetQuickActions.tsx:364
 msgid "Failed to create new asset!"
 msgstr "নতুন অ্যাসেট তৈরি করা যায় নি!"
 
-#: jsapp/js/assetQuickActions.tsx:384
+#: jsapp/js/assetQuickActions.tsx:385
 msgid "Create new template from this project"
 msgstr "এই প্রকল্প থেকে নতুন টেমপ্লেট তৈরি করুন"
 
-#: jsapp/js/assetQuickActions.tsx:385
+#: jsapp/js/assetQuickActions.tsx:386
 msgid "Enter the name of the new template."
 msgstr "নতুন টেমপ্লেটের নাম লিখুন।"
 
-#: jsapp/js/assetQuickActions.tsx:395
+#: jsapp/js/assetQuickActions.tsx:396
 msgid "Create new project from this template"
 msgstr "এই টেমপ্লেট থেকে নতুন প্রকল্প তৈরি করুন"
 
-#: jsapp/js/assetQuickActions.tsx:396
+#: jsapp/js/assetQuickActions.tsx:397
 msgid "Enter the name of the new project."
 msgstr "নতুন প্রকল্পের নাম লিখুন।"
 
-#: jsapp/js/assetQuickActions.tsx:421
+#: jsapp/js/assetQuickActions.tsx:422
 msgid "Remove shared form"
 msgstr "শেয়ার করা ফর্ম মুছে ফেলুন"
 
-#: jsapp/js/assetQuickActions.tsx:422
+#: jsapp/js/assetQuickActions.tsx:423
 msgid "Are you sure you want to remove this shared form?"
 msgstr "আপনি কি সত্যিই শেয়ার করা এই ফর্মটি মুছে ফেলতে চান?"
 
-#: jsapp/js/assetQuickActions.tsx:423
+#: jsapp/js/assetQuickActions.tsx:424
 #: jsapp/js/components/permissions/userPermissionRow.component.tsx:59
 msgid "Remove"
 msgstr "মুছে ফেলুন"
 
-#: jsapp/js/assetQuickActions.tsx:445
+#: jsapp/js/assetQuickActions.tsx:446
 msgid "deploying to kobocat..."
 msgstr "kobocat-এ ডিপ্লয় করা হচ্ছে…"
 
-#: jsapp/js/assetQuickActions.tsx:450
+#: jsapp/js/assetQuickActions.tsx:451
 msgid "deployed form"
 msgstr "ডিপ্লয় করা ফর্ম"
 
-#: jsapp/js/assetQuickActions.tsx:470
+#: jsapp/js/assetQuickActions.tsx:471
 msgid "Overwrite existing deployment"
 msgstr "বিদ্যমান ডিপ্লয় ওভাররাইট করুন"
 
-#: jsapp/js/assetQuickActions.tsx:476
+#: jsapp/js/assetQuickActions.tsx:477
 msgid ""
 "This form has already been deployed. Are you sure you want overwrite the "
 "existing deployment?"
 msgstr "এই ফর্মটি ডিপ্লয় করাই আছে। আপনি কি সত্যিই ডিপ্লয় করা ফর্মটি ওভাররাইট করতে চান?"
 
-#: jsapp/js/assetQuickActions.tsx:480 jsapp/js/i18nMissingStrings.es6:96
+#: jsapp/js/assetQuickActions.tsx:481 jsapp/js/i18nMissingStrings.es6:96
 msgid "This action cannot be undone."
 msgstr "কাজটি করা হয়ে গেলে তা কিন্তু আর বাতিল করা যাবে না।"
 
-#: jsapp/js/assetQuickActions.tsx:487
+#: jsapp/js/assetQuickActions.tsx:488
 msgid "Deploying..."
 msgstr "ডিপ্লয় করা হচ্ছে…"
 
-#: jsapp/js/assetQuickActions.tsx:490
+#: jsapp/js/assetQuickActions.tsx:491
 msgid "redeployed form"
 msgstr "আবার ডিপ্লয় করা ফর্ম"
 
-#: jsapp/js/assetUtils.ts:65 jsapp/js/components/formSummaryProjectInfo.tsx:89
+#: jsapp/js/assetUtils.ts:65 jsapp/js/components/formSummaryProjectInfo.tsx:97
 #: jsapp/js/projects/projectsTable/projectsTableRow.tsx:47
 msgid "me"
 msgstr "নিজে"
@@ -889,7 +909,7 @@ msgid "Create template"
 msgstr "টেমপ্লেট তৈরি করুন"
 
 #: jsapp/js/components/assetsTable/assetsTable.tsx:195
-#: jsapp/js/components/formSummaryProjectInfo.tsx:82
+#: jsapp/js/components/formSummaryProjectInfo.tsx:90
 #: jsapp/js/components/library/assetInfoBox.es6:103
 #: jsapp/js/components/templatesList.es6:77
 msgid "Questions"
@@ -912,7 +932,7 @@ msgid "Items"
 msgstr "আইটেম"
 
 #: jsapp/js/components/assetsTable/assetsTableConstants.ts:65
-#: jsapp/js/components/formSummaryProjectInfo.tsx:88
+#: jsapp/js/components/formSummaryProjectInfo.tsx:96
 #: jsapp/js/components/library/assetInfoBox.es6:73
 #: jsapp/js/components/templatesList.es6:71
 #: jsapp/js/projects/projectViews/constants.ts:177
@@ -924,7 +944,7 @@ msgid "Subscribers"
 msgstr "সাবস্ক্রাইবার"
 
 #: jsapp/js/components/assetsTable/assetsTableConstants.ts:77
-#: jsapp/js/components/formSummaryProjectInfo.tsx:150
+#: jsapp/js/components/formSummaryProjectInfo.tsx:158
 #: jsapp/js/components/library/assetInfoBox.es6:132
 #: jsapp/js/projects/projectViews/constants.ts:289
 msgid "Languages"
@@ -1384,42 +1404,42 @@ msgstr "ডিপ্লয় করা নয়"
 msgid "path not found / recognized"
 msgstr "path পাওয়া যায় নি / শনাক্ত করা যায় নি"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:57
+#: jsapp/js/components/formSummaryProjectInfo.tsx:65
 msgid "Project information"
 msgstr "প্রকল্পের তথ্য"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:66
+#: jsapp/js/components/formSummaryProjectInfo.tsx:74
 #: jsapp/js/components/library/assetInfoBox.es6:80
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:231
 #: jsapp/js/projects/projectViews/constants.ts:151
 msgid "Description"
 msgstr "বিবরণ"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:76
+#: jsapp/js/components/formSummaryProjectInfo.tsx:84
 #: jsapp/js/projects/projectViews/constants.ts:167
 msgid "Status"
 msgstr "স্ট্যাটাস"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:99
+#: jsapp/js/components/formSummaryProjectInfo.tsx:107
 #: jsapp/js/components/templatesList.es6:74
 msgid "Last modified"
 msgstr "সর্বশেষ পরিবর্তনের তারিখ"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:105
+#: jsapp/js/components/formSummaryProjectInfo.tsx:113
 msgid "Last deployed"
 msgstr "সর্বশেষ ডিপ্লয়ের তারিখ"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:114
+#: jsapp/js/components/formSummaryProjectInfo.tsx:122
 msgid "Latest submission"
 msgstr "সর্বশেষ সাবমিশন"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:127
+#: jsapp/js/components/formSummaryProjectInfo.tsx:135
 #: jsapp/js/components/library/assetInfoBox.es6:118
 #: jsapp/js/projects/projectViews/constants.ts:263
 msgid "Sector"
 msgstr "খাত"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:137
+#: jsapp/js/components/formSummaryProjectInfo.tsx:145
 #: jsapp/js/projects/projectViews/constants.ts:275
 msgid "Countries"
 msgstr "দেশ"
@@ -1469,25 +1489,25 @@ msgstr "REST সেবা"
 msgid "Please refresh the page"
 msgstr "অনুগ্রহ করে পেইজটি রিফ্রেশ করুন"
 
-#: jsapp/js/components/header/accountMenu.tsx:115
+#: jsapp/js/components/header/accountMenu.tsx:110
 msgid "Account Settings"
 msgstr "অ্যাকাউন্টের সেটিংস"
 
-#: jsapp/js/components/header/accountMenu.tsx:125
+#: jsapp/js/components/header/accountMenu.tsx:120
 msgid "Terms of Service"
 msgstr "সেবার শর্তাবলি"
 
-#: jsapp/js/components/header/accountMenu.tsx:130
+#: jsapp/js/components/header/accountMenu.tsx:125
 msgid "Privacy Policy"
 msgstr "গোপনীয়তা নীতি"
 
-#: jsapp/js/components/header/accountMenu.tsx:143
+#: jsapp/js/components/header/accountMenu.tsx:138
 #: jsapp/js/components/map.es6:847
 #: jsapp/js/components/projectDownloads/projectExportsList.es6:283
 msgid "Language"
 msgstr "ভাষা"
 
-#: jsapp/js/components/header/accountMenu.tsx:152
+#: jsapp/js/components/header/accountMenu.tsx:147
 msgid "Logout"
 msgstr "লগআউট করুন"
 
@@ -2933,7 +2953,7 @@ msgid "Export ##SELECT_MANY## questions as…"
 msgstr "এক্সপোর্টে ##SELECT_MANY## প্রশ্ন হয়ে যাবে…"
 
 #: jsapp/js/components/projectDownloads/projectExportsCreator.es6:559
-#: jsapp/js/constants.ts:388 jsapp/js/formbuild/containers/KoboMatrix.es6:44
+#: jsapp/js/constants.ts:326 jsapp/js/formbuild/containers/KoboMatrix.es6:44
 #: jsapp/js/i18nMissingStrings.es6:102
 msgid "Select Many"
 msgstr "বহুনির্বাচনী"
@@ -3194,7 +3214,7 @@ msgid "Horizontal"
 msgstr "অনুভূমিক"
 
 #: jsapp/js/components/reports/reportsConstants.ts:97
-#: jsapp/js/constants.ts:370 jsapp/js/i18nMissingStrings.es6:45
+#: jsapp/js/constants.ts:308 jsapp/js/i18nMissingStrings.es6:45
 msgid "Line"
 msgstr "রেখা"
 
@@ -3209,7 +3229,7 @@ msgid "Donut"
 msgstr "ডোনাট"
 
 #: jsapp/js/components/reports/reportsConstants.ts:125
-#: jsapp/js/constants.ts:369 jsapp/js/i18nMissingStrings.es6:42
+#: jsapp/js/constants.ts:307 jsapp/js/i18nMissingStrings.es6:42
 msgid "Area"
 msgstr "ক্ষেত্র (ভরাট)"
 
@@ -3563,248 +3583,248 @@ msgstr "আপনার"
 msgid "included with your current plan."
 msgstr "আপনার বর্তমান প্ল্যানের সর্বোচ্চ সীমায় পৌঁছে গেছে।"
 
-#: jsapp/js/constants.ts:161
+#: jsapp/js/constants.ts:99
 msgid "Default - single page"
 msgstr "ডিফল্ট - এক পেইজ"
 
-#: jsapp/js/constants.ts:162
+#: jsapp/js/constants.ts:100
 msgid "Grid theme"
 msgstr "গ্রিড থিম"
 
-#: jsapp/js/constants.ts:163
+#: jsapp/js/constants.ts:101
 msgid "Grid theme with headings in ALL CAPS"
 msgstr "গ্রিড থিম আর তাতে বড় হাতের অক্ষরে শিরোনাম"
 
-#: jsapp/js/constants.ts:164
+#: jsapp/js/constants.ts:102
 msgid "Multiple pages"
 msgstr "একাধিক পেইজ"
 
-#: jsapp/js/constants.ts:167
+#: jsapp/js/constants.ts:105
 msgid "Grid theme + Multiple pages"
 msgstr "গ্রিড থিম + একাধিক পেইজ"
 
-#: jsapp/js/constants.ts:171
+#: jsapp/js/constants.ts:109
 msgid "Grid theme + Multiple pages + headings in ALL CAPS"
 msgstr "গ্রিড থিম + একাধিক পেইজ + বড় হাতের অক্ষরে শিরোনাম"
 
-#: jsapp/js/constants.ts:190
+#: jsapp/js/constants.ts:128
 msgid "Not approved"
 msgstr "অননুমোদিত"
 
-#: jsapp/js/constants.ts:194
+#: jsapp/js/constants.ts:132
 msgid "Approved"
 msgstr "অনুমোদিত"
 
-#: jsapp/js/constants.ts:198
+#: jsapp/js/constants.ts:136
 msgid "On hold"
 msgstr "অপেক্ষারত"
 
-#: jsapp/js/constants.ts:232
+#: jsapp/js/constants.ts:170
 msgid "question"
 msgstr "প্রশ্ন"
 
-#: jsapp/js/constants.ts:236
+#: jsapp/js/constants.ts:174
 msgid "block"
 msgstr "ব্লক"
 
-#: jsapp/js/constants.ts:240
+#: jsapp/js/constants.ts:178
 msgid "template"
 msgstr "টেমপ্লেট"
 
-#: jsapp/js/constants.ts:244
+#: jsapp/js/constants.ts:182
 msgid "project"
 msgstr "প্রকল্প"
 
-#: jsapp/js/constants.ts:248
+#: jsapp/js/constants.ts:186
 msgid "collection"
 msgstr "সংগ্রহ"
 
-#: jsapp/js/constants.ts:259
+#: jsapp/js/constants.ts:197
 msgid "map layer"
 msgstr "ম্যাপের স্তর"
 
-#: jsapp/js/constants.ts:263
+#: jsapp/js/constants.ts:201
 msgid "form media"
 msgstr "ফর্মের মিডিয়া"
 
-#: jsapp/js/constants.ts:332 jsapp/js/i18nMissingStrings.es6:66
+#: jsapp/js/constants.ts:270 jsapp/js/i18nMissingStrings.es6:66
 msgid "Acknowledge"
 msgstr "সম্মতিসূচক"
 
-#: jsapp/js/constants.ts:336 jsapp/js/i18nMissingStrings.es6:62
+#: jsapp/js/constants.ts:274 jsapp/js/i18nMissingStrings.es6:62
 msgid "Audio"
 msgstr "অডিও"
 
-#: jsapp/js/constants.ts:338
+#: jsapp/js/constants.ts:276
 msgid "Barcode / QR Code"
 msgstr "বারকোড / QR কোড"
 
-#: jsapp/js/constants.ts:343 jsapp/js/i18nMissingStrings.es6:67
+#: jsapp/js/constants.ts:281 jsapp/js/i18nMissingStrings.es6:67
 msgid "Calculate"
 msgstr "হিসাবভিত্তিক"
 
-#: jsapp/js/constants.ts:347 jsapp/js/i18nMissingStrings.es6:57
+#: jsapp/js/constants.ts:285 jsapp/js/i18nMissingStrings.es6:57
 msgid "Date"
 msgstr "তারিখ"
 
-#: jsapp/js/constants.ts:349 jsapp/js/i18nMissingStrings.es6:59
+#: jsapp/js/constants.ts:287 jsapp/js/i18nMissingStrings.es6:59
 msgid "Date & time"
 msgstr "তারিখ ও সময়"
 
-#: jsapp/js/constants.ts:354 jsapp/js/i18nMissingStrings.es6:56
+#: jsapp/js/constants.ts:292 jsapp/js/i18nMissingStrings.es6:56
 msgid "Decimal"
 msgstr "দশমিক"
 
-#: jsapp/js/constants.ts:359
+#: jsapp/js/constants.ts:297
 msgid "External XML"
 msgstr "বাহ্যিক XML"
 
-#: jsapp/js/constants.ts:363
+#: jsapp/js/constants.ts:301
 msgid "File"
 msgstr "ফাইল"
 
-#: jsapp/js/constants.ts:365
+#: jsapp/js/constants.ts:303
 msgid "Point"
 msgstr "বিন্দু"
 
-#: jsapp/js/constants.ts:371
+#: jsapp/js/constants.ts:309
 msgid "Hidden"
 msgstr "অদৃশ্য"
 
-#: jsapp/js/constants.ts:372 jsapp/js/i18nMissingStrings.es6:61
+#: jsapp/js/constants.ts:310 jsapp/js/i18nMissingStrings.es6:61
 msgid "Photo"
 msgstr "ছবি"
 
-#: jsapp/js/constants.ts:374 jsapp/js/formbuild/containers/KoboMatrix.es6:52
+#: jsapp/js/constants.ts:312 jsapp/js/formbuild/containers/KoboMatrix.es6:52
 #: jsapp/js/i18nMissingStrings.es6:55
 msgid "Number"
 msgstr "সংখ্যা"
 
-#: jsapp/js/constants.ts:379
+#: jsapp/js/constants.ts:317
 msgid "Question Matrix"
 msgstr "প্রশ্নের ম্যাট্রিক্স"
 
-#: jsapp/js/constants.ts:383 jsapp/js/i18nMissingStrings.es6:64
+#: jsapp/js/constants.ts:321 jsapp/js/i18nMissingStrings.es6:64
 msgid "Note"
 msgstr "নোট"
 
-#: jsapp/js/constants.ts:384
+#: jsapp/js/constants.ts:322
 msgid "Range"
 msgstr "বিস্তার (রেঞ্জ)"
 
-#: jsapp/js/constants.ts:385 jsapp/js/i18nMissingStrings.es6:69
+#: jsapp/js/constants.ts:323 jsapp/js/i18nMissingStrings.es6:69
 msgid "Ranking"
 msgstr "র‍্যাঙ্কিং"
 
-#: jsapp/js/constants.ts:386
+#: jsapp/js/constants.ts:324
 msgid "Rating"
 msgstr "রেটিং"
 
-#: jsapp/js/constants.ts:393
+#: jsapp/js/constants.ts:331
 msgid "Select Many from File"
 msgstr "ফাইল থেকে বহুনির্বাচনী"
 
-#: jsapp/js/constants.ts:398 jsapp/js/formbuild/containers/KoboMatrix.es6:40
+#: jsapp/js/constants.ts:336 jsapp/js/formbuild/containers/KoboMatrix.es6:40
 #: jsapp/js/i18nMissingStrings.es6:101
 msgid "Select One"
 msgstr "একনির্বাচনী"
 
-#: jsapp/js/constants.ts:403
+#: jsapp/js/constants.ts:341
 msgid "Select One from File"
 msgstr "ফাইল থেকে একনির্বাচনী"
 
-#: jsapp/js/constants.ts:407 jsapp/js/formbuild/containers/KoboMatrix.es6:48
+#: jsapp/js/constants.ts:345 jsapp/js/formbuild/containers/KoboMatrix.es6:48
 #: jsapp/js/i18nMissingStrings.es6:54
 msgid "Text"
 msgstr "টেক্সট"
 
-#: jsapp/js/constants.ts:408 jsapp/js/i18nMissingStrings.es6:58
+#: jsapp/js/constants.ts:346 jsapp/js/i18nMissingStrings.es6:58
 msgid "Time"
 msgstr "সময়"
 
-#: jsapp/js/constants.ts:409 jsapp/js/i18nMissingStrings.es6:63
+#: jsapp/js/constants.ts:347 jsapp/js/i18nMissingStrings.es6:63
 msgid "Video"
 msgstr "ভিডিও"
 
-#: jsapp/js/constants.ts:566
+#: jsapp/js/constants.ts:504
 msgid "Deployed"
 msgstr "ডিপ্লয় করা"
 
-#: jsapp/js/constants.ts:567 jsapp/js/i18nMissingStrings.es6:46
+#: jsapp/js/constants.ts:505 jsapp/js/i18nMissingStrings.es6:46
 msgid "Draft"
 msgstr "খসড়া"
 
-#: jsapp/js/constants.ts:568 jsapp/js/i18nMissingStrings.es6:175
+#: jsapp/js/constants.ts:506 jsapp/js/i18nMissingStrings.es6:175
 msgid "Archived"
 msgstr "আর্কাইভ করা"
 
-#: jsapp/js/constants.ts:581
+#: jsapp/js/constants.ts:519
 msgid "Online-Offline (multiple submission)"
 msgstr "অনলাইন-অফলাইন (একাধিক সাবমিশন)"
 
-#: jsapp/js/constants.ts:583
+#: jsapp/js/constants.ts:521
 msgid ""
 "This allows online and offline submissions and is the best option for "
 "collecting data in the field."
 msgstr "এক্ষেত্রে অনলাইনে ও অফলাইনে দু’ভাবেই সাবমিশন জমা দেওয়া যাবে, আর মাঠ পর্যায়ে তথ্য সংগ্রহের জন্য এটিই সেরা পদ্ধতি।"
 
-#: jsapp/js/constants.ts:588
+#: jsapp/js/constants.ts:526
 msgid "Online-Only (multiple submissions)"
 msgstr "শুধু অনলাইন (একাধিক সাবমিশন)"
 
-#: jsapp/js/constants.ts:590
+#: jsapp/js/constants.ts:528
 msgid ""
 "This is the best option when entering many records at once on a computer, "
 "e.g. for transcribing paper records."
 msgstr "কম্পিউটারে একসাথে অনেক রেকর্ড আপলোড করার ক্ষেত্রে (যেমন: কাগজে লেখা তথ্যের প্রতিলিপি তৈরির ক্ষেত্রে) এটিই সেরা পদ্ধতি।"
 
-#: jsapp/js/constants.ts:595
+#: jsapp/js/constants.ts:533
 msgid "Online-Only (single submission)"
 msgstr "শুধু অনলাইন (একক সাবমিশন)"
 
-#: jsapp/js/constants.ts:597
+#: jsapp/js/constants.ts:535
 msgid ""
 "This allows a single submission, and can be paired with the \"return_url\" "
 "parameter to redirect the user to a URL of your choice after the form has "
 "been submitted."
 msgstr "এক্ষেত্রে কেবল একটি সাবমিশনই জমা দেওয়া যাবে, আর “return_url” প্যারামিটার ব্যবহারের করলে ফর্ম জমা দেওয়ার পর ইউজারকে স্বয়ংক্রিয়ভাবে কাঙ্ক্ষিত যেকোনো লিঙ্কে পাঠিয়ে দেওয়া যাবে।"
 
-#: jsapp/js/constants.ts:602
+#: jsapp/js/constants.ts:540
 msgid "Online-only (once per respondent)"
 msgstr "শুধু অনলাইন (প্রত্যেক উত্তরদাতার জন্য একবার করে)"
 
-#: jsapp/js/constants.ts:604
+#: jsapp/js/constants.ts:542
 msgid ""
 "This allows your web form to only be submitted once per user, using basic "
 "protection to prevent the same user (on the same browser & device) from "
 "submitting more than once."
 msgstr "এক্ষেত্রে প্রত্যেক ইউজারের জন্য আপনার ওয়েব ফর্মে একটিমাত্র সাবমিশনই জমা হতে পারবে। একই ইউজার (একই ডিভাইসে একই ব্রাউজার দিয়ে) যেন একাধিক সাবমিশন দিতে না পারে তা নিশ্চিত করার জন্য সাধারণ কিছু সুরক্ষাব্যবস্থা এতে রয়েছে।"
 
-#: jsapp/js/constants.ts:609
+#: jsapp/js/constants.ts:547
 msgid "Embeddable web form code"
 msgstr "এমবেডযোগ্য ওয়েব ফর্মের কোড"
 
-#: jsapp/js/constants.ts:611
+#: jsapp/js/constants.ts:549
 msgid ""
 "Use this html5 code snippet to integrate your form on your own website using"
 " smaller margins."
 msgstr "আরও কম মার্জিন রেখে আপনার ফর্মটিকে আপনার নিজের ওয়েবসাইটের কোনো জায়গায় দেখানোর জন্য এই HTML5 কোডটুকু ব্যবহার করুন।"
 
-#: jsapp/js/constants.ts:616
+#: jsapp/js/constants.ts:554
 msgid "View only"
 msgstr "শুধু দর্শনযোগ্য"
 
-#: jsapp/js/constants.ts:618
+#: jsapp/js/constants.ts:556
 msgid ""
 "Use this version for testing, getting feedback. Does not allow submitting "
 "data."
 msgstr "পরীক্ষা করা ও প্রতিক্রিয়া সংগ্রহ করার জন্য এই সংস্করণটি ব্যবহার করুন। এতে তথ্য জমা দেওয়া যায় না।"
 
-#: jsapp/js/constants.ts:623
+#: jsapp/js/constants.ts:561
 msgid "Android application"
 msgstr "অ্যান্ড্রয়েড অ্যাপ্লিকেশন"
 
-#: jsapp/js/constants.ts:625
+#: jsapp/js/constants.ts:563
 msgid "Use this option to collect data in the field with your Android device."
 msgstr "আপনার অ্যান্ড্রয়েড ডিভাইস দিয়ে মাঠ পর্যায়ে তথ্য সংগ্রহের জন্য এই অপশনটি ব্যবহার করুন।"
 
@@ -4233,7 +4253,7 @@ msgid "Manually enter your validation logic in XLSForm code"
 msgstr "যাচাইকরণের শর্ত XLSForm-এর কোডে লিখে দিন"
 
 #: jsapp/js/i18nMissingStrings.es6:50 jsapp/js/i18nMissingStrings.es6:121
-#: jsapp/js/project/projectTopTabs.component.tsx:96
+#: jsapp/js/project/projectTopTabs.component.tsx:97
 msgid "Settings"
 msgstr "সেটিংস"
 
@@ -4427,12 +4447,12 @@ msgid "Leave Beta"
 msgstr "বিটা থেকে বের হয়ে যান"
 
 #: jsapp/js/i18nMissingStrings.es6:118
-#: jsapp/js/project/projectTopTabs.component.tsx:72
+#: jsapp/js/project/projectTopTabs.component.tsx:73
 msgid "Form"
 msgstr "ফর্ম"
 
 #: jsapp/js/i18nMissingStrings.es6:119
-#: jsapp/js/project/projectTopTabs.component.tsx:83
+#: jsapp/js/project/projectTopTabs.component.tsx:84
 msgid "Data"
 msgstr "তথ্য"
 
@@ -4640,18 +4660,6 @@ msgstr "প্রকল্প মুছে ফেলুন"
 msgid "More Actions"
 msgstr "আরও অ্যাকশন"
 
-#: jsapp/js/i18nMissingStrings.es6:176
-msgid "Please make sure the following details are filled out correctly:"
-msgstr "নিচের তথ্যগুলো যেন সঠিকভাবে দেওয়া হয় তা অনুগ্রহ করে নিশ্চিত করবেন:"
-
-#: jsapp/js/i18nMissingStrings.es6:177
-msgid "I agree, let's go"
-msgstr "আমি একমত, এগিয়ে যাব"
-
-#: jsapp/js/i18nMissingStrings.es6:178
-msgid "I don't agree, log me out"
-msgstr "একমত নই, লগআউট করব"
-
 #: jsapp/js/mixins.tsx:124
 msgid "copied to clipboard"
 msgstr "ক্লিপবোর্ডে কপি করা হয়েছে"
@@ -4664,7 +4672,7 @@ msgstr "প্রশ্নটি লাইব্রেরিতে যোগ ক
 msgid "group has been added to the library as a block"
 msgstr "গ্রুপটিকে লাইব্রেরিতে ব্লক হিসাবে যুক্ত করা হয়েছে"
 
-#: jsapp/js/project/projectTopTabs.component.tsx:60
+#: jsapp/js/project/projectTopTabs.component.tsx:61
 msgid "Summary"
 msgstr "সারসঙ্কলন"
 
@@ -4672,23 +4680,23 @@ msgstr "সারসঙ্কলন"
 msgid "Today"
 msgstr "আজ"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:281
+#: jsapp/js/project/submissionsCountGraph.component.tsx:283
 msgid "Past 7 days"
 msgstr "গত ৭ দিন"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:282
+#: jsapp/js/project/submissionsCountGraph.component.tsx:284
 msgid "Past 31 days"
 msgstr "গত ৩১ দিন"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:283
+#: jsapp/js/project/submissionsCountGraph.component.tsx:285
 msgid "Past 3 months"
 msgstr "গত ৩ মাস"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:284
+#: jsapp/js/project/submissionsCountGraph.component.tsx:286
 msgid "Past 12 months"
 msgstr "গত ১২ মাস"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:301
+#: jsapp/js/project/submissionsCountGraph.component.tsx:303
 msgid "No chart data available for current period."
 msgstr "বর্তমান সময়ের জন্য রেখাচিত্রের কোনো তথ্য পাওয়া যায় নি।"
 
@@ -4920,17 +4928,17 @@ msgstr "অনুগ্রহ করে আবার চেষ্টা কর�
 msgid "Additional details:"
 msgstr "বিস্তারিত:"
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:44
+#: jsapp/js/router/invalidatedPassword.component.tsx:25
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr "অ্যাক্সেসে সাময়িক নিষেধাজ্ঞা: পাসওয়ার্ড আপডেট করা প্রয়োজন"
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:50
+#: jsapp/js/router/invalidatedPassword.component.tsx:30
 msgid ""
 "You must update your password before proceeding. Please do so promptly to "
 "ensure the security of your data."
 msgstr "অন্য কিছু করার আগে আপনাকে আপনার পাসওয়ার্ড আপডেট করতে হবে। আপনার তথ্যের সুরক্ষার জন্য অনুগ্রহ এখনই তা করে নিন।"
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:59
+#: jsapp/js/router/invalidatedPassword.component.tsx:39
 msgid "Update password"
 msgstr "পাসওয়ার্ড আপডেট করুন"
 
@@ -4945,3 +4953,19 @@ msgstr "অ্যাসেটের তালিকা তৈরি করা �
 #: jsapp/js/textUtils.ts:34
 msgid "##field_label## (required)"
 msgstr "##field_label## (আবশ্যক)"
+
+#: jsapp/js/tos/tosForm.component.tsx:92
+msgid "TOS Update Message not found"
+msgstr ""
+
+#: jsapp/js/tos/tosForm.component.tsx:213
+msgid "Please make sure the following details are filled out correctly:"
+msgstr "নিচের তথ্যগুলো যেন সঠিকভাবে দেওয়া হয় তা অনুগ্রহ করে নিশ্চিত করবেন:"
+
+#: jsapp/js/tos/tosForm.component.tsx:235
+msgid "I agree, let's go"
+msgstr "আমি একমত, এগিয়ে যাব"
+
+#: jsapp/js/tos/tosForm.component.tsx:244
+msgid "I don't agree, log me out"
+msgstr "একমত নই, লগআউট করব"

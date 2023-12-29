@@ -10,7 +10,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-16 14:06+0000\n"
+"POT-Creation-Date: 2023-12-22 01:16+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Jackie <jackie@kobotoolbox.org>, 2023\n"
 "Language-Team: Amharic (http://app.transifex.com/kobotoolbox/kobotoolbox/language/am/)\n"
@@ -24,23 +24,63 @@ msgstr ""
 msgid "Log in as user"
 msgstr "እንደ ተጠቃሚ ይግቡ"
 
-#: kobo/apps/accounts/forms.py:53
+#: kobo/apps/accounts/forms.py:67
+msgid "Non-profit organization"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:68
+msgid "Government institution"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:69
+msgid "Educational organization"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:70
+msgid "A commercial/for-profit company"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:71
+msgid "I am not associated with any organization"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:79
 msgid "Male"
 msgstr "ወንድ"
 
-#: kobo/apps/accounts/forms.py:54
+#: kobo/apps/accounts/forms.py:80
 msgid "Female"
 msgstr "ሴት"
 
-#: kobo/apps/accounts/forms.py:55 kobo/static_lists.py:37
+#: kobo/apps/accounts/forms.py:81 kobo/static_lists.py:37
 msgid "Other"
 msgstr "ሌላ"
 
-#: kobo/apps/accounts/forms.py:77 kobo/static_lists.py:368
+#: kobo/apps/accounts/forms.py:115 kpi/templates/base.html:29
+msgid "Terms of Service"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:122 kpi/templates/base.html:34
+msgid "Privacy Policy"
+msgstr "የ ግል የሆነ ፖሊሲ"
+
+#: kobo/apps/accounts/forms.py:124
+msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
+msgstr "##terms_of_service## እና ##privacy_policy## እስማማለሁ።"
+
+#: kobo/apps/accounts/forms.py:134
 msgid "Password confirmation"
 msgstr "የይለፍ ቃል ማረጋገጫ"
 
-#: kobo/apps/accounts/forms.py:183
+#: kobo/apps/accounts/forms.py:136
+msgid "name@organization.org"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:211
+msgid "This field is required."
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:298
 msgid "You must type the same password each time."
 msgstr "በእያንዳንዱ ጊዜ ተመሳሳይ የይለፍ ቃል መተየብ አለብዎት።"
 
@@ -234,7 +274,7 @@ msgid "Log in using SSO"
 msgstr "SSO በመጠቀም ይግቡ"
 
 #: kobo/apps/accounts/templates/account/login.html:52
-#: kobo/apps/accounts/templates/account/signup.html:61
+#: kobo/apps/accounts/templates/account/signup.html:63
 msgid ""
 "If you set up Single Sign On in your account settings, you will only be able"
 " to log in through this method."
@@ -276,24 +316,24 @@ msgstr "የይለፍ ቃል ዳግም ማስጀመር አልተሳካም"
 msgid "Submit"
 msgstr "አስገባ"
 
-#: kobo/apps/accounts/templates/account/signup.html:45
+#: kobo/apps/accounts/templates/account/signup.html:47
 msgid "Create Account"
 msgstr "መለያ ፍጠር"
 
-#: kobo/apps/accounts/templates/account/signup.html:49
+#: kobo/apps/accounts/templates/account/signup.html:51
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "or"
 msgstr "ወይም"
 
-#: kobo/apps/accounts/templates/account/signup.html:49
+#: kobo/apps/accounts/templates/account/signup.html:51
 msgid "login"
 msgstr "ግባ"
 
-#: kobo/apps/accounts/templates/account/signup.html:59
+#: kobo/apps/accounts/templates/account/signup.html:61
 msgid "Register using SSO"
 msgstr "SSO በመጠቀም ይመዝገቡ"
 
-#: kobo/apps/accounts/templates/account/signup.html:73
+#: kobo/apps/accounts/templates/account/signup.html:75
 msgid "Register with SSO"
 msgstr "በSSO ይመዝገቡ"
 
@@ -356,7 +396,7 @@ msgstr "ወደ KoboToolbox ለመግባት የእርስዎን %(appname)s መለ
 msgid "As a final step, please complete the following form"
 msgstr "እንደ የመጨረሻ ደረጃ, እባክዎ የሚከተለውን ቅጽ ይሙሉ"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:43
+#: kobo/apps/accounts/templates/socialaccount/signup.html:44
 msgid "Save and Access"
 msgstr "ማስቀምጥ እና ማግኘት"
 
@@ -475,7 +515,7 @@ msgstr "`{}` አልተገኘም።"
 msgid "`{}` is not a select one question."
 msgstr "`{}` አንድ የተመረጠ ጥያቄ አይደለም።"
 
-#: kobo/settings/base.py:244
+#: kobo/settings/base.py:246
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -483,7 +523,7 @@ msgid ""
 "email##)."
 msgstr "የማረጋገጫ መተግበሪያዎን መድረስ ካልቻሉ፣እባክዎ በምትኩ ከመጠባበቂያ ኮዶችዎ አንዱን ያስገቡ። እነዚያን ማግኘት ካልቻሉ [##support email##](mailto:##support email##) በማግኘት እርዳታ መጠየቅ ያስፈልግዎታል።"
 
-#: kobo/settings/base.py:443
+#: kobo/settings/base.py:447
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -586,11 +626,11 @@ msgstr "ሰብአዊነት - ጥበቃ"
 msgid "Humanitarian - Sanitation, Water & Hygiene"
 msgstr "ሰብአዊነት - የንፅህና አጠባበቅ፣ የውሃ እና ንፅህና"
 
-#: kobo/static_lists.py:344 kobo/static_lists.py:355
+#: kobo/static_lists.py:344 kobo/static_lists.py:356
 msgid "Sector"
 msgstr "ዘርፍ"
 
-#: kobo/static_lists.py:345 kobo/static_lists.py:359
+#: kobo/static_lists.py:345 kobo/static_lists.py:360
 msgid "Country"
 msgstr "ሀገር"
 
@@ -610,77 +650,45 @@ msgstr "መግለጫ"
 msgid "Full name"
 msgstr "ሙሉ ስም"
 
-#: kobo/static_lists.py:353
-msgid "Organization"
-msgstr "ድርጅት"
-
-#: kobo/static_lists.py:354 kobo/static_lists.py:367
-msgid "Organization website"
-msgstr "የድርጅቱ ድህረ ገጽ"
-
-#: kobo/static_lists.py:356
-msgid "Gender"
-msgstr "ጾታ"
-
-#: kobo/static_lists.py:357
-msgid "Bio"
-msgstr "ባዮ"
-
-#: kobo/static_lists.py:358
-msgid "City"
-msgstr "ከተማ"
-
-#: kobo/static_lists.py:360
-msgid "Twitter"
-msgstr "Twitter"
-
-#: kobo/static_lists.py:361
-msgid "LinkedIn"
-msgstr "LinkedIn"
-
-#: kobo/static_lists.py:362
-msgid "Instagram"
-msgstr "Instagram"
-
-#: kobo/static_lists.py:365 kpi/password_validation.py:110
+#: kobo/static_lists.py:353 kpi/password_validation.py:110
 msgid "Organization name"
 msgstr "የድርጅቱ ስም"
 
-#: kobo/static_lists.py:366
+#: kobo/static_lists.py:354
 msgid "Organization type"
 msgstr "የድርጅት አይነት"
 
-#: kobo/static_lists.py:369
+#: kobo/static_lists.py:355
+msgid "Organization website"
+msgstr "የድርጅቱ ድህረ ገጽ"
+
+#: kobo/static_lists.py:357
+msgid "Gender"
+msgstr "ጾታ"
+
+#: kobo/static_lists.py:358
+msgid "Bio"
+msgstr "ባዮ"
+
+#: kobo/static_lists.py:359
+msgid "City"
+msgstr "ከተማ"
+
+#: kobo/static_lists.py:361
+msgid "Twitter"
+msgstr "Twitter"
+
+#: kobo/static_lists.py:362
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: kobo/static_lists.py:363
+msgid "Instagram"
+msgstr "Instagram"
+
+#: kobo/static_lists.py:364
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "ስለ KoboToolbox አንዳንድ ጊዜ ዝመናዎችን መቀበል እፈልጋለሁ"
-
-#: kobo/static_lists.py:370
-msgid "I want to receive occasional updates"
-msgstr "አንዳንድ ጊዜ ዝመናዎችን መቀበል እፈልጋለሁ"
-
-#: kobo/static_lists.py:371
-msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr "ለመቀጠል በውላችን በመስማማት ከላይ ያለውን አመልካች ሳጥን ይምረጡ።"
-
-#: kobo/static_lists.py:372
-msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr "##terms_of_service## እና ##privacy_policy## እስማማለሁ።"
-
-#: kobo/static_lists.py:373
-msgid "Country Name"
-msgstr "የሀገር ስም"
-
-#: kobo/static_lists.py:374
-msgid "Select a type"
-msgstr "ዓይነት ይምረጡ"
-
-#: kobo/static_lists.py:375
-msgid "Sector name"
-msgstr "የዘርፉ ስም"
-
-#: kobo/static_lists.py:376
-msgid "Personal Details"
-msgstr "የግል መረጃ"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -959,15 +967,15 @@ msgid ""
 "characters."
 msgstr "የይለፍ ቃሉ ##number of rules## ቢያንስ የተለያዩ አይነት ቁምፊዎችን መያዝ አለበት።"
 
-#: kpi/serializers/current_user.py:150
+#: kpi/serializers/current_user.py:170
 msgid "Incorrect current password."
 msgstr "የተሳሳተ የአሁኑ የይለፍ ቃል።"
 
-#: kpi/serializers/current_user.py:170
+#: kpi/serializers/current_user.py:190
 msgid "`current_password` and `new_password` must both be"
 msgstr "`current_password` እና `new_password` ሁለቱም መሆን አለባቸው"
 
-#: kpi/serializers/current_user.py:197
+#: kpi/serializers/current_user.py:230
 #: kpi/serializers/v2/asset_permission_assignment.py:287
 msgid "This field may not be blank."
 msgstr "ይህ መስክ ባዶ ላይሆን ይችላል።"
@@ -1016,29 +1024,29 @@ msgstr "ረቂቅ ፕሮጀክቶች በማህደር ሊቀመጡ አይችሉ�
 msgid "Confirmation is required"
 msgstr "ማረጋገጫ ያስፈልጋል"
 
-#: kpi/serializers/v2/asset.py:780
+#: kpi/serializers/v2/asset.py:778
 msgid "The property is required"
 msgstr "ንብረቱ ያስፈልጋል"
 
-#: kpi/serializers/v2/asset.py:784
+#: kpi/serializers/v2/asset.py:782
 msgid "The property must be an array"
 msgstr "ንብረቱ ድርድር መሆን አለበት"
 
-#: kpi/serializers/v2/asset.py:806
+#: kpi/serializers/v2/asset.py:804
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
 msgstr "አንዳንድ መስኮች ልክ ያልሆኑ ናቸው፣ ምርጫዎቹ የሚከተሉት ናቸው፡- `{valid_fields}`"
 
-#: kpi/serializers/v2/asset.py:828
+#: kpi/serializers/v2/asset.py:826
 msgid "User cannot update current parent collection"
 msgstr "ተጠቃሚ የአሁኑን የወላጅ ስብስብ ማዘመን አይችልም"
 
-#: kpi/serializers/v2/asset.py:838
+#: kpi/serializers/v2/asset.py:836
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
 msgstr "የዒላማ ስብስብ አልተገኘም"
 
-#: kpi/serializers/v2/asset.py:842
+#: kpi/serializers/v2/asset.py:840
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
 msgstr "ተጠቃሚ የታለመውን የወላጅ ስብስብ ማዘመን አይችልም"
@@ -1251,14 +1259,6 @@ msgstr "`{basename}` አስቀድሞ ጥቅም ላይ ውሏል"
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
 msgstr "ልክ ያልሆነ የንብረት አይነት። `{asset_type}` ብቻ ነው የሚፈቀደው"
 
-#: kpi/templates/base.html:29
-msgid "Terms and Conditions"
-msgstr "አተገባበሩና ​​መመሪያው"
-
-#: kpi/templates/base.html:34
-msgid "Privacy Policy"
-msgstr "የ ግል የሆነ ፖሊሲ"
-
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
 msgstr "ዘመናዊ አሳሾች"
@@ -1340,7 +1340,7 @@ msgid ""
 "not copied from that shared database to the new, KPI-only database."
 msgstr "የKoBoCAT የመረጃ ቋቶች በመጀመሪያ የተጋራው በKPI ነበር፣ ነገር ግን የKPI ሰንጠረዦች ከተጋራው የመረጃ ቋቶች ወደ አዲሱ KPI-ብቻ የውሂብ ጎታ አልተገለበጡም።"
 
-#: kpi/views/current_user.py:106
+#: kpi/views/current_user.py:108
 msgid "Invalid confirmation"
 msgstr "ልክ ያልሆነ ማረጋገጫ"
 

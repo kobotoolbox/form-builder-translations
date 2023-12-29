@@ -14,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-16 14:06+0000\n"
+"POT-Creation-Date: 2023-12-22 01:16+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Shahab Uddin, 2022\n"
 "Language-Team: Bengali (http://app.transifex.com/kobotoolbox/kobotoolbox/language/bn/)\n"
@@ -28,23 +28,63 @@ msgstr ""
 msgid "Log in as user"
 msgstr "ইউজার হিসাবে লগইন করুন"
 
-#: kobo/apps/accounts/forms.py:53
+#: kobo/apps/accounts/forms.py:67
+msgid "Non-profit organization"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:68
+msgid "Government institution"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:69
+msgid "Educational organization"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:70
+msgid "A commercial/for-profit company"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:71
+msgid "I am not associated with any organization"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:79
 msgid "Male"
 msgstr "পুরুষ"
 
-#: kobo/apps/accounts/forms.py:54
+#: kobo/apps/accounts/forms.py:80
 msgid "Female"
 msgstr "মহিলা"
 
-#: kobo/apps/accounts/forms.py:55 kobo/static_lists.py:37
+#: kobo/apps/accounts/forms.py:81 kobo/static_lists.py:37
 msgid "Other"
 msgstr "অন্যান্য"
 
-#: kobo/apps/accounts/forms.py:77 kobo/static_lists.py:368
+#: kobo/apps/accounts/forms.py:115 kpi/templates/base.html:29
+msgid "Terms of Service"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:122 kpi/templates/base.html:34
+msgid "Privacy Policy"
+msgstr "গোপনীয়তা নীতি"
+
+#: kobo/apps/accounts/forms.py:124
+msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
+msgstr "আমি ##terms_of_service## ও ##privacy_policy##র সাথে একমত"
+
+#: kobo/apps/accounts/forms.py:134
 msgid "Password confirmation"
 msgstr "পাসওয়ার্ড নিশ্চিতকরণ"
 
-#: kobo/apps/accounts/forms.py:183
+#: kobo/apps/accounts/forms.py:136
+msgid "name@organization.org"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:211
+msgid "This field is required."
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:298
 msgid "You must type the same password each time."
 msgstr "আপনাকে প্রতিবার একই পাসওয়ার্ড টাইপ করতে হবে।"
 
@@ -238,7 +278,7 @@ msgid "Log in using SSO"
 msgstr "SSO দিয়ে লগইন করুন"
 
 #: kobo/apps/accounts/templates/account/login.html:52
-#: kobo/apps/accounts/templates/account/signup.html:61
+#: kobo/apps/accounts/templates/account/signup.html:63
 msgid ""
 "If you set up Single Sign On in your account settings, you will only be able"
 " to log in through this method."
@@ -280,24 +320,24 @@ msgstr "পাসওয়ার্ড রিসেট করা যায় ন�
 msgid "Submit"
 msgstr "জমা দিন"
 
-#: kobo/apps/accounts/templates/account/signup.html:45
+#: kobo/apps/accounts/templates/account/signup.html:47
 msgid "Create Account"
 msgstr "অ্যাকাউন্ট তৈরি করুন"
 
-#: kobo/apps/accounts/templates/account/signup.html:49
+#: kobo/apps/accounts/templates/account/signup.html:51
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "or"
 msgstr "বা"
 
-#: kobo/apps/accounts/templates/account/signup.html:49
+#: kobo/apps/accounts/templates/account/signup.html:51
 msgid "login"
 msgstr "লগইন করুন"
 
-#: kobo/apps/accounts/templates/account/signup.html:59
+#: kobo/apps/accounts/templates/account/signup.html:61
 msgid "Register using SSO"
 msgstr "SSO দিয়ে নিবন্ধন করুন"
 
-#: kobo/apps/accounts/templates/account/signup.html:73
+#: kobo/apps/accounts/templates/account/signup.html:75
 msgid "Register with SSO"
 msgstr "SSO দিয়ে নিবন্ধন করুন"
 
@@ -360,7 +400,7 @@ msgstr "আপনি আপনার %(appname)s অ্যাকাউন্ট 
 msgid "As a final step, please complete the following form"
 msgstr "শেষ ধাপ হিসাবে নিচের ফর্মটি পূরণ করুন"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:43
+#: kobo/apps/accounts/templates/socialaccount/signup.html:44
 msgid "Save and Access"
 msgstr "সেভ করে অ্যাক্সেস করুন"
 
@@ -479,7 +519,7 @@ msgstr "`{}` পাওয়া যায় নি।"
 msgid "`{}` is not a select one question."
 msgstr "`{}` একনির্বাচনী প্রশ্ন নয়।"
 
-#: kobo/settings/base.py:244
+#: kobo/settings/base.py:246
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -487,7 +527,7 @@ msgid ""
 "email##)."
 msgstr "আপনি যদি আপনার অথেন্টিকেটর অ্যাপটি ব্যবহার করতে না পারেন তাহলে অনুগ্রহ করে আপনার ব্যাকআপ কোডগুলোর কোনো একটি এখানে লিখুন। যদি সেগুলোও ব্যবহার করতে না পারেন তাহলে আপনাকে [##support email##](mailto:##support email##) অ্যাড্রেসে যোগাযোগ করে সহায়তা নিতে হবে।"
 
-#: kobo/settings/base.py:443
+#: kobo/settings/base.py:447
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -590,11 +630,11 @@ msgstr "মানবিক - সুরক্ষা"
 msgid "Humanitarian - Sanitation, Water & Hygiene"
 msgstr "মানবিক - পয়ঃনিষ্কাশন, জল এবং স্বাস্থ্যবিধি"
 
-#: kobo/static_lists.py:344 kobo/static_lists.py:355
+#: kobo/static_lists.py:344 kobo/static_lists.py:356
 msgid "Sector"
 msgstr "খাত"
 
-#: kobo/static_lists.py:345 kobo/static_lists.py:359
+#: kobo/static_lists.py:345 kobo/static_lists.py:360
 msgid "Country"
 msgstr "দেশ"
 
@@ -614,77 +654,45 @@ msgstr "বিবরণ"
 msgid "Full name"
 msgstr "পুরো নাম"
 
-#: kobo/static_lists.py:353
-msgid "Organization"
-msgstr "সংস্থা"
-
-#: kobo/static_lists.py:354 kobo/static_lists.py:367
-msgid "Organization website"
-msgstr "সংস্থার ওয়েবসাইট"
-
-#: kobo/static_lists.py:356
-msgid "Gender"
-msgstr "লিঙ্গ"
-
-#: kobo/static_lists.py:357
-msgid "Bio"
-msgstr "জীবনবৃত্তান্ত"
-
-#: kobo/static_lists.py:358
-msgid "City"
-msgstr "শহর"
-
-#: kobo/static_lists.py:360
-msgid "Twitter"
-msgstr "টুইটার"
-
-#: kobo/static_lists.py:361
-msgid "LinkedIn"
-msgstr "লিঙ্কডইন"
-
-#: kobo/static_lists.py:362
-msgid "Instagram"
-msgstr "ইনস্টাগ্রাম"
-
-#: kobo/static_lists.py:365 kpi/password_validation.py:110
+#: kobo/static_lists.py:353 kpi/password_validation.py:110
 msgid "Organization name"
 msgstr "সংস্থার নাম"
 
-#: kobo/static_lists.py:366
+#: kobo/static_lists.py:354
 msgid "Organization type"
 msgstr "সংস্থার ধরন"
 
-#: kobo/static_lists.py:369
+#: kobo/static_lists.py:355
+msgid "Organization website"
+msgstr "সংস্থার ওয়েবসাইট"
+
+#: kobo/static_lists.py:357
+msgid "Gender"
+msgstr "লিঙ্গ"
+
+#: kobo/static_lists.py:358
+msgid "Bio"
+msgstr "জীবনবৃত্তান্ত"
+
+#: kobo/static_lists.py:359
+msgid "City"
+msgstr "শহর"
+
+#: kobo/static_lists.py:361
+msgid "Twitter"
+msgstr "টুইটার"
+
+#: kobo/static_lists.py:362
+msgid "LinkedIn"
+msgstr "লিঙ্কডইন"
+
+#: kobo/static_lists.py:363
+msgid "Instagram"
+msgstr "ইনস্টাগ্রাম"
+
+#: kobo/static_lists.py:364
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "আমি KoboToolbox সম্পর্কে মাঝে মাঝে আপডেট পেতে চাই"
-
-#: kobo/static_lists.py:370
-msgid "I want to receive occasional updates"
-msgstr "আমি মাঝে মাঝে আপডেট পেতে চাই"
-
-#: kobo/static_lists.py:371
-msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr "এগিয়ে যাওয়ার জন্য, ওপরের চেকবক্সে টিক দিয়ে আমাদের শর্তাবলীতে সম্মতি দিন।"
-
-#: kobo/static_lists.py:372
-msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr "আমি ##terms_of_service## ও ##privacy_policy##র সাথে একমত"
-
-#: kobo/static_lists.py:373
-msgid "Country Name"
-msgstr "দেশের নাম"
-
-#: kobo/static_lists.py:374
-msgid "Select a type"
-msgstr "ধরন নির্বাচন করুন"
-
-#: kobo/static_lists.py:375
-msgid "Sector name"
-msgstr "খাতের নাম"
-
-#: kobo/static_lists.py:376
-msgid "Personal Details"
-msgstr "ব্যক্তিগত তথ্য"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -963,15 +971,15 @@ msgid ""
 "characters."
 msgstr "পাসওয়ার্ডে অন্তত ##number of rules##টি ভিন্ন ভিন্ন ধরনের অক্ষর থাকতে হবে।"
 
-#: kpi/serializers/current_user.py:150
+#: kpi/serializers/current_user.py:170
 msgid "Incorrect current password."
 msgstr "বর্তমান পাসওয়ার্ড ভুল।"
 
-#: kpi/serializers/current_user.py:170
+#: kpi/serializers/current_user.py:190
 msgid "`current_password` and `new_password` must both be"
 msgstr "`current_password` ও `new_password` দুটোই"
 
-#: kpi/serializers/current_user.py:197
+#: kpi/serializers/current_user.py:230
 #: kpi/serializers/v2/asset_permission_assignment.py:287
 msgid "This field may not be blank."
 msgstr "এই ঘরটি ফাঁকা রাখা যাবে না।"
@@ -1020,29 +1028,29 @@ msgstr "খসড়া প্রকল্পকে আর্কাইভ কর
 msgid "Confirmation is required"
 msgstr "নিশ্চিতকরণ আবশ্যক"
 
-#: kpi/serializers/v2/asset.py:780
+#: kpi/serializers/v2/asset.py:778
 msgid "The property is required"
 msgstr "এই প্রোপার্টিটি আবশ্যক"
 
-#: kpi/serializers/v2/asset.py:784
+#: kpi/serializers/v2/asset.py:782
 msgid "The property must be an array"
 msgstr "এই প্রোপার্টিটিকে একটি অ্যারে হতে হবে"
 
-#: kpi/serializers/v2/asset.py:806
+#: kpi/serializers/v2/asset.py:804
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
 msgstr "কয়েকটি ঘর সঠিক নয়, এখান থেকে ঠিক ঘর বেছে নিন: `{valid_fields}`"
 
-#: kpi/serializers/v2/asset.py:828
+#: kpi/serializers/v2/asset.py:826
 msgid "User cannot update current parent collection"
 msgstr "বর্তমান প্যারেন্ট সংগ্রহটিকে ইউজার আপডেট করতে পারবে না"
 
-#: kpi/serializers/v2/asset.py:838
+#: kpi/serializers/v2/asset.py:836
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
 msgstr "কাঙ্ক্ষিত সংগ্রহটি পাওয়া যায় নি"
 
-#: kpi/serializers/v2/asset.py:842
+#: kpi/serializers/v2/asset.py:840
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
 msgstr "বর্তমান কাঙ্ক্ষিত সংগ্রহটিকে ইউজার আপডেট করতে পারবে না"
@@ -1255,14 +1263,6 @@ msgstr "`{basename}` ইতিমধ্যেই ব্যবহার করা
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
 msgstr "অ্যাসেটের ধরন সঠিক নয়। শুধু `{asset_type}` ব্যবহারেরই অনুমতি আছে"
 
-#: kpi/templates/base.html:29
-msgid "Terms and Conditions"
-msgstr "শর্তাবলি"
-
-#: kpi/templates/base.html:34
-msgid "Privacy Policy"
-msgstr "গোপনীয়তা নীতি"
-
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
 msgstr "আধুনিক ব্রাউজার"
@@ -1344,7 +1344,7 @@ msgid ""
 "not copied from that shared database to the new, KPI-only database."
 msgstr "শুরুতে KoBoCAT-এর ডাটাবেসটি KPI-এর কাজেও ব্যবহৃত হত, কিন্তু সেই শেয়ার-করা ডাটাবেসটি থেকে KPI-এর টেবিলগুলো শুধু KPI-এর ব্যবহারের জন্য সৃষ্ট নতুন ডাটাবেসে কপি হয় নি।"
 
-#: kpi/views/current_user.py:106
+#: kpi/views/current_user.py:108
 msgid "Invalid confirmation"
 msgstr "নিশ্চিতকরণ সঠিক হয় নি"
 

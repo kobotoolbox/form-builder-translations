@@ -12,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-15 22:18+0000\n"
+"POT-Creation-Date: 2023-12-22 01:14+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: jmacura <macurajan@gmail.com>, 2022\n"
 "Language-Team: Czech (http://app.transifex.com/kobotoolbox/kobotoolbox/language/cs/)\n"
@@ -22,43 +22,63 @@ msgstr ""
 "Language: cs\n"
 "Plural-Forms: nplurals=4; plural=(n == 1 && n % 1 == 0) ? 0 : (n >= 2 && n <= 4 && n % 1 == 0) ? 1: (n % 1 != 0 ) ? 2 : 3;\n"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:15
+#: jsapp/js/account/accountFieldsEditor.component.tsx:17
+msgid "Non-profit organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:18
+msgid "Government institution"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:19
+msgid "Educational organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:20
+msgid "A commercial/for-profit company"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:21
+msgid "I am not associated with any organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:24
 msgid "Male"
 msgstr "Muž"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:16
+#: jsapp/js/account/accountFieldsEditor.component.tsx:25
 msgid "Female"
 msgstr "Žena"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:17
+#: jsapp/js/account/accountFieldsEditor.component.tsx:26
 msgid "Other"
 msgstr "Jiné"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:94
+#: jsapp/js/account/accountFieldsEditor.component.tsx:138
 msgid "Privacy"
 msgstr "Soukromí"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:101
+#: jsapp/js/account/accountFieldsEditor.component.tsx:145
 msgid "Require authentication to see forms and submit data"
 msgstr "Vyžaduje ověření pro zobrazení formulářů a odesílání dat"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:117
+#: jsapp/js/account/accountFieldsEditor.component.tsx:161
 msgid "Use this to display your real name to other users"
 msgstr "Pomocí této funkce můžete ostatním uživatelům zobrazit své skutečné jméno"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:249
+#: jsapp/js/account/accountFieldsEditor.component.tsx:319
 msgid "Social"
 msgstr "Sociální sítě"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:86
+#: jsapp/js/account/accountSettingsRoute.tsx:89
 msgid "You have unsaved changes. Leave settings without saving?"
 msgstr "Máte neuložené změny. Chcete opustit nastavení bez uložení?"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:109
+#: jsapp/js/account/accountSettingsRoute.tsx:112
 msgid "Updated profile successfully"
 msgstr "Profil byl úspěšně aktualizován"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:138
+#: jsapp/js/account/accountSettingsRoute.tsx:141
 #: jsapp/js/components/modalForms/projectSettings.es6:894
 #: jsapp/js/components/modalForms/translationTable.es6:23
 msgid "Save Changes"
@@ -215,12 +235,12 @@ msgid "Passwords don't match"
 msgstr "Hesla se neshodují"
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:85
-#: jsapp/js/actions.es6:421
+#: jsapp/js/actions.es6:408
 msgid "changed password successfully"
 msgstr "heslo úspěšně změněno"
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:108
-#: jsapp/js/actions.es6:424 jsapp/js/i18nMissingStrings.es6:86
+#: jsapp/js/actions.es6:411 jsapp/js/i18nMissingStrings.es6:86
 msgid "failed to change password"
 msgstr "nepodařilo se změnit heslo"
 
@@ -228,11 +248,11 @@ msgstr "nepodařilo se změnit heslo"
 msgid "Current Password"
 msgstr "Aktuální heslo"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:34
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:33
 msgid "Single-Sign On"
 msgstr "Jednotné přihlašování (SSO)"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:40
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:39
 msgid ""
 "Connect your KoboToolbox account with your organization's identity provider "
 "for single-sign on (SSO). Afterwards, you will only be able to sign in via "
@@ -240,11 +260,11 @@ msgid ""
 "address in case your current address is different."
 msgstr "Když účet KoboToolbox propojíte s přihlašovacím řešením, které používáte ve své organizaci, budete se moci připojovat v rámci jednotného přihlašování (pokud zde toto nastavení nedeaktivujete). Dojde také k aktualizaci vaší e-mailové adresy, pokud se bude lišit)."
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:47
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:46
 msgid "Already connected"
 msgstr "Již připojeno"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:76
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:75
 msgid "Disable"
 msgstr "Zakázat"
 
@@ -274,7 +294,7 @@ msgid "per account"
 msgstr "na jeden účet"
 
 #: jsapp/js/account/usage.component.tsx:154
-#: jsapp/js/project/submissionsCountGraph.component.tsx:319
+#: jsapp/js/project/submissionsCountGraph.component.tsx:321
 msgid "Total"
 msgstr "Celkem"
 
@@ -286,111 +306,111 @@ msgstr "Počet minut přepisu"
 msgid "Translation characters"
 msgstr "Počet znaků překladu"
 
-#: jsapp/js/actions.es6:91 jsapp/js/actions.es6:97
+#: jsapp/js/actions.es6:90 jsapp/js/actions.es6:96
 msgid "Failed to update permissions"
 msgstr "Nepodařilo se aktualizovat oprávnění"
 
-#: jsapp/js/actions.es6:94
+#: jsapp/js/actions.es6:93
 msgid "Failed to remove permissions"
 msgstr "Odebrání oprávnění selhalo"
 
-#: jsapp/js/actions.es6:160
+#: jsapp/js/actions.es6:159
 msgid "successfully updated"
 msgstr "úspěšně aktualizováno"
 
-#: jsapp/js/actions.es6:200
+#: jsapp/js/actions.es6:199
 msgid "please check your connection and try again."
 msgstr "zkontrolujte prosím své připojení a zkuste to znovu."
 
-#: jsapp/js/actions.es6:203 jsapp/js/actions.es6:213
+#: jsapp/js/actions.es6:202 jsapp/js/actions.es6:212
 msgid "if this problem persists, contact help@kobotoolbox.org"
 msgstr "pokud tento problém přetrvává, obraťte se na help@kobotoolbox.org"
 
-#: jsapp/js/actions.es6:211
+#: jsapp/js/actions.es6:210
 msgid "your form id was not valid:"
 msgstr "ID formuláře nebylo platné:"
 
-#: jsapp/js/actions.es6:217
+#: jsapp/js/actions.es6:216
 msgid "your form cannot be deployed because it contains errors:"
 msgstr "váš formulář nelze zveřejnit, protože obsahuje chyby:"
 
-#: jsapp/js/actions.es6:221
+#: jsapp/js/actions.es6:220
 msgid "unable to deploy"
 msgstr "nelze zveřejnit"
 
-#: jsapp/js/actions.es6:236
+#: jsapp/js/actions.es6:235
 msgid "Project unarchived successfully"
 msgstr "Projekt úspěšně vyjmut z archivu"
 
-#: jsapp/js/actions.es6:238
+#: jsapp/js/actions.es6:237
 msgid "Project archived successfully"
 msgstr "Projekt úspěšně archivován"
 
-#: jsapp/js/actions.es6:352
+#: jsapp/js/actions.es6:351
 msgid "Unable to delete asset!"
 msgstr "Položku nelze smazat!"
 
-#: jsapp/js/actions.es6:353
+#: jsapp/js/actions.es6:352
 msgid "Error details:"
 msgstr "Podrobnosti chyby:"
 
-#: jsapp/js/actions.es6:369
+#: jsapp/js/actions.es6:368
 msgid "Could not create project!"
 msgstr "Nelze vytvořit projekt!"
 
-#: jsapp/js/actions.es6:435
+#: jsapp/js/actions.es6:422
 msgid "failed to load API token"
 msgstr "nepodařilo se načíst token API"
 
-#: jsapp/js/actions.es6:465
+#: jsapp/js/actions.es6:452
 msgid "submission deleted"
 msgstr "odeslaná data z formuláře smazána"
 
-#: jsapp/js/actions.es6:470
+#: jsapp/js/actions.es6:457
 msgid "failed to delete submission"
 msgstr "nepodařilo se smazat odeslaná data z formuláře"
 
-#: jsapp/js/actions.es6:478
+#: jsapp/js/actions.es6:465
 msgid "Successfully duplicated submission"
 msgstr "Odeslaná data z formuláře byla úspěšně duplikována"
 
-#: jsapp/js/actions.es6:483
+#: jsapp/js/actions.es6:470
 msgid "Failed to duplicate submission"
 msgstr "Nepodařilo se duplikovat odeslaná data z formuláře"
 
-#: jsapp/js/actions.es6:521
+#: jsapp/js/actions.es6:508
 msgid "REST Service added successfully"
 msgstr "Služba REST byla úspěšně přidána"
 
-#: jsapp/js/actions.es6:524
+#: jsapp/js/actions.es6:511
 msgid "Failed adding REST Service"
 msgstr "Selhalo přidání služby REST"
 
-#: jsapp/js/actions.es6:544
+#: jsapp/js/actions.es6:531
 msgid "REST Service updated successfully"
 msgstr "Služba REST byla úspěšně aktualizována"
 
-#: jsapp/js/actions.es6:547
+#: jsapp/js/actions.es6:534
 msgid "Failed saving REST Service"
 msgstr "Selhalo ukládání služby REST"
 
-#: jsapp/js/actions.es6:567
+#: jsapp/js/actions.es6:554
 msgid "REST Service deleted permanently"
 msgstr "Služba REST byla trvale smazána"
 
-#: jsapp/js/actions.es6:570
+#: jsapp/js/actions.es6:557
 msgid "Could not delete REST Service"
 msgstr "Službu REST nelze smazat"
 
-#: jsapp/js/actions.es6:606
+#: jsapp/js/actions.es6:593
 msgid "Submission retry requested successfully"
 msgstr "Opakování odeslání dat z formuláře úspěšně vyžádáno"
 
-#: jsapp/js/actions.es6:609
+#: jsapp/js/actions.es6:596
 msgid "Submission retry request failed"
 msgstr "Selhal požadavek na opakování odeslání dat z formuláře"
 
-#: jsapp/js/actions.es6:632
+#: jsapp/js/actions.es6:619
 msgid "Retrying all submissions failed"
 msgstr "Opakování všech odeslání dat z formuláře selhalo"
 
@@ -511,8 +531,8 @@ msgstr "Nepodařilo se smazat odeslaná data z formuláře."
 msgid "Delete?"
 msgstr "Smazat?"
 
-#: jsapp/js/alertify.ts:165 jsapp/js/assetQuickActions.tsx:128
-#: jsapp/js/assetQuickActions.tsx:131
+#: jsapp/js/alertify.ts:165 jsapp/js/assetQuickActions.tsx:129
+#: jsapp/js/assetQuickActions.tsx:132
 #: jsapp/js/components/modalForms/translationSettings.es6:153
 #: jsapp/js/components/processing/transcriptTabContent.tsx:417
 #: jsapp/js/components/processing/translationsTabContent.tsx:540
@@ -531,10 +551,10 @@ msgstr "Smazat"
 msgid "This action is not reversible"
 msgstr "Akci nelze vrátit zpět"
 
-#: jsapp/js/alertify.ts:174 jsapp/js/assetQuickActions.tsx:132
-#: jsapp/js/assetQuickActions.tsx:163 jsapp/js/assetQuickActions.tsx:201
-#: jsapp/js/assetQuickActions.tsx:250 jsapp/js/assetQuickActions.tsx:325
-#: jsapp/js/assetQuickActions.tsx:423 jsapp/js/assetQuickActions.tsx:483
+#: jsapp/js/alertify.ts:174 jsapp/js/assetQuickActions.tsx:133
+#: jsapp/js/assetQuickActions.tsx:164 jsapp/js/assetQuickActions.tsx:202
+#: jsapp/js/assetQuickActions.tsx:251 jsapp/js/assetQuickActions.tsx:326
+#: jsapp/js/assetQuickActions.tsx:424 jsapp/js/assetQuickActions.tsx:484
 #: jsapp/js/components/RESTServices/RESTServicesList.es6:82
 #: jsapp/js/components/bigModal/bigModal.es6:276
 #: jsapp/js/components/dataAttachments/connectProjects.es6:265
@@ -554,175 +574,175 @@ msgstr "Akci nelze vrátit zpět"
 msgid "Cancel"
 msgstr "Zrušit"
 
-#: jsapp/js/api.ts:37 jsapp/js/components/reports/reports.js:466
+#: jsapp/js/api.ts:54 jsapp/js/components/reports/reports.js:466
 msgid "An error occurred"
 msgstr "Došlo k chybě"
 
-#: jsapp/js/api.ts:43
+#: jsapp/js/api.ts:61
 msgid "Your connection is offline"
 msgstr "Jste offline"
 
-#: jsapp/js/assetQuickActions.tsx:66
+#: jsapp/js/assetQuickActions.tsx:67
 msgid "##ASSET_TYPE## deleted permanently"
 msgstr "Položka (##ASSET_TYPE##) byla trvale smazána"
 
-#: jsapp/js/assetQuickActions.tsx:82
+#: jsapp/js/assetQuickActions.tsx:83
 msgid "You are about to permanently delete this item from your library."
 msgstr "Tuto položku se chystáte trvale smazat ze své knihovny."
 
-#: jsapp/js/assetQuickActions.tsx:85
+#: jsapp/js/assetQuickActions.tsx:86
 msgid "You are about to permanently delete this draft."
 msgstr "Chystáte se tento koncept trvale smazat."
 
-#: jsapp/js/assetQuickActions.tsx:88
+#: jsapp/js/assetQuickActions.tsx:89
 msgid "You are about to permanently delete this form."
 msgstr "Chystáte se tento formulář trvale smazat."
 
-#: jsapp/js/assetQuickActions.tsx:92
+#: jsapp/js/assetQuickActions.tsx:93
 msgid "All data gathered for this form will be deleted."
 msgstr "Všechny údaje shromážděné pro tento formulář budou vymazány."
 
-#: jsapp/js/assetQuickActions.tsx:97
+#: jsapp/js/assetQuickActions.tsx:98
 msgid "The form associated with this project will be deleted."
 msgstr "Formulář spojený s tímto projektem bude vymazán."
 
-#: jsapp/js/assetQuickActions.tsx:102
+#: jsapp/js/assetQuickActions.tsx:103
 msgid ""
 "I understand that if I delete this project I will not be able to recover it."
 msgstr "Chápu, že pokud tento projekt smažu, nebude ho možné obnovit."
 
-#: jsapp/js/assetQuickActions.tsx:158
+#: jsapp/js/assetQuickActions.tsx:159
 #: jsapp/js/components/modalForms/projectSettings.es6:1035
 msgid "Archive Project"
 msgstr "Archivovat projekt"
 
-#: jsapp/js/assetQuickActions.tsx:159
+#: jsapp/js/assetQuickActions.tsx:160
 msgid "Are you sure you want to archive this project?"
 msgstr "Opravdu chcete tento projekt archivovat?"
 
-#: jsapp/js/assetQuickActions.tsx:161
+#: jsapp/js/assetQuickActions.tsx:162
 msgid "Your form will not accept submissions while it is archived."
 msgstr "Dokud je váš formulář archivován, odeslaná data z formuláře nebudou přijímány."
 
-#: jsapp/js/assetQuickActions.tsx:163
+#: jsapp/js/assetQuickActions.tsx:164
 msgid "Archive"
 msgstr "Archivovat"
 
-#: jsapp/js/assetQuickActions.tsx:199
+#: jsapp/js/assetQuickActions.tsx:200
 #: jsapp/js/components/modalForms/projectSettings.es6:1025
 msgid "Unarchive Project"
 msgstr "Zrušit archivaci projektu"
 
-#: jsapp/js/assetQuickActions.tsx:200
+#: jsapp/js/assetQuickActions.tsx:201
 msgid "Are you sure you want to unarchive this project?"
 msgstr "Opravdu chcete zrušit archivaci tohoto projektu?"
 
-#: jsapp/js/assetQuickActions.tsx:201
+#: jsapp/js/assetQuickActions.tsx:202
 msgid "Unarchive"
 msgstr "Zrušit archivaci"
 
-#: jsapp/js/assetQuickActions.tsx:239 jsapp/js/mixins.tsx:129
+#: jsapp/js/assetQuickActions.tsx:240 jsapp/js/mixins.tsx:129
 msgid "Clone of"
 msgstr "Klon"
 
-#: jsapp/js/assetQuickActions.tsx:245 jsapp/js/mixins.tsx:133
+#: jsapp/js/assetQuickActions.tsx:246 jsapp/js/mixins.tsx:133
 msgid "Clone"
 msgstr "Klonovat"
 
-#: jsapp/js/assetQuickActions.tsx:247 jsapp/js/mixins.tsx:135
+#: jsapp/js/assetQuickActions.tsx:248 jsapp/js/mixins.tsx:135
 msgid ""
 "Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
 "original name."
 msgstr "Zadejte název klonované položky (##ASSET_TYPE##). Pro zachování původního názvu ponechte pole prázdné."
 
-#: jsapp/js/assetQuickActions.tsx:250 jsapp/js/assetQuickActions.tsx:483
+#: jsapp/js/assetQuickActions.tsx:251 jsapp/js/assetQuickActions.tsx:484
 #: jsapp/js/mixins.tsx:138
 msgid "Ok"
 msgstr "OK"
 
-#: jsapp/js/assetQuickActions.tsx:253
+#: jsapp/js/assetQuickActions.tsx:254
 msgid "Cloning..."
 msgstr "Klonování…"
 
-#: jsapp/js/assetQuickActions.tsx:290
+#: jsapp/js/assetQuickActions.tsx:291
 msgid "cloned ##ASSET_TYPE## created"
 msgstr "klon položky (##ASSET_TYPE##) vytvořen"
 
-#: jsapp/js/assetQuickActions.tsx:325
+#: jsapp/js/assetQuickActions.tsx:326
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:202
 msgid "Create"
 msgstr "Vytvořit"
 
-#: jsapp/js/assetQuickActions.tsx:332
+#: jsapp/js/assetQuickActions.tsx:333
 #: jsapp/js/components/modalForms/projectSettings.es6:527
 #: jsapp/js/components/modalForms/projectSettings.es6:1010
 msgid "Please wait…"
 msgstr "Čekejte prosím…"
 
-#: jsapp/js/assetQuickActions.tsx:363
+#: jsapp/js/assetQuickActions.tsx:364
 msgid "Failed to create new asset!"
 msgstr "Nepodařilo se vytvořit novou položku!"
 
-#: jsapp/js/assetQuickActions.tsx:384
+#: jsapp/js/assetQuickActions.tsx:385
 msgid "Create new template from this project"
 msgstr "Vytvoření nové šablony z tohoto projektu"
 
-#: jsapp/js/assetQuickActions.tsx:385
+#: jsapp/js/assetQuickActions.tsx:386
 msgid "Enter the name of the new template."
 msgstr "Zadejte název nové šablony."
 
-#: jsapp/js/assetQuickActions.tsx:395
+#: jsapp/js/assetQuickActions.tsx:396
 msgid "Create new project from this template"
 msgstr "Vytvoření nového projektu z této šablony"
 
-#: jsapp/js/assetQuickActions.tsx:396
+#: jsapp/js/assetQuickActions.tsx:397
 msgid "Enter the name of the new project."
 msgstr "Zadejte název nového projektu."
 
-#: jsapp/js/assetQuickActions.tsx:421
+#: jsapp/js/assetQuickActions.tsx:422
 msgid "Remove shared form"
 msgstr "Odebrat sdílený formulář"
 
-#: jsapp/js/assetQuickActions.tsx:422
+#: jsapp/js/assetQuickActions.tsx:423
 msgid "Are you sure you want to remove this shared form?"
 msgstr "Opravdu chcete tento sdílený formulář odebrat?"
 
-#: jsapp/js/assetQuickActions.tsx:423
+#: jsapp/js/assetQuickActions.tsx:424
 #: jsapp/js/components/permissions/userPermissionRow.component.tsx:59
 msgid "Remove"
 msgstr "Odebrat"
 
-#: jsapp/js/assetQuickActions.tsx:445
+#: jsapp/js/assetQuickActions.tsx:446
 msgid "deploying to kobocat..."
 msgstr "zveřejňuje se na kobocat…"
 
-#: jsapp/js/assetQuickActions.tsx:450
+#: jsapp/js/assetQuickActions.tsx:451
 msgid "deployed form"
 msgstr "zveřejněný formulář"
 
-#: jsapp/js/assetQuickActions.tsx:470
+#: jsapp/js/assetQuickActions.tsx:471
 msgid "Overwrite existing deployment"
 msgstr "Přepsat stávající zveřejnění"
 
-#: jsapp/js/assetQuickActions.tsx:476
+#: jsapp/js/assetQuickActions.tsx:477
 msgid ""
 "This form has already been deployed. Are you sure you want overwrite the "
 "existing deployment?"
 msgstr "Tento formulář již byl zveřejněn. Opravdu chcete přepsat stávající zveřejnění?"
 
-#: jsapp/js/assetQuickActions.tsx:480 jsapp/js/i18nMissingStrings.es6:96
+#: jsapp/js/assetQuickActions.tsx:481 jsapp/js/i18nMissingStrings.es6:96
 msgid "This action cannot be undone."
 msgstr "Tuto akci nelze vzít zpět."
 
-#: jsapp/js/assetQuickActions.tsx:487
+#: jsapp/js/assetQuickActions.tsx:488
 msgid "Deploying..."
 msgstr "Zveřejňování…"
 
-#: jsapp/js/assetQuickActions.tsx:490
+#: jsapp/js/assetQuickActions.tsx:491
 msgid "redeployed form"
 msgstr "znovu zveřejněný formulář"
 
-#: jsapp/js/assetUtils.ts:65 jsapp/js/components/formSummaryProjectInfo.tsx:89
+#: jsapp/js/assetUtils.ts:65 jsapp/js/components/formSummaryProjectInfo.tsx:97
 #: jsapp/js/projects/projectsTable/projectsTableRow.tsx:47
 msgid "me"
 msgstr "já"
@@ -891,7 +911,7 @@ msgid "Create template"
 msgstr "Vytvořit šablonu"
 
 #: jsapp/js/components/assetsTable/assetsTable.tsx:195
-#: jsapp/js/components/formSummaryProjectInfo.tsx:82
+#: jsapp/js/components/formSummaryProjectInfo.tsx:90
 #: jsapp/js/components/library/assetInfoBox.es6:103
 #: jsapp/js/components/templatesList.es6:77
 msgid "Questions"
@@ -914,7 +934,7 @@ msgid "Items"
 msgstr "Položky"
 
 #: jsapp/js/components/assetsTable/assetsTableConstants.ts:65
-#: jsapp/js/components/formSummaryProjectInfo.tsx:88
+#: jsapp/js/components/formSummaryProjectInfo.tsx:96
 #: jsapp/js/components/library/assetInfoBox.es6:73
 #: jsapp/js/components/templatesList.es6:71
 #: jsapp/js/projects/projectViews/constants.ts:177
@@ -926,7 +946,7 @@ msgid "Subscribers"
 msgstr "Odběratelé"
 
 #: jsapp/js/components/assetsTable/assetsTableConstants.ts:77
-#: jsapp/js/components/formSummaryProjectInfo.tsx:150
+#: jsapp/js/components/formSummaryProjectInfo.tsx:158
 #: jsapp/js/components/library/assetInfoBox.es6:132
 #: jsapp/js/projects/projectViews/constants.ts:289
 msgid "Languages"
@@ -1386,42 +1406,42 @@ msgstr "nezveřejněno"
 msgid "path not found / recognized"
 msgstr "cesta nebyla nalezena/rozpoznána"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:57
+#: jsapp/js/components/formSummaryProjectInfo.tsx:65
 msgid "Project information"
 msgstr "Informace o projektu"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:66
+#: jsapp/js/components/formSummaryProjectInfo.tsx:74
 #: jsapp/js/components/library/assetInfoBox.es6:80
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:231
 #: jsapp/js/projects/projectViews/constants.ts:151
 msgid "Description"
 msgstr "Popis"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:76
+#: jsapp/js/components/formSummaryProjectInfo.tsx:84
 #: jsapp/js/projects/projectViews/constants.ts:167
 msgid "Status"
 msgstr "Stav"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:99
+#: jsapp/js/components/formSummaryProjectInfo.tsx:107
 #: jsapp/js/components/templatesList.es6:74
 msgid "Last modified"
 msgstr "Poslední úprava"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:105
+#: jsapp/js/components/formSummaryProjectInfo.tsx:113
 msgid "Last deployed"
 msgstr "Poslední zveřejnění"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:114
+#: jsapp/js/components/formSummaryProjectInfo.tsx:122
 msgid "Latest submission"
 msgstr "Poslední odeslaná data z formuláře"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:127
+#: jsapp/js/components/formSummaryProjectInfo.tsx:135
 #: jsapp/js/components/library/assetInfoBox.es6:118
 #: jsapp/js/projects/projectViews/constants.ts:263
 msgid "Sector"
 msgstr "Odvětví"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:137
+#: jsapp/js/components/formSummaryProjectInfo.tsx:145
 #: jsapp/js/projects/projectViews/constants.ts:275
 msgid "Countries"
 msgstr "Země"
@@ -1471,25 +1491,25 @@ msgstr "Služby REST"
 msgid "Please refresh the page"
 msgstr "Obnovte prosím stránku"
 
-#: jsapp/js/components/header/accountMenu.tsx:115
+#: jsapp/js/components/header/accountMenu.tsx:110
 msgid "Account Settings"
 msgstr "Nastavení účtu"
 
-#: jsapp/js/components/header/accountMenu.tsx:125
+#: jsapp/js/components/header/accountMenu.tsx:120
 msgid "Terms of Service"
 msgstr "Podmínkami služby"
 
-#: jsapp/js/components/header/accountMenu.tsx:130
+#: jsapp/js/components/header/accountMenu.tsx:125
 msgid "Privacy Policy"
 msgstr "Zásadami ochrany osobních údajů"
 
-#: jsapp/js/components/header/accountMenu.tsx:143
+#: jsapp/js/components/header/accountMenu.tsx:138
 #: jsapp/js/components/map.es6:847
 #: jsapp/js/components/projectDownloads/projectExportsList.es6:283
 msgid "Language"
 msgstr "Jazyk"
 
-#: jsapp/js/components/header/accountMenu.tsx:152
+#: jsapp/js/components/header/accountMenu.tsx:147
 msgid "Logout"
 msgstr "Odhlásit"
 
@@ -2935,7 +2955,7 @@ msgid "Export ##SELECT_MANY## questions as…"
 msgstr "Exportovat otázky (v počtu ##SELECT_MANY##) jako…"
 
 #: jsapp/js/components/projectDownloads/projectExportsCreator.es6:559
-#: jsapp/js/constants.ts:388 jsapp/js/formbuild/containers/KoboMatrix.es6:44
+#: jsapp/js/constants.ts:326 jsapp/js/formbuild/containers/KoboMatrix.es6:44
 #: jsapp/js/i18nMissingStrings.es6:102
 msgid "Select Many"
 msgstr "Vyberte více"
@@ -3196,7 +3216,7 @@ msgid "Horizontal"
 msgstr "Pruhový"
 
 #: jsapp/js/components/reports/reportsConstants.ts:97
-#: jsapp/js/constants.ts:370 jsapp/js/i18nMissingStrings.es6:45
+#: jsapp/js/constants.ts:308 jsapp/js/i18nMissingStrings.es6:45
 msgid "Line"
 msgstr "Spojnicový"
 
@@ -3211,7 +3231,7 @@ msgid "Donut"
 msgstr "Prstencový"
 
 #: jsapp/js/components/reports/reportsConstants.ts:125
-#: jsapp/js/constants.ts:369 jsapp/js/i18nMissingStrings.es6:42
+#: jsapp/js/constants.ts:307 jsapp/js/i18nMissingStrings.es6:42
 msgid "Area"
 msgstr "Plošný"
 
@@ -3565,248 +3585,248 @@ msgstr "Dosáhli jste"
 msgid "included with your current plan."
 msgstr "zahrnutého ve vašem stávajícím tarifu."
 
-#: jsapp/js/constants.ts:161
+#: jsapp/js/constants.ts:99
 msgid "Default - single page"
 msgstr "Výchozí – jedna stránka"
 
-#: jsapp/js/constants.ts:162
+#: jsapp/js/constants.ts:100
 msgid "Grid theme"
 msgstr "Motiv mřížky"
 
-#: jsapp/js/constants.ts:163
+#: jsapp/js/constants.ts:101
 msgid "Grid theme with headings in ALL CAPS"
 msgstr "Motiv mřížky s nadpisy psanými VERZÁLKAMI"
 
-#: jsapp/js/constants.ts:164
+#: jsapp/js/constants.ts:102
 msgid "Multiple pages"
 msgstr "Více stránek"
 
-#: jsapp/js/constants.ts:167
+#: jsapp/js/constants.ts:105
 msgid "Grid theme + Multiple pages"
 msgstr "Motiv mřížky + více stránek"
 
-#: jsapp/js/constants.ts:171
+#: jsapp/js/constants.ts:109
 msgid "Grid theme + Multiple pages + headings in ALL CAPS"
 msgstr "Motiv mřížky + více stránek + nadpisy ve VERZÁLKÁCH"
 
-#: jsapp/js/constants.ts:190
+#: jsapp/js/constants.ts:128
 msgid "Not approved"
 msgstr "Neschváleno"
 
-#: jsapp/js/constants.ts:194
+#: jsapp/js/constants.ts:132
 msgid "Approved"
 msgstr "Schváleno"
 
-#: jsapp/js/constants.ts:198
+#: jsapp/js/constants.ts:136
 msgid "On hold"
 msgstr "Zadrženo"
 
-#: jsapp/js/constants.ts:232
+#: jsapp/js/constants.ts:170
 msgid "question"
 msgstr "otázka"
 
-#: jsapp/js/constants.ts:236
+#: jsapp/js/constants.ts:174
 msgid "block"
 msgstr "blok"
 
-#: jsapp/js/constants.ts:240
+#: jsapp/js/constants.ts:178
 msgid "template"
 msgstr "šablona"
 
-#: jsapp/js/constants.ts:244
+#: jsapp/js/constants.ts:182
 msgid "project"
 msgstr "projekt"
 
-#: jsapp/js/constants.ts:248
+#: jsapp/js/constants.ts:186
 msgid "collection"
 msgstr "sbírka"
 
-#: jsapp/js/constants.ts:259
+#: jsapp/js/constants.ts:197
 msgid "map layer"
 msgstr "mapová vrstva"
 
-#: jsapp/js/constants.ts:263
+#: jsapp/js/constants.ts:201
 msgid "form media"
 msgstr "média formuláře"
 
-#: jsapp/js/constants.ts:332 jsapp/js/i18nMissingStrings.es6:66
+#: jsapp/js/constants.ts:270 jsapp/js/i18nMissingStrings.es6:66
 msgid "Acknowledge"
 msgstr "Potvrzení"
 
-#: jsapp/js/constants.ts:336 jsapp/js/i18nMissingStrings.es6:62
+#: jsapp/js/constants.ts:274 jsapp/js/i18nMissingStrings.es6:62
 msgid "Audio"
 msgstr "Zvuk"
 
-#: jsapp/js/constants.ts:338
+#: jsapp/js/constants.ts:276
 msgid "Barcode / QR Code"
 msgstr "Čárový kód / QR kód"
 
-#: jsapp/js/constants.ts:343 jsapp/js/i18nMissingStrings.es6:67
+#: jsapp/js/constants.ts:281 jsapp/js/i18nMissingStrings.es6:67
 msgid "Calculate"
 msgstr "Výpočet"
 
-#: jsapp/js/constants.ts:347 jsapp/js/i18nMissingStrings.es6:57
+#: jsapp/js/constants.ts:285 jsapp/js/i18nMissingStrings.es6:57
 msgid "Date"
 msgstr "Datum"
 
-#: jsapp/js/constants.ts:349 jsapp/js/i18nMissingStrings.es6:59
+#: jsapp/js/constants.ts:287 jsapp/js/i18nMissingStrings.es6:59
 msgid "Date & time"
 msgstr "Datum a čas"
 
-#: jsapp/js/constants.ts:354 jsapp/js/i18nMissingStrings.es6:56
+#: jsapp/js/constants.ts:292 jsapp/js/i18nMissingStrings.es6:56
 msgid "Decimal"
 msgstr "Desetinné číslo"
 
-#: jsapp/js/constants.ts:359
+#: jsapp/js/constants.ts:297
 msgid "External XML"
 msgstr "Externí XML"
 
-#: jsapp/js/constants.ts:363
+#: jsapp/js/constants.ts:301
 msgid "File"
 msgstr "Soubor"
 
-#: jsapp/js/constants.ts:365
+#: jsapp/js/constants.ts:303
 msgid "Point"
 msgstr "Místo na mapě"
 
-#: jsapp/js/constants.ts:371
+#: jsapp/js/constants.ts:309
 msgid "Hidden"
 msgstr "Skryté"
 
-#: jsapp/js/constants.ts:372 jsapp/js/i18nMissingStrings.es6:61
+#: jsapp/js/constants.ts:310 jsapp/js/i18nMissingStrings.es6:61
 msgid "Photo"
 msgstr "Fotografie"
 
-#: jsapp/js/constants.ts:374 jsapp/js/formbuild/containers/KoboMatrix.es6:52
+#: jsapp/js/constants.ts:312 jsapp/js/formbuild/containers/KoboMatrix.es6:52
 #: jsapp/js/i18nMissingStrings.es6:55
 msgid "Number"
 msgstr "Číslo"
 
-#: jsapp/js/constants.ts:379
+#: jsapp/js/constants.ts:317
 msgid "Question Matrix"
 msgstr "Matrix otázek"
 
-#: jsapp/js/constants.ts:383 jsapp/js/i18nMissingStrings.es6:64
+#: jsapp/js/constants.ts:321 jsapp/js/i18nMissingStrings.es6:64
 msgid "Note"
 msgstr "Poznámka"
 
-#: jsapp/js/constants.ts:384
+#: jsapp/js/constants.ts:322
 msgid "Range"
 msgstr "Rozsah"
 
-#: jsapp/js/constants.ts:385 jsapp/js/i18nMissingStrings.es6:69
+#: jsapp/js/constants.ts:323 jsapp/js/i18nMissingStrings.es6:69
 msgid "Ranking"
 msgstr "Žebříček"
 
-#: jsapp/js/constants.ts:386
+#: jsapp/js/constants.ts:324
 msgid "Rating"
 msgstr "Hodnocení"
 
-#: jsapp/js/constants.ts:393
+#: jsapp/js/constants.ts:331
 msgid "Select Many from File"
 msgstr "Vyberte více ze Souboru"
 
-#: jsapp/js/constants.ts:398 jsapp/js/formbuild/containers/KoboMatrix.es6:40
+#: jsapp/js/constants.ts:336 jsapp/js/formbuild/containers/KoboMatrix.es6:40
 #: jsapp/js/i18nMissingStrings.es6:101
 msgid "Select One"
 msgstr "Vyberte jedno"
 
-#: jsapp/js/constants.ts:403
+#: jsapp/js/constants.ts:341
 msgid "Select One from File"
 msgstr "Vyberte jeden ze Souboru"
 
-#: jsapp/js/constants.ts:407 jsapp/js/formbuild/containers/KoboMatrix.es6:48
+#: jsapp/js/constants.ts:345 jsapp/js/formbuild/containers/KoboMatrix.es6:48
 #: jsapp/js/i18nMissingStrings.es6:54
 msgid "Text"
 msgstr "Text"
 
-#: jsapp/js/constants.ts:408 jsapp/js/i18nMissingStrings.es6:58
+#: jsapp/js/constants.ts:346 jsapp/js/i18nMissingStrings.es6:58
 msgid "Time"
 msgstr "Čas"
 
-#: jsapp/js/constants.ts:409 jsapp/js/i18nMissingStrings.es6:63
+#: jsapp/js/constants.ts:347 jsapp/js/i18nMissingStrings.es6:63
 msgid "Video"
 msgstr "Video"
 
-#: jsapp/js/constants.ts:566
+#: jsapp/js/constants.ts:504
 msgid "Deployed"
 msgstr "Zveřejněno"
 
-#: jsapp/js/constants.ts:567 jsapp/js/i18nMissingStrings.es6:46
+#: jsapp/js/constants.ts:505 jsapp/js/i18nMissingStrings.es6:46
 msgid "Draft"
 msgstr "Koncept"
 
-#: jsapp/js/constants.ts:568 jsapp/js/i18nMissingStrings.es6:175
+#: jsapp/js/constants.ts:506 jsapp/js/i18nMissingStrings.es6:175
 msgid "Archived"
 msgstr "Archivováno"
 
-#: jsapp/js/constants.ts:581
+#: jsapp/js/constants.ts:519
 msgid "Online-Offline (multiple submission)"
 msgstr "Online–offline (vícenásobná odeslaná data z formuláře)"
 
-#: jsapp/js/constants.ts:583
+#: jsapp/js/constants.ts:521
 msgid ""
 "This allows online and offline submissions and is the best option for "
 "collecting data in the field."
 msgstr "Umožňuje online i offline odeslání dat z formuláře a je tou nejlepší volbou pro sběr dat v terénu."
 
-#: jsapp/js/constants.ts:588
+#: jsapp/js/constants.ts:526
 msgid "Online-Only (multiple submissions)"
 msgstr "Pouze online (vícenásobné odeslání dat z formuláře)"
 
-#: jsapp/js/constants.ts:590
+#: jsapp/js/constants.ts:528
 msgid ""
 "This is the best option when entering many records at once on a computer, "
 "e.g. for transcribing paper records."
 msgstr "Tato možnost je nejlepší při zadávání mnoha záznamů najednou do počítače, např. při přepisování papírových záznamů."
 
-#: jsapp/js/constants.ts:595
+#: jsapp/js/constants.ts:533
 msgid "Online-Only (single submission)"
 msgstr "Pouze online (jednorázové odeslání dat z formuláře)"
 
-#: jsapp/js/constants.ts:597
+#: jsapp/js/constants.ts:535
 msgid ""
 "This allows a single submission, and can be paired with the \"return_url\" "
 "parameter to redirect the user to a URL of your choice after the form has "
 "been submitted."
 msgstr "Tento parametr umožňuje jednorázové odeslání dat z formuláře a může být spojen s parametrem „return_url“, který uživatele po odeslání formuláře přesměruje na vámi zvolenou adresu URL."
 
-#: jsapp/js/constants.ts:602
+#: jsapp/js/constants.ts:540
 msgid "Online-only (once per respondent)"
 msgstr "Pouze online (jednou na respondenta)"
 
-#: jsapp/js/constants.ts:604
+#: jsapp/js/constants.ts:542
 msgid ""
 "This allows your web form to only be submitted once per user, using basic "
 "protection to prevent the same user (on the same browser & device) from "
 "submitting more than once."
 msgstr "Toto umožňuje, aby byl webový formulář odeslán pouze jednou na jednoho uživatele, a to prostřednictvím základní ochrany, která zabrání několikanásobnému odeslání formuláře stejným uživatelem (ve stejném prohlížeči a zařízení)."
 
-#: jsapp/js/constants.ts:609
+#: jsapp/js/constants.ts:547
 msgid "Embeddable web form code"
 msgstr "Vložitelný kód webového formuláře"
 
-#: jsapp/js/constants.ts:611
+#: jsapp/js/constants.ts:549
 msgid ""
 "Use this html5 code snippet to integrate your form on your own website using"
 " smaller margins."
 msgstr "Použijte tento úryvek kódu html5 k integraci formuláře na vlastní webové stránky za použití menších okrajů."
 
-#: jsapp/js/constants.ts:616
+#: jsapp/js/constants.ts:554
 msgid "View only"
 msgstr "Pouze prohlížení"
 
-#: jsapp/js/constants.ts:618
+#: jsapp/js/constants.ts:556
 msgid ""
 "Use this version for testing, getting feedback. Does not allow submitting "
 "data."
 msgstr "Tuto verzi použijte k testování a získání zpětné vazby. Neumožňuje odesílání dat."
 
-#: jsapp/js/constants.ts:623
+#: jsapp/js/constants.ts:561
 msgid "Android application"
 msgstr "Aplikace pro systém Android"
 
-#: jsapp/js/constants.ts:625
+#: jsapp/js/constants.ts:563
 msgid "Use this option to collect data in the field with your Android device."
 msgstr "Tuto možnost použijte ke sběru dat v terénu pomocí zařízení se systémem Android."
 
@@ -4235,7 +4255,7 @@ msgid "Manually enter your validation logic in XLSForm code"
 msgstr "Ruční zadání logiky ověřování v kódu souboru XLSForm"
 
 #: jsapp/js/i18nMissingStrings.es6:50 jsapp/js/i18nMissingStrings.es6:121
-#: jsapp/js/project/projectTopTabs.component.tsx:96
+#: jsapp/js/project/projectTopTabs.component.tsx:97
 msgid "Settings"
 msgstr "Nastavení"
 
@@ -4429,12 +4449,12 @@ msgid "Leave Beta"
 msgstr "Opustit verzi beta"
 
 #: jsapp/js/i18nMissingStrings.es6:118
-#: jsapp/js/project/projectTopTabs.component.tsx:72
+#: jsapp/js/project/projectTopTabs.component.tsx:73
 msgid "Form"
 msgstr "Formulář"
 
 #: jsapp/js/i18nMissingStrings.es6:119
-#: jsapp/js/project/projectTopTabs.component.tsx:83
+#: jsapp/js/project/projectTopTabs.component.tsx:84
 msgid "Data"
 msgstr "Data"
 
@@ -4642,18 +4662,6 @@ msgstr "Smazat projekt"
 msgid "More Actions"
 msgstr "Další akce"
 
-#: jsapp/js/i18nMissingStrings.es6:176
-msgid "Please make sure the following details are filled out correctly:"
-msgstr "Zkontrolujte prosím, zda jsou následující údaje vyplněny správně:"
-
-#: jsapp/js/i18nMissingStrings.es6:177
-msgid "I agree, let's go"
-msgstr "Souhlasím, jdeme na to"
-
-#: jsapp/js/i18nMissingStrings.es6:178
-msgid "I don't agree, log me out"
-msgstr "Nesouhlasím, odhlaste mě"
-
 #: jsapp/js/mixins.tsx:124
 msgid "copied to clipboard"
 msgstr "zkopírováno do schránky"
@@ -4666,7 +4674,7 @@ msgstr "otázka byla přidána do knihovny"
 msgid "group has been added to the library as a block"
 msgstr "skupina byla přidána do knihovny jako blok"
 
-#: jsapp/js/project/projectTopTabs.component.tsx:60
+#: jsapp/js/project/projectTopTabs.component.tsx:61
 msgid "Summary"
 msgstr "Souhrn"
 
@@ -4674,23 +4682,23 @@ msgstr "Souhrn"
 msgid "Today"
 msgstr "Dnes"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:281
+#: jsapp/js/project/submissionsCountGraph.component.tsx:283
 msgid "Past 7 days"
 msgstr "Posledních 7 dní"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:282
+#: jsapp/js/project/submissionsCountGraph.component.tsx:284
 msgid "Past 31 days"
 msgstr "Posledních 31 dní"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:283
+#: jsapp/js/project/submissionsCountGraph.component.tsx:285
 msgid "Past 3 months"
 msgstr "Poslední 3 měsíce"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:284
+#: jsapp/js/project/submissionsCountGraph.component.tsx:286
 msgid "Past 12 months"
 msgstr "Posledních 12 měsíců"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:301
+#: jsapp/js/project/submissionsCountGraph.component.tsx:303
 msgid "No chart data available for current period."
 msgstr "Pro aktuální období nejsou k dispozici žádné údaje z grafu."
 
@@ -4922,17 +4930,17 @@ msgstr "Zkuste to prosím znovu později, anebo se v případě opakovaných pro
 msgid "Additional details:"
 msgstr "Další podrobnosti:"
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:44
+#: jsapp/js/router/invalidatedPassword.component.tsx:25
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr "Dočasné omezení přístupu – ⁠je nutná aktualizace hesla"
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:50
+#: jsapp/js/router/invalidatedPassword.component.tsx:30
 msgid ""
 "You must update your password before proceeding. Please do so promptly to "
 "ensure the security of your data."
 msgstr "Před pokračováním je nutné provést aktualizaci hesla. Učiňte tak neprodleně, abyste zajistili bezpečnost svých dat."
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:59
+#: jsapp/js/router/invalidatedPassword.component.tsx:39
 msgid "Update password"
 msgstr "Aktualizujte si heslo"
 
@@ -4947,3 +4955,19 @@ msgstr "selhalo vypsání položek"
 #: jsapp/js/textUtils.ts:34
 msgid "##field_label## (required)"
 msgstr "##field_label## (vyžadováno)"
+
+#: jsapp/js/tos/tosForm.component.tsx:92
+msgid "TOS Update Message not found"
+msgstr ""
+
+#: jsapp/js/tos/tosForm.component.tsx:213
+msgid "Please make sure the following details are filled out correctly:"
+msgstr "Zkontrolujte prosím, zda jsou následující údaje vyplněny správně:"
+
+#: jsapp/js/tos/tosForm.component.tsx:235
+msgid "I agree, let's go"
+msgstr "Souhlasím, jdeme na to"
+
+#: jsapp/js/tos/tosForm.component.tsx:244
+msgid "I don't agree, log me out"
+msgstr "Nesouhlasím, odhlaste mě"

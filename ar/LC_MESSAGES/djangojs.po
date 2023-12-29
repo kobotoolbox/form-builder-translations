@@ -45,7 +45,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-15 22:18+0000\n"
+"POT-Creation-Date: 2023-12-22 01:14+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Yaman Kassas, 2021\n"
 "Language-Team: Arabic (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ar/)\n"
@@ -55,43 +55,63 @@ msgstr ""
 "Language: ar\n"
 "Plural-Forms: nplurals=6; plural=n==0 ? 0 : n==1 ? 1 : n==2 ? 2 : n%100>=3 && n%100<=10 ? 3 : n%100>=11 && n%100<=99 ? 4 : 5;\n"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:15
+#: jsapp/js/account/accountFieldsEditor.component.tsx:17
+msgid "Non-profit organization"
+msgstr "منظمة غير ربحية"
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:18
+msgid "Government institution"
+msgstr "مؤسسة حكومية"
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:19
+msgid "Educational organization"
+msgstr "منظمة تعليمية"
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:20
+msgid "A commercial/for-profit company"
+msgstr "شركة تجارية / ربحية"
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:21
+msgid "I am not associated with any organization"
+msgstr "أنا لا أنتمي لأي منظمة"
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:24
 msgid "Male"
 msgstr "ذكر"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:16
+#: jsapp/js/account/accountFieldsEditor.component.tsx:25
 msgid "Female"
 msgstr "أنثى"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:17
+#: jsapp/js/account/accountFieldsEditor.component.tsx:26
 msgid "Other"
 msgstr "أخرى"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:94
+#: jsapp/js/account/accountFieldsEditor.component.tsx:138
 msgid "Privacy"
 msgstr "الخصوصية"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:101
+#: jsapp/js/account/accountFieldsEditor.component.tsx:145
 msgid "Require authentication to see forms and submit data"
 msgstr "يتطلب ترخيص لرؤية و النماذج وإرسال البيانات"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:117
+#: jsapp/js/account/accountFieldsEditor.component.tsx:161
 msgid "Use this to display your real name to other users"
 msgstr "استخدم هذا لأظهار أسمك الحقيقي للمستخدمين الآخرين"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:249
+#: jsapp/js/account/accountFieldsEditor.component.tsx:319
 msgid "Social"
 msgstr "الاجتماعي"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:86
+#: jsapp/js/account/accountSettingsRoute.tsx:89
 msgid "You have unsaved changes. Leave settings without saving?"
 msgstr "لم تقم بحفظ التغييرات. هل تريد ترك الإعدادات بدون حفظ؟"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:109
+#: jsapp/js/account/accountSettingsRoute.tsx:112
 msgid "Updated profile successfully"
 msgstr "تم تحديث الملف الشخصي بنجاح"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:138
+#: jsapp/js/account/accountSettingsRoute.tsx:141
 #: jsapp/js/components/modalForms/projectSettings.es6:894
 #: jsapp/js/components/modalForms/translationTable.es6:23
 msgid "Save Changes"
@@ -221,7 +241,7 @@ msgstr "تم إلغاء تنشيط المصادقة الثنائية لحساب�
 
 #: jsapp/js/account/security/mfa/mfaSection.component.tsx:267
 msgid "This feature is not available on your current plan. Please visit the "
-msgstr "هذه الميزة غير متوفرة في خطتك الحالية. يرجى زيارة"
+msgstr " هذه الميزة غير متوفرة في خطتك الحالية. يرجى زيارة"
 
 #: jsapp/js/account/security/mfa/mfaSection.component.tsx:268
 msgid "Plans page"
@@ -229,7 +249,7 @@ msgstr "صفحة الخطط"
 
 #: jsapp/js/account/security/mfa/mfaSection.component.tsx:269
 msgid " to upgrade your account."
-msgstr "لترقية حسابك."
+msgstr " لترقية حسابك."
 
 #: jsapp/js/account/security/password/passwordSection.component.tsx:14
 msgid "Password"
@@ -248,12 +268,12 @@ msgid "Passwords don't match"
 msgstr "كلمات المرور غير متطابقة"
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:85
-#: jsapp/js/actions.es6:421
+#: jsapp/js/actions.es6:408
 msgid "changed password successfully"
 msgstr "تم تغيير كلمة المرور بنجاح"
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:108
-#: jsapp/js/actions.es6:424 jsapp/js/i18nMissingStrings.es6:86
+#: jsapp/js/actions.es6:411 jsapp/js/i18nMissingStrings.es6:86
 msgid "failed to change password"
 msgstr "فشل في تغيير كلمة المرور"
 
@@ -261,11 +281,11 @@ msgstr "فشل في تغيير كلمة المرور"
 msgid "Current Password"
 msgstr "كلمة المرور الحالية"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:34
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:33
 msgid "Single-Sign On"
 msgstr "الدخول المفرد"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:40
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:39
 msgid ""
 "Connect your KoboToolbox account with your organization's identity provider "
 "for single-sign on (SSO). Afterwards, you will only be able to sign in via "
@@ -273,11 +293,11 @@ msgid ""
 "address in case your current address is different."
 msgstr "قم بتوصيل حساب KoboToolbox الخاص بك بموفر هوية مؤسستك لتسجيل الدخول الموحد (SSO). وبعد ذلك، لن تتمكن من تسجيل الدخول إلا عبر الدخول الموحد (SSO) ما لم تقم بتعطيل هذا الإعداد هنا. سيؤدي هذا أيضًا إلى تحديث عنوان بريدك الإلكتروني في حالة اختلاف عنوانك الحالي."
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:47
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:46
 msgid "Already connected"
 msgstr "متصل بالفعل"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:76
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:75
 msgid "Disable"
 msgstr "تعطيل"
 
@@ -307,7 +327,7 @@ msgid "per account"
 msgstr "لكل حساب"
 
 #: jsapp/js/account/usage.component.tsx:154
-#: jsapp/js/project/submissionsCountGraph.component.tsx:319
+#: jsapp/js/project/submissionsCountGraph.component.tsx:321
 msgid "Total"
 msgstr "الإجمالي"
 
@@ -319,111 +339,111 @@ msgstr "دقائق النسخ"
 msgid "Translation characters"
 msgstr "عدد الحروف المتطلب ترجمتها"
 
-#: jsapp/js/actions.es6:91 jsapp/js/actions.es6:97
+#: jsapp/js/actions.es6:90 jsapp/js/actions.es6:96
 msgid "Failed to update permissions"
 msgstr "فشل في تحديث الصلاحيات"
 
-#: jsapp/js/actions.es6:94
+#: jsapp/js/actions.es6:93
 msgid "Failed to remove permissions"
 msgstr "فشل في إزالة الصلاحيات"
 
-#: jsapp/js/actions.es6:160
+#: jsapp/js/actions.es6:159
 msgid "successfully updated"
 msgstr "تم التحديث بنجاح"
 
-#: jsapp/js/actions.es6:200
+#: jsapp/js/actions.es6:199
 msgid "please check your connection and try again."
 msgstr "يُرجى فحص اتصالك وإعادة المحاولة."
 
-#: jsapp/js/actions.es6:203 jsapp/js/actions.es6:213
+#: jsapp/js/actions.es6:202 jsapp/js/actions.es6:212
 msgid "if this problem persists, contact help@kobotoolbox.org"
 msgstr "في حال استمرار مواجهة هذه المشكلة، تواصل مع help@kobotoolbox.org"
 
-#: jsapp/js/actions.es6:211
+#: jsapp/js/actions.es6:210
 msgid "your form id was not valid:"
 msgstr "معرّف النموذج الخاص بك ليس صالحاً:"
 
-#: jsapp/js/actions.es6:217
+#: jsapp/js/actions.es6:216
 msgid "your form cannot be deployed because it contains errors:"
 msgstr "تعذر توزيع نموذجك لأنه يحوي أخطاءً:"
 
-#: jsapp/js/actions.es6:221
+#: jsapp/js/actions.es6:220
 msgid "unable to deploy"
 msgstr "تعذر التوزيع"
 
-#: jsapp/js/actions.es6:236
+#: jsapp/js/actions.es6:235
 msgid "Project unarchived successfully"
 msgstr "تم إلغاء أرشفة المشروع بنجاح"
 
-#: jsapp/js/actions.es6:238
+#: jsapp/js/actions.es6:237
 msgid "Project archived successfully"
 msgstr "نجاح أرشفة الموضوع"
 
-#: jsapp/js/actions.es6:352
+#: jsapp/js/actions.es6:351
 msgid "Unable to delete asset!"
 msgstr "تعذر حذف الأصل!"
 
-#: jsapp/js/actions.es6:353
+#: jsapp/js/actions.es6:352
 msgid "Error details:"
 msgstr "تفاصيل الخطأ:"
 
-#: jsapp/js/actions.es6:369
+#: jsapp/js/actions.es6:368
 msgid "Could not create project!"
 msgstr "لا يمكن إنشاء المشروع!"
 
-#: jsapp/js/actions.es6:435
+#: jsapp/js/actions.es6:422
 msgid "failed to load API token"
 msgstr "فشل في تحميل الرمز المميز لواجهة برمجة التطبيقات (API)"
 
-#: jsapp/js/actions.es6:465
+#: jsapp/js/actions.es6:452
 msgid "submission deleted"
 msgstr "تم حذف عملية الإرسال"
 
-#: jsapp/js/actions.es6:470
+#: jsapp/js/actions.es6:457
 msgid "failed to delete submission"
 msgstr "فشل في حذف عملية الإرسال"
 
-#: jsapp/js/actions.es6:478
+#: jsapp/js/actions.es6:465
 msgid "Successfully duplicated submission"
 msgstr "تم تكرار عملية الإرسال بنجاح"
 
-#: jsapp/js/actions.es6:483
+#: jsapp/js/actions.es6:470
 msgid "Failed to duplicate submission"
 msgstr "فشل في تكرار عملية الإرسال"
 
-#: jsapp/js/actions.es6:521
+#: jsapp/js/actions.es6:508
 msgid "REST Service added successfully"
 msgstr "تمت إضافة خدمة (REST) بنجاح"
 
-#: jsapp/js/actions.es6:524
+#: jsapp/js/actions.es6:511
 msgid "Failed adding REST Service"
 msgstr "فشل في إضافة خدمة (REST)"
 
-#: jsapp/js/actions.es6:544
+#: jsapp/js/actions.es6:531
 msgid "REST Service updated successfully"
 msgstr "تم تحديث خدمة (REST) بنجاح"
 
-#: jsapp/js/actions.es6:547
+#: jsapp/js/actions.es6:534
 msgid "Failed saving REST Service"
 msgstr "فشل في حفظ خدمة (REST)"
 
-#: jsapp/js/actions.es6:567
+#: jsapp/js/actions.es6:554
 msgid "REST Service deleted permanently"
 msgstr "تم حذف خدمة (REST) نهائياً"
 
-#: jsapp/js/actions.es6:570
+#: jsapp/js/actions.es6:557
 msgid "Could not delete REST Service"
 msgstr "تعذر حذف خدمة (REST)"
 
-#: jsapp/js/actions.es6:606
+#: jsapp/js/actions.es6:593
 msgid "Submission retry requested successfully"
 msgstr "نجحت محاولة إعادة عملية الإرسال"
 
-#: jsapp/js/actions.es6:609
+#: jsapp/js/actions.es6:596
 msgid "Submission retry request failed"
 msgstr "فشل طلب إعادة محاولة عملية الإرسال"
 
-#: jsapp/js/actions.es6:632
+#: jsapp/js/actions.es6:619
 msgid "Retrying all submissions failed"
 msgstr "فشلت إعادة محاولة كافة عمليات الإرسال"
 
@@ -544,8 +564,8 @@ msgstr "فشل حذف عمليات الإرسال."
 msgid "Delete?"
 msgstr "حذف؟"
 
-#: jsapp/js/alertify.ts:165 jsapp/js/assetQuickActions.tsx:128
-#: jsapp/js/assetQuickActions.tsx:131
+#: jsapp/js/alertify.ts:165 jsapp/js/assetQuickActions.tsx:129
+#: jsapp/js/assetQuickActions.tsx:132
 #: jsapp/js/components/modalForms/translationSettings.es6:153
 #: jsapp/js/components/processing/transcriptTabContent.tsx:417
 #: jsapp/js/components/processing/translationsTabContent.tsx:540
@@ -564,10 +584,10 @@ msgstr "حذف"
 msgid "This action is not reversible"
 msgstr "لا يمكن التراجع عن هذا الإجراء"
 
-#: jsapp/js/alertify.ts:174 jsapp/js/assetQuickActions.tsx:132
-#: jsapp/js/assetQuickActions.tsx:163 jsapp/js/assetQuickActions.tsx:201
-#: jsapp/js/assetQuickActions.tsx:250 jsapp/js/assetQuickActions.tsx:325
-#: jsapp/js/assetQuickActions.tsx:423 jsapp/js/assetQuickActions.tsx:483
+#: jsapp/js/alertify.ts:174 jsapp/js/assetQuickActions.tsx:133
+#: jsapp/js/assetQuickActions.tsx:164 jsapp/js/assetQuickActions.tsx:202
+#: jsapp/js/assetQuickActions.tsx:251 jsapp/js/assetQuickActions.tsx:326
+#: jsapp/js/assetQuickActions.tsx:424 jsapp/js/assetQuickActions.tsx:484
 #: jsapp/js/components/RESTServices/RESTServicesList.es6:82
 #: jsapp/js/components/bigModal/bigModal.es6:276
 #: jsapp/js/components/dataAttachments/connectProjects.es6:265
@@ -587,175 +607,175 @@ msgstr "لا يمكن التراجع عن هذا الإجراء"
 msgid "Cancel"
 msgstr "إلغاء"
 
-#: jsapp/js/api.ts:37 jsapp/js/components/reports/reports.js:466
+#: jsapp/js/api.ts:54 jsapp/js/components/reports/reports.js:466
 msgid "An error occurred"
 msgstr "حدث خطأ"
 
-#: jsapp/js/api.ts:43
+#: jsapp/js/api.ts:61
 msgid "Your connection is offline"
 msgstr "حالة اتصالك \"غير متصل\""
 
-#: jsapp/js/assetQuickActions.tsx:66
+#: jsapp/js/assetQuickActions.tsx:67
 msgid "##ASSET_TYPE## deleted permanently"
 msgstr "تم حذف ##ASSET_TYPE## نهائياً"
 
-#: jsapp/js/assetQuickActions.tsx:82
+#: jsapp/js/assetQuickActions.tsx:83
 msgid "You are about to permanently delete this item from your library."
 msgstr "أنت على وشك القيام بحذف هذا العنصر من مكتبتك بشكل نهائي."
 
-#: jsapp/js/assetQuickActions.tsx:85
+#: jsapp/js/assetQuickActions.tsx:86
 msgid "You are about to permanently delete this draft."
 msgstr "أنت على وشك حذف هذه المسودة نهائياً."
 
-#: jsapp/js/assetQuickActions.tsx:88
+#: jsapp/js/assetQuickActions.tsx:89
 msgid "You are about to permanently delete this form."
 msgstr "أنت على وشك حذف هذا النموذج نهائياً."
 
-#: jsapp/js/assetQuickActions.tsx:92
+#: jsapp/js/assetQuickActions.tsx:93
 msgid "All data gathered for this form will be deleted."
 msgstr "سوف يتم حذف كل البيانات التي تم جمعها على هذا النموذج."
 
-#: jsapp/js/assetQuickActions.tsx:97
+#: jsapp/js/assetQuickActions.tsx:98
 msgid "The form associated with this project will be deleted."
 msgstr "سوف يتم حذف النموذج المصاحب للمشروع."
 
-#: jsapp/js/assetQuickActions.tsx:102
+#: jsapp/js/assetQuickActions.tsx:103
 msgid ""
 "I understand that if I delete this project I will not be able to recover it."
 msgstr "أنا أفهم انه لو تم حذف هذا المشروع فلن استطيع استعادته."
 
-#: jsapp/js/assetQuickActions.tsx:158
+#: jsapp/js/assetQuickActions.tsx:159
 #: jsapp/js/components/modalForms/projectSettings.es6:1035
 msgid "Archive Project"
 msgstr "أدرج المشروع في الأرشيف"
 
-#: jsapp/js/assetQuickActions.tsx:159
+#: jsapp/js/assetQuickActions.tsx:160
 msgid "Are you sure you want to archive this project?"
 msgstr "هل أنت متأكد من وضع المشروع في الأرشيف؟"
 
-#: jsapp/js/assetQuickActions.tsx:161
+#: jsapp/js/assetQuickActions.tsx:162
 msgid "Your form will not accept submissions while it is archived."
 msgstr "لن يقبل نموذجك عمليات الإرسال عندما يكون في الأرشيف."
 
-#: jsapp/js/assetQuickActions.tsx:163
+#: jsapp/js/assetQuickActions.tsx:164
 msgid "Archive"
 msgstr "الأرشيف"
 
-#: jsapp/js/assetQuickActions.tsx:199
+#: jsapp/js/assetQuickActions.tsx:200
 #: jsapp/js/components/modalForms/projectSettings.es6:1025
 msgid "Unarchive Project"
 msgstr "مشروع غير مؤرشف"
 
-#: jsapp/js/assetQuickActions.tsx:200
+#: jsapp/js/assetQuickActions.tsx:201
 msgid "Are you sure you want to unarchive this project?"
 msgstr "هل أنت متأكد أنك تريد التراجع عن أرشفة هذا المشروع؟"
 
-#: jsapp/js/assetQuickActions.tsx:201
+#: jsapp/js/assetQuickActions.tsx:202
 msgid "Unarchive"
 msgstr "إلغاء الأرشفة"
 
-#: jsapp/js/assetQuickActions.tsx:239 jsapp/js/mixins.tsx:129
+#: jsapp/js/assetQuickActions.tsx:240 jsapp/js/mixins.tsx:129
 msgid "Clone of"
 msgstr "استنساخ من"
 
-#: jsapp/js/assetQuickActions.tsx:245 jsapp/js/mixins.tsx:133
+#: jsapp/js/assetQuickActions.tsx:246 jsapp/js/mixins.tsx:133
 msgid "Clone"
 msgstr "استنساخ"
 
-#: jsapp/js/assetQuickActions.tsx:247 jsapp/js/mixins.tsx:135
+#: jsapp/js/assetQuickActions.tsx:248 jsapp/js/mixins.tsx:135
 msgid ""
 "Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
 "original name."
 msgstr "أدخل أسم المستنسخ ##ASSET_TYPE##. اتركه فارغاً للاحتفاظ بالاسم الأصلي."
 
-#: jsapp/js/assetQuickActions.tsx:250 jsapp/js/assetQuickActions.tsx:483
+#: jsapp/js/assetQuickActions.tsx:251 jsapp/js/assetQuickActions.tsx:484
 #: jsapp/js/mixins.tsx:138
 msgid "Ok"
 msgstr "حسناً"
 
-#: jsapp/js/assetQuickActions.tsx:253
+#: jsapp/js/assetQuickActions.tsx:254
 msgid "Cloning..."
 msgstr "جاري الاستنساخ ..."
 
-#: jsapp/js/assetQuickActions.tsx:290
+#: jsapp/js/assetQuickActions.tsx:291
 msgid "cloned ##ASSET_TYPE## created"
 msgstr "تم استنساخ ##ASSET_TYPE##"
 
-#: jsapp/js/assetQuickActions.tsx:325
+#: jsapp/js/assetQuickActions.tsx:326
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:202
 msgid "Create"
 msgstr "إنشاء"
 
-#: jsapp/js/assetQuickActions.tsx:332
+#: jsapp/js/assetQuickActions.tsx:333
 #: jsapp/js/components/modalForms/projectSettings.es6:527
 #: jsapp/js/components/modalForms/projectSettings.es6:1010
 msgid "Please wait…"
 msgstr "يرجى الانتظار …"
 
-#: jsapp/js/assetQuickActions.tsx:363
+#: jsapp/js/assetQuickActions.tsx:364
 msgid "Failed to create new asset!"
 msgstr "فشل إنشاء أصل جديد!"
 
-#: jsapp/js/assetQuickActions.tsx:384
+#: jsapp/js/assetQuickActions.tsx:385
 msgid "Create new template from this project"
 msgstr "إنشاء قالب جديد من هذا المشروع"
 
-#: jsapp/js/assetQuickActions.tsx:385
+#: jsapp/js/assetQuickActions.tsx:386
 msgid "Enter the name of the new template."
 msgstr "أدخل اسم القالب الجديد."
 
-#: jsapp/js/assetQuickActions.tsx:395
+#: jsapp/js/assetQuickActions.tsx:396
 msgid "Create new project from this template"
 msgstr "إنشاء مشروع جديد من هذا القالب"
 
-#: jsapp/js/assetQuickActions.tsx:396
+#: jsapp/js/assetQuickActions.tsx:397
 msgid "Enter the name of the new project."
 msgstr "أدخل أسم المشروع الجديد."
 
-#: jsapp/js/assetQuickActions.tsx:421
+#: jsapp/js/assetQuickActions.tsx:422
 msgid "Remove shared form"
 msgstr "إزالة النموذج الذي تمت مشاركته"
 
-#: jsapp/js/assetQuickActions.tsx:422
+#: jsapp/js/assetQuickActions.tsx:423
 msgid "Are you sure you want to remove this shared form?"
 msgstr "هل أنت متأكد أنك تريد إزالة هذا النموذج الذي تم مشاركته؟"
 
-#: jsapp/js/assetQuickActions.tsx:423
+#: jsapp/js/assetQuickActions.tsx:424
 #: jsapp/js/components/permissions/userPermissionRow.component.tsx:59
 msgid "Remove"
 msgstr "إزالة"
 
-#: jsapp/js/assetQuickActions.tsx:445
+#: jsapp/js/assetQuickActions.tsx:446
 msgid "deploying to kobocat..."
 msgstr "توزيع على كوبوكات (kobocat) ..."
 
-#: jsapp/js/assetQuickActions.tsx:450
+#: jsapp/js/assetQuickActions.tsx:451
 msgid "deployed form"
 msgstr "تم توزيع النموذج"
 
-#: jsapp/js/assetQuickActions.tsx:470
+#: jsapp/js/assetQuickActions.tsx:471
 msgid "Overwrite existing deployment"
 msgstr "استبدال التوزيع الحالي"
 
-#: jsapp/js/assetQuickActions.tsx:476
+#: jsapp/js/assetQuickActions.tsx:477
 msgid ""
 "This form has already been deployed. Are you sure you want overwrite the "
 "existing deployment?"
 msgstr "لقد تم بالفعل نشر هذا النموذج. هل أنت متأكد أنك تريد استبدال النموذج الحالي؟"
 
-#: jsapp/js/assetQuickActions.tsx:480 jsapp/js/i18nMissingStrings.es6:96
+#: jsapp/js/assetQuickActions.tsx:481 jsapp/js/i18nMissingStrings.es6:96
 msgid "This action cannot be undone."
 msgstr "لا يمكن التراجع عن هذا الإجراء."
 
-#: jsapp/js/assetQuickActions.tsx:487
+#: jsapp/js/assetQuickActions.tsx:488
 msgid "Deploying..."
 msgstr "جارٍ التوزيع ..."
 
-#: jsapp/js/assetQuickActions.tsx:490
+#: jsapp/js/assetQuickActions.tsx:491
 msgid "redeployed form"
 msgstr "نموذج معاد توزيعه"
 
-#: jsapp/js/assetUtils.ts:65 jsapp/js/components/formSummaryProjectInfo.tsx:89
+#: jsapp/js/assetUtils.ts:65 jsapp/js/components/formSummaryProjectInfo.tsx:97
 #: jsapp/js/projects/projectsTable/projectsTableRow.tsx:47
 msgid "me"
 msgstr "أنا"
@@ -924,7 +944,7 @@ msgid "Create template"
 msgstr "إنشاء قالب"
 
 #: jsapp/js/components/assetsTable/assetsTable.tsx:195
-#: jsapp/js/components/formSummaryProjectInfo.tsx:82
+#: jsapp/js/components/formSummaryProjectInfo.tsx:90
 #: jsapp/js/components/library/assetInfoBox.es6:103
 #: jsapp/js/components/templatesList.es6:77
 msgid "Questions"
@@ -947,7 +967,7 @@ msgid "Items"
 msgstr "العناصر"
 
 #: jsapp/js/components/assetsTable/assetsTableConstants.ts:65
-#: jsapp/js/components/formSummaryProjectInfo.tsx:88
+#: jsapp/js/components/formSummaryProjectInfo.tsx:96
 #: jsapp/js/components/library/assetInfoBox.es6:73
 #: jsapp/js/components/templatesList.es6:71
 #: jsapp/js/projects/projectViews/constants.ts:177
@@ -959,7 +979,7 @@ msgid "Subscribers"
 msgstr "المشتركين"
 
 #: jsapp/js/components/assetsTable/assetsTableConstants.ts:77
-#: jsapp/js/components/formSummaryProjectInfo.tsx:150
+#: jsapp/js/components/formSummaryProjectInfo.tsx:158
 #: jsapp/js/components/library/assetInfoBox.es6:132
 #: jsapp/js/projects/projectViews/constants.ts:289
 msgid "Languages"
@@ -1419,42 +1439,42 @@ msgstr "غير موزع"
 msgid "path not found / recognized"
 msgstr "لم يتم العثور/التعرّف على المسار"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:57
+#: jsapp/js/components/formSummaryProjectInfo.tsx:65
 msgid "Project information"
 msgstr "معلومات المشروع"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:66
+#: jsapp/js/components/formSummaryProjectInfo.tsx:74
 #: jsapp/js/components/library/assetInfoBox.es6:80
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:231
 #: jsapp/js/projects/projectViews/constants.ts:151
 msgid "Description"
 msgstr "الوصف"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:76
+#: jsapp/js/components/formSummaryProjectInfo.tsx:84
 #: jsapp/js/projects/projectViews/constants.ts:167
 msgid "Status"
 msgstr "الحالة"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:99
+#: jsapp/js/components/formSummaryProjectInfo.tsx:107
 #: jsapp/js/components/templatesList.es6:74
 msgid "Last modified"
 msgstr "آخر تعديل"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:105
+#: jsapp/js/components/formSummaryProjectInfo.tsx:113
 msgid "Last deployed"
 msgstr "آخر نشر"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:114
+#: jsapp/js/components/formSummaryProjectInfo.tsx:122
 msgid "Latest submission"
 msgstr "آخر عملية إرسال"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:127
+#: jsapp/js/components/formSummaryProjectInfo.tsx:135
 #: jsapp/js/components/library/assetInfoBox.es6:118
 #: jsapp/js/projects/projectViews/constants.ts:263
 msgid "Sector"
 msgstr "القطاع"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:137
+#: jsapp/js/components/formSummaryProjectInfo.tsx:145
 #: jsapp/js/projects/projectViews/constants.ts:275
 msgid "Countries"
 msgstr "البلدان"
@@ -1504,25 +1524,25 @@ msgstr "خدمات (REST)"
 msgid "Please refresh the page"
 msgstr "الرجاء إعادة تحميل الصفحة"
 
-#: jsapp/js/components/header/accountMenu.tsx:115
+#: jsapp/js/components/header/accountMenu.tsx:110
 msgid "Account Settings"
 msgstr "إعدادات الحساب"
 
-#: jsapp/js/components/header/accountMenu.tsx:125
+#: jsapp/js/components/header/accountMenu.tsx:120
 msgid "Terms of Service"
 msgstr "شروط الخدمة"
 
-#: jsapp/js/components/header/accountMenu.tsx:130
+#: jsapp/js/components/header/accountMenu.tsx:125
 msgid "Privacy Policy"
 msgstr "سياسة الخصوصية"
 
-#: jsapp/js/components/header/accountMenu.tsx:143
+#: jsapp/js/components/header/accountMenu.tsx:138
 #: jsapp/js/components/map.es6:847
 #: jsapp/js/components/projectDownloads/projectExportsList.es6:283
 msgid "Language"
 msgstr "اللغة"
 
-#: jsapp/js/components/header/accountMenu.tsx:152
+#: jsapp/js/components/header/accountMenu.tsx:147
 msgid "Logout"
 msgstr "تسجيل خروج"
 
@@ -2968,7 +2988,7 @@ msgid "Export ##SELECT_MANY## questions as…"
 msgstr "تصدير ##SELECT_MANY## أسئلة كـ..."
 
 #: jsapp/js/components/projectDownloads/projectExportsCreator.es6:559
-#: jsapp/js/constants.ts:388 jsapp/js/formbuild/containers/KoboMatrix.es6:44
+#: jsapp/js/constants.ts:326 jsapp/js/formbuild/containers/KoboMatrix.es6:44
 #: jsapp/js/i18nMissingStrings.es6:102
 msgid "Select Many"
 msgstr "تحديد العديد"
@@ -3229,7 +3249,7 @@ msgid "Horizontal"
 msgstr "أفقي"
 
 #: jsapp/js/components/reports/reportsConstants.ts:97
-#: jsapp/js/constants.ts:370 jsapp/js/i18nMissingStrings.es6:45
+#: jsapp/js/constants.ts:308 jsapp/js/i18nMissingStrings.es6:45
 msgid "Line"
 msgstr "الخط"
 
@@ -3244,7 +3264,7 @@ msgid "Donut"
 msgstr "كعكة"
 
 #: jsapp/js/components/reports/reportsConstants.ts:125
-#: jsapp/js/constants.ts:369 jsapp/js/i18nMissingStrings.es6:42
+#: jsapp/js/constants.ts:307 jsapp/js/i18nMissingStrings.es6:42
 msgid "Area"
 msgstr "المساحة"
 
@@ -3325,7 +3345,7 @@ msgstr "تم إنشاء نسخة مكررة من سجل عملية الإرسا�
 
 #: jsapp/js/components/submissions/submissionModal.es6:302
 msgid "Source submission uuid: "
-msgstr "المعرف الحصري العام الشامل (UUID) لمصدر عملية الإرسال:"
+msgstr "المعرف الحصري العام الشامل (UUID) لمصدر عملية الإرسال: "
 
 #: jsapp/js/components/submissions/submissionModal.es6:314
 #: jsapp/js/components/submissions/submissionModal.es6:506
@@ -3598,248 +3618,248 @@ msgstr "لقد وصلت إلى"
 msgid "included with your current plan."
 msgstr "متضمنة في خطتك الحالية."
 
-#: jsapp/js/constants.ts:161
+#: jsapp/js/constants.ts:99
 msgid "Default - single page"
 msgstr "الافتراضي - صفحة واحدة"
 
-#: jsapp/js/constants.ts:162
+#: jsapp/js/constants.ts:100
 msgid "Grid theme"
 msgstr "السمات الشبكية"
 
-#: jsapp/js/constants.ts:163
+#: jsapp/js/constants.ts:101
 msgid "Grid theme with headings in ALL CAPS"
 msgstr "السمات الشبكية مع العناوين في حالة حروف كبيرة"
 
-#: jsapp/js/constants.ts:164
+#: jsapp/js/constants.ts:102
 msgid "Multiple pages"
 msgstr "صفحات متعددة"
 
-#: jsapp/js/constants.ts:167
+#: jsapp/js/constants.ts:105
 msgid "Grid theme + Multiple pages"
 msgstr "السمات الشبكية + صفحات متعددة"
 
-#: jsapp/js/constants.ts:171
+#: jsapp/js/constants.ts:109
 msgid "Grid theme + Multiple pages + headings in ALL CAPS"
 msgstr "السمات الشبكية + الصفحات المتعددة + العناوين بحروف كبيرة"
 
-#: jsapp/js/constants.ts:190
+#: jsapp/js/constants.ts:128
 msgid "Not approved"
 msgstr "غير مقبول"
 
-#: jsapp/js/constants.ts:194
+#: jsapp/js/constants.ts:132
 msgid "Approved"
 msgstr "مقبول"
 
-#: jsapp/js/constants.ts:198
+#: jsapp/js/constants.ts:136
 msgid "On hold"
 msgstr "معلق"
 
-#: jsapp/js/constants.ts:232
+#: jsapp/js/constants.ts:170
 msgid "question"
 msgstr "السؤال"
 
-#: jsapp/js/constants.ts:236
+#: jsapp/js/constants.ts:174
 msgid "block"
 msgstr "مجمع"
 
-#: jsapp/js/constants.ts:240
+#: jsapp/js/constants.ts:178
 msgid "template"
 msgstr "قالب"
 
-#: jsapp/js/constants.ts:244
+#: jsapp/js/constants.ts:182
 msgid "project"
 msgstr "مشروع"
 
-#: jsapp/js/constants.ts:248
+#: jsapp/js/constants.ts:186
 msgid "collection"
 msgstr "تشكيل"
 
-#: jsapp/js/constants.ts:259
+#: jsapp/js/constants.ts:197
 msgid "map layer"
 msgstr "شريحة خريطة"
 
-#: jsapp/js/constants.ts:263
+#: jsapp/js/constants.ts:201
 msgid "form media"
 msgstr "نموذج وسائط متعددة"
 
-#: jsapp/js/constants.ts:332 jsapp/js/i18nMissingStrings.es6:66
+#: jsapp/js/constants.ts:270 jsapp/js/i18nMissingStrings.es6:66
 msgid "Acknowledge"
 msgstr "إقرار"
 
-#: jsapp/js/constants.ts:336 jsapp/js/i18nMissingStrings.es6:62
+#: jsapp/js/constants.ts:274 jsapp/js/i18nMissingStrings.es6:62
 msgid "Audio"
 msgstr "صوت"
 
-#: jsapp/js/constants.ts:338
+#: jsapp/js/constants.ts:276
 msgid "Barcode / QR Code"
 msgstr "باركود / كود الاستجابة السريعة (QR)"
 
-#: jsapp/js/constants.ts:343 jsapp/js/i18nMissingStrings.es6:67
+#: jsapp/js/constants.ts:281 jsapp/js/i18nMissingStrings.es6:67
 msgid "Calculate"
 msgstr "حساب"
 
-#: jsapp/js/constants.ts:347 jsapp/js/i18nMissingStrings.es6:57
+#: jsapp/js/constants.ts:285 jsapp/js/i18nMissingStrings.es6:57
 msgid "Date"
 msgstr "التاريخ"
 
-#: jsapp/js/constants.ts:349 jsapp/js/i18nMissingStrings.es6:59
+#: jsapp/js/constants.ts:287 jsapp/js/i18nMissingStrings.es6:59
 msgid "Date & time"
 msgstr "التاريخ والوقت"
 
-#: jsapp/js/constants.ts:354 jsapp/js/i18nMissingStrings.es6:56
+#: jsapp/js/constants.ts:292 jsapp/js/i18nMissingStrings.es6:56
 msgid "Decimal"
 msgstr "رقم عشري"
 
-#: jsapp/js/constants.ts:359
+#: jsapp/js/constants.ts:297
 msgid "External XML"
 msgstr "بتنسيق ملف (XML) خارجي"
 
-#: jsapp/js/constants.ts:363
+#: jsapp/js/constants.ts:301
 msgid "File"
 msgstr "ملف"
 
-#: jsapp/js/constants.ts:365
+#: jsapp/js/constants.ts:303
 msgid "Point"
 msgstr "نقطة"
 
-#: jsapp/js/constants.ts:371
+#: jsapp/js/constants.ts:309
 msgid "Hidden"
 msgstr "مخفي"
 
-#: jsapp/js/constants.ts:372 jsapp/js/i18nMissingStrings.es6:61
+#: jsapp/js/constants.ts:310 jsapp/js/i18nMissingStrings.es6:61
 msgid "Photo"
 msgstr "صورة"
 
-#: jsapp/js/constants.ts:374 jsapp/js/formbuild/containers/KoboMatrix.es6:52
+#: jsapp/js/constants.ts:312 jsapp/js/formbuild/containers/KoboMatrix.es6:52
 #: jsapp/js/i18nMissingStrings.es6:55
 msgid "Number"
 msgstr "رقم"
 
-#: jsapp/js/constants.ts:379
+#: jsapp/js/constants.ts:317
 msgid "Question Matrix"
 msgstr "مصفوفة أسئلة"
 
-#: jsapp/js/constants.ts:383 jsapp/js/i18nMissingStrings.es6:64
+#: jsapp/js/constants.ts:321 jsapp/js/i18nMissingStrings.es6:64
 msgid "Note"
 msgstr "ملحوظة"
 
-#: jsapp/js/constants.ts:384
+#: jsapp/js/constants.ts:322
 msgid "Range"
 msgstr "المجال"
 
-#: jsapp/js/constants.ts:385 jsapp/js/i18nMissingStrings.es6:69
+#: jsapp/js/constants.ts:323 jsapp/js/i18nMissingStrings.es6:69
 msgid "Ranking"
 msgstr "الترتيب"
 
-#: jsapp/js/constants.ts:386
+#: jsapp/js/constants.ts:324
 msgid "Rating"
 msgstr "التقييم"
 
-#: jsapp/js/constants.ts:393
+#: jsapp/js/constants.ts:331
 msgid "Select Many from File"
 msgstr "حدد العديد من ملف"
 
-#: jsapp/js/constants.ts:398 jsapp/js/formbuild/containers/KoboMatrix.es6:40
+#: jsapp/js/constants.ts:336 jsapp/js/formbuild/containers/KoboMatrix.es6:40
 #: jsapp/js/i18nMissingStrings.es6:101
 msgid "Select One"
 msgstr "تحديد واحد"
 
-#: jsapp/js/constants.ts:403
+#: jsapp/js/constants.ts:341
 msgid "Select One from File"
 msgstr "حدد واحد من ملف"
 
-#: jsapp/js/constants.ts:407 jsapp/js/formbuild/containers/KoboMatrix.es6:48
+#: jsapp/js/constants.ts:345 jsapp/js/formbuild/containers/KoboMatrix.es6:48
 #: jsapp/js/i18nMissingStrings.es6:54
 msgid "Text"
 msgstr "نص"
 
-#: jsapp/js/constants.ts:408 jsapp/js/i18nMissingStrings.es6:58
+#: jsapp/js/constants.ts:346 jsapp/js/i18nMissingStrings.es6:58
 msgid "Time"
 msgstr "وقت"
 
-#: jsapp/js/constants.ts:409 jsapp/js/i18nMissingStrings.es6:63
+#: jsapp/js/constants.ts:347 jsapp/js/i18nMissingStrings.es6:63
 msgid "Video"
 msgstr "فيديو"
 
-#: jsapp/js/constants.ts:566
+#: jsapp/js/constants.ts:504
 msgid "Deployed"
 msgstr "تم التوزيع"
 
-#: jsapp/js/constants.ts:567 jsapp/js/i18nMissingStrings.es6:46
+#: jsapp/js/constants.ts:505 jsapp/js/i18nMissingStrings.es6:46
 msgid "Draft"
 msgstr "مسودة"
 
-#: jsapp/js/constants.ts:568 jsapp/js/i18nMissingStrings.es6:175
+#: jsapp/js/constants.ts:506 jsapp/js/i18nMissingStrings.es6:175
 msgid "Archived"
 msgstr "في الأرشيف"
 
-#: jsapp/js/constants.ts:581
+#: jsapp/js/constants.ts:519
 msgid "Online-Offline (multiple submission)"
 msgstr "متصل-غير متصل (عمليات إرسال متعددة)"
 
-#: jsapp/js/constants.ts:583
+#: jsapp/js/constants.ts:521
 msgid ""
 "This allows online and offline submissions and is the best option for "
 "collecting data in the field."
 msgstr "يتيح ذلك عمليات الإرسال أثناء وجود اتصال بالإنترنت وأثناء عدم وجود اتصال وهو الخيار الأفضل لجمع البيانات الميداني."
 
-#: jsapp/js/constants.ts:588
+#: jsapp/js/constants.ts:526
 msgid "Online-Only (multiple submissions)"
 msgstr "متصل-فقط (عمليات إرسال متعددة)"
 
-#: jsapp/js/constants.ts:590
+#: jsapp/js/constants.ts:528
 msgid ""
 "This is the best option when entering many records at once on a computer, "
 "e.g. for transcribing paper records."
 msgstr "هذا هو الخيار الأفضل عند إدخال سجلات عديدة مرة واحدة على الحاسوب، على سبيل المثال، عند نسخ السجلات الورقية."
 
-#: jsapp/js/constants.ts:595
+#: jsapp/js/constants.ts:533
 msgid "Online-Only (single submission)"
 msgstr "متصل-فقط (عملية إرسال فردية)"
 
-#: jsapp/js/constants.ts:597
+#: jsapp/js/constants.ts:535
 msgid ""
 "This allows a single submission, and can be paired with the \"return_url\" "
 "parameter to redirect the user to a URL of your choice after the form has "
 "been submitted."
 msgstr "يسمح هذا بعملية إرسال واحدة، ويمكن إقرانه بخيار \"return_url\" لإعادة توجيه المستخدم إلى عنوان إنترنت (URL) من اختيارك بعد إرسال النموذج."
 
-#: jsapp/js/constants.ts:602
+#: jsapp/js/constants.ts:540
 msgid "Online-only (once per respondent)"
 msgstr "متصل-فقط (مرة واحدة لكل مشترك)"
 
-#: jsapp/js/constants.ts:604
+#: jsapp/js/constants.ts:542
 msgid ""
 "This allows your web form to only be submitted once per user, using basic "
 "protection to prevent the same user (on the same browser & device) from "
 "submitting more than once."
 msgstr "يسمح هذا بعملية إرسال نموذج الويب الخاص بك مرة واحدة فقط لكل مستخدم، باستخدام الحماية الأساسية لمنع نفس المستخدم (على نفس المتصفح والجهاز) من الإرسال أكثر من مرة."
 
-#: jsapp/js/constants.ts:609
+#: jsapp/js/constants.ts:547
 msgid "Embeddable web form code"
 msgstr "كود نموذج الويب القابل للتضمين المدمج"
 
-#: jsapp/js/constants.ts:611
+#: jsapp/js/constants.ts:549
 msgid ""
 "Use this html5 code snippet to integrate your form on your own website using"
 " smaller margins."
 msgstr "استخدم مقطع كود (html5) هذا لدمج النموذج الخاص بك على موقع الويب الخاص بك باستخدام هوامش أصغر."
 
-#: jsapp/js/constants.ts:616
+#: jsapp/js/constants.ts:554
 msgid "View only"
 msgstr "عرض فقط"
 
-#: jsapp/js/constants.ts:618
+#: jsapp/js/constants.ts:556
 msgid ""
 "Use this version for testing, getting feedback. Does not allow submitting "
 "data."
 msgstr "استخدم هذه النسخة للاختبار والحصول على ردود/ آراء. لا يسمح بإرسال البيانات."
 
-#: jsapp/js/constants.ts:623
+#: jsapp/js/constants.ts:561
 msgid "Android application"
 msgstr "تطبيق الأندرويد"
 
-#: jsapp/js/constants.ts:625
+#: jsapp/js/constants.ts:563
 msgid "Use this option to collect data in the field with your Android device."
 msgstr "استخدم هذا الخيار لجمع البيانات الميداني بواسطة جهازك الأندرويد."
 
@@ -4268,7 +4288,7 @@ msgid "Manually enter your validation logic in XLSForm code"
 msgstr "إدخال الرمز المنطقي للتحقق يدوياً في صورة كود بملف بصيغة (XLSForm)"
 
 #: jsapp/js/i18nMissingStrings.es6:50 jsapp/js/i18nMissingStrings.es6:121
-#: jsapp/js/project/projectTopTabs.component.tsx:96
+#: jsapp/js/project/projectTopTabs.component.tsx:97
 msgid "Settings"
 msgstr "الإعدادات"
 
@@ -4359,7 +4379,7 @@ msgid ""
 "The server encountered an error while trying to deploy the project. If this "
 "problem persists, please contact <a "
 "href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>."
-msgstr "واجه خادم الشبكة خطأ أثناء محاولة نشر وتوزيع المشروع. إذا استمرت هذه المشكلة، يرجى الاتصال بـ <a href=\"mailto:help@kobotoolbox.org\"> help@kobotoolbox.org </a>."
+msgstr "واجه خادم الشبكة خطأ أثناء محاولة نشر وتوزيع المشروع. إذا استمرت هذه المشكلة، يرجى الاتصال بـ <a href=\"mailto:help@kobotoolbox.org\">help@kobotoolbox.org</a>."
 
 #: jsapp/js/i18nMissingStrings.es6:85
 msgid "The form id was not valid."
@@ -4451,7 +4471,7 @@ msgstr "السماح للآخرين بالوصول إلى مشروعك."
 
 #: jsapp/js/i18nMissingStrings.es6:115
 msgid "Shared with "
-msgstr "مُشارك مع"
+msgstr "مُشارك مع "
 
 #: jsapp/js/i18nMissingStrings.es6:116
 msgid "Share the sector and country with developers"
@@ -4462,12 +4482,12 @@ msgid "Leave Beta"
 msgstr "مغادرة النسخة التجريبية"
 
 #: jsapp/js/i18nMissingStrings.es6:118
-#: jsapp/js/project/projectTopTabs.component.tsx:72
+#: jsapp/js/project/projectTopTabs.component.tsx:73
 msgid "Form"
 msgstr "النماذج"
 
 #: jsapp/js/i18nMissingStrings.es6:119
-#: jsapp/js/project/projectTopTabs.component.tsx:83
+#: jsapp/js/project/projectTopTabs.component.tsx:84
 msgid "Data"
 msgstr "البيانات"
 
@@ -4675,18 +4695,6 @@ msgstr "حذف المشروع"
 msgid "More Actions"
 msgstr "المزيد من الإجراءات"
 
-#: jsapp/js/i18nMissingStrings.es6:176
-msgid "Please make sure the following details are filled out correctly:"
-msgstr "يرجى التأكد من ملء التفاصيل التالية بشكل صحيح:"
-
-#: jsapp/js/i18nMissingStrings.es6:177
-msgid "I agree, let's go"
-msgstr "أنا أوافق، هيا بنا"
-
-#: jsapp/js/i18nMissingStrings.es6:178
-msgid "I don't agree, log me out"
-msgstr "أنا لا أوافق، دعني أخرج"
-
 #: jsapp/js/mixins.tsx:124
 msgid "copied to clipboard"
 msgstr "تم النسخ إلى الحافظة"
@@ -4699,7 +4707,7 @@ msgstr "تم إضافة السؤال إلى المكتبة"
 msgid "group has been added to the library as a block"
 msgstr "تمت إضافة المجموعة إلى المكتبة كمجمع"
 
-#: jsapp/js/project/projectTopTabs.component.tsx:60
+#: jsapp/js/project/projectTopTabs.component.tsx:61
 msgid "Summary"
 msgstr "الملخص"
 
@@ -4707,23 +4715,23 @@ msgstr "الملخص"
 msgid "Today"
 msgstr "اليوم"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:281
+#: jsapp/js/project/submissionsCountGraph.component.tsx:283
 msgid "Past 7 days"
 msgstr "في الأيام 7 الماضية"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:282
+#: jsapp/js/project/submissionsCountGraph.component.tsx:284
 msgid "Past 31 days"
 msgstr "في 31 يوم ماضية"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:283
+#: jsapp/js/project/submissionsCountGraph.component.tsx:285
 msgid "Past 3 months"
 msgstr "الأشهر الـ 3 الماضية"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:284
+#: jsapp/js/project/submissionsCountGraph.component.tsx:286
 msgid "Past 12 months"
 msgstr "الأشهر الـ 12 الماضية"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:301
+#: jsapp/js/project/submissionsCountGraph.component.tsx:303
 msgid "No chart data available for current period."
 msgstr "لا يوجد مخططات بيانية للمدة الحالية."
 
@@ -4955,17 +4963,17 @@ msgstr "يرجى المحاولة مرة أخرى لاحقًا، أو [اتصل 
 msgid "Additional details:"
 msgstr "تفاصيل إضافية:"
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:44
+#: jsapp/js/router/invalidatedPassword.component.tsx:25
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr "تقييد الوصول المؤقت: تحديث كلمة المرور مطلوب"
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:50
+#: jsapp/js/router/invalidatedPassword.component.tsx:30
 msgid ""
 "You must update your password before proceeding. Please do so promptly to "
 "ensure the security of your data."
 msgstr "يجب عليك تحديث كلمة المرور الخاصة بك قبل المتابعة. يرجى القيام بذلك على الفور لضمان أمان بياناتك."
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:59
+#: jsapp/js/router/invalidatedPassword.component.tsx:39
 msgid "Update password"
 msgstr "تحديث كلمة المرور"
 
@@ -4980,3 +4988,19 @@ msgstr "فشل إدراج الأصول"
 #: jsapp/js/textUtils.ts:34
 msgid "##field_label## (required)"
 msgstr "##field_label## (مطلوب)"
+
+#: jsapp/js/tos/tosForm.component.tsx:92
+msgid "TOS Update Message not found"
+msgstr "لم يتم العثور على رسالة تحديث TOS"
+
+#: jsapp/js/tos/tosForm.component.tsx:213
+msgid "Please make sure the following details are filled out correctly:"
+msgstr "يرجى التأكد من ملء التفاصيل التالية بشكل صحيح:"
+
+#: jsapp/js/tos/tosForm.component.tsx:235
+msgid "I agree, let's go"
+msgstr "أنا أوافق، هيا بنا"
+
+#: jsapp/js/tos/tosForm.component.tsx:244
+msgid "I don't agree, log me out"
+msgstr "أنا لا أوافق، دعني أخرج"

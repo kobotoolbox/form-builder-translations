@@ -9,7 +9,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-15 22:18+0000\n"
+"POT-Creation-Date: 2023-12-22 01:14+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Saguna thapa, 2023\n"
 "Language-Team: Nepali (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ne/)\n"
@@ -19,43 +19,63 @@ msgstr ""
 "Language: ne\n"
 "Plural-Forms: nplurals=2; plural=(n != 1);\n"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:15
+#: jsapp/js/account/accountFieldsEditor.component.tsx:17
+msgid "Non-profit organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:18
+msgid "Government institution"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:19
+msgid "Educational organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:20
+msgid "A commercial/for-profit company"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:21
+msgid "I am not associated with any organization"
+msgstr ""
+
+#: jsapp/js/account/accountFieldsEditor.component.tsx:24
 msgid "Male"
 msgstr "पुरुष"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:16
+#: jsapp/js/account/accountFieldsEditor.component.tsx:25
 msgid "Female"
 msgstr "महिला"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:17
+#: jsapp/js/account/accountFieldsEditor.component.tsx:26
 msgid "Other"
 msgstr "अन्य"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:94
+#: jsapp/js/account/accountFieldsEditor.component.tsx:138
 msgid "Privacy"
 msgstr "गोपनीयता"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:101
+#: jsapp/js/account/accountFieldsEditor.component.tsx:145
 msgid "Require authentication to see forms and submit data"
 msgstr "फारमहरू हेर्न र डाटा पेश गर्न प्रमाणीकरण आवश्यक छ"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:117
+#: jsapp/js/account/accountFieldsEditor.component.tsx:161
 msgid "Use this to display your real name to other users"
 msgstr "अन्य प्रयोगकर्ताहरूलाई आफ्नो वास्तविक नाम देखाउन यो प्रयोग गर्नुहोस्"
 
-#: jsapp/js/account/accountFieldsEditor.component.tsx:249
+#: jsapp/js/account/accountFieldsEditor.component.tsx:319
 msgid "Social"
 msgstr "सामाजिक"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:86
+#: jsapp/js/account/accountSettingsRoute.tsx:89
 msgid "You have unsaved changes. Leave settings without saving?"
 msgstr "तपाईंले सेटि‍ङ्गमा गरेको परिवर्तनहरु सुरक्षित (सेभ) गरिएका छैनन्। सेभ नगरी सेटिङहरू छोड्ने हो?"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:109
+#: jsapp/js/account/accountSettingsRoute.tsx:112
 msgid "Updated profile successfully"
 msgstr "प्रोफाइल सफलतापूर्वक अद्यावधीक (अपडेट) गरियो।"
 
-#: jsapp/js/account/accountSettingsRoute.tsx:138
+#: jsapp/js/account/accountSettingsRoute.tsx:141
 #: jsapp/js/components/modalForms/projectSettings.es6:894
 #: jsapp/js/components/modalForms/translationTable.es6:23
 msgid "Save Changes"
@@ -212,12 +232,12 @@ msgid "Passwords don't match"
 msgstr ""
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:85
-#: jsapp/js/actions.es6:421
+#: jsapp/js/actions.es6:408
 msgid "changed password successfully"
 msgstr "पासवर्ड सफलतापूर्वक परिवर्तन गरियो"
 
 #: jsapp/js/account/security/password/updatePasswordForm.component.tsx:108
-#: jsapp/js/actions.es6:424 jsapp/js/i18nMissingStrings.es6:86
+#: jsapp/js/actions.es6:411 jsapp/js/i18nMissingStrings.es6:86
 msgid "failed to change password"
 msgstr "पासवर्ड परिवर्तन गर्न असफल"
 
@@ -225,11 +245,11 @@ msgstr "पासवर्ड परिवर्तन गर्न असफल
 msgid "Current Password"
 msgstr "हालको पासवर्ड"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:34
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:33
 msgid "Single-Sign On"
 msgstr "एकल-साइन अन"
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:40
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:39
 msgid ""
 "Connect your KoboToolbox account with your organization's identity provider "
 "for single-sign on (SSO). Afterwards, you will only be able to sign in via "
@@ -237,11 +257,11 @@ msgid ""
 "address in case your current address is different."
 msgstr ""
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:47
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:46
 msgid "Already connected"
 msgstr ""
 
-#: jsapp/js/account/security/sso/ssoSection.component.tsx:76
+#: jsapp/js/account/security/sso/ssoSection.component.tsx:75
 msgid "Disable"
 msgstr ""
 
@@ -271,7 +291,7 @@ msgid "per account"
 msgstr ""
 
 #: jsapp/js/account/usage.component.tsx:154
-#: jsapp/js/project/submissionsCountGraph.component.tsx:319
+#: jsapp/js/project/submissionsCountGraph.component.tsx:321
 msgid "Total"
 msgstr "कुल"
 
@@ -283,111 +303,111 @@ msgstr ""
 msgid "Translation characters"
 msgstr ""
 
-#: jsapp/js/actions.es6:91 jsapp/js/actions.es6:97
+#: jsapp/js/actions.es6:90 jsapp/js/actions.es6:96
 msgid "Failed to update permissions"
 msgstr "अनुमतिहरू अद्यावधिक गर्न असफल भयो"
 
-#: jsapp/js/actions.es6:94
+#: jsapp/js/actions.es6:93
 msgid "Failed to remove permissions"
 msgstr "अनुमतिहरू हटाउन असफल भयो"
 
-#: jsapp/js/actions.es6:160
+#: jsapp/js/actions.es6:159
 msgid "successfully updated"
 msgstr "सफलतापूर्वक अद्यावधिक गरियो"
 
-#: jsapp/js/actions.es6:200
+#: jsapp/js/actions.es6:199
 msgid "please check your connection and try again."
 msgstr "कृपया आफ्नो जडान जाँच गर्नुहोस् र पुन: प्रयास गर्नुहोस्।"
 
-#: jsapp/js/actions.es6:203 jsapp/js/actions.es6:213
+#: jsapp/js/actions.es6:202 jsapp/js/actions.es6:212
 msgid "if this problem persists, contact help@kobotoolbox.org"
 msgstr "यदि यो समस्या रहिरह्यो भने, help@kobotoolbox.org लाई सम्पर्क गर्नुहोस्"
 
-#: jsapp/js/actions.es6:211
+#: jsapp/js/actions.es6:210
 msgid "your form id was not valid:"
 msgstr "तपाईको फारम आईडी मान्य थिएन:"
 
-#: jsapp/js/actions.es6:217
+#: jsapp/js/actions.es6:216
 msgid "your form cannot be deployed because it contains errors:"
 msgstr "तपाईंको फारम प्रयोग गर्न सकिँदैन किनभने यसमा त्रुटिहरू छन्:"
 
-#: jsapp/js/actions.es6:221
+#: jsapp/js/actions.es6:220
 msgid "unable to deploy"
 msgstr "परिचालन गर्न असमर्थ"
 
-#: jsapp/js/actions.es6:236
+#: jsapp/js/actions.es6:235
 msgid "Project unarchived successfully"
 msgstr "परियोजना सफलतापूर्वक हटाइयो"
 
-#: jsapp/js/actions.es6:238
+#: jsapp/js/actions.es6:237
 msgid "Project archived successfully"
 msgstr "परियोजना सफलतापूर्वक अभिलेख गरियो"
 
-#: jsapp/js/actions.es6:352
+#: jsapp/js/actions.es6:351
 msgid "Unable to delete asset!"
 msgstr "सम्पत्ति मेटाउन असमर्थ!"
 
-#: jsapp/js/actions.es6:353
+#: jsapp/js/actions.es6:352
 msgid "Error details:"
 msgstr "त्रुटि"
 
-#: jsapp/js/actions.es6:369
+#: jsapp/js/actions.es6:368
 msgid "Could not create project!"
 msgstr "परियोजना बनाउन सकिएन!"
 
-#: jsapp/js/actions.es6:435
+#: jsapp/js/actions.es6:422
 msgid "failed to load API token"
 msgstr "API टोकन लोड गर्न असफल भयो"
 
-#: jsapp/js/actions.es6:465
+#: jsapp/js/actions.es6:452
 msgid "submission deleted"
 msgstr "पेश गरिएका मेटाइयो"
 
-#: jsapp/js/actions.es6:470
+#: jsapp/js/actions.es6:457
 msgid "failed to delete submission"
 msgstr "पेश गरिएका मेटाउन असफल भयो"
 
-#: jsapp/js/actions.es6:478
+#: jsapp/js/actions.es6:465
 msgid "Successfully duplicated submission"
 msgstr "पेश गरिएका सफलतापूर्वक नक्कल गरियो"
 
-#: jsapp/js/actions.es6:483
+#: jsapp/js/actions.es6:470
 msgid "Failed to duplicate submission"
 msgstr "पेश गरिएका नक्कल गर्न असफल"
 
-#: jsapp/js/actions.es6:521
+#: jsapp/js/actions.es6:508
 msgid "REST Service added successfully"
 msgstr "REST सेवा सफलतापूर्वक थपियो"
 
-#: jsapp/js/actions.es6:524
+#: jsapp/js/actions.es6:511
 msgid "Failed adding REST Service"
 msgstr "REST सेवा थप्न असफल"
 
-#: jsapp/js/actions.es6:544
+#: jsapp/js/actions.es6:531
 msgid "REST Service updated successfully"
 msgstr "REST सेवा सफलतापूर्वक अपडेट भयो"
 
-#: jsapp/js/actions.es6:547
+#: jsapp/js/actions.es6:534
 msgid "Failed saving REST Service"
 msgstr "REST सेवा सेभ गर्न असफल"
 
-#: jsapp/js/actions.es6:567
+#: jsapp/js/actions.es6:554
 msgid "REST Service deleted permanently"
 msgstr "REST सेवा स्थायी रूपमा मेटाइयो"
 
-#: jsapp/js/actions.es6:570
+#: jsapp/js/actions.es6:557
 msgid "Could not delete REST Service"
 msgstr "REST सेवा मेटाउन सकिएन"
 
-#: jsapp/js/actions.es6:606
+#: jsapp/js/actions.es6:593
 msgid "Submission retry requested successfully"
 msgstr "पुन: पेश गरिएका प्रयासको अनुरोध सफलतापूर्वक गरियो"
 
-#: jsapp/js/actions.es6:609
+#: jsapp/js/actions.es6:596
 msgid "Submission retry request failed"
 msgstr "पुन: पेश गरिएका प्रयास अनुरोध असफल भयो"
 
-#: jsapp/js/actions.es6:632
+#: jsapp/js/actions.es6:619
 msgid "Retrying all submissions failed"
 msgstr "सबै पेश गरिएकाहरू पुन: प्रयास गर्न असफल भयो"
 
@@ -508,8 +528,8 @@ msgstr "पेश गरिएका हरू मेटाउन असफल�
 msgid "Delete?"
 msgstr "मेटाउने?"
 
-#: jsapp/js/alertify.ts:165 jsapp/js/assetQuickActions.tsx:128
-#: jsapp/js/assetQuickActions.tsx:131
+#: jsapp/js/alertify.ts:165 jsapp/js/assetQuickActions.tsx:129
+#: jsapp/js/assetQuickActions.tsx:132
 #: jsapp/js/components/modalForms/translationSettings.es6:153
 #: jsapp/js/components/processing/transcriptTabContent.tsx:417
 #: jsapp/js/components/processing/translationsTabContent.tsx:540
@@ -528,10 +548,10 @@ msgstr "मेट्नुहोस्"
 msgid "This action is not reversible"
 msgstr "यो कार्य उल्टाउन मिल्दैन"
 
-#: jsapp/js/alertify.ts:174 jsapp/js/assetQuickActions.tsx:132
-#: jsapp/js/assetQuickActions.tsx:163 jsapp/js/assetQuickActions.tsx:201
-#: jsapp/js/assetQuickActions.tsx:250 jsapp/js/assetQuickActions.tsx:325
-#: jsapp/js/assetQuickActions.tsx:423 jsapp/js/assetQuickActions.tsx:483
+#: jsapp/js/alertify.ts:174 jsapp/js/assetQuickActions.tsx:133
+#: jsapp/js/assetQuickActions.tsx:164 jsapp/js/assetQuickActions.tsx:202
+#: jsapp/js/assetQuickActions.tsx:251 jsapp/js/assetQuickActions.tsx:326
+#: jsapp/js/assetQuickActions.tsx:424 jsapp/js/assetQuickActions.tsx:484
 #: jsapp/js/components/RESTServices/RESTServicesList.es6:82
 #: jsapp/js/components/bigModal/bigModal.es6:276
 #: jsapp/js/components/dataAttachments/connectProjects.es6:265
@@ -551,175 +571,175 @@ msgstr "यो कार्य उल्टाउन मिल्दैन"
 msgid "Cancel"
 msgstr "रद्द गर्नुहोस्"
 
-#: jsapp/js/api.ts:37 jsapp/js/components/reports/reports.js:466
+#: jsapp/js/api.ts:54 jsapp/js/components/reports/reports.js:466
 msgid "An error occurred"
 msgstr ""
 
-#: jsapp/js/api.ts:43
+#: jsapp/js/api.ts:61
 msgid "Your connection is offline"
 msgstr ""
 
-#: jsapp/js/assetQuickActions.tsx:66
+#: jsapp/js/assetQuickActions.tsx:67
 msgid "##ASSET_TYPE## deleted permanently"
 msgstr "##ASSET_TYPE## स्थायी रूपमा मेटाइयो"
 
-#: jsapp/js/assetQuickActions.tsx:82
+#: jsapp/js/assetQuickActions.tsx:83
 msgid "You are about to permanently delete this item from your library."
 msgstr "तपाईं आफ्नो सङ्ग्रहबाट यो वस्तु स्थायी रूपमा मेटाउन लाग्दै हुनुहुन्छ।"
 
-#: jsapp/js/assetQuickActions.tsx:85
+#: jsapp/js/assetQuickActions.tsx:86
 msgid "You are about to permanently delete this draft."
 msgstr "तपाईं स्थायी रूपमा यो मस्यौदा मेटाउन लाग्दै हुनुहुन्छ।"
 
-#: jsapp/js/assetQuickActions.tsx:88
+#: jsapp/js/assetQuickActions.tsx:89
 msgid "You are about to permanently delete this form."
 msgstr "तपाईं स्थायी रूपमा यो फारम मेटाउन लाग्दै हुनुहुन्छ।"
 
-#: jsapp/js/assetQuickActions.tsx:92
+#: jsapp/js/assetQuickActions.tsx:93
 msgid "All data gathered for this form will be deleted."
 msgstr "यस फारमको लागि जम्मा गरिएका सबै तथ्याङ्क मेटिने छन्।"
 
-#: jsapp/js/assetQuickActions.tsx:97
+#: jsapp/js/assetQuickActions.tsx:98
 msgid "The form associated with this project will be deleted."
 msgstr "यस परियोजनासँग सम्बन्धित फारम मेटिनेछ।"
 
-#: jsapp/js/assetQuickActions.tsx:102
+#: jsapp/js/assetQuickActions.tsx:103
 msgid ""
 "I understand that if I delete this project I will not be able to recover it."
 msgstr "मलाई थाहा छ यदि मैले यो परियोजना मेटाएँ भने म यसलाई पुन: प्राप्त गर्न सक्ने छुइन।"
 
-#: jsapp/js/assetQuickActions.tsx:158
+#: jsapp/js/assetQuickActions.tsx:159
 #: jsapp/js/components/modalForms/projectSettings.es6:1035
 msgid "Archive Project"
 msgstr "परियोजना अभिलेखन गर्नुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:159
+#: jsapp/js/assetQuickActions.tsx:160
 msgid "Are you sure you want to archive this project?"
 msgstr "तपाईं यो परियोजना अभिलेख गर्ने कुरामा निश्चित हुनुहुन्छ?"
 
-#: jsapp/js/assetQuickActions.tsx:161
+#: jsapp/js/assetQuickActions.tsx:162
 msgid "Your form will not accept submissions while it is archived."
 msgstr "यस फारमलाई अभिलेखन गरिसकेपछि यसले फेरि अरु पेश गरिएका स्वीकार गर्दैन।"
 
-#: jsapp/js/assetQuickActions.tsx:163
+#: jsapp/js/assetQuickActions.tsx:164
 msgid "Archive"
 msgstr "अभिलेख राख्नुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:199
+#: jsapp/js/assetQuickActions.tsx:200
 #: jsapp/js/components/modalForms/projectSettings.es6:1025
 msgid "Unarchive Project"
 msgstr "परियोजनाको अभिलेखन नगर्नुहोस्।"
 
-#: jsapp/js/assetQuickActions.tsx:200
+#: jsapp/js/assetQuickActions.tsx:201
 msgid "Are you sure you want to unarchive this project?"
 msgstr "के तपाईं यो परियोजनालाई अभिलेखन नगर्ने कुरामा निश्चित हुनुहुन्छ?"
 
-#: jsapp/js/assetQuickActions.tsx:201
+#: jsapp/js/assetQuickActions.tsx:202
 msgid "Unarchive"
 msgstr "अभिलेखन नगर्नुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:239 jsapp/js/mixins.tsx:129
+#: jsapp/js/assetQuickActions.tsx:240 jsapp/js/mixins.tsx:129
 msgid "Clone of"
 msgstr "उस्तै अर्को को"
 
-#: jsapp/js/assetQuickActions.tsx:245 jsapp/js/mixins.tsx:133
+#: jsapp/js/assetQuickActions.tsx:246 jsapp/js/mixins.tsx:133
 msgid "Clone"
 msgstr "उस्तै अर्को बनाउनु"
 
-#: jsapp/js/assetQuickActions.tsx:247 jsapp/js/mixins.tsx:135
+#: jsapp/js/assetQuickActions.tsx:248 jsapp/js/mixins.tsx:135
 msgid ""
 "Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
 "original name."
 msgstr "उस्तै अर्को बनाएको नाम प्रविष्ट गर्नुहोस्##ASSET_TYPE##। सुरुकै नाम राख्न खाली छोड्नुहोस्।"
 
-#: jsapp/js/assetQuickActions.tsx:250 jsapp/js/assetQuickActions.tsx:483
+#: jsapp/js/assetQuickActions.tsx:251 jsapp/js/assetQuickActions.tsx:484
 #: jsapp/js/mixins.tsx:138
 msgid "Ok"
 msgstr "ठिक छ"
 
-#: jsapp/js/assetQuickActions.tsx:253
+#: jsapp/js/assetQuickActions.tsx:254
 msgid "Cloning..."
 msgstr "उस्तै अर्को बनाउदै..."
 
-#: jsapp/js/assetQuickActions.tsx:290
+#: jsapp/js/assetQuickActions.tsx:291
 msgid "cloned ##ASSET_TYPE## created"
 msgstr "उस्तै अर्को ##ASSET_TYPE## बनाइयो"
 
-#: jsapp/js/assetQuickActions.tsx:325
+#: jsapp/js/assetQuickActions.tsx:326
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:202
 msgid "Create"
 msgstr "सृजना गर्नुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:332
+#: jsapp/js/assetQuickActions.tsx:333
 #: jsapp/js/components/modalForms/projectSettings.es6:527
 #: jsapp/js/components/modalForms/projectSettings.es6:1010
 msgid "Please wait…"
 msgstr "कृपया पर्खनुहोस्..."
 
-#: jsapp/js/assetQuickActions.tsx:363
+#: jsapp/js/assetQuickActions.tsx:364
 msgid "Failed to create new asset!"
 msgstr "नयाँ सम्पत्ति सिर्जना गर्न असफल भयो!"
 
-#: jsapp/js/assetQuickActions.tsx:384
+#: jsapp/js/assetQuickActions.tsx:385
 msgid "Create new template from this project"
 msgstr "यो परियोजनाबाट नयाँ टेम्प्लेट बनाउनुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:385
+#: jsapp/js/assetQuickActions.tsx:386
 msgid "Enter the name of the new template."
 msgstr "नयाँ टेम्प्लेटको नाम प्रविष्ट गर्नुहोस्।"
 
-#: jsapp/js/assetQuickActions.tsx:395
+#: jsapp/js/assetQuickActions.tsx:396
 msgid "Create new project from this template"
 msgstr "यस टेम्प्लेटबाट नयाँ परियोजना बनाउनुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:396
+#: jsapp/js/assetQuickActions.tsx:397
 msgid "Enter the name of the new project."
 msgstr "नयाँ परियोजनाको नाम प्रविष्ट गर्नुहोस्।"
 
-#: jsapp/js/assetQuickActions.tsx:421
+#: jsapp/js/assetQuickActions.tsx:422
 msgid "Remove shared form"
 msgstr "बाडिएको फारम हटाउनुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:422
+#: jsapp/js/assetQuickActions.tsx:423
 msgid "Are you sure you want to remove this shared form?"
 msgstr "यो बाडिएको फारम हटाउने कुरामा निश्चित हुनुहुन्छ ?"
 
-#: jsapp/js/assetQuickActions.tsx:423
+#: jsapp/js/assetQuickActions.tsx:424
 #: jsapp/js/components/permissions/userPermissionRow.component.tsx:59
 msgid "Remove"
 msgstr "हटाउनुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:445
+#: jsapp/js/assetQuickActions.tsx:446
 msgid "deploying to kobocat..."
 msgstr "कोबोक्याटमा परिचालन गरिँदै....."
 
-#: jsapp/js/assetQuickActions.tsx:450
+#: jsapp/js/assetQuickActions.tsx:451
 msgid "deployed form"
 msgstr "परिचालित फारम"
 
-#: jsapp/js/assetQuickActions.tsx:470
+#: jsapp/js/assetQuickActions.tsx:471
 msgid "Overwrite existing deployment"
 msgstr "वर्तमान परिचालन अभिलेखन गर्नुहोस्"
 
-#: jsapp/js/assetQuickActions.tsx:476
+#: jsapp/js/assetQuickActions.tsx:477
 msgid ""
 "This form has already been deployed. Are you sure you want overwrite the "
 "existing deployment?"
 msgstr ""
 
-#: jsapp/js/assetQuickActions.tsx:480 jsapp/js/i18nMissingStrings.es6:96
+#: jsapp/js/assetQuickActions.tsx:481 jsapp/js/i18nMissingStrings.es6:96
 msgid "This action cannot be undone."
 msgstr "यो कार्यलाई अनडु गर्न सकिँदैन।"
 
-#: jsapp/js/assetQuickActions.tsx:487
+#: jsapp/js/assetQuickActions.tsx:488
 msgid "Deploying..."
 msgstr "परिचालन गरिँदै....."
 
-#: jsapp/js/assetQuickActions.tsx:490
+#: jsapp/js/assetQuickActions.tsx:491
 msgid "redeployed form"
 msgstr "पुनर्परिचालित फारम"
 
-#: jsapp/js/assetUtils.ts:65 jsapp/js/components/formSummaryProjectInfo.tsx:89
+#: jsapp/js/assetUtils.ts:65 jsapp/js/components/formSummaryProjectInfo.tsx:97
 #: jsapp/js/projects/projectsTable/projectsTableRow.tsx:47
 msgid "me"
 msgstr "म"
@@ -888,7 +908,7 @@ msgid "Create template"
 msgstr "टेम्प्लेट सिर्जना गर्नुहोस्"
 
 #: jsapp/js/components/assetsTable/assetsTable.tsx:195
-#: jsapp/js/components/formSummaryProjectInfo.tsx:82
+#: jsapp/js/components/formSummaryProjectInfo.tsx:90
 #: jsapp/js/components/library/assetInfoBox.es6:103
 #: jsapp/js/components/templatesList.es6:77
 msgid "Questions"
@@ -911,7 +931,7 @@ msgid "Items"
 msgstr "वस्तुहरु"
 
 #: jsapp/js/components/assetsTable/assetsTableConstants.ts:65
-#: jsapp/js/components/formSummaryProjectInfo.tsx:88
+#: jsapp/js/components/formSummaryProjectInfo.tsx:96
 #: jsapp/js/components/library/assetInfoBox.es6:73
 #: jsapp/js/components/templatesList.es6:71
 #: jsapp/js/projects/projectViews/constants.ts:177
@@ -923,7 +943,7 @@ msgid "Subscribers"
 msgstr "सदस्यहरू"
 
 #: jsapp/js/components/assetsTable/assetsTableConstants.ts:77
-#: jsapp/js/components/formSummaryProjectInfo.tsx:150
+#: jsapp/js/components/formSummaryProjectInfo.tsx:158
 #: jsapp/js/components/library/assetInfoBox.es6:132
 #: jsapp/js/projects/projectViews/constants.ts:289
 msgid "Languages"
@@ -1383,42 +1403,42 @@ msgstr "काम नगरिएको"
 msgid "path not found / recognized"
 msgstr "बाटो फेला परेन / पहिचान भएन"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:57
+#: jsapp/js/components/formSummaryProjectInfo.tsx:65
 msgid "Project information"
 msgstr "परियोजना जानकारी"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:66
+#: jsapp/js/components/formSummaryProjectInfo.tsx:74
 #: jsapp/js/components/library/assetInfoBox.es6:80
 #: jsapp/js/components/modalForms/libraryAssetForm.es6:231
 #: jsapp/js/projects/projectViews/constants.ts:151
 msgid "Description"
 msgstr "विवरण"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:76
+#: jsapp/js/components/formSummaryProjectInfo.tsx:84
 #: jsapp/js/projects/projectViews/constants.ts:167
 msgid "Status"
 msgstr "स्थिति"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:99
+#: jsapp/js/components/formSummaryProjectInfo.tsx:107
 #: jsapp/js/components/templatesList.es6:74
 msgid "Last modified"
 msgstr "पछिल्लो पटक परिमार्जन गरिएको"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:105
+#: jsapp/js/components/formSummaryProjectInfo.tsx:113
 msgid "Last deployed"
 msgstr ""
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:114
+#: jsapp/js/components/formSummaryProjectInfo.tsx:122
 msgid "Latest submission"
 msgstr "पछिल्लो पेश गरिएका"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:127
+#: jsapp/js/components/formSummaryProjectInfo.tsx:135
 #: jsapp/js/components/library/assetInfoBox.es6:118
 #: jsapp/js/projects/projectViews/constants.ts:263
 msgid "Sector"
 msgstr "क्षेत्र"
 
-#: jsapp/js/components/formSummaryProjectInfo.tsx:137
+#: jsapp/js/components/formSummaryProjectInfo.tsx:145
 #: jsapp/js/projects/projectViews/constants.ts:275
 msgid "Countries"
 msgstr "देशहरू"
@@ -1468,25 +1488,25 @@ msgstr "REST सेवाहरु"
 msgid "Please refresh the page"
 msgstr "कृपया पृष्ठ रिफ्रेश गर्नुहोस्"
 
-#: jsapp/js/components/header/accountMenu.tsx:115
+#: jsapp/js/components/header/accountMenu.tsx:110
 msgid "Account Settings"
 msgstr "अकाउन्ट (विवरण) सेटिङहरु"
 
-#: jsapp/js/components/header/accountMenu.tsx:125
+#: jsapp/js/components/header/accountMenu.tsx:120
 msgid "Terms of Service"
 msgstr "सेवा सर्तहरु"
 
-#: jsapp/js/components/header/accountMenu.tsx:130
+#: jsapp/js/components/header/accountMenu.tsx:125
 msgid "Privacy Policy"
 msgstr "गोपनीयता नीति"
 
-#: jsapp/js/components/header/accountMenu.tsx:143
+#: jsapp/js/components/header/accountMenu.tsx:138
 #: jsapp/js/components/map.es6:847
 #: jsapp/js/components/projectDownloads/projectExportsList.es6:283
 msgid "Language"
 msgstr "भाषा"
 
-#: jsapp/js/components/header/accountMenu.tsx:152
+#: jsapp/js/components/header/accountMenu.tsx:147
 msgid "Logout"
 msgstr "लग आउट गर्नुहोस्"
 
@@ -2932,7 +2952,7 @@ msgid "Export ##SELECT_MANY## questions as…"
 msgstr ""
 
 #: jsapp/js/components/projectDownloads/projectExportsCreator.es6:559
-#: jsapp/js/constants.ts:388 jsapp/js/formbuild/containers/KoboMatrix.es6:44
+#: jsapp/js/constants.ts:326 jsapp/js/formbuild/containers/KoboMatrix.es6:44
 #: jsapp/js/i18nMissingStrings.es6:102
 msgid "Select Many"
 msgstr "धेरै छान्नुहोस्"
@@ -3193,7 +3213,7 @@ msgid "Horizontal"
 msgstr "तेर्सो"
 
 #: jsapp/js/components/reports/reportsConstants.ts:97
-#: jsapp/js/constants.ts:370 jsapp/js/i18nMissingStrings.es6:45
+#: jsapp/js/constants.ts:308 jsapp/js/i18nMissingStrings.es6:45
 msgid "Line"
 msgstr "रेखा"
 
@@ -3208,7 +3228,7 @@ msgid "Donut"
 msgstr "डोनट"
 
 #: jsapp/js/components/reports/reportsConstants.ts:125
-#: jsapp/js/constants.ts:369 jsapp/js/i18nMissingStrings.es6:42
+#: jsapp/js/constants.ts:307 jsapp/js/i18nMissingStrings.es6:42
 msgid "Area"
 msgstr "क्षेत्र"
 
@@ -3562,248 +3582,248 @@ msgstr ""
 msgid "included with your current plan."
 msgstr ""
 
-#: jsapp/js/constants.ts:161
+#: jsapp/js/constants.ts:99
 msgid "Default - single page"
 msgstr "प्रारम्भिक - एकल पृष्ठ"
 
-#: jsapp/js/constants.ts:162
+#: jsapp/js/constants.ts:100
 msgid "Grid theme"
 msgstr "ग्रिड विषयवस्तु"
 
-#: jsapp/js/constants.ts:163
+#: jsapp/js/constants.ts:101
 msgid "Grid theme with headings in ALL CAPS"
 msgstr "ALL CAPS मा शीर्षकहरू सहित ग्रिड विषयवस्तु"
 
-#: jsapp/js/constants.ts:164
+#: jsapp/js/constants.ts:102
 msgid "Multiple pages"
 msgstr "धेरै पृष्ठहरू"
 
-#: jsapp/js/constants.ts:167
+#: jsapp/js/constants.ts:105
 msgid "Grid theme + Multiple pages"
 msgstr "ग्रिड विषयवस्तु + बहु पृष्ठहरू"
 
-#: jsapp/js/constants.ts:171
+#: jsapp/js/constants.ts:109
 msgid "Grid theme + Multiple pages + headings in ALL CAPS"
 msgstr "ग्रिड विषयवस्तु + धेरै पृष्ठहरू + ALL CAPS मा शीर्षकहरू"
 
-#: jsapp/js/constants.ts:190
+#: jsapp/js/constants.ts:128
 msgid "Not approved"
 msgstr "स्वीकृत छैन"
 
-#: jsapp/js/constants.ts:194
+#: jsapp/js/constants.ts:132
 msgid "Approved"
 msgstr "स्वीकृत"
 
-#: jsapp/js/constants.ts:198
+#: jsapp/js/constants.ts:136
 msgid "On hold"
 msgstr "होल्डमा"
 
-#: jsapp/js/constants.ts:232
+#: jsapp/js/constants.ts:170
 msgid "question"
 msgstr "प्रश्न"
 
-#: jsapp/js/constants.ts:236
+#: jsapp/js/constants.ts:174
 msgid "block"
 msgstr "ब्लक"
 
-#: jsapp/js/constants.ts:240
+#: jsapp/js/constants.ts:178
 msgid "template"
 msgstr "टेम्प्लेट"
 
-#: jsapp/js/constants.ts:244
+#: jsapp/js/constants.ts:182
 msgid "project"
 msgstr "परियोजना"
 
-#: jsapp/js/constants.ts:248
+#: jsapp/js/constants.ts:186
 msgid "collection"
 msgstr "सङ्कलन"
 
-#: jsapp/js/constants.ts:259
+#: jsapp/js/constants.ts:197
 msgid "map layer"
 msgstr "नक्सा तह"
 
-#: jsapp/js/constants.ts:263
+#: jsapp/js/constants.ts:201
 msgid "form media"
 msgstr "फाराम मिडिया"
 
-#: jsapp/js/constants.ts:332 jsapp/js/i18nMissingStrings.es6:66
+#: jsapp/js/constants.ts:270 jsapp/js/i18nMissingStrings.es6:66
 msgid "Acknowledge"
 msgstr "स्वीकार गर्नुहोस्"
 
-#: jsapp/js/constants.ts:336 jsapp/js/i18nMissingStrings.es6:62
+#: jsapp/js/constants.ts:274 jsapp/js/i18nMissingStrings.es6:62
 msgid "Audio"
 msgstr "अडियो"
 
-#: jsapp/js/constants.ts:338
+#: jsapp/js/constants.ts:276
 msgid "Barcode / QR Code"
 msgstr "बारकोड / QR कोड"
 
-#: jsapp/js/constants.ts:343 jsapp/js/i18nMissingStrings.es6:67
+#: jsapp/js/constants.ts:281 jsapp/js/i18nMissingStrings.es6:67
 msgid "Calculate"
 msgstr "गणना गर्नुहोस्"
 
-#: jsapp/js/constants.ts:347 jsapp/js/i18nMissingStrings.es6:57
+#: jsapp/js/constants.ts:285 jsapp/js/i18nMissingStrings.es6:57
 msgid "Date"
 msgstr "मिति"
 
-#: jsapp/js/constants.ts:349 jsapp/js/i18nMissingStrings.es6:59
+#: jsapp/js/constants.ts:287 jsapp/js/i18nMissingStrings.es6:59
 msgid "Date & time"
 msgstr "मिति समय"
 
-#: jsapp/js/constants.ts:354 jsapp/js/i18nMissingStrings.es6:56
+#: jsapp/js/constants.ts:292 jsapp/js/i18nMissingStrings.es6:56
 msgid "Decimal"
 msgstr "दशमलव"
 
-#: jsapp/js/constants.ts:359
+#: jsapp/js/constants.ts:297
 msgid "External XML"
 msgstr "बाह्य XML"
 
-#: jsapp/js/constants.ts:363
+#: jsapp/js/constants.ts:301
 msgid "File"
 msgstr "फाइल"
 
-#: jsapp/js/constants.ts:365
+#: jsapp/js/constants.ts:303
 msgid "Point"
 msgstr "बिन्दु"
 
-#: jsapp/js/constants.ts:371
+#: jsapp/js/constants.ts:309
 msgid "Hidden"
 msgstr "लुकेको"
 
-#: jsapp/js/constants.ts:372 jsapp/js/i18nMissingStrings.es6:61
+#: jsapp/js/constants.ts:310 jsapp/js/i18nMissingStrings.es6:61
 msgid "Photo"
 msgstr "फोटो"
 
-#: jsapp/js/constants.ts:374 jsapp/js/formbuild/containers/KoboMatrix.es6:52
+#: jsapp/js/constants.ts:312 jsapp/js/formbuild/containers/KoboMatrix.es6:52
 #: jsapp/js/i18nMissingStrings.es6:55
 msgid "Number"
 msgstr "नम्बर"
 
-#: jsapp/js/constants.ts:379
+#: jsapp/js/constants.ts:317
 msgid "Question Matrix"
 msgstr "प्रश्न म्याट्रिक्स"
 
-#: jsapp/js/constants.ts:383 jsapp/js/i18nMissingStrings.es6:64
+#: jsapp/js/constants.ts:321 jsapp/js/i18nMissingStrings.es6:64
 msgid "Note"
 msgstr "नोट"
 
-#: jsapp/js/constants.ts:384
+#: jsapp/js/constants.ts:322
 msgid "Range"
 msgstr "दायरा"
 
-#: jsapp/js/constants.ts:385 jsapp/js/i18nMissingStrings.es6:69
+#: jsapp/js/constants.ts:323 jsapp/js/i18nMissingStrings.es6:69
 msgid "Ranking"
 msgstr "रैंकिंग"
 
-#: jsapp/js/constants.ts:386
+#: jsapp/js/constants.ts:324
 msgid "Rating"
 msgstr "मूल्याङ्कन"
 
-#: jsapp/js/constants.ts:393
+#: jsapp/js/constants.ts:331
 msgid "Select Many from File"
 msgstr "फाइलबाट धेरैवटा चयन गर्नुहोस्"
 
-#: jsapp/js/constants.ts:398 jsapp/js/formbuild/containers/KoboMatrix.es6:40
+#: jsapp/js/constants.ts:336 jsapp/js/formbuild/containers/KoboMatrix.es6:40
 #: jsapp/js/i18nMissingStrings.es6:101
 msgid "Select One"
 msgstr "एउटा छान्नुहोस्"
 
-#: jsapp/js/constants.ts:403
+#: jsapp/js/constants.ts:341
 msgid "Select One from File"
 msgstr "फाइलबाट एउटा चयन गर्नुहोस्"
 
-#: jsapp/js/constants.ts:407 jsapp/js/formbuild/containers/KoboMatrix.es6:48
+#: jsapp/js/constants.ts:345 jsapp/js/formbuild/containers/KoboMatrix.es6:48
 #: jsapp/js/i18nMissingStrings.es6:54
 msgid "Text"
 msgstr "पाठ"
 
-#: jsapp/js/constants.ts:408 jsapp/js/i18nMissingStrings.es6:58
+#: jsapp/js/constants.ts:346 jsapp/js/i18nMissingStrings.es6:58
 msgid "Time"
 msgstr "समय"
 
-#: jsapp/js/constants.ts:409 jsapp/js/i18nMissingStrings.es6:63
+#: jsapp/js/constants.ts:347 jsapp/js/i18nMissingStrings.es6:63
 msgid "Video"
 msgstr "भिडियो"
 
-#: jsapp/js/constants.ts:566
+#: jsapp/js/constants.ts:504
 msgid "Deployed"
 msgstr "विस्तार गरियो"
 
-#: jsapp/js/constants.ts:567 jsapp/js/i18nMissingStrings.es6:46
+#: jsapp/js/constants.ts:505 jsapp/js/i18nMissingStrings.es6:46
 msgid "Draft"
 msgstr "मस्यौदा"
 
-#: jsapp/js/constants.ts:568 jsapp/js/i18nMissingStrings.es6:175
+#: jsapp/js/constants.ts:506 jsapp/js/i18nMissingStrings.es6:175
 msgid "Archived"
 msgstr "अभिलेख राखिएको"
 
-#: jsapp/js/constants.ts:581
+#: jsapp/js/constants.ts:519
 msgid "Online-Offline (multiple submission)"
 msgstr "अनलाइन-अफलाइन (बहु पेश गरिएका)"
 
-#: jsapp/js/constants.ts:583
+#: jsapp/js/constants.ts:521
 msgid ""
 "This allows online and offline submissions and is the best option for "
 "collecting data in the field."
 msgstr "यसले अनलाइन र अफलाइन पेश गरिएकाहरूलाई अनुमति दिन्छ र फिल्डमा डाटा सङ्कलन गर्नका लागि उत्तम विकल्प हो।"
 
-#: jsapp/js/constants.ts:588
+#: jsapp/js/constants.ts:526
 msgid "Online-Only (multiple submissions)"
 msgstr "अनलाइन मात्र (बहु पेश गरिएका हरू)"
 
-#: jsapp/js/constants.ts:590
+#: jsapp/js/constants.ts:528
 msgid ""
 "This is the best option when entering many records at once on a computer, "
 "e.g. for transcribing paper records."
 msgstr "कम्प्युटरमा एकै पटक धेरै रेकर्डहरू प्रविष्ट गर्दा यो उत्तम विकल्प हो, उदाहरणका लागि। कागज अभिलेख ट्रान्सक्राइब गर्नका लागि।"
 
-#: jsapp/js/constants.ts:595
+#: jsapp/js/constants.ts:533
 msgid "Online-Only (single submission)"
 msgstr "अनलाइन-मात्र (एकल पेश गरिएका)"
 
-#: jsapp/js/constants.ts:597
+#: jsapp/js/constants.ts:535
 msgid ""
 "This allows a single submission, and can be paired with the \"return_url\" "
 "parameter to redirect the user to a URL of your choice after the form has "
 "been submitted."
 msgstr "यसले एउटा पेस गर्न अनुमति दिन्छ, र फाराम पेश गरिसकेपछि प्रयोगकर्तालाई तपाइँको रोजाइको URL मा पुनःलैजानका लागि \"return_url\" प्यारामिटरसँग जोड्न सकिन्छ।"
 
-#: jsapp/js/constants.ts:602
+#: jsapp/js/constants.ts:540
 msgid "Online-only (once per respondent)"
 msgstr "अनलाइन मात्र (प्रति उत्तरदाता एक पटक)"
 
-#: jsapp/js/constants.ts:604
+#: jsapp/js/constants.ts:542
 msgid ""
 "This allows your web form to only be submitted once per user, using basic "
 "protection to prevent the same user (on the same browser & device) from "
 "submitting more than once."
 msgstr "उही प्रयोगकर्तालाई (एउटै ब्राउजर र उपकरणमा) एक पटक भन्दा बढी पेश गर्नबाट रोक्नका लागि यसले आधारभूत सुरक्षा प्रयोग गरेर तपाइँको वेब फारमलाई प्रति प्रयोगकर्ता एक पटक मात्र पेश गर्ने अनुमति दिन्छ।"
 
-#: jsapp/js/constants.ts:609
+#: jsapp/js/constants.ts:547
 msgid "Embeddable web form code"
 msgstr "भित्रै राख्न मिल्ने वेब फाराम कोड"
 
-#: jsapp/js/constants.ts:611
+#: jsapp/js/constants.ts:549
 msgid ""
 "Use this html5 code snippet to integrate your form on your own website using"
 " smaller margins."
 msgstr "साना साना मार्जिन प्रयोग गरेर आफ्नै वेबसाइटमा आफ्नो फाराम एकीकृत गर्न यो html5 कोडको अंश प्रयोग गर्नुहोस्।"
 
-#: jsapp/js/constants.ts:616
+#: jsapp/js/constants.ts:554
 msgid "View only"
 msgstr "केवल हेर्नुहोस्"
 
-#: jsapp/js/constants.ts:618
+#: jsapp/js/constants.ts:556
 msgid ""
 "Use this version for testing, getting feedback. Does not allow submitting "
 "data."
 msgstr "परीक्षणका लागि, प्रतिक्रिया प्राप्त गर्न यो संस्करण प्रयोग गर्नुहोस्। डाटा पेश गर्ने अनुमति दिँदैन।"
 
-#: jsapp/js/constants.ts:623
+#: jsapp/js/constants.ts:561
 msgid "Android application"
 msgstr "एन्ड्रोइड एप"
 
-#: jsapp/js/constants.ts:625
+#: jsapp/js/constants.ts:563
 msgid "Use this option to collect data in the field with your Android device."
 msgstr "तपाईंको एन्ड्रोइड उपकरणले फिल्डमा डाटा सङ्कलन गर्न यो विकल्प प्रयोग गर्नुहोस्।"
 
@@ -4232,7 +4252,7 @@ msgid "Manually enter your validation logic in XLSForm code"
 msgstr "XLSForm कोडमा आफैँले आफ्नो प्रमाणीकरण तर्क प्रविष्ट गर्नुहोस्"
 
 #: jsapp/js/i18nMissingStrings.es6:50 jsapp/js/i18nMissingStrings.es6:121
-#: jsapp/js/project/projectTopTabs.component.tsx:96
+#: jsapp/js/project/projectTopTabs.component.tsx:97
 msgid "Settings"
 msgstr "सेटिंङहरू"
 
@@ -4426,12 +4446,12 @@ msgid "Leave Beta"
 msgstr ""
 
 #: jsapp/js/i18nMissingStrings.es6:118
-#: jsapp/js/project/projectTopTabs.component.tsx:72
+#: jsapp/js/project/projectTopTabs.component.tsx:73
 msgid "Form"
 msgstr "फारम"
 
 #: jsapp/js/i18nMissingStrings.es6:119
-#: jsapp/js/project/projectTopTabs.component.tsx:83
+#: jsapp/js/project/projectTopTabs.component.tsx:84
 msgid "Data"
 msgstr "तथ्याङ्क"
 
@@ -4639,18 +4659,6 @@ msgstr ""
 msgid "More Actions"
 msgstr ""
 
-#: jsapp/js/i18nMissingStrings.es6:176
-msgid "Please make sure the following details are filled out correctly:"
-msgstr ""
-
-#: jsapp/js/i18nMissingStrings.es6:177
-msgid "I agree, let's go"
-msgstr ""
-
-#: jsapp/js/i18nMissingStrings.es6:178
-msgid "I don't agree, log me out"
-msgstr ""
-
 #: jsapp/js/mixins.tsx:124
 msgid "copied to clipboard"
 msgstr "क्लिपबोर्डमा प्रतिलिपि गरियो"
@@ -4663,7 +4671,7 @@ msgstr "पुस्तकालयमा प्रश्न थपिएको 
 msgid "group has been added to the library as a block"
 msgstr "समूहलाई संग्रहमा ब्लकको रूपमा थपिएको छ"
 
-#: jsapp/js/project/projectTopTabs.component.tsx:60
+#: jsapp/js/project/projectTopTabs.component.tsx:61
 msgid "Summary"
 msgstr "सारांश"
 
@@ -4671,23 +4679,23 @@ msgstr "सारांश"
 msgid "Today"
 msgstr ""
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:281
+#: jsapp/js/project/submissionsCountGraph.component.tsx:283
 msgid "Past 7 days"
 msgstr "विगत सात दिन"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:282
+#: jsapp/js/project/submissionsCountGraph.component.tsx:284
 msgid "Past 31 days"
 msgstr "विगत ३१ दिन"
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:283
+#: jsapp/js/project/submissionsCountGraph.component.tsx:285
 msgid "Past 3 months"
 msgstr ""
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:284
+#: jsapp/js/project/submissionsCountGraph.component.tsx:286
 msgid "Past 12 months"
 msgstr ""
 
-#: jsapp/js/project/submissionsCountGraph.component.tsx:301
+#: jsapp/js/project/submissionsCountGraph.component.tsx:303
 msgid "No chart data available for current period."
 msgstr "हालको अवधिको लागि कुनै चार्ट तथ्याङ्क उपलब्ध छैन।"
 
@@ -4919,17 +4927,17 @@ msgstr ""
 msgid "Additional details:"
 msgstr "थप विवरण"
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:44
+#: jsapp/js/router/invalidatedPassword.component.tsx:25
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr ""
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:50
+#: jsapp/js/router/invalidatedPassword.component.tsx:30
 msgid ""
 "You must update your password before proceeding. Please do so promptly to "
 "ensure the security of your data."
 msgstr ""
 
-#: jsapp/js/router/invalidatedPassword.component.tsx:59
+#: jsapp/js/router/invalidatedPassword.component.tsx:39
 msgid "Update password"
 msgstr ""
 
@@ -4944,3 +4952,19 @@ msgstr "सम्पत्ति सूचीबद्ध गर्न असफ
 #: jsapp/js/textUtils.ts:34
 msgid "##field_label## (required)"
 msgstr "##field_label## (आवश्यक)"
+
+#: jsapp/js/tos/tosForm.component.tsx:92
+msgid "TOS Update Message not found"
+msgstr ""
+
+#: jsapp/js/tos/tosForm.component.tsx:213
+msgid "Please make sure the following details are filled out correctly:"
+msgstr ""
+
+#: jsapp/js/tos/tosForm.component.tsx:235
+msgid "I agree, let's go"
+msgstr ""
+
+#: jsapp/js/tos/tosForm.component.tsx:244
+msgid "I don't agree, log me out"
+msgstr ""

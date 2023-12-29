@@ -18,6 +18,7 @@
 # Kassim Sinaly THERA, 2021
 # Komlavi Eyram ADZANADO (Eyram), 2021-2022
 # Komlavi Eyram ADZANADO (Eyram), 2023
+# Komlavi Eyram ADZANADO (Eyram), 2023
 # Kuichue Blanche Jumaelle, 2021-2022
 # Olivier Leger, 2018-2019,2021,2023
 # Penar Musaraj <pmusaraj@gmail.com>, 2017-2018
@@ -30,7 +31,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-11-16 14:06+0000\n"
+"POT-Creation-Date: 2023-12-22 01:16+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Yann Bourgeois, 2021\n"
 "Language-Team: French (http://app.transifex.com/kobotoolbox/kobotoolbox/language/fr/)\n"
@@ -44,23 +45,63 @@ msgstr ""
 msgid "Log in as user"
 msgstr "Se connecter en tant qu’utilisateur"
 
-#: kobo/apps/accounts/forms.py:53
+#: kobo/apps/accounts/forms.py:67
+msgid "Non-profit organization"
+msgstr "Organisation à but non lucratif"
+
+#: kobo/apps/accounts/forms.py:68
+msgid "Government institution"
+msgstr "Institution gouvernementale"
+
+#: kobo/apps/accounts/forms.py:69
+msgid "Educational organization"
+msgstr "Organisme d’éducation"
+
+#: kobo/apps/accounts/forms.py:70
+msgid "A commercial/for-profit company"
+msgstr "Une société commerciale / à but lucratif"
+
+#: kobo/apps/accounts/forms.py:71
+msgid "I am not associated with any organization"
+msgstr "Je ne suis associé.e à aucune organisation"
+
+#: kobo/apps/accounts/forms.py:79
 msgid "Male"
 msgstr "Homme"
 
-#: kobo/apps/accounts/forms.py:54
+#: kobo/apps/accounts/forms.py:80
 msgid "Female"
 msgstr "Femme"
 
-#: kobo/apps/accounts/forms.py:55 kobo/static_lists.py:37
+#: kobo/apps/accounts/forms.py:81 kobo/static_lists.py:37
 msgid "Other"
 msgstr "Autre"
 
-#: kobo/apps/accounts/forms.py:77 kobo/static_lists.py:368
+#: kobo/apps/accounts/forms.py:115 kpi/templates/base.html:29
+msgid "Terms of Service"
+msgstr "Conditions d'utilisation"
+
+#: kobo/apps/accounts/forms.py:122 kpi/templates/base.html:34
+msgid "Privacy Policy"
+msgstr "Politique de confidentialité"
+
+#: kobo/apps/accounts/forms.py:124
+msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
+msgstr "J’accepte les ##terms_of_service## et la ##privacy_policy##"
+
+#: kobo/apps/accounts/forms.py:134
 msgid "Password confirmation"
 msgstr "Confirmation du mot de passe"
 
-#: kobo/apps/accounts/forms.py:183
+#: kobo/apps/accounts/forms.py:136
+msgid "name@organization.org"
+msgstr "name@organization.org"
+
+#: kobo/apps/accounts/forms.py:211
+msgid "This field is required."
+msgstr "Ce champ est obligatoire."
+
+#: kobo/apps/accounts/forms.py:298
 msgid "You must type the same password each time."
 msgstr "Vous devez taper le même mot de passe à chaque fois."
 
@@ -130,7 +171,7 @@ msgstr "La confirmation de votre compte vous permettra d'accéder aux applicatio
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
 msgid "Your username is: "
-msgstr "Votre nom d'utilisateur est :"
+msgstr "Votre nom d'utilisateur est : "
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:25
 msgid ""
@@ -254,7 +295,7 @@ msgid "Log in using SSO"
 msgstr "Se connecter en utilisant l’authentification unique SSO"
 
 #: kobo/apps/accounts/templates/account/login.html:52
-#: kobo/apps/accounts/templates/account/signup.html:61
+#: kobo/apps/accounts/templates/account/signup.html:63
 msgid ""
 "If you set up Single Sign On in your account settings, you will only be able"
 " to log in through this method."
@@ -296,24 +337,24 @@ msgstr "La réinitialisation du mot de passe a échoué"
 msgid "Submit"
 msgstr "Envoyer"
 
-#: kobo/apps/accounts/templates/account/signup.html:45
+#: kobo/apps/accounts/templates/account/signup.html:47
 msgid "Create Account"
 msgstr "Créer un compte"
 
-#: kobo/apps/accounts/templates/account/signup.html:49
+#: kobo/apps/accounts/templates/account/signup.html:51
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "or"
 msgstr "ou"
 
-#: kobo/apps/accounts/templates/account/signup.html:49
+#: kobo/apps/accounts/templates/account/signup.html:51
 msgid "login"
 msgstr "connexion"
 
-#: kobo/apps/accounts/templates/account/signup.html:59
+#: kobo/apps/accounts/templates/account/signup.html:61
 msgid "Register using SSO"
 msgstr "S'inscrire en utilisant l'authentification unique SSO"
 
-#: kobo/apps/accounts/templates/account/signup.html:73
+#: kobo/apps/accounts/templates/account/signup.html:75
 msgid "Register with SSO"
 msgstr "S'inscrire avec l'authentification unique SSO"
 
@@ -376,7 +417,7 @@ msgstr "Vous êtes sur le point d'utiliser votre compte %(appname)s pour vous co
 msgid "As a final step, please complete the following form"
 msgstr "Pour terminer, veuillez remplir le formulaire ci-après"
 
-#: kobo/apps/accounts/templates/socialaccount/signup.html:43
+#: kobo/apps/accounts/templates/socialaccount/signup.html:44
 msgid "Save and Access"
 msgstr "Sauvegarder et accéder"
 
@@ -495,7 +536,7 @@ msgstr "`{}` introuvable."
 msgid "`{}` is not a select one question."
 msgstr "`{}` n’est pas une question à une seule sélection."
 
-#: kobo/settings/base.py:244
+#: kobo/settings/base.py:246
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -503,7 +544,7 @@ msgid ""
 "email##)."
 msgstr "Si vous ne pouvez pas accéder à votre application d’authentification, veuillez saisir l’un de vos codes de secours à la place. Si vous ne pouvez toujours pas accéder, vous devrez demander de l’aide en contactant [##support email##](mailto:##support email##)."
 
-#: kobo/settings/base.py:443
+#: kobo/settings/base.py:447
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -606,11 +647,11 @@ msgstr "Humanitaire - Protection"
 msgid "Humanitarian - Sanitation, Water & Hygiene"
 msgstr "Humanitaire - Assainissement, eau et hygiène"
 
-#: kobo/static_lists.py:344 kobo/static_lists.py:355
+#: kobo/static_lists.py:344 kobo/static_lists.py:356
 msgid "Sector"
 msgstr "Secteur"
 
-#: kobo/static_lists.py:345 kobo/static_lists.py:359
+#: kobo/static_lists.py:345 kobo/static_lists.py:360
 msgid "Country"
 msgstr "Pays"
 
@@ -630,77 +671,45 @@ msgstr "Description"
 msgid "Full name"
 msgstr "Nom complet"
 
-#: kobo/static_lists.py:353
-msgid "Organization"
-msgstr "Organisation"
-
-#: kobo/static_lists.py:354 kobo/static_lists.py:367
-msgid "Organization website"
-msgstr "Site web de l'organisation"
-
-#: kobo/static_lists.py:356
-msgid "Gender"
-msgstr "Genre"
-
-#: kobo/static_lists.py:357
-msgid "Bio"
-msgstr "Bio"
-
-#: kobo/static_lists.py:358
-msgid "City"
-msgstr "Ville"
-
-#: kobo/static_lists.py:360
-msgid "Twitter"
-msgstr "Twitter"
-
-#: kobo/static_lists.py:361
-msgid "LinkedIn"
-msgstr "LinkedIn"
-
-#: kobo/static_lists.py:362
-msgid "Instagram"
-msgstr "Instagram"
-
-#: kobo/static_lists.py:365 kpi/password_validation.py:110
+#: kobo/static_lists.py:353 kpi/password_validation.py:110
 msgid "Organization name"
 msgstr "Nom de l’organisation"
 
-#: kobo/static_lists.py:366
+#: kobo/static_lists.py:354
 msgid "Organization type"
-msgstr "Nom de l’organisation"
+msgstr "Type d’organisation"
 
-#: kobo/static_lists.py:369
+#: kobo/static_lists.py:355
+msgid "Organization website"
+msgstr "Site web de l'organisation"
+
+#: kobo/static_lists.py:357
+msgid "Gender"
+msgstr "Genre"
+
+#: kobo/static_lists.py:358
+msgid "Bio"
+msgstr "Bio"
+
+#: kobo/static_lists.py:359
+msgid "City"
+msgstr "Ville"
+
+#: kobo/static_lists.py:361
+msgid "Twitter"
+msgstr "Twitter"
+
+#: kobo/static_lists.py:362
+msgid "LinkedIn"
+msgstr "LinkedIn"
+
+#: kobo/static_lists.py:363
+msgid "Instagram"
+msgstr "Instagram"
+
+#: kobo/static_lists.py:364
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "Je souhaite recevoir des mises à jour occasionnelles sur KoboToolbox"
-
-#: kobo/static_lists.py:370
-msgid "I want to receive occasional updates"
-msgstr "Je souhaite recevoir des mises à jour occasionnelles"
-
-#: kobo/static_lists.py:371
-msgid "In order to proceed, select the checkbox above agreeing to our terms."
-msgstr "Pour continuer, cochez la case ci-dessus pour accepter nos conditions."
-
-#: kobo/static_lists.py:372
-msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr "J’accepte les ##terms_of_service## et la ##privacy_policy##"
-
-#: kobo/static_lists.py:373
-msgid "Country Name"
-msgstr "Nom du pays"
-
-#: kobo/static_lists.py:374
-msgid "Select a type"
-msgstr "Sélectionnez un type"
-
-#: kobo/static_lists.py:375
-msgid "Sector name"
-msgstr "Nom du secteur"
-
-#: kobo/static_lists.py:376
-msgid "Personal Details"
-msgstr "Informations Personnelles"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
@@ -979,15 +988,15 @@ msgid ""
 "characters."
 msgstr "Le mot de passe doit contenir au moins ##number of rules## différents types de caractères."
 
-#: kpi/serializers/current_user.py:150
+#: kpi/serializers/current_user.py:170
 msgid "Incorrect current password."
 msgstr "Mot de passe actuel incorrect."
 
-#: kpi/serializers/current_user.py:170
+#: kpi/serializers/current_user.py:190
 msgid "`current_password` and `new_password` must both be"
 msgstr "`current_password` et `new_password` doivent tous deux être"
 
-#: kpi/serializers/current_user.py:197
+#: kpi/serializers/current_user.py:230
 #: kpi/serializers/v2/asset_permission_assignment.py:287
 msgid "This field may not be blank."
 msgstr "Ce champ ne doit pas être vide."
@@ -1036,29 +1045,29 @@ msgstr "Les brouillons de projets ne peuvent pas être archivés"
 msgid "Confirmation is required"
 msgstr "Une confirmation est requise"
 
-#: kpi/serializers/v2/asset.py:780
+#: kpi/serializers/v2/asset.py:778
 msgid "The property is required"
 msgstr "La propriété est obligatoire"
 
-#: kpi/serializers/v2/asset.py:784
+#: kpi/serializers/v2/asset.py:782
 msgid "The property must be an array"
 msgstr "La propriété doit être un tableau"
 
-#: kpi/serializers/v2/asset.py:806
+#: kpi/serializers/v2/asset.py:804
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
 msgstr "Certains champs ne sont pas valides, les options sont : `{valid_fields}`"
 
-#: kpi/serializers/v2/asset.py:828
+#: kpi/serializers/v2/asset.py:826
 msgid "User cannot update current parent collection"
 msgstr "L’utilisateur ne peut pas mettre à jour la collection parente actuelle"
 
-#: kpi/serializers/v2/asset.py:838
+#: kpi/serializers/v2/asset.py:836
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
 msgstr "Collection cible introuvable"
 
-#: kpi/serializers/v2/asset.py:842
+#: kpi/serializers/v2/asset.py:840
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
 msgstr "L’utilisateur ne peut pas mettre à jour la collection parente cible"
@@ -1156,7 +1165,7 @@ msgstr "Ce champ est obligatoire pour l’autorisation '{}'"
 #: kpi/serializers/v2/asset_permission_assignment.py:186
 #: kpi/serializers/v2/asset_permission_assignment.py:492
 msgid "Invalid `url`"
-msgstr "`url` non valide"
+msgstr "`url` non valide(s)"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
@@ -1271,14 +1280,6 @@ msgstr "`{basename}` est déjà utilisé"
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
 msgstr "Type de ressource non valide. Seul `{asset_type}` est autorisé"
 
-#: kpi/templates/base.html:29
-msgid "Terms and Conditions"
-msgstr "Conditions générales"
-
-#: kpi/templates/base.html:34
-msgid "Privacy Policy"
-msgstr "Politique de confidentialité"
-
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
 msgstr "Navigateurs modernes"
@@ -1360,7 +1361,7 @@ msgid ""
 "not copied from that shared database to the new, KPI-only database."
 msgstr "La base de données KoBoCAT était à l’origine partagée par KPI, mais les tables KPI n’ont pas été copiées de cette base de données partagée vers la nouvelle base de données KPI."
 
-#: kpi/views/current_user.py:106
+#: kpi/views/current_user.py:108
 msgid "Invalid confirmation"
 msgstr "Confirmation non valide"
 
