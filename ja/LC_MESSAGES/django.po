@@ -14,7 +14,7 @@ msgstr ""
 "Report-Msgid-Bugs-To: \n"
 "POT-Creation-Date: 2023-12-22 01:16+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: TomonoriHoshi <tomonori.hoshi.japan@gmail.com>, 2022-2023\n"
+"Last-Translator: 山田 敦士, 2023\n"
 "Language-Team: Japanese (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ja/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -24,7 +24,7 @@ msgstr ""
 
 #: hub/templates/admin/loginas/change_form.html:7
 msgid "Log in as user"
-msgstr ""
+msgstr "ユーザーとしてログインする"
 
 #: kobo/apps/accounts/forms.py:67
 msgid "Non-profit organization"
@@ -48,11 +48,11 @@ msgstr ""
 
 #: kobo/apps/accounts/forms.py:79
 msgid "Male"
-msgstr "男"
+msgstr "男性"
 
 #: kobo/apps/accounts/forms.py:80
 msgid "Female"
-msgstr "女"
+msgstr "女性"
 
 #: kobo/apps/accounts/forms.py:81 kobo/static_lists.py:37
 msgid "Other"
@@ -60,7 +60,7 @@ msgstr "その他"
 
 #: kobo/apps/accounts/forms.py:115 kpi/templates/base.html:29
 msgid "Terms of Service"
-msgstr ""
+msgstr "サービスの利用規約"
 
 #: kobo/apps/accounts/forms.py:122 kpi/templates/base.html:34
 msgid "Privacy Policy"
@@ -68,11 +68,11 @@ msgstr "プライバシーポリシー"
 
 #: kobo/apps/accounts/forms.py:124
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
-msgstr ""
+msgstr "##terms_of_service##と##privacy_policy##に同意します"
 
 #: kobo/apps/accounts/forms.py:134
 msgid "Password confirmation"
-msgstr "パスワードの確認"
+msgstr "パスワード認証"
 
 #: kobo/apps/accounts/forms.py:136
 msgid "name@organization.org"
@@ -80,19 +80,19 @@ msgstr ""
 
 #: kobo/apps/accounts/forms.py:211
 msgid "This field is required."
-msgstr ""
+msgstr "この項目は必須入力です"
 
 #: kobo/apps/accounts/forms.py:298
 msgid "You must type the same password each time."
-msgstr ""
+msgstr "いつも同じパスワードを入力する必要があります。"
 
 #: kobo/apps/accounts/mfa/forms.py:57
 msgid "Enter the ##token length##-character token"
-msgstr ""
+msgstr "##token length##-文字のトークンを挿入してください"
 
 #: kobo/apps/accounts/mfa/forms.py:69
 msgid "Your token is invalid"
-msgstr "トークンが無効です。"
+msgstr "トークンが無効です"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:21
 msgid "Please enter your verification token"
@@ -101,7 +101,7 @@ msgstr "認証トークンを入力してください"
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:25
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
-msgstr "authenticatorアプリに表示されている認証トークンを入力してください。"
+msgstr "認証アプリに表示されている認証トークンを入力してください。"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:32
 msgid "Problems with the token"
@@ -109,11 +109,11 @@ msgstr "トークンに問題があります"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:37
 msgid "Continue"
-msgstr "続ける"
+msgstr "続行"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:45
 msgid "Verification issues"
-msgstr "認証の問題"
+msgstr "検証に問題があります"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:53
 msgid "Back"
@@ -123,7 +123,7 @@ msgstr "戻る"
 msgid ""
 "To confirm the new email address associated with your KoboToolbox account, "
 "please follow the link below."
-msgstr ""
+msgstr "KoboToolboxアカウントに関連付けられた新しいメールアドレスは、以下のリンクからご確認ください。"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:7
 msgid ""
@@ -148,17 +148,17 @@ msgstr "KoboToolboxへの登録ありがとうございます！"
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
-msgstr "アカウントを確認することで、KoboToolboxのアプリケーションにアクセスできるようになります。以下のURLにアクセスし、新しいアカウントのアクティベーションを完了してください。"
+msgstr "アカウントを確認すると、KoboToolboxのアプリケーションにアクセスできるようになります。以下のURLにアクセスし、新しいアカウントのアクティベーションを完了してください。"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
 msgid "Your username is: "
-msgstr "ユーザー名："
+msgstr "ユーザーネーム： "
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:25
 msgid ""
 "For help getting started, check out the KoboToolbox user documentation: "
 "https://support.kobotoolbox.com "
-msgstr ""
+msgstr "ご使用を開始いただくためのヘルプについては、、KoboToolbox<b> </b>ユーザードキュメントをご覧ください:https://support.kobotoolbox.com "
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:27
 msgid ""
@@ -178,15 +178,15 @@ msgstr "KoboToolboxアカウントのメールアドレス認証"
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:4
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:5
 msgid "Hello from KoboToolbox,"
-msgstr "KoboToolboxより、こんにちは。"
+msgstr "KoboToolboxより、こんにちは、"
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:6
 msgid "We’ve received a password reset request for your user account."
-msgstr "ユーザーアカウントのパスワード再設定リクエストを受け取りました。"
+msgstr "ユーザーアカウントからパスワードリセットのリクエストを受け取りました。"
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:8
 msgid "To reset your password, click the link below."
-msgstr "パスワードを再設定するには、以下のリンクをクリックしてください。"
+msgstr "パスワードをリセットするには、以下のリンクをクリックしてください。"
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:11
 #, python-format
@@ -197,7 +197,7 @@ msgstr "あなたのユーザーネームは%(username)sです。"
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:9
 msgid ""
 "If you did not request a password reset, you can safely ignore this email."
-msgstr "パスワードの再設定をリクエストしていない場合は、このメールを無視していただいて結構です。"
+msgstr "パスワードのリセットをリクエストしていない場合は、このメールを無視していただいて結構です。"
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_subject.txt:3
 msgid "KoboToolbox Password Reset"
@@ -207,7 +207,7 @@ msgstr "KoboToolboxのパスワード再設定"
 msgid ""
 "You are receiving this email because you or someone else has requested a "
 "password for their KoboToolbox account."
-msgstr "このメールを受信しているのは、あなた、または他の誰かが、KoboToolboxアカウントのパスワードを要求したためです。"
+msgstr "このメールを受信しているのは、ご自身、または他の誰かが、KoboToolboxアカウントのパスワードを要求したためです。"
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:7
 #, python-format
@@ -221,15 +221,15 @@ msgid ""
 "If it was you, please try another email address you might have used to "
 "create your account, or double check that your account was not registered on"
 " a different KoboToolbox server."
-msgstr ""
+msgstr "ご自身である場合は、アカウント作成に使用した可能性のある別のメールアドレスを試すか、アカウントが別のKoboToolboxサーバーに登録されていないか、再度確認してください。"
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_subject.txt:3
 msgid "KoboToolbox Password Reset Unsuccessful"
-msgstr "KoboToolboxのパスワード再設定に失敗しました"
+msgstr "KoboToolboxのパスワードリセットに失敗しました"
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:15
 msgid "Confirm E-mail Address"
-msgstr "メールアドレスを確認"
+msgstr "メールアドレスを確認してください"
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:19
 #, python-format
@@ -249,7 +249,7 @@ msgstr "アクティベーション失敗"
 #: kobo/apps/accounts/templates/account/email_confirm.html:33
 msgid ""
 "Sorry, we couldn't activate your account. The link we sent you has expired."
-msgstr "申し訳ございませんが、アカウントを有効にすることができませんでした。送信したリンクは有効期限が切れています。"
+msgstr "申し訳ございませんが、アカウントを有効にすることができませんでした。送信したリンクの有効期限が切れています。"
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:39
 msgid ""
@@ -284,16 +284,16 @@ msgstr "アカウント設定でシングルサインオンを設定すると、
 
 #: kobo/apps/accounts/templates/account/password_reset.html:10
 msgid "Password Reset"
-msgstr "パスワードの再設定"
+msgstr "パスワードのリセット"
 
 #: kobo/apps/accounts/templates/account/password_reset.html:19
 msgid "Reset Password"
-msgstr "パスワードの再設定"
+msgstr "パスワードをリセットする"
 
 #: kobo/apps/accounts/templates/account/password_reset_complete.html:11
 #: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:11
 msgid "Password reset successfully"
-msgstr "パスワードの再設定に成功"
+msgstr "パスワードのリセット成功"
 
 #: kobo/apps/accounts/templates/account/password_reset_complete.html:14
 #: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:14
@@ -312,7 +312,7 @@ msgstr "リクエストを受理しました。入力したeメールアドレ�
 
 #: kobo/apps/accounts/templates/account/password_reset_from_key.html:13
 msgid "Password reset failed"
-msgstr "パスワードの再設定に失敗"
+msgstr "パスワード再設定に失敗しました"
 
 #: kobo/apps/accounts/templates/account/password_reset_from_key.html:25
 msgid "Submit"
@@ -320,7 +320,7 @@ msgstr "提出"
 
 #: kobo/apps/accounts/templates/account/signup.html:47
 msgid "Create Account"
-msgstr "アカウントの作成"
+msgstr "アカウントを作成"
 
 #: kobo/apps/accounts/templates/account/signup.html:51
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
@@ -333,11 +333,11 @@ msgstr "ログイン"
 
 #: kobo/apps/accounts/templates/account/signup.html:61
 msgid "Register using SSO"
-msgstr ""
+msgstr "SSOで登録"
 
 #: kobo/apps/accounts/templates/account/signup.html:75
 msgid "Register with SSO"
-msgstr ""
+msgstr "SSOで登録"
 
 #: kobo/apps/accounts/templates/account/verification_sent.html:8
 msgid "Confirm your email address"
@@ -349,14 +349,14 @@ msgstr "先ほど送信されたメールに記載されているアクティベ
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:14
 msgid "Set up Single Sign On"
-msgstr "シングルサインオンを設定"
+msgstr "シングルサインオンを設定する"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:16
 #, python-format
 msgid ""
 "Click the button below to connect your KoboToolbox account with your "
 "%(appname)s account."
-msgstr "以下のボタンをクリックして、KoboToolboxのアカウントと%(appname)sのアカウントを接続します。"
+msgstr "以下のボタンをクリックして、KoboToolbox アカウントと%(appname)sのアカウントを接続します。"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:18
 msgid "This will allow you to use single sign-on (SSO) in the future."
@@ -369,12 +369,12 @@ msgstr "%(appname)sと接続"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
-msgstr ""
+msgstr "でログインする "
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:29
 #, python-format
 msgid "Log in to KoboToolbox with your %(appname)s account."
-msgstr ""
+msgstr "%(appname)sアカウントでKoboToolboxにログインする."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
@@ -387,7 +387,7 @@ msgstr "KoboToolboxへようこそ、%(username)s！"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
-msgstr ""
+msgstr "KoboToolboxへようこそ！"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
@@ -396,7 +396,7 @@ msgstr "KoboToolboxにログインするために、%(appname)sのアカウン�
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
-msgstr "最後のステップとして、以下のフォームにご記入ください。"
+msgstr "最後に、以下のフォームにご記入ください"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:44
 msgid "Save and Access"
@@ -407,27 +407,27 @@ msgid ""
 "Usernames must be between 2 and 30 characters in length, and may only "
 "consist of lowercase letters, numbers, and underscores, where the first "
 "character must be a letter."
-msgstr ""
+msgstr "ユーザーネームは2～30文字数で、小文字、数字、アンダーバーで構成され、冒頭は文字である必要があります。"
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
 msgid "Invalid scheme"
-msgstr ""
+msgstr "無効な組み合わせです"
 
 #: kobo/apps/hook/serializers/v2/hook.py:49
 msgid "Unsecured endpoint is not allowed"
-msgstr ""
+msgstr "セキュリティーで保護されていないエンドポイントは許可されません"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
 msgid "Invalid JSON"
-msgstr ""
+msgstr "無効なＪＳＯＮです"
 
 #: kobo/apps/hook/serializers/v2/hook.py:70
 msgid "Can be used only with JSON submission format"
-msgstr ""
+msgstr "JSON送信フォーマットでのみ使用可能です"
 
 #: kobo/apps/hook/tasks.py:148
 msgid "REST Services Failure Report"
-msgstr "RESTサービスの不具合レポート"
+msgstr "RESTサービスのエラーレポート"
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:3
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:3
@@ -442,7 +442,7 @@ msgstr "フック"
 #: kobo/apps/hook/templates/reports/failures_email_body.html:5
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:5
 msgid "Submission"
-msgstr "提出"
+msgstr "投稿"
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:6
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:6
@@ -471,51 +471,51 @@ msgstr "一部の提出フォームが外部エンドポイントに送信でき
 
 #: kobo/apps/hook/views/v2/hook.py:174
 msgid "Task successfully scheduled"
-msgstr ""
+msgstr "タスクは正常にスケジュールされました"
 
 #: kobo/apps/hook/views/v2/hook.py:203
 msgid "No data to retry"
-msgstr ""
+msgstr "リトライするデータはありません"
 
 #: kobo/apps/hook/views/v2/hook.py:206
 msgid "Can not retry on disabled hooks"
-msgstr ""
+msgstr "無効にされたフックでリトライできません"
 
 #: kobo/apps/hook/views/v2/hook_log.py:121
 msgid "An error has occurred when sending the data. Please try again later."
-msgstr ""
+msgstr "データ送信でエラーが発生しました。後ほどもう一度トライしてください。"
 
 #: kobo/apps/hook/views/v2/hook_log.py:125
 msgid "Data is being or has already been processed"
-msgstr ""
+msgstr "データは処理中か既に処理されています"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
 #: kpi/deployment_backends/base_backend.py:449
 #: kpi/deployment_backends/base_backend.py:456
 msgid "A positive integer is required."
-msgstr ""
+msgstr "正の整数が必須です。"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:71
 msgid ""
 "We got and saved your data, but may not have fully processed it. You should "
 "not try to resubmit."
-msgstr ""
+msgstr "データを受け取り保存しましたが、完全に処理できていない可能性があります。再提出を試みないでください。"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:80
 msgid "Your data for instance {} has been already submitted."
-msgstr ""
+msgstr "例えば{}のデータはすでに送信されています。"
 
 #: kobo/apps/languages/templates/admin/languages_change_list.html:8
 msgid "Import"
-msgstr "読み込み"
+msgstr "インポート"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
-msgstr ""
+msgstr "`{}`が見つかりません。"
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr ""
+msgstr "`{}`は質問を1つ選択していません。"
 
 #: kobo/settings/base.py:246
 msgid ""
@@ -523,743 +523,743 @@ msgid ""
 " codes instead. If you cannot access those either, then you will need to "
 "request assistance by contacting [##support email##](mailto:##support "
 "email##)."
-msgstr ""
+msgstr "認証アプリケーションにアクセスできない時は、代わりにバックアップコードの1つを入力してください。そのどちらにもアクセスできない時は、［##support email##］（mailto:##support email##）で支援を求める必要があります。"
 
 #: kobo/settings/base.py:447
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
 "characters. It cannot be similar to your name, username, or email address."
-msgstr ""
+msgstr "パスワードは10文字以上の長さで、大文字、小文字、数字、特殊記号のうち3つ以上含んでいる必要があります。名前や、ユーザーネーム、eメールアドレス類似は使えません。"
 
 #: kobo/static_lists.py:13
 msgid "Public Administration"
-msgstr ""
+msgstr "公的機関"
 
 #: kobo/static_lists.py:14
 msgid "Arts, Entertainment, and Recreation"
-msgstr ""
+msgstr "芸術、エンターテインメント、レクレーション"
 
 #: kobo/static_lists.py:15
 msgid "Educational Services / Higher Education"
-msgstr ""
+msgstr "教育サービス／高等教育"
 
 #: kobo/static_lists.py:16
 msgid "Health Services / Public Health"
-msgstr ""
+msgstr "ヘルスサービス／公衆衛生"
 
 #: kobo/static_lists.py:17
 msgid "Finance and Insurance"
-msgstr ""
+msgstr "金融と保険"
 
 #: kobo/static_lists.py:18
 msgid "Information / Media"
-msgstr ""
+msgstr "情報／メディア"
 
 #: kobo/static_lists.py:19
 msgid "Economic/Social Development"
-msgstr ""
+msgstr "経済／社会発展"
 
 #: kobo/static_lists.py:20
 msgid "Security / Police / Peacekeeping"
-msgstr ""
+msgstr "防犯／警察／平和維持"
 
 #: kobo/static_lists.py:21
 msgid "Disarmament & Demobilization"
-msgstr ""
+msgstr "軍備縮小と招集解除"
 
 #: kobo/static_lists.py:22
 msgid "Environment"
-msgstr ""
+msgstr "環境"
 
 #: kobo/static_lists.py:23
 msgid "Private sector"
-msgstr ""
+msgstr "民間部門"
 
 #: kobo/static_lists.py:24
 msgid "Humanitarian - Coordination / Information Management"
-msgstr ""
+msgstr "人道ー連携／情報管理"
 
 #: kobo/static_lists.py:25
 msgid "Humanitarian - Multiple Clusters"
-msgstr ""
+msgstr "人道ー複数クラスター"
 
 #: kobo/static_lists.py:26
 msgid "Humanitarian - Camp Management & Coordination"
-msgstr ""
+msgstr "人道ーキャンプ管理と連携"
 
 #: kobo/static_lists.py:27
 msgid "Humanitarian - Early Recovery"
-msgstr ""
+msgstr "人道ー早期回復"
 
 #: kobo/static_lists.py:28
 msgid "Humanitarian - Education"
-msgstr ""
+msgstr "人道ー教育"
 
 #: kobo/static_lists.py:29
 msgid "Humanitarian - Emergency Shelter"
-msgstr ""
+msgstr "人道ー緊急シェルター"
 
 #: kobo/static_lists.py:30
 msgid "Humanitarian - Emergency Telecoms"
-msgstr ""
+msgstr "人道―緊急通信"
 
 #: kobo/static_lists.py:31
 msgid "Humanitarian - Food Security"
-msgstr ""
+msgstr "人道ー食糧保全"
 
 #: kobo/static_lists.py:32
 msgid "Humanitarian - Health"
-msgstr ""
+msgstr "人道ー健康"
 
 #: kobo/static_lists.py:33
 msgid "Humanitarian - Logistics"
-msgstr ""
+msgstr "人道ー輸送"
 
 #: kobo/static_lists.py:34
 msgid "Humanitarian - Nutrition"
-msgstr ""
+msgstr "人道―栄養"
 
 #: kobo/static_lists.py:35
 msgid "Humanitarian - Protection"
-msgstr ""
+msgstr "人道ープロテクション"
 
 #: kobo/static_lists.py:36
 msgid "Humanitarian - Sanitation, Water & Hygiene"
-msgstr ""
+msgstr "人道ー公衆衛生、水、保健"
 
 #: kobo/static_lists.py:344 kobo/static_lists.py:356
 msgid "Sector"
-msgstr ""
+msgstr "セクター"
 
 #: kobo/static_lists.py:345 kobo/static_lists.py:360
 msgid "Country"
-msgstr ""
+msgstr "国"
 
 #: kobo/static_lists.py:346
 msgid "Operational purpose of data"
-msgstr ""
+msgstr "データの利用目的"
 
 #: kobo/static_lists.py:347
 msgid "Does this project collect personally identifiable information?"
-msgstr ""
+msgstr "このプロジェクトは個人を特定できる情報を収集しますか？"
 
 #: kobo/static_lists.py:348
 msgid "Description"
-msgstr ""
+msgstr "詳細"
 
 #: kobo/static_lists.py:352 kpi/password_validation.py:109
 msgid "Full name"
-msgstr ""
+msgstr "フルネーム"
 
 #: kobo/static_lists.py:353 kpi/password_validation.py:110
 msgid "Organization name"
-msgstr ""
+msgstr "組織名"
 
 #: kobo/static_lists.py:354
 msgid "Organization type"
-msgstr ""
+msgstr "組織のタイプ"
 
 #: kobo/static_lists.py:355
 msgid "Organization website"
-msgstr ""
+msgstr "組織のウェブサイト"
 
 #: kobo/static_lists.py:357
 msgid "Gender"
-msgstr ""
+msgstr "性別"
 
 #: kobo/static_lists.py:358
 msgid "Bio"
-msgstr ""
+msgstr "プロフィール"
 
 #: kobo/static_lists.py:359
 msgid "City"
-msgstr ""
+msgstr "市"
 
 #: kobo/static_lists.py:361
 msgid "Twitter"
-msgstr ""
+msgstr "Twitter"
 
 #: kobo/static_lists.py:362
 msgid "LinkedIn"
-msgstr ""
+msgstr "LinkedIn"
 
 #: kobo/static_lists.py:363
 msgid "Instagram"
-msgstr ""
+msgstr "インスタグラム"
 
 #: kobo/static_lists.py:364
 msgid "I want to receive occasional updates about KoboToolbox"
-msgstr ""
+msgstr "KoboToolboxに関する最新情報を受け取ることを希望します"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
-msgstr ""
+msgstr "無効なユーザーネーム／パスワード"
 
 #: kpi/deployment_backends/base_backend.py:378
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr ""
+msgstr "このparamは実装されていません。代わりに返事の`count`プロパティーを使用してください。"
 
 #: kpi/deployment_backends/base_backend.py:389
 msgid "This param is not supported in `XML` format"
-msgstr ""
+msgstr "このparamは`XML`フォーマットでサポートされていません"
 
 #: kpi/deployment_backends/base_backend.py:394
 msgid "This is not supported in `XML` format"
-msgstr ""
+msgstr "これは`XML`フォーマットでサポートされていません"
 
 #: kpi/deployment_backends/base_backend.py:414
 #: kpi/deployment_backends/base_backend.py:442
 #: kpi/deployment_backends/base_backend.py:464 kpi/views/v2/data.py:522
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "値は有効なJSONでなければなりません。"
 
 #: kpi/deployment_backends/base_backend.py:419
 msgid "Value must be a list."
-msgstr ""
+msgstr "値はリストでなければなりません。"
 
 #: kpi/deployment_backends/kobocat_backend.py:178
 #: kpi/deployment_backends/mock_backend.py:100
 msgid "No submissions match the given `submission_ids`"
-msgstr ""
+msgstr "指定された`submission_ids`に一致する投稿はありません"
 
 #: kpi/deployment_backends/kobocat_backend.py:549
 msgid "Your submission XML is malformed."
-msgstr ""
+msgstr "提出されたXMLの形式が不正です。"
 
 #: kpi/deployment_backends/kobocat_backend.py:556
 msgid "Your submission XML is missing critical elements."
-msgstr ""
+msgstr "提出されたXＭＬには重要な要素が欠けています。"
 
 #: kpi/deployment_backends/kobocat_backend.py:569
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr ""
+msgstr "編集を試みた投稿は見つかりません。あるいはアクセスできません。"
 
 #: kpi/deployment_backends/kobocat_backend.py:1590
 msgid "KoBoCAT returned an unexpected response: {}"
-msgstr ""
+msgstr "ＫｏBoCATは予期しないレスポンス返しました：｛｝"
 
 #: kpi/deployment_backends/kobocat_backend.py:1642
 msgid "Something went wrong"
-msgstr ""
+msgstr "問題が発生しました"
 
 #: kpi/exceptions.py:58
 msgid "Must call `asset.connect_deployment()` first"
-msgstr ""
+msgstr "最初に`asset.connect_deployment()`を呼ぶ必要があります"
 
 #: kpi/exceptions.py:74
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
-msgstr ""
+msgstr "アクセスは制限されています。##koboform_url##、アカウント、パスワード／リセットでパスワードを変更しアクセスを回復してください。"
 
 #: kpi/exceptions.py:83
 msgid "Invalid search. Please try again"
-msgstr ""
+msgstr "無効な検索です。もう一度試してください"
 
 #: kpi/exceptions.py:105
 msgid "Invalid payload for bulk updating of submissions"
-msgstr ""
+msgstr "投稿の一括アップデートのペイロードが無効です"
 
 #: kpi/exceptions.py:112
 msgid "An error occurred trying to bulk update the submissions."
-msgstr ""
+msgstr "投稿を一括アップデートしようとしてエラーが発生しました。"
 
 #: kpi/exceptions.py:136
 msgid "An error occurred trying to duplicate the submission"
-msgstr ""
+msgstr "投稿の複製しようとしてエラーが発生しました"
 
 #: kpi/exceptions.py:150
 msgid "The specified object has not been deployed"
-msgstr ""
+msgstr "指定のオブジェクトが配置されていません"
 
 #: kpi/exceptions.py:159
 msgid "Bad syntax"
-msgstr ""
+msgstr "悪い構文です"
 
 #: kpi/exceptions.py:164
 msgid "Not supported field lookup"
-msgstr ""
+msgstr "サポートされていないフィールドを検索"
 
 #: kpi/exceptions.py:175
 msgid "Your query is too short"
-msgstr ""
+msgstr "クエリが短すぎます"
 
 #: kpi/fields/jsonschema_form_field.py:23
 #: kpi/fields/jsonschema_form_field.py:26
 msgid "Enter valid JSON."
-msgstr ""
+msgstr "有効なJSONを入力。"
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr ""
+msgstr "`##place_holder##`フィールドは非表示にできません。"
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
 msgid "Unable to parse JSON: {error}"
-msgstr ""
+msgstr "JSONを解析できません：{error}"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr "このアカウントでは多要素認証が有効です。"
+msgstr "このアカウントでは多要素認証が有効です。 "
 
 #: kpi/models/asset.py:249
 msgid "Can view asset"
-msgstr ""
+msgstr "アセットを閲覧できます"
 
 #: kpi/models/asset.py:250
 msgid "Can discover asset in public lists"
-msgstr ""
+msgstr "公開リストにあるアセットを見つけられます"
 
 #: kpi/models/asset.py:251
 msgid "Can manage all aspects of asset"
-msgstr ""
+msgstr "アセットのあらゆる側面を管理できます"
 
 #: kpi/models/asset.py:253
 msgid "Can submit data to asset"
-msgstr ""
+msgstr "データをアセットに投稿できます"
 
 #: kpi/models/asset.py:254
 msgid "Can view submitted data for asset"
-msgstr ""
+msgstr "アセットに投稿されたデータを見ることができます"
 
 #: kpi/models/asset.py:255
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr ""
+msgstr "アセットに提出されたデータに対して、特定のユーザーのために部分的なアクションを行うことができる"
 
 #: kpi/models/asset.py:258
 msgid "Can modify submitted data for asset"
-msgstr ""
+msgstr "アセットに提出されたデータを修正できます"
 
 #: kpi/models/asset.py:259
 msgid "Can delete submitted data for asset"
-msgstr ""
+msgstr "アセットに提出されたデータを削除できます"
 
 #: kpi/models/asset.py:260
 msgid "Can validate submitted data asset"
-msgstr ""
+msgstr "アセットに提出されたデータを有効にします"
 
 #: kpi/models/asset.py:283
 msgid "project"
-msgstr ""
+msgstr "プロジェクト"
 
 #: kpi/models/asset.py:283
 msgid "form"
-msgstr ""
+msgstr "フォーム"
 
 #: kpi/models/asset.py:285
 msgid "template"
-msgstr ""
+msgstr "テンプレート"
 
 #: kpi/models/asset.py:286
 msgid "block"
-msgstr ""
+msgstr "ブロック"
 
 #: kpi/models/asset.py:287
 msgid "question"
-msgstr ""
+msgstr "質問"
 
 #: kpi/models/asset.py:288
 msgid "text"
-msgstr ""
+msgstr "テキスト"
 
 #: kpi/models/asset.py:289
 msgid "empty"
-msgstr ""
+msgstr "空"
 
 #: kpi/models/asset.py:290
 msgid "collection"
-msgstr ""
+msgstr "コレクション"
 
 #: kpi/models/asset.py:297
 msgid "View ##asset_type_label##"
-msgstr ""
+msgstr "閲覧##asset_type_label##"
 
 #: kpi/models/asset.py:298
 msgid "Edit ##asset_type_label##"
-msgstr ""
+msgstr "編集##asset_type_label##"
 
 #: kpi/models/asset.py:299
 msgid "Discover ##asset_type_label##"
-msgstr ""
+msgstr "発見##asset_type_label##"
 
 #: kpi/models/asset.py:300
 msgid "Manage ##asset_type_label##"
-msgstr ""
+msgstr "管理##asset_type_label##"
 
 #: kpi/models/asset.py:301
 msgid "Add submissions"
-msgstr ""
+msgstr "投稿を追加"
 
 #: kpi/models/asset.py:302
 msgid "View submissions"
-msgstr ""
+msgstr "投稿を見る"
 
 #: kpi/models/asset.py:305
 msgid "Act on submissions only from specific users"
-msgstr ""
+msgstr "特定のユーザーだけの投稿に対応"
 
 #: kpi/models/asset.py:308
 msgid "View submissions only from specific users"
-msgstr ""
+msgstr "特定のユーザーだけの投稿を見る"
 
 #: kpi/models/asset.py:311
 msgid "Edit submissions only from specific users"
-msgstr ""
+msgstr "特定のユーザーからの投稿を編集"
 
 #: kpi/models/asset.py:314
 msgid "Delete submissions only from specific users"
-msgstr ""
+msgstr "特定のユーザーからの投稿を削除"
 
 #: kpi/models/asset.py:317
 msgid "Validate submissions only from specific users"
-msgstr ""
+msgstr "特定のユーザーからの投稿を有効にする"
 
 #: kpi/models/asset.py:320
 msgid "Edit submissions"
-msgstr ""
+msgstr "投稿を編集する"
 
 #: kpi/models/asset.py:321
 msgid "Delete submissions"
-msgstr ""
+msgstr "投稿を削除する"
 
 #: kpi/models/asset.py:322
 msgid "Validate submissions"
-msgstr ""
+msgstr "投稿を有効にする"
 
 #: kpi/models/asset.py:558
 msgid "Only partial permissions for submissions are supported"
-msgstr ""
+msgstr "投稿の部分的な許可のみサポート"
 
 #: kpi/models/asset.py:1256
 msgid "Can not assign '{}' permission to owner"
-msgstr ""
+msgstr "所有者に'{}'パーミッションを割り当てられません"
 
 #: kpi/models/asset.py:1260
 msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr ""
+msgstr "パーミッション '{}' を割り当てられません。パーミッションの一部が欠落しています。"
 
 #: kpi/models/authorized_application.py:40
 msgid "Invalid token."
-msgstr ""
+msgstr "無効なトークン。"
 
 #: kpi/models/import_export_task.py:142
 msgid "Cannot access data"
-msgstr ""
+msgstr "データにアクセスできません"
 
 #: kpi/models/import_export_task.py:578
 msgid "This data does not exist or you do not have access to it"
-msgstr ""
+msgstr "このデータは存在しないか、アクセスできません"
 
 #: kpi/password_validation.py:95
 msgid "You cannot reuse your last password."
-msgstr ""
+msgstr "最後のパスワードを再利用できません。"
 
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
-msgstr ""
+msgstr "以前と同一のパスワードは使えません。"
 
 #: kpi/password_validation.py:170
 msgid ""
 "The password must contain at least ##number of rules## different kinds of "
 "characters."
-msgstr ""
+msgstr "パスワードには少なくとも##number of rules##種類以上の文字を含めなければなりません。"
 
 #: kpi/serializers/current_user.py:170
 msgid "Incorrect current password."
-msgstr ""
+msgstr "現在のパスワードが間違っています。"
 
 #: kpi/serializers/current_user.py:190
 msgid "`current_password` and `new_password` must both be"
-msgstr ""
+msgstr "`current_password`と`new_password`の両方がなければなりません"
 
 #: kpi/serializers/current_user.py:230
 #: kpi/serializers/v2/asset_permission_assignment.py:287
 msgid "This field may not be blank."
-msgstr ""
+msgstr "このフィールドは空白ではいけません"
 
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr ""
+msgstr "%(count)dプロジェクトは削除されませんでした"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr ""
+msgstr "%(count)dプロジェクトは削除されています"
 
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr ""
+msgstr "%(count)dプロジェクトはアーカイブされていません"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr ""
+msgstr "%(count)dプロジェクトはアーカイブされています"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
-msgstr ""
+msgstr "一つ以上のプロジェクトが既に削除されています！"
 
 #: kpi/serializers/v2/asset.py:173
 msgid "One or many projects are already being deleted!"
-msgstr ""
+msgstr "一つ以上のプロジェクトが既に削除されています！"
 
 #: kpi/serializers/v2/asset.py:246
 msgid "`action` parameter is required"
-msgstr ""
+msgstr "`action`パラメーターは必須です"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr ""
+msgstr "`action`がサポートするバリューは： "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
-msgstr ""
+msgstr "プロジェクトの草稿はアーカイブできません"
 
 #: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
-msgstr ""
+msgstr "確認は必須です"
 
 #: kpi/serializers/v2/asset.py:778
 msgid "The property is required"
-msgstr ""
+msgstr "プロパティーは必須です"
 
 #: kpi/serializers/v2/asset.py:782
 msgid "The property must be an array"
-msgstr ""
+msgstr "プロパティーはアレーである必要があります"
 
 #: kpi/serializers/v2/asset.py:804
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr ""
+msgstr "無効なフィールドがあります。選択は`{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:826
 msgid "User cannot update current parent collection"
-msgstr ""
+msgstr "ユーザーは現在の親コレクションをアップデートできません"
 
 #: kpi/serializers/v2/asset.py:836
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
-msgstr ""
+msgstr "対象のコレクションが見つかりません"
 
 #: kpi/serializers/v2/asset.py:840
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr ""
+msgstr "ユーザーは対象の親コレクションをアップデートできません"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr ""
+msgstr "`export_settings`は、以下の必須のキー{}を含む必要があります"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr ""
+msgstr "`export_settings`は、以下の有効なキー{}のみを含めることができます｝"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr ""
+msgstr "`multiple_select`は{}のいずれかでなくてはなりません"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr ""
+msgstr "`type`は{}のいずれかでなくてはなりません"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr ""
+msgstr "`group_sep`は、非空のバリューでなくてはなりません"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr ""
+msgstr "このアセットの`lang`は、{}のいずれかでなくてはなりません"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
 msgid "Must be a JSON object"
-msgstr ""
+msgstr "JSONオブジェクトである必要があります"
 
 #: kpi/serializers/v2/asset_export_settings.py:134
 #: kpi/serializers/v2/export_task.py:247
 msgid "All values in the array must be integers"
-msgstr ""
+msgstr "アレー中のバリューはすべて、整数である必要があります"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr ""
+msgstr "`fields`はアレーである必要があります"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr ""
+msgstr "`fields`アレー中のバリューはすべて文字列である必要があります"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
-msgstr ""
+msgstr "JASONは無効です"
 
 #: kpi/serializers/v2/asset_file.py:130
 msgid "Invalid content"
-msgstr ""
+msgstr "無効なコンテンツ"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
-msgstr ""
+msgstr "ファイルは投稿されていません"
 
 #: kpi/serializers/v2/asset_file.py:158
 msgid "File already exists"
-msgstr ""
+msgstr "フィルはすでに存在します"
 
 #: kpi/serializers/v2/asset_file.py:208
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr ""
+msgstr "メディアファイルを、二種類の異なった方法で同時にアップロードできません。バイナリーアップロード、ベース64、リモートＵＲＬの中から選んでください。"
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
-msgstr ""
+msgstr "このフィールドは必須です"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr ""
+msgstr "`redirect_url`は必須です"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr ""
+msgstr "`filename`は必須です"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr ""
+msgstr "`redirect_url`は無効です"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr ""
+msgstr "`{}`MIMEタイプのみ許可されます"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:162
 msgid "This field is required for the '{}' permission"
-msgstr ""
+msgstr "このフィールドは '{}' パーミッションに必要です"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:176
 #: kpi/serializers/v2/asset_permission_assignment.py:181
 #: kpi/serializers/v2/asset_permission_assignment.py:186
 #: kpi/serializers/v2/asset_permission_assignment.py:492
 msgid "Invalid `url`"
-msgstr ""
+msgstr "無効な`url`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:191
 msgid "Invalid `filters`"
-msgstr ""
+msgstr "無効な`filters`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:208
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr ""
+msgstr "{permission}はこのタイプのアセットオブジェクトに明確に割り当てられることはできません。"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:286
 msgid "Not a valid list."
-msgstr ""
+msgstr "有効なリストではありません。"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:485
 #: kpi/serializers/v2/asset_permission_assignment.py:488
 msgid "Invalid hyperlink - Object does not exist."
-msgstr ""
+msgstr "無効なハイパーリンクです。オブジェクトがありません。"
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr ""
+msgstr "`submission_ids`は整数値のみを含む必要があります"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr ""
+msgstr "`submission_ids`は一つ以上の値を含む必要があります"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr ""
+msgstr "`data`は必須です"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr ""
+msgstr "`validation_status.uid`は必須です"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
-msgstr ""
+msgstr "以下にあげる必須のキー{}すべてを含んでいる必要があります"
 
 #: kpi/serializers/v2/export_task.py:137
 msgid "Can contain only the following valid keys: {}"
-msgstr ""
+msgstr "以下の有効なキー{}のみを含めることができます"
 
 #: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
 msgid "Must be an array"
-msgstr ""
+msgstr "アレーである必要があります"
 
 #: kpi/serializers/v2/export_task.py:159
 msgid "All values in the array must be strings"
-msgstr ""
+msgstr "アレーのバリューはすべて文字列である必要があります"
 
 #: kpi/serializers/v2/export_task.py:169
 msgid "Must be a non-empty value"
-msgstr ""
+msgstr "非空のバリューである必要があります"
 
 #: kpi/serializers/v2/export_task.py:182
 msgid "For this asset must be either {}"
-msgstr ""
+msgstr "このアセットに対しては、{}のいずれかである必要があります"
 
 #: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
 msgid "Must be either {}"
-msgstr ""
+msgstr "{}のいずれかでなくてはなりません"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr ""
+msgstr "アセットは配置される必要があります。"
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr ""
+msgstr "エクスポートの名前は文字列である必要があります。"
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
-msgstr ""
+msgstr "ソースを変更できません"
 
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr ""
+msgstr "`{source_uid}`とのシェアリングはできません"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr ""
+msgstr "`{source_uid}`とのペアリングは許可されません"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr ""
+msgstr "ソース`{source}`は既にペアリングされています"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr ""
+msgstr "無効なフィールドがあります。選択は`{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr ""
+msgstr "文字、数字と`-`のみ許可されています"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr ""
+msgstr "拡張子は、`xml`でなくてはなりません"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr ""
+msgstr "`{basename}`は既に使われています"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr ""
+msgstr "無効なアセットのタイプです。`{asset_type}`のみ許可されています"
 
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
@@ -1270,7 +1270,7 @@ msgid ""
 "Ouch! Sorry, you were probably sent here because your browser is outdated or"
 " perhaps it has its key features disabled by using \"private browsing\" "
 "mode."
-msgstr "申し訳ございません。使用しているブラウザが古いか、「プライベートブラウジング」モードで主要な機能を無効にしているため、ここに送られたと思われます。"
+msgstr "申し訳ございません。ご使用のブラウザが古いか、「プライベートブラウジング」モードで主要な機能を無効にしているため、ここに送られたと思われます。"
 
 #: kpi/templates/modern_browsers.html:12
 msgid ""
@@ -1312,76 +1312,76 @@ msgstr "Opera"
 
 #: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
-msgstr ""
+msgstr "このメールドメインではアカウントの作成が許可されていません"
 
 #: kpi/utils/two_database_configuration_checker.py:41
 msgid "Exactly two databases must be configured"
-msgstr ""
+msgstr "二つのデータベースは厳密に設定されなければなりません"
 
 #: kpi/utils/two_database_configuration_checker.py:42
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr ""
+msgstr "KＰＩと KｏBｏCＡＴには、それぞれ固有のデータベースがあります。KＰＩデータベースを「デフォルト」に、KｏBｏCＡＴを「kobocat」に設定してください。"
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr ""
+msgstr "KPIは、KoBoCATとデータベースを共有できません"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr ""
+msgstr "KPIとKoBoCATは、それぞれ固有のデータベースがある必要があります。"
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr ""
+msgstr "共有データベースのインストールからの不完全な移行"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr ""
+msgstr "KoBoCATデータベースは本来はＫＰＩと共有していましたが、ＫＰＩテーブルは共有データベースから新しいKPI専用データベースにはコピーされませんでした。"
 
 #: kpi/views/current_user.py:108
 msgid "Invalid confirmation"
-msgstr ""
+msgstr "無効な確認"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr ""
+msgstr "下記のフォーマットのみ有効です: ##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:193
 msgid "Source and destination objects don't seem to have the same type"
-msgstr ""
+msgstr "ソースと目標オブジェクトは、同じタイプを持っていないようです"
 
 #: kpi/views/v2/asset_permission_assignment.py:220
 msgid "Owner's permissions cannot be deleted"
-msgstr ""
+msgstr "所有者のパミッションは削除できません"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr ""
+msgstr "`xpath`クエリのパラメーターは必須です"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
-msgstr ""
+msgstr "無効なXPath構文"
 
 #: kpi/views/v2/attachment.py:98
 msgid "The path could not be found in the submission"
-msgstr ""
+msgstr "投稿にパスは見つけられませんでした"
 
 #: kpi/views/v2/attachment.py:107
 msgid "The error occurred during conversion"
-msgstr ""
+msgstr "コンバージョン中にエラーが発生しました"
 
 #: kpi/views/v2/attachment.py:111
 msgid "Conversion is not supported for {}"
-msgstr ""
+msgstr "コンバージョンは{}をサポートしません"
 
 #: kpi/views/v2/data.py:317
 msgid "The specified asset has not been deployed"
-msgstr ""
+msgstr "指定されたアセットは配置されていません"
 
 #: kpi/views/v2/data.py:621
 msgid "A positive integer is required"
-msgstr ""
+msgstr "正の整数が必要です"
