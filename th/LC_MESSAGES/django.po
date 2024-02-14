@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2023-12-22 01:16+0000\n"
+"POT-Creation-Date: 2024-02-09 19:00+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Thai (http://app.transifex.com/kobotoolbox/kobotoolbox/language/th/)\n"
@@ -21,63 +21,67 @@ msgstr ""
 msgid "Log in as user"
 msgstr "เข้าสู่ระบบในฐานะผู้ใช้"
 
-#: kobo/apps/accounts/forms.py:67
+#: kobo/apps/accounts/forms.py:68
+msgid "Please enter a valid URL"
+msgstr ""
+
+#: kobo/apps/accounts/forms.py:76
 msgid "Non-profit organization"
 msgstr "องค์กรที่ไม่แสวงหาผลกำไร"
 
-#: kobo/apps/accounts/forms.py:68
+#: kobo/apps/accounts/forms.py:77
 msgid "Government institution"
 msgstr "สถาบันของรัฐ"
 
-#: kobo/apps/accounts/forms.py:69
+#: kobo/apps/accounts/forms.py:78
 msgid "Educational organization"
 msgstr "องค์กรทางการศึกษา"
 
-#: kobo/apps/accounts/forms.py:70
+#: kobo/apps/accounts/forms.py:79
 msgid "A commercial/for-profit company"
 msgstr "บริษัทการค้า/แสวงหาผลกำไร"
 
-#: kobo/apps/accounts/forms.py:71
+#: kobo/apps/accounts/forms.py:80
 msgid "I am not associated with any organization"
 msgstr "ฉันไม่เกี่ยวข้องกับองค์กรใดๆ"
 
-#: kobo/apps/accounts/forms.py:79
+#: kobo/apps/accounts/forms.py:88
 msgid "Male"
 msgstr "ชาย"
 
-#: kobo/apps/accounts/forms.py:80
+#: kobo/apps/accounts/forms.py:89
 msgid "Female"
 msgstr "หญิง"
 
-#: kobo/apps/accounts/forms.py:81 kobo/static_lists.py:37
+#: kobo/apps/accounts/forms.py:90 kobo/static_lists.py:37
 msgid "Other"
 msgstr "อื่นๆ"
 
-#: kobo/apps/accounts/forms.py:115 kpi/templates/base.html:29
+#: kobo/apps/accounts/forms.py:124 kpi/templates/base.html:29
 msgid "Terms of Service"
 msgstr "ข้อกำหนดบริการ"
 
-#: kobo/apps/accounts/forms.py:122 kpi/templates/base.html:34
+#: kobo/apps/accounts/forms.py:131 kpi/templates/base.html:34
 msgid "Privacy Policy"
 msgstr "นโยบายความเป็นส่วนตัว"
 
-#: kobo/apps/accounts/forms.py:124
+#: kobo/apps/accounts/forms.py:133
 msgid "I agree with the ##terms_of_service## and ##privacy_policy##"
 msgstr "ฉันยอมรับ ##terms_of_service## และ ##privacy_policy##"
 
-#: kobo/apps/accounts/forms.py:134
+#: kobo/apps/accounts/forms.py:143
 msgid "Password confirmation"
 msgstr "การยืนยันรหัสผ่าน"
 
-#: kobo/apps/accounts/forms.py:136
+#: kobo/apps/accounts/forms.py:145
 msgid "name@organization.org"
 msgstr "name@organization.org"
 
-#: kobo/apps/accounts/forms.py:211
+#: kobo/apps/accounts/forms.py:220
 msgid "This field is required."
 msgstr "ฟิลด์นี้จำเป็น"
 
-#: kobo/apps/accounts/forms.py:298
+#: kobo/apps/accounts/forms.py:307
 msgid "You must type the same password each time."
 msgstr "คุณต้องพิมพ์รหัสผ่านเดียวกันทุกครั้ง"
 
@@ -485,8 +489,8 @@ msgid "Data is being or has already been processed"
 msgstr "ข้อมูลกำลังได้รับการประมวลผลหรือได้รับการประมวลผลแล้ว"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
-#: kpi/deployment_backends/base_backend.py:449
-#: kpi/deployment_backends/base_backend.py:456
+#: kpi/deployment_backends/base_backend.py:593
+#: kpi/deployment_backends/base_backend.py:600
 msgid "A positive integer is required."
 msgstr "จำเป็นต้องระบุจำนวนเต็มบวก"
 
@@ -512,7 +516,7 @@ msgstr "ไม่พบ `{}`"
 msgid "`{}` is not a select one question."
 msgstr "`{}` ไม่ใช่คำถามแบบเลือกหนึ่งคำตอบ"
 
-#: kobo/settings/base.py:246
+#: kobo/settings/base.py:245
 msgid ""
 "If you cannot access your authenticator app, please enter one of your backup"
 " codes instead. If you cannot access those either, then you will need to "
@@ -520,7 +524,7 @@ msgid ""
 "email##)."
 msgstr "หากคุณไม่สามารถเข้าถึงแอปตัวตรวจสอบความถูกต้องได้ โปรดใส่รหัสสำรองของคุณแทน หากคุณไม่สามารถเข้าถึงได้เช่นกัน คุณจะต้องขอความช่วยเหลือโดยการติดต่อ [##support email##](mailto:##support email##)"
 
-#: kobo/settings/base.py:447
+#: kobo/settings/base.py:446
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
@@ -691,95 +695,90 @@ msgstr "ฉันต้องการรับการอัปเดตเป
 msgid "Invalid username/password"
 msgstr "ชื่อผู้ใช้/รหัสผ่านไม่ถูกต้อง"
 
-#: kpi/deployment_backends/base_backend.py:378
+#: kpi/deployment_backends/base_backend.py:122
+msgid "No submissions match the given `submission_ids`"
+msgstr "ไม่มีการส่งที่ตรงกับ `submission_ids` ที่กำหนด"
+
+#: kpi/deployment_backends/base_backend.py:522
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
 msgstr "พารามิเตอร์นี้ไม่ได้ถูกนำมาใช้ ใช้คุณสมบัติ `count` ของคำตอบแทน"
 
-#: kpi/deployment_backends/base_backend.py:389
+#: kpi/deployment_backends/base_backend.py:533
 msgid "This param is not supported in `XML` format"
 msgstr "พารามิเตอร์นี้ไม่ได้รับการสนับสนุนในรูปแบบ `XML`"
 
-#: kpi/deployment_backends/base_backend.py:394
+#: kpi/deployment_backends/base_backend.py:538
 msgid "This is not supported in `XML` format"
 msgstr "ไม่สนับสนุนในรูปแบบ `XML`"
 
-#: kpi/deployment_backends/base_backend.py:414
-#: kpi/deployment_backends/base_backend.py:442
-#: kpi/deployment_backends/base_backend.py:464 kpi/views/v2/data.py:522
+#: kpi/deployment_backends/base_backend.py:558
+#: kpi/deployment_backends/base_backend.py:586
+#: kpi/deployment_backends/base_backend.py:608 kpi/views/v2/data.py:523
 msgid "Value must be valid JSON."
 msgstr "ค่าต้องเป็น JSON ที่ถูกต้อง"
 
-#: kpi/deployment_backends/base_backend.py:419
+#: kpi/deployment_backends/base_backend.py:563
 msgid "Value must be a list."
 msgstr "ค่าต้องเป็นรายการ"
 
-#: kpi/deployment_backends/kobocat_backend.py:178
-#: kpi/deployment_backends/mock_backend.py:100
-msgid "No submissions match the given `submission_ids`"
-msgstr "ไม่มีการส่งที่ตรงกับ `submission_ids` ที่กำหนด"
-
-#: kpi/deployment_backends/kobocat_backend.py:549
+#: kpi/deployment_backends/kobocat_backend.py:426
 msgid "Your submission XML is malformed."
 msgstr "XML การส่งข้อมูลของคุณมีรูปแบบไม่ถูกต้อง"
 
-#: kpi/deployment_backends/kobocat_backend.py:556
+#: kpi/deployment_backends/kobocat_backend.py:435
 msgid "Your submission XML is missing critical elements."
 msgstr "XML การส่งข้อมูลของคุณไม่มีองค์ประกอบที่สำคัญ"
 
-#: kpi/deployment_backends/kobocat_backend.py:569
+#: kpi/deployment_backends/kobocat_backend.py:448
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
 msgstr "ไม่พบการส่งข้อมูลที่คุณพยายามแก้ไข หรือคุณเข้าถึงไม่ได้"
 
-#: kpi/deployment_backends/kobocat_backend.py:1590
+#: kpi/deployment_backends/kobocat_backend.py:1529
 msgid "KoBoCAT returned an unexpected response: {}"
 msgstr "KoBoCAT แจ้งคำตอบที่ไม่คาดคิด: {}"
 
-#: kpi/deployment_backends/kobocat_backend.py:1642
+#: kpi/deployment_backends/kobocat_backend.py:1565
 msgid "Something went wrong"
 msgstr "มีบางอย่างผิดพลาด"
 
-#: kpi/exceptions.py:58
+#: kpi/exceptions.py:49
+msgid "Invalid payload for bulk updating of submissions"
+msgstr "เพย์โหลดไม่ถูกต้องสำหรับการอัปเดตการส่งข้อมูลจำนวนมาก"
+
+#: kpi/exceptions.py:64
 msgid "Must call `asset.connect_deployment()` first"
 msgstr "ต้องเรียกใช้ `asset.connect_deployment()` ก่อน"
 
-#: kpi/exceptions.py:74
+#: kpi/exceptions.py:80
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
 msgstr "การเข้าถึงของคุณถูกจำกัด โปรดเรียกคืนการเข้าถึงของคุณโดยการเปลี่ยนรหัสผ่านของคุณที่ ##koboform_url##/accounts/password/reset/"
 
-#: kpi/exceptions.py:83
+#: kpi/exceptions.py:89
 msgid "Invalid search. Please try again"
 msgstr "การค้นหาไม่ถูกต้อง โปรดลองอีกครั้ง"
 
-#: kpi/exceptions.py:105
-msgid "Invalid payload for bulk updating of submissions"
-msgstr "เพย์โหลดไม่ถูกต้องสำหรับการอัปเดตการส่งข้อมูลจำนวนมาก"
-
-#: kpi/exceptions.py:112
-msgid "An error occurred trying to bulk update the submissions."
-msgstr "เกิดข้อผิดพลาดขณะพยายามอัปเดตการส่งข้อมูลจำนวนมาก"
-
-#: kpi/exceptions.py:136
+#: kpi/exceptions.py:129
 msgid "An error occurred trying to duplicate the submission"
 msgstr "เกิดข้อผิดพลาดขณะพยายามทำสำเนาการส่งข้อมูล"
 
-#: kpi/exceptions.py:150
+#: kpi/exceptions.py:143
 msgid "The specified object has not been deployed"
 msgstr "ยังไม่ได้นำวัตถุที่ระบุไปใช้งาน"
 
-#: kpi/exceptions.py:159
+#: kpi/exceptions.py:152
 msgid "Bad syntax"
 msgstr "ซินแทกซ์ไม่ถูกต้อง"
 
-#: kpi/exceptions.py:164
+#: kpi/exceptions.py:157
 msgid "Not supported field lookup"
 msgstr "ไม่ใช่การค้นหาฟิลด์ที่รองรับ"
 
-#: kpi/exceptions.py:175
+#: kpi/exceptions.py:168
 msgid "Your query is too short"
 msgstr "ข้อคำถามของคุณสั้นเกินไป"
 
@@ -801,140 +800,140 @@ msgstr "ไม่สามารถแจง JSON: {error}"
 msgid "Multi-factor authentication is enabled for this account. "
 msgstr "เปิดใช้งานการรับรองความถูกต้องโดยใช้หลายขั้นตอนสำหรับบัญชีนี้ "
 
-#: kpi/models/asset.py:249
+#: kpi/models/asset.py:251
 msgid "Can view asset"
 msgstr "สามารถดูเนื้อหาได้"
 
-#: kpi/models/asset.py:250
+#: kpi/models/asset.py:252
 msgid "Can discover asset in public lists"
 msgstr "สามารถค้นพบเนื้อหาในรายการสาธารณะได้"
 
-#: kpi/models/asset.py:251
+#: kpi/models/asset.py:253
 msgid "Can manage all aspects of asset"
 msgstr "สามารถจัดการเนื้อหาได้ทุกด้าน"
 
-#: kpi/models/asset.py:253
+#: kpi/models/asset.py:255
 msgid "Can submit data to asset"
 msgstr "สามารถส่งข้อมูลไปยังเนื้อหาได้"
 
-#: kpi/models/asset.py:254
+#: kpi/models/asset.py:256
 msgid "Can view submitted data for asset"
 msgstr "สามารถดูข้อมูลที่ส่งสำหรับเนื้อหาได้"
 
-#: kpi/models/asset.py:255
+#: kpi/models/asset.py:257
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
 msgstr "สามารถดำเนินการบางส่วนกับข้อมูลที่ส่งสำหรับเนื้อหาสำหรับผู้ใช้ที่เฉพาะเจาะจงได้"
 
-#: kpi/models/asset.py:258
+#: kpi/models/asset.py:260
 msgid "Can modify submitted data for asset"
 msgstr "สามารถปรับเปลี่ยนข้อมูลที่ส่งสำหรับเนื้อหาได้"
 
-#: kpi/models/asset.py:259
+#: kpi/models/asset.py:261
 msgid "Can delete submitted data for asset"
 msgstr "สามารถลบข้อมูลที่ส่งสำหรับเนื้อหาได้"
 
-#: kpi/models/asset.py:260
+#: kpi/models/asset.py:262
 msgid "Can validate submitted data asset"
 msgstr "สามารถตรวจสอบเนื้อหาข้อมูลที่ส่งได้"
 
-#: kpi/models/asset.py:283
+#: kpi/models/asset.py:285
 msgid "project"
 msgstr "โครงการ"
 
-#: kpi/models/asset.py:283
+#: kpi/models/asset.py:285
 msgid "form"
 msgstr "แบบฟอร์ม"
 
-#: kpi/models/asset.py:285
+#: kpi/models/asset.py:287
 msgid "template"
 msgstr "เทมเพลต"
 
-#: kpi/models/asset.py:286
+#: kpi/models/asset.py:288
 msgid "block"
 msgstr "บล็อก"
 
-#: kpi/models/asset.py:287
+#: kpi/models/asset.py:289
 msgid "question"
 msgstr "คำถาม"
 
-#: kpi/models/asset.py:288
+#: kpi/models/asset.py:290
 msgid "text"
 msgstr "ข้อความ"
 
-#: kpi/models/asset.py:289
+#: kpi/models/asset.py:291
 msgid "empty"
 msgstr "ว่างเปล่า"
 
-#: kpi/models/asset.py:290
+#: kpi/models/asset.py:292
 msgid "collection"
 msgstr "คอลเลกชัน"
 
-#: kpi/models/asset.py:297
+#: kpi/models/asset.py:299
 msgid "View ##asset_type_label##"
 msgstr "ดู ##asset_type_label##"
 
-#: kpi/models/asset.py:298
+#: kpi/models/asset.py:300
 msgid "Edit ##asset_type_label##"
 msgstr "แก้ไข ##asset_type_label##"
 
-#: kpi/models/asset.py:299
+#: kpi/models/asset.py:301
 msgid "Discover ##asset_type_label##"
 msgstr "ค้นพบ ##asset_type_label##"
 
-#: kpi/models/asset.py:300
+#: kpi/models/asset.py:302
 msgid "Manage ##asset_type_label##"
 msgstr "จัดการ ##asset_type_label##"
 
-#: kpi/models/asset.py:301
+#: kpi/models/asset.py:303
 msgid "Add submissions"
 msgstr "เพิ่มการส่งข้อมูล"
 
-#: kpi/models/asset.py:302
+#: kpi/models/asset.py:304
 msgid "View submissions"
 msgstr "ดูการส่ง"
 
-#: kpi/models/asset.py:305
+#: kpi/models/asset.py:307
 msgid "Act on submissions only from specific users"
 msgstr "ดำเนินการกับการส่งข้อมูลจากผู้ใช้ที่เฉพาะเจาะจงเท่านั้น"
 
-#: kpi/models/asset.py:308
+#: kpi/models/asset.py:310
 msgid "View submissions only from specific users"
 msgstr "ดูการส่งข้อมูลจากผู้ใช้ที่เฉพาะเจาะจงเท่านั้น"
 
-#: kpi/models/asset.py:311
+#: kpi/models/asset.py:313
 msgid "Edit submissions only from specific users"
 msgstr "แก้ไขการส่งข้อมูลจากผู้ใช้ที่เฉพาะเจาะจงเท่านั้น"
 
-#: kpi/models/asset.py:314
+#: kpi/models/asset.py:316
 msgid "Delete submissions only from specific users"
 msgstr "ลบการส่งข้อมูลจากผู้ใช้ที่เฉพาะเจาะจงเท่านั้น"
 
-#: kpi/models/asset.py:317
+#: kpi/models/asset.py:319
 msgid "Validate submissions only from specific users"
 msgstr "ตรวจสอบการส่งข้อมูลจากผู้ใช้ที่เฉพาะเจาะจงเท่านั้น"
 
-#: kpi/models/asset.py:320
+#: kpi/models/asset.py:322
 msgid "Edit submissions"
 msgstr "แก้ไขการส่งข้อมูล"
 
-#: kpi/models/asset.py:321
+#: kpi/models/asset.py:323
 msgid "Delete submissions"
 msgstr "ลบการส่งข้อมูล"
 
-#: kpi/models/asset.py:322
+#: kpi/models/asset.py:324
 msgid "Validate submissions"
 msgstr "ตรวจสอบการส่งข้อมูล"
 
-#: kpi/models/asset.py:558
+#: kpi/models/asset.py:629
 msgid "Only partial permissions for submissions are supported"
 msgstr "เฉพาะสิทธิ์การอนุญาตบางส่วนสำหรับการส่งข้อมูลเท่านั้นที่ได้รับการรองรับ"
 
-#: kpi/models/asset.py:1256
+#: kpi/models/asset.py:1331
 msgid "Can not assign '{}' permission to owner"
 msgstr "ไม่สามารถกำหนดสิทธิ์การอนุญาต '{}' ให้กับเจ้าของได้"
 
-#: kpi/models/asset.py:1260
+#: kpi/models/asset.py:1335
 msgid "Can not assign '{}' permission. Partial permissions are missing."
 msgstr "ไม่สามารถกำหนดสิทธิ์การอนุญาต '{}' ได้ สิทธิ์การอนุญาตบางส่วนหายไป"
 
@@ -964,16 +963,16 @@ msgid ""
 "characters."
 msgstr "รหัสผ่านจะต้องมีอักขระที่แตกต่างกันอย่างน้อย ##number of rules## ชนิด"
 
-#: kpi/serializers/current_user.py:170
+#: kpi/serializers/current_user.py:162
 msgid "Incorrect current password."
 msgstr "รหัสผ่านปัจจุบันไม่ถูกต้อง"
 
-#: kpi/serializers/current_user.py:190
+#: kpi/serializers/current_user.py:182
 msgid "`current_password` and `new_password` must both be"
 msgstr "ทั้ง `current_password` และ `new_password` ต้องเป็น"
 
-#: kpi/serializers/current_user.py:230
-#: kpi/serializers/v2/asset_permission_assignment.py:287
+#: kpi/serializers/current_user.py:222
+#: kpi/serializers/v2/asset_permission_assignment.py:290
 msgid "This field may not be blank."
 msgstr "ฟิลด์นี้ต้องไม่เว้นว่าง"
 
@@ -1021,29 +1020,29 @@ msgstr "ไม่สามารถเก็บถาวรโครงการ
 msgid "Confirmation is required"
 msgstr "จำเป็นต้องมีการยืนยัน"
 
-#: kpi/serializers/v2/asset.py:778
+#: kpi/serializers/v2/asset.py:786
 msgid "The property is required"
 msgstr "จำเป็นต้องมีคุณสมบัติ"
 
-#: kpi/serializers/v2/asset.py:782
+#: kpi/serializers/v2/asset.py:790
 msgid "The property must be an array"
 msgstr "คุณสมบัติต้องเป็นอาร์เรย์"
 
-#: kpi/serializers/v2/asset.py:804
+#: kpi/serializers/v2/asset.py:812
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
 msgstr "เขตข้อมูลบางรายการไม่ถูกต้อง ตัวเลือกคือ: `{valid_fields}`"
 
-#: kpi/serializers/v2/asset.py:826
+#: kpi/serializers/v2/asset.py:834
 msgid "User cannot update current parent collection"
 msgstr "ผู้ใช้ไม่สามารถอัปเดตคอลเลกชันต้นำกำเนิดปัจจุบันได้"
 
-#: kpi/serializers/v2/asset.py:836
+#: kpi/serializers/v2/asset.py:844
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
 msgstr "ไม่พบคอลเลกชันเป้าหมาย"
 
-#: kpi/serializers/v2/asset.py:840
+#: kpi/serializers/v2/asset.py:848
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
 msgstr "ผู้ใช้ไม่สามารถอัปเดตคอลเลกชันต้นกำเนิดเป้าหมายได้"
@@ -1132,33 +1131,33 @@ msgstr "`redirect_url` ไม่ถูกต้อง"
 msgid "Only `{}` MIME types are allowed"
 msgstr "อนุญาตเฉพาะ `{}` ประเภท MIME เท่านั้น"
 
-#: kpi/serializers/v2/asset_permission_assignment.py:162
+#: kpi/serializers/v2/asset_permission_assignment.py:163
 msgid "This field is required for the '{}' permission"
 msgstr "ฟิลด์นี้จำเป็นสำหรับสิทธิ์การอนุญาต '{}'"
 
-#: kpi/serializers/v2/asset_permission_assignment.py:176
-#: kpi/serializers/v2/asset_permission_assignment.py:181
-#: kpi/serializers/v2/asset_permission_assignment.py:186
-#: kpi/serializers/v2/asset_permission_assignment.py:492
+#: kpi/serializers/v2/asset_permission_assignment.py:177
+#: kpi/serializers/v2/asset_permission_assignment.py:182
+#: kpi/serializers/v2/asset_permission_assignment.py:188
+#: kpi/serializers/v2/asset_permission_assignment.py:497
 msgid "Invalid `url`"
 msgstr "`url` ไม่ถูกต้อง"
 
-#: kpi/serializers/v2/asset_permission_assignment.py:191
+#: kpi/serializers/v2/asset_permission_assignment.py:193
 msgid "Invalid `filters`"
 msgstr "`filters` ไม่ถูกต้อง"
 
-#: kpi/serializers/v2/asset_permission_assignment.py:208
+#: kpi/serializers/v2/asset_permission_assignment.py:210
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
 msgstr "{permission} ไม่สามารถกำหนดให้กับวัตถุเนื้อหาประเภทนี้ได้อย่างแน่ชัด"
 
-#: kpi/serializers/v2/asset_permission_assignment.py:286
+#: kpi/serializers/v2/asset_permission_assignment.py:289
 msgid "Not a valid list."
 msgstr "ไม่ใช่รายการที่ถูกต้อง"
 
-#: kpi/serializers/v2/asset_permission_assignment.py:485
-#: kpi/serializers/v2/asset_permission_assignment.py:488
+#: kpi/serializers/v2/asset_permission_assignment.py:490
+#: kpi/serializers/v2/asset_permission_assignment.py:493
 msgid "Invalid hyperlink - Object does not exist."
 msgstr "ไฮเปอร์ลิงก์ไม่ถูกต้อง - ไม่มีวัตถุอยู่"
 
@@ -1337,7 +1336,7 @@ msgid ""
 "not copied from that shared database to the new, KPI-only database."
 msgstr "เดิมฐานข้อมูล KoBoCAT ถูกแชร์โดย KPI แต่ตาราง KPI ไม่ได้ถูกคัดลอกจากฐานข้อมูลที่แชร์นั้นไปยังฐานข้อมูล KPI เท่านั้นที่เป็นฐานข้อมูลใหม่"
 
-#: kpi/views/current_user.py:108
+#: kpi/views/current_user.py:107
 msgid "Invalid confirmation"
 msgstr "การยืนยันไม่ถูกต้อง"
 
@@ -1345,11 +1344,11 @@ msgstr "การยืนยันไม่ถูกต้อง"
 msgid "Only the following formats are available: ##format list##"
 msgstr "มีเพียงรูปแบบต่อไปนี้เท่านั้น: ##format list##"
 
-#: kpi/views/v2/asset_permission_assignment.py:193
+#: kpi/views/v2/asset_permission_assignment.py:211
 msgid "Source and destination objects don't seem to have the same type"
 msgstr "ดูเหมือนว่าวัตถุต้นทางและปลายทางจะมีประเภทไม่เหมือนกัน"
 
-#: kpi/views/v2/asset_permission_assignment.py:220
+#: kpi/views/v2/asset_permission_assignment.py:240
 msgid "Owner's permissions cannot be deleted"
 msgstr "ไม่สามารถลบสิทธิ์การอนุญาตของเจ้าของได้"
 
@@ -1373,10 +1372,10 @@ msgstr "เกิดข้อผิดพลาดระหว่างการ
 msgid "Conversion is not supported for {}"
 msgstr "การแปลงไม่ได้รับการรองรับสำหรับ {}"
 
-#: kpi/views/v2/data.py:317
+#: kpi/views/v2/data.py:318
 msgid "The specified asset has not been deployed"
 msgstr "ยังไม่ได้นำเนื้อหาที่ระบุไปใช้งาน"
 
-#: kpi/views/v2/data.py:621
+#: kpi/views/v2/data.py:622
 msgid "A positive integer is required"
 msgstr "จำเป็นต้องระบุจำนวนเต็มบวก"
