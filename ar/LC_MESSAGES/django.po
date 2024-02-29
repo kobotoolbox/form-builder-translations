@@ -62,7 +62,7 @@ msgstr "تسجيل الدخول كمستخدم"
 
 #: kobo/apps/accounts/forms.py:68
 msgid "Please enter a valid URL"
-msgstr ""
+msgstr "أدخل رابطاً صحيحاً من فضلك"
 
 #: kobo/apps/accounts/forms.py:76
 msgid "Non-profit organization"
@@ -180,13 +180,13 @@ msgstr "الأفضل،"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
 msgid "Thanks for signing up with KoboToolbox!"
-msgstr "شكراً لك لإنشاء حساب على كوبو-تولبوكس!"
+msgstr "شكراً لإنشاء حساب على KoboToolbox!"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:12
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
-msgstr "عندما تؤكد إنشاء حسابك، سيتاح لك استخدام التطبيقات المختلفة لكوبو-تولبوكس. يُرجى زيارة صفحة الويب التالية لإنهاء تفعيل حسابك الجديد."
+msgstr "عندما تؤكد إنشاء حسابك، سيتاح لك استخدام التطبيقات المختلفة KoboToolbox. يُرجى زيارة صفحة الويب التالية لإنهاء تفعيل حسابك الجديد."
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
 msgid "Your username is: "
@@ -207,7 +207,7 @@ msgstr "يمكنك أيضًا الانضمام إلى منتدى مجتمع Kobo
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:10
 msgid "Activate your KoboToolbox Account"
-msgstr "قم بتفعيل حسابك بكوبو-تولبوكس"
+msgstr "فعّل حسابك ب KoboToolbox"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_subject.txt:3
 msgid "KoboToolbox account email address verification"
@@ -216,7 +216,7 @@ msgstr "تحقق من عنوان البريد الإلكتروني الخاص ب
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:4
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:5
 msgid "Hello from KoboToolbox,"
-msgstr "مرحبا بك في KoboToolbox"
+msgstr "مرحبا من KoboToolbox،"
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:6
 msgid "We’ve received a password reset request for your user account."
@@ -229,7 +229,7 @@ msgstr "لإعادة تعيين كلمة المرور الخاصة بك، يرج
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:11
 #, python-format
 msgid "Your username is %(username)s."
-msgstr "اسم المستخدم الخاص بك هو: %(username)s"
+msgstr "اسم المستخدم الخاص بك هو %(username)s."
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:13
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:9
@@ -358,7 +358,7 @@ msgstr "إرسال"
 
 #: kobo/apps/accounts/templates/account/signup.html:47
 msgid "Create Account"
-msgstr "أنشئ حساب"
+msgstr "إنشاء حساب"
 
 #: kobo/apps/accounts/templates/account/signup.html:51
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
@@ -403,7 +403,7 @@ msgstr "سيسمح لك هذا بالدخول الموحّد في المستقب
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
 msgid "Connect with %(appname)s"
-msgstr "الاتصال ب %(appname)s"
+msgstr "الاتصال بـ %(appname)s"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:27
 msgid "Log in with "
@@ -416,7 +416,7 @@ msgstr "سجّل الدخول إلى KoboToolbox باستخدام حساب %(app
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:39
 msgid "go back"
-msgstr "العودة"
+msgstr "الرجوع"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
@@ -430,7 +430,7 @@ msgstr "مرحبًا في KoboToolbox!"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 #, python-format
 msgid "You are about to use your %(appname)s account to login to KoboToolbox."
-msgstr "أنت على وشك استخدام حساب %(appname)s لتسجيل الدخول إلى KoboToolbox"
+msgstr "أنت على وشك استخدام حسابك %(appname)s لتسجيل الدخول إلى KoboToolbox."
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:18
 msgid "As a final step, please complete the following form"
@@ -517,7 +517,7 @@ msgstr "لا توجد بيانات لإعادة المحاولة"
 
 #: kobo/apps/hook/views/v2/hook.py:206
 msgid "Can not retry on disabled hooks"
-msgstr "لا يمكن إعادة المحاولة على الوصلات المعطلة"
+msgstr "لا يمكن إعادة المحاولة على خطافات التعليقات المعطلة"
 
 #: kobo/apps/hook/views/v2/hook_log.py:121
 msgid "An error has occurred when sending the data. Please try again later."
@@ -541,7 +541,7 @@ msgstr "لقد حصلنا على بياناتك وحفظناها، لكن ربم
 
 #: kobo/apps/hook/views/v2/hook_signal.py:80
 msgid "Your data for instance {} has been already submitted."
-msgstr "لقد تم باإرسال بياناتك على سبيل المثال {}."
+msgstr "لقد تم إرسال بياناتك على سبيل المثال {}."
 
 #: kobo/apps/languages/templates/admin/languages_change_list.html:8
 msgid "Import"
@@ -549,11 +549,11 @@ msgstr "استيراد"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
-msgstr "لم يتم العثور على `{}`."
+msgstr "`{}`غير موجود."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr "ليس `{}` سؤال تحديد خيار واحد."
+msgstr "`{}` ليس سؤال تحديد خيار واحد."
 
 #: kobo/settings/base.py:245
 msgid ""
@@ -568,7 +568,7 @@ msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
 "characters. It cannot be similar to your name, username, or email address."
-msgstr "يجب أن تتكون كلمة المرور من 10 محارف على الأقل وأن تحتوي على 3 أو أكثر مما يلي: أحرف كبيرة وأحرف صغيرة وأرقام وأحرف خاصة. ولا يمكن أن تكون مشابهة لاسمك أو اسم المستخدم أو عنوان البريد الإلكتروني الخاص بك."
+msgstr "يجب أن تتكون كلمة المرور من 10 محارف على الأقل وأن تحتوي على 3 أو أكثر مما يلي: أحرف لاتينية كبيرة وأحرف صغيرة وأرقام وأحرف خاصة. ولا يمكن أن تكون مشابهة لاسمك أو اسم المستخدم أو عنوان البريد الإلكتروني الخاص بك."
 
 #: kobo/static_lists.py:13
 msgid "Public Administration"
@@ -620,7 +620,7 @@ msgstr "الشؤون الإنسانية - التنسيق / إدارة المعل
 
 #: kobo/static_lists.py:25
 msgid "Humanitarian - Multiple Clusters"
-msgstr "الشؤون الإنسانية - عناقيد المجموعات المتعددة"
+msgstr "الشؤون الإنسانية -مجموعات متعددة"
 
 #: kobo/static_lists.py:26
 msgid "Humanitarian - Camp Management & Coordination"
@@ -700,15 +700,15 @@ msgstr "نوع المنظمة"
 
 #: kobo/static_lists.py:355
 msgid "Organization website"
-msgstr "الموقع الخاص بالمنظمة"
+msgstr "الموقع الإلكتروني الخاص بالمنظمة"
 
 #: kobo/static_lists.py:357
 msgid "Gender"
-msgstr "النوع الاجتماعي"
+msgstr "الجندر"
 
 #: kobo/static_lists.py:358
 msgid "Bio"
-msgstr "النبذة التعريفية"
+msgstr "نبذة تعريفية"
 
 #: kobo/static_lists.py:359
 msgid "City"
@@ -736,20 +736,20 @@ msgstr "اسم المستخدم / كلمة المرور غير صحيحة"
 
 #: kpi/deployment_backends/base_backend.py:122
 msgid "No submissions match the given `submission_ids`"
-msgstr "لا توجد عمليات إرسال تتطابق مع `submission_ids` المحددة"
+msgstr "ليس هناك طلب موافق للمعطيات `submission_ids`"
 
 #: kpi/deployment_backends/base_backend.py:522
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr "هذه المعلمة لم يتم تنفيذها. استخدم خاصية `count` من الإجابة بدلاً منها."
+msgstr "هذا البارومتر غير مستخدم. استخدم `count` خاصيّة الإجابة كبديل."
 
 #: kpi/deployment_backends/base_backend.py:533
 msgid "This param is not supported in `XML` format"
-msgstr "هذه المعلمة غير مدعومة بتنسيق `XML`"
+msgstr "هذه البارومتر غير مدعوم `XML` في تنسيق الصّيغة"
 
 #: kpi/deployment_backends/base_backend.py:538
 msgid "This is not supported in `XML` format"
-msgstr "هذا غير مدعوم بتنسيق `XML`"
+msgstr "هذا غير مدعوم في `XML` تنسيق الصّيغة"
 
 #: kpi/deployment_backends/base_backend.py:558
 #: kpi/deployment_backends/base_backend.py:586
@@ -789,7 +789,7 @@ msgstr "الحمولة غير صالحة لتحديث مجموعة الإرسا�
 
 #: kpi/exceptions.py:64
 msgid "Must call `asset.connect_deployment()` first"
-msgstr "يجب أن تطلب `asset.connect_deployment()` أولاً"
+msgstr "يجب أن تتصل `asset.connect_deployment()` أولاً"
 
 #: kpi/exceptions.py:80
 msgid ""
@@ -807,7 +807,7 @@ msgstr "حدث خطأ أثناء محاولة تكرار الإرسال"
 
 #: kpi/exceptions.py:143
 msgid "The specified object has not been deployed"
-msgstr "لم يتم نشر الكائن المحدد"
+msgstr "لم يتم نشر وتوزيع الكائن المحدد"
 
 #: kpi/exceptions.py:152
 msgid "Bad syntax"
@@ -828,7 +828,7 @@ msgstr "أدخل JSON صالحًا."
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr "لا يمكن إخفاء الحقل `##place_holder##`."
+msgstr "`##place_holder##` لا يمكن إخفاء الحقل."
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
@@ -906,7 +906,7 @@ msgstr "فارغ"
 
 #: kpi/models/asset.py:292
 msgid "collection"
-msgstr "تشكيل"
+msgstr "مجموعة"
 
 #: kpi/models/asset.py:299
 msgid "View ##asset_type_label##"
@@ -1008,7 +1008,7 @@ msgstr "كلمة المرور الحالية غير صحيحة."
 
 #: kpi/serializers/current_user.py:182
 msgid "`current_password` and `new_password` must both be"
-msgstr "يجب أن يكون كل من `current_password` و `new_password` كلاهما"
+msgstr "`current_password` و `new_password` يجب أن يكون كلاهما"
 
 #: kpi/serializers/current_user.py:222
 #: kpi/serializers/v2/asset_permission_assignment.py:290
@@ -1018,7 +1018,7 @@ msgstr "لا يجوز أن يكون هذا الحقل فارغاً."
 #: kpi/serializers/v2/asset.py:130
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "تم إلغاء حذف %(count)d من المشروع"
+msgstr "%(count)d تم إلغاء المشروع"
 
 #: kpi/serializers/v2/asset.py:136
 #, python-format
@@ -1028,12 +1028,12 @@ msgstr "%(count)d تم حذف المشروع"
 #: kpi/serializers/v2/asset.py:143
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "تمت إزالة %(count)d من المشروع من الأرشيف"
+msgstr "%(count)d تمت إلغاء أرشفة المشروع"
 
 #: kpi/serializers/v2/asset.py:149
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr "تمت أرشفة %(count)d من المشروع"
+msgstr "%(count)d تمت أرشفة المشروع"
 
 #: kpi/serializers/v2/asset.py:165
 msgid "One or many projects have been deleted already!"
@@ -1045,15 +1045,15 @@ msgstr "تم بالفعل حذف مشروع واحد أو عدة مشاريع!"
 
 #: kpi/serializers/v2/asset.py:246
 msgid "`action` parameter is required"
-msgstr "معلمة `action` مطلوبة"
+msgstr "`action` البارومتر مطلوب"
 
 #: kpi/serializers/v2/asset.py:251
 msgid "Supported values for `action` are: "
-msgstr "القيم المدعومة لمعلمة `action` هي: "
+msgstr "`action` القيم المدعومة هي: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
-msgstr "لا يمكن أرشفة مشاريع المشاريع"
+msgstr "لا يمكن أرشفة مسودات المشاريع"
 
 #: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
@@ -1088,27 +1088,27 @@ msgstr "لا يمكن للمستخدم تحديث المجموعة الأصلي�
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "يجب أن تحتوي `export_settings` على جميع المفاتيح المطلوبة التالية: {}"
+msgstr "`export_settings` يجب أن تحتوي على جميع المفاتيح المطلوبة التالية: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "يمكن أن يحتوي `export_settings` على المفاتيح الصالحة التالية فقط: {}"
+msgstr "`export_settings` يمكن أن يحتوي فقط على المفاتيح الصالحة التالية فقط: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr "يجب أن يكون `multiple_select` إما {}"
+msgstr "`multiple_select` يجب أن يكون إما {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr "يجب أن يكون `type` إما {}"
+msgstr "`type` يجب أن يكون إما {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr "يجب أن تكون `group_sep` قيمة غير فارغة"
+msgstr "`group_sep` لا يمكن ترك القيمة فارغة"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr "يجب أن تكون `lang` لهذا الأصل إما {}"
+msgstr "`lang` يجب أن تكون قيمة الأصل إما {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
@@ -1122,11 +1122,11 @@ msgstr "يجب أن تكون جميع القيم في المصفوفة أعدا�
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr "يجب أن تكون `fields` مصفوفة"
+msgstr "`fields` يجب أن تكون مصفوفة"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "يجب أن تكون جميع القيم الموجودة في مصفوفة `fields` عبارة عن سلاسل"
+msgstr "`fields` يجب أن تكون جميع القيم الموجودة في مصفوفة بصيغة سلاسل"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
@@ -1168,7 +1168,7 @@ msgstr "`redirect_url` غير صالح"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr "يُسمح فقط بأنواع `{}` MIME"
+msgstr "`{}` يُسمح بأنماط MIME فقط"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:163
 msgid "This field is required for the '{}' permission"
@@ -1179,17 +1179,17 @@ msgstr "هذا الحقل مطلوب للحصول على إذن '{}'"
 #: kpi/serializers/v2/asset_permission_assignment.py:188
 #: kpi/serializers/v2/asset_permission_assignment.py:497
 msgid "Invalid `url`"
-msgstr "`url` غير صالحة"
+msgstr "غير صالح `url`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:193
 msgid "Invalid `filters`"
-msgstr "`filters` غير صالحة"
+msgstr "غير صالح `filters`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:210
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "لا يمكن تعيين {permission} تعيين بشكل صريح لكائنات الأصول من هذا النوع."
+msgstr "{permission} لا يمكن تعيينه بشكل صريح لموجودات من هذا النوع."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:289
 msgid "Not a valid list."
@@ -1202,11 +1202,11 @@ msgstr "ارتباط تشعبي غير صالح - الكائن غير موجود
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr "يجب أن يحتوي `submission_ids` على قيم عددية فقط"
+msgstr "`submission_ids` يجب أن يحتوي على قيم عددية فقط"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr "يجب أن يحتوي `submission_ids` على قيمة واحدة على الأقل"
+msgstr "`submission_ids` يجب أن يحتوي على قيمة واحدة على الأقل"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
@@ -1246,7 +1246,7 @@ msgstr "يجب أن يكون إما {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr "يجب نشر الأصل."
+msgstr "يجب نشر وتوزيع الأصل."
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
@@ -1259,7 +1259,7 @@ msgstr "لا يمكن تغيير المصدر"
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "مشاركة البيانات لـ `{source_uid}` غير ممكّن"
+msgstr "مشاركة البيانات لـ `{source_uid}` غير ممكّنة"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
@@ -1269,7 +1269,7 @@ msgstr "إقران البيانات مع `{source_uid}` غير مسموح"
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr "المصدر `{source}` تم إقرانه بالفعل"
+msgstr "تم إقران `{source}` المصدر سابقاً"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
@@ -1278,7 +1278,7 @@ msgstr "بعض الحقول غير صالحة، الاختيارات هي: `{sou
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr "يُسمح فقط بالأحرف والأرقام و `-`"
+msgstr "يُسمح فقط بالأحرف `-` والأرقام"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
@@ -1287,7 +1287,7 @@ msgstr "يجب أن يكون الامتداد `xml`"
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr "`{basename}` مستخدم بالفعل"
+msgstr "`{basename}` مستخدم سابقاً"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
@@ -1313,7 +1313,7 @@ msgstr "إذا كنت تستخدم متصفحاً قديماً، فإننا نو
 
 #: kpi/templates/modern_browsers.html:17
 msgid "Firefox download page"
-msgstr "صفحة تحميل متصفح فايرفوكس"
+msgstr "صفحة تحميل متصفح Firefox"
 
 #: kpi/templates/modern_browsers.html:18
 msgid "Firefox"
@@ -1321,7 +1321,7 @@ msgstr "Firefox"
 
 #: kpi/templates/modern_browsers.html:22
 msgid "Chrome download page"
-msgstr "صفحة تحميل متصفح كروم"
+msgstr "صفحة تحميل متصفح Chrome"
 
 #: kpi/templates/modern_browsers.html:23
 msgid "Chrome"
@@ -1329,7 +1329,7 @@ msgstr "Chrome"
 
 #: kpi/templates/modern_browsers.html:27
 msgid "Edge download page"
-msgstr "صفحة تحميل متصفح ايدج"
+msgstr "صفحة تحميل متصفح Edge"
 
 #: kpi/templates/modern_browsers.html:28
 msgid "Edge"
@@ -1337,7 +1337,7 @@ msgstr "Edge"
 
 #: kpi/templates/modern_browsers.html:32
 msgid "Opera download page"
-msgstr "صفحة تحميل متصفح أوبرا"
+msgstr "صفحة تحميل متصفح Opera"
 
 #: kpi/templates/modern_browsers.html:33
 msgid "Opera"
@@ -1355,7 +1355,7 @@ msgstr "يجب تكوين قاعدتي بيانات بالضبط"
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "يجب أن يكون لكل من KPI وKoBoCAT قواعد بيانات خاصة بهما. قم بتكوين قاعدة بيانات مؤشرات الأداء الرئيسية بحيث تكون 'default' وقاعدة بيانات KoBoCAT بحيث تكون 'kobocat'."
+msgstr "يجب أن يكون لكل من KPI و KoBoCAT قواعد بيانات خاصة بهما. قم بتكوين قاعدة بيانات مؤشرات الأداء الرئيسية بحيث تكون 'default' وقاعدة بيانات KoBoCAT بحيث تكون 'kobocat'."
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
@@ -1363,7 +1363,7 @@ msgstr "لا يجوز أن تتشارك KPI قاعدة بيانات مع KoBoCAT
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr "يجب أن يكون لكل من KPI وKoBoCAT قواعد بيانات خاصة بهما."
+msgstr "يجب أن يكون لكل من KPI و KoBoCAT قواعد بيانات خاصة بهما."
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
@@ -1393,7 +1393,7 @@ msgstr "لا يمكن حذف أذونات المالك"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr "معلمة الاستعلام `xpath` مطلوبة"
+msgstr "`xpath` بارومتر الاستعلام مطلوب"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
@@ -1413,7 +1413,7 @@ msgstr "التحويل غير مدعوم لأجل {}"
 
 #: kpi/views/v2/data.py:318
 msgid "The specified asset has not been deployed"
-msgstr "لم يتم نشر الأصل المحدد"
+msgstr "لم يتم نشر وتوزيع الأصل المحدد"
 
 #: kpi/views/v2/data.py:622
 msgid "A positive integer is required"

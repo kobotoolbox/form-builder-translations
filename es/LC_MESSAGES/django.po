@@ -41,7 +41,7 @@ msgstr "Iniciar sesión como usuario"
 
 #: kobo/apps/accounts/forms.py:68
 msgid "Please enter a valid URL"
-msgstr ""
+msgstr "Introduzca una URL válida"
 
 #: kobo/apps/accounts/forms.py:76
 msgid "Non-profit organization"
@@ -277,7 +277,7 @@ msgstr "El enlace de confirmación de correo electrónico expiró o no es válid
 
 #: kobo/apps/accounts/templates/account/login.html:29
 msgid "Login"
-msgstr "Ingresar"
+msgstr "Inicio de sesión"
 
 #: kobo/apps/accounts/templates/account/login.html:36
 #: kobo/apps/accounts/templates/account/signup.html:14
@@ -310,13 +310,13 @@ msgstr "Restablecer contraseña"
 #: kobo/apps/accounts/templates/account/password_reset_complete.html:11
 #: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:11
 msgid "Password reset successfully"
-msgstr "La contraseña se ha reestablecido exitosamente"
+msgstr "Contraseña restablecida correctamente"
 
 #: kobo/apps/accounts/templates/account/password_reset_complete.html:14
 #: kobo/apps/accounts/templates/account/password_reset_from_key_done.html:14
 #: kobo/apps/accounts/templates/socialaccount/login.html:34
 msgid "Log in"
-msgstr "Ingresar"
+msgstr "Iniciar sesión"
 
 #: kobo/apps/accounts/templates/account/password_reset_done.html:12
 msgid ""
@@ -346,7 +346,7 @@ msgstr "o"
 
 #: kobo/apps/accounts/templates/account/signup.html:51
 msgid "login"
-msgstr "conectar"
+msgstr "inicio de sesión"
 
 #: kobo/apps/accounts/templates/account/signup.html:61
 msgid "Register using SSO"
@@ -454,7 +454,7 @@ msgstr "Nombre del proyecto"
 #: kobo/apps/hook/templates/reports/failures_email_body.html:4
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:4
 msgid "Hook"
-msgstr "Curva"
+msgstr "Webhook"
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:5
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:5
@@ -496,7 +496,7 @@ msgstr "No hay datos para volver a intentarlo"
 
 #: kobo/apps/hook/views/v2/hook.py:206
 msgid "Can not retry on disabled hooks"
-msgstr "No se puede volver a intentar en puntos de entrada inhabilitados"
+msgstr "No se puede volver a intentar en webhooks inhabilitados"
 
 #: kobo/apps/hook/views/v2/hook_log.py:121
 msgid "An error has occurred when sending the data. Please try again later."
@@ -816,7 +816,7 @@ msgstr "No se puede analizar JSON: {error}"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr "La autenticación multifactorial está habilitada para esta cuenta."
+msgstr "La autenticación multifactorial está habilitada para esta cuenta. "
 
 #: kpi/models/asset.py:251
 msgid "Can view asset"
@@ -1032,7 +1032,7 @@ msgstr "Los valores admitidos para `action` son: "
 
 #: kpi/serializers/v2/asset.py:273
 msgid "Draft projects cannot be archived"
-msgstr "Los proyectos preliminares no pueden archivarse"
+msgstr "Los proyectos borrador no pueden archivarse"
 
 #: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
@@ -1053,17 +1053,17 @@ msgstr "Algunos campos no son válidos, las opciones son: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:834
 msgid "User cannot update current parent collection"
-msgstr "El usuario no puede actualizar la colección principal vigente"
+msgstr "El usuario no puede actualizar la recopilación principal vigente"
 
 #: kpi/serializers/v2/asset.py:844
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
-msgstr "No se encontró la colección de destino"
+msgstr "No se encontró la recopilación de destino"
 
 #: kpi/serializers/v2/asset.py:848
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr "El usuario no puede actualizar la colección principal de destino"
+msgstr "El usuario no puede actualizar la recopilación principal de destino"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
