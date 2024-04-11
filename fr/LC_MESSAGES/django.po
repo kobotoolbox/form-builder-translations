@@ -47,7 +47,7 @@ msgstr "Se connecter en tant qu’utilisateur"
 
 #: kobo/apps/accounts/forms.py:68
 msgid "Please enter a valid URL"
-msgstr ""
+msgstr "Veuillez saisir une URL valide"
 
 #: kobo/apps/accounts/forms.py:76
 msgid "Non-profit organization"
@@ -248,7 +248,7 @@ msgstr "S'il s'agit bien de vous, essayez une autre adresse e-mail que vous auri
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_subject.txt:3
 msgid "KoboToolbox Password Reset Unsuccessful"
-msgstr "La réinitialisation du mot de passe de la KoboToolbox a échoué"
+msgstr "La réinitialisation du mot de passe de KoboToolbox a échoué"
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:15
 msgid "Confirm E-mail Address"
@@ -303,7 +303,7 @@ msgstr "Se connecter en utilisant l’authentification unique SSO"
 msgid ""
 "If you set up Single Sign On in your account settings, you will only be able"
 " to log in through this method."
-msgstr "Si vous avez configuré l'authentification unique SSO dans les paramètres de votre compte, vous ne pourrez vous connecter que par cette méthode."
+msgstr "Si vous avez défini l'authentification unique SSO dans les paramètres de votre compte, vous ne pourrez vous connecter que par cette méthode."
 
 #: kobo/apps/accounts/templates/account/password_reset.html:10
 msgid "Password Reset"
@@ -372,7 +372,7 @@ msgstr "Veuillez cliquer sur le lien d'activation dans le courriel que vous vene
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:14
 msgid "Set up Single Sign On"
-msgstr "Configurer l'authentification unique SSO"
+msgstr "Définir l'authentification unique SSO"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:16
 #, python-format
@@ -538,7 +538,7 @@ msgstr "`{}` introuvable."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr "`{}` n’est pas une question à une seule sélection."
+msgstr "`{}` n’est pas une question à choix unique."
 
 #: kobo/settings/base.py:245
 msgid ""
@@ -681,7 +681,7 @@ msgstr "Nom de l’organisation"
 
 #: kobo/static_lists.py:354
 msgid "Organization type"
-msgstr "Type d’organisation"
+msgstr "Nom de l’organisation"
 
 #: kobo/static_lists.py:355
 msgid "Organization website"
@@ -822,7 +822,7 @@ msgstr "Impossible d’analyser le format JSON : {error}"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr "L'authentification multi-facteur est activée pour ce compte."
+msgstr "L'authentification multi-facteur est activée pour ce compte. "
 
 #: kpi/models/asset.py:251
 msgid "Can view asset"
@@ -1133,7 +1133,7 @@ msgstr "Le fichier existe déjà"
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr "Vous ne pouvez pas charger un fichier multimédia de deux manières différentes en même temps. Veuillez choisir entre le chargement binaire, base64 ou l’URL distante."
+msgstr "Vous ne pouvez pas importer un fichier multimédia de deux manières différentes en même temps. Veuillez choisir entre une importation binaire, base64 ou l’URL distante."
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
@@ -1164,7 +1164,7 @@ msgstr "Ce champ est obligatoire pour l’autorisation '{}'"
 #: kpi/serializers/v2/asset_permission_assignment.py:188
 #: kpi/serializers/v2/asset_permission_assignment.py:497
 msgid "Invalid `url`"
-msgstr "`url` non valide(s)"
+msgstr "`url` non valide"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:193
 msgid "Invalid `filters`"
