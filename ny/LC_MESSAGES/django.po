@@ -3,13 +3,15 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# Translators:
 msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 19:00+0000\n"
+"POT-Creation-Date: 2024-04-11 19:59+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
-"Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
+"Last-Translator: Penar Musaraj <pmusaraj@gmail.com>\n"
 "Language-Team: Nyanja (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ny/)\n"
 "MIME-Version: 1.0\n"
 "Content-Type: text/plain; charset=UTF-8\n"
@@ -34,6 +36,7 @@ msgid "Government institution"
 msgstr "Bungwe la boma"
 
 #: kobo/apps/accounts/forms.py:78
+#| msgid "Educational Services / Higher Education"
 msgid "Educational organization"
 msgstr "Bungwe loona za maphunziro"
 
@@ -57,11 +60,11 @@ msgstr "Mkazi"
 msgid "Other"
 msgstr "Zina"
 
-#: kobo/apps/accounts/forms.py:124 kpi/templates/base.html:29
+#: kobo/apps/accounts/forms.py:124
 msgid "Terms of Service"
 msgstr "Zokhudza Kagwiritsidwe ka Ntchito"
 
-#: kobo/apps/accounts/forms.py:131 kpi/templates/base.html:34
+#: kobo/apps/accounts/forms.py:131
 msgid "Privacy Policy"
 msgstr "Zokhudza Kusunga Chinsinsi"
 
@@ -93,28 +96,28 @@ msgstr "Lembani tokeni cha zilembo ##token length##"
 msgid "Your token is invalid"
 msgstr "Token yanu siyovomerezeka"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:21
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:22
 msgid "Please enter your verification token"
 msgstr "Lowetsani tokeni yotsimikizira"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:25
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:26
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
 msgstr "Lowetsani tokeni yotsimikizira yomwe ikuoneka pa apu yotsimikizira."
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:32
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:33
 msgid "Problems with the token"
 msgstr "Tokeni ili ndi vuto"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:37
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:38
 msgid "Continue"
 msgstr "Pitirizani"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:45
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:46
 msgid "Verification issues"
 msgstr "Zikuvuta kutsimikizira"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:53
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:54
 msgid "Back"
 msgstr "Bwererani"
 
@@ -150,6 +153,7 @@ msgid ""
 msgstr "Kuti muthe kupeza mapulogalamu ena a KoboToolbox, tsimikizirani akaunti yanu. Pitani ya URL yotsatirayi kuti mumalizitse kutsimikizira akaunti yanu yatsopano."
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
+#| msgid "Username"
 msgid "Your username is: "
 msgstr "Dzina lanu lolowera ndi: "
 
@@ -409,6 +413,7 @@ msgid ""
 msgstr "Maina olowera akuyenera kukhala aatali kuyambira pa zilembo ziwiri mpaka 30, akuyenera kukhala ndi zilembo zazing’ono, manambala, zizindikiro zam’kalembedwe ndipo koyambirira kuzikhala chilembo."
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
+#| msgid "Invalid token."
 msgid "Invalid scheme"
 msgstr "Skimu ndi yolakwika"
 
@@ -417,6 +422,7 @@ msgid "Unsecured endpoint is not allowed"
 msgstr "Sizololeka kulumikiza ku kompyuta popanda chitetezo chokwanira"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
+#| msgid "Invalid token."
 msgid "Invalid JSON"
 msgstr "JSON ndi yolakwika"
 
@@ -489,8 +495,6 @@ msgid "Data is being or has already been processed"
 msgstr "Data ili mkati mounikidwa, kapena yaunikidwa kale"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
-#: kpi/deployment_backends/base_backend.py:593
-#: kpi/deployment_backends/base_backend.py:600
 msgid "A positive integer is required."
 msgstr "Pakufunika nambala yaikulu kuposa 0."
 
@@ -647,11 +651,11 @@ msgstr "Kodi pulojekitiyi imatolera zodziwikitsa munthu?"
 msgid "Description"
 msgstr "Zofotokozera"
 
-#: kobo/static_lists.py:352 kpi/password_validation.py:109
+#: kobo/static_lists.py:352
 msgid "Full name"
 msgstr "Dzina lonse"
 
-#: kobo/static_lists.py:353 kpi/password_validation.py:110
+#: kobo/static_lists.py:353
 msgid "Organization name"
 msgstr "Dzina la bungwe"
 
@@ -691,691 +695,14 @@ msgstr "Instagram"
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "Ndikufuna ndizidziwitsidwa zinthu zina zokhudza KoboToolbox zikasintha"
 
-#: kpi/authentication.py:59
-msgid "Invalid username/password"
-msgstr "Dzina lolowera kapena pasiwedi ndi yolakwika"
+#~ msgid "Suriname"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:122
-msgid "No submissions match the given `submission_ids`"
-msgstr "Zimene zatumizidwa sizikufanana ndi `submission_ids`"
+#~ msgid "User"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:522
-msgid ""
-"This param is not implemented. Use `count` property of the response instead."
-msgstr "Param iyi sinagwiritsidwe ntchito. Gwiritsani ntchito `count` mbali imodzi ya yankho."
+#~ msgid "Username"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:533
-msgid "This param is not supported in `XML` format"
-msgstr "Param iyi ndi yosavomerezea mu `XML` fomati"
-
-#: kpi/deployment_backends/base_backend.py:538
-msgid "This is not supported in `XML` format"
-msgstr "Izi ndi zosavomerezeka mu `XML` fomati"
-
-#: kpi/deployment_backends/base_backend.py:558
-#: kpi/deployment_backends/base_backend.py:586
-#: kpi/deployment_backends/base_backend.py:608 kpi/views/v2/data.py:523
-msgid "Value must be valid JSON."
-msgstr "Mukuyenera kuika JSON yoyenerera."
-
-#: kpi/deployment_backends/base_backend.py:563
-msgid "Value must be a list."
-msgstr "Mukuyenera kuika ndandanda."
-
-#: kpi/deployment_backends/kobocat_backend.py:426
-msgid "Your submission XML is malformed."
-msgstr "XML imene yatumizidwa ndi yowonongeka."
-
-#: kpi/deployment_backends/kobocat_backend.py:435
-msgid "Your submission XML is missing critical elements."
-msgstr "XML imene mwatumiza ilibe zinthu zina zofunika kwambiri."
-
-#: kpi/deployment_backends/kobocat_backend.py:448
-msgid ""
-"The submission you attempted to edit could not be found, or you do not have "
-"access to it."
-msgstr "zomwe munayesa kusintha sizinapezeke, kapena mulibe mwayi wozipeza."
-
-#: kpi/deployment_backends/kobocat_backend.py:1529
-msgid "KoBoCAT returned an unexpected response: {}"
-msgstr "KoBoCAT yasonyeza zomwe simumayembekezera: {}"
-
-#: kpi/deployment_backends/kobocat_backend.py:1565
-msgid "Something went wrong"
-msgstr "Zinazake sizinayende bwino"
-
-#: kpi/exceptions.py:49
-msgid "Invalid payload for bulk updating of submissions"
-msgstr "malipiro olakwika potumiza zosintha zambiri"
-
-#: kpi/exceptions.py:64
-msgid "Must call `asset.connect_deployment()` first"
-msgstr "Mukuyenera kuimbira `asset.connect_deployment()` choyamba"
-
-#: kpi/exceptions.py:80
-msgid ""
-"Your access is restricted. Please reclaim your access by changing your "
-"password at ##koboform_url##/accounts/password/reset/."
-msgstr "Simungathenso kuona zimenezi. Kuti muyambirenso kuona, sinthani pasiwedi yanu popita pa ##koboform_url##/accounts/password/reset/."
-
-#: kpi/exceptions.py:89
-msgid "Invalid search. Please try again"
-msgstr "Zomwe mwafufuzazi palibe. Chonde yesaninso"
-
-#: kpi/exceptions.py:129
-msgid "An error occurred trying to duplicate the submission"
-msgstr "panali vuto poyesa kubwereza zomwe zatumizidwa"
-
-#: kpi/exceptions.py:143
-msgid "The specified object has not been deployed"
-msgstr "chinthu chotchulidwa sichinatumizidwe"
-
-#: kpi/exceptions.py:152
-msgid "Bad syntax"
-msgstr "Syntax yolakwika"
-
-#: kpi/exceptions.py:157
-msgid "Not supported field lookup"
-msgstr "mwafufuza zinthu zosatheka"
-
-#: kpi/exceptions.py:168
-msgid "Your query is too short"
-msgstr "Pempho lanu lafupika kwambiri"
-
-#: kpi/fields/jsonschema_form_field.py:23
-#: kpi/fields/jsonschema_form_field.py:26
-msgid "Enter valid JSON."
-msgstr "Lowetsani JSON yoyenera."
-
-#: kpi/fields/jsonschema_form_field.py:158
-msgid "`##place_holder##` field cannot be hidden."
-msgstr "Gawo `##place_holder##` simungalibise."
-
-#: kpi/fields/writable_json.py:30
-#, python-brace-format
-msgid "Unable to parse JSON: {error}"
-msgstr "Yalephera kuona JSON: {error}"
-
-#: kpi/mixins/mfa.py:24
-msgid "Multi-factor authentication is enabled for this account. "
-msgstr "Mwaika kuti akaunti izitsimikiziridwa mwapadera. "
-
-#: kpi/models/asset.py:251
-msgid "Can view asset"
-msgstr "Mukhoza kuona ma aseti"
-
-#: kpi/models/asset.py:252
-msgid "Can discover asset in public lists"
-msgstr "Mutha kupeza ma aseti mu mndandanda wa anthu onse"
-
-#: kpi/models/asset.py:253
-msgid "Can manage all aspects of asset"
-msgstr "Mutha kusamalira mbali zonse za aseti"
-
-#: kpi/models/asset.py:255
-msgid "Can submit data to asset"
-msgstr "Mutha kutumiza deta ya aseti"
-
-#: kpi/models/asset.py:256
-msgid "Can view submitted data for asset"
-msgstr "Mutha kuona zomwe zatumizidwa za aseti"
-
-#: kpi/models/asset.py:257
-msgid ""
-"Can make partial actions on submitted data for asset for specific users"
-msgstr "Mutha kuchitapo kanthu pa data ya aseti yomwe yatumizidwa ya anthu osankhidwa"
-
-#: kpi/models/asset.py:260
-msgid "Can modify submitted data for asset"
-msgstr "Mukhoza kusintha deta yotumizidwa ya aseti"
-
-#: kpi/models/asset.py:261
-msgid "Can delete submitted data for asset"
-msgstr "Mukhoza kufufuta zomwe zatumizidwa za aseti"
-
-#: kpi/models/asset.py:262
-msgid "Can validate submitted data asset"
-msgstr "Mukhoza kutsimikizira data ya aseti yomwe yatumizidwa"
-
-#: kpi/models/asset.py:285
-msgid "project"
-msgstr "pulojekiti"
-
-#: kpi/models/asset.py:285
-msgid "form"
-msgstr "fomu"
-
-#: kpi/models/asset.py:287
-msgid "template"
-msgstr "tempuleti"
-
-#: kpi/models/asset.py:288
-msgid "block"
-msgstr "buloko"
-
-#: kpi/models/asset.py:289
-msgid "question"
-msgstr "funso"
-
-#: kpi/models/asset.py:290
-msgid "text"
-msgstr "mawu"
-
-#: kpi/models/asset.py:291
-msgid "empty"
-msgstr "mulibe"
-
-#: kpi/models/asset.py:292
-msgid "collection"
-msgstr "mafomu"
-
-#: kpi/models/asset.py:299
-msgid "View ##asset_type_label##"
-msgstr "Onani ##asset_type_label##"
-
-#: kpi/models/asset.py:300
-msgid "Edit ##asset_type_label##"
-msgstr "Konzani ##asset_type_label##"
-
-#: kpi/models/asset.py:301
-msgid "Discover ##asset_type_label##"
-msgstr "Dziwani ##asset_type_label##"
-
-#: kpi/models/asset.py:302
-msgid "Manage ##asset_type_label##"
-msgstr "Gwiritsani ntchito ##asset_type_label##"
-
-#: kpi/models/asset.py:303
-msgid "Add submissions"
-msgstr "Ikani zotumizidwa"
-
-#: kpi/models/asset.py:304
-msgid "View submissions"
-msgstr "Onani zotumizidwa"
-
-#: kpi/models/asset.py:307
-msgid "Act on submissions only from specific users"
-msgstr "Pangani zochita pa zomwe mwatumiza kuchokera kwa ogwiritsa ntchito osankhidwa"
-
-#: kpi/models/asset.py:310
-msgid "View submissions only from specific users"
-msgstr "Onani zomwe mwatumiza kuchokera kwa ogwiritsa ntchito osankhidwa"
-
-#: kpi/models/asset.py:313
-msgid "Edit submissions only from specific users"
-msgstr "Sinthani zotumizidwa kuchokere kwa ogwiritsa ntchito osankhidwa"
-
-#: kpi/models/asset.py:316
-msgid "Delete submissions only from specific users"
-msgstr "Dilitani zomwe mwatumiza kuchokera kwa ogwiritsa ntchito osankhidwa"
-
-#: kpi/models/asset.py:319
-msgid "Validate submissions only from specific users"
-msgstr "Tsimikizirani zomwe mwatumiza kuchokera kwa ogwiritsa ntchito osankhidwa"
-
-#: kpi/models/asset.py:322
-msgid "Edit submissions"
-msgstr "Sinthani zotumizidwa"
-
-#: kpi/models/asset.py:323
-msgid "Delete submissions"
-msgstr "Dilitani zomwe mwatumiza"
-
-#: kpi/models/asset.py:324
-msgid "Validate submissions"
-msgstr "Tsimikizirani zomwe mwatumiza"
-
-#: kpi/models/asset.py:629
-msgid "Only partial permissions for submissions are supported"
-msgstr "Zotumizidwa m’magawo zokha ndi zomwe zikuloledwa"
-
-#: kpi/models/asset.py:1331
-msgid "Can not assign '{}' permission to owner"
-msgstr "Ndi zosatheka kupereka '{}' zilolezo enikwa mwiniwake"
-
-#: kpi/models/asset.py:1335
-msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr "Ndi zosatheka kupereka '{}' zilolezo. Zilolezo zotumiza m’magawo zikusowa."
-
-#: kpi/models/authorized_application.py:40
-msgid "Invalid token."
-msgstr "Tokeni ndi yolakwika."
-
-#: kpi/models/import_export_task.py:142
-msgid "Cannot access data"
-msgstr "Simungathe kuona data imeneyi"
-
-#: kpi/models/import_export_task.py:578
-msgid "This data does not exist or you do not have access to it"
-msgstr "Data imeneyi palibe kapena mulibe chilolezo choti muione"
-
-#: kpi/password_validation.py:95
-msgid "You cannot reuse your last password."
-msgstr "Simungagwiritse ntchito pasiwedi yanu yakale."
-
-#: kpi/password_validation.py:103
-msgid "Your password cannot be the same as your previous one."
-msgstr "Pasiwedi yanu sikuyenera kufanana ndi imene mumagwiritsa ntchito posachedwapa."
-
-#: kpi/password_validation.py:170
-msgid ""
-"The password must contain at least ##number of rules## different kinds of "
-"characters."
-msgstr "Pasiwedi yanu ikuyenera kukhala ndi ##number of rules## mwa zilembo zosiyanasiyana."
-
-#: kpi/serializers/current_user.py:162
-msgid "Incorrect current password."
-msgstr "Pasiwedi yanu ya panopa ndi yolakwika."
-
-#: kpi/serializers/current_user.py:182
-msgid "`current_password` and `new_password` must both be"
-msgstr "Zonse `current_password` ndi `new_password` zikuyenera kukhala"
-
-#: kpi/serializers/current_user.py:222
-#: kpi/serializers/v2/asset_permission_assignment.py:290
-msgid "This field may not be blank."
-msgstr "Gawo limeneli simungalisiye losalemba."
-
-#: kpi/serializers/v2/asset.py:130
-#, python-format
-msgid "%(count)d project has been undeleted"
-msgstr "Pulojekiti iyi %(count)d yabwezedwa kuti isafufutidwe"
-
-#: kpi/serializers/v2/asset.py:136
-#, python-format
-msgid "%(count)d project has been deleted"
-msgstr "Pulojekiti iyi %(count)d yafufutidwa"
-
-#: kpi/serializers/v2/asset.py:143
-#, python-format
-msgid "%(count)d project has been unarchived"
-msgstr "Pulojekiti iyi %(count)d yabwezedwa kuti kosungira"
-
-#: kpi/serializers/v2/asset.py:149
-#, python-format
-msgid "%(count)d project has been archived"
-msgstr "Pulojekiti iyi %(count)d yaikidwa kosungira"
-
-#: kpi/serializers/v2/asset.py:165
-msgid "One or many projects have been deleted already!"
-msgstr "Pulojekiti imodzi kapena angapo afufutidwa kale!"
-
-#: kpi/serializers/v2/asset.py:173
-msgid "One or many projects are already being deleted!"
-msgstr "Pulojekiti imodzi kapena angapo ali mkati mofufutidwa!"
-
-#: kpi/serializers/v2/asset.py:246
-msgid "`action` parameter is required"
-msgstr "Parameter `action` ikufunika"
-
-#: kpi/serializers/v2/asset.py:251
-msgid "Supported values for `action` are: "
-msgstr "Ma valiyu ovomerezeka a `action` ndi: "
-
-#: kpi/serializers/v2/asset.py:273
-msgid "Draft projects cannot be archived"
-msgstr "Mapulojekiti oyeserera sangatumizidwe kosungira"
-
-#: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
-msgid "Confirmation is required"
-msgstr "Mukufunika kutsimikizira"
-
-#: kpi/serializers/v2/asset.py:786
-msgid "The property is required"
-msgstr "Pulopate ikufunika"
-
-#: kpi/serializers/v2/asset.py:790
-msgid "The property must be an array"
-msgstr "Pulopate iyenera kukhala ndi aleyi"
-
-#: kpi/serializers/v2/asset.py:812
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "Magawo ena ndi olakwika, mungasankhe: `{valid_fields}`"
-
-#: kpi/serializers/v2/asset.py:834
-msgid "User cannot update current parent collection"
-msgstr "Wogwiritsa ntchito sangapange apudeti mafomu oyambirira"
-
-#: kpi/serializers/v2/asset.py:844
-#: kpi/tests/api/v2/test_api_collections.py:482
-msgid "Target collection not found"
-msgstr "Mofomu omwe mukufuna sanapezeke"
-
-#: kpi/serializers/v2/asset.py:848
-#: kpi/tests/api/v2/test_api_collections.py:472
-msgid "User cannot update target parent collection"
-msgstr "Wogwiritsa ntchito sangapange apudeti mafomu oyambirira"
-
-#: kpi/serializers/v2/asset_export_settings.py:64
-msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` iyenera kukhala ndi makiyi ofunika otsatirawa: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:75
-msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` ikhoza kikhala ndi makiyi ovomerezeka otsatirawa: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:87
-msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` ziyenera kukhala kaya {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:94
-msgid "`type` must be either {}"
-msgstr "`type` ziyenera kukhala kaya {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:104
-msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` ikuyenera kukhala ndi data"
-
-#: kpi/serializers/v2/asset_export_settings.py:109
-msgid "`lang` for this asset must be either {}"
-msgstr "`lang` ya aseti ikuyenera kukhala kaya ndi {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:119
-#: kpi/serializers/v2/export_task.py:229
-msgid "Must be a JSON object"
-msgstr "Iyenera kukhala ya JSON"
-
-#: kpi/serializers/v2/asset_export_settings.py:134
-#: kpi/serializers/v2/export_task.py:247
-msgid "All values in the array must be integers"
-msgstr "Ma valiyu a mu aleyi imeneyi ayenera kukhala ma inteja"
-
-#: kpi/serializers/v2/asset_export_settings.py:145
-msgid "`fields` must be an array"
-msgstr "`fields` ayenera kukhala ndi gulu"
-
-#: kpi/serializers/v2/asset_export_settings.py:149
-msgid "All values in the `fields` array must be strings"
-msgstr "Ma valiyu a mu aleyi `fields` azikhala ma string"
-
-#: kpi/serializers/v2/asset_file.py:117
-msgid "JSON is invalid"
-msgstr "JSON ndi yolakwika"
-
-#: kpi/serializers/v2/asset_file.py:130
-msgid "Invalid content"
-msgstr "Ndi zosagwirizana"
-
-#: kpi/serializers/v2/asset_file.py:143
-msgid "No files have been submitted"
-msgstr "Palibe mafaelo aliwonse amene atumizidwa"
-
-#: kpi/serializers/v2/asset_file.py:158
-msgid "File already exists"
-msgstr "Faelo ilipo kale"
-
-#: kpi/serializers/v2/asset_file.py:208
-msgid ""
-"You cannot upload media file with two different ways at the same time. "
-"Please choose between binary upload, base64 or remote URL."
-msgstr "Simungathe kupanga apulodi failo ya media pogwiritsa ntchito njira ziwiri zosiyana nthawi imodzi. Sankhani pakati pa kupanga apulodi bainale, base64 kapena remote URL."
-
-#: kpi/serializers/v2/asset_file.py:221
-msgid "This field is required"
-msgstr "Gawo ili likufunikira"
-
-#: kpi/serializers/v2/asset_file.py:229
-msgid "`redirect_url` is required"
-msgstr "`redirect_url` zikufunika"
-
-#: kpi/serializers/v2/asset_file.py:239
-msgid "`filename` is required"
-msgstr "`filename` zikufunika"
-
-#: kpi/serializers/v2/asset_file.py:253
-msgid "`redirect_url` is invalid"
-msgstr "`redirect_url` ndi zolakwika"
-
-#: kpi/serializers/v2/asset_file.py:287
-msgid "Only `{}` MIME types are allowed"
-msgstr "Mitundu `{}` yokha ya MIME ndiyololedwa"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:163
-msgid "This field is required for the '{}' permission"
-msgstr "Gawo ili likufunika kuti mupereke chilolezo kwa '{}'"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:177
-#: kpi/serializers/v2/asset_permission_assignment.py:182
-#: kpi/serializers/v2/asset_permission_assignment.py:188
-#: kpi/serializers/v2/asset_permission_assignment.py:497
-msgid "Invalid `url`"
-msgstr "Zosavomerezeka `url`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:193
-msgid "Invalid `filters`"
-msgstr "Zosavomerezeka `filters`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:210
-#, python-brace-format
-msgid ""
-"{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "{permission} singaperekedwe ku ma aseti a mtunduwu."
-
-#: kpi/serializers/v2/asset_permission_assignment.py:289
-msgid "Not a valid list."
-msgstr "Mndandandawu si wovomerezeka."
-
-#: kpi/serializers/v2/asset_permission_assignment.py:490
-#: kpi/serializers/v2/asset_permission_assignment.py:493
-msgid "Invalid hyperlink - Object does not exist."
-msgstr "Linki yolakwika - Palibe zimene mukufunazo."
-
-#: kpi/serializers/v2/data.py:70
-msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` iyenera kukhala ndi manambala omwe ndi ma inteja"
-
-#: kpi/serializers/v2/data.py:75
-msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` iyenera kukhala ndi valiyu imodzi"
-
-#: kpi/serializers/v2/data.py:83
-msgid "`data` is required"
-msgstr "`data` zikufunika"
-
-#: kpi/serializers/v2/data.py:91
-msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` zikufunika"
-
-#: kpi/serializers/v2/export_task.py:123
-msgid "Must contain all the following required keys: {}"
-msgstr "Iyenera kukhala ndi makiyi onse ofunikira: {}"
-
-#: kpi/serializers/v2/export_task.py:137
-msgid "Can contain only the following valid keys: {}"
-msgstr "Ikhoza kukhala ndi makiyi onse ofunikira: {}"
-
-#: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
-msgid "Must be an array"
-msgstr "Iyenera kukhala aleyi"
-
-#: kpi/serializers/v2/export_task.py:159
-msgid "All values in the array must be strings"
-msgstr "Ma valiyu onse ayenera kukhala ma strings"
-
-#: kpi/serializers/v2/export_task.py:169
-msgid "Must be a non-empty value"
-msgstr "Ifunika ikhale ndi data"
-
-#: kpi/serializers/v2/export_task.py:182
-msgid "For this asset must be either {}"
-msgstr "Pa aseti imeneyi pakhale kaya ndi {}"
-
-#: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
-msgid "Must be either {}"
-msgstr "Iyenera kukhala kaya ndi {}"
-
-#: kpi/serializers/v2/export_task.py:204
-msgid "The asset must be deployed."
-msgstr "Aseti iyenera kuikidwa."
-
-#: kpi/serializers/v2/export_task.py:221
-msgid "The export name must be a string."
-msgstr "Dzina liyenera kukhala string."
-
-#: kpi/serializers/v2/paired_data.py:87
-msgid "Source cannot be changed"
-msgstr "Zoyambilira sizingasinthidwe"
-
-#: kpi/serializers/v2/paired_data.py:93
-#, python-brace-format
-msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "Simunatsegule njira yogawira ena data ya `{source_uid}`"
-
-#: kpi/serializers/v2/paired_data.py:105
-#, python-brace-format
-msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "Simukuloledwa kulumikizitsa data ndi `{source_uid}`"
-
-#: kpi/serializers/v2/paired_data.py:110
-#, python-brace-format
-msgid "Source `{source}` is already paired"
-msgstr "Gwero `{source}` lalumikizidwa kale"
-
-#: kpi/serializers/v2/paired_data.py:152
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "Magawo ena ndi olakwika, mungasankhe: `{source_fields}`"
-
-#: kpi/serializers/v2/paired_data.py:177
-msgid "Only letters, numbers and `-` are allowed"
-msgstr "Zilembo zokha, manambala ndi `-` ndizololedwa"
-
-#: kpi/serializers/v2/paired_data.py:184
-msgid "Extension must be `xml`"
-msgstr "Zowonjezera ziyenera kukhala `xml`"
-
-#: kpi/serializers/v2/paired_data.py:217
-#, python-brace-format
-msgid "`{basename}` is already used"
-msgstr "`{basename}` ndiyogwiritsa ntchito kale"
-
-#: kpi/serializers/v2/user_asset_subscription.py:47
-#, python-brace-format
-msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "Aseti yolakwika. Yomwe ikuloledwa ndi `{asset_type}` yokha"
-
-#: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
-msgid "Modern Browsers"
-msgstr "Bulawuza Yamakono"
-
-#: kpi/templates/modern_browsers.html:8
-msgid ""
-"Ouch! Sorry, you were probably sent here because your browser is outdated or"
-" perhaps it has its key features disabled by using \"private browsing\" "
-"mode."
-msgstr "Pepani! Mwafika muno mwina chifukwa choti bulawuza yanu ndi yachikale kapena mwina zinthu zina zatsekedwa pogwiritsa ntchito njira ya \"private browsing.\""
-
-#: kpi/templates/modern_browsers.html:12
-msgid ""
-"If you are using an outdated browser, we recommend upgrading to a recent "
-"version of one of the following excellent modern browsers:"
-msgstr "Ngati mukugwiritsa ntchito bulawuza yachikale, tikukulimbikitsani kuti mupeze yatsopano ndipo mungasankhe imodzi mwa mabulawuza amakono awa:"
-
-#: kpi/templates/modern_browsers.html:17
-msgid "Firefox download page"
-msgstr "Tsamba lopangira dawunilodi Firefox"
-
-#: kpi/templates/modern_browsers.html:18
-msgid "Firefox"
-msgstr "Firefox"
-
-#: kpi/templates/modern_browsers.html:22
-msgid "Chrome download page"
-msgstr "Tsamba lopangira dawunilodi Chrome"
-
-#: kpi/templates/modern_browsers.html:23
-msgid "Chrome"
-msgstr "Chrome"
-
-#: kpi/templates/modern_browsers.html:27
-msgid "Edge download page"
-msgstr "Tsamba lopangira dawunilodi Edge"
-
-#: kpi/templates/modern_browsers.html:28
-msgid "Edge"
-msgstr "Edge"
-
-#: kpi/templates/modern_browsers.html:32
-msgid "Opera download page"
-msgstr "Tsamba lopangira dawunilodi Opera"
-
-#: kpi/templates/modern_browsers.html:33
-msgid "Opera"
-msgstr "Opera"
-
-#: kpi/tests/test_registration.py:71
-msgid "This email domain is not allowed to create an account"
-msgstr "Iyi emali domain siyi vomelekeza kupangira akaunti"
-
-#: kpi/utils/two_database_configuration_checker.py:41
-msgid "Exactly two databases must be configured"
-msgstr "Ma databesi awiri okha ndi amene ayenera kukhazikitsidwa"
-
-#: kpi/utils/two_database_configuration_checker.py:42
-msgid ""
-"KPI and KoBoCAT must each have their own databases. Configure the KPI "
-"database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "KPI ndi KoBoCAT aliyense ayenera kukhala ndi databesi yake. Idasokoneza PKI databesi ya KPI ngati ‘defaulty’ ndi databesi ya KoBoCAT ngati ‘kobocat’."
-
-#: kpi/utils/two_database_configuration_checker.py:63
-msgid "KPI may not share a database with KoBoCAT"
-msgstr "KPI mwina singagawane databesi ndi KoBoCAT"
-
-#: kpi/utils/two_database_configuration_checker.py:64
-msgid "KPI and KoBoCAT must each have their own databases."
-msgstr "KPI ndi KoBoCAT aliyense ayenera kukhala ndi databesiyake."
-
-#: kpi/utils/two_database_configuration_checker.py:133
-msgid "Incomplete migration from shared-database installation"
-msgstr "Simunamalize kusamutsa databesi yogawana ndi ena"
-
-#: kpi/utils/two_database_configuration_checker.py:134
-msgid ""
-"The KoBoCAT database was originally shared by KPI, but the KPI tables were "
-"not copied from that shared database to the new, KPI-only database."
-msgstr "Databesi ya KoBoCAT idagawidwa poyambirira ndi matebulo a KPI sanatengedwe kuchokera kumalo osungirako onwe adagawidwawo kupita kumalo atsopano, KPI - databesi yokha."
-
-#: kpi/views/current_user.py:107
-msgid "Invalid confirmation"
-msgstr "Kutsimikizira kwalakwika"
-
-#: kpi/views/v2/asset_export_settings.py:228
-msgid "Only the following formats are available: ##format list##"
-msgstr "Mafomati awa okha ndi omwe alipo: ##format list##"
-
-#: kpi/views/v2/asset_permission_assignment.py:211
-msgid "Source and destination objects don't seem to have the same type"
-msgstr "Gwero komanso kofikira sizikufanana"
-
-#: kpi/views/v2/asset_permission_assignment.py:240
-msgid "Owner's permissions cannot be deleted"
-msgstr "Simungathe kudilita zilolezo za mwiniwake"
-
-#: kpi/views/v2/attachment.py:73
-msgid "`xpath` query parameter is required"
-msgstr "funso `xpath` la parameter likufunikira"
-
-#: kpi/views/v2/attachment.py:94
-msgid "Invalid XPath syntax"
-msgstr "Mawu a XPath alakwika"
-
-#: kpi/views/v2/attachment.py:98
-msgid "The path could not be found in the submission"
-msgstr "Malo sakupezeka pa zimene mwatumiza"
-
-#: kpi/views/v2/attachment.py:107
-msgid "The error occurred during conversion"
-msgstr "Zinazake zalakwika posintha"
-
-#: kpi/views/v2/attachment.py:111
-msgid "Conversion is not supported for {}"
-msgstr "Kusintha {} ndi kosaloledwa"
-
-#: kpi/views/v2/data.py:318
-msgid "The specified asset has not been deployed"
-msgstr "Aseti imene mukufuna sinaiikidwe"
-
-#: kpi/views/v2/data.py:622
-msgid "A positive integer is required"
-msgstr "Nambala yapositi ikufunika"
+#~ msgid "Invalid token."
+#~ msgstr "Invalid token."

@@ -3,6 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# Translators:
 # 366ed2bf29e62b010d8715287bd97cc3_f587f89, 2021
 # Hakan Cetinkaya <cetinkayahakan90@gmail.com>, 2023
 # Kurund Jalmi <kurund.jalmi@gmail.com>, 2017
@@ -20,7 +22,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 19:00+0000\n"
+"POT-Creation-Date: 2024-04-11 19:59+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: zeeshan azmi <zishan.azmi@webaccessglobal.com>, 2017\n"
 "Language-Team: Turkish (http://app.transifex.com/kobotoolbox/kobotoolbox/language/tr/)\n"
@@ -47,6 +49,7 @@ msgid "Government institution"
 msgstr "Devlet kurumu"
 
 #: kobo/apps/accounts/forms.py:78
+#| msgid "Educational Services / Higher Education"
 msgid "Educational organization"
 msgstr "Eğitim kuruluşu"
 
@@ -70,11 +73,11 @@ msgstr "Kadın"
 msgid "Other"
 msgstr "Diğer"
 
-#: kobo/apps/accounts/forms.py:124 kpi/templates/base.html:29
+#: kobo/apps/accounts/forms.py:124
 msgid "Terms of Service"
 msgstr "Kullanım Şartları"
 
-#: kobo/apps/accounts/forms.py:131 kpi/templates/base.html:34
+#: kobo/apps/accounts/forms.py:131
 msgid "Privacy Policy"
 msgstr "Gizlilik Politikası"
 
@@ -106,28 +109,28 @@ msgstr "##token length## karakterden oluşan anahtarı girin"
 msgid "Your token is invalid"
 msgstr "Girmiş olduğunuz anahtar geçersiz"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:21
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:22
 msgid "Please enter your verification token"
 msgstr "Lütfen doğrulama anahtarınızı girin"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:25
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:26
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
 msgstr "Lütfen kimlik doğrulayıcı uygulamanızda gösterilen doğrulama anahtarını girin."
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:32
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:33
 msgid "Problems with the token"
 msgstr "Anahtar ile ilgili sorunlar"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:37
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:38
 msgid "Continue"
 msgstr "Devam et"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:45
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:46
 msgid "Verification issues"
 msgstr "Doğrulama sorunları"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:53
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:54
 msgid "Back"
 msgstr "Geri"
 
@@ -163,6 +166,7 @@ msgid ""
 msgstr "Hesabınızı onaylayarak KoboToolbox uygulamalarına erişim sağlayabilirsiniz. Yeni hesabınızı etkinleştirme işlemini tamamlamak için lütfen aşağıdaki URL’yi ziyaret edin."
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
+#| msgid "Username"
 msgid "Your username is: "
 msgstr "Kullanıcı adınız: "
 
@@ -422,6 +426,7 @@ msgid ""
 msgstr "Kullanıcı adları 2 ila 30 karakter uzunluğunda olmalı ve yalnızca küçük harflerden, sayılardan ve alt çizgilerden oluşmalıdır. Ayrıca, ilk karakter bir harf olmak zorundadır."
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
+#| msgid "Invalid token."
 msgid "Invalid scheme"
 msgstr "Geçersiz şema"
 
@@ -430,6 +435,7 @@ msgid "Unsecured endpoint is not allowed"
 msgstr "Güvensiz uç noktaya izin verilmemektedir"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
+#| msgid "Invalid token."
 msgid "Invalid JSON"
 msgstr "Geçersiz JSON"
 
@@ -502,8 +508,6 @@ msgid "Data is being or has already been processed"
 msgstr "Veriler işleniyor veya hâlihazırda işlenmiş durumda"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
-#: kpi/deployment_backends/base_backend.py:593
-#: kpi/deployment_backends/base_backend.py:600
 msgid "A positive integer is required."
 msgstr "Pozitif bir tam sayı gereklidir."
 
@@ -660,11 +664,11 @@ msgstr "Bu proje kimliği tanımlayabilecek bilgiler topluyor mu?"
 msgid "Description"
 msgstr "Açıklama"
 
-#: kobo/static_lists.py:352 kpi/password_validation.py:109
+#: kobo/static_lists.py:352
 msgid "Full name"
 msgstr "Ad ve soyad"
 
-#: kobo/static_lists.py:353 kpi/password_validation.py:110
+#: kobo/static_lists.py:353
 msgid "Organization name"
 msgstr "Kuruluş adı"
 
@@ -704,691 +708,14 @@ msgstr "Instagram"
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "KoboToolbox ile ilgili güncellemeler almak istiyorum"
 
-#: kpi/authentication.py:59
-msgid "Invalid username/password"
-msgstr "Geçersiz kullanıcı adı/parola"
+#~ msgid "Suriname"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:122
-msgid "No submissions match the given `submission_ids`"
-msgstr "Verilen `submission_ids` ile eşleşen gönderim yok"
+#~ msgid "User"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:522
-msgid ""
-"This param is not implemented. Use `count` property of the response instead."
-msgstr "Bu parametre uygulanmaz. Bunun yerine, yanıtın `count` özelliğini kullanın."
+#~ msgid "Username"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:533
-msgid "This param is not supported in `XML` format"
-msgstr "Bu parametre `XML` biçiminde desteklenmez"
-
-#: kpi/deployment_backends/base_backend.py:538
-msgid "This is not supported in `XML` format"
-msgstr "Bu, `XML` biçiminde desteklenmez"
-
-#: kpi/deployment_backends/base_backend.py:558
-#: kpi/deployment_backends/base_backend.py:586
-#: kpi/deployment_backends/base_backend.py:608 kpi/views/v2/data.py:523
-msgid "Value must be valid JSON."
-msgstr "Değer, geçerli bir JSON olmalıdır."
-
-#: kpi/deployment_backends/base_backend.py:563
-msgid "Value must be a list."
-msgstr "Değer, bir liste olmalıdır."
-
-#: kpi/deployment_backends/kobocat_backend.py:426
-msgid "Your submission XML is malformed."
-msgstr "Gönderim XML’iniz yanlış biçimlendirilmiş."
-
-#: kpi/deployment_backends/kobocat_backend.py:435
-msgid "Your submission XML is missing critical elements."
-msgstr "Gönderim XML’inizde önemli öğeler eksik."
-
-#: kpi/deployment_backends/kobocat_backend.py:448
-msgid ""
-"The submission you attempted to edit could not be found, or you do not have "
-"access to it."
-msgstr "Düzenlemeye çalıştığınız gönderim bulunamadı veya bu gönderime erişiminiz yok."
-
-#: kpi/deployment_backends/kobocat_backend.py:1529
-msgid "KoBoCAT returned an unexpected response: {}"
-msgstr "KoBoCAT beklenmeyen bir yanıt verdi: {}"
-
-#: kpi/deployment_backends/kobocat_backend.py:1565
-msgid "Something went wrong"
-msgstr "Bir şeyler ters gitti"
-
-#: kpi/exceptions.py:49
-msgid "Invalid payload for bulk updating of submissions"
-msgstr "Toplu gönderim güncellemesi için geçersiz yararlı yük"
-
-#: kpi/exceptions.py:64
-msgid "Must call `asset.connect_deployment()` first"
-msgstr "Önce `asset.connect_deployment()` birimini aramalısınız"
-
-#: kpi/exceptions.py:80
-msgid ""
-"Your access is restricted. Please reclaim your access by changing your "
-"password at ##koboform_url##/accounts/password/reset/."
-msgstr "Erişiminiz kısıtlandı. ##koboform_url##/accounts/password/reset/ adresinden parolanızı değiştirerek yeniden erişim sağlayabilirsiniz."
-
-#: kpi/exceptions.py:89
-msgid "Invalid search. Please try again"
-msgstr "Geçersiz arama. Lütfen tekrar deneyin"
-
-#: kpi/exceptions.py:129
-msgid "An error occurred trying to duplicate the submission"
-msgstr "Gönderimi çoğaltmaya çalışırken bir hata oluştu"
-
-#: kpi/exceptions.py:143
-msgid "The specified object has not been deployed"
-msgstr "Belirtilen nesne dağıtılmadı"
-
-#: kpi/exceptions.py:152
-msgid "Bad syntax"
-msgstr "Hatalı söz dizimi"
-
-#: kpi/exceptions.py:157
-msgid "Not supported field lookup"
-msgstr "Desteklenmeyen alan araması"
-
-#: kpi/exceptions.py:168
-msgid "Your query is too short"
-msgstr "Sorgunuz çok kısa"
-
-#: kpi/fields/jsonschema_form_field.py:23
-#: kpi/fields/jsonschema_form_field.py:26
-msgid "Enter valid JSON."
-msgstr "Geçerli bir JSON girin."
-
-#: kpi/fields/jsonschema_form_field.py:158
-msgid "`##place_holder##` field cannot be hidden."
-msgstr "`##place_holder##` alanı gizlenemez."
-
-#: kpi/fields/writable_json.py:30
-#, python-brace-format
-msgid "Unable to parse JSON: {error}"
-msgstr "JSON ayrıştırılamıyor: {error}"
-
-#: kpi/mixins/mfa.py:24
-msgid "Multi-factor authentication is enabled for this account. "
-msgstr "Bu hesap için çok faktörlü kimlik doğrulama etkinleştirildi. "
-
-#: kpi/models/asset.py:251
-msgid "Can view asset"
-msgstr "Varlığı görüntüleyebilir"
-
-#: kpi/models/asset.py:252
-msgid "Can discover asset in public lists"
-msgstr "Herkese açık listelerdeki varlığı keşfedebilir"
-
-#: kpi/models/asset.py:253
-msgid "Can manage all aspects of asset"
-msgstr "Varlığın tüm yönlerini yönetebilir"
-
-#: kpi/models/asset.py:255
-msgid "Can submit data to asset"
-msgstr "Varlığa veri gönderebilir"
-
-#: kpi/models/asset.py:256
-msgid "Can view submitted data for asset"
-msgstr "Varlık için gönderilen verileri görüntüleyebilir"
-
-#: kpi/models/asset.py:257
-msgid ""
-"Can make partial actions on submitted data for asset for specific users"
-msgstr "Belirli kullanıcılar için varlığa gönderilen veriler üzerinde kısmi işlemler yapabilir"
-
-#: kpi/models/asset.py:260
-msgid "Can modify submitted data for asset"
-msgstr "Varlık için gönderilen verileri değiştirebilir"
-
-#: kpi/models/asset.py:261
-msgid "Can delete submitted data for asset"
-msgstr "Varlık için gönderilen verileri silebilir"
-
-#: kpi/models/asset.py:262
-msgid "Can validate submitted data asset"
-msgstr "Gönderilen veri varlığını doğrulayabilir"
-
-#: kpi/models/asset.py:285
-msgid "project"
-msgstr "proje"
-
-#: kpi/models/asset.py:285
-msgid "form"
-msgstr "form"
-
-#: kpi/models/asset.py:287
-msgid "template"
-msgstr "şablon"
-
-#: kpi/models/asset.py:288
-msgid "block"
-msgstr "blok"
-
-#: kpi/models/asset.py:289
-msgid "question"
-msgstr "soru"
-
-#: kpi/models/asset.py:290
-msgid "text"
-msgstr "metin"
-
-#: kpi/models/asset.py:291
-msgid "empty"
-msgstr "boş"
-
-#: kpi/models/asset.py:292
-msgid "collection"
-msgstr "koleksiyon"
-
-#: kpi/models/asset.py:299
-msgid "View ##asset_type_label##"
-msgstr "##asset_type_label## öğesini görüntüleyin"
-
-#: kpi/models/asset.py:300
-msgid "Edit ##asset_type_label##"
-msgstr "##asset_type_label## öğesini düzenleyin"
-
-#: kpi/models/asset.py:301
-msgid "Discover ##asset_type_label##"
-msgstr "##asset_type_label## öğesini keşfedin"
-
-#: kpi/models/asset.py:302
-msgid "Manage ##asset_type_label##"
-msgstr "##asset_type_label## öğesini yönetin"
-
-#: kpi/models/asset.py:303
-msgid "Add submissions"
-msgstr "Gönderim ekleyin"
-
-#: kpi/models/asset.py:304
-msgid "View submissions"
-msgstr "Gönderimleri görüntüleyin"
-
-#: kpi/models/asset.py:307
-msgid "Act on submissions only from specific users"
-msgstr "Yalnızca belirli kullanıcılardan gelen gönderimler üzerinde işlem yapın"
-
-#: kpi/models/asset.py:310
-msgid "View submissions only from specific users"
-msgstr "Yalnızca belirli kullanıcılardan gelen gönderimleri görüntüleyin"
-
-#: kpi/models/asset.py:313
-msgid "Edit submissions only from specific users"
-msgstr "Yalnızca belirli kullanıcılardan gelen gönderimleri düzenleyin"
-
-#: kpi/models/asset.py:316
-msgid "Delete submissions only from specific users"
-msgstr "Yalnızca belirli kullanıcılardan gelen gönderimleri silin"
-
-#: kpi/models/asset.py:319
-msgid "Validate submissions only from specific users"
-msgstr "Yalnızca belirli kullanıcılardan gelen gönderimleri doğrulayın"
-
-#: kpi/models/asset.py:322
-msgid "Edit submissions"
-msgstr "Gönderimleri düzenleyin"
-
-#: kpi/models/asset.py:323
-msgid "Delete submissions"
-msgstr "Gönderimleri silin"
-
-#: kpi/models/asset.py:324
-msgid "Validate submissions"
-msgstr "Gönderimleri doğrulayın"
-
-#: kpi/models/asset.py:629
-msgid "Only partial permissions for submissions are supported"
-msgstr "Gönderimler için yalnızca kısmi izinler desteklenmektedir"
-
-#: kpi/models/asset.py:1331
-msgid "Can not assign '{}' permission to owner"
-msgstr "Bu kişiye '{}' izni atanamaz"
-
-#: kpi/models/asset.py:1335
-msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr "Bu kişiye '{}' izni atanamaz. Kısmi izinler eksik."
-
-#: kpi/models/authorized_application.py:40
-msgid "Invalid token."
-msgstr "Anahtar geçersiz."
-
-#: kpi/models/import_export_task.py:142
-msgid "Cannot access data"
-msgstr "Verilere erişilemiyor"
-
-#: kpi/models/import_export_task.py:578
-msgid "This data does not exist or you do not have access to it"
-msgstr "Bu veriler mevcut değil veya bunlara erişiminiz yok"
-
-#: kpi/password_validation.py:95
-msgid "You cannot reuse your last password."
-msgstr "Son parolanızı tekrar kullanamazsınız."
-
-#: kpi/password_validation.py:103
-msgid "Your password cannot be the same as your previous one."
-msgstr "Parolanız bir öncekiyle aynı olamaz."
-
-#: kpi/password_validation.py:170
-msgid ""
-"The password must contain at least ##number of rules## different kinds of "
-"characters."
-msgstr "Parola en az ##number of rules## farklı türde karakterler içermelidir."
-
-#: kpi/serializers/current_user.py:162
-msgid "Incorrect current password."
-msgstr "Mevcut parola yanlış."
-
-#: kpi/serializers/current_user.py:182
-msgid "`current_password` and `new_password` must both be"
-msgstr "`current_password` ve `new_password` şöyle olmalıdır:"
-
-#: kpi/serializers/current_user.py:222
-#: kpi/serializers/v2/asset_permission_assignment.py:290
-msgid "This field may not be blank."
-msgstr "Bu alan boş bırakılamaz."
-
-#: kpi/serializers/v2/asset.py:130
-#, python-format
-msgid "%(count)d project has been undeleted"
-msgstr "%(count)d projeyi silme işlemi geri alındı"
-
-#: kpi/serializers/v2/asset.py:136
-#, python-format
-msgid "%(count)d project has been deleted"
-msgstr "%(count)d proje silindi"
-
-#: kpi/serializers/v2/asset.py:143
-#, python-format
-msgid "%(count)d project has been unarchived"
-msgstr "%(count)d proje arşivden çıkarıldı"
-
-#: kpi/serializers/v2/asset.py:149
-#, python-format
-msgid "%(count)d project has been archived"
-msgstr "%(count)d proje arşivlendi"
-
-#: kpi/serializers/v2/asset.py:165
-msgid "One or many projects have been deleted already!"
-msgstr "Projelerden biri veya daha fazlası zaten silinmiş!"
-
-#: kpi/serializers/v2/asset.py:173
-msgid "One or many projects are already being deleted!"
-msgstr "Projelerden biri veya daha fazlası zaten silinmekte!"
-
-#: kpi/serializers/v2/asset.py:246
-msgid "`action` parameter is required"
-msgstr "`action` parametresi gereklidir"
-
-#: kpi/serializers/v2/asset.py:251
-msgid "Supported values for `action` are: "
-msgstr "`action` için desteklenen değerler şunlardır: "
-
-#: kpi/serializers/v2/asset.py:273
-msgid "Draft projects cannot be archived"
-msgstr "Taslak projeler arşivlenemez"
-
-#: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
-msgid "Confirmation is required"
-msgstr "Onay gereklidir"
-
-#: kpi/serializers/v2/asset.py:786
-msgid "The property is required"
-msgstr "Property gereklidir"
-
-#: kpi/serializers/v2/asset.py:790
-msgid "The property must be an array"
-msgstr "Property bir dizi olmalıdır"
-
-#: kpi/serializers/v2/asset.py:812
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "Bazı alanlar geçersiz olup seçenekler şunlardır: `{valid_fields}`"
-
-#: kpi/serializers/v2/asset.py:834
-msgid "User cannot update current parent collection"
-msgstr "Kullanıcı, mevcut üst koleksiyonu güncelleyemez"
-
-#: kpi/serializers/v2/asset.py:844
-#: kpi/tests/api/v2/test_api_collections.py:482
-msgid "Target collection not found"
-msgstr "Hedef koleksiyon bulunamadı"
-
-#: kpi/serializers/v2/asset.py:848
-#: kpi/tests/api/v2/test_api_collections.py:472
-msgid "User cannot update target parent collection"
-msgstr "Kullanıcı, hedef üst koleksiyonu güncelleyemez"
-
-#: kpi/serializers/v2/asset_export_settings.py:64
-msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` şu zorunlu anahtarların tümünü içermelidir: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:75
-msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` sadece şu geçerli anahtarları içerebilir: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:87
-msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` {} seçeneklerinden biri olmalıdır"
-
-#: kpi/serializers/v2/asset_export_settings.py:94
-msgid "`type` must be either {}"
-msgstr "`type` {} seçeneklerinden biri olmalıdır"
-
-#: kpi/serializers/v2/asset_export_settings.py:104
-msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` boş olmayan bir değer olmalıdır"
-
-#: kpi/serializers/v2/asset_export_settings.py:109
-msgid "`lang` for this asset must be either {}"
-msgstr "Bu varlık için `lang` {} seçeneklerinden biri olmalıdır"
-
-#: kpi/serializers/v2/asset_export_settings.py:119
-#: kpi/serializers/v2/export_task.py:229
-msgid "Must be a JSON object"
-msgstr "Bir JSON nesnesi olmak zorundadır"
-
-#: kpi/serializers/v2/asset_export_settings.py:134
-#: kpi/serializers/v2/export_task.py:247
-msgid "All values in the array must be integers"
-msgstr "Dizideki tüm değerler tam sayı olmalıdır"
-
-#: kpi/serializers/v2/asset_export_settings.py:145
-msgid "`fields` must be an array"
-msgstr "`fields` bir dizi olmalıdır"
-
-#: kpi/serializers/v2/asset_export_settings.py:149
-msgid "All values in the `fields` array must be strings"
-msgstr "`fields` dizisindeki tüm değerler, karakter dizisi/yazı olmalıdır"
-
-#: kpi/serializers/v2/asset_file.py:117
-msgid "JSON is invalid"
-msgstr "JSON geçersiz"
-
-#: kpi/serializers/v2/asset_file.py:130
-msgid "Invalid content"
-msgstr "Geçersiz içerik"
-
-#: kpi/serializers/v2/asset_file.py:143
-msgid "No files have been submitted"
-msgstr "Hiçbir dosya gönderilmedi"
-
-#: kpi/serializers/v2/asset_file.py:158
-msgid "File already exists"
-msgstr "Dosya zaten mevcut"
-
-#: kpi/serializers/v2/asset_file.py:208
-msgid ""
-"You cannot upload media file with two different ways at the same time. "
-"Please choose between binary upload, base64 or remote URL."
-msgstr "Aynı anda iki farklı yol kullanarak medya yükleyemezsiniz. Lütfen ikili (binary) yükleme, base64 veya uzak URL seçenekleri arasından bir seçim yapın."
-
-#: kpi/serializers/v2/asset_file.py:221
-msgid "This field is required"
-msgstr "Bu alan boş bırakılamaz"
-
-#: kpi/serializers/v2/asset_file.py:229
-msgid "`redirect_url` is required"
-msgstr "`redirect_url` zorunludur"
-
-#: kpi/serializers/v2/asset_file.py:239
-msgid "`filename` is required"
-msgstr "`filename` zorunludur"
-
-#: kpi/serializers/v2/asset_file.py:253
-msgid "`redirect_url` is invalid"
-msgstr "`redirect_url` geçersizdir"
-
-#: kpi/serializers/v2/asset_file.py:287
-msgid "Only `{}` MIME types are allowed"
-msgstr "Yalnızca `{}` MIME türlerine izin verilir"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:163
-msgid "This field is required for the '{}' permission"
-msgstr "Bu alan '{}' izni için gereklidir"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:177
-#: kpi/serializers/v2/asset_permission_assignment.py:182
-#: kpi/serializers/v2/asset_permission_assignment.py:188
-#: kpi/serializers/v2/asset_permission_assignment.py:497
-msgid "Invalid `url`"
-msgstr "Geçersiz `url`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:193
-msgid "Invalid `filters`"
-msgstr "Geçersiz `filters`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:210
-#, python-brace-format
-msgid ""
-"{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "{permission}, bu türdeki Varlık nesnelerine açıkça atanamaz."
-
-#: kpi/serializers/v2/asset_permission_assignment.py:289
-msgid "Not a valid list."
-msgstr "Geçerli bir liste değil."
-
-#: kpi/serializers/v2/asset_permission_assignment.py:490
-#: kpi/serializers/v2/asset_permission_assignment.py:493
-msgid "Invalid hyperlink - Object does not exist."
-msgstr "Geçersiz köprü - Nesne mevcut değil."
-
-#: kpi/serializers/v2/data.py:70
-msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` yalnızca tamsayı değerler içermelidir"
-
-#: kpi/serializers/v2/data.py:75
-msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` en az bir değer içermelidir"
-
-#: kpi/serializers/v2/data.py:83
-msgid "`data` is required"
-msgstr "`data` zorunludur"
-
-#: kpi/serializers/v2/data.py:91
-msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` zorunludur"
-
-#: kpi/serializers/v2/export_task.py:123
-msgid "Must contain all the following required keys: {}"
-msgstr "Şu gerekli anahtarların tümünü içermelidir: {}"
-
-#: kpi/serializers/v2/export_task.py:137
-msgid "Can contain only the following valid keys: {}"
-msgstr "Yalnızca şu geçerli anahtarları içerebilir: {}"
-
-#: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
-msgid "Must be an array"
-msgstr "Bir dizi olmalı"
-
-#: kpi/serializers/v2/export_task.py:159
-msgid "All values in the array must be strings"
-msgstr "Dizideki tüm değerler bir karakter dizisi/yazı olmalıdır"
-
-#: kpi/serializers/v2/export_task.py:169
-msgid "Must be a non-empty value"
-msgstr "Bu değer boş olamaz"
-
-#: kpi/serializers/v2/export_task.py:182
-msgid "For this asset must be either {}"
-msgstr "Bu varlık için {} seçeneklerinden biri kullanılmalıdır"
-
-#: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
-msgid "Must be either {}"
-msgstr "{} seçeneklerinden biri kullanılmalıdır"
-
-#: kpi/serializers/v2/export_task.py:204
-msgid "The asset must be deployed."
-msgstr "Varlık dağıtılmalıdır."
-
-#: kpi/serializers/v2/export_task.py:221
-msgid "The export name must be a string."
-msgstr "Dışa aktarma adı bir karakter dizisi/yazı olmalıdır."
-
-#: kpi/serializers/v2/paired_data.py:87
-msgid "Source cannot be changed"
-msgstr "Kaynak değiştirilemez"
-
-#: kpi/serializers/v2/paired_data.py:93
-#, python-brace-format
-msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "`{source_uid}` için veri paylaşımı etkin değil"
-
-#: kpi/serializers/v2/paired_data.py:105
-#, python-brace-format
-msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "`{source_uid}` ile veri eşleştirmesine izin verilmez"
-
-#: kpi/serializers/v2/paired_data.py:110
-#, python-brace-format
-msgid "Source `{source}` is already paired"
-msgstr "Kaynak `{source}` zaten eşleştirilmiş"
-
-#: kpi/serializers/v2/paired_data.py:152
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "Bazı alanlar geçersiz olup seçenekler şunlardır: `{source_fields}`"
-
-#: kpi/serializers/v2/paired_data.py:177
-msgid "Only letters, numbers and `-` are allowed"
-msgstr "Yalnızca harf, sayı ve `-` kullanılmasına izin verilir"
-
-#: kpi/serializers/v2/paired_data.py:184
-msgid "Extension must be `xml`"
-msgstr "Uzantı `xml` olmalıdır"
-
-#: kpi/serializers/v2/paired_data.py:217
-#, python-brace-format
-msgid "`{basename}` is already used"
-msgstr "`{basename}` zaten kullanımda"
-
-#: kpi/serializers/v2/user_asset_subscription.py:47
-#, python-brace-format
-msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "Geçersiz varlık türü. Yalnızca `{asset_type}` kullanılmasına izin verilir"
-
-#: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
-msgid "Modern Browsers"
-msgstr "Modern Tarayıcılar"
-
-#: kpi/templates/modern_browsers.html:8
-msgid ""
-"Ouch! Sorry, you were probably sent here because your browser is outdated or"
-" perhaps it has its key features disabled by using \"private browsing\" "
-"mode."
-msgstr "Ah! Üzgünüz, muhtemelen tarayıcınız güncel olmadığından veya “özel tarama” modunu kullanmanız nedeniyle tarayıcının temel özellikleri devre dışı bırakıldığından buraya gönderildiniz."
-
-#: kpi/templates/modern_browsers.html:12
-msgid ""
-"If you are using an outdated browser, we recommend upgrading to a recent "
-"version of one of the following excellent modern browsers:"
-msgstr "Eski bir tarayıcı kullanıyorsanız aşağıdaki mükemmel modern tarayıcılardan birinin son sürümüne yükseltmenizi öneririz:"
-
-#: kpi/templates/modern_browsers.html:17
-msgid "Firefox download page"
-msgstr "Firefox indirme sayfası"
-
-#: kpi/templates/modern_browsers.html:18
-msgid "Firefox"
-msgstr "Firefox"
-
-#: kpi/templates/modern_browsers.html:22
-msgid "Chrome download page"
-msgstr "Chrome indirme sayfası"
-
-#: kpi/templates/modern_browsers.html:23
-msgid "Chrome"
-msgstr "Chrome"
-
-#: kpi/templates/modern_browsers.html:27
-msgid "Edge download page"
-msgstr "Edge indirme sayfası"
-
-#: kpi/templates/modern_browsers.html:28
-msgid "Edge"
-msgstr "Edge"
-
-#: kpi/templates/modern_browsers.html:32
-msgid "Opera download page"
-msgstr "Opera indirme sayfası"
-
-#: kpi/templates/modern_browsers.html:33
-msgid "Opera"
-msgstr "Opera"
-
-#: kpi/tests/test_registration.py:71
-msgid "This email domain is not allowed to create an account"
-msgstr "Bu e-posta etki alanının bir hesap oluşturmasına izin verilmiyor"
-
-#: kpi/utils/two_database_configuration_checker.py:41
-msgid "Exactly two databases must be configured"
-msgstr "Tam olarak iki veri tabanı yapılandırılmalıdır"
-
-#: kpi/utils/two_database_configuration_checker.py:42
-msgid ""
-"KPI and KoBoCAT must each have their own databases. Configure the KPI "
-"database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "KPI ve KoBoCAT'in her birinin kendine ait veri tabanları olmalıdır. KPI veri tabanını 'varsayılan' ve KoBoCAT veri tabanını 'kobocat' olarak yapılandırın."
-
-#: kpi/utils/two_database_configuration_checker.py:63
-msgid "KPI may not share a database with KoBoCAT"
-msgstr "KPI, KoBoCAT ile bir veri tabanı paylaşmıyor olabilir"
-
-#: kpi/utils/two_database_configuration_checker.py:64
-msgid "KPI and KoBoCAT must each have their own databases."
-msgstr "KPI ve KoBoCAT’in her birinin kendi veri tabanları olmalıdır."
-
-#: kpi/utils/two_database_configuration_checker.py:133
-msgid "Incomplete migration from shared-database installation"
-msgstr "Paylaşılan veri tabanı kurulumundan geçiş işlemi tamamlanmadı"
-
-#: kpi/utils/two_database_configuration_checker.py:134
-msgid ""
-"The KoBoCAT database was originally shared by KPI, but the KPI tables were "
-"not copied from that shared database to the new, KPI-only database."
-msgstr "KoBoCAT veri tabanı, başlangıçta KPI tarafından paylaşılıyordu ancak KPI tabloları, bu paylaşılan veri tabanından KPI’ya özel yeni veri tabanına kopyalanmadı."
-
-#: kpi/views/current_user.py:107
-msgid "Invalid confirmation"
-msgstr "Geçersiz onay"
-
-#: kpi/views/v2/asset_export_settings.py:228
-msgid "Only the following formats are available: ##format list##"
-msgstr "Yalnızca şu biçimler kullanılabilir: ##format list##"
-
-#: kpi/views/v2/asset_permission_assignment.py:211
-msgid "Source and destination objects don't seem to have the same type"
-msgstr "Kaynak ve hedef nesneler aynı türde değil"
-
-#: kpi/views/v2/asset_permission_assignment.py:240
-msgid "Owner's permissions cannot be deleted"
-msgstr "Sahibin izinleri silinemez"
-
-#: kpi/views/v2/attachment.py:73
-msgid "`xpath` query parameter is required"
-msgstr "`xpath` sorgu parametresi zorunludur"
-
-#: kpi/views/v2/attachment.py:94
-msgid "Invalid XPath syntax"
-msgstr "XPath söz dizimi geçersiz"
-
-#: kpi/views/v2/attachment.py:98
-msgid "The path could not be found in the submission"
-msgstr "Gönderimde yol bulunamadı"
-
-#: kpi/views/v2/attachment.py:107
-msgid "The error occurred during conversion"
-msgstr "Dönüştürme sırasında hata oluştu"
-
-#: kpi/views/v2/attachment.py:111
-msgid "Conversion is not supported for {}"
-msgstr "{} için dönüştürme işlemi desteklenmiyor"
-
-#: kpi/views/v2/data.py:318
-msgid "The specified asset has not been deployed"
-msgstr "Belirtilen varlık dağıtılmadı"
-
-#: kpi/views/v2/data.py:622
-msgid "A positive integer is required"
-msgstr "Pozitif bir tam sayı gereklidir"
+#~ msgid "Invalid token."
+#~ msgstr "Invalid token."

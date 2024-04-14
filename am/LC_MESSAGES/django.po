@@ -3,6 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# Translators:
 # Jackie <jackie@kobotoolbox.org>, 2023
 # Tolera D, 2021
 # Tolera D, 2021
@@ -10,7 +12,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 19:00+0000\n"
+"POT-Creation-Date: 2024-04-11 19:59+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Tolera D, 2021\n"
 "Language-Team: Amharic (http://app.transifex.com/kobotoolbox/kobotoolbox/language/am/)\n"
@@ -37,6 +39,7 @@ msgid "Government institution"
 msgstr "የመንግስት ተቋም"
 
 #: kobo/apps/accounts/forms.py:78
+#| msgid "Educational Services / Higher Education"
 msgid "Educational organization"
 msgstr "የትምህርት ተቋም"
 
@@ -60,11 +63,11 @@ msgstr "ሴት"
 msgid "Other"
 msgstr "ሌላ"
 
-#: kobo/apps/accounts/forms.py:124 kpi/templates/base.html:29
+#: kobo/apps/accounts/forms.py:124
 msgid "Terms of Service"
 msgstr "የአገልግሎት ውል"
 
-#: kobo/apps/accounts/forms.py:131 kpi/templates/base.html:34
+#: kobo/apps/accounts/forms.py:131
 msgid "Privacy Policy"
 msgstr "የ ግል የሆነ ፖሊሲ"
 
@@ -96,28 +99,28 @@ msgstr "የቁምፊ ##token length##-መለያ ያስገቡ"
 msgid "Your token is invalid"
 msgstr "መለያዎ ተቀባይነት የለውም"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:21
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:22
 msgid "Please enter your verification token"
 msgstr "እባክዎ የማረጋገጫ ማስመሰያ ያስገቡ"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:25
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:26
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
 msgstr "እባክዎ በአረጋጋጭ መተግበሪያ የሚታየውን የማረጋገጫ ማስመሰያ ያስገቡ።"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:32
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:33
 msgid "Problems with the token"
 msgstr "ማስመሰያው ላይ ችግሮች"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:37
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:38
 msgid "Continue"
 msgstr "ቀጥል"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:45
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:46
 msgid "Verification issues"
 msgstr "የማረጋገጫ ጉዳዮች"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:53
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:54
 msgid "Back"
 msgstr "ተመለስ"
 
@@ -153,6 +156,7 @@ msgid ""
 msgstr "መለያዎን ማረጋገጥ የ KoboToolbox መተግበሪያዎችን መዳረሻ ይሰጥዎታል። እባክዎ የአዲሱን መለያዎን ማግበር ለመጨረስ የሚከተለውን ዩአርኤል ይጎብኙ።"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
+#| msgid "Username"
 msgid "Your username is: "
 msgstr "የተጠቃሚ ስምህ፡- "
 
@@ -412,6 +416,7 @@ msgid ""
 msgstr "ተጠቃሚ ስሞች ከ 2 እስከ 30 ቁምፊዎች ርዝመት ሊኖራቸው ይገባል፣ እና በትንሽ ፊደላት፣ ቁጥሮችን እና ንዑስ ፊደሎችን ብቻ ሊይዙ ይችላሉ፣ የመጀመሪያው ቁምፊ ፊደል መሆን አለበት።"
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
+#| msgid "Invalid token."
 msgid "Invalid scheme"
 msgstr "ልክ ያልሆነ አሠራር"
 
@@ -420,6 +425,7 @@ msgid "Unsecured endpoint is not allowed"
 msgstr "ደህንነቱ ያልተጠበቀ የመጨረሻ ነጥብ አይፈቀድም"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
+#| msgid "Invalid token."
 msgid "Invalid JSON"
 msgstr "ልክ ያልሆነ JSON"
 
@@ -492,8 +498,6 @@ msgid "Data is being or has already been processed"
 msgstr "ውሂቡ እየተሰራ ነው ወይም አስቀድሞ እየተሰራ ነው"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
-#: kpi/deployment_backends/base_backend.py:593
-#: kpi/deployment_backends/base_backend.py:600
 msgid "A positive integer is required."
 msgstr "አዎንታዊ ኢንቲጀር ያስፈልጋል።"
 
@@ -650,11 +654,11 @@ msgstr "ይህ ፕሮጀክት በግል ሊለይ የሚችል መረጃ ይሰ
 msgid "Description"
 msgstr "መግለጫ"
 
-#: kobo/static_lists.py:352 kpi/password_validation.py:109
+#: kobo/static_lists.py:352
 msgid "Full name"
 msgstr "ሙሉ ስም"
 
-#: kobo/static_lists.py:353 kpi/password_validation.py:110
+#: kobo/static_lists.py:353
 msgid "Organization name"
 msgstr "የድርጅቱ ስም"
 
@@ -694,691 +698,14 @@ msgstr "Instagram"
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "ስለ KoboToolbox አንዳንድ ጊዜ ዝመናዎችን መቀበል እፈልጋለሁ"
 
-#: kpi/authentication.py:59
-msgid "Invalid username/password"
-msgstr "የተሳሳተ የተጠቃሚ ስም/የይለፍ ቃል"
+#~ msgid "Suriname"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:122
-msgid "No submissions match the given `submission_ids`"
-msgstr "ምንም ግቤቶች ከተሰጠው ጋር አይዛመዱም `submission_ids`"
+#~ msgid "User"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:522
-msgid ""
-"This param is not implemented. Use `count` property of the response instead."
-msgstr "ይህ ፓራም አልተተገበረም። በምትኩ የምላሹን ንብረት `count` ይጠቀሙ።"
+#~ msgid "Username"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:533
-msgid "This param is not supported in `XML` format"
-msgstr "ይህ ፓራም በቅርጸት `XML` አይደገፍም"
-
-#: kpi/deployment_backends/base_backend.py:538
-msgid "This is not supported in `XML` format"
-msgstr "ይህ በቅርጸት `XML` አይደገፍም"
-
-#: kpi/deployment_backends/base_backend.py:558
-#: kpi/deployment_backends/base_backend.py:586
-#: kpi/deployment_backends/base_backend.py:608 kpi/views/v2/data.py:523
-msgid "Value must be valid JSON."
-msgstr "እሴት የሚሰራ JSON መሆን አለበት።"
-
-#: kpi/deployment_backends/base_backend.py:563
-msgid "Value must be a list."
-msgstr "እሴት ዝርዝር መሆን አለበት።"
-
-#: kpi/deployment_backends/kobocat_backend.py:426
-msgid "Your submission XML is malformed."
-msgstr "ያስገቡት XML የተሳሳተ ነው።"
-
-#: kpi/deployment_backends/kobocat_backend.py:435
-msgid "Your submission XML is missing critical elements."
-msgstr "ያስገቡት XML ወሳኝ አካላት ይጎድለዋል።"
-
-#: kpi/deployment_backends/kobocat_backend.py:448
-msgid ""
-"The submission you attempted to edit could not be found, or you do not have "
-"access to it."
-msgstr "ለማርትዕ የሞከሩት ግቤት ሊገኝ አልቻለም ወይም መዳረሻ የለዎትም።"
-
-#: kpi/deployment_backends/kobocat_backend.py:1529
-msgid "KoBoCAT returned an unexpected response: {}"
-msgstr "KoBoCAT ያልተጠበቀ ምላሽ መለሰ፡- {}"
-
-#: kpi/deployment_backends/kobocat_backend.py:1565
-msgid "Something went wrong"
-msgstr "የሆነ ስህተት ተከስቷል"
-
-#: kpi/exceptions.py:49
-msgid "Invalid payload for bulk updating of submissions"
-msgstr "ለጅምላ ግቤቶችን ለማዘመን ልክ ያልሆነ ክፍያ"
-
-#: kpi/exceptions.py:64
-msgid "Must call `asset.connect_deployment()` first"
-msgstr "መጀመሪያ `asset.connect_deployment()` መደወል አለበት"
-
-#: kpi/exceptions.py:80
-msgid ""
-"Your access is restricted. Please reclaim your access by changing your "
-"password at ##koboform_url##/accounts/password/reset/."
-msgstr "መዳረሻዎ የተገደበ ነው። እባክዎ የይለፍ ቃልዎን በ##koboform_url##/accounts/password/reset/ በመቀየር መዳረሻዎን ያግኙ።"
-
-#: kpi/exceptions.py:89
-msgid "Invalid search. Please try again"
-msgstr "ልክ ያልሆነ ፍለጋ እባክዎ ዳግም ይሞክሩ"
-
-#: kpi/exceptions.py:129
-msgid "An error occurred trying to duplicate the submission"
-msgstr "ማስረከቡን ለማባዛት በመሞከር ላይ ስህተት ተፈጥሯል።"
-
-#: kpi/exceptions.py:143
-msgid "The specified object has not been deployed"
-msgstr "የተገለጸው ነገር አልተሰራጨም"
-
-#: kpi/exceptions.py:152
-msgid "Bad syntax"
-msgstr "መጥፎ አገባብ"
-
-#: kpi/exceptions.py:157
-msgid "Not supported field lookup"
-msgstr "የማይደገፍ የመስክ ፍለጋ"
-
-#: kpi/exceptions.py:168
-msgid "Your query is too short"
-msgstr "ጥያቄዎ በጣም አጭር ነው"
-
-#: kpi/fields/jsonschema_form_field.py:23
-#: kpi/fields/jsonschema_form_field.py:26
-msgid "Enter valid JSON."
-msgstr "የሚሰራ JSON ያስገቡ።"
-
-#: kpi/fields/jsonschema_form_field.py:158
-msgid "`##place_holder##` field cannot be hidden."
-msgstr "`##place_holder##` መስክ ሊደበቅ አይችልም።"
-
-#: kpi/fields/writable_json.py:30
-#, python-brace-format
-msgid "Unable to parse JSON: {error}"
-msgstr "JSON ን መተንተን አልተቻለም፡- {error}"
-
-#: kpi/mixins/mfa.py:24
-msgid "Multi-factor authentication is enabled for this account. "
-msgstr "ለዚህ መለያ ባለብዙ ደረጃ ማረጋገጫ ተፈቅዷል። "
-
-#: kpi/models/asset.py:251
-msgid "Can view asset"
-msgstr "ንብረት ማየት ይችላል"
-
-#: kpi/models/asset.py:252
-msgid "Can discover asset in public lists"
-msgstr "በይፋዊ ዝርዝሮች ውስጥ ንብረትን ማግኘት ይችላል"
-
-#: kpi/models/asset.py:253
-msgid "Can manage all aspects of asset"
-msgstr "ሁሉንም የንብረት ገጽታዎች ማስተዳደር ይችላል"
-
-#: kpi/models/asset.py:255
-msgid "Can submit data to asset"
-msgstr "ውሂብ ወደ ንብረት ማስገባት ይችላል"
-
-#: kpi/models/asset.py:256
-msgid "Can view submitted data for asset"
-msgstr "የቀረበውን ውሂብ ለንብረት ማየት ይችላል"
-
-#: kpi/models/asset.py:257
-msgid ""
-"Can make partial actions on submitted data for asset for specific users"
-msgstr "ለተወሰኑ ተጠቃሚዎች ለንብረት በቀረበው ውሂብ ላይ ከፊል እርምጃዎችን ማድረግ ይችላል"
-
-#: kpi/models/asset.py:260
-msgid "Can modify submitted data for asset"
-msgstr "የቀረበውን ውሂብ ለንብረት ማሻሻል ይችላል"
-
-#: kpi/models/asset.py:261
-msgid "Can delete submitted data for asset"
-msgstr "የቀረበውን ውሂብ ለንብረት መሰረዝ ይችላል"
-
-#: kpi/models/asset.py:262
-msgid "Can validate submitted data asset"
-msgstr "የቀረበውን የውሂብ ንብረት ማረጋገጥ ይችላል"
-
-#: kpi/models/asset.py:285
-msgid "project"
-msgstr "ፕሮጀክት"
-
-#: kpi/models/asset.py:285
-msgid "form"
-msgstr "ቅፅ"
-
-#: kpi/models/asset.py:287
-msgid "template"
-msgstr "አብነት"
-
-#: kpi/models/asset.py:288
-msgid "block"
-msgstr "አግድ"
-
-#: kpi/models/asset.py:289
-msgid "question"
-msgstr "ጥያቄ"
-
-#: kpi/models/asset.py:290
-msgid "text"
-msgstr "ጽሑፍ"
-
-#: kpi/models/asset.py:291
-msgid "empty"
-msgstr "ባዶ ነው"
-
-#: kpi/models/asset.py:292
-msgid "collection"
-msgstr "ስብስብ"
-
-#: kpi/models/asset.py:299
-msgid "View ##asset_type_label##"
-msgstr "ይመልከቱ ##asset_type_label##"
-
-#: kpi/models/asset.py:300
-msgid "Edit ##asset_type_label##"
-msgstr "አርትዕ ##asset_type_label##"
-
-#: kpi/models/asset.py:301
-msgid "Discover ##asset_type_label##"
-msgstr "ያግኙ ##asset_type_label##"
-
-#: kpi/models/asset.py:302
-msgid "Manage ##asset_type_label##"
-msgstr "ያስተዳድሩ ##asset_type_label##"
-
-#: kpi/models/asset.py:303
-msgid "Add submissions"
-msgstr "ግቤቶችን ያክሉ"
-
-#: kpi/models/asset.py:304
-msgid "View submissions"
-msgstr "ግቤቶችን ይመልከቱ"
-
-#: kpi/models/asset.py:307
-msgid "Act on submissions only from specific users"
-msgstr "ከተወሰኑ ተጠቃሚዎች በሚቀርቡት ግቤቶች ላይ እርምጃ ይውሰዱ"
-
-#: kpi/models/asset.py:310
-msgid "View submissions only from specific users"
-msgstr "ግቤቶችን ከተወሰኑ ተጠቃሚዎች ብቻ ይመልከቱ"
-
-#: kpi/models/asset.py:313
-msgid "Edit submissions only from specific users"
-msgstr "ግቤቶችን ከተወሰኑ ተጠቃሚዎች ብቻ ያርትዑ"
-
-#: kpi/models/asset.py:316
-msgid "Delete submissions only from specific users"
-msgstr "ግቤቶችን ከተወሰኑ ተጠቃሚዎች ብቻ ይሰርዙ"
-
-#: kpi/models/asset.py:319
-msgid "Validate submissions only from specific users"
-msgstr "ከተወሰኑ ተጠቃሚዎች ብቻ ማስገባቶችን ያረጋግጡ"
-
-#: kpi/models/asset.py:322
-msgid "Edit submissions"
-msgstr "ማቅረቢያዎችን ያርትዑ"
-
-#: kpi/models/asset.py:323
-msgid "Delete submissions"
-msgstr "ማቅረቢያዎችን ይሰርዙ"
-
-#: kpi/models/asset.py:324
-msgid "Validate submissions"
-msgstr "ማስገባቶችን ያረጋግጡ"
-
-#: kpi/models/asset.py:629
-msgid "Only partial permissions for submissions are supported"
-msgstr "የማስገባት ከፊል ፈቃዶች ብቻ ነው የሚደገፉት"
-
-#: kpi/models/asset.py:1331
-msgid "Can not assign '{}' permission to owner"
-msgstr "የ'{}' ፍቃድ ለባለቤት መስጠት አይቻልም"
-
-#: kpi/models/asset.py:1335
-msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr "'{}' ፍቃድ መስጠት አይቻልም። ከፊል ፍቃዶች ጠፍተዋል።"
-
-#: kpi/models/authorized_application.py:40
-msgid "Invalid token."
-msgstr "ልክ ያልሆነ መለያ።"
-
-#: kpi/models/import_export_task.py:142
-msgid "Cannot access data"
-msgstr "ወሂብ ላይ መድረስ አልተቻለም"
-
-#: kpi/models/import_export_task.py:578
-msgid "This data does not exist or you do not have access to it"
-msgstr "ይህ ውሂብ የለም ወይም መዳረሻ የለዎትም"
-
-#: kpi/password_validation.py:95
-msgid "You cannot reuse your last password."
-msgstr "የመጨረሻውን የይለፍ ቃልዎን እንደገና መጠቀም አይችሉም።"
-
-#: kpi/password_validation.py:103
-msgid "Your password cannot be the same as your previous one."
-msgstr "የይለፍ ቃልዎ ከቀዳሚው ጋር ተመሳሳይ ሊሆን አይችልም።"
-
-#: kpi/password_validation.py:170
-msgid ""
-"The password must contain at least ##number of rules## different kinds of "
-"characters."
-msgstr "የይለፍ ቃሉ ##number of rules## ቢያንስ የተለያዩ አይነት ቁምፊዎችን መያዝ አለበት።"
-
-#: kpi/serializers/current_user.py:162
-msgid "Incorrect current password."
-msgstr "የተሳሳተ የአሁኑ የይለፍ ቃል።"
-
-#: kpi/serializers/current_user.py:182
-msgid "`current_password` and `new_password` must both be"
-msgstr "`current_password` እና `new_password` ሁለቱም መሆን አለባቸው"
-
-#: kpi/serializers/current_user.py:222
-#: kpi/serializers/v2/asset_permission_assignment.py:290
-msgid "This field may not be blank."
-msgstr "ይህ መስክ ባዶ ላይሆን ይችላል።"
-
-#: kpi/serializers/v2/asset.py:130
-#, python-format
-msgid "%(count)d project has been undeleted"
-msgstr "%(count)d ፕሮጀክቱ አልተሰረዘም"
-
-#: kpi/serializers/v2/asset.py:136
-#, python-format
-msgid "%(count)d project has been deleted"
-msgstr "%(count)d ፕሮጀክቱ ተሰርዙዋል"
-
-#: kpi/serializers/v2/asset.py:143
-#, python-format
-msgid "%(count)d project has been unarchived"
-msgstr "%(count)d ፕሮጀክት ከማህደር ወጥቷል"
-
-#: kpi/serializers/v2/asset.py:149
-#, python-format
-msgid "%(count)d project has been archived"
-msgstr "%(count)d ፕሮጀክት በማህደር ተቀምጧል"
-
-#: kpi/serializers/v2/asset.py:165
-msgid "One or many projects have been deleted already!"
-msgstr "አንድ ወይም ብዙ ፕሮጀክቶች ቀድሞውኑ ተሰርዘዋል!"
-
-#: kpi/serializers/v2/asset.py:173
-msgid "One or many projects are already being deleted!"
-msgstr "አንድ ወይም ብዙ ፕሮጀክቶች ቀድሞውኑ እየተሰረዙ ነው!"
-
-#: kpi/serializers/v2/asset.py:246
-msgid "`action` parameter is required"
-msgstr "`action` መለኪያ ያስፈልጋል"
-
-#: kpi/serializers/v2/asset.py:251
-msgid "Supported values for `action` are: "
-msgstr "የሚደገፉ እሴቶች ለ`action` ናቸው፦ "
-
-#: kpi/serializers/v2/asset.py:273
-msgid "Draft projects cannot be archived"
-msgstr "ረቂቅ ፕሮጀክቶች በማህደር ሊቀመጡ አይችሉም"
-
-#: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
-msgid "Confirmation is required"
-msgstr "ማረጋገጫ ያስፈልጋል"
-
-#: kpi/serializers/v2/asset.py:786
-msgid "The property is required"
-msgstr "ንብረቱ ያስፈልጋል"
-
-#: kpi/serializers/v2/asset.py:790
-msgid "The property must be an array"
-msgstr "ንብረቱ ድርድር መሆን አለበት"
-
-#: kpi/serializers/v2/asset.py:812
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "አንዳንድ መስኮች ልክ ያልሆኑ ናቸው፣ ምርጫዎቹ የሚከተሉት ናቸው፡- `{valid_fields}`"
-
-#: kpi/serializers/v2/asset.py:834
-msgid "User cannot update current parent collection"
-msgstr "ተጠቃሚ የአሁኑን የወላጅ ስብስብ ማዘመን አይችልም"
-
-#: kpi/serializers/v2/asset.py:844
-#: kpi/tests/api/v2/test_api_collections.py:482
-msgid "Target collection not found"
-msgstr "የዒላማ ስብስብ አልተገኘም"
-
-#: kpi/serializers/v2/asset.py:848
-#: kpi/tests/api/v2/test_api_collections.py:472
-msgid "User cannot update target parent collection"
-msgstr "ተጠቃሚ የታለመውን የወላጅ ስብስብ ማዘመን አይችልም"
-
-#: kpi/serializers/v2/asset_export_settings.py:64
-msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` ሁሉንም የሚከተሉትን አስፈላጊ ቁልፎች መያዝ አለበት፦ {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:75
-msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` የሚከተሉትን ትክክለኛ ቁልፎች ብቻ ሊይዝ ይችላል፦ {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:87
-msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` መሆን አለበት ወይ {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:94
-msgid "`type` must be either {}"
-msgstr "`type` መሆን አለበት ወይ {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:104
-msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` ባዶ ያልሆነ ዋጋ መሆን አለበት"
-
-#: kpi/serializers/v2/asset_export_settings.py:109
-msgid "`lang` for this asset must be either {}"
-msgstr "`lang` ለዚህ ንብረት አንድም መሆን አለበት {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:119
-#: kpi/serializers/v2/export_task.py:229
-msgid "Must be a JSON object"
-msgstr "የJSON ነገር መሆን አለበት"
-
-#: kpi/serializers/v2/asset_export_settings.py:134
-#: kpi/serializers/v2/export_task.py:247
-msgid "All values in the array must be integers"
-msgstr "በድርድር ውስጥ ያሉ ሁሉም እሴቶች ኢንቲጀር መሆን አለባቸው"
-
-#: kpi/serializers/v2/asset_export_settings.py:145
-msgid "`fields` must be an array"
-msgstr "`fields` ድርድር መሆን አለበት"
-
-#: kpi/serializers/v2/asset_export_settings.py:149
-msgid "All values in the `fields` array must be strings"
-msgstr "በድርድር ውስጥ ያሉ ሁሉም እሴቶች `fields` ሕብረቁምፊዎች መሆን አለባቸው"
-
-#: kpi/serializers/v2/asset_file.py:117
-msgid "JSON is invalid"
-msgstr "JSON ልክ ያልሆነ ነው"
-
-#: kpi/serializers/v2/asset_file.py:130
-msgid "Invalid content"
-msgstr "ልክ ያልሆነ ይዘት"
-
-#: kpi/serializers/v2/asset_file.py:143
-msgid "No files have been submitted"
-msgstr "ምንም ፋይሎች አልገቡም"
-
-#: kpi/serializers/v2/asset_file.py:158
-msgid "File already exists"
-msgstr "ፋይል አስቀድሞ አለ"
-
-#: kpi/serializers/v2/asset_file.py:208
-msgid ""
-"You cannot upload media file with two different ways at the same time. "
-"Please choose between binary upload, base64 or remote URL."
-msgstr "የሚዲያ ፋይልን በሁለት የተለያዩ መንገዶች በተመሳሳይ ጊዜ መስቀል አይችሉም። እባክዎ በሁለትዮሽ ሰቀላ፣ ቤዝ64 ወይም የርቀት URL መካከል ይምረጡ።"
-
-#: kpi/serializers/v2/asset_file.py:221
-msgid "This field is required"
-msgstr "ይህ መስክ ያስፈልጋል"
-
-#: kpi/serializers/v2/asset_file.py:229
-msgid "`redirect_url` is required"
-msgstr "`redirect_url` ያስፈልጋል"
-
-#: kpi/serializers/v2/asset_file.py:239
-msgid "`filename` is required"
-msgstr "`filename` ያስፈልጋል"
-
-#: kpi/serializers/v2/asset_file.py:253
-msgid "`redirect_url` is invalid"
-msgstr "`redirect_url` ልክ ያልሆነ ነው"
-
-#: kpi/serializers/v2/asset_file.py:287
-msgid "Only `{}` MIME types are allowed"
-msgstr "የ `{}` MIME ዓይነቶች ብቻ ይፈቀዳሉ"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:163
-msgid "This field is required for the '{}' permission"
-msgstr "ይህ መስክ ለ '{}' ፈቃድ ያስፈልጋል"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:177
-#: kpi/serializers/v2/asset_permission_assignment.py:182
-#: kpi/serializers/v2/asset_permission_assignment.py:188
-#: kpi/serializers/v2/asset_permission_assignment.py:497
-msgid "Invalid `url`"
-msgstr "ልክ ያልሆነ `url`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:193
-msgid "Invalid `filters`"
-msgstr "ልክ ያልሆነ `filters`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:210
-#, python-brace-format
-msgid ""
-"{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "{permission} ለእንደዚህ አይነት ንብረቶች በግልፅ መመደብ አይቻልም።"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:289
-msgid "Not a valid list."
-msgstr "የሚሰራ ዝርዝር አይደለም።"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:490
-#: kpi/serializers/v2/asset_permission_assignment.py:493
-msgid "Invalid hyperlink - Object does not exist."
-msgstr "ልክ ያልሆነ ሃይፐርሊንክ - ዕቃው የለም"
-
-#: kpi/serializers/v2/data.py:70
-msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` የኢንቲጀር እሴቶችን ብቻ መያዝ አለበት"
-
-#: kpi/serializers/v2/data.py:75
-msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` ቢያንስ አንድ እሴት መያዝ አለበት"
-
-#: kpi/serializers/v2/data.py:83
-msgid "`data` is required"
-msgstr "`data` ያስፈልጋል"
-
-#: kpi/serializers/v2/data.py:91
-msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` ያስፈልጋል"
-
-#: kpi/serializers/v2/export_task.py:123
-msgid "Must contain all the following required keys: {}"
-msgstr "ሁሉንም የሚከተሉትን አስፈላጊ ቁልፎች መያዝ አለበት፡- {}"
-
-#: kpi/serializers/v2/export_task.py:137
-msgid "Can contain only the following valid keys: {}"
-msgstr "የሚከተሉትን ትክክለኛ ቁልፎች ብቻ ሊይዝ ይችላል፡- {}"
-
-#: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
-msgid "Must be an array"
-msgstr "ድርድር መሆን አለበት"
-
-#: kpi/serializers/v2/export_task.py:159
-msgid "All values in the array must be strings"
-msgstr "በድርድር ውስጥ ያሉ ሁሉም እሴቶች ሕብረቁምፊዎች መሆን አለባቸው"
-
-#: kpi/serializers/v2/export_task.py:169
-msgid "Must be a non-empty value"
-msgstr "ባዶ ያልሆነ እሴት መሆን አለበት"
-
-#: kpi/serializers/v2/export_task.py:182
-msgid "For this asset must be either {}"
-msgstr "ለዚህ ንብረት አንድም መሆን አለበት {}"
-
-#: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
-msgid "Must be either {}"
-msgstr "መሆን አለበት ወይ {}"
-
-#: kpi/serializers/v2/export_task.py:204
-msgid "The asset must be deployed."
-msgstr "ንብረቱ መሰማራት አለበት።"
-
-#: kpi/serializers/v2/export_task.py:221
-msgid "The export name must be a string."
-msgstr "ወደ ውጭ የሚላከው ስም ሕብረቁምፊ መሆን አለበት።"
-
-#: kpi/serializers/v2/paired_data.py:87
-msgid "Source cannot be changed"
-msgstr "ምንጭ መቀየር አይቻልም"
-
-#: kpi/serializers/v2/paired_data.py:93
-#, python-brace-format
-msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "የውሂብ መጋራት `{source_uid}` አልተቻለም"
-
-#: kpi/serializers/v2/paired_data.py:105
-#, python-brace-format
-msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "መረጃዎችን ማጣመር `{source_uid}` አይፈቀድም"
-
-#: kpi/serializers/v2/paired_data.py:110
-#, python-brace-format
-msgid "Source `{source}` is already paired"
-msgstr "ምንጭ `{source}` አስቀድሞ ተጣምሯል"
-
-#: kpi/serializers/v2/paired_data.py:152
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "አንዳንድ መስኮች ልክ ያልሆኑ ናቸው፣ ምርጫዎቹ የሚከተሉት ናቸው፡- `{source_fields}`"
-
-#: kpi/serializers/v2/paired_data.py:177
-msgid "Only letters, numbers and `-` are allowed"
-msgstr "ፊደሎች፣ ቁጥሮች እና `-` የተፈቀዱ ናቸው"
-
-#: kpi/serializers/v2/paired_data.py:184
-msgid "Extension must be `xml`"
-msgstr "ማራዘሚያ መሆን አለበት `xml`"
-
-#: kpi/serializers/v2/paired_data.py:217
-#, python-brace-format
-msgid "`{basename}` is already used"
-msgstr "`{basename}` አስቀድሞ ጥቅም ላይ ውሏል"
-
-#: kpi/serializers/v2/user_asset_subscription.py:47
-#, python-brace-format
-msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "ልክ ያልሆነ የንብረት አይነት። `{asset_type}` ብቻ ነው የሚፈቀደው"
-
-#: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
-msgid "Modern Browsers"
-msgstr "ዘመናዊ አሳሾች"
-
-#: kpi/templates/modern_browsers.html:8
-msgid ""
-"Ouch! Sorry, you were probably sent here because your browser is outdated or"
-" perhaps it has its key features disabled by using \"private browsing\" "
-"mode."
-msgstr "ኦህ! ይቅርታ፣ ወደዚህ የተላኩት አሳሽዎ ጊዜ ያለፈበት ስለሆነ ወይም ምናልባት \"የግል አሰሳ\" ሁነታን በመጠቀም ቁልፍ ባህሪያቱ ስለተሰናከለ ሊሆን ይችላል።"
-
-#: kpi/templates/modern_browsers.html:12
-msgid ""
-"If you are using an outdated browser, we recommend upgrading to a recent "
-"version of one of the following excellent modern browsers:"
-msgstr "ጊዜው ያለፈበት አሳሽ እየተጠቀሙ ከሆነ ከሚከተሉት ምርጥ ዘመናዊ አሳሾች ወደ አንዱ የቅርብ ጊዜ ስሪት እንዲያሻሽሉ እንመክራለን፡-"
-
-#: kpi/templates/modern_browsers.html:17
-msgid "Firefox download page"
-msgstr "Firefox የማውረድ ገጽ"
-
-#: kpi/templates/modern_browsers.html:18
-msgid "Firefox"
-msgstr "Firefox"
-
-#: kpi/templates/modern_browsers.html:22
-msgid "Chrome download page"
-msgstr "Chrome የማውረድ ገጽ"
-
-#: kpi/templates/modern_browsers.html:23
-msgid "Chrome"
-msgstr "Chrome"
-
-#: kpi/templates/modern_browsers.html:27
-msgid "Edge download page"
-msgstr "Edge የማውረድ ገጽ"
-
-#: kpi/templates/modern_browsers.html:28
-msgid "Edge"
-msgstr "Edge"
-
-#: kpi/templates/modern_browsers.html:32
-msgid "Opera download page"
-msgstr "Opera የማውረድ ገጽ"
-
-#: kpi/templates/modern_browsers.html:33
-msgid "Opera"
-msgstr "Opera"
-
-#: kpi/tests/test_registration.py:71
-msgid "This email domain is not allowed to create an account"
-msgstr "ይህ የኢሜይል ጎራ መለያ እንዲፈጥር አልተፈቀደለትም"
-
-#: kpi/utils/two_database_configuration_checker.py:41
-msgid "Exactly two databases must be configured"
-msgstr "በትክክል ሁለት የመረጃ ቋቶች ማዋቀር አለባቸው"
-
-#: kpi/utils/two_database_configuration_checker.py:42
-msgid ""
-"KPI and KoBoCAT must each have their own databases. Configure the KPI "
-"database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "KPI እና KoBoCAT እያንዳንዳቸው የራሳቸው የመረጃ ቋቶች ሊኖራቸው ይገባል። የKPI ዳታቤዝ እንደ 'ነባሪ' እና የKoBoCAT ዳታቤዝ እንደ 'kobocat' ያዋቅሩት።"
-
-#: kpi/utils/two_database_configuration_checker.py:63
-msgid "KPI may not share a database with KoBoCAT"
-msgstr "KPI የመረጃ ቋቶች ከKoBoCAT ጋር ላያጋራ ይችላል"
-
-#: kpi/utils/two_database_configuration_checker.py:64
-msgid "KPI and KoBoCAT must each have their own databases."
-msgstr "KPI እና KoBoCAT እያንዳንዳቸው የራሳቸው የመረጃ ቋቶች ሊኖራቸው ይገባል።"
-
-#: kpi/utils/two_database_configuration_checker.py:133
-msgid "Incomplete migration from shared-database installation"
-msgstr "ከጋራ የመረጃ ቋቶች ጭነት ያልተሟላ ሽግግር"
-
-#: kpi/utils/two_database_configuration_checker.py:134
-msgid ""
-"The KoBoCAT database was originally shared by KPI, but the KPI tables were "
-"not copied from that shared database to the new, KPI-only database."
-msgstr "የKoBoCAT የመረጃ ቋቶች በመጀመሪያ የተጋራው በKPI ነበር፣ ነገር ግን የKPI ሰንጠረዦች ከተጋራው የመረጃ ቋቶች ወደ አዲሱ KPI-ብቻ የውሂብ ጎታ አልተገለበጡም።"
-
-#: kpi/views/current_user.py:107
-msgid "Invalid confirmation"
-msgstr "ልክ ያልሆነ ማረጋገጫ"
-
-#: kpi/views/v2/asset_export_settings.py:228
-msgid "Only the following formats are available: ##format list##"
-msgstr "የሚከተሉት ቅርጸቶች ብቻ ይገኛሉ፦ ##format list##"
-
-#: kpi/views/v2/asset_permission_assignment.py:211
-msgid "Source and destination objects don't seem to have the same type"
-msgstr "መነሻ እና መድረሻ ነገሮች ተመሳሳይ አይነት ያላቸው አይመስሉም"
-
-#: kpi/views/v2/asset_permission_assignment.py:240
-msgid "Owner's permissions cannot be deleted"
-msgstr "የባለቤት ፈቃዶች ሊሰረዙ አይችሉም"
-
-#: kpi/views/v2/attachment.py:73
-msgid "`xpath` query parameter is required"
-msgstr "`xpath` የጥያቄ መለኪያ ያስፈልጋል"
-
-#: kpi/views/v2/attachment.py:94
-msgid "Invalid XPath syntax"
-msgstr "ልክ ያልሆነ XPath አገባብ"
-
-#: kpi/views/v2/attachment.py:98
-msgid "The path could not be found in the submission"
-msgstr "መንገዱ በግቤት ውስጥ ሊገኝ አልቻለም"
-
-#: kpi/views/v2/attachment.py:107
-msgid "The error occurred during conversion"
-msgstr "ስህተቱ የተከሰተው በለውጥ ጊዜ ነው"
-
-#: kpi/views/v2/attachment.py:111
-msgid "Conversion is not supported for {}"
-msgstr "ልወጣ ለ{} አይደገፍም"
-
-#: kpi/views/v2/data.py:318
-msgid "The specified asset has not been deployed"
-msgstr "የተገለጸው ንብረት አልተሰማራም"
-
-#: kpi/views/v2/data.py:622
-msgid "A positive integer is required"
-msgstr "አዎንታዊ ኢንቲጀር ያስፈልጋል"
+#~ msgid "Invalid token."
+#~ msgstr "Invalid token."

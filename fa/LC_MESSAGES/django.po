@@ -3,6 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# Translators:
 # Hosein Nematolahi <hosein.ne88@gmail.com>, 2022-2024
 # Khaibar Omari, 2021
 # Khaibar Omari, 2021
@@ -12,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 19:00+0000\n"
+"POT-Creation-Date: 2024-04-11 19:59+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Naqibullah Danishjow, 2021\n"
 "Language-Team: Persian (http://app.transifex.com/kobotoolbox/kobotoolbox/language/fa/)\n"
@@ -39,6 +41,7 @@ msgid "Government institution"
 msgstr "موسسه دولتی"
 
 #: kobo/apps/accounts/forms.py:78
+#| msgid "Educational Services / Higher Education"
 msgid "Educational organization"
 msgstr "موسسه آموزشی"
 
@@ -62,11 +65,11 @@ msgstr "زن"
 msgid "Other"
 msgstr "دیگر"
 
-#: kobo/apps/accounts/forms.py:124 kpi/templates/base.html:29
+#: kobo/apps/accounts/forms.py:124
 msgid "Terms of Service"
 msgstr "شرایط استفاده خدمات"
 
-#: kobo/apps/accounts/forms.py:131 kpi/templates/base.html:34
+#: kobo/apps/accounts/forms.py:131
 msgid "Privacy Policy"
 msgstr "سیاست حفظ حریم خصوصی"
 
@@ -98,28 +101,28 @@ msgstr "حرفی را وارد کنید ##token length## توکن"
 msgid "Your token is invalid"
 msgstr "توکن شما نامعتبر است"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:21
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:22
 msgid "Please enter your verification token"
 msgstr "لطفا توکن احراز هویتی که دریافت کرده‌اید را وارد کنید"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:25
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:26
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
 msgstr "لطفاً توکن احراز هویت نمایش داده شده توسط برنامه (اپ) احراز هویت خود را وارد کنید."
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:32
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:33
 msgid "Problems with the token"
 msgstr "مشکلات توکن"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:37
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:38
 msgid "Continue"
 msgstr "ادامه"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:45
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:46
 msgid "Verification issues"
 msgstr "مشکلات احراز هویت"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:53
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:54
 msgid "Back"
 msgstr "قبلی"
 
@@ -155,6 +158,7 @@ msgid ""
 msgstr "تایید حساب کاربری به شما دسترسی به اپلیکیشن‌های جعبه ابزار کوبو (KoboToolbox) را می‌دهد. لطفاً برای تکمیل فعال‌سازی حساب کاربری جدید خود به آدرس اینترنتی زیر مراجعه کنید."
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
+#| msgid "Username"
 msgid "Your username is: "
 msgstr "نام کاربری شما این است: "
 
@@ -414,6 +418,7 @@ msgid ""
 msgstr "نام کاربری باید بین 2 تا 30 کاراکتر باشد و می تواند فقط از حروف کوچک، اعداد و زیرخط تشکیل شده باشد که در این صورت اولین کاراکتر باید یک حرف باشد."
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
+#| msgid "Invalid token."
 msgid "Invalid scheme"
 msgstr "طرح نامعتبر"
 
@@ -422,6 +427,7 @@ msgid "Unsecured endpoint is not allowed"
 msgstr "نقطه پایانی ناامن مجاز نیست"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
+#| msgid "Invalid token."
 msgid "Invalid JSON"
 msgstr "JSON نامعتبر است"
 
@@ -494,8 +500,6 @@ msgid "Data is being or has already been processed"
 msgstr "داده ها در حال پردازش هستند یا قبلاً پردازش شده اند"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
-#: kpi/deployment_backends/base_backend.py:593
-#: kpi/deployment_backends/base_backend.py:600
 msgid "A positive integer is required."
 msgstr "یک عدد صحیح مثبت مورد نیاز است."
 
@@ -652,11 +656,11 @@ msgstr "آیا این پروژه اطلاعات قابل شناسایی فردی
 msgid "Description"
 msgstr "شرح"
 
-#: kobo/static_lists.py:352 kpi/password_validation.py:109
+#: kobo/static_lists.py:352
 msgid "Full name"
 msgstr "نام و نام خانوادگی"
 
-#: kobo/static_lists.py:353 kpi/password_validation.py:110
+#: kobo/static_lists.py:353
 msgid "Organization name"
 msgstr "سازمان"
 
@@ -696,691 +700,14 @@ msgstr "اینستاگرام"
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "من می خواهم بعضی اوقات به روز رسانی های KoboToolbox را دریافت کنم"
 
-#: kpi/authentication.py:59
-msgid "Invalid username/password"
-msgstr "نام کاربری/رمز عبور نامعتبر است"
+#~ msgid "Suriname"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:122
-msgid "No submissions match the given `submission_ids`"
-msgstr "هیچ ارسالی با `submission_ids` مطابقت ندارد"
+#~ msgid "User"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:522
-msgid ""
-"This param is not implemented. Use `count` property of the response instead."
-msgstr "این پارامتر اجرا نمی شود. به جای آن از ویژگی پاسخ `count` استفاده کنید."
+#~ msgid "Username"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:533
-msgid "This param is not supported in `XML` format"
-msgstr "این پارامتر در قالب `XML` پذیرفته نمی شود"
-
-#: kpi/deployment_backends/base_backend.py:538
-msgid "This is not supported in `XML` format"
-msgstr "این در قالب `XML` پذیرفته نمی شود"
-
-#: kpi/deployment_backends/base_backend.py:558
-#: kpi/deployment_backends/base_backend.py:586
-#: kpi/deployment_backends/base_backend.py:608 kpi/views/v2/data.py:523
-msgid "Value must be valid JSON."
-msgstr "مقدار باید JSON معتبر باشد."
-
-#: kpi/deployment_backends/base_backend.py:563
-msgid "Value must be a list."
-msgstr "ارزش باید یک لیست باشد."
-
-#: kpi/deployment_backends/kobocat_backend.py:426
-msgid "Your submission XML is malformed."
-msgstr "XML ارسالی شما نادرست است."
-
-#: kpi/deployment_backends/kobocat_backend.py:435
-msgid "Your submission XML is missing critical elements."
-msgstr "XML ارسالی شما فاقد عناصر حیاتی است."
-
-#: kpi/deployment_backends/kobocat_backend.py:448
-msgid ""
-"The submission you attempted to edit could not be found, or you do not have "
-"access to it."
-msgstr "ارسالی که سعی کردید ویرایش کنید یافت نشد یا به آن دسترسی ندارید."
-
-#: kpi/deployment_backends/kobocat_backend.py:1529
-msgid "KoBoCAT returned an unexpected response: {}"
-msgstr "KoBoCAT یک پاسخ غیرمنتظره برگرداند: {}"
-
-#: kpi/deployment_backends/kobocat_backend.py:1565
-msgid "Something went wrong"
-msgstr "مشکلی پیش آمد"
-
-#: kpi/exceptions.py:49
-msgid "Invalid payload for bulk updating of submissions"
-msgstr "محموله نامعتبر برای به‌روزرسانی انبوه ارسال‌ها"
-
-#: kpi/exceptions.py:64
-msgid "Must call `asset.connect_deployment()` first"
-msgstr "ابتدا باید `asset.connect_deployment()` را فراخوانی کند"
-
-#: kpi/exceptions.py:80
-msgid ""
-"Your access is restricted. Please reclaim your access by changing your "
-"password at ##koboform_url##/accounts/password/reset/."
-msgstr "دسترسی شما محدود شده است لطفاً با تغییر رمز عبور خود در ##koboform_url##/accounts/password/reset/ دسترسی خود را مجددا درخواست کنید."
-
-#: kpi/exceptions.py:89
-msgid "Invalid search. Please try again"
-msgstr "جستجو نامعتبر است. لطفا دوباره تلاش کنید"
-
-#: kpi/exceptions.py:129
-msgid "An error occurred trying to duplicate the submission"
-msgstr "هنگام تلاش برای کپی کردن ارسال، خطایی روی داد"
-
-#: kpi/exceptions.py:143
-msgid "The specified object has not been deployed"
-msgstr "شی مشخص شده مستقر نشده است"
-
-#: kpi/exceptions.py:152
-msgid "Bad syntax"
-msgstr "ساینتکس -ساختار بد"
-
-#: kpi/exceptions.py:157
-msgid "Not supported field lookup"
-msgstr "جستجوی میدانی پشتیبانی نمی شود"
-
-#: kpi/exceptions.py:168
-msgid "Your query is too short"
-msgstr "درخواست شما خیلی کوتاه است"
-
-#: kpi/fields/jsonschema_form_field.py:23
-#: kpi/fields/jsonschema_form_field.py:26
-msgid "Enter valid JSON."
-msgstr "JSON معتبر وارد کنید."
-
-#: kpi/fields/jsonschema_form_field.py:158
-msgid "`##place_holder##` field cannot be hidden."
-msgstr "فیلد `##place_holder##` را نمی توان پنهان کرد."
-
-#: kpi/fields/writable_json.py:30
-#, python-brace-format
-msgid "Unable to parse JSON: {error}"
-msgstr "تجزیه JSON ممکن نیست: {error}"
-
-#: kpi/mixins/mfa.py:24
-msgid "Multi-factor authentication is enabled for this account. "
-msgstr "احراز هویت چندعاملی برای این حساب کاربری فعال است. "
-
-#: kpi/models/asset.py:251
-msgid "Can view asset"
-msgstr "می تواند دارایی را مشاهده کند"
-
-#: kpi/models/asset.py:252
-msgid "Can discover asset in public lists"
-msgstr "می تواند دارایی را در لیست های عمومی کشف کند"
-
-#: kpi/models/asset.py:253
-msgid "Can manage all aspects of asset"
-msgstr "می تواند تمام جنبه های دارایی را مدیریت کند"
-
-#: kpi/models/asset.py:255
-msgid "Can submit data to asset"
-msgstr "می تواند داده ها را به دارایی ارسال کند"
-
-#: kpi/models/asset.py:256
-msgid "Can view submitted data for asset"
-msgstr "می تواند داده های ارسال شده برای دارایی را مشاهده کند"
-
-#: kpi/models/asset.py:257
-msgid ""
-"Can make partial actions on submitted data for asset for specific users"
-msgstr "می تواند اقدامات جزئی را روی داده های ارسالی برای دارایی برای کاربران خاص انجام دهد"
-
-#: kpi/models/asset.py:260
-msgid "Can modify submitted data for asset"
-msgstr "می تواند داده های ارسالی را برای دارایی تغییر دهد"
-
-#: kpi/models/asset.py:261
-msgid "Can delete submitted data for asset"
-msgstr "می تواند داده های ارسال شده برای دارایی را حذف کند"
-
-#: kpi/models/asset.py:262
-msgid "Can validate submitted data asset"
-msgstr "می تواند دارایی داده ارسال شده را تأیید کند"
-
-#: kpi/models/asset.py:285
-msgid "project"
-msgstr "پروژه"
-
-#: kpi/models/asset.py:285
-msgid "form"
-msgstr "فرم"
-
-#: kpi/models/asset.py:287
-msgid "template"
-msgstr "نمونه"
-
-#: kpi/models/asset.py:288
-msgid "block"
-msgstr "مسدود کردن"
-
-#: kpi/models/asset.py:289
-msgid "question"
-msgstr "سوال"
-
-#: kpi/models/asset.py:290
-msgid "text"
-msgstr "متن"
-
-#: kpi/models/asset.py:291
-msgid "empty"
-msgstr "خالی"
-
-#: kpi/models/asset.py:292
-msgid "collection"
-msgstr "جمع آوری"
-
-#: kpi/models/asset.py:299
-msgid "View ##asset_type_label##"
-msgstr "نمایش ##asset_type_label##"
-
-#: kpi/models/asset.py:300
-msgid "Edit ##asset_type_label##"
-msgstr "ویرایش ##asset_type_label##"
-
-#: kpi/models/asset.py:301
-msgid "Discover ##asset_type_label##"
-msgstr "كشف کنید ##asset_type_label##"
-
-#: kpi/models/asset.py:302
-msgid "Manage ##asset_type_label##"
-msgstr "مدیریت کنید ##asset_type_label##"
-
-#: kpi/models/asset.py:303
-msgid "Add submissions"
-msgstr "موارد ارسالی را اضافه کنید"
-
-#: kpi/models/asset.py:304
-msgid "View submissions"
-msgstr "موارد ارسالی را مشاهده کنید"
-
-#: kpi/models/asset.py:307
-msgid "Act on submissions only from specific users"
-msgstr "فقط بر مورد ارسالی از کاربران خاص اقدام کنید"
-
-#: kpi/models/asset.py:310
-msgid "View submissions only from specific users"
-msgstr "موارد ارسالی را فقط از کاربران خاص مشاهده کنید"
-
-#: kpi/models/asset.py:313
-msgid "Edit submissions only from specific users"
-msgstr "موارد ارسالی را فقط از کاربران خاص ویرایش کنید"
-
-#: kpi/models/asset.py:316
-msgid "Delete submissions only from specific users"
-msgstr "موارد ارسالی را فقط از کاربران خاص حذف کنید"
-
-#: kpi/models/asset.py:319
-msgid "Validate submissions only from specific users"
-msgstr "ارسال‌ها را فقط از کاربران خاص تأیید کنید"
-
-#: kpi/models/asset.py:322
-msgid "Edit submissions"
-msgstr "موارد ارسالی را ویرایش کنید"
-
-#: kpi/models/asset.py:323
-msgid "Delete submissions"
-msgstr "حذف مواد ارسالی"
-
-#: kpi/models/asset.py:324
-msgid "Validate submissions"
-msgstr "تأیید صحت موارد ارسالی"
-
-#: kpi/models/asset.py:629
-msgid "Only partial permissions for submissions are supported"
-msgstr "فقط مجوزهای جزئی برای ارسال ها پشتیبانی می شود"
-
-#: kpi/models/asset.py:1331
-msgid "Can not assign '{}' permission to owner"
-msgstr "نمی توان مجوز '{}' را به مالک اختصاص داد"
-
-#: kpi/models/asset.py:1335
-msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr "نمی توان مجوز '{}' را اختصاص داد. مجوزهای جزئی وجود ندارد."
-
-#: kpi/models/authorized_application.py:40
-msgid "Invalid token."
-msgstr "توکن نامعتبر است."
-
-#: kpi/models/import_export_task.py:142
-msgid "Cannot access data"
-msgstr "دسترسی به داده ها امکان پذیر نیست"
-
-#: kpi/models/import_export_task.py:578
-msgid "This data does not exist or you do not have access to it"
-msgstr "این داده وجود ندارد یا شما به آن دسترسی ندارید"
-
-#: kpi/password_validation.py:95
-msgid "You cannot reuse your last password."
-msgstr "شما نمی توانید از آخرین رمز عبور خود دوباره استفاده کنید."
-
-#: kpi/password_validation.py:103
-msgid "Your password cannot be the same as your previous one."
-msgstr "رمز عبور شما نمی تواند با رمز قبلی شما یکسان باشد."
-
-#: kpi/password_validation.py:170
-msgid ""
-"The password must contain at least ##number of rules## different kinds of "
-"characters."
-msgstr "رمز عبور باید حداقل ##number of rules## کاراکتر باشد."
-
-#: kpi/serializers/current_user.py:162
-msgid "Incorrect current password."
-msgstr "رمز عبور فعلی نادرست است."
-
-#: kpi/serializers/current_user.py:182
-msgid "`current_password` and `new_password` must both be"
-msgstr "`current_password` و `new_password` هر دو باید باشند"
-
-#: kpi/serializers/current_user.py:222
-#: kpi/serializers/v2/asset_permission_assignment.py:290
-msgid "This field may not be blank."
-msgstr "این فیلد ممکن است خالی نباشد."
-
-#: kpi/serializers/v2/asset.py:130
-#, python-format
-msgid "%(count)d project has been undeleted"
-msgstr "%(count)d پروژه حذف نشده است"
-
-#: kpi/serializers/v2/asset.py:136
-#, python-format
-msgid "%(count)d project has been deleted"
-msgstr "%(count)d پروژه حذف شده است"
-
-#: kpi/serializers/v2/asset.py:143
-#, python-format
-msgid "%(count)d project has been unarchived"
-msgstr "%(count)d پروژه از بایگانی خارج نشده است"
-
-#: kpi/serializers/v2/asset.py:149
-#, python-format
-msgid "%(count)d project has been archived"
-msgstr "%(count)d پروژه بایگانی شده است"
-
-#: kpi/serializers/v2/asset.py:165
-msgid "One or many projects have been deleted already!"
-msgstr "یک یا چند پروژه قبلاً حذف شده اند!"
-
-#: kpi/serializers/v2/asset.py:173
-msgid "One or many projects are already being deleted!"
-msgstr "یک یا چند پروژه در حال حاضر حذف شده اند!"
-
-#: kpi/serializers/v2/asset.py:246
-msgid "`action` parameter is required"
-msgstr "پارامتر `action` مورد نیاز است"
-
-#: kpi/serializers/v2/asset.py:251
-msgid "Supported values for `action` are: "
-msgstr "مقادیر پذیرفته شده برای `action` عبارتند از: "
-
-#: kpi/serializers/v2/asset.py:273
-msgid "Draft projects cannot be archived"
-msgstr "پروژه های پیش نویس را نمی توان بایگانی کرد"
-
-#: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
-msgid "Confirmation is required"
-msgstr "تایید لازم است"
-
-#: kpi/serializers/v2/asset.py:786
-msgid "The property is required"
-msgstr "ویژگی مورد نیاز است"
-
-#: kpi/serializers/v2/asset.py:790
-msgid "The property must be an array"
-msgstr "ویژگی باید یک آرایه باشد"
-
-#: kpi/serializers/v2/asset.py:812
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "برخی از بخش ها باطل هستند، گزینه ها عبارتند از: `{valid_fields}`"
-
-#: kpi/serializers/v2/asset.py:834
-msgid "User cannot update current parent collection"
-msgstr "کاربر نمی تواند مجموعه والد فعلی را به روز کند"
-
-#: kpi/serializers/v2/asset.py:844
-#: kpi/tests/api/v2/test_api_collections.py:482
-msgid "Target collection not found"
-msgstr "مجموعه هدف یافت نشد"
-
-#: kpi/serializers/v2/asset.py:848
-#: kpi/tests/api/v2/test_api_collections.py:472
-msgid "User cannot update target parent collection"
-msgstr "کاربر نمی تواند مجموعه والد هدف را به روز کند"
-
-#: kpi/serializers/v2/asset_export_settings.py:64
-msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` باید شامل تمام کلیدهای مورد نیاز ذیل باشد: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:75
-msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` فقط می تواند حاوی کلیدهای درست ذیل باشد: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:87
-msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` باید یا {} باشد"
-
-#: kpi/serializers/v2/asset_export_settings.py:94
-msgid "`type` must be either {}"
-msgstr "`type` باید یا {} باشد"
-
-#: kpi/serializers/v2/asset_export_settings.py:104
-msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` باید یک عدد خالی نباشد باشد"
-
-#: kpi/serializers/v2/asset_export_settings.py:109
-msgid "`lang` for this asset must be either {}"
-msgstr "`lang` برای این دارایی باید یا {} باشید"
-
-#: kpi/serializers/v2/asset_export_settings.py:119
-#: kpi/serializers/v2/export_task.py:229
-msgid "Must be a JSON object"
-msgstr "باید یک شی JSON باشد"
-
-#: kpi/serializers/v2/asset_export_settings.py:134
-#: kpi/serializers/v2/export_task.py:247
-msgid "All values in the array must be integers"
-msgstr "تمام مقادیر موجود در آرایه باید اعداد صحیح باشند"
-
-#: kpi/serializers/v2/asset_export_settings.py:145
-msgid "`fields` must be an array"
-msgstr "`fields` باید یک صف باشد"
-
-#: kpi/serializers/v2/asset_export_settings.py:149
-msgid "All values in the `fields` array must be strings"
-msgstr "تمام مقادیر صف `fields` باید رشته ای باشند"
-
-#: kpi/serializers/v2/asset_file.py:117
-msgid "JSON is invalid"
-msgstr "JSON نامعتبر است"
-
-#: kpi/serializers/v2/asset_file.py:130
-msgid "Invalid content"
-msgstr "محتوای نامعتبر"
-
-#: kpi/serializers/v2/asset_file.py:143
-msgid "No files have been submitted"
-msgstr "هیچ فایلی ارسال نشده است"
-
-#: kpi/serializers/v2/asset_file.py:158
-msgid "File already exists"
-msgstr "فایل از قبل موجود میباشد"
-
-#: kpi/serializers/v2/asset_file.py:208
-msgid ""
-"You cannot upload media file with two different ways at the same time. "
-"Please choose between binary upload, base64 or remote URL."
-msgstr "شما نمی توانید فایل رسانه ای را با دو روش مختلف به طور همزمان آپلود کنید. لطفاً بین آپلود باینری، base64 یا URL راه دور انتخاب کنید."
-
-#: kpi/serializers/v2/asset_file.py:221
-msgid "This field is required"
-msgstr "این فیلد الزامی است"
-
-#: kpi/serializers/v2/asset_file.py:229
-msgid "`redirect_url` is required"
-msgstr "`redirect_url` (الزامی)"
-
-#: kpi/serializers/v2/asset_file.py:239
-msgid "`filename` is required"
-msgstr "`filename` (الزامی)"
-
-#: kpi/serializers/v2/asset_file.py:253
-msgid "`redirect_url` is invalid"
-msgstr "`redirect_url` نامعتبر است"
-
-#: kpi/serializers/v2/asset_file.py:287
-msgid "Only `{}` MIME types are allowed"
-msgstr "فقط انواع MIME `{}` مجاز هستند"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:163
-msgid "This field is required for the '{}' permission"
-msgstr "این فیلد برای مجوز '{}' مورد نیاز است"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:177
-#: kpi/serializers/v2/asset_permission_assignment.py:182
-#: kpi/serializers/v2/asset_permission_assignment.py:188
-#: kpi/serializers/v2/asset_permission_assignment.py:497
-msgid "Invalid `url`"
-msgstr "`url` قابل پذیرش نیست"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:193
-msgid "Invalid `filters`"
-msgstr "`filters` قابل پذیرش نیست"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:210
-#, python-brace-format
-msgid ""
-"{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "{permission} نمی توان به طور صریح به اشیاء دارایی از این نوع نسبت داد."
-
-#: kpi/serializers/v2/asset_permission_assignment.py:289
-msgid "Not a valid list."
-msgstr "لیست معتبری نیست"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:490
-#: kpi/serializers/v2/asset_permission_assignment.py:493
-msgid "Invalid hyperlink - Object does not exist."
-msgstr "پیوند نامعتبر - شی وجود ندارد."
-
-#: kpi/serializers/v2/data.py:70
-msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` فقط باید حاوی اعداد صحیح باشد"
-
-#: kpi/serializers/v2/data.py:75
-msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` باید حداقل یک عدد داشته باشد"
-
-#: kpi/serializers/v2/data.py:83
-msgid "`data` is required"
-msgstr "`data` (الزامی)"
-
-#: kpi/serializers/v2/data.py:91
-msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` (الزامی)"
-
-#: kpi/serializers/v2/export_task.py:123
-msgid "Must contain all the following required keys: {}"
-msgstr "باید شامل تمام کلیدهای مورد نیاز زیر باشد: {}"
-
-#: kpi/serializers/v2/export_task.py:137
-msgid "Can contain only the following valid keys: {}"
-msgstr "فقط می تواند حاوی کلیدهای معتبر زیر باشد: {}"
-
-#: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
-msgid "Must be an array"
-msgstr "باید یک آرایه باشد"
-
-#: kpi/serializers/v2/export_task.py:159
-msgid "All values in the array must be strings"
-msgstr "تمام مقادیر آرایه باید رشته ای باشند"
-
-#: kpi/serializers/v2/export_task.py:169
-msgid "Must be a non-empty value"
-msgstr "باید یک مقدار غیر خالی باشد"
-
-#: kpi/serializers/v2/export_task.py:182
-msgid "For this asset must be either {}"
-msgstr "برای این دارایی باید یا {} باشید"
-
-#: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
-msgid "Must be either {}"
-msgstr "باید یا {} باشد"
-
-#: kpi/serializers/v2/export_task.py:204
-msgid "The asset must be deployed."
-msgstr "دارایی باید مستقر شود."
-
-#: kpi/serializers/v2/export_task.py:221
-msgid "The export name must be a string."
-msgstr "نام صادرات باید یک رشته باشد."
-
-#: kpi/serializers/v2/paired_data.py:87
-msgid "Source cannot be changed"
-msgstr "منبع قابل تغییر نیست"
-
-#: kpi/serializers/v2/paired_data.py:93
-#, python-brace-format
-msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "اشتراک گذاری داده برای `{source_uid}` فعال نیست"
-
-#: kpi/serializers/v2/paired_data.py:105
-#, python-brace-format
-msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "اتصال داده ها با `{source_uid}` مجاز نیست"
-
-#: kpi/serializers/v2/paired_data.py:110
-#, python-brace-format
-msgid "Source `{source}` is already paired"
-msgstr "منبع `{source}` قبلاً متصل شده است"
-
-#: kpi/serializers/v2/paired_data.py:152
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "برخی از بخش ها باطل هستند، گزینه ها عبارتند از: `{source_fields}`"
-
-#: kpi/serializers/v2/paired_data.py:177
-msgid "Only letters, numbers and `-` are allowed"
-msgstr "فقط حروف، اعداد و `-` مجاز هستند"
-
-#: kpi/serializers/v2/paired_data.py:184
-msgid "Extension must be `xml`"
-msgstr "پسوند باید `xml` باشد"
-
-#: kpi/serializers/v2/paired_data.py:217
-#, python-brace-format
-msgid "`{basename}` is already used"
-msgstr "`{basename}` قبلاً استفاده شده است"
-
-#: kpi/serializers/v2/user_asset_subscription.py:47
-#, python-brace-format
-msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "نوع دارایی پذیرفتنی نیست. فقط `{asset_type}` مجاز است"
-
-#: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
-msgid "Modern Browsers"
-msgstr "مرورگرهای مدرن"
-
-#: kpi/templates/modern_browsers.html:8
-msgid ""
-"Ouch! Sorry, you were probably sent here because your browser is outdated or"
-" perhaps it has its key features disabled by using \"private browsing\" "
-"mode."
-msgstr "آخ! متأسفیم، احتمالاً به این دلیل به اینجا فرستاده شده‌اید که مرورگر شما قدیمی است یا شاید ویژگی‌های کلیدی آن با استفاده از حالت \"مرور خصوصی\" غیرفعال شده است."
-
-#: kpi/templates/modern_browsers.html:12
-msgid ""
-"If you are using an outdated browser, we recommend upgrading to a recent "
-"version of one of the following excellent modern browsers:"
-msgstr "اگر از یک مرورگر قدیمی استفاده می‌کنید، توصیه می‌کنیم که مرورگر خود را به یکی از مرورگرهای جدید و عالی ارتقا دهید، مانند:"
-
-#: kpi/templates/modern_browsers.html:17
-msgid "Firefox download page"
-msgstr "صفحه دانلود فایرفاکس"
-
-#: kpi/templates/modern_browsers.html:18
-msgid "Firefox"
-msgstr "فایرفاکس (Firefox)"
-
-#: kpi/templates/modern_browsers.html:22
-msgid "Chrome download page"
-msgstr "صفحه دانلود کروم"
-
-#: kpi/templates/modern_browsers.html:23
-msgid "Chrome"
-msgstr "کروم (Chrome)"
-
-#: kpi/templates/modern_browsers.html:27
-msgid "Edge download page"
-msgstr "صفحه دانلود اج (Edge)"
-
-#: kpi/templates/modern_browsers.html:28
-msgid "Edge"
-msgstr "اج (Edge)"
-
-#: kpi/templates/modern_browsers.html:32
-msgid "Opera download page"
-msgstr "صفحه دانلود اپرا (Opera)"
-
-#: kpi/templates/modern_browsers.html:33
-msgid "Opera"
-msgstr "اپرا (Opera)"
-
-#: kpi/tests/test_registration.py:71
-msgid "This email domain is not allowed to create an account"
-msgstr "این دامنه ایمیل مجاز به ایجاد حساب کاربری نیست"
-
-#: kpi/utils/two_database_configuration_checker.py:41
-msgid "Exactly two databases must be configured"
-msgstr "دقیقا دو پایگاه داده باید پیکربندی شود"
-
-#: kpi/utils/two_database_configuration_checker.py:42
-msgid ""
-"KPI and KoBoCAT must each have their own databases. Configure the KPI "
-"database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "KPI و KoBoCAT هر کدام باید پایگاه داده خود را داشته باشند. پایگاه داده KPI را به عنوان \"پیش فرض\" و پایگاه داده KoBoCAT را به عنوان \"kobocat\" پیکربندی کنید."
-
-#: kpi/utils/two_database_configuration_checker.py:63
-msgid "KPI may not share a database with KoBoCAT"
-msgstr "KPI ممکن است پایگاه داده را با KoBoCAT به اشتراک نگذارد"
-
-#: kpi/utils/two_database_configuration_checker.py:64
-msgid "KPI and KoBoCAT must each have their own databases."
-msgstr "KPI و KoBoCAT هر کدام باید پایگاه داده خود را داشته باشند."
-
-#: kpi/utils/two_database_configuration_checker.py:133
-msgid "Incomplete migration from shared-database installation"
-msgstr "انتقال ناقص از نصب پایگاه داده مشترک"
-
-#: kpi/utils/two_database_configuration_checker.py:134
-msgid ""
-"The KoBoCAT database was originally shared by KPI, but the KPI tables were "
-"not copied from that shared database to the new, KPI-only database."
-msgstr "پایگاه داده KoBoCAT در ابتدا توسط KPI به اشتراک گذاشته شد، اما جداول KPI از آن پایگاه داده مشترک در پایگاه داده جدید و فقط KPI کپی نشدند."
-
-#: kpi/views/current_user.py:107
-msgid "Invalid confirmation"
-msgstr "تایید نامعتبر"
-
-#: kpi/views/v2/asset_export_settings.py:228
-msgid "Only the following formats are available: ##format list##"
-msgstr "فقط فرمت های زیر موجود است: ##format list##"
-
-#: kpi/views/v2/asset_permission_assignment.py:211
-msgid "Source and destination objects don't seem to have the same type"
-msgstr "به نظر نمی رسد که اشیاء مبدا و مقصد دارای یک نوع باشند"
-
-#: kpi/views/v2/asset_permission_assignment.py:240
-msgid "Owner's permissions cannot be deleted"
-msgstr "مجوزهای مالک را نمی توان حذف کرد"
-
-#: kpi/views/v2/attachment.py:73
-msgid "`xpath` query parameter is required"
-msgstr "پارامتر پرس و جو `xpath` مورد نیاز است"
-
-#: kpi/views/v2/attachment.py:94
-msgid "Invalid XPath syntax"
-msgstr "نحو XPath نامعتبر است"
-
-#: kpi/views/v2/attachment.py:98
-msgid "The path could not be found in the submission"
-msgstr "مسیر در ارسال یافت نشد"
-
-#: kpi/views/v2/attachment.py:107
-msgid "The error occurred during conversion"
-msgstr "خطا در هنگام تبدیل رخ داد"
-
-#: kpi/views/v2/attachment.py:111
-msgid "Conversion is not supported for {}"
-msgstr "تبدیل برای {} پشتیبانی نمی شود"
-
-#: kpi/views/v2/data.py:318
-msgid "The specified asset has not been deployed"
-msgstr "دارایی مشخص شده به کار گرفته نشده است"
-
-#: kpi/views/v2/data.py:622
-msgid "A positive integer is required"
-msgstr "یک عدد صحیح مثبت مورد نیاز است"
+#~ msgid "Invalid token."
+#~ msgstr "Invalid token."

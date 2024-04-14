@@ -3,6 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# Translators:
 # Jiří Podhorecký, 2021-2022
 # Jiří Podhorecký, 2022-2023
 # Jiří Podhorecký, 2022-2023
@@ -11,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 19:00+0000\n"
+"POT-Creation-Date: 2024-04-11 19:59+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Jiří Podhorecký, 2021-2022\n"
 "Language-Team: Czech (http://app.transifex.com/kobotoolbox/kobotoolbox/language/cs/)\n"
@@ -38,6 +40,7 @@ msgid "Government institution"
 msgstr "Vládní instituce"
 
 #: kobo/apps/accounts/forms.py:78
+#| msgid "Educational Services / Higher Education"
 msgid "Educational organization"
 msgstr "Vzdělávací instituce"
 
@@ -61,11 +64,11 @@ msgstr "Žena"
 msgid "Other"
 msgstr "Jiné"
 
-#: kobo/apps/accounts/forms.py:124 kpi/templates/base.html:29
+#: kobo/apps/accounts/forms.py:124
 msgid "Terms of Service"
 msgstr "Podmínky služby"
 
-#: kobo/apps/accounts/forms.py:131 kpi/templates/base.html:34
+#: kobo/apps/accounts/forms.py:131
 msgid "Privacy Policy"
 msgstr "Zásady ochrany osobních údajů"
 
@@ -97,28 +100,28 @@ msgstr "Zadejte token o délce ##token length## znaků"
 msgid "Your token is invalid"
 msgstr "Váš token je neplatný"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:21
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:22
 msgid "Please enter your verification token"
 msgstr "Zadejte ověřovací token"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:25
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:26
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
 msgstr "Zadejte ověřovací token zobrazený vaší ověřovací aplikací."
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:32
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:33
 msgid "Problems with the token"
 msgstr "Problémy s tokenem"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:37
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:38
 msgid "Continue"
 msgstr "Pokračovat"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:45
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:46
 msgid "Verification issues"
 msgstr "Problémy s ověřením"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:53
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:54
 msgid "Back"
 msgstr "Zpět"
 
@@ -154,6 +157,7 @@ msgid ""
 msgstr "Potvrzením účtu získáte přístup k aplikacím KoboToolbox. Pro dokončení aktivace vašeho nového účtu navštivte následující adresu URL."
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
+#| msgid "Username"
 msgid "Your username is: "
 msgstr "Vaše uživatelské jméno je: "
 
@@ -413,6 +417,7 @@ msgid ""
 msgstr "Uživatelská jména musí mít délku 2 až 30 znaků a smí obsahovat pouze malá písmena, číslice a podtržítka, přičemž první znak musí být písmeno."
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
+#| msgid "Invalid token."
 msgid "Invalid scheme"
 msgstr "Neplatné schéma"
 
@@ -421,6 +426,7 @@ msgid "Unsecured endpoint is not allowed"
 msgstr "Nezabezpečený koncový bod není povolen"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
+#| msgid "Invalid token."
 msgid "Invalid JSON"
 msgstr "Neplatný formát JSON"
 
@@ -493,8 +499,6 @@ msgid "Data is being or has already been processed"
 msgstr "Data se zpracovávají nebo již byla zpracována"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
-#: kpi/deployment_backends/base_backend.py:593
-#: kpi/deployment_backends/base_backend.py:600
 msgid "A positive integer is required."
 msgstr "Je vyžadováno kladné celé číslo."
 
@@ -651,11 +655,11 @@ msgstr "Shromažďuje tento projekt osobní údaje?"
 msgid "Description"
 msgstr "Popis"
 
-#: kobo/static_lists.py:352 kpi/password_validation.py:109
+#: kobo/static_lists.py:352
 msgid "Full name"
 msgstr "Úplný název"
 
-#: kobo/static_lists.py:353 kpi/password_validation.py:110
+#: kobo/static_lists.py:353
 msgid "Organization name"
 msgstr "Název organizace"
 
@@ -695,691 +699,14 @@ msgstr "Instagram"
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "Chci příležitostně dostávat aktuální informace o KoboToolboxu"
 
-#: kpi/authentication.py:59
-msgid "Invalid username/password"
-msgstr "Neplatné uživatelské jméno / heslo"
+#~ msgid "Suriname"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:122
-msgid "No submissions match the given `submission_ids`"
-msgstr "Daným `submission_ids` neodpovídají žádná odeslaná data z formuláře."
+#~ msgid "User"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:522
-msgid ""
-"This param is not implemented. Use `count` property of the response instead."
-msgstr "Tento parametr není implementován. Místo toho použijte vlastnost `count` odpovědi."
+#~ msgid "Username"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:533
-msgid "This param is not supported in `XML` format"
-msgstr "Tento parametr není podporován ve formátu `XML`"
-
-#: kpi/deployment_backends/base_backend.py:538
-msgid "This is not supported in `XML` format"
-msgstr "Toto není podporováno ve formátu `XML`"
-
-#: kpi/deployment_backends/base_backend.py:558
-#: kpi/deployment_backends/base_backend.py:586
-#: kpi/deployment_backends/base_backend.py:608 kpi/views/v2/data.py:523
-msgid "Value must be valid JSON."
-msgstr "Hodnota musí být v platném formátu JSON."
-
-#: kpi/deployment_backends/base_backend.py:563
-msgid "Value must be a list."
-msgstr "Hodnota musí mít podobu seznamu."
-
-#: kpi/deployment_backends/kobocat_backend.py:426
-msgid "Your submission XML is malformed."
-msgstr "Vaše odeslaná data z formuláře XML mají špatný formát."
-
-#: kpi/deployment_backends/kobocat_backend.py:435
-msgid "Your submission XML is missing critical elements."
-msgstr "Ve vašich odeslaných datech z formuláře XML chybí kritické prvky."
-
-#: kpi/deployment_backends/kobocat_backend.py:448
-msgid ""
-"The submission you attempted to edit could not be found, or you do not have "
-"access to it."
-msgstr "Odeslaná data z formuláře, která jste se pokusili upravit, nelze najít nebo k nim nemáte přístup."
-
-#: kpi/deployment_backends/kobocat_backend.py:1529
-msgid "KoBoCAT returned an unexpected response: {}"
-msgstr "KoBoCAT vrátil neočekávanou odpověď: {}"
-
-#: kpi/deployment_backends/kobocat_backend.py:1565
-msgid "Something went wrong"
-msgstr "Něco se pokazilo"
-
-#: kpi/exceptions.py:49
-msgid "Invalid payload for bulk updating of submissions"
-msgstr "Neplatný datový obsah (payload) pro hromadnou aktualizaci odeslaných dat z formuláře"
-
-#: kpi/exceptions.py:64
-msgid "Must call `asset.connect_deployment()` first"
-msgstr "Nejdříve je nutné zavolat `asset.connect_deployment()`"
-
-#: kpi/exceptions.py:80
-msgid ""
-"Your access is restricted. Please reclaim your access by changing your "
-"password at ##koboform_url##/accounts/password/reset/."
-msgstr "Váš přístup je omezený. Obnovte prosím svá přístupová práva změnou hesla na ##koboform_url##/accounts/password/reset/."
-
-#: kpi/exceptions.py:89
-msgid "Invalid search. Please try again"
-msgstr "Neplatné vyhledávání. Zkuste to prosím znovu"
-
-#: kpi/exceptions.py:129
-msgid "An error occurred trying to duplicate the submission"
-msgstr "Při pokusu o duplikaci odeslaných dat z formuláře došlo k chybě"
-
-#: kpi/exceptions.py:143
-msgid "The specified object has not been deployed"
-msgstr "Uvedený objekt nebyl zaveden"
-
-#: kpi/exceptions.py:152
-msgid "Bad syntax"
-msgstr "Nesprávná syntax"
-
-#: kpi/exceptions.py:157
-msgid "Not supported field lookup"
-msgstr "Nepodporované vyhledávání polí"
-
-#: kpi/exceptions.py:168
-msgid "Your query is too short"
-msgstr "Váš dotaz je příliš krátký"
-
-#: kpi/fields/jsonschema_form_field.py:23
-#: kpi/fields/jsonschema_form_field.py:26
-msgid "Enter valid JSON."
-msgstr "Zadejte platný formát JSON."
-
-#: kpi/fields/jsonschema_form_field.py:158
-msgid "`##place_holder##` field cannot be hidden."
-msgstr "Pole `##place_holder##` nemůže být skryté."
-
-#: kpi/fields/writable_json.py:30
-#, python-brace-format
-msgid "Unable to parse JSON: {error}"
-msgstr "Nelze provést syntaktickou analýzu (parsování) formátu JSON: {error}"
-
-#: kpi/mixins/mfa.py:24
-msgid "Multi-factor authentication is enabled for this account. "
-msgstr "Pro tento účet je povoleno vícefaktorové ověřování. "
-
-#: kpi/models/asset.py:251
-msgid "Can view asset"
-msgstr "Může zobrazit položku"
-
-#: kpi/models/asset.py:252
-msgid "Can discover asset in public lists"
-msgstr "Může nalézt položku ve veřejných seznamech"
-
-#: kpi/models/asset.py:253
-msgid "Can manage all aspects of asset"
-msgstr "Může spravovat všechny aspekty položky"
-
-#: kpi/models/asset.py:255
-msgid "Can submit data to asset"
-msgstr "Může odeslat data do položky"
-
-#: kpi/models/asset.py:256
-msgid "Can view submitted data for asset"
-msgstr "Může zobrazit odeslaná data pro položku"
-
-#: kpi/models/asset.py:257
-msgid ""
-"Can make partial actions on submitted data for asset for specific users"
-msgstr "Může provádět dílčí akce na odeslaných datech pro položku pro konkrétní uživatele"
-
-#: kpi/models/asset.py:260
-msgid "Can modify submitted data for asset"
-msgstr "Může upravit odeslaná data pro položku"
-
-#: kpi/models/asset.py:261
-msgid "Can delete submitted data for asset"
-msgstr "Může vymazat odeslaná data pro položku"
-
-#: kpi/models/asset.py:262
-msgid "Can validate submitted data asset"
-msgstr "Může validovat odeslaná data pro položku"
-
-#: kpi/models/asset.py:285
-msgid "project"
-msgstr "projekt"
-
-#: kpi/models/asset.py:285
-msgid "form"
-msgstr "formulář"
-
-#: kpi/models/asset.py:287
-msgid "template"
-msgstr "šablona"
-
-#: kpi/models/asset.py:288
-msgid "block"
-msgstr "blok"
-
-#: kpi/models/asset.py:289
-msgid "question"
-msgstr "otázka"
-
-#: kpi/models/asset.py:290
-msgid "text"
-msgstr "text"
-
-#: kpi/models/asset.py:291
-msgid "empty"
-msgstr "prázdný"
-
-#: kpi/models/asset.py:292
-msgid "collection"
-msgstr "sbírka"
-
-#: kpi/models/asset.py:299
-msgid "View ##asset_type_label##"
-msgstr "Zobrazit ##asset_type_label##"
-
-#: kpi/models/asset.py:300
-msgid "Edit ##asset_type_label##"
-msgstr "Upravit ##asset_type_label##"
-
-#: kpi/models/asset.py:301
-msgid "Discover ##asset_type_label##"
-msgstr "Prozkoumat ##asset_type_label##"
-
-#: kpi/models/asset.py:302
-msgid "Manage ##asset_type_label##"
-msgstr "Spravovat ##asset_type_label##"
-
-#: kpi/models/asset.py:303
-msgid "Add submissions"
-msgstr "Přidat odeslaná data z formuláře"
-
-#: kpi/models/asset.py:304
-msgid "View submissions"
-msgstr "Prohlížet odeslaná data z formuláře"
-
-#: kpi/models/asset.py:307
-msgid "Act on submissions only from specific users"
-msgstr "Reagovat na odeslaná data z formuláře pouze od konkrétních uživatelů"
-
-#: kpi/models/asset.py:310
-msgid "View submissions only from specific users"
-msgstr "Prohlížet odeslaná data z formuláře pouze od konkrétních uživatelů"
-
-#: kpi/models/asset.py:313
-msgid "Edit submissions only from specific users"
-msgstr "Upravit odeslaná data z formuláře pouze od konkrétních uživatelů"
-
-#: kpi/models/asset.py:316
-msgid "Delete submissions only from specific users"
-msgstr "Vymazat odeslaná data z formuláře pouze od konkrétních uživatelů"
-
-#: kpi/models/asset.py:319
-msgid "Validate submissions only from specific users"
-msgstr "Validovat odeslaná data z formuláře pouze od konkrétních uživatelů"
-
-#: kpi/models/asset.py:322
-msgid "Edit submissions"
-msgstr "Upravit odeslaná data z formuláře"
-
-#: kpi/models/asset.py:323
-msgid "Delete submissions"
-msgstr "Smazat odeslaná data z formuláře"
-
-#: kpi/models/asset.py:324
-msgid "Validate submissions"
-msgstr "Validovat odeslaná data z formuláře"
-
-#: kpi/models/asset.py:629
-msgid "Only partial permissions for submissions are supported"
-msgstr "Jsou podporována pouze dílčí oprávnění pro odeslaná data z formuláře"
-
-#: kpi/models/asset.py:1331
-msgid "Can not assign '{}' permission to owner"
-msgstr "Nelze přidělit oprávnění '{}' vlastníkovi"
-
-#: kpi/models/asset.py:1335
-msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr "Nelze přidělit oprávnění '{}'. Dílčí oprávnění chybí."
-
-#: kpi/models/authorized_application.py:40
-msgid "Invalid token."
-msgstr "Neplatný token."
-
-#: kpi/models/import_export_task.py:142
-msgid "Cannot access data"
-msgstr "Nelze získat přístup k datům"
-
-#: kpi/models/import_export_task.py:578
-msgid "This data does not exist or you do not have access to it"
-msgstr "Tato data neexistují, anebo k nim nemáte přístup"
-
-#: kpi/password_validation.py:95
-msgid "You cannot reuse your last password."
-msgstr "Své poslední heslo nemůžete použít opakovaně."
-
-#: kpi/password_validation.py:103
-msgid "Your password cannot be the same as your previous one."
-msgstr "Vaše heslo nesmí být stejné jako to předchozí."
-
-#: kpi/password_validation.py:170
-msgid ""
-"The password must contain at least ##number of rules## different kinds of "
-"characters."
-msgstr "Heslo musí obsahovat nejméně ##number of rules## různých druhů znaků."
-
-#: kpi/serializers/current_user.py:162
-msgid "Incorrect current password."
-msgstr "Nesprávné současné heslo."
-
-#: kpi/serializers/current_user.py:182
-msgid "`current_password` and `new_password` must both be"
-msgstr "`current_password` i `new_password` musí být"
-
-#: kpi/serializers/current_user.py:222
-#: kpi/serializers/v2/asset_permission_assignment.py:290
-msgid "This field may not be blank."
-msgstr "Toto pole nesmí být prázdné."
-
-#: kpi/serializers/v2/asset.py:130
-#, python-format
-msgid "%(count)d project has been undeleted"
-msgstr "Projekt %(count)d byl obnoven"
-
-#: kpi/serializers/v2/asset.py:136
-#, python-format
-msgid "%(count)d project has been deleted"
-msgstr "Projekt %(count)d byl vymazán"
-
-#: kpi/serializers/v2/asset.py:143
-#, python-format
-msgid "%(count)d project has been unarchived"
-msgstr "Projekt %(count)d byl odstraněn z archivu"
-
-#: kpi/serializers/v2/asset.py:149
-#, python-format
-msgid "%(count)d project has been archived"
-msgstr "Projekt %(count)d byl přidán do archivu"
-
-#: kpi/serializers/v2/asset.py:165
-msgid "One or many projects have been deleted already!"
-msgstr "Jeden či více projektů již byly vymazány!"
-
-#: kpi/serializers/v2/asset.py:173
-msgid "One or many projects are already being deleted!"
-msgstr "Jeden či více projektů již bylo smazáno!"
-
-#: kpi/serializers/v2/asset.py:246
-msgid "`action` parameter is required"
-msgstr "Parametr `action` je vyžadován"
-
-#: kpi/serializers/v2/asset.py:251
-msgid "Supported values for `action` are: "
-msgstr "Podporované hodnoty pro `action` jsou: "
-
-#: kpi/serializers/v2/asset.py:273
-msgid "Draft projects cannot be archived"
-msgstr "Návrhy projektů nelze přidat do archivu"
-
-#: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
-msgid "Confirmation is required"
-msgstr "Je vyžadováno potvrzení"
-
-#: kpi/serializers/v2/asset.py:786
-msgid "The property is required"
-msgstr "Je vyžadována vlastnost"
-
-#: kpi/serializers/v2/asset.py:790
-msgid "The property must be an array"
-msgstr "Touto vlastností musí být pole"
-
-#: kpi/serializers/v2/asset.py:812
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "Některá pole jsou neplatná, možnostmi jsou: `{valid_fields}`"
-
-#: kpi/serializers/v2/asset.py:834
-msgid "User cannot update current parent collection"
-msgstr "Uživatel nemůže aktualizovat aktuální nadřazenou kolekci"
-
-#: kpi/serializers/v2/asset.py:844
-#: kpi/tests/api/v2/test_api_collections.py:482
-msgid "Target collection not found"
-msgstr "Cílová kolekce nebyla nalezena"
-
-#: kpi/serializers/v2/asset.py:848
-#: kpi/tests/api/v2/test_api_collections.py:472
-msgid "User cannot update target parent collection"
-msgstr "Uživatel nemůže aktualizovat cílovou nadřazenou kolekci"
-
-#: kpi/serializers/v2/asset_export_settings.py:64
-msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` musí obsahovat všechny následující povinné klíče: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:75
-msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` může obsahovat pouze následující platné klíče: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:87
-msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` musí být buď {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:94
-msgid "`type` must be either {}"
-msgstr "`type` musí být buď {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:104
-msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` musí mít neprázdnou hodnotu"
-
-#: kpi/serializers/v2/asset_export_settings.py:109
-msgid "`lang` for this asset must be either {}"
-msgstr "`lang` pro tuto položku musí být buď {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:119
-#: kpi/serializers/v2/export_task.py:229
-msgid "Must be a JSON object"
-msgstr "Musí se jednat o objekt ve formátu JSON"
-
-#: kpi/serializers/v2/asset_export_settings.py:134
-#: kpi/serializers/v2/export_task.py:247
-msgid "All values in the array must be integers"
-msgstr "Všechny hodnoty v poli musí být celá čísla"
-
-#: kpi/serializers/v2/asset_export_settings.py:145
-msgid "`fields` must be an array"
-msgstr "`fields` musí být pole"
-
-#: kpi/serializers/v2/asset_export_settings.py:149
-msgid "All values in the `fields` array must be strings"
-msgstr "Všechny hodnoty v poli `fields` musí být řetězce"
-
-#: kpi/serializers/v2/asset_file.py:117
-msgid "JSON is invalid"
-msgstr "Formát JSON je neplatný"
-
-#: kpi/serializers/v2/asset_file.py:130
-msgid "Invalid content"
-msgstr "Neplatný obsah"
-
-#: kpi/serializers/v2/asset_file.py:143
-msgid "No files have been submitted"
-msgstr "Nebyly odeslány žádné soubory"
-
-#: kpi/serializers/v2/asset_file.py:158
-msgid "File already exists"
-msgstr "Soubor již existuje"
-
-#: kpi/serializers/v2/asset_file.py:208
-msgid ""
-"You cannot upload media file with two different ways at the same time. "
-"Please choose between binary upload, base64 or remote URL."
-msgstr "Mediální soubor nelze nahrát dvěma různými způsoby současně. Vyberte si mezi binárním nahráváním, base64 nebo vzdálenou adresou URL."
-
-#: kpi/serializers/v2/asset_file.py:221
-msgid "This field is required"
-msgstr "Toto pole je povinné"
-
-#: kpi/serializers/v2/asset_file.py:229
-msgid "`redirect_url` is required"
-msgstr "`redirect_url` je povinné"
-
-#: kpi/serializers/v2/asset_file.py:239
-msgid "`filename` is required"
-msgstr "`filename` je povinné"
-
-#: kpi/serializers/v2/asset_file.py:253
-msgid "`redirect_url` is invalid"
-msgstr "`redirect_url` je neplatné"
-
-#: kpi/serializers/v2/asset_file.py:287
-msgid "Only `{}` MIME types are allowed"
-msgstr "Povoleny jsou pouze typy `{}` MIME"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:163
-msgid "This field is required for the '{}' permission"
-msgstr "Toto pole je povinné pro oprávnění '{}'"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:177
-#: kpi/serializers/v2/asset_permission_assignment.py:182
-#: kpi/serializers/v2/asset_permission_assignment.py:188
-#: kpi/serializers/v2/asset_permission_assignment.py:497
-msgid "Invalid `url`"
-msgstr "Neplatné `url`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:193
-msgid "Invalid `filters`"
-msgstr "Neplatné `filters`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:210
-#, python-brace-format
-msgid ""
-"{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "{permission} nelze přiřadit explicitně objektům Asset tohoto typu."
-
-#: kpi/serializers/v2/asset_permission_assignment.py:289
-msgid "Not a valid list."
-msgstr "Neplatný seznam."
-
-#: kpi/serializers/v2/asset_permission_assignment.py:490
-#: kpi/serializers/v2/asset_permission_assignment.py:493
-msgid "Invalid hyperlink - Object does not exist."
-msgstr "Neplatný hypertextový odkaz – objekt neexistuje."
-
-#: kpi/serializers/v2/data.py:70
-msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` musí obsahovat pouze hodnoty v celých číslech"
-
-#: kpi/serializers/v2/data.py:75
-msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` musí obsahovat alespoň jednu hodnotu"
-
-#: kpi/serializers/v2/data.py:83
-msgid "`data` is required"
-msgstr "`data` je povinné"
-
-#: kpi/serializers/v2/data.py:91
-msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` je povinné"
-
-#: kpi/serializers/v2/export_task.py:123
-msgid "Must contain all the following required keys: {}"
-msgstr "Musí obsahovat všechny následující požadované klíče: {}"
-
-#: kpi/serializers/v2/export_task.py:137
-msgid "Can contain only the following valid keys: {}"
-msgstr "Může obsahovat pouze následující platné klíče: {}"
-
-#: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
-msgid "Must be an array"
-msgstr "Musí být pole"
-
-#: kpi/serializers/v2/export_task.py:159
-msgid "All values in the array must be strings"
-msgstr "Všechny hodnoty v poli musí být řetězce"
-
-#: kpi/serializers/v2/export_task.py:169
-msgid "Must be a non-empty value"
-msgstr "Musí se jednat o neprázdnou hodnotu"
-
-#: kpi/serializers/v2/export_task.py:182
-msgid "For this asset must be either {}"
-msgstr "Pro tuto položku musí být buď {}"
-
-#: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
-msgid "Must be either {}"
-msgstr "Musí být buď {}"
-
-#: kpi/serializers/v2/export_task.py:204
-msgid "The asset must be deployed."
-msgstr "Tato položka musí být zveřejněna."
-
-#: kpi/serializers/v2/export_task.py:221
-msgid "The export name must be a string."
-msgstr "Název exportu musí být řetězec."
-
-#: kpi/serializers/v2/paired_data.py:87
-msgid "Source cannot be changed"
-msgstr "Zdroj nelze změnit"
-
-#: kpi/serializers/v2/paired_data.py:93
-#, python-brace-format
-msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "Sdílení dat pro `{source_uid}` není povoleno"
-
-#: kpi/serializers/v2/paired_data.py:105
-#, python-brace-format
-msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "Párování dat s `{source_uid}` není povoleno"
-
-#: kpi/serializers/v2/paired_data.py:110
-#, python-brace-format
-msgid "Source `{source}` is already paired"
-msgstr "Zdroj `{source}` již je spárován"
-
-#: kpi/serializers/v2/paired_data.py:152
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "Některá pole jsou neplatná, možnostmi jsou: `{source_fields}`"
-
-#: kpi/serializers/v2/paired_data.py:177
-msgid "Only letters, numbers and `-` are allowed"
-msgstr "Povolena jsou pouze písmena, číslice a `-`"
-
-#: kpi/serializers/v2/paired_data.py:184
-msgid "Extension must be `xml`"
-msgstr "Přípona musí být `xml`"
-
-#: kpi/serializers/v2/paired_data.py:217
-#, python-brace-format
-msgid "`{basename}` is already used"
-msgstr "`{basename}` se již používá"
-
-#: kpi/serializers/v2/user_asset_subscription.py:47
-#, python-brace-format
-msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "Neplatný typ položky. Povolen je pouze `{asset_type}`"
-
-#: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
-msgid "Modern Browsers"
-msgstr "Moderní prohlížeče"
-
-#: kpi/templates/modern_browsers.html:8
-msgid ""
-"Ouch! Sorry, you were probably sent here because your browser is outdated or"
-" perhaps it has its key features disabled by using \"private browsing\" "
-"mode."
-msgstr "Au! Omlouváme se, pravděpodobně jste sem byli posláni, protože je váš prohlížeč zastaralý nebo má možná vypnuté klíčové funkce kvůli režimu „soukromého prohlížení“."
-
-#: kpi/templates/modern_browsers.html:12
-msgid ""
-"If you are using an outdated browser, we recommend upgrading to a recent "
-"version of one of the following excellent modern browsers:"
-msgstr "Pokud používáte zastaralý prohlížeč, doporučujeme přejít na nejnovější verzi některého z následujících vynikajících moderních prohlížečů:"
-
-#: kpi/templates/modern_browsers.html:17
-msgid "Firefox download page"
-msgstr "Stránka pro stažení Firefoxu"
-
-#: kpi/templates/modern_browsers.html:18
-msgid "Firefox"
-msgstr "Firefox"
-
-#: kpi/templates/modern_browsers.html:22
-msgid "Chrome download page"
-msgstr "Stránka pro stažení Chrome"
-
-#: kpi/templates/modern_browsers.html:23
-msgid "Chrome"
-msgstr "Chrome"
-
-#: kpi/templates/modern_browsers.html:27
-msgid "Edge download page"
-msgstr "Stránka pro stažení Edge"
-
-#: kpi/templates/modern_browsers.html:28
-msgid "Edge"
-msgstr "Edge"
-
-#: kpi/templates/modern_browsers.html:32
-msgid "Opera download page"
-msgstr "Stránka pro stažení Opery"
-
-#: kpi/templates/modern_browsers.html:33
-msgid "Opera"
-msgstr "Opera"
-
-#: kpi/tests/test_registration.py:71
-msgid "This email domain is not allowed to create an account"
-msgstr "Není povoleno vytvořit účet pomocí této e-mailové domény"
-
-#: kpi/utils/two_database_configuration_checker.py:41
-msgid "Exactly two databases must be configured"
-msgstr "Je třeba nakonfigurovat přesně dvě databáze"
-
-#: kpi/utils/two_database_configuration_checker.py:42
-msgid ""
-"KPI and KoBoCAT must each have their own databases. Configure the KPI "
-"database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "KPI a KoBoCAT musí mít každá svou vlastní databázi. Databázi KPI nakonfigurujte jako 'default' a databázi KoBoCAT jako 'kobocat'."
-
-#: kpi/utils/two_database_configuration_checker.py:63
-msgid "KPI may not share a database with KoBoCAT"
-msgstr "KPI nesmí sdílet databázi s KoBoCAT"
-
-#: kpi/utils/two_database_configuration_checker.py:64
-msgid "KPI and KoBoCAT must each have their own databases."
-msgstr "KPI a KoBoCAT musí mít každá svou vlastní databázi."
-
-#: kpi/utils/two_database_configuration_checker.py:133
-msgid "Incomplete migration from shared-database installation"
-msgstr "Neúplná migrace z instalace sdílené databáze"
-
-#: kpi/utils/two_database_configuration_checker.py:134
-msgid ""
-"The KoBoCAT database was originally shared by KPI, but the KPI tables were "
-"not copied from that shared database to the new, KPI-only database."
-msgstr "Databáze KoBoCAT byla původně sdílená s databází KPI, ale tabulky KPI nebyly zkopírovány z této sdílené databáze do nové databáze určené pouze pro KPI."
-
-#: kpi/views/current_user.py:107
-msgid "Invalid confirmation"
-msgstr "Neplatné potvrzení"
-
-#: kpi/views/v2/asset_export_settings.py:228
-msgid "Only the following formats are available: ##format list##"
-msgstr "K dispozici jsou pouze následující formáty: ##format list##"
-
-#: kpi/views/v2/asset_permission_assignment.py:211
-msgid "Source and destination objects don't seem to have the same type"
-msgstr "Zdá se, že zdrojové a cílové objekty nemají stejný typ"
-
-#: kpi/views/v2/asset_permission_assignment.py:240
-msgid "Owner's permissions cannot be deleted"
-msgstr "Oprávnění vlastníka nelze odstranit"
-
-#: kpi/views/v2/attachment.py:73
-msgid "`xpath` query parameter is required"
-msgstr "Parametr `xpath` dotazu je povinný"
-
-#: kpi/views/v2/attachment.py:94
-msgid "Invalid XPath syntax"
-msgstr "Neplatná syntax XPath"
-
-#: kpi/views/v2/attachment.py:98
-msgid "The path could not be found in the submission"
-msgstr "Cesta nebyla v odeslaných datech z formuláře nalezena"
-
-#: kpi/views/v2/attachment.py:107
-msgid "The error occurred during conversion"
-msgstr "K chybě došlo během konverze"
-
-#: kpi/views/v2/attachment.py:111
-msgid "Conversion is not supported for {}"
-msgstr "Konverze není podporována pro {}"
-
-#: kpi/views/v2/data.py:318
-msgid "The specified asset has not been deployed"
-msgstr "Uvedená položka nebyla zavedena"
-
-#: kpi/views/v2/data.py:622
-msgid "A positive integer is required"
-msgstr "Je vyžadováno celé kladné číslo"
+#~ msgid "Invalid token."
+#~ msgstr "Invalid token."

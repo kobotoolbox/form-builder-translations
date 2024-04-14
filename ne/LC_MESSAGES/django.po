@@ -3,6 +3,8 @@
 # This file is distributed under the same license as the PACKAGE package.
 # 
 # Translators:
+# Translators:
+# Translators:
 # Ananda Gautam, 2022
 # Ananda Gautam, 2022
 # DIPENDRA KC <kc.dipendra@gmail.com>, 2023
@@ -12,7 +14,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-02-09 19:00+0000\n"
+"POT-Creation-Date: 2024-04-11 19:59+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Saguna thapa, 2023\n"
 "Language-Team: Nepali (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ne/)\n"
@@ -39,6 +41,7 @@ msgid "Government institution"
 msgstr "सरकारी संस्था"
 
 #: kobo/apps/accounts/forms.py:78
+#| msgid "Educational Services / Higher Education"
 msgid "Educational organization"
 msgstr "शैक्षिक संस्था"
 
@@ -62,11 +65,11 @@ msgstr "महिला"
 msgid "Other"
 msgstr "अन्य"
 
-#: kobo/apps/accounts/forms.py:124 kpi/templates/base.html:29
+#: kobo/apps/accounts/forms.py:124
 msgid "Terms of Service"
 msgstr "सेवा सर्तहरु"
 
-#: kobo/apps/accounts/forms.py:131 kpi/templates/base.html:34
+#: kobo/apps/accounts/forms.py:131
 msgid "Privacy Policy"
 msgstr "गोपनीयता नीति"
 
@@ -98,28 +101,28 @@ msgstr "##token length##-क्यारेक्टर टोकन प्र�
 msgid "Your token is invalid"
 msgstr "तपाईंको टोकन अमान्य छ"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:21
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:22
 msgid "Please enter your verification token"
 msgstr "कृपया तपाईँको प्रमाणीकरण टोकन प्रविष्ट गर्नुहोस्"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:25
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:26
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
 msgstr "कृपया आफ्नो प्रमाणक एपमा देखाईएको प्रमाणिकरण टोकन प्रविष्ट गर्नुहोस्।"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:32
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:33
 msgid "Problems with the token"
 msgstr "टोकनसँग समस्या"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:37
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:38
 msgid "Continue"
 msgstr "जारी राख्नुहोस्"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:45
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:46
 msgid "Verification issues"
 msgstr "प्रमाणीकरण समस्याहरू"
 
-#: kobo/apps/accounts/mfa/templates/mfa_token.html:53
+#: kobo/apps/accounts/mfa/templates/mfa_token.html:54
 msgid "Back"
 msgstr "पछाडी"
 
@@ -155,6 +158,7 @@ msgid ""
 msgstr "तपाईंको खाता प्रमाणित गर्नाले KoboToolbox का अनुप्रयोगहरूमा पहुँच पाउनु हुनेछ। आफ्नो नयाँ खाताको सक्रिय गर्ने प्रकृया पूरा गर्नको लागि निम्न URL मा जानुहोस्।"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
+#| msgid "Username"
 msgid "Your username is: "
 msgstr "तपाईँको प्रयोगकर्ता नाम: "
 
@@ -414,6 +418,7 @@ msgid ""
 msgstr "प्रयोगकर्ताका नामहरूको लम्बाइ २ र ३० वर्णहरू बीच हुनुपर्छ, र केवल सानो अक्षरहरू, संख्याहरू, र अन्डरस्कोरहरू समावेश हुन सक्छ, जहाँ पहिलो वर्ण एक अक्षर हुनुपर्छ।"
 
 #: kobo/apps/hook/serializers/v2/hook.py:46
+#| msgid "Invalid token."
 msgid "Invalid scheme"
 msgstr "अवैध योजना"
 
@@ -422,6 +427,7 @@ msgid "Unsecured endpoint is not allowed"
 msgstr "असुरक्षित अन्तिम बिन्दुलाई अनुमति छैन"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
+#| msgid "Invalid token."
 msgid "Invalid JSON"
 msgstr "अमान्य JSON"
 
@@ -494,8 +500,6 @@ msgid "Data is being or has already been processed"
 msgstr "डाटा प्रशोधन हुँदै छ वा पहिले नै प्रशोधन भइसकेको छ"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:54
-#: kpi/deployment_backends/base_backend.py:593
-#: kpi/deployment_backends/base_backend.py:600
 msgid "A positive integer is required."
 msgstr "सकारात्मक पूर्णांक आवश्यक छ।"
 
@@ -652,11 +656,11 @@ msgstr "के यो परियोजनाले व्यक्तिगत
 msgid "Description"
 msgstr "विवरण"
 
-#: kobo/static_lists.py:352 kpi/password_validation.py:109
+#: kobo/static_lists.py:352
 msgid "Full name"
 msgstr "पुरा नाम"
 
-#: kobo/static_lists.py:353 kpi/password_validation.py:110
+#: kobo/static_lists.py:353
 msgid "Organization name"
 msgstr "संस्थाकाे नाम"
 
@@ -696,691 +700,14 @@ msgstr "इन्स्टाग्राम"
 msgid "I want to receive occasional updates about KoboToolbox"
 msgstr "म KoboToolbox बारे कहिले काँही अद्यावधिकहरू प्राप्त गर्न चाहन्छु"
 
-#: kpi/authentication.py:59
-msgid "Invalid username/password"
-msgstr "अवैध प्रयोगकर्ता नाम/पासवर्ड"
+#~ msgid "Suriname"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:122
-msgid "No submissions match the given `submission_ids`"
-msgstr "कुनै पनि सबमिशन दिइएको `submission_ids` सँग मेल खाँदैन"
+#~ msgid "User"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:522
-msgid ""
-"This param is not implemented. Use `count` property of the response instead."
-msgstr "यो param लागू गरिएको छैन। यसको सट्टा `count` प्रतिक्रियाको गुण प्रयोग गर्नुहोस्।"
+#~ msgid "Username"
+#~ msgstr "Username"
 
-#: kpi/deployment_backends/base_backend.py:533
-msgid "This param is not supported in `XML` format"
-msgstr "यो param `XML` ढाँचामा समर्थित छैन"
-
-#: kpi/deployment_backends/base_backend.py:538
-msgid "This is not supported in `XML` format"
-msgstr "यो `XML` ढाँचामा समर्थित छैन"
-
-#: kpi/deployment_backends/base_backend.py:558
-#: kpi/deployment_backends/base_backend.py:586
-#: kpi/deployment_backends/base_backend.py:608 kpi/views/v2/data.py:523
-msgid "Value must be valid JSON."
-msgstr "मान्य JSON हुनु पर्छ।"
-
-#: kpi/deployment_backends/base_backend.py:563
-msgid "Value must be a list."
-msgstr "मान्य सूची हुनु पर्छ।"
-
-#: kpi/deployment_backends/kobocat_backend.py:426
-msgid "Your submission XML is malformed."
-msgstr "तपाईको सबमिशन XML विकृत छ।"
-
-#: kpi/deployment_backends/kobocat_backend.py:435
-msgid "Your submission XML is missing critical elements."
-msgstr "तपाइँको सबमिशन XML मा महत्वपूर्ण तत्वहरू छैनन्।"
-
-#: kpi/deployment_backends/kobocat_backend.py:448
-msgid ""
-"The submission you attempted to edit could not be found, or you do not have "
-"access to it."
-msgstr "तपाईंले सम्पादन गर्ने प्रयास गर्नुभएको सबमिशन फेला पार्न सकिएन, वा तपाईंको यसमा पहुँच छैन।"
-
-#: kpi/deployment_backends/kobocat_backend.py:1529
-msgid "KoBoCAT returned an unexpected response: {}"
-msgstr "KoBoCAT ले अप्रत्याशित प्रतिक्रिया फिर्ता: {}"
-
-#: kpi/deployment_backends/kobocat_backend.py:1565
-msgid "Something went wrong"
-msgstr "केहि गलत भयो"
-
-#: kpi/exceptions.py:49
-msgid "Invalid payload for bulk updating of submissions"
-msgstr "बल्कमा प्रस्तुतिहरूलाई अपडेट गर्नका लागि अवैध पेलोड"
-
-#: kpi/exceptions.py:64
-msgid "Must call `asset.connect_deployment()` first"
-msgstr "पहिले `asset.connect_deployment()` लाई कल गर्नुपर्छ"
-
-#: kpi/exceptions.py:80
-msgid ""
-"Your access is restricted. Please reclaim your access by changing your "
-"password at ##koboform_url##/accounts/password/reset/."
-msgstr "तपाईंको पहुँच प्रतिबन्धित छ। कृपया ##koboform_url##/accounts/password/reset/ मा आफ्नो पासवर्ड परिवर्तन गरेर आफ्नो पहुँच पुन: दावी गर्नुहोस्।"
-
-#: kpi/exceptions.py:89
-msgid "Invalid search. Please try again"
-msgstr "अमान्य खोज। फेरि प्रयास गर्नुहोस"
-
-#: kpi/exceptions.py:129
-msgid "An error occurred trying to duplicate the submission"
-msgstr "सबमिशन डुप्लिकेट गर्ने प्रयास गर्दा त्रुटि भयो"
-
-#: kpi/exceptions.py:143
-msgid "The specified object has not been deployed"
-msgstr "निर्दिष्ट वस्तु प्रयोग गरिएको छैन"
-
-#: kpi/exceptions.py:152
-msgid "Bad syntax"
-msgstr "खराब वाक्य रचना"
-
-#: kpi/exceptions.py:157
-msgid "Not supported field lookup"
-msgstr "क्षेत्र खोज समर्थित गरिएको होइन"
-
-#: kpi/exceptions.py:168
-msgid "Your query is too short"
-msgstr "तपाईको क्वेरी धेरै छोटो छ"
-
-#: kpi/fields/jsonschema_form_field.py:23
-#: kpi/fields/jsonschema_form_field.py:26
-msgid "Enter valid JSON."
-msgstr "मान्य JSON प्रविष्ट गर्नुहोस्।"
-
-#: kpi/fields/jsonschema_form_field.py:158
-msgid "`##place_holder##` field cannot be hidden."
-msgstr "`##place_holder##` क्षेत्र लुकाउन सकिँदैन।"
-
-#: kpi/fields/writable_json.py:30
-#, python-brace-format
-msgid "Unable to parse JSON: {error}"
-msgstr "JSON पार्स गर्न असमर्थ: {error}"
-
-#: kpi/mixins/mfa.py:24
-msgid "Multi-factor authentication is enabled for this account. "
-msgstr "यस खाताको लागि बहु-कारक प्रमाणीकरण सक्षम गरिएको छ। "
-
-#: kpi/models/asset.py:251
-msgid "Can view asset"
-msgstr "सम्पत्ति हेर्न सक्नुहुन्छ"
-
-#: kpi/models/asset.py:252
-msgid "Can discover asset in public lists"
-msgstr "सार्वजनिक सूचीहरूमा सम्पत्ति पत्ता लगाउन सक्छ"
-
-#: kpi/models/asset.py:253
-msgid "Can manage all aspects of asset"
-msgstr "सम्पत्तिको सबै पक्षहरू व्यवस्थापन गर्न सक्छ"
-
-#: kpi/models/asset.py:255
-msgid "Can submit data to asset"
-msgstr "सम्पत्तिमा डाटा पेश गर्न सक्छ"
-
-#: kpi/models/asset.py:256
-msgid "Can view submitted data for asset"
-msgstr "सम्पत्तिको लागि पेश गरिएको डाटा हेर्न सक्नुहुन्छ"
-
-#: kpi/models/asset.py:257
-msgid ""
-"Can make partial actions on submitted data for asset for specific users"
-msgstr "विशिष्ट प्रयोगकर्ताहरूको निमित्त सम्पत्तिको लागि पेश गरिएको डेटामा आंशिक कार्यहरू गर्न सक्छ"
-
-#: kpi/models/asset.py:260
-msgid "Can modify submitted data for asset"
-msgstr "सम्पत्तिहरूको लागि पेश गरिएको डाटा परिमार्जन गर्न सक्छ"
-
-#: kpi/models/asset.py:261
-msgid "Can delete submitted data for asset"
-msgstr "सम्पत्तिको लागि पेश गरिएको डाटा मेटाउन सकिन्छ"
-
-#: kpi/models/asset.py:262
-msgid "Can validate submitted data asset"
-msgstr "पेश गरिएको डाटा सम्पत्ति पुष्टि गर्न सकिन्छ"
-
-#: kpi/models/asset.py:285
-msgid "project"
-msgstr "परियोजना"
-
-#: kpi/models/asset.py:285
-msgid "form"
-msgstr "फारम"
-
-#: kpi/models/asset.py:287
-msgid "template"
-msgstr "टेम्प्लेट"
-
-#: kpi/models/asset.py:288
-msgid "block"
-msgstr "ब्लक"
-
-#: kpi/models/asset.py:289
-msgid "question"
-msgstr "प्रश्न"
-
-#: kpi/models/asset.py:290
-msgid "text"
-msgstr "पाठ"
-
-#: kpi/models/asset.py:291
-msgid "empty"
-msgstr "खाली"
-
-#: kpi/models/asset.py:292
-msgid "collection"
-msgstr "सङ्कलन"
-
-#: kpi/models/asset.py:299
-msgid "View ##asset_type_label##"
-msgstr "##asset_type_label## हेर्नुहोस्"
-
-#: kpi/models/asset.py:300
-msgid "Edit ##asset_type_label##"
-msgstr "##asset_type_label## सम्पादन गर्नुहोस्"
-
-#: kpi/models/asset.py:301
-msgid "Discover ##asset_type_label##"
-msgstr "##asset_type_label## पत्ता लगाउनुहोस्"
-
-#: kpi/models/asset.py:302
-msgid "Manage ##asset_type_label##"
-msgstr "##asset_type_label## व्यवस्थापन गर्नुहोस्"
-
-#: kpi/models/asset.py:303
-msgid "Add submissions"
-msgstr "सबमिशनहरू थप्नुहोस्"
-
-#: kpi/models/asset.py:304
-msgid "View submissions"
-msgstr "सबमिशनहरू हेर्नुहोस्"
-
-#: kpi/models/asset.py:307
-msgid "Act on submissions only from specific users"
-msgstr "केवल विशिष्ट प्रयोगकर्ताहरूको सबमिशनमा कार्य गर्नुहोस्"
-
-#: kpi/models/asset.py:310
-msgid "View submissions only from specific users"
-msgstr "केवल विशिष्ट प्रयोगकर्ताहरूको सबमिशनहरू हेर्नुहोस्"
-
-#: kpi/models/asset.py:313
-msgid "Edit submissions only from specific users"
-msgstr "केवल विशिष्ट प्रयोगकर्ताहरूको सबमिशनहरू सम्पादन गर्नुहोस्"
-
-#: kpi/models/asset.py:316
-msgid "Delete submissions only from specific users"
-msgstr "केवल विशिष्ट प्रयोगकर्ताहरूको सबमिशनहरू मेटाउनुहोस्"
-
-#: kpi/models/asset.py:319
-msgid "Validate submissions only from specific users"
-msgstr "विशिष्ट प्रयोगकर्ताहरूको मात्र सबमिशनहरू मान्य गर्नुहोस्"
-
-#: kpi/models/asset.py:322
-msgid "Edit submissions"
-msgstr "सबमिशनहरू सम्पादन गर्नुहोस्"
-
-#: kpi/models/asset.py:323
-msgid "Delete submissions"
-msgstr "सबमिशनहरू मेटाउनुहोस्"
-
-#: kpi/models/asset.py:324
-msgid "Validate submissions"
-msgstr "सबमिशनहरू मान्य गर्नुहोस्"
-
-#: kpi/models/asset.py:629
-msgid "Only partial permissions for submissions are supported"
-msgstr "सबमिशनहरूको लागि आंशिक अनुमतिहरू मात्र समर्थित छन्"
-
-#: kpi/models/asset.py:1331
-msgid "Can not assign '{}' permission to owner"
-msgstr "मालिकलाई '{}' अनुमति तोक्न सकिँदैन"
-
-#: kpi/models/asset.py:1335
-msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr "'{}' अनुमति तोक्न सकिँदैन। आंशिक अनुमतिहरू हराइरहेका छन्।"
-
-#: kpi/models/authorized_application.py:40
-msgid "Invalid token."
-msgstr "अमान्य टोकन।"
-
-#: kpi/models/import_export_task.py:142
-msgid "Cannot access data"
-msgstr "डाटा पहुँच गर्न सक्दैन"
-
-#: kpi/models/import_export_task.py:578
-msgid "This data does not exist or you do not have access to it"
-msgstr "यो डाटा अवस्थित छैन वा तपाईंको यसमा पहुँच छैन"
-
-#: kpi/password_validation.py:95
-msgid "You cannot reuse your last password."
-msgstr "तपाईंले आफ्नो अन्तिम पासवर्ड पुन: प्रयोग गर्न सक्नुहुन्न।"
-
-#: kpi/password_validation.py:103
-msgid "Your password cannot be the same as your previous one."
-msgstr "तपाईको पासवर्ड तपाईको अघिल्लो पासवर्ड जस्तै हुन सक्दैन।"
-
-#: kpi/password_validation.py:170
-msgid ""
-"The password must contain at least ##number of rules## different kinds of "
-"characters."
-msgstr "पासवर्डमा कम्तिमा ##number of rules## विभिन्न प्रकारका अक्षरहरू हुनुपर्छ।"
-
-#: kpi/serializers/current_user.py:162
-msgid "Incorrect current password."
-msgstr "हालको पासवर्ड गलत छ।"
-
-#: kpi/serializers/current_user.py:182
-msgid "`current_password` and `new_password` must both be"
-msgstr "`current_password` र `new_password` दुवै हुनुपर्छ"
-
-#: kpi/serializers/current_user.py:222
-#: kpi/serializers/v2/asset_permission_assignment.py:290
-msgid "This field may not be blank."
-msgstr "यो क्षेत्र खाली नहुन सक्छ।"
-
-#: kpi/serializers/v2/asset.py:130
-#, python-format
-msgid "%(count)d project has been undeleted"
-msgstr "%(count)d परियोजना मेटाइएको छैन"
-
-#: kpi/serializers/v2/asset.py:136
-#, python-format
-msgid "%(count)d project has been deleted"
-msgstr "%(count)d परियोजना हटाइएको छ"
-
-#: kpi/serializers/v2/asset.py:143
-#, python-format
-msgid "%(count)d project has been unarchived"
-msgstr "%(count)d परियोजना अनभिलेख गरिएको छ"
-
-#: kpi/serializers/v2/asset.py:149
-#, python-format
-msgid "%(count)d project has been archived"
-msgstr "%(count)d परियोजना अभिलेख गरिएको छ"
-
-#: kpi/serializers/v2/asset.py:165
-msgid "One or many projects have been deleted already!"
-msgstr "एक वा धेरै परियोजनाहरू पहिले नै मेटाइएका छन्!"
-
-#: kpi/serializers/v2/asset.py:173
-msgid "One or many projects are already being deleted!"
-msgstr "एक वा धेरै परियोजनाहरू पहिले नै मेटाइँदै छन्!"
-
-#: kpi/serializers/v2/asset.py:246
-msgid "`action` parameter is required"
-msgstr "`action` पारामिटर आवश्यक छ"
-
-#: kpi/serializers/v2/asset.py:251
-msgid "Supported values for `action` are: "
-msgstr "`action` का लागि यो समर्थित मानहरू हुन्: "
-
-#: kpi/serializers/v2/asset.py:273
-msgid "Draft projects cannot be archived"
-msgstr "मस्यौदा परियोजनाहरू अभिलेख गर्न सकिँदैन"
-
-#: kpi/serializers/v2/asset.py:279 kpi/serializers/v2/data.py:61
-msgid "Confirmation is required"
-msgstr "पुष्टिकरण आवश्यक छ"
-
-#: kpi/serializers/v2/asset.py:786
-msgid "The property is required"
-msgstr "सम्पत्ति आवश्यक छ"
-
-#: kpi/serializers/v2/asset.py:790
-msgid "The property must be an array"
-msgstr "सम्पत्ति एरे हुनुपर्छ"
-
-#: kpi/serializers/v2/asset.py:812
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr "केही क्षेत्रहरू अमान्य छन्, विकल्पहरू यी हुन्: `{valid_fields}`"
-
-#: kpi/serializers/v2/asset.py:834
-msgid "User cannot update current parent collection"
-msgstr "प्रयोगकर्ताले वर्तमान मुख्य संग्रहलाई अपडेट गर्न सक्दैन"
-
-#: kpi/serializers/v2/asset.py:844
-#: kpi/tests/api/v2/test_api_collections.py:482
-msgid "Target collection not found"
-msgstr "लक्षित संग्रह प्राप्त गरिएन"
-
-#: kpi/serializers/v2/asset.py:848
-#: kpi/tests/api/v2/test_api_collections.py:472
-msgid "User cannot update target parent collection"
-msgstr "प्रयोगकर्ताले लक्षित मुख्य संग्रहलाई अपडेट गर्न सक्दैन"
-
-#: kpi/serializers/v2/asset_export_settings.py:64
-msgid "`export_settings` must contain all the following required keys: {}"
-msgstr "`export_settings` मा निम्न सबै आवश्यक कुञ्जीहरू समावेश हुनुपर्छ: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:75
-msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr "`export_settings` मा निम्न वैध कुञ्जीहरू मात्र समावेश हुन सक्छन्: {}"
-
-#: kpi/serializers/v2/asset_export_settings.py:87
-msgid "`multiple_select` must be either {}"
-msgstr "`multiple_select` या त {} हुनुपर्छ"
-
-#: kpi/serializers/v2/asset_export_settings.py:94
-msgid "`type` must be either {}"
-msgstr "`type` या त {} हुनुपर्छ"
-
-#: kpi/serializers/v2/asset_export_settings.py:104
-msgid "`group_sep` must be a non-empty value"
-msgstr "`group_sep` गैर-रिक्त मान हुनुपर्छ"
-
-#: kpi/serializers/v2/asset_export_settings.py:109
-msgid "`lang` for this asset must be either {}"
-msgstr "यस `lang` सम्पत्तिको लागि या त {} हुनुपर्छ"
-
-#: kpi/serializers/v2/asset_export_settings.py:119
-#: kpi/serializers/v2/export_task.py:229
-msgid "Must be a JSON object"
-msgstr "JSON वस्तु हुनुपर्छ"
-
-#: kpi/serializers/v2/asset_export_settings.py:134
-#: kpi/serializers/v2/export_task.py:247
-msgid "All values in the array must be integers"
-msgstr "एरेका सबै मानहरू पूर्णाङ्कहरू हुनुपर्छ"
-
-#: kpi/serializers/v2/asset_export_settings.py:145
-msgid "`fields` must be an array"
-msgstr "`fields` एरे हुनुपर्छ"
-
-#: kpi/serializers/v2/asset_export_settings.py:149
-msgid "All values in the `fields` array must be strings"
-msgstr "`fields` एरेका सबै मानहरू स्ट्रिङहरू हुनुपर्छ"
-
-#: kpi/serializers/v2/asset_file.py:117
-msgid "JSON is invalid"
-msgstr "JSON अमान्य छ"
-
-#: kpi/serializers/v2/asset_file.py:130
-msgid "Invalid content"
-msgstr "अमान्य सामग्री"
-
-#: kpi/serializers/v2/asset_file.py:143
-msgid "No files have been submitted"
-msgstr "कुनै पनि फाइलहरू पेश गरिएको छैन"
-
-#: kpi/serializers/v2/asset_file.py:158
-msgid "File already exists"
-msgstr "फाइल पहिले नै अवस्थित छ"
-
-#: kpi/serializers/v2/asset_file.py:208
-msgid ""
-"You cannot upload media file with two different ways at the same time. "
-"Please choose between binary upload, base64 or remote URL."
-msgstr "तपाईंले एकै समयमा दुई फरक तरिकाले मिडिया फाइल अपलोड गर्न सक्नुहुन्न। कृपया बाइनरी अपलोड, बेस64 वा रिमोट URL बीच छनौट गर्नुहोस्"
-
-#: kpi/serializers/v2/asset_file.py:221
-msgid "This field is required"
-msgstr "यो क्षेत्र आवश्यक छ"
-
-#: kpi/serializers/v2/asset_file.py:229
-msgid "`redirect_url` is required"
-msgstr "`redirect_url` आवश्यक छ"
-
-#: kpi/serializers/v2/asset_file.py:239
-msgid "`filename` is required"
-msgstr "`filename` आवश्यक छ"
-
-#: kpi/serializers/v2/asset_file.py:253
-msgid "`redirect_url` is invalid"
-msgstr "`redirect_url` अवैध छ"
-
-#: kpi/serializers/v2/asset_file.py:287
-msgid "Only `{}` MIME types are allowed"
-msgstr "`{}` MIME प्रकारहरूलाई मात्र अनुमति छ"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:163
-msgid "This field is required for the '{}' permission"
-msgstr "यो क्षेत्र '{}' अनुमतिको लागि आवश्यक छ"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:177
-#: kpi/serializers/v2/asset_permission_assignment.py:182
-#: kpi/serializers/v2/asset_permission_assignment.py:188
-#: kpi/serializers/v2/asset_permission_assignment.py:497
-msgid "Invalid `url`"
-msgstr "अवैध `url`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:193
-msgid "Invalid `filters`"
-msgstr "अवैध `filters`"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:210
-#, python-brace-format
-msgid ""
-"{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "यस {permission} प्रकारको सम्पत्ति वस्तुहरूलाई स्पष्ट रूपमा तोक्न सकिँदैन।"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:289
-msgid "Not a valid list."
-msgstr "मान्य सूची होइन।"
-
-#: kpi/serializers/v2/asset_permission_assignment.py:490
-#: kpi/serializers/v2/asset_permission_assignment.py:493
-msgid "Invalid hyperlink - Object does not exist."
-msgstr "अवैध हाइपरलिंक - वस्तु अवस्थित छैन।"
-
-#: kpi/serializers/v2/data.py:70
-msgid "`submission_ids` must only contain integer values"
-msgstr "`submission_ids` मा केवल पूर्णांक मानहरू समावेश गर्नुपर्छ"
-
-#: kpi/serializers/v2/data.py:75
-msgid "`submission_ids` must contain at least one value"
-msgstr "`submission_ids` मा कम्तिमा एक मान समावेश गर्नुपर्छ"
-
-#: kpi/serializers/v2/data.py:83
-msgid "`data` is required"
-msgstr "`data` आवश्यक छ"
-
-#: kpi/serializers/v2/data.py:91
-msgid "`validation_status.uid` is required"
-msgstr "`validation_status.uid` आवश्यक छ"
-
-#: kpi/serializers/v2/export_task.py:123
-msgid "Must contain all the following required keys: {}"
-msgstr "निम्न सबै आवश्यक कुञ्जीहरू समावेश हुनुपर्छ: {}"
-
-#: kpi/serializers/v2/export_task.py:137
-msgid "Can contain only the following valid keys: {}"
-msgstr "निम्न मान्य कुञ्जीहरू मात्र समावेश हुन सक्छ: {}"
-
-#: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
-msgid "Must be an array"
-msgstr "एरे हुनुपर्छ"
-
-#: kpi/serializers/v2/export_task.py:159
-msgid "All values in the array must be strings"
-msgstr "एरे मा सबै मानहरू स्ट्रिङ हुनुपर्छ"
-
-#: kpi/serializers/v2/export_task.py:169
-msgid "Must be a non-empty value"
-msgstr "गैर-रिक्त मान हुनुपर्छ"
-
-#: kpi/serializers/v2/export_task.py:182
-msgid "For this asset must be either {}"
-msgstr "यस सम्पत्तिको लागि या त {} हुनुपर्छ"
-
-#: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
-msgid "Must be either {}"
-msgstr "या त {} हुनुपर्छ"
-
-#: kpi/serializers/v2/export_task.py:204
-msgid "The asset must be deployed."
-msgstr "सम्पत्ति प्रयोग गर्नुपर्छ।"
-
-#: kpi/serializers/v2/export_task.py:221
-msgid "The export name must be a string."
-msgstr "निर्यात नाम स्ट्रिङ हुनुपर्छ।"
-
-#: kpi/serializers/v2/paired_data.py:87
-msgid "Source cannot be changed"
-msgstr "स्रोत परिवर्तन गर्न सकिँदैन"
-
-#: kpi/serializers/v2/paired_data.py:93
-#, python-brace-format
-msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr "`{source_uid}` को लागि डाटा साझेदारी सक्षम गरिएको छैन"
-
-#: kpi/serializers/v2/paired_data.py:105
-#, python-brace-format
-msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr "यो `{source_uid}` डेटासँग जोड्ने अनुमति छैन"
-
-#: kpi/serializers/v2/paired_data.py:110
-#, python-brace-format
-msgid "Source `{source}` is already paired"
-msgstr "`{source}` स्रोत पहिले नै जोडिएको छ"
-
-#: kpi/serializers/v2/paired_data.py:152
-#, python-brace-format
-msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr "केही क्षेत्रहरू अमान्य छन्, विकल्पहरू यी हुन्: `{source_fields}`"
-
-#: kpi/serializers/v2/paired_data.py:177
-msgid "Only letters, numbers and `-` are allowed"
-msgstr "केवल अक्षर, संख्या र `-` को अनुमति छ"
-
-#: kpi/serializers/v2/paired_data.py:184
-msgid "Extension must be `xml`"
-msgstr "एक्सटेन्शन `xml` हुनुपर्छ"
-
-#: kpi/serializers/v2/paired_data.py:217
-#, python-brace-format
-msgid "`{basename}` is already used"
-msgstr "`{basename}` पहिले नै प्रयोग गरिएको छ"
-
-#: kpi/serializers/v2/user_asset_subscription.py:47
-#, python-brace-format
-msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr "अवैध सम्पत्ति प्रकार। `{asset_type}` को मात्र अनुमति छ"
-
-#: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
-msgid "Modern Browsers"
-msgstr "आधुनिक ब्राउजरहरू"
-
-#: kpi/templates/modern_browsers.html:8
-msgid ""
-"Ouch! Sorry, you were probably sent here because your browser is outdated or"
-" perhaps it has its key features disabled by using \"private browsing\" "
-"mode."
-msgstr "ओच! माफ गर्नुहोस्, तपाइँको ब्राउजर पुरानो भएको कारणले वा \"निजी ब्राउजिङ\" मोड प्रयोग गरेर यसको मुख्य सुविधाहरू असक्षम पारिएको हुनाले तपाइँलाई यहाँ पठाइएको हुन सक्छ।"
-
-#: kpi/templates/modern_browsers.html:12
-msgid ""
-"If you are using an outdated browser, we recommend upgrading to a recent "
-"version of one of the following excellent modern browsers:"
-msgstr "यदि तपाइँ पुरानो ब्राउजर प्रयोग गर्दै हुनुहुन्छ भने, हामी निम्न उत्कृष्ट आधुनिक ब्राउजरहरू मध्ये एकको भर्खरको संस्करणमा अपग्रेड गर्न सिफारिस गर्छौं:"
-
-#: kpi/templates/modern_browsers.html:17
-msgid "Firefox download page"
-msgstr "फायरफक्स डाउनलोड पृष्ठ"
-
-#: kpi/templates/modern_browsers.html:18
-msgid "Firefox"
-msgstr "फायरफक्स"
-
-#: kpi/templates/modern_browsers.html:22
-msgid "Chrome download page"
-msgstr "क्रोम डाउनलोड पृष्ठ"
-
-#: kpi/templates/modern_browsers.html:23
-msgid "Chrome"
-msgstr "क्रोम"
-
-#: kpi/templates/modern_browsers.html:27
-msgid "Edge download page"
-msgstr "एड्ज डाउनलोड पृष्ठ"
-
-#: kpi/templates/modern_browsers.html:28
-msgid "Edge"
-msgstr "एड्ज"
-
-#: kpi/templates/modern_browsers.html:32
-msgid "Opera download page"
-msgstr "ओपेरा डाउनलोड पृष्ठ"
-
-#: kpi/templates/modern_browsers.html:33
-msgid "Opera"
-msgstr "ओपेरा"
-
-#: kpi/tests/test_registration.py:71
-msgid "This email domain is not allowed to create an account"
-msgstr "यस इमेल डोमेनले खाता बनाउन अनुमति छैन"
-
-#: kpi/utils/two_database_configuration_checker.py:41
-msgid "Exactly two databases must be configured"
-msgstr "ठ्याक्कै दुई डाटाबेस समाकृति हुनुपर्छ"
-
-#: kpi/utils/two_database_configuration_checker.py:42
-msgid ""
-"KPI and KoBoCAT must each have their own databases. Configure the KPI "
-"database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "KPI र KoBoCAT प्रत्येकको आफ्नै डेटाबेस हुनुपर्छ। KPI डाटाबेसलाई 'पूर्वनिर्धारित' र KoBoCAT डाटाबेस 'kobocat' को रूपमा समाकृति गर्नुहोस्।"
-
-#: kpi/utils/two_database_configuration_checker.py:63
-msgid "KPI may not share a database with KoBoCAT"
-msgstr "KPI ले KoBoCAT सँग डाटाबेस साझेदारी नगर्न सक्छ"
-
-#: kpi/utils/two_database_configuration_checker.py:64
-msgid "KPI and KoBoCAT must each have their own databases."
-msgstr "KPI र KoBoCAT प्रत्येकको आफ्नै डेटाबेस हुनुपर्छ।"
-
-#: kpi/utils/two_database_configuration_checker.py:133
-msgid "Incomplete migration from shared-database installation"
-msgstr "साझा डाटाबेस स्थापनाको अधूरो स्थानान्तरण"
-
-#: kpi/utils/two_database_configuration_checker.py:134
-msgid ""
-"The KoBoCAT database was originally shared by KPI, but the KPI tables were "
-"not copied from that shared database to the new, KPI-only database."
-msgstr "KoBoCAT डाटाबेस मूल रूपमा KPI द्वारा साझा गरिएको थियो, तर त्यो साझा डाटाबेसबाट नयाँ, KPI-मात्र डाटाबेसमा KPI तालिकाहरू प्रतिलिपि गरिएको थिएन।"
-
-#: kpi/views/current_user.py:107
-msgid "Invalid confirmation"
-msgstr "अमान्य पुष्टिकरण"
-
-#: kpi/views/v2/asset_export_settings.py:228
-msgid "Only the following formats are available: ##format list##"
-msgstr "केवल निम्न ढाँचाहरू उपलब्ध छन्: ##format list##"
-
-#: kpi/views/v2/asset_permission_assignment.py:211
-msgid "Source and destination objects don't seem to have the same type"
-msgstr "स्रोत र गन्तव्य वस्तुहरू एउटै प्रकारको देखिँदैन"
-
-#: kpi/views/v2/asset_permission_assignment.py:240
-msgid "Owner's permissions cannot be deleted"
-msgstr "अधिकारीको अनुमतिहरू मेटाउन सकिँदैन"
-
-#: kpi/views/v2/attachment.py:73
-msgid "`xpath` query parameter is required"
-msgstr "`xpath` क्वेरी प्यारामिटर आवश्यक छ"
-
-#: kpi/views/v2/attachment.py:94
-msgid "Invalid XPath syntax"
-msgstr "अमान्य XPath वाक्य रचना"
-
-#: kpi/views/v2/attachment.py:98
-msgid "The path could not be found in the submission"
-msgstr "सबमिशनमा पथ फेला पार्न सकिएन"
-
-#: kpi/views/v2/attachment.py:107
-msgid "The error occurred during conversion"
-msgstr "रूपान्तरणको क्रममा त्रुटि भयो"
-
-#: kpi/views/v2/attachment.py:111
-msgid "Conversion is not supported for {}"
-msgstr "{} का लागि रूपान्तरण समर्थित छैन"
-
-#: kpi/views/v2/data.py:318
-msgid "The specified asset has not been deployed"
-msgstr "तोकिएको सम्पत्ति प्रयोग गरिएको छैन"
-
-#: kpi/views/v2/data.py:622
-msgid "A positive integer is required"
-msgstr "सकारात्मक पूर्णांक आवश्यक छ"
+#~ msgid "Invalid token."
+#~ msgstr "Invalid token."
