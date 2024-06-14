@@ -13,7 +13,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 19:59+0000\n"
+"POT-Creation-Date: 2024-06-06 18:23+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: suheyla ustun, 2023\n"
 "Language-Team: Turkish (http://app.transifex.com/kobotoolbox/kobotoolbox/language/tr/)\n"
@@ -123,10 +123,6 @@ msgstr "Dilleri değiştir"
 #: .Could+not+find+%23%23fileName%23%23
 msgid "Could not find ##fileName##"
 msgstr "##fileName## bulunamadı"
-
-#: .N/A
-msgid "N/A"
-msgstr "Yok"
 
 #: .me
 msgid "me"
@@ -446,6 +442,14 @@ msgstr "Büyüktür veya Eşittir"
 msgid "Less Than or Equal to"
 msgstr "Küçüktür veya Eşittir"
 
+#: .Manually+enter+your+validation+logic+in+XLSForm+code
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr "Doğrulama mantığınızı XLSForm koduna manuel olarak girin"
+
+#: .Validation+Code
+msgid "Validation Code:"
+msgstr "Doğrulama kodu:"
+
 #: .This+question+will+only+be+displayed+if+the+following+conditions+apply
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "Bu soru yalnızca aşağıdaki koşullar geçerliyse görüntülenecektir"
@@ -470,14 +474,6 @@ msgstr "yanıt değeri"
 msgid "Select question from list"
 msgstr "Listeden soru seçin"
 
-#: .Manually+enter+your+validation+logic+in+XLSForm+code
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "Doğrulama mantığınızı XLSForm koduna manuel olarak girin"
-
-#: .Validation+Code
-msgid "Validation Code:"
-msgstr "Doğrulama kodu:"
-
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23)
 msgid "##permission_label## (##username_list##)"
 msgstr "##permission_label## (##username_list##)"
@@ -485,6 +481,12 @@ msgstr "##permission_label## (##username_list##)"
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
 msgid "##permission_label## (##username_list## and 1 other)"
 msgstr "##permission_label## (##username_list## ve 1 diğer)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+%23%23hidden_username_count%23%23+others)
+msgid ""
+"##permission_label## (##username_list## and ##hidden_username_count## "
+"others)"
+msgstr ""
 
 #: .My+Projects
 msgid "My Projects"
@@ -722,49 +724,21 @@ msgstr "Tüm gönderimlerin yeniden denenmesi başarısız oldu"
 msgid "loading…"
 msgstr "yükleniyor…"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "Gönderimlerin ettn’leri alınamadı."
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "medyanız yüklenemedi"
 
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "Gönderim alımı başarısız."
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "Medyanızın görüntülenmesinde bir sorun oluştu"
 
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "Gönderimler güncellenemedi."
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "Medya başarıyla silindi"
 
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "Bazı gönderim değerleri güncellenemedi."
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "Gönderim değerleri güncellenemedi."
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "Gönderimler silinemedi."
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "Dışa aktarma işlemi başarısız oldu"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "Dışa aktarma silinemedi"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "Dışa aktarma ayarı güncellenemedi"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "Dışa aktarma ayarı oluşturulamadı"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "Dışa aktarma ayarı silinemedi"
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "Medya silinemedi!"
 
 #: .Failed+to+attach+to+source
 msgid "Failed to attach to source"
@@ -790,6 +764,30 @@ msgstr "Paylaşım değiştirilemedi"
 msgid "Failed to update column filters"
 msgstr "Sütun filtreleri güncellenemedi"
 
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "Gönderimlerin ettn’leri alınamadı."
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "Gönderim alımı başarısız."
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "Gönderimler güncellenemedi."
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "Bazı gönderim değerleri güncellenemedi."
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "Gönderim değerleri güncellenemedi."
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "Gönderimler silinemedi."
+
 #: .Successfully+removed+from+collection
 msgid "Successfully removed from collection"
 msgstr "Koleksiyondan başarıyla çıkarıldı"
@@ -806,21 +804,25 @@ msgstr "Koleksiyona taşıma başarısız"
 msgid "Failed to get the results"
 msgstr "Sonuçlar alınamadı"
 
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "medyanız yüklenemedi"
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "Dışa aktarma işlemi başarısız oldu"
 
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "Medyanızın görüntülenmesinde bir sorun oluştu"
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "Dışa aktarma silinemedi"
 
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "Medya başarıyla silindi"
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "Dışa aktarma ayarı güncellenemedi"
 
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "Medya silinemedi!"
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "Dışa aktarma ayarı oluşturulamadı"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "Dışa aktarma ayarı silinemedi"
 
 #: .%23%23field_label%23%23+(required)
 msgid "##field_label## (required)"
@@ -1020,13 +1022,17 @@ msgstr "“A” yerine “@” gibi öngörülebilir değişiklikler sanıldığ
 msgid "Password strength"
 msgstr "Şifre güvenlik seviyesi"
 
+#: .XForm+is+loading
+msgid "XForm is loading"
+msgstr "XForm yükleniyor"
+
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "yol bulunamadı / tanınmadı"
 
-#: .XForm+is+loading
-msgid "XForm is loading"
-msgstr "XForm yükleniyor"
+#: .Section+not+found
+msgid "Section not found"
+msgstr ""
 
 #: .Untitled
 msgid "Untitled"
@@ -1242,6 +1248,18 @@ msgstr "Taslak sürüm"
 msgid "If you want to make these changes public, you must deploy this form."
 msgstr "Bu değişiklikleri herkese açık hale getirmek istiyorsanız, bu formu yayınlamanız gerekir."
 
+#: .Public+Collections
+msgid "Public Collections"
+msgstr "Herkese Açık Koleksiyonlar"
+
+#: .Subscribed
+msgid "Subscribed"
+msgstr "Abone olundu"
+
+#: .Quick+look
+msgid "Quick look"
+msgstr "Hızlı bakış"
+
 #: .Your+search+returned+no+results.
 msgid "Your search returned no results."
 msgstr "Aramanız sonuç vermedi."
@@ -1265,18 +1283,6 @@ msgstr "Kütüphanem"
 #: .Drop+files+to+upload
 msgid "Drop files to upload"
 msgstr "Yüklemek için dosyaları bırakın"
-
-#: .Public+Collections
-msgid "Public Collections"
-msgstr "Herkese Açık Koleksiyonlar"
-
-#: .Subscribed
-msgid "Subscribed"
-msgstr "Abone olundu"
-
-#: .Quick+look
-msgid "Quick look"
-msgstr "Hızlı bakış"
 
 #: .Could+not+load+grouped+results+via+%22%23%23%22.+Will+attempt+to+load+the+ungrouped+report.
 msgid ""
@@ -1364,9 +1370,11 @@ msgstr "Özel Rapor"
 msgid "Question Style"
 msgstr "Soru Stili"
 
-#: .There+is+no+data+for+this+question+for+the+current+submission
-msgid "There is no data for this question for the current submission"
-msgstr "Mevcut başvuru için bu soruya ilişkin veri bulunmamaktadır"
+#: .Anyone+can+see+this+blank+form+and+add+submissions+to+it+because+you+have+not+set+[your+account]+to+require+authentication.
+msgid ""
+"Anyone can see this blank form and add submissions to it because you have "
+"not set [your account] to require authentication."
+msgstr ""
 
 #: .Who+has+access
 msgid "Who has access"
@@ -1379,6 +1387,359 @@ msgstr "Kullanıcı ekle"
 #: .Waiting+for+all+projects+to+load%E2%80%A6
 msgid "Waiting for all projects to load…"
 msgstr "Tüm projelerin yüklenmesi bekleniyor…"
+
+#: .An+error+occurred
+msgid "An error occurred"
+msgstr "Bir hata oluştu"
+
+#: .Your+connection+is+offline
+msgid "Your connection is offline"
+msgstr "Bağlantınız çevrim dışı"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "Performans nedenleriyle, varsayılan olarak, harita en son gönderilen ##number## gönderim ile sınırlıdır. Bu sınırı artırmak için harita ayarlarına gidin."
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "Hata: veriler yüklenemedi."
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "Anket yanıtlarına göre ayrıştır"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "Şunlar kullanılarak ayrıştırılmıştır:"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "\"Coğrafi nokta\" yanıtı alınmadı"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "Bu formda \"coğrafi nokta\" alanı olmadığı için, harita veri göstermez."
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "Tam ekrana geç"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "Nokta olarak göster"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "Katmanları değiştir"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "Harita görüntüleme ayarları"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "Isı haritası olarak göster"
+
+#: .Language
+msgid "Language"
+msgstr "Dil"
+
+#: .Default
+msgid "Default"
+msgstr "Varsayılan"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "- Tüm verileri görüntüle -"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "çevrilmemiş: "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "Soru etiketi ayarlanmadı"
+
+#: .Reset
+msgid "Reset"
+msgstr "Sıfırla"
+
+#: .not+set
+msgid "not set"
+msgstr "ayarlanmamış"
+
+#: .Legend
+msgid "Legend"
+msgstr "Göstergeler"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "Harita Ayarları"
+
+#: .Table
+msgid "Table"
+msgstr "Tablo"
+
+#: .Reports
+msgid "Reports"
+msgstr "Raporlar"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "Galeri"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "İndirilenler"
+
+#: .Map
+msgid "Map"
+msgstr "Harita"
+
+#: .General
+msgid "General"
+msgstr "Genel"
+
+#: .Media
+msgid "Media"
+msgstr "Medya"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "Paylaşım"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "Projeleri Bağla"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "REST Servisleri"
+
+#: .Your+query+is+too+short
+msgid "Your query is too short"
+msgstr "Sorgunuz çok kısa"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "varlıklar listelenemedi"
+
+#: .Import
+msgid "Import"
+msgstr "İçe Aktar"
+
+#: .Next
+msgid "Next"
+msgstr "Sonraki"
+
+#: .Create+project
+msgid "Create project"
+msgstr "Proje oluştur"
+
+#: .Project+settings
+msgid "Project settings"
+msgstr "Proje ayarları"
+
+#: .Choose+a+source
+msgid "Choose a source"
+msgstr "Bir kaynak seçin"
+
+#: .Choose+template
+msgid "Choose template"
+msgstr "Şablon seçin"
+
+#: .Upload+XLSForm
+msgid "Upload XLSForm"
+msgstr "XLSForm'u yükleyin"
+
+#: .Import+XLSForm
+msgid "Import XLSForm"
+msgstr "XLSForm'u içe aktarın"
+
+#: .Project+details
+msgid "Project details"
+msgstr "Proje detayları"
+
+#: .Choose
+msgid "Choose"
+msgstr "Seç"
+
+#: .Error+asset+could+not+be+created.
+msgid "Error: asset could not be created."
+msgstr "Hata: varlık oluşturulamadı."
+
+#: .Error+new+project+could+not+be+created.
+msgid "Error: new project could not be created."
+msgstr "Hata: yeni proje oluşturulamadı."
+
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "Lütfen bekleyin…"
+
+#: .Retrieving+form,+please+wait...
+msgid "Retrieving form, please wait..."
+msgstr "Form alınıyor, lütfen bekleyin ..."
+
+#: .Failed+to+reload+project+after+import%21
+msgid "Failed to reload project after import!"
+msgstr "İçe aktarıldıktan sonra proje yeniden yüklenemedi!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "İçe Aktarma Başarısız!"
+
+#: .Could+not+initialize+XLSForm+import%21
+msgid "Could not initialize XLSForm import!"
+msgstr "XLSForm içe aktarma işlemi başlatılamadı!"
+
+#: .Failed+to+reload+project+after+upload%21
+msgid "Failed to reload project after upload!"
+msgstr "Yüklemeden sonra proje yeniden yüklenemedi!"
+
+#: .Could+not+import+XLSForm%21
+msgid "Could not import XLSForm!"
+msgstr "XLSForm içe aktarılamadı!"
+
+#: .Some+fields+contain+errors%21
+msgid "Some fields contain errors!"
+msgstr "Bazı alanlarda hata mevcut!"
+
+#: .Project+Name
+msgid "Project Name"
+msgstr "Proje Adı"
+
+#: .%23%23count%23%23+characters+left
+msgid "##count## characters left"
+msgstr "##count## karakter kaldı"
+
+#: .Use+a+template
+msgid "Use a template"
+msgstr "Bir şablon kullanın"
+
+#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
+msgid ""
+"Choose one of the options below to continue. You will be prompted to enter "
+"name and other details in further steps."
+msgstr "Devam etmek için aşağıdaki seçeneklerden birini seçin. Sonraki adımlarda ad ve diğer ayrıntıları girmeniz istenecektir."
+
+#: .Build+from+scratch
+msgid "Build from scratch"
+msgstr "Sıfırdan inşa edin"
+
+#: .Upload+an+XLSForm
+msgid "Upload an XLSForm"
+msgstr "Bir XLSForm yükleyin"
+
+#: .Import+an+XLSForm+via+URL
+msgid "Import an XLSForm via URL"
+msgstr "Bir XLSForm'u URL aracılığıyla içe aktarın"
+
+#: .Import+an+XLSForm+from+your+computer.
+msgid "Import an XLSForm from your computer."
+msgstr "Bilgisayarınızdan bir XLSForm'u içe aktarın."
+
+#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
+msgid " Drag and drop the XLSForm file here or click to browse"
+msgstr " XLSForm dosyasını buraya sürükleyip bırakın veya göz atmak için tıklayın"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "Dosya yükleniyor…"
+
+#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
+msgid "Enter a valid XLSForm URL in the field below."
+msgstr "Aşağıdaki alana geçerli bir XLSForm URL'si girin."
+
+#: .Having+issues%3F+See+this+help+article.
+msgid "Having issues? See this help article."
+msgstr "Sorun mu yaşıyorsunuz? Bu yardım makalesine bakın."
+
+#: .URL
+msgid "URL"
+msgstr "URL"
+
+#: .Save+Changes
+msgid "Save Changes"
+msgstr "Değişiklikleri Kaydet"
+
+#: .Please+enter+a+title+for+your+project%21
+msgid "Please enter a title for your project!"
+msgstr "Lütfen projeniz için bir başlık girin!"
+
+#: .Enter+title+of+project+here
+msgid "Enter title of project here"
+msgstr "Buraya projenin başlığını girin"
+
+#: .Please+enter+a+description+for+your+project
+msgid "Please enter a description for your project"
+msgstr "Lütfen projeniz için bir açıklama girin"
+
+#: .Enter+short+description+here
+msgid "Enter short description here"
+msgstr "Buraya kısa açıklama girin"
+
+#: .Please+choose+a+sector
+msgid "Please choose a sector"
+msgstr "Lütfen bir sektör seçin"
+
+#: .Please+select+at+least+one+country
+msgid "Please select at least one country"
+msgstr "Lütfen en az bir ülke seçin"
+
+#: .Please+specify+the+operational+purpose+of+your+project
+msgid "Please specify the operational purpose of your project"
+msgstr "Lütfen projenizin işlevsel amacını belirtin"
+
+#: .Yes
+msgid "Yes"
+msgstr "Evet"
+
+#: .No
+msgid "No"
+msgstr "Hayır"
+
+#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
+msgid ""
+"Please indicate whether or not your project collects personally identifiable"
+" information"
+msgstr "Lütfen projenizin kimlik tanımlayıcı bilgiler toplayıp toplamadığını belirtin"
+
+#: .Save
+msgid "Save"
+msgstr "Kaydet"
+
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "Projeyi Arşivden Çıkar"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "Projeyi Arşivle"
+
+#: .Archive+project+to+stop+accepting+submissions.
+msgid "Archive project to stop accepting submissions."
+msgstr "Gönderimleri kabul etmeyi durdurmak için projeyi arşivleyin."
+
+#: .Unarchive+project+to+resume+accepting+submissions.
+msgid "Unarchive project to resume accepting submissions."
+msgstr "Gönderimleri kabul etmeye devam etmek için projeyi arşivden çıkarın."
+
+#: .Delete+Project+and+Data
+msgid "Delete Project and Data"
+msgstr "Projeyi ve Verileri Sil"
+
+#: .Back
+msgid "Back"
+msgstr "Geri"
+
+#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
+msgid ""
+"Form replacing is not available due to form's Locking Profile restrictions."
+msgstr "Formun Kilitleme Profili kısıtlamaları nedeniyle formun değiştirilmesi mümkün değildir."
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -1534,427 +1895,6 @@ msgstr "Ön izleme oluşturulurken bir hata meydana geldi"
 msgid "Import Cascading Select Questions"
 msgstr "Basamaklı Seçme Soruları İndir"
 
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "Performans nedenleriyle, varsayılan olarak, harita en son gönderilen ##number## gönderim ile sınırlıdır. Bu sınırı artırmak için harita ayarlarına gidin."
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "Hata: veriler yüklenemedi."
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "Anket yanıtlarına göre ayrıştır"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "Şunlar kullanılarak ayrıştırılmıştır:"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "\"Coğrafi nokta\" yanıtı alınmadı"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "Bu formda \"coğrafi nokta\" alanı olmadığı için, harita veri göstermez."
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "Tam ekrana geç"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "Nokta olarak göster"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "Katmanları değiştir"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "Harita görüntüleme ayarları"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "Isı haritası olarak göster"
-
-#: .Language
-msgid "Language"
-msgstr "Dil"
-
-#: .Default
-msgid "Default"
-msgstr "Varsayılan"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "- Tüm verileri görüntüle -"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "çevrilmemiş: "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "Soru etiketi ayarlanmadı"
-
-#: .Reset
-msgid "Reset"
-msgstr "Sıfırla"
-
-#: .not+set
-msgid "not set"
-msgstr "ayarlanmamış"
-
-#: .Legend
-msgid "Legend"
-msgstr "Göstergeler"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "Harita Ayarları"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "panoya kopyalandı"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "Şunun kopyasıdır:"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "Kopyalanan ##ASSET_TYPE##‘in adını girin. Orijinal adı korumak için boş bırakın."
-
-#: .Ok
-msgid "Ok"
-msgstr "Tamam"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "## dosyalar"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "XLSForm İçe Aktarma başarısız oldu. XLSForm’un ve/veya URL'nin geçerli olduğunu kontrol edin ve \"Formu değiştir\" simgesini kullanarak tekrar deneyin."
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "XLS İçe Aktarma tamamlandı"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "Yükleme işleminiz gerçekleştiriliyor. Bu birkaç dakika sürebilir."
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "Yükleme işleminiz gerçekleştirilmek üzere sıraya alındı. Bu birkaç dakika sürebilir."
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "İçe Aktarma Başarısız!"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "İçe aktarma oluşturulamadı."
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "Yükleme hatası: Excel dosyası tanınamadı."
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "Yüklenen dosya adı: "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "Bırakılan öge(ler) tanınamadı."
-
-#: .Project+information
-msgid "Project information"
-msgstr "Proje bilgisi"
-
-#: .Questions
-msgid "Questions"
-msgstr "Sorular"
-
-#: .Last+modified
-msgid "Last modified"
-msgstr "Son düzenlenme"
-
-#: .Last+deployed
-msgid "Last deployed"
-msgstr "Son yayınlama"
-
-#: .Latest+submission
-msgid "Latest submission"
-msgstr "Son gönderim"
-
-#: .Operational+purpose+of+data
-msgid "Operational purpose of data"
-msgstr "Verilerin kullanım amacı"
-
-#: .Collects+personally+identifiable+information
-msgid "Collects personally identifiable information"
-msgstr "Kimlik tanımlayıcı bilgiler toplar"
-
-#: .Table
-msgid "Table"
-msgstr "Tablo"
-
-#: .Reports
-msgid "Reports"
-msgstr "Raporlar"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "Galeri"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "İndirilenler"
-
-#: .Map
-msgid "Map"
-msgstr "Harita"
-
-#: .General
-msgid "General"
-msgstr "Genel"
-
-#: .Media
-msgid "Media"
-msgstr "Medya"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "Paylaşım"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "Projeleri Bağla"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "REST Servisleri"
-
-#: .Import
-msgid "Import"
-msgstr "İçe Aktar"
-
-#: .Next
-msgid "Next"
-msgstr "Sonraki"
-
-#: .Create+project
-msgid "Create project"
-msgstr "Proje oluştur"
-
-#: .Project+settings
-msgid "Project settings"
-msgstr "Proje ayarları"
-
-#: .Choose+a+source
-msgid "Choose a source"
-msgstr "Bir kaynak seçin"
-
-#: .Choose+template
-msgid "Choose template"
-msgstr "Şablon seçin"
-
-#: .Upload+XLSForm
-msgid "Upload XLSForm"
-msgstr "XLSForm'u yükleyin"
-
-#: .Import+XLSForm
-msgid "Import XLSForm"
-msgstr "XLSForm'u içe aktarın"
-
-#: .Project+details
-msgid "Project details"
-msgstr "Proje detayları"
-
-#: .Choose
-msgid "Choose"
-msgstr "Seç"
-
-#: .Error+asset+could+not+be+created.
-msgid "Error: asset could not be created."
-msgstr "Hata: varlık oluşturulamadı."
-
-#: .Error+new+project+could+not+be+created.
-msgid "Error: new project could not be created."
-msgstr "Hata: yeni proje oluşturulamadı."
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "Lütfen bekleyin…"
-
-#: .Retrieving+form,+please+wait...
-msgid "Retrieving form, please wait..."
-msgstr "Form alınıyor, lütfen bekleyin ..."
-
-#: .Failed+to+reload+project+after+import%21
-msgid "Failed to reload project after import!"
-msgstr "İçe aktarıldıktan sonra proje yeniden yüklenemedi!"
-
-#: .Could+not+initialize+XLSForm+import%21
-msgid "Could not initialize XLSForm import!"
-msgstr "XLSForm içe aktarma işlemi başlatılamadı!"
-
-#: .Failed+to+reload+project+after+upload%21
-msgid "Failed to reload project after upload!"
-msgstr "Yüklemeden sonra proje yeniden yüklenemedi!"
-
-#: .Could+not+import+XLSForm%21
-msgid "Could not import XLSForm!"
-msgstr "XLSForm içe aktarılamadı!"
-
-#: .Some+fields+contain+errors%21
-msgid "Some fields contain errors!"
-msgstr "Bazı alanlarda hata mevcut!"
-
-#: .Project+Name
-msgid "Project Name"
-msgstr "Proje Adı"
-
-#: .%23%23count%23%23+characters+left
-msgid "##count## characters left"
-msgstr "##count## karakter kaldı"
-
-#: .Use+a+template
-msgid "Use a template"
-msgstr "Bir şablon kullanın"
-
-#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
-msgid ""
-"Choose one of the options below to continue. You will be prompted to enter "
-"name and other details in further steps."
-msgstr "Devam etmek için aşağıdaki seçeneklerden birini seçin. Sonraki adımlarda ad ve diğer ayrıntıları girmeniz istenecektir."
-
-#: .Build+from+scratch
-msgid "Build from scratch"
-msgstr "Sıfırdan inşa edin"
-
-#: .Upload+an+XLSForm
-msgid "Upload an XLSForm"
-msgstr "Bir XLSForm yükleyin"
-
-#: .Import+an+XLSForm+via+URL
-msgid "Import an XLSForm via URL"
-msgstr "Bir XLSForm'u URL aracılığıyla içe aktarın"
-
-#: .Import+an+XLSForm+from+your+computer.
-msgid "Import an XLSForm from your computer."
-msgstr "Bilgisayarınızdan bir XLSForm'u içe aktarın."
-
-#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
-msgid " Drag and drop the XLSForm file here or click to browse"
-msgstr " XLSForm dosyasını buraya sürükleyip bırakın veya göz atmak için tıklayın"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "Dosya yükleniyor…"
-
-#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
-msgid "Enter a valid XLSForm URL in the field below."
-msgstr "Aşağıdaki alana geçerli bir XLSForm URL'si girin."
-
-#: .Having+issues%3F+See+this+help+article.
-msgid "Having issues? See this help article."
-msgstr "Sorun mu yaşıyorsunuz? Bu yardım makalesine bakın."
-
-#: .URL
-msgid "URL"
-msgstr "URL"
-
-#: .Save+Changes
-msgid "Save Changes"
-msgstr "Değişiklikleri Kaydet"
-
-#: .Please+enter+a+title+for+your+project%21
-msgid "Please enter a title for your project!"
-msgstr "Lütfen projeniz için bir başlık girin!"
-
-#: .Enter+title+of+project+here
-msgid "Enter title of project here"
-msgstr "Buraya projenin başlığını girin"
-
-#: .Please+enter+a+description+for+your+project
-msgid "Please enter a description for your project"
-msgstr "Lütfen projeniz için bir açıklama girin"
-
-#: .Enter+short+description+here
-msgid "Enter short description here"
-msgstr "Buraya kısa açıklama girin"
-
-#: .Please+choose+a+sector
-msgid "Please choose a sector"
-msgstr "Lütfen bir sektör seçin"
-
-#: .Please+select+at+least+one+country
-msgid "Please select at least one country"
-msgstr "Lütfen en az bir ülke seçin"
-
-#: .Please+specify+the+operational+purpose+of+your+project
-msgid "Please specify the operational purpose of your project"
-msgstr "Lütfen projenizin işlevsel amacını belirtin"
-
-#: .Yes
-msgid "Yes"
-msgstr "Evet"
-
-#: .No
-msgid "No"
-msgstr "Hayır"
-
-#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
-msgid ""
-"Please indicate whether or not your project collects personally identifiable"
-" information"
-msgstr "Lütfen projenizin kimlik tanımlayıcı bilgiler toplayıp toplamadığını belirtin"
-
-#: .Save
-msgid "Save"
-msgstr "Kaydet"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "Projeyi Arşivden Çıkar"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "Projeyi Arşivle"
-
-#: .Archive+project+to+stop+accepting+submissions.
-msgid "Archive project to stop accepting submissions."
-msgstr "Gönderimleri kabul etmeyi durdurmak için projeyi arşivleyin."
-
-#: .Unarchive+project+to+resume+accepting+submissions.
-msgid "Unarchive project to resume accepting submissions."
-msgstr "Gönderimleri kabul etmeye devam etmek için projeyi arşivden çıkarın."
-
-#: .Delete+Project+and+Data
-msgid "Delete Project and Data"
-msgstr "Projeyi ve Verileri Sil"
-
-#: .Back
-msgid "Back"
-msgstr "Geri"
-
-#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
-msgid ""
-"Form replacing is not available due to form's Locking Profile restrictions."
-msgstr "Formun Kilitleme Profili kısıtlamaları nedeniyle formun değiştirilmesi mümkün değildir."
-
 #: .URL+is+empty%21
 msgid "URL is empty!"
 msgstr "URL boş!"
@@ -2007,6 +1947,114 @@ msgstr "medya yükleniyor"
 msgid "No files uploaded yet"
 msgstr "Henüz bir dosya yüklenmedi"
 
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "panoya kopyalandı"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "Şunun kopyasıdır:"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "Kopyalanan ##ASSET_TYPE##‘in adını girin. Orijinal adı korumak için boş bırakın."
+
+#: .Ok
+msgid "Ok"
+msgstr "Tamam"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "## dosyalar"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "XLSForm İçe Aktarma başarısız oldu. XLSForm’un ve/veya URL'nin geçerli olduğunu kontrol edin ve \"Formu değiştir\" simgesini kullanarak tekrar deneyin."
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "XLS İçe Aktarma tamamlandı"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "Yükleme işleminiz gerçekleştiriliyor. Bu birkaç dakika sürebilir."
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "Yükleme işleminiz gerçekleştirilmek üzere sıraya alındı. Bu birkaç dakika sürebilir."
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "İçe aktarma oluşturulamadı."
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "Yükleme hatası: Excel dosyası tanınamadı."
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "Yüklenen dosya adı: "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "Bırakılan öge(ler) tanınamadı."
+
+#: .Vertical
+msgid "Vertical"
+msgstr "Dikey"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "Yatay"
+
+#: .Pie
+msgid "Pie"
+msgstr "Çember"
+
+#: .Donut
+msgid "Donut"
+msgstr "Halka"
+
+#: .Polar+area
+msgid "Polar area"
+msgstr "Polar alan"
+
+#: .Radar
+msgid "Radar"
+msgstr "Radar"
+
+#: .Project+information
+msgid "Project information"
+msgstr "Proje bilgisi"
+
+#: .Questions
+msgid "Questions"
+msgstr "Sorular"
+
+#: .Last+modified
+msgid "Last modified"
+msgstr "Son düzenlenme"
+
+#: .Last+deployed
+msgid "Last deployed"
+msgstr "Son yayınlama"
+
+#: .Latest+submission
+msgid "Latest submission"
+msgstr "Son gönderim"
+
+#: .Operational+purpose+of+data
+msgid "Operational purpose of data"
+msgstr "Verilerin kullanım amacı"
+
+#: .Collects+personally+identifiable+information
+msgid "Collects personally identifiable information"
+msgstr "Kimlik tanımlayıcı bilgiler toplar"
+
 #: .All+questions
 msgid "All questions"
 msgstr "Tüm sorular"
@@ -2027,14 +2075,6 @@ msgstr "Arasında"
 msgid "and"
 msgstr "ve"
 
-#: .Your+query+is+too+short
-msgid "Your query is too short"
-msgstr "Sorgunuz çok kısa"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "varlıklar listelenemedi"
-
 #: .new
 msgid "new"
 msgstr "yeni"
@@ -2050,6 +2090,76 @@ msgstr "Kütüphane"
 #: .Source
 msgid "Source"
 msgstr "Kaynak"
+
+#: .New+feature
+msgid "New feature"
+msgstr "Yeni özellik"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "Daha fazla bilgi edinin"
+
+#: .Allow+submissions+to+this+form+without+a+username+and+password
+msgid "Allow submissions to this form without a username and password"
+msgstr "Bu forma kullanıcı adı ve parola olmadan gönderim yapılmasına izin ver"
+
+#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
+msgid ""
+"Allow anonymous submissions for this project. Previously, this was an "
+"account-wide setting. Click the icon to learn more."
+msgstr "Bu proje için anonim gönderimlere izin verin. Önceden bu, hesap genelinde bir ayardı. Daha fazla bilgi edinmek için simgeye tıklayın."
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "Bu ##asset_type## boş."
+
+#: .Show+less
+msgid "Show less"
+msgstr "Daha az göster"
+
+#: .Show+more
+msgid "Show more"
+msgstr "Daha fazla göster"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "Varlığın herkese açık durumu değiştirilemedi."
+
+#: .Make+public
+msgid "Make public"
+msgstr "Herkese açık yap"
+
+#: .Make+private
+msgid "Make private"
+msgstr "Özel yap"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "Sahibin verileri alınamadı."
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "Oluşturulma Tarihi"
+
+#: .Items
+msgid "Items"
+msgstr "Ögeler"
+
+#: .Organization
+msgid "Organization"
+msgstr "Kuruluş"
+
+#: .Country
+msgid "Country"
+msgstr "Ülke"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "Tüm ayrıntıları gizle"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "Tüm ayrıntıları göster"
 
 #: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
 msgid "This project has no submitted data. Please collect some and try again."
@@ -2095,58 +2205,6 @@ msgstr "-nin/-nın"
 msgid "rows"
 msgstr "satır"
 
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "Sahibin verileri alınamadı."
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "Oluşturulma Tarihi"
-
-#: .Items
-msgid "Items"
-msgstr "Ögeler"
-
-#: .Organization
-msgid "Organization"
-msgstr "Kuruluş"
-
-#: .Country
-msgid "Country"
-msgstr "Ülke"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "Tüm ayrıntıları gizle"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "Tüm ayrıntıları göster"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "Varlığın herkese açık durumu değiştirilemedi."
-
-#: .Make+public
-msgid "Make public"
-msgstr "Herkese açık yap"
-
-#: .Make+private
-msgid "Make private"
-msgstr "Özel yap"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "Bu ##asset_type## boş."
-
-#: .Show+less
-msgid "Show less"
-msgstr "Daha az göster"
-
-#: .Show+more
-msgid "Show more"
-msgstr "Daha fazla göster"
-
 #: .Temporary+Access+Restriction+Password+Update+Required
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr "Geçici Erişim Kısıtlaması: Parola Güncellemesi Gerekli"
@@ -2160,24 +2218,6 @@ msgstr "İlerlemeye devam etmeden önce parolanızı güncellemeniz gerekiyor. V
 #: .Update+password
 msgid "Update password"
 msgstr "Şifreyi güncelle"
-
-#: .Allow+submissions+to+this+form+without+a+username+and+password
-msgid "Allow submissions to this form without a username and password"
-msgstr "Bu forma kullanıcı adı ve parola olmadan gönderim yapılmasına izin ver"
-
-#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
-msgid ""
-"Allow anonymous submissions for this project. Previously, this was an "
-"account-wide setting. Click the icon to learn more."
-msgstr "Bu proje için anonim gönderimlere izin verin. Önceden bu, hesap genelinde bir ayardı. Daha fazla bilgi edinmek için simgeye tıklayın."
-
-#: .New+feature
-msgid "New feature"
-msgstr "Yeni özellik"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "Daha fazla bilgi edinin"
 
 #: .Success%21
 msgid "Success!"
@@ -2255,6 +2295,40 @@ msgstr "Çeviriler Tablosu Kapatılsın mı?"
 msgid "You will lose all unsaved changes."
 msgstr "Kaydedilmemiş tüm değişiklikleri kaybedeceksiniz."
 
+#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
+msgid "Export is being generated, you will receive an email when it's done"
+msgstr "Dışa aktarım oluşturuluyor, tamamlandığında bir e-posta alacaksınız"
+
+#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
+msgid ""
+"We couldn't create the export, please try again later or contact support"
+msgstr "Dışa aktarımı oluşturamadık, lütfen daha sonra tekrar deneyin veya destek ekibiyle iletişime geçin"
+
+#: .Export+all+data
+msgid "Export all data"
+msgstr "Tüm verileri dışa aktar"
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.+%23%23CURRENT_OWNER_NAME%23%23+will+receive+a+notification+that+the+transfer+was+incomplete.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##. "
+"##CURRENT_OWNER_NAME## will receive a notification that the transfer was "
+"incomplete."
+msgstr ""
+
+#: .%23%23CURRENT_OWNER_NAME%23%23+will+remain+the+project+owner.
+msgid "##CURRENT_OWNER_NAME## will remain the project owner."
+msgstr ""
+
+#: .You+have+accepted+project+ownership+from+%23%23CURRENT_OWNER_NAME%23%23+for+%23%23PROJECT_NAME%23%23.+This+process+can+take+up+to+a+few+minutes+to+complete.
+msgid ""
+"You have accepted project ownership from ##CURRENT_OWNER_NAME## for "
+"##PROJECT_NAME##. This process can take up to a few minutes to complete."
+msgstr ""
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "Ana Koleksiyon"
+
 #: .Unlabeled
 msgid "Unlabeled"
 msgstr "Etiketsiz"
@@ -2275,51 +2349,6 @@ msgstr "Grafik Tipi"
 msgid "Colors"
 msgstr "Renkler"
 
-#: .Vertical
-msgid "Vertical"
-msgstr "Dikey"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "Yatay"
-
-#: .Pie
-msgid "Pie"
-msgstr "Çember"
-
-#: .Donut
-msgid "Donut"
-msgstr "Halka"
-
-#: .Polar+area
-msgid "Polar area"
-msgstr "Polar alan"
-
-#: .Radar
-msgid "Radar"
-msgstr "Radar"
-
-#: .An+error+occurred
-msgid "An error occurred"
-msgstr "Bir hata oluştu"
-
-#: .Your+connection+is+offline
-msgid "Your connection is offline"
-msgstr "Bağlantınız çevrim dışı"
-
-#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
-msgid "Export is being generated, you will receive an email when it's done"
-msgstr "Dışa aktarım oluşturuluyor, tamamlandığında bir e-posta alacaksınız"
-
-#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
-msgid ""
-"We couldn't create the export, please try again later or contact support"
-msgstr "Dışa aktarımı oluşturamadık, lütfen daha sonra tekrar deneyin veya destek ekibiyle iletişime geçin"
-
-#: .Export+all+data
-msgid "Export all data"
-msgstr "Tüm verileri dışa aktar"
-
 #: .No+grouping
 msgid "No grouping"
 msgstr "Gruplama yok"
@@ -2331,113 +2360,6 @@ msgstr "Buna göre grupla"
 #: .Translation
 msgid "Translation"
 msgstr "Çeviri"
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "Lütfen, bir hata olduğunu düşünüyorsanız [destek ekibiyle iletişime geçin]."
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "Lütfen başlık butonunu kullanarak giriş yapmayı deneyin veya bunun bir hata olduğunu düşünüyorsanız [destek ekibiyle iletişime geçin]."
-
-#: .Access+Denied
-msgid "Access Denied"
-msgstr "Erişim Engellendi"
-
-#: .You+don%27t+have+access+to+this+page.
-msgid "You don't have access to this page."
-msgstr "Bu sayfaya erişiminiz yok."
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "Sayfaya erişiminiz yok veya böyle bir sayfa bulunmamakta."
-
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr "Bir şeyler ters gitti"
-
-#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
-msgid ""
-"We're sorry, but there was an unexpected error while trying to serve this "
-"page."
-msgstr "Üzgünüz, ancak bu sayfaya erişmeye çalışırken beklenmeyen bir hata oluştu."
-
-#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
-msgid ""
-"Please try again later, or [contact the support team] if this happens "
-"repeatedly."
-msgstr "Lütfen daha sonra tekrar deneyin veya bu sorun tekrarlanırsa [destek ekibi ile iletişime geçin]."
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "Ek detaylar:"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "Ana Koleksiyon"
-
-#: .Log+In
-msgid "Log In"
-msgstr "Oturum Aç"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "Kitaplığımda Ara"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "Herkese Açık Koleksiyonlarda Ara"
-
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "Ara…"
-
-#: .submissions
-msgid "submissions"
-msgstr "gönderimler"
-
-#: .Summary
-msgid "Summary"
-msgstr "Özet"
-
-#: .Form
-msgid "Form"
-msgstr "Form"
-
-#: .Settings
-msgid "Settings"
-msgstr "Ayarlar"
-
-#: .Today
-msgid "Today"
-msgstr "Bugün"
-
-#: .Past+7+days
-msgid "Past 7 days"
-msgstr "Son 7 gün"
-
-#: .Past+31+days
-msgid "Past 31 days"
-msgstr "Son 31 gün"
-
-#: .Past+3+months
-msgid "Past 3 months"
-msgstr "Son 3 ay"
-
-#: .Past+12+months
-msgid "Past 12 months"
-msgstr "Son 12 ay"
-
-#: .No+chart+data+available+for+current+period.
-msgid "No chart data available for current period."
-msgstr "Mevcut dönem için grafik verisi yok."
-
-#: .Total
-msgid "Total"
-msgstr "Toplam"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2535,6 +2457,149 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "Dinamik verileri bu projeye aktarmak için diğer proje(ler) ile bağlantı kurun. Dinamik veri ekleri hakkında daha fazla bilgi edinin"
 
+#: .Summary
+msgid "Summary"
+msgstr "Özet"
+
+#: .Form
+msgid "Form"
+msgstr "Form"
+
+#: .Settings
+msgid "Settings"
+msgstr "Ayarlar"
+
+#: .Today
+msgid "Today"
+msgstr "Bugün"
+
+#: .Past+7+days
+msgid "Past 7 days"
+msgstr "Son 7 gün"
+
+#: .Past+31+days
+msgid "Past 31 days"
+msgstr "Son 31 gün"
+
+#: .Past+3+months
+msgid "Past 3 months"
+msgstr "Son 3 ay"
+
+#: .Past+12+months
+msgid "Past 12 months"
+msgstr "Son 12 ay"
+
+#: .No+chart+data+available+for+current+period.
+msgid "No chart data available for current period."
+msgstr "Mevcut dönem için grafik verisi yok."
+
+#: .Total
+msgid "Total"
+msgstr "Toplam"
+
+#: .Log+In
+msgid "Log In"
+msgstr "Oturum Aç"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "Kitaplığımda Ara"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "Herkese Açık Koleksiyonlarda Ara"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "Ara…"
+
+#: .submissions
+msgid "submissions"
+msgstr "gönderimler"
+
+#: .Cannot+transfer+a+project+to+the+same+account.
+msgid "Cannot transfer a project to the same account."
+msgstr ""
+
+#: .User+not+found.+Please+try+again.
+msgid "User not found. Please try again."
+msgstr ""
+
+#: .Please+enter+a+user+name.
+msgid "Please enter a user name."
+msgstr ""
+
+#: .Transfer+project+ownership
+msgid "Transfer project ownership"
+msgstr ""
+
+#: .Your+transfer+request+is+pending+until+%23%23username%23%23+has+accepted+or+declined+it.
+msgid ""
+"Your transfer request is pending until ##username## has accepted or declined"
+" it."
+msgstr ""
+
+#: .Transfer+ownership+of+this+project+to+another+user.+All+submissions,+data+storage,+and+transcription+and+translation+usage+for+this+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"Transfer ownership of this project to another user. All submissions, data "
+"storage, and transcription and translation usage for this project will be "
+"transferred to the new project owner."
+msgstr ""
+
+#: .Learn+more+%E2%86%92
+msgid "Learn more →"
+msgstr ""
+
+#: .Cancel+transfer
+msgid "Cancel transfer"
+msgstr ""
+
+#: .Transfer
+msgid "Transfer"
+msgstr ""
+
+#: .Transfer+ownership
+msgid "Transfer ownership"
+msgstr ""
+
+#: .This+action+will+transfer+ownership+of+%23%23username%23%23+to+another+user
+msgid "This action will transfer ownership of ##username## to another user"
+msgstr ""
+
+#: .When+you+transfer+ownership+of+the+project+to+another+user,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"When you transfer ownership of the project to another user, all of the "
+"submissions, data storage, and transcription and translation usage for the "
+"project will be transferred to the new project owner."
+msgstr ""
+
+#: .The+new+project+owner+will+receive+an+email+request+to+accept+the+transfer.+You+will+be+notified+when+the+transfer+is+accepted+or+declined.
+msgid ""
+"The new project owner will receive an email request to accept the transfer. "
+"You will be notified when the transfer is accepted or declined."
+msgstr ""
+
+#: .You+will+be+the+owner+of+the+project+until+the+transfer+is+accepted.
+msgid "You will be the owner of the project until the transfer is accepted."
+msgstr ""
+
+#: .Once+the+transfer+is+accepted,+you+will+not+be+able+to+undo+this+action.
+msgid ""
+"Once the transfer is accepted, you will not be able to undo this action."
+msgstr ""
+
+#: .To+complete+the+transfer,+enter+the+username+of+the+new+project+owner
+msgid "To complete the transfer, enter the username of the new project owner"
+msgstr ""
+
+#: .Enter+username+here
+msgid "Enter username here"
+msgstr ""
+
+#: .Transfer+project
+msgid "Transfer project"
+msgstr ""
+
 #: .Type
 msgid "Type"
 msgstr "Tür"
@@ -2551,6 +2616,152 @@ msgstr "Aboneler"
 msgid "Primary Sector"
 msgstr "Birincil Sektör"
 
+#: .There+is+no+data+for+this+question+for+the+current+submission
+msgid "There is no data for this question for the current submission"
+msgstr "Mevcut başvuru için bu soruya ilişkin veri bulunmamaktadır"
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "Lütfen, bir hata olduğunu düşünüyorsanız [destek ekibiyle iletişime geçin]."
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "Lütfen başlık butonunu kullanarak giriş yapmayı deneyin veya bunun bir hata olduğunu düşünüyorsanız [destek ekibiyle iletişime geçin]."
+
+#: .Access+Denied
+msgid "Access Denied"
+msgstr "Erişim Engellendi"
+
+#: .You+don%27t+have+access+to+this+page.
+msgid "You don't have access to this page."
+msgstr "Bu sayfaya erişiminiz yok."
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "Sayfaya erişiminiz yok veya böyle bir sayfa bulunmamakta."
+
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr "Bir şeyler ters gitti"
+
+#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
+msgid ""
+"We're sorry, but there was an unexpected error while trying to serve this "
+"page."
+msgstr "Üzgünüz, ancak bu sayfaya erişmeye çalışırken beklenmeyen bir hata oluştu."
+
+#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
+msgid ""
+"Please try again later, or [contact the support team] if this happens "
+"repeatedly."
+msgstr "Lütfen daha sonra tekrar deneyin veya bu sorun tekrarlanırsa [destek ekibi ile iletişime geçin]."
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "Ek detaylar:"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "Kullanıcı adlarını virgülle ayırarak girin"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "Kullanıcı bulunamadı:"
+
+#: .equals
+msgid "equals"
+msgstr "eşittir"
+
+#: .Reset+changes
+msgid "Reset changes"
+msgstr "Değişiklikleri sıfırlayın"
+
+#: .username
+msgid "username"
+msgstr "kullanıcı adı"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "İzin ver"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "İzinleri güncelleyin"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "izinler başarıyla kopyalandı"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "##source to ##target izinleri kopyalamak üzeresiniz. Bu eylem geri alınamaz."
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "İzinleri kopyalamak istediğinizden emin misiniz?"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "İlerle"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "Ekibi başka bir projeden kopyala"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "Bu, bu projede tanımlanan mevcut paylaşım ayarlarının üzerine yazacaktır."
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "Kaynak proje seçin…"
+
+#: .copy
+msgid "copy"
+msgstr "kopyala"
+
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "Bağlantıyla herkese açık olarak paylaşın"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "Bu formu herkes görüntüleyebilir"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "Bu forma yapılan gönderimleri herkes görüntüleyebilir"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "Paylaşılabilir bağlantı"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "İzinler kaldırılsın mı?"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "Bu işlem, ##username## kullanıcısının tüm izinlerini kaldıracak"
+
+#: .Remove
+msgid "Remove"
+msgstr "Kaldır"
+
+#: .is+owner
+msgid "is owner"
+msgstr "sahibidir"
+
+#: .Pending+owner
+msgid "Pending owner"
+msgstr ""
+
 #: .DONE
 msgid "DONE"
 msgstr "TAMAMLANDI"
@@ -2566,172 +2777,6 @@ msgstr "##count## öğeler"
 #: .There+are+no+assets+to+display.
 msgid "There are no assets to display."
 msgstr "Görüntülenecek varlık yok."
-
-#: .Discard+unsaved+changes%3F
-msgid "Discard unsaved changes?"
-msgstr "Kaydedilmemiş değişiklikler silinsin mi?"
-
-#: .Discard
-msgid "Discard"
-msgstr "Sil"
-
-#: .Item
-msgid "Item"
-msgstr "Öge"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "##total_count##‘inin"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "Transkript"
-
-#: .Translations
-msgid "Translations"
-msgstr "Çeviriler"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "Analiz"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "Kaydetmeden çıkmak istiyor musunuz?"
-
-#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
-msgid "You have unsaved changes. Leave settings without saving?"
-msgstr "Kaydedilmemiş değişiklikleriniz mevcut. Kaydetmeden ayarlardan çıkılsın mı?"
-
-#: .Updated+profile+successfully
-msgid "Updated profile successfully"
-msgstr "Profil başarıyla güncellendi"
-
-#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
-msgid ""
-"You can now control whether to allow anonymous submissions in web forms for "
-"each project. Previously, this was an account-wide setting."
-msgstr "Artık her proje için web formlarında anonim gönderimlere izin verilip verilmeyeceğini kontrol edebilirsiniz. Önceden bu, hesap genelinde bir ayardı."
-
-#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
-msgid ""
-"This privacy feature is now a per-project setting. New projects will require"
-" authentication by default."
-msgstr "Bu gizlilik özelliği artık proje başına bir ayardır. Yeni projeler varsayılan olarak kimlik doğrulaması gerektirecektir."
-
-#: .Learn+more+about+these+changes+here.
-msgid "Learn more about these changes here."
-msgstr "Bu değişiklikler hakkında daha fazla bilgiyi buradan edinebilirsiniz."
-
-#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
-msgid ""
-"Use the button above to select the information to be displayed in this area"
-msgstr "Bu alanda görüntülenecek bilgileri seçmek için yukarıdaki butonu kullanın"
-
-#: .%23%23start_date%23%23+to+%23%23end_date%23%23
-msgid "##start_date## to ##end_date##"
-msgstr "##start_date## - ##end_date## arasında"
-
-#: .Your+usage
-msgid "Your usage"
-msgstr "Kullanımınız"
-
-#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
-msgid "Last update: ##LAST_UPDATE_TIME##"
-msgstr "Son güncelleme: ##LAST_UPDATE_TIME##"
-
-#: .Storage
-msgid "Storage"
-msgstr "Depolama"
-
-#: .per+account
-msgid "per account"
-msgstr "hesap başına"
-
-#: .Transcription+minutes
-msgid "Transcription minutes"
-msgstr "Transkript kayıtları"
-
-#: .Translation+characters
-msgid "Translation characters"
-msgstr "Çeviri karakterleri"
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. Reach out to "
-"billing@kobotoolbox.org if you have any questions about your plan."
-msgstr "Sürüm yükseltme işleminiz için teşekkürler! Devamlı desteğiniz için minnettarız. Planınız hakkında herhangi bir sorunuz varsa billing@kobotoolbox.org adresinden bize ulaşın."
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. If your "
-"account is not immediately updated, wait a few minutes and refresh the page."
-msgstr "Sürüm yükseltme işleminiz için teşekkürler! Devamlı desteğiniz için minnettarız. Hesabınız hemen güncellenmezse, birkaç dakika bekleyin ve sayfayı yenileyin."
-
-#: .Please+contact+your+organization+owner+for+any+changes+to+your+plan+or+add-ons.
-msgid ""
-"Please contact your organization owner for any changes to your plan or add-"
-"ons."
-msgstr "Planınızdaki veya eklentilerinizdeki herhangi bir değişiklik için lütfen kuruluş sahibinizle iletişime geçin."
-
-#: .show+monthly+plans
-msgid "show monthly plans"
-msgstr "aylık planları göster"
-
-#: .Monthly
-msgid "Monthly"
-msgstr "Aylık"
-
-#: .show+annual+plans
-msgid "show annual plans"
-msgstr "yıllık planları göster"
-
-#: .Annual
-msgid "Annual"
-msgstr "Yıllık"
-
-#: .Want+more%3F
-msgid "Want more?"
-msgstr "Daha fazlasını ister misiniz?"
-
-#: .Contact+us
-msgid "Contact us"
-msgstr "Bizimle iletişime geçin"
-
-#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
-msgid ""
-"For organizations with higher volume and advanced data collection needs, get"
-" in touch to learn more about our "
-msgstr "Daha yüksek hacimli ve gelişmiş veri toplama ihtiyaçları olan kuruluşlar için ürünlerimiz hakkında daha fazla bilgi edinmek üzere iletişime geçin "
-
-#: .Enterprise+Plan
-msgid "Enterprise Plan"
-msgstr "Kuruluş Planı"
-
-#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
-msgid ""
-"We also offer custom solutions and private servers for large organizations. "
-msgstr "Ayrıca büyük kuruluşlar için özel çözümler ve özel sunucular da sunuyoruz. "
-
-#: .Contact+our+team
-msgid "Contact our team"
-msgstr "Ekibimizle iletişime geçin"
-
-#: .+for+more+information.
-msgid " for more information."
-msgstr " daha fazla bilgi için."
-
-#: .Collapse+full+comparison
-msgid "Collapse full comparison"
-msgstr "Tam karşılaştırmayı daralt"
-
-#: .Display+full+comparison
-msgid "Display full comparison"
-msgstr "Tam karşılaştırmayı görüntüle"
-
-#: .Security
-msgid "Security"
-msgstr "Güvenlik"
 
 #: .Deploy
 msgid "Deploy"
@@ -2781,251 +2826,6 @@ msgstr "Paylaş"
 msgid "View containing Collection"
 msgstr "Koleksiyon içeriğini görüntüle"
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "izinler başarıyla kopyalandı"
-
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "##source to ##target izinleri kopyalamak üzeresiniz. Bu eylem geri alınamaz."
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "İzinleri kopyalamak istediğinizden emin misiniz?"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "İlerle"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "Ekibi başka bir projeden kopyala"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "Bu, bu projede tanımlanan mevcut paylaşım ayarlarının üzerine yazacaktır."
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "Kaynak proje seçin…"
-
-#: .copy
-msgid "copy"
-msgstr "kopyala"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "Kullanıcı adlarını virgülle ayırarak girin"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "Kullanıcı bulunamadı:"
-
-#: .equals
-msgid "equals"
-msgstr "eşittir"
-
-#: .Reset+changes
-msgid "Reset changes"
-msgstr "Değişiklikleri sıfırlayın"
-
-#: .username
-msgid "username"
-msgstr "kullanıcı adı"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "İzin ver"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "İzinleri güncelleyin"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "Bağlantıyla herkese açık olarak paylaşın"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "Bu formu herkes görüntüleyebilir"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "Bu forma yapılan gönderimleri herkes görüntüleyebilir"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "Paylaşılabilir bağlantı"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "İzinler kaldırılsın mı?"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "Bu işlem, ##username## kullanıcısının tüm izinlerini kaldıracak"
-
-#: .Remove
-msgid "Remove"
-msgstr "Kaldır"
-
-#: .is+owner
-msgid "is owner"
-msgstr "sahibidir"
-
-#: .Paste+your+formatted+table+from+excel+in+the+box+below.
-msgid "Paste your formatted table from excel in the box below."
-msgstr "Excel'de biçimlendirilmiş tablonuzu aşağıdaki kutuya yapıştırın."
-
-#: .add+cascade+with+%23+questions
-msgid "add cascade with # questions"
-msgstr "# sorularıyla basamaklama ekleyin"
-
-#: .OK
-msgid "OK"
-msgstr "Tamam"
-
-#: .Learn+more+about+importing+cascading+lists+from+Excel
-msgid "Learn more about importing cascading lists from Excel"
-msgstr "Excel'den basamaklı listeleri içe aktarma hakkında daha fazla bilgi edinin"
-
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "kütüphaneye soru eklendi"
-
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "grup bir blok olarak kütüphaneye eklenmiştir"
-
-#: .loading
-msgid "loading"
-msgstr "yükleniyor"
-
-#: .no+search+results+found
-msgid "no search results found"
-msgstr "arama sonucu bulunamadı"
-
-#: .block+of+___+questions
-msgid "block of ___ questions"
-msgstr "___ soru bloğu"
-
-#: .search+library
-msgid "search library"
-msgstr "kütüphanede ara"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "REST Hizmeti yüklenemedi"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "REST Hizmeti günlük kayıtları yüklenemedi"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "Gönderim Hatası Ayrıntısı (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "REST Hizmetlerine Dön"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "Yükleniyor…"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "Henüz günlük kayıt yok"
-
-#: .Submission
-msgid "Submission"
-msgstr "Gönderim"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "Tüm gönderimleri yeniden dene"
-
-#: .Success
-msgid "Success"
-msgstr "Başarılı"
-
-#: .Pending
-msgid "Pending"
-msgstr "Beklemede"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "Beklemede (##count##×)"
-
-#: .Failed
-msgid "Failed"
-msgstr "Başarısız oldu"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "Gönderimi yeniden dene"
-
-#: .More+info
-msgid "More info"
-msgstr "Daha fazla bilgi"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "REST Hizmetleri yüklenemedi"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "##target ögesini silmek istediğinizden emin misiniz?"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "##target ögesini silmek üzeresiniz. Bu eylem geri alınamaz."
-
-#: .Confirm
-msgid "Confirm"
-msgstr "Onaylayın"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "Yeni bir Hizmet Kaydet"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "Bu projede henüz herhangi bir REST Hizmeti yok!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "Gönderimleri bir üçüncü taraf uygulamasına otomatik olarak göndermek için REST Hizmetlerini kullanabilirsiniz."
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "REST Hizmetleri: ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "Yardıma mı ihtiyacınız var?"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "Hizmet Adı"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "##submissionTotal## gönderimden ##submissionIndex##‘i"
-
-#: .download
-msgid "download"
-msgstr "indir"
-
-#: .process
-msgid "process"
-msgstr "süreç"
-
 #: .Marker+Colors
 msgid "Marker Colors"
 msgstr "İşaret Renkleri"
@@ -3070,6 +2870,12 @@ msgstr "Yükleme hatası: geçerli bir harita kaplama biçimi yok."
 msgid "Delete File"
 msgstr "Dosyayı Sil"
 
+#: .Are+you+sure+you+want+to+delete+this+file%3F+%3Cbr/%3E%3Cbr/%3E%3Cstrong%3EThis+action+cannot+be+undone.%3C/strong%3E
+msgid ""
+"Are you sure you want to delete this file? <br/><br/><strong>This action "
+"cannot be undone.</strong>"
+msgstr ""
+
 #: .Choose+the+Geopoint+question+you+would+like+to+display+on+the+map
 msgid "Choose the Geopoint question you would like to display on the map:"
 msgstr "Haritada görüntülemek istediğiniz Coğrafi Nokta sorusunu seçin:"
@@ -3108,6 +2914,166 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "Varsayılan olarak harita, ##QUERY_LIMIT_DEFAULT## en son gönderimle sınırlıdır. Bu sınırı geçici olarak farklı bir değere yükseltebilirsiniz. Haritayı her açtığınızda bunun sıfırlandığını unutmayın."
 
+#: .Paste+your+formatted+table+from+excel+in+the+box+below.
+msgid "Paste your formatted table from excel in the box below."
+msgstr "Excel'de biçimlendirilmiş tablonuzu aşağıdaki kutuya yapıştırın."
+
+#: .add+cascade+with+%23+questions
+msgid "add cascade with # questions"
+msgstr "# sorularıyla basamaklama ekleyin"
+
+#: .OK
+msgid "OK"
+msgstr "Tamam"
+
+#: .Learn+more+about+importing+cascading+lists+from+Excel
+msgid "Learn more about importing cascading lists from Excel"
+msgstr "Excel'den basamaklı listeleri içe aktarma hakkında daha fazla bilgi edinin"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "REST Hizmetleri yüklenemedi"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "##target ögesini silmek istediğinizden emin misiniz?"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "##target ögesini silmek üzeresiniz. Bu eylem geri alınamaz."
+
+#: .Confirm
+msgid "Confirm"
+msgstr "Onaylayın"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "Yeni bir Hizmet Kaydet"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "Bu projede henüz herhangi bir REST Hizmeti yok!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "Gönderimleri bir üçüncü taraf uygulamasına otomatik olarak göndermek için REST Hizmetlerini kullanabilirsiniz."
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "REST Hizmetleri: ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "Yardıma mı ihtiyacınız var?"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "Hizmet Adı"
+
+#: .Success
+msgid "Success"
+msgstr "Başarılı"
+
+#: .Pending
+msgid "Pending"
+msgstr "Beklemede"
+
+#: .Failed
+msgid "Failed"
+msgstr "Başarısız oldu"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "REST Hizmeti yüklenemedi"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "REST Hizmeti günlük kayıtları yüklenemedi"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "Gönderim Hatası Ayrıntısı (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "REST Hizmetlerine Dön"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "Yükleniyor…"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "Henüz günlük kayıt yok"
+
+#: .Submission
+msgid "Submission"
+msgstr "Gönderim"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "Tüm gönderimleri yeniden dene"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "Beklemede (##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "Gönderimi yeniden dene"
+
+#: .More+info
+msgid "More info"
+msgstr "Daha fazla bilgi"
+
+#: .loading
+msgid "loading"
+msgstr "yükleniyor"
+
+#: .no+search+results+found
+msgid "no search results found"
+msgstr "arama sonucu bulunamadı"
+
+#: .block+of+___+questions
+msgid "block of ___ questions"
+msgstr "___ soru bloğu"
+
+#: .search+library
+msgid "search library"
+msgstr "kütüphanede ara"
+
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "kütüphaneye soru eklendi"
+
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "grup bir blok olarak kütüphaneye eklenmiştir"
+
+#: .Failed+to+cancel+transfer.+The+transfer+may+be+declined+or+accpeted+already.+Please+check+your+email.
+msgid ""
+"Failed to cancel transfer. The transfer may be declined or accpeted already."
+" Please check your email."
+msgstr ""
+
+#: .Failed+to+accept+invite.
+msgid "Failed to accept invite."
+msgstr ""
+
+#: .Failed+to+decline+invite
+msgid "Failed to decline invite"
+msgstr ""
+
+#: .Invite+has+been+cancelled+or+expired
+msgid "Invite has been cancelled or expired"
+msgstr ""
+
+#: .Invite+is+invaild.
+msgid "Invite is invaild."
+msgstr ""
+
 #: .archived
 msgid "archived"
 msgstr "arşivlendi"
@@ -3120,33 +3086,17 @@ msgstr "yayınlandı"
 msgid "draft"
 msgstr "taslak"
 
-#: .Audit+settings
-msgid "Audit settings"
-msgstr "Denetim ayarları"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "##submissionTotal## gönderimden ##submissionIndex##‘i"
 
-#: .Background+audio
-msgid "Background audio"
-msgstr "Arka plan sesi"
+#: .download
+msgid "download"
+msgstr "indir"
 
-#: .Enter+audit+settings+here
-msgid "Enter audit settings here"
-msgstr "Denetim ayarlarını buraya girin"
-
-#: .This+functionality+is+available+in+
-msgid "This functionality is available in "
-msgstr "Bu işlevsellik şurada mevcuttur: "
-
-#: .This+survey+will+be+recorded
-msgid "This survey will be recorded"
-msgstr "Bu anket kaydedilecektir"
-
-#: .Enable+audio+recording+in+the+background
-msgid "Enable audio recording in the background"
-msgstr "Arka planda ses kaydını etkinleştir"
-
-#: .Audio+quality
-msgid "Audio quality"
-msgstr "Ses kalitesi"
+#: .process
+msgid "process"
+msgstr "süreç"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -3185,6 +3135,42 @@ msgstr "Kilitli işlevler"
 msgid "Unlocked functionalities"
 msgstr "Kilidi açılmış işlevler"
 
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "Şablonunuz yok. Kütüphaneye gidin ve birkaç tane oluşturun."
+
+#: .Template+name
+msgid "Template name"
+msgstr "Şablon adı"
+
+#: .Audit+settings
+msgid "Audit settings"
+msgstr "Denetim ayarları"
+
+#: .Background+audio
+msgid "Background audio"
+msgstr "Arka plan sesi"
+
+#: .Enter+audit+settings+here
+msgid "Enter audit settings here"
+msgstr "Denetim ayarlarını buraya girin"
+
+#: .This+functionality+is+available+in+
+msgid "This functionality is available in "
+msgstr "Bu işlevsellik şurada mevcuttur: "
+
+#: .This+survey+will+be+recorded
+msgid "This survey will be recorded"
+msgstr "Bu anket kaydedilecektir"
+
+#: .Enable+audio+recording+in+the+background
+msgid "Enable audio recording in the background"
+msgstr "Arka planda ses kaydını etkinleştir"
+
+#: .Audio+quality
+msgid "Audio quality"
+msgstr "Ses kalitesi"
+
 #: .Incorrect+token
 msgid "Incorrect token"
 msgstr "Yanlış kod"
@@ -3192,6 +3178,13 @@ msgstr "Yanlış kod"
 #: .Could+not+generate+secret+key
 msgid "Could not generate secret key"
 msgstr "Gizli anahtar oluşturulamadı"
+
+#: .Two-factor+authentication+(2FA)+verifies+your+identity+using+an+authenticator+application+in+addition+to+your+usual+password.+We+recommend+enabling+two-factor+authentication+for+an+additional+layer+of+protection.
+msgid ""
+"Two-factor authentication (2FA) verifies your identity using an "
+"authenticator application in addition to your usual password. We recommend "
+"enabling two-factor authentication for an additional layer of protection."
+msgstr ""
 
 #: .Scan+QR+code+and+enter+the+%23%23number%23%23-digit+token+from+the+application
 msgid "Scan QR code and enter the ##number##-digit token from the application"
@@ -3210,6 +3203,14 @@ msgstr "QR kodu yok mu?"
 #: .Enter+key+manually
 msgid "Enter key manually"
 msgstr "Anahtarı manuel olarak girin"
+
+#: .The+following+recovery+codes+will+help+you+access+your+account+in+case+your+authenticator+app+fails.+These+codes+are+unique+and+will+not+be+stored+in+your+Kobo+account.+This+is+your+only+opportunity+to+save+them.+Please+download+the+file+and+keep+it+somewhere+safe.
+msgid ""
+"The following recovery codes will help you access your account in case your "
+"authenticator app fails. These codes are unique and will not be stored in "
+"your Kobo account. This is your only opportunity to save them. Please "
+"download the file and keep it somewhere safe."
+msgstr ""
 
 #: .Download+codes
 msgid "Download codes"
@@ -3264,21 +3265,57 @@ msgid ""
 " previous set up will not be valid anymore."
 msgstr "İki faktörlü kimlik doğrulamayı (2FA) yeniden yapılandırmak için önceki kurulumun silineceğini lütfen unutmayın. Önceki kurulumdan gelen kimlik doğrulayıcı kodları veya kurtarma kodları artık geçerli olmayacaktır."
 
+#: .Once+your+current+2FA+has+been+deactivated,+you%27ll+be+prompted+to+configure+it+again.+If+you+cannot+complete+the+process,+2FA+will+remain+disabled+for+your+account.+In+this+case,+you+can+enable+it+again+at+any+time+through+the+usual+process.
+msgid ""
+"Once your current 2FA has been deactivated, you'll be prompted to configure "
+"it again. If you cannot complete the process, 2FA will remain disabled for "
+"your account. In this case, you can enable it again at any time through the "
+"usual process."
+msgstr ""
+
 #: .Issues+with+the+token
 msgid "Issues with the token"
 msgstr "Kod ile ilgili sorunlar"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "Şablonunuz yok. Kütüphaneye gidin ve birkaç tane oluşturun."
-
-#: .Template+name
-msgid "Template name"
-msgstr "Şablon adı"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "Seç…"
 
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "Enketo yüklenirken bir hata oluştu."
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "A→Z Sırala"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "Z→A Sırala"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "Alanı gizle"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "Alanı çöz"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "Alanı dondur"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "Tüm sonuçları seçin (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "Görünür sonuçları seçin (##count##)"
+
+#: .None
+msgid "None"
+msgstr "Yok"
 
 #: .Update+status+of+selected+submissions
 msgid "Update status of selected submissions"
@@ -3319,42 +3356,6 @@ msgstr "Durumu değiştir"
 #: .Set+status+%23%23status%23%23
 msgid "Set status: ##status##"
 msgstr "Durumu ayarla: ##status##"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "Tüm sonuçları seçin (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "Görünür sonuçları seçin (##count##)"
-
-#: .None
-msgid "None"
-msgstr "Yok"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "A→Z Sırala"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "Z→A Sırala"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "Alanı gizle"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "Alanı çöz"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "Alanı dondur"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "alanları gizle"
 
 #: .%23%23ASSET_TYPE%23%23+deleted+permanently
 msgid "##ASSET_TYPE## deleted permanently"
@@ -3467,13 +3468,17 @@ msgstr "Yayınlanıyor..."
 msgid "redeployed form"
 msgstr "yeniden yayınlanan form"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "Seç…"
+#: .hide+fields
+msgid "hide fields"
+msgstr "alanları gizle"
 
 #: .Profile
 msgid "Profile"
 msgstr "Profil"
+
+#: .Security
+msgid "Security"
+msgstr "Güvenlik"
 
 #: .Usage
 msgid "Usage"
@@ -3483,206 +3488,9 @@ msgstr "Kullanım"
 msgid "Plans"
 msgstr "Planlar"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "Etiketler güncellenemedi"
-
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "Güncelleniyor…"
-
-#: .Update
-msgid "Update"
-msgstr "Güncelle"
-
-#: .filter
-msgid "filter"
-msgstr "filtre"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "Filtre yok, aşağıdan bir tane ekleyebilirsiniz"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "Filtre ekle"
-
-#: .Apply
-msgid "Apply"
-msgstr "Uygula"
-
-#: .fields
-msgid "fields"
-msgstr "alanlar"
-
-#: .TOS+Update+Message+not+found
-msgid "TOS Update Message not found"
-msgstr "Kullanım Şartları Güncelleme Mesajı bulunamadı"
-
-#: .Please+make+sure+the+following+details+are+filled+out+correctly
-msgid "Please make sure the following details are filled out correctly:"
-msgstr "Lütfen aşağıdaki bilgilerin doğru bir şekilde doldurulduğundan emin olun:"
-
-#: .I+agree,+let%27s+go
-msgid "I agree, let's go"
-msgstr "Kabul ediyorum, devam et"
-
-#: .I+don%27t+agree,+log+me+out
-msgid "I don't agree, log me out"
-msgstr "Kabul etmiyorum, çıkış yap"
-
-#: .Archive/Unarchive
-msgid "Archive/Unarchive"
-msgstr "Arşivle/Arşivden kaldır"
-
-#: .Archive+project
-msgid "Archive project"
-msgstr "Projeyi arşivle"
-
-#: .Unarchive+project
-msgid "Unarchive project"
-msgstr "Projeyi arşivden çıkar"
-
-#: .Draft+project+selected
-msgid "Draft project selected"
-msgstr "Taslak proje seçildi"
-
-#: .Delete+1+project
-msgid "Delete 1 project"
-msgstr "1 projeyi sil"
-
-#: .Delete+project
-msgid "Delete project"
-msgstr "Projeyi sil"
-
-#: .Question+Block
-msgid "Question Block"
-msgstr "Soru Bloğu"
-
-#: .Template
-msgid "Template"
-msgstr "Şablon"
-
-#: .Collection
-msgid "Collection"
-msgstr "Koleksiyon"
-
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "İstediğiniz türü seçin"
-
-#: .Submission+URL
-msgid "Submission URL"
-msgstr "Gönderim URL'si"
-
-#: .Public+key
-msgid "Public key"
-msgstr "Genel anahtar"
-
-#: .Set+encryption
-msgid "Set encryption"
-msgstr "Şifrelemeyi ayarlayın"
-
-#: .Remove+encryption
-msgid "Remove encryption"
-msgstr "Şifrelemeyi kaldırın"
-
-#: .Learn+more+about+encrypting+forms
-msgid "Learn more about encrypting forms"
-msgstr "Formları şifreleme hakkında daha fazla bilgi edinin"
-
-#: .%23%23type%23%23+%23%23name%23%23+created
-msgid "##type## ##name## created"
-msgstr "##type## ##name## oluşturuldu"
-
-#: .Failed+to+create+%23%23type%23%23
-msgid "Failed to create ##type##"
-msgstr "##type## oluşturulamadı"
-
-#: .Failed+to+update+%23%23type%23%23
-msgid "Failed to update ##type##"
-msgstr "##type## güncellenemedi"
-
-#: .Saving%E2%80%A6
-msgid "Saving…"
-msgstr "Kaydediliyor…"
-
-#: .Creating%E2%80%A6
-msgid "Creating…"
-msgstr "Oluşturuluyor…"
-
-#: .Enter+title+of+%23%23type%23%23+here
-msgid "Enter title of ##type## here"
-msgstr "##type## başlığını buraya girin"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "Gönderim bulunamadı. Silinmiş olabilir. Gönderim Kimliği: ##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "Gönderim silinsin mi?"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "Bu gönderimi silmek istediğinizden emin misiniz?"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "Bu eylem geri alınamaz"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "Kopya oluşturuldu"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "Gönderim kaydının bir kopyası başarıyla oluşturuldu. Aşağıda yeni örneği görüntüleyebilir ve aşağıdaki işlem butonlarını kullanarak değişiklik yapabilirsiniz."
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "Tekrarlanan gönderimi sil"
-
-#: .Language
-msgid "Language:"
-msgstr "Dil:"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "Doğrulama durumu:"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "Bu gönderi için en son verileri yüklemek için aşağıdaki butona tıklayın. "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "Gönderimi yenile"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "Arka plan ses kaydı"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "XML adlarını görüntüle"
-
-#: .View
-msgid "View"
-msgstr "Görüntüle"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "Çoğalt"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "Gönderimi sil"
+#: .Add-ons
+msgid "Add-ons"
+msgstr ""
 
 #: .Import+data+from+%23%23SOURCE_NAME%23%23
 msgid "Import data from ##SOURCE_NAME##"
@@ -3721,6 +3529,159 @@ msgstr "İçe aktarılan sorular güncelleniyor"
 #: .Accept
 msgid "Accept"
 msgstr "Kabul et"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "Gönderim bulunamadı. Silinmiş olabilir. Gönderim Kimliği: ##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "Gönderim silinsin mi?"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "Bu gönderimi silmek istediğinizden emin misiniz?"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "Bu eylem geri alınamaz"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "Kopya oluşturuldu"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "Gönderim kaydının bir kopyası başarıyla oluşturuldu. Aşağıda yeni örneği görüntüleyebilir ve aşağıdaki işlem butonlarını kullanarak değişiklik yapabilirsiniz."
+
+#: .Source+submission+uuid+
+msgid "Source submission uuid: "
+msgstr ""
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "Tekrarlanan gönderimi sil"
+
+#: .Discard
+msgid "Discard"
+msgstr "Sil"
+
+#: .Language
+msgid "Language:"
+msgstr "Dil:"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "Doğrulama durumu:"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "Bu gönderi için en son verileri yüklemek için aşağıdaki butona tıklayın. "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "Gönderimi yenile"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "Arka plan ses kaydı"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "XML adlarını görüntüle"
+
+#: .View
+msgid "View"
+msgstr "Görüntüle"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "Çoğalt"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "Gönderimi sil"
+
+#: .Type+
+msgid "Type: "
+msgstr "Tür: "
+
+#: ..+
+msgid ". "
+msgstr ". "
+
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#2 katılımcının #1 tanesi bu soruyu yanıtlamıştır. "
+
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# veri içermiyordu.)"
+
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "Grafik Stilini Geçersiz Kıl"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "Etiketler güncellenemedi"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "Güncelleniyor…"
+
+#: .Update
+msgid "Update"
+msgstr "Güncelle"
+
+#: .Question+Block
+msgid "Question Block"
+msgstr "Soru Bloğu"
+
+#: .Template
+msgid "Template"
+msgstr "Şablon"
+
+#: .Collection
+msgid "Collection"
+msgstr "Koleksiyon"
+
+#: .Upload+as+template
+msgid "Upload as template"
+msgstr ""
+
+#: .Note+that+this+will+be+ignored+when+uploading+a+collection+file.
+msgid "Note that this will be ignored when uploading a collection file."
+msgstr ""
+
+#: .Submission+URL
+msgid "Submission URL"
+msgstr "Gönderim URL'si"
+
+#: .Public+key
+msgid "Public key"
+msgstr "Genel anahtar"
+
+#: .Set+encryption
+msgid "Set encryption"
+msgstr "Şifrelemeyi ayarlayın"
+
+#: .Remove+encryption
+msgid "Remove encryption"
+msgstr "Şifrelemeyi kaldırın"
+
+#: .Learn+more+about+encrypting+forms
+msgid "Learn more about encrypting forms"
+msgstr "Formları şifreleme hakkında daha fazla bilgi edinin"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "Desteklenmeyen medya türü: ##QUESTION_TYPE##"
 
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
@@ -3839,9 +3800,60 @@ msgstr "Sıklık"
 msgid "Percentage"
 msgstr "Yüzde"
 
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "Desteklenmeyen medya türü: ##QUESTION_TYPE##"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "Yardım Kaynakları"
+
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "KoboToolbox Yardım Merkezi"
+
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "Kobo ile ilgili kullanıcı destek makaleleri ve öğreticilerden oluşan geniş bir koleksiyon"
+
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "KoboToolbox Topluluk Forumu"
+
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "Dünyanın dört bir yanındaki deneyimli Kobo kullanıcılarından yanıt almak için sorularınızı gönderin"
+
+#: .Notifications
+msgid "Notifications"
+msgstr "Bildirimler"
+
+#: .Help
+msgid "Help"
+msgstr "Yardım"
+
+#: .%23%23type%23%23+%23%23name%23%23+created
+msgid "##type## ##name## created"
+msgstr "##type## ##name## oluşturuldu"
+
+#: .Failed+to+create+%23%23type%23%23
+msgid "Failed to create ##type##"
+msgstr "##type## oluşturulamadı"
+
+#: .Failed+to+update+%23%23type%23%23
+msgid "Failed to update ##type##"
+msgstr "##type## güncellenemedi"
+
+#: .Saving%E2%80%A6
+msgid "Saving…"
+msgstr "Kaydediliyor…"
+
+#: .Creating%E2%80%A6
+msgid "Creating…"
+msgstr "Oluşturuluyor…"
+
+#: .Enter+title+of+%23%23type%23%23+here
+msgid "Enter title of ##type## here"
+msgstr "##type## başlığını buraya girin"
 
 #: .JSON
 msgid "JSON"
@@ -3924,6 +3936,10 @@ msgstr "JSON gönderiminin etrafına özel kapsayıcı ekleyin (%SUBMISSION%, JS
 #: .Add+Custom+Wrapper
 msgid "Add Custom Wrapper"
 msgstr "Özel Kapsayıcı Ekle"
+
+#: .N/A
+msgid "N/A"
+msgstr "Yok"
 
 #: .%2A+Save+Changes
 msgid "* Save Changes"
@@ -4035,56 +4051,29 @@ msgstr "Dil ekle"
 msgid "Add a new language"
 msgstr "Yeni bir dil ekleyin"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "Yardım Kaynakları"
+#: .filter
+msgid "filter"
+msgstr "filtre"
 
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "KoboToolbox Yardım Merkezi"
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "Filtre yok, aşağıdan bir tane ekleyebilirsiniz"
 
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "Kobo ile ilgili kullanıcı destek makaleleri ve öğreticilerden oluşan geniş bir koleksiyon"
+#: .Add+filter
+msgid "Add filter"
+msgstr "Filtre ekle"
 
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "KoboToolbox Topluluk Forumu"
+#: .Apply
+msgid "Apply"
+msgstr "Uygula"
 
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "Dünyanın dört bir yanındaki deneyimli Kobo kullanıcılarından yanıt almak için sorularınızı gönderin"
+#: .fields
+msgid "fields"
+msgstr "alanlar"
 
-#: .Notifications
-msgid "Notifications"
-msgstr "Bildirimler"
-
-#: .Help
-msgid "Help"
-msgstr "Yardım"
-
-#: .Type+
-msgid "Type: "
-msgstr "Tür: "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#2 katılımcının #1 tanesi bu soruyu yanıtlamıştır. "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# veri içermiyordu.)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "Grafik Stilini Geçersiz Kıl"
+#: .Archive/Unarchive
+msgid "Archive/Unarchive"
+msgstr "Arşivle/Arşivden kaldır"
 
 #: .Delete+projects
 msgid "Delete projects"
@@ -4097,6 +4086,62 @@ msgstr "##count## projelerini sil"
 #: .Share+projects
 msgid "Share projects"
 msgstr "Projeleri paylaş"
+
+#: .Archive+project
+msgid "Archive project"
+msgstr "Projeyi arşivle"
+
+#: .Unarchive+project
+msgid "Unarchive project"
+msgstr "Projeyi arşivden çıkar"
+
+#: .Draft+project+selected
+msgid "Draft project selected"
+msgstr "Taslak proje seçildi"
+
+#: .Delete+1+project
+msgid "Delete 1 project"
+msgstr "1 projeyi sil"
+
+#: .Delete+project
+msgid "Delete project"
+msgstr "Projeyi sil"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "Lütfen sayfayı yenileyin"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "Hesap Ayarları"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "Kullanım Şartları"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "Gizlilik Politikası"
+
+#: .Logout
+msgid "Logout"
+msgstr "Çıkış Yap"
+
+#: .TOS+Update+Message+not+found
+msgid "TOS Update Message not found"
+msgstr "Kullanım Şartları Güncelleme Mesajı bulunamadı"
+
+#: .Please+make+sure+the+following+details+are+filled+out+correctly
+msgid "Please make sure the following details are filled out correctly:"
+msgstr "Lütfen aşağıdaki bilgilerin doğru bir şekilde doldurulduğundan emin olun:"
+
+#: .I+agree,+let%27s+go
+msgid "I agree, let's go"
+msgstr "Kabul ediyorum, devam et"
+
+#: .I+don%27t+agree,+log+me+out
+msgid "I don't agree, log me out"
+msgstr "Kabul etmiyorum, çıkış yap"
 
 #: .This+field+is+required.
 msgid "This field is required."
@@ -4126,31 +4171,102 @@ msgstr "Şifreyi Doğrula"
 msgid "Save Password"
 msgstr "Şifreyi Kaydet"
 
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "Lütfen sayfayı yenileyin"
+#: .There+are+no+projects+to+display.
+msgid "There are no projects to display."
+msgstr "Görüntülenecek bir proje yok."
 
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "Hesap Ayarları"
+#: .Import+failed
+msgid "Import failed"
+msgstr "İçe aktarma başarısız"
 
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "Kullanım Şartları"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "Gizlilik Politikası"
-
-#: .Logout
-msgid "Logout"
-msgstr "Çıkış Yap"
-
-#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
 msgid ""
-"This export format will not be supported in the future. Please consider "
-"using one of the other export types available."
-msgstr "Bu dışa aktarma biçimi gelecekte desteklenmeyecektir. Lütfen mevcut diğer dışa aktarma türlerinden birini kullanın."
+"Your upload is taking longer than usual. Please get back in few minutes."
+msgstr "Yüklemeniz normalden daha uzun sürüyor. Lütfen birkaç dakika sonra tekrar deneyin."
+
+#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
+msgid ""
+"Your uploads are being processed. This may take a few moments. You will need"
+" to refresh the page to see them on the list."
+msgstr "Yüklemeleriniz işleniyor. Bu işlem birkaç dakika sürebilir. Bunları listede görmek için sayfayı yenilemeniz gerekecektir."
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "Lütfen ##type## için bir başlık girin"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "başlıksız ##type##"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "başlıksız koleksiyon"
+
+#: .project+title
+msgid "project title"
+msgstr "proje başlığı"
+
+#: .Project+transfer+declined
+msgid "Project transfer declined"
+msgstr ""
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##."
+msgstr ""
+
+#: .When+you+accept+the+ownership+transfer+of+project+%23%23PROJECT_NAME%23%23,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+you+and+count+against+your+plan+limits.
+msgid ""
+"When you accept the ownership transfer of project ##PROJECT_NAME##, all of "
+"the submissions, data storage, and transcription and translation usage for "
+"the project will be transferred to you and count against your plan limits."
+msgstr ""
+
+#: .Once+you+accept,+the+transfer+might+take+a+few+minutes+to+complete.
+msgid "Once you accept, the transfer might take a few minutes to complete."
+msgstr ""
+
+#: .Current+owner
+msgid "Current owner"
+msgstr ""
+
+#: .Note+The+previous+owner+has+permissions+to+manage+the+project.+You+can+change+user+permissions+in+the+project+sharing+settings.
+msgid ""
+"Note: The previous owner has permissions to manage the project. You can "
+"change user permissions in the project sharing settings."
+msgstr ""
+
+#: .Decline
+msgid "Decline"
+msgstr ""
+
+#: .Discard+unsaved+changes%3F
+msgid "Discard unsaved changes?"
+msgstr "Kaydedilmemiş değişiklikler silinsin mi?"
+
+#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
+msgid "You have unsaved changes. Leave settings without saving?"
+msgstr "Kaydedilmemiş değişiklikleriniz mevcut. Kaydetmeden ayarlardan çıkılsın mı?"
+
+#: .Updated+profile+successfully
+msgid "Updated profile successfully"
+msgstr "Profil başarıyla güncellendi"
+
+#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
+msgid ""
+"You can now control whether to allow anonymous submissions in web forms for "
+"each project. Previously, this was an account-wide setting."
+msgstr "Artık her proje için web formlarında anonim gönderimlere izin verilip verilmeyeceğini kontrol edebilirsiniz. Önceden bu, hesap genelinde bir ayardı."
+
+#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
+msgid ""
+"This privacy feature is now a per-project setting. New projects will require"
+" authentication by default."
+msgstr "Bu gizlilik özelliği artık proje başına bir ayardır. Yeni projeler varsayılan olarak kimlik doğrulaması gerektirecektir."
+
+#: .Learn+more+about+these+changes+here.
+msgid "Learn more about these changes here."
+msgstr "Bu değişiklikler hakkında daha fazla bilgiyi buradan edinebilirsiniz."
 
 #: .Delete+export%3F
 msgid "Delete export?"
@@ -4193,176 +4309,15 @@ msgstr "Çoklu Sürümler"
 msgid "There is nothing to download yet."
 msgstr "Henüz indirilecek bir şey yok."
 
-#: .There+are+no+projects+to+display.
-msgid "There are no projects to display."
-msgstr "Görüntülenecek bir proje yok."
-
-#: .Non-profit+organization
-msgid "Non-profit organization"
-msgstr "Kar amacı gütmeyen kuruluş"
-
-#: .Government+institution
-msgid "Government institution"
-msgstr "Devlet kurumu"
-
-#: .Educational+organization
-msgid "Educational organization"
-msgstr "Eğitim kuruluşu"
-
-#: .A+commercial/for-profit+company
-msgid "A commercial/for-profit company"
-msgstr "Ticari/kar amacı güden şirket"
-
-#: .I+am+not+associated+with+any+organization
-msgid "I am not associated with any organization"
-msgstr "Herhangi bir kuruluşla bağlantım yok"
-
-#: .Male
-msgid "Male"
-msgstr "Erkek"
-
-#: .Female
-msgid "Female"
-msgstr "Kadın"
-
-#: .Other
-msgid "Other"
-msgstr "Diğer"
-
-#: .Use+this+to+display+your+real+name+to+other+users
-msgid "Use this to display your real name to other users"
-msgstr "Gerçek adınızı diğer kullanıcılara göstermek için bunu kullanın"
-
-#: .Social
-msgid "Social"
-msgstr "Sosyal Medya"
-
-#: .Newsletter
-msgid "Newsletter"
-msgstr "Haber Bülteni"
-
-#: .Import+failed
-msgid "Import failed"
-msgstr "İçe aktarma başarısız"
-
-#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
-msgid ""
-"Your upload is taking longer than usual. Please get back in few minutes."
-msgstr "Yüklemeniz normalden daha uzun sürüyor. Lütfen birkaç dakika sonra tekrar deneyin."
-
-#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
-msgid ""
-"Your uploads are being processed. This may take a few moments. You will need"
-" to refresh the page to see them on the list."
-msgstr "Yüklemeleriniz işleniyor. Bu işlem birkaç dakika sürebilir. Bunları listede görmek için sayfayı yenilemeniz gerekecektir."
-
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "Lütfen ##type## için bir başlık girin"
-
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "başlıksız ##type##"
-
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "başlıksız koleksiyon"
-
-#: .project+title
-msgid "project title"
-msgstr "proje başlığı"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "son düzenleme ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "##date## oluşturuldu"
-
-#: .Delete%3F
-msgid "Delete?"
-msgstr "Silinsin mi?"
-
-#: .This+action+is+not+reversible
-msgid "This action is not reversible"
-msgstr "Bu eylem geri döndürülemez"
-
-#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
-msgid "Asset seems to not have the processing feature enabled!"
-msgstr "Varlığın işleme özelliği etkin değil!"
-
-#: .Failed+to+get+processing+data.
-msgid "Failed to get processing data."
-msgstr "İşlenen veriler alınamadı."
-
-#: .Failed+to+set+transcript.
-msgid "Failed to set transcript."
-msgstr "Transkript ayarlanamadı."
-
-#: .Failed+to+delete+transcript.
-msgid "Failed to delete transcript."
-msgstr "Transkript silinemedi."
-
-#: .Failed+to+delete+translation.
-msgid "Failed to delete translation."
-msgstr "Çeviri silinemedi."
-
-#: .No+options+found
-msgid "No options found"
-msgstr "Seçenek bulunamadı"
-
-#: .Failed+to+load+analysis+questions
-msgid "Failed to load analysis questions"
-msgstr "Analiz soruları yüklenemedi"
-
-#: .There+was+an+error+getting+the+list+of+plans.
-msgid "There was an error getting the list of plans."
-msgstr "Planların listesi alınırken bir hata oluştu."
-
-#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
-msgid ""
-"We couldn't make the requested change to your plan.\n"
-"Your current plan has not been changed."
-msgstr "Planınızda talep edilen değişikliği yapamadık.\nMevcut planınız değiştirilmedi."
-
-#: .Couldn%27t+get+data+for+your+organization.
-msgid "Couldn't get data for your organization."
-msgstr "Kuruluşunuz için veri alınamadı."
-
-#: .Original+transcript
-msgid "Original transcript"
-msgstr "Orijinal transkript"
-
-#: .Submission+data
-msgid "Submission data"
-msgstr "Gönderim verileri"
-
-#: .Original+file+(Audio)
-msgid "Original file (Audio)"
-msgstr "Orijinal dosya (Ses)"
-
-#: .Display+settings
-msgid "Display settings"
-msgstr "Görüntüleme ayarları"
-
-#: .Customize+display+settings
-msgid "Customize display settings"
-msgstr "Görüntüleme ayarlarını özelleştirin"
-
-#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
-msgid ""
-"Select the information you want to display in the side menu to support your "
-"analysis."
-msgstr "Analizinizi desteklemek için yan menüde görüntülemek istediğiniz bilgileri seçin."
-
-#: .Apply+selection
-msgid "Apply selection"
-msgstr "Seçimi uygulayın"
-
 #: .Export
 msgid "Export"
 msgstr "Dışa Aktar"
+
+#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+msgid ""
+"This export format will not be supported in the future. Please consider "
+"using one of the other export types available."
+msgstr "Bu dışa aktarma biçimi gelecekte desteklenmeyecektir. Lütfen mevcut diğer dışa aktarma türlerinden birini kullanın."
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -4434,135 +4389,109 @@ msgstr "Kaydedilmiş dışa aktarma ayarlarını uygula"
 msgid "No export settings selected"
 msgstr "Dışa aktarma ayarı seçilmedi"
 
-#: .There+was+an+issue+fetching+your+plan+information.
-msgid "There was an issue fetching your plan information."
-msgstr "Plan bilgilerinizi alırken bir sorun oluştu."
+#: .Item
+msgid "Item"
+msgstr "Öge"
 
-#: .forgot+password
-msgid "forgot password"
-msgstr "şifremi unuttum"
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "##total_count##‘inin"
 
-#: .Unlimited
-msgid "Unlimited"
-msgstr "Sınırsız"
+#: .Transcript
+msgid "Transcript"
+msgstr "Transkript"
 
-#: .%23%23minutes%23%23+mins
-msgid "##minutes## mins"
-msgstr "##minutes## dakika"
+#: .Translations
+msgid "Translations"
+msgstr "Çeviriler"
 
-#: .Available
-msgid "Available"
-msgstr "Kullanılabilir"
+#: .Analysis
+msgid "Analysis"
+msgstr "Analiz"
 
-#: .Used+this+month
-msgid "Used this month"
-msgstr "Bu ay kullanıldı"
-
-#: .Used+this+year
-msgid "Used this year"
-msgstr "Bu yıl kullanıldı"
-
-#: .Balance
-msgid "Balance"
-msgstr "Bakiye"
+#: .No+options+found
+msgid "No options found"
+msgstr "Seçenek bulunamadı"
 
 #: .Your+plan
 msgid "Your plan"
 msgstr "Planınız"
 
-#: .%23%23plan_name%23%23+Plan
-msgid "##plan_name## Plan"
-msgstr "##plan_name## Plan"
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "Kaydetmeden çıkmak istiyor musunuz?"
 
-#: .Started+on+%23%23start_date%23%23
-msgid "Started on ##start_date##"
-msgstr "##start_date##'de başladı"
-
-#: .Renews+on+%23%23renewal_date%23%23
-msgid "Renews on ##renewal_date##"
-msgstr "##renewal_date##'de yenilenecek"
-
-#: .Two-factor+authentication
-msgid "Two-factor authentication"
-msgstr "İki faktörlü kimlik doğrulaması"
-
-#: .Disabled
-msgid "Disabled"
-msgstr "Devre dışı"
-
-#: .Authenticator+app
-msgid "Authenticator app"
-msgstr "Kimlik doğrulama uygulaması"
-
-#: .Reconfigure
-msgid "Reconfigure"
-msgstr "Yeniden yapılandır"
-
-#: .Recovery+codes
-msgid "Recovery codes"
-msgstr "Kurtarma kodları"
-
-#: .Generate+new
-msgid "Generate new"
-msgstr "Yenisini oluştur"
-
-#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
-msgid "Two-factor authentication was deactivated for your account on ##date##"
-msgstr "Hesabınız için iki faktörlü kimlik doğrulama, ##date## tarihinde devre dışı bırakıldı"
-
-#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
-msgid "This feature is not available on your current plan. Please visit the "
-msgstr "Bu özellik mevcut planınızda bulunmamaktadır. Lütfen hesabınızı yükseltmek için "
-
-#: .Plans+page
-msgid "Plans page"
-msgstr "Planlar sayfasını"
-
-#: .+to+upgrade+your+account.
-msgid " to upgrade your account."
-msgstr " ziyaret edin."
-
-#: .Email+address
-msgid "Email address"
-msgstr "E-posta adresi"
-
-#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
-msgid "Check your email ##UNVERIFIED_EMAIL##. "
-msgstr "E-postanızı kontrol edin ##UNVERIFIED_EMAIL##. "
-
-#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"A verification link has been sent to confirm your ownership. Once confirmed,"
-" this address will replace ##UNVERIFIED_EMAIL##"
-msgstr "Hesap sahibinin siz olduğunu onaylamak için bir doğrulama bağlantısı gönderildi. Onaylandıktan sonra bu adres değiştirilecektir ##UNVERIFIED_EMAIL##"
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr "Sürüm yükseltme işleminiz için teşekkürler! Devamlı desteğiniz için minnettarız. Planınız hakkında herhangi bir sorunuz varsa billing@kobotoolbox.org adresinden bize ulaşın."
 
-#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
-msgid "Email was sent again: ##TIMESTAMP##"
-msgstr "E-posta tekrar gönderildi: ##TIMESTAMP##"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr "Sürüm yükseltme işleminiz için teşekkürler! Devamlı desteğiniz için minnettarız. Hesabınız hemen güncellenmezse, birkaç dakika bekleyin ve sayfayı yenileyin."
 
-#: .Type+new+email+address
-msgid "Type new email address"
-msgstr "Yeni e-posta adresinizi yazın"
+#: .Collapse+full+comparison
+msgid "Collapse full comparison"
+msgstr "Tam karşılaştırmayı daralt"
 
-#: .Failed+to+get+API+token
-msgid "Failed to get API token"
-msgstr "API belirteci alınamadı"
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr "Tam karşılaştırmayı görüntüle"
 
-#: .API+Key
-msgid "API Key"
-msgstr "API Anahtarı"
+#: .show+monthly+plans
+msgid "show monthly plans"
+msgstr "aylık planları göster"
 
-#: .Single-Sign+On
-msgid "Single-Sign On"
-msgstr "Tek Oturum Açma"
+#: .Monthly
+msgid "Monthly"
+msgstr "Aylık"
 
-#: .Already+connected
-msgid "Already connected"
-msgstr "Zaten bağlı"
+#: .show+annual+plans
+msgid "show annual plans"
+msgstr "yıllık planları göster"
 
-#: .Disable
-msgid "Disable"
-msgstr "Devre dışı bırak"
+#: .Annual
+msgid "Annual"
+msgstr "Yıllık"
+
+#: .Want+more%3F
+msgid "Want more?"
+msgstr "Daha fazlasını ister misiniz?"
+
+#: .Contact+us
+msgid "Contact us"
+msgstr "Bizimle iletişime geçin"
+
+#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
+msgid ""
+"For organizations with higher volume and advanced data collection needs, get"
+" in touch to learn more about our "
+msgstr "Daha yüksek hacimli ve gelişmiş veri toplama ihtiyaçları olan kuruluşlar için ürünlerimiz hakkında daha fazla bilgi edinmek üzere iletişime geçin "
+
+#: .Enterprise+Plan
+msgid "Enterprise Plan"
+msgstr "Kuruluş Planı"
+
+#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
+msgid ""
+"We also offer custom solutions and private servers for large organizations. "
+msgstr "Ayrıca büyük kuruluşlar için özel çözümler ve özel sunucular da sunuyoruz. "
+
+#: .Contact+our+team
+msgid "Contact our team"
+msgstr "Ekibimizle iletişime geçin"
+
+#: .+for+more+information.
+msgid " for more information."
+msgstr " daha fazla bilgi için."
+
+#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
+msgid ""
+"Use the button above to select the information to be displayed in this area"
+msgstr "Bu alanda görüntülenecek bilgileri seçmek için yukarıdaki butonu kullanın"
 
 #: .and+one+other+question
 msgid "and one other question"
@@ -4571,89 +4500,6 @@ msgstr "ve bir soru daha"
 #: .and+%23%23+other+questions
 msgid "and ## other questions"
 msgstr "ve ## soru daha"
-
-#: .There+has+been+an+issue,+please+try+again+later.
-msgid "There has been an issue, please try again later."
-msgstr "Bir hata meydana geldi, lütfen daha sonra tekrar deneyiniz."
-
-#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
-msgid ""
-"Success! Your subscription will change at the end of the current billing "
-"period."
-msgstr "Tebrikler! Aboneliğiniz mevcut fatura döneminin sonunda değişecektir."
-
-#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
-msgid ""
-"There was an error processing your plan change. Your previous plan has not "
-"been changed. Please try again later."
-msgstr "Plan değişikliğiniz işlenirken bir hata oluştu. Önceki planınız değiştirilmedi. Lütfen daha sonra tekrar deneyin."
-
-#: .available+add-ons
-msgid "available add-ons"
-msgstr "mevcut eklentiler"
-
-#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
-msgid ""
-"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
-"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
-"            data collection."
-msgstr "Kullanım limitlerinizi artırmak için Topluluk planınıza eklentiler eklenebilir. Planınıza dahil olan kullanım limitlerine yaklaşıyorsanız veya bu limitlere ulaştıysanız, veri toplamaya devam etmek için eklentilerle limitlerinizi artırın."
-
-#: .Manage
-msgid "Manage"
-msgstr "Yönet"
-
-#: .Buy+now
-msgid "Buy now"
-msgstr "Şimdi satın al"
-
-#: .%23%23add_on_name%23%23+add-on
-msgid "##add_on_name## add-on"
-msgstr "##add_on_name## eklenti"
-
-#: .monthly+%23%23plan_name%23%23+plan
-msgid "monthly ##plan_name## plan"
-msgstr "aylık ##plan_name## plan"
-
-#: .yearly+%23%23plan_name%23%23+plan
-msgid "yearly ##plan_name## plan"
-msgstr "yıllık ##plan_name## plan"
-
-#: .add-on
-msgid "add-on"
-msgstr "eklenti"
-
-#: .plan
-msgid "plan"
-msgstr "plan"
-
-#: .Changes+to+your+Plan
-msgid "Changes to your Plan"
-msgstr "Planınızla ilgili değişikler"
-
-#: .Processing+your+transaction%E2%80%A6
-msgid "Processing your transaction…"
-msgstr "İşleminiz gerçekleştiriliyor..."
-
-#: .You+are+switching+to+the+%23%23new_product_type%23%23.
-msgid "You are switching to the ##new_product_type##."
-msgstr "##new_product_type##'e geçiyorsunuz."
-
-#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
-msgid ""
-"Because this plan includes unlimited storage, your storage add-on will be "
-"canceled."
-msgstr "Bu plan sınırsız depolama alanı içerdiğinden, depolama alanı eklentiniz iptal edilecektir."
-
-#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23+per+%23%23interval%23%23.
-msgid ""
-"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
-"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price## per ##interval##."
-msgstr "Mevcut ##product_type##'iniz ##billing_end_date##'ye kadar yürürlükte kalacaktır. ##billing_end_date## tarihinden itibaren ve siz ##new_price## iptal edene kadar, sizi ##interval## başına faturalandıracağız."
-
-#: .Submit
-msgid "Submit"
-msgstr "Gönder"
 
 #: .Search...
 msgid "Search..."
@@ -4687,20 +4533,17 @@ msgstr "varlıklar bulundu"
 msgid "expand details"
 msgstr "ayrıntıları genişlet"
 
-#: .This+plan+only+supports+up+to+%23%23submissions%23%23+submissions+per+month.+If+your+project+needs+more+than+that,+please+contact+us+about+our+Private+Server+options.
-msgid ""
-"This plan only supports up to ##submissions## submissions per month. If your"
-" project needs more than that, please contact us about our Private Server "
-"options."
-msgstr "Bu plan ayda yalnızca ##submissions## gönderimi destekler. Projenizin bundan daha fazlasına ihtiyacı varsa, lütfen Özel Sunucu seçeneklerimiz hakkında bizimle iletişime geçin."
-
-#: .Total+Submissions+per+Month
-msgid "Total Submissions per Month"
-msgstr "Aylık Toplam Gönderim"
-
 #: .Could+not+load+media+file
 msgid "Could not load media file"
 msgstr "Medya dosyası yüklenemedi"
+
+#: .Delete%3F
+msgid "Delete?"
+msgstr "Silinsin mi?"
+
+#: .This+action+is+not+reversible
+msgid "This action is not reversible"
+msgstr "Bu eylem geri döndürülemez"
 
 #: .An+error+occured
 msgid "An error occured"
@@ -4713,6 +4556,22 @@ msgstr "Abonelik durumu kontrol edilirken bir hata oluştu"
 #: .Incorrect+token+or+something+went+wrong
 msgid "Incorrect token or something went wrong"
 msgstr "Hatalı kod veya bir şeyler ters gitti"
+
+#: .Mean
+msgid "Mean"
+msgstr "Ortalama"
+
+#: .Median
+msgid "Median"
+msgstr "Medyan"
+
+#: .Mode
+msgid "Mode"
+msgstr "Mod"
+
+#: .Standard+deviation
+msgid "Standard deviation"
+msgstr "Standart sapma"
 
 #: .Filter+by
 msgid "Filter by"
@@ -4734,21 +4593,9 @@ msgstr "Durum seçiniz"
 msgid "Enter value"
 msgstr "Değer girin"
 
-#: .Mean
-msgid "Mean"
-msgstr "Ortalama"
-
-#: .Median
-msgid "Median"
-msgstr "Medyan"
-
-#: .Mode
-msgid "Mode"
-msgstr "Mod"
-
-#: .Standard+deviation
-msgid "Standard deviation"
-msgstr "Standart sapma"
+#: .There+was+an+issue+fetching+your+plan+information.
+msgid "There was an issue fetching your plan information."
+msgstr "Plan bilgilerinizi alırken bir sorun oluştu."
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4761,60 +4608,6 @@ msgstr "Bir alan bul"
 #: .No+results
 msgid "No results"
 msgstr "Sonuç yok"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
-msgid "You are about to permanently delete ##count## projects"
-msgstr "##count## projelerini kalıcı olarak silmek üzeresiniz"
-
-#: .All+data+gathered+for+these+projects+will+be+deleted
-msgid "All data gathered for these projects will be deleted"
-msgstr "Bu projeler için toplanan tüm veriler silinecektir"
-
-#: .Forms+associated+with+these+projects+will+be+deleted
-msgid "Forms associated with these projects will be deleted"
-msgstr "Bu projelerle ilişkili formlar silinecektir"
-
-#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
-msgid ""
-"I understand that if I delete these projects I will not be able to recover "
-"them"
-msgstr "Bu projeleri silersem onları geri getiremeyeceğimi anlıyorum"
-
-#: .Default+sort
-msgid "Default sort"
-msgstr "Varsayılan sıralama"
-
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "Yazın ve ENTER ile onaylayın"
-
-#: .Name+must+be+unique%21
-msgid "Name must be unique!"
-msgstr "İsim benzersiz olmalıdır!"
-
-#: .Code+must+be+unique%21
-msgid "Code must be unique!"
-msgstr "Kod benzersiz olmalıdır!"
-
-#: .Default+language+name
-msgid "Default language name"
-msgstr "Varsayılan dil adı"
-
-#: .Language+name
-msgid "Language name"
-msgstr "Dil adı"
-
-#: .Default+language+code
-msgid "Default language code"
-msgstr "Varsayılan dil kodu"
-
-#: .Language+code
-msgid "Language code"
-msgstr "Dil kodu"
-
-#: .Set
-msgid "Set"
-msgstr "Ayarla"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4872,9 +4665,37 @@ msgstr "örnekKimliği"
 msgid "Submitted by"
 msgstr "Gönderen"
 
-#: .Select+export+type
-msgid "Select export type"
-msgstr "Dışa aktarma türünü seçin"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "Yazın ve ENTER ile onaylayın"
+
+#: .Name+must+be+unique%21
+msgid "Name must be unique!"
+msgstr "İsim benzersiz olmalıdır!"
+
+#: .Code+must+be+unique%21
+msgid "Code must be unique!"
+msgstr "Kod benzersiz olmalıdır!"
+
+#: .Default+language+name
+msgid "Default language name"
+msgstr "Varsayılan dil adı"
+
+#: .Language+name
+msgid "Language name"
+msgstr "Dil adı"
+
+#: .Default+language+code
+msgid "Default language code"
+msgstr "Varsayılan dil kodu"
+
+#: .Language+code
+msgid "Language code"
+msgstr "Dil kodu"
+
+#: .Set
+msgid "Set"
+msgstr "Ayarla"
 
 #: .CSV+(legacy)
 msgid "CSV (legacy)"
@@ -4924,21 +4745,205 @@ msgstr "Tek sütun"
 msgid "Single and separate columns"
 msgstr "Tek ve ayrı sütunlar"
 
-#: .Automated+analysis
-msgid "Automated analysis"
-msgstr "Otomatik analiz"
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
+msgid "You are about to permanently delete ##count## projects"
+msgstr "##count## projelerini kalıcı olarak silmek üzeresiniz"
 
-#: .Unsaved+changes
-msgid "Unsaved changes"
-msgstr "Kaydedilmemiş değişiklikler"
+#: .All+data+gathered+for+these+projects+will+be+deleted
+msgid "All data gathered for these projects will be deleted"
+msgstr "Bu projeler için toplanan tüm veriler silinecektir"
 
-#: .Saved
-msgid "Saved"
-msgstr "Kaydedildi"
+#: .Forms+associated+with+these+projects+will+be+deleted
+msgid "Forms associated with these projects will be deleted"
+msgstr "Bu projelerle ilişkili formlar silinecektir"
 
-#: .There+was+an+error+fetching+usage+data.
-msgid "There was an error fetching usage data."
-msgstr "Kullanım verileri alınırken bir hata oluştu."
+#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
+msgid ""
+"I understand that if I delete these projects I will not be able to recover "
+"them"
+msgstr "Bu projeleri silersem onları geri getiremeyeceğimi anlıyorum"
+
+#: .Non-profit+organization
+msgid "Non-profit organization"
+msgstr "Kar amacı gütmeyen kuruluş"
+
+#: .Government+institution
+msgid "Government institution"
+msgstr "Devlet kurumu"
+
+#: .Educational+organization
+msgid "Educational organization"
+msgstr "Eğitim kuruluşu"
+
+#: .A+commercial/for-profit+company
+msgid "A commercial/for-profit company"
+msgstr "Ticari/kar amacı güden şirket"
+
+#: .I+am+not+associated+with+any+organization
+msgid "I am not associated with any organization"
+msgstr "Herhangi bir kuruluşla bağlantım yok"
+
+#: .Male
+msgid "Male"
+msgstr "Erkek"
+
+#: .Female
+msgid "Female"
+msgstr "Kadın"
+
+#: .Other
+msgid "Other"
+msgstr "Diğer"
+
+#: .Use+this+to+display+your+real+name+to+other+users
+msgid "Use this to display your real name to other users"
+msgstr "Gerçek adınızı diğer kullanıcılara göstermek için bunu kullanın"
+
+#: .Social
+msgid "Social"
+msgstr "Sosyal Medya"
+
+#: .Newsletter
+msgid "Newsletter"
+msgstr "Haber Bülteni"
+
+#: .forgot+password
+msgid "forgot password"
+msgstr "şifremi unuttum"
+
+#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
+msgid "Asset seems to not have the processing feature enabled!"
+msgstr "Varlığın işleme özelliği etkin değil!"
+
+#: .Failed+to+get+processing+data.
+msgid "Failed to get processing data."
+msgstr "İşlenen veriler alınamadı."
+
+#: .Failed+to+set+transcript.
+msgid "Failed to set transcript."
+msgstr "Transkript ayarlanamadı."
+
+#: .Failed+to+delete+transcript.
+msgid "Failed to delete transcript."
+msgstr "Transkript silinemedi."
+
+#: .Failed+to+delete+translation.
+msgid "Failed to delete translation."
+msgstr "Çeviri silinemedi."
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "Bu soruyu silmek istediğinizden emin misiniz?"
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr "Soruyu Sil"
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr "Soruyu Kopyala"
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr "Kütüphaneye Soru Ekle"
+
+#: .Email+address
+msgid "Email address"
+msgstr "E-posta adresi"
+
+#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
+msgid "Check your email ##UNVERIFIED_EMAIL##. "
+msgstr "E-postanızı kontrol edin ##UNVERIFIED_EMAIL##. "
+
+#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+msgid ""
+"A verification link has been sent to confirm your ownership. Once confirmed,"
+" this address will replace ##UNVERIFIED_EMAIL##"
+msgstr "Hesap sahibinin siz olduğunu onaylamak için bir doğrulama bağlantısı gönderildi. Onaylandıktan sonra bu adres değiştirilecektir ##UNVERIFIED_EMAIL##"
+
+#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
+msgid "Email was sent again: ##TIMESTAMP##"
+msgstr "E-posta tekrar gönderildi: ##TIMESTAMP##"
+
+#: .Type+new+email+address
+msgid "Type new email address"
+msgstr "Yeni e-posta adresinizi yazın"
+
+#: .Two-factor+authentication
+msgid "Two-factor authentication"
+msgstr "İki faktörlü kimlik doğrulaması"
+
+#: .Disabled
+msgid "Disabled"
+msgstr "Devre dışı"
+
+#: .Authenticator+app
+msgid "Authenticator app"
+msgstr "Kimlik doğrulama uygulaması"
+
+#: .Reconfigure
+msgid "Reconfigure"
+msgstr "Yeniden yapılandır"
+
+#: .Recovery+codes
+msgid "Recovery codes"
+msgstr "Kurtarma kodları"
+
+#: .Generate+new
+msgid "Generate new"
+msgstr "Yenisini oluştur"
+
+#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
+msgid "Two-factor authentication was deactivated for your account on ##date##"
+msgstr "Hesabınız için iki faktörlü kimlik doğrulama, ##date## tarihinde devre dışı bırakıldı"
+
+#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
+msgid "This feature is not available on your current plan. Please visit the "
+msgstr "Bu özellik mevcut planınızda bulunmamaktadır. Lütfen hesabınızı yükseltmek için "
+
+#: .Plans+page
+msgid "Plans page"
+msgstr "Planlar sayfasını"
+
+#: .+to+upgrade+your+account.
+msgid " to upgrade your account."
+msgstr " ziyaret edin."
+
+#: .Failed+to+get+API+token
+msgid "Failed to get API token"
+msgstr "API belirteci alınamadı"
+
+#: .API+Key
+msgid "API Key"
+msgstr "API Anahtarı"
+
+#: .Single-Sign+On
+msgid "Single-Sign On"
+msgstr "Tek Oturum Açma"
+
+#: .Connect+your+KoboToolbox+account+with+your+organization%27s+identity+provider+for+single-sign+on+(SSO).+Afterwards,+you+will+only+be+able+to+sign+in+via+SSO+unless+you+disable+this+setting+here.+This+will+also+update+your+email+address+in+case+your+current+address+is+different.
+msgid ""
+"Connect your KoboToolbox account with your organization's identity provider "
+"for single-sign on (SSO). Afterwards, you will only be able to sign in via "
+"SSO unless you disable this setting here. This will also update your email "
+"address in case your current address is different."
+msgstr ""
+
+#: .Already+connected
+msgid "Already connected"
+msgstr "Zaten bağlı"
+
+#: .Disable
+msgid "Disable"
+msgstr "Devre dışı bırak"
+
+#: .No+organization+found
+msgid "No organization found"
+msgstr ""
+
+#: .Couldn%27t+get+usage+data
+msgid "Couldn't get usage data"
+msgstr ""
 
 #: .You+are+approaching+your
 msgid "You are approaching your"
@@ -4964,29 +4969,19 @@ msgstr " ve "
 msgid "limit"
 msgstr "sınır"
 
-#: .Please
-msgid "Please"
-msgstr "Lütfen"
+#: .limits
+msgid "limits"
+msgstr ""
 
-#: .review+your+usage
-msgid "review your usage"
-msgstr "kullanımınızı gözden geçirin"
+#: .about+upgrading+your+plan.
+msgid "about upgrading your plan."
+msgstr ""
 
-#: .upgrade+your+plan
-msgid "upgrade your plan"
-msgstr "planınızı yükseltin"
-
-#: .as+soon+as+possible
-msgid "as soon as possible"
-msgstr "mümkün olan en kısa sürede"
-
-#: .if+needed
-msgid "if needed"
-msgstr "eğer gerekirse"
-
-#: .Review+your+usage+in+account+settings
-msgid "Review your usage in account settings"
-msgstr "Hesap ayarlarında kullanımınızı gözden geçirin"
+#: .Please+upgrade+your+plan+or+purchase+an+add-on+to+increase+your+usage+limits.
+msgid ""
+"Please upgrade your plan or purchase an add-on to increase your usage "
+"limits."
+msgstr ""
 
 #: .Monitor+usage
 msgid "Monitor usage"
@@ -5020,6 +5015,14 @@ msgstr "Şu anki planınızda yer alan"
 msgid "included with your current plan."
 msgstr "ulaştınız."
 
+#: .Please
+msgid "Please"
+msgstr "Lütfen"
+
+#: .upgrade+your+plan
+msgid "upgrade your plan"
+msgstr "planınızı yükseltin"
+
 #: .review+your+usage+in+account+settings
 msgid "review your usage in account settings"
 msgstr "hesap ayarlarından kullanımınızı inceleyin"
@@ -5028,164 +5031,267 @@ msgstr "hesap ayarlarından kullanımınızı inceleyin"
 msgid "remind me later"
 msgstr "Sonra hatırlat."
 
-#: .source+file
-msgid "source file"
-msgstr "kaynak dosya"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "Dışa aktarma türünü seçin"
 
-#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
-msgid "This ##type## does not have a transcript yet"
-msgstr "Bu ##type## henüz bir transkripte sahip değil"
+#: .%23%23start_date%23%23+to+%23%23end_date%23%23
+msgid "##start_date## to ##end_date##"
+msgstr "##start_date## - ##end_date## arasında"
 
-#: .begin
-msgid "begin"
-msgstr "başla"
+#: .Your+usage
+msgid "Your usage"
+msgstr "Kullanımınız"
 
-#: .Please+select+the+original+language+of+the+%23%23type%23%23
-msgid "Please select the original language of the ##type##"
-msgstr "Lütfen orijinal ##type## dilinizi seçin"
+#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
+msgid "Last update: ##LAST_UPDATE_TIME##"
+msgstr "Son güncelleme: ##LAST_UPDATE_TIME##"
 
-#: .back
-msgid "back"
-msgstr "geri"
+#: .Storage
+msgid "Storage"
+msgstr "Depolama"
 
-#: .manual
-msgid "manual"
-msgstr "manuel"
+#: .per+account
+msgid "per account"
+msgstr "hesap başına"
 
-#: .transcribe
-msgid "transcribe"
-msgstr "transkripsiyon"
+#: .Transcription+minutes
+msgid "Transcription minutes"
+msgstr "Transkript kayıtları"
 
-#: .Automatic+transcription+in+progress
-msgid "Automatic transcription in progress"
-msgstr "Otomatik transkripsiyon devam ediyor"
+#: .Translation+characters
+msgid "Translation characters"
+msgstr "Çeviri karakterleri"
 
-#: .Estimated+time+for+completion+%23%23estimate%23%23
-msgid "Estimated time for completion: ##estimate##"
-msgstr "Tahmini tamamlanma süresi: ##estimate##"
+#: .%23%23count%23%23+Projects
+msgid "##count## Projects"
+msgstr ""
 
-#: .Automatic+transcription+of+audio+file+from
-msgid "Automatic transcription of audio file from"
-msgstr "Ses dosyasının otomatik transkripsiyonu"
+#: .Submissions+(Total)
+msgid "Submissions (Total)"
+msgstr ""
 
-#: .Transcription+provider
-msgid "Transcription provider"
-msgstr "Transkripsiyon sağlayıcı"
+#: .Submissions+(This+year)
+msgid "Submissions (This year)"
+msgstr ""
 
-#: .cancel
-msgid "cancel"
-msgstr "iptal et"
+#: .Submissions+(This+month)
+msgid "Submissions (This month)"
+msgstr ""
 
-#: .create+transcript
-msgid "create transcript"
-msgstr "transkript oluşturun"
+#: .Data+storage
+msgid "Data storage"
+msgstr ""
 
-#: .Delete+transcript%3F
-msgid "Delete transcript?"
-msgstr "Transkript silinsin mi?"
+#: .Transcript+minutes
+msgid "Transcript minutes"
+msgstr ""
 
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "Bu soruyu silmek istediğinizden emin misiniz?"
+#: .There+was+an+error+getting+the+list+of+plans.
+msgid "There was an error getting the list of plans."
+msgstr "Planların listesi alınırken bir hata oluştu."
 
-#: .Delete+Question
-msgid "Delete Question"
-msgstr "Soruyu Sil"
-
-#: .Duplicate+Question
-msgid "Duplicate Question"
-msgstr "Soruyu Kopyala"
-
-#: .Add+Question+to+Library
-msgid "Add Question to Library"
-msgstr "Kütüphaneye Soru Ekle"
-
-#: .This+transcript+does+not+have+any+translations+yet
-msgid "This transcript does not have any translations yet"
-msgstr "Bu transkriptin henüz çevirisi yok"
-
-#: .Please+select+the+language+you+want+to+translate+to
-msgid "Please select the language you want to translate to"
-msgstr "Lütfen çevirmek istediğiniz dili seçin"
-
-#: .translate
-msgid "translate"
-msgstr "çevir"
-
-#: .Automatic+translation+of+transcript+to
-msgid "Automatic translation of transcript to"
-msgstr "Transkriptin şuna otomatik çevirisi"
-
-#: .Translation+provider
-msgid "Translation provider"
-msgstr "Çeviri sağlayıcısı"
-
-#: .create+translation
-msgid "create translation"
-msgstr "çeviri oluştur"
-
-#: .Delete+translation%3F
-msgid "Delete translation?"
-msgstr "Çeviri silinsin mi?"
-
-#: .new+translation
-msgid "new translation"
-msgstr "yeni çeviri"
-
-#: .less+than+a+minute
-msgid "less than a minute"
-msgstr "bir dakikadan az"
-
-#: .about+1+minute
-msgid "about 1 minute"
-msgstr "yaklaşık 1 dakika"
-
-#: .about+2+minutes
-msgid "about 2 minutes"
-msgstr "yaklaşık 2 dakika"
-
-#: .about+%23%23number%23%23+minutes
-msgid "about ##number## minutes"
-msgstr "yaklaşık ##number## dakika"
-
-#: .Free
-msgid "Free"
-msgstr "Ücretsiz"
-
-#: .%24%23%23price%23%23+USD/month
-msgid "$##price## USD/month"
-msgstr "##price## ABD Doları/ay"
-
-#: .Upgrade
-msgid "Upgrade"
-msgstr "Sürüm yükselt"
-
-#: .Change+plan
-msgid "Change plan"
-msgstr "Planı değiştir"
-
-#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
 msgid ""
-"Please note that any qualitative question created for this record will "
-"generate a new column in the data table, making the question available for "
-"all other records."
-msgstr "Bu kayıt için oluşturulan herhangi bir nitel sorunun veri tablosunda yeni bir sütun oluşturacağını ve soruyu diğer tüm kayıtlar için kullanılabilir hale getireceğini lütfen unutmayın."
+"We couldn't make the requested change to your plan.\n"
+"Your current plan has not been changed."
+msgstr "Planınızda talep edilen değişikliği yapamadık.\nMevcut planınız değiştirilmedi."
 
-#: .There+are+no+qualitative+analysis+questions+yet.
-msgid "There are no qualitative analysis questions yet."
-msgstr "Henüz nitel analiz sorusu bulunmamaktadır."
+#: .Couldn%27t+get+data+for+your+organization.
+msgid "Couldn't get data for your organization."
+msgstr "Kuruluşunuz için veri alınamadı."
 
-#: .Click+the+%22Add+question%22+button+to+get+started
-msgid "Click the \"Add question\" button to get started"
-msgstr "Başlamak için \"Soru ekle\" düğmesine tıklayın"
+#: .%23%23plan_name%23%23+Plan
+msgid "##plan_name## Plan"
+msgstr "##plan_name## Plan"
 
-#: .Only+those+with+full+editing+rights+can+create+questions
-msgid "Only those with full editing rights can create questions"
-msgstr "Yalnızca tam düzenleme haklarına sahip olanlar soru oluşturabilir"
+#: .Started+on+%23%23start_date%23%23
+msgid "Started on ##start_date##"
+msgstr "##start_date##'de başladı"
 
-#: .Contact+the+project+owner+for+more+information
-msgid "Contact the project owner for more information"
-msgstr "Daha fazla bilgi için proje sahibiyle iletişime geçin"
+#: .Renews+on+%23%23renewal_date%23%23
+msgid "Renews on ##renewal_date##"
+msgstr "##renewal_date##'de yenilenecek"
+
+#: .Ends+on+%23%23end_date%23%23
+msgid "Ends on ##end_date##"
+msgstr ""
+
+#: .Changing+usage+limits+on+%23%23change_date%23%23
+msgid "Changing usage limits on ##change_date##"
+msgstr ""
+
+#: .Switching+to+monthly+on+%23%23change_date%23%23
+msgid "Switching to monthly on ##change_date##"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+has+been+canceled+but+will+remain+active+until+the+end+of+the+billing+period.
+msgid ""
+"Your ##current_plan## plan has been canceled but will remain active until "
+"the end of the billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+the+%23%23next_plan%23%23+plan+on
+msgid "Your ##current_plan## plan will change to the ##next_plan## plan on"
+msgstr ""
+
+#: ..+You+can+continue+using+%23%23current_plan%23%23+plan+features+until+the+end+of+the+billing+period.
+msgid ""
+". You can continue using ##current_plan## plan features until the end of the"
+" billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+include+up+to+%23%23submission_quantity%23%23+submissions/month+starting+from
+msgid ""
+"Your ##current_plan## plan will change to include up to "
+"##submission_quantity## submissions/month starting from"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+from+annual+to+monthly+starting+from
+msgid ""
+"Your ##current_plan## plan will change from annual to monthly starting from"
+msgstr ""
+
+#: .Failed+to+load+analysis+questions
+msgid "Failed to load analysis questions"
+msgstr "Analiz soruları yüklenemedi"
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr "Bir hata meydana geldi, lütfen daha sonra tekrar deneyiniz."
+
+#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
+msgid ""
+"Success! Your subscription will change at the end of the current billing "
+"period."
+msgstr "Tebrikler! Aboneliğiniz mevcut fatura döneminin sonunda değişecektir."
+
+#: .Ends+on+%23%23cancel_date%23%23
+msgid "Ends on ##cancel_date##"
+msgstr ""
+
+#: .Starts+on+%23%23start_date%23%23
+msgid "Starts on ##start_date##"
+msgstr ""
+
+#: .available+add-ons
+msgid "available add-ons"
+msgstr "mevcut eklentiler"
+
+#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
+msgid ""
+"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
+"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
+"            data collection."
+msgstr "Kullanım limitlerinizi artırmak için Topluluk planınıza eklentiler eklenebilir. Planınıza dahil olan kullanım limitlerine yaklaşıyorsanız veya bu limitlere ulaştıysanız, veri toplamaya devam etmek için eklentilerle limitlerinizi artırın."
+
+#: .Manage
+msgid "Manage"
+msgstr "Yönet"
+
+#: .Buy+now
+msgid "Buy now"
+msgstr "Şimdi satın al"
+
+#: .Total+Submissions+per+Month
+msgid "Total Submissions per Month"
+msgstr "Aylık Toplam Gönderim"
+
+#: .%23%23asr_minutes%23%23+minutes+of+automated+transcription+/%23%23plan_interval%23%23
+msgid "##asr_minutes## minutes of automated transcription /##plan_interval##"
+msgstr ""
+
+#: .%23%23mt_characters%23%23+characters+of+machine+translation+/%23%23plan_interval%23%23
+msgid "##mt_characters## characters of machine translation /##plan_interval##"
+msgstr ""
+
+#: .%23%23add_on_name%23%23+add-on
+msgid "##add_on_name## add-on"
+msgstr "##add_on_name## eklenti"
+
+#: .monthly+%23%23plan_name%23%23+plan
+msgid "monthly ##plan_name## plan"
+msgstr "aylık ##plan_name## plan"
+
+#: .yearly+%23%23plan_name%23%23+plan
+msgid "yearly ##plan_name## plan"
+msgstr "yıllık ##plan_name## plan"
+
+#: .plan
+msgid "plan"
+msgstr "plan"
+
+#: .add-on
+msgid "add-on"
+msgstr "eklenti"
+
+#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
+msgid ""
+"There was an error processing your plan change. Your previous plan has not "
+"been changed. Please try again later."
+msgstr "Plan değişikliğiniz işlenirken bir hata oluştu. Önceki planınız değiştirilmedi. Lütfen daha sonra tekrar deneyin."
+
+#: .Changes+to+your+Plan
+msgid "Changes to your Plan"
+msgstr "Planınızla ilgili değişikler"
+
+#: .Processing+your+transaction%E2%80%A6
+msgid "Processing your transaction…"
+msgstr "İşleminiz gerçekleştiriliyor..."
+
+#: .You+are+switching+to+the+%23%23new_product_type%23%23.
+msgid "You are switching to the ##new_product_type##."
+msgstr "##new_product_type##'e geçiyorsunuz."
+
+#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
+msgid ""
+"Because this plan includes unlimited storage, your storage add-on will be "
+"canceled."
+msgstr "Bu plan sınırsız depolama alanı içerdiğinden, depolama alanı eklentiniz iptal edilecektir."
+
+#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23.
+msgid ""
+"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
+"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price##."
+msgstr ""
+
+#: .Submit
+msgid "Submit"
+msgstr "Gönder"
+
+#: .Original+transcript
+msgid "Original transcript"
+msgstr "Orijinal transkript"
+
+#: .Submission+data
+msgid "Submission data"
+msgstr "Gönderim verileri"
+
+#: .Original+file+(Audio)
+msgid "Original file (Audio)"
+msgstr "Orijinal dosya (Ses)"
+
+#: .Display+settings
+msgid "Display settings"
+msgstr "Görüntüleme ayarları"
+
+#: .Customize+display+settings
+msgid "Customize display settings"
+msgstr "Görüntüleme ayarlarını özelleştirin"
+
+#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
+msgid ""
+"Select the information you want to display in the side menu to support your "
+"analysis."
+msgstr "Analizinizi desteklemek için yan menüde görüntülemek istediğiniz bilgileri seçin."
+
+#: .Select+the+submission+data+to+display.
+msgid "Select the submission data to display."
+msgstr ""
+
+#: .Apply+selection
+msgid "Apply selection"
+msgstr "Seçimi uygulayın"
 
 #: .Delete+group
 msgid "Delete group"
@@ -5235,37 +5341,167 @@ msgstr "kısmen kilitli soru"
 msgid "Enter your question"
 msgstr "Sorunuzu girin"
 
-#: .original
-msgid "original"
-msgstr "orijinal"
+#: .Default+sort
+msgid "Default sort"
+msgstr "Varsayılan sıralama"
 
-#: .Search+for+a+language
-msgid "Search for a language"
-msgstr "Bir dil arayın"
+#: .There+was+an+error+fetching+usage+data.
+msgid "There was an error fetching usage data."
+msgstr "Kullanım verileri alınırken bir hata oluştu."
 
-#: .Sorry,+didn%27t+find+any+language%E2%80%A6
-msgid "Sorry, didn't find any language…"
-msgstr "Üzgünüz, aramanızla eşleşen bir dil bulunamadı..."
+#: .There+was+an+error+fetching+asset+usage+data.
+msgid "There was an error fetching asset usage data."
+msgstr ""
 
-#: .I+cannot+find+my+language
-msgid "I cannot find my language"
-msgstr "Kendi dilimi bulamıyorum"
+#: .Automated+analysis
+msgid "Automated analysis"
+msgstr "Otomatik analiz"
 
-#: .Please+select+the+language
-msgid "Please select the language"
-msgstr "Lütfen dili seçin"
+#: .Unsaved+changes
+msgid "Unsaved changes"
+msgstr "Kaydedilmemiş değişiklikler"
 
-#: .automatic
-msgid "automatic"
-msgstr "otomatik"
+#: .Saved
+msgid "Saved"
+msgstr "Kaydedildi"
 
-#: .Click+to+add+another+response...
-msgid "Click to add another response..."
-msgstr "Başka bir yanıt eklemek için tıklayın..."
+#: .source+file
+msgid "source file"
+msgstr "kaynak dosya"
 
-#: .Accepted+files
-msgid "Accepted files"
-msgstr "Kabul edilen dosyalar"
+#: .Please+select+the+original+language+of+the+%23%23type%23%23
+msgid "Please select the original language of the ##type##"
+msgstr "Lütfen orijinal ##type## dilinizi seçin"
+
+#: .back
+msgid "back"
+msgstr "geri"
+
+#: .manual
+msgid "manual"
+msgstr "manuel"
+
+#: .transcribe
+msgid "transcribe"
+msgstr "transkripsiyon"
+
+#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
+msgid "This ##type## does not have a transcript yet"
+msgstr "Bu ##type## henüz bir transkripte sahip değil"
+
+#: .begin
+msgid "begin"
+msgstr "başla"
+
+#: .Unlimited
+msgid "Unlimited"
+msgstr "Sınırsız"
+
+#: .%23%23minutes%23%23+mins
+msgid "##minutes## mins"
+msgstr "##minutes## dakika"
+
+#: .Available
+msgid "Available"
+msgstr "Kullanılabilir"
+
+#: .Used+this+month
+msgid "Used this month"
+msgstr "Bu ay kullanıldı"
+
+#: .Used+this+year
+msgid "Used this year"
+msgstr "Bu yıl kullanıldı"
+
+#: .Balance
+msgid "Balance"
+msgstr "Bakiye"
+
+#: .Automatic+transcription+in+progress
+msgid "Automatic transcription in progress"
+msgstr "Otomatik transkripsiyon devam ediyor"
+
+#: .Estimated+time+for+completion+%23%23estimate%23%23
+msgid "Estimated time for completion: ##estimate##"
+msgstr "Tahmini tamamlanma süresi: ##estimate##"
+
+#: .Automatic+transcription+of+audio+file+from
+msgid "Automatic transcription of audio file from"
+msgstr "Ses dosyasının otomatik transkripsiyonu"
+
+#: .Transcription+provider
+msgid "Transcription provider"
+msgstr "Transkripsiyon sağlayıcı"
+
+#: .Automated+transcription+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+audio+file+will+be+sent+to+Google%27s+servers+for+the+purpose+of+transcribing.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+short+period+needed+for+completing+the+transcription,+and+we+do+not+allow+Google+to+use+the+audio+for+improving+its+transcription+service.
+msgid ""
+"Automated transcription is provided by Google Cloud Platform. By using this "
+"service you agree that your audio file will be sent to Google's servers for "
+"the purpose of transcribing. However, it will not be stored on Google's "
+"servers beyond the short period needed for completing the transcription, and"
+" we do not allow Google to use the audio for improving its transcription "
+"service."
+msgstr ""
+
+#: .cancel
+msgid "cancel"
+msgstr "iptal et"
+
+#: .create+transcript
+msgid "create transcript"
+msgstr "transkript oluşturun"
+
+#: .Delete+transcript%3F
+msgid "Delete transcript?"
+msgstr "Transkript silinsin mi?"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "son düzenleme ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "##date## oluşturuldu"
+
+#: .Please+select+the+language+you+want+to+translate+to
+msgid "Please select the language you want to translate to"
+msgstr "Lütfen çevirmek istediğiniz dili seçin"
+
+#: .translate
+msgid "translate"
+msgstr "çevir"
+
+#: .This+transcript+does+not+have+any+translations+yet
+msgid "This transcript does not have any translations yet"
+msgstr "Bu transkriptin henüz çevirisi yok"
+
+#: .Automatic+translation+of+transcript+to
+msgid "Automatic translation of transcript to"
+msgstr "Transkriptin şuna otomatik çevirisi"
+
+#: .Translation+provider
+msgid "Translation provider"
+msgstr "Çeviri sağlayıcısı"
+
+#: .Automated+translation+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+transcript+text+will+be+sent+to+Google%27s+servers+for+the+purpose+of+translation.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+very+short+period+needed+for+completing+the+translation.
+msgid ""
+"Automated translation is provided by Google Cloud Platform. By using this "
+"service you agree that your transcript text will be sent to Google's servers"
+" for the purpose of translation. However, it will not be stored on Google's "
+"servers beyond the very short period needed for completing the translation."
+msgstr ""
+
+#: .create+translation
+msgid "create translation"
+msgstr "çeviri oluştur"
+
+#: .Delete+translation%3F
+msgid "Delete translation?"
+msgstr "Çeviri silinsin mi?"
+
+#: .new+translation
+msgid "new translation"
+msgstr "yeni çeviri"
 
 #: .All+group+settings
 msgid "All group settings"
@@ -5335,6 +5571,26 @@ msgid ""
 "contact us at help@kobotoolbox.org so we can fix this bug!"
 msgstr "Bu soru içe aktarılamadı. Lütfen manuel olarak yeniden oluşturun. Bu hatayı düzeltebilmemiz için lütfen help@kobotoolbox.org adresinden bizimle iletişime geçin!"
 
+#: .Free
+msgid "Free"
+msgstr "Ücretsiz"
+
+#: .%24%23%23price%23%23+USD/month
+msgid "$##price## USD/month"
+msgstr "##price## ABD Doları/ay"
+
+#: .Upgrade
+msgid "Upgrade"
+msgstr "Sürüm yükselt"
+
+#: .Change+plan
+msgid "Change plan"
+msgstr "Planı değiştir"
+
+#: .Accepted+files
+msgid "Accepted files"
+msgstr "Kabul edilen dosyalar"
+
 #: .This+form+is+currently+empty.
 msgid "This form is currently empty."
 msgstr "Bu form şu anda boş."
@@ -5349,17 +5605,33 @@ msgstr "Aşağıdaki “+” işaretine tıklayarak soru, not, ipucu veya başka
 msgid "Add Question"
 msgstr "Soru Ekle"
 
-#: .No+value
-msgid "No value"
-msgstr "Değer yok"
+#: .Click+to+add+another+response...
+msgid "Click to add another response..."
+msgstr "Başka bir yanıt eklemek için tıklayın..."
 
-#: .Unknown+question+type+%23%23type_name%23%23
-msgid "Unknown question type ##type_name##"
-msgstr "Bilinmeyen soru türü ##type_name##"
+#: .less+than+a+minute
+msgid "less than a minute"
+msgstr "bir dakikadan az"
+
+#: .about+1+minute
+msgid "about 1 minute"
+msgstr "yaklaşık 1 dakika"
+
+#: .about+2+minutes
+msgid "about 2 minutes"
+msgstr "yaklaşık 2 dakika"
+
+#: .about+%23%23number%23%23+minutes
+msgid "about ##number## minutes"
+msgstr "yaklaşık ##number## dakika"
 
 #: .e.g.+%22.pdf,.doc,.odt%22
 msgid "e.g. \".pdf,.doc,.odt\""
 msgstr "ör. \".pdf,.doc,.odt\""
+
+#: .No+value
+msgid "No value"
+msgstr "Değer yok"
 
 #: .Choices+File
 msgid "Choices File"
@@ -5413,41 +5685,56 @@ msgstr "Gerekirse bu grubu tekrarla"
 msgid "Appearance (advanced)"
 msgstr "Görünüm (gelişmiş)"
 
-#: .Question+label+cannot+be+empty
-msgid "Question label cannot be empty"
-msgstr "Soru etiketi boş olamaz"
+#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+msgid ""
+"Please note that any qualitative question created for this record will "
+"generate a new column in the data table, making the question available for "
+"all other records."
+msgstr "Bu kayıt için oluşturulan herhangi bir nitel sorunun veri tablosunda yeni bir sütun oluşturacağını ve soruyu diğer tüm kayıtlar için kullanılabilir hale getireceğini lütfen unutmayın."
 
-#: .Some+required+fields+are+missing
-msgid "Some required fields are missing"
-msgstr "Bazı gerekli alanlar eksik"
+#: .There+are+no+qualitative+analysis+questions+yet.
+msgid "There are no qualitative analysis questions yet."
+msgstr "Henüz nitel analiz sorusu bulunmamaktadır."
 
-#: .Type+question
-msgid "Type question"
-msgstr "Soruyu yazın"
+#: .Click+the+%22Add+question%22+button+to+get+started
+msgid "Click the \"Add question\" button to get started"
+msgstr "Başlamak için \"Soru ekle\" düğmesine tıklayın"
 
-#: .Type+your+answer
-msgid "Type your answer"
-msgstr "Cevabınızı yazın"
+#: .Only+those+with+full+editing+rights+can+create+questions
+msgid "Only those with full editing rights can create questions"
+msgstr "Yalnızca tam düzenleme haklarına sahip olanlar soru oluşturabilir"
 
-#: .%E2%80%A6keyword+search+in+progress
-msgid "…keyword search in progress"
-msgstr "...anahtar kelime araması devam ediyor"
+#: .Contact+the+project+owner+for+more+information
+msgid "Contact the project owner for more information"
+msgstr "Daha fazla bilgi için proje sahibiyle iletişime geçin"
 
-#: .Apply+search
-msgid "Apply search"
-msgstr "Arama uygulayın"
+#: .original
+msgid "original"
+msgstr "orijinal"
 
-#: .%23%23number%23%23+instances
-msgid "##number## instances"
-msgstr "##number## örnek"
+#: .Search+for+a+language
+msgid "Search for a language"
+msgstr "Bir dil arayın"
 
-#: .of+the+keywords
-msgid "of the keywords"
-msgstr "anahtar kelimelerin"
+#: .Sorry,+didn%27t+find+any+language%E2%80%A6
+msgid "Sorry, didn't find any language…"
+msgstr "Üzgünüz, aramanızla eşleşen bir dil bulunamadı..."
 
-#: .from
-msgid "from"
-msgstr "kimden"
+#: .I+cannot+find+my+language
+msgid "I cannot find my language"
+msgstr "Kendi dilimi bulamıyorum"
+
+#: .Please+select+the+language
+msgid "Please select the language"
+msgstr "Lütfen dili seçin"
+
+#: .automatic
+msgid "automatic"
+msgstr "otomatik"
+
+#: .Unknown+question+type+%23%23type_name%23%23
+msgid "Unknown question type ##type_name##"
+msgstr "Bilinmeyen soru türü ##type_name##"
 
 #: .Change+column+type%3F
 msgid "Change column type?"
@@ -5525,6 +5812,30 @@ msgstr "Veri Sütunu Ön Eki"
 msgid "Delete row"
 msgstr "Satırı sil"
 
+#: .%E2%80%A6keyword+search+in+progress
+msgid "…keyword search in progress"
+msgstr "...anahtar kelime araması devam ediyor"
+
+#: .Apply+search
+msgid "Apply search"
+msgstr "Arama uygulayın"
+
+#: .%23%23number%23%23+instances
+msgid "##number## instances"
+msgstr "##number## örnek"
+
+#: .of+the+keywords
+msgid "of the keywords"
+msgstr "anahtar kelimelerin"
+
+#: .from
+msgid "from"
+msgstr "kimden"
+
+#: .Type+your+answer
+msgid "Type your answer"
+msgstr "Cevabınızı yazın"
+
 #: .Delete+this+question%3F
 msgid "Delete this question?"
 msgstr "Bu soruyu silecek misiniz?"
@@ -5533,6 +5844,18 @@ msgstr "Bu soruyu silecek misiniz?"
 msgid ""
 "Are you sure you want to delete this question? This action cannot be undone."
 msgstr "Bu soruyu silmek istediğinizden emin misiniz? Bu işlem geri alınamaz."
+
+#: .Question+label+cannot+be+empty
+msgid "Question label cannot be empty"
+msgstr "Soru etiketi boş olamaz"
+
+#: .Some+required+fields+are+missing
+msgid "Some required fields are missing"
+msgstr "Bazı gerekli alanlar eksik"
+
+#: .Type+question
+msgid "Type question"
+msgstr "Soruyu yazın"
 
 #: .Look+for
 msgid "Look for"

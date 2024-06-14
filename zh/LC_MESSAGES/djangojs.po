@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 19:59+0000\n"
+"POT-Creation-Date: 2024-06-06 18:23+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Tino Kreutzer <tino.kreutzer@kobotoolbox.org>, 2017\n"
 "Language-Team: Chinese (http://app.transifex.com/kobotoolbox/kobotoolbox/language/zh/)\n"
@@ -118,10 +118,6 @@ msgstr "更改语言"
 #: .Could+not+find+%23%23fileName%23%23
 msgid "Could not find ##fileName##"
 msgstr "找不到 ##fileName##"
-
-#: .N/A
-msgid "N/A"
-msgstr "不适用"
 
 #: .me
 msgid "me"
@@ -441,6 +437,14 @@ msgstr "大于或等于"
 msgid "Less Than or Equal to"
 msgstr "小于或等于"
 
+#: .Manually+enter+your+validation+logic+in+XLSForm+code
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr "手动输入验证逻辑（XLSForm代码）"
+
+#: .Validation+Code
+msgid "Validation Code:"
+msgstr "验证码："
+
 #: .This+question+will+only+be+displayed+if+the+following+conditions+apply
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "此问题仅在满足下列条件时才会显示"
@@ -465,14 +469,6 @@ msgstr "回复值"
 msgid "Select question from list"
 msgstr "从列表中选择问题"
 
-#: .Manually+enter+your+validation+logic+in+XLSForm+code
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "手动输入验证逻辑（XLSForm代码）"
-
-#: .Validation+Code
-msgid "Validation Code:"
-msgstr "验证码："
-
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23)
 msgid "##permission_label## (##username_list##)"
 msgstr "##permission_label## (##username_list##)"
@@ -480,6 +476,12 @@ msgstr "##permission_label## (##username_list##)"
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
 msgid "##permission_label## (##username_list## and 1 other)"
 msgstr "##permission_label## (##username_list## 和其他1个 )"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+%23%23hidden_username_count%23%23+others)
+msgid ""
+"##permission_label## (##username_list## and ##hidden_username_count## "
+"others)"
+msgstr ""
 
 #: .My+Projects
 msgid "My Projects"
@@ -717,49 +719,21 @@ msgstr "重试所有失败的提交"
 msgid "loading…"
 msgstr "加载中..."
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "获取UUIDs提交失败"
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "无法上传你的媒体档案"
 
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "获取提交失败"
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "在获取你的媒体时出了点问题"
 
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "更新提交物失败。"
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "删除媒体成功"
 
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "更新某些提交值失败。"
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "更新提交值失败。"
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "删除提交物失败。"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "创建导出失败"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "删除导出失败"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "更新导出设置失败"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "创建导出设置失败"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "删除导出设置失败"
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "删除媒体失败!"
 
 #: .Failed+to+attach+to+source
 msgid "Failed to attach to source"
@@ -785,6 +759,30 @@ msgstr "切换共享失败"
 msgid "Failed to update column filters"
 msgstr "更新列过滤器失败"
 
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "获取UUIDs提交失败"
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "获取提交失败"
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "更新提交物失败。"
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "更新某些提交值失败。"
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "更新提交值失败。"
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "删除提交物失败。"
+
 #: .Successfully+removed+from+collection
 msgid "Successfully removed from collection"
 msgstr "成功从数据集中移除"
@@ -801,21 +799,25 @@ msgstr "转移至集合失败"
 msgid "Failed to get the results"
 msgstr "获取结果失败"
 
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "无法上传你的媒体档案"
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "创建导出失败"
 
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "在获取你的媒体时出了点问题"
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "删除导出失败"
 
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "删除媒体成功"
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "更新导出设置失败"
 
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "删除媒体失败!"
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "创建导出设置失败"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "删除导出设置失败"
 
 #: .%23%23field_label%23%23+(required)
 msgid "##field_label## (required)"
@@ -1015,13 +1017,17 @@ msgstr "使用像\"@\"而不是 \"a \"这样可预测的替换方式并没有什
 msgid "Password strength"
 msgstr "密码强度"
 
+#: .XForm+is+loading
+msgid "XForm is loading"
+msgstr "XForm 正在加载"
+
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "路径未找到 / 未识别"
 
-#: .XForm+is+loading
-msgid "XForm is loading"
-msgstr "XForm 正在加载"
+#: .Section+not+found
+msgid "Section not found"
+msgstr ""
 
 #: .Untitled
 msgid "Untitled"
@@ -1237,6 +1243,18 @@ msgstr "草稿版本"
 msgid "If you want to make these changes public, you must deploy this form."
 msgstr "如果你想公开这些更改，你必须部署此表单。"
 
+#: .Public+Collections
+msgid "Public Collections"
+msgstr "公共集合"
+
+#: .Subscribed
+msgid "Subscribed"
+msgstr "已订阅"
+
+#: .Quick+look
+msgid "Quick look"
+msgstr "快速查看"
+
 #: .Your+search+returned+no+results.
 msgid "Your search returned no results."
 msgstr "你的搜索没有得到任何结果。"
@@ -1260,18 +1278,6 @@ msgstr "我的库"
 #: .Drop+files+to+upload
 msgid "Drop files to upload"
 msgstr "拖移档案至此上传"
-
-#: .Public+Collections
-msgid "Public Collections"
-msgstr "公共集合"
-
-#: .Subscribed
-msgid "Subscribed"
-msgstr "已订阅"
-
-#: .Quick+look
-msgid "Quick look"
-msgstr "快速查看"
 
 #: .Could+not+load+grouped+results+via+%22%23%23%22.+Will+attempt+to+load+the+ungrouped+report.
 msgid ""
@@ -1359,9 +1365,11 @@ msgstr "定制报告"
 msgid "Question Style"
 msgstr "问题样式"
 
-#: .There+is+no+data+for+this+question+for+the+current+submission
-msgid "There is no data for this question for the current submission"
-msgstr "没有跟本次提交的问题有关的数据"
+#: .Anyone+can+see+this+blank+form+and+add+submissions+to+it+because+you+have+not+set+[your+account]+to+require+authentication.
+msgid ""
+"Anyone can see this blank form and add submissions to it because you have "
+"not set [your account] to require authentication."
+msgstr ""
 
 #: .Who+has+access
 msgid "Who has access"
@@ -1374,6 +1382,359 @@ msgstr "添加用户"
 #: .Waiting+for+all+projects+to+load%E2%80%A6
 msgid "Waiting for all projects to load…"
 msgstr "等待所有项目加载..."
+
+#: .An+error+occurred
+msgid "An error occurred"
+msgstr "出现错误"
+
+#: .Your+connection+is+offline
+msgid "Your connection is offline"
+msgstr "您已离线"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "默认情况下，出于性能原因，地图仅限于最近提交的##number##项内容。前往地图设置以提高此限制。"
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "错误：无法加载数据。"
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "按调查回复分类"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "分类使用："
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "没有收到“geopoint”回复"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "地图上没有显示数据，因为此表单没有没有 \"地理点（geopoint）\"字段。"
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "切换全屏"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "显示为点"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "切换图层"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "地图显示设置"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "显示为热图"
+
+#: .Language
+msgid "Language"
+msgstr "语言"
+
+#: .Default
+msgid "Default"
+msgstr "默认"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- 查看所有数据 --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "未翻译： "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "未设置问题标记"
+
+#: .Reset
+msgid "Reset"
+msgstr "重置"
+
+#: .not+set
+msgid "not set"
+msgstr "未设置"
+
+#: .Legend
+msgid "Legend"
+msgstr "图例"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "地图设置"
+
+#: .Table
+msgid "Table"
+msgstr "表格"
+
+#: .Reports
+msgid "Reports"
+msgstr "报告"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "图库"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "下载"
+
+#: .Map
+msgid "Map"
+msgstr "地图"
+
+#: .General
+msgid "General"
+msgstr "一般"
+
+#: .Media
+msgid "Media"
+msgstr "媒体"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "共享"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "连接项目"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "REST服务"
+
+#: .Your+query+is+too+short
+msgid "Your query is too short"
+msgstr "你的查询内容太短"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "拉取资源列表失败"
+
+#: .Import
+msgid "Import"
+msgstr "导入"
+
+#: .Next
+msgid "Next"
+msgstr "下一个"
+
+#: .Create+project
+msgid "Create project"
+msgstr "创建新项目"
+
+#: .Project+settings
+msgid "Project settings"
+msgstr "项目设置"
+
+#: .Choose+a+source
+msgid "Choose a source"
+msgstr "选择来源"
+
+#: .Choose+template
+msgid "Choose template"
+msgstr "选择模板"
+
+#: .Upload+XLSForm
+msgid "Upload XLSForm"
+msgstr "上传XLSForm"
+
+#: .Import+XLSForm
+msgid "Import XLSForm"
+msgstr "导入XLSForm"
+
+#: .Project+details
+msgid "Project details"
+msgstr "项目详情"
+
+#: .Choose
+msgid "Choose"
+msgstr "选择"
+
+#: .Error+asset+could+not+be+created.
+msgid "Error: asset could not be created."
+msgstr "错误：无法创建资产。"
+
+#: .Error+new+project+could+not+be+created.
+msgid "Error: new project could not be created."
+msgstr "错误：无法创建新项目。"
+
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "请稍候..."
+
+#: .Retrieving+form,+please+wait...
+msgid "Retrieving form, please wait..."
+msgstr "正在检索表单，请稍候..."
+
+#: .Failed+to+reload+project+after+import%21
+msgid "Failed to reload project after import!"
+msgstr "导入后重新加载项目失败！"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "导入失败！"
+
+#: .Could+not+initialize+XLSForm+import%21
+msgid "Could not initialize XLSForm import!"
+msgstr "无法初始化XLSForm导入！"
+
+#: .Failed+to+reload+project+after+upload%21
+msgid "Failed to reload project after upload!"
+msgstr "上传后重新加载项目失败!"
+
+#: .Could+not+import+XLSForm%21
+msgid "Could not import XLSForm!"
+msgstr "无法导入XLSForm！"
+
+#: .Some+fields+contain+errors%21
+msgid "Some fields contain errors!"
+msgstr "某些字段带有错误！"
+
+#: .Project+Name
+msgid "Project Name"
+msgstr "项目名称"
+
+#: .%23%23count%23%23+characters+left
+msgid "##count## characters left"
+msgstr "剩余字符数为##count##"
+
+#: .Use+a+template
+msgid "Use a template"
+msgstr "使用模板"
+
+#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
+msgid ""
+"Choose one of the options below to continue. You will be prompted to enter "
+"name and other details in further steps."
+msgstr "选择以下选项之一以继续。 在后续步骤中，系统将提示你输入姓名和其他信息。"
+
+#: .Build+from+scratch
+msgid "Build from scratch"
+msgstr "从头开始构建"
+
+#: .Upload+an+XLSForm
+msgid "Upload an XLSForm"
+msgstr "上传XLSForm"
+
+#: .Import+an+XLSForm+via+URL
+msgid "Import an XLSForm via URL"
+msgstr "通过URL导入XLSForm"
+
+#: .Import+an+XLSForm+from+your+computer.
+msgid "Import an XLSForm from your computer."
+msgstr "从电脑导入XLSForm。"
+
+#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
+msgid " Drag and drop the XLSForm file here or click to browse"
+msgstr " 将XLSForm文件拖放到此处或点击以浏览"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "正在上传文件…"
+
+#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
+msgid "Enter a valid XLSForm URL in the field below."
+msgstr "在下面的字段中输入一个有效的XLSForm URL。"
+
+#: .Having+issues%3F+See+this+help+article.
+msgid "Having issues? See this help article."
+msgstr "遇到问题？请参阅此帮助文章。"
+
+#: .URL
+msgid "URL"
+msgstr "URL"
+
+#: .Save+Changes
+msgid "Save Changes"
+msgstr "保存更改"
+
+#: .Please+enter+a+title+for+your+project%21
+msgid "Please enter a title for your project!"
+msgstr "请为你的项目输入一个标题!"
+
+#: .Enter+title+of+project+here
+msgid "Enter title of project here"
+msgstr "请在此输入项目标题"
+
+#: .Please+enter+a+description+for+your+project
+msgid "Please enter a description for your project"
+msgstr "请输入您的项目描述"
+
+#: .Enter+short+description+here
+msgid "Enter short description here"
+msgstr "请在此输入简短介绍"
+
+#: .Please+choose+a+sector
+msgid "Please choose a sector"
+msgstr "请选择一个领域"
+
+#: .Please+select+at+least+one+country
+msgid "Please select at least one country"
+msgstr "请选择至少一个国家"
+
+#: .Please+specify+the+operational+purpose+of+your+project
+msgid "Please specify the operational purpose of your project"
+msgstr "请具体说明你的项目的运营目的"
+
+#: .Yes
+msgid "Yes"
+msgstr "是"
+
+#: .No
+msgid "No"
+msgstr "否"
+
+#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
+msgid ""
+"Please indicate whether or not your project collects personally identifiable"
+" information"
+msgstr "请指明你的项目是否收集个人可识别信息"
+
+#: .Save
+msgid "Save"
+msgstr "保存"
+
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "取消项目存档"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "将项目存档"
+
+#: .Archive+project+to+stop+accepting+submissions.
+msgid "Archive project to stop accepting submissions."
+msgstr "存档项目以停止接受提交。"
+
+#: .Unarchive+project+to+resume+accepting+submissions.
+msgid "Unarchive project to resume accepting submissions."
+msgstr "取消存档项目以恢复接受提交。"
+
+#: .Delete+Project+and+Data
+msgid "Delete Project and Data"
+msgstr "删除项目和数据"
+
+#: .Back
+msgid "Back"
+msgstr "后退"
+
+#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
+msgid ""
+"Form replacing is not available due to form's Locking Profile restrictions."
+msgstr "由于表单的锁定配置文件限制，无法进行表单替换操作。"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -1529,427 +1890,6 @@ msgstr "生成预览时出现错误"
 msgid "Import Cascading Select Questions"
 msgstr "导入级联式选择问题"
 
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "默认情况下，出于性能原因，地图仅限于最近提交的##number##项内容。前往地图设置以提高此限制。"
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "错误：无法加载数据。"
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "按调查回复分类"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "分类使用："
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "没有收到“geopoint”回复"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "地图上没有显示数据，因为此表单没有没有 \"地理点（geopoint）\"字段。"
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "切换全屏"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "显示为点"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "切换图层"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "地图显示设置"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "显示为热图"
-
-#: .Language
-msgid "Language"
-msgstr "语言"
-
-#: .Default
-msgid "Default"
-msgstr "默认"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- 查看所有数据 --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "未翻译： "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "未设置问题标记"
-
-#: .Reset
-msgid "Reset"
-msgstr "重置"
-
-#: .not+set
-msgid "not set"
-msgstr "未设置"
-
-#: .Legend
-msgid "Legend"
-msgstr "图例"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "地图设置"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "复制至剪贴板"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "克隆"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "输入克隆##ASSET_TYPE##的名称。留空以保留原始名称。"
-
-#: .Ok
-msgid "Ok"
-msgstr "确定"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "##档案"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "XLSForm导入失败。检查XLSForm和/或URL是否有效，然后使用“替换表单”图标重试。"
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "XLS 导入完成"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "你的上传正在处理中。这可能需要一些时间。"
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "你的上传正在排队等待处理。这可能需要一些时间。"
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "导入失败！"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "创建导入失败。"
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "上传错误：无法识别Excel文件。"
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "上传档案名称： "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "无法识别拖放的项目。"
-
-#: .Project+information
-msgid "Project information"
-msgstr "项目信息"
-
-#: .Questions
-msgid "Questions"
-msgstr "问题"
-
-#: .Last+modified
-msgid "Last modified"
-msgstr "最后更改"
-
-#: .Last+deployed
-msgid "Last deployed"
-msgstr "最后部署"
-
-#: .Latest+submission
-msgid "Latest submission"
-msgstr "最新提交"
-
-#: .Operational+purpose+of+data
-msgid "Operational purpose of data"
-msgstr "数据运营目的"
-
-#: .Collects+personally+identifiable+information
-msgid "Collects personally identifiable information"
-msgstr "收集个人可识别信息"
-
-#: .Table
-msgid "Table"
-msgstr "表格"
-
-#: .Reports
-msgid "Reports"
-msgstr "报告"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "图库"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "下载"
-
-#: .Map
-msgid "Map"
-msgstr "地图"
-
-#: .General
-msgid "General"
-msgstr "一般"
-
-#: .Media
-msgid "Media"
-msgstr "媒体"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "共享"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "连接项目"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "REST服务"
-
-#: .Import
-msgid "Import"
-msgstr "导入"
-
-#: .Next
-msgid "Next"
-msgstr "下一个"
-
-#: .Create+project
-msgid "Create project"
-msgstr "创建新项目"
-
-#: .Project+settings
-msgid "Project settings"
-msgstr "项目设置"
-
-#: .Choose+a+source
-msgid "Choose a source"
-msgstr "选择来源"
-
-#: .Choose+template
-msgid "Choose template"
-msgstr "选择模板"
-
-#: .Upload+XLSForm
-msgid "Upload XLSForm"
-msgstr "上传XLSForm"
-
-#: .Import+XLSForm
-msgid "Import XLSForm"
-msgstr "导入XLSForm"
-
-#: .Project+details
-msgid "Project details"
-msgstr "项目详情"
-
-#: .Choose
-msgid "Choose"
-msgstr "选择"
-
-#: .Error+asset+could+not+be+created.
-msgid "Error: asset could not be created."
-msgstr "错误：无法创建资产。"
-
-#: .Error+new+project+could+not+be+created.
-msgid "Error: new project could not be created."
-msgstr "错误：无法创建新项目。"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "请稍候..."
-
-#: .Retrieving+form,+please+wait...
-msgid "Retrieving form, please wait..."
-msgstr "正在检索表单，请稍候..."
-
-#: .Failed+to+reload+project+after+import%21
-msgid "Failed to reload project after import!"
-msgstr "导入后重新加载项目失败！"
-
-#: .Could+not+initialize+XLSForm+import%21
-msgid "Could not initialize XLSForm import!"
-msgstr "无法初始化XLSForm导入！"
-
-#: .Failed+to+reload+project+after+upload%21
-msgid "Failed to reload project after upload!"
-msgstr "上传后重新加载项目失败!"
-
-#: .Could+not+import+XLSForm%21
-msgid "Could not import XLSForm!"
-msgstr "无法导入XLSForm！"
-
-#: .Some+fields+contain+errors%21
-msgid "Some fields contain errors!"
-msgstr "某些字段带有错误！"
-
-#: .Project+Name
-msgid "Project Name"
-msgstr "项目名称"
-
-#: .%23%23count%23%23+characters+left
-msgid "##count## characters left"
-msgstr "剩余字符数为##count##"
-
-#: .Use+a+template
-msgid "Use a template"
-msgstr "使用模板"
-
-#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
-msgid ""
-"Choose one of the options below to continue. You will be prompted to enter "
-"name and other details in further steps."
-msgstr "选择以下选项之一以继续。 在后续步骤中，系统将提示你输入姓名和其他信息。"
-
-#: .Build+from+scratch
-msgid "Build from scratch"
-msgstr "从头开始构建"
-
-#: .Upload+an+XLSForm
-msgid "Upload an XLSForm"
-msgstr "上传XLSForm"
-
-#: .Import+an+XLSForm+via+URL
-msgid "Import an XLSForm via URL"
-msgstr "通过URL导入XLSForm"
-
-#: .Import+an+XLSForm+from+your+computer.
-msgid "Import an XLSForm from your computer."
-msgstr "从电脑导入XLSForm。"
-
-#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
-msgid " Drag and drop the XLSForm file here or click to browse"
-msgstr " 将XLSForm文件拖放到此处或点击以浏览"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "正在上传文件…"
-
-#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
-msgid "Enter a valid XLSForm URL in the field below."
-msgstr "在下面的字段中输入一个有效的XLSForm URL。"
-
-#: .Having+issues%3F+See+this+help+article.
-msgid "Having issues? See this help article."
-msgstr "遇到问题？请参阅此帮助文章。"
-
-#: .URL
-msgid "URL"
-msgstr "URL"
-
-#: .Save+Changes
-msgid "Save Changes"
-msgstr "保存更改"
-
-#: .Please+enter+a+title+for+your+project%21
-msgid "Please enter a title for your project!"
-msgstr "请为你的项目输入一个标题!"
-
-#: .Enter+title+of+project+here
-msgid "Enter title of project here"
-msgstr "请在此输入项目标题"
-
-#: .Please+enter+a+description+for+your+project
-msgid "Please enter a description for your project"
-msgstr "请输入您的项目描述"
-
-#: .Enter+short+description+here
-msgid "Enter short description here"
-msgstr "请在此输入简短介绍"
-
-#: .Please+choose+a+sector
-msgid "Please choose a sector"
-msgstr "请选择一个领域"
-
-#: .Please+select+at+least+one+country
-msgid "Please select at least one country"
-msgstr "请选择至少一个国家"
-
-#: .Please+specify+the+operational+purpose+of+your+project
-msgid "Please specify the operational purpose of your project"
-msgstr "请具体说明你的项目的运营目的"
-
-#: .Yes
-msgid "Yes"
-msgstr "是"
-
-#: .No
-msgid "No"
-msgstr "否"
-
-#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
-msgid ""
-"Please indicate whether or not your project collects personally identifiable"
-" information"
-msgstr "请指明你的项目是否收集个人可识别信息"
-
-#: .Save
-msgid "Save"
-msgstr "保存"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "取消项目存档"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "将项目存档"
-
-#: .Archive+project+to+stop+accepting+submissions.
-msgid "Archive project to stop accepting submissions."
-msgstr "存档项目以停止接受提交。"
-
-#: .Unarchive+project+to+resume+accepting+submissions.
-msgid "Unarchive project to resume accepting submissions."
-msgstr "取消存档项目以恢复接受提交。"
-
-#: .Delete+Project+and+Data
-msgid "Delete Project and Data"
-msgstr "删除项目和数据"
-
-#: .Back
-msgid "Back"
-msgstr "后退"
-
-#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
-msgid ""
-"Form replacing is not available due to form's Locking Profile restrictions."
-msgstr "由于表单的锁定配置文件限制，无法进行表单替换操作。"
-
 #: .URL+is+empty%21
 msgid "URL is empty!"
 msgstr "URL是空的!"
@@ -2002,6 +1942,114 @@ msgstr "正在加载媒体"
 msgid "No files uploaded yet"
 msgstr "尚未上传任何文件"
 
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "复制至剪贴板"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "克隆"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "输入克隆##ASSET_TYPE##的名称。留空以保留原始名称。"
+
+#: .Ok
+msgid "Ok"
+msgstr "确定"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "##档案"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "XLSForm导入失败。检查XLSForm和/或URL是否有效，然后使用“替换表单”图标重试。"
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "XLS 导入完成"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "你的上传正在处理中。这可能需要一些时间。"
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "你的上传正在排队等待处理。这可能需要一些时间。"
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "创建导入失败。"
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "上传错误：无法识别Excel文件。"
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "上传档案名称： "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "无法识别拖放的项目。"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "垂直"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "水平"
+
+#: .Pie
+msgid "Pie"
+msgstr "饼图"
+
+#: .Donut
+msgid "Donut"
+msgstr "圆环图"
+
+#: .Polar+area
+msgid "Polar area"
+msgstr "极地地区"
+
+#: .Radar
+msgid "Radar"
+msgstr "雷达"
+
+#: .Project+information
+msgid "Project information"
+msgstr "项目信息"
+
+#: .Questions
+msgid "Questions"
+msgstr "问题"
+
+#: .Last+modified
+msgid "Last modified"
+msgstr "最后更改"
+
+#: .Last+deployed
+msgid "Last deployed"
+msgstr "最后部署"
+
+#: .Latest+submission
+msgid "Latest submission"
+msgstr "最新提交"
+
+#: .Operational+purpose+of+data
+msgid "Operational purpose of data"
+msgstr "数据运营目的"
+
+#: .Collects+personally+identifiable+information
+msgid "Collects personally identifiable information"
+msgstr "收集个人可识别信息"
+
 #: .All+questions
 msgid "All questions"
 msgstr "所有问题"
@@ -2022,14 +2070,6 @@ msgstr "之间"
 msgid "and"
 msgstr "和"
 
-#: .Your+query+is+too+short
-msgid "Your query is too short"
-msgstr "你的查询内容太短"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "拉取资源列表失败"
-
 #: .new
 msgid "new"
 msgstr "新"
@@ -2045,6 +2085,76 @@ msgstr "库"
 #: .Source
 msgid "Source"
 msgstr "来源"
+
+#: .New+feature
+msgid "New feature"
+msgstr "新特性"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "了解更多"
+
+#: .Allow+submissions+to+this+form+without+a+username+and+password
+msgid "Allow submissions to this form without a username and password"
+msgstr "此表单允许在没有用户名和密码的情况下提交文件"
+
+#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
+msgid ""
+"Allow anonymous submissions for this project. Previously, this was an "
+"account-wide setting. Click the icon to learn more."
+msgstr "此项目允许匿名提交。此前，匿名提交仅设置于帐户范围内。单击图标以了解更多信息。"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "##asset_type##为空。"
+
+#: .Show+less
+msgid "Show less"
+msgstr "显示更少"
+
+#: .Show+more
+msgid "Show more"
+msgstr "显示更多"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "更改资产公开状态失败。"
+
+#: .Make+public
+msgid "Make public"
+msgstr "设为公开"
+
+#: .Make+private
+msgid "Make private"
+msgstr "设为私密"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "获取所有者数据失败。"
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "创建日期"
+
+#: .Items
+msgid "Items"
+msgstr "项"
+
+#: .Organization
+msgid "Organization"
+msgstr "组织"
+
+#: .Country
+msgid "Country"
+msgstr "国家"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "隐藏全部详情"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "显示全部详情"
 
 #: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
 msgid "This project has no submitted data. Please collect some and try again."
@@ -2090,58 +2200,6 @@ msgstr "中的"
 msgid "rows"
 msgstr "行"
 
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "获取所有者数据失败。"
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "创建日期"
-
-#: .Items
-msgid "Items"
-msgstr "项"
-
-#: .Organization
-msgid "Organization"
-msgstr "组织"
-
-#: .Country
-msgid "Country"
-msgstr "国家"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "隐藏全部详情"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "显示全部详情"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "更改资产公开状态失败。"
-
-#: .Make+public
-msgid "Make public"
-msgstr "设为公开"
-
-#: .Make+private
-msgid "Make private"
-msgstr "设为私密"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "##asset_type##为空。"
-
-#: .Show+less
-msgid "Show less"
-msgstr "显示更少"
-
-#: .Show+more
-msgid "Show more"
-msgstr "显示更多"
-
 #: .Temporary+Access+Restriction+Password+Update+Required
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr "临时访问限制：需要更新密码"
@@ -2155,24 +2213,6 @@ msgstr "您必须先更新密码才能继续。 请马上这样做，以确保�
 #: .Update+password
 msgid "Update password"
 msgstr "更新密码"
-
-#: .Allow+submissions+to+this+form+without+a+username+and+password
-msgid "Allow submissions to this form without a username and password"
-msgstr "此表单允许在没有用户名和密码的情况下提交文件"
-
-#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
-msgid ""
-"Allow anonymous submissions for this project. Previously, this was an "
-"account-wide setting. Click the icon to learn more."
-msgstr "此项目允许匿名提交。此前，匿名提交仅设置于帐户范围内。单击图标以了解更多信息。"
-
-#: .New+feature
-msgid "New feature"
-msgstr "新特性"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "了解更多"
 
 #: .Success%21
 msgid "Success!"
@@ -2250,6 +2290,40 @@ msgstr "关闭翻译表?"
 msgid "You will lose all unsaved changes."
 msgstr "你将失去所有未保存的更改。"
 
+#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
+msgid "Export is being generated, you will receive an email when it's done"
+msgstr "正在生成导出，完成后你将收到一封电子邮件"
+
+#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
+msgid ""
+"We couldn't create the export, please try again later or contact support"
+msgstr "不能生成导出，请稍后再试或联系技术支持"
+
+#: .Export+all+data
+msgid "Export all data"
+msgstr "导出所有数据"
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.+%23%23CURRENT_OWNER_NAME%23%23+will+receive+a+notification+that+the+transfer+was+incomplete.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##. "
+"##CURRENT_OWNER_NAME## will receive a notification that the transfer was "
+"incomplete."
+msgstr ""
+
+#: .%23%23CURRENT_OWNER_NAME%23%23+will+remain+the+project+owner.
+msgid "##CURRENT_OWNER_NAME## will remain the project owner."
+msgstr ""
+
+#: .You+have+accepted+project+ownership+from+%23%23CURRENT_OWNER_NAME%23%23+for+%23%23PROJECT_NAME%23%23.+This+process+can+take+up+to+a+few+minutes+to+complete.
+msgid ""
+"You have accepted project ownership from ##CURRENT_OWNER_NAME## for "
+"##PROJECT_NAME##. This process can take up to a few minutes to complete."
+msgstr ""
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "父集"
+
 #: .Unlabeled
 msgid "Unlabeled"
 msgstr "未标记"
@@ -2270,51 +2344,6 @@ msgstr "图表类型"
 msgid "Colors"
 msgstr "颜色"
 
-#: .Vertical
-msgid "Vertical"
-msgstr "垂直"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "水平"
-
-#: .Pie
-msgid "Pie"
-msgstr "饼图"
-
-#: .Donut
-msgid "Donut"
-msgstr "圆环图"
-
-#: .Polar+area
-msgid "Polar area"
-msgstr "极地地区"
-
-#: .Radar
-msgid "Radar"
-msgstr "雷达"
-
-#: .An+error+occurred
-msgid "An error occurred"
-msgstr "出现错误"
-
-#: .Your+connection+is+offline
-msgid "Your connection is offline"
-msgstr "您已离线"
-
-#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
-msgid "Export is being generated, you will receive an email when it's done"
-msgstr "正在生成导出，完成后你将收到一封电子邮件"
-
-#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
-msgid ""
-"We couldn't create the export, please try again later or contact support"
-msgstr "不能生成导出，请稍后再试或联系技术支持"
-
-#: .Export+all+data
-msgid "Export all data"
-msgstr "导出所有数据"
-
 #: .No+grouping
 msgid "No grouping"
 msgstr "未分组"
@@ -2326,113 +2355,6 @@ msgstr "分组依据"
 #: .Translation
 msgid "Translation"
 msgstr "翻译"
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "如果你认为出现了错误，请[联系支持团队]。"
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "请尝试使用标题按钮登录，或者如果你认为出现了错误，那么请[联系支持团队]。"
-
-#: .Access+Denied
-msgid "Access Denied"
-msgstr "拒绝访问"
-
-#: .You+don%27t+have+access+to+this+page.
-msgid "You don't have access to this page."
-msgstr "您无权访问此页面。"
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "要么你无权访问该页面，要么该页面根本不存在。"
-
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr "出现问题"
-
-#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
-msgid ""
-"We're sorry, but there was an unexpected error while trying to serve this "
-"page."
-msgstr "很抱歉，尝试提供此页面时出现意外错误。"
-
-#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
-msgid ""
-"Please try again later, or [contact the support team] if this happens "
-"repeatedly."
-msgstr "请稍后再试，如果重复发生这种情况，请[联系支持团队]。"
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "额外详情："
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "父集"
-
-#: .Log+In
-msgid "Log In"
-msgstr "登录"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "搜索我的库"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "搜索公共集合"
-
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "搜索…"
-
-#: .submissions
-msgid "submissions"
-msgstr "提交物"
-
-#: .Summary
-msgid "Summary"
-msgstr "概要"
-
-#: .Form
-msgid "Form"
-msgstr "表单"
-
-#: .Settings
-msgid "Settings"
-msgstr "设置"
-
-#: .Today
-msgid "Today"
-msgstr "今天"
-
-#: .Past+7+days
-msgid "Past 7 days"
-msgstr "过去7天"
-
-#: .Past+31+days
-msgid "Past 31 days"
-msgstr "过去31天"
-
-#: .Past+3+months
-msgid "Past 3 months"
-msgstr "过去 3 个月"
-
-#: .Past+12+months
-msgid "Past 12 months"
-msgstr "过去 12 个月"
-
-#: .No+chart+data+available+for+current+period.
-msgid "No chart data available for current period."
-msgstr "当前时间段没有可用的图表数据。"
-
-#: .Total
-msgid "Total"
-msgstr "全部"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2530,6 +2452,149 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "与其他项目连接，以将他们的动态数据导入此项目。在此多加了解关于动态数据附件的信息"
 
+#: .Summary
+msgid "Summary"
+msgstr "概要"
+
+#: .Form
+msgid "Form"
+msgstr "表单"
+
+#: .Settings
+msgid "Settings"
+msgstr "设置"
+
+#: .Today
+msgid "Today"
+msgstr "今天"
+
+#: .Past+7+days
+msgid "Past 7 days"
+msgstr "过去7天"
+
+#: .Past+31+days
+msgid "Past 31 days"
+msgstr "过去31天"
+
+#: .Past+3+months
+msgid "Past 3 months"
+msgstr "过去 3 个月"
+
+#: .Past+12+months
+msgid "Past 12 months"
+msgstr "过去 12 个月"
+
+#: .No+chart+data+available+for+current+period.
+msgid "No chart data available for current period."
+msgstr "当前时间段没有可用的图表数据。"
+
+#: .Total
+msgid "Total"
+msgstr "全部"
+
+#: .Log+In
+msgid "Log In"
+msgstr "登录"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "搜索我的库"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "搜索公共集合"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "搜索…"
+
+#: .submissions
+msgid "submissions"
+msgstr "提交物"
+
+#: .Cannot+transfer+a+project+to+the+same+account.
+msgid "Cannot transfer a project to the same account."
+msgstr ""
+
+#: .User+not+found.+Please+try+again.
+msgid "User not found. Please try again."
+msgstr ""
+
+#: .Please+enter+a+user+name.
+msgid "Please enter a user name."
+msgstr ""
+
+#: .Transfer+project+ownership
+msgid "Transfer project ownership"
+msgstr ""
+
+#: .Your+transfer+request+is+pending+until+%23%23username%23%23+has+accepted+or+declined+it.
+msgid ""
+"Your transfer request is pending until ##username## has accepted or declined"
+" it."
+msgstr ""
+
+#: .Transfer+ownership+of+this+project+to+another+user.+All+submissions,+data+storage,+and+transcription+and+translation+usage+for+this+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"Transfer ownership of this project to another user. All submissions, data "
+"storage, and transcription and translation usage for this project will be "
+"transferred to the new project owner."
+msgstr ""
+
+#: .Learn+more+%E2%86%92
+msgid "Learn more →"
+msgstr ""
+
+#: .Cancel+transfer
+msgid "Cancel transfer"
+msgstr ""
+
+#: .Transfer
+msgid "Transfer"
+msgstr ""
+
+#: .Transfer+ownership
+msgid "Transfer ownership"
+msgstr ""
+
+#: .This+action+will+transfer+ownership+of+%23%23username%23%23+to+another+user
+msgid "This action will transfer ownership of ##username## to another user"
+msgstr ""
+
+#: .When+you+transfer+ownership+of+the+project+to+another+user,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"When you transfer ownership of the project to another user, all of the "
+"submissions, data storage, and transcription and translation usage for the "
+"project will be transferred to the new project owner."
+msgstr ""
+
+#: .The+new+project+owner+will+receive+an+email+request+to+accept+the+transfer.+You+will+be+notified+when+the+transfer+is+accepted+or+declined.
+msgid ""
+"The new project owner will receive an email request to accept the transfer. "
+"You will be notified when the transfer is accepted or declined."
+msgstr ""
+
+#: .You+will+be+the+owner+of+the+project+until+the+transfer+is+accepted.
+msgid "You will be the owner of the project until the transfer is accepted."
+msgstr ""
+
+#: .Once+the+transfer+is+accepted,+you+will+not+be+able+to+undo+this+action.
+msgid ""
+"Once the transfer is accepted, you will not be able to undo this action."
+msgstr ""
+
+#: .To+complete+the+transfer,+enter+the+username+of+the+new+project+owner
+msgid "To complete the transfer, enter the username of the new project owner"
+msgstr ""
+
+#: .Enter+username+here
+msgid "Enter username here"
+msgstr ""
+
+#: .Transfer+project
+msgid "Transfer project"
+msgstr ""
+
 #: .Type
 msgid "Type"
 msgstr "类型"
@@ -2546,6 +2611,152 @@ msgstr "订阅者"
 msgid "Primary Sector"
 msgstr "主要领域"
 
+#: .There+is+no+data+for+this+question+for+the+current+submission
+msgid "There is no data for this question for the current submission"
+msgstr "没有跟本次提交的问题有关的数据"
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "如果你认为出现了错误，请[联系支持团队]。"
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "请尝试使用标题按钮登录，或者如果你认为出现了错误，那么请[联系支持团队]。"
+
+#: .Access+Denied
+msgid "Access Denied"
+msgstr "拒绝访问"
+
+#: .You+don%27t+have+access+to+this+page.
+msgid "You don't have access to this page."
+msgstr "您无权访问此页面。"
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "要么你无权访问该页面，要么该页面根本不存在。"
+
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr "出现问题"
+
+#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
+msgid ""
+"We're sorry, but there was an unexpected error while trying to serve this "
+"page."
+msgstr "很抱歉，尝试提供此页面时出现意外错误。"
+
+#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
+msgid ""
+"Please try again later, or [contact the support team] if this happens "
+"repeatedly."
+msgstr "请稍后再试，如果重复发生这种情况，请[联系支持团队]。"
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "额外详情："
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "输入以逗号分隔的用户名"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "未找到用户："
+
+#: .equals
+msgid "equals"
+msgstr "等于"
+
+#: .Reset+changes
+msgid "Reset changes"
+msgstr "重置更改"
+
+#: .username
+msgid "username"
+msgstr "用户名"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "授予权限"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "更新权限"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "权限复制成功"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "你即将从##source to ##目标复制权限。此操作不能被撤销。"
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "你确定你要复制权限吗？"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "继续操作"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "从另一个项目复制团队"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "这将重写该项目中定义的任何现有共享设置。"
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "选择源项目…"
+
+#: .copy
+msgid "copy"
+msgstr "复制"
+
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "通过链接公开共享"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "任何人都可以查看此表单"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "任何人都可以查看此表单的提交记录"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "可共享的链接"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "删除权限？"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "此操作将删除用户的所有权限##username##"
+
+#: .Remove
+msgid "Remove"
+msgstr "移除"
+
+#: .is+owner
+msgid "is owner"
+msgstr "所有者"
+
+#: .Pending+owner
+msgid "Pending owner"
+msgstr ""
+
 #: .DONE
 msgid "DONE"
 msgstr "完成"
@@ -2561,172 +2772,6 @@ msgstr "##count##项"
 #: .There+are+no+assets+to+display.
 msgid "There are no assets to display."
 msgstr "没有任何资产可供显示。"
-
-#: .Discard+unsaved+changes%3F
-msgid "Discard unsaved changes?"
-msgstr "要放弃未保存的更改吗？"
-
-#: .Discard
-msgid "Discard"
-msgstr "摒弃"
-
-#: .Item
-msgid "Item"
-msgstr "项"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "共##total_count##"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "抄本"
-
-#: .Translations
-msgid "Translations"
-msgstr "翻译"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "分析"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "你想不保存就离开吗？"
-
-#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
-msgid "You have unsaved changes. Leave settings without saving?"
-msgstr "你有未保存的更改。确定不保存设置就离开？"
-
-#: .Updated+profile+successfully
-msgid "Updated profile successfully"
-msgstr "用户配置文件更新成功"
-
-#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
-msgid ""
-"You can now control whether to allow anonymous submissions in web forms for "
-"each project. Previously, this was an account-wide setting."
-msgstr "现在你可以控制是否允许Web表单中每个项目的匿名提交。此前，这仅设置于帐户范围内。"
-
-#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
-msgid ""
-"This privacy feature is now a per-project setting. New projects will require"
-" authentication by default."
-msgstr "现在每个项目均设置有隐私功能。在使用新项目之前默认需要进行身份验证。"
-
-#: .Learn+more+about+these+changes+here.
-msgid "Learn more about these changes here."
-msgstr "在此处了解更多有关这些变更的信息。"
-
-#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
-msgid ""
-"Use the button above to select the information to be displayed in this area"
-msgstr "点击上面的按钮进行操作，选中需要在此区域中显示的信息"
-
-#: .%23%23start_date%23%23+to+%23%23end_date%23%23
-msgid "##start_date## to ##end_date##"
-msgstr "##start_date## 到 ##end_date##"
-
-#: .Your+usage
-msgid "Your usage"
-msgstr "您的使用情况"
-
-#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
-msgid "Last update: ##LAST_UPDATE_TIME##"
-msgstr "最后更新：##LAST_UPDATE_TIME##"
-
-#: .Storage
-msgid "Storage"
-msgstr "存储空间"
-
-#: .per+account
-msgid "per account"
-msgstr "每个帐户"
-
-#: .Transcription+minutes
-msgid "Transcription minutes"
-msgstr "转录分钟"
-
-#: .Translation+characters
-msgid "Translation characters"
-msgstr "翻译字符"
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. Reach out to "
-"billing@kobotoolbox.org if you have any questions about your plan."
-msgstr "感谢您的升级！ 我们感谢您一如既往的支持。 如果您对您的套餐有任何疑问，请联系 billing@kobotoolbox.org。"
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. If your "
-"account is not immediately updated, wait a few minutes and refresh the page."
-msgstr "感谢您的升级！ 我们感谢您一如既往的支持。 如果您的帐户没有立即更新，请等待几分钟并刷新页面。"
-
-#: .Please+contact+your+organization+owner+for+any+changes+to+your+plan+or+add-ons.
-msgid ""
-"Please contact your organization owner for any changes to your plan or add-"
-"ons."
-msgstr "如需了解对于您的计划或附加项的任何更改，请联系组织所有者。"
-
-#: .show+monthly+plans
-msgid "show monthly plans"
-msgstr "展示月度计划"
-
-#: .Monthly
-msgid "Monthly"
-msgstr "月度的"
-
-#: .show+annual+plans
-msgid "show annual plans"
-msgstr "展示年度计划"
-
-#: .Annual
-msgid "Annual"
-msgstr "年度的"
-
-#: .Want+more%3F
-msgid "Want more?"
-msgstr "想了解更多？"
-
-#: .Contact+us
-msgid "Contact us"
-msgstr "请联系我们"
-
-#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
-msgid ""
-"For organizations with higher volume and advanced data collection needs, get"
-" in touch to learn more about our "
-msgstr "如有对业务和高级数据收集有更高需求的组织，请与我们联系以了解更多关于我们的"
-
-#: .Enterprise+Plan
-msgid "Enterprise Plan"
-msgstr "企业策划"
-
-#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
-msgid ""
-"We also offer custom solutions and private servers for large organizations. "
-msgstr "我们也为大型组织提供定制的解决方案和专用服务器。 "
-
-#: .Contact+our+team
-msgid "Contact our team"
-msgstr "请与我们的团队联系"
-
-#: .+for+more+information.
-msgid " for more information."
-msgstr "以了解更多信息。"
-
-#: .Collapse+full+comparison
-msgid "Collapse full comparison"
-msgstr "收起完整比较"
-
-#: .Display+full+comparison
-msgid "Display full comparison"
-msgstr "展开完整比较"
-
-#: .Security
-msgid "Security"
-msgstr "安全"
 
 #: .Deploy
 msgid "Deploy"
@@ -2776,251 +2821,6 @@ msgstr "共享"
 msgid "View containing Collection"
 msgstr "返回集合"
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "权限复制成功"
-
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "你即将从##source to ##目标复制权限。此操作不能被撤销。"
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "你确定你要复制权限吗？"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "继续操作"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "从另一个项目复制团队"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "这将重写该项目中定义的任何现有共享设置。"
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "选择源项目…"
-
-#: .copy
-msgid "copy"
-msgstr "复制"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "输入以逗号分隔的用户名"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "未找到用户："
-
-#: .equals
-msgid "equals"
-msgstr "等于"
-
-#: .Reset+changes
-msgid "Reset changes"
-msgstr "重置更改"
-
-#: .username
-msgid "username"
-msgstr "用户名"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "授予权限"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "更新权限"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "通过链接公开共享"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "任何人都可以查看此表单"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "任何人都可以查看此表单的提交记录"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "可共享的链接"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "删除权限？"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "此操作将删除用户的所有权限##username##"
-
-#: .Remove
-msgid "Remove"
-msgstr "移除"
-
-#: .is+owner
-msgid "is owner"
-msgstr "所有者"
-
-#: .Paste+your+formatted+table+from+excel+in+the+box+below.
-msgid "Paste your formatted table from excel in the box below."
-msgstr "将你的格式化表格从Excel粘贴到下面的方框中。"
-
-#: .add+cascade+with+%23+questions
-msgid "add cascade with # questions"
-msgstr "添加#个问题的级联"
-
-#: .OK
-msgid "OK"
-msgstr "确定"
-
-#: .Learn+more+about+importing+cascading+lists+from+Excel
-msgid "Learn more about importing cascading lists from Excel"
-msgstr "了解更多关于从Excel导入级联式列表的信息"
-
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "问题已被添加至库"
-
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "组已作为一个块添加到库中"
-
-#: .loading
-msgid "loading"
-msgstr "加载中"
-
-#: .no+search+results+found
-msgid "no search results found"
-msgstr "未找到任何搜索结果"
-
-#: .block+of+___+questions
-msgid "block of ___ questions"
-msgstr "___问题块"
-
-#: .search+library
-msgid "search library"
-msgstr "搜索库"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "无法加载REST服务"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "无法加载REST服务日志"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "提交失败详情（##id##）"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "返回REST服务"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "加载中…"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "尚未生成任何日志记录"
-
-#: .Submission
-msgid "Submission"
-msgstr "提交"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "重试所有提交"
-
-#: .Success
-msgid "Success"
-msgstr "成功"
-
-#: .Pending
-msgid "Pending"
-msgstr "待处理"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "待处理(##count##×)"
-
-#: .Failed
-msgid "Failed"
-msgstr "失败"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "重试提交"
-
-#: .More+info
-msgid "More info"
-msgstr "更多信息"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "无法加载REST服务"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "你确定要删除##目标吗？"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "你即将删除##目标。此操作不能被撤销。"
-
-#: .Confirm
-msgid "Confirm"
-msgstr "确认"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "注册新服务"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "该项目尚未添加任何REST服务！"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "你可以使用REST服务以自动将提交内容发布到第三方应用程序。"
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "REST服务：##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "需要帮助？"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "服务名称"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "提交##submissionTotal##份中的第##submissionIndex##份"
-
-#: .download
-msgid "download"
-msgstr "下载"
-
-#: .process
-msgid "process"
-msgstr "处理"
-
 #: .Marker+Colors
 msgid "Marker Colors"
 msgstr "记号颜色"
@@ -3065,6 +2865,12 @@ msgstr "上传错误：这不是有效的地图覆盖格式。"
 msgid "Delete File"
 msgstr "删除档案"
 
+#: .Are+you+sure+you+want+to+delete+this+file%3F+%3Cbr/%3E%3Cbr/%3E%3Cstrong%3EThis+action+cannot+be+undone.%3C/strong%3E
+msgid ""
+"Are you sure you want to delete this file? <br/><br/><strong>This action "
+"cannot be undone.</strong>"
+msgstr ""
+
 #: .Choose+the+Geopoint+question+you+would+like+to+display+on+the+map
 msgid "Choose the Geopoint question you would like to display on the map:"
 msgstr "选择你想在地图上显示的地理点问题："
@@ -3103,6 +2909,166 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "默认情况下，地图仅显示##QUERY_LIMIT_DEFAULT##个最近的提交。你可以暂时把这个限制提高到一个不同的值。请注意，每当你重新打开地图时，这个限制会被重置。"
 
+#: .Paste+your+formatted+table+from+excel+in+the+box+below.
+msgid "Paste your formatted table from excel in the box below."
+msgstr "将你的格式化表格从Excel粘贴到下面的方框中。"
+
+#: .add+cascade+with+%23+questions
+msgid "add cascade with # questions"
+msgstr "添加#个问题的级联"
+
+#: .OK
+msgid "OK"
+msgstr "确定"
+
+#: .Learn+more+about+importing+cascading+lists+from+Excel
+msgid "Learn more about importing cascading lists from Excel"
+msgstr "了解更多关于从Excel导入级联式列表的信息"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "无法加载REST服务"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "你确定要删除##目标吗？"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "你即将删除##目标。此操作不能被撤销。"
+
+#: .Confirm
+msgid "Confirm"
+msgstr "确认"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "注册新服务"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "该项目尚未添加任何REST服务！"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "你可以使用REST服务以自动将提交内容发布到第三方应用程序。"
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "REST服务：##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "需要帮助？"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "服务名称"
+
+#: .Success
+msgid "Success"
+msgstr "成功"
+
+#: .Pending
+msgid "Pending"
+msgstr "待处理"
+
+#: .Failed
+msgid "Failed"
+msgstr "失败"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "无法加载REST服务"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "无法加载REST服务日志"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "提交失败详情（##id##）"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "返回REST服务"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "加载中…"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "尚未生成任何日志记录"
+
+#: .Submission
+msgid "Submission"
+msgstr "提交"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "重试所有提交"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "待处理(##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "重试提交"
+
+#: .More+info
+msgid "More info"
+msgstr "更多信息"
+
+#: .loading
+msgid "loading"
+msgstr "加载中"
+
+#: .no+search+results+found
+msgid "no search results found"
+msgstr "未找到任何搜索结果"
+
+#: .block+of+___+questions
+msgid "block of ___ questions"
+msgstr "___问题块"
+
+#: .search+library
+msgid "search library"
+msgstr "搜索库"
+
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "问题已被添加至库"
+
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "组已作为一个块添加到库中"
+
+#: .Failed+to+cancel+transfer.+The+transfer+may+be+declined+or+accpeted+already.+Please+check+your+email.
+msgid ""
+"Failed to cancel transfer. The transfer may be declined or accpeted already."
+" Please check your email."
+msgstr ""
+
+#: .Failed+to+accept+invite.
+msgid "Failed to accept invite."
+msgstr ""
+
+#: .Failed+to+decline+invite
+msgid "Failed to decline invite"
+msgstr ""
+
+#: .Invite+has+been+cancelled+or+expired
+msgid "Invite has been cancelled or expired"
+msgstr ""
+
+#: .Invite+is+invaild.
+msgid "Invite is invaild."
+msgstr ""
+
 #: .archived
 msgid "archived"
 msgstr "已归档"
@@ -3115,33 +3081,17 @@ msgstr "已部署"
 msgid "draft"
 msgstr "草稿"
 
-#: .Audit+settings
-msgid "Audit settings"
-msgstr "审计设置"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "提交##submissionTotal##份中的第##submissionIndex##份"
 
-#: .Background+audio
-msgid "Background audio"
-msgstr "后台音频"
+#: .download
+msgid "download"
+msgstr "下载"
 
-#: .Enter+audit+settings+here
-msgid "Enter audit settings here"
-msgstr "在此输入审计设置"
-
-#: .This+functionality+is+available+in+
-msgid "This functionality is available in "
-msgstr "该功能可用于"
-
-#: .This+survey+will+be+recorded
-msgid "This survey will be recorded"
-msgstr "此调查将被录音"
-
-#: .Enable+audio+recording+in+the+background
-msgid "Enable audio recording in the background"
-msgstr "启用后台音频录制"
-
-#: .Audio+quality
-msgid "Audio quality"
-msgstr "音频质量"
+#: .process
+msgid "process"
+msgstr "处理"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -3180,6 +3130,42 @@ msgstr "锁定的功能"
 msgid "Unlocked functionalities"
 msgstr "未锁定的功能"
 
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "你没有任何模板。前往模板库去创建一些。"
+
+#: .Template+name
+msgid "Template name"
+msgstr "模板名称"
+
+#: .Audit+settings
+msgid "Audit settings"
+msgstr "审计设置"
+
+#: .Background+audio
+msgid "Background audio"
+msgstr "后台音频"
+
+#: .Enter+audit+settings+here
+msgid "Enter audit settings here"
+msgstr "在此输入审计设置"
+
+#: .This+functionality+is+available+in+
+msgid "This functionality is available in "
+msgstr "该功能可用于"
+
+#: .This+survey+will+be+recorded
+msgid "This survey will be recorded"
+msgstr "此调查将被录音"
+
+#: .Enable+audio+recording+in+the+background
+msgid "Enable audio recording in the background"
+msgstr "启用后台音频录制"
+
+#: .Audio+quality
+msgid "Audio quality"
+msgstr "音频质量"
+
 #: .Incorrect+token
 msgid "Incorrect token"
 msgstr "令牌不正确"
@@ -3187,6 +3173,13 @@ msgstr "令牌不正确"
 #: .Could+not+generate+secret+key
 msgid "Could not generate secret key"
 msgstr "无法生成密钥"
+
+#: .Two-factor+authentication+(2FA)+verifies+your+identity+using+an+authenticator+application+in+addition+to+your+usual+password.+We+recommend+enabling+two-factor+authentication+for+an+additional+layer+of+protection.
+msgid ""
+"Two-factor authentication (2FA) verifies your identity using an "
+"authenticator application in addition to your usual password. We recommend "
+"enabling two-factor authentication for an additional layer of protection."
+msgstr ""
 
 #: .Scan+QR+code+and+enter+the+%23%23number%23%23-digit+token+from+the+application
 msgid "Scan QR code and enter the ##number##-digit token from the application"
@@ -3205,6 +3198,14 @@ msgstr "没有二维码？"
 #: .Enter+key+manually
 msgid "Enter key manually"
 msgstr "手动输入密钥"
+
+#: .The+following+recovery+codes+will+help+you+access+your+account+in+case+your+authenticator+app+fails.+These+codes+are+unique+and+will+not+be+stored+in+your+Kobo+account.+This+is+your+only+opportunity+to+save+them.+Please+download+the+file+and+keep+it+somewhere+safe.
+msgid ""
+"The following recovery codes will help you access your account in case your "
+"authenticator app fails. These codes are unique and will not be stored in "
+"your Kobo account. This is your only opportunity to save them. Please "
+"download the file and keep it somewhere safe."
+msgstr ""
 
 #: .Download+codes
 msgid "Download codes"
@@ -3259,21 +3260,57 @@ msgid ""
 " previous set up will not be valid anymore."
 msgstr "请注意，为了重新配置双因素身份验证（2FA）, 之前的设置将首先被删除。之前设置的令牌或恢复代码将不再有效。"
 
+#: .Once+your+current+2FA+has+been+deactivated,+you%27ll+be+prompted+to+configure+it+again.+If+you+cannot+complete+the+process,+2FA+will+remain+disabled+for+your+account.+In+this+case,+you+can+enable+it+again+at+any+time+through+the+usual+process.
+msgid ""
+"Once your current 2FA has been deactivated, you'll be prompted to configure "
+"it again. If you cannot complete the process, 2FA will remain disabled for "
+"your account. In this case, you can enable it again at any time through the "
+"usual process."
+msgstr ""
+
 #: .Issues+with+the+token
 msgid "Issues with the token"
 msgstr "令牌问题"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "你没有任何模板。前往模板库去创建一些。"
-
-#: .Template+name
-msgid "Template name"
-msgstr "模板名称"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "选择…"
 
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "加载Enketo时出现错误。"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "按A→Z排序"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "按Z→A排序"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "隐藏字段"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "解除字段冻结"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "冻结字段"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "选择所有结果(##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "选择可见的结果(##count##)"
+
+#: .None
+msgid "None"
+msgstr "无结果"
 
 #: .Update+status+of+selected+submissions
 msgid "Update status of selected submissions"
@@ -3314,42 +3351,6 @@ msgstr "更改状态"
 #: .Set+status+%23%23status%23%23
 msgid "Set status: ##status##"
 msgstr "设置状态：##status##"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "选择所有结果(##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "选择可见的结果(##count##)"
-
-#: .None
-msgid "None"
-msgstr "无结果"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "按A→Z排序"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "按Z→A排序"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "隐藏字段"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "解除字段冻结"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "冻结字段"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "隐藏字段"
 
 #: .%23%23ASSET_TYPE%23%23+deleted+permanently
 msgid "##ASSET_TYPE## deleted permanently"
@@ -3462,13 +3463,17 @@ msgstr "正在部署…"
 msgid "redeployed form"
 msgstr "重新部署表单"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "选择…"
+#: .hide+fields
+msgid "hide fields"
+msgstr "隐藏字段"
 
 #: .Profile
 msgid "Profile"
 msgstr "用户配置文件"
+
+#: .Security
+msgid "Security"
+msgstr "安全"
 
 #: .Usage
 msgid "Usage"
@@ -3478,206 +3483,9 @@ msgstr "使用量"
 msgid "Plans"
 msgstr "套餐"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "更新标签失败"
-
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "更新中…"
-
-#: .Update
-msgid "Update"
-msgstr "更新"
-
-#: .filter
-msgid "filter"
-msgstr "筛选"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "现在没有筛选条，你可以在下面添加"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "添加筛选"
-
-#: .Apply
-msgid "Apply"
-msgstr "应用"
-
-#: .fields
-msgid "fields"
-msgstr "字段"
-
-#: .TOS+Update+Message+not+found
-msgid "TOS Update Message not found"
-msgstr "未找到 TOS 更新消息"
-
-#: .Please+make+sure+the+following+details+are+filled+out+correctly
-msgid "Please make sure the following details are filled out correctly:"
-msgstr "请确保以下详细信息填写正确："
-
-#: .I+agree,+let%27s+go
-msgid "I agree, let's go"
-msgstr "我同意，我们走吧"
-
-#: .I+don%27t+agree,+log+me+out
-msgid "I don't agree, log me out"
-msgstr "我不同意，请退出"
-
-#: .Archive/Unarchive
-msgid "Archive/Unarchive"
-msgstr "存档/取消存档"
-
-#: .Archive+project
-msgid "Archive project"
-msgstr "将项目存档"
-
-#: .Unarchive+project
-msgid "Unarchive project"
-msgstr "取消项目存档"
-
-#: .Draft+project+selected
-msgid "Draft project selected"
-msgstr "将选择的项目记为草稿"
-
-#: .Delete+1+project
-msgid "Delete 1 project"
-msgstr "删除 1 个项目"
-
-#: .Delete+project
-msgid "Delete project"
-msgstr "删除项目"
-
-#: .Question+Block
-msgid "Question Block"
-msgstr "问题块"
-
-#: .Template
-msgid "Template"
-msgstr "模板"
-
-#: .Collection
-msgid "Collection"
-msgstr "集合"
-
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "选择所需类型"
-
-#: .Submission+URL
-msgid "Submission URL"
-msgstr "提交URL"
-
-#: .Public+key
-msgid "Public key"
-msgstr "公钥"
-
-#: .Set+encryption
-msgid "Set encryption"
-msgstr "设置加密"
-
-#: .Remove+encryption
-msgid "Remove encryption"
-msgstr "移除加密"
-
-#: .Learn+more+about+encrypting+forms
-msgid "Learn more about encrypting forms"
-msgstr "了解更多关于加密表单的信息"
-
-#: .%23%23type%23%23+%23%23name%23%23+created
-msgid "##type## ##name## created"
-msgstr "##type####name##创建"
-
-#: .Failed+to+create+%23%23type%23%23
-msgid "Failed to create ##type##"
-msgstr "创建失败##type##"
-
-#: .Failed+to+update+%23%23type%23%23
-msgid "Failed to update ##type##"
-msgstr "更新失败##type##"
-
-#: .Saving%E2%80%A6
-msgid "Saving…"
-msgstr "保存中…"
-
-#: .Creating%E2%80%A6
-msgid "Creating…"
-msgstr "创建中…"
-
-#: .Enter+title+of+%23%23type%23%23+here
-msgid "Enter title of ##type## here"
-msgstr "在此处输入##type##的标题"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "无法找到提交物。它可能已被删除。提交ID：##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "删除提交？"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "你确定要删除这个提交吗？"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "此操作不能被撤销"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "创建副本"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "已成功创建提交记录的副本。你可以在下方查看新实例，并使用下面的操作按钮进行更改。"
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "摒弃重复的提交"
-
-#: .Language
-msgid "Language:"
-msgstr "语言："
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "验证状态："
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "点击下方的按钮，以加载该提交物的最新数据。 "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "刷新提交"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "后台音频录制"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "显示XML名称"
-
-#: .View
-msgid "View"
-msgstr "查看"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "复制"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "删除提交"
+#: .Add-ons
+msgid "Add-ons"
+msgstr ""
 
 #: .Import+data+from+%23%23SOURCE_NAME%23%23
 msgid "Import data from ##SOURCE_NAME##"
@@ -3716,6 +3524,159 @@ msgstr "正在更新导入的问题"
 #: .Accept
 msgid "Accept"
 msgstr "接受"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "无法找到提交物。它可能已被删除。提交ID：##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "删除提交？"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "你确定要删除这个提交吗？"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "此操作不能被撤销"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "创建副本"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "已成功创建提交记录的副本。你可以在下方查看新实例，并使用下面的操作按钮进行更改。"
+
+#: .Source+submission+uuid+
+msgid "Source submission uuid: "
+msgstr ""
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "摒弃重复的提交"
+
+#: .Discard
+msgid "Discard"
+msgstr "摒弃"
+
+#: .Language
+msgid "Language:"
+msgstr "语言："
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "验证状态："
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "点击下方的按钮，以加载该提交物的最新数据。 "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "刷新提交"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "后台音频录制"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "显示XML名称"
+
+#: .View
+msgid "View"
+msgstr "查看"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "复制"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "删除提交"
+
+#: .Type+
+msgid "Type: "
+msgstr "类型： "
+
+#: ..+
+msgid ". "
+msgstr ". "
+
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#2名受访者中，有#1名回答了这个问题。 "
+
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(#是没有数据的。)"
+
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "覆盖图表样式"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "更新标签失败"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "更新中…"
+
+#: .Update
+msgid "Update"
+msgstr "更新"
+
+#: .Question+Block
+msgid "Question Block"
+msgstr "问题块"
+
+#: .Template
+msgid "Template"
+msgstr "模板"
+
+#: .Collection
+msgid "Collection"
+msgstr "集合"
+
+#: .Upload+as+template
+msgid "Upload as template"
+msgstr ""
+
+#: .Note+that+this+will+be+ignored+when+uploading+a+collection+file.
+msgid "Note that this will be ignored when uploading a collection file."
+msgstr ""
+
+#: .Submission+URL
+msgid "Submission URL"
+msgstr "提交URL"
+
+#: .Public+key
+msgid "Public key"
+msgstr "公钥"
+
+#: .Set+encryption
+msgid "Set encryption"
+msgstr "设置加密"
+
+#: .Remove+encryption
+msgid "Remove encryption"
+msgstr "移除加密"
+
+#: .Learn+more+about+encrypting+forms
+msgid "Learn more about encrypting forms"
+msgstr "了解更多关于加密表单的信息"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "不支持的媒体类型：##QUESTION_TYPE##"
 
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
@@ -3834,9 +3795,60 @@ msgstr "频数"
 msgid "Percentage"
 msgstr "百分比"
 
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "不支持的媒体类型：##QUESTION_TYPE##"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "帮助资源"
+
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "KoboToolbox 帮助中心"
+
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "与Kobo有关的大量用户支持文章和教程的集合"
+
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "KoboToolbox 社群论坛"
+
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "发布你的问题，以获得来自世界各地经验丰富的Kobo用户的答案"
+
+#: .Notifications
+msgid "Notifications"
+msgstr "通知"
+
+#: .Help
+msgid "Help"
+msgstr "帮助"
+
+#: .%23%23type%23%23+%23%23name%23%23+created
+msgid "##type## ##name## created"
+msgstr "##type####name##创建"
+
+#: .Failed+to+create+%23%23type%23%23
+msgid "Failed to create ##type##"
+msgstr "创建失败##type##"
+
+#: .Failed+to+update+%23%23type%23%23
+msgid "Failed to update ##type##"
+msgstr "更新失败##type##"
+
+#: .Saving%E2%80%A6
+msgid "Saving…"
+msgstr "保存中…"
+
+#: .Creating%E2%80%A6
+msgid "Creating…"
+msgstr "创建中…"
+
+#: .Enter+title+of+%23%23type%23%23+here
+msgid "Enter title of ##type## here"
+msgstr "在此处输入##type##的标题"
 
 #: .JSON
 msgid "JSON"
@@ -3919,6 +3931,10 @@ msgstr "在JSON提交周围添加自定义包装器（%SUBMISSION%将被JSON替�
 #: .Add+Custom+Wrapper
 msgid "Add Custom Wrapper"
 msgstr "添加自定义包装器"
+
+#: .N/A
+msgid "N/A"
+msgstr "不适用"
 
 #: .%2A+Save+Changes
 msgid "* Save Changes"
@@ -4030,56 +4046,29 @@ msgstr "添加语言"
 msgid "Add a new language"
 msgstr "添加一个新的语言"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "帮助资源"
+#: .filter
+msgid "filter"
+msgstr "筛选"
 
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "KoboToolbox 帮助中心"
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "现在没有筛选条，你可以在下面添加"
 
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "与Kobo有关的大量用户支持文章和教程的集合"
+#: .Add+filter
+msgid "Add filter"
+msgstr "添加筛选"
 
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "KoboToolbox 社群论坛"
+#: .Apply
+msgid "Apply"
+msgstr "应用"
 
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "发布你的问题，以获得来自世界各地经验丰富的Kobo用户的答案"
+#: .fields
+msgid "fields"
+msgstr "字段"
 
-#: .Notifications
-msgid "Notifications"
-msgstr "通知"
-
-#: .Help
-msgid "Help"
-msgstr "帮助"
-
-#: .Type+
-msgid "Type: "
-msgstr "类型： "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#2名受访者中，有#1名回答了这个问题。 "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(#是没有数据的。)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "覆盖图表样式"
+#: .Archive/Unarchive
+msgid "Archive/Unarchive"
+msgstr "存档/取消存档"
 
 #: .Delete+projects
 msgid "Delete projects"
@@ -4092,6 +4081,62 @@ msgstr "删除##count## 项目"
 #: .Share+projects
 msgid "Share projects"
 msgstr "分享项目"
+
+#: .Archive+project
+msgid "Archive project"
+msgstr "将项目存档"
+
+#: .Unarchive+project
+msgid "Unarchive project"
+msgstr "取消项目存档"
+
+#: .Draft+project+selected
+msgid "Draft project selected"
+msgstr "将选择的项目记为草稿"
+
+#: .Delete+1+project
+msgid "Delete 1 project"
+msgstr "删除 1 个项目"
+
+#: .Delete+project
+msgid "Delete project"
+msgstr "删除项目"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "请刷新页面"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "账户设置"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "服务条款"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "隐私政策"
+
+#: .Logout
+msgid "Logout"
+msgstr "登出"
+
+#: .TOS+Update+Message+not+found
+msgid "TOS Update Message not found"
+msgstr "未找到 TOS 更新消息"
+
+#: .Please+make+sure+the+following+details+are+filled+out+correctly
+msgid "Please make sure the following details are filled out correctly:"
+msgstr "请确保以下详细信息填写正确："
+
+#: .I+agree,+let%27s+go
+msgid "I agree, let's go"
+msgstr "我同意，我们走吧"
+
+#: .I+don%27t+agree,+log+me+out
+msgid "I don't agree, log me out"
+msgstr "我不同意，请退出"
 
 #: .This+field+is+required.
 msgid "This field is required."
@@ -4121,31 +4166,102 @@ msgstr "验证密码"
 msgid "Save Password"
 msgstr "保存密码"
 
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "请刷新页面"
+#: .There+are+no+projects+to+display.
+msgid "There are no projects to display."
+msgstr "没有项目可显示。"
 
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "账户设置"
+#: .Import+failed
+msgid "Import failed"
+msgstr "导入失败"
 
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "服务条款"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "隐私政策"
-
-#: .Logout
-msgid "Logout"
-msgstr "登出"
-
-#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
 msgid ""
-"This export format will not be supported in the future. Please consider "
-"using one of the other export types available."
-msgstr "以后将不支持这种导出格式。请考虑使用其他可用的导出类型之一。"
+"Your upload is taking longer than usual. Please get back in few minutes."
+msgstr "您的上传时间比平时要长。 请几分钟后回来。"
+
+#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
+msgid ""
+"Your uploads are being processed. This may take a few moments. You will need"
+" to refresh the page to see them on the list."
+msgstr "您上传的内容正在处理中。 这可能需要一些时间。 您需要刷新页面才能在列表中看到它们。"
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "请为你的##type##输入一个标题"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "无标题##type##"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "无标题集合"
+
+#: .project+title
+msgid "project title"
+msgstr "项目名称"
+
+#: .Project+transfer+declined
+msgid "Project transfer declined"
+msgstr ""
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##."
+msgstr ""
+
+#: .When+you+accept+the+ownership+transfer+of+project+%23%23PROJECT_NAME%23%23,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+you+and+count+against+your+plan+limits.
+msgid ""
+"When you accept the ownership transfer of project ##PROJECT_NAME##, all of "
+"the submissions, data storage, and transcription and translation usage for "
+"the project will be transferred to you and count against your plan limits."
+msgstr ""
+
+#: .Once+you+accept,+the+transfer+might+take+a+few+minutes+to+complete.
+msgid "Once you accept, the transfer might take a few minutes to complete."
+msgstr ""
+
+#: .Current+owner
+msgid "Current owner"
+msgstr ""
+
+#: .Note+The+previous+owner+has+permissions+to+manage+the+project.+You+can+change+user+permissions+in+the+project+sharing+settings.
+msgid ""
+"Note: The previous owner has permissions to manage the project. You can "
+"change user permissions in the project sharing settings."
+msgstr ""
+
+#: .Decline
+msgid "Decline"
+msgstr ""
+
+#: .Discard+unsaved+changes%3F
+msgid "Discard unsaved changes?"
+msgstr "要放弃未保存的更改吗？"
+
+#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
+msgid "You have unsaved changes. Leave settings without saving?"
+msgstr "你有未保存的更改。确定不保存设置就离开？"
+
+#: .Updated+profile+successfully
+msgid "Updated profile successfully"
+msgstr "用户配置文件更新成功"
+
+#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
+msgid ""
+"You can now control whether to allow anonymous submissions in web forms for "
+"each project. Previously, this was an account-wide setting."
+msgstr "现在你可以控制是否允许Web表单中每个项目的匿名提交。此前，这仅设置于帐户范围内。"
+
+#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
+msgid ""
+"This privacy feature is now a per-project setting. New projects will require"
+" authentication by default."
+msgstr "现在每个项目均设置有隐私功能。在使用新项目之前默认需要进行身份验证。"
+
+#: .Learn+more+about+these+changes+here.
+msgid "Learn more about these changes here."
+msgstr "在此处了解更多有关这些变更的信息。"
 
 #: .Delete+export%3F
 msgid "Delete export?"
@@ -4188,176 +4304,15 @@ msgstr "多个版本"
 msgid "There is nothing to download yet."
 msgstr "目前没有可以下载的内容。"
 
-#: .There+are+no+projects+to+display.
-msgid "There are no projects to display."
-msgstr "没有项目可显示。"
-
-#: .Non-profit+organization
-msgid "Non-profit organization"
-msgstr "非盈利机构"
-
-#: .Government+institution
-msgid "Government institution"
-msgstr "政府机构"
-
-#: .Educational+organization
-msgid "Educational organization"
-msgstr "教育机构"
-
-#: .A+commercial/for-profit+company
-msgid "A commercial/for-profit company"
-msgstr "商业/营利性公司"
-
-#: .I+am+not+associated+with+any+organization
-msgid "I am not associated with any organization"
-msgstr "我与任何组织没有关联"
-
-#: .Male
-msgid "Male"
-msgstr "男"
-
-#: .Female
-msgid "Female"
-msgstr "女"
-
-#: .Other
-msgid "Other"
-msgstr "其他"
-
-#: .Use+this+to+display+your+real+name+to+other+users
-msgid "Use this to display your real name to other users"
-msgstr "使用此项以向其他用户显示你的真实姓名"
-
-#: .Social
-msgid "Social"
-msgstr "社交媒体"
-
-#: .Newsletter
-msgid "Newsletter"
-msgstr "内部通讯"
-
-#: .Import+failed
-msgid "Import failed"
-msgstr "导入失败"
-
-#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
-msgid ""
-"Your upload is taking longer than usual. Please get back in few minutes."
-msgstr "您的上传时间比平时要长。 请几分钟后回来。"
-
-#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
-msgid ""
-"Your uploads are being processed. This may take a few moments. You will need"
-" to refresh the page to see them on the list."
-msgstr "您上传的内容正在处理中。 这可能需要一些时间。 您需要刷新页面才能在列表中看到它们。"
-
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "请为你的##type##输入一个标题"
-
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "无标题##type##"
-
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "无标题集合"
-
-#: .project+title
-msgid "project title"
-msgstr "项目名称"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "最后更改##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "创建于##date##"
-
-#: .Delete%3F
-msgid "Delete?"
-msgstr "要删除吗？"
-
-#: .This+action+is+not+reversible
-msgid "This action is not reversible"
-msgstr "此操作不可逆"
-
-#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
-msgid "Asset seems to not have the processing feature enabled!"
-msgstr "资源似乎没有启用处理功能！"
-
-#: .Failed+to+get+processing+data.
-msgid "Failed to get processing data."
-msgstr "获取处理数据失败。"
-
-#: .Failed+to+set+transcript.
-msgid "Failed to set transcript."
-msgstr "设置抄本失败。"
-
-#: .Failed+to+delete+transcript.
-msgid "Failed to delete transcript."
-msgstr "删除抄本失败。"
-
-#: .Failed+to+delete+translation.
-msgid "Failed to delete translation."
-msgstr "删除翻译本失败。"
-
-#: .No+options+found
-msgid "No options found"
-msgstr "未发现任何选项"
-
-#: .Failed+to+load+analysis+questions
-msgid "Failed to load analysis questions"
-msgstr "加载分析问题失败"
-
-#: .There+was+an+error+getting+the+list+of+plans.
-msgid "There was an error getting the list of plans."
-msgstr "获取计划清单时出错。"
-
-#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
-msgid ""
-"We couldn't make the requested change to your plan.\n"
-"Your current plan has not been changed."
-msgstr "我们无法按您的要求更改计划。\n您当前的计划尚未更改。"
-
-#: .Couldn%27t+get+data+for+your+organization.
-msgid "Couldn't get data for your organization."
-msgstr "无法为您的组织获取数据。"
-
-#: .Original+transcript
-msgid "Original transcript"
-msgstr "初始文本"
-
-#: .Submission+data
-msgid "Submission data"
-msgstr "提交数据"
-
-#: .Original+file+(Audio)
-msgid "Original file (Audio)"
-msgstr "初始文件（音频）"
-
-#: .Display+settings
-msgid "Display settings"
-msgstr "显示设置"
-
-#: .Customize+display+settings
-msgid "Customize display settings"
-msgstr "自定义显示设置"
-
-#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
-msgid ""
-"Select the information you want to display in the side menu to support your "
-"analysis."
-msgstr "在侧栏菜单中选择你想要显示的信息以支持您的分析。"
-
-#: .Apply+selection
-msgid "Apply selection"
-msgstr "应用选择"
-
 #: .Export
 msgid "Export"
 msgstr "导出"
+
+#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+msgid ""
+"This export format will not be supported in the future. Please consider "
+"using one of the other export types available."
+msgstr "以后将不支持这种导出格式。请考虑使用其他可用的导出类型之一。"
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -4429,135 +4384,109 @@ msgstr "应用保存的导出设置"
 msgid "No export settings selected"
 msgstr "未选择导出设置"
 
-#: .There+was+an+issue+fetching+your+plan+information.
-msgid "There was an issue fetching your plan information."
-msgstr "获取您的计划信息时出现问题。"
+#: .Item
+msgid "Item"
+msgstr "项"
 
-#: .forgot+password
-msgid "forgot password"
-msgstr "忘记密码"
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "共##total_count##"
 
-#: .Unlimited
-msgid "Unlimited"
-msgstr "无限"
+#: .Transcript
+msgid "Transcript"
+msgstr "抄本"
 
-#: .%23%23minutes%23%23+mins
-msgid "##minutes## mins"
-msgstr "##minutes##分钟"
+#: .Translations
+msgid "Translations"
+msgstr "翻译"
 
-#: .Available
-msgid "Available"
-msgstr "可提供的"
+#: .Analysis
+msgid "Analysis"
+msgstr "分析"
 
-#: .Used+this+month
-msgid "Used this month"
-msgstr "本月使用"
-
-#: .Used+this+year
-msgid "Used this year"
-msgstr "今年使用"
-
-#: .Balance
-msgid "Balance"
-msgstr "余额"
+#: .No+options+found
+msgid "No options found"
+msgstr "未发现任何选项"
 
 #: .Your+plan
 msgid "Your plan"
 msgstr "你的计划"
 
-#: .%23%23plan_name%23%23+Plan
-msgid "##plan_name## Plan"
-msgstr "##plan_name##计划"
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "你想不保存就离开吗？"
 
-#: .Started+on+%23%23start_date%23%23
-msgid "Started on ##start_date##"
-msgstr "开始于##start_date##"
-
-#: .Renews+on+%23%23renewal_date%23%23
-msgid "Renews on ##renewal_date##"
-msgstr "更新于##renewal_date##"
-
-#: .Two-factor+authentication
-msgid "Two-factor authentication"
-msgstr "双因素身份验证"
-
-#: .Disabled
-msgid "Disabled"
-msgstr "禁用"
-
-#: .Authenticator+app
-msgid "Authenticator app"
-msgstr "身份验证器应用程序"
-
-#: .Reconfigure
-msgid "Reconfigure"
-msgstr "重新配置"
-
-#: .Recovery+codes
-msgid "Recovery codes"
-msgstr "恢复代码"
-
-#: .Generate+new
-msgid "Generate new"
-msgstr "生成新的"
-
-#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
-msgid "Two-factor authentication was deactivated for your account on ##date##"
-msgstr "你的账户于##date##停用了双因素身份验证"
-
-#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
-msgid "This feature is not available on your current plan. Please visit the "
-msgstr "您当前的套餐不提供此功能。 请访问"
-
-#: .Plans+page
-msgid "Plans page"
-msgstr "套餐页面"
-
-#: .+to+upgrade+your+account.
-msgid " to upgrade your account."
-msgstr "升级您的帐户。"
-
-#: .Email+address
-msgid "Email address"
-msgstr "电邮地址"
-
-#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
-msgid "Check your email ##UNVERIFIED_EMAIL##. "
-msgstr "查看你的电邮##UNVERIFIED_EMAIL##。 "
-
-#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"A verification link has been sent to confirm your ownership. Once confirmed,"
-" this address will replace ##UNVERIFIED_EMAIL##"
-msgstr "已发送验证链接以确认你的所有权。一旦确认，该地址将取代##UNVERIFIED_EMAIL##"
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr "感谢您的升级！ 我们感谢您一如既往的支持。 如果您对您的套餐有任何疑问，请联系 billing@kobotoolbox.org。"
 
-#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
-msgid "Email was sent again: ##TIMESTAMP##"
-msgstr "邮件再次被发送于：##TIMESTAMP##"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr "感谢您的升级！ 我们感谢您一如既往的支持。 如果您的帐户没有立即更新，请等待几分钟并刷新页面。"
 
-#: .Type+new+email+address
-msgid "Type new email address"
-msgstr "输入新的电邮地址"
+#: .Collapse+full+comparison
+msgid "Collapse full comparison"
+msgstr "收起完整比较"
 
-#: .Failed+to+get+API+token
-msgid "Failed to get API token"
-msgstr "获取API令牌失败"
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr "展开完整比较"
 
-#: .API+Key
-msgid "API Key"
-msgstr "API钥匙"
+#: .show+monthly+plans
+msgid "show monthly plans"
+msgstr "展示月度计划"
 
-#: .Single-Sign+On
-msgid "Single-Sign On"
-msgstr "单一登入"
+#: .Monthly
+msgid "Monthly"
+msgstr "月度的"
 
-#: .Already+connected
-msgid "Already connected"
-msgstr "已经连接"
+#: .show+annual+plans
+msgid "show annual plans"
+msgstr "展示年度计划"
 
-#: .Disable
-msgid "Disable"
-msgstr "禁用"
+#: .Annual
+msgid "Annual"
+msgstr "年度的"
+
+#: .Want+more%3F
+msgid "Want more?"
+msgstr "想了解更多？"
+
+#: .Contact+us
+msgid "Contact us"
+msgstr "请联系我们"
+
+#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
+msgid ""
+"For organizations with higher volume and advanced data collection needs, get"
+" in touch to learn more about our "
+msgstr "如有对业务和高级数据收集有更高需求的组织，请与我们联系以了解更多关于我们的"
+
+#: .Enterprise+Plan
+msgid "Enterprise Plan"
+msgstr "企业策划"
+
+#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
+msgid ""
+"We also offer custom solutions and private servers for large organizations. "
+msgstr "我们也为大型组织提供定制的解决方案和专用服务器。 "
+
+#: .Contact+our+team
+msgid "Contact our team"
+msgstr "请与我们的团队联系"
+
+#: .+for+more+information.
+msgid " for more information."
+msgstr "以了解更多信息。"
+
+#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
+msgid ""
+"Use the button above to select the information to be displayed in this area"
+msgstr "点击上面的按钮进行操作，选中需要在此区域中显示的信息"
 
 #: .and+one+other+question
 msgid "and one other question"
@@ -4566,89 +4495,6 @@ msgstr "以及另一个问题"
 #: .and+%23%23+other+questions
 msgid "and ## other questions"
 msgstr "以及另##个问题"
-
-#: .There+has+been+an+issue,+please+try+again+later.
-msgid "There has been an issue, please try again later."
-msgstr "出现问题，请稍后重试。"
-
-#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
-msgid ""
-"Success! Your subscription will change at the end of the current billing "
-"period."
-msgstr "成功！您的订阅将在当前收费周期结束时更改。"
-
-#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
-msgid ""
-"There was an error processing your plan change. Your previous plan has not "
-"been changed. Please try again later."
-msgstr "处理您的计划更改时出错。您之前的计划尚未更改。请稍后重试。"
-
-#: .available+add-ons
-msgid "available add-ons"
-msgstr "可提供的附加组件"
-
-#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
-msgid ""
-"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
-"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
-"            data collection."
-msgstr "为提高您的使用权限，您可以将附加组件添加到您的社区计划中。如果您的权限即将到达或\n            已经到达计划中所包含的使用上限，请通过附加组件增加权限以继续\n            收集数据。"
-
-#: .Manage
-msgid "Manage"
-msgstr "管理"
-
-#: .Buy+now
-msgid "Buy now"
-msgstr "现在购买"
-
-#: .%23%23add_on_name%23%23+add-on
-msgid "##add_on_name## add-on"
-msgstr "##add_on_name##附加组件"
-
-#: .monthly+%23%23plan_name%23%23+plan
-msgid "monthly ##plan_name## plan"
-msgstr "月度##plan_name##计划"
-
-#: .yearly+%23%23plan_name%23%23+plan
-msgid "yearly ##plan_name## plan"
-msgstr "年度##plan_name##计划"
-
-#: .add-on
-msgid "add-on"
-msgstr "附加组件"
-
-#: .plan
-msgid "plan"
-msgstr "计划"
-
-#: .Changes+to+your+Plan
-msgid "Changes to your Plan"
-msgstr "更改您的计划"
-
-#: .Processing+your+transaction%E2%80%A6
-msgid "Processing your transaction…"
-msgstr "您的交易正在处理中⋯⋯"
-
-#: .You+are+switching+to+the+%23%23new_product_type%23%23.
-msgid "You are switching to the ##new_product_type##."
-msgstr "您将跳转至 ##new_product_type##."
-
-#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
-msgid ""
-"Because this plan includes unlimited storage, your storage add-on will be "
-"canceled."
-msgstr "由于该计划含有无限的存储空间，您的存储附加组件功能将被取消。"
-
-#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23+per+%23%23interval%23%23.
-msgid ""
-"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
-"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price## per ##interval##."
-msgstr "在##billing_end_date##之前，您当前的 ##product_type## 将一直有效。\n                    从 ##billing_end_date## 开始直到您取消，我们将按每##interval####new_price##对您进行计费。"
-
-#: .Submit
-msgid "Submit"
-msgstr "提交"
 
 #: .Search...
 msgid "Search..."
@@ -4682,20 +4528,17 @@ msgstr "已找到资源"
 msgid "expand details"
 msgstr "展开详情"
 
-#: .This+plan+only+supports+up+to+%23%23submissions%23%23+submissions+per+month.+If+your+project+needs+more+than+that,+please+contact+us+about+our+Private+Server+options.
-msgid ""
-"This plan only supports up to ##submissions## submissions per month. If your"
-" project needs more than that, please contact us about our Private Server "
-"options."
-msgstr "此计划每月仅支持提交 ##submissions## 。如果您的项目需求超过该数额，请与我们联系以了解私人服务器的期权。"
-
-#: .Total+Submissions+per+Month
-msgid "Total Submissions per Month"
-msgstr "每月提交总数"
-
 #: .Could+not+load+media+file
 msgid "Could not load media file"
 msgstr "无法加载媒体文件"
+
+#: .Delete%3F
+msgid "Delete?"
+msgstr "要删除吗？"
+
+#: .This+action+is+not+reversible
+msgid "This action is not reversible"
+msgstr "此操作不可逆"
 
 #: .An+error+occured
 msgid "An error occured"
@@ -4708,6 +4551,22 @@ msgstr "检查订阅状态时出错"
 #: .Incorrect+token+or+something+went+wrong
 msgid "Incorrect token or something went wrong"
 msgstr "令牌不正确或出现了错误"
+
+#: .Mean
+msgid "Mean"
+msgstr "平均数"
+
+#: .Median
+msgid "Median"
+msgstr "中位数"
+
+#: .Mode
+msgid "Mode"
+msgstr "众数"
+
+#: .Standard+deviation
+msgid "Standard deviation"
+msgstr "标准差"
 
 #: .Filter+by
 msgid "Filter by"
@@ -4729,21 +4588,9 @@ msgstr "选择条件"
 msgid "Enter value"
 msgstr "输入数值"
 
-#: .Mean
-msgid "Mean"
-msgstr "平均数"
-
-#: .Median
-msgid "Median"
-msgstr "中位数"
-
-#: .Mode
-msgid "Mode"
-msgstr "众数"
-
-#: .Standard+deviation
-msgid "Standard deviation"
-msgstr "标准差"
+#: .There+was+an+issue+fetching+your+plan+information.
+msgid "There was an issue fetching your plan information."
+msgstr "获取您的计划信息时出现问题。"
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4756,60 +4603,6 @@ msgstr "寻找字段"
 #: .No+results
 msgid "No results"
 msgstr "无结果"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
-msgid "You are about to permanently delete ##count## projects"
-msgstr "你即将永久删除##count## 该项目。"
-
-#: .All+data+gathered+for+these+projects+will+be+deleted
-msgid "All data gathered for these projects will be deleted"
-msgstr "为这些项目收集的所有数据都将被删除"
-
-#: .Forms+associated+with+these+projects+will+be+deleted
-msgid "Forms associated with these projects will be deleted"
-msgstr "与这些项目相关的表格将被删除"
-
-#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
-msgid ""
-"I understand that if I delete these projects I will not be able to recover "
-"them"
-msgstr "我明白，如果我删除这个项目，我将无法恢复它。"
-
-#: .Default+sort
-msgid "Default sort"
-msgstr "默认排序"
-
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "输入并按ENTER键确认"
-
-#: .Name+must+be+unique%21
-msgid "Name must be unique!"
-msgstr "名称必须是独一无二的!"
-
-#: .Code+must+be+unique%21
-msgid "Code must be unique!"
-msgstr "代码必须是独一无二的!"
-
-#: .Default+language+name
-msgid "Default language name"
-msgstr "默认语言名称"
-
-#: .Language+name
-msgid "Language name"
-msgstr "语言名称"
-
-#: .Default+language+code
-msgid "Default language code"
-msgstr "默认语言代码"
-
-#: .Language+code
-msgid "Language code"
-msgstr "语言代码"
-
-#: .Set
-msgid "Set"
-msgstr "设置"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4867,9 +4660,37 @@ msgstr "实例ID(instanceID)"
 msgid "Submitted by"
 msgstr "由 X 所提交"
 
-#: .Select+export+type
-msgid "Select export type"
-msgstr "选择导出类型"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "输入并按ENTER键确认"
+
+#: .Name+must+be+unique%21
+msgid "Name must be unique!"
+msgstr "名称必须是独一无二的!"
+
+#: .Code+must+be+unique%21
+msgid "Code must be unique!"
+msgstr "代码必须是独一无二的!"
+
+#: .Default+language+name
+msgid "Default language name"
+msgstr "默认语言名称"
+
+#: .Language+name
+msgid "Language name"
+msgstr "语言名称"
+
+#: .Default+language+code
+msgid "Default language code"
+msgstr "默认语言代码"
+
+#: .Language+code
+msgid "Language code"
+msgstr "语言代码"
+
+#: .Set
+msgid "Set"
+msgstr "设置"
 
 #: .CSV+(legacy)
 msgid "CSV (legacy)"
@@ -4919,21 +4740,205 @@ msgstr "单列"
 msgid "Single and separate columns"
 msgstr "单列和分开的列"
 
-#: .Automated+analysis
-msgid "Automated analysis"
-msgstr "自动分析"
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
+msgid "You are about to permanently delete ##count## projects"
+msgstr "你即将永久删除##count## 该项目。"
 
-#: .Unsaved+changes
-msgid "Unsaved changes"
-msgstr "未保存的更改"
+#: .All+data+gathered+for+these+projects+will+be+deleted
+msgid "All data gathered for these projects will be deleted"
+msgstr "为这些项目收集的所有数据都将被删除"
 
-#: .Saved
-msgid "Saved"
-msgstr "已保存"
+#: .Forms+associated+with+these+projects+will+be+deleted
+msgid "Forms associated with these projects will be deleted"
+msgstr "与这些项目相关的表格将被删除"
 
-#: .There+was+an+error+fetching+usage+data.
-msgid "There was an error fetching usage data."
-msgstr "获取使用数据时出错。"
+#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
+msgid ""
+"I understand that if I delete these projects I will not be able to recover "
+"them"
+msgstr "我明白，如果我删除这个项目，我将无法恢复它。"
+
+#: .Non-profit+organization
+msgid "Non-profit organization"
+msgstr "非盈利机构"
+
+#: .Government+institution
+msgid "Government institution"
+msgstr "政府机构"
+
+#: .Educational+organization
+msgid "Educational organization"
+msgstr "教育机构"
+
+#: .A+commercial/for-profit+company
+msgid "A commercial/for-profit company"
+msgstr "商业/营利性公司"
+
+#: .I+am+not+associated+with+any+organization
+msgid "I am not associated with any organization"
+msgstr "我与任何组织没有关联"
+
+#: .Male
+msgid "Male"
+msgstr "男"
+
+#: .Female
+msgid "Female"
+msgstr "女"
+
+#: .Other
+msgid "Other"
+msgstr "其他"
+
+#: .Use+this+to+display+your+real+name+to+other+users
+msgid "Use this to display your real name to other users"
+msgstr "使用此项以向其他用户显示你的真实姓名"
+
+#: .Social
+msgid "Social"
+msgstr "社交媒体"
+
+#: .Newsletter
+msgid "Newsletter"
+msgstr "内部通讯"
+
+#: .forgot+password
+msgid "forgot password"
+msgstr "忘记密码"
+
+#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
+msgid "Asset seems to not have the processing feature enabled!"
+msgstr "资源似乎没有启用处理功能！"
+
+#: .Failed+to+get+processing+data.
+msgid "Failed to get processing data."
+msgstr "获取处理数据失败。"
+
+#: .Failed+to+set+transcript.
+msgid "Failed to set transcript."
+msgstr "设置抄本失败。"
+
+#: .Failed+to+delete+transcript.
+msgid "Failed to delete transcript."
+msgstr "删除抄本失败。"
+
+#: .Failed+to+delete+translation.
+msgid "Failed to delete translation."
+msgstr "删除翻译本失败。"
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "你确定要删除这个问题吗？"
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr "删除问题"
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr "重复问题"
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr "将问题添加到库"
+
+#: .Email+address
+msgid "Email address"
+msgstr "电邮地址"
+
+#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
+msgid "Check your email ##UNVERIFIED_EMAIL##. "
+msgstr "查看你的电邮##UNVERIFIED_EMAIL##。 "
+
+#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+msgid ""
+"A verification link has been sent to confirm your ownership. Once confirmed,"
+" this address will replace ##UNVERIFIED_EMAIL##"
+msgstr "已发送验证链接以确认你的所有权。一旦确认，该地址将取代##UNVERIFIED_EMAIL##"
+
+#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
+msgid "Email was sent again: ##TIMESTAMP##"
+msgstr "邮件再次被发送于：##TIMESTAMP##"
+
+#: .Type+new+email+address
+msgid "Type new email address"
+msgstr "输入新的电邮地址"
+
+#: .Two-factor+authentication
+msgid "Two-factor authentication"
+msgstr "双因素身份验证"
+
+#: .Disabled
+msgid "Disabled"
+msgstr "禁用"
+
+#: .Authenticator+app
+msgid "Authenticator app"
+msgstr "身份验证器应用程序"
+
+#: .Reconfigure
+msgid "Reconfigure"
+msgstr "重新配置"
+
+#: .Recovery+codes
+msgid "Recovery codes"
+msgstr "恢复代码"
+
+#: .Generate+new
+msgid "Generate new"
+msgstr "生成新的"
+
+#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
+msgid "Two-factor authentication was deactivated for your account on ##date##"
+msgstr "你的账户于##date##停用了双因素身份验证"
+
+#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
+msgid "This feature is not available on your current plan. Please visit the "
+msgstr "您当前的套餐不提供此功能。 请访问"
+
+#: .Plans+page
+msgid "Plans page"
+msgstr "套餐页面"
+
+#: .+to+upgrade+your+account.
+msgid " to upgrade your account."
+msgstr "升级您的帐户。"
+
+#: .Failed+to+get+API+token
+msgid "Failed to get API token"
+msgstr "获取API令牌失败"
+
+#: .API+Key
+msgid "API Key"
+msgstr "API钥匙"
+
+#: .Single-Sign+On
+msgid "Single-Sign On"
+msgstr "单一登入"
+
+#: .Connect+your+KoboToolbox+account+with+your+organization%27s+identity+provider+for+single-sign+on+(SSO).+Afterwards,+you+will+only+be+able+to+sign+in+via+SSO+unless+you+disable+this+setting+here.+This+will+also+update+your+email+address+in+case+your+current+address+is+different.
+msgid ""
+"Connect your KoboToolbox account with your organization's identity provider "
+"for single-sign on (SSO). Afterwards, you will only be able to sign in via "
+"SSO unless you disable this setting here. This will also update your email "
+"address in case your current address is different."
+msgstr ""
+
+#: .Already+connected
+msgid "Already connected"
+msgstr "已经连接"
+
+#: .Disable
+msgid "Disable"
+msgstr "禁用"
+
+#: .No+organization+found
+msgid "No organization found"
+msgstr ""
+
+#: .Couldn%27t+get+usage+data
+msgid "Couldn't get usage data"
+msgstr ""
 
 #: .You+are+approaching+your
 msgid "You are approaching your"
@@ -4959,29 +4964,19 @@ msgstr " 和 "
 msgid "limit"
 msgstr "限制"
 
-#: .Please
-msgid "Please"
-msgstr "请"
+#: .limits
+msgid "limits"
+msgstr ""
 
-#: .review+your+usage
-msgid "review your usage"
-msgstr "审核您的使用情况"
+#: .about+upgrading+your+plan.
+msgid "about upgrading your plan."
+msgstr ""
 
-#: .upgrade+your+plan
-msgid "upgrade your plan"
-msgstr "升级您的计划"
-
-#: .as+soon+as+possible
-msgid "as soon as possible"
-msgstr "尽快"
-
-#: .if+needed
-msgid "if needed"
-msgstr "如果需要"
-
-#: .Review+your+usage+in+account+settings
-msgid "Review your usage in account settings"
-msgstr "在帐户设置中审核您的使用情况"
+#: .Please+upgrade+your+plan+or+purchase+an+add-on+to+increase+your+usage+limits.
+msgid ""
+"Please upgrade your plan or purchase an add-on to increase your usage "
+"limits."
+msgstr ""
 
 #: .Monitor+usage
 msgid "Monitor usage"
@@ -5015,6 +5010,14 @@ msgstr "您已达到"
 msgid "included with your current plan."
 msgstr "包含在您当前的套餐中。"
 
+#: .Please
+msgid "Please"
+msgstr "请"
+
+#: .upgrade+your+plan
+msgid "upgrade your plan"
+msgstr "升级您的计划"
+
 #: .review+your+usage+in+account+settings
 msgid "review your usage in account settings"
 msgstr "在帐户设置中审核您的使用情况"
@@ -5023,164 +5026,267 @@ msgstr "在帐户设置中审核您的使用情况"
 msgid "remind me later"
 msgstr "稍后提醒我"
 
-#: .source+file
-msgid "source file"
-msgstr "源文件"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "选择导出类型"
 
-#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
-msgid "This ##type## does not have a transcript yet"
-msgstr "这个##type##还没有抄本"
+#: .%23%23start_date%23%23+to+%23%23end_date%23%23
+msgid "##start_date## to ##end_date##"
+msgstr "##start_date## 到 ##end_date##"
 
-#: .begin
-msgid "begin"
-msgstr "开始"
+#: .Your+usage
+msgid "Your usage"
+msgstr "您的使用情况"
 
-#: .Please+select+the+original+language+of+the+%23%23type%23%23
-msgid "Please select the original language of the ##type##"
-msgstr "请选择##type##的源语言"
+#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
+msgid "Last update: ##LAST_UPDATE_TIME##"
+msgstr "最后更新：##LAST_UPDATE_TIME##"
 
-#: .back
-msgid "back"
-msgstr "后退"
+#: .Storage
+msgid "Storage"
+msgstr "存储空间"
 
-#: .manual
-msgid "manual"
-msgstr "手动"
+#: .per+account
+msgid "per account"
+msgstr "每个帐户"
 
-#: .transcribe
-msgid "transcribe"
-msgstr "转录"
+#: .Transcription+minutes
+msgid "Transcription minutes"
+msgstr "转录分钟"
 
-#: .Automatic+transcription+in+progress
-msgid "Automatic transcription in progress"
-msgstr "正在进行自动转录"
+#: .Translation+characters
+msgid "Translation characters"
+msgstr "翻译字符"
 
-#: .Estimated+time+for+completion+%23%23estimate%23%23
-msgid "Estimated time for completion: ##estimate##"
-msgstr "预计完成时间：##estimate## "
+#: .%23%23count%23%23+Projects
+msgid "##count## Projects"
+msgstr ""
 
-#: .Automatic+transcription+of+audio+file+from
-msgid "Automatic transcription of audio file from"
-msgstr "自动转录声音文件于"
+#: .Submissions+(Total)
+msgid "Submissions (Total)"
+msgstr ""
 
-#: .Transcription+provider
-msgid "Transcription provider"
-msgstr "抄本提供者"
+#: .Submissions+(This+year)
+msgid "Submissions (This year)"
+msgstr ""
 
-#: .cancel
-msgid "cancel"
-msgstr "取消"
+#: .Submissions+(This+month)
+msgid "Submissions (This month)"
+msgstr ""
 
-#: .create+transcript
-msgid "create transcript"
-msgstr "创造抄本"
+#: .Data+storage
+msgid "Data storage"
+msgstr ""
 
-#: .Delete+transcript%3F
-msgid "Delete transcript?"
-msgstr "要删除抄本吗？"
+#: .Transcript+minutes
+msgid "Transcript minutes"
+msgstr ""
 
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "你确定要删除这个问题吗？"
+#: .There+was+an+error+getting+the+list+of+plans.
+msgid "There was an error getting the list of plans."
+msgstr "获取计划清单时出错。"
 
-#: .Delete+Question
-msgid "Delete Question"
-msgstr "删除问题"
-
-#: .Duplicate+Question
-msgid "Duplicate Question"
-msgstr "重复问题"
-
-#: .Add+Question+to+Library
-msgid "Add Question to Library"
-msgstr "将问题添加到库"
-
-#: .This+transcript+does+not+have+any+translations+yet
-msgid "This transcript does not have any translations yet"
-msgstr "该抄本还没有任何翻译"
-
-#: .Please+select+the+language+you+want+to+translate+to
-msgid "Please select the language you want to translate to"
-msgstr "请选择要翻译成哪一种语言"
-
-#: .translate
-msgid "translate"
-msgstr "翻译"
-
-#: .Automatic+translation+of+transcript+to
-msgid "Automatic translation of transcript to"
-msgstr "自动把抄本翻译成"
-
-#: .Translation+provider
-msgid "Translation provider"
-msgstr "翻译提供者"
-
-#: .create+translation
-msgid "create translation"
-msgstr "创造翻译"
-
-#: .Delete+translation%3F
-msgid "Delete translation?"
-msgstr "要删除翻译本吗？"
-
-#: .new+translation
-msgid "new translation"
-msgstr "新的翻译"
-
-#: .less+than+a+minute
-msgid "less than a minute"
-msgstr "不到一分钟"
-
-#: .about+1+minute
-msgid "about 1 minute"
-msgstr "约 1 分钟"
-
-#: .about+2+minutes
-msgid "about 2 minutes"
-msgstr "约 2 分钟"
-
-#: .about+%23%23number%23%23+minutes
-msgid "about ##number## minutes"
-msgstr "约 ##number## 分钟"
-
-#: .Free
-msgid "Free"
-msgstr "免费的"
-
-#: .%24%23%23price%23%23+USD/month
-msgid "$##price## USD/month"
-msgstr "$##price## USD/月"
-
-#: .Upgrade
-msgid "Upgrade"
-msgstr "升级"
-
-#: .Change+plan
-msgid "Change plan"
-msgstr "变更计划"
-
-#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
 msgid ""
-"Please note that any qualitative question created for this record will "
-"generate a new column in the data table, making the question available for "
-"all other records."
-msgstr "请注意，因该记录而产生的任何定性问题将会在数据表中生成新的一列，这将使该问题可被其他记录使用。"
+"We couldn't make the requested change to your plan.\n"
+"Your current plan has not been changed."
+msgstr "我们无法按您的要求更改计划。\n您当前的计划尚未更改。"
 
-#: .There+are+no+qualitative+analysis+questions+yet.
-msgid "There are no qualitative analysis questions yet."
-msgstr "截止目前还未出现定性分析问题。"
+#: .Couldn%27t+get+data+for+your+organization.
+msgid "Couldn't get data for your organization."
+msgstr "无法为您的组织获取数据。"
 
-#: .Click+the+%22Add+question%22+button+to+get+started
-msgid "Click the \"Add question\" button to get started"
-msgstr "单击“添加问题”按钮以开始"
+#: .%23%23plan_name%23%23+Plan
+msgid "##plan_name## Plan"
+msgstr "##plan_name##计划"
 
-#: .Only+those+with+full+editing+rights+can+create+questions
-msgid "Only those with full editing rights can create questions"
-msgstr "仅拥有完整编辑权限的人可以创建问题"
+#: .Started+on+%23%23start_date%23%23
+msgid "Started on ##start_date##"
+msgstr "开始于##start_date##"
 
-#: .Contact+the+project+owner+for+more+information
-msgid "Contact the project owner for more information"
-msgstr "有关详细信息，请联系项目所有者"
+#: .Renews+on+%23%23renewal_date%23%23
+msgid "Renews on ##renewal_date##"
+msgstr "更新于##renewal_date##"
+
+#: .Ends+on+%23%23end_date%23%23
+msgid "Ends on ##end_date##"
+msgstr ""
+
+#: .Changing+usage+limits+on+%23%23change_date%23%23
+msgid "Changing usage limits on ##change_date##"
+msgstr ""
+
+#: .Switching+to+monthly+on+%23%23change_date%23%23
+msgid "Switching to monthly on ##change_date##"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+has+been+canceled+but+will+remain+active+until+the+end+of+the+billing+period.
+msgid ""
+"Your ##current_plan## plan has been canceled but will remain active until "
+"the end of the billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+the+%23%23next_plan%23%23+plan+on
+msgid "Your ##current_plan## plan will change to the ##next_plan## plan on"
+msgstr ""
+
+#: ..+You+can+continue+using+%23%23current_plan%23%23+plan+features+until+the+end+of+the+billing+period.
+msgid ""
+". You can continue using ##current_plan## plan features until the end of the"
+" billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+include+up+to+%23%23submission_quantity%23%23+submissions/month+starting+from
+msgid ""
+"Your ##current_plan## plan will change to include up to "
+"##submission_quantity## submissions/month starting from"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+from+annual+to+monthly+starting+from
+msgid ""
+"Your ##current_plan## plan will change from annual to monthly starting from"
+msgstr ""
+
+#: .Failed+to+load+analysis+questions
+msgid "Failed to load analysis questions"
+msgstr "加载分析问题失败"
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr "出现问题，请稍后重试。"
+
+#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
+msgid ""
+"Success! Your subscription will change at the end of the current billing "
+"period."
+msgstr "成功！您的订阅将在当前收费周期结束时更改。"
+
+#: .Ends+on+%23%23cancel_date%23%23
+msgid "Ends on ##cancel_date##"
+msgstr ""
+
+#: .Starts+on+%23%23start_date%23%23
+msgid "Starts on ##start_date##"
+msgstr ""
+
+#: .available+add-ons
+msgid "available add-ons"
+msgstr "可提供的附加组件"
+
+#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
+msgid ""
+"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
+"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
+"            data collection."
+msgstr "为提高您的使用权限，您可以将附加组件添加到您的社区计划中。如果您的权限即将到达或\n            已经到达计划中所包含的使用上限，请通过附加组件增加权限以继续\n            收集数据。"
+
+#: .Manage
+msgid "Manage"
+msgstr "管理"
+
+#: .Buy+now
+msgid "Buy now"
+msgstr "现在购买"
+
+#: .Total+Submissions+per+Month
+msgid "Total Submissions per Month"
+msgstr "每月提交总数"
+
+#: .%23%23asr_minutes%23%23+minutes+of+automated+transcription+/%23%23plan_interval%23%23
+msgid "##asr_minutes## minutes of automated transcription /##plan_interval##"
+msgstr ""
+
+#: .%23%23mt_characters%23%23+characters+of+machine+translation+/%23%23plan_interval%23%23
+msgid "##mt_characters## characters of machine translation /##plan_interval##"
+msgstr ""
+
+#: .%23%23add_on_name%23%23+add-on
+msgid "##add_on_name## add-on"
+msgstr "##add_on_name##附加组件"
+
+#: .monthly+%23%23plan_name%23%23+plan
+msgid "monthly ##plan_name## plan"
+msgstr "月度##plan_name##计划"
+
+#: .yearly+%23%23plan_name%23%23+plan
+msgid "yearly ##plan_name## plan"
+msgstr "年度##plan_name##计划"
+
+#: .plan
+msgid "plan"
+msgstr "计划"
+
+#: .add-on
+msgid "add-on"
+msgstr "附加组件"
+
+#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
+msgid ""
+"There was an error processing your plan change. Your previous plan has not "
+"been changed. Please try again later."
+msgstr "处理您的计划更改时出错。您之前的计划尚未更改。请稍后重试。"
+
+#: .Changes+to+your+Plan
+msgid "Changes to your Plan"
+msgstr "更改您的计划"
+
+#: .Processing+your+transaction%E2%80%A6
+msgid "Processing your transaction…"
+msgstr "您的交易正在处理中⋯⋯"
+
+#: .You+are+switching+to+the+%23%23new_product_type%23%23.
+msgid "You are switching to the ##new_product_type##."
+msgstr "您将跳转至 ##new_product_type##."
+
+#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
+msgid ""
+"Because this plan includes unlimited storage, your storage add-on will be "
+"canceled."
+msgstr "由于该计划含有无限的存储空间，您的存储附加组件功能将被取消。"
+
+#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23.
+msgid ""
+"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
+"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price##."
+msgstr ""
+
+#: .Submit
+msgid "Submit"
+msgstr "提交"
+
+#: .Original+transcript
+msgid "Original transcript"
+msgstr "初始文本"
+
+#: .Submission+data
+msgid "Submission data"
+msgstr "提交数据"
+
+#: .Original+file+(Audio)
+msgid "Original file (Audio)"
+msgstr "初始文件（音频）"
+
+#: .Display+settings
+msgid "Display settings"
+msgstr "显示设置"
+
+#: .Customize+display+settings
+msgid "Customize display settings"
+msgstr "自定义显示设置"
+
+#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
+msgid ""
+"Select the information you want to display in the side menu to support your "
+"analysis."
+msgstr "在侧栏菜单中选择你想要显示的信息以支持您的分析。"
+
+#: .Select+the+submission+data+to+display.
+msgid "Select the submission data to display."
+msgstr ""
+
+#: .Apply+selection
+msgid "Apply selection"
+msgstr "应用选择"
 
 #: .Delete+group
 msgid "Delete group"
@@ -5230,37 +5336,167 @@ msgstr "部分锁定的问题"
 msgid "Enter your question"
 msgstr "请输入你的问题"
 
-#: .original
-msgid "original"
-msgstr "原本"
+#: .Default+sort
+msgid "Default sort"
+msgstr "默认排序"
 
-#: .Search+for+a+language
-msgid "Search for a language"
-msgstr "搜索语言"
+#: .There+was+an+error+fetching+usage+data.
+msgid "There was an error fetching usage data."
+msgstr "获取使用数据时出错。"
 
-#: .Sorry,+didn%27t+find+any+language%E2%80%A6
-msgid "Sorry, didn't find any language…"
-msgstr "对不起，没有找到任何语言…"
+#: .There+was+an+error+fetching+asset+usage+data.
+msgid "There was an error fetching asset usage data."
+msgstr ""
 
-#: .I+cannot+find+my+language
-msgid "I cannot find my language"
-msgstr "找不到我的语言"
+#: .Automated+analysis
+msgid "Automated analysis"
+msgstr "自动分析"
 
-#: .Please+select+the+language
-msgid "Please select the language"
-msgstr "请选择语言"
+#: .Unsaved+changes
+msgid "Unsaved changes"
+msgstr "未保存的更改"
 
-#: .automatic
-msgid "automatic"
-msgstr "自动"
+#: .Saved
+msgid "Saved"
+msgstr "已保存"
 
-#: .Click+to+add+another+response...
-msgid "Click to add another response..."
-msgstr "点击添加另一个回复..."
+#: .source+file
+msgid "source file"
+msgstr "源文件"
 
-#: .Accepted+files
-msgid "Accepted files"
-msgstr "接受的档案"
+#: .Please+select+the+original+language+of+the+%23%23type%23%23
+msgid "Please select the original language of the ##type##"
+msgstr "请选择##type##的源语言"
+
+#: .back
+msgid "back"
+msgstr "后退"
+
+#: .manual
+msgid "manual"
+msgstr "手动"
+
+#: .transcribe
+msgid "transcribe"
+msgstr "转录"
+
+#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
+msgid "This ##type## does not have a transcript yet"
+msgstr "这个##type##还没有抄本"
+
+#: .begin
+msgid "begin"
+msgstr "开始"
+
+#: .Unlimited
+msgid "Unlimited"
+msgstr "无限"
+
+#: .%23%23minutes%23%23+mins
+msgid "##minutes## mins"
+msgstr "##minutes##分钟"
+
+#: .Available
+msgid "Available"
+msgstr "可提供的"
+
+#: .Used+this+month
+msgid "Used this month"
+msgstr "本月使用"
+
+#: .Used+this+year
+msgid "Used this year"
+msgstr "今年使用"
+
+#: .Balance
+msgid "Balance"
+msgstr "余额"
+
+#: .Automatic+transcription+in+progress
+msgid "Automatic transcription in progress"
+msgstr "正在进行自动转录"
+
+#: .Estimated+time+for+completion+%23%23estimate%23%23
+msgid "Estimated time for completion: ##estimate##"
+msgstr "预计完成时间：##estimate## "
+
+#: .Automatic+transcription+of+audio+file+from
+msgid "Automatic transcription of audio file from"
+msgstr "自动转录声音文件于"
+
+#: .Transcription+provider
+msgid "Transcription provider"
+msgstr "抄本提供者"
+
+#: .Automated+transcription+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+audio+file+will+be+sent+to+Google%27s+servers+for+the+purpose+of+transcribing.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+short+period+needed+for+completing+the+transcription,+and+we+do+not+allow+Google+to+use+the+audio+for+improving+its+transcription+service.
+msgid ""
+"Automated transcription is provided by Google Cloud Platform. By using this "
+"service you agree that your audio file will be sent to Google's servers for "
+"the purpose of transcribing. However, it will not be stored on Google's "
+"servers beyond the short period needed for completing the transcription, and"
+" we do not allow Google to use the audio for improving its transcription "
+"service."
+msgstr ""
+
+#: .cancel
+msgid "cancel"
+msgstr "取消"
+
+#: .create+transcript
+msgid "create transcript"
+msgstr "创造抄本"
+
+#: .Delete+transcript%3F
+msgid "Delete transcript?"
+msgstr "要删除抄本吗？"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "最后更改##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "创建于##date##"
+
+#: .Please+select+the+language+you+want+to+translate+to
+msgid "Please select the language you want to translate to"
+msgstr "请选择要翻译成哪一种语言"
+
+#: .translate
+msgid "translate"
+msgstr "翻译"
+
+#: .This+transcript+does+not+have+any+translations+yet
+msgid "This transcript does not have any translations yet"
+msgstr "该抄本还没有任何翻译"
+
+#: .Automatic+translation+of+transcript+to
+msgid "Automatic translation of transcript to"
+msgstr "自动把抄本翻译成"
+
+#: .Translation+provider
+msgid "Translation provider"
+msgstr "翻译提供者"
+
+#: .Automated+translation+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+transcript+text+will+be+sent+to+Google%27s+servers+for+the+purpose+of+translation.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+very+short+period+needed+for+completing+the+translation.
+msgid ""
+"Automated translation is provided by Google Cloud Platform. By using this "
+"service you agree that your transcript text will be sent to Google's servers"
+" for the purpose of translation. However, it will not be stored on Google's "
+"servers beyond the very short period needed for completing the translation."
+msgstr ""
+
+#: .create+translation
+msgid "create translation"
+msgstr "创造翻译"
+
+#: .Delete+translation%3F
+msgid "Delete translation?"
+msgstr "要删除翻译本吗？"
+
+#: .new+translation
+msgid "new translation"
+msgstr "新的翻译"
 
 #: .All+group+settings
 msgid "All group settings"
@@ -5330,6 +5566,26 @@ msgid ""
 "contact us at help@kobotoolbox.org so we can fix this bug!"
 msgstr "此问题无法被导入。请重新手动创建它。请通过 help@kobotoolbox.org 联系我们，以便我们修复此程序错误！"
 
+#: .Free
+msgid "Free"
+msgstr "免费的"
+
+#: .%24%23%23price%23%23+USD/month
+msgid "$##price## USD/month"
+msgstr "$##price## USD/月"
+
+#: .Upgrade
+msgid "Upgrade"
+msgstr "升级"
+
+#: .Change+plan
+msgid "Change plan"
+msgstr "变更计划"
+
+#: .Accepted+files
+msgid "Accepted files"
+msgstr "接受的档案"
+
 #: .This+form+is+currently+empty.
 msgid "This form is currently empty."
 msgstr "该表单当前为空。"
@@ -5344,17 +5600,33 @@ msgstr "你可以通过点击下方的'+'号添加问题、注释、提示或其
 msgid "Add Question"
 msgstr "添加问题"
 
-#: .No+value
-msgid "No value"
-msgstr "无数值"
+#: .Click+to+add+another+response...
+msgid "Click to add another response..."
+msgstr "点击添加另一个回复..."
 
-#: .Unknown+question+type+%23%23type_name%23%23
-msgid "Unknown question type ##type_name##"
-msgstr "未知问题类型##type_name##"
+#: .less+than+a+minute
+msgid "less than a minute"
+msgstr "不到一分钟"
+
+#: .about+1+minute
+msgid "about 1 minute"
+msgstr "约 1 分钟"
+
+#: .about+2+minutes
+msgid "about 2 minutes"
+msgstr "约 2 分钟"
+
+#: .about+%23%23number%23%23+minutes
+msgid "about ##number## minutes"
+msgstr "约 ##number## 分钟"
 
 #: .e.g.+%22.pdf,.doc,.odt%22
 msgid "e.g. \".pdf,.doc,.odt\""
 msgstr "例如“.pdf、.doc、.odt”"
+
+#: .No+value
+msgid "No value"
+msgstr "无数值"
 
 #: .Choices+File
 msgid "Choices File"
@@ -5408,41 +5680,56 @@ msgstr "如有必要，重复此组"
 msgid "Appearance (advanced)"
 msgstr "外观(高级)"
 
-#: .Question+label+cannot+be+empty
-msgid "Question label cannot be empty"
-msgstr "问题标签不能为空"
+#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+msgid ""
+"Please note that any qualitative question created for this record will "
+"generate a new column in the data table, making the question available for "
+"all other records."
+msgstr "请注意，因该记录而产生的任何定性问题将会在数据表中生成新的一列，这将使该问题可被其他记录使用。"
 
-#: .Some+required+fields+are+missing
-msgid "Some required fields are missing"
-msgstr "缺少某些必填项"
+#: .There+are+no+qualitative+analysis+questions+yet.
+msgid "There are no qualitative analysis questions yet."
+msgstr "截止目前还未出现定性分析问题。"
 
-#: .Type+question
-msgid "Type question"
-msgstr "输入问题"
+#: .Click+the+%22Add+question%22+button+to+get+started
+msgid "Click the \"Add question\" button to get started"
+msgstr "单击“添加问题”按钮以开始"
 
-#: .Type+your+answer
-msgid "Type your answer"
-msgstr "请输入答案"
+#: .Only+those+with+full+editing+rights+can+create+questions
+msgid "Only those with full editing rights can create questions"
+msgstr "仅拥有完整编辑权限的人可以创建问题"
 
-#: .%E2%80%A6keyword+search+in+progress
-msgid "…keyword search in progress"
-msgstr "...正在进行关键字搜索"
+#: .Contact+the+project+owner+for+more+information
+msgid "Contact the project owner for more information"
+msgstr "有关详细信息，请联系项目所有者"
 
-#: .Apply+search
-msgid "Apply search"
-msgstr "应用搜索"
+#: .original
+msgid "original"
+msgstr "原本"
 
-#: .%23%23number%23%23+instances
-msgid "##number## instances"
-msgstr "##number##实例"
+#: .Search+for+a+language
+msgid "Search for a language"
+msgstr "搜索语言"
 
-#: .of+the+keywords
-msgid "of the keywords"
-msgstr "...的关键字"
+#: .Sorry,+didn%27t+find+any+language%E2%80%A6
+msgid "Sorry, didn't find any language…"
+msgstr "对不起，没有找到任何语言…"
 
-#: .from
-msgid "from"
-msgstr "从"
+#: .I+cannot+find+my+language
+msgid "I cannot find my language"
+msgstr "找不到我的语言"
+
+#: .Please+select+the+language
+msgid "Please select the language"
+msgstr "请选择语言"
+
+#: .automatic
+msgid "automatic"
+msgstr "自动"
+
+#: .Unknown+question+type+%23%23type_name%23%23
+msgid "Unknown question type ##type_name##"
+msgstr "未知问题类型##type_name##"
 
 #: .Change+column+type%3F
 msgid "Change column type?"
@@ -5520,6 +5807,30 @@ msgstr "数据列前缀"
 msgid "Delete row"
 msgstr "删除行"
 
+#: .%E2%80%A6keyword+search+in+progress
+msgid "…keyword search in progress"
+msgstr "...正在进行关键字搜索"
+
+#: .Apply+search
+msgid "Apply search"
+msgstr "应用搜索"
+
+#: .%23%23number%23%23+instances
+msgid "##number## instances"
+msgstr "##number##实例"
+
+#: .of+the+keywords
+msgid "of the keywords"
+msgstr "...的关键字"
+
+#: .from
+msgid "from"
+msgstr "从"
+
+#: .Type+your+answer
+msgid "Type your answer"
+msgstr "请输入答案"
+
 #: .Delete+this+question%3F
 msgid "Delete this question?"
 msgstr "删除此问题？"
@@ -5528,6 +5839,18 @@ msgstr "删除此问题？"
 msgid ""
 "Are you sure you want to delete this question? This action cannot be undone."
 msgstr "你确定要删除这个问题吗？此操作不可撤销。"
+
+#: .Question+label+cannot+be+empty
+msgid "Question label cannot be empty"
+msgstr "问题标签不能为空"
+
+#: .Some+required+fields+are+missing
+msgid "Some required fields are missing"
+msgstr "缺少某些必填项"
+
+#: .Type+question
+msgid "Type question"
+msgstr "输入问题"
 
 #: .Look+for
 msgid "Look for"

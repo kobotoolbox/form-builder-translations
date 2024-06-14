@@ -5,7 +5,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 19:59+0000\n"
+"POT-Creation-Date: 2024-06-06 18:23+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Jackie <jackie@kobotoolbox.org>, 2023\n"
 "Language-Team: Amharic (http://app.transifex.com/kobotoolbox/kobotoolbox/language/am/)\n"
@@ -115,10 +115,6 @@ msgstr "ቋንቋ ቀይር"
 #: .Could+not+find+%23%23fileName%23%23
 msgid "Could not find ##fileName##"
 msgstr "ማግኘት አልተቻለም ##fileName##"
-
-#: .N/A
-msgid "N/A"
-msgstr "N/A"
 
 #: .me
 msgid "me"
@@ -438,6 +434,14 @@ msgstr "ይበልጣል ወይም እኩል"
 msgid "Less Than or Equal to"
 msgstr "ያነሰ ወይም እኩል"
 
+#: .Manually+enter+your+validation+logic+in+XLSForm+code
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr "የማረጋገጫ አመክንዮዎን በXLSForm ኮድ እራስዎ ያስገቡ"
+
+#: .Validation+Code
+msgid "Validation Code:"
+msgstr "የማረጋገጫ ኮድ፡-"
+
 #: .This+question+will+only+be+displayed+if+the+following+conditions+apply
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "ይህ ጥያቄ የሚታየው የሚከተሉት ሁኔታዎች ከተተገበሩ ብቻ ነው"
@@ -462,14 +466,6 @@ msgstr "የምላሽ ዋጋ"
 msgid "Select question from list"
 msgstr "ከዝርዝሩ ውስጥ ጥያቄን ይምረጡ"
 
-#: .Manually+enter+your+validation+logic+in+XLSForm+code
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "የማረጋገጫ አመክንዮዎን በXLSForm ኮድ እራስዎ ያስገቡ"
-
-#: .Validation+Code
-msgid "Validation Code:"
-msgstr "የማረጋገጫ ኮድ፡-"
-
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23)
 msgid "##permission_label## (##username_list##)"
 msgstr "##permission_label## (##username_list##)"
@@ -477,6 +473,12 @@ msgstr "##permission_label## (##username_list##)"
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
 msgid "##permission_label## (##username_list## and 1 other)"
 msgstr "##permission_label## (##username_list## እና 1 ሌላ )"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+%23%23hidden_username_count%23%23+others)
+msgid ""
+"##permission_label## (##username_list## and ##hidden_username_count## "
+"others)"
+msgstr ""
 
 #: .My+Projects
 msgid "My Projects"
@@ -714,49 +716,21 @@ msgstr "ሁሉንም ማስገባቶች እንደገና መሞከር አልተ�
 msgid "loading…"
 msgstr "በመጫን ላይ…"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "ማስረከቢያ uuids ማግኘት አልቻለም።"
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "ሚዲያዎን መስቀል አልተቻለም"
 
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "ማስረከብ አልቻለም።"
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "የእርስዎን ሚዲያ ማግኘት ላይ የሆነ ችግር ተፈጥሯል"
 
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "ማስገባቶችን ማዘመን አልተሳካም።"
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "ሚዲያ በተሳካ ሁኔታ ተሰርዟል"
 
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "አንዳንድ የማስረከቢያ ዋጋዎችን ማዘመን አልተሳካም።"
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "የማስረከቢያ እሴቶችን ማዘመን አልተሳካም።"
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "ማስገባቶችን መሰረዝ አልተሳካም።"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "ኤክስፖርት መፍጠር አልተሳካም"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "ወደ ውጭ መላክን መሰረዝ አልተሳካም"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "ወደ ውጪ መላኪያ ቅንብርን ማዘመን አልተሳካም"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "ወደ ውጭ መላኪያ ቅንብር መፍጠር አልተሳካም"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "ወደ ውጪ መላኪያ ቅንብርን መሰረዝ አልተሳካም"
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "ሚዲያ መሰረዝ አልተሳካም!"
 
 #: .Failed+to+attach+to+source
 msgid "Failed to attach to source"
@@ -782,6 +756,30 @@ msgstr "ማጋራትን መቀየር አልተሳካም"
 msgid "Failed to update column filters"
 msgstr "የ አምድ ማጣሪያዎችን ማዘመን አልተሳካም"
 
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "ማስረከቢያ uuids ማግኘት አልቻለም።"
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "ማስረከብ አልቻለም።"
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "ማስገባቶችን ማዘመን አልተሳካም።"
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "አንዳንድ የማስረከቢያ ዋጋዎችን ማዘመን አልተሳካም።"
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "የማስረከቢያ እሴቶችን ማዘመን አልተሳካም።"
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "ማስገባቶችን መሰረዝ አልተሳካም።"
+
 #: .Successfully+removed+from+collection
 msgid "Successfully removed from collection"
 msgstr "በተሳካ ሁኔታ ከስብስብ ተወግዷል"
@@ -798,21 +796,25 @@ msgstr "ወደ መሰብሰብ መሄድ አልተሳካም"
 msgid "Failed to get the results"
 msgstr "ውጤቱን ማግኘት አልተሳካም"
 
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "ሚዲያዎን መስቀል አልተቻለም"
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "ኤክስፖርት መፍጠር አልተሳካም"
 
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "የእርስዎን ሚዲያ ማግኘት ላይ የሆነ ችግር ተፈጥሯል"
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "ወደ ውጭ መላክን መሰረዝ አልተሳካም"
 
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "ሚዲያ በተሳካ ሁኔታ ተሰርዟል"
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "ወደ ውጪ መላኪያ ቅንብርን ማዘመን አልተሳካም"
 
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "ሚዲያ መሰረዝ አልተሳካም!"
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "ወደ ውጭ መላኪያ ቅንብር መፍጠር አልተሳካም"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "ወደ ውጪ መላኪያ ቅንብርን መሰረዝ አልተሳካም"
 
 #: .%23%23field_label%23%23+(required)
 msgid "##field_label## (required)"
@@ -1012,13 +1014,17 @@ msgstr "ከ'a' ይልቅ እንደ '@' ያሉ የሚገመቱ መተኪያዎች
 msgid "Password strength"
 msgstr "የይለፍ ቃል ጥንካሬ"
 
+#: .XForm+is+loading
+msgid "XForm is loading"
+msgstr "XForm እየተጫነ ነው"
+
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "ዱካ አልተገኘም / አልታወቀም"
 
-#: .XForm+is+loading
-msgid "XForm is loading"
-msgstr "XForm እየተጫነ ነው"
+#: .Section+not+found
+msgid "Section not found"
+msgstr ""
 
 #: .Untitled
 msgid "Untitled"
@@ -1234,6 +1240,18 @@ msgstr "ረቂቅ ስሪት"
 msgid "If you want to make these changes public, you must deploy this form."
 msgstr "እነዚህን ለውጦች ይፋዊ ለማድረግ ከፈለጉ ይህን ቅጽ ማሰማራት አለብዎት።"
 
+#: .Public+Collections
+msgid "Public Collections"
+msgstr "የህዝብ ስብስቦች"
+
+#: .Subscribed
+msgid "Subscribed"
+msgstr "ተመዝግቧል"
+
+#: .Quick+look
+msgid "Quick look"
+msgstr "ፈጣን እይታ"
+
 #: .Your+search+returned+no+results.
 msgid "Your search returned no results."
 msgstr "ፍለጋህ ምንም ውጤት አላመጣም።"
@@ -1257,18 +1275,6 @@ msgstr "የእኔ ቤተ-መጽሐፍት"
 #: .Drop+files+to+upload
 msgid "Drop files to upload"
 msgstr "ፋይሎችን ለመስቀል ጣል ያድርጉ"
-
-#: .Public+Collections
-msgid "Public Collections"
-msgstr "የህዝብ ስብስቦች"
-
-#: .Subscribed
-msgid "Subscribed"
-msgstr "ተመዝግቧል"
-
-#: .Quick+look
-msgid "Quick look"
-msgstr "ፈጣን እይታ"
 
 #: .Could+not+load+grouped+results+via+%22%23%23%22.+Will+attempt+to+load+the+ungrouped+report.
 msgid ""
@@ -1356,9 +1362,11 @@ msgstr "ብጁ ሪፖርት"
 msgid "Question Style"
 msgstr "የጥያቄ ዘይቤ"
 
-#: .There+is+no+data+for+this+question+for+the+current+submission
-msgid "There is no data for this question for the current submission"
-msgstr "ለአሁኑ ግቤት ለዚህ ጥያቄ ምንም ውሂብ የለም"
+#: .Anyone+can+see+this+blank+form+and+add+submissions+to+it+because+you+have+not+set+[your+account]+to+require+authentication.
+msgid ""
+"Anyone can see this blank form and add submissions to it because you have "
+"not set [your account] to require authentication."
+msgstr ""
 
 #: .Who+has+access
 msgid "Who has access"
@@ -1371,6 +1379,359 @@ msgstr "ተጠቃሚ አክል"
 #: .Waiting+for+all+projects+to+load%E2%80%A6
 msgid "Waiting for all projects to load…"
 msgstr "ሁሉም ፕሮጀክቶች እስኪጫኑ በመጠበቅ ላይ…"
+
+#: .An+error+occurred
+msgid "An error occurred"
+msgstr "ስህተት ተፈጥሯል"
+
+#: .Your+connection+is+offline
+msgid "Your connection is offline"
+msgstr "ግንኙነታችሁ ከመስመር ውጭ ነው"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "በነባሪ ካርታው የተገደበ ነው። ##number## ለ አፈጻጸም ምክንያቶች በጣም የቅርብ ጊዜ ግቤቶች። ይህንን ገደብ ለመጨመር ወደ የካርታ ቅንብሮች ይሂዱ።"
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "ስህተት፡ ውሂብ መጫን አልተቻለም።"
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "በ ዳሰሳ ጥናት ምላሾች ይከፋፈሉ"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "በመጠቀም የተከፋፈለው፡-"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "ምንም የ\"ጂኦ ነጥብ\" ምላሾች አልተቀበሉም"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "ካርታው ውሂብ አያሳይም ምክንያቱም ይህ ቅጽ የ\"ጂኦ ነጥብ\" መስክ የለውም።"
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "ሙሉ ስክሪን ቀይር"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "እንደ ነጥብ አሳይ"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "ንብርብሮችን ቀያይር"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "የካርታ ማሳያ ቅንብሮች"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "እንደ ሙቀት ካርታ አሳይ"
+
+#: .Language
+msgid "Language"
+msgstr "ቋንቋ"
+
+#: .Default
+msgid "Default"
+msgstr "ነባሪ"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- ሁሉንም ውሂብ ይመልከቱ --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "ያልተተረጎመ፡- "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "የጥያቄ መለያ አልተዘጋጀም"
+
+#: .Reset
+msgid "Reset"
+msgstr "ዳግም አስጀምር"
+
+#: .not+set
+msgid "not set"
+msgstr "አልተዘጋጀም"
+
+#: .Legend
+msgid "Legend"
+msgstr "አፈ ታሪክ"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "የካርታ ቅንብሮች"
+
+#: .Table
+msgid "Table"
+msgstr "ጠረጴዛ"
+
+#: .Reports
+msgid "Reports"
+msgstr "ሪፖርቶች"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "ማዕከለ-ስዕላት"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "ውርዶች"
+
+#: .Map
+msgid "Map"
+msgstr "ካርታ"
+
+#: .General
+msgid "General"
+msgstr "አጠቃላይ"
+
+#: .Media
+msgid "Media"
+msgstr "ሚዲያ"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "ማጋራት"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "ፕሮጀክቶችን ያገናኙ"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "የእረፍት አገልግሎቶች"
+
+#: .Your+query+is+too+short
+msgid "Your query is too short"
+msgstr "ጥያቄዎ በጣም አጭር ነው"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "ንብረቶችን መዘርዘር አልቻለም"
+
+#: .Import
+msgid "Import"
+msgstr "አስመጣ"
+
+#: .Next
+msgid "Next"
+msgstr "ቀጥሎ"
+
+#: .Create+project
+msgid "Create project"
+msgstr "ፕሮጀክት መፍጠር"
+
+#: .Project+settings
+msgid "Project settings"
+msgstr "የፕሮጀክት ቅንብር"
+
+#: .Choose+a+source
+msgid "Choose a source"
+msgstr "ምንጭ ይምረጡ"
+
+#: .Choose+template
+msgid "Choose template"
+msgstr "አብነት ይምረጡ"
+
+#: .Upload+XLSForm
+msgid "Upload XLSForm"
+msgstr "XLSForm ይጫኑ"
+
+#: .Import+XLSForm
+msgid "Import XLSForm"
+msgstr "XLSForm አስመጣ"
+
+#: .Project+details
+msgid "Project details"
+msgstr "የፕሮጀክት ዝርዝሮች"
+
+#: .Choose
+msgid "Choose"
+msgstr "ይምረጡ"
+
+#: .Error+asset+could+not+be+created.
+msgid "Error: asset could not be created."
+msgstr "ስህተት፡ ንብረት ሊፈጠር አልቻለም።"
+
+#: .Error+new+project+could+not+be+created.
+msgid "Error: new project could not be created."
+msgstr "ስህተት፡ አዲስ ፕሮጀክት መፍጠር አልተቻለም።"
+
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "ቆይ በናተህ…"
+
+#: .Retrieving+form,+please+wait...
+msgid "Retrieving form, please wait..."
+msgstr "ቅጽን በማውጣት ላይ፣ እባክዎ ይጠብቁ..."
+
+#: .Failed+to+reload+project+after+import%21
+msgid "Failed to reload project after import!"
+msgstr "ከውጭ ከመጣ በኋላ ፕሮጄክትን መጫን አልተሳካም!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "ማስመጣት አልተሳካም!"
+
+#: .Could+not+initialize+XLSForm+import%21
+msgid "Could not initialize XLSForm import!"
+msgstr "XLSForm ማስመጣትን ማስጀመር አልተቻለም!"
+
+#: .Failed+to+reload+project+after+upload%21
+msgid "Failed to reload project after upload!"
+msgstr "ከሰቀላ በኋላ ፕሮጄክትን መጫን አልተሳካም!"
+
+#: .Could+not+import+XLSForm%21
+msgid "Could not import XLSForm!"
+msgstr "XLSForm ማስመጣት አልተቻለም!"
+
+#: .Some+fields+contain+errors%21
+msgid "Some fields contain errors!"
+msgstr "አንዳንድ መስኮች ስህተቶችን ይይዛሉ!"
+
+#: .Project+Name
+msgid "Project Name"
+msgstr "የፕሮጀክት ስም"
+
+#: .%23%23count%23%23+characters+left
+msgid "##count## characters left"
+msgstr "##count## ቁምፊዎች ይቀራሉ"
+
+#: .Use+a+template
+msgid "Use a template"
+msgstr "አብነት ይጠቀሙ"
+
+#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
+msgid ""
+"Choose one of the options below to continue. You will be prompted to enter "
+"name and other details in further steps."
+msgstr "ለመቀጠል ከታች ካሉት አማራጮች አንዱን ይምረጡ። በቀጣይ ደረጃዎች ስም እና ሌሎች ዝርዝሮችን እንዲያስገቡ ይጠየቃሉ።"
+
+#: .Build+from+scratch
+msgid "Build from scratch"
+msgstr "ከባዶ ይገንቡ"
+
+#: .Upload+an+XLSForm
+msgid "Upload an XLSForm"
+msgstr "XLSForm ይጫኑ"
+
+#: .Import+an+XLSForm+via+URL
+msgid "Import an XLSForm via URL"
+msgstr "XLSForm በURL ያስመጡ"
+
+#: .Import+an+XLSForm+from+your+computer.
+msgid "Import an XLSForm from your computer."
+msgstr "XLSForm ከኮምፒዩተርዎ ያስመጡ።"
+
+#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
+msgid " Drag and drop the XLSForm file here or click to browse"
+msgstr " የ XLSForm ፋይሉን ጎትት እና ጣል አድርግ ወይም ለማሰስ ጠቅ አድርግ"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "ፋይል በመስቀል ላይ…"
+
+#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
+msgid "Enter a valid XLSForm URL in the field below."
+msgstr "ከዚህ በታች ባለው መስክ የሚሰራ የXLSForm URL ያስገቡ።"
+
+#: .Having+issues%3F+See+this+help+article.
+msgid "Having issues? See this help article."
+msgstr "ችግሮች አሉበት? ይህን የእገዛ ጽሑፍ ይመልከቱ።"
+
+#: .URL
+msgid "URL"
+msgstr "URL"
+
+#: .Save+Changes
+msgid "Save Changes"
+msgstr "ለውጥ ማስቀመጥ"
+
+#: .Please+enter+a+title+for+your+project%21
+msgid "Please enter a title for your project!"
+msgstr "እባክዎ ለፕሮጀክትዎ ርዕስ ያስገቡ!"
+
+#: .Enter+title+of+project+here
+msgid "Enter title of project here"
+msgstr "የፕሮጀክቱን ርዕስ እዚህ ያስገቡ"
+
+#: .Please+enter+a+description+for+your+project
+msgid "Please enter a description for your project"
+msgstr "እባክዎ ለፕሮጀክትዎ ርዕስ ያስገቡ"
+
+#: .Enter+short+description+here
+msgid "Enter short description here"
+msgstr "አጭር መግለጫ እዚህ ያስገቡ"
+
+#: .Please+choose+a+sector
+msgid "Please choose a sector"
+msgstr "እባክዎ ዘርፍ ይምረጡ"
+
+#: .Please+select+at+least+one+country
+msgid "Please select at least one country"
+msgstr "እባክዎ ቢያንስ አንድ አገር ይምረጡ"
+
+#: .Please+specify+the+operational+purpose+of+your+project
+msgid "Please specify the operational purpose of your project"
+msgstr "እባክዎ የፕሮጀክትዎን ተግባራዊ ዓላማ ይግለጹ"
+
+#: .Yes
+msgid "Yes"
+msgstr "አዎ"
+
+#: .No
+msgid "No"
+msgstr "አይ"
+
+#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
+msgid ""
+"Please indicate whether or not your project collects personally identifiable"
+" information"
+msgstr "እባክህ ፕሮጀክትህ በግል የሚለይ መረጃ መሰብሰብ አለመሰብሰቡን አመልክት።"
+
+#: .Save
+msgid "Save"
+msgstr "አስቀምጥ"
+
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "ፕሮጄክትን ከማህደር አውጣ"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "የማህደር ፕሮጀክት"
+
+#: .Archive+project+to+stop+accepting+submissions.
+msgid "Archive project to stop accepting submissions."
+msgstr "ማስረከቦችን መቀበል ለማቆም ፕሮጄክትን በማህደር ያስቀምጡ።"
+
+#: .Unarchive+project+to+resume+accepting+submissions.
+msgid "Unarchive project to resume accepting submissions."
+msgstr "ማቅረቢያዎችን መቀበልን ለመቀጠል ፕሮጄክትን ከማህደር አውጣ።"
+
+#: .Delete+Project+and+Data
+msgid "Delete Project and Data"
+msgstr "ፕሮጄክትን እና ውሂብን ሰርዝ"
+
+#: .Back
+msgid "Back"
+msgstr "ተመለስ"
+
+#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
+msgid ""
+"Form replacing is not available due to form's Locking Profile restrictions."
+msgstr "በቅጹ መቆለፍ መገለጫ ገደቦች ምክንያት ቅፅ መተካት አይገኝም።"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -1526,427 +1887,6 @@ msgstr "ቅድመ እይታን ማመንጨት ላይ ስህተት"
 msgid "Import Cascading Select Questions"
 msgstr "ካስካዲንግ ምረጥ ጥያቄዎችን አስመጣ"
 
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "በነባሪ ካርታው የተገደበ ነው። ##number## ለ አፈጻጸም ምክንያቶች በጣም የቅርብ ጊዜ ግቤቶች። ይህንን ገደብ ለመጨመር ወደ የካርታ ቅንብሮች ይሂዱ።"
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "ስህተት፡ ውሂብ መጫን አልተቻለም።"
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "በ ዳሰሳ ጥናት ምላሾች ይከፋፈሉ"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "በመጠቀም የተከፋፈለው፡-"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "ምንም የ\"ጂኦ ነጥብ\" ምላሾች አልተቀበሉም"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "ካርታው ውሂብ አያሳይም ምክንያቱም ይህ ቅጽ የ\"ጂኦ ነጥብ\" መስክ የለውም።"
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "ሙሉ ስክሪን ቀይር"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "እንደ ነጥብ አሳይ"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "ንብርብሮችን ቀያይር"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "የካርታ ማሳያ ቅንብሮች"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "እንደ ሙቀት ካርታ አሳይ"
-
-#: .Language
-msgid "Language"
-msgstr "ቋንቋ"
-
-#: .Default
-msgid "Default"
-msgstr "ነባሪ"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- ሁሉንም ውሂብ ይመልከቱ --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "ያልተተረጎመ፡- "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "የጥያቄ መለያ አልተዘጋጀም"
-
-#: .Reset
-msgid "Reset"
-msgstr "ዳግም አስጀምር"
-
-#: .not+set
-msgid "not set"
-msgstr "አልተዘጋጀም"
-
-#: .Legend
-msgid "Legend"
-msgstr "አፈ ታሪክ"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "የካርታ ቅንብሮች"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "ወደ ቅንጥብ ሰሌዳ ተቀድቷል"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "የማባዛት"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "የተባዛውን ##ASSET_TYPE## ስም አስገባ። የመጀመሪያውን ስም ለማቆየት ባዶ ይተውት።"
-
-#: .Ok
-msgid "Ok"
-msgstr "እሺ"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "## ፋይሎች"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "XLSForm ማስመጣት አልተሳካም. XLSForm እና/ወይም ዩአርኤሉ ትክክለኛ መሆናቸውን ያረጋግጡ, እና \"ቅጹን ተካ\" የሚለውን አዶ ተጠቅመው እንደገና ይሞክሩ."
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "XLS ማስመጣት ተጠናቅቋል"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "ሰቀላዎ በሂደት ላይ ነው። ይህ ጥቂት ጊዜ ሊወስድ ይችላል።"
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "ሰቀላዎ ለማስኬድ ወረፋ ይዟል። ይህ ጥቂት ጊዜ ሊወስድ ይችላል።"
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "ማስመጣት አልተሳካም!"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "ማስመጣትን መፍጠር አልተሳካም።"
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "የሰቀላ ስህተት፡ የExcel ፋይልን ማወቅ አልቻለም።"
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "የተሰቀለው ፋይል ስም፡- "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "የወደቀውን ንጥል(ዎች) መለየት አልተቻለም።"
-
-#: .Project+information
-msgid "Project information"
-msgstr "የፕሮጀክት መረጃ"
-
-#: .Questions
-msgid "Questions"
-msgstr "ጥያቄዎች"
-
-#: .Last+modified
-msgid "Last modified"
-msgstr "ለ መጨረሻ ጊዜ የተሻሻለው"
-
-#: .Last+deployed
-msgid "Last deployed"
-msgstr "የተሰማራበት ቀን"
-
-#: .Latest+submission
-msgid "Latest submission"
-msgstr "የ ቅርብ ጊዜ ግቤት"
-
-#: .Operational+purpose+of+data
-msgid "Operational purpose of data"
-msgstr "የ ውሂብ ተግባራዊ ዓላማ"
-
-#: .Collects+personally+identifiable+information
-msgid "Collects personally identifiable information"
-msgstr "በግል ሊለይ የሚችል መረጃ ይሰበስባል"
-
-#: .Table
-msgid "Table"
-msgstr "ጠረጴዛ"
-
-#: .Reports
-msgid "Reports"
-msgstr "ሪፖርቶች"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "ማዕከለ-ስዕላት"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "ውርዶች"
-
-#: .Map
-msgid "Map"
-msgstr "ካርታ"
-
-#: .General
-msgid "General"
-msgstr "አጠቃላይ"
-
-#: .Media
-msgid "Media"
-msgstr "ሚዲያ"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "ማጋራት"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "ፕሮጀክቶችን ያገናኙ"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "የእረፍት አገልግሎቶች"
-
-#: .Import
-msgid "Import"
-msgstr "አስመጣ"
-
-#: .Next
-msgid "Next"
-msgstr "ቀጥሎ"
-
-#: .Create+project
-msgid "Create project"
-msgstr "ፕሮጀክት መፍጠር"
-
-#: .Project+settings
-msgid "Project settings"
-msgstr "የፕሮጀክት ቅንብር"
-
-#: .Choose+a+source
-msgid "Choose a source"
-msgstr "ምንጭ ይምረጡ"
-
-#: .Choose+template
-msgid "Choose template"
-msgstr "አብነት ይምረጡ"
-
-#: .Upload+XLSForm
-msgid "Upload XLSForm"
-msgstr "XLSForm ይጫኑ"
-
-#: .Import+XLSForm
-msgid "Import XLSForm"
-msgstr "XLSForm አስመጣ"
-
-#: .Project+details
-msgid "Project details"
-msgstr "የፕሮጀክት ዝርዝሮች"
-
-#: .Choose
-msgid "Choose"
-msgstr "ይምረጡ"
-
-#: .Error+asset+could+not+be+created.
-msgid "Error: asset could not be created."
-msgstr "ስህተት፡ ንብረት ሊፈጠር አልቻለም።"
-
-#: .Error+new+project+could+not+be+created.
-msgid "Error: new project could not be created."
-msgstr "ስህተት፡ አዲስ ፕሮጀክት መፍጠር አልተቻለም።"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "ቆይ በናተህ…"
-
-#: .Retrieving+form,+please+wait...
-msgid "Retrieving form, please wait..."
-msgstr "ቅጽን በማውጣት ላይ፣ እባክዎ ይጠብቁ..."
-
-#: .Failed+to+reload+project+after+import%21
-msgid "Failed to reload project after import!"
-msgstr "ከውጭ ከመጣ በኋላ ፕሮጄክትን መጫን አልተሳካም!"
-
-#: .Could+not+initialize+XLSForm+import%21
-msgid "Could not initialize XLSForm import!"
-msgstr "XLSForm ማስመጣትን ማስጀመር አልተቻለም!"
-
-#: .Failed+to+reload+project+after+upload%21
-msgid "Failed to reload project after upload!"
-msgstr "ከሰቀላ በኋላ ፕሮጄክትን መጫን አልተሳካም!"
-
-#: .Could+not+import+XLSForm%21
-msgid "Could not import XLSForm!"
-msgstr "XLSForm ማስመጣት አልተቻለም!"
-
-#: .Some+fields+contain+errors%21
-msgid "Some fields contain errors!"
-msgstr "አንዳንድ መስኮች ስህተቶችን ይይዛሉ!"
-
-#: .Project+Name
-msgid "Project Name"
-msgstr "የፕሮጀክት ስም"
-
-#: .%23%23count%23%23+characters+left
-msgid "##count## characters left"
-msgstr "##count## ቁምፊዎች ይቀራሉ"
-
-#: .Use+a+template
-msgid "Use a template"
-msgstr "አብነት ይጠቀሙ"
-
-#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
-msgid ""
-"Choose one of the options below to continue. You will be prompted to enter "
-"name and other details in further steps."
-msgstr "ለመቀጠል ከታች ካሉት አማራጮች አንዱን ይምረጡ። በቀጣይ ደረጃዎች ስም እና ሌሎች ዝርዝሮችን እንዲያስገቡ ይጠየቃሉ።"
-
-#: .Build+from+scratch
-msgid "Build from scratch"
-msgstr "ከባዶ ይገንቡ"
-
-#: .Upload+an+XLSForm
-msgid "Upload an XLSForm"
-msgstr "XLSForm ይጫኑ"
-
-#: .Import+an+XLSForm+via+URL
-msgid "Import an XLSForm via URL"
-msgstr "XLSForm በURL ያስመጡ"
-
-#: .Import+an+XLSForm+from+your+computer.
-msgid "Import an XLSForm from your computer."
-msgstr "XLSForm ከኮምፒዩተርዎ ያስመጡ።"
-
-#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
-msgid " Drag and drop the XLSForm file here or click to browse"
-msgstr " የ XLSForm ፋይሉን ጎትት እና ጣል አድርግ ወይም ለማሰስ ጠቅ አድርግ"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "ፋይል በመስቀል ላይ…"
-
-#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
-msgid "Enter a valid XLSForm URL in the field below."
-msgstr "ከዚህ በታች ባለው መስክ የሚሰራ የXLSForm URL ያስገቡ።"
-
-#: .Having+issues%3F+See+this+help+article.
-msgid "Having issues? See this help article."
-msgstr "ችግሮች አሉበት? ይህን የእገዛ ጽሑፍ ይመልከቱ።"
-
-#: .URL
-msgid "URL"
-msgstr "URL"
-
-#: .Save+Changes
-msgid "Save Changes"
-msgstr "ለውጥ ማስቀመጥ"
-
-#: .Please+enter+a+title+for+your+project%21
-msgid "Please enter a title for your project!"
-msgstr "እባክዎ ለፕሮጀክትዎ ርዕስ ያስገቡ!"
-
-#: .Enter+title+of+project+here
-msgid "Enter title of project here"
-msgstr "የፕሮጀክቱን ርዕስ እዚህ ያስገቡ"
-
-#: .Please+enter+a+description+for+your+project
-msgid "Please enter a description for your project"
-msgstr "እባክዎ ለፕሮጀክትዎ ርዕስ ያስገቡ"
-
-#: .Enter+short+description+here
-msgid "Enter short description here"
-msgstr "አጭር መግለጫ እዚህ ያስገቡ"
-
-#: .Please+choose+a+sector
-msgid "Please choose a sector"
-msgstr "እባክዎ ዘርፍ ይምረጡ"
-
-#: .Please+select+at+least+one+country
-msgid "Please select at least one country"
-msgstr "እባክዎ ቢያንስ አንድ አገር ይምረጡ"
-
-#: .Please+specify+the+operational+purpose+of+your+project
-msgid "Please specify the operational purpose of your project"
-msgstr "እባክዎ የፕሮጀክትዎን ተግባራዊ ዓላማ ይግለጹ"
-
-#: .Yes
-msgid "Yes"
-msgstr "አዎ"
-
-#: .No
-msgid "No"
-msgstr "አይ"
-
-#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
-msgid ""
-"Please indicate whether or not your project collects personally identifiable"
-" information"
-msgstr "እባክህ ፕሮጀክትህ በግል የሚለይ መረጃ መሰብሰብ አለመሰብሰቡን አመልክት።"
-
-#: .Save
-msgid "Save"
-msgstr "አስቀምጥ"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "ፕሮጄክትን ከማህደር አውጣ"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "የማህደር ፕሮጀክት"
-
-#: .Archive+project+to+stop+accepting+submissions.
-msgid "Archive project to stop accepting submissions."
-msgstr "ማስረከቦችን መቀበል ለማቆም ፕሮጄክትን በማህደር ያስቀምጡ።"
-
-#: .Unarchive+project+to+resume+accepting+submissions.
-msgid "Unarchive project to resume accepting submissions."
-msgstr "ማቅረቢያዎችን መቀበልን ለመቀጠል ፕሮጄክትን ከማህደር አውጣ።"
-
-#: .Delete+Project+and+Data
-msgid "Delete Project and Data"
-msgstr "ፕሮጄክትን እና ውሂብን ሰርዝ"
-
-#: .Back
-msgid "Back"
-msgstr "ተመለስ"
-
-#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
-msgid ""
-"Form replacing is not available due to form's Locking Profile restrictions."
-msgstr "በቅጹ መቆለፍ መገለጫ ገደቦች ምክንያት ቅፅ መተካት አይገኝም።"
-
 #: .URL+is+empty%21
 msgid "URL is empty!"
 msgstr "URL ባዶ ነው!"
@@ -1999,6 +1939,114 @@ msgstr "ሚዲያን በመጫን ላይ"
 msgid "No files uploaded yet"
 msgstr "እስካሁን ምንም ፋይሎች አልተሰቀሉም"
 
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "ወደ ቅንጥብ ሰሌዳ ተቀድቷል"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "የማባዛት"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "የተባዛውን ##ASSET_TYPE## ስም አስገባ። የመጀመሪያውን ስም ለማቆየት ባዶ ይተውት።"
+
+#: .Ok
+msgid "Ok"
+msgstr "እሺ"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "## ፋይሎች"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "XLSForm ማስመጣት አልተሳካም. XLSForm እና/ወይም ዩአርኤሉ ትክክለኛ መሆናቸውን ያረጋግጡ, እና \"ቅጹን ተካ\" የሚለውን አዶ ተጠቅመው እንደገና ይሞክሩ."
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "XLS ማስመጣት ተጠናቅቋል"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "ሰቀላዎ በሂደት ላይ ነው። ይህ ጥቂት ጊዜ ሊወስድ ይችላል።"
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "ሰቀላዎ ለማስኬድ ወረፋ ይዟል። ይህ ጥቂት ጊዜ ሊወስድ ይችላል።"
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "ማስመጣትን መፍጠር አልተሳካም።"
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "የሰቀላ ስህተት፡ የExcel ፋይልን ማወቅ አልቻለም።"
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "የተሰቀለው ፋይል ስም፡- "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "የወደቀውን ንጥል(ዎች) መለየት አልተቻለም።"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "አቀባዊ"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "አግድም"
+
+#: .Pie
+msgid "Pie"
+msgstr "አምባሻ"
+
+#: .Donut
+msgid "Donut"
+msgstr "ዶናት"
+
+#: .Polar+area
+msgid "Polar area"
+msgstr "የዋልታ አካባቢ"
+
+#: .Radar
+msgid "Radar"
+msgstr "ራዳር"
+
+#: .Project+information
+msgid "Project information"
+msgstr "የፕሮጀክት መረጃ"
+
+#: .Questions
+msgid "Questions"
+msgstr "ጥያቄዎች"
+
+#: .Last+modified
+msgid "Last modified"
+msgstr "ለ መጨረሻ ጊዜ የተሻሻለው"
+
+#: .Last+deployed
+msgid "Last deployed"
+msgstr "የተሰማራበት ቀን"
+
+#: .Latest+submission
+msgid "Latest submission"
+msgstr "የ ቅርብ ጊዜ ግቤት"
+
+#: .Operational+purpose+of+data
+msgid "Operational purpose of data"
+msgstr "የ ውሂብ ተግባራዊ ዓላማ"
+
+#: .Collects+personally+identifiable+information
+msgid "Collects personally identifiable information"
+msgstr "በግል ሊለይ የሚችል መረጃ ይሰበስባል"
+
 #: .All+questions
 msgid "All questions"
 msgstr "ሁሉም ጥያቄዎች"
@@ -2019,14 +2067,6 @@ msgstr "መካከል"
 msgid "and"
 msgstr "እና"
 
-#: .Your+query+is+too+short
-msgid "Your query is too short"
-msgstr "ጥያቄዎ በጣም አጭር ነው"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "ንብረቶችን መዘርዘር አልቻለም"
-
 #: .new
 msgid "new"
 msgstr "አዲስ"
@@ -2042,6 +2082,76 @@ msgstr "ቤተ መጻሕፍት"
 #: .Source
 msgid "Source"
 msgstr "ምንጭ"
+
+#: .New+feature
+msgid "New feature"
+msgstr "አዲስ ባህሪ"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "ተጨማሪ እወቅ"
+
+#: .Allow+submissions+to+this+form+without+a+username+and+password
+msgid "Allow submissions to this form without a username and password"
+msgstr "ያለተጠቃሚ ስም እና የይለፍ ቃል ወደዚህ ቅጽ ማስገባትን ፍቀድ"
+
+#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
+msgid ""
+"Allow anonymous submissions for this project. Previously, this was an "
+"account-wide setting. Click the icon to learn more."
+msgstr "ለዚህ ፕሮጀክት ስም-አልባ ማቅረቢያዎችን ይፍቀዱ። ከዚህ ቀደም ይህ መለያ-ሰፊ ቅንብር ነበር። ለበለጠ ለማወቅ አዶውን ጠቅ ያድርጉ።"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "ይህ ##asset_type## ባዶ ነው።"
+
+#: .Show+less
+msgid "Show less"
+msgstr "ያነሰ አሳይ"
+
+#: .Show+more
+msgid "Show more"
+msgstr "ተጨማሪ አሳይ"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "የንብረት ይፋዊ ሁኔታን መቀየር አልተሳካም።"
+
+#: .Make+public
+msgid "Make public"
+msgstr "ይፋዊ አድርግ"
+
+#: .Make+private
+msgid "Make private"
+msgstr "የግል አድርግ"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "የ ባለቤት ውሂብ ማግኘት አልተሳካም"
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "ውሂብ ተፈጥሯል"
+
+#: .Items
+msgid "Items"
+msgstr "እቃዎች"
+
+#: .Organization
+msgid "Organization"
+msgstr "ድርጅት"
+
+#: .Country
+msgid "Country"
+msgstr "ሀገር"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "ሙሉ ዝርዝሮችን ደብቅ"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "ሙሉ ዝርዝሮችን አሳይ"
 
 #: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
 msgid "This project has no submitted data. Please collect some and try again."
@@ -2087,58 +2197,6 @@ msgstr "የ"
 msgid "rows"
 msgstr "ረድፎች"
 
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "የ ባለቤት ውሂብ ማግኘት አልተሳካም"
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "ውሂብ ተፈጥሯል"
-
-#: .Items
-msgid "Items"
-msgstr "እቃዎች"
-
-#: .Organization
-msgid "Organization"
-msgstr "ድርጅት"
-
-#: .Country
-msgid "Country"
-msgstr "ሀገር"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "ሙሉ ዝርዝሮችን ደብቅ"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "ሙሉ ዝርዝሮችን አሳይ"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "የንብረት ይፋዊ ሁኔታን መቀየር አልተሳካም።"
-
-#: .Make+public
-msgid "Make public"
-msgstr "ይፋዊ አድርግ"
-
-#: .Make+private
-msgid "Make private"
-msgstr "የግል አድርግ"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "ይህ ##asset_type## ባዶ ነው።"
-
-#: .Show+less
-msgid "Show less"
-msgstr "ያነሰ አሳይ"
-
-#: .Show+more
-msgid "Show more"
-msgstr "ተጨማሪ አሳይ"
-
 #: .Temporary+Access+Restriction+Password+Update+Required
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr "ጊዜያዊ መዳረሻ ገደብ፦ የይለፍ ቃል ማዘመን ያስፈልጋል"
@@ -2152,24 +2210,6 @@ msgstr "ከመቀጠልዎ በፊት የይለፍ ቃልዎን ማዘመን አ�
 #: .Update+password
 msgid "Update password"
 msgstr "የይለፍ ቃል ያዘምኑ"
-
-#: .Allow+submissions+to+this+form+without+a+username+and+password
-msgid "Allow submissions to this form without a username and password"
-msgstr "ያለተጠቃሚ ስም እና የይለፍ ቃል ወደዚህ ቅጽ ማስገባትን ፍቀድ"
-
-#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
-msgid ""
-"Allow anonymous submissions for this project. Previously, this was an "
-"account-wide setting. Click the icon to learn more."
-msgstr "ለዚህ ፕሮጀክት ስም-አልባ ማቅረቢያዎችን ይፍቀዱ። ከዚህ ቀደም ይህ መለያ-ሰፊ ቅንብር ነበር። ለበለጠ ለማወቅ አዶውን ጠቅ ያድርጉ።"
-
-#: .New+feature
-msgid "New feature"
-msgstr "አዲስ ባህሪ"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "ተጨማሪ እወቅ"
 
 #: .Success%21
 msgid "Success!"
@@ -2247,6 +2287,40 @@ msgstr "የትርጉም ሠንጠረዥ ዝጋ?"
 msgid "You will lose all unsaved changes."
 msgstr "ሁሉንም ያልተቀመጡ ለውጦች ታጣለህ።"
 
+#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
+msgid "Export is being generated, you will receive an email when it's done"
+msgstr "ወደውጭ በመላክ ላይ ነው ፣ በሚከናወን ጊዜ ኢሜይል ይደርስዎታል"
+
+#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
+msgid ""
+"We couldn't create the export, please try again later or contact support"
+msgstr "ወደውጭ መላክ መፍጠር አልቻልንም ፣ እባክዎ በኋላ እንደገና ይሞክሩ ወይም ድጋፍ ክፍልን ያነጋግሩ"
+
+#: .Export+all+data
+msgid "Export all data"
+msgstr "ሁሉንም ውሂብ ወደ ውጭ ላክ"
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.+%23%23CURRENT_OWNER_NAME%23%23+will+receive+a+notification+that+the+transfer+was+incomplete.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##. "
+"##CURRENT_OWNER_NAME## will receive a notification that the transfer was "
+"incomplete."
+msgstr ""
+
+#: .%23%23CURRENT_OWNER_NAME%23%23+will+remain+the+project+owner.
+msgid "##CURRENT_OWNER_NAME## will remain the project owner."
+msgstr ""
+
+#: .You+have+accepted+project+ownership+from+%23%23CURRENT_OWNER_NAME%23%23+for+%23%23PROJECT_NAME%23%23.+This+process+can+take+up+to+a+few+minutes+to+complete.
+msgid ""
+"You have accepted project ownership from ##CURRENT_OWNER_NAME## for "
+"##PROJECT_NAME##. This process can take up to a few minutes to complete."
+msgstr ""
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "የወላጅ ስብስብ"
+
 #: .Unlabeled
 msgid "Unlabeled"
 msgstr "ያልተሰየመ"
@@ -2267,51 +2341,6 @@ msgstr "የገበታ አይነት"
 msgid "Colors"
 msgstr "ቀለሞች"
 
-#: .Vertical
-msgid "Vertical"
-msgstr "አቀባዊ"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "አግድም"
-
-#: .Pie
-msgid "Pie"
-msgstr "አምባሻ"
-
-#: .Donut
-msgid "Donut"
-msgstr "ዶናት"
-
-#: .Polar+area
-msgid "Polar area"
-msgstr "የዋልታ አካባቢ"
-
-#: .Radar
-msgid "Radar"
-msgstr "ራዳር"
-
-#: .An+error+occurred
-msgid "An error occurred"
-msgstr "ስህተት ተፈጥሯል"
-
-#: .Your+connection+is+offline
-msgid "Your connection is offline"
-msgstr "ግንኙነታችሁ ከመስመር ውጭ ነው"
-
-#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
-msgid "Export is being generated, you will receive an email when it's done"
-msgstr "ወደውጭ በመላክ ላይ ነው ፣ በሚከናወን ጊዜ ኢሜይል ይደርስዎታል"
-
-#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
-msgid ""
-"We couldn't create the export, please try again later or contact support"
-msgstr "ወደውጭ መላክ መፍጠር አልቻልንም ፣ እባክዎ በኋላ እንደገና ይሞክሩ ወይም ድጋፍ ክፍልን ያነጋግሩ"
-
-#: .Export+all+data
-msgid "Export all data"
-msgstr "ሁሉንም ውሂብ ወደ ውጭ ላክ"
-
 #: .No+grouping
 msgid "No grouping"
 msgstr "መቧደን የለም።"
@@ -2323,113 +2352,6 @@ msgstr "ቡድን በ"
 #: .Translation
 msgid "Translation"
 msgstr "ትርጉም"
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "እባኮትን [የድጋፍ ቡድኑን ያነጋግሩ] ስህተት ነው ብለው ካሰቡ።"
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "እባክዎን የራስጌ ቁልፍን ተጠቅመው ለመግባት ይሞክሩ ወይም ስህተት ነው ብለው ካመኑ [የድጋፍ ቡድኑን ያግኙ]።"
-
-#: .Access+Denied
-msgid "Access Denied"
-msgstr "መዳረሻ ተከልክሏል"
-
-#: .You+don%27t+have+access+to+this+page.
-msgid "You don't have access to this page."
-msgstr "የዚህ ገጽ መዳረሻ የለዎትም።"
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "ወይ የዚህ ገጽ መዳረሻ የለዎትም ወይም ይህ ገጽ በቀላሉ የለም።"
-
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr "የሆነ ስህተት ተከስቷል"
-
-#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
-msgid ""
-"We're sorry, but there was an unexpected error while trying to serve this "
-"page."
-msgstr "እናዝናለን፣ ግን ይህን ገጽ ለማገልገል በመሞከር ላይ ሳለ ያልተጠበቀ ስህተት ነበር።"
-
-#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
-msgid ""
-"Please try again later, or [contact the support team] if this happens "
-"repeatedly."
-msgstr "እባክዎ ቆይተው እንደገና ይሞክሩ፣ ወይም ይህ በተደጋጋሚ የሚከሰት ከሆነ [የድጋፍ ቡድኑን ያግኙ]።"
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "ተጨማሪ ዝርዝሮች፡"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "የወላጅ ስብስብ"
-
-#: .Log+In
-msgid "Log In"
-msgstr "ግባ"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "የእኔን ቤተ-መጽሐፍት ፈልግ"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "የህዝብ ስብስቦችን ይፈልጉ"
-
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "ፈልግ…"
-
-#: .submissions
-msgid "submissions"
-msgstr "ማቅረቢያዎች"
-
-#: .Summary
-msgid "Summary"
-msgstr "ማጠቃለያ"
-
-#: .Form
-msgid "Form"
-msgstr "ቅፅ"
-
-#: .Settings
-msgid "Settings"
-msgstr "ቅንብር"
-
-#: .Today
-msgid "Today"
-msgstr "ዛሬ"
-
-#: .Past+7+days
-msgid "Past 7 days"
-msgstr "ያለፉት 7 ቀናት"
-
-#: .Past+31+days
-msgid "Past 31 days"
-msgstr "ያለፉት 31 ቀናት"
-
-#: .Past+3+months
-msgid "Past 3 months"
-msgstr "ያለፉት 3 ወራት"
-
-#: .Past+12+months
-msgid "Past 12 months"
-msgstr "ያለፉት 12 ወራት"
-
-#: .No+chart+data+available+for+current+period.
-msgid "No chart data available for current period."
-msgstr "ለአሁኑ ጊዜ ምንም ገበታ ውሂብ አይገኝም።"
-
-#: .Total
-msgid "Total"
-msgstr "ጠቅላላ"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2527,6 +2449,149 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "ተለዋዋጭ ውሂብን ወደዚህ ፕሮጀክት ለማስመጣት ከሌሎች ፕሮጀክቶች(ዎች) ጋር ይገናኙ። ስለ ተለዋዋጭ የ ውሂብ አባሪዎች የበለጠ ይወቁ"
 
+#: .Summary
+msgid "Summary"
+msgstr "ማጠቃለያ"
+
+#: .Form
+msgid "Form"
+msgstr "ቅፅ"
+
+#: .Settings
+msgid "Settings"
+msgstr "ቅንብር"
+
+#: .Today
+msgid "Today"
+msgstr "ዛሬ"
+
+#: .Past+7+days
+msgid "Past 7 days"
+msgstr "ያለፉት 7 ቀናት"
+
+#: .Past+31+days
+msgid "Past 31 days"
+msgstr "ያለፉት 31 ቀናት"
+
+#: .Past+3+months
+msgid "Past 3 months"
+msgstr "ያለፉት 3 ወራት"
+
+#: .Past+12+months
+msgid "Past 12 months"
+msgstr "ያለፉት 12 ወራት"
+
+#: .No+chart+data+available+for+current+period.
+msgid "No chart data available for current period."
+msgstr "ለአሁኑ ጊዜ ምንም ገበታ ውሂብ አይገኝም።"
+
+#: .Total
+msgid "Total"
+msgstr "ጠቅላላ"
+
+#: .Log+In
+msgid "Log In"
+msgstr "ግባ"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "የእኔን ቤተ-መጽሐፍት ፈልግ"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "የህዝብ ስብስቦችን ይፈልጉ"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "ፈልግ…"
+
+#: .submissions
+msgid "submissions"
+msgstr "ማቅረቢያዎች"
+
+#: .Cannot+transfer+a+project+to+the+same+account.
+msgid "Cannot transfer a project to the same account."
+msgstr ""
+
+#: .User+not+found.+Please+try+again.
+msgid "User not found. Please try again."
+msgstr ""
+
+#: .Please+enter+a+user+name.
+msgid "Please enter a user name."
+msgstr ""
+
+#: .Transfer+project+ownership
+msgid "Transfer project ownership"
+msgstr ""
+
+#: .Your+transfer+request+is+pending+until+%23%23username%23%23+has+accepted+or+declined+it.
+msgid ""
+"Your transfer request is pending until ##username## has accepted or declined"
+" it."
+msgstr ""
+
+#: .Transfer+ownership+of+this+project+to+another+user.+All+submissions,+data+storage,+and+transcription+and+translation+usage+for+this+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"Transfer ownership of this project to another user. All submissions, data "
+"storage, and transcription and translation usage for this project will be "
+"transferred to the new project owner."
+msgstr ""
+
+#: .Learn+more+%E2%86%92
+msgid "Learn more →"
+msgstr ""
+
+#: .Cancel+transfer
+msgid "Cancel transfer"
+msgstr ""
+
+#: .Transfer
+msgid "Transfer"
+msgstr ""
+
+#: .Transfer+ownership
+msgid "Transfer ownership"
+msgstr ""
+
+#: .This+action+will+transfer+ownership+of+%23%23username%23%23+to+another+user
+msgid "This action will transfer ownership of ##username## to another user"
+msgstr ""
+
+#: .When+you+transfer+ownership+of+the+project+to+another+user,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"When you transfer ownership of the project to another user, all of the "
+"submissions, data storage, and transcription and translation usage for the "
+"project will be transferred to the new project owner."
+msgstr ""
+
+#: .The+new+project+owner+will+receive+an+email+request+to+accept+the+transfer.+You+will+be+notified+when+the+transfer+is+accepted+or+declined.
+msgid ""
+"The new project owner will receive an email request to accept the transfer. "
+"You will be notified when the transfer is accepted or declined."
+msgstr ""
+
+#: .You+will+be+the+owner+of+the+project+until+the+transfer+is+accepted.
+msgid "You will be the owner of the project until the transfer is accepted."
+msgstr ""
+
+#: .Once+the+transfer+is+accepted,+you+will+not+be+able+to+undo+this+action.
+msgid ""
+"Once the transfer is accepted, you will not be able to undo this action."
+msgstr ""
+
+#: .To+complete+the+transfer,+enter+the+username+of+the+new+project+owner
+msgid "To complete the transfer, enter the username of the new project owner"
+msgstr ""
+
+#: .Enter+username+here
+msgid "Enter username here"
+msgstr ""
+
+#: .Transfer+project
+msgid "Transfer project"
+msgstr ""
+
 #: .Type
 msgid "Type"
 msgstr "ዓይነት"
@@ -2543,6 +2608,152 @@ msgstr "ተመዝጋቢዎች"
 msgid "Primary Sector"
 msgstr "የመጀመሪያ ደረጃ ዘርፍ"
 
+#: .There+is+no+data+for+this+question+for+the+current+submission
+msgid "There is no data for this question for the current submission"
+msgstr "ለአሁኑ ግቤት ለዚህ ጥያቄ ምንም ውሂብ የለም"
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "እባኮትን [የድጋፍ ቡድኑን ያነጋግሩ] ስህተት ነው ብለው ካሰቡ።"
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "እባክዎን የራስጌ ቁልፍን ተጠቅመው ለመግባት ይሞክሩ ወይም ስህተት ነው ብለው ካመኑ [የድጋፍ ቡድኑን ያግኙ]።"
+
+#: .Access+Denied
+msgid "Access Denied"
+msgstr "መዳረሻ ተከልክሏል"
+
+#: .You+don%27t+have+access+to+this+page.
+msgid "You don't have access to this page."
+msgstr "የዚህ ገጽ መዳረሻ የለዎትም።"
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "ወይ የዚህ ገጽ መዳረሻ የለዎትም ወይም ይህ ገጽ በቀላሉ የለም።"
+
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr "የሆነ ስህተት ተከስቷል"
+
+#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
+msgid ""
+"We're sorry, but there was an unexpected error while trying to serve this "
+"page."
+msgstr "እናዝናለን፣ ግን ይህን ገጽ ለማገልገል በመሞከር ላይ ሳለ ያልተጠበቀ ስህተት ነበር።"
+
+#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
+msgid ""
+"Please try again later, or [contact the support team] if this happens "
+"repeatedly."
+msgstr "እባክዎ ቆይተው እንደገና ይሞክሩ፣ ወይም ይህ በተደጋጋሚ የሚከሰት ከሆነ [የድጋፍ ቡድኑን ያግኙ]።"
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "ተጨማሪ ዝርዝሮች፡"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "በነጠላ ሰረዝ የተለዩ የተጠቃሚ ስሞችን ያስገቡ"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "ተጠቃሚ አልተገኘም፡-"
+
+#: .equals
+msgid "equals"
+msgstr "እኩል ነው"
+
+#: .Reset+changes
+msgid "Reset changes"
+msgstr "ለውጦችን ዳግም አስጀምር"
+
+#: .username
+msgid "username"
+msgstr "የተጠቃሚ ስም"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "ፈቃዶችን ይስጡ"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "ፈቃዶችን ያዘምኑ"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "ፈቃዶች በተሳካ ሁኔታ ተቀድተዋል"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "ፈቃዶችን ##source to ##target ልትቀዳ ነው። ይህ እርምጃ ሊቀለበስ አይችልም።"
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "እርግጠኛ ነዎት ፈቃዶችን መቅዳት ይፈልጋሉ?"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "ቀጥል"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "ቡድን ከሌላ ፕሮጀክት ቅዳ"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "ይህ በዚህ ፕሮጀክት ውስጥ የተገለጹ ማናቸውንም የማጋሪያ ቅንብሮችን ይተካል።"
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "የምንጭ ፕሮጀክት ይምረጡ…"
+
+#: .copy
+msgid "copy"
+msgstr "ቅዳ"
+
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "በአገናኝ በይፋ አጋራ"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "ማንም ሰው ይህን ቅጽ ማየት ይችላል"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "ማንኛውም ሰው ወደዚህ ቅጽ የቀረቡትን መመልከት ይችላል"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "ሊጋራ የሚችል አገናኝ"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "ፈቃዶች ይወገዱ?"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "ይህ እርምጃ የተጠቃሚ ##username## ሁሉንም ፈቃዶች ያስወግዳል"
+
+#: .Remove
+msgid "Remove"
+msgstr "አስወግድ"
+
+#: .is+owner
+msgid "is owner"
+msgstr "ባለቤት ነው።"
+
+#: .Pending+owner
+msgid "Pending owner"
+msgstr ""
+
 #: .DONE
 msgid "DONE"
 msgstr "ተከናውኗል"
@@ -2558,172 +2769,6 @@ msgstr "##count## እቃዎች"
 #: .There+are+no+assets+to+display.
 msgid "There are no assets to display."
 msgstr "የሚታዩ ንብረቶች የሉም።"
-
-#: .Discard+unsaved+changes%3F
-msgid "Discard unsaved changes?"
-msgstr "ያልተቀመጡ ለውጦች ይጣሉ?"
-
-#: .Discard
-msgid "Discard"
-msgstr "አስወግድ"
-
-#: .Item
-msgid "Item"
-msgstr "ዓይነት"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "የ ##total_count##"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "ግልባጭ"
-
-#: .Translations
-msgid "Translations"
-msgstr "ትርጉሞች"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "ትንተና"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "ሳትቆጥቡ መሄድ ትፈልጋለህ?"
-
-#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
-msgid "You have unsaved changes. Leave settings without saving?"
-msgstr "ያ ልተቀመጡ ለውጦች አሉዎት። ሳያስቀምጡ ቅንብሮችን ይተዉ?"
-
-#: .Updated+profile+successfully
-msgid "Updated profile successfully"
-msgstr "መገለጫ በተሳካ ሁኔታ ተዘምኗል"
-
-#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
-msgid ""
-"You can now control whether to allow anonymous submissions in web forms for "
-"each project. Previously, this was an account-wide setting."
-msgstr "አሁን ለእያንዳንዱ ፕሮጀክት ስም-አልባ ማስገባቶችን በድር ቅጾች መፍቀድ አለመፍቀዱን መቆጣጠር ይችላሉ። ከዚህ ቀደም ይህ መለያ-ሰፊ ቅንብር ነበር።"
-
-#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
-msgid ""
-"This privacy feature is now a per-project setting. New projects will require"
-" authentication by default."
-msgstr "ይህ የግላዊነት ባህሪ አሁን በፕሮጀክት ቅንብር ነው። አዳዲስ ፕሮጀክቶች በነባሪነት ማረጋገጫ ይጠይቃሉ።"
-
-#: .Learn+more+about+these+changes+here.
-msgid "Learn more about these changes here."
-msgstr "ስለእነዚህ ለውጦች የበለጠ ለማወቅ እዚህ ይጫኑ።"
-
-#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
-msgid ""
-"Use the button above to select the information to be displayed in this area"
-msgstr "በዚህ አካባቢ የሚታየውን መረጃ ለመምረጥ ከላይ ያለውን ቁልፍ ይጠቀሙ"
-
-#: .%23%23start_date%23%23+to+%23%23end_date%23%23
-msgid "##start_date## to ##end_date##"
-msgstr "##start_date## እስከ ##end_date##"
-
-#: .Your+usage
-msgid "Your usage"
-msgstr "የእርስዎ አጠቃቀም"
-
-#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
-msgid "Last update: ##LAST_UPDATE_TIME##"
-msgstr "የመጨረሻው ዝመና፦ ##LAST_UPDATE_TIME##"
-
-#: .Storage
-msgid "Storage"
-msgstr "ማከማቻ"
-
-#: .per+account
-msgid "per account"
-msgstr "በአካውንት"
-
-#: .Transcription+minutes
-msgid "Transcription minutes"
-msgstr "የጽሑፍ ግልባጭ ደቂቃዎች"
-
-#: .Translation+characters
-msgid "Translation characters"
-msgstr "የትርጉም ቁምፊዎች"
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. Reach out to "
-"billing@kobotoolbox.org if you have any questions about your plan."
-msgstr "ስለማሻሻልዎ እናመሰግናለን! ለቀጣይ ድጋፍዎ እናመሰግናለን። ስለ እቅድዎ ማንኛውም አይነት ጥያቄ ካሎት billing@kobotoolbox.org ያግኙ።"
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. If your "
-"account is not immediately updated, wait a few minutes and refresh the page."
-msgstr "ስለማሻሻልዎ እናመሰግናለን! ለቀጣይ ድጋፍዎ እናመሰግናለን። መለያዎ ወዲያውኑ ካልተዘመነ፣ ጥቂት ደቂቃዎችን ይጠብቁ እና ገጹን ያድሱ።"
-
-#: .Please+contact+your+organization+owner+for+any+changes+to+your+plan+or+add-ons.
-msgid ""
-"Please contact your organization owner for any changes to your plan or add-"
-"ons."
-msgstr "በእቅድዎ ወይም በማከያዎችዎ ላይ ለሚደረጉ ማናቸውም ለውጦች እባክዎ የድርጅትዎን ባለቤት ያነጋግሩ።"
-
-#: .show+monthly+plans
-msgid "show monthly plans"
-msgstr "ወርሃዊ እቅዶችን አሳይ"
-
-#: .Monthly
-msgid "Monthly"
-msgstr "ወርሃዊ"
-
-#: .show+annual+plans
-msgid "show annual plans"
-msgstr "ዓመታዊ ዕቅዶችን አሳይ"
-
-#: .Annual
-msgid "Annual"
-msgstr "አመታዊ"
-
-#: .Want+more%3F
-msgid "Want more?"
-msgstr "ተጨማሪ ይፈልጋሉ?"
-
-#: .Contact+us
-msgid "Contact us"
-msgstr "እኛን ያነጋግሩን"
-
-#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
-msgid ""
-"For organizations with higher volume and advanced data collection needs, get"
-" in touch to learn more about our "
-msgstr "ከፍተኛ መጠን እና የላቀ የመረጃ አሰባሰብ ፍላጎት ላላቸው ድርጅቶች ስለእኛ የበለጠ ለማወቅ ይገናኙ "
-
-#: .Enterprise+Plan
-msgid "Enterprise Plan"
-msgstr "የድርጅት እቅድ"
-
-#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
-msgid ""
-"We also offer custom solutions and private servers for large organizations. "
-msgstr "እንዲሁም ለትላልቅ ድርጅቶች ብጁ መፍትሄዎችን እና የግል አገልጋዮችን እናቀርባለን። "
-
-#: .Contact+our+team
-msgid "Contact our team"
-msgstr "ቡድናችንን ያግኙ"
-
-#: .+for+more+information.
-msgid " for more information."
-msgstr " ለበለጠ መረጃ።"
-
-#: .Collapse+full+comparison
-msgid "Collapse full comparison"
-msgstr "ሙሉ ለሙሉ ማወዳደር"
-
-#: .Display+full+comparison
-msgid "Display full comparison"
-msgstr "ሙሉ ንፅፅር አሳይ"
-
-#: .Security
-msgid "Security"
-msgstr "ደህንነት"
 
 #: .Deploy
 msgid "Deploy"
@@ -2773,251 +2818,6 @@ msgstr "አጋራ"
 msgid "View containing Collection"
 msgstr "ስብስብ የያዘ እይታ"
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "ፈቃዶች በተሳካ ሁኔታ ተቀድተዋል"
-
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "ፈቃዶችን ##source to ##target ልትቀዳ ነው። ይህ እርምጃ ሊቀለበስ አይችልም።"
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "እርግጠኛ ነዎት ፈቃዶችን መቅዳት ይፈልጋሉ?"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "ቀጥል"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "ቡድን ከሌላ ፕሮጀክት ቅዳ"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "ይህ በዚህ ፕሮጀክት ውስጥ የተገለጹ ማናቸውንም የማጋሪያ ቅንብሮችን ይተካል።"
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "የምንጭ ፕሮጀክት ይምረጡ…"
-
-#: .copy
-msgid "copy"
-msgstr "ቅዳ"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "በነጠላ ሰረዝ የተለዩ የተጠቃሚ ስሞችን ያስገቡ"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "ተጠቃሚ አልተገኘም፡-"
-
-#: .equals
-msgid "equals"
-msgstr "እኩል ነው"
-
-#: .Reset+changes
-msgid "Reset changes"
-msgstr "ለውጦችን ዳግም አስጀምር"
-
-#: .username
-msgid "username"
-msgstr "የተጠቃሚ ስም"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "ፈቃዶችን ይስጡ"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "ፈቃዶችን ያዘምኑ"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "በአገናኝ በይፋ አጋራ"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "ማንም ሰው ይህን ቅጽ ማየት ይችላል"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "ማንኛውም ሰው ወደዚህ ቅጽ የቀረቡትን መመልከት ይችላል"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "ሊጋራ የሚችል አገናኝ"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "ፈቃዶች ይወገዱ?"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "ይህ እርምጃ የተጠቃሚ ##username## ሁሉንም ፈቃዶች ያስወግዳል"
-
-#: .Remove
-msgid "Remove"
-msgstr "አስወግድ"
-
-#: .is+owner
-msgid "is owner"
-msgstr "ባለቤት ነው።"
-
-#: .Paste+your+formatted+table+from+excel+in+the+box+below.
-msgid "Paste your formatted table from excel in the box below."
-msgstr "የተቀረፀውን ሰንጠረዥ ከ Excel በታች ባለው ሳጥን ውስጥ ለጥፍ።"
-
-#: .add+cascade+with+%23+questions
-msgid "add cascade with # questions"
-msgstr "ከ# ጥያቄዎች ጋር ካስኬድ ጨምር"
-
-#: .OK
-msgid "OK"
-msgstr "እሺ"
-
-#: .Learn+more+about+importing+cascading+lists+from+Excel
-msgid "Learn more about importing cascading lists from Excel"
-msgstr "ከ Excel የማስመጣት ዝርዝሮችን ስለማስመጣት የበለጠ ይረዱ"
-
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "ጥያቄ ወደ ቤተ-መጽሐፍት ታክሏል"
-
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "ቡድን እንደ ብሎክ ወደ ቤተ-መጽሐፍት ታክሏል"
-
-#: .loading
-msgid "loading"
-msgstr "በመጫን ላይ"
-
-#: .no+search+results+found
-msgid "no search results found"
-msgstr "ምንም የፍለጋ ውጤቶች አልተገኙም"
-
-#: .block+of+___+questions
-msgid "block of ___ questions"
-msgstr "የ አግድ ___ ጥያቄዎች"
-
-#: .search+library
-msgid "search library"
-msgstr "የ ቤተ-መጽሐፍት ፍለጋ"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "የREST አገልግሎትን መጫን አልተቻለም"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "የREST አገልግሎት ምዝግብ ማስታወሻዎችን መጫን አልተቻለም"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "የማስረከቢያ አለመሳካት ዝርዝሮች (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "ወደ REST አገልግሎቶች ተመለስ"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "በመጫን ላይ…"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "እስካሁን ምንም የምዝግብ ማስታወሻዎች የሉም"
-
-#: .Submission
-msgid "Submission"
-msgstr "ማስረከብ"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "ሁሉንም ማቅረቢያዎች እንደገና ይሞክሩ"
-
-#: .Success
-msgid "Success"
-msgstr "ስኬት"
-
-#: .Pending
-msgid "Pending"
-msgstr "በመጠባበቅ ላይ"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "በመጠባበቅ ላይ(##count##×)"
-
-#: .Failed
-msgid "Failed"
-msgstr "አልተሳካም"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "እንደገና ለማቅረብ ይሞክሩ"
-
-#: .More+info
-msgid "More info"
-msgstr "ተጨማሪ መረጃ"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "የእረፍት አገልግሎቶችን መጫን አልተቻለም"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "እርግጠኛ ነህ ##target መሰረዝ ትፈልጋለህ?"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "#target ሊሰርዙ ነው። ይህ እርምጃ ሊቀለበስ አይችልም።"
-
-#: .Confirm
-msgid "Confirm"
-msgstr "ማረጋገጥ"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "አዲስ አገልግሎት ይመዝገቡ"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "ይህ ፕሮጀክት እስካሁን ምንም የ የእረፍት አገልግሎቶች የሉትም!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "ለሶስተኛ ወገን ማመልከቻ በራስ ሰር ለመለጠፍ REST አገልግሎቶችን መጠቀም ትችላለህ።"
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "የእረፍት አገልግሎቶች፡- ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "እርዳታ ያስፈልጋል?"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "የአገልግሎት ስም"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "ማስረከብ ##submissionIndex## ከ##submissionTotal##"
-
-#: .download
-msgid "download"
-msgstr "ማውረድ"
-
-#: .process
-msgid "process"
-msgstr "ሂደት"
-
 #: .Marker+Colors
 msgid "Marker Colors"
 msgstr "ምልክት ማድረጊያ ቀለሞች"
@@ -3062,6 +2862,12 @@ msgstr "የሰቀላ ስህተት፡ የሚሰራ የካርታ ተደራቢ ቅ�
 msgid "Delete File"
 msgstr "ፋይል ሰርዝ"
 
+#: .Are+you+sure+you+want+to+delete+this+file%3F+%3Cbr/%3E%3Cbr/%3E%3Cstrong%3EThis+action+cannot+be+undone.%3C/strong%3E
+msgid ""
+"Are you sure you want to delete this file? <br/><br/><strong>This action "
+"cannot be undone.</strong>"
+msgstr ""
+
 #: .Choose+the+Geopoint+question+you+would+like+to+display+on+the+map
 msgid "Choose the Geopoint question you would like to display on the map:"
 msgstr "በካርታው ላይ ለማሳየት የሚፈልጉትን የጂኦ ነጥብ ጥያቄ ይምረጡ፡-"
@@ -3100,6 +2906,166 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "በ ነባሪ ካርታው የተገደበ ወደ ##QUERY_LIMIT_DEFAULT## በ ነባሪ ካርታው በጣም የቅርብ ጊዜ ግቤቶች ላይ ብቻ የተገደበ ነው። ይህንን ገደብ ለጊዜው ወደተለየ እሴት ማሳደግ ይችላሉ። ካርታውን እንደገና በከፈቱ ቁጥር ይህ ዳግም እንደሚጀመር ልብ ይበሉ።"
 
+#: .Paste+your+formatted+table+from+excel+in+the+box+below.
+msgid "Paste your formatted table from excel in the box below."
+msgstr "የተቀረፀውን ሰንጠረዥ ከ Excel በታች ባለው ሳጥን ውስጥ ለጥፍ።"
+
+#: .add+cascade+with+%23+questions
+msgid "add cascade with # questions"
+msgstr "ከ# ጥያቄዎች ጋር ካስኬድ ጨምር"
+
+#: .OK
+msgid "OK"
+msgstr "እሺ"
+
+#: .Learn+more+about+importing+cascading+lists+from+Excel
+msgid "Learn more about importing cascading lists from Excel"
+msgstr "ከ Excel የማስመጣት ዝርዝሮችን ስለማስመጣት የበለጠ ይረዱ"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "የእረፍት አገልግሎቶችን መጫን አልተቻለም"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "እርግጠኛ ነህ ##target መሰረዝ ትፈልጋለህ?"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "#target ሊሰርዙ ነው። ይህ እርምጃ ሊቀለበስ አይችልም።"
+
+#: .Confirm
+msgid "Confirm"
+msgstr "ማረጋገጥ"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "አዲስ አገልግሎት ይመዝገቡ"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "ይህ ፕሮጀክት እስካሁን ምንም የ የእረፍት አገልግሎቶች የሉትም!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "ለሶስተኛ ወገን ማመልከቻ በራስ ሰር ለመለጠፍ REST አገልግሎቶችን መጠቀም ትችላለህ።"
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "የእረፍት አገልግሎቶች፡- ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "እርዳታ ያስፈልጋል?"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "የአገልግሎት ስም"
+
+#: .Success
+msgid "Success"
+msgstr "ስኬት"
+
+#: .Pending
+msgid "Pending"
+msgstr "በመጠባበቅ ላይ"
+
+#: .Failed
+msgid "Failed"
+msgstr "አልተሳካም"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "የREST አገልግሎትን መጫን አልተቻለም"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "የREST አገልግሎት ምዝግብ ማስታወሻዎችን መጫን አልተቻለም"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "የማስረከቢያ አለመሳካት ዝርዝሮች (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "ወደ REST አገልግሎቶች ተመለስ"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "በመጫን ላይ…"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "እስካሁን ምንም የምዝግብ ማስታወሻዎች የሉም"
+
+#: .Submission
+msgid "Submission"
+msgstr "ማስረከብ"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "ሁሉንም ማቅረቢያዎች እንደገና ይሞክሩ"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "በመጠባበቅ ላይ(##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "እንደገና ለማቅረብ ይሞክሩ"
+
+#: .More+info
+msgid "More info"
+msgstr "ተጨማሪ መረጃ"
+
+#: .loading
+msgid "loading"
+msgstr "በመጫን ላይ"
+
+#: .no+search+results+found
+msgid "no search results found"
+msgstr "ምንም የፍለጋ ውጤቶች አልተገኙም"
+
+#: .block+of+___+questions
+msgid "block of ___ questions"
+msgstr "የ አግድ ___ ጥያቄዎች"
+
+#: .search+library
+msgid "search library"
+msgstr "የ ቤተ-መጽሐፍት ፍለጋ"
+
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "ጥያቄ ወደ ቤተ-መጽሐፍት ታክሏል"
+
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "ቡድን እንደ ብሎክ ወደ ቤተ-መጽሐፍት ታክሏል"
+
+#: .Failed+to+cancel+transfer.+The+transfer+may+be+declined+or+accpeted+already.+Please+check+your+email.
+msgid ""
+"Failed to cancel transfer. The transfer may be declined or accpeted already."
+" Please check your email."
+msgstr ""
+
+#: .Failed+to+accept+invite.
+msgid "Failed to accept invite."
+msgstr ""
+
+#: .Failed+to+decline+invite
+msgid "Failed to decline invite"
+msgstr ""
+
+#: .Invite+has+been+cancelled+or+expired
+msgid "Invite has been cancelled or expired"
+msgstr ""
+
+#: .Invite+is+invaild.
+msgid "Invite is invaild."
+msgstr ""
+
 #: .archived
 msgid "archived"
 msgstr "በማህደር ተቀምጧል"
@@ -3112,33 +3078,17 @@ msgstr "ተሰማርቷል"
 msgid "draft"
 msgstr "ረቂቅ"
 
-#: .Audit+settings
-msgid "Audit settings"
-msgstr "የኦዲት ቅንብሮች"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "ማስረከብ ##submissionIndex## ከ##submissionTotal##"
 
-#: .Background+audio
-msgid "Background audio"
-msgstr "ዳራ ኦዲዮ"
+#: .download
+msgid "download"
+msgstr "ማውረድ"
 
-#: .Enter+audit+settings+here
-msgid "Enter audit settings here"
-msgstr "የኦዲት ቅንብሮችን እዚህ ያስገቡ"
-
-#: .This+functionality+is+available+in+
-msgid "This functionality is available in "
-msgstr "ይህ ተግባር የሚገኘው በ ውስጥ ነው "
-
-#: .This+survey+will+be+recorded
-msgid "This survey will be recorded"
-msgstr "ይህ ዳሰሳ ይመዘገባል"
-
-#: .Enable+audio+recording+in+the+background
-msgid "Enable audio recording in the background"
-msgstr "ከበስተጀርባ የድምጽ ቀረጻን አንቃ"
-
-#: .Audio+quality
-msgid "Audio quality"
-msgstr "የድምጽ ጥራት"
+#: .process
+msgid "process"
+msgstr "ሂደት"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -3177,6 +3127,42 @@ msgstr "የ ተቆለፉ ተግባራት"
 msgid "Unlocked functionalities"
 msgstr "የተከፈቱ ተግባራት"
 
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "ምንም አብነቶች የለዎትም። ወደ ቤተ-መጽሐፍት ይሂዱ እና አንዳንድ ይፍጠሩ።"
+
+#: .Template+name
+msgid "Template name"
+msgstr "የአብነት ስም"
+
+#: .Audit+settings
+msgid "Audit settings"
+msgstr "የኦዲት ቅንብሮች"
+
+#: .Background+audio
+msgid "Background audio"
+msgstr "ዳራ ኦዲዮ"
+
+#: .Enter+audit+settings+here
+msgid "Enter audit settings here"
+msgstr "የኦዲት ቅንብሮችን እዚህ ያስገቡ"
+
+#: .This+functionality+is+available+in+
+msgid "This functionality is available in "
+msgstr "ይህ ተግባር የሚገኘው በ ውስጥ ነው "
+
+#: .This+survey+will+be+recorded
+msgid "This survey will be recorded"
+msgstr "ይህ ዳሰሳ ይመዘገባል"
+
+#: .Enable+audio+recording+in+the+background
+msgid "Enable audio recording in the background"
+msgstr "ከበስተጀርባ የድምጽ ቀረጻን አንቃ"
+
+#: .Audio+quality
+msgid "Audio quality"
+msgstr "የድምጽ ጥራት"
+
 #: .Incorrect+token
 msgid "Incorrect token"
 msgstr "የተሳሳተ ማስመሰያ"
@@ -3184,6 +3170,13 @@ msgstr "የተሳሳተ ማስመሰያ"
 #: .Could+not+generate+secret+key
 msgid "Could not generate secret key"
 msgstr "የሚስጥር ቁልፍ ማመንጨት አልተቻለም"
+
+#: .Two-factor+authentication+(2FA)+verifies+your+identity+using+an+authenticator+application+in+addition+to+your+usual+password.+We+recommend+enabling+two-factor+authentication+for+an+additional+layer+of+protection.
+msgid ""
+"Two-factor authentication (2FA) verifies your identity using an "
+"authenticator application in addition to your usual password. We recommend "
+"enabling two-factor authentication for an additional layer of protection."
+msgstr ""
 
 #: .Scan+QR+code+and+enter+the+%23%23number%23%23-digit+token+from+the+application
 msgid "Scan QR code and enter the ##number##-digit token from the application"
@@ -3202,6 +3195,14 @@ msgstr "የQR ኮድ የለም?"
 #: .Enter+key+manually
 msgid "Enter key manually"
 msgstr "ቁልፍን በእጅ ያስገቡ"
+
+#: .The+following+recovery+codes+will+help+you+access+your+account+in+case+your+authenticator+app+fails.+These+codes+are+unique+and+will+not+be+stored+in+your+Kobo+account.+This+is+your+only+opportunity+to+save+them.+Please+download+the+file+and+keep+it+somewhere+safe.
+msgid ""
+"The following recovery codes will help you access your account in case your "
+"authenticator app fails. These codes are unique and will not be stored in "
+"your Kobo account. This is your only opportunity to save them. Please "
+"download the file and keep it somewhere safe."
+msgstr ""
 
 #: .Download+codes
 msgid "Download codes"
@@ -3256,21 +3257,57 @@ msgid ""
 " previous set up will not be valid anymore."
 msgstr "እባክዎን የሁለት-ደረጃ ማረጋገጫን (2FA) እንደገና ለማዋቀር ቀዳሚው ዝግጅት መጀመሪያ ይሰረዛል። ከቀዳሚው ቅንብር የመጡ ማስመሰያዎች ወይም የመልሶ ማግኛ ኮዶች ከአሁን በኋላ የሚሰሩ አይሆኑም።"
 
+#: .Once+your+current+2FA+has+been+deactivated,+you%27ll+be+prompted+to+configure+it+again.+If+you+cannot+complete+the+process,+2FA+will+remain+disabled+for+your+account.+In+this+case,+you+can+enable+it+again+at+any+time+through+the+usual+process.
+msgid ""
+"Once your current 2FA has been deactivated, you'll be prompted to configure "
+"it again. If you cannot complete the process, 2FA will remain disabled for "
+"your account. In this case, you can enable it again at any time through the "
+"usual process."
+msgstr ""
+
 #: .Issues+with+the+token
 msgid "Issues with the token"
 msgstr "ከማስመሰያው ጋር ያሉ ጉዳዮች"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "ምንም አብነቶች የለዎትም። ወደ ቤተ-መጽሐፍት ይሂዱ እና አንዳንድ ይፍጠሩ።"
-
-#: .Template+name
-msgid "Template name"
-msgstr "የአብነት ስም"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "ይምረጡ…"
 
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "እንኬቶን ​​መጫን ላይ ስህተት ነበር።"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "መደርደር A→Z"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "መደርደር Z→A"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "መስክ መደበቅ"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "መስክን ፍታ"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "የቀዘቀዘ መስክ"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "ሁሉንም ውጤቶች ይምረጡ (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "የሚታዩ ውጤቶችን ይምረጡ (##count##)"
+
+#: .None
+msgid "None"
+msgstr "ምንም"
 
 #: .Update+status+of+selected+submissions
 msgid "Update status of selected submissions"
@@ -3311,42 +3348,6 @@ msgstr "ሁኔታን ይቀይሩ"
 #: .Set+status+%23%23status%23%23
 msgid "Set status: ##status##"
 msgstr "ሁኔታ አዘጋጅ፡- ##status##"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "ሁሉንም ውጤቶች ይምረጡ (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "የሚታዩ ውጤቶችን ይምረጡ (##count##)"
-
-#: .None
-msgid "None"
-msgstr "ምንም"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "መደርደር A→Z"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "መደርደር Z→A"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "መስክ መደበቅ"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "መስክን ፍታ"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "የቀዘቀዘ መስክ"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "መስኮችን መደበቅ"
 
 #: .%23%23ASSET_TYPE%23%23+deleted+permanently
 msgid "##ASSET_TYPE## deleted permanently"
@@ -3459,13 +3460,17 @@ msgstr "በማሰማራት ላይ..."
 msgid "redeployed form"
 msgstr "እንደገና የተዘረጋ ቅጽ"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "ይምረጡ…"
+#: .hide+fields
+msgid "hide fields"
+msgstr "መስኮችን መደበቅ"
 
 #: .Profile
 msgid "Profile"
 msgstr "መገለጫ"
+
+#: .Security
+msgid "Security"
+msgstr "ደህንነት"
 
 #: .Usage
 msgid "Usage"
@@ -3475,206 +3480,9 @@ msgstr "አጠቃቀም"
 msgid "Plans"
 msgstr "ዕቅዶች"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "መለያዎችን ማዘመን አልተሳካም"
-
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "በማዘመን ላይ…"
-
-#: .Update
-msgid "Update"
-msgstr "አዘምን"
-
-#: .filter
-msgid "filter"
-msgstr "ማጣሪያ"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "ምንም ማጣሪያዎች የሉም, ከታች አንድ ማከል ይችላሉ"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "ማጣሪያ ጨምር"
-
-#: .Apply
-msgid "Apply"
-msgstr "ያመልክቱ"
-
-#: .fields
-msgid "fields"
-msgstr "መስኮች"
-
-#: .TOS+Update+Message+not+found
-msgid "TOS Update Message not found"
-msgstr "የአገልግሎቱን ውል መልዕክት ማግኘት አልተቻለም"
-
-#: .Please+make+sure+the+following+details+are+filled+out+correctly
-msgid "Please make sure the following details are filled out correctly:"
-msgstr "እባክዎ የሚከተሉት ዝርዝሮች በትክክል መሞላታቸውን ያረጋግጡ፦"
-
-#: .I+agree,+let%27s+go
-msgid "I agree, let's go"
-msgstr "እስማማለሁ፣ እንሂድ"
-
-#: .I+don%27t+agree,+log+me+out
-msgid "I don't agree, log me out"
-msgstr "አልስማማም አሶጡኝ"
-
-#: .Archive/Unarchive
-msgid "Archive/Unarchive"
-msgstr "ማህደር/ማህደር ያሶጡ"
-
-#: .Archive+project
-msgid "Archive project"
-msgstr "የማህደር ፕሮጀክት"
-
-#: .Unarchive+project
-msgid "Unarchive project"
-msgstr "ፕሮጄክትን ከማህደር አውጣ"
-
-#: .Draft+project+selected
-msgid "Draft project selected"
-msgstr "ረቂቅ ፕሮጀክት ተመርጧል"
-
-#: .Delete+1+project
-msgid "Delete 1 project"
-msgstr "1 ፕሮጀክት ይሰርዙ"
-
-#: .Delete+project
-msgid "Delete project"
-msgstr "ፕሮጀክት ይሰርዙ"
-
-#: .Question+Block
-msgid "Question Block"
-msgstr "የጥያቄ እገዳ"
-
-#: .Template
-msgid "Template"
-msgstr "አብነት"
-
-#: .Collection
-msgid "Collection"
-msgstr "ስብስብ"
-
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "የተፈለገውን አይነት ይምረጡ"
-
-#: .Submission+URL
-msgid "Submission URL"
-msgstr "ማስረከብ ULR"
-
-#: .Public+key
-msgid "Public key"
-msgstr "የህዝብ ቁልፍ"
-
-#: .Set+encryption
-msgid "Set encryption"
-msgstr "ምስጠራን አዘጋጅ"
-
-#: .Remove+encryption
-msgid "Remove encryption"
-msgstr "ምስጠራን ያስወግዱ"
-
-#: .Learn+more+about+encrypting+forms
-msgid "Learn more about encrypting forms"
-msgstr "ቅጾችን ስለማመስጠር የበለጠ ይረዱ"
-
-#: .%23%23type%23%23+%23%23name%23%23+created
-msgid "##type## ##name## created"
-msgstr "##type## ##name## ተፈጠረ"
-
-#: .Failed+to+create+%23%23type%23%23
-msgid "Failed to create ##type##"
-msgstr "##type## መፍጠር ተስኖታል።"
-
-#: .Failed+to+update+%23%23type%23%23
-msgid "Failed to update ##type##"
-msgstr "##type## ማዘመን አልቻለም።"
-
-#: .Saving%E2%80%A6
-msgid "Saving…"
-msgstr "በማስቀመጥ ላይ…"
-
-#: .Creating%E2%80%A6
-msgid "Creating…"
-msgstr "በመፍጠር ላይ…"
-
-#: .Enter+title+of+%23%23type%23%23+here
-msgid "Enter title of ##type## here"
-msgstr "ርዕስ አስገባ ##type## እዚህ"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "ማስረከቡ ሊገኝ አልቻለም። የማስረከቢያ መታወቂያ፡- ##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "ማስገባቶችን ይሰርዙ?"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "እርግጠኛ ነዎት ይህን ግቤት መሰረዝ ይፈልጋሉ?"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "ይህ እርምጃ ሊቀለበስ አይችልም"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "የተባዛ ተፈጥሯል"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "የማስረከቢያው ቅጂ በተሳካ ሁኔታ ተፈጥሯል። ከዚህ በታች ያለውን አዲስ ምሳሌ ማየት እና ከታች ያሉትን የተግባር ቁልፎችን በመጠቀም ለውጦችን ማድረግ ትችላለህ።"
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "የተባዛ ግቤትን አስወግድ"
-
-#: .Language
-msgid "Language:"
-msgstr "ቋንቋ፡"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "የማረጋገጫ ሁኔታ፡"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "ለዚህ ግቤት በጣም የቅርብ ጊዜውን ውሂብ ለመጫን ከታች ያለውን አዝራር ጠቅ ያድርጉ። "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "ማስረከብ አድስ"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "የ በስተጀርባ የድምጽ ቅጂ"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "የ XML ስሞችን አሳይ"
-
-#: .View
-msgid "View"
-msgstr "ይመልከቱ"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "ማባዛት"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "ማስገባትን ሰርዝ"
+#: .Add-ons
+msgid "Add-ons"
+msgstr ""
 
 #: .Import+data+from+%23%23SOURCE_NAME%23%23
 msgid "Import data from ##SOURCE_NAME##"
@@ -3713,6 +3521,159 @@ msgstr "ከውጭ የመጡ ጥያቄዎችን በማዘመን ላይ"
 #: .Accept
 msgid "Accept"
 msgstr "ተቀበል"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "ማስረከቡ ሊገኝ አልቻለም። የማስረከቢያ መታወቂያ፡- ##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "ማስገባቶችን ይሰርዙ?"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "እርግጠኛ ነዎት ይህን ግቤት መሰረዝ ይፈልጋሉ?"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "ይህ እርምጃ ሊቀለበስ አይችልም"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "የተባዛ ተፈጥሯል"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "የማስረከቢያው ቅጂ በተሳካ ሁኔታ ተፈጥሯል። ከዚህ በታች ያለውን አዲስ ምሳሌ ማየት እና ከታች ያሉትን የተግባር ቁልፎችን በመጠቀም ለውጦችን ማድረግ ትችላለህ።"
+
+#: .Source+submission+uuid+
+msgid "Source submission uuid: "
+msgstr ""
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "የተባዛ ግቤትን አስወግድ"
+
+#: .Discard
+msgid "Discard"
+msgstr "አስወግድ"
+
+#: .Language
+msgid "Language:"
+msgstr "ቋንቋ፡"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "የማረጋገጫ ሁኔታ፡"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "ለዚህ ግቤት በጣም የቅርብ ጊዜውን ውሂብ ለመጫን ከታች ያለውን አዝራር ጠቅ ያድርጉ። "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "ማስረከብ አድስ"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "የ በስተጀርባ የድምጽ ቅጂ"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "የ XML ስሞችን አሳይ"
+
+#: .View
+msgid "View"
+msgstr "ይመልከቱ"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "ማባዛት"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "ማስገባትን ሰርዝ"
+
+#: .Type+
+msgid "Type: "
+msgstr "ዓይነት፡ "
+
+#: ..+
+msgid ". "
+msgstr "። "
+
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#1 ከ#2 ምላሽ ሰጪዎች ለዚህ ጥያቄ መልስ ሰጥተዋል። "
+
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# ያለ ውሂብ ነበሩ።)"
+
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "የ ግራፍ ዘይቤን ይሽሩ"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "መለያዎችን ማዘመን አልተሳካም"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "በማዘመን ላይ…"
+
+#: .Update
+msgid "Update"
+msgstr "አዘምን"
+
+#: .Question+Block
+msgid "Question Block"
+msgstr "የጥያቄ እገዳ"
+
+#: .Template
+msgid "Template"
+msgstr "አብነት"
+
+#: .Collection
+msgid "Collection"
+msgstr "ስብስብ"
+
+#: .Upload+as+template
+msgid "Upload as template"
+msgstr ""
+
+#: .Note+that+this+will+be+ignored+when+uploading+a+collection+file.
+msgid "Note that this will be ignored when uploading a collection file."
+msgstr ""
+
+#: .Submission+URL
+msgid "Submission URL"
+msgstr "ማስረከብ ULR"
+
+#: .Public+key
+msgid "Public key"
+msgstr "የህዝብ ቁልፍ"
+
+#: .Set+encryption
+msgid "Set encryption"
+msgstr "ምስጠራን አዘጋጅ"
+
+#: .Remove+encryption
+msgid "Remove encryption"
+msgstr "ምስጠራን ያስወግዱ"
+
+#: .Learn+more+about+encrypting+forms
+msgid "Learn more about encrypting forms"
+msgstr "ቅጾችን ስለማመስጠር የበለጠ ይረዱ"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "የማይደገፍ የሚዲያ ዓይነት፡- ##QUESTION_TYPE##"
 
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
@@ -3831,9 +3792,60 @@ msgstr "ድግግሞሽ"
 msgid "Percentage"
 msgstr "መቶኛ"
 
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "የማይደገፍ የሚዲያ ዓይነት፡- ##QUESTION_TYPE##"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "የ እገዛ መርጃዎች"
+
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "KoboToolbox የ እገዛ ማዕከል"
+
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "ከ Kobo ጋር የተገናኙ እጅግ በጣም ብዙ የተጠቃሚ ድጋፍ ጽሑፎች እና አጋዥ ስልጠናዎች ስብስብ"
+
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "KoboToolbox የማህበረሰብ መድረክ"
+
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "በዓለም ዙሪያ ካሉ ልምድ ካላቸው የ Kobo ተጠቃሚዎች መልስ ለማግኘት ጥያቄዎችዎን ይለጥፉ"
+
+#: .Notifications
+msgid "Notifications"
+msgstr "ማሳወቂያዎች"
+
+#: .Help
+msgid "Help"
+msgstr "መርዳት"
+
+#: .%23%23type%23%23+%23%23name%23%23+created
+msgid "##type## ##name## created"
+msgstr "##type## ##name## ተፈጠረ"
+
+#: .Failed+to+create+%23%23type%23%23
+msgid "Failed to create ##type##"
+msgstr "##type## መፍጠር ተስኖታል።"
+
+#: .Failed+to+update+%23%23type%23%23
+msgid "Failed to update ##type##"
+msgstr "##type## ማዘመን አልቻለም።"
+
+#: .Saving%E2%80%A6
+msgid "Saving…"
+msgstr "በማስቀመጥ ላይ…"
+
+#: .Creating%E2%80%A6
+msgid "Creating…"
+msgstr "በመፍጠር ላይ…"
+
+#: .Enter+title+of+%23%23type%23%23+here
+msgid "Enter title of ##type## here"
+msgstr "ርዕስ አስገባ ##type## እዚህ"
 
 #: .JSON
 msgid "JSON"
@@ -3916,6 +3928,10 @@ msgstr "በJSON ማስረከቢያ ዙሪያ ብጁ መጠቅለያ ያክሉ (%
 #: .Add+Custom+Wrapper
 msgid "Add Custom Wrapper"
 msgstr "ብጁ መጠቅለያ ያክሉ"
+
+#: .N/A
+msgid "N/A"
+msgstr "N/A"
 
 #: .%2A+Save+Changes
 msgid "* Save Changes"
@@ -4027,56 +4043,29 @@ msgstr "ቋንቋ ጨምር"
 msgid "Add a new language"
 msgstr "አዲስ ቋንቋ ያክሉ"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "የ እገዛ መርጃዎች"
+#: .filter
+msgid "filter"
+msgstr "ማጣሪያ"
 
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "KoboToolbox የ እገዛ ማዕከል"
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "ምንም ማጣሪያዎች የሉም, ከታች አንድ ማከል ይችላሉ"
 
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "ከ Kobo ጋር የተገናኙ እጅግ በጣም ብዙ የተጠቃሚ ድጋፍ ጽሑፎች እና አጋዥ ስልጠናዎች ስብስብ"
+#: .Add+filter
+msgid "Add filter"
+msgstr "ማጣሪያ ጨምር"
 
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "KoboToolbox የማህበረሰብ መድረክ"
+#: .Apply
+msgid "Apply"
+msgstr "ያመልክቱ"
 
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "በዓለም ዙሪያ ካሉ ልምድ ካላቸው የ Kobo ተጠቃሚዎች መልስ ለማግኘት ጥያቄዎችዎን ይለጥፉ"
+#: .fields
+msgid "fields"
+msgstr "መስኮች"
 
-#: .Notifications
-msgid "Notifications"
-msgstr "ማሳወቂያዎች"
-
-#: .Help
-msgid "Help"
-msgstr "መርዳት"
-
-#: .Type+
-msgid "Type: "
-msgstr "ዓይነት፡ "
-
-#: ..+
-msgid ". "
-msgstr "። "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#1 ከ#2 ምላሽ ሰጪዎች ለዚህ ጥያቄ መልስ ሰጥተዋል። "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# ያለ ውሂብ ነበሩ።)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "የ ግራፍ ዘይቤን ይሽሩ"
+#: .Archive/Unarchive
+msgid "Archive/Unarchive"
+msgstr "ማህደር/ማህደር ያሶጡ"
 
 #: .Delete+projects
 msgid "Delete projects"
@@ -4089,6 +4078,62 @@ msgstr "ፕሮጀክቶችን ##count## ይሰርዙ"
 #: .Share+projects
 msgid "Share projects"
 msgstr "የ ማጋራት ፕሮጀክት"
+
+#: .Archive+project
+msgid "Archive project"
+msgstr "የማህደር ፕሮጀክት"
+
+#: .Unarchive+project
+msgid "Unarchive project"
+msgstr "ፕሮጄክትን ከማህደር አውጣ"
+
+#: .Draft+project+selected
+msgid "Draft project selected"
+msgstr "ረቂቅ ፕሮጀክት ተመርጧል"
+
+#: .Delete+1+project
+msgid "Delete 1 project"
+msgstr "1 ፕሮጀክት ይሰርዙ"
+
+#: .Delete+project
+msgid "Delete project"
+msgstr "ፕሮጀክት ይሰርዙ"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "እባክዎ ገጹን ያድሱ"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "መለያ ማደራጃ"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "የአገልግሎት ውል"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "የ ግል የሆነ ፖሊሲ"
+
+#: .Logout
+msgid "Logout"
+msgstr "ውጣ"
+
+#: .TOS+Update+Message+not+found
+msgid "TOS Update Message not found"
+msgstr "የአገልግሎቱን ውል መልዕክት ማግኘት አልተቻለም"
+
+#: .Please+make+sure+the+following+details+are+filled+out+correctly
+msgid "Please make sure the following details are filled out correctly:"
+msgstr "እባክዎ የሚከተሉት ዝርዝሮች በትክክል መሞላታቸውን ያረጋግጡ፦"
+
+#: .I+agree,+let%27s+go
+msgid "I agree, let's go"
+msgstr "እስማማለሁ፣ እንሂድ"
+
+#: .I+don%27t+agree,+log+me+out
+msgid "I don't agree, log me out"
+msgstr "አልስማማም አሶጡኝ"
 
 #: .This+field+is+required.
 msgid "This field is required."
@@ -4118,31 +4163,102 @@ msgstr "የይለፍ ቃል ያረጋግጡ"
 msgid "Save Password"
 msgstr "የይለፍ ቃል አስቀምጥ"
 
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "እባክዎ ገጹን ያድሱ"
+#: .There+are+no+projects+to+display.
+msgid "There are no projects to display."
+msgstr "የሚታዩ ምንም ፕሮጀክቶች የሉም።"
 
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "መለያ ማደራጃ"
+#: .Import+failed
+msgid "Import failed"
+msgstr "ማስመጣት አልተሳካም"
 
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "የአገልግሎት ውል"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "የ ግል የሆነ ፖሊሲ"
-
-#: .Logout
-msgid "Logout"
-msgstr "ውጣ"
-
-#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
 msgid ""
-"This export format will not be supported in the future. Please consider "
-"using one of the other export types available."
-msgstr "ይህ ወደ ውጭ መላኪያ ቅርጸት ወደፊት አይደገፍም። እባክዎ ካሉት ሌሎች ወደ ውጭ የሚላኩ ዓይነቶች አንዱን ለመጠቀም ያስቡበት።"
+"Your upload is taking longer than usual. Please get back in few minutes."
+msgstr "መጨመሩ ከተለመደው ጊዜ በላይ እየወሰደ ነው። እባክዎ ከጥቂት ደቂቃዎች በኋላ ይመለሱ።"
+
+#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
+msgid ""
+"Your uploads are being processed. This may take a few moments. You will need"
+" to refresh the page to see them on the list."
+msgstr "ጭመራዎ በሂደት ላይ ናቸው። ይህ ጥቂት ጊዜ ሊወስድ ይችላል። በዝርዝሩ ላይ ለማየት ገጹን ማደስ ያስፈልግዎታል።"
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "እባክዎ የእርስዎን አርእስቶች ያስገቡ ##type##"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "ርዕስ አልባ ##type##"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "ርዕስ የሌለው ስብስብ"
+
+#: .project+title
+msgid "project title"
+msgstr "የፕሮጀክት ርዕስ"
+
+#: .Project+transfer+declined
+msgid "Project transfer declined"
+msgstr ""
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##."
+msgstr ""
+
+#: .When+you+accept+the+ownership+transfer+of+project+%23%23PROJECT_NAME%23%23,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+you+and+count+against+your+plan+limits.
+msgid ""
+"When you accept the ownership transfer of project ##PROJECT_NAME##, all of "
+"the submissions, data storage, and transcription and translation usage for "
+"the project will be transferred to you and count against your plan limits."
+msgstr ""
+
+#: .Once+you+accept,+the+transfer+might+take+a+few+minutes+to+complete.
+msgid "Once you accept, the transfer might take a few minutes to complete."
+msgstr ""
+
+#: .Current+owner
+msgid "Current owner"
+msgstr ""
+
+#: .Note+The+previous+owner+has+permissions+to+manage+the+project.+You+can+change+user+permissions+in+the+project+sharing+settings.
+msgid ""
+"Note: The previous owner has permissions to manage the project. You can "
+"change user permissions in the project sharing settings."
+msgstr ""
+
+#: .Decline
+msgid "Decline"
+msgstr ""
+
+#: .Discard+unsaved+changes%3F
+msgid "Discard unsaved changes?"
+msgstr "ያልተቀመጡ ለውጦች ይጣሉ?"
+
+#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
+msgid "You have unsaved changes. Leave settings without saving?"
+msgstr "ያ ልተቀመጡ ለውጦች አሉዎት። ሳያስቀምጡ ቅንብሮችን ይተዉ?"
+
+#: .Updated+profile+successfully
+msgid "Updated profile successfully"
+msgstr "መገለጫ በተሳካ ሁኔታ ተዘምኗል"
+
+#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
+msgid ""
+"You can now control whether to allow anonymous submissions in web forms for "
+"each project. Previously, this was an account-wide setting."
+msgstr "አሁን ለእያንዳንዱ ፕሮጀክት ስም-አልባ ማስገባቶችን በድር ቅጾች መፍቀድ አለመፍቀዱን መቆጣጠር ይችላሉ። ከዚህ ቀደም ይህ መለያ-ሰፊ ቅንብር ነበር።"
+
+#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
+msgid ""
+"This privacy feature is now a per-project setting. New projects will require"
+" authentication by default."
+msgstr "ይህ የግላዊነት ባህሪ አሁን በፕሮጀክት ቅንብር ነው። አዳዲስ ፕሮጀክቶች በነባሪነት ማረጋገጫ ይጠይቃሉ።"
+
+#: .Learn+more+about+these+changes+here.
+msgid "Learn more about these changes here."
+msgstr "ስለእነዚህ ለውጦች የበለጠ ለማወቅ እዚህ ይጫኑ።"
 
 #: .Delete+export%3F
 msgid "Delete export?"
@@ -4185,176 +4301,15 @@ msgstr "በርካታ ስሪቶች"
 msgid "There is nothing to download yet."
 msgstr "እስካሁን ምንም የሚወርድ ነገር የለም።"
 
-#: .There+are+no+projects+to+display.
-msgid "There are no projects to display."
-msgstr "የሚታዩ ምንም ፕሮጀክቶች የሉም።"
-
-#: .Non-profit+organization
-msgid "Non-profit organization"
-msgstr "ግብረ ሰናይ ድርጅት"
-
-#: .Government+institution
-msgid "Government institution"
-msgstr "የመንግስት ተቋም"
-
-#: .Educational+organization
-msgid "Educational organization"
-msgstr "የትምህርት ተቋም"
-
-#: .A+commercial/for-profit+company
-msgid "A commercial/for-profit company"
-msgstr "የንግድ/ለትርፍ የተቋቋመ ኩባንያ"
-
-#: .I+am+not+associated+with+any+organization
-msgid "I am not associated with any organization"
-msgstr "ከየትኛውም ድርጅት ጋር ግንኙነት የለኝም"
-
-#: .Male
-msgid "Male"
-msgstr "ወንድ"
-
-#: .Female
-msgid "Female"
-msgstr "ሴት"
-
-#: .Other
-msgid "Other"
-msgstr "ሌላ"
-
-#: .Use+this+to+display+your+real+name+to+other+users
-msgid "Use this to display your real name to other users"
-msgstr "እውነተኛ ስምህን ለሌሎች ተጠቃሚዎች ለማሳየት ይህንን ተጠቀም"
-
-#: .Social
-msgid "Social"
-msgstr "ማህበራዊ"
-
-#: .Newsletter
-msgid "Newsletter"
-msgstr "የዜና ማሰራጫ"
-
-#: .Import+failed
-msgid "Import failed"
-msgstr "ማስመጣት አልተሳካም"
-
-#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
-msgid ""
-"Your upload is taking longer than usual. Please get back in few minutes."
-msgstr "መጨመሩ ከተለመደው ጊዜ በላይ እየወሰደ ነው። እባክዎ ከጥቂት ደቂቃዎች በኋላ ይመለሱ።"
-
-#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
-msgid ""
-"Your uploads are being processed. This may take a few moments. You will need"
-" to refresh the page to see them on the list."
-msgstr "ጭመራዎ በሂደት ላይ ናቸው። ይህ ጥቂት ጊዜ ሊወስድ ይችላል። በዝርዝሩ ላይ ለማየት ገጹን ማደስ ያስፈልግዎታል።"
-
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "እባክዎ የእርስዎን አርእስቶች ያስገቡ ##type##"
-
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "ርዕስ አልባ ##type##"
-
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "ርዕስ የሌለው ስብስብ"
-
-#: .project+title
-msgid "project title"
-msgstr "የፕሮጀክት ርዕስ"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "ለመጨረሻ ጊዜ የተሻሻለው ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "ተፈጠረ ##date##"
-
-#: .Delete%3F
-msgid "Delete?"
-msgstr "ሰርዝ?"
-
-#: .This+action+is+not+reversible
-msgid "This action is not reversible"
-msgstr "ይህ እርምጃ የሚቀለበስ አይደለም"
-
-#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
-msgid "Asset seems to not have the processing feature enabled!"
-msgstr "ንብረቱ የማስኬጃ ባህሪው ያልነቃ ይመስላል!"
-
-#: .Failed+to+get+processing+data.
-msgid "Failed to get processing data."
-msgstr "የማስኬጃ ውሂብ ማግኘት አልተሳካም።"
-
-#: .Failed+to+set+transcript.
-msgid "Failed to set transcript."
-msgstr "ግልባጭ ማዘጋጀት አልተሳካም።"
-
-#: .Failed+to+delete+transcript.
-msgid "Failed to delete transcript."
-msgstr "ግልባጭ መሰረዝ አልተሳካም።"
-
-#: .Failed+to+delete+translation.
-msgid "Failed to delete translation."
-msgstr "ትርጉም መሰረዝ አልተሳካም።"
-
-#: .No+options+found
-msgid "No options found"
-msgstr "ምንም አማራጮች አልተገኙም"
-
-#: .Failed+to+load+analysis+questions
-msgid "Failed to load analysis questions"
-msgstr "የትንታኔ ጥያቄዎችን መጫን አልተሳካም"
-
-#: .There+was+an+error+getting+the+list+of+plans.
-msgid "There was an error getting the list of plans."
-msgstr "የእቅዶችን ዝርዝር ማግኘት ላይ ስህተት ነበር።"
-
-#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
-msgid ""
-"We couldn't make the requested change to your plan.\n"
-"Your current plan has not been changed."
-msgstr "የተጠየቀውን ለውጥ በእቅድህ ላይ ማድረግ አልቻልንም።\nየአሁኑ እቅድህ አልተለወጠም።"
-
-#: .Couldn%27t+get+data+for+your+organization.
-msgid "Couldn't get data for your organization."
-msgstr "ለድርጅትዎ መረጃ ማግኘት አልተቻለም።"
-
-#: .Original+transcript
-msgid "Original transcript"
-msgstr "ኦሪጅናል ግልባጭ"
-
-#: .Submission+data
-msgid "Submission data"
-msgstr "የማስረከቢያ መረጃ"
-
-#: .Original+file+(Audio)
-msgid "Original file (Audio)"
-msgstr "የመጀመሪያ ፋይል (ድምጽ)"
-
-#: .Display+settings
-msgid "Display settings"
-msgstr "የማሳያ ቅንብሮች"
-
-#: .Customize+display+settings
-msgid "Customize display settings"
-msgstr "የማሳያ ቅንብሮችን ያብጁ"
-
-#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
-msgid ""
-"Select the information you want to display in the side menu to support your "
-"analysis."
-msgstr "ትንታኔዎን ለመደገፍ በጎን ምናሌ ውስጥ ለማሳየት የሚፈልጉትን መረጃ ይምረጡ።"
-
-#: .Apply+selection
-msgid "Apply selection"
-msgstr "ምርጫን ተግብር"
-
 #: .Export
 msgid "Export"
 msgstr "ወደ ውጪ ላክ"
+
+#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+msgid ""
+"This export format will not be supported in the future. Please consider "
+"using one of the other export types available."
+msgstr "ይህ ወደ ውጭ መላኪያ ቅርጸት ወደፊት አይደገፍም። እባክዎ ካሉት ሌሎች ወደ ውጭ የሚላኩ ዓይነቶች አንዱን ለመጠቀም ያስቡበት።"
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -4426,135 +4381,109 @@ msgstr "የተቀመጡ ወደ ውጭ መላኪያ ቅንብሮችን ተግብ�
 msgid "No export settings selected"
 msgstr "ምንም ወደ ውጭ መላኪያ ቅንጅቶች አልተመረጡም።"
 
-#: .There+was+an+issue+fetching+your+plan+information.
-msgid "There was an issue fetching your plan information."
-msgstr "የእቅድዎን መረጃ ማምጣት ላይ ችግር ነበር።"
+#: .Item
+msgid "Item"
+msgstr "ዓይነት"
 
-#: .forgot+password
-msgid "forgot password"
-msgstr "የተረሳ መክፈቻ ቁልፍ"
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "የ ##total_count##"
 
-#: .Unlimited
-msgid "Unlimited"
-msgstr "ያልተገደበ"
+#: .Transcript
+msgid "Transcript"
+msgstr "ግልባጭ"
 
-#: .%23%23minutes%23%23+mins
-msgid "##minutes## mins"
-msgstr "##minutes## ደቂቃ"
+#: .Translations
+msgid "Translations"
+msgstr "ትርጉሞች"
 
-#: .Available
-msgid "Available"
-msgstr "ይገኛል"
+#: .Analysis
+msgid "Analysis"
+msgstr "ትንተና"
 
-#: .Used+this+month
-msgid "Used this month"
-msgstr "በዚህ ወር ጥቅም ላይ የዋለ"
-
-#: .Used+this+year
-msgid "Used this year"
-msgstr "በዚህ አመት ጥቅም ላይ የዋለ"
-
-#: .Balance
-msgid "Balance"
-msgstr "መጠን"
+#: .No+options+found
+msgid "No options found"
+msgstr "ምንም አማራጮች አልተገኙም"
 
 #: .Your+plan
 msgid "Your plan"
 msgstr "እቅድህ"
 
-#: .%23%23plan_name%23%23+Plan
-msgid "##plan_name## Plan"
-msgstr "##plan_name## እቅድ"
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "ሳትቆጥቡ መሄድ ትፈልጋለህ?"
 
-#: .Started+on+%23%23start_date%23%23
-msgid "Started on ##start_date##"
-msgstr "ተጀመረ ##start_date##"
-
-#: .Renews+on+%23%23renewal_date%23%23
-msgid "Renews on ##renewal_date##"
-msgstr "ይታደሳል ##renewal_date##"
-
-#: .Two-factor+authentication
-msgid "Two-factor authentication"
-msgstr "ባለ ሁለት ደረጃ ማረጋገጫ"
-
-#: .Disabled
-msgid "Disabled"
-msgstr "ተሰናክሏል"
-
-#: .Authenticator+app
-msgid "Authenticator app"
-msgstr "አረጋጋጭ መተግበሪያ"
-
-#: .Reconfigure
-msgid "Reconfigure"
-msgstr "እንደገና ማዋቀር"
-
-#: .Recovery+codes
-msgid "Recovery codes"
-msgstr "የመልሶ ማግኛ ኮድ"
-
-#: .Generate+new
-msgid "Generate new"
-msgstr "አዲስ ይፍጠሩ"
-
-#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
-msgid "Two-factor authentication was deactivated for your account on ##date##"
-msgstr "በ##date## ላይ ባለ ሁለት ደረጃ ማረጋገጫ ለመለያ እንዲቦዝን ተደርጓል"
-
-#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
-msgid "This feature is not available on your current plan. Please visit the "
-msgstr "ይህ ባህሪ አሁን ባለው እቅድዎ ላይ አይገኝም። እባክዎን እነዚህን ይጎብኙ "
-
-#: .Plans+page
-msgid "Plans page"
-msgstr "የእቅዶች ገጽ"
-
-#: .+to+upgrade+your+account.
-msgid " to upgrade your account."
-msgstr " መለያዎን ለማሻሻል።"
-
-#: .Email+address
-msgid "Email address"
-msgstr "የ ኢሜል አድራሻ"
-
-#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
-msgid "Check your email ##UNVERIFIED_EMAIL##. "
-msgstr "ኢሜልዎን ያረጋግጡ ##UNVERIFIED_EMAIL##። "
-
-#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"A verification link has been sent to confirm your ownership. Once confirmed,"
-" this address will replace ##UNVERIFIED_EMAIL##"
-msgstr "ባለቤትነትዎን ለማረጋገጥ የማረጋገጫ አገናኝ ተልኳል። አንዴ ከተረጋገጠ ይህ አድራሻ ይተካል ##UNVERIFIED_EMAIL##"
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr "ስለማሻሻልዎ እናመሰግናለን! ለቀጣይ ድጋፍዎ እናመሰግናለን። ስለ እቅድዎ ማንኛውም አይነት ጥያቄ ካሎት billing@kobotoolbox.org ያግኙ።"
 
-#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
-msgid "Email was sent again: ##TIMESTAMP##"
-msgstr "ኢሜል በድጋሚ ተልኳል፡- ##TIMESTAMP##"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr "ስለማሻሻልዎ እናመሰግናለን! ለቀጣይ ድጋፍዎ እናመሰግናለን። መለያዎ ወዲያውኑ ካልተዘመነ፣ ጥቂት ደቂቃዎችን ይጠብቁ እና ገጹን ያድሱ።"
 
-#: .Type+new+email+address
-msgid "Type new email address"
-msgstr "አዲስ የኢሜል አድራሻ ይተይቡ"
+#: .Collapse+full+comparison
+msgid "Collapse full comparison"
+msgstr "ሙሉ ለሙሉ ማወዳደር"
 
-#: .Failed+to+get+API+token
-msgid "Failed to get API token"
-msgstr "የ API ማስመሰያ ማግኘት አልተካም"
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr "ሙሉ ንፅፅር አሳይ"
 
-#: .API+Key
-msgid "API Key"
-msgstr "የ API ቁልፍ"
+#: .show+monthly+plans
+msgid "show monthly plans"
+msgstr "ወርሃዊ እቅዶችን አሳይ"
 
-#: .Single-Sign+On
-msgid "Single-Sign On"
-msgstr "SSO"
+#: .Monthly
+msgid "Monthly"
+msgstr "ወርሃዊ"
 
-#: .Already+connected
-msgid "Already connected"
-msgstr "አስቀድሞ ተገናኝቷል"
+#: .show+annual+plans
+msgid "show annual plans"
+msgstr "ዓመታዊ ዕቅዶችን አሳይ"
 
-#: .Disable
-msgid "Disable"
-msgstr "ማቆም"
+#: .Annual
+msgid "Annual"
+msgstr "አመታዊ"
+
+#: .Want+more%3F
+msgid "Want more?"
+msgstr "ተጨማሪ ይፈልጋሉ?"
+
+#: .Contact+us
+msgid "Contact us"
+msgstr "እኛን ያነጋግሩን"
+
+#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
+msgid ""
+"For organizations with higher volume and advanced data collection needs, get"
+" in touch to learn more about our "
+msgstr "ከፍተኛ መጠን እና የላቀ የመረጃ አሰባሰብ ፍላጎት ላላቸው ድርጅቶች ስለእኛ የበለጠ ለማወቅ ይገናኙ "
+
+#: .Enterprise+Plan
+msgid "Enterprise Plan"
+msgstr "የድርጅት እቅድ"
+
+#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
+msgid ""
+"We also offer custom solutions and private servers for large organizations. "
+msgstr "እንዲሁም ለትላልቅ ድርጅቶች ብጁ መፍትሄዎችን እና የግል አገልጋዮችን እናቀርባለን። "
+
+#: .Contact+our+team
+msgid "Contact our team"
+msgstr "ቡድናችንን ያግኙ"
+
+#: .+for+more+information.
+msgid " for more information."
+msgstr " ለበለጠ መረጃ።"
+
+#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
+msgid ""
+"Use the button above to select the information to be displayed in this area"
+msgstr "በዚህ አካባቢ የሚታየውን መረጃ ለመምረጥ ከላይ ያለውን ቁልፍ ይጠቀሙ"
 
 #: .and+one+other+question
 msgid "and one other question"
@@ -4563,89 +4492,6 @@ msgstr "እና አንድ ሌላ ጥያቄ"
 #: .and+%23%23+other+questions
 msgid "and ## other questions"
 msgstr "እና ## ሌሎች ጥያቄዎች"
-
-#: .There+has+been+an+issue,+please+try+again+later.
-msgid "There has been an issue, please try again later."
-msgstr "ችግር አጋጥሞታል፣ እባክዎ ቆይተው እንደገና ይሞክሩ።"
-
-#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
-msgid ""
-"Success! Your subscription will change at the end of the current billing "
-"period."
-msgstr "ስኬት! የደንበኝነት ምዝገባዎ አሁን ባለው የክፍያ ጊዜ መጨረሻ ላይ ይለወጣል።"
-
-#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
-msgid ""
-"There was an error processing your plan change. Your previous plan has not "
-"been changed. Please try again later."
-msgstr "የዕቅድ ለውጥዎን ማስኬድ ላይ ስህተት ነበር። የቀድሞ እቅድህ አልተለወጠም። እባክዎ ቆየት ብለው ይሞክሩ።"
-
-#: .available+add-ons
-msgid "available add-ons"
-msgstr "የሚገኙ ተጨማሪዎች"
-
-#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
-msgid ""
-"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
-"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
-"            data collection."
-msgstr "የአጠቃቀም ገደቦችዎን ለመጨመር ተጨማሪዎች ወደ ማህበረሰብ እቅድዎ ሊጨመሩ ይችላሉ። ከእርስዎ እቅድ ጋር የተካተቱትን የአጠቃቀም ገደቦች እየቀረቡ ከሆነ ወይም ከደረሱ ውሂብዎን ለመሰብሰብ ለመቀጠል ተጨማሪዎችን በመጠቀም ገደቦችዎን ይጨምሩ።"
-
-#: .Manage
-msgid "Manage"
-msgstr "ያስተዳድሩ"
-
-#: .Buy+now
-msgid "Buy now"
-msgstr "አሁን ይግዙ"
-
-#: .%23%23add_on_name%23%23+add-on
-msgid "##add_on_name## add-on"
-msgstr "##add_on_name## ተጨማሪዎች"
-
-#: .monthly+%23%23plan_name%23%23+plan
-msgid "monthly ##plan_name## plan"
-msgstr "ወርሃዊ ##plan_name## እቅድ"
-
-#: .yearly+%23%23plan_name%23%23+plan
-msgid "yearly ##plan_name## plan"
-msgstr "በየዓመቱ ##plan_name## እቅድ"
-
-#: .add-on
-msgid "add-on"
-msgstr "ተጨማሪዎች"
-
-#: .plan
-msgid "plan"
-msgstr "እቅድ"
-
-#: .Changes+to+your+Plan
-msgid "Changes to your Plan"
-msgstr "በእቅድዎ ላይ የተደረጉ ለውጦች"
-
-#: .Processing+your+transaction%E2%80%A6
-msgid "Processing your transaction…"
-msgstr "ግብይትዎን በማስኬድ ላይ…"
-
-#: .You+are+switching+to+the+%23%23new_product_type%23%23.
-msgid "You are switching to the ##new_product_type##."
-msgstr "ወደዚህ እየቀየሩ ነው ##new_product_type##።"
-
-#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
-msgid ""
-"Because this plan includes unlimited storage, your storage add-on will be "
-"canceled."
-msgstr "ይህ እቅድ ያልተገደበ ማከማቻን ስለሚያካትት የማከማቻ ተጨማሪዎ ይሰረዛል።"
-
-#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23+per+%23%23interval%23%23.
-msgid ""
-"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
-"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price## per ##interval##."
-msgstr "የእርስዎ የአሁኑ##product_type##ድረስ በሥራ ላይ ይቆያል##billing_end_date##.በመጀመር ላይ ##billing_end_date##እና እስክትሰርዙ ድረስ እንከፍሎታለን##new_price##በ ##interval##።"
-
-#: .Submit
-msgid "Submit"
-msgstr "አስገባ"
 
 #: .Search...
 msgid "Search..."
@@ -4679,20 +4525,17 @@ msgstr "ንብረቶች ተገኝተዋል"
 msgid "expand details"
 msgstr "ዝርዝሮችን ዘርጋ"
 
-#: .This+plan+only+supports+up+to+%23%23submissions%23%23+submissions+per+month.+If+your+project+needs+more+than+that,+please+contact+us+about+our+Private+Server+options.
-msgid ""
-"This plan only supports up to ##submissions## submissions per month. If your"
-" project needs more than that, please contact us about our Private Server "
-"options."
-msgstr "ይህ እቅድ ##submissions## በየወሩ እስከ ማቅረቢያዎች ብቻ ይደግፋል። ፕሮጀክትዎ ከዚያ በላይ የሚፈልግ ከሆነ እባክዎን ስለ የግል አገልጋይ አማራጮቻችን ያነጋግሩን።"
-
-#: .Total+Submissions+per+Month
-msgid "Total Submissions per Month"
-msgstr "ጠቅላላ ገቢ በወር"
-
 #: .Could+not+load+media+file
 msgid "Could not load media file"
 msgstr "የሚዲያ ፋይል መጫን አልተቻለም"
+
+#: .Delete%3F
+msgid "Delete?"
+msgstr "ሰርዝ?"
+
+#: .This+action+is+not+reversible
+msgid "This action is not reversible"
+msgstr "ይህ እርምጃ የሚቀለበስ አይደለም"
 
 #: .An+error+occured
 msgid "An error occured"
@@ -4705,6 +4548,22 @@ msgstr "የደንበኝነት ምዝገባ ሁኔታን በመፈተሽ ላይ �
 #: .Incorrect+token+or+something+went+wrong
 msgid "Incorrect token or something went wrong"
 msgstr "ትክክል ያልሆነ ምልክት ወይም የሆነ ችግር ተፈጥሯል"
+
+#: .Mean
+msgid "Mean"
+msgstr "አማካኝ"
+
+#: .Median
+msgid "Median"
+msgstr "መካከለኛ"
+
+#: .Mode
+msgid "Mode"
+msgstr "ሞድ"
+
+#: .Standard+deviation
+msgid "Standard deviation"
+msgstr "ስታንዳርድ ደቪአትዖን"
 
 #: .Filter+by
 msgid "Filter by"
@@ -4726,21 +4585,9 @@ msgstr "ሁኔታን ይምረጡ"
 msgid "Enter value"
 msgstr "ዋጋ አስገባ"
 
-#: .Mean
-msgid "Mean"
-msgstr "አማካኝ"
-
-#: .Median
-msgid "Median"
-msgstr "መካከለኛ"
-
-#: .Mode
-msgid "Mode"
-msgstr "ሞድ"
-
-#: .Standard+deviation
-msgid "Standard deviation"
-msgstr "ስታንዳርድ ደቪአትዖን"
+#: .There+was+an+issue+fetching+your+plan+information.
+msgid "There was an issue fetching your plan information."
+msgstr "የእቅድዎን መረጃ ማምጣት ላይ ችግር ነበር።"
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4753,60 +4600,6 @@ msgstr "መስክ ይፈልጉ"
 #: .No+results
 msgid "No results"
 msgstr "ምንም ውጤት የለም።"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
-msgid "You are about to permanently delete ##count## projects"
-msgstr "ፕሮጀክቶችን ##count## እስከመጨረሻው ሊሰርዙ ነው"
-
-#: .All+data+gathered+for+these+projects+will+be+deleted
-msgid "All data gathered for these projects will be deleted"
-msgstr "ለእነዚህ ፕሮጀክቶች የተሰበሰበው መረጃ ሁሉ ይሰረዛል"
-
-#: .Forms+associated+with+these+projects+will+be+deleted
-msgid "Forms associated with these projects will be deleted"
-msgstr "ከእነዚህ ፕሮጀክቶች ጋር የተያያዙ ቅጾች ይሰረዛሉ"
-
-#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
-msgid ""
-"I understand that if I delete these projects I will not be able to recover "
-"them"
-msgstr "እነዚህን ፕሮጀክቶች ከሰረዝኩ መልሼ ማግኘት እንደማልችል ተረድቻለሁ"
-
-#: .Default+sort
-msgid "Default sort"
-msgstr "ነባሪ ዓይነት"
-
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "በENTER ይተይቡ እና ያረጋግጡ"
-
-#: .Name+must+be+unique%21
-msgid "Name must be unique!"
-msgstr "ስም ልዩ መሆን አለበት!"
-
-#: .Code+must+be+unique%21
-msgid "Code must be unique!"
-msgstr "ኮድ ልዩ መሆን አለበት!"
-
-#: .Default+language+name
-msgid "Default language name"
-msgstr "ነባሪ የቋንቋ ስም"
-
-#: .Language+name
-msgid "Language name"
-msgstr "የቋንቋ ስም"
-
-#: .Default+language+code
-msgid "Default language code"
-msgstr "ነባሪ የቋንቋ ኮድ"
-
-#: .Language+code
-msgid "Language code"
-msgstr "የቋንቋ ኮድ"
-
-#: .Set
-msgid "Set"
-msgstr "አዘጋጅ"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4864,9 +4657,37 @@ msgstr "ለምሳሌ መታወቂያ"
 msgid "Submitted by"
 msgstr "የቀረበው በ"
 
-#: .Select+export+type
-msgid "Select export type"
-msgstr "ወደ ውጭ የመላክ አይነት ይምረጡ"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "በENTER ይተይቡ እና ያረጋግጡ"
+
+#: .Name+must+be+unique%21
+msgid "Name must be unique!"
+msgstr "ስም ልዩ መሆን አለበት!"
+
+#: .Code+must+be+unique%21
+msgid "Code must be unique!"
+msgstr "ኮድ ልዩ መሆን አለበት!"
+
+#: .Default+language+name
+msgid "Default language name"
+msgstr "ነባሪ የቋንቋ ስም"
+
+#: .Language+name
+msgid "Language name"
+msgstr "የቋንቋ ስም"
+
+#: .Default+language+code
+msgid "Default language code"
+msgstr "ነባሪ የቋንቋ ኮድ"
+
+#: .Language+code
+msgid "Language code"
+msgstr "የቋንቋ ኮድ"
+
+#: .Set
+msgid "Set"
+msgstr "አዘጋጅ"
 
 #: .CSV+(legacy)
 msgid "CSV (legacy)"
@@ -4916,21 +4737,205 @@ msgstr "ነጠላ አምድ"
 msgid "Single and separate columns"
 msgstr "ነጠላ እና የተለዩ ዓምዶች"
 
-#: .Automated+analysis
-msgid "Automated analysis"
-msgstr "ራስ-ሰር ትንትኔ"
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
+msgid "You are about to permanently delete ##count## projects"
+msgstr "ፕሮጀክቶችን ##count## እስከመጨረሻው ሊሰርዙ ነው"
 
-#: .Unsaved+changes
-msgid "Unsaved changes"
-msgstr "ያልተቀመጡ ለውጦች"
+#: .All+data+gathered+for+these+projects+will+be+deleted
+msgid "All data gathered for these projects will be deleted"
+msgstr "ለእነዚህ ፕሮጀክቶች የተሰበሰበው መረጃ ሁሉ ይሰረዛል"
 
-#: .Saved
-msgid "Saved"
-msgstr "ተቀምጧል"
+#: .Forms+associated+with+these+projects+will+be+deleted
+msgid "Forms associated with these projects will be deleted"
+msgstr "ከእነዚህ ፕሮጀክቶች ጋር የተያያዙ ቅጾች ይሰረዛሉ"
 
-#: .There+was+an+error+fetching+usage+data.
-msgid "There was an error fetching usage data."
-msgstr "የአጠቃቀም ውሂብ ማምጣት ላይ ስህተት ነበር።"
+#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
+msgid ""
+"I understand that if I delete these projects I will not be able to recover "
+"them"
+msgstr "እነዚህን ፕሮጀክቶች ከሰረዝኩ መልሼ ማግኘት እንደማልችል ተረድቻለሁ"
+
+#: .Non-profit+organization
+msgid "Non-profit organization"
+msgstr "ግብረ ሰናይ ድርጅት"
+
+#: .Government+institution
+msgid "Government institution"
+msgstr "የመንግስት ተቋም"
+
+#: .Educational+organization
+msgid "Educational organization"
+msgstr "የትምህርት ተቋም"
+
+#: .A+commercial/for-profit+company
+msgid "A commercial/for-profit company"
+msgstr "የንግድ/ለትርፍ የተቋቋመ ኩባንያ"
+
+#: .I+am+not+associated+with+any+organization
+msgid "I am not associated with any organization"
+msgstr "ከየትኛውም ድርጅት ጋር ግንኙነት የለኝም"
+
+#: .Male
+msgid "Male"
+msgstr "ወንድ"
+
+#: .Female
+msgid "Female"
+msgstr "ሴት"
+
+#: .Other
+msgid "Other"
+msgstr "ሌላ"
+
+#: .Use+this+to+display+your+real+name+to+other+users
+msgid "Use this to display your real name to other users"
+msgstr "እውነተኛ ስምህን ለሌሎች ተጠቃሚዎች ለማሳየት ይህንን ተጠቀም"
+
+#: .Social
+msgid "Social"
+msgstr "ማህበራዊ"
+
+#: .Newsletter
+msgid "Newsletter"
+msgstr "የዜና ማሰራጫ"
+
+#: .forgot+password
+msgid "forgot password"
+msgstr "የተረሳ መክፈቻ ቁልፍ"
+
+#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
+msgid "Asset seems to not have the processing feature enabled!"
+msgstr "ንብረቱ የማስኬጃ ባህሪው ያልነቃ ይመስላል!"
+
+#: .Failed+to+get+processing+data.
+msgid "Failed to get processing data."
+msgstr "የማስኬጃ ውሂብ ማግኘት አልተሳካም።"
+
+#: .Failed+to+set+transcript.
+msgid "Failed to set transcript."
+msgstr "ግልባጭ ማዘጋጀት አልተሳካም።"
+
+#: .Failed+to+delete+transcript.
+msgid "Failed to delete transcript."
+msgstr "ግልባጭ መሰረዝ አልተሳካም።"
+
+#: .Failed+to+delete+translation.
+msgid "Failed to delete translation."
+msgstr "ትርጉም መሰረዝ አልተሳካም።"
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "እርግጠኛ ነዎት ይህን ጥያቄ መሰረዝ ይፈልጋሉ?"
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr "ጥያቄ ይሰርዙ"
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr "የተባዛ ጥያቄ"
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr "ጥያቄ ወደ ቤተ-መጽሐፍት ያክሉ"
+
+#: .Email+address
+msgid "Email address"
+msgstr "የ ኢሜል አድራሻ"
+
+#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
+msgid "Check your email ##UNVERIFIED_EMAIL##. "
+msgstr "ኢሜልዎን ያረጋግጡ ##UNVERIFIED_EMAIL##። "
+
+#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+msgid ""
+"A verification link has been sent to confirm your ownership. Once confirmed,"
+" this address will replace ##UNVERIFIED_EMAIL##"
+msgstr "ባለቤትነትዎን ለማረጋገጥ የማረጋገጫ አገናኝ ተልኳል። አንዴ ከተረጋገጠ ይህ አድራሻ ይተካል ##UNVERIFIED_EMAIL##"
+
+#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
+msgid "Email was sent again: ##TIMESTAMP##"
+msgstr "ኢሜል በድጋሚ ተልኳል፡- ##TIMESTAMP##"
+
+#: .Type+new+email+address
+msgid "Type new email address"
+msgstr "አዲስ የኢሜል አድራሻ ይተይቡ"
+
+#: .Two-factor+authentication
+msgid "Two-factor authentication"
+msgstr "ባለ ሁለት ደረጃ ማረጋገጫ"
+
+#: .Disabled
+msgid "Disabled"
+msgstr "ተሰናክሏል"
+
+#: .Authenticator+app
+msgid "Authenticator app"
+msgstr "አረጋጋጭ መተግበሪያ"
+
+#: .Reconfigure
+msgid "Reconfigure"
+msgstr "እንደገና ማዋቀር"
+
+#: .Recovery+codes
+msgid "Recovery codes"
+msgstr "የመልሶ ማግኛ ኮድ"
+
+#: .Generate+new
+msgid "Generate new"
+msgstr "አዲስ ይፍጠሩ"
+
+#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
+msgid "Two-factor authentication was deactivated for your account on ##date##"
+msgstr "በ##date## ላይ ባለ ሁለት ደረጃ ማረጋገጫ ለመለያ እንዲቦዝን ተደርጓል"
+
+#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
+msgid "This feature is not available on your current plan. Please visit the "
+msgstr "ይህ ባህሪ አሁን ባለው እቅድዎ ላይ አይገኝም። እባክዎን እነዚህን ይጎብኙ "
+
+#: .Plans+page
+msgid "Plans page"
+msgstr "የእቅዶች ገጽ"
+
+#: .+to+upgrade+your+account.
+msgid " to upgrade your account."
+msgstr " መለያዎን ለማሻሻል።"
+
+#: .Failed+to+get+API+token
+msgid "Failed to get API token"
+msgstr "የ API ማስመሰያ ማግኘት አልተካም"
+
+#: .API+Key
+msgid "API Key"
+msgstr "የ API ቁልፍ"
+
+#: .Single-Sign+On
+msgid "Single-Sign On"
+msgstr "SSO"
+
+#: .Connect+your+KoboToolbox+account+with+your+organization%27s+identity+provider+for+single-sign+on+(SSO).+Afterwards,+you+will+only+be+able+to+sign+in+via+SSO+unless+you+disable+this+setting+here.+This+will+also+update+your+email+address+in+case+your+current+address+is+different.
+msgid ""
+"Connect your KoboToolbox account with your organization's identity provider "
+"for single-sign on (SSO). Afterwards, you will only be able to sign in via "
+"SSO unless you disable this setting here. This will also update your email "
+"address in case your current address is different."
+msgstr ""
+
+#: .Already+connected
+msgid "Already connected"
+msgstr "አስቀድሞ ተገናኝቷል"
+
+#: .Disable
+msgid "Disable"
+msgstr "ማቆም"
+
+#: .No+organization+found
+msgid "No organization found"
+msgstr ""
+
+#: .Couldn%27t+get+usage+data
+msgid "Couldn't get usage data"
+msgstr ""
 
 #: .You+are+approaching+your
 msgid "You are approaching your"
@@ -4956,29 +4961,19 @@ msgstr " እና "
 msgid "limit"
 msgstr "ገደብ"
 
-#: .Please
-msgid "Please"
-msgstr "እባካችሁ"
+#: .limits
+msgid "limits"
+msgstr ""
 
-#: .review+your+usage
-msgid "review your usage"
-msgstr "አጠቃቀምዎን ይገምግሙ"
+#: .about+upgrading+your+plan.
+msgid "about upgrading your plan."
+msgstr ""
 
-#: .upgrade+your+plan
-msgid "upgrade your plan"
-msgstr "እቅድዎን ያሻሽሉ"
-
-#: .as+soon+as+possible
-msgid "as soon as possible"
-msgstr "በተቻለ ፍጥነት"
-
-#: .if+needed
-msgid "if needed"
-msgstr "አስፈላጊ ከሆነ"
-
-#: .Review+your+usage+in+account+settings
-msgid "Review your usage in account settings"
-msgstr "አጠቃቀምዎን በመለያ ቅንብሮች ውስጥ ይገምግሙ"
+#: .Please+upgrade+your+plan+or+purchase+an+add-on+to+increase+your+usage+limits.
+msgid ""
+"Please upgrade your plan or purchase an add-on to increase your usage "
+"limits."
+msgstr ""
 
 #: .Monitor+usage
 msgid "Monitor usage"
@@ -5012,6 +5007,14 @@ msgstr "እርስዎ ደርሰዋል"
 msgid "included with your current plan."
 msgstr "አሁን ካለው እቅድዎ ጋር ተካትቷል።"
 
+#: .Please
+msgid "Please"
+msgstr "እባካችሁ"
+
+#: .upgrade+your+plan
+msgid "upgrade your plan"
+msgstr "እቅድዎን ያሻሽሉ"
+
 #: .review+your+usage+in+account+settings
 msgid "review your usage in account settings"
 msgstr "አጠቃቀምዎን በመለያ ቅንብሮች ውስጥ ይገምግሙ"
@@ -5020,164 +5023,267 @@ msgstr "አጠቃቀምዎን በመለያ ቅንብሮች ውስጥ ይገም�
 msgid "remind me later"
 msgstr "መጨረሻ ላይ አስታውሱኝ"
 
-#: .source+file
-msgid "source file"
-msgstr "ምንጭ ፋይል"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "ወደ ውጭ የመላክ አይነት ይምረጡ"
 
-#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
-msgid "This ##type## does not have a transcript yet"
-msgstr "ይህ ##type## እስካሁን ግልባጭ የለውም"
+#: .%23%23start_date%23%23+to+%23%23end_date%23%23
+msgid "##start_date## to ##end_date##"
+msgstr "##start_date## እስከ ##end_date##"
 
-#: .begin
-msgid "begin"
-msgstr "ጀምር"
+#: .Your+usage
+msgid "Your usage"
+msgstr "የእርስዎ አጠቃቀም"
 
-#: .Please+select+the+original+language+of+the+%23%23type%23%23
-msgid "Please select the original language of the ##type##"
-msgstr "እባኮትን ##type## የመጀመሪያውን ቋንቋ ይምረጡ"
+#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
+msgid "Last update: ##LAST_UPDATE_TIME##"
+msgstr "የመጨረሻው ዝመና፦ ##LAST_UPDATE_TIME##"
 
-#: .back
-msgid "back"
-msgstr "ተመለስ"
+#: .Storage
+msgid "Storage"
+msgstr "ማከማቻ"
 
-#: .manual
-msgid "manual"
-msgstr "በእጅ"
+#: .per+account
+msgid "per account"
+msgstr "በአካውንት"
 
-#: .transcribe
-msgid "transcribe"
-msgstr "መገልበጥ"
+#: .Transcription+minutes
+msgid "Transcription minutes"
+msgstr "የጽሑፍ ግልባጭ ደቂቃዎች"
 
-#: .Automatic+transcription+in+progress
-msgid "Automatic transcription in progress"
-msgstr "ራስ-ሰር ቅጂ በሂደት ላይ"
+#: .Translation+characters
+msgid "Translation characters"
+msgstr "የትርጉም ቁምፊዎች"
 
-#: .Estimated+time+for+completion+%23%23estimate%23%23
-msgid "Estimated time for completion: ##estimate##"
-msgstr "ለማጠናቀቅ የሚገመተው ጊዜ፦ ##estimate##"
+#: .%23%23count%23%23+Projects
+msgid "##count## Projects"
+msgstr ""
 
-#: .Automatic+transcription+of+audio+file+from
-msgid "Automatic transcription of audio file from"
-msgstr "የድምጽ ፋይል በራስ-ሰር ወደ ግልባጭ ከ"
+#: .Submissions+(Total)
+msgid "Submissions (Total)"
+msgstr ""
 
-#: .Transcription+provider
-msgid "Transcription provider"
-msgstr "የጽሑፍ ግልባጭ አቅራቢ"
+#: .Submissions+(This+year)
+msgid "Submissions (This year)"
+msgstr ""
 
-#: .cancel
-msgid "cancel"
-msgstr "ሰርዝ"
+#: .Submissions+(This+month)
+msgid "Submissions (This month)"
+msgstr ""
 
-#: .create+transcript
-msgid "create transcript"
-msgstr "ግልባጭ ይፍጠሩ"
+#: .Data+storage
+msgid "Data storage"
+msgstr ""
 
-#: .Delete+transcript%3F
-msgid "Delete transcript?"
-msgstr "ግልባጭ ይሰረዝ?"
+#: .Transcript+minutes
+msgid "Transcript minutes"
+msgstr ""
 
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "እርግጠኛ ነዎት ይህን ጥያቄ መሰረዝ ይፈልጋሉ?"
+#: .There+was+an+error+getting+the+list+of+plans.
+msgid "There was an error getting the list of plans."
+msgstr "የእቅዶችን ዝርዝር ማግኘት ላይ ስህተት ነበር።"
 
-#: .Delete+Question
-msgid "Delete Question"
-msgstr "ጥያቄ ይሰርዙ"
-
-#: .Duplicate+Question
-msgid "Duplicate Question"
-msgstr "የተባዛ ጥያቄ"
-
-#: .Add+Question+to+Library
-msgid "Add Question to Library"
-msgstr "ጥያቄ ወደ ቤተ-መጽሐፍት ያክሉ"
-
-#: .This+transcript+does+not+have+any+translations+yet
-msgid "This transcript does not have any translations yet"
-msgstr "ይህ ግልባጭ እስካሁን ምንም ትርጉሞች የሉትም"
-
-#: .Please+select+the+language+you+want+to+translate+to
-msgid "Please select the language you want to translate to"
-msgstr "እባክህ መተርጎም የምትፈልገውን ቋንቋ ምረጥ ወደ"
-
-#: .translate
-msgid "translate"
-msgstr "መተርጎም"
-
-#: .Automatic+translation+of+transcript+to
-msgid "Automatic translation of transcript to"
-msgstr "የጽሑፍ ግልባጭ በራስ-ሰር ትርጉም ወደ"
-
-#: .Translation+provider
-msgid "Translation provider"
-msgstr "የትርጉም አቅራቢ"
-
-#: .create+translation
-msgid "create translation"
-msgstr "ትርጉም መፍጠር"
-
-#: .Delete+translation%3F
-msgid "Delete translation?"
-msgstr "ትርጉም ይሰረዝ?"
-
-#: .new+translation
-msgid "new translation"
-msgstr "አዲስ ትርጉም"
-
-#: .less+than+a+minute
-msgid "less than a minute"
-msgstr "ከአንድ ደቂቃ ያነሰ"
-
-#: .about+1+minute
-msgid "about 1 minute"
-msgstr "1 ደቂቃ ገደማ"
-
-#: .about+2+minutes
-msgid "about 2 minutes"
-msgstr "2 ደቂቃ ገደማ"
-
-#: .about+%23%23number%23%23+minutes
-msgid "about ##number## minutes"
-msgstr "##number## ደቂቃ ገደማ"
-
-#: .Free
-msgid "Free"
-msgstr "ነፃ"
-
-#: .%24%23%23price%23%23+USD/month
-msgid "$##price## USD/month"
-msgstr "$##price## USD/ወር"
-
-#: .Upgrade
-msgid "Upgrade"
-msgstr "አሻሽል"
-
-#: .Change+plan
-msgid "Change plan"
-msgstr "እቅድ ቀይሩ"
-
-#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
 msgid ""
-"Please note that any qualitative question created for this record will "
-"generate a new column in the data table, making the question available for "
-"all other records."
-msgstr "እባክዎን ለዚህ መዝገብ የተፈጠረ ማንኛውም የጥራት ጥያቄ በመረጃ ሠንጠረዥ ውስጥ አዲስ አምድ እንደሚያመነጭ እና ጥያቄው ለሁሉም መዝገቦች የሚገኝ መሆኑን ልብ ይበሉ።"
+"We couldn't make the requested change to your plan.\n"
+"Your current plan has not been changed."
+msgstr "የተጠየቀውን ለውጥ በእቅድህ ላይ ማድረግ አልቻልንም።\nየአሁኑ እቅድህ አልተለወጠም።"
 
-#: .There+are+no+qualitative+analysis+questions+yet.
-msgid "There are no qualitative analysis questions yet."
-msgstr "እስካሁን ምንም የጥራት ትንተና ጥያቄዎች የሉም።"
+#: .Couldn%27t+get+data+for+your+organization.
+msgid "Couldn't get data for your organization."
+msgstr "ለድርጅትዎ መረጃ ማግኘት አልተቻለም።"
 
-#: .Click+the+%22Add+question%22+button+to+get+started
-msgid "Click the \"Add question\" button to get started"
-msgstr "ለመጀመር \"ጥያቄ አክል\" የሚለውን ቁልፍ ጠቅ ያድርጉ"
+#: .%23%23plan_name%23%23+Plan
+msgid "##plan_name## Plan"
+msgstr "##plan_name## እቅድ"
 
-#: .Only+those+with+full+editing+rights+can+create+questions
-msgid "Only those with full editing rights can create questions"
-msgstr "ጥያቄዎችን መፍጠር የሚችሉት ሙሉ የአርትዖት መብት ያላቸው ብቻ ናቸው"
+#: .Started+on+%23%23start_date%23%23
+msgid "Started on ##start_date##"
+msgstr "ተጀመረ ##start_date##"
 
-#: .Contact+the+project+owner+for+more+information
-msgid "Contact the project owner for more information"
-msgstr "ለበለጠ መረጃ የፕሮጀክቱን ባለቤት ያነጋግሩ"
+#: .Renews+on+%23%23renewal_date%23%23
+msgid "Renews on ##renewal_date##"
+msgstr "ይታደሳል ##renewal_date##"
+
+#: .Ends+on+%23%23end_date%23%23
+msgid "Ends on ##end_date##"
+msgstr ""
+
+#: .Changing+usage+limits+on+%23%23change_date%23%23
+msgid "Changing usage limits on ##change_date##"
+msgstr ""
+
+#: .Switching+to+monthly+on+%23%23change_date%23%23
+msgid "Switching to monthly on ##change_date##"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+has+been+canceled+but+will+remain+active+until+the+end+of+the+billing+period.
+msgid ""
+"Your ##current_plan## plan has been canceled but will remain active until "
+"the end of the billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+the+%23%23next_plan%23%23+plan+on
+msgid "Your ##current_plan## plan will change to the ##next_plan## plan on"
+msgstr ""
+
+#: ..+You+can+continue+using+%23%23current_plan%23%23+plan+features+until+the+end+of+the+billing+period.
+msgid ""
+". You can continue using ##current_plan## plan features until the end of the"
+" billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+include+up+to+%23%23submission_quantity%23%23+submissions/month+starting+from
+msgid ""
+"Your ##current_plan## plan will change to include up to "
+"##submission_quantity## submissions/month starting from"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+from+annual+to+monthly+starting+from
+msgid ""
+"Your ##current_plan## plan will change from annual to monthly starting from"
+msgstr ""
+
+#: .Failed+to+load+analysis+questions
+msgid "Failed to load analysis questions"
+msgstr "የትንታኔ ጥያቄዎችን መጫን አልተሳካም"
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr "ችግር አጋጥሞታል፣ እባክዎ ቆይተው እንደገና ይሞክሩ።"
+
+#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
+msgid ""
+"Success! Your subscription will change at the end of the current billing "
+"period."
+msgstr "ስኬት! የደንበኝነት ምዝገባዎ አሁን ባለው የክፍያ ጊዜ መጨረሻ ላይ ይለወጣል።"
+
+#: .Ends+on+%23%23cancel_date%23%23
+msgid "Ends on ##cancel_date##"
+msgstr ""
+
+#: .Starts+on+%23%23start_date%23%23
+msgid "Starts on ##start_date##"
+msgstr ""
+
+#: .available+add-ons
+msgid "available add-ons"
+msgstr "የሚገኙ ተጨማሪዎች"
+
+#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
+msgid ""
+"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
+"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
+"            data collection."
+msgstr "የአጠቃቀም ገደቦችዎን ለመጨመር ተጨማሪዎች ወደ ማህበረሰብ እቅድዎ ሊጨመሩ ይችላሉ። ከእርስዎ እቅድ ጋር የተካተቱትን የአጠቃቀም ገደቦች እየቀረቡ ከሆነ ወይም ከደረሱ ውሂብዎን ለመሰብሰብ ለመቀጠል ተጨማሪዎችን በመጠቀም ገደቦችዎን ይጨምሩ።"
+
+#: .Manage
+msgid "Manage"
+msgstr "ያስተዳድሩ"
+
+#: .Buy+now
+msgid "Buy now"
+msgstr "አሁን ይግዙ"
+
+#: .Total+Submissions+per+Month
+msgid "Total Submissions per Month"
+msgstr "ጠቅላላ ገቢ በወር"
+
+#: .%23%23asr_minutes%23%23+minutes+of+automated+transcription+/%23%23plan_interval%23%23
+msgid "##asr_minutes## minutes of automated transcription /##plan_interval##"
+msgstr ""
+
+#: .%23%23mt_characters%23%23+characters+of+machine+translation+/%23%23plan_interval%23%23
+msgid "##mt_characters## characters of machine translation /##plan_interval##"
+msgstr ""
+
+#: .%23%23add_on_name%23%23+add-on
+msgid "##add_on_name## add-on"
+msgstr "##add_on_name## ተጨማሪዎች"
+
+#: .monthly+%23%23plan_name%23%23+plan
+msgid "monthly ##plan_name## plan"
+msgstr "ወርሃዊ ##plan_name## እቅድ"
+
+#: .yearly+%23%23plan_name%23%23+plan
+msgid "yearly ##plan_name## plan"
+msgstr "በየዓመቱ ##plan_name## እቅድ"
+
+#: .plan
+msgid "plan"
+msgstr "እቅድ"
+
+#: .add-on
+msgid "add-on"
+msgstr "ተጨማሪዎች"
+
+#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
+msgid ""
+"There was an error processing your plan change. Your previous plan has not "
+"been changed. Please try again later."
+msgstr "የዕቅድ ለውጥዎን ማስኬድ ላይ ስህተት ነበር። የቀድሞ እቅድህ አልተለወጠም። እባክዎ ቆየት ብለው ይሞክሩ።"
+
+#: .Changes+to+your+Plan
+msgid "Changes to your Plan"
+msgstr "በእቅድዎ ላይ የተደረጉ ለውጦች"
+
+#: .Processing+your+transaction%E2%80%A6
+msgid "Processing your transaction…"
+msgstr "ግብይትዎን በማስኬድ ላይ…"
+
+#: .You+are+switching+to+the+%23%23new_product_type%23%23.
+msgid "You are switching to the ##new_product_type##."
+msgstr "ወደዚህ እየቀየሩ ነው ##new_product_type##።"
+
+#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
+msgid ""
+"Because this plan includes unlimited storage, your storage add-on will be "
+"canceled."
+msgstr "ይህ እቅድ ያልተገደበ ማከማቻን ስለሚያካትት የማከማቻ ተጨማሪዎ ይሰረዛል።"
+
+#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23.
+msgid ""
+"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
+"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price##."
+msgstr ""
+
+#: .Submit
+msgid "Submit"
+msgstr "አስገባ"
+
+#: .Original+transcript
+msgid "Original transcript"
+msgstr "ኦሪጅናል ግልባጭ"
+
+#: .Submission+data
+msgid "Submission data"
+msgstr "የማስረከቢያ መረጃ"
+
+#: .Original+file+(Audio)
+msgid "Original file (Audio)"
+msgstr "የመጀመሪያ ፋይል (ድምጽ)"
+
+#: .Display+settings
+msgid "Display settings"
+msgstr "የማሳያ ቅንብሮች"
+
+#: .Customize+display+settings
+msgid "Customize display settings"
+msgstr "የማሳያ ቅንብሮችን ያብጁ"
+
+#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
+msgid ""
+"Select the information you want to display in the side menu to support your "
+"analysis."
+msgstr "ትንታኔዎን ለመደገፍ በጎን ምናሌ ውስጥ ለማሳየት የሚፈልጉትን መረጃ ይምረጡ።"
+
+#: .Select+the+submission+data+to+display.
+msgid "Select the submission data to display."
+msgstr ""
+
+#: .Apply+selection
+msgid "Apply selection"
+msgstr "ምርጫን ተግብር"
 
 #: .Delete+group
 msgid "Delete group"
@@ -5227,37 +5333,167 @@ msgstr "በከፊል የተቆለፈ ጥያቄ"
 msgid "Enter your question"
 msgstr "ጥያቄዎን ያስገቡ"
 
-#: .original
-msgid "original"
-msgstr "ኦሪጅናል"
+#: .Default+sort
+msgid "Default sort"
+msgstr "ነባሪ ዓይነት"
 
-#: .Search+for+a+language
-msgid "Search for a language"
-msgstr "ቋንቋ መፈለግ"
+#: .There+was+an+error+fetching+usage+data.
+msgid "There was an error fetching usage data."
+msgstr "የአጠቃቀም ውሂብ ማምጣት ላይ ስህተት ነበር።"
 
-#: .Sorry,+didn%27t+find+any+language%E2%80%A6
-msgid "Sorry, didn't find any language…"
-msgstr "ይቅርታ ምንም ቋንቋ አላገኘሁም።"
+#: .There+was+an+error+fetching+asset+usage+data.
+msgid "There was an error fetching asset usage data."
+msgstr ""
 
-#: .I+cannot+find+my+language
-msgid "I cannot find my language"
-msgstr "ቋንቋዬን ማግኘት አልቻልኩም"
+#: .Automated+analysis
+msgid "Automated analysis"
+msgstr "ራስ-ሰር ትንትኔ"
 
-#: .Please+select+the+language
-msgid "Please select the language"
-msgstr "እባክዎ ቋንቋውን ይምረጡ"
+#: .Unsaved+changes
+msgid "Unsaved changes"
+msgstr "ያልተቀመጡ ለውጦች"
 
-#: .automatic
-msgid "automatic"
-msgstr "አውቶማቲክ"
+#: .Saved
+msgid "Saved"
+msgstr "ተቀምጧል"
 
-#: .Click+to+add+another+response...
-msgid "Click to add another response..."
-msgstr "ሌላ ምላሽ ለማከል ጠቅ ያድርጉ..."
+#: .source+file
+msgid "source file"
+msgstr "ምንጭ ፋይል"
 
-#: .Accepted+files
-msgid "Accepted files"
-msgstr "ተቀባይነት ያላቸው ፋይሎች"
+#: .Please+select+the+original+language+of+the+%23%23type%23%23
+msgid "Please select the original language of the ##type##"
+msgstr "እባኮትን ##type## የመጀመሪያውን ቋንቋ ይምረጡ"
+
+#: .back
+msgid "back"
+msgstr "ተመለስ"
+
+#: .manual
+msgid "manual"
+msgstr "በእጅ"
+
+#: .transcribe
+msgid "transcribe"
+msgstr "መገልበጥ"
+
+#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
+msgid "This ##type## does not have a transcript yet"
+msgstr "ይህ ##type## እስካሁን ግልባጭ የለውም"
+
+#: .begin
+msgid "begin"
+msgstr "ጀምር"
+
+#: .Unlimited
+msgid "Unlimited"
+msgstr "ያልተገደበ"
+
+#: .%23%23minutes%23%23+mins
+msgid "##minutes## mins"
+msgstr "##minutes## ደቂቃ"
+
+#: .Available
+msgid "Available"
+msgstr "ይገኛል"
+
+#: .Used+this+month
+msgid "Used this month"
+msgstr "በዚህ ወር ጥቅም ላይ የዋለ"
+
+#: .Used+this+year
+msgid "Used this year"
+msgstr "በዚህ አመት ጥቅም ላይ የዋለ"
+
+#: .Balance
+msgid "Balance"
+msgstr "መጠን"
+
+#: .Automatic+transcription+in+progress
+msgid "Automatic transcription in progress"
+msgstr "ራስ-ሰር ቅጂ በሂደት ላይ"
+
+#: .Estimated+time+for+completion+%23%23estimate%23%23
+msgid "Estimated time for completion: ##estimate##"
+msgstr "ለማጠናቀቅ የሚገመተው ጊዜ፦ ##estimate##"
+
+#: .Automatic+transcription+of+audio+file+from
+msgid "Automatic transcription of audio file from"
+msgstr "የድምጽ ፋይል በራስ-ሰር ወደ ግልባጭ ከ"
+
+#: .Transcription+provider
+msgid "Transcription provider"
+msgstr "የጽሑፍ ግልባጭ አቅራቢ"
+
+#: .Automated+transcription+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+audio+file+will+be+sent+to+Google%27s+servers+for+the+purpose+of+transcribing.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+short+period+needed+for+completing+the+transcription,+and+we+do+not+allow+Google+to+use+the+audio+for+improving+its+transcription+service.
+msgid ""
+"Automated transcription is provided by Google Cloud Platform. By using this "
+"service you agree that your audio file will be sent to Google's servers for "
+"the purpose of transcribing. However, it will not be stored on Google's "
+"servers beyond the short period needed for completing the transcription, and"
+" we do not allow Google to use the audio for improving its transcription "
+"service."
+msgstr ""
+
+#: .cancel
+msgid "cancel"
+msgstr "ሰርዝ"
+
+#: .create+transcript
+msgid "create transcript"
+msgstr "ግልባጭ ይፍጠሩ"
+
+#: .Delete+transcript%3F
+msgid "Delete transcript?"
+msgstr "ግልባጭ ይሰረዝ?"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "ለመጨረሻ ጊዜ የተሻሻለው ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "ተፈጠረ ##date##"
+
+#: .Please+select+the+language+you+want+to+translate+to
+msgid "Please select the language you want to translate to"
+msgstr "እባክህ መተርጎም የምትፈልገውን ቋንቋ ምረጥ ወደ"
+
+#: .translate
+msgid "translate"
+msgstr "መተርጎም"
+
+#: .This+transcript+does+not+have+any+translations+yet
+msgid "This transcript does not have any translations yet"
+msgstr "ይህ ግልባጭ እስካሁን ምንም ትርጉሞች የሉትም"
+
+#: .Automatic+translation+of+transcript+to
+msgid "Automatic translation of transcript to"
+msgstr "የጽሑፍ ግልባጭ በራስ-ሰር ትርጉም ወደ"
+
+#: .Translation+provider
+msgid "Translation provider"
+msgstr "የትርጉም አቅራቢ"
+
+#: .Automated+translation+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+transcript+text+will+be+sent+to+Google%27s+servers+for+the+purpose+of+translation.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+very+short+period+needed+for+completing+the+translation.
+msgid ""
+"Automated translation is provided by Google Cloud Platform. By using this "
+"service you agree that your transcript text will be sent to Google's servers"
+" for the purpose of translation. However, it will not be stored on Google's "
+"servers beyond the very short period needed for completing the translation."
+msgstr ""
+
+#: .create+translation
+msgid "create translation"
+msgstr "ትርጉም መፍጠር"
+
+#: .Delete+translation%3F
+msgid "Delete translation?"
+msgstr "ትርጉም ይሰረዝ?"
+
+#: .new+translation
+msgid "new translation"
+msgstr "አዲስ ትርጉም"
 
 #: .All+group+settings
 msgid "All group settings"
@@ -5327,6 +5563,26 @@ msgid ""
 "contact us at help@kobotoolbox.org so we can fix this bug!"
 msgstr "ይህ ጥያቄ ሊመጣ አልቻለም። እባኮትን እራስዎ እንደገና ይፍጠሩት። እባክዎን ይህንን ስህተት ለማስተካከል በ help@kobotoolbox.org ያግኙን!"
 
+#: .Free
+msgid "Free"
+msgstr "ነፃ"
+
+#: .%24%23%23price%23%23+USD/month
+msgid "$##price## USD/month"
+msgstr "$##price## USD/ወር"
+
+#: .Upgrade
+msgid "Upgrade"
+msgstr "አሻሽል"
+
+#: .Change+plan
+msgid "Change plan"
+msgstr "እቅድ ቀይሩ"
+
+#: .Accepted+files
+msgid "Accepted files"
+msgstr "ተቀባይነት ያላቸው ፋይሎች"
+
 #: .This+form+is+currently+empty.
 msgid "This form is currently empty."
 msgstr "ይህ ቅጽ በአሁኑ ጊዜ ባዶ ነው።"
@@ -5341,17 +5597,33 @@ msgstr "ከታች ያለውን '+' ምልክት ጠቅ በማድረግ ጥያቄ
 msgid "Add Question"
 msgstr "ጥያቄ ጨምር"
 
-#: .No+value
-msgid "No value"
-msgstr "ዋጋ የለውም"
+#: .Click+to+add+another+response...
+msgid "Click to add another response..."
+msgstr "ሌላ ምላሽ ለማከል ጠቅ ያድርጉ..."
 
-#: .Unknown+question+type+%23%23type_name%23%23
-msgid "Unknown question type ##type_name##"
-msgstr "ያልታወቀ የጥያቄ አይነት ##type_name##"
+#: .less+than+a+minute
+msgid "less than a minute"
+msgstr "ከአንድ ደቂቃ ያነሰ"
+
+#: .about+1+minute
+msgid "about 1 minute"
+msgstr "1 ደቂቃ ገደማ"
+
+#: .about+2+minutes
+msgid "about 2 minutes"
+msgstr "2 ደቂቃ ገደማ"
+
+#: .about+%23%23number%23%23+minutes
+msgid "about ##number## minutes"
+msgstr "##number## ደቂቃ ገደማ"
 
 #: .e.g.+%22.pdf,.doc,.odt%22
 msgid "e.g. \".pdf,.doc,.odt\""
 msgstr "e.g. \".pdf,.doc,.odt\""
+
+#: .No+value
+msgid "No value"
+msgstr "ዋጋ የለውም"
 
 #: .Choices+File
 msgid "Choices File"
@@ -5405,41 +5677,56 @@ msgstr "አስፈላጊ ከሆነ ይህንን ቡድን ይድገሙት"
 msgid "Appearance (advanced)"
 msgstr "መልክ (የላቀ)"
 
-#: .Question+label+cannot+be+empty
-msgid "Question label cannot be empty"
-msgstr "የጥያቄ መለያ ባዶ ሊሆን አይችልም"
+#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+msgid ""
+"Please note that any qualitative question created for this record will "
+"generate a new column in the data table, making the question available for "
+"all other records."
+msgstr "እባክዎን ለዚህ መዝገብ የተፈጠረ ማንኛውም የጥራት ጥያቄ በመረጃ ሠንጠረዥ ውስጥ አዲስ አምድ እንደሚያመነጭ እና ጥያቄው ለሁሉም መዝገቦች የሚገኝ መሆኑን ልብ ይበሉ።"
 
-#: .Some+required+fields+are+missing
-msgid "Some required fields are missing"
-msgstr "አንዳንድ አስፈላጊ መስኮች ጠፍተዋል"
+#: .There+are+no+qualitative+analysis+questions+yet.
+msgid "There are no qualitative analysis questions yet."
+msgstr "እስካሁን ምንም የጥራት ትንተና ጥያቄዎች የሉም።"
 
-#: .Type+question
-msgid "Type question"
-msgstr "ጥያቄ ይጻፉ"
+#: .Click+the+%22Add+question%22+button+to+get+started
+msgid "Click the \"Add question\" button to get started"
+msgstr "ለመጀመር \"ጥያቄ አክል\" የሚለውን ቁልፍ ጠቅ ያድርጉ"
 
-#: .Type+your+answer
-msgid "Type your answer"
-msgstr "መልስ ጻፉ።"
+#: .Only+those+with+full+editing+rights+can+create+questions
+msgid "Only those with full editing rights can create questions"
+msgstr "ጥያቄዎችን መፍጠር የሚችሉት ሙሉ የአርትዖት መብት ያላቸው ብቻ ናቸው"
 
-#: .%E2%80%A6keyword+search+in+progress
-msgid "…keyword search in progress"
-msgstr "…የቁልፍ ቃል ፍለጋ በሂደት ላይ"
+#: .Contact+the+project+owner+for+more+information
+msgid "Contact the project owner for more information"
+msgstr "ለበለጠ መረጃ የፕሮጀክቱን ባለቤት ያነጋግሩ"
 
-#: .Apply+search
-msgid "Apply search"
-msgstr "ፍለጋ ይተግብሩ"
+#: .original
+msgid "original"
+msgstr "ኦሪጅናል"
 
-#: .%23%23number%23%23+instances
-msgid "##number## instances"
-msgstr "##number## ሁኔታዎች"
+#: .Search+for+a+language
+msgid "Search for a language"
+msgstr "ቋንቋ መፈለግ"
 
-#: .of+the+keywords
-msgid "of the keywords"
-msgstr "ከቁልፍ ቃላቶች"
+#: .Sorry,+didn%27t+find+any+language%E2%80%A6
+msgid "Sorry, didn't find any language…"
+msgstr "ይቅርታ ምንም ቋንቋ አላገኘሁም።"
 
-#: .from
-msgid "from"
-msgstr "ከ"
+#: .I+cannot+find+my+language
+msgid "I cannot find my language"
+msgstr "ቋንቋዬን ማግኘት አልቻልኩም"
+
+#: .Please+select+the+language
+msgid "Please select the language"
+msgstr "እባክዎ ቋንቋውን ይምረጡ"
+
+#: .automatic
+msgid "automatic"
+msgstr "አውቶማቲክ"
+
+#: .Unknown+question+type+%23%23type_name%23%23
+msgid "Unknown question type ##type_name##"
+msgstr "ያልታወቀ የጥያቄ አይነት ##type_name##"
 
 #: .Change+column+type%3F
 msgid "Change column type?"
@@ -5517,6 +5804,30 @@ msgstr "የውሂብ አምድ ቅድመ ቅጥያ"
 msgid "Delete row"
 msgstr "ረድፍ ሰርዝ"
 
+#: .%E2%80%A6keyword+search+in+progress
+msgid "…keyword search in progress"
+msgstr "…የቁልፍ ቃል ፍለጋ በሂደት ላይ"
+
+#: .Apply+search
+msgid "Apply search"
+msgstr "ፍለጋ ይተግብሩ"
+
+#: .%23%23number%23%23+instances
+msgid "##number## instances"
+msgstr "##number## ሁኔታዎች"
+
+#: .of+the+keywords
+msgid "of the keywords"
+msgstr "ከቁልፍ ቃላቶች"
+
+#: .from
+msgid "from"
+msgstr "ከ"
+
+#: .Type+your+answer
+msgid "Type your answer"
+msgstr "መልስ ጻፉ።"
+
 #: .Delete+this+question%3F
 msgid "Delete this question?"
 msgstr "ይህ ጥያቄ ይሰረዝ?"
@@ -5525,6 +5836,18 @@ msgstr "ይህ ጥያቄ ይሰረዝ?"
 msgid ""
 "Are you sure you want to delete this question? This action cannot be undone."
 msgstr "እርግጠኛ ነዎት ይህን አምድ መሰረዝ ይፈልጋሉ? ይህ እርምጃ ሊቀለበስ አይችልም።"
+
+#: .Question+label+cannot+be+empty
+msgid "Question label cannot be empty"
+msgstr "የጥያቄ መለያ ባዶ ሊሆን አይችልም"
+
+#: .Some+required+fields+are+missing
+msgid "Some required fields are missing"
+msgstr "አንዳንድ አስፈላጊ መስኮች ጠፍተዋል"
+
+#: .Type+question
+msgid "Type question"
+msgstr "ጥያቄ ይጻፉ"
 
 #: .Look+for
 msgid "Look for"

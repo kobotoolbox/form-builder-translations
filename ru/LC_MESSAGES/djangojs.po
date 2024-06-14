@@ -4,7 +4,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 19:59+0000\n"
+"POT-Creation-Date: 2024-06-06 18:23+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: FULL NAME <EMAIL@ADDRESS>\n"
 "Language-Team: Russian (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ru/)\n"
@@ -114,10 +114,6 @@ msgstr "Изменить языки"
 #: .Could+not+find+%23%23fileName%23%23
 msgid "Could not find ##fileName##"
 msgstr "Файл «##fileName##» не найден"
-
-#: .N/A
-msgid "N/A"
-msgstr "Н/П"
 
 #: .me
 msgid "me"
@@ -437,6 +433,14 @@ msgstr "Больше или равно"
 msgid "Less Than or Equal to"
 msgstr "Меньше или равно"
 
+#: .Manually+enter+your+validation+logic+in+XLSForm+code
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr "Вручную введите свою логику проверки в код XLSForm"
+
+#: .Validation+Code
+msgid "Validation Code:"
+msgstr "Код проверки:"
+
 #: .This+question+will+only+be+displayed+if+the+following+conditions+apply
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "Этот вопрос будет отображаться только при соблюдении следующих условий"
@@ -461,14 +465,6 @@ msgstr "значение ответа"
 msgid "Select question from list"
 msgstr "Выберите вопрос из списка"
 
-#: .Manually+enter+your+validation+logic+in+XLSForm+code
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "Вручную введите свою логику проверки в код XLSForm"
-
-#: .Validation+Code
-msgid "Validation Code:"
-msgstr "Код проверки:"
-
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23)
 msgid "##permission_label## (##username_list##)"
 msgstr "##permission_label## (##username_list##)"
@@ -476,6 +472,12 @@ msgstr "##permission_label## (##username_list##)"
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
 msgid "##permission_label## (##username_list## and 1 other)"
 msgstr "##permission_label## (##username_list## и еще один)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+%23%23hidden_username_count%23%23+others)
+msgid ""
+"##permission_label## (##username_list## and ##hidden_username_count## "
+"others)"
+msgstr ""
 
 #: .My+Projects
 msgid "My Projects"
@@ -713,49 +715,21 @@ msgstr "Не удалось повторить все отправки"
 msgid "loading…"
 msgstr "загрузка…"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "Не удалось получить uuids отправки."
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "Не удалось загрузить ваши медиафайлы"
 
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "Не удалось получить отправку."
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "Произошла ошибка при получении ваших медиафайлов"
 
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "Не удалось обновить отправки."
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "Медиафайлы успешно удалены"
 
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "Не удалось обновить некоторые значения в отправках."
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "Не удалось обновить значения в отправках."
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "Не удалось удалить отправки."
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "Не удалось создать экспорт"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "Не удалось удалить экспорт"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "Не удалось обновить настройки экспорта"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "Не удалось создать настройки экспорта"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "Не удалось удалить настройки экспорта"
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "Не удалось удалить медиафайлы!"
 
 #: .Failed+to+attach+to+source
 msgid "Failed to attach to source"
@@ -781,6 +755,30 @@ msgstr "Не удалось переключить режим совместно
 msgid "Failed to update column filters"
 msgstr "Не удалось обновить фильтры столбцов"
 
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "Не удалось получить uuids отправки."
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "Не удалось получить отправку."
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "Не удалось обновить отправки."
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "Не удалось обновить некоторые значения в отправках."
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "Не удалось обновить значения в отправках."
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "Не удалось удалить отправки."
+
 #: .Successfully+removed+from+collection
 msgid "Successfully removed from collection"
 msgstr "Удалено из подборки"
@@ -797,21 +795,25 @@ msgstr "Не удалось переместить в подборку"
 msgid "Failed to get the results"
 msgstr "Не удалось получить результаты"
 
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "Не удалось загрузить ваши медиафайлы"
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "Не удалось создать экспорт"
 
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "Произошла ошибка при получении ваших медиафайлов"
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "Не удалось удалить экспорт"
 
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "Медиафайлы успешно удалены"
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "Не удалось обновить настройки экспорта"
 
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "Не удалось удалить медиафайлы!"
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "Не удалось создать настройки экспорта"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "Не удалось удалить настройки экспорта"
 
 #: .%23%23field_label%23%23+(required)
 msgid "##field_label## (required)"
@@ -1011,13 +1013,17 @@ msgstr "Предсказуемые замены, такие как «@» вме�
 msgid "Password strength"
 msgstr "Надежность пароля"
 
+#: .XForm+is+loading
+msgid "XForm is loading"
+msgstr "Загрузка XForm"
+
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "путь не найден/не распознан"
 
-#: .XForm+is+loading
-msgid "XForm is loading"
-msgstr "Загрузка XForm"
+#: .Section+not+found
+msgid "Section not found"
+msgstr ""
 
 #: .Untitled
 msgid "Untitled"
@@ -1233,6 +1239,18 @@ msgstr "Черновая версия"
 msgid "If you want to make these changes public, you must deploy this form."
 msgstr "Чтобы сделать изменения общедоступными, необходимо развернуть эту форму на севере."
 
+#: .Public+Collections
+msgid "Public Collections"
+msgstr "Общедоступные подборки"
+
+#: .Subscribed
+msgid "Subscribed"
+msgstr "Подписка"
+
+#: .Quick+look
+msgid "Quick look"
+msgstr "Быстрый просмотр"
+
 #: .Your+search+returned+no+results.
 msgid "Your search returned no results."
 msgstr "Ваш запрос не дал результатов."
@@ -1256,18 +1274,6 @@ msgstr "Моя библиотека"
 #: .Drop+files+to+upload
 msgid "Drop files to upload"
 msgstr "Перетащить файлы для загрузки"
-
-#: .Public+Collections
-msgid "Public Collections"
-msgstr "Общедоступные подборки"
-
-#: .Subscribed
-msgid "Subscribed"
-msgstr "Подписка"
-
-#: .Quick+look
-msgid "Quick look"
-msgstr "Быстрый просмотр"
 
 #: .Could+not+load+grouped+results+via+%22%23%23%22.+Will+attempt+to+load+the+ungrouped+report.
 msgid ""
@@ -1355,9 +1361,11 @@ msgstr "Пользовательский отчет"
 msgid "Question Style"
 msgstr "Стиль вопроса"
 
-#: .There+is+no+data+for+this+question+for+the+current+submission
-msgid "There is no data for this question for the current submission"
-msgstr "Данные по этому вопросу отсутствуют в текущей отправке"
+#: .Anyone+can+see+this+blank+form+and+add+submissions+to+it+because+you+have+not+set+[your+account]+to+require+authentication.
+msgid ""
+"Anyone can see this blank form and add submissions to it because you have "
+"not set [your account] to require authentication."
+msgstr ""
 
 #: .Who+has+access
 msgid "Who has access"
@@ -1370,6 +1378,359 @@ msgstr "Добавить пользователя"
 #: .Waiting+for+all+projects+to+load%E2%80%A6
 msgid "Waiting for all projects to load…"
 msgstr "Ожидание загрузки всех проектов…"
+
+#: .An+error+occurred
+msgid "An error occurred"
+msgstr "Произошла ошибка"
+
+#: .Your+connection+is+offline
+msgid "Your connection is offline"
+msgstr "Ваше соединение отключено"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "Из соображений производительности карта по умолчанию ограничивается следующим количеством последних по времени отправок: ##number##. Перейдите в настройки карты, чтобы увеличить лимит."
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "Ошибка: не удалось загрузить данные."
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "Дезагрегировать по ответам на опрос"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "Дезагрегировано с помощью:"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "Ответов по «геоточке» не получено"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "Данные на карте не отображаются, так как в этой форме нет поля «геоточки»."
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "Включить полноэкранный режим"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "Показать как точки"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "Переключить слои"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "Настройки отображения карты"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "Показать как тепловую карту"
+
+#: .Language
+msgid "Language"
+msgstr "Язык"
+
+#: .Default
+msgid "Default"
+msgstr "По умолчанию"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- Отобразить все данные --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "без перевода: "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "Метка вопроса не установлена"
+
+#: .Reset
+msgid "Reset"
+msgstr "Сброс"
+
+#: .not+set
+msgid "not set"
+msgstr "не установлено"
+
+#: .Legend
+msgid "Legend"
+msgstr "Условные обозначения"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "Настройки карты"
+
+#: .Table
+msgid "Table"
+msgstr "Таблица"
+
+#: .Reports
+msgid "Reports"
+msgstr "Отчеты"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "Галерея"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "Загрузки"
+
+#: .Map
+msgid "Map"
+msgstr "Карта"
+
+#: .General
+msgid "General"
+msgstr "Общие"
+
+#: .Media
+msgid "Media"
+msgstr "Мультимедиа"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "Совместное использование"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "Подключение проектов"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "Службы REST"
+
+#: .Your+query+is+too+short
+msgid "Your query is too short"
+msgstr "Ваш запрос слишком короткий"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "не удалось составить список объектов"
+
+#: .Import
+msgid "Import"
+msgstr "Импорт"
+
+#: .Next
+msgid "Next"
+msgstr "Далее"
+
+#: .Create+project
+msgid "Create project"
+msgstr "Создать проект"
+
+#: .Project+settings
+msgid "Project settings"
+msgstr "Настройки проекта"
+
+#: .Choose+a+source
+msgid "Choose a source"
+msgstr "Выбрать источник"
+
+#: .Choose+template
+msgid "Choose template"
+msgstr "Выбрать шаблон"
+
+#: .Upload+XLSForm
+msgid "Upload XLSForm"
+msgstr "Загрузка формы XLSForm"
+
+#: .Import+XLSForm
+msgid "Import XLSForm"
+msgstr "Импорт формы XLSForm"
+
+#: .Project+details
+msgid "Project details"
+msgstr "Подробные сведения о проекте"
+
+#: .Choose
+msgid "Choose"
+msgstr "Выбрать"
+
+#: .Error+asset+could+not+be+created.
+msgid "Error: asset could not be created."
+msgstr "Ошибка: не удалось создать объект."
+
+#: .Error+new+project+could+not+be+created.
+msgid "Error: new project could not be created."
+msgstr "Ошибка: не удалось создать новый проект."
+
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "Ожидайте…"
+
+#: .Retrieving+form,+please+wait...
+msgid "Retrieving form, please wait..."
+msgstr "Получение формы, ожидайте…"
+
+#: .Failed+to+reload+project+after+import%21
+msgid "Failed to reload project after import!"
+msgstr "Не удалось перезагрузить проект после импорта!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "Ошибка импорта!"
+
+#: .Could+not+initialize+XLSForm+import%21
+msgid "Could not initialize XLSForm import!"
+msgstr "Не удалось инициализировать импорт формы XLSForm!"
+
+#: .Failed+to+reload+project+after+upload%21
+msgid "Failed to reload project after upload!"
+msgstr "Не удалось перезагрузить проект после загрузки!"
+
+#: .Could+not+import+XLSForm%21
+msgid "Could not import XLSForm!"
+msgstr "Не удалось импортировать форму XLSForm!"
+
+#: .Some+fields+contain+errors%21
+msgid "Some fields contain errors!"
+msgstr "Некоторые поля содержат ошибки!"
+
+#: .Project+Name
+msgid "Project Name"
+msgstr "Имя проекта"
+
+#: .%23%23count%23%23+characters+left
+msgid "##count## characters left"
+msgstr "Осталось символов: ##count##"
+
+#: .Use+a+template
+msgid "Use a template"
+msgstr "Использовать шаблон"
+
+#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
+msgid ""
+"Choose one of the options below to continue. You will be prompted to enter "
+"name and other details in further steps."
+msgstr "Для продолжения выберите один из приведенных ниже вариантов. Далее вам будет предложено ввести имя и другие сведения."
+
+#: .Build+from+scratch
+msgid "Build from scratch"
+msgstr "Создать с нуля"
+
+#: .Upload+an+XLSForm
+msgid "Upload an XLSForm"
+msgstr "Загрузить форму XLSForm"
+
+#: .Import+an+XLSForm+via+URL
+msgid "Import an XLSForm via URL"
+msgstr "Импортировать форму XLSForm через URL-адрес"
+
+#: .Import+an+XLSForm+from+your+computer.
+msgid "Import an XLSForm from your computer."
+msgstr "Импортировать форму XLSForm с компьютера."
+
+#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
+msgid " Drag and drop the XLSForm file here or click to browse"
+msgstr " Перетащите форму XLSForm сюда или нажмите для просмотра"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "Загрузка файла…"
+
+#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
+msgid "Enter a valid XLSForm URL in the field below."
+msgstr "Введите действительный URL-адрес формы XLSForm в расположенном ниже поле."
+
+#: .Having+issues%3F+See+this+help+article.
+msgid "Having issues? See this help article."
+msgstr "Возникли проблемы? См. эту справочную статью."
+
+#: .URL
+msgid "URL"
+msgstr "URL-адрес"
+
+#: .Save+Changes
+msgid "Save Changes"
+msgstr "Сохранить изменения"
+
+#: .Please+enter+a+title+for+your+project%21
+msgid "Please enter a title for your project!"
+msgstr "Введите название проекта!"
+
+#: .Enter+title+of+project+here
+msgid "Enter title of project here"
+msgstr "Введите название проекта здесь"
+
+#: .Please+enter+a+description+for+your+project
+msgid "Please enter a description for your project"
+msgstr "Введите описание вашего проекта"
+
+#: .Enter+short+description+here
+msgid "Enter short description here"
+msgstr "Введите краткое описание здесь"
+
+#: .Please+choose+a+sector
+msgid "Please choose a sector"
+msgstr "Выберите сектор"
+
+#: .Please+select+at+least+one+country
+msgid "Please select at least one country"
+msgstr "Выберите хотя бы одну страну"
+
+#: .Please+specify+the+operational+purpose+of+your+project
+msgid "Please specify the operational purpose of your project"
+msgstr "Укажите основную цель проекта"
+
+#: .Yes
+msgid "Yes"
+msgstr "Да"
+
+#: .No
+msgid "No"
+msgstr "Нет"
+
+#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
+msgid ""
+"Please indicate whether or not your project collects personally identifiable"
+" information"
+msgstr "Укажите, собираются ли в рамках данного проекта личные сведения"
+
+#: .Save
+msgid "Save"
+msgstr "Сохранить"
+
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "Разархивировать проект"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "Архивировать проект"
+
+#: .Archive+project+to+stop+accepting+submissions.
+msgid "Archive project to stop accepting submissions."
+msgstr "Заархивируйте проект, чтобы завершить прием отправок."
+
+#: .Unarchive+project+to+resume+accepting+submissions.
+msgid "Unarchive project to resume accepting submissions."
+msgstr "Разархивируйте проект, чтобы возобновить прием отправок."
+
+#: .Delete+Project+and+Data
+msgid "Delete Project and Data"
+msgstr "Удалить проект и данные"
+
+#: .Back
+msgid "Back"
+msgstr "Вернуться"
+
+#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
+msgid ""
+"Form replacing is not available due to form's Locking Profile restrictions."
+msgstr "Замена формы недоступна из-за ограничений профиля блокировки формы."
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -1525,427 +1886,6 @@ msgstr "Ошибка создания предварительного прос�
 msgid "Import Cascading Select Questions"
 msgstr "Импорт вопросов каскадного выбора"
 
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "Из соображений производительности карта по умолчанию ограничивается следующим количеством последних по времени отправок: ##number##. Перейдите в настройки карты, чтобы увеличить лимит."
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "Ошибка: не удалось загрузить данные."
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "Дезагрегировать по ответам на опрос"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "Дезагрегировано с помощью:"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "Ответов по «геоточке» не получено"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "Данные на карте не отображаются, так как в этой форме нет поля «геоточки»."
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "Включить полноэкранный режим"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "Показать как точки"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "Переключить слои"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "Настройки отображения карты"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "Показать как тепловую карту"
-
-#: .Language
-msgid "Language"
-msgstr "Язык"
-
-#: .Default
-msgid "Default"
-msgstr "По умолчанию"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- Отобразить все данные --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "без перевода: "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "Метка вопроса не установлена"
-
-#: .Reset
-msgid "Reset"
-msgstr "Сброс"
-
-#: .not+set
-msgid "not set"
-msgstr "не установлено"
-
-#: .Legend
-msgid "Legend"
-msgstr "Условные обозначения"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "Настройки карты"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "скопировано в буфер обмена"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "Копия объекта"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "Введите имя скопированного объекта типа «##ASSET_TYPE##». Оставьте пустым, чтобы сохранить исходное имя."
-
-#: .Ok
-msgid "Ok"
-msgstr "OK"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "Файлов: ##"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "Ошибка импорта формы XLSForm. Убедитесь, что форма XLSForm и URL-адрес действительны, и повторите попытку, воспользовавшись значком «Заменить форму»."
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "Импорт XLS завершен"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "Загружаемые данные обрабатываются. Это может занять несколько минут."
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "Загружаемые данные включены в очередь на обработку. Это может занять несколько минут."
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "Ошибка импорта!"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "Не удалось создать импорт."
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "Ошибка загрузки: не удалось распознать файл Excel."
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "Имя загруженного файла: "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "Не удалось распознать пропущенный элемент или несколько элементов."
-
-#: .Project+information
-msgid "Project information"
-msgstr "Информация о проекте"
-
-#: .Questions
-msgid "Questions"
-msgstr "Вопросы"
-
-#: .Last+modified
-msgid "Last modified"
-msgstr "Последнее изменение"
-
-#: .Last+deployed
-msgid "Last deployed"
-msgstr "Последнее развертывание"
-
-#: .Latest+submission
-msgid "Latest submission"
-msgstr "Последняя отправка"
-
-#: .Operational+purpose+of+data
-msgid "Operational purpose of data"
-msgstr "Основное назначение сбора данных"
-
-#: .Collects+personally+identifiable+information
-msgid "Collects personally identifiable information"
-msgstr "Осуществляется сбор личных сведений"
-
-#: .Table
-msgid "Table"
-msgstr "Таблица"
-
-#: .Reports
-msgid "Reports"
-msgstr "Отчеты"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "Галерея"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "Загрузки"
-
-#: .Map
-msgid "Map"
-msgstr "Карта"
-
-#: .General
-msgid "General"
-msgstr "Общие"
-
-#: .Media
-msgid "Media"
-msgstr "Мультимедиа"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "Совместное использование"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "Подключение проектов"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "Службы REST"
-
-#: .Import
-msgid "Import"
-msgstr "Импорт"
-
-#: .Next
-msgid "Next"
-msgstr "Далее"
-
-#: .Create+project
-msgid "Create project"
-msgstr "Создать проект"
-
-#: .Project+settings
-msgid "Project settings"
-msgstr "Настройки проекта"
-
-#: .Choose+a+source
-msgid "Choose a source"
-msgstr "Выбрать источник"
-
-#: .Choose+template
-msgid "Choose template"
-msgstr "Выбрать шаблон"
-
-#: .Upload+XLSForm
-msgid "Upload XLSForm"
-msgstr "Загрузка формы XLSForm"
-
-#: .Import+XLSForm
-msgid "Import XLSForm"
-msgstr "Импорт формы XLSForm"
-
-#: .Project+details
-msgid "Project details"
-msgstr "Подробные сведения о проекте"
-
-#: .Choose
-msgid "Choose"
-msgstr "Выбрать"
-
-#: .Error+asset+could+not+be+created.
-msgid "Error: asset could not be created."
-msgstr "Ошибка: не удалось создать объект."
-
-#: .Error+new+project+could+not+be+created.
-msgid "Error: new project could not be created."
-msgstr "Ошибка: не удалось создать новый проект."
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "Ожидайте…"
-
-#: .Retrieving+form,+please+wait...
-msgid "Retrieving form, please wait..."
-msgstr "Получение формы, ожидайте…"
-
-#: .Failed+to+reload+project+after+import%21
-msgid "Failed to reload project after import!"
-msgstr "Не удалось перезагрузить проект после импорта!"
-
-#: .Could+not+initialize+XLSForm+import%21
-msgid "Could not initialize XLSForm import!"
-msgstr "Не удалось инициализировать импорт формы XLSForm!"
-
-#: .Failed+to+reload+project+after+upload%21
-msgid "Failed to reload project after upload!"
-msgstr "Не удалось перезагрузить проект после загрузки!"
-
-#: .Could+not+import+XLSForm%21
-msgid "Could not import XLSForm!"
-msgstr "Не удалось импортировать форму XLSForm!"
-
-#: .Some+fields+contain+errors%21
-msgid "Some fields contain errors!"
-msgstr "Некоторые поля содержат ошибки!"
-
-#: .Project+Name
-msgid "Project Name"
-msgstr "Имя проекта"
-
-#: .%23%23count%23%23+characters+left
-msgid "##count## characters left"
-msgstr "Осталось символов: ##count##"
-
-#: .Use+a+template
-msgid "Use a template"
-msgstr "Использовать шаблон"
-
-#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
-msgid ""
-"Choose one of the options below to continue. You will be prompted to enter "
-"name and other details in further steps."
-msgstr "Для продолжения выберите один из приведенных ниже вариантов. Далее вам будет предложено ввести имя и другие сведения."
-
-#: .Build+from+scratch
-msgid "Build from scratch"
-msgstr "Создать с нуля"
-
-#: .Upload+an+XLSForm
-msgid "Upload an XLSForm"
-msgstr "Загрузить форму XLSForm"
-
-#: .Import+an+XLSForm+via+URL
-msgid "Import an XLSForm via URL"
-msgstr "Импортировать форму XLSForm через URL-адрес"
-
-#: .Import+an+XLSForm+from+your+computer.
-msgid "Import an XLSForm from your computer."
-msgstr "Импортировать форму XLSForm с компьютера."
-
-#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
-msgid " Drag and drop the XLSForm file here or click to browse"
-msgstr " Перетащите форму XLSForm сюда или нажмите для просмотра"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "Загрузка файла…"
-
-#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
-msgid "Enter a valid XLSForm URL in the field below."
-msgstr "Введите действительный URL-адрес формы XLSForm в расположенном ниже поле."
-
-#: .Having+issues%3F+See+this+help+article.
-msgid "Having issues? See this help article."
-msgstr "Возникли проблемы? См. эту справочную статью."
-
-#: .URL
-msgid "URL"
-msgstr "URL-адрес"
-
-#: .Save+Changes
-msgid "Save Changes"
-msgstr "Сохранить изменения"
-
-#: .Please+enter+a+title+for+your+project%21
-msgid "Please enter a title for your project!"
-msgstr "Введите название проекта!"
-
-#: .Enter+title+of+project+here
-msgid "Enter title of project here"
-msgstr "Введите название проекта здесь"
-
-#: .Please+enter+a+description+for+your+project
-msgid "Please enter a description for your project"
-msgstr "Введите описание вашего проекта"
-
-#: .Enter+short+description+here
-msgid "Enter short description here"
-msgstr "Введите краткое описание здесь"
-
-#: .Please+choose+a+sector
-msgid "Please choose a sector"
-msgstr "Выберите сектор"
-
-#: .Please+select+at+least+one+country
-msgid "Please select at least one country"
-msgstr "Выберите хотя бы одну страну"
-
-#: .Please+specify+the+operational+purpose+of+your+project
-msgid "Please specify the operational purpose of your project"
-msgstr "Укажите основную цель проекта"
-
-#: .Yes
-msgid "Yes"
-msgstr "Да"
-
-#: .No
-msgid "No"
-msgstr "Нет"
-
-#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
-msgid ""
-"Please indicate whether or not your project collects personally identifiable"
-" information"
-msgstr "Укажите, собираются ли в рамках данного проекта личные сведения"
-
-#: .Save
-msgid "Save"
-msgstr "Сохранить"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "Разархивировать проект"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "Архивировать проект"
-
-#: .Archive+project+to+stop+accepting+submissions.
-msgid "Archive project to stop accepting submissions."
-msgstr "Заархивируйте проект, чтобы завершить прием отправок."
-
-#: .Unarchive+project+to+resume+accepting+submissions.
-msgid "Unarchive project to resume accepting submissions."
-msgstr "Разархивируйте проект, чтобы возобновить прием отправок."
-
-#: .Delete+Project+and+Data
-msgid "Delete Project and Data"
-msgstr "Удалить проект и данные"
-
-#: .Back
-msgid "Back"
-msgstr "Вернуться"
-
-#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
-msgid ""
-"Form replacing is not available due to form's Locking Profile restrictions."
-msgstr "Замена формы недоступна из-за ограничений профиля блокировки формы."
-
 #: .URL+is+empty%21
 msgid "URL is empty!"
 msgstr "URL-адрес пуст!"
@@ -1998,6 +1938,114 @@ msgstr "загрузка медиафайлов"
 msgid "No files uploaded yet"
 msgstr "Файлы еще не загружены"
 
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "скопировано в буфер обмена"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "Копия объекта"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "Введите имя скопированного объекта типа «##ASSET_TYPE##». Оставьте пустым, чтобы сохранить исходное имя."
+
+#: .Ok
+msgid "Ok"
+msgstr "OK"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "Файлов: ##"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "Ошибка импорта формы XLSForm. Убедитесь, что форма XLSForm и URL-адрес действительны, и повторите попытку, воспользовавшись значком «Заменить форму»."
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "Импорт XLS завершен"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "Загружаемые данные обрабатываются. Это может занять несколько минут."
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "Загружаемые данные включены в очередь на обработку. Это может занять несколько минут."
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "Не удалось создать импорт."
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "Ошибка загрузки: не удалось распознать файл Excel."
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "Имя загруженного файла: "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "Не удалось распознать пропущенный элемент или несколько элементов."
+
+#: .Vertical
+msgid "Vertical"
+msgstr "Вертикальная"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "Горизонтальная"
+
+#: .Pie
+msgid "Pie"
+msgstr "Круговая"
+
+#: .Donut
+msgid "Donut"
+msgstr "Кольцевая"
+
+#: .Polar+area
+msgid "Polar area"
+msgstr "Полярная Область"
+
+#: .Radar
+msgid "Radar"
+msgstr "Радар"
+
+#: .Project+information
+msgid "Project information"
+msgstr "Информация о проекте"
+
+#: .Questions
+msgid "Questions"
+msgstr "Вопросы"
+
+#: .Last+modified
+msgid "Last modified"
+msgstr "Последнее изменение"
+
+#: .Last+deployed
+msgid "Last deployed"
+msgstr "Последнее развертывание"
+
+#: .Latest+submission
+msgid "Latest submission"
+msgstr "Последняя отправка"
+
+#: .Operational+purpose+of+data
+msgid "Operational purpose of data"
+msgstr "Основное назначение сбора данных"
+
+#: .Collects+personally+identifiable+information
+msgid "Collects personally identifiable information"
+msgstr "Осуществляется сбор личных сведений"
+
 #: .All+questions
 msgid "All questions"
 msgstr "Все вопросы"
@@ -2018,14 +2066,6 @@ msgstr "Между"
 msgid "and"
 msgstr "и"
 
-#: .Your+query+is+too+short
-msgid "Your query is too short"
-msgstr "Ваш запрос слишком короткий"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "не удалось составить список объектов"
-
 #: .new
 msgid "new"
 msgstr "создать"
@@ -2041,6 +2081,76 @@ msgstr "Библиотека"
 #: .Source
 msgid "Source"
 msgstr "Источник"
+
+#: .New+feature
+msgid "New feature"
+msgstr "Новая функция"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "Подробности"
+
+#: .Allow+submissions+to+this+form+without+a+username+and+password
+msgid "Allow submissions to this form without a username and password"
+msgstr "Разрешить отправки в эту форму без указания имени пользователя и пароля"
+
+#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
+msgid ""
+"Allow anonymous submissions for this project. Previously, this was an "
+"account-wide setting. Click the icon to learn more."
+msgstr "Разрешить анонимные отправки для данного проекта. Ранее данная опция действовала в рамках всей учетной записи. Нажмите на значок, чтобы узнать больше."
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "Пустой объект типа «##asset_type##»."
+
+#: .Show+less
+msgid "Show less"
+msgstr "Показать меньше"
+
+#: .Show+more
+msgid "Show more"
+msgstr "Показать больше"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "Не удалось изменить состояние общедоступности объекта."
+
+#: .Make+public
+msgid "Make public"
+msgstr "Сделать общедоступным"
+
+#: .Make+private
+msgid "Make private"
+msgstr "Сделать приватным"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "Не удалось получить данные владельца."
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "Дата создания"
+
+#: .Items
+msgid "Items"
+msgstr "Элементы"
+
+#: .Organization
+msgid "Organization"
+msgstr "Организация"
+
+#: .Country
+msgid "Country"
+msgstr "Страна"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "Скрыть все детали"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "Показать все детали"
 
 #: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
 msgid "This project has no submitted data. Please collect some and try again."
@@ -2086,58 +2196,6 @@ msgstr "из"
 msgid "rows"
 msgstr "строк"
 
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "Не удалось получить данные владельца."
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "Дата создания"
-
-#: .Items
-msgid "Items"
-msgstr "Элементы"
-
-#: .Organization
-msgid "Organization"
-msgstr "Организация"
-
-#: .Country
-msgid "Country"
-msgstr "Страна"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "Скрыть все детали"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "Показать все детали"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "Не удалось изменить состояние общедоступности объекта."
-
-#: .Make+public
-msgid "Make public"
-msgstr "Сделать общедоступным"
-
-#: .Make+private
-msgid "Make private"
-msgstr "Сделать приватным"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "Пустой объект типа «##asset_type##»."
-
-#: .Show+less
-msgid "Show less"
-msgstr "Показать меньше"
-
-#: .Show+more
-msgid "Show more"
-msgstr "Показать больше"
-
 #: .Temporary+Access+Restriction+Password+Update+Required
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr "Временное ограничение доступа: необходимо обновить пароль"
@@ -2151,24 +2209,6 @@ msgstr "Прежде чем продолжить, вам необходимо о
 #: .Update+password
 msgid "Update password"
 msgstr "Обновить пароль"
-
-#: .Allow+submissions+to+this+form+without+a+username+and+password
-msgid "Allow submissions to this form without a username and password"
-msgstr "Разрешить отправки в эту форму без указания имени пользователя и пароля"
-
-#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
-msgid ""
-"Allow anonymous submissions for this project. Previously, this was an "
-"account-wide setting. Click the icon to learn more."
-msgstr "Разрешить анонимные отправки для данного проекта. Ранее данная опция действовала в рамках всей учетной записи. Нажмите на значок, чтобы узнать больше."
-
-#: .New+feature
-msgid "New feature"
-msgstr "Новая функция"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "Подробности"
 
 #: .Success%21
 msgid "Success!"
@@ -2246,6 +2286,40 @@ msgstr "Закрыть таблицу переводов?"
 msgid "You will lose all unsaved changes."
 msgstr "Вы потеряете все несохраненные изменения."
 
+#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
+msgid "Export is being generated, you will receive an email when it's done"
+msgstr "Экспорт генерируется, вы получите электронное письмо, когда процесс будет завершен"
+
+#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
+msgid ""
+"We couldn't create the export, please try again later or contact support"
+msgstr "Мы не смогли создать экспорт, пожалуйста, повторите попытку позже или обратитесь в службу поддержки"
+
+#: .Export+all+data
+msgid "Export all data"
+msgstr "Экспорт всех данных"
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.+%23%23CURRENT_OWNER_NAME%23%23+will+receive+a+notification+that+the+transfer+was+incomplete.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##. "
+"##CURRENT_OWNER_NAME## will receive a notification that the transfer was "
+"incomplete."
+msgstr ""
+
+#: .%23%23CURRENT_OWNER_NAME%23%23+will+remain+the+project+owner.
+msgid "##CURRENT_OWNER_NAME## will remain the project owner."
+msgstr ""
+
+#: .You+have+accepted+project+ownership+from+%23%23CURRENT_OWNER_NAME%23%23+for+%23%23PROJECT_NAME%23%23.+This+process+can+take+up+to+a+few+minutes+to+complete.
+msgid ""
+"You have accepted project ownership from ##CURRENT_OWNER_NAME## for "
+"##PROJECT_NAME##. This process can take up to a few minutes to complete."
+msgstr ""
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "Родительская подборка"
+
 #: .Unlabeled
 msgid "Unlabeled"
 msgstr "Без меток"
@@ -2266,51 +2340,6 @@ msgstr "Тип диаграммы"
 msgid "Colors"
 msgstr "Цвета"
 
-#: .Vertical
-msgid "Vertical"
-msgstr "Вертикальная"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "Горизонтальная"
-
-#: .Pie
-msgid "Pie"
-msgstr "Круговая"
-
-#: .Donut
-msgid "Donut"
-msgstr "Кольцевая"
-
-#: .Polar+area
-msgid "Polar area"
-msgstr "Полярная Область"
-
-#: .Radar
-msgid "Radar"
-msgstr "Радар"
-
-#: .An+error+occurred
-msgid "An error occurred"
-msgstr "Произошла ошибка"
-
-#: .Your+connection+is+offline
-msgid "Your connection is offline"
-msgstr "Ваше соединение отключено"
-
-#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
-msgid "Export is being generated, you will receive an email when it's done"
-msgstr "Экспорт генерируется, вы получите электронное письмо, когда процесс будет завершен"
-
-#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
-msgid ""
-"We couldn't create the export, please try again later or contact support"
-msgstr "Мы не смогли создать экспорт, пожалуйста, повторите попытку позже или обратитесь в службу поддержки"
-
-#: .Export+all+data
-msgid "Export all data"
-msgstr "Экспорт всех данных"
-
 #: .No+grouping
 msgid "No grouping"
 msgstr "Без группировки"
@@ -2322,113 +2351,6 @@ msgstr "Группировка по"
 #: .Translation
 msgid "Translation"
 msgstr "Перевод"
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "Просим [связаться со службой поддержки], если вы считаете, что это ошибка приложения."
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "Попробуйте выполнить вход с помощью кнопки заголовка либо [свяжитесь со службой поддержки], если считаете, что это ошибка приложения."
-
-#: .Access+Denied
-msgid "Access Denied"
-msgstr "Доступ запрещен"
-
-#: .You+don%27t+have+access+to+this+page.
-msgid "You don't have access to this page."
-msgstr "У вас нет доступа к этой странице."
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "У вас нет доступа к этой странице либо страница не существует."
-
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr "Что-то пошло не так"
-
-#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
-msgid ""
-"We're sorry, but there was an unexpected error while trying to serve this "
-"page."
-msgstr "Приносим извинения, но при попытке отображения этой страницы произошла непредвиденная ошибка."
-
-#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
-msgid ""
-"Please try again later, or [contact the support team] if this happens "
-"repeatedly."
-msgstr "Повторите попытку позже или [свяжитесь со службой поддержки], если это происходит неоднократно."
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "Дополнительные сведения:"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "Родительская подборка"
-
-#: .Log+In
-msgid "Log In"
-msgstr "Вход"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "Поиск в «Моей библиотеке»"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "Поиск в общедоступных подборках"
-
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "Поиск…"
-
-#: .submissions
-msgid "submissions"
-msgstr "отправки"
-
-#: .Summary
-msgid "Summary"
-msgstr "Резюме"
-
-#: .Form
-msgid "Form"
-msgstr "Форма"
-
-#: .Settings
-msgid "Settings"
-msgstr "Настройки"
-
-#: .Today
-msgid "Today"
-msgstr "Сегодня"
-
-#: .Past+7+days
-msgid "Past 7 days"
-msgstr "Последние 7 дней"
-
-#: .Past+31+days
-msgid "Past 31 days"
-msgstr "Последние 31 день"
-
-#: .Past+3+months
-msgid "Past 3 months"
-msgstr "Последние 3 месяца"
-
-#: .Past+12+months
-msgid "Past 12 months"
-msgstr "Последние 12 месяцев"
-
-#: .No+chart+data+available+for+current+period.
-msgid "No chart data available for current period."
-msgstr "Нет данных диаграммы за текущий период."
-
-#: .Total
-msgid "Total"
-msgstr "Всего"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2526,6 +2448,149 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "Подключиться к другим проектам, чтобы импортировать из них динамические данные в этот проект. Подробности о вложениях с динамическими данными"
 
+#: .Summary
+msgid "Summary"
+msgstr "Резюме"
+
+#: .Form
+msgid "Form"
+msgstr "Форма"
+
+#: .Settings
+msgid "Settings"
+msgstr "Настройки"
+
+#: .Today
+msgid "Today"
+msgstr "Сегодня"
+
+#: .Past+7+days
+msgid "Past 7 days"
+msgstr "Последние 7 дней"
+
+#: .Past+31+days
+msgid "Past 31 days"
+msgstr "Последние 31 день"
+
+#: .Past+3+months
+msgid "Past 3 months"
+msgstr "Последние 3 месяца"
+
+#: .Past+12+months
+msgid "Past 12 months"
+msgstr "Последние 12 месяцев"
+
+#: .No+chart+data+available+for+current+period.
+msgid "No chart data available for current period."
+msgstr "Нет данных диаграммы за текущий период."
+
+#: .Total
+msgid "Total"
+msgstr "Всего"
+
+#: .Log+In
+msgid "Log In"
+msgstr "Вход"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "Поиск в «Моей библиотеке»"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "Поиск в общедоступных подборках"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "Поиск…"
+
+#: .submissions
+msgid "submissions"
+msgstr "отправки"
+
+#: .Cannot+transfer+a+project+to+the+same+account.
+msgid "Cannot transfer a project to the same account."
+msgstr ""
+
+#: .User+not+found.+Please+try+again.
+msgid "User not found. Please try again."
+msgstr ""
+
+#: .Please+enter+a+user+name.
+msgid "Please enter a user name."
+msgstr ""
+
+#: .Transfer+project+ownership
+msgid "Transfer project ownership"
+msgstr ""
+
+#: .Your+transfer+request+is+pending+until+%23%23username%23%23+has+accepted+or+declined+it.
+msgid ""
+"Your transfer request is pending until ##username## has accepted or declined"
+" it."
+msgstr ""
+
+#: .Transfer+ownership+of+this+project+to+another+user.+All+submissions,+data+storage,+and+transcription+and+translation+usage+for+this+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"Transfer ownership of this project to another user. All submissions, data "
+"storage, and transcription and translation usage for this project will be "
+"transferred to the new project owner."
+msgstr ""
+
+#: .Learn+more+%E2%86%92
+msgid "Learn more →"
+msgstr ""
+
+#: .Cancel+transfer
+msgid "Cancel transfer"
+msgstr ""
+
+#: .Transfer
+msgid "Transfer"
+msgstr ""
+
+#: .Transfer+ownership
+msgid "Transfer ownership"
+msgstr ""
+
+#: .This+action+will+transfer+ownership+of+%23%23username%23%23+to+another+user
+msgid "This action will transfer ownership of ##username## to another user"
+msgstr ""
+
+#: .When+you+transfer+ownership+of+the+project+to+another+user,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"When you transfer ownership of the project to another user, all of the "
+"submissions, data storage, and transcription and translation usage for the "
+"project will be transferred to the new project owner."
+msgstr ""
+
+#: .The+new+project+owner+will+receive+an+email+request+to+accept+the+transfer.+You+will+be+notified+when+the+transfer+is+accepted+or+declined.
+msgid ""
+"The new project owner will receive an email request to accept the transfer. "
+"You will be notified when the transfer is accepted or declined."
+msgstr ""
+
+#: .You+will+be+the+owner+of+the+project+until+the+transfer+is+accepted.
+msgid "You will be the owner of the project until the transfer is accepted."
+msgstr ""
+
+#: .Once+the+transfer+is+accepted,+you+will+not+be+able+to+undo+this+action.
+msgid ""
+"Once the transfer is accepted, you will not be able to undo this action."
+msgstr ""
+
+#: .To+complete+the+transfer,+enter+the+username+of+the+new+project+owner
+msgid "To complete the transfer, enter the username of the new project owner"
+msgstr ""
+
+#: .Enter+username+here
+msgid "Enter username here"
+msgstr ""
+
+#: .Transfer+project
+msgid "Transfer project"
+msgstr ""
+
 #: .Type
 msgid "Type"
 msgstr "Тип"
@@ -2542,6 +2607,152 @@ msgstr "Подписчики"
 msgid "Primary Sector"
 msgstr "Первичный сектор"
 
+#: .There+is+no+data+for+this+question+for+the+current+submission
+msgid "There is no data for this question for the current submission"
+msgstr "Данные по этому вопросу отсутствуют в текущей отправке"
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "Просим [связаться со службой поддержки], если вы считаете, что это ошибка приложения."
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "Попробуйте выполнить вход с помощью кнопки заголовка либо [свяжитесь со службой поддержки], если считаете, что это ошибка приложения."
+
+#: .Access+Denied
+msgid "Access Denied"
+msgstr "Доступ запрещен"
+
+#: .You+don%27t+have+access+to+this+page.
+msgid "You don't have access to this page."
+msgstr "У вас нет доступа к этой странице."
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "У вас нет доступа к этой странице либо страница не существует."
+
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr "Что-то пошло не так"
+
+#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
+msgid ""
+"We're sorry, but there was an unexpected error while trying to serve this "
+"page."
+msgstr "Приносим извинения, но при попытке отображения этой страницы произошла непредвиденная ошибка."
+
+#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
+msgid ""
+"Please try again later, or [contact the support team] if this happens "
+"repeatedly."
+msgstr "Повторите попытку позже или [свяжитесь со службой поддержки], если это происходит неоднократно."
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "Дополнительные сведения:"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "Введите имена пользователей через запятую"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "Пользователь не найден:"
+
+#: .equals
+msgid "equals"
+msgstr "равно"
+
+#: .Reset+changes
+msgid "Reset changes"
+msgstr "Сброс изменений"
+
+#: .username
+msgid "username"
+msgstr "имя пользователя"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "Предоставить разрешения"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "Обновить разрешения"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "разрешения были скопированы"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "Вы собираетесь скопировать разрешения из ##source to ##target. Это необратимое действие."
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "Вы действительно хотите скопировать разрешения?"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "Продолжить"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "Копировать состав команды из другого проекта"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "Будут переписаны все текущие настройки совместного доступа, заданные в этом проекте."
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "Выберите исходный проект…"
+
+#: .copy
+msgid "copy"
+msgstr "копировать"
+
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "Открыть общий доступ по ссылке"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "Все могут просматривать эту форму"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "Все могут просматривать данные, отправленные в эту форму"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "Ссылка, которой можно поделиться"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "Удалить разрешения?"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "Это действие удалит все разрешения для пользователя ##username##"
+
+#: .Remove
+msgid "Remove"
+msgstr "Удалить"
+
+#: .is+owner
+msgid "is owner"
+msgstr "является владельцем"
+
+#: .Pending+owner
+msgid "Pending owner"
+msgstr ""
+
 #: .DONE
 msgid "DONE"
 msgstr "ГОТОВО"
@@ -2557,172 +2768,6 @@ msgstr "число элементов: ##count##"
 #: .There+are+no+assets+to+display.
 msgid "There are no assets to display."
 msgstr "Нет объектов для отображения."
-
-#: .Discard+unsaved+changes%3F
-msgid "Discard unsaved changes?"
-msgstr "Отменить несохраненные изменения?"
-
-#: .Discard
-msgid "Discard"
-msgstr "Отменить"
-
-#: .Item
-msgid "Item"
-msgstr "Пункт"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "из ##total_count##"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "Транскрипт"
-
-#: .Translations
-msgid "Translations"
-msgstr "Переводы"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "Анализ"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "Вы хотите выйти без сохранения?"
-
-#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
-msgid "You have unsaved changes. Leave settings without saving?"
-msgstr "У вас есть несохраненные изменения. Покинуть раздел настроек без сохранения?"
-
-#: .Updated+profile+successfully
-msgid "Updated profile successfully"
-msgstr "Профиль успешно обновлен"
-
-#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
-msgid ""
-"You can now control whether to allow anonymous submissions in web forms for "
-"each project. Previously, this was an account-wide setting."
-msgstr "Теперь вы можете контролировать, разрешать ли анонимные отправки в веб-форме для каждого проекта. Ранее данная опция действовала в рамках всей учетной записи."
-
-#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
-msgid ""
-"This privacy feature is now a per-project setting. New projects will require"
-" authentication by default."
-msgstr "Теперь эта функция конфиденциальности доступна для каждого проекта. Новые проекты по умолчанию требуют аутентификации."
-
-#: .Learn+more+about+these+changes+here.
-msgid "Learn more about these changes here."
-msgstr "Узнать подробнее об этих изменениях можно здесь."
-
-#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
-msgid ""
-"Use the button above to select the information to be displayed in this area"
-msgstr "Нажмите кнопку выше, чтобы выбрать информацию, которая будет отображаться в данной области"
-
-#: .%23%23start_date%23%23+to+%23%23end_date%23%23
-msgid "##start_date## to ##end_date##"
-msgstr "с ##start_date## до ##end_date##"
-
-#: .Your+usage
-msgid "Your usage"
-msgstr "Ваше использование"
-
-#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
-msgid "Last update: ##LAST_UPDATE_TIME##"
-msgstr "Последнее обновление: ##LAST_UPDATE_TIME##"
-
-#: .Storage
-msgid "Storage"
-msgstr "Хранение"
-
-#: .per+account
-msgid "per account"
-msgstr "для учетной записи"
-
-#: .Transcription+minutes
-msgid "Transcription minutes"
-msgstr "Количество минут текстовой расшифровки"
-
-#: .Translation+characters
-msgid "Translation characters"
-msgstr "Знаки перевода"
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. Reach out to "
-"billing@kobotoolbox.org if you have any questions about your plan."
-msgstr "Благодарим за повышение уровня подписки! Мы ценим вашу постоянную поддержку. Напишите на billing@kobotoolbox.org, если у вас имеются вопросы относительно вашего плана подписки."
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. If your "
-"account is not immediately updated, wait a few minutes and refresh the page."
-msgstr "Благодарим за повышение уровня подписки! Мы ценим вашу постоянную поддержку. Если ваша учетная запись не обновляется, подождите несколько минут и перезагрузите страницу."
-
-#: .Please+contact+your+organization+owner+for+any+changes+to+your+plan+or+add-ons.
-msgid ""
-"Please contact your organization owner for any changes to your plan or add-"
-"ons."
-msgstr "Свяжитесь с владельцем для вашей организации, чтобы узнать об изменениях в вашем плане или дополнениях."
-
-#: .show+monthly+plans
-msgid "show monthly plans"
-msgstr "показать месячные планы"
-
-#: .Monthly
-msgid "Monthly"
-msgstr "Месячная"
-
-#: .show+annual+plans
-msgid "show annual plans"
-msgstr "показать годовые планы"
-
-#: .Annual
-msgid "Annual"
-msgstr "Годовая"
-
-#: .Want+more%3F
-msgid "Want more?"
-msgstr "Хотите больше?"
-
-#: .Contact+us
-msgid "Contact us"
-msgstr "Свяжитесь с нами"
-
-#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
-msgid ""
-"For organizations with higher volume and advanced data collection needs, get"
-" in touch to learn more about our "
-msgstr "Для организаций с большими объемами и повышенными потребностями в сборе данных свяжитесь с нами, чтобы узнать больше о нашем "
-
-#: .Enterprise+Plan
-msgid "Enterprise Plan"
-msgstr "бизнес-плане"
-
-#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
-msgid ""
-"We also offer custom solutions and private servers for large organizations. "
-msgstr "Мы также предлагаем индивидуальные решения и приватные серверы для крупных организаций. "
-
-#: .Contact+our+team
-msgid "Contact our team"
-msgstr "Свяжитесь с нашей командой"
-
-#: .+for+more+information.
-msgid " for more information."
-msgstr " для получения дополнительной информации."
-
-#: .Collapse+full+comparison
-msgid "Collapse full comparison"
-msgstr "Свернуть полное сравнение"
-
-#: .Display+full+comparison
-msgid "Display full comparison"
-msgstr "Показать полное сравнение"
-
-#: .Security
-msgid "Security"
-msgstr "Безопасность"
 
 #: .Deploy
 msgid "Deploy"
@@ -2772,251 +2817,6 @@ msgstr "Поделиться"
 msgid "View containing Collection"
 msgstr "Вернуться к просмотру подборки"
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "разрешения были скопированы"
-
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "Вы собираетесь скопировать разрешения из ##source to ##target. Это необратимое действие."
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "Вы действительно хотите скопировать разрешения?"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "Продолжить"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "Копировать состав команды из другого проекта"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "Будут переписаны все текущие настройки совместного доступа, заданные в этом проекте."
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "Выберите исходный проект…"
-
-#: .copy
-msgid "copy"
-msgstr "копировать"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "Введите имена пользователей через запятую"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "Пользователь не найден:"
-
-#: .equals
-msgid "equals"
-msgstr "равно"
-
-#: .Reset+changes
-msgid "Reset changes"
-msgstr "Сброс изменений"
-
-#: .username
-msgid "username"
-msgstr "имя пользователя"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "Предоставить разрешения"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "Обновить разрешения"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "Открыть общий доступ по ссылке"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "Все могут просматривать эту форму"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "Все могут просматривать данные, отправленные в эту форму"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "Ссылка, которой можно поделиться"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "Удалить разрешения?"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "Это действие удалит все разрешения для пользователя ##username##"
-
-#: .Remove
-msgid "Remove"
-msgstr "Удалить"
-
-#: .is+owner
-msgid "is owner"
-msgstr "является владельцем"
-
-#: .Paste+your+formatted+table+from+excel+in+the+box+below.
-msgid "Paste your formatted table from excel in the box below."
-msgstr "Вставьте отформатированную таблицу из Excel в расположенное ниже поле."
-
-#: .add+cascade+with+%23+questions
-msgid "add cascade with # questions"
-msgstr "добавить каскад с # вопросами"
-
-#: .OK
-msgid "OK"
-msgstr "OK"
-
-#: .Learn+more+about+importing+cascading+lists+from+Excel
-msgid "Learn more about importing cascading lists from Excel"
-msgstr "Подробнее об импорте каскадных списков из Excel"
-
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "вопрос был добавлен в библиотеку"
-
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "группа была добавлена в библиотеку как блок"
-
-#: .loading
-msgid "loading"
-msgstr "загрузка"
-
-#: .no+search+results+found
-msgid "no search results found"
-msgstr "не найдено результатов поиска"
-
-#: .block+of+___+questions
-msgid "block of ___ questions"
-msgstr "блок из ___ вопросов"
-
-#: .search+library
-msgid "search library"
-msgstr "поиск в библиотеке"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "Не удалось загрузить службу REST"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "Не удалось загрузить журналы службы REST"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "Сведения об ошибке отправки данных (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "Вернуться к службам REST"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "Загрузка…"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "На данный момент журналов нет"
-
-#: .Submission
-msgid "Submission"
-msgstr "Отправка"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "Повторить все отправки"
-
-#: .Success
-msgid "Success"
-msgstr "Операция успешно завершена"
-
-#: .Pending
-msgid "Pending"
-msgstr "Ожидание"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "Ожидание (##count##×)"
-
-#: .Failed
-msgid "Failed"
-msgstr "Ошибка"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "Повторить отправку"
-
-#: .More+info
-msgid "More info"
-msgstr "Подробнее"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "Не удалось загрузить службы REST"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "Вы действительно хотите удалить ##target?"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "Вы собираетесь удалить ##target. Это необратимое действие."
-
-#: .Confirm
-msgid "Confirm"
-msgstr "Подтвердить"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "Зарегистрировать новую службу"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "В этом проекте еще нет служб REST!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "С помощью служб REST можно автоматически передавать отправки в стороннее приложение."
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "Службы REST: ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "Требуется помощь?"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "Имя службы"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "Отправка ##submissionIndex## из ##submissionTotal##"
-
-#: .download
-msgid "download"
-msgstr "скачать"
-
-#: .process
-msgid "process"
-msgstr "обработать"
-
 #: .Marker+Colors
 msgid "Marker Colors"
 msgstr "Цвета маркеров"
@@ -3061,6 +2861,12 @@ msgstr "Ошибка загрузки: недопустимый формат с�
 msgid "Delete File"
 msgstr "Удалить файл"
 
+#: .Are+you+sure+you+want+to+delete+this+file%3F+%3Cbr/%3E%3Cbr/%3E%3Cstrong%3EThis+action+cannot+be+undone.%3C/strong%3E
+msgid ""
+"Are you sure you want to delete this file? <br/><br/><strong>This action "
+"cannot be undone.</strong>"
+msgstr ""
+
 #: .Choose+the+Geopoint+question+you+would+like+to+display+on+the+map
 msgid "Choose the Geopoint question you would like to display on the map:"
 msgstr "Выберите вопрос с геолокацией для отображения на карте:"
@@ -3099,6 +2905,166 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "По умолчанию карта ограничивается следующим количеством последних по времени отправок: ##QUERY_LIMIT_DEFAULT##. Этот лимит можно временно увеличить, задав другое значение. Обратите внимание, что значение сбрасывается всякий раз, когда вы открываете карту."
 
+#: .Paste+your+formatted+table+from+excel+in+the+box+below.
+msgid "Paste your formatted table from excel in the box below."
+msgstr "Вставьте отформатированную таблицу из Excel в расположенное ниже поле."
+
+#: .add+cascade+with+%23+questions
+msgid "add cascade with # questions"
+msgstr "добавить каскад с # вопросами"
+
+#: .OK
+msgid "OK"
+msgstr "OK"
+
+#: .Learn+more+about+importing+cascading+lists+from+Excel
+msgid "Learn more about importing cascading lists from Excel"
+msgstr "Подробнее об импорте каскадных списков из Excel"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "Не удалось загрузить службы REST"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "Вы действительно хотите удалить ##target?"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "Вы собираетесь удалить ##target. Это необратимое действие."
+
+#: .Confirm
+msgid "Confirm"
+msgstr "Подтвердить"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "Зарегистрировать новую службу"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "В этом проекте еще нет служб REST!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "С помощью служб REST можно автоматически передавать отправки в стороннее приложение."
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "Службы REST: ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "Требуется помощь?"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "Имя службы"
+
+#: .Success
+msgid "Success"
+msgstr "Операция успешно завершена"
+
+#: .Pending
+msgid "Pending"
+msgstr "Ожидание"
+
+#: .Failed
+msgid "Failed"
+msgstr "Ошибка"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "Не удалось загрузить службу REST"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "Не удалось загрузить журналы службы REST"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "Сведения об ошибке отправки данных (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "Вернуться к службам REST"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "Загрузка…"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "На данный момент журналов нет"
+
+#: .Submission
+msgid "Submission"
+msgstr "Отправка"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "Повторить все отправки"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "Ожидание (##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "Повторить отправку"
+
+#: .More+info
+msgid "More info"
+msgstr "Подробнее"
+
+#: .loading
+msgid "loading"
+msgstr "загрузка"
+
+#: .no+search+results+found
+msgid "no search results found"
+msgstr "не найдено результатов поиска"
+
+#: .block+of+___+questions
+msgid "block of ___ questions"
+msgstr "блок из ___ вопросов"
+
+#: .search+library
+msgid "search library"
+msgstr "поиск в библиотеке"
+
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "вопрос был добавлен в библиотеку"
+
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "группа была добавлена в библиотеку как блок"
+
+#: .Failed+to+cancel+transfer.+The+transfer+may+be+declined+or+accpeted+already.+Please+check+your+email.
+msgid ""
+"Failed to cancel transfer. The transfer may be declined or accpeted already."
+" Please check your email."
+msgstr ""
+
+#: .Failed+to+accept+invite.
+msgid "Failed to accept invite."
+msgstr ""
+
+#: .Failed+to+decline+invite
+msgid "Failed to decline invite"
+msgstr ""
+
+#: .Invite+has+been+cancelled+or+expired
+msgid "Invite has been cancelled or expired"
+msgstr ""
+
+#: .Invite+is+invaild.
+msgid "Invite is invaild."
+msgstr ""
+
 #: .archived
 msgid "archived"
 msgstr "в архиве"
@@ -3111,33 +3077,17 @@ msgstr "развернуто"
 msgid "draft"
 msgstr "черновик"
 
-#: .Audit+settings
-msgid "Audit settings"
-msgstr "Настройки аудита"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "Отправка ##submissionIndex## из ##submissionTotal##"
 
-#: .Background+audio
-msgid "Background audio"
-msgstr "Звук в фоновом режиме"
+#: .download
+msgid "download"
+msgstr "скачать"
 
-#: .Enter+audit+settings+here
-msgid "Enter audit settings here"
-msgstr "Введите настройки аудита здесь"
-
-#: .This+functionality+is+available+in+
-msgid "This functionality is available in "
-msgstr "Эта функция доступна в "
-
-#: .This+survey+will+be+recorded
-msgid "This survey will be recorded"
-msgstr "Во время этого опроса будет вестись запись звука"
-
-#: .Enable+audio+recording+in+the+background
-msgid "Enable audio recording in the background"
-msgstr "Включить запись звука в фоновом режиме"
-
-#: .Audio+quality
-msgid "Audio quality"
-msgstr "Качество звука"
+#: .process
+msgid "process"
+msgstr "обработать"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -3176,6 +3126,42 @@ msgstr "Заблокированные функции"
 msgid "Unlocked functionalities"
 msgstr "Разблокированные функции"
 
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "У вас нет шаблонов. Для их создания перейдите в библиотеку."
+
+#: .Template+name
+msgid "Template name"
+msgstr "Имя шаблона"
+
+#: .Audit+settings
+msgid "Audit settings"
+msgstr "Настройки аудита"
+
+#: .Background+audio
+msgid "Background audio"
+msgstr "Звук в фоновом режиме"
+
+#: .Enter+audit+settings+here
+msgid "Enter audit settings here"
+msgstr "Введите настройки аудита здесь"
+
+#: .This+functionality+is+available+in+
+msgid "This functionality is available in "
+msgstr "Эта функция доступна в "
+
+#: .This+survey+will+be+recorded
+msgid "This survey will be recorded"
+msgstr "Во время этого опроса будет вестись запись звука"
+
+#: .Enable+audio+recording+in+the+background
+msgid "Enable audio recording in the background"
+msgstr "Включить запись звука в фоновом режиме"
+
+#: .Audio+quality
+msgid "Audio quality"
+msgstr "Качество звука"
+
 #: .Incorrect+token
 msgid "Incorrect token"
 msgstr "Неверный код"
@@ -3183,6 +3169,13 @@ msgstr "Неверный код"
 #: .Could+not+generate+secret+key
 msgid "Could not generate secret key"
 msgstr "Не удалось сгенерировать секретный ключ"
+
+#: .Two-factor+authentication+(2FA)+verifies+your+identity+using+an+authenticator+application+in+addition+to+your+usual+password.+We+recommend+enabling+two-factor+authentication+for+an+additional+layer+of+protection.
+msgid ""
+"Two-factor authentication (2FA) verifies your identity using an "
+"authenticator application in addition to your usual password. We recommend "
+"enabling two-factor authentication for an additional layer of protection."
+msgstr ""
 
 #: .Scan+QR+code+and+enter+the+%23%23number%23%23-digit+token+from+the+application
 msgid "Scan QR code and enter the ##number##-digit token from the application"
@@ -3201,6 +3194,14 @@ msgstr "Нет QR-кода?"
 #: .Enter+key+manually
 msgid "Enter key manually"
 msgstr "Ввести ключ вручную"
+
+#: .The+following+recovery+codes+will+help+you+access+your+account+in+case+your+authenticator+app+fails.+These+codes+are+unique+and+will+not+be+stored+in+your+Kobo+account.+This+is+your+only+opportunity+to+save+them.+Please+download+the+file+and+keep+it+somewhere+safe.
+msgid ""
+"The following recovery codes will help you access your account in case your "
+"authenticator app fails. These codes are unique and will not be stored in "
+"your Kobo account. This is your only opportunity to save them. Please "
+"download the file and keep it somewhere safe."
+msgstr ""
 
 #: .Download+codes
 msgid "Download codes"
@@ -3255,21 +3256,57 @@ msgid ""
 " previous set up will not be valid anymore."
 msgstr "Обратите внимание, что при повторной настройке двухфакторной аутентификации (2FA) сначала будут удалены предыдущие настройки. Секретные коды и коды восстановления из предыдущих настроек утратят силу."
 
+#: .Once+your+current+2FA+has+been+deactivated,+you%27ll+be+prompted+to+configure+it+again.+If+you+cannot+complete+the+process,+2FA+will+remain+disabled+for+your+account.+In+this+case,+you+can+enable+it+again+at+any+time+through+the+usual+process.
+msgid ""
+"Once your current 2FA has been deactivated, you'll be prompted to configure "
+"it again. If you cannot complete the process, 2FA will remain disabled for "
+"your account. In this case, you can enable it again at any time through the "
+"usual process."
+msgstr ""
+
 #: .Issues+with+the+token
 msgid "Issues with the token"
 msgstr "Проблемы с секретным кодом"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "У вас нет шаблонов. Для их создания перейдите в библиотеку."
-
-#: .Template+name
-msgid "Template name"
-msgstr "Имя шаблона"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "Выбрать…"
 
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "При загрузке Enketo возникла ошибка."
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "Сортировать А→Я"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "Сортировать Я→А"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "Скрыть поле"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "Разморозить поле"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "Заморозить поле"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "Выбрать все результаты (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "Выбрать видимые результаты (##count##)"
+
+#: .None
+msgid "None"
+msgstr "Нет"
 
 #: .Update+status+of+selected+submissions
 msgid "Update status of selected submissions"
@@ -3310,42 +3347,6 @@ msgstr "Изменить состояние"
 #: .Set+status+%23%23status%23%23
 msgid "Set status: ##status##"
 msgstr "Установить состояние: «##status##»"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "Выбрать все результаты (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "Выбрать видимые результаты (##count##)"
-
-#: .None
-msgid "None"
-msgstr "Нет"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "Сортировать А→Я"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "Сортировать Я→А"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "Скрыть поле"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "Разморозить поле"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "Заморозить поле"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "скрыть поля"
 
 #: .%23%23ASSET_TYPE%23%23+deleted+permanently
 msgid "##ASSET_TYPE## deleted permanently"
@@ -3458,13 +3459,17 @@ msgstr "Развертывание на сервере…"
 msgid "redeployed form"
 msgstr "повторно развернутая на сервере форма"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "Выбрать…"
+#: .hide+fields
+msgid "hide fields"
+msgstr "скрыть поля"
 
 #: .Profile
 msgid "Profile"
 msgstr "Профиль"
+
+#: .Security
+msgid "Security"
+msgstr "Безопасность"
 
 #: .Usage
 msgid "Usage"
@@ -3474,206 +3479,9 @@ msgstr "Использование"
 msgid "Plans"
 msgstr "Планы"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "Не удалось обновить теги"
-
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "Обновление…"
-
-#: .Update
-msgid "Update"
-msgstr "Обновить"
-
-#: .filter
-msgid "filter"
-msgstr "фильтр"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "Фильтры отсутствуют, вы можете добавить их ниже"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "Добавить фильтр"
-
-#: .Apply
-msgid "Apply"
-msgstr "Применить"
-
-#: .fields
-msgid "fields"
-msgstr "поля"
-
-#: .TOS+Update+Message+not+found
-msgid "TOS Update Message not found"
-msgstr "Сообщение об обновлении условий предоставления услуг не найдено"
-
-#: .Please+make+sure+the+following+details+are+filled+out+correctly
-msgid "Please make sure the following details are filled out correctly:"
-msgstr "Убедитесь, что следующие данные заполнены правильно:"
-
-#: .I+agree,+let%27s+go
-msgid "I agree, let's go"
-msgstr "Я согласен, продолжить"
-
-#: .I+don%27t+agree,+log+me+out
-msgid "I don't agree, log me out"
-msgstr "Я не согласен, выйти из системы"
-
-#: .Archive/Unarchive
-msgid "Archive/Unarchive"
-msgstr "Архивировать/Разархивировать"
-
-#: .Archive+project
-msgid "Archive project"
-msgstr "Архивировать проект"
-
-#: .Unarchive+project
-msgid "Unarchive project"
-msgstr "Разархивировать проект"
-
-#: .Draft+project+selected
-msgid "Draft project selected"
-msgstr "Выбран черновик проекта"
-
-#: .Delete+1+project
-msgid "Delete 1 project"
-msgstr "Удалить 1 проект"
-
-#: .Delete+project
-msgid "Delete project"
-msgstr "Удалить проект"
-
-#: .Question+Block
-msgid "Question Block"
-msgstr "Блок вопросов"
-
-#: .Template
-msgid "Template"
-msgstr "Шаблон"
-
-#: .Collection
-msgid "Collection"
-msgstr "Подборка"
-
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "Выберите желаемый тип"
-
-#: .Submission+URL
-msgid "Submission URL"
-msgstr "URL-адрес отправки"
-
-#: .Public+key
-msgid "Public key"
-msgstr "Общедоступный ключ"
-
-#: .Set+encryption
-msgid "Set encryption"
-msgstr "Установить шифрование"
-
-#: .Remove+encryption
-msgid "Remove encryption"
-msgstr "Удалить шифрование"
-
-#: .Learn+more+about+encrypting+forms
-msgid "Learn more about encrypting forms"
-msgstr "Подробнее о шифровании форм"
-
-#: .%23%23type%23%23+%23%23name%23%23+created
-msgid "##type## ##name## created"
-msgstr "##type## «##name##»: объект создан"
-
-#: .Failed+to+create+%23%23type%23%23
-msgid "Failed to create ##type##"
-msgstr "Не удалось создать объект типа «##type##»"
-
-#: .Failed+to+update+%23%23type%23%23
-msgid "Failed to update ##type##"
-msgstr "Не удалось обновить объект типа «##type##»"
-
-#: .Saving%E2%80%A6
-msgid "Saving…"
-msgstr "Сохранение…"
-
-#: .Creating%E2%80%A6
-msgid "Creating…"
-msgstr "Создание…"
-
-#: .Enter+title+of+%23%23type%23%23+here
-msgid "Enter title of ##type## here"
-msgstr "Введите название объекта типа «##type##» здесь"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "Не удалось найти отправку. Возможно, она была удалена. Идентификатор отправки: ##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "Удалить отправку?"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "Вы действительно хотите удалить эту отправку?"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "Это необратимое действие"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "Создан дубликат"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "Создан дубликат записи об отправке. Вы можете просмотреть расположенный ниже новый экземпляр и внести изменения с помощью соответствующих кнопок."
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "Отменить продублированную отправку"
-
-#: .Language
-msgid "Language:"
-msgstr "Язык:"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "Состояние проверки:"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "Нажмите на расположенную ниже кнопку, чтобы загрузить последние данные, относящиеся к этой отправке. "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "Обновить отправку"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "Запись звука в фоновом режиме"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "Отобразить имена XML"
-
-#: .View
-msgid "View"
-msgstr "Просмотреть"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "Дублировать"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "Удалить отправку"
+#: .Add-ons
+msgid "Add-ons"
+msgstr ""
 
 #: .Import+data+from+%23%23SOURCE_NAME%23%23
 msgid "Import data from ##SOURCE_NAME##"
@@ -3712,6 +3520,159 @@ msgstr "Обновление импортированных вопросов"
 #: .Accept
 msgid "Accept"
 msgstr "Принять"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "Не удалось найти отправку. Возможно, она была удалена. Идентификатор отправки: ##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "Удалить отправку?"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "Вы действительно хотите удалить эту отправку?"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "Это необратимое действие"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "Создан дубликат"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "Создан дубликат записи об отправке. Вы можете просмотреть расположенный ниже новый экземпляр и внести изменения с помощью соответствующих кнопок."
+
+#: .Source+submission+uuid+
+msgid "Source submission uuid: "
+msgstr ""
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "Отменить продублированную отправку"
+
+#: .Discard
+msgid "Discard"
+msgstr "Отменить"
+
+#: .Language
+msgid "Language:"
+msgstr "Язык:"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "Состояние проверки:"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "Нажмите на расположенную ниже кнопку, чтобы загрузить последние данные, относящиеся к этой отправке. "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "Обновить отправку"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "Запись звука в фоновом режиме"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "Отобразить имена XML"
+
+#: .View
+msgid "View"
+msgstr "Просмотреть"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "Дублировать"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "Удалить отправку"
+
+#: .Type+
+msgid "Type: "
+msgstr "Тип: "
+
+#: ..+
+msgid ". "
+msgstr ". "
+
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "Число респондентов, ответивших на этот вопрос: #1 из #2. "
+
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# без данных.)"
+
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "Переопределить стиль графика"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "Не удалось обновить теги"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "Обновление…"
+
+#: .Update
+msgid "Update"
+msgstr "Обновить"
+
+#: .Question+Block
+msgid "Question Block"
+msgstr "Блок вопросов"
+
+#: .Template
+msgid "Template"
+msgstr "Шаблон"
+
+#: .Collection
+msgid "Collection"
+msgstr "Подборка"
+
+#: .Upload+as+template
+msgid "Upload as template"
+msgstr ""
+
+#: .Note+that+this+will+be+ignored+when+uploading+a+collection+file.
+msgid "Note that this will be ignored when uploading a collection file."
+msgstr ""
+
+#: .Submission+URL
+msgid "Submission URL"
+msgstr "URL-адрес отправки"
+
+#: .Public+key
+msgid "Public key"
+msgstr "Общедоступный ключ"
+
+#: .Set+encryption
+msgid "Set encryption"
+msgstr "Установить шифрование"
+
+#: .Remove+encryption
+msgid "Remove encryption"
+msgstr "Удалить шифрование"
+
+#: .Learn+more+about+encrypting+forms
+msgid "Learn more about encrypting forms"
+msgstr "Подробнее о шифровании форм"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "Неподдерживаемый тип мультимедиа: ##QUESTION_TYPE##"
 
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
@@ -3830,9 +3791,60 @@ msgstr "Частота"
 msgid "Percentage"
 msgstr "Доля в процентах"
 
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "Неподдерживаемый тип мультимедиа: ##QUESTION_TYPE##"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "Справочные ресурсы"
+
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "Справочный центр KoboToolbox"
+
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "Обширная подборка статей по поддержке пользователей и учебных материалов по работе с Kobo"
+
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "Форум сообщества KoboToolbox"
+
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "Опубликуйте свои вопросы, чтобы получить ответы от опытных пользователей Kobo со всего мира"
+
+#: .Notifications
+msgid "Notifications"
+msgstr "Уведомления"
+
+#: .Help
+msgid "Help"
+msgstr "Справка"
+
+#: .%23%23type%23%23+%23%23name%23%23+created
+msgid "##type## ##name## created"
+msgstr "##type## «##name##»: объект создан"
+
+#: .Failed+to+create+%23%23type%23%23
+msgid "Failed to create ##type##"
+msgstr "Не удалось создать объект типа «##type##»"
+
+#: .Failed+to+update+%23%23type%23%23
+msgid "Failed to update ##type##"
+msgstr "Не удалось обновить объект типа «##type##»"
+
+#: .Saving%E2%80%A6
+msgid "Saving…"
+msgstr "Сохранение…"
+
+#: .Creating%E2%80%A6
+msgid "Creating…"
+msgstr "Создание…"
+
+#: .Enter+title+of+%23%23type%23%23+here
+msgid "Enter title of ##type## here"
+msgstr "Введите название объекта типа «##type##» здесь"
 
 #: .JSON
 msgid "JSON"
@@ -3915,6 +3927,10 @@ msgstr "Добавить пользовательскую оболочку дл�
 #: .Add+Custom+Wrapper
 msgid "Add Custom Wrapper"
 msgstr "Добавить пользовательскую оболочку"
+
+#: .N/A
+msgid "N/A"
+msgstr "Н/П"
 
 #: .%2A+Save+Changes
 msgid "* Save Changes"
@@ -4026,56 +4042,29 @@ msgstr "Добавить язык"
 msgid "Add a new language"
 msgstr "Добавить новый язык"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "Справочные ресурсы"
+#: .filter
+msgid "filter"
+msgstr "фильтр"
 
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "Справочный центр KoboToolbox"
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "Фильтры отсутствуют, вы можете добавить их ниже"
 
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "Обширная подборка статей по поддержке пользователей и учебных материалов по работе с Kobo"
+#: .Add+filter
+msgid "Add filter"
+msgstr "Добавить фильтр"
 
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "Форум сообщества KoboToolbox"
+#: .Apply
+msgid "Apply"
+msgstr "Применить"
 
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "Опубликуйте свои вопросы, чтобы получить ответы от опытных пользователей Kobo со всего мира"
+#: .fields
+msgid "fields"
+msgstr "поля"
 
-#: .Notifications
-msgid "Notifications"
-msgstr "Уведомления"
-
-#: .Help
-msgid "Help"
-msgstr "Справка"
-
-#: .Type+
-msgid "Type: "
-msgstr "Тип: "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "Число респондентов, ответивших на этот вопрос: #1 из #2. "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# без данных.)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "Переопределить стиль графика"
+#: .Archive/Unarchive
+msgid "Archive/Unarchive"
+msgstr "Архивировать/Разархивировать"
 
 #: .Delete+projects
 msgid "Delete projects"
@@ -4088,6 +4077,62 @@ msgstr "Удалить ##count##проекты"
 #: .Share+projects
 msgid "Share projects"
 msgstr "Поделиться проектами"
+
+#: .Archive+project
+msgid "Archive project"
+msgstr "Архивировать проект"
+
+#: .Unarchive+project
+msgid "Unarchive project"
+msgstr "Разархивировать проект"
+
+#: .Draft+project+selected
+msgid "Draft project selected"
+msgstr "Выбран черновик проекта"
+
+#: .Delete+1+project
+msgid "Delete 1 project"
+msgstr "Удалить 1 проект"
+
+#: .Delete+project
+msgid "Delete project"
+msgstr "Удалить проект"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "Обновите страницу"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "Настройки учетной записи"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "Условия предоставления услуг"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "Политика конфиденциальности"
+
+#: .Logout
+msgid "Logout"
+msgstr "Выход"
+
+#: .TOS+Update+Message+not+found
+msgid "TOS Update Message not found"
+msgstr "Сообщение об обновлении условий предоставления услуг не найдено"
+
+#: .Please+make+sure+the+following+details+are+filled+out+correctly
+msgid "Please make sure the following details are filled out correctly:"
+msgstr "Убедитесь, что следующие данные заполнены правильно:"
+
+#: .I+agree,+let%27s+go
+msgid "I agree, let's go"
+msgstr "Я согласен, продолжить"
+
+#: .I+don%27t+agree,+log+me+out
+msgid "I don't agree, log me out"
+msgstr "Я не согласен, выйти из системы"
 
 #: .This+field+is+required.
 msgid "This field is required."
@@ -4117,31 +4162,102 @@ msgstr "Подтвердить пароль"
 msgid "Save Password"
 msgstr "Сохранить пароль"
 
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "Обновите страницу"
+#: .There+are+no+projects+to+display.
+msgid "There are no projects to display."
+msgstr "Нет проектов для отображения."
 
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "Настройки учетной записи"
+#: .Import+failed
+msgid "Import failed"
+msgstr "Ошибка импорта"
 
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "Условия предоставления услуг"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "Политика конфиденциальности"
-
-#: .Logout
-msgid "Logout"
-msgstr "Выход"
-
-#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
 msgid ""
-"This export format will not be supported in the future. Please consider "
-"using one of the other export types available."
-msgstr "Этот формат экспорта в дальнейшем поддерживаться не будет. Рассмотрите возможность использования одного из других доступных типов экспорта."
+"Your upload is taking longer than usual. Please get back in few minutes."
+msgstr "Ваша загрузка занимает больше времени, чем обычно. Вернитесь через несколько минут."
+
+#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
+msgid ""
+"Your uploads are being processed. This may take a few moments. You will need"
+" to refresh the page to see them on the list."
+msgstr "Ваши загрузки обрабатываются. Это может занять несколько минут. Необходимо будет обновить страницу, чтобы увидеть их в списке."
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "Введите название для своего объекта типа «##type##»"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "##type## без названия"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "подборка без названия"
+
+#: .project+title
+msgid "project title"
+msgstr "название проекта"
+
+#: .Project+transfer+declined
+msgid "Project transfer declined"
+msgstr ""
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##."
+msgstr ""
+
+#: .When+you+accept+the+ownership+transfer+of+project+%23%23PROJECT_NAME%23%23,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+you+and+count+against+your+plan+limits.
+msgid ""
+"When you accept the ownership transfer of project ##PROJECT_NAME##, all of "
+"the submissions, data storage, and transcription and translation usage for "
+"the project will be transferred to you and count against your plan limits."
+msgstr ""
+
+#: .Once+you+accept,+the+transfer+might+take+a+few+minutes+to+complete.
+msgid "Once you accept, the transfer might take a few minutes to complete."
+msgstr ""
+
+#: .Current+owner
+msgid "Current owner"
+msgstr ""
+
+#: .Note+The+previous+owner+has+permissions+to+manage+the+project.+You+can+change+user+permissions+in+the+project+sharing+settings.
+msgid ""
+"Note: The previous owner has permissions to manage the project. You can "
+"change user permissions in the project sharing settings."
+msgstr ""
+
+#: .Decline
+msgid "Decline"
+msgstr ""
+
+#: .Discard+unsaved+changes%3F
+msgid "Discard unsaved changes?"
+msgstr "Отменить несохраненные изменения?"
+
+#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
+msgid "You have unsaved changes. Leave settings without saving?"
+msgstr "У вас есть несохраненные изменения. Покинуть раздел настроек без сохранения?"
+
+#: .Updated+profile+successfully
+msgid "Updated profile successfully"
+msgstr "Профиль успешно обновлен"
+
+#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
+msgid ""
+"You can now control whether to allow anonymous submissions in web forms for "
+"each project. Previously, this was an account-wide setting."
+msgstr "Теперь вы можете контролировать, разрешать ли анонимные отправки в веб-форме для каждого проекта. Ранее данная опция действовала в рамках всей учетной записи."
+
+#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
+msgid ""
+"This privacy feature is now a per-project setting. New projects will require"
+" authentication by default."
+msgstr "Теперь эта функция конфиденциальности доступна для каждого проекта. Новые проекты по умолчанию требуют аутентификации."
+
+#: .Learn+more+about+these+changes+here.
+msgid "Learn more about these changes here."
+msgstr "Узнать подробнее об этих изменениях можно здесь."
 
 #: .Delete+export%3F
 msgid "Delete export?"
@@ -4184,176 +4300,15 @@ msgstr "Несколько версий"
 msgid "There is nothing to download yet."
 msgstr "На текущий момент отсутствуют данные для скачивания."
 
-#: .There+are+no+projects+to+display.
-msgid "There are no projects to display."
-msgstr "Нет проектов для отображения."
-
-#: .Non-profit+organization
-msgid "Non-profit organization"
-msgstr "Некоммерческая организация"
-
-#: .Government+institution
-msgid "Government institution"
-msgstr "Государственное учреждение"
-
-#: .Educational+organization
-msgid "Educational organization"
-msgstr "Образовательная организация"
-
-#: .A+commercial/for-profit+company
-msgid "A commercial/for-profit company"
-msgstr "Коммерческая компания"
-
-#: .I+am+not+associated+with+any+organization
-msgid "I am not associated with any organization"
-msgstr "Я не связан ни с одной организацией"
-
-#: .Male
-msgid "Male"
-msgstr "Мужской"
-
-#: .Female
-msgid "Female"
-msgstr "Женский"
-
-#: .Other
-msgid "Other"
-msgstr "Другой"
-
-#: .Use+this+to+display+your+real+name+to+other+users
-msgid "Use this to display your real name to other users"
-msgstr "Используйте, чтобы показать свое настоящее имя другим пользователям"
-
-#: .Social
-msgid "Social"
-msgstr "Социальные сети"
-
-#: .Newsletter
-msgid "Newsletter"
-msgstr "Рассылка"
-
-#: .Import+failed
-msgid "Import failed"
-msgstr "Ошибка импорта"
-
-#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
-msgid ""
-"Your upload is taking longer than usual. Please get back in few minutes."
-msgstr "Ваша загрузка занимает больше времени, чем обычно. Вернитесь через несколько минут."
-
-#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
-msgid ""
-"Your uploads are being processed. This may take a few moments. You will need"
-" to refresh the page to see them on the list."
-msgstr "Ваши загрузки обрабатываются. Это может занять несколько минут. Необходимо будет обновить страницу, чтобы увидеть их в списке."
-
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "Введите название для своего объекта типа «##type##»"
-
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "##type## без названия"
-
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "подборка без названия"
-
-#: .project+title
-msgid "project title"
-msgstr "название проекта"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "последнее изменение ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "создан ##date##"
-
-#: .Delete%3F
-msgid "Delete?"
-msgstr "Удалить?"
-
-#: .This+action+is+not+reversible
-msgid "This action is not reversible"
-msgstr "Это действие необратимо"
-
-#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
-msgid "Asset seems to not have the processing feature enabled!"
-msgstr "Похоже, что в объекте не включена функция обработки!"
-
-#: .Failed+to+get+processing+data.
-msgid "Failed to get processing data."
-msgstr "Не удалось получить данные обработки."
-
-#: .Failed+to+set+transcript.
-msgid "Failed to set transcript."
-msgstr "Не удалось установить транскрипт."
-
-#: .Failed+to+delete+transcript.
-msgid "Failed to delete transcript."
-msgstr "Не удалось удалить транскрипт."
-
-#: .Failed+to+delete+translation.
-msgid "Failed to delete translation."
-msgstr "Не удалось удалить перевод."
-
-#: .No+options+found
-msgid "No options found"
-msgstr "Не найдено вариантов"
-
-#: .Failed+to+load+analysis+questions
-msgid "Failed to load analysis questions"
-msgstr "Не удалось загрузить вопросы для анализа"
-
-#: .There+was+an+error+getting+the+list+of+plans.
-msgid "There was an error getting the list of plans."
-msgstr "При получении списка планов произошла ошибка."
-
-#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
-msgid ""
-"We couldn't make the requested change to your plan.\n"
-"Your current plan has not been changed."
-msgstr "Мы не смогли внести запрашиваемые изменения в ваш план.\nВаш текущий план не был изменен."
-
-#: .Couldn%27t+get+data+for+your+organization.
-msgid "Couldn't get data for your organization."
-msgstr "Не удалось получить данные по вашей организации."
-
-#: .Original+transcript
-msgid "Original transcript"
-msgstr "Оригинал транскрипта"
-
-#: .Submission+data
-msgid "Submission data"
-msgstr "Данные отправки"
-
-#: .Original+file+(Audio)
-msgid "Original file (Audio)"
-msgstr "Исходный файл (аудио)"
-
-#: .Display+settings
-msgid "Display settings"
-msgstr "Настройки отображения"
-
-#: .Customize+display+settings
-msgid "Customize display settings"
-msgstr "Настроить параметры отображения"
-
-#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
-msgid ""
-"Select the information you want to display in the side menu to support your "
-"analysis."
-msgstr "Выберите информацию для отображения в боковом меню для содействия проведению анализа."
-
-#: .Apply+selection
-msgid "Apply selection"
-msgstr "Применить выбор"
-
 #: .Export
 msgid "Export"
 msgstr "Экспортировать"
+
+#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+msgid ""
+"This export format will not be supported in the future. Please consider "
+"using one of the other export types available."
+msgstr "Этот формат экспорта в дальнейшем поддерживаться не будет. Рассмотрите возможность использования одного из других доступных типов экспорта."
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -4425,135 +4380,109 @@ msgstr "Применить сохраненные настройки экспо�
 msgid "No export settings selected"
 msgstr "Настройки экспорта не выбраны"
 
-#: .There+was+an+issue+fetching+your+plan+information.
-msgid "There was an issue fetching your plan information."
-msgstr "Возникла проблема при получении информации о вашем плане."
+#: .Item
+msgid "Item"
+msgstr "Пункт"
 
-#: .forgot+password
-msgid "forgot password"
-msgstr "забыли пароль"
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "из ##total_count##"
 
-#: .Unlimited
-msgid "Unlimited"
-msgstr "Неограниченно"
+#: .Transcript
+msgid "Transcript"
+msgstr "Транскрипт"
 
-#: .%23%23minutes%23%23+mins
-msgid "##minutes## mins"
-msgstr "##minutes## минут"
+#: .Translations
+msgid "Translations"
+msgstr "Переводы"
 
-#: .Available
-msgid "Available"
-msgstr "Доступно"
+#: .Analysis
+msgid "Analysis"
+msgstr "Анализ"
 
-#: .Used+this+month
-msgid "Used this month"
-msgstr "Использовано в данном месяце"
-
-#: .Used+this+year
-msgid "Used this year"
-msgstr "Использовано в данном году"
-
-#: .Balance
-msgid "Balance"
-msgstr "Баланс"
+#: .No+options+found
+msgid "No options found"
+msgstr "Не найдено вариантов"
 
 #: .Your+plan
 msgid "Your plan"
 msgstr "Ваш план"
 
-#: .%23%23plan_name%23%23+Plan
-msgid "##plan_name## Plan"
-msgstr "##plan_name## План"
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "Вы хотите выйти без сохранения?"
 
-#: .Started+on+%23%23start_date%23%23
-msgid "Started on ##start_date##"
-msgstr "Начало ##start_date##"
-
-#: .Renews+on+%23%23renewal_date%23%23
-msgid "Renews on ##renewal_date##"
-msgstr "Обновление ##renewal_date##"
-
-#: .Two-factor+authentication
-msgid "Two-factor authentication"
-msgstr "Двухфакторная аутентификация"
-
-#: .Disabled
-msgid "Disabled"
-msgstr "Выключено"
-
-#: .Authenticator+app
-msgid "Authenticator app"
-msgstr "Приложение аутентификации"
-
-#: .Reconfigure
-msgid "Reconfigure"
-msgstr "Перенастроить"
-
-#: .Recovery+codes
-msgid "Recovery codes"
-msgstr "Коды восстановления"
-
-#: .Generate+new
-msgid "Generate new"
-msgstr "Сгенерировать"
-
-#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
-msgid "Two-factor authentication was deactivated for your account on ##date##"
-msgstr "Для вашей учетной записи двухфакторная аутентификация была отключена; дата отключения: ##date##"
-
-#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
-msgid "This feature is not available on your current plan. Please visit the "
-msgstr "Эта функция недоступна в вашем текущем плане. Посетите "
-
-#: .Plans+page
-msgid "Plans page"
-msgstr "страницу с планами"
-
-#: .+to+upgrade+your+account.
-msgid " to upgrade your account."
-msgstr " для обновления учетной записи."
-
-#: .Email+address
-msgid "Email address"
-msgstr "Адрес электронной почты"
-
-#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
-msgid "Check your email ##UNVERIFIED_EMAIL##. "
-msgstr "Проверьте свою электронную почту ##UNVERIFIED_EMAIL##. "
-
-#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"A verification link has been sent to confirm your ownership. Once confirmed,"
-" this address will replace ##UNVERIFIED_EMAIL##"
-msgstr "Для подтверждения вашего права собственности была отправлена ссылка. После проверки этот адрес заменит##UNVERIFIED_EMAIL##"
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr "Благодарим за повышение уровня подписки! Мы ценим вашу постоянную поддержку. Напишите на billing@kobotoolbox.org, если у вас имеются вопросы относительно вашего плана подписки."
 
-#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
-msgid "Email was sent again: ##TIMESTAMP##"
-msgstr "Электронное письмо было отправлено снова: ##TIMESTAMP##"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr "Благодарим за повышение уровня подписки! Мы ценим вашу постоянную поддержку. Если ваша учетная запись не обновляется, подождите несколько минут и перезагрузите страницу."
 
-#: .Type+new+email+address
-msgid "Type new email address"
-msgstr "Введите новый адрес электронной почты"
+#: .Collapse+full+comparison
+msgid "Collapse full comparison"
+msgstr "Свернуть полное сравнение"
 
-#: .Failed+to+get+API+token
-msgid "Failed to get API token"
-msgstr "Не удалось получить токен API"
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr "Показать полное сравнение"
 
-#: .API+Key
-msgid "API Key"
-msgstr "API-ключ"
+#: .show+monthly+plans
+msgid "show monthly plans"
+msgstr "показать месячные планы"
 
-#: .Single-Sign+On
-msgid "Single-Sign On"
-msgstr "Единый вход"
+#: .Monthly
+msgid "Monthly"
+msgstr "Месячная"
 
-#: .Already+connected
-msgid "Already connected"
-msgstr "Уже подключено"
+#: .show+annual+plans
+msgid "show annual plans"
+msgstr "показать годовые планы"
 
-#: .Disable
-msgid "Disable"
-msgstr "Выключить"
+#: .Annual
+msgid "Annual"
+msgstr "Годовая"
+
+#: .Want+more%3F
+msgid "Want more?"
+msgstr "Хотите больше?"
+
+#: .Contact+us
+msgid "Contact us"
+msgstr "Свяжитесь с нами"
+
+#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
+msgid ""
+"For organizations with higher volume and advanced data collection needs, get"
+" in touch to learn more about our "
+msgstr "Для организаций с большими объемами и повышенными потребностями в сборе данных свяжитесь с нами, чтобы узнать больше о нашем "
+
+#: .Enterprise+Plan
+msgid "Enterprise Plan"
+msgstr "бизнес-плане"
+
+#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
+msgid ""
+"We also offer custom solutions and private servers for large organizations. "
+msgstr "Мы также предлагаем индивидуальные решения и приватные серверы для крупных организаций. "
+
+#: .Contact+our+team
+msgid "Contact our team"
+msgstr "Свяжитесь с нашей командой"
+
+#: .+for+more+information.
+msgid " for more information."
+msgstr " для получения дополнительной информации."
+
+#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
+msgid ""
+"Use the button above to select the information to be displayed in this area"
+msgstr "Нажмите кнопку выше, чтобы выбрать информацию, которая будет отображаться в данной области"
 
 #: .and+one+other+question
 msgid "and one other question"
@@ -4562,89 +4491,6 @@ msgstr "и еще один вопрос"
 #: .and+%23%23+other+questions
 msgid "and ## other questions"
 msgstr "и несколько других вопросов (##)"
-
-#: .There+has+been+an+issue,+please+try+again+later.
-msgid "There has been an issue, please try again later."
-msgstr "Произошла ошибка. Повторите попытку позже."
-
-#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
-msgid ""
-"Success! Your subscription will change at the end of the current billing "
-"period."
-msgstr "Успешно! Ваша подписка изменится в конце текущего расчетного периода."
-
-#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
-msgid ""
-"There was an error processing your plan change. Your previous plan has not "
-"been changed. Please try again later."
-msgstr "Произошла ошибка при обработке информации о смене вашего плана. Ваш предыдущий план не был изменен. Повторите попытку позже."
-
-#: .available+add-ons
-msgid "available add-ons"
-msgstr "доступные дополнения"
-
-#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
-msgid ""
-"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
-"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
-"            data collection."
-msgstr "Дополнения могут быть добавлены к вашему плану «Сообщество» для увеличения лимита использования. Если вы приближаетесь или\n            достигли лимита использования, включенного в план, увеличьте лимит с помощью дополнений, чтобы продолжить\n            сбор данных."
-
-#: .Manage
-msgid "Manage"
-msgstr "Управлять подпиской"
-
-#: .Buy+now
-msgid "Buy now"
-msgstr "Купить сейчас"
-
-#: .%23%23add_on_name%23%23+add-on
-msgid "##add_on_name## add-on"
-msgstr "##add_on_name## дополнение"
-
-#: .monthly+%23%23plan_name%23%23+plan
-msgid "monthly ##plan_name## plan"
-msgstr "месячный ##plan_name## план"
-
-#: .yearly+%23%23plan_name%23%23+plan
-msgid "yearly ##plan_name## plan"
-msgstr "годовой ##plan_name## план"
-
-#: .add-on
-msgid "add-on"
-msgstr "дополнение"
-
-#: .plan
-msgid "plan"
-msgstr "план"
-
-#: .Changes+to+your+Plan
-msgid "Changes to your Plan"
-msgstr "Изменения в ваш план"
-
-#: .Processing+your+transaction%E2%80%A6
-msgid "Processing your transaction…"
-msgstr "Обработка вашей транзакции…"
-
-#: .You+are+switching+to+the+%23%23new_product_type%23%23.
-msgid "You are switching to the ##new_product_type##."
-msgstr "Вы переходите на ##new_product_type##."
-
-#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
-msgid ""
-"Because this plan includes unlimited storage, your storage add-on will be "
-"canceled."
-msgstr "Поскольку данный план подписки включает неограниченное хранилище, ваше дополнение для хранилища будет отменено."
-
-#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23+per+%23%23interval%23%23.
-msgid ""
-"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
-"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price## per ##interval##."
-msgstr "Ваш текущий ##product_type## будет действовать до ##billing_end_date##.\n                    Начиная с ##billing_end_date## и до тех пор, пока вы не отмените подписку, вам будет выставляться счет ##new_price## за ##interval##."
-
-#: .Submit
-msgid "Submit"
-msgstr "Отправить"
 
 #: .Search...
 msgid "Search..."
@@ -4678,20 +4524,17 @@ msgstr "объекты найдены"
 msgid "expand details"
 msgstr "развернуть детали"
 
-#: .This+plan+only+supports+up+to+%23%23submissions%23%23+submissions+per+month.+If+your+project+needs+more+than+that,+please+contact+us+about+our+Private+Server+options.
-msgid ""
-"This plan only supports up to ##submissions## submissions per month. If your"
-" project needs more than that, please contact us about our Private Server "
-"options."
-msgstr "Данный план подписки предусматривает до ##submissions## отправок в месяц. Если вашему проекту требуется больше, свяжитесь с нами, чтобы узнать о вариантах приватного сервера."
-
-#: .Total+Submissions+per+Month
-msgid "Total Submissions per Month"
-msgstr "Всего отправок в месяц"
-
 #: .Could+not+load+media+file
 msgid "Could not load media file"
 msgstr "Не удалось загрузить медиафайл"
+
+#: .Delete%3F
+msgid "Delete?"
+msgstr "Удалить?"
+
+#: .This+action+is+not+reversible
+msgid "This action is not reversible"
+msgstr "Это действие необратимо"
 
 #: .An+error+occured
 msgid "An error occured"
@@ -4704,6 +4547,22 @@ msgstr "Произошла ошибка при проверке статуса �
 #: .Incorrect+token+or+something+went+wrong
 msgid "Incorrect token or something went wrong"
 msgstr "Неверный токен или другая ошибка"
+
+#: .Mean
+msgid "Mean"
+msgstr "Среднее"
+
+#: .Median
+msgid "Median"
+msgstr "Медиана"
+
+#: .Mode
+msgid "Mode"
+msgstr "Мода"
+
+#: .Standard+deviation
+msgid "Standard deviation"
+msgstr "Стандартное отклонение"
 
 #: .Filter+by
 msgid "Filter by"
@@ -4725,21 +4584,9 @@ msgstr "Выберите условие"
 msgid "Enter value"
 msgstr "Введите значение"
 
-#: .Mean
-msgid "Mean"
-msgstr "Среднее"
-
-#: .Median
-msgid "Median"
-msgstr "Медиана"
-
-#: .Mode
-msgid "Mode"
-msgstr "Мода"
-
-#: .Standard+deviation
-msgid "Standard deviation"
-msgstr "Стандартное отклонение"
+#: .There+was+an+issue+fetching+your+plan+information.
+msgid "There was an issue fetching your plan information."
+msgstr "Возникла проблема при получении информации о вашем плане."
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4752,60 +4599,6 @@ msgstr "Найти поле"
 #: .No+results
 msgid "No results"
 msgstr "Нет результатов"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
-msgid "You are about to permanently delete ##count## projects"
-msgstr "Вы собираетесь окончательно удалить ##count## проекты"
-
-#: .All+data+gathered+for+these+projects+will+be+deleted
-msgid "All data gathered for these projects will be deleted"
-msgstr "Все данные, собранные для этих проектов, будут удалены"
-
-#: .Forms+associated+with+these+projects+will+be+deleted
-msgid "Forms associated with these projects will be deleted"
-msgstr "Формы, связанные с этими проектами, будут удалены"
-
-#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
-msgid ""
-"I understand that if I delete these projects I will not be able to recover "
-"them"
-msgstr "Я понимаю, что если удалю эти проекты, то не смогу их восстановить"
-
-#: .Default+sort
-msgid "Default sort"
-msgstr "Сортировка по умолчанию"
-
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "Введите и подтвердите нажатием ENTER"
-
-#: .Name+must+be+unique%21
-msgid "Name must be unique!"
-msgstr "Имя должно быть уникальным!"
-
-#: .Code+must+be+unique%21
-msgid "Code must be unique!"
-msgstr "Код должен быть уникальным!"
-
-#: .Default+language+name
-msgid "Default language name"
-msgstr "Название языка по умолчанию"
-
-#: .Language+name
-msgid "Language name"
-msgstr "Название языка"
-
-#: .Default+language+code
-msgid "Default language code"
-msgstr "Код языка по умолчанию"
-
-#: .Language+code
-msgid "Language code"
-msgstr "Код языка"
-
-#: .Set
-msgid "Set"
-msgstr "Установить"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4863,9 +4656,37 @@ msgstr "Идентификатор экземпляра"
 msgid "Submitted by"
 msgstr "Кто отправил"
 
-#: .Select+export+type
-msgid "Select export type"
-msgstr "Выбрать тип экспорта"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "Введите и подтвердите нажатием ENTER"
+
+#: .Name+must+be+unique%21
+msgid "Name must be unique!"
+msgstr "Имя должно быть уникальным!"
+
+#: .Code+must+be+unique%21
+msgid "Code must be unique!"
+msgstr "Код должен быть уникальным!"
+
+#: .Default+language+name
+msgid "Default language name"
+msgstr "Название языка по умолчанию"
+
+#: .Language+name
+msgid "Language name"
+msgstr "Название языка"
+
+#: .Default+language+code
+msgid "Default language code"
+msgstr "Код языка по умолчанию"
+
+#: .Language+code
+msgid "Language code"
+msgstr "Код языка"
+
+#: .Set
+msgid "Set"
+msgstr "Установить"
 
 #: .CSV+(legacy)
 msgid "CSV (legacy)"
@@ -4915,21 +4736,205 @@ msgstr "Единый столбец"
 msgid "Single and separate columns"
 msgstr "Единый и отдельные столбцы"
 
-#: .Automated+analysis
-msgid "Automated analysis"
-msgstr "Автоматический анализ"
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
+msgid "You are about to permanently delete ##count## projects"
+msgstr "Вы собираетесь окончательно удалить ##count## проекты"
 
-#: .Unsaved+changes
-msgid "Unsaved changes"
-msgstr "Несохраненные изменения"
+#: .All+data+gathered+for+these+projects+will+be+deleted
+msgid "All data gathered for these projects will be deleted"
+msgstr "Все данные, собранные для этих проектов, будут удалены"
 
-#: .Saved
-msgid "Saved"
-msgstr "Сохраненные"
+#: .Forms+associated+with+these+projects+will+be+deleted
+msgid "Forms associated with these projects will be deleted"
+msgstr "Формы, связанные с этими проектами, будут удалены"
 
-#: .There+was+an+error+fetching+usage+data.
-msgid "There was an error fetching usage data."
-msgstr "Произошла ошибка получения данных об использовании."
+#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
+msgid ""
+"I understand that if I delete these projects I will not be able to recover "
+"them"
+msgstr "Я понимаю, что если удалю эти проекты, то не смогу их восстановить"
+
+#: .Non-profit+organization
+msgid "Non-profit organization"
+msgstr "Некоммерческая организация"
+
+#: .Government+institution
+msgid "Government institution"
+msgstr "Государственное учреждение"
+
+#: .Educational+organization
+msgid "Educational organization"
+msgstr "Образовательная организация"
+
+#: .A+commercial/for-profit+company
+msgid "A commercial/for-profit company"
+msgstr "Коммерческая компания"
+
+#: .I+am+not+associated+with+any+organization
+msgid "I am not associated with any organization"
+msgstr "Я не связан ни с одной организацией"
+
+#: .Male
+msgid "Male"
+msgstr "Мужской"
+
+#: .Female
+msgid "Female"
+msgstr "Женский"
+
+#: .Other
+msgid "Other"
+msgstr "Другой"
+
+#: .Use+this+to+display+your+real+name+to+other+users
+msgid "Use this to display your real name to other users"
+msgstr "Используйте, чтобы показать свое настоящее имя другим пользователям"
+
+#: .Social
+msgid "Social"
+msgstr "Социальные сети"
+
+#: .Newsletter
+msgid "Newsletter"
+msgstr "Рассылка"
+
+#: .forgot+password
+msgid "forgot password"
+msgstr "забыли пароль"
+
+#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
+msgid "Asset seems to not have the processing feature enabled!"
+msgstr "Похоже, что в объекте не включена функция обработки!"
+
+#: .Failed+to+get+processing+data.
+msgid "Failed to get processing data."
+msgstr "Не удалось получить данные обработки."
+
+#: .Failed+to+set+transcript.
+msgid "Failed to set transcript."
+msgstr "Не удалось установить транскрипт."
+
+#: .Failed+to+delete+transcript.
+msgid "Failed to delete transcript."
+msgstr "Не удалось удалить транскрипт."
+
+#: .Failed+to+delete+translation.
+msgid "Failed to delete translation."
+msgstr "Не удалось удалить перевод."
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "Вы действительно хотите удалить этот вопрос?"
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr "Удалить вопрос"
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr "Повторить вопрос"
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr "Добавить вопрос в Библиотеку"
+
+#: .Email+address
+msgid "Email address"
+msgstr "Адрес электронной почты"
+
+#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
+msgid "Check your email ##UNVERIFIED_EMAIL##. "
+msgstr "Проверьте свою электронную почту ##UNVERIFIED_EMAIL##. "
+
+#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+msgid ""
+"A verification link has been sent to confirm your ownership. Once confirmed,"
+" this address will replace ##UNVERIFIED_EMAIL##"
+msgstr "Для подтверждения вашего права собственности была отправлена ссылка. После проверки этот адрес заменит##UNVERIFIED_EMAIL##"
+
+#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
+msgid "Email was sent again: ##TIMESTAMP##"
+msgstr "Электронное письмо было отправлено снова: ##TIMESTAMP##"
+
+#: .Type+new+email+address
+msgid "Type new email address"
+msgstr "Введите новый адрес электронной почты"
+
+#: .Two-factor+authentication
+msgid "Two-factor authentication"
+msgstr "Двухфакторная аутентификация"
+
+#: .Disabled
+msgid "Disabled"
+msgstr "Выключено"
+
+#: .Authenticator+app
+msgid "Authenticator app"
+msgstr "Приложение аутентификации"
+
+#: .Reconfigure
+msgid "Reconfigure"
+msgstr "Перенастроить"
+
+#: .Recovery+codes
+msgid "Recovery codes"
+msgstr "Коды восстановления"
+
+#: .Generate+new
+msgid "Generate new"
+msgstr "Сгенерировать"
+
+#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
+msgid "Two-factor authentication was deactivated for your account on ##date##"
+msgstr "Для вашей учетной записи двухфакторная аутентификация была отключена; дата отключения: ##date##"
+
+#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
+msgid "This feature is not available on your current plan. Please visit the "
+msgstr "Эта функция недоступна в вашем текущем плане. Посетите "
+
+#: .Plans+page
+msgid "Plans page"
+msgstr "страницу с планами"
+
+#: .+to+upgrade+your+account.
+msgid " to upgrade your account."
+msgstr " для обновления учетной записи."
+
+#: .Failed+to+get+API+token
+msgid "Failed to get API token"
+msgstr "Не удалось получить токен API"
+
+#: .API+Key
+msgid "API Key"
+msgstr "API-ключ"
+
+#: .Single-Sign+On
+msgid "Single-Sign On"
+msgstr "Единый вход"
+
+#: .Connect+your+KoboToolbox+account+with+your+organization%27s+identity+provider+for+single-sign+on+(SSO).+Afterwards,+you+will+only+be+able+to+sign+in+via+SSO+unless+you+disable+this+setting+here.+This+will+also+update+your+email+address+in+case+your+current+address+is+different.
+msgid ""
+"Connect your KoboToolbox account with your organization's identity provider "
+"for single-sign on (SSO). Afterwards, you will only be able to sign in via "
+"SSO unless you disable this setting here. This will also update your email "
+"address in case your current address is different."
+msgstr ""
+
+#: .Already+connected
+msgid "Already connected"
+msgstr "Уже подключено"
+
+#: .Disable
+msgid "Disable"
+msgstr "Выключить"
+
+#: .No+organization+found
+msgid "No organization found"
+msgstr ""
+
+#: .Couldn%27t+get+usage+data
+msgid "Couldn't get usage data"
+msgstr ""
 
 #: .You+are+approaching+your
 msgid "You are approaching your"
@@ -4955,29 +4960,19 @@ msgstr " и "
 msgid "limit"
 msgstr "лимит"
 
-#: .Please
-msgid "Please"
-msgstr "Пожалуйста"
+#: .limits
+msgid "limits"
+msgstr ""
 
-#: .review+your+usage
-msgid "review your usage"
-msgstr "проверьте использование"
+#: .about+upgrading+your+plan.
+msgid "about upgrading your plan."
+msgstr ""
 
-#: .upgrade+your+plan
-msgid "upgrade your plan"
-msgstr "обновите свой план"
-
-#: .as+soon+as+possible
-msgid "as soon as possible"
-msgstr "как можно скорее"
-
-#: .if+needed
-msgid "if needed"
-msgstr "при необходимости"
-
-#: .Review+your+usage+in+account+settings
-msgid "Review your usage in account settings"
-msgstr "Проверьте использование в настройках учетной записи"
+#: .Please+upgrade+your+plan+or+purchase+an+add-on+to+increase+your+usage+limits.
+msgid ""
+"Please upgrade your plan or purchase an add-on to increase your usage "
+"limits."
+msgstr ""
 
 #: .Monitor+usage
 msgid "Monitor usage"
@@ -5011,6 +5006,14 @@ msgstr "Вы достигли"
 msgid "included with your current plan."
 msgstr "включенного в ваш текущий план."
 
+#: .Please
+msgid "Please"
+msgstr "Пожалуйста"
+
+#: .upgrade+your+plan
+msgid "upgrade your plan"
+msgstr "обновите свой план"
+
 #: .review+your+usage+in+account+settings
 msgid "review your usage in account settings"
 msgstr "проверьте использование в настройках учетной записи"
@@ -5019,164 +5022,267 @@ msgstr "проверьте использование в настройках у
 msgid "remind me later"
 msgstr "напомнить позже"
 
-#: .source+file
-msgid "source file"
-msgstr "исходный файл"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "Выбрать тип экспорта"
 
-#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
-msgid "This ##type## does not have a transcript yet"
-msgstr "Это ##type## пока не имеет транскрипта"
+#: .%23%23start_date%23%23+to+%23%23end_date%23%23
+msgid "##start_date## to ##end_date##"
+msgstr "с ##start_date## до ##end_date##"
 
-#: .begin
-msgid "begin"
-msgstr "начать"
+#: .Your+usage
+msgid "Your usage"
+msgstr "Ваше использование"
 
-#: .Please+select+the+original+language+of+the+%23%23type%23%23
-msgid "Please select the original language of the ##type##"
-msgstr "Пожалуйста, выберите язык оригинала ##type##"
+#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
+msgid "Last update: ##LAST_UPDATE_TIME##"
+msgstr "Последнее обновление: ##LAST_UPDATE_TIME##"
 
-#: .back
-msgid "back"
-msgstr "назад"
+#: .Storage
+msgid "Storage"
+msgstr "Хранение"
 
-#: .manual
-msgid "manual"
-msgstr "вручную"
+#: .per+account
+msgid "per account"
+msgstr "для учетной записи"
 
-#: .transcribe
-msgid "transcribe"
-msgstr "транскрибировать"
+#: .Transcription+minutes
+msgid "Transcription minutes"
+msgstr "Количество минут текстовой расшифровки"
 
-#: .Automatic+transcription+in+progress
-msgid "Automatic transcription in progress"
-msgstr "Выполняется автоматическая транскрипция"
+#: .Translation+characters
+msgid "Translation characters"
+msgstr "Знаки перевода"
 
-#: .Estimated+time+for+completion+%23%23estimate%23%23
-msgid "Estimated time for completion: ##estimate##"
-msgstr "Предполагаемое время выполнения: ##estimate##"
+#: .%23%23count%23%23+Projects
+msgid "##count## Projects"
+msgstr ""
 
-#: .Automatic+transcription+of+audio+file+from
-msgid "Automatic transcription of audio file from"
-msgstr "Автоматическая транскрипция аудиофайла из"
+#: .Submissions+(Total)
+msgid "Submissions (Total)"
+msgstr ""
 
-#: .Transcription+provider
-msgid "Transcription provider"
-msgstr "Автор транскрипции"
+#: .Submissions+(This+year)
+msgid "Submissions (This year)"
+msgstr ""
 
-#: .cancel
-msgid "cancel"
-msgstr "отменить"
+#: .Submissions+(This+month)
+msgid "Submissions (This month)"
+msgstr ""
 
-#: .create+transcript
-msgid "create transcript"
-msgstr "создать транскрипт"
+#: .Data+storage
+msgid "Data storage"
+msgstr ""
 
-#: .Delete+transcript%3F
-msgid "Delete transcript?"
-msgstr "Удалить транскрипт?"
+#: .Transcript+minutes
+msgid "Transcript minutes"
+msgstr ""
 
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "Вы действительно хотите удалить этот вопрос?"
+#: .There+was+an+error+getting+the+list+of+plans.
+msgid "There was an error getting the list of plans."
+msgstr "При получении списка планов произошла ошибка."
 
-#: .Delete+Question
-msgid "Delete Question"
-msgstr "Удалить вопрос"
-
-#: .Duplicate+Question
-msgid "Duplicate Question"
-msgstr "Повторить вопрос"
-
-#: .Add+Question+to+Library
-msgid "Add Question to Library"
-msgstr "Добавить вопрос в Библиотеку"
-
-#: .This+transcript+does+not+have+any+translations+yet
-msgid "This transcript does not have any translations yet"
-msgstr "У этого транскрипта еще нет переводов"
-
-#: .Please+select+the+language+you+want+to+translate+to
-msgid "Please select the language you want to translate to"
-msgstr "Пожалуйста, выберите язык, на который вы хотите сделать перевод"
-
-#: .translate
-msgid "translate"
-msgstr "перевести"
-
-#: .Automatic+translation+of+transcript+to
-msgid "Automatic translation of transcript to"
-msgstr "Автоматический перевод транскрипта на"
-
-#: .Translation+provider
-msgid "Translation provider"
-msgstr "Автор перевода"
-
-#: .create+translation
-msgid "create translation"
-msgstr "создать перевод"
-
-#: .Delete+translation%3F
-msgid "Delete translation?"
-msgstr "Удалить перевод?"
-
-#: .new+translation
-msgid "new translation"
-msgstr "новый перевод"
-
-#: .less+than+a+minute
-msgid "less than a minute"
-msgstr "менее минуты"
-
-#: .about+1+minute
-msgid "about 1 minute"
-msgstr "примерно 1 минута"
-
-#: .about+2+minutes
-msgid "about 2 minutes"
-msgstr "примерно 2 минуты"
-
-#: .about+%23%23number%23%23+minutes
-msgid "about ##number## minutes"
-msgstr "примерно ##number## мин."
-
-#: .Free
-msgid "Free"
-msgstr "Бесплатная"
-
-#: .%24%23%23price%23%23+USD/month
-msgid "$##price## USD/month"
-msgstr "$##price## USD/месяц"
-
-#: .Upgrade
-msgid "Upgrade"
-msgstr "Повысить уровень подписки"
-
-#: .Change+plan
-msgid "Change plan"
-msgstr "Изменить план"
-
-#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
 msgid ""
-"Please note that any qualitative question created for this record will "
-"generate a new column in the data table, making the question available for "
-"all other records."
-msgstr "Обратите внимание, что любой качественный вопрос, созданный для данной записи, создаст новый столбец в таблице данных, что сделает вопрос доступным для всех остальных записей."
+"We couldn't make the requested change to your plan.\n"
+"Your current plan has not been changed."
+msgstr "Мы не смогли внести запрашиваемые изменения в ваш план.\nВаш текущий план не был изменен."
 
-#: .There+are+no+qualitative+analysis+questions+yet.
-msgid "There are no qualitative analysis questions yet."
-msgstr "Вопросы для качественного анализа еще не созданы."
+#: .Couldn%27t+get+data+for+your+organization.
+msgid "Couldn't get data for your organization."
+msgstr "Не удалось получить данные по вашей организации."
 
-#: .Click+the+%22Add+question%22+button+to+get+started
-msgid "Click the \"Add question\" button to get started"
-msgstr "Нажмите кнопку «Добавить вопрос», чтобы начать"
+#: .%23%23plan_name%23%23+Plan
+msgid "##plan_name## Plan"
+msgstr "##plan_name## План"
 
-#: .Only+those+with+full+editing+rights+can+create+questions
-msgid "Only those with full editing rights can create questions"
-msgstr "Создавать вопросы могут только те, кто имеет полные права на редактирование"
+#: .Started+on+%23%23start_date%23%23
+msgid "Started on ##start_date##"
+msgstr "Начало ##start_date##"
 
-#: .Contact+the+project+owner+for+more+information
-msgid "Contact the project owner for more information"
-msgstr "Свяжитесь с владельцем проекта для получения дополнительной информации"
+#: .Renews+on+%23%23renewal_date%23%23
+msgid "Renews on ##renewal_date##"
+msgstr "Обновление ##renewal_date##"
+
+#: .Ends+on+%23%23end_date%23%23
+msgid "Ends on ##end_date##"
+msgstr ""
+
+#: .Changing+usage+limits+on+%23%23change_date%23%23
+msgid "Changing usage limits on ##change_date##"
+msgstr ""
+
+#: .Switching+to+monthly+on+%23%23change_date%23%23
+msgid "Switching to monthly on ##change_date##"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+has+been+canceled+but+will+remain+active+until+the+end+of+the+billing+period.
+msgid ""
+"Your ##current_plan## plan has been canceled but will remain active until "
+"the end of the billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+the+%23%23next_plan%23%23+plan+on
+msgid "Your ##current_plan## plan will change to the ##next_plan## plan on"
+msgstr ""
+
+#: ..+You+can+continue+using+%23%23current_plan%23%23+plan+features+until+the+end+of+the+billing+period.
+msgid ""
+". You can continue using ##current_plan## plan features until the end of the"
+" billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+include+up+to+%23%23submission_quantity%23%23+submissions/month+starting+from
+msgid ""
+"Your ##current_plan## plan will change to include up to "
+"##submission_quantity## submissions/month starting from"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+from+annual+to+monthly+starting+from
+msgid ""
+"Your ##current_plan## plan will change from annual to monthly starting from"
+msgstr ""
+
+#: .Failed+to+load+analysis+questions
+msgid "Failed to load analysis questions"
+msgstr "Не удалось загрузить вопросы для анализа"
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr "Произошла ошибка. Повторите попытку позже."
+
+#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
+msgid ""
+"Success! Your subscription will change at the end of the current billing "
+"period."
+msgstr "Успешно! Ваша подписка изменится в конце текущего расчетного периода."
+
+#: .Ends+on+%23%23cancel_date%23%23
+msgid "Ends on ##cancel_date##"
+msgstr ""
+
+#: .Starts+on+%23%23start_date%23%23
+msgid "Starts on ##start_date##"
+msgstr ""
+
+#: .available+add-ons
+msgid "available add-ons"
+msgstr "доступные дополнения"
+
+#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
+msgid ""
+"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
+"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
+"            data collection."
+msgstr "Дополнения могут быть добавлены к вашему плану «Сообщество» для увеличения лимита использования. Если вы приближаетесь или\n            достигли лимита использования, включенного в план, увеличьте лимит с помощью дополнений, чтобы продолжить\n            сбор данных."
+
+#: .Manage
+msgid "Manage"
+msgstr "Управлять подпиской"
+
+#: .Buy+now
+msgid "Buy now"
+msgstr "Купить сейчас"
+
+#: .Total+Submissions+per+Month
+msgid "Total Submissions per Month"
+msgstr "Всего отправок в месяц"
+
+#: .%23%23asr_minutes%23%23+minutes+of+automated+transcription+/%23%23plan_interval%23%23
+msgid "##asr_minutes## minutes of automated transcription /##plan_interval##"
+msgstr ""
+
+#: .%23%23mt_characters%23%23+characters+of+machine+translation+/%23%23plan_interval%23%23
+msgid "##mt_characters## characters of machine translation /##plan_interval##"
+msgstr ""
+
+#: .%23%23add_on_name%23%23+add-on
+msgid "##add_on_name## add-on"
+msgstr "##add_on_name## дополнение"
+
+#: .monthly+%23%23plan_name%23%23+plan
+msgid "monthly ##plan_name## plan"
+msgstr "месячный ##plan_name## план"
+
+#: .yearly+%23%23plan_name%23%23+plan
+msgid "yearly ##plan_name## plan"
+msgstr "годовой ##plan_name## план"
+
+#: .plan
+msgid "plan"
+msgstr "план"
+
+#: .add-on
+msgid "add-on"
+msgstr "дополнение"
+
+#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
+msgid ""
+"There was an error processing your plan change. Your previous plan has not "
+"been changed. Please try again later."
+msgstr "Произошла ошибка при обработке информации о смене вашего плана. Ваш предыдущий план не был изменен. Повторите попытку позже."
+
+#: .Changes+to+your+Plan
+msgid "Changes to your Plan"
+msgstr "Изменения в ваш план"
+
+#: .Processing+your+transaction%E2%80%A6
+msgid "Processing your transaction…"
+msgstr "Обработка вашей транзакции…"
+
+#: .You+are+switching+to+the+%23%23new_product_type%23%23.
+msgid "You are switching to the ##new_product_type##."
+msgstr "Вы переходите на ##new_product_type##."
+
+#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
+msgid ""
+"Because this plan includes unlimited storage, your storage add-on will be "
+"canceled."
+msgstr "Поскольку данный план подписки включает неограниченное хранилище, ваше дополнение для хранилища будет отменено."
+
+#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23.
+msgid ""
+"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
+"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price##."
+msgstr ""
+
+#: .Submit
+msgid "Submit"
+msgstr "Отправить"
+
+#: .Original+transcript
+msgid "Original transcript"
+msgstr "Оригинал транскрипта"
+
+#: .Submission+data
+msgid "Submission data"
+msgstr "Данные отправки"
+
+#: .Original+file+(Audio)
+msgid "Original file (Audio)"
+msgstr "Исходный файл (аудио)"
+
+#: .Display+settings
+msgid "Display settings"
+msgstr "Настройки отображения"
+
+#: .Customize+display+settings
+msgid "Customize display settings"
+msgstr "Настроить параметры отображения"
+
+#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
+msgid ""
+"Select the information you want to display in the side menu to support your "
+"analysis."
+msgstr "Выберите информацию для отображения в боковом меню для содействия проведению анализа."
+
+#: .Select+the+submission+data+to+display.
+msgid "Select the submission data to display."
+msgstr ""
+
+#: .Apply+selection
+msgid "Apply selection"
+msgstr "Применить выбор"
 
 #: .Delete+group
 msgid "Delete group"
@@ -5226,37 +5332,167 @@ msgstr "частично заблокированный вопрос"
 msgid "Enter your question"
 msgstr "Введите свой вопрос"
 
-#: .original
-msgid "original"
-msgstr "оригинал"
+#: .Default+sort
+msgid "Default sort"
+msgstr "Сортировка по умолчанию"
 
-#: .Search+for+a+language
-msgid "Search for a language"
-msgstr "Поиск языка"
+#: .There+was+an+error+fetching+usage+data.
+msgid "There was an error fetching usage data."
+msgstr "Произошла ошибка получения данных об использовании."
 
-#: .Sorry,+didn%27t+find+any+language%E2%80%A6
-msgid "Sorry, didn't find any language…"
-msgstr "Извините, не нашел языка..."
+#: .There+was+an+error+fetching+asset+usage+data.
+msgid "There was an error fetching asset usage data."
+msgstr ""
 
-#: .I+cannot+find+my+language
-msgid "I cannot find my language"
-msgstr "Я не могу найти свой язык"
+#: .Automated+analysis
+msgid "Automated analysis"
+msgstr "Автоматический анализ"
 
-#: .Please+select+the+language
-msgid "Please select the language"
-msgstr "Пожалуйста, выберите язык"
+#: .Unsaved+changes
+msgid "Unsaved changes"
+msgstr "Несохраненные изменения"
 
-#: .automatic
-msgid "automatic"
-msgstr "автоматический"
+#: .Saved
+msgid "Saved"
+msgstr "Сохраненные"
 
-#: .Click+to+add+another+response...
-msgid "Click to add another response..."
-msgstr "Нажмите, чтобы добавить другой ответ…"
+#: .source+file
+msgid "source file"
+msgstr "исходный файл"
 
-#: .Accepted+files
-msgid "Accepted files"
-msgstr "Принятые файлы"
+#: .Please+select+the+original+language+of+the+%23%23type%23%23
+msgid "Please select the original language of the ##type##"
+msgstr "Пожалуйста, выберите язык оригинала ##type##"
+
+#: .back
+msgid "back"
+msgstr "назад"
+
+#: .manual
+msgid "manual"
+msgstr "вручную"
+
+#: .transcribe
+msgid "transcribe"
+msgstr "транскрибировать"
+
+#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
+msgid "This ##type## does not have a transcript yet"
+msgstr "Это ##type## пока не имеет транскрипта"
+
+#: .begin
+msgid "begin"
+msgstr "начать"
+
+#: .Unlimited
+msgid "Unlimited"
+msgstr "Неограниченно"
+
+#: .%23%23minutes%23%23+mins
+msgid "##minutes## mins"
+msgstr "##minutes## минут"
+
+#: .Available
+msgid "Available"
+msgstr "Доступно"
+
+#: .Used+this+month
+msgid "Used this month"
+msgstr "Использовано в данном месяце"
+
+#: .Used+this+year
+msgid "Used this year"
+msgstr "Использовано в данном году"
+
+#: .Balance
+msgid "Balance"
+msgstr "Баланс"
+
+#: .Automatic+transcription+in+progress
+msgid "Automatic transcription in progress"
+msgstr "Выполняется автоматическая транскрипция"
+
+#: .Estimated+time+for+completion+%23%23estimate%23%23
+msgid "Estimated time for completion: ##estimate##"
+msgstr "Предполагаемое время выполнения: ##estimate##"
+
+#: .Automatic+transcription+of+audio+file+from
+msgid "Automatic transcription of audio file from"
+msgstr "Автоматическая транскрипция аудиофайла из"
+
+#: .Transcription+provider
+msgid "Transcription provider"
+msgstr "Автор транскрипции"
+
+#: .Automated+transcription+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+audio+file+will+be+sent+to+Google%27s+servers+for+the+purpose+of+transcribing.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+short+period+needed+for+completing+the+transcription,+and+we+do+not+allow+Google+to+use+the+audio+for+improving+its+transcription+service.
+msgid ""
+"Automated transcription is provided by Google Cloud Platform. By using this "
+"service you agree that your audio file will be sent to Google's servers for "
+"the purpose of transcribing. However, it will not be stored on Google's "
+"servers beyond the short period needed for completing the transcription, and"
+" we do not allow Google to use the audio for improving its transcription "
+"service."
+msgstr ""
+
+#: .cancel
+msgid "cancel"
+msgstr "отменить"
+
+#: .create+transcript
+msgid "create transcript"
+msgstr "создать транскрипт"
+
+#: .Delete+transcript%3F
+msgid "Delete transcript?"
+msgstr "Удалить транскрипт?"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "последнее изменение ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "создан ##date##"
+
+#: .Please+select+the+language+you+want+to+translate+to
+msgid "Please select the language you want to translate to"
+msgstr "Пожалуйста, выберите язык, на который вы хотите сделать перевод"
+
+#: .translate
+msgid "translate"
+msgstr "перевести"
+
+#: .This+transcript+does+not+have+any+translations+yet
+msgid "This transcript does not have any translations yet"
+msgstr "У этого транскрипта еще нет переводов"
+
+#: .Automatic+translation+of+transcript+to
+msgid "Automatic translation of transcript to"
+msgstr "Автоматический перевод транскрипта на"
+
+#: .Translation+provider
+msgid "Translation provider"
+msgstr "Автор перевода"
+
+#: .Automated+translation+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+transcript+text+will+be+sent+to+Google%27s+servers+for+the+purpose+of+translation.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+very+short+period+needed+for+completing+the+translation.
+msgid ""
+"Automated translation is provided by Google Cloud Platform. By using this "
+"service you agree that your transcript text will be sent to Google's servers"
+" for the purpose of translation. However, it will not be stored on Google's "
+"servers beyond the very short period needed for completing the translation."
+msgstr ""
+
+#: .create+translation
+msgid "create translation"
+msgstr "создать перевод"
+
+#: .Delete+translation%3F
+msgid "Delete translation?"
+msgstr "Удалить перевод?"
+
+#: .new+translation
+msgid "new translation"
+msgstr "новый перевод"
 
 #: .All+group+settings
 msgid "All group settings"
@@ -5326,6 +5562,26 @@ msgid ""
 "contact us at help@kobotoolbox.org so we can fix this bug!"
 msgstr "Невозможно импортировать этот вопрос. Создайте его заново вручную. Просим связаться с нами по адресу help@kobotoolbox.org, чтобы мы могли исправить данную ошибку приложения."
 
+#: .Free
+msgid "Free"
+msgstr "Бесплатная"
+
+#: .%24%23%23price%23%23+USD/month
+msgid "$##price## USD/month"
+msgstr "$##price## USD/месяц"
+
+#: .Upgrade
+msgid "Upgrade"
+msgstr "Повысить уровень подписки"
+
+#: .Change+plan
+msgid "Change plan"
+msgstr "Изменить план"
+
+#: .Accepted+files
+msgid "Accepted files"
+msgstr "Принятые файлы"
+
 #: .This+form+is+currently+empty.
 msgid "This form is currently empty."
 msgstr "В данный момент эта форма пуста."
@@ -5340,17 +5596,33 @@ msgstr "Вы можете добавить вопросы, примечания,
 msgid "Add Question"
 msgstr "Добавить вопрос"
 
-#: .No+value
-msgid "No value"
-msgstr "Нет значения"
+#: .Click+to+add+another+response...
+msgid "Click to add another response..."
+msgstr "Нажмите, чтобы добавить другой ответ…"
 
-#: .Unknown+question+type+%23%23type_name%23%23
-msgid "Unknown question type ##type_name##"
-msgstr "Неизвестный тип вопроса ##type_name##"
+#: .less+than+a+minute
+msgid "less than a minute"
+msgstr "менее минуты"
+
+#: .about+1+minute
+msgid "about 1 minute"
+msgstr "примерно 1 минута"
+
+#: .about+2+minutes
+msgid "about 2 minutes"
+msgstr "примерно 2 минуты"
+
+#: .about+%23%23number%23%23+minutes
+msgid "about ##number## minutes"
+msgstr "примерно ##number## мин."
 
 #: .e.g.+%22.pdf,.doc,.odt%22
 msgid "e.g. \".pdf,.doc,.odt\""
 msgstr "например «.pdf,.doc,.odt»"
+
+#: .No+value
+msgid "No value"
+msgstr "Нет значения"
 
 #: .Choices+File
 msgid "Choices File"
@@ -5404,41 +5676,56 @@ msgstr "Повторить эту группу при необходимости
 msgid "Appearance (advanced)"
 msgstr "Вид (расширенный)"
 
-#: .Question+label+cannot+be+empty
-msgid "Question label cannot be empty"
-msgstr "Метка вопроса не может быть пустой"
+#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+msgid ""
+"Please note that any qualitative question created for this record will "
+"generate a new column in the data table, making the question available for "
+"all other records."
+msgstr "Обратите внимание, что любой качественный вопрос, созданный для данной записи, создаст новый столбец в таблице данных, что сделает вопрос доступным для всех остальных записей."
 
-#: .Some+required+fields+are+missing
-msgid "Some required fields are missing"
-msgstr "Некоторые обязательные для заполнения поля отсутствуют"
+#: .There+are+no+qualitative+analysis+questions+yet.
+msgid "There are no qualitative analysis questions yet."
+msgstr "Вопросы для качественного анализа еще не созданы."
 
-#: .Type+question
-msgid "Type question"
-msgstr "Введите вопрос"
+#: .Click+the+%22Add+question%22+button+to+get+started
+msgid "Click the \"Add question\" button to get started"
+msgstr "Нажмите кнопку «Добавить вопрос», чтобы начать"
 
-#: .Type+your+answer
-msgid "Type your answer"
-msgstr "Введите ответ"
+#: .Only+those+with+full+editing+rights+can+create+questions
+msgid "Only those with full editing rights can create questions"
+msgstr "Создавать вопросы могут только те, кто имеет полные права на редактирование"
 
-#: .%E2%80%A6keyword+search+in+progress
-msgid "…keyword search in progress"
-msgstr "...ведется поиск по ключевым словам"
+#: .Contact+the+project+owner+for+more+information
+msgid "Contact the project owner for more information"
+msgstr "Свяжитесь с владельцем проекта для получения дополнительной информации"
 
-#: .Apply+search
-msgid "Apply search"
-msgstr "Применить поиск"
+#: .original
+msgid "original"
+msgstr "оригинал"
 
-#: .%23%23number%23%23+instances
-msgid "##number## instances"
-msgstr "##number## совпадений"
+#: .Search+for+a+language
+msgid "Search for a language"
+msgstr "Поиск языка"
 
-#: .of+the+keywords
-msgid "of the keywords"
-msgstr "ключевых слов"
+#: .Sorry,+didn%27t+find+any+language%E2%80%A6
+msgid "Sorry, didn't find any language…"
+msgstr "Извините, не нашел языка..."
 
-#: .from
-msgid "from"
-msgstr "из"
+#: .I+cannot+find+my+language
+msgid "I cannot find my language"
+msgstr "Я не могу найти свой язык"
+
+#: .Please+select+the+language
+msgid "Please select the language"
+msgstr "Пожалуйста, выберите язык"
+
+#: .automatic
+msgid "automatic"
+msgstr "автоматический"
+
+#: .Unknown+question+type+%23%23type_name%23%23
+msgid "Unknown question type ##type_name##"
+msgstr "Неизвестный тип вопроса ##type_name##"
 
 #: .Change+column+type%3F
 msgid "Change column type?"
@@ -5516,6 +5803,30 @@ msgstr "Префикс столбца данных"
 msgid "Delete row"
 msgstr "Удалить строку"
 
+#: .%E2%80%A6keyword+search+in+progress
+msgid "…keyword search in progress"
+msgstr "...ведется поиск по ключевым словам"
+
+#: .Apply+search
+msgid "Apply search"
+msgstr "Применить поиск"
+
+#: .%23%23number%23%23+instances
+msgid "##number## instances"
+msgstr "##number## совпадений"
+
+#: .of+the+keywords
+msgid "of the keywords"
+msgstr "ключевых слов"
+
+#: .from
+msgid "from"
+msgstr "из"
+
+#: .Type+your+answer
+msgid "Type your answer"
+msgstr "Введите ответ"
+
 #: .Delete+this+question%3F
 msgid "Delete this question?"
 msgstr "Удалить данный вопрос?"
@@ -5524,6 +5835,18 @@ msgstr "Удалить данный вопрос?"
 msgid ""
 "Are you sure you want to delete this question? This action cannot be undone."
 msgstr "Вы действительно хотите удалить данный вопрос? Это необратимое действие."
+
+#: .Question+label+cannot+be+empty
+msgid "Question label cannot be empty"
+msgstr "Метка вопроса не может быть пустой"
+
+#: .Some+required+fields+are+missing
+msgid "Some required fields are missing"
+msgstr "Некоторые обязательные для заполнения поля отсутствуют"
+
+#: .Type+question
+msgid "Type question"
+msgstr "Введите вопрос"
 
 #: .Look+for
 msgid "Look for"

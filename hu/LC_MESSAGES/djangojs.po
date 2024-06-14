@@ -7,7 +7,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-04-11 19:59+0000\n"
+"POT-Creation-Date: 2024-06-06 18:23+0000\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: Aron Gergely, 2022\n"
 "Language-Team: Hungarian (http://app.transifex.com/kobotoolbox/kobotoolbox/language/hu/)\n"
@@ -117,10 +117,6 @@ msgstr "Nyelvek megváltoztatása"
 #: .Could+not+find+%23%23fileName%23%23
 msgid "Could not find ##fileName##"
 msgstr "##fileName## nem található"
-
-#: .N/A
-msgid "N/A"
-msgstr "Nem található"
 
 #: .me
 msgid "me"
@@ -440,6 +436,14 @@ msgstr "Nagyobb vagy egyenlő, mint"
 msgid "Less Than or Equal to"
 msgstr "Kisebb vagy egyenlő, mint"
 
+#: .Manually+enter+your+validation+logic+in+XLSForm+code
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr "Írja be manuálisan az érvényesítési logikáját XLSForm kód formájában"
+
+#: .Validation+Code
+msgid "Validation Code:"
+msgstr "Érvényesítési kód:"
+
 #: .This+question+will+only+be+displayed+if+the+following+conditions+apply
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "Ez a kérdés csak abban az esetben jelenik meg, ha a következő feltételek teljesülnek"
@@ -464,14 +468,6 @@ msgstr "válasz értéke"
 msgid "Select question from list"
 msgstr "Válasszon egy kérdést a listáról"
 
-#: .Manually+enter+your+validation+logic+in+XLSForm+code
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "Írja be manuálisan az érvényesítési logikáját XLSForm kód formájában"
-
-#: .Validation+Code
-msgid "Validation Code:"
-msgstr "Érvényesítési kód:"
-
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23)
 msgid "##permission_label## (##username_list##)"
 msgstr "##permission_label## (##username_list##)"
@@ -479,6 +475,12 @@ msgstr "##permission_label## (##username_list##)"
 #: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
 msgid "##permission_label## (##username_list## and 1 other)"
 msgstr "##permission_label## (##username_list## és még 1 másik)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+%23%23hidden_username_count%23%23+others)
+msgid ""
+"##permission_label## (##username_list## and ##hidden_username_count## "
+"others)"
+msgstr ""
 
 #: .My+Projects
 msgid "My Projects"
@@ -716,49 +718,21 @@ msgstr "Összes űrlapbeküldés újrapróbálása sikertelen"
 msgid "loading…"
 msgstr "betöltés…"
 
-#: .Failed+to+get+submissions+uuids.
-msgid "Failed to get submissions uuids."
-msgstr "Nem sikerült lekérni az űrlapválaszok univerzálisan egyedi azonosítóit (UUIDs)."
+#: .Could+not+upload+your+media
+msgid "Could not upload your media"
+msgstr "Nem tudtuk feltölteni a médiatartalmát"
 
-#: .Failed+to+get+submission.
-msgid "Failed to get submission."
-msgstr "Nem sikerült lekérni az űrlapválaszt."
+#: .Something+went+wrong+with+getting+your+media
+msgid "Something went wrong with getting your media"
+msgstr "Valami hiba történt a médiatartalom lekérése közben"
 
-#: .Failed+to+update+submissions.
-msgid "Failed to update submissions."
-msgstr "Nem sikerült az űrlapválaszok frissítése."
+#: .Successfully+deleted+media
+msgid "Successfully deleted media"
+msgstr "Médiatartalom sikeresen törölve lett"
 
-#: .Failed+to+update+some+submissions+values.
-msgid "Failed to update some submissions values."
-msgstr "Nem sikerült néhány űrlapválasz értékének frissítése."
-
-#: .Failed+to+update+submissions+values.
-msgid "Failed to update submissions values."
-msgstr "Nem sikerült az űrlapválaszok értékeinek frissítése."
-
-#: .Failed+to+delete+submissions.
-msgid "Failed to delete submissions."
-msgstr "Nem sikerült az űrlapválaszok törlése."
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "Nem sikerült az exportálás létrehozása"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "Nem sikerült az exportálás törlése"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "Nem sikerült az exportbeállítás frissítése"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "Nem sikerült az exportbeállítás létrehozása"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "Nem sikerült az exportbeállítás törlése"
+#: .Failed+to+delete+media%21
+msgid "Failed to delete media!"
+msgstr "Nem sikerült a médiatartalom törlése!"
 
 #: .Failed+to+attach+to+source
 msgid "Failed to attach to source"
@@ -784,6 +758,30 @@ msgstr "Nem sikerült átállítani a megosztást"
 msgid "Failed to update column filters"
 msgstr "Nem sikerült frissíteni az oszlopszűrőket"
 
+#: .Failed+to+get+submissions+uuids.
+msgid "Failed to get submissions uuids."
+msgstr "Nem sikerült lekérni az űrlapválaszok univerzálisan egyedi azonosítóit (UUIDs)."
+
+#: .Failed+to+get+submission.
+msgid "Failed to get submission."
+msgstr "Nem sikerült lekérni az űrlapválaszt."
+
+#: .Failed+to+update+submissions.
+msgid "Failed to update submissions."
+msgstr "Nem sikerült az űrlapválaszok frissítése."
+
+#: .Failed+to+update+some+submissions+values.
+msgid "Failed to update some submissions values."
+msgstr "Nem sikerült néhány űrlapválasz értékének frissítése."
+
+#: .Failed+to+update+submissions+values.
+msgid "Failed to update submissions values."
+msgstr "Nem sikerült az űrlapválaszok értékeinek frissítése."
+
+#: .Failed+to+delete+submissions.
+msgid "Failed to delete submissions."
+msgstr "Nem sikerült az űrlapválaszok törlése."
+
 #: .Successfully+removed+from+collection
 msgid "Successfully removed from collection"
 msgstr "Sikeresen eltávolítva a gyűjteményből"
@@ -800,21 +798,25 @@ msgstr "Gyűjteményhez való hozzáadás sikertelen"
 msgid "Failed to get the results"
 msgstr "Nem sikerült lekérni az eredményeket"
 
-#: .Could+not+upload+your+media
-msgid "Could not upload your media"
-msgstr "Nem tudtuk feltölteni a médiatartalmát"
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "Nem sikerült az exportálás létrehozása"
 
-#: .Something+went+wrong+with+getting+your+media
-msgid "Something went wrong with getting your media"
-msgstr "Valami hiba történt a médiatartalom lekérése közben"
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "Nem sikerült az exportálás törlése"
 
-#: .Successfully+deleted+media
-msgid "Successfully deleted media"
-msgstr "Médiatartalom sikeresen törölve lett"
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "Nem sikerült az exportbeállítás frissítése"
 
-#: .Failed+to+delete+media%21
-msgid "Failed to delete media!"
-msgstr "Nem sikerült a médiatartalom törlése!"
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "Nem sikerült az exportbeállítás létrehozása"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "Nem sikerült az exportbeállítás törlése"
 
 #: .%23%23field_label%23%23+(required)
 msgid "##field_label## (required)"
@@ -1014,13 +1016,17 @@ msgstr "A kiszámítható helyettesítések, mint az „a” helyett „@” nem
 msgid "Password strength"
 msgstr "Jelszó erőssége"
 
+#: .XForm+is+loading
+msgid "XForm is loading"
+msgstr "XForm betöltése"
+
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "Elérési út nem található / nem értelmezhető"
 
-#: .XForm+is+loading
-msgid "XForm is loading"
-msgstr "XForm betöltése"
+#: .Section+not+found
+msgid "Section not found"
+msgstr ""
 
 #: .Untitled
 msgid "Untitled"
@@ -1236,6 +1242,18 @@ msgstr "Vázlat verzió"
 msgid "If you want to make these changes public, you must deploy this form."
 msgstr "Ha ezeket a módosításokat nyilvánossá szeretné tenni, ezt az űrlapot élesítenie kell."
 
+#: .Public+Collections
+msgid "Public Collections"
+msgstr "Nyilvános gyűjtemények"
+
+#: .Subscribed
+msgid "Subscribed"
+msgstr "Feliratkozott"
+
+#: .Quick+look
+msgid "Quick look"
+msgstr "Gyors nézet"
+
 #: .Your+search+returned+no+results.
 msgid "Your search returned no results."
 msgstr "Nincs találat a keresésre."
@@ -1259,18 +1277,6 @@ msgstr "Könyvtáram"
 #: .Drop+files+to+upload
 msgid "Drop files to upload"
 msgstr "Húzza ide a fájlokat a feltöltéshez"
-
-#: .Public+Collections
-msgid "Public Collections"
-msgstr "Nyilvános gyűjtemények"
-
-#: .Subscribed
-msgid "Subscribed"
-msgstr "Feliratkozott"
-
-#: .Quick+look
-msgid "Quick look"
-msgstr "Gyors nézet"
 
 #: .Could+not+load+grouped+results+via+%22%23%23%22.+Will+attempt+to+load+the+ungrouped+report.
 msgid ""
@@ -1358,9 +1364,11 @@ msgstr "Egyedi jelentés"
 msgid "Question Style"
 msgstr "Kérdésstílus"
 
-#: .There+is+no+data+for+this+question+for+the+current+submission
-msgid "There is no data for this question for the current submission"
-msgstr "Ehhez a kérdéshez nincs adat ebben az űrlapválaszban"
+#: .Anyone+can+see+this+blank+form+and+add+submissions+to+it+because+you+have+not+set+[your+account]+to+require+authentication.
+msgid ""
+"Anyone can see this blank form and add submissions to it because you have "
+"not set [your account] to require authentication."
+msgstr ""
 
 #: .Who+has+access
 msgid "Who has access"
@@ -1373,6 +1381,359 @@ msgstr "Felhasználó hozzáadása"
 #: .Waiting+for+all+projects+to+load%E2%80%A6
 msgid "Waiting for all projects to load…"
 msgstr "Várakozás az összes projekt betöltésére…"
+
+#: .An+error+occurred
+msgid "An error occurred"
+msgstr "Hiba történt"
+
+#: .Your+connection+is+offline
+msgid "Your connection is offline"
+msgstr "A kapcsolat megszakadt"
+
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "A térkép alapértelmezés szerint a legutolsó ##number## űrlapválaszra van korlátozva. A térkép beállításainál tudja növelni ezt a korlátozást."
+
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "Hiba: az adatok betöltése sikertelen."
+
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "Kérdőívválaszok szerinti bontás"
+
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "Bontás eszerint:"
+
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "Nem érkezett „geopont” válasz"
+
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "A térkép nem mutat adatot, mert az űrlap nem tartalmaz „geopont” mezőt."
+
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "Teljes képernyő ki/be"
+
+#: .Show+as+points
+msgid "Show as points"
+msgstr "Mutassa pontokként"
+
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "Rétegek váltása"
+
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "Térkép-megjelenítési beállítások"
+
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "Megjelenítés hőtérképként"
+
+#: .Language
+msgid "Language"
+msgstr "Nyelv"
+
+#: .Default
+msgid "Default"
+msgstr "Alapértelmezett"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- Minden adat kijelzése --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "lefordítatlan: "
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "Kérdéscímke nincs kitöltve"
+
+#: .Reset
+msgid "Reset"
+msgstr "Visszaállítás"
+
+#: .not+set
+msgid "not set"
+msgstr "nincs beállítva"
+
+#: .Legend
+msgid "Legend"
+msgstr "Jelmagyarázat"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "Térképbeállítások"
+
+#: .Table
+msgid "Table"
+msgstr "Táblázat"
+
+#: .Reports
+msgid "Reports"
+msgstr "Jelentések"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "Galéria"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "Letöltések"
+
+#: .Map
+msgid "Map"
+msgstr "Térkép"
+
+#: .General
+msgid "General"
+msgstr "Általános"
+
+#: .Media
+msgid "Media"
+msgstr "Média"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "Megosztás"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "Projektek összekapcsolása"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "REST szolgáltatások"
+
+#: .Your+query+is+too+short
+msgid "Your query is too short"
+msgstr "A lekérdezése túl rövid"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "elemek listázása sikertelen"
+
+#: .Import
+msgid "Import"
+msgstr "Importálás"
+
+#: .Next
+msgid "Next"
+msgstr "Következő"
+
+#: .Create+project
+msgid "Create project"
+msgstr "Projekt létrehozása"
+
+#: .Project+settings
+msgid "Project settings"
+msgstr "Projektbeállítások"
+
+#: .Choose+a+source
+msgid "Choose a source"
+msgstr "Forrás kiválasztása"
+
+#: .Choose+template
+msgid "Choose template"
+msgstr "Sablon kiválasztása"
+
+#: .Upload+XLSForm
+msgid "Upload XLSForm"
+msgstr "XLSForm feltöltése"
+
+#: .Import+XLSForm
+msgid "Import XLSForm"
+msgstr "XLSForm importálása"
+
+#: .Project+details
+msgid "Project details"
+msgstr "Projekt részletei"
+
+#: .Choose
+msgid "Choose"
+msgstr "Válasszon"
+
+#: .Error+asset+could+not+be+created.
+msgid "Error: asset could not be created."
+msgstr "Hiba: elem létrehozása sikertelen."
+
+#: .Error+new+project+could+not+be+created.
+msgid "Error: new project could not be created."
+msgstr "Hiba: új projekt létrehozása sikertelen."
+
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "Kérjük, várjon…"
+
+#: .Retrieving+form,+please+wait...
+msgid "Retrieving form, please wait..."
+msgstr "Űrlap visszakeresése. Kérjük, várjon..."
+
+#: .Failed+to+reload+project+after+import%21
+msgid "Failed to reload project after import!"
+msgstr "A projekt újbóli betöltése az importálás után sikertelen!"
+
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "Sikertelen importálás!"
+
+#: .Could+not+initialize+XLSForm+import%21
+msgid "Could not initialize XLSForm import!"
+msgstr "Az XLSForm-import inicializálása sikertelen!"
+
+#: .Failed+to+reload+project+after+upload%21
+msgid "Failed to reload project after upload!"
+msgstr "A projekt újbóli betöltése a feltöltés után sikertelen!"
+
+#: .Could+not+import+XLSForm%21
+msgid "Could not import XLSForm!"
+msgstr "Az XLSForm-import importálása sikertelen!"
+
+#: .Some+fields+contain+errors%21
+msgid "Some fields contain errors!"
+msgstr "Valamelyik mező hibákat tartalmaz!"
+
+#: .Project+Name
+msgid "Project Name"
+msgstr "Projekt neve"
+
+#: .%23%23count%23%23+characters+left
+msgid "##count## characters left"
+msgstr "##count## karakter maradt"
+
+#: .Use+a+template
+msgid "Use a template"
+msgstr "Sablon használata"
+
+#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
+msgid ""
+"Choose one of the options below to continue. You will be prompted to enter "
+"name and other details in further steps."
+msgstr "Válasszon egy opciót a folytatáshoz. A következő lépésben kell megadnia a nevet és más részleteket."
+
+#: .Build+from+scratch
+msgid "Build from scratch"
+msgstr "Létrehozás nulláról"
+
+#: .Upload+an+XLSForm
+msgid "Upload an XLSForm"
+msgstr "XLSForm feltöltése"
+
+#: .Import+an+XLSForm+via+URL
+msgid "Import an XLSForm via URL"
+msgstr "XLSForm importálása URL-címről"
+
+#: .Import+an+XLSForm+from+your+computer.
+msgid "Import an XLSForm from your computer."
+msgstr "XLSForm importálása a számítógépről."
+
+#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
+msgid " Drag and drop the XLSForm file here or click to browse"
+msgstr " Húzza ide az XLSForm-fájlt, vagy kattintson ide a tallózáshoz"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "Fájl feltöltése…"
+
+#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
+msgid "Enter a valid XLSForm URL in the field below."
+msgstr "Adjon meg egy érvényes XLSForm URL-címet az alábbi mezőben."
+
+#: .Having+issues%3F+See+this+help+article.
+msgid "Having issues? See this help article."
+msgstr "Kérdései vannak? Olvassa el ezt a súgócikket."
+
+#: .URL
+msgid "URL"
+msgstr "URL"
+
+#: .Save+Changes
+msgid "Save Changes"
+msgstr "Változtatások mentése"
+
+#: .Please+enter+a+title+for+your+project%21
+msgid "Please enter a title for your project!"
+msgstr "Adjon egy címet a projektnek!"
+
+#: .Enter+title+of+project+here
+msgid "Enter title of project here"
+msgstr "Ide írja be a projekt címét"
+
+#: .Please+enter+a+description+for+your+project
+msgid "Please enter a description for your project"
+msgstr "Adja meg a projekt leírását"
+
+#: .Enter+short+description+here
+msgid "Enter short description here"
+msgstr "Adjon meg egy rövid leírást ide"
+
+#: .Please+choose+a+sector
+msgid "Please choose a sector"
+msgstr "Válasszon egy ágazatot"
+
+#: .Please+select+at+least+one+country
+msgid "Please select at least one country"
+msgstr "Válasszon legalább egy országot"
+
+#: .Please+specify+the+operational+purpose+of+your+project
+msgid "Please specify the operational purpose of your project"
+msgstr "Adja meg a projekt működési célját"
+
+#: .Yes
+msgid "Yes"
+msgstr "Igen"
+
+#: .No
+msgid "No"
+msgstr "Nem"
+
+#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
+msgid ""
+"Please indicate whether or not your project collects personally identifiable"
+" information"
+msgstr "Jelezze, hogy gyűjt-e személyes adatokat, vagy sem"
+
+#: .Save
+msgid "Save"
+msgstr "Mentés"
+
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "Projekt visszaállítása"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "Projekt archiválása"
+
+#: .Archive+project+to+stop+accepting+submissions.
+msgid "Archive project to stop accepting submissions."
+msgstr "Projekt archiválása, hogy ne fogadjon több választ."
+
+#: .Unarchive+project+to+resume+accepting+submissions.
+msgid "Unarchive project to resume accepting submissions."
+msgstr "Archivált projekt visszaállítása, hogy ismét fogadhasson válaszokat."
+
+#: .Delete+Project+and+Data
+msgid "Delete Project and Data"
+msgstr "Projekt és adatok törlése"
+
+#: .Back
+msgid "Back"
+msgstr "Vissza"
+
+#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
+msgid ""
+"Form replacing is not available due to form's Locking Profile restrictions."
+msgstr "Az űrlap lecserélése nem lehetséges az űrlap lezárási korlátozása miatt."
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -1528,427 +1889,6 @@ msgstr "Hiba az előnézet generálásakor"
 msgid "Import Cascading Select Questions"
 msgstr "Lenyíló lista kérdéseinek importálása"
 
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "A térkép alapértelmezés szerint a legutolsó ##number## űrlapválaszra van korlátozva. A térkép beállításainál tudja növelni ezt a korlátozást."
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "Hiba: az adatok betöltése sikertelen."
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "Kérdőívválaszok szerinti bontás"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "Bontás eszerint:"
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "Nem érkezett „geopont” válasz"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "A térkép nem mutat adatot, mert az űrlap nem tartalmaz „geopont” mezőt."
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "Teljes képernyő ki/be"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "Mutassa pontokként"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "Rétegek váltása"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "Térkép-megjelenítési beállítások"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "Megjelenítés hőtérképként"
-
-#: .Language
-msgid "Language"
-msgstr "Nyelv"
-
-#: .Default
-msgid "Default"
-msgstr "Alapértelmezett"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- Minden adat kijelzése --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "lefordítatlan: "
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "Kérdéscímke nincs kitöltve"
-
-#: .Reset
-msgid "Reset"
-msgstr "Visszaállítás"
-
-#: .not+set
-msgid "not set"
-msgstr "nincs beállítva"
-
-#: .Legend
-msgid "Legend"
-msgstr "Jelmagyarázat"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "Térképbeállítások"
-
-#: .copied+to+clipboard
-msgid "copied to clipboard"
-msgstr "vágólapra másolva"
-
-#: .Clone+of
-msgid "Clone of"
-msgstr "Klón:"
-
-#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
-msgid ""
-"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
-"original name."
-msgstr "Adja meg a klónozott ##ASSET_TYPE## nevét. Hagyja üresen az eredeti név megtartásához."
-
-#: .Ok
-msgid "Ok"
-msgstr "OK"
-
-#: .%23%23+files
-msgid "## files"
-msgstr "## fájl"
-
-#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
-msgid ""
-"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
-"try again using the \"Replace form\" icon."
-msgstr "XLSForm importálása sikertelen. Ellenőrizze, hogy az XLSForm és/vagy az URL-cím helyes-e, és próbája meg újra az „Űrlap cseréje” parancsot."
-
-#: .XLS+Import+completed
-msgid "XLS Import completed"
-msgstr "XLS importálása befejeződött"
-
-#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
-msgid "Your upload is being processed. This may take a few moments."
-msgstr "A feltöltés feldolgozása folyamatban van. Ez eltarthat néhány másodpercig."
-
-#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
-msgid "Your upload is queued for processing. This may take a few moments."
-msgstr "A feltöltés feldolgozásra várakozik. Ez eltarthat néhány másodpercig."
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "Sikertelen importálás!"
-
-#: .Failed+to+create+import.
-msgid "Failed to create import."
-msgstr "Import létrehozása sikertelen."
-
-#: .Upload+error+could+not+recognize+Excel+file.
-msgid "Upload error: could not recognize Excel file."
-msgstr "Hiba a feltöltéskor: az Excel-fájl értelmezése sikertelen."
-
-#: .Uploaded+file+name+
-msgid "Uploaded file name: "
-msgstr "Feltöltött fájl neve: "
-
-#: .Could+not+recognize+the+dropped+item(s).
-msgid "Could not recognize the dropped item(s)."
-msgstr "A feltöltési területre húzott tételek értelmezése sikertelen."
-
-#: .Project+information
-msgid "Project information"
-msgstr "Projektinformáció"
-
-#: .Questions
-msgid "Questions"
-msgstr "Kérdések"
-
-#: .Last+modified
-msgid "Last modified"
-msgstr "Utolsó módosítás"
-
-#: .Last+deployed
-msgid "Last deployed"
-msgstr "Utoljára élesítve"
-
-#: .Latest+submission
-msgid "Latest submission"
-msgstr "Legújabb űrlapválasz"
-
-#: .Operational+purpose+of+data
-msgid "Operational purpose of data"
-msgstr "Az adatkezelés célja"
-
-#: .Collects+personally+identifiable+information
-msgid "Collects personally identifiable information"
-msgstr "Személyes adatokat gyűjt"
-
-#: .Table
-msgid "Table"
-msgstr "Táblázat"
-
-#: .Reports
-msgid "Reports"
-msgstr "Jelentések"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "Galéria"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "Letöltések"
-
-#: .Map
-msgid "Map"
-msgstr "Térkép"
-
-#: .General
-msgid "General"
-msgstr "Általános"
-
-#: .Media
-msgid "Media"
-msgstr "Média"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "Megosztás"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "Projektek összekapcsolása"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "REST szolgáltatások"
-
-#: .Import
-msgid "Import"
-msgstr "Importálás"
-
-#: .Next
-msgid "Next"
-msgstr "Következő"
-
-#: .Create+project
-msgid "Create project"
-msgstr "Projekt létrehozása"
-
-#: .Project+settings
-msgid "Project settings"
-msgstr "Projektbeállítások"
-
-#: .Choose+a+source
-msgid "Choose a source"
-msgstr "Forrás kiválasztása"
-
-#: .Choose+template
-msgid "Choose template"
-msgstr "Sablon kiválasztása"
-
-#: .Upload+XLSForm
-msgid "Upload XLSForm"
-msgstr "XLSForm feltöltése"
-
-#: .Import+XLSForm
-msgid "Import XLSForm"
-msgstr "XLSForm importálása"
-
-#: .Project+details
-msgid "Project details"
-msgstr "Projekt részletei"
-
-#: .Choose
-msgid "Choose"
-msgstr "Válasszon"
-
-#: .Error+asset+could+not+be+created.
-msgid "Error: asset could not be created."
-msgstr "Hiba: elem létrehozása sikertelen."
-
-#: .Error+new+project+could+not+be+created.
-msgid "Error: new project could not be created."
-msgstr "Hiba: új projekt létrehozása sikertelen."
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "Kérjük, várjon…"
-
-#: .Retrieving+form,+please+wait...
-msgid "Retrieving form, please wait..."
-msgstr "Űrlap visszakeresése. Kérjük, várjon..."
-
-#: .Failed+to+reload+project+after+import%21
-msgid "Failed to reload project after import!"
-msgstr "A projekt újbóli betöltése az importálás után sikertelen!"
-
-#: .Could+not+initialize+XLSForm+import%21
-msgid "Could not initialize XLSForm import!"
-msgstr "Az XLSForm-import inicializálása sikertelen!"
-
-#: .Failed+to+reload+project+after+upload%21
-msgid "Failed to reload project after upload!"
-msgstr "A projekt újbóli betöltése a feltöltés után sikertelen!"
-
-#: .Could+not+import+XLSForm%21
-msgid "Could not import XLSForm!"
-msgstr "Az XLSForm-import importálása sikertelen!"
-
-#: .Some+fields+contain+errors%21
-msgid "Some fields contain errors!"
-msgstr "Valamelyik mező hibákat tartalmaz!"
-
-#: .Project+Name
-msgid "Project Name"
-msgstr "Projekt neve"
-
-#: .%23%23count%23%23+characters+left
-msgid "##count## characters left"
-msgstr "##count## karakter maradt"
-
-#: .Use+a+template
-msgid "Use a template"
-msgstr "Sablon használata"
-
-#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
-msgid ""
-"Choose one of the options below to continue. You will be prompted to enter "
-"name and other details in further steps."
-msgstr "Válasszon egy opciót a folytatáshoz. A következő lépésben kell megadnia a nevet és más részleteket."
-
-#: .Build+from+scratch
-msgid "Build from scratch"
-msgstr "Létrehozás nulláról"
-
-#: .Upload+an+XLSForm
-msgid "Upload an XLSForm"
-msgstr "XLSForm feltöltése"
-
-#: .Import+an+XLSForm+via+URL
-msgid "Import an XLSForm via URL"
-msgstr "XLSForm importálása URL-címről"
-
-#: .Import+an+XLSForm+from+your+computer.
-msgid "Import an XLSForm from your computer."
-msgstr "XLSForm importálása a számítógépről."
-
-#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
-msgid " Drag and drop the XLSForm file here or click to browse"
-msgstr " Húzza ide az XLSForm-fájlt, vagy kattintson ide a tallózáshoz"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "Fájl feltöltése…"
-
-#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
-msgid "Enter a valid XLSForm URL in the field below."
-msgstr "Adjon meg egy érvényes XLSForm URL-címet az alábbi mezőben."
-
-#: .Having+issues%3F+See+this+help+article.
-msgid "Having issues? See this help article."
-msgstr "Kérdései vannak? Olvassa el ezt a súgócikket."
-
-#: .URL
-msgid "URL"
-msgstr "URL"
-
-#: .Save+Changes
-msgid "Save Changes"
-msgstr "Változtatások mentése"
-
-#: .Please+enter+a+title+for+your+project%21
-msgid "Please enter a title for your project!"
-msgstr "Adjon egy címet a projektnek!"
-
-#: .Enter+title+of+project+here
-msgid "Enter title of project here"
-msgstr "Ide írja be a projekt címét"
-
-#: .Please+enter+a+description+for+your+project
-msgid "Please enter a description for your project"
-msgstr "Adja meg a projekt leírását"
-
-#: .Enter+short+description+here
-msgid "Enter short description here"
-msgstr "Adjon meg egy rövid leírást ide"
-
-#: .Please+choose+a+sector
-msgid "Please choose a sector"
-msgstr "Válasszon egy ágazatot"
-
-#: .Please+select+at+least+one+country
-msgid "Please select at least one country"
-msgstr "Válasszon legalább egy országot"
-
-#: .Please+specify+the+operational+purpose+of+your+project
-msgid "Please specify the operational purpose of your project"
-msgstr "Adja meg a projekt működési célját"
-
-#: .Yes
-msgid "Yes"
-msgstr "Igen"
-
-#: .No
-msgid "No"
-msgstr "Nem"
-
-#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
-msgid ""
-"Please indicate whether or not your project collects personally identifiable"
-" information"
-msgstr "Jelezze, hogy gyűjt-e személyes adatokat, vagy sem"
-
-#: .Save
-msgid "Save"
-msgstr "Mentés"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "Projekt visszaállítása"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "Projekt archiválása"
-
-#: .Archive+project+to+stop+accepting+submissions.
-msgid "Archive project to stop accepting submissions."
-msgstr "Projekt archiválása, hogy ne fogadjon több választ."
-
-#: .Unarchive+project+to+resume+accepting+submissions.
-msgid "Unarchive project to resume accepting submissions."
-msgstr "Archivált projekt visszaállítása, hogy ismét fogadhasson válaszokat."
-
-#: .Delete+Project+and+Data
-msgid "Delete Project and Data"
-msgstr "Projekt és adatok törlése"
-
-#: .Back
-msgid "Back"
-msgstr "Vissza"
-
-#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
-msgid ""
-"Form replacing is not available due to form's Locking Profile restrictions."
-msgstr "Az űrlap lecserélése nem lehetséges az űrlap lezárási korlátozása miatt."
-
 #: .URL+is+empty%21
 msgid "URL is empty!"
 msgstr "Üres URL-cím!"
@@ -2001,6 +1941,114 @@ msgstr "Média betöltése"
 msgid "No files uploaded yet"
 msgstr "Még nincsenek feltöltött fájlok"
 
+#: .copied+to+clipboard
+msgid "copied to clipboard"
+msgstr "vágólapra másolva"
+
+#: .Clone+of
+msgid "Clone of"
+msgstr "Klón:"
+
+#: .Enter+the+name+of+the+cloned+%23%23ASSET_TYPE%23%23.+Leave+empty+to+keep+the+original+name.
+msgid ""
+"Enter the name of the cloned ##ASSET_TYPE##. Leave empty to keep the "
+"original name."
+msgstr "Adja meg a klónozott ##ASSET_TYPE## nevét. Hagyja üresen az eredeti név megtartásához."
+
+#: .Ok
+msgid "Ok"
+msgstr "OK"
+
+#: .%23%23+files
+msgid "## files"
+msgstr "## fájl"
+
+#: .XLSForm+Import+failed.+Check+that+the+XLSForm+and/or+the+URL+are+valid,+and+try+again+using+the+%22Replace+form%22+icon.
+msgid ""
+"XLSForm Import failed. Check that the XLSForm and/or the URL are valid, and "
+"try again using the \"Replace form\" icon."
+msgstr "XLSForm importálása sikertelen. Ellenőrizze, hogy az XLSForm és/vagy az URL-cím helyes-e, és próbája meg újra az „Űrlap cseréje” parancsot."
+
+#: .XLS+Import+completed
+msgid "XLS Import completed"
+msgstr "XLS importálása befejeződött"
+
+#: .Your+upload+is+being+processed.+This+may+take+a+few+moments.
+msgid "Your upload is being processed. This may take a few moments."
+msgstr "A feltöltés feldolgozása folyamatban van. Ez eltarthat néhány másodpercig."
+
+#: .Your+upload+is+queued+for+processing.+This+may+take+a+few+moments.
+msgid "Your upload is queued for processing. This may take a few moments."
+msgstr "A feltöltés feldolgozásra várakozik. Ez eltarthat néhány másodpercig."
+
+#: .Failed+to+create+import.
+msgid "Failed to create import."
+msgstr "Import létrehozása sikertelen."
+
+#: .Upload+error+could+not+recognize+Excel+file.
+msgid "Upload error: could not recognize Excel file."
+msgstr "Hiba a feltöltéskor: az Excel-fájl értelmezése sikertelen."
+
+#: .Uploaded+file+name+
+msgid "Uploaded file name: "
+msgstr "Feltöltött fájl neve: "
+
+#: .Could+not+recognize+the+dropped+item(s).
+msgid "Could not recognize the dropped item(s)."
+msgstr "A feltöltési területre húzott tételek értelmezése sikertelen."
+
+#: .Vertical
+msgid "Vertical"
+msgstr "Függőleges"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "Vízszintes"
+
+#: .Pie
+msgid "Pie"
+msgstr "Kör"
+
+#: .Donut
+msgid "Donut"
+msgstr "Gyűrű"
+
+#: .Polar+area
+msgid "Polar area"
+msgstr "Rózsa"
+
+#: .Radar
+msgid "Radar"
+msgstr "Pókháló"
+
+#: .Project+information
+msgid "Project information"
+msgstr "Projektinformáció"
+
+#: .Questions
+msgid "Questions"
+msgstr "Kérdések"
+
+#: .Last+modified
+msgid "Last modified"
+msgstr "Utolsó módosítás"
+
+#: .Last+deployed
+msgid "Last deployed"
+msgstr "Utoljára élesítve"
+
+#: .Latest+submission
+msgid "Latest submission"
+msgstr "Legújabb űrlapválasz"
+
+#: .Operational+purpose+of+data
+msgid "Operational purpose of data"
+msgstr "Az adatkezelés célja"
+
+#: .Collects+personally+identifiable+information
+msgid "Collects personally identifiable information"
+msgstr "Személyes adatokat gyűjt"
+
 #: .All+questions
 msgid "All questions"
 msgstr "Összes kérdés"
@@ -2021,14 +2069,6 @@ msgstr "Ezek között:"
 msgid "and"
 msgstr "és"
 
-#: .Your+query+is+too+short
-msgid "Your query is too short"
-msgstr "A lekérdezése túl rövid"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "elemek listázása sikertelen"
-
 #: .new
 msgid "new"
 msgstr "új"
@@ -2044,6 +2084,76 @@ msgstr "Könyvtár"
 #: .Source
 msgid "Source"
 msgstr "Forrás"
+
+#: .New+feature
+msgid "New feature"
+msgstr "Új funkció"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "További információ"
+
+#: .Allow+submissions+to+this+form+without+a+username+and+password
+msgid "Allow submissions to this form without a username and password"
+msgstr "Felhasználónév és jelszó nélküli űrlapválaszok engedélyezése erre az űrlapra vonatkozóan"
+
+#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
+msgid ""
+"Allow anonymous submissions for this project. Previously, this was an "
+"account-wide setting. Click the icon to learn more."
+msgstr "Névtelen űrlapválaszok engedélyezése erre a projektre vonatkozóan. Korábban ez az egész fiókra vonatkozó beállítás volt. További információkért kattintson az ikonra."
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "Üres ##asset_type##."
+
+#: .Show+less
+msgid "Show less"
+msgstr "Kevesebb megjelenítése"
+
+#: .Show+more
+msgid "Show more"
+msgstr "Több megjelenítése"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "Elem nyilvános státuszának megváltoztatása sikertelen."
+
+#: .Make+public
+msgid "Make public"
+msgstr "Nyilvánosra váltás"
+
+#: .Make+private
+msgid "Make private"
+msgstr "Privátra váltás"
+
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "Tulajdonos adatainak betöltése sikertelen."
+
+#: .Date+Created
+msgid "Date Created"
+msgstr "Létrehozás dátuma"
+
+#: .Items
+msgid "Items"
+msgstr "Tételek"
+
+#: .Organization
+msgid "Organization"
+msgstr "Szervezet"
+
+#: .Country
+msgid "Country"
+msgstr "Ország"
+
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "Minden részlet elrejtése"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "Minden részlet megjelenítése"
 
 #: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
 msgid "This project has no submitted data. Please collect some and try again."
@@ -2089,58 +2199,6 @@ msgstr "/"
 msgid "rows"
 msgstr "sor"
 
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "Tulajdonos adatainak betöltése sikertelen."
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "Létrehozás dátuma"
-
-#: .Items
-msgid "Items"
-msgstr "Tételek"
-
-#: .Organization
-msgid "Organization"
-msgstr "Szervezet"
-
-#: .Country
-msgid "Country"
-msgstr "Ország"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "Minden részlet elrejtése"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "Minden részlet megjelenítése"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "Elem nyilvános státuszának megváltoztatása sikertelen."
-
-#: .Make+public
-msgid "Make public"
-msgstr "Nyilvánosra váltás"
-
-#: .Make+private
-msgid "Make private"
-msgstr "Privátra váltás"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "Üres ##asset_type##."
-
-#: .Show+less
-msgid "Show less"
-msgstr "Kevesebb megjelenítése"
-
-#: .Show+more
-msgid "Show more"
-msgstr "Több megjelenítése"
-
 #: .Temporary+Access+Restriction+Password+Update+Required
 msgid "Temporary Access Restriction: Password Update Required"
 msgstr "A hozzáférés átmenetileg korlátozva: a jelszó frissítése szükséges"
@@ -2154,24 +2212,6 @@ msgstr "Továbblépés előtt frissítenie kell jelszavát. Tegye ezt meg minél
 #: .Update+password
 msgid "Update password"
 msgstr "Jelszó frissítése"
-
-#: .Allow+submissions+to+this+form+without+a+username+and+password
-msgid "Allow submissions to this form without a username and password"
-msgstr "Felhasználónév és jelszó nélküli űrlapválaszok engedélyezése erre az űrlapra vonatkozóan"
-
-#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
-msgid ""
-"Allow anonymous submissions for this project. Previously, this was an "
-"account-wide setting. Click the icon to learn more."
-msgstr "Névtelen űrlapválaszok engedélyezése erre a projektre vonatkozóan. Korábban ez az egész fiókra vonatkozó beállítás volt. További információkért kattintson az ikonra."
-
-#: .New+feature
-msgid "New feature"
-msgstr "Új funkció"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "További információ"
 
 #: .Success%21
 msgid "Success!"
@@ -2249,6 +2289,40 @@ msgstr "Fordítási táblázat bezárása?"
 msgid "You will lose all unsaved changes."
 msgstr "Minden el nem mentett módosítás el fog veszni."
 
+#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
+msgid "Export is being generated, you will receive an email when it's done"
+msgstr "Az exportálás folyamatban van, e-mailben kap értesítést, amikor elkészült"
+
+#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
+msgid ""
+"We couldn't create the export, please try again later or contact support"
+msgstr "Az exportálás sikertelen volt, kísérelje meg később vagy forduljon az ügyféltámogatáshoz"
+
+#: .Export+all+data
+msgid "Export all data"
+msgstr "Összes adat exportálása"
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.+%23%23CURRENT_OWNER_NAME%23%23+will+receive+a+notification+that+the+transfer+was+incomplete.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##. "
+"##CURRENT_OWNER_NAME## will receive a notification that the transfer was "
+"incomplete."
+msgstr ""
+
+#: .%23%23CURRENT_OWNER_NAME%23%23+will+remain+the+project+owner.
+msgid "##CURRENT_OWNER_NAME## will remain the project owner."
+msgstr ""
+
+#: .You+have+accepted+project+ownership+from+%23%23CURRENT_OWNER_NAME%23%23+for+%23%23PROJECT_NAME%23%23.+This+process+can+take+up+to+a+few+minutes+to+complete.
+msgid ""
+"You have accepted project ownership from ##CURRENT_OWNER_NAME## for "
+"##PROJECT_NAME##. This process can take up to a few minutes to complete."
+msgstr ""
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "Szülőgyűjtemény"
+
 #: .Unlabeled
 msgid "Unlabeled"
 msgstr "Címke nélkül"
@@ -2269,51 +2343,6 @@ msgstr "Grafikontípus"
 msgid "Colors"
 msgstr "Színek"
 
-#: .Vertical
-msgid "Vertical"
-msgstr "Függőleges"
-
-#: .Horizontal
-msgid "Horizontal"
-msgstr "Vízszintes"
-
-#: .Pie
-msgid "Pie"
-msgstr "Kör"
-
-#: .Donut
-msgid "Donut"
-msgstr "Gyűrű"
-
-#: .Polar+area
-msgid "Polar area"
-msgstr "Rózsa"
-
-#: .Radar
-msgid "Radar"
-msgstr "Pókháló"
-
-#: .An+error+occurred
-msgid "An error occurred"
-msgstr "Hiba történt"
-
-#: .Your+connection+is+offline
-msgid "Your connection is offline"
-msgstr "A kapcsolat megszakadt"
-
-#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
-msgid "Export is being generated, you will receive an email when it's done"
-msgstr "Az exportálás folyamatban van, e-mailben kap értesítést, amikor elkészült"
-
-#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
-msgid ""
-"We couldn't create the export, please try again later or contact support"
-msgstr "Az exportálás sikertelen volt, kísérelje meg később vagy forduljon az ügyféltámogatáshoz"
-
-#: .Export+all+data
-msgid "Export all data"
-msgstr "Összes adat exportálása"
-
 #: .No+grouping
 msgid "No grouping"
 msgstr "Csoportosítás nélkül"
@@ -2325,113 +2354,6 @@ msgstr "Csoportosítás eszerint"
 #: .Translation
 msgid "Translation"
 msgstr "Fordítás"
-
-#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid "Please [contact the support team] if you think it's an error."
-msgstr "Vegye fel a kapcsolatot az ügyfélszolgálattal, ha úgy gondolja, hogy ez egy hiba."
-
-#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
-msgid ""
-"Please try logging in using the header button or [contact the support team] "
-"if you think it's an error."
-msgstr "Próbáljon meg bejelentkezni a fejlécen lévő gombbal vagy [vegye fel a kapcsolatot az ügyfélszolgálattal], ha úgy gondolja, hogy ez egy hiba."
-
-#: .Access+Denied
-msgid "Access Denied"
-msgstr "Hozzáférés megtagadva"
-
-#: .You+don%27t+have+access+to+this+page.
-msgid "You don't have access to this page."
-msgstr "Nincs hozzáférése ehhez az oldalhoz."
-
-#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
-msgid ""
-"Either you don't have access to this page or this page simply doesn't exist."
-msgstr "Vagy nincs jogosultsága ehhez az oldalhoz, vagy az oldal egyszerűen nem létezik."
-
-#: .Something+went+wrong
-msgid "Something went wrong"
-msgstr "Valamilyen hiba történt"
-
-#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
-msgid ""
-"We're sorry, but there was an unexpected error while trying to serve this "
-"page."
-msgstr "Sajnáljuk, váratlan hiba történt az oldal betöltésekor."
-
-#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
-msgid ""
-"Please try again later, or [contact the support team] if this happens "
-"repeatedly."
-msgstr "Próbálja meg később, vagy [lépjen kapcsolatba az ügyfélszolgálattal] ha ez többször megismétlődik."
-
-#: .Additional+details
-msgid "Additional details:"
-msgstr "További részletek:"
-
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "Szülőgyűjtemény"
-
-#: .Log+In
-msgid "Log In"
-msgstr "Bejelentkezés"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "Keresés a Saját könyvtárban"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "Keresés a Nyilvános gyűjteményekben"
-
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "Keresés…"
-
-#: .submissions
-msgid "submissions"
-msgstr "űrlapválaszok"
-
-#: .Summary
-msgid "Summary"
-msgstr "Összegzés"
-
-#: .Form
-msgid "Form"
-msgstr "Űrlap"
-
-#: .Settings
-msgid "Settings"
-msgstr "Beállítások"
-
-#: .Today
-msgid "Today"
-msgstr "Ma"
-
-#: .Past+7+days
-msgid "Past 7 days"
-msgstr "Elmúlt 7 nap"
-
-#: .Past+31+days
-msgid "Past 31 days"
-msgstr "Elmúlt 31 nap"
-
-#: .Past+3+months
-msgid "Past 3 months"
-msgstr "Elmúlt 3 hónap"
-
-#: .Past+12+months
-msgid "Past 12 months"
-msgstr "Elmúlt 12 hónap"
-
-#: .No+chart+data+available+for+current+period.
-msgid "No chart data available for current period."
-msgstr "Az aktuális időszakhoz nem áll rendelkezésre diagramon ábrázolható adat."
-
-#: .Total
-msgid "Total"
-msgstr "Összesen"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2529,6 +2451,149 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "Más projektekhez kapcsolódva dinamikus adatokat importálhat onnan ebbe a projektbe.További információk a dinamikus adat-összekapcsolásokról"
 
+#: .Summary
+msgid "Summary"
+msgstr "Összegzés"
+
+#: .Form
+msgid "Form"
+msgstr "Űrlap"
+
+#: .Settings
+msgid "Settings"
+msgstr "Beállítások"
+
+#: .Today
+msgid "Today"
+msgstr "Ma"
+
+#: .Past+7+days
+msgid "Past 7 days"
+msgstr "Elmúlt 7 nap"
+
+#: .Past+31+days
+msgid "Past 31 days"
+msgstr "Elmúlt 31 nap"
+
+#: .Past+3+months
+msgid "Past 3 months"
+msgstr "Elmúlt 3 hónap"
+
+#: .Past+12+months
+msgid "Past 12 months"
+msgstr "Elmúlt 12 hónap"
+
+#: .No+chart+data+available+for+current+period.
+msgid "No chart data available for current period."
+msgstr "Az aktuális időszakhoz nem áll rendelkezésre diagramon ábrázolható adat."
+
+#: .Total
+msgid "Total"
+msgstr "Összesen"
+
+#: .Log+In
+msgid "Log In"
+msgstr "Bejelentkezés"
+
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "Keresés a Saját könyvtárban"
+
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "Keresés a Nyilvános gyűjteményekben"
+
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "Keresés…"
+
+#: .submissions
+msgid "submissions"
+msgstr "űrlapválaszok"
+
+#: .Cannot+transfer+a+project+to+the+same+account.
+msgid "Cannot transfer a project to the same account."
+msgstr ""
+
+#: .User+not+found.+Please+try+again.
+msgid "User not found. Please try again."
+msgstr ""
+
+#: .Please+enter+a+user+name.
+msgid "Please enter a user name."
+msgstr ""
+
+#: .Transfer+project+ownership
+msgid "Transfer project ownership"
+msgstr ""
+
+#: .Your+transfer+request+is+pending+until+%23%23username%23%23+has+accepted+or+declined+it.
+msgid ""
+"Your transfer request is pending until ##username## has accepted or declined"
+" it."
+msgstr ""
+
+#: .Transfer+ownership+of+this+project+to+another+user.+All+submissions,+data+storage,+and+transcription+and+translation+usage+for+this+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"Transfer ownership of this project to another user. All submissions, data "
+"storage, and transcription and translation usage for this project will be "
+"transferred to the new project owner."
+msgstr ""
+
+#: .Learn+more+%E2%86%92
+msgid "Learn more →"
+msgstr ""
+
+#: .Cancel+transfer
+msgid "Cancel transfer"
+msgstr ""
+
+#: .Transfer
+msgid "Transfer"
+msgstr ""
+
+#: .Transfer+ownership
+msgid "Transfer ownership"
+msgstr ""
+
+#: .This+action+will+transfer+ownership+of+%23%23username%23%23+to+another+user
+msgid "This action will transfer ownership of ##username## to another user"
+msgstr ""
+
+#: .When+you+transfer+ownership+of+the+project+to+another+user,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+the+new+project+owner.
+msgid ""
+"When you transfer ownership of the project to another user, all of the "
+"submissions, data storage, and transcription and translation usage for the "
+"project will be transferred to the new project owner."
+msgstr ""
+
+#: .The+new+project+owner+will+receive+an+email+request+to+accept+the+transfer.+You+will+be+notified+when+the+transfer+is+accepted+or+declined.
+msgid ""
+"The new project owner will receive an email request to accept the transfer. "
+"You will be notified when the transfer is accepted or declined."
+msgstr ""
+
+#: .You+will+be+the+owner+of+the+project+until+the+transfer+is+accepted.
+msgid "You will be the owner of the project until the transfer is accepted."
+msgstr ""
+
+#: .Once+the+transfer+is+accepted,+you+will+not+be+able+to+undo+this+action.
+msgid ""
+"Once the transfer is accepted, you will not be able to undo this action."
+msgstr ""
+
+#: .To+complete+the+transfer,+enter+the+username+of+the+new+project+owner
+msgid "To complete the transfer, enter the username of the new project owner"
+msgstr ""
+
+#: .Enter+username+here
+msgid "Enter username here"
+msgstr ""
+
+#: .Transfer+project
+msgid "Transfer project"
+msgstr ""
+
 #: .Type
 msgid "Type"
 msgstr "Típus"
@@ -2545,6 +2610,152 @@ msgstr "Előfizetők"
 msgid "Primary Sector"
 msgstr "Elsődleges ágazat"
 
+#: .There+is+no+data+for+this+question+for+the+current+submission
+msgid "There is no data for this question for the current submission"
+msgstr "Ehhez a kérdéshez nincs adat ebben az űrlapválaszban"
+
+#: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid "Please [contact the support team] if you think it's an error."
+msgstr "Vegye fel a kapcsolatot az ügyfélszolgálattal, ha úgy gondolja, hogy ez egy hiba."
+
+#: .Please+try+logging+in+using+the+header+button+or+[contact+the+support+team]+if+you+think+it%27s+an+error.
+msgid ""
+"Please try logging in using the header button or [contact the support team] "
+"if you think it's an error."
+msgstr "Próbáljon meg bejelentkezni a fejlécen lévő gombbal vagy [vegye fel a kapcsolatot az ügyfélszolgálattal], ha úgy gondolja, hogy ez egy hiba."
+
+#: .Access+Denied
+msgid "Access Denied"
+msgstr "Hozzáférés megtagadva"
+
+#: .You+don%27t+have+access+to+this+page.
+msgid "You don't have access to this page."
+msgstr "Nincs hozzáférése ehhez az oldalhoz."
+
+#: .Either+you+don%27t+have+access+to+this+page+or+this+page+simply+doesn%27t+exist.
+msgid ""
+"Either you don't have access to this page or this page simply doesn't exist."
+msgstr "Vagy nincs jogosultsága ehhez az oldalhoz, vagy az oldal egyszerűen nem létezik."
+
+#: .Something+went+wrong
+msgid "Something went wrong"
+msgstr "Valamilyen hiba történt"
+
+#: .We%27re+sorry,+but+there+was+an+unexpected+error+while+trying+to+serve+this+page.
+msgid ""
+"We're sorry, but there was an unexpected error while trying to serve this "
+"page."
+msgstr "Sajnáljuk, váratlan hiba történt az oldal betöltésekor."
+
+#: .Please+try+again+later,+or+[contact+the+support+team]+if+this+happens+repeatedly.
+msgid ""
+"Please try again later, or [contact the support team] if this happens "
+"repeatedly."
+msgstr "Próbálja meg később, vagy [lépjen kapcsolatba az ügyfélszolgálattal] ha ez többször megismétlődik."
+
+#: .Additional+details
+msgid "Additional details:"
+msgstr "További részletek:"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "Adja meg a felhasználóneveket vesszővel elválasztva"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "Felhasználó nem található:"
+
+#: .equals
+msgid "equals"
+msgstr "egyenlőségjel"
+
+#: .Reset+changes
+msgid "Reset changes"
+msgstr "Módosítások visszavonása"
+
+#: .username
+msgid "username"
+msgstr "felhasználónév"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "Jogosultság megadása"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "Jogosultság frissítése"
+
+#: .permissions+were+copied+successfully
+msgid "permissions were copied successfully"
+msgstr "a jogosultságok sikeresen lemásolva"
+
+#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
+msgid ""
+"You are about to copy permissions from ##source to ##target. This action "
+"cannot be undone."
+msgstr "##source to ##target jogosultságait készül lemásolni. Ez a művelet nem vonható vissza."
+
+#: .Are+you+sure+you+want+to+copy+permissions%3F
+msgid "Are you sure you want to copy permissions?"
+msgstr "Biztosan másolni kívánja a jogosultságokat?"
+
+#: .Proceed
+msgid "Proceed"
+msgstr "Folytatás"
+
+#: .Copy+team+from+another+project
+msgid "Copy team from another project"
+msgstr "Csapat átmásolása egy másik projektből"
+
+#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
+msgid ""
+"This will overwrite any existing sharing settings defined in this project."
+msgstr "Ez felül fogja írni a létező megosztási beállításokat ebben a projektben."
+
+#: .Select+source+project%E2%80%A6
+msgid "Select source project…"
+msgstr "Forrásprojekt kiválasztása…"
+
+#: .copy
+msgid "copy"
+msgstr "másolás"
+
+#: .Share+publicly+by+link
+msgid "Share publicly by link"
+msgstr "Nyilvános megosztás hivatkozással"
+
+#: .Anyone+can+view+this+form
+msgid "Anyone can view this form"
+msgstr "Bárki megtekintheti ezt a űrlapot"
+
+#: .Anyone+can+view+submissions+made+to+this+form
+msgid "Anyone can view submissions made to this form"
+msgstr "Bárki láthatja az ezen űrlapra beérkezett válaszokat"
+
+#: .Shareable+link
+msgid "Shareable link"
+msgstr "Megosztható link"
+
+#: .Remove+permissions%3F
+msgid "Remove permissions?"
+msgstr "Jogosultság visszavonása?"
+
+#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
+msgid "This action will remove all permissions for user ##username##"
+msgstr "Ez a művelet ##username## felhasználó minden jogosultságát meg fogja vonni"
+
+#: .Remove
+msgid "Remove"
+msgstr "Eltávolítás"
+
+#: .is+owner
+msgid "is owner"
+msgstr "tulajdonos"
+
+#: .Pending+owner
+msgid "Pending owner"
+msgstr ""
+
 #: .DONE
 msgid "DONE"
 msgstr "KÉSZ"
@@ -2560,172 +2771,6 @@ msgstr "##count## tétel"
 #: .There+are+no+assets+to+display.
 msgid "There are no assets to display."
 msgstr "Nincs megjeleníthető elem."
-
-#: .Discard+unsaved+changes%3F
-msgid "Discard unsaved changes?"
-msgstr "Elveti a nem mentett változtatásokat?"
-
-#: .Discard
-msgid "Discard"
-msgstr "Elvet"
-
-#: .Item
-msgid "Item"
-msgstr "Tétel:"
-
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "/##total_count##"
-
-#: .Transcript
-msgid "Transcript"
-msgstr "Átirat"
-
-#: .Translations
-msgid "Translations"
-msgstr "Fordítások"
-
-#: .Analysis
-msgid "Analysis"
-msgstr "Elemzés"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "Valóban ki szeretne lépni mentés nélkül?"
-
-#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
-msgid "You have unsaved changes. Leave settings without saving?"
-msgstr "Nem mentett módosításai vannak. Kilép mentés nélkül?"
-
-#: .Updated+profile+successfully
-msgid "Updated profile successfully"
-msgstr "Profil frissítése sikeres"
-
-#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
-msgid ""
-"You can now control whether to allow anonymous submissions in web forms for "
-"each project. Previously, this was an account-wide setting."
-msgstr "Mostantól lehetősége van arra, hogy projektenként engedélyezze a webes űrlapválaszok névtelen beküldését. Korábban ez az egész fiókra vonatkozó beállítás volt."
-
-#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
-msgid ""
-"This privacy feature is now a per-project setting. New projects will require"
-" authentication by default."
-msgstr "Most már ez az adatvédelmi funkció projektszintű beállítás. Az új projektek alapértelmezés szerint hitelesítést igényelnek."
-
-#: .Learn+more+about+these+changes+here.
-msgid "Learn more about these changes here."
-msgstr "További információk ezekről a változásokról itt találhatóak."
-
-#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
-msgid ""
-"Use the button above to select the information to be displayed in this area"
-msgstr "A fenti gombbal válassza ki az ezen a területen megjelenítendő információkat"
-
-#: .%23%23start_date%23%23+to+%23%23end_date%23%23
-msgid "##start_date## to ##end_date##"
-msgstr "##start_date##–##end_date##"
-
-#: .Your+usage
-msgid "Your usage"
-msgstr "Az Ön adathasználata"
-
-#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
-msgid "Last update: ##LAST_UPDATE_TIME##"
-msgstr "Utolsó frissítés: ##LAST_UPDATE_TIME##"
-
-#: .Storage
-msgid "Storage"
-msgstr "Tárhely"
-
-#: .per+account
-msgid "per account"
-msgstr "felhasználói fiókonként"
-
-#: .Transcription+minutes
-msgid "Transcription minutes"
-msgstr "Átirat percekben"
-
-#: .Translation+characters
-msgid "Translation characters"
-msgstr "Fordítás karakterekben"
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. Reach out to "
-"billing@kobotoolbox.org if you have any questions about your plan."
-msgstr "Köszönjük, hogy csomagot váltott! Nagyra értékeljük, hogy továbbra is támogat minket. Lépjen velünk kapcsolatba a billing@kobotoolbox.org címen, amennyiben kérdése van a csomagjával kapcsolatosan."
-
-#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
-msgid ""
-"Thanks for your upgrade! We appreciate your continued support. If your "
-"account is not immediately updated, wait a few minutes and refresh the page."
-msgstr "Köszönjük, hogy csomagot váltott! Nagyra értékeljük, hogy továbbra is támogat minket. Amennyiben a felhasználói fiókja nem frissül azonnal, várjon pár percet és frissítse az oldalt."
-
-#: .Please+contact+your+organization+owner+for+any+changes+to+your+plan+or+add-ons.
-msgid ""
-"Please contact your organization owner for any changes to your plan or add-"
-"ons."
-msgstr "Lépjen kapcsolatba szervezetének tulajdonosával a csomagváltozásokkal vagy a kiegészítő szolgáltatásokkal kapcsolatban."
-
-#: .show+monthly+plans
-msgid "show monthly plans"
-msgstr "havi csomagok megjelenítése"
-
-#: .Monthly
-msgid "Monthly"
-msgstr "Havi"
-
-#: .show+annual+plans
-msgid "show annual plans"
-msgstr "éves csomagok megjelenítése"
-
-#: .Annual
-msgid "Annual"
-msgstr "Éves"
-
-#: .Want+more%3F
-msgid "Want more?"
-msgstr "Szeretne még valamit?"
-
-#: .Contact+us
-msgid "Contact us"
-msgstr "Lépjen kapcsolatba velünk"
-
-#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
-msgid ""
-"For organizations with higher volume and advanced data collection needs, get"
-" in touch to learn more about our "
-msgstr "Azon szervezetek, amelyek nagyobb mennyiségű és részletes adatgyűjtési igénnyel rendelkeznek, lépjenek velünk kapcsolatba további információért erről: "
-
-#: .Enterprise+Plan
-msgid "Enterprise Plan"
-msgstr "Vállalkozói Csomag."
-
-#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
-msgid ""
-"We also offer custom solutions and private servers for large organizations. "
-msgstr "Nagy szervezetek számára egyedi megoldásokat és privát kiszolgálókat is kínálunk. "
-
-#: .Contact+our+team
-msgid "Contact our team"
-msgstr "Lépjen kapcsolatba csapatunkkal"
-
-#: .+for+more+information.
-msgid " for more information."
-msgstr " további információkért."
-
-#: .Collapse+full+comparison
-msgid "Collapse full comparison"
-msgstr "Teljes összehasonlítás összezárása"
-
-#: .Display+full+comparison
-msgid "Display full comparison"
-msgstr "Teljes összehasonlítás megjelenítése"
-
-#: .Security
-msgid "Security"
-msgstr "Biztonság"
 
 #: .Deploy
 msgid "Deploy"
@@ -2775,251 +2820,6 @@ msgstr "Megosztás"
 msgid "View containing Collection"
 msgstr "Gyűjtemény megtekintése"
 
-#: .permissions+were+copied+successfully
-msgid "permissions were copied successfully"
-msgstr "a jogosultságok sikeresen lemásolva"
-
-#: .You+are+about+to+copy+permissions+from+%23%23source+to+%23%23target.+This+action+cannot+be+undone.
-msgid ""
-"You are about to copy permissions from ##source to ##target. This action "
-"cannot be undone."
-msgstr "##source to ##target jogosultságait készül lemásolni. Ez a művelet nem vonható vissza."
-
-#: .Are+you+sure+you+want+to+copy+permissions%3F
-msgid "Are you sure you want to copy permissions?"
-msgstr "Biztosan másolni kívánja a jogosultságokat?"
-
-#: .Proceed
-msgid "Proceed"
-msgstr "Folytatás"
-
-#: .Copy+team+from+another+project
-msgid "Copy team from another project"
-msgstr "Csapat átmásolása egy másik projektből"
-
-#: .This+will+overwrite+any+existing+sharing+settings+defined+in+this+project.
-msgid ""
-"This will overwrite any existing sharing settings defined in this project."
-msgstr "Ez felül fogja írni a létező megosztási beállításokat ebben a projektben."
-
-#: .Select+source+project%E2%80%A6
-msgid "Select source project…"
-msgstr "Forrásprojekt kiválasztása…"
-
-#: .copy
-msgid "copy"
-msgstr "másolás"
-
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "Adja meg a felhasználóneveket vesszővel elválasztva"
-
-#: .User+not+found
-msgid "User not found:"
-msgstr "Felhasználó nem található:"
-
-#: .equals
-msgid "equals"
-msgstr "egyenlőségjel"
-
-#: .Reset+changes
-msgid "Reset changes"
-msgstr "Módosítások visszavonása"
-
-#: .username
-msgid "username"
-msgstr "felhasználónév"
-
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "Jogosultság megadása"
-
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "Jogosultság frissítése"
-
-#: .Share+publicly+by+link
-msgid "Share publicly by link"
-msgstr "Nyilvános megosztás hivatkozással"
-
-#: .Anyone+can+view+this+form
-msgid "Anyone can view this form"
-msgstr "Bárki megtekintheti ezt a űrlapot"
-
-#: .Anyone+can+view+submissions+made+to+this+form
-msgid "Anyone can view submissions made to this form"
-msgstr "Bárki láthatja az ezen űrlapra beérkezett válaszokat"
-
-#: .Shareable+link
-msgid "Shareable link"
-msgstr "Megosztható link"
-
-#: .Remove+permissions%3F
-msgid "Remove permissions?"
-msgstr "Jogosultság visszavonása?"
-
-#: .This+action+will+remove+all+permissions+for+user+%23%23username%23%23
-msgid "This action will remove all permissions for user ##username##"
-msgstr "Ez a művelet ##username## felhasználó minden jogosultságát meg fogja vonni"
-
-#: .Remove
-msgid "Remove"
-msgstr "Eltávolítás"
-
-#: .is+owner
-msgid "is owner"
-msgstr "tulajdonos"
-
-#: .Paste+your+formatted+table+from+excel+in+the+box+below.
-msgid "Paste your formatted table from excel in the box below."
-msgstr "Az Excelben formázott táblázatát a vágólapról illessze ebbe a dobozba."
-
-#: .add+cascade+with+%23+questions
-msgid "add cascade with # questions"
-msgstr "Lenyíló lista hozzáadása # kérdéssel"
-
-#: .OK
-msgid "OK"
-msgstr "OK"
-
-#: .Learn+more+about+importing+cascading+lists+from+Excel
-msgid "Learn more about importing cascading lists from Excel"
-msgstr "További információk lenyíló listák Excelből való importálásáról"
-
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "kérdés hozzáadva a könyvtárba"
-
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "csoport hozzáadva a könyvtárba blokként"
-
-#: .loading
-msgid "loading"
-msgstr "betöltés"
-
-#: .no+search+results+found
-msgid "no search results found"
-msgstr "a keresésnek nincsenek találatai"
-
-#: .block+of+___+questions
-msgid "block of ___ questions"
-msgstr "___ kérdésből álló blokk"
-
-#: .search+library
-msgid "search library"
-msgstr "keresés a könyvtárban"
-
-#: .Could+not+load+REST+Service
-msgid "Could not load REST Service"
-msgstr "REST szolgáltatás betöltése sikertelen"
-
-#: .Could+not+load+REST+Service+logs
-msgid "Could not load REST Service logs"
-msgstr "REST szolgáltatás naplófájljának betöltése sikertelen"
-
-#: .Submission+Failure+Detail+(%23%23id%23%23)
-msgid "Submission Failure Detail (##id##)"
-msgstr "Benyújtási hiba részletei (##id##)"
-
-#: .Back+to+REST+Services
-msgid "Back to REST Services"
-msgstr "Vissza a REST szolgáltatásokhoz"
-
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "Betöltés…"
-
-#: .There+are+no+logs+yet
-msgid "There are no logs yet"
-msgstr "Még nincsenek naplófájlok"
-
-#: .Submission
-msgid "Submission"
-msgstr "Űrlapválasz"
-
-#: .Retry+all+submissions
-msgid "Retry all submissions"
-msgstr "Összes űrlapválasz újrapróbálása"
-
-#: .Success
-msgid "Success"
-msgstr "Sikeres"
-
-#: .Pending
-msgid "Pending"
-msgstr "Függőben"
-
-#: .Pending+(%23%23count%23%23%C3%97)
-msgid "Pending (##count##×)"
-msgstr "Függőben (##count##×)"
-
-#: .Failed
-msgid "Failed"
-msgstr "Sikertelen"
-
-#: .Retry+submission
-msgid "Retry submission"
-msgstr "Űrlapválasz küldése újra"
-
-#: .More+info
-msgid "More info"
-msgstr "További információ"
-
-#: .Could+not+load+REST+Services
-msgid "Could not load REST Services"
-msgstr "REST szolgáltatások betöltése sikertelen"
-
-#: .Are+you+sure+you+want+to+delete+%23%23target%3F
-msgid "Are you sure you want to delete ##target?"
-msgstr "Biztosan törölni szeretné ezt: ##target?"
-
-#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
-msgid "You are about to delete ##target. This action cannot be undone."
-msgstr "Törölni készül ezt: ##target. Ez a művelet nem vonható vissza."
-
-#: .Confirm
-msgid "Confirm"
-msgstr "Megerősítés"
-
-#: .Register+a+New+Service
-msgid "Register a New Service"
-msgstr "Új szolgáltatás regisztrálása"
-
-#: .This+project+doesn%27t+have+any+REST+Services+yet%21
-msgid "This project doesn't have any REST Services yet!"
-msgstr "Ehhez a projekthez még nincs REST szolgáltatás rendelve!"
-
-#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
-msgid ""
-"You can use REST Services to automatically post submissions to a third-party"
-" application."
-msgstr "A REST szolgáltatások segítségével automatikusan elküldheti az űrlapválaszokat külső alkalmazásoknak."
-
-#: .REST+Services+%23%23number%23%23
-msgid "REST Services: ##number##"
-msgstr "REST szolgáltatások: ##number##"
-
-#: .Need+help%3F
-msgid "Need help?"
-msgstr "Segítségre van szüksége?"
-
-#: .Service+Name
-msgid "Service Name"
-msgstr "Szolgáltatásnév"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "##submissionIndex##/##submissionTotal##. űrlapválasz"
-
-#: .download
-msgid "download"
-msgstr "letöltés"
-
-#: .process
-msgid "process"
-msgstr "folyamat"
-
 #: .Marker+Colors
 msgid "Marker Colors"
 msgstr "Jelölő színek"
@@ -3064,6 +2864,12 @@ msgstr "Feltöltési hiba: érvénytelen térképátfedési formátum."
 msgid "Delete File"
 msgstr "Fájl törlése"
 
+#: .Are+you+sure+you+want+to+delete+this+file%3F+%3Cbr/%3E%3Cbr/%3E%3Cstrong%3EThis+action+cannot+be+undone.%3C/strong%3E
+msgid ""
+"Are you sure you want to delete this file? <br/><br/><strong>This action "
+"cannot be undone.</strong>"
+msgstr ""
+
 #: .Choose+the+Geopoint+question+you+would+like+to+display+on+the+map
 msgid "Choose the Geopoint question you would like to display on the map:"
 msgstr "Válasszon egy Geopont kérdést, amelyet a térképen meg kíván jeleníteni:"
@@ -3102,6 +2908,166 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "A térkép alapértelmezés szerint a legutolsó ##QUERY_LIMIT_DEFAULT## űrlapválaszra van korlátozva. Ideiglenesen megemelheti ezt a határt. Az érték a térkép minden megnyitásánál visszaáll az alapértelmezett értékre."
 
+#: .Paste+your+formatted+table+from+excel+in+the+box+below.
+msgid "Paste your formatted table from excel in the box below."
+msgstr "Az Excelben formázott táblázatát a vágólapról illessze ebbe a dobozba."
+
+#: .add+cascade+with+%23+questions
+msgid "add cascade with # questions"
+msgstr "Lenyíló lista hozzáadása # kérdéssel"
+
+#: .OK
+msgid "OK"
+msgstr "OK"
+
+#: .Learn+more+about+importing+cascading+lists+from+Excel
+msgid "Learn more about importing cascading lists from Excel"
+msgstr "További információk lenyíló listák Excelből való importálásáról"
+
+#: .Could+not+load+REST+Services
+msgid "Could not load REST Services"
+msgstr "REST szolgáltatások betöltése sikertelen"
+
+#: .Are+you+sure+you+want+to+delete+%23%23target%3F
+msgid "Are you sure you want to delete ##target?"
+msgstr "Biztosan törölni szeretné ezt: ##target?"
+
+#: .You+are+about+to+delete+%23%23target.+This+action+cannot+be+undone.
+msgid "You are about to delete ##target. This action cannot be undone."
+msgstr "Törölni készül ezt: ##target. Ez a művelet nem vonható vissza."
+
+#: .Confirm
+msgid "Confirm"
+msgstr "Megerősítés"
+
+#: .Register+a+New+Service
+msgid "Register a New Service"
+msgstr "Új szolgáltatás regisztrálása"
+
+#: .This+project+doesn%27t+have+any+REST+Services+yet%21
+msgid "This project doesn't have any REST Services yet!"
+msgstr "Ehhez a projekthez még nincs REST szolgáltatás rendelve!"
+
+#: .You+can+use+REST+Services+to+automatically+post+submissions+to+a+third-party+application.
+msgid ""
+"You can use REST Services to automatically post submissions to a third-party"
+" application."
+msgstr "A REST szolgáltatások segítségével automatikusan elküldheti az űrlapválaszokat külső alkalmazásoknak."
+
+#: .REST+Services+%23%23number%23%23
+msgid "REST Services: ##number##"
+msgstr "REST szolgáltatások: ##number##"
+
+#: .Need+help%3F
+msgid "Need help?"
+msgstr "Segítségre van szüksége?"
+
+#: .Service+Name
+msgid "Service Name"
+msgstr "Szolgáltatásnév"
+
+#: .Success
+msgid "Success"
+msgstr "Sikeres"
+
+#: .Pending
+msgid "Pending"
+msgstr "Függőben"
+
+#: .Failed
+msgid "Failed"
+msgstr "Sikertelen"
+
+#: .Could+not+load+REST+Service
+msgid "Could not load REST Service"
+msgstr "REST szolgáltatás betöltése sikertelen"
+
+#: .Could+not+load+REST+Service+logs
+msgid "Could not load REST Service logs"
+msgstr "REST szolgáltatás naplófájljának betöltése sikertelen"
+
+#: .Submission+Failure+Detail+(%23%23id%23%23)
+msgid "Submission Failure Detail (##id##)"
+msgstr "Benyújtási hiba részletei (##id##)"
+
+#: .Back+to+REST+Services
+msgid "Back to REST Services"
+msgstr "Vissza a REST szolgáltatásokhoz"
+
+#: .Loading%E2%80%A6
+msgid "Loading…"
+msgstr "Betöltés…"
+
+#: .There+are+no+logs+yet
+msgid "There are no logs yet"
+msgstr "Még nincsenek naplófájlok"
+
+#: .Submission
+msgid "Submission"
+msgstr "Űrlapválasz"
+
+#: .Retry+all+submissions
+msgid "Retry all submissions"
+msgstr "Összes űrlapválasz újrapróbálása"
+
+#: .Pending+(%23%23count%23%23%C3%97)
+msgid "Pending (##count##×)"
+msgstr "Függőben (##count##×)"
+
+#: .Retry+submission
+msgid "Retry submission"
+msgstr "Űrlapválasz küldése újra"
+
+#: .More+info
+msgid "More info"
+msgstr "További információ"
+
+#: .loading
+msgid "loading"
+msgstr "betöltés"
+
+#: .no+search+results+found
+msgid "no search results found"
+msgstr "a keresésnek nincsenek találatai"
+
+#: .block+of+___+questions
+msgid "block of ___ questions"
+msgstr "___ kérdésből álló blokk"
+
+#: .search+library
+msgid "search library"
+msgstr "keresés a könyvtárban"
+
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "kérdés hozzáadva a könyvtárba"
+
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "csoport hozzáadva a könyvtárba blokként"
+
+#: .Failed+to+cancel+transfer.+The+transfer+may+be+declined+or+accpeted+already.+Please+check+your+email.
+msgid ""
+"Failed to cancel transfer. The transfer may be declined or accpeted already."
+" Please check your email."
+msgstr ""
+
+#: .Failed+to+accept+invite.
+msgid "Failed to accept invite."
+msgstr ""
+
+#: .Failed+to+decline+invite
+msgid "Failed to decline invite"
+msgstr ""
+
+#: .Invite+has+been+cancelled+or+expired
+msgid "Invite has been cancelled or expired"
+msgstr ""
+
+#: .Invite+is+invaild.
+msgid "Invite is invaild."
+msgstr ""
+
 #: .archived
 msgid "archived"
 msgstr "archiválva"
@@ -3114,33 +3080,17 @@ msgstr "élesítve"
 msgid "draft"
 msgstr "vázlat"
 
-#: .Audit+settings
-msgid "Audit settings"
-msgstr "Auditbeállítások"
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "##submissionIndex##/##submissionTotal##. űrlapválasz"
 
-#: .Background+audio
-msgid "Background audio"
-msgstr "Háttérhang"
+#: .download
+msgid "download"
+msgstr "letöltés"
 
-#: .Enter+audit+settings+here
-msgid "Enter audit settings here"
-msgstr "Adja meg az auditbeállításokat itt"
-
-#: .This+functionality+is+available+in+
-msgid "This functionality is available in "
-msgstr "Ez a funkció elérhető itt: "
-
-#: .This+survey+will+be+recorded
-msgid "This survey will be recorded"
-msgstr "Ezt a felmerést rögzítjük"
-
-#: .Enable+audio+recording+in+the+background
-msgid "Enable audio recording in the background"
-msgstr "Háttérhangok rögzítésének engedélyezése"
-
-#: .Audio+quality
-msgid "Audio quality"
-msgstr "Hangminőség"
+#: .process
+msgid "process"
+msgstr "folyamat"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -3179,6 +3129,42 @@ msgstr "Lezárt funkciók"
 msgid "Unlocked functionalities"
 msgstr "Nem lezárt funkciók"
 
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "Nincsenek elérhető sablonok. Sablon készítéséhez lépjen be a Könyvtárba."
+
+#: .Template+name
+msgid "Template name"
+msgstr "Sablon neve"
+
+#: .Audit+settings
+msgid "Audit settings"
+msgstr "Auditbeállítások"
+
+#: .Background+audio
+msgid "Background audio"
+msgstr "Háttérhang"
+
+#: .Enter+audit+settings+here
+msgid "Enter audit settings here"
+msgstr "Adja meg az auditbeállításokat itt"
+
+#: .This+functionality+is+available+in+
+msgid "This functionality is available in "
+msgstr "Ez a funkció elérhető itt: "
+
+#: .This+survey+will+be+recorded
+msgid "This survey will be recorded"
+msgstr "Ezt a felmerést rögzítjük"
+
+#: .Enable+audio+recording+in+the+background
+msgid "Enable audio recording in the background"
+msgstr "Háttérhangok rögzítésének engedélyezése"
+
+#: .Audio+quality
+msgid "Audio quality"
+msgstr "Hangminőség"
+
 #: .Incorrect+token
 msgid "Incorrect token"
 msgstr "Helytelen token"
@@ -3186,6 +3172,13 @@ msgstr "Helytelen token"
 #: .Could+not+generate+secret+key
 msgid "Could not generate secret key"
 msgstr "Nem sikerült létrehozni biztonsági kulcsot"
+
+#: .Two-factor+authentication+(2FA)+verifies+your+identity+using+an+authenticator+application+in+addition+to+your+usual+password.+We+recommend+enabling+two-factor+authentication+for+an+additional+layer+of+protection.
+msgid ""
+"Two-factor authentication (2FA) verifies your identity using an "
+"authenticator application in addition to your usual password. We recommend "
+"enabling two-factor authentication for an additional layer of protection."
+msgstr ""
 
 #: .Scan+QR+code+and+enter+the+%23%23number%23%23-digit+token+from+the+application
 msgid "Scan QR code and enter the ##number##-digit token from the application"
@@ -3204,6 +3197,14 @@ msgstr "Nincs QR-kód?"
 #: .Enter+key+manually
 msgid "Enter key manually"
 msgstr "Írja be a kulcsot manuálisan"
+
+#: .The+following+recovery+codes+will+help+you+access+your+account+in+case+your+authenticator+app+fails.+These+codes+are+unique+and+will+not+be+stored+in+your+Kobo+account.+This+is+your+only+opportunity+to+save+them.+Please+download+the+file+and+keep+it+somewhere+safe.
+msgid ""
+"The following recovery codes will help you access your account in case your "
+"authenticator app fails. These codes are unique and will not be stored in "
+"your Kobo account. This is your only opportunity to save them. Please "
+"download the file and keep it somewhere safe."
+msgstr ""
 
 #: .Download+codes
 msgid "Download codes"
@@ -3258,21 +3259,57 @@ msgid ""
 " previous set up will not be valid anymore."
 msgstr "Ne feledje, hogy a kétfaktoros hitelesítés (2FA) újbóli beállításához a meglévő beállítások törölve lesznek. Az előzőleg beállított tokenek vagy visszaállítási kódok érvénytelenné válnak."
 
+#: .Once+your+current+2FA+has+been+deactivated,+you%27ll+be+prompted+to+configure+it+again.+If+you+cannot+complete+the+process,+2FA+will+remain+disabled+for+your+account.+In+this+case,+you+can+enable+it+again+at+any+time+through+the+usual+process.
+msgid ""
+"Once your current 2FA has been deactivated, you'll be prompted to configure "
+"it again. If you cannot complete the process, 2FA will remain disabled for "
+"your account. In this case, you can enable it again at any time through the "
+"usual process."
+msgstr ""
+
 #: .Issues+with+the+token
 msgid "Issues with the token"
 msgstr "Problémák a tokennel"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "Nincsenek elérhető sablonok. Sablon készítéséhez lépjen be a Könyvtárba."
-
-#: .Template+name
-msgid "Template name"
-msgstr "Sablon neve"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "Kijelöl…"
 
 #: .There+was+an+error+loading+Enketo.
 msgid "There was an error loading Enketo."
 msgstr "Hiba történt Enketo betöltése közben."
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "Rendezés A→Z"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "Rendezés Z→A"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "Mező elrejtése"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "Mező feloldása"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "Mező rögzítése"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "Minden eredmény kijelölése (##count##)"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "Látható eredmények kijelölése (##count##)"
+
+#: .None
+msgid "None"
+msgstr "Egyik sem"
 
 #: .Update+status+of+selected+submissions
 msgid "Update status of selected submissions"
@@ -3313,42 +3350,6 @@ msgstr "Állapot módosítása"
 #: .Set+status+%23%23status%23%23
 msgid "Set status: ##status##"
 msgstr "Állapot beállítása: ##status##"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "Minden eredmény kijelölése (##count##)"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "Látható eredmények kijelölése (##count##)"
-
-#: .None
-msgid "None"
-msgstr "Egyik sem"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "Rendezés A→Z"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "Rendezés Z→A"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "Mező elrejtése"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "Mező feloldása"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "Mező rögzítése"
-
-#: .hide+fields
-msgid "hide fields"
-msgstr "mezők elrejtése"
 
 #: .%23%23ASSET_TYPE%23%23+deleted+permanently
 msgid "##ASSET_TYPE## deleted permanently"
@@ -3461,13 +3462,17 @@ msgstr "Élesítés folyamatban..."
 msgid "redeployed form"
 msgstr "újraélesített űrlap"
 
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "Kijelöl…"
+#: .hide+fields
+msgid "hide fields"
+msgstr "mezők elrejtése"
 
 #: .Profile
 msgid "Profile"
 msgstr "Profil"
+
+#: .Security
+msgid "Security"
+msgstr "Biztonság"
 
 #: .Usage
 msgid "Usage"
@@ -3477,206 +3482,9 @@ msgstr "Használat"
 msgid "Plans"
 msgstr "Csomagok"
 
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "Nem sikerült a címkék frissítése"
-
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "Frissítés…"
-
-#: .Update
-msgid "Update"
-msgstr "Frissítés"
-
-#: .filter
-msgid "filter"
-msgstr "szűrő"
-
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "Nincsenek megadva szűrők, hozzáadhat egyet alább"
-
-#: .Add+filter
-msgid "Add filter"
-msgstr "Szűrő hozzáadása"
-
-#: .Apply
-msgid "Apply"
-msgstr "Alkalmaz"
-
-#: .fields
-msgid "fields"
-msgstr "mezők"
-
-#: .TOS+Update+Message+not+found
-msgid "TOS Update Message not found"
-msgstr "TOS frissítési üzenet nem található"
-
-#: .Please+make+sure+the+following+details+are+filled+out+correctly
-msgid "Please make sure the following details are filled out correctly:"
-msgstr "Ellenőrizze, hogy a következő információk helyesen vannak kitöltve:"
-
-#: .I+agree,+let%27s+go
-msgid "I agree, let's go"
-msgstr "Elfogadom, lépjünk tovább"
-
-#: .I+don%27t+agree,+log+me+out
-msgid "I don't agree, log me out"
-msgstr "Nem fogadom el, ki akarok lépni"
-
-#: .Archive/Unarchive
-msgid "Archive/Unarchive"
-msgstr "Archiválás/Visszaállítás archívumból"
-
-#: .Archive+project
-msgid "Archive project"
-msgstr "Projekt archiválása"
-
-#: .Unarchive+project
-msgid "Unarchive project"
-msgstr "Projekt visszaállítása"
-
-#: .Draft+project+selected
-msgid "Draft project selected"
-msgstr "Vázlatprojekt kiválasztva"
-
-#: .Delete+1+project
-msgid "Delete 1 project"
-msgstr "1 projekt törlése"
-
-#: .Delete+project
-msgid "Delete project"
-msgstr "Projekt törlése"
-
-#: .Question+Block
-msgid "Question Block"
-msgstr "Kérdésblokk"
-
-#: .Template
-msgid "Template"
-msgstr "Sablon"
-
-#: .Collection
-msgid "Collection"
-msgstr "Gyűjtemény"
-
-#: .Choose+desired+type
-msgid "Choose desired type"
-msgstr "Válassza ki a kívánt típust"
-
-#: .Submission+URL
-msgid "Submission URL"
-msgstr "Űrlapválasz URL-címe"
-
-#: .Public+key
-msgid "Public key"
-msgstr "Nyilvános kulcs"
-
-#: .Set+encryption
-msgid "Set encryption"
-msgstr "Titkosítás beállítása"
-
-#: .Remove+encryption
-msgid "Remove encryption"
-msgstr "Titkosítás megszüntetése"
-
-#: .Learn+more+about+encrypting+forms
-msgid "Learn more about encrypting forms"
-msgstr "További információ az űrlapok titkosításáról"
-
-#: .%23%23type%23%23+%23%23name%23%23+created
-msgid "##type## ##name## created"
-msgstr "##type## elkészült: ##name##"
-
-#: .Failed+to+create+%23%23type%23%23
-msgid "Failed to create ##type##"
-msgstr "##type## létrehozása sikertelen"
-
-#: .Failed+to+update+%23%23type%23%23
-msgid "Failed to update ##type##"
-msgstr "##type## frissítése sikertelen"
-
-#: .Saving%E2%80%A6
-msgid "Saving…"
-msgstr "Mentés…"
-
-#: .Creating%E2%80%A6
-msgid "Creating…"
-msgstr "Létrehozás folyamatban…"
-
-#: .Enter+title+of+%23%23type%23%23+here
-msgid "Enter title of ##type## here"
-msgstr "Írja be a(z) ##type## nevét ide"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "Az űrlapválasz nem található. Lehetséges, hogy törölve lett. Válasz azonosítója: ##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "Törli az űrlapválaszt?"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "Biztosan törölni akarja ezt az űrlapválaszt?"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "Ez a művelet nem fordítható vissza"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "Másolat elkészült"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "Az űrlapválasz bejegyzésének másolata sikeresen létrejött. Az új példányt megtekintheti az alábbiakban, és változtatásokat kezdeményezhet rajta a műveletgombok segítségével."
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "Űrlapválasz másolatának elvetése"
-
-#: .Language
-msgid "Language:"
-msgstr "Nyelv:"
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "Érvényesítési állapot:"
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "Kattintson az alábbi gombra, hogy betöltse a legutóbbi adatokat erről az űrlapválaszról. "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "Űrlapválasz frissítése"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "Háttérhang rögzítése"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "XML-nevek mutatása"
-
-#: .View
-msgid "View"
-msgstr "Megtekintés"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "Másolat készítése"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "Űrlapbeküldés törlése"
+#: .Add-ons
+msgid "Add-ons"
+msgstr ""
 
 #: .Import+data+from+%23%23SOURCE_NAME%23%23
 msgid "Import data from ##SOURCE_NAME##"
@@ -3715,6 +3523,159 @@ msgstr "Importált kérdések frissítése"
 #: .Accept
 msgid "Accept"
 msgstr "Elfogad"
+
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "Az űrlapválasz nem található. Lehetséges, hogy törölve lett. Válasz azonosítója: ##id##"
+
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "Törli az űrlapválaszt?"
+
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "Biztosan törölni akarja ezt az űrlapválaszt?"
+
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "Ez a művelet nem fordítható vissza"
+
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "Másolat elkészült"
+
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "Az űrlapválasz bejegyzésének másolata sikeresen létrejött. Az új példányt megtekintheti az alábbiakban, és változtatásokat kezdeményezhet rajta a műveletgombok segítségével."
+
+#: .Source+submission+uuid+
+msgid "Source submission uuid: "
+msgstr ""
+
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "Űrlapválasz másolatának elvetése"
+
+#: .Discard
+msgid "Discard"
+msgstr "Elvet"
+
+#: .Language
+msgid "Language:"
+msgstr "Nyelv:"
+
+#: .Validation+status
+msgid "Validation status:"
+msgstr "Érvényesítési állapot:"
+
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "Kattintson az alábbi gombra, hogy betöltse a legutóbbi adatokat erről az űrlapválaszról. "
+
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "Űrlapválasz frissítése"
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "Háttérhang rögzítése"
+
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "XML-nevek mutatása"
+
+#: .View
+msgid "View"
+msgstr "Megtekintés"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "Másolat készítése"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "Űrlapbeküldés törlése"
+
+#: .Type+
+msgid "Type: "
+msgstr "Típus: "
+
+#: ..+
+msgid ". "
+msgstr ". "
+
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#1/#2 válaszadó válaszolta meg ezt a kérdést. "
+
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(# adatok nélkül.)"
+
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "Grafikonstílus felülírása"
+
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "Nem sikerült a címkék frissítése"
+
+#: .Updating%E2%80%A6
+msgid "Updating…"
+msgstr "Frissítés…"
+
+#: .Update
+msgid "Update"
+msgstr "Frissítés"
+
+#: .Question+Block
+msgid "Question Block"
+msgstr "Kérdésblokk"
+
+#: .Template
+msgid "Template"
+msgstr "Sablon"
+
+#: .Collection
+msgid "Collection"
+msgstr "Gyűjtemény"
+
+#: .Upload+as+template
+msgid "Upload as template"
+msgstr ""
+
+#: .Note+that+this+will+be+ignored+when+uploading+a+collection+file.
+msgid "Note that this will be ignored when uploading a collection file."
+msgstr ""
+
+#: .Submission+URL
+msgid "Submission URL"
+msgstr "Űrlapválasz URL-címe"
+
+#: .Public+key
+msgid "Public key"
+msgstr "Nyilvános kulcs"
+
+#: .Set+encryption
+msgid "Set encryption"
+msgstr "Titkosítás beállítása"
+
+#: .Remove+encryption
+msgid "Remove encryption"
+msgstr "Titkosítás megszüntetése"
+
+#: .Learn+more+about+encrypting+forms
+msgid "Learn more about encrypting forms"
+msgstr "További információ az űrlapok titkosításáról"
+
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "Nem támogatott médiatípus: ##QUESTION_TYPE##"
 
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
@@ -3833,9 +3794,60 @@ msgstr "Gyakoriság"
 msgid "Percentage"
 msgstr "Százalék"
 
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "Nem támogatott médiatípus: ##QUESTION_TYPE##"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "Súgóerőforrások"
+
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "KoboToolbox Súgóközpont"
+
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "A Kobóval kapcsolatos oktatóanyagok és felhasználótámogatási cikkek kiterjedt gyűjteménye"
+
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "KoboToolbox Közösségi fórum"
+
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "Küldje be kérdéseit, hogy válaszokat kaphasson tapasztalt Kobo-felhasználóktól a világ minden tájáról"
+
+#: .Notifications
+msgid "Notifications"
+msgstr "Értesítések"
+
+#: .Help
+msgid "Help"
+msgstr "Súgó"
+
+#: .%23%23type%23%23+%23%23name%23%23+created
+msgid "##type## ##name## created"
+msgstr "##type## elkészült: ##name##"
+
+#: .Failed+to+create+%23%23type%23%23
+msgid "Failed to create ##type##"
+msgstr "##type## létrehozása sikertelen"
+
+#: .Failed+to+update+%23%23type%23%23
+msgid "Failed to update ##type##"
+msgstr "##type## frissítése sikertelen"
+
+#: .Saving%E2%80%A6
+msgid "Saving…"
+msgstr "Mentés…"
+
+#: .Creating%E2%80%A6
+msgid "Creating…"
+msgstr "Létrehozás folyamatban…"
+
+#: .Enter+title+of+%23%23type%23%23+here
+msgid "Enter title of ##type## here"
+msgstr "Írja be a(z) ##type## nevét ide"
 
 #: .JSON
 msgid "JSON"
@@ -3918,6 +3930,10 @@ msgstr "Egyéni burkoló hozzáadása egy JSON űrlapválasz köré (%SUBMISSION
 #: .Add+Custom+Wrapper
 msgid "Add Custom Wrapper"
 msgstr "Egyéni burkoló hozzáadása"
+
+#: .N/A
+msgid "N/A"
+msgstr "Nem található"
 
 #: .%2A+Save+Changes
 msgid "* Save Changes"
@@ -4029,56 +4045,29 @@ msgstr "Nyelv hozzáadása"
 msgid "Add a new language"
 msgstr "Új nyelv hozzáadása"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "Súgóerőforrások"
+#: .filter
+msgid "filter"
+msgstr "szűrő"
 
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "KoboToolbox Súgóközpont"
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "Nincsenek megadva szűrők, hozzáadhat egyet alább"
 
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "A Kobóval kapcsolatos oktatóanyagok és felhasználótámogatási cikkek kiterjedt gyűjteménye"
+#: .Add+filter
+msgid "Add filter"
+msgstr "Szűrő hozzáadása"
 
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "KoboToolbox Közösségi fórum"
+#: .Apply
+msgid "Apply"
+msgstr "Alkalmaz"
 
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "Küldje be kérdéseit, hogy válaszokat kaphasson tapasztalt Kobo-felhasználóktól a világ minden tájáról"
+#: .fields
+msgid "fields"
+msgstr "mezők"
 
-#: .Notifications
-msgid "Notifications"
-msgstr "Értesítések"
-
-#: .Help
-msgid "Help"
-msgstr "Súgó"
-
-#: .Type+
-msgid "Type: "
-msgstr "Típus: "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#1/#2 válaszadó válaszolta meg ezt a kérdést. "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(# adatok nélkül.)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "Grafikonstílus felülírása"
+#: .Archive/Unarchive
+msgid "Archive/Unarchive"
+msgstr "Archiválás/Visszaállítás archívumból"
 
 #: .Delete+projects
 msgid "Delete projects"
@@ -4091,6 +4080,62 @@ msgstr "##count## projekt törlése"
 #: .Share+projects
 msgid "Share projects"
 msgstr "Projektek megosztása"
+
+#: .Archive+project
+msgid "Archive project"
+msgstr "Projekt archiválása"
+
+#: .Unarchive+project
+msgid "Unarchive project"
+msgstr "Projekt visszaállítása"
+
+#: .Draft+project+selected
+msgid "Draft project selected"
+msgstr "Vázlatprojekt kiválasztva"
+
+#: .Delete+1+project
+msgid "Delete 1 project"
+msgstr "1 projekt törlése"
+
+#: .Delete+project
+msgid "Delete project"
+msgstr "Projekt törlése"
+
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "Frissítse az oldalt"
+
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "Fiókbeállítások"
+
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "Szolgáltatási feltételek"
+
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "Adatvédelmi szabályzat"
+
+#: .Logout
+msgid "Logout"
+msgstr "Kijelentkezés"
+
+#: .TOS+Update+Message+not+found
+msgid "TOS Update Message not found"
+msgstr "TOS frissítési üzenet nem található"
+
+#: .Please+make+sure+the+following+details+are+filled+out+correctly
+msgid "Please make sure the following details are filled out correctly:"
+msgstr "Ellenőrizze, hogy a következő információk helyesen vannak kitöltve:"
+
+#: .I+agree,+let%27s+go
+msgid "I agree, let's go"
+msgstr "Elfogadom, lépjünk tovább"
+
+#: .I+don%27t+agree,+log+me+out
+msgid "I don't agree, log me out"
+msgstr "Nem fogadom el, ki akarok lépni"
 
 #: .This+field+is+required.
 msgid "This field is required."
@@ -4120,31 +4165,102 @@ msgstr "Jelszó megerősítése"
 msgid "Save Password"
 msgstr "Jelszó mentése"
 
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "Frissítse az oldalt"
+#: .There+are+no+projects+to+display.
+msgid "There are no projects to display."
+msgstr "Nincs megjeleníthető projekt."
 
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "Fiókbeállítások"
+#: .Import+failed
+msgid "Import failed"
+msgstr "Sikertelen importálás"
 
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "Szolgáltatási feltételek"
-
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "Adatvédelmi szabályzat"
-
-#: .Logout
-msgid "Logout"
-msgstr "Kijelentkezés"
-
-#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
 msgid ""
-"This export format will not be supported in the future. Please consider "
-"using one of the other export types available."
-msgstr "Ez az exportálási formátum nem lesz támogatott a jövőben. Érdemes lehet egy másik elérhető exporttípust használnia."
+"Your upload is taking longer than usual. Please get back in few minutes."
+msgstr "A feltöltése a szokásosnál több időt vesz igénybe. Kérjük, nézzen vissza pár perc múlva."
+
+#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
+msgid ""
+"Your uploads are being processed. This may take a few moments. You will need"
+" to refresh the page to see them on the list."
+msgstr "A feltöltés feldolgozása folyamatban van. Ez eltarthat néhány másodpercig. Frissítse az oldalt, hogy láthatóak legyenek a listán."
+
+#: .Please+enter+a+title+for+your+%23%23type%23%23
+msgid "Please enter a title for your ##type##"
+msgstr "A(z) ##type## elnevezése szükséges"
+
+#: .untitled+%23%23type%23%23
+msgid "untitled ##type##"
+msgstr "névtelen ##type##"
+
+#: .untitled+collection
+msgid "untitled collection"
+msgstr "névtelen gyűjtemény"
+
+#: .project+title
+msgid "project title"
+msgstr "projekt neve"
+
+#: .Project+transfer+declined
+msgid "Project transfer declined"
+msgstr ""
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##."
+msgstr ""
+
+#: .When+you+accept+the+ownership+transfer+of+project+%23%23PROJECT_NAME%23%23,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+you+and+count+against+your+plan+limits.
+msgid ""
+"When you accept the ownership transfer of project ##PROJECT_NAME##, all of "
+"the submissions, data storage, and transcription and translation usage for "
+"the project will be transferred to you and count against your plan limits."
+msgstr ""
+
+#: .Once+you+accept,+the+transfer+might+take+a+few+minutes+to+complete.
+msgid "Once you accept, the transfer might take a few minutes to complete."
+msgstr ""
+
+#: .Current+owner
+msgid "Current owner"
+msgstr ""
+
+#: .Note+The+previous+owner+has+permissions+to+manage+the+project.+You+can+change+user+permissions+in+the+project+sharing+settings.
+msgid ""
+"Note: The previous owner has permissions to manage the project. You can "
+"change user permissions in the project sharing settings."
+msgstr ""
+
+#: .Decline
+msgid "Decline"
+msgstr ""
+
+#: .Discard+unsaved+changes%3F
+msgid "Discard unsaved changes?"
+msgstr "Elveti a nem mentett változtatásokat?"
+
+#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
+msgid "You have unsaved changes. Leave settings without saving?"
+msgstr "Nem mentett módosításai vannak. Kilép mentés nélkül?"
+
+#: .Updated+profile+successfully
+msgid "Updated profile successfully"
+msgstr "Profil frissítése sikeres"
+
+#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
+msgid ""
+"You can now control whether to allow anonymous submissions in web forms for "
+"each project. Previously, this was an account-wide setting."
+msgstr "Mostantól lehetősége van arra, hogy projektenként engedélyezze a webes űrlapválaszok névtelen beküldését. Korábban ez az egész fiókra vonatkozó beállítás volt."
+
+#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
+msgid ""
+"This privacy feature is now a per-project setting. New projects will require"
+" authentication by default."
+msgstr "Most már ez az adatvédelmi funkció projektszintű beállítás. Az új projektek alapértelmezés szerint hitelesítést igényelnek."
+
+#: .Learn+more+about+these+changes+here.
+msgid "Learn more about these changes here."
+msgstr "További információk ezekről a változásokról itt találhatóak."
 
 #: .Delete+export%3F
 msgid "Delete export?"
@@ -4187,176 +4303,15 @@ msgstr "Több verzió"
 msgid "There is nothing to download yet."
 msgstr "Egyelőre nincs mit letölteni."
 
-#: .There+are+no+projects+to+display.
-msgid "There are no projects to display."
-msgstr "Nincs megjeleníthető projekt."
-
-#: .Non-profit+organization
-msgid "Non-profit organization"
-msgstr "Non-profit szervezet"
-
-#: .Government+institution
-msgid "Government institution"
-msgstr "Kormányzati intézmény"
-
-#: .Educational+organization
-msgid "Educational organization"
-msgstr "Oktatási szervezet"
-
-#: .A+commercial/for-profit+company
-msgid "A commercial/for-profit company"
-msgstr "Kereskedelmi/gazdasági társaság"
-
-#: .I+am+not+associated+with+any+organization
-msgid "I am not associated with any organization"
-msgstr "Nem állok kapcsolatban semmilyen szervezettel"
-
-#: .Male
-msgid "Male"
-msgstr "Férfi"
-
-#: .Female
-msgid "Female"
-msgstr "Nő"
-
-#: .Other
-msgid "Other"
-msgstr "Egyéb"
-
-#: .Use+this+to+display+your+real+name+to+other+users
-msgid "Use this to display your real name to other users"
-msgstr "Ezzel jelenítheti meg valódi nevét a többi felhasználó számára"
-
-#: .Social
-msgid "Social"
-msgstr "Közösségi oldalak"
-
-#: .Newsletter
-msgid "Newsletter"
-msgstr "Hírlevél"
-
-#: .Import+failed
-msgid "Import failed"
-msgstr "Sikertelen importálás"
-
-#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
-msgid ""
-"Your upload is taking longer than usual. Please get back in few minutes."
-msgstr "A feltöltése a szokásosnál több időt vesz igénybe. Kérjük, nézzen vissza pár perc múlva."
-
-#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
-msgid ""
-"Your uploads are being processed. This may take a few moments. You will need"
-" to refresh the page to see them on the list."
-msgstr "A feltöltés feldolgozása folyamatban van. Ez eltarthat néhány másodpercig. Frissítse az oldalt, hogy láthatóak legyenek a listán."
-
-#: .Please+enter+a+title+for+your+%23%23type%23%23
-msgid "Please enter a title for your ##type##"
-msgstr "A(z) ##type## elnevezése szükséges"
-
-#: .untitled+%23%23type%23%23
-msgid "untitled ##type##"
-msgstr "névtelen ##type##"
-
-#: .untitled+collection
-msgid "untitled collection"
-msgstr "névtelen gyűjtemény"
-
-#: .project+title
-msgid "project title"
-msgstr "projekt neve"
-
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "utolsó módosítás: ##date##"
-
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "létrehozva: ##date##"
-
-#: .Delete%3F
-msgid "Delete?"
-msgstr "Törlés?"
-
-#: .This+action+is+not+reversible
-msgid "This action is not reversible"
-msgstr "Ez a művelet nem fordítható vissza"
-
-#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
-msgid "Asset seems to not have the processing feature enabled!"
-msgstr "Úgy tűnik, az eszköz feldolgozó funkciója nincs engedélyezve!"
-
-#: .Failed+to+get+processing+data.
-msgid "Failed to get processing data."
-msgstr "Nem sikerült megkapni a feldolgozási adatokat."
-
-#: .Failed+to+set+transcript.
-msgid "Failed to set transcript."
-msgstr "Nem sikerült az átirat beállítása."
-
-#: .Failed+to+delete+transcript.
-msgid "Failed to delete transcript."
-msgstr "Nem sikerült az átirat törlése."
-
-#: .Failed+to+delete+translation.
-msgid "Failed to delete translation."
-msgstr "Nem sikerült a fordítás törlése."
-
-#: .No+options+found
-msgid "No options found"
-msgstr "Nincs találat"
-
-#: .Failed+to+load+analysis+questions
-msgid "Failed to load analysis questions"
-msgstr "Nem sikerült betölteni az elemzési kérdéseket"
-
-#: .There+was+an+error+getting+the+list+of+plans.
-msgid "There was an error getting the list of plans."
-msgstr "Hiba történt a csomagok listázásakor."
-
-#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
-msgid ""
-"We couldn't make the requested change to your plan.\n"
-"Your current plan has not been changed."
-msgstr "A kért változtatást nem tudtuk végrehajtani a csomagján.\nAz Ön jelenlegi csomagja nem változott."
-
-#: .Couldn%27t+get+data+for+your+organization.
-msgid "Couldn't get data for your organization."
-msgstr "Nem sikerült lekérdezni az Ön szervezetének adatait."
-
-#: .Original+transcript
-msgid "Original transcript"
-msgstr "Eredeti átirat"
-
-#: .Submission+data
-msgid "Submission data"
-msgstr "Űrlapválasz adatai"
-
-#: .Original+file+(Audio)
-msgid "Original file (Audio)"
-msgstr "Eredeti fájl (hang)"
-
-#: .Display+settings
-msgid "Display settings"
-msgstr "Megjelenítési beállítások"
-
-#: .Customize+display+settings
-msgid "Customize display settings"
-msgstr "Megjelenítési beállítások testreszabása"
-
-#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
-msgid ""
-"Select the information you want to display in the side menu to support your "
-"analysis."
-msgstr "Válassza ki az oldalsó menüben megjeleníteni kívánt információkat, az elemzés támogatása érdekében."
-
-#: .Apply+selection
-msgid "Apply selection"
-msgstr "A választás alkalmazása"
-
 #: .Export
 msgid "Export"
 msgstr "Exportálás"
+
+#: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
+msgid ""
+"This export format will not be supported in the future. Please consider "
+"using one of the other export types available."
+msgstr "Ez az exportálási formátum nem lesz támogatott a jövőben. Érdemes lehet egy másik elérhető exporttípust használnia."
 
 #: .Latest+unsaved+settings
 msgid "Latest unsaved settings"
@@ -4428,135 +4383,109 @@ msgstr "Elmentett exportálási beállítások alkalmazása"
 msgid "No export settings selected"
 msgstr "Nincs exportálási beállítás kijelölve"
 
-#: .There+was+an+issue+fetching+your+plan+information.
-msgid "There was an issue fetching your plan information."
-msgstr "Probléma lépett fel az Ön csomagjának lekérdezésével kapcsolatban."
+#: .Item
+msgid "Item"
+msgstr "Tétel:"
 
-#: .forgot+password
-msgid "forgot password"
-msgstr "elfelejtett jelszó"
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "/##total_count##"
 
-#: .Unlimited
-msgid "Unlimited"
-msgstr "Korlátlan"
+#: .Transcript
+msgid "Transcript"
+msgstr "Átirat"
 
-#: .%23%23minutes%23%23+mins
-msgid "##minutes## mins"
-msgstr "##minutes## perc"
+#: .Translations
+msgid "Translations"
+msgstr "Fordítások"
 
-#: .Available
-msgid "Available"
-msgstr "Elérhető"
+#: .Analysis
+msgid "Analysis"
+msgstr "Elemzés"
 
-#: .Used+this+month
-msgid "Used this month"
-msgstr "Ebben a hónapban elhasznált"
-
-#: .Used+this+year
-msgid "Used this year"
-msgstr "Ebben az évben elhasznált"
-
-#: .Balance
-msgid "Balance"
-msgstr "Egyenleg"
+#: .No+options+found
+msgid "No options found"
+msgstr "Nincs találat"
 
 #: .Your+plan
 msgid "Your plan"
 msgstr "Az Ön csomagja"
 
-#: .%23%23plan_name%23%23+Plan
-msgid "##plan_name## Plan"
-msgstr "##plan_name## csomag"
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "Valóban ki szeretne lépni mentés nélkül?"
 
-#: .Started+on+%23%23start_date%23%23
-msgid "Started on ##start_date##"
-msgstr "Kezdés dátuma: ##start_date##"
-
-#: .Renews+on+%23%23renewal_date%23%23
-msgid "Renews on ##renewal_date##"
-msgstr "Megújítás dátuma: ##renewal_date##"
-
-#: .Two-factor+authentication
-msgid "Two-factor authentication"
-msgstr "Kétfaktoros hitelesítés"
-
-#: .Disabled
-msgid "Disabled"
-msgstr "Letiltott"
-
-#: .Authenticator+app
-msgid "Authenticator app"
-msgstr "Hitelesítő alkalmazás"
-
-#: .Reconfigure
-msgid "Reconfigure"
-msgstr "Újrakonfigurálás"
-
-#: .Recovery+codes
-msgid "Recovery codes"
-msgstr "Visszaállítási kódok"
-
-#: .Generate+new
-msgid "Generate new"
-msgstr "Új létrehozása"
-
-#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
-msgid "Two-factor authentication was deactivated for your account on ##date##"
-msgstr "A kétfaktoros hitelesítés ##date## napon inaktiválva lett a fiókján"
-
-#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
-msgid "This feature is not available on your current plan. Please visit the "
-msgstr "Ez a tulajdonság nem érhető el a jelenlegi csomagjában. Látogasson el a "
-
-#: .Plans+page
-msgid "Plans page"
-msgstr "Csomagok oldalra"
-
-#: .+to+upgrade+your+account.
-msgid " to upgrade your account."
-msgstr " a csomagváltáshoz."
-
-#: .Email+address
-msgid "Email address"
-msgstr "E-mail cím"
-
-#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
-msgid "Check your email ##UNVERIFIED_EMAIL##. "
-msgstr "Ellenőrizze az e-mail fiókját: ##UNVERIFIED_EMAIL##. "
-
-#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
-"A verification link has been sent to confirm your ownership. Once confirmed,"
-" this address will replace ##UNVERIFIED_EMAIL##"
-msgstr "Egy ellenőrző hivatkozást küldtünk Önnek, hogy megerősíthessük a jogosultságát. Amint ez megtörtént, ez a cím kerül a korábbi ##UNVERIFIED_EMAIL## helyére"
+"Thanks for your upgrade! We appreciate your continued support. Reach out to "
+"billing@kobotoolbox.org if you have any questions about your plan."
+msgstr "Köszönjük, hogy csomagot váltott! Nagyra értékeljük, hogy továbbra is támogat minket. Lépjen velünk kapcsolatba a billing@kobotoolbox.org címen, amennyiben kérdése van a csomagjával kapcsolatosan."
 
-#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
-msgid "Email was sent again: ##TIMESTAMP##"
-msgstr "E-mail ismét elküldve: ##TIMESTAMP##"
+#: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+If+your+account+is+not+immediately+updated,+wait+a+few+minutes+and+refresh+the+page.
+msgid ""
+"Thanks for your upgrade! We appreciate your continued support. If your "
+"account is not immediately updated, wait a few minutes and refresh the page."
+msgstr "Köszönjük, hogy csomagot váltott! Nagyra értékeljük, hogy továbbra is támogat minket. Amennyiben a felhasználói fiókja nem frissül azonnal, várjon pár percet és frissítse az oldalt."
 
-#: .Type+new+email+address
-msgid "Type new email address"
-msgstr "Írja be az új e-mail címet"
+#: .Collapse+full+comparison
+msgid "Collapse full comparison"
+msgstr "Teljes összehasonlítás összezárása"
 
-#: .Failed+to+get+API+token
-msgid "Failed to get API token"
-msgstr "Nem sikerült API-tokent szerezni"
+#: .Display+full+comparison
+msgid "Display full comparison"
+msgstr "Teljes összehasonlítás megjelenítése"
 
-#: .API+Key
-msgid "API Key"
-msgstr "API-kulcs"
+#: .show+monthly+plans
+msgid "show monthly plans"
+msgstr "havi csomagok megjelenítése"
 
-#: .Single-Sign+On
-msgid "Single-Sign On"
-msgstr "Egyszeri bejelentkezés"
+#: .Monthly
+msgid "Monthly"
+msgstr "Havi"
 
-#: .Already+connected
-msgid "Already connected"
-msgstr "Már csatlakozott"
+#: .show+annual+plans
+msgid "show annual plans"
+msgstr "éves csomagok megjelenítése"
 
-#: .Disable
-msgid "Disable"
-msgstr "Kikapcsolás"
+#: .Annual
+msgid "Annual"
+msgstr "Éves"
+
+#: .Want+more%3F
+msgid "Want more?"
+msgstr "Szeretne még valamit?"
+
+#: .Contact+us
+msgid "Contact us"
+msgstr "Lépjen kapcsolatba velünk"
+
+#: .For+organizations+with+higher+volume+and+advanced+data+collection+needs,+get+in+touch+to+learn+more+about+our+
+msgid ""
+"For organizations with higher volume and advanced data collection needs, get"
+" in touch to learn more about our "
+msgstr "Azon szervezetek, amelyek nagyobb mennyiségű és részletes adatgyűjtési igénnyel rendelkeznek, lépjenek velünk kapcsolatba további információért erről: "
+
+#: .Enterprise+Plan
+msgid "Enterprise Plan"
+msgstr "Vállalkozói Csomag."
+
+#: .We+also+offer+custom+solutions+and+private+servers+for+large+organizations.+
+msgid ""
+"We also offer custom solutions and private servers for large organizations. "
+msgstr "Nagy szervezetek számára egyedi megoldásokat és privát kiszolgálókat is kínálunk. "
+
+#: .Contact+our+team
+msgid "Contact our team"
+msgstr "Lépjen kapcsolatba csapatunkkal"
+
+#: .+for+more+information.
+msgid " for more information."
+msgstr " további információkért."
+
+#: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
+msgid ""
+"Use the button above to select the information to be displayed in this area"
+msgstr "A fenti gombbal válassza ki az ezen a területen megjelenítendő információkat"
 
 #: .and+one+other+question
 msgid "and one other question"
@@ -4565,89 +4494,6 @@ msgstr "és egy másik kérdés"
 #: .and+%23%23+other+questions
 msgid "and ## other questions"
 msgstr "és másik ## kérdés"
-
-#: .There+has+been+an+issue,+please+try+again+later.
-msgid "There has been an issue, please try again later."
-msgstr "Probléma lépett fel, kérjük, próbálja később újra."
-
-#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
-msgid ""
-"Success! Your subscription will change at the end of the current billing "
-"period."
-msgstr "Sikeres! Az Ön előfizetése meg fog változni az aktuális számlázási időszak végén."
-
-#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
-msgid ""
-"There was an error processing your plan change. Your previous plan has not "
-"been changed. Please try again later."
-msgstr "Hiba történt az Ön előfizetési csomagjának megváltoztatása közben. Az Ön előző csomagja nem változott. Kérem, próbálja újra később."
-
-#: .available+add-ons
-msgid "available add-ons"
-msgstr "elérhető kiegészítő szolgáltatások"
-
-#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
-msgid ""
-"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
-"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
-"            data collection."
-msgstr "Hogy növelje az adatforgalmi limitet, a kiegészítő szolgáltatásokat hozzáadhatja a Közösségi csomagjához. Ha a csomagjában felhasználható adatforgalom megközelíti vagy\n            már elérte a csomagjában felhasználható limitet, növelje a keretét a kiegészítő szolgáltatásokkal, hogy folytathassa\n            az adatgyűjtést."
-
-#: .Manage
-msgid "Manage"
-msgstr "Csomag kezelése"
-
-#: .Buy+now
-msgid "Buy now"
-msgstr "Vásárlás most"
-
-#: .%23%23add_on_name%23%23+add-on
-msgid "##add_on_name## add-on"
-msgstr "##add_on_name## kiegészítő szolgáltatás"
-
-#: .monthly+%23%23plan_name%23%23+plan
-msgid "monthly ##plan_name## plan"
-msgstr "havi ##plan_name## csomag"
-
-#: .yearly+%23%23plan_name%23%23+plan
-msgid "yearly ##plan_name## plan"
-msgstr "éves ##plan_name## csomag"
-
-#: .add-on
-msgid "add-on"
-msgstr "kiegészítő szolgáltatás"
-
-#: .plan
-msgid "plan"
-msgstr "csomag"
-
-#: .Changes+to+your+Plan
-msgid "Changes to your Plan"
-msgstr "Változások az Ön Csomagjában"
-
-#: .Processing+your+transaction%E2%80%A6
-msgid "Processing your transaction…"
-msgstr "Az Ön tranzakciója folyamatban van..."
-
-#: .You+are+switching+to+the+%23%23new_product_type%23%23.
-msgid "You are switching to the ##new_product_type##."
-msgstr "Ön a következő csomagra vált: ##new_product_type##."
-
-#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
-msgid ""
-"Because this plan includes unlimited storage, your storage add-on will be "
-"canceled."
-msgstr "Mivel ez a csomag korlátlan tárhelyet tartalmaz, az Ön tárhelynövelő kiegészítő szolgáltatása törölve lesz."
-
-#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23+per+%23%23interval%23%23.
-msgid ""
-"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
-"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price## per ##interval##."
-msgstr "A jelenlegi ##product_type## érvényességének vége ##billing_end_date##.\n              ##billing_end_date## után a szolgáltatás törléséig a fizetendő számlája ##new_price##/##interval## lesz."
-
-#: .Submit
-msgid "Submit"
-msgstr "Elküld"
 
 #: .Search...
 msgid "Search..."
@@ -4681,20 +4527,17 @@ msgstr "megtalált tételek"
 msgid "expand details"
 msgstr "részletek kibontása"
 
-#: .This+plan+only+supports+up+to+%23%23submissions%23%23+submissions+per+month.+If+your+project+needs+more+than+that,+please+contact+us+about+our+Private+Server+options.
-msgid ""
-"This plan only supports up to ##submissions## submissions per month. If your"
-" project needs more than that, please contact us about our Private Server "
-"options."
-msgstr "Ez a csomag legfeljebb havonta ##submissions## űrlapválaszra elegendő. Ha az Ön projektje ennél többet igényel, lépjen kapcsolatba velünk, hogy tájékoztathassuk a Privát kiszolgáló opciónk részleteiről."
-
-#: .Total+Submissions+per+Month
-msgid "Total Submissions per Month"
-msgstr "Összes űrlapválasz havonta"
-
 #: .Could+not+load+media+file
 msgid "Could not load media file"
 msgstr "Médiafájl betöltése nem sikerült"
+
+#: .Delete%3F
+msgid "Delete?"
+msgstr "Törlés?"
+
+#: .This+action+is+not+reversible
+msgid "This action is not reversible"
+msgstr "Ez a művelet nem fordítható vissza"
 
 #: .An+error+occured
 msgid "An error occured"
@@ -4707,6 +4550,22 @@ msgstr "Hiba történt az előfizetési állapot ellenőrzésekor"
 #: .Incorrect+token+or+something+went+wrong
 msgid "Incorrect token or something went wrong"
 msgstr "Hibás token vagy más hiba történt"
+
+#: .Mean
+msgid "Mean"
+msgstr "Átlag"
+
+#: .Median
+msgid "Median"
+msgstr "Medián"
+
+#: .Mode
+msgid "Mode"
+msgstr "Mód"
+
+#: .Standard+deviation
+msgid "Standard deviation"
+msgstr "Szórás"
 
 #: .Filter+by
 msgid "Filter by"
@@ -4728,21 +4587,9 @@ msgstr "Jelölje ki a feltételt"
 msgid "Enter value"
 msgstr "Írja be az értéket"
 
-#: .Mean
-msgid "Mean"
-msgstr "Átlag"
-
-#: .Median
-msgid "Median"
-msgstr "Medián"
-
-#: .Mode
-msgid "Mode"
-msgstr "Mód"
-
-#: .Standard+deviation
-msgid "Standard deviation"
-msgstr "Szórás"
+#: .There+was+an+issue+fetching+your+plan+information.
+msgid "There was an issue fetching your plan information."
+msgstr "Probléma lépett fel az Ön csomagjának lekérdezésével kapcsolatban."
 
 #: .These+settings+affects+the+experience+for+all+project+users.
 msgid "These settings affects the experience for all project users."
@@ -4755,60 +4602,6 @@ msgstr "Mező keresése"
 #: .No+results
 msgid "No results"
 msgstr "Nincs eredmény"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
-msgid "You are about to permanently delete ##count## projects"
-msgstr "Arra készül, hogy véglegesen töröl ##count## projektet"
-
-#: .All+data+gathered+for+these+projects+will+be+deleted
-msgid "All data gathered for these projects will be deleted"
-msgstr "A projektekhez gyűjtött összes adat törölve lesz"
-
-#: .Forms+associated+with+these+projects+will+be+deleted
-msgid "Forms associated with these projects will be deleted"
-msgstr "A projektekhez kapcsolódó űrlapok törölve lesznek"
-
-#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
-msgid ""
-"I understand that if I delete these projects I will not be able to recover "
-"them"
-msgstr "Megértettem, hogy miután töröltem ezeket a projekteket, azok többé nem állíthatók vissza"
-
-#: .Default+sort
-msgid "Default sort"
-msgstr "Alapértelmezett rendezés"
-
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "Írja be és erősítse meg az ENTER lenyomásával"
-
-#: .Name+must+be+unique%21
-msgid "Name must be unique!"
-msgstr "A névnek egyedinek kell lennie!"
-
-#: .Code+must+be+unique%21
-msgid "Code must be unique!"
-msgstr "A kódnak egyedinek kell lennie!"
-
-#: .Default+language+name
-msgid "Default language name"
-msgstr "Alapértelmezett nyelv neve"
-
-#: .Language+name
-msgid "Language name"
-msgstr "Nyelv neve"
-
-#: .Default+language+code
-msgid "Default language code"
-msgstr "Alapértelmezett nyelv kódja"
-
-#: .Language+code
-msgid "Language code"
-msgstr "Nyelvkód"
-
-#: .Set
-msgid "Set"
-msgstr "Beállít"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4866,9 +4659,37 @@ msgstr "instanceID"
 msgid "Submitted by"
 msgstr "Elküldte"
 
-#: .Select+export+type
-msgid "Select export type"
-msgstr "Jelölje ki az exportálási típust"
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "Írja be és erősítse meg az ENTER lenyomásával"
+
+#: .Name+must+be+unique%21
+msgid "Name must be unique!"
+msgstr "A névnek egyedinek kell lennie!"
+
+#: .Code+must+be+unique%21
+msgid "Code must be unique!"
+msgstr "A kódnak egyedinek kell lennie!"
+
+#: .Default+language+name
+msgid "Default language name"
+msgstr "Alapértelmezett nyelv neve"
+
+#: .Language+name
+msgid "Language name"
+msgstr "Nyelv neve"
+
+#: .Default+language+code
+msgid "Default language code"
+msgstr "Alapértelmezett nyelv kódja"
+
+#: .Language+code
+msgid "Language code"
+msgstr "Nyelvkód"
+
+#: .Set
+msgid "Set"
+msgstr "Beállít"
 
 #: .CSV+(legacy)
 msgid "CSV (legacy)"
@@ -4918,21 +4739,205 @@ msgstr "Egyetlen oszlop"
 msgid "Single and separate columns"
 msgstr "Egyetlen és külön oszlopok"
 
-#: .Automated+analysis
-msgid "Automated analysis"
-msgstr "Automatikus elemzés"
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
+msgid "You are about to permanently delete ##count## projects"
+msgstr "Arra készül, hogy véglegesen töröl ##count## projektet"
 
-#: .Unsaved+changes
-msgid "Unsaved changes"
-msgstr "Nem mentett módosítások"
+#: .All+data+gathered+for+these+projects+will+be+deleted
+msgid "All data gathered for these projects will be deleted"
+msgstr "A projektekhez gyűjtött összes adat törölve lesz"
 
-#: .Saved
-msgid "Saved"
-msgstr "Mentett"
+#: .Forms+associated+with+these+projects+will+be+deleted
+msgid "Forms associated with these projects will be deleted"
+msgstr "A projektekhez kapcsolódó űrlapok törölve lesznek"
 
-#: .There+was+an+error+fetching+usage+data.
-msgid "There was an error fetching usage data."
-msgstr "Hiba történt az adathasználat letöltésekor."
+#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
+msgid ""
+"I understand that if I delete these projects I will not be able to recover "
+"them"
+msgstr "Megértettem, hogy miután töröltem ezeket a projekteket, azok többé nem állíthatók vissza"
+
+#: .Non-profit+organization
+msgid "Non-profit organization"
+msgstr "Non-profit szervezet"
+
+#: .Government+institution
+msgid "Government institution"
+msgstr "Kormányzati intézmény"
+
+#: .Educational+organization
+msgid "Educational organization"
+msgstr "Oktatási szervezet"
+
+#: .A+commercial/for-profit+company
+msgid "A commercial/for-profit company"
+msgstr "Kereskedelmi/gazdasági társaság"
+
+#: .I+am+not+associated+with+any+organization
+msgid "I am not associated with any organization"
+msgstr "Nem állok kapcsolatban semmilyen szervezettel"
+
+#: .Male
+msgid "Male"
+msgstr "Férfi"
+
+#: .Female
+msgid "Female"
+msgstr "Nő"
+
+#: .Other
+msgid "Other"
+msgstr "Egyéb"
+
+#: .Use+this+to+display+your+real+name+to+other+users
+msgid "Use this to display your real name to other users"
+msgstr "Ezzel jelenítheti meg valódi nevét a többi felhasználó számára"
+
+#: .Social
+msgid "Social"
+msgstr "Közösségi oldalak"
+
+#: .Newsletter
+msgid "Newsletter"
+msgstr "Hírlevél"
+
+#: .forgot+password
+msgid "forgot password"
+msgstr "elfelejtett jelszó"
+
+#: .Asset+seems+to+not+have+the+processing+feature+enabled%21
+msgid "Asset seems to not have the processing feature enabled!"
+msgstr "Úgy tűnik, az eszköz feldolgozó funkciója nincs engedélyezve!"
+
+#: .Failed+to+get+processing+data.
+msgid "Failed to get processing data."
+msgstr "Nem sikerült megkapni a feldolgozási adatokat."
+
+#: .Failed+to+set+transcript.
+msgid "Failed to set transcript."
+msgstr "Nem sikerült az átirat beállítása."
+
+#: .Failed+to+delete+transcript.
+msgid "Failed to delete transcript."
+msgstr "Nem sikerült az átirat törlése."
+
+#: .Failed+to+delete+translation.
+msgid "Failed to delete translation."
+msgstr "Nem sikerült a fordítás törlése."
+
+#: .Are+you+sure+you+want+to+delete+this+question%3F
+msgid "Are you sure you want to delete this question?"
+msgstr "Biztosan törölni akarja ezt a kérdést?"
+
+#: .Delete+Question
+msgid "Delete Question"
+msgstr "Kérdés törlése"
+
+#: .Duplicate+Question
+msgid "Duplicate Question"
+msgstr "Kérdés másolása"
+
+#: .Add+Question+to+Library
+msgid "Add Question to Library"
+msgstr "Kérdés hozzáadása a könyvtárhoz"
+
+#: .Email+address
+msgid "Email address"
+msgstr "E-mail cím"
+
+#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
+msgid "Check your email ##UNVERIFIED_EMAIL##. "
+msgstr "Ellenőrizze az e-mail fiókját: ##UNVERIFIED_EMAIL##. "
+
+#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+msgid ""
+"A verification link has been sent to confirm your ownership. Once confirmed,"
+" this address will replace ##UNVERIFIED_EMAIL##"
+msgstr "Egy ellenőrző hivatkozást küldtünk Önnek, hogy megerősíthessük a jogosultságát. Amint ez megtörtént, ez a cím kerül a korábbi ##UNVERIFIED_EMAIL## helyére"
+
+#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
+msgid "Email was sent again: ##TIMESTAMP##"
+msgstr "E-mail ismét elküldve: ##TIMESTAMP##"
+
+#: .Type+new+email+address
+msgid "Type new email address"
+msgstr "Írja be az új e-mail címet"
+
+#: .Two-factor+authentication
+msgid "Two-factor authentication"
+msgstr "Kétfaktoros hitelesítés"
+
+#: .Disabled
+msgid "Disabled"
+msgstr "Letiltott"
+
+#: .Authenticator+app
+msgid "Authenticator app"
+msgstr "Hitelesítő alkalmazás"
+
+#: .Reconfigure
+msgid "Reconfigure"
+msgstr "Újrakonfigurálás"
+
+#: .Recovery+codes
+msgid "Recovery codes"
+msgstr "Visszaállítási kódok"
+
+#: .Generate+new
+msgid "Generate new"
+msgstr "Új létrehozása"
+
+#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
+msgid "Two-factor authentication was deactivated for your account on ##date##"
+msgstr "A kétfaktoros hitelesítés ##date## napon inaktiválva lett a fiókján"
+
+#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
+msgid "This feature is not available on your current plan. Please visit the "
+msgstr "Ez a tulajdonság nem érhető el a jelenlegi csomagjában. Látogasson el a "
+
+#: .Plans+page
+msgid "Plans page"
+msgstr "Csomagok oldalra"
+
+#: .+to+upgrade+your+account.
+msgid " to upgrade your account."
+msgstr " a csomagváltáshoz."
+
+#: .Failed+to+get+API+token
+msgid "Failed to get API token"
+msgstr "Nem sikerült API-tokent szerezni"
+
+#: .API+Key
+msgid "API Key"
+msgstr "API-kulcs"
+
+#: .Single-Sign+On
+msgid "Single-Sign On"
+msgstr "Egyszeri bejelentkezés"
+
+#: .Connect+your+KoboToolbox+account+with+your+organization%27s+identity+provider+for+single-sign+on+(SSO).+Afterwards,+you+will+only+be+able+to+sign+in+via+SSO+unless+you+disable+this+setting+here.+This+will+also+update+your+email+address+in+case+your+current+address+is+different.
+msgid ""
+"Connect your KoboToolbox account with your organization's identity provider "
+"for single-sign on (SSO). Afterwards, you will only be able to sign in via "
+"SSO unless you disable this setting here. This will also update your email "
+"address in case your current address is different."
+msgstr ""
+
+#: .Already+connected
+msgid "Already connected"
+msgstr "Már csatlakozott"
+
+#: .Disable
+msgid "Disable"
+msgstr "Kikapcsolás"
+
+#: .No+organization+found
+msgid "No organization found"
+msgstr ""
+
+#: .Couldn%27t+get+usage+data
+msgid "Couldn't get usage data"
+msgstr ""
 
 #: .You+are+approaching+your
 msgid "You are approaching your"
@@ -4958,29 +4963,19 @@ msgstr " és "
 msgid "limit"
 msgstr "keretét"
 
-#: .Please
-msgid "Please"
-msgstr "Kérem"
+#: .limits
+msgid "limits"
+msgstr ""
 
-#: .review+your+usage
-msgid "review your usage"
-msgstr "Adathasználat áttekintése"
+#: .about+upgrading+your+plan.
+msgid "about upgrading your plan."
+msgstr ""
 
-#: .upgrade+your+plan
-msgid "upgrade your plan"
-msgstr "csomagváltás"
-
-#: .as+soon+as+possible
-msgid "as soon as possible"
-msgstr "a lehető leghamarabb"
-
-#: .if+needed
-msgid "if needed"
-msgstr "szükség esetén"
-
-#: .Review+your+usage+in+account+settings
-msgid "Review your usage in account settings"
-msgstr "Tekintse át adathasználatát a fiókbeállításoknál"
+#: .Please+upgrade+your+plan+or+purchase+an+add-on+to+increase+your+usage+limits.
+msgid ""
+"Please upgrade your plan or purchase an add-on to increase your usage "
+"limits."
+msgstr ""
 
 #: .Monitor+usage
 msgid "Monitor usage"
@@ -5014,6 +5009,14 @@ msgstr "Elérte"
 msgid "included with your current plan."
 msgstr "a jelenlegi csomagban."
 
+#: .Please
+msgid "Please"
+msgstr "Kérem"
+
+#: .upgrade+your+plan
+msgid "upgrade your plan"
+msgstr "csomagváltás"
+
 #: .review+your+usage+in+account+settings
 msgid "review your usage in account settings"
 msgstr "tekintse át adathasználatát a fiókbeállításoknál"
@@ -5022,164 +5025,267 @@ msgstr "tekintse át adathasználatát a fiókbeállításoknál"
 msgid "remind me later"
 msgstr "emlékeztessen később"
 
-#: .source+file
-msgid "source file"
-msgstr "forrásfájl"
+#: .Select+export+type
+msgid "Select export type"
+msgstr "Jelölje ki az exportálási típust"
 
-#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
-msgid "This ##type## does not have a transcript yet"
-msgstr "Ezen ##type## még nem rendelkezik átirattal"
+#: .%23%23start_date%23%23+to+%23%23end_date%23%23
+msgid "##start_date## to ##end_date##"
+msgstr "##start_date##–##end_date##"
 
-#: .begin
-msgid "begin"
-msgstr "kezdés"
+#: .Your+usage
+msgid "Your usage"
+msgstr "Az Ön adathasználata"
 
-#: .Please+select+the+original+language+of+the+%23%23type%23%23
-msgid "Please select the original language of the ##type##"
-msgstr "Válassza ki a(z) ##type## eredeti nyelvét"
+#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
+msgid "Last update: ##LAST_UPDATE_TIME##"
+msgstr "Utolsó frissítés: ##LAST_UPDATE_TIME##"
 
-#: .back
-msgid "back"
-msgstr "vissza"
+#: .Storage
+msgid "Storage"
+msgstr "Tárhely"
 
-#: .manual
-msgid "manual"
-msgstr "manuális"
+#: .per+account
+msgid "per account"
+msgstr "felhasználói fiókonként"
 
-#: .transcribe
-msgid "transcribe"
-msgstr "átírás"
+#: .Transcription+minutes
+msgid "Transcription minutes"
+msgstr "Átirat percekben"
 
-#: .Automatic+transcription+in+progress
-msgid "Automatic transcription in progress"
-msgstr "Automatikus átírás folyamatban"
+#: .Translation+characters
+msgid "Translation characters"
+msgstr "Fordítás karakterekben"
 
-#: .Estimated+time+for+completion+%23%23estimate%23%23
-msgid "Estimated time for completion: ##estimate##"
-msgstr "Várható befejezési idő: ##estimate##"
+#: .%23%23count%23%23+Projects
+msgid "##count## Projects"
+msgstr ""
 
-#: .Automatic+transcription+of+audio+file+from
-msgid "Automatic transcription of audio file from"
-msgstr "Hangfájl automatikus átírása innen:"
+#: .Submissions+(Total)
+msgid "Submissions (Total)"
+msgstr ""
 
-#: .Transcription+provider
-msgid "Transcription provider"
-msgstr "Átiratszolgáltató"
+#: .Submissions+(This+year)
+msgid "Submissions (This year)"
+msgstr ""
 
-#: .cancel
-msgid "cancel"
-msgstr "mégse"
+#: .Submissions+(This+month)
+msgid "Submissions (This month)"
+msgstr ""
 
-#: .create+transcript
-msgid "create transcript"
-msgstr "átirat készítése"
+#: .Data+storage
+msgid "Data storage"
+msgstr ""
 
-#: .Delete+transcript%3F
-msgid "Delete transcript?"
-msgstr "Törli az átiratot?"
+#: .Transcript+minutes
+msgid "Transcript minutes"
+msgstr ""
 
-#: .Are+you+sure+you+want+to+delete+this+question%3F
-msgid "Are you sure you want to delete this question?"
-msgstr "Biztosan törölni akarja ezt a kérdést?"
+#: .There+was+an+error+getting+the+list+of+plans.
+msgid "There was an error getting the list of plans."
+msgstr "Hiba történt a csomagok listázásakor."
 
-#: .Delete+Question
-msgid "Delete Question"
-msgstr "Kérdés törlése"
-
-#: .Duplicate+Question
-msgid "Duplicate Question"
-msgstr "Kérdés másolása"
-
-#: .Add+Question+to+Library
-msgid "Add Question to Library"
-msgstr "Kérdés hozzáadása a könyvtárhoz"
-
-#: .This+transcript+does+not+have+any+translations+yet
-msgid "This transcript does not have any translations yet"
-msgstr "Ennek az átiratnak még nincs fordítása"
-
-#: .Please+select+the+language+you+want+to+translate+to
-msgid "Please select the language you want to translate to"
-msgstr "Válassza ki a nyelvet, amelyre fordítani szeretne"
-
-#: .translate
-msgid "translate"
-msgstr "fordítás"
-
-#: .Automatic+translation+of+transcript+to
-msgid "Automatic translation of transcript to"
-msgstr "Átirat automatikus fordítása erre:"
-
-#: .Translation+provider
-msgid "Translation provider"
-msgstr "Fordításszolgáltató"
-
-#: .create+translation
-msgid "create translation"
-msgstr "lefordít"
-
-#: .Delete+translation%3F
-msgid "Delete translation?"
-msgstr "Törli a fordítást?"
-
-#: .new+translation
-msgid "new translation"
-msgstr "új fordítás"
-
-#: .less+than+a+minute
-msgid "less than a minute"
-msgstr "kevesebb mint 1 perc"
-
-#: .about+1+minute
-msgid "about 1 minute"
-msgstr "körülbelül 1 perc"
-
-#: .about+2+minutes
-msgid "about 2 minutes"
-msgstr "körülbelül 2 perc"
-
-#: .about+%23%23number%23%23+minutes
-msgid "about ##number## minutes"
-msgstr "körülbelül ##number## perc"
-
-#: .Free
-msgid "Free"
-msgstr "Ingyenes"
-
-#: .%24%23%23price%23%23+USD/month
-msgid "$##price## USD/month"
-msgstr "##price## USD/hó"
-
-#: .Upgrade
-msgid "Upgrade"
-msgstr "Csomagváltás"
-
-#: .Change+plan
-msgid "Change plan"
-msgstr "Csomagváltás"
-
-#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
 msgid ""
-"Please note that any qualitative question created for this record will "
-"generate a new column in the data table, making the question available for "
-"all other records."
-msgstr "Felhívjuk figyelmét, hogy az erre az adatrögzítésre létrehozott kvalitatív kérdések új oszlopot fognak alkotni az adattáblázatban, ezáltal ez a kérdés minden adatrögzítéskor elérhető lesz."
+"We couldn't make the requested change to your plan.\n"
+"Your current plan has not been changed."
+msgstr "A kért változtatást nem tudtuk végrehajtani a csomagján.\nAz Ön jelenlegi csomagja nem változott."
 
-#: .There+are+no+qualitative+analysis+questions+yet.
-msgid "There are no qualitative analysis questions yet."
-msgstr "Még nincsenek kvalitatív elemzési kérdések."
+#: .Couldn%27t+get+data+for+your+organization.
+msgid "Couldn't get data for your organization."
+msgstr "Nem sikerült lekérdezni az Ön szervezetének adatait."
 
-#: .Click+the+%22Add+question%22+button+to+get+started
-msgid "Click the \"Add question\" button to get started"
-msgstr "Kattintson a „Kérdés hozzáadása” gombra a kezdéshez"
+#: .%23%23plan_name%23%23+Plan
+msgid "##plan_name## Plan"
+msgstr "##plan_name## csomag"
 
-#: .Only+those+with+full+editing+rights+can+create+questions
-msgid "Only those with full editing rights can create questions"
-msgstr "Csak a teljes szerkesztési joggal rendelkezők hozhatnak létre kérdéseket"
+#: .Started+on+%23%23start_date%23%23
+msgid "Started on ##start_date##"
+msgstr "Kezdés dátuma: ##start_date##"
 
-#: .Contact+the+project+owner+for+more+information
-msgid "Contact the project owner for more information"
-msgstr "További információkért lépjen kapcsolatba a projekt tulajdonosával"
+#: .Renews+on+%23%23renewal_date%23%23
+msgid "Renews on ##renewal_date##"
+msgstr "Megújítás dátuma: ##renewal_date##"
+
+#: .Ends+on+%23%23end_date%23%23
+msgid "Ends on ##end_date##"
+msgstr ""
+
+#: .Changing+usage+limits+on+%23%23change_date%23%23
+msgid "Changing usage limits on ##change_date##"
+msgstr ""
+
+#: .Switching+to+monthly+on+%23%23change_date%23%23
+msgid "Switching to monthly on ##change_date##"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+has+been+canceled+but+will+remain+active+until+the+end+of+the+billing+period.
+msgid ""
+"Your ##current_plan## plan has been canceled but will remain active until "
+"the end of the billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+the+%23%23next_plan%23%23+plan+on
+msgid "Your ##current_plan## plan will change to the ##next_plan## plan on"
+msgstr ""
+
+#: ..+You+can+continue+using+%23%23current_plan%23%23+plan+features+until+the+end+of+the+billing+period.
+msgid ""
+". You can continue using ##current_plan## plan features until the end of the"
+" billing period."
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+include+up+to+%23%23submission_quantity%23%23+submissions/month+starting+from
+msgid ""
+"Your ##current_plan## plan will change to include up to "
+"##submission_quantity## submissions/month starting from"
+msgstr ""
+
+#: .Your+%23%23current_plan%23%23+plan+will+change+from+annual+to+monthly+starting+from
+msgid ""
+"Your ##current_plan## plan will change from annual to monthly starting from"
+msgstr ""
+
+#: .Failed+to+load+analysis+questions
+msgid "Failed to load analysis questions"
+msgstr "Nem sikerült betölteni az elemzési kérdéseket"
+
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr "Probléma lépett fel, kérjük, próbálja később újra."
+
+#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
+msgid ""
+"Success! Your subscription will change at the end of the current billing "
+"period."
+msgstr "Sikeres! Az Ön előfizetése meg fog változni az aktuális számlázási időszak végén."
+
+#: .Ends+on+%23%23cancel_date%23%23
+msgid "Ends on ##cancel_date##"
+msgstr ""
+
+#: .Starts+on+%23%23start_date%23%23
+msgid "Starts on ##start_date##"
+msgstr ""
+
+#: .available+add-ons
+msgid "available add-ons"
+msgstr "elérhető kiegészítő szolgáltatások"
+
+#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
+msgid ""
+"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
+"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
+"            data collection."
+msgstr "Hogy növelje az adatforgalmi limitet, a kiegészítő szolgáltatásokat hozzáadhatja a Közösségi csomagjához. Ha a csomagjában felhasználható adatforgalom megközelíti vagy\n            már elérte a csomagjában felhasználható limitet, növelje a keretét a kiegészítő szolgáltatásokkal, hogy folytathassa\n            az adatgyűjtést."
+
+#: .Manage
+msgid "Manage"
+msgstr "Csomag kezelése"
+
+#: .Buy+now
+msgid "Buy now"
+msgstr "Vásárlás most"
+
+#: .Total+Submissions+per+Month
+msgid "Total Submissions per Month"
+msgstr "Összes űrlapválasz havonta"
+
+#: .%23%23asr_minutes%23%23+minutes+of+automated+transcription+/%23%23plan_interval%23%23
+msgid "##asr_minutes## minutes of automated transcription /##plan_interval##"
+msgstr ""
+
+#: .%23%23mt_characters%23%23+characters+of+machine+translation+/%23%23plan_interval%23%23
+msgid "##mt_characters## characters of machine translation /##plan_interval##"
+msgstr ""
+
+#: .%23%23add_on_name%23%23+add-on
+msgid "##add_on_name## add-on"
+msgstr "##add_on_name## kiegészítő szolgáltatás"
+
+#: .monthly+%23%23plan_name%23%23+plan
+msgid "monthly ##plan_name## plan"
+msgstr "havi ##plan_name## csomag"
+
+#: .yearly+%23%23plan_name%23%23+plan
+msgid "yearly ##plan_name## plan"
+msgstr "éves ##plan_name## csomag"
+
+#: .plan
+msgid "plan"
+msgstr "csomag"
+
+#: .add-on
+msgid "add-on"
+msgstr "kiegészítő szolgáltatás"
+
+#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
+msgid ""
+"There was an error processing your plan change. Your previous plan has not "
+"been changed. Please try again later."
+msgstr "Hiba történt az Ön előfizetési csomagjának megváltoztatása közben. Az Ön előző csomagja nem változott. Kérem, próbálja újra később."
+
+#: .Changes+to+your+Plan
+msgid "Changes to your Plan"
+msgstr "Változások az Ön Csomagjában"
+
+#: .Processing+your+transaction%E2%80%A6
+msgid "Processing your transaction…"
+msgstr "Az Ön tranzakciója folyamatban van..."
+
+#: .You+are+switching+to+the+%23%23new_product_type%23%23.
+msgid "You are switching to the ##new_product_type##."
+msgstr "Ön a következő csomagra vált: ##new_product_type##."
+
+#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
+msgid ""
+"Because this plan includes unlimited storage, your storage add-on will be "
+"canceled."
+msgstr "Mivel ez a csomag korlátlan tárhelyet tartalmaz, az Ön tárhelynövelő kiegészítő szolgáltatása törölve lesz."
+
+#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23.
+msgid ""
+"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
+"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price##."
+msgstr ""
+
+#: .Submit
+msgid "Submit"
+msgstr "Elküld"
+
+#: .Original+transcript
+msgid "Original transcript"
+msgstr "Eredeti átirat"
+
+#: .Submission+data
+msgid "Submission data"
+msgstr "Űrlapválasz adatai"
+
+#: .Original+file+(Audio)
+msgid "Original file (Audio)"
+msgstr "Eredeti fájl (hang)"
+
+#: .Display+settings
+msgid "Display settings"
+msgstr "Megjelenítési beállítások"
+
+#: .Customize+display+settings
+msgid "Customize display settings"
+msgstr "Megjelenítési beállítások testreszabása"
+
+#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
+msgid ""
+"Select the information you want to display in the side menu to support your "
+"analysis."
+msgstr "Válassza ki az oldalsó menüben megjeleníteni kívánt információkat, az elemzés támogatása érdekében."
+
+#: .Select+the+submission+data+to+display.
+msgid "Select the submission data to display."
+msgstr ""
+
+#: .Apply+selection
+msgid "Apply selection"
+msgstr "A választás alkalmazása"
 
 #: .Delete+group
 msgid "Delete group"
@@ -5229,37 +5335,167 @@ msgstr "részben lezárt kérdés"
 msgid "Enter your question"
 msgstr "Írja be kérdését"
 
-#: .original
-msgid "original"
-msgstr "eredeti"
+#: .Default+sort
+msgid "Default sort"
+msgstr "Alapértelmezett rendezés"
 
-#: .Search+for+a+language
-msgid "Search for a language"
-msgstr "Nyelv keresése"
+#: .There+was+an+error+fetching+usage+data.
+msgid "There was an error fetching usage data."
+msgstr "Hiba történt az adathasználat letöltésekor."
 
-#: .Sorry,+didn%27t+find+any+language%E2%80%A6
-msgid "Sorry, didn't find any language…"
-msgstr "Sajnos nem találtunk semmilyen nyelvet…"
+#: .There+was+an+error+fetching+asset+usage+data.
+msgid "There was an error fetching asset usage data."
+msgstr ""
 
-#: .I+cannot+find+my+language
-msgid "I cannot find my language"
-msgstr "Nem találom a nyelvemet"
+#: .Automated+analysis
+msgid "Automated analysis"
+msgstr "Automatikus elemzés"
 
-#: .Please+select+the+language
-msgid "Please select the language"
-msgstr "Jelölje ki a nyelvet"
+#: .Unsaved+changes
+msgid "Unsaved changes"
+msgstr "Nem mentett módosítások"
 
-#: .automatic
-msgid "automatic"
-msgstr "automatikus"
+#: .Saved
+msgid "Saved"
+msgstr "Mentett"
 
-#: .Click+to+add+another+response...
-msgid "Click to add another response..."
-msgstr "Kattintson ide másik válasz hozzáadásához..."
+#: .source+file
+msgid "source file"
+msgstr "forrásfájl"
 
-#: .Accepted+files
-msgid "Accepted files"
-msgstr "Elfogadott fájlok"
+#: .Please+select+the+original+language+of+the+%23%23type%23%23
+msgid "Please select the original language of the ##type##"
+msgstr "Válassza ki a(z) ##type## eredeti nyelvét"
+
+#: .back
+msgid "back"
+msgstr "vissza"
+
+#: .manual
+msgid "manual"
+msgstr "manuális"
+
+#: .transcribe
+msgid "transcribe"
+msgstr "átírás"
+
+#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
+msgid "This ##type## does not have a transcript yet"
+msgstr "Ezen ##type## még nem rendelkezik átirattal"
+
+#: .begin
+msgid "begin"
+msgstr "kezdés"
+
+#: .Unlimited
+msgid "Unlimited"
+msgstr "Korlátlan"
+
+#: .%23%23minutes%23%23+mins
+msgid "##minutes## mins"
+msgstr "##minutes## perc"
+
+#: .Available
+msgid "Available"
+msgstr "Elérhető"
+
+#: .Used+this+month
+msgid "Used this month"
+msgstr "Ebben a hónapban elhasznált"
+
+#: .Used+this+year
+msgid "Used this year"
+msgstr "Ebben az évben elhasznált"
+
+#: .Balance
+msgid "Balance"
+msgstr "Egyenleg"
+
+#: .Automatic+transcription+in+progress
+msgid "Automatic transcription in progress"
+msgstr "Automatikus átírás folyamatban"
+
+#: .Estimated+time+for+completion+%23%23estimate%23%23
+msgid "Estimated time for completion: ##estimate##"
+msgstr "Várható befejezési idő: ##estimate##"
+
+#: .Automatic+transcription+of+audio+file+from
+msgid "Automatic transcription of audio file from"
+msgstr "Hangfájl automatikus átírása innen:"
+
+#: .Transcription+provider
+msgid "Transcription provider"
+msgstr "Átiratszolgáltató"
+
+#: .Automated+transcription+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+audio+file+will+be+sent+to+Google%27s+servers+for+the+purpose+of+transcribing.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+short+period+needed+for+completing+the+transcription,+and+we+do+not+allow+Google+to+use+the+audio+for+improving+its+transcription+service.
+msgid ""
+"Automated transcription is provided by Google Cloud Platform. By using this "
+"service you agree that your audio file will be sent to Google's servers for "
+"the purpose of transcribing. However, it will not be stored on Google's "
+"servers beyond the short period needed for completing the transcription, and"
+" we do not allow Google to use the audio for improving its transcription "
+"service."
+msgstr ""
+
+#: .cancel
+msgid "cancel"
+msgstr "mégse"
+
+#: .create+transcript
+msgid "create transcript"
+msgstr "átirat készítése"
+
+#: .Delete+transcript%3F
+msgid "Delete transcript?"
+msgstr "Törli az átiratot?"
+
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "utolsó módosítás: ##date##"
+
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "létrehozva: ##date##"
+
+#: .Please+select+the+language+you+want+to+translate+to
+msgid "Please select the language you want to translate to"
+msgstr "Válassza ki a nyelvet, amelyre fordítani szeretne"
+
+#: .translate
+msgid "translate"
+msgstr "fordítás"
+
+#: .This+transcript+does+not+have+any+translations+yet
+msgid "This transcript does not have any translations yet"
+msgstr "Ennek az átiratnak még nincs fordítása"
+
+#: .Automatic+translation+of+transcript+to
+msgid "Automatic translation of transcript to"
+msgstr "Átirat automatikus fordítása erre:"
+
+#: .Translation+provider
+msgid "Translation provider"
+msgstr "Fordításszolgáltató"
+
+#: .Automated+translation+is+provided+by+Google+Cloud+Platform.+By+using+this+service+you+agree+that+your+transcript+text+will+be+sent+to+Google%27s+servers+for+the+purpose+of+translation.+However,+it+will+not+be+stored+on+Google%27s+servers+beyond+the+very+short+period+needed+for+completing+the+translation.
+msgid ""
+"Automated translation is provided by Google Cloud Platform. By using this "
+"service you agree that your transcript text will be sent to Google's servers"
+" for the purpose of translation. However, it will not be stored on Google's "
+"servers beyond the very short period needed for completing the translation."
+msgstr ""
+
+#: .create+translation
+msgid "create translation"
+msgstr "lefordít"
+
+#: .Delete+translation%3F
+msgid "Delete translation?"
+msgstr "Törli a fordítást?"
+
+#: .new+translation
+msgid "new translation"
+msgstr "új fordítás"
 
 #: .All+group+settings
 msgid "All group settings"
@@ -5329,6 +5565,26 @@ msgid ""
 "contact us at help@kobotoolbox.org so we can fix this bug!"
 msgstr "Ez a kérdés nem importálható, készítse el újra manuálisan. Kérjük, lépjen kapcsolatba velünk a help@kobotoolbox.org e-mail címen keresztül, hogy kijavíthassuk ezt a hibát!"
 
+#: .Free
+msgid "Free"
+msgstr "Ingyenes"
+
+#: .%24%23%23price%23%23+USD/month
+msgid "$##price## USD/month"
+msgstr "##price## USD/hó"
+
+#: .Upgrade
+msgid "Upgrade"
+msgstr "Csomagváltás"
+
+#: .Change+plan
+msgid "Change plan"
+msgstr "Csomagváltás"
+
+#: .Accepted+files
+msgid "Accepted files"
+msgstr "Elfogadott fájlok"
+
 #: .This+form+is+currently+empty.
 msgid "This form is currently empty."
 msgstr "Ez az űrlap jelenleg üres."
@@ -5343,17 +5599,33 @@ msgstr "Hozzáadhat kérdéseket, megjegyzéseket, súgótippeket vagy más mez�
 msgid "Add Question"
 msgstr "Kérdés hozzáadása"
 
-#: .No+value
-msgid "No value"
-msgstr "Nincs érték"
+#: .Click+to+add+another+response...
+msgid "Click to add another response..."
+msgstr "Kattintson ide másik válasz hozzáadásához..."
 
-#: .Unknown+question+type+%23%23type_name%23%23
-msgid "Unknown question type ##type_name##"
-msgstr "Ismeretlen kérdéskategória ##type_name##"
+#: .less+than+a+minute
+msgid "less than a minute"
+msgstr "kevesebb mint 1 perc"
+
+#: .about+1+minute
+msgid "about 1 minute"
+msgstr "körülbelül 1 perc"
+
+#: .about+2+minutes
+msgid "about 2 minutes"
+msgstr "körülbelül 2 perc"
+
+#: .about+%23%23number%23%23+minutes
+msgid "about ##number## minutes"
+msgstr "körülbelül ##number## perc"
 
 #: .e.g.+%22.pdf,.doc,.odt%22
 msgid "e.g. \".pdf,.doc,.odt\""
 msgstr "pl. „.pdf,.doc,.odt”"
+
+#: .No+value
+msgid "No value"
+msgstr "Nincs érték"
 
 #: .Choices+File
 msgid "Choices File"
@@ -5407,41 +5679,56 @@ msgstr "Ismételje ezt a csoportot, ha szükséges"
 msgid "Appearance (advanced)"
 msgstr "Megjelenés (részletes)"
 
-#: .Question+label+cannot+be+empty
-msgid "Question label cannot be empty"
-msgstr "Kérdéscímke nem lehet üres"
+#: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
+msgid ""
+"Please note that any qualitative question created for this record will "
+"generate a new column in the data table, making the question available for "
+"all other records."
+msgstr "Felhívjuk figyelmét, hogy az erre az adatrögzítésre létrehozott kvalitatív kérdések új oszlopot fognak alkotni az adattáblázatban, ezáltal ez a kérdés minden adatrögzítéskor elérhető lesz."
 
-#: .Some+required+fields+are+missing
-msgid "Some required fields are missing"
-msgstr "Néhány kötelező mező hiányzik"
+#: .There+are+no+qualitative+analysis+questions+yet.
+msgid "There are no qualitative analysis questions yet."
+msgstr "Még nincsenek kvalitatív elemzési kérdések."
 
-#: .Type+question
-msgid "Type question"
-msgstr "Kérdés beírása"
+#: .Click+the+%22Add+question%22+button+to+get+started
+msgid "Click the \"Add question\" button to get started"
+msgstr "Kattintson a „Kérdés hozzáadása” gombra a kezdéshez"
 
-#: .Type+your+answer
-msgid "Type your answer"
-msgstr "Írja be a válaszát"
+#: .Only+those+with+full+editing+rights+can+create+questions
+msgid "Only those with full editing rights can create questions"
+msgstr "Csak a teljes szerkesztési joggal rendelkezők hozhatnak létre kérdéseket"
 
-#: .%E2%80%A6keyword+search+in+progress
-msgid "…keyword search in progress"
-msgstr "...kulcsszókeresés folyamatban"
+#: .Contact+the+project+owner+for+more+information
+msgid "Contact the project owner for more information"
+msgstr "További információkért lépjen kapcsolatba a projekt tulajdonosával"
 
-#: .Apply+search
-msgid "Apply search"
-msgstr "Keresés alkalmazása"
+#: .original
+msgid "original"
+msgstr "eredeti"
 
-#: .%23%23number%23%23+instances
-msgid "##number## instances"
-msgstr "##number## eset"
+#: .Search+for+a+language
+msgid "Search for a language"
+msgstr "Nyelv keresése"
 
-#: .of+the+keywords
-msgid "of the keywords"
-msgstr "a kulcsszavak közül"
+#: .Sorry,+didn%27t+find+any+language%E2%80%A6
+msgid "Sorry, didn't find any language…"
+msgstr "Sajnos nem találtunk semmilyen nyelvet…"
 
-#: .from
-msgid "from"
-msgstr "kezdőérték"
+#: .I+cannot+find+my+language
+msgid "I cannot find my language"
+msgstr "Nem találom a nyelvemet"
+
+#: .Please+select+the+language
+msgid "Please select the language"
+msgstr "Jelölje ki a nyelvet"
+
+#: .automatic
+msgid "automatic"
+msgstr "automatikus"
+
+#: .Unknown+question+type+%23%23type_name%23%23
+msgid "Unknown question type ##type_name##"
+msgstr "Ismeretlen kérdéskategória ##type_name##"
 
 #: .Change+column+type%3F
 msgid "Change column type?"
@@ -5519,6 +5806,30 @@ msgstr "Adatoszlop előtagja"
 msgid "Delete row"
 msgstr "Sor törlése"
 
+#: .%E2%80%A6keyword+search+in+progress
+msgid "…keyword search in progress"
+msgstr "...kulcsszókeresés folyamatban"
+
+#: .Apply+search
+msgid "Apply search"
+msgstr "Keresés alkalmazása"
+
+#: .%23%23number%23%23+instances
+msgid "##number## instances"
+msgstr "##number## eset"
+
+#: .of+the+keywords
+msgid "of the keywords"
+msgstr "a kulcsszavak közül"
+
+#: .from
+msgid "from"
+msgstr "kezdőérték"
+
+#: .Type+your+answer
+msgid "Type your answer"
+msgstr "Írja be a válaszát"
+
 #: .Delete+this+question%3F
 msgid "Delete this question?"
 msgstr "Törölni kívánja ezt a kérdést?"
@@ -5527,6 +5838,18 @@ msgstr "Törölni kívánja ezt a kérdést?"
 msgid ""
 "Are you sure you want to delete this question? This action cannot be undone."
 msgstr "Biztosan törölni kívánja ezt a kérdést? Ezt a műveletet nem lehet visszavonni."
+
+#: .Question+label+cannot+be+empty
+msgid "Question label cannot be empty"
+msgstr "Kérdéscímke nem lehet üres"
+
+#: .Some+required+fields+are+missing
+msgid "Some required fields are missing"
+msgstr "Néhány kötelező mező hiányzik"
+
+#: .Type+question
+msgid "Type question"
+msgstr "Kérdés beírása"
 
 #: .Look+for
 msgid "Look for"
