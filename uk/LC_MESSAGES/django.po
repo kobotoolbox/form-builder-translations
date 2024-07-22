@@ -154,7 +154,7 @@ msgstr "Дякуємо за реєстрацію в KoboToolbox!"
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
-msgstr "Підтвердження вашого облікового запису надасть вам доступ до додатків KoboToolbox. Перейдіть за наступним посиланням, щоб завершити активацію вашого нового облікового запису."
+msgstr "Підтвердження вашого облікового запису надасть вам доступ до застосунків KoboToolbox. Перейдіть за наступним посиланням, щоб завершити активацію вашого нового облікового запису."
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
 msgid "Your username is: "
@@ -335,7 +335,7 @@ msgstr "або"
 
 #: kobo/apps/accounts/templates/account/signup.html:51
 msgid "login"
-msgstr "логін"
+msgstr "вхід до системи"
 
 #: kobo/apps/accounts/templates/account/signup.html:61
 msgid "Register using SSO"
@@ -356,41 +356,41 @@ msgstr "Натисніть посилання для активації в що�
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:7
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:13
 msgid "SSO Login Failure"
-msgstr ""
+msgstr "Помилка входу в систему SSO"
 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:17
 msgid "An error occurred while attempting to login using your SSO account."
-msgstr ""
+msgstr "Виникла помилка під час спроби увійти через ваш обліковий запис SSO."
 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:20
 msgid "Go back"
-msgstr ""
+msgstr "Повернутися"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:5
 msgid "Connect your Account to SSO"
-msgstr ""
+msgstr "Під'єднайте свій обліковий запис до SSO"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:10
 msgid "Manage your SSO Account"
-msgstr ""
+msgstr "Управління обліковим записом SSO"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:15
 msgid ""
 "You can sign in to your KoboToolbox account using any of the following SSO "
 "providers:"
-msgstr ""
+msgstr "Ви можете увійти до свого облікового запису KoboToolbox за допомогою будь-якого з наступних провайдерів SSO:"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:39
 msgid "Remove"
-msgstr ""
+msgstr "Видалити"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:45
 msgid "You currently have no third-party accounts connected to this account."
-msgstr ""
+msgstr "Наразі до цього облікового запису не підключено жодного стороннього облікового запису."
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:51
 msgid "Add an SSO Account"
-msgstr ""
+msgstr "Додати обліковий запис SSO"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:14
 msgid "Set up Single Sign On"
@@ -564,13 +564,13 @@ msgstr "Імпортувати"
 
 #: kobo/apps/project_ownership/models/transfer.py:217
 msgid "Project ownership transferred"
-msgstr ""
+msgstr "Передано право власності на проєкт"
 
 #: kobo/apps/project_ownership/models/transfer.py:219
 msgid ""
 "Please note that the ownership of the project **##project_name##** has been "
 "transferred from **##previous_owner##** to **##new_owner##**."
-msgstr ""
+msgstr "Зверніть увагу, що право власності на проєкт **##project_name##** було передано від **##previous_owner##** до **##new_owner##**."
 
 #: kobo/apps/project_ownership/models/transfer.py:223
 msgid ""
@@ -579,38 +579,38 @@ msgid ""
 "Please note that the ownership of the project **##project_name##** has been transferred from **##previous_owner##** to **##new_owner##**.\n"
 "\n"
 "Note: You will continue to have the same project permissions until they are changed."
-msgstr ""
+msgstr "Шановний/а ##username##,\n\nЗверніть увагу, що право власності на проєкт **##project_name##** було передано від **##previous_owner##** до **##new_owner##**.\n\nПримітка: Ваші права доступу до проєкту залишаються незмінними, доки їх не буде змінено."
 
 #: kobo/apps/project_ownership/serializers/invite.py:127
 #: kobo/apps/project_ownership/serializers/invite.py:190
 #: kobo/apps/project_ownership/serializers/invite.py:199
 msgid "This field cannot be modified"
-msgstr ""
+msgstr "Це поле не можна змінити"
 
 #: kobo/apps/project_ownership/serializers/invite.py:137
 msgid "You must be the owner of each project you want to transfer"
-msgstr ""
+msgstr "Ви повинні мати право власності на кожен проєкт, який ви хочете передати"
 
 #: kobo/apps/project_ownership/serializers/invite.py:173
 msgid ""
 "Project `##asset_uid##` cannot be transferred. Current status: ##status##"
-msgstr ""
+msgstr "Проєкт `##asset_uid##` не може бути переданий. Поточний статус: ##status##"
 
 #: kobo/apps/project_ownership/serializers/invite.py:265
 msgid "KoboToolbox project ownership transfer accepted"
-msgstr ""
+msgstr "Передачу власності проєкту KoboToolbox прийнято"
 
 #: kobo/apps/project_ownership/serializers/invite.py:294
 msgid "Action required: KoboToolbox project ownership transfer request"
-msgstr ""
+msgstr "Необхідна дія: запит на зміну власника проєкту в KoboToolbox"
 
 #: kobo/apps/project_ownership/serializers/invite.py:320
 msgid "KoboToolbox project ownership transfer incomplete"
-msgstr ""
+msgstr "Передача прав власності на проєкт KoboToolbox не завершена"
 
 #: kobo/apps/project_ownership/tasks.py:171
 msgid "Invite has expired"
-msgstr ""
+msgstr "Термін дії запрошення закінчився"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:3
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:3
@@ -620,7 +620,7 @@ msgstr ""
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:3
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:3
 msgid "Projects:"
-msgstr ""
+msgstr "Проєкти:"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:8
 #, python-format
@@ -628,20 +628,20 @@ msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> "
 "to you."
-msgstr ""
+msgstr "%(recipient)sпогодився/лась на передачу прав власності на проєкт <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> вам."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:10
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "this project will be transferred to the new project owner."
-msgstr ""
+msgstr "Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для цього проєкту будуть передані новому власнику проєкту."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:10
 msgid ""
 "Note: You will continue to have permissions to manage the project until the "
 "user permissions are changed."
-msgstr ""
+msgstr "Примітка: Ви продовжуватимете мати права доступу до проєкту, доки не буде змінено права користувача."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:14
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:12
@@ -649,41 +649,41 @@ msgstr ""
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of these "
 "projects:"
-msgstr ""
+msgstr "%(recipient)sпогодився/лась на передачу прав власності на ці проєкти:"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:17
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "these projects will be transferred to the new project owner."
-msgstr ""
+msgstr "Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для цих проєктів будуть передані новому власнику проєкту."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:19
 msgid ""
 "Note: You will continue to have permissions to manage these projects until "
 "the user permissions are changed."
-msgstr ""
+msgstr "Примітка: Ви продовжуватимете мати права доступу до цих проєктів, доки не буде змінено права користувача."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:6
 #, python-format
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) to you."
-msgstr ""
+msgstr "%(recipient)sпогодився/лась на передачу прав власності на проєкт %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) вам."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:8
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "the project will be transferred to the new project owner."
-msgstr ""
+msgstr "Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для проєкту будуть передані новому власнику проєкту."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:8
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>."
-msgstr ""
+msgstr "%(recipient)sвідмовився/лась на передачу прав власності на проєкт <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:9
@@ -691,7 +691,7 @@ msgid ""
 "You will remain the owner of the project. The submissions, data storage, and"
 " transcription and translation usage for the project have not been "
 "transferred."
-msgstr ""
+msgstr "Ви залишаєтеся власником проєкту. Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для цього проєкту не були передані."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:11
@@ -699,7 +699,7 @@ msgstr ""
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of these "
 "projects:"
-msgstr ""
+msgstr "%(recipient)sвідмовився/лась на передачу прав власності на ці проєкти:"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:20
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:16
@@ -707,24 +707,24 @@ msgid ""
 "You will remain the owner of these projects. The submissions, data storage, "
 "and transcription and translation usage for these projects have not been "
 "transferred."
-msgstr ""
+msgstr "Ви залишаєтеся власником цих проєктів. Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для цих проєктів не були передані."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:7
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
-msgstr ""
+msgstr "%(recipient)sвідмовився/лась на передачу прав власності на проєкт %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.html:6
 #, python-format
 msgid "The request you have sent to <b>%(recipient)s</b> has expired."
-msgstr ""
+msgstr "Термін дії запиту, який ви надіслали, <b>%(recipient)s</b> закінчився."
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.txt:7
 #, python-format
 msgid "The request you have sent to %(recipient)s has expired."
-msgstr ""
+msgstr "Термін дії запиту, який ви надіслали, %(recipient)s закінчився."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:8
 #, python-format
@@ -733,7 +733,7 @@ msgid ""
 "of the project <a "
 "href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> to "
 "you."
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) звернувся/лася з проханням передати вам право власності на проєкт.<a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:20
@@ -742,7 +742,7 @@ msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for these projects will be "
 "transferred to you and count against your plan limits."
-msgstr ""
+msgstr "Коли ви приймете передачу прав власності, всі подані матеріали, зберігання даних, а також використання транскрипції та перекладу для цих проєктів будуть передані вам і будуть зараховані до лімітів вашого тарифного плану."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:11
@@ -750,18 +750,18 @@ msgstr ""
 msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the following projects to you:"
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) звернувся/лася з проханням передати вам право власності на проєкт:"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:19
 msgid "If you are unsure, please contact the current owner."
-msgstr ""
+msgstr "Якщо ви не впевнені, зв'яжіться з теперішнім власником."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:21
 #, python-format
 msgid "This transfer request will expire in %(invite_expiry)s days."
-msgstr ""
+msgstr "Термін дії цього запиту на передачу спливає за %(invite_expiry)s днів."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:27
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:23
@@ -769,7 +769,7 @@ msgstr ""
 msgid ""
 "To respond to this transfer request, please use the following link: "
 "%(base_url)s/#/projects/home?invite=%(invite_uid)s"
-msgstr ""
+msgstr "Щоб відповісти на цей запит на передачу, перейдіть за наступним посиланням: %(base_url)s/#/projects/home?invite=%(invite_uid)s"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:7
 #, python-format
@@ -777,14 +777,14 @@ msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the project %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) "
 "to you."
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) звернувся/лася з проханням передати вам право власності на проєкт.%(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:9
 msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for the project will be "
 "transferred to you and count against your plan limits."
-msgstr ""
+msgstr "Коли ви приймаєте передачу права власності, всі матеріали, зберігання даних, а також використання транскрипції та перекладу для проєкту будуть передані вам і будуть зараховані до лімітів вашого тарифного плану."
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
@@ -971,689 +971,689 @@ msgstr "Я хочу отримувати періодичні оновлення
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
-msgstr ""
+msgstr "Недійсне ім'я користувача/пароль"
 
 #: kpi/deployment_backends/base_backend.py:132
 msgid "No submissions match the given `submission_ids`"
-msgstr ""
+msgstr "Жодна заявка не відповідає заданим `submission_ids`"
 
 #: kpi/deployment_backends/base_backend.py:554
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr ""
+msgstr "Цей параметр не реалізовано. Замість нього використовуйте властивість `count` у відповіді."
 
 #: kpi/deployment_backends/base_backend.py:565
 msgid "This param is not supported in `XML` format"
-msgstr ""
+msgstr "Цей параметр не підтримується у форматі `XML`"
 
 #: kpi/deployment_backends/base_backend.py:570
 msgid "This is not supported in `XML` format"
-msgstr ""
+msgstr "Це не підтримується у форматі `XML`"
 
 #: kpi/deployment_backends/base_backend.py:590
 #: kpi/deployment_backends/base_backend.py:618
 #: kpi/deployment_backends/base_backend.py:640 kpi/views/v2/data.py:527
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "Значення має бути коректним JSON."
 
 #: kpi/deployment_backends/base_backend.py:595
 msgid "Value must be a list."
-msgstr ""
+msgstr "Значення має бути списком."
 
 #: kpi/deployment_backends/kobocat_backend.py:413
 msgid "Your submission XML is malformed."
-msgstr ""
+msgstr "Ваш XML-файл не має правильного формату."
 
 #: kpi/deployment_backends/kobocat_backend.py:422
 msgid "Your submission XML is missing critical elements."
-msgstr ""
+msgstr "У вашому XML-файлі не вистачає важливих елементів."
 
 #: kpi/deployment_backends/kobocat_backend.py:435
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr ""
+msgstr "Надсилання, яке ви намагалися відредагувати, не було знайдено, або у вас немає до нього доступу."
 
 #: kpi/deployment_backends/kobocat_backend.py:1556
 msgid "KoBoCAT returned an unexpected response: {}"
-msgstr ""
+msgstr "KoBoCAT дав несподівану відповідь: {}"
 
 #: kpi/deployment_backends/kobocat_backend.py:1585
 msgid "Something went wrong"
-msgstr ""
+msgstr "Щось пішло не так"
 
 #: kpi/exceptions.py:49
 msgid "Invalid payload for bulk updating of submissions"
-msgstr ""
+msgstr "Неправильне корисне навантаження для масового оновлення надсилань"
 
 #: kpi/exceptions.py:64
 msgid "Must call `asset.connect_deployment()` first"
-msgstr ""
+msgstr "Спочатку потрібно викликати `asset.connect_deployment()`"
 
 #: kpi/exceptions.py:80
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
-msgstr ""
+msgstr "Ваш доступ обмежено. Відновіть свій доступ, змінивши пароль на ##koboform_url##/accounts/password/reset/."
 
 #: kpi/exceptions.py:89
 msgid "Invalid search. Please try again"
-msgstr ""
+msgstr "Неправильний пошук. Спробуйте ще раз"
 
 #: kpi/exceptions.py:129
 msgid "An error occurred trying to duplicate the submission"
-msgstr ""
+msgstr "Виникла помилка при спробі продублювати надсилання"
 
 #: kpi/exceptions.py:143
 msgid "The specified object has not been deployed"
-msgstr ""
+msgstr "Зазначений об'єкт не розгорнуто"
 
 #: kpi/exceptions.py:152
 msgid "Bad syntax"
-msgstr ""
+msgstr "Неправильний синтаксис"
 
 #: kpi/exceptions.py:157
 msgid "Not supported field lookup"
-msgstr ""
+msgstr "Не підтримується пошук по полю"
 
 #: kpi/exceptions.py:168
 msgid "Your query is too short"
-msgstr ""
+msgstr "Ваш запит занадто короткий"
 
 #: kpi/fields/jsonschema_form_field.py:23
 #: kpi/fields/jsonschema_form_field.py:26
 msgid "Enter valid JSON."
-msgstr ""
+msgstr "Введіть дійсний JSON."
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr ""
+msgstr "Поле `##place_holder##` не можна приховати."
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
 msgid "Unable to parse JSON: {error}"
-msgstr ""
+msgstr "Не вдається розібрати JSON: {error}"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr ""
+msgstr "Для цього облікового запису ввімкнено багатофакторну автентифікацію. "
 
 #: kpi/models/asset.py:250
 msgid "Can view asset"
-msgstr ""
+msgstr "Можете переглянути ресурс"
 
 #: kpi/models/asset.py:251
 msgid "Can discover asset in public lists"
-msgstr ""
+msgstr "Можете виявити ресурс у відкритих списках"
 
 #: kpi/models/asset.py:252
 msgid "Can manage all aspects of asset"
-msgstr ""
+msgstr "Можете керувати всіма аспектами ресурсу"
 
 #: kpi/models/asset.py:254
 msgid "Can submit data to asset"
-msgstr ""
+msgstr "Можете надсилати дані до ресурсу"
 
 #: kpi/models/asset.py:255
 msgid "Can view submitted data for asset"
-msgstr ""
+msgstr "Можете переглянути надіслані дані для ресурсу"
 
 #: kpi/models/asset.py:256
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr ""
+msgstr "Можете виконувати часткові дії над надісланими даними для ресурсу для певних користувачів"
 
 #: kpi/models/asset.py:259
 msgid "Can modify submitted data for asset"
-msgstr ""
+msgstr "Можете змінювати надіслані дані для ресурсу"
 
 #: kpi/models/asset.py:260
 msgid "Can delete submitted data for asset"
-msgstr ""
+msgstr "Можете видалити надіслані дані для ресурсу"
 
 #: kpi/models/asset.py:261
 msgid "Can validate submitted data asset"
-msgstr ""
+msgstr "Можете перевіряти надіслані дані ресурсу"
 
 #: kpi/models/asset.py:284
 msgid "project"
-msgstr ""
+msgstr "проєкт"
 
 #: kpi/models/asset.py:284
 msgid "form"
-msgstr ""
+msgstr "форма"
 
 #: kpi/models/asset.py:286
 msgid "template"
-msgstr ""
+msgstr "шаблон"
 
 #: kpi/models/asset.py:287
 msgid "block"
-msgstr ""
+msgstr "блок"
 
 #: kpi/models/asset.py:288
 msgid "question"
-msgstr ""
+msgstr "питання"
 
 #: kpi/models/asset.py:289
 msgid "text"
-msgstr ""
+msgstr "текст"
 
 #: kpi/models/asset.py:290
 msgid "empty"
-msgstr ""
+msgstr "порожньо"
 
 #: kpi/models/asset.py:291
 msgid "collection"
-msgstr ""
+msgstr "колекція"
 
 #: kpi/models/asset.py:298
 msgid "View ##asset_type_label##"
-msgstr ""
+msgstr "Переглянути##asset_type_label##"
 
 #: kpi/models/asset.py:299
 msgid "Edit ##asset_type_label##"
-msgstr ""
+msgstr "Редагувати##asset_type_label##"
 
 #: kpi/models/asset.py:300
 msgid "Discover ##asset_type_label##"
-msgstr ""
+msgstr "Дізнатися ##asset_type_label##"
 
 #: kpi/models/asset.py:301
 msgid "Manage ##asset_type_label##"
-msgstr ""
+msgstr "Керувати ##asset_type_label##"
 
 #: kpi/models/asset.py:302
 msgid "Add submissions"
-msgstr ""
+msgstr "Додати надсилання"
 
 #: kpi/models/asset.py:303
 msgid "View submissions"
-msgstr ""
+msgstr "Переглянути надсилання"
 
 #: kpi/models/asset.py:306
 msgid "Act on submissions only from specific users"
-msgstr ""
+msgstr "Діяти на основі надсилань лише від певних користувачів"
 
 #: kpi/models/asset.py:309
 msgid "View submissions only from specific users"
-msgstr ""
+msgstr "Переглядати надсилання лише від певних користувачів"
 
 #: kpi/models/asset.py:312
 msgid "Edit submissions only from specific users"
-msgstr ""
+msgstr "Редагувати надсилання тільки від певних користувачів"
 
 #: kpi/models/asset.py:315
 msgid "Delete submissions only from specific users"
-msgstr ""
+msgstr "Видалити надсилання лише від певних користувачів"
 
 #: kpi/models/asset.py:318
 msgid "Validate submissions only from specific users"
-msgstr ""
+msgstr "Підтвердити надсилання лише від певних користувачів"
 
 #: kpi/models/asset.py:321
 msgid "Edit submissions"
-msgstr ""
+msgstr "Редагувати надсилання"
 
 #: kpi/models/asset.py:322
 msgid "Delete submissions"
-msgstr ""
+msgstr "Видалити надсилання"
 
 #: kpi/models/asset.py:323
 msgid "Validate submissions"
-msgstr ""
+msgstr "Підтвердити надсилання"
 
 #: kpi/models/asset.py:634
 msgid "Only partial permissions for submissions are supported"
-msgstr ""
+msgstr "Підтримуються лише часткові дозволи на надсилання"
 
 #: kpi/models/asset.py:1334
 msgid "Can not assign '{}' permission to owner"
-msgstr ""
+msgstr "Не вдається призначити власнику право '{}'"
 
 #: kpi/models/asset.py:1338
 msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr ""
+msgstr "Не вдається призначити дозвіл '{}'. Відсутні часткові дозволи."
 
 #: kpi/models/authorized_application.py:40
 msgid "Invalid token."
-msgstr ""
+msgstr "Недійсний токен."
 
 #: kpi/models/import_export_task.py:142
 msgid "Cannot access data"
-msgstr ""
+msgstr "Не вдається отримати доступ до даних"
 
 #: kpi/models/import_export_task.py:578
 msgid "This data does not exist or you do not have access to it"
-msgstr ""
+msgstr "Ці дані не існують або ви не маєте до них доступу"
 
 #: kpi/password_validation.py:95
 msgid "You cannot reuse your last password."
-msgstr ""
+msgstr "Ви не можете використовувати свій останній пароль повторно."
 
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
-msgstr ""
+msgstr "Ваш пароль не збігається з попереднім."
 
 #: kpi/password_validation.py:170
 msgid ""
 "The password must contain at least ##number of rules## different kinds of "
 "characters."
-msgstr ""
+msgstr "Пароль повинен містити щонайменше ##number of rules## різних типів символів."
 
 #: kpi/serializers/current_user.py:162
 msgid "Incorrect current password."
-msgstr ""
+msgstr "Недійсний поточний пароль."
 
 #: kpi/serializers/current_user.py:182
 msgid "`current_password` and `new_password` must both be"
-msgstr ""
+msgstr "`current_password` і `new_password` повинні бути"
 
 #: kpi/serializers/current_user.py:222
 #: kpi/serializers/v2/asset_permission_assignment.py:290
 msgid "This field may not be blank."
-msgstr ""
+msgstr "Це поле не може бути порожнім."
 
 #: kpi/serializers/v2/asset.py:134
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr ""
+msgstr "Проєкт %(count)d було відновлено"
 
 #: kpi/serializers/v2/asset.py:140
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr ""
+msgstr "Проєкт %(count)d видалено"
 
 #: kpi/serializers/v2/asset.py:147
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr ""
+msgstr "Проєкт %(count)d було розархівовано"
 
 #: kpi/serializers/v2/asset.py:153
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr ""
+msgstr "Проєкт %(count)d заархівовано"
 
 #: kpi/serializers/v2/asset.py:169
 msgid "One or many projects have been deleted already!"
-msgstr ""
+msgstr "Один або багато проєктів вже видалено!"
 
 #: kpi/serializers/v2/asset.py:177
 msgid "One or many projects are already being deleted!"
-msgstr ""
+msgstr "Один або кілька проєктів вже видаляються!"
 
 #: kpi/serializers/v2/asset.py:250
 msgid "`action` parameter is required"
-msgstr ""
+msgstr "Параметр `action` є обов'язковим"
 
 #: kpi/serializers/v2/asset.py:255
 msgid "Supported values for `action` are: "
-msgstr ""
+msgstr "Підтримуваними значеннями для `action` є: "
 
 #: kpi/serializers/v2/asset.py:277
 msgid "Draft projects cannot be archived"
-msgstr ""
+msgstr "Проєкти не можуть бути заархівовані"
 
 #: kpi/serializers/v2/asset.py:283 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
-msgstr ""
+msgstr "Потрібне підтвердження"
 
 #: kpi/serializers/v2/asset.py:824
 msgid "The property is required"
-msgstr ""
+msgstr "Потрібна властивість"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "The property must be an array"
-msgstr ""
+msgstr "Властивість має бути масивом"
 
 #: kpi/serializers/v2/asset.py:850
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr ""
+msgstr "Деякі поля недійсні, вибір є: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:872
 msgid "User cannot update current parent collection"
-msgstr ""
+msgstr "Користувач не може оновити поточну материнську колекцію"
 
 #: kpi/serializers/v2/asset.py:882
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
-msgstr ""
+msgstr "Цільовий збір не знайдено"
 
 #: kpi/serializers/v2/asset.py:886
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr ""
+msgstr "Користувач не може оновити цільову материнську колекцію"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr ""
+msgstr "`export_settings` має містити всі наступні необхідні ключі: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr ""
+msgstr "`export_settings` може містити лише наступні допустимі ключі: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr ""
+msgstr "`multiple_select` має бути або {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr ""
+msgstr "`type` має бути або {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr ""
+msgstr "`group_sep` має бути непорожнім значенням"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr ""
+msgstr "`lang` для цього ресурсу має бути або {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
 msgid "Must be a JSON object"
-msgstr ""
+msgstr "Має бути об'єктом JSON"
 
 #: kpi/serializers/v2/asset_export_settings.py:134
 #: kpi/serializers/v2/export_task.py:247
 msgid "All values in the array must be integers"
-msgstr ""
+msgstr "Усі значення в масиві повинні бути цілими числами"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr ""
+msgstr "`fields` має бути масивом"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr ""
+msgstr "Усі значення в масиві `fields` мають бути рядками"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
-msgstr ""
+msgstr "JSON не є дійсним"
 
 #: kpi/serializers/v2/asset_file.py:130
 msgid "Invalid content"
-msgstr ""
+msgstr "Недійсний вміст"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
-msgstr ""
+msgstr "Не було надіслано жодного файлу"
 
 #: kpi/serializers/v2/asset_file.py:158
 msgid "File already exists"
-msgstr ""
+msgstr "Файл вже існує"
 
 #: kpi/serializers/v2/asset_file.py:208
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr ""
+msgstr "Ви не можете завантажити медіафайл двома різними способами одночасно. Оберіть між двійковим завантаженням, base64 або віддаленою URL-адресою."
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
-msgstr ""
+msgstr "Це поле є обов'язковим для заповнення"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr ""
+msgstr "Параметр `redirect_url` є обов'язковим"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr ""
+msgstr "Параметр `filename` є обов'язковим"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr ""
+msgstr "Параметр `redirect_url` не є дійсним"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr ""
+msgstr "Допускаються тільки MIME-типи `{}`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:163
 msgid "This field is required for the '{}' permission"
-msgstr ""
+msgstr "Це поле є обов'язковим для дозволу '{}'"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:177
 #: kpi/serializers/v2/asset_permission_assignment.py:182
 #: kpi/serializers/v2/asset_permission_assignment.py:188
 #: kpi/serializers/v2/asset_permission_assignment.py:497
 msgid "Invalid `url`"
-msgstr ""
+msgstr "Недійсні `url`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:193
 msgid "Invalid `filters`"
-msgstr ""
+msgstr "Недійсні `filters`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:210
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr ""
+msgstr "{permission} не можна явно призначити об'єктам ресурс цього типу."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:289
 msgid "Not a valid list."
-msgstr ""
+msgstr "Недійсний список."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:490
 #: kpi/serializers/v2/asset_permission_assignment.py:493
 msgid "Invalid hyperlink - Object does not exist."
-msgstr ""
+msgstr "Недійсне гіперпосилання - Об'єкт не існує."
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr ""
+msgstr "`submission_ids` має містити лише цілі значення"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr ""
+msgstr "`submission_ids` повинен містити принаймні одне значення"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr ""
+msgstr "Параметр `data` є обов'язковим"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr ""
+msgstr "Параметр `validation_status.uid` є обов'язковим"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
-msgstr ""
+msgstr "Повинен містити всі наступні обов'язкові ключі: {}"
 
 #: kpi/serializers/v2/export_task.py:137
 msgid "Can contain only the following valid keys: {}"
-msgstr ""
+msgstr "Може містити тільки наступні допустимі ключі: {}"
 
 #: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
 msgid "Must be an array"
-msgstr ""
+msgstr "Має бути масив"
 
 #: kpi/serializers/v2/export_task.py:159
 msgid "All values in the array must be strings"
-msgstr ""
+msgstr "Усі значення в масиві повинні бути рядками"
 
 #: kpi/serializers/v2/export_task.py:169
 msgid "Must be a non-empty value"
-msgstr ""
+msgstr "Значення має бути непорожнім"
 
 #: kpi/serializers/v2/export_task.py:182
 msgid "For this asset must be either {}"
-msgstr ""
+msgstr "Для цього ресурсу має бути або {}"
 
 #: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
 msgid "Must be either {}"
-msgstr ""
+msgstr "Має бути або {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr ""
+msgstr "Ресурс має бути розгорнутий."
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr ""
+msgstr "Назва експорту має бути рядком."
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
-msgstr ""
+msgstr "Джерело не можна змінити"
 
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr ""
+msgstr "Обмін даними для `{source_uid}` не ввімкнено"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr ""
+msgstr "Не допускається сполучення даних з `{source_uid}`"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr ""
+msgstr "Джерело `{source}` вже спарено"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr ""
+msgstr "Деякі поля недійсні, вибір є: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr ""
+msgstr "Допускаються лише літери, цифри та `-`"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr ""
+msgstr "Розширення має бути `xml`"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr ""
+msgstr "`{basename}` вже використовується"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr ""
+msgstr "Недійсний тип ресурсу. Допускається тільки `{asset_type}`"
 
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
-msgstr ""
+msgstr "Сучасні браузери"
 
 #: kpi/templates/modern_browsers.html:8
 msgid ""
 "Ouch! Sorry, you were probably sent here because your browser is outdated or"
 " perhaps it has its key features disabled by using \"private browsing\" "
 "mode."
-msgstr ""
+msgstr "Ой! Вибачте, можливо, вас перенаправлено сюди через те, що ваш браузер застарілий або його ключові функції вимкнено в режимі «приватного перегляду»."
 
 #: kpi/templates/modern_browsers.html:12
 msgid ""
 "If you are using an outdated browser, we recommend upgrading to a recent "
 "version of one of the following excellent modern browsers:"
-msgstr ""
+msgstr "Якщо ви використовуєте застарілий браузер, ми рекомендуємо оновити його до останньої версії одного з наступних чудових сучасних браузерів:"
 
 #: kpi/templates/modern_browsers.html:17
 msgid "Firefox download page"
-msgstr ""
+msgstr "Сторінка завантаження Firefox"
 
 #: kpi/templates/modern_browsers.html:18
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: kpi/templates/modern_browsers.html:22
 msgid "Chrome download page"
-msgstr ""
+msgstr "Сторінка завантаження Chrome"
 
 #: kpi/templates/modern_browsers.html:23
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 #: kpi/templates/modern_browsers.html:27
 msgid "Edge download page"
-msgstr ""
+msgstr "Сторінка завантаження Edge"
 
 #: kpi/templates/modern_browsers.html:28
 msgid "Edge"
-msgstr ""
+msgstr "Edge"
 
 #: kpi/templates/modern_browsers.html:32
 msgid "Opera download page"
-msgstr ""
+msgstr "Сторінка завантаження Opera"
 
 #: kpi/templates/modern_browsers.html:33
 msgid "Opera"
-msgstr ""
+msgstr "Opera"
 
 #: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
-msgstr ""
+msgstr "На цьому поштовому домені не дозволено створювати облікові записи"
 
 #: kpi/utils/two_database_configuration_checker.py:41
 msgid "Exactly two databases must be configured"
-msgstr ""
+msgstr "Необхідно налаштувати рівно дві бази даних"
 
 #: kpi/utils/two_database_configuration_checker.py:42
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr ""
+msgstr "KPI та KoBoCAT повинні мати власні бази даних. Налаштуйте базу даних KPI як \"default\", а базу даних KoBoCAT як \"kobocat\"."
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr ""
+msgstr "KPI не може мати спільної бази даних з KoBoCAT"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr ""
+msgstr "KPI та KoBoCAT повинні мати власні бази даних."
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr ""
+msgstr "Неповна міграція з інсталяції зі спільною базою даних"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr ""
+msgstr "База даних KoBoCAT спочатку була спільною для KPI, але таблиці KPI не були скопійовані з цієї спільної бази даних до нової, тільки для KPI, бази даних."
 
 #: kpi/views/current_user.py:107
 msgid "Invalid confirmation"
-msgstr ""
+msgstr "Недійсне підтвердження"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr ""
+msgstr "Доступні лише наступні формати: ##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:211
 msgid "Source and destination objects don't seem to have the same type"
-msgstr ""
+msgstr "Здається, що об'єкти-джерело та об'єкти-приймач не мають однакового типу"
 
 #: kpi/views/v2/asset_permission_assignment.py:240
 msgid "Owner's permissions cannot be deleted"
-msgstr ""
+msgstr "Дозволи власника не можуть бути видалені"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr ""
+msgstr "Параметр запиту `xpath` є обов'язковим"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
-msgstr ""
+msgstr "Недійсний синтаксис XPath"
 
 #: kpi/views/v2/attachment.py:98
 msgid "The path could not be found in the submission"
-msgstr ""
+msgstr "Шлях не вдалося знайти в надсиланні"
 
 #: kpi/views/v2/attachment.py:107
 msgid "The error occurred during conversion"
-msgstr ""
+msgstr "Виникла помилка під час конвертації"
 
 #: kpi/views/v2/attachment.py:111
 msgid "Conversion is not supported for {}"
-msgstr ""
+msgstr "Перетворення не підтримується для {}"
 
 #: kpi/views/v2/data.py:322
 msgid "The specified asset has not been deployed"
-msgstr ""
+msgstr "Зазначений ресурс не розгорнуто"
 
 #: kpi/views/v2/data.py:626
 msgid "A positive integer is required"
-msgstr ""
+msgstr "Натуральне число є обов'язковим"
