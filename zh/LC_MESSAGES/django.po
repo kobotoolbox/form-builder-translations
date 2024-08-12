@@ -155,7 +155,7 @@ msgstr "确认账户后，你就能访问KoboToolbox应用程式。请访问以�
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
 msgid "Your username is: "
-msgstr "你的用户名为 : "
+msgstr "你的用户名为："
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:25
 msgid ""
@@ -210,7 +210,7 @@ msgstr "KoboToolbox密码重置"
 msgid ""
 "You are receiving this email because you or someone else has requested a "
 "password for their KoboToolbox account."
-msgstr "您收到这封电子邮件是因为您或其他人已请求为其 KoboToolbox 帐户提供密码。"
+msgstr "你收到这封电子邮件是因为你或其他人已请求为其 KoboToolbox 帐户提供密码。"
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:7
 #, python-format
@@ -283,7 +283,7 @@ msgstr "使用SSO登录"
 msgid ""
 "If you set up Single Sign On in your account settings, you will only be able"
 " to log in through this method."
-msgstr "如果您在账户设置中启用了单一登录（SSO），你将只能通过这种方式登录。"
+msgstr "如果你在账户设置中启用了单一登录（SSO），你将只能通过这种方式登录。"
 
 #: kobo/apps/accounts/templates/account/password_reset.html:10
 msgid "Password Reset"
@@ -353,41 +353,41 @@ msgstr "请点击刚刚发送给你的电子邮件中的激活链接。"
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:7
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:13
 msgid "SSO Login Failure"
-msgstr ""
+msgstr "SSO登录失败"
 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:17
 msgid "An error occurred while attempting to login using your SSO account."
-msgstr ""
+msgstr "尝试使用SSO账号登陆时出现错误。"
 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:20
 msgid "Go back"
-msgstr ""
+msgstr "返回"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:5
 msgid "Connect your Account to SSO"
-msgstr ""
+msgstr "将你的账户连接至SSO"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:10
 msgid "Manage your SSO Account"
-msgstr ""
+msgstr "管理你的SSO账户"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:15
 msgid ""
 "You can sign in to your KoboToolbox account using any of the following SSO "
 "providers:"
-msgstr ""
+msgstr "你可以使用下列SSO服务登陆你的KoboToolBox账号："
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:39
 msgid "Remove"
-msgstr ""
+msgstr "移除"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:45
 msgid "You currently have no third-party accounts connected to this account."
-msgstr ""
+msgstr "目前没有第三方账号连接到此账号。"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:51
 msgid "Add an SSO Account"
-msgstr ""
+msgstr "添加一个SSO账号"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:14
 msgid "Set up Single Sign On"
@@ -461,11 +461,11 @@ msgstr "不允许使用不安全的端点"
 
 #: kobo/apps/hook/serializers/v2/hook.py:60
 msgid "Invalid JSON"
-msgstr "无效的 JSON"
+msgstr "无效的JSON"
 
 #: kobo/apps/hook/serializers/v2/hook.py:70
 msgid "Can be used only with JSON submission format"
-msgstr "只能与 JSON 提交格式一起使用"
+msgstr "只能与JSON提交格式一起使用"
 
 #: kobo/apps/hook/tasks.py:150
 msgid "REST Services Failure Report"
@@ -517,7 +517,7 @@ msgstr "亲爱的"
 #: kobo/apps/hook/templates/reports/failures_email_body.html:11
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:12
 msgid "Some submissions could not be sent to their external endpoints."
-msgstr "某些提交物无法被发送到其外部端点。"
+msgstr "某些提交无法被发送到其外部端点。"
 
 #: kobo/apps/hook/views/v2/hook.py:174
 msgid "Task successfully scheduled"
@@ -533,7 +533,7 @@ msgstr "无法在禁用的钩子上重试"
 
 #: kobo/apps/hook/views/v2/hook_log.py:121
 msgid "An error has occurred when sending the data. Please try again later."
-msgstr "发送数据时发生错误。 请稍后重试。"
+msgstr "发送数据时发生错误。请稍后重试。"
 
 #: kobo/apps/hook/views/v2/hook_log.py:125
 msgid "Data is being or has already been processed"
@@ -549,7 +549,7 @@ msgstr "须填一个正整数。"
 msgid ""
 "We got and saved your data, but may not have fully processed it. You should "
 "not try to resubmit."
-msgstr "我们获取并保存了你的数据，但可能尚未处理完成。 你不应该重新提交数据。"
+msgstr "我们获取并保存了你的数据，但可能尚未处理完成。你不应该重新提交数据。"
 
 #: kobo/apps/hook/views/v2/hook_signal.py:80
 msgid "Your data for instance {} has been already submitted."
@@ -561,13 +561,13 @@ msgstr "导入"
 
 #: kobo/apps/project_ownership/models/transfer.py:217
 msgid "Project ownership transferred"
-msgstr ""
+msgstr "项目所有权已转移"
 
 #: kobo/apps/project_ownership/models/transfer.py:219
 msgid ""
 "Please note that the ownership of the project **##project_name##** has been "
 "transferred from **##previous_owner##** to **##new_owner##**."
-msgstr ""
+msgstr "请注意项目**##project_name##**的所有权已经从**##previous_owner##**转移至**##new_owner##**。"
 
 #: kobo/apps/project_ownership/models/transfer.py:223
 msgid ""
@@ -576,38 +576,38 @@ msgid ""
 "Please note that the ownership of the project **##project_name##** has been transferred from **##previous_owner##** to **##new_owner##**.\n"
 "\n"
 "Note: You will continue to have the same project permissions until they are changed."
-msgstr ""
+msgstr "亲爱的##username##，\n\n请注意项目**##project_name##**的所有权已经从**##previous_owner##**转移至**##new_owner##**。\n\n请注意：你将继续拥有相同的项目权限，直到他们被改变。"
 
 #: kobo/apps/project_ownership/serializers/invite.py:127
 #: kobo/apps/project_ownership/serializers/invite.py:190
 #: kobo/apps/project_ownership/serializers/invite.py:199
 msgid "This field cannot be modified"
-msgstr ""
+msgstr "此字段无法修改"
 
 #: kobo/apps/project_ownership/serializers/invite.py:137
 msgid "You must be the owner of each project you want to transfer"
-msgstr ""
+msgstr "你必须是所有要转移项目的所有者"
 
 #: kobo/apps/project_ownership/serializers/invite.py:173
 msgid ""
 "Project `##asset_uid##` cannot be transferred. Current status: ##status##"
-msgstr ""
+msgstr "项目`##asset_uid##`不能被转移。当前状态：##status##"
 
 #: kobo/apps/project_ownership/serializers/invite.py:265
 msgid "KoboToolbox project ownership transfer accepted"
-msgstr ""
+msgstr "KoboToolbox项目所有权转移已通过"
 
 #: kobo/apps/project_ownership/serializers/invite.py:294
 msgid "Action required: KoboToolbox project ownership transfer request"
-msgstr ""
+msgstr "需要采取行动：KoboToolbox项目所有权转让请求"
 
 #: kobo/apps/project_ownership/serializers/invite.py:320
 msgid "KoboToolbox project ownership transfer incomplete"
-msgstr ""
+msgstr "KoboToolbox项目所有权转移未完成"
 
 #: kobo/apps/project_ownership/tasks.py:171
 msgid "Invite has expired"
-msgstr ""
+msgstr "邀请已过期"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:3
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:3
@@ -617,7 +617,7 @@ msgstr ""
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:3
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:3
 msgid "Projects:"
-msgstr ""
+msgstr "项目："
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:8
 #, python-format
@@ -625,20 +625,20 @@ msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> "
 "to you."
-msgstr ""
+msgstr "%(recipient)s已经接受了你转移项目<a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>所有权的请求。"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:10
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "this project will be transferred to the new project owner."
-msgstr ""
+msgstr "项目的所有提交，数据存储，以及转录和翻译使用将转移至新的项目所有者。"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:10
 msgid ""
 "Note: You will continue to have permissions to manage the project until the "
 "user permissions are changed."
-msgstr ""
+msgstr "备注：在用户更改权限之前，你将继续拥有管理项目的权限。"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:14
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:12
@@ -646,41 +646,41 @@ msgstr ""
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of these "
 "projects:"
-msgstr ""
+msgstr "%(recipient)s已经接受了你转移下列项目所有权的请求："
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:17
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "these projects will be transferred to the new project owner."
-msgstr ""
+msgstr "这些项目的所有提交，数据存储，以及转录和翻译使用将转移至新的项目所有者。"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:19
 msgid ""
 "Note: You will continue to have permissions to manage these projects until "
 "the user permissions are changed."
-msgstr ""
+msgstr "备注：在用户更改权限之前，你将继续拥有管理这些项目的权限。"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:6
 #, python-format
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) to you."
-msgstr ""
+msgstr "%(recipient)s已经接受了你转移项目%(asset_name)s(%(base_url)s/#/forms/%(asset_uid)s/landing)所有权的请求。"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:8
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "the project will be transferred to the new project owner."
-msgstr ""
+msgstr "这些项目的所有提交，数据存储，以及转录和翻译使用将转移至新的项目所有者。"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:8
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>."
-msgstr ""
+msgstr "%(recipient)s已经拒绝你转移项目<a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>所有权的请求。"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:9
@@ -688,7 +688,7 @@ msgid ""
 "You will remain the owner of the project. The submissions, data storage, and"
 " transcription and translation usage for the project have not been "
 "transferred."
-msgstr ""
+msgstr "你仍是该项目的所有者。项目的提交，数据存储，以及转录和翻译使用未被转移。"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:11
@@ -696,7 +696,7 @@ msgstr ""
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of these "
 "projects:"
-msgstr ""
+msgstr "%(recipient)s已经拒绝了你转移下列项目所有权的请求："
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:20
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:16
@@ -704,24 +704,24 @@ msgid ""
 "You will remain the owner of these projects. The submissions, data storage, "
 "and transcription and translation usage for these projects have not been "
 "transferred."
-msgstr ""
+msgstr "你仍是这些项目的所有者。这些项目的提交，数据存储，以及转录和翻译使用未被转移。"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:7
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
-msgstr ""
+msgstr "%(recipient)s已经拒绝了你转移项目%(asset_name)s(%(base_url)s/#/forms/%(asset_uid)s/landing)所有权的请求。"
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.html:6
 #, python-format
 msgid "The request you have sent to <b>%(recipient)s</b> has expired."
-msgstr ""
+msgstr "你发送给<b>%(recipient)s</b>的请求已过期。"
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.txt:7
 #, python-format
 msgid "The request you have sent to %(recipient)s has expired."
-msgstr ""
+msgstr "你发送给%(recipient)s的请求已过期。"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:8
 #, python-format
@@ -730,7 +730,7 @@ msgid ""
 "of the project <a "
 "href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> to "
 "you."
-msgstr ""
+msgstr "%(sender_username)s（%(sender_email)s）申请将项目<a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>的所有权转移给你。"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:20
@@ -739,7 +739,7 @@ msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for these projects will be "
 "transferred to you and count against your plan limits."
-msgstr ""
+msgstr "当你接受项目转移的所有权时，这些项目的所有提交, 数据存储, 以及转录和翻译使用将被转移给你并占用你的套餐限额。"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:11
@@ -747,18 +747,18 @@ msgstr ""
 msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the following projects to you:"
-msgstr ""
+msgstr "%(sender_username)s（%(sender_email)s）申请将下列项目的所有权转移给你："
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:19
 msgid "If you are unsure, please contact the current owner."
-msgstr ""
+msgstr "如果你不确定，请联系项目当前的所有者。"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:21
 #, python-format
 msgid "This transfer request will expire in %(invite_expiry)s days."
-msgstr ""
+msgstr "此转移申请将在%(invite_expiry)s天后过期。"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:27
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:23
@@ -766,7 +766,7 @@ msgstr ""
 msgid ""
 "To respond to this transfer request, please use the following link: "
 "%(base_url)s/#/projects/home?invite=%(invite_uid)s"
-msgstr ""
+msgstr "使用此链接以回应该申请：%(base_url)s/#/projects/home?invite=%(invite_uid)s"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:7
 #, python-format
@@ -774,14 +774,14 @@ msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the project %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) "
 "to you."
-msgstr ""
+msgstr "%(sender_username)s（%(sender_email)s）申请将项目%(asset_name)s(%(base_url)s/#forms/%(asset_uid)s/landing)的所有权转移给你。"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:9
 msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for the project will be "
 "transferred to you and count against your plan limits."
-msgstr ""
+msgstr "当你接受项目转移的所有权时，这些项目的所有提交, 数据存储, 以及转录和翻译使用将被转移给你并占用你的套餐限额。"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
@@ -968,689 +968,689 @@ msgstr "我希望收到有关 KoboToolbox 不定期的更新"
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
-msgstr ""
+msgstr "无效的用户名/密码"
 
 #: kpi/deployment_backends/base_backend.py:132
 msgid "No submissions match the given `submission_ids`"
-msgstr ""
+msgstr "没有提交内容与给定的`submission_ids`匹配"
 
 #: kpi/deployment_backends/base_backend.py:554
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr ""
+msgstr "该参数未执行。 请改用响应的`count`属性。"
 
 #: kpi/deployment_backends/base_backend.py:565
 msgid "This param is not supported in `XML` format"
-msgstr ""
+msgstr "该参数不支持`XML`格式"
 
 #: kpi/deployment_backends/base_backend.py:570
 msgid "This is not supported in `XML` format"
-msgstr ""
+msgstr "不支持`XML`格式"
 
 #: kpi/deployment_backends/base_backend.py:590
 #: kpi/deployment_backends/base_backend.py:618
 #: kpi/deployment_backends/base_backend.py:640 kpi/views/v2/data.py:527
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "值必须是有效的 JSON。"
 
 #: kpi/deployment_backends/base_backend.py:595
 msgid "Value must be a list."
-msgstr ""
+msgstr "值必须是一个列表。"
 
 #: kpi/deployment_backends/kobocat_backend.py:413
 msgid "Your submission XML is malformed."
-msgstr ""
+msgstr "你提交的 XML 格式不正确。"
 
 #: kpi/deployment_backends/kobocat_backend.py:422
 msgid "Your submission XML is missing critical elements."
-msgstr ""
+msgstr "你提交的 XML 缺少关键元素。"
 
 #: kpi/deployment_backends/kobocat_backend.py:435
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr ""
+msgstr "找不到你尝试编辑的提交内容，或者你无权访问它。"
 
 #: kpi/deployment_backends/kobocat_backend.py:1556
 msgid "KoBoCAT returned an unexpected response: {}"
-msgstr ""
+msgstr "KoBoCAT 返回了意外响应：{}"
 
 #: kpi/deployment_backends/kobocat_backend.py:1585
 msgid "Something went wrong"
-msgstr ""
+msgstr "出现问题"
 
 #: kpi/exceptions.py:49
 msgid "Invalid payload for bulk updating of submissions"
-msgstr ""
+msgstr "批量提交的更新内容无效"
 
 #: kpi/exceptions.py:64
 msgid "Must call `asset.connect_deployment()` first"
-msgstr ""
+msgstr "必须先调用`asset.connect_deployment()`"
 
 #: kpi/exceptions.py:80
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
-msgstr ""
+msgstr "你的访问受限。 请通过##koboform_url##/accounts/password/reset/ 更改密码来重新获取你的访问权限。"
 
 #: kpi/exceptions.py:89
 msgid "Invalid search. Please try again"
-msgstr ""
+msgstr "无效搜索。 请重试"
 
 #: kpi/exceptions.py:129
 msgid "An error occurred trying to duplicate the submission"
-msgstr ""
+msgstr "尝试重复提交时出错"
 
 #: kpi/exceptions.py:143
 msgid "The specified object has not been deployed"
-msgstr ""
+msgstr "指定对象尚未部署"
 
 #: kpi/exceptions.py:152
 msgid "Bad syntax"
-msgstr ""
+msgstr "语法错误"
 
 #: kpi/exceptions.py:157
 msgid "Not supported field lookup"
-msgstr ""
+msgstr "不支持字段查找"
 
 #: kpi/exceptions.py:168
 msgid "Your query is too short"
-msgstr ""
+msgstr "你的查询内容太短"
 
 #: kpi/fields/jsonschema_form_field.py:23
 #: kpi/fields/jsonschema_form_field.py:26
 msgid "Enter valid JSON."
-msgstr ""
+msgstr "输入有效的JSON。"
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr ""
+msgstr "`##place_holder##`字段无法隐藏。"
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
 msgid "Unable to parse JSON: {error}"
-msgstr ""
+msgstr "无法解析JSON：{error}"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr ""
+msgstr "此帐户启用了多重身份验证。 "
 
 #: kpi/models/asset.py:250
 msgid "Can view asset"
-msgstr ""
+msgstr "可以查看资源"
 
 #: kpi/models/asset.py:251
 msgid "Can discover asset in public lists"
-msgstr ""
+msgstr "可以在公共列表中的查看资源"
 
 #: kpi/models/asset.py:252
 msgid "Can manage all aspects of asset"
-msgstr ""
+msgstr "可以管理资源的各个层面"
 
 #: kpi/models/asset.py:254
 msgid "Can submit data to asset"
-msgstr ""
+msgstr "可以向资源中提交数据"
 
 #: kpi/models/asset.py:255
 msgid "Can view submitted data for asset"
-msgstr ""
+msgstr "可以查看提交的资源数据"
 
 #: kpi/models/asset.py:256
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr ""
+msgstr "可以对特定用户提交的资源数据进行部分操作"
 
 #: kpi/models/asset.py:259
 msgid "Can modify submitted data for asset"
-msgstr ""
+msgstr "可以修改提交的资源数据"
 
 #: kpi/models/asset.py:260
 msgid "Can delete submitted data for asset"
-msgstr ""
+msgstr "可以删除已提交的资源数据"
 
 #: kpi/models/asset.py:261
 msgid "Can validate submitted data asset"
-msgstr ""
+msgstr "可以验证提交的资源数据"
 
 #: kpi/models/asset.py:284
 msgid "project"
-msgstr ""
+msgstr "项目"
 
 #: kpi/models/asset.py:284
 msgid "form"
-msgstr ""
+msgstr "形式"
 
 #: kpi/models/asset.py:286
 msgid "template"
-msgstr ""
+msgstr "模板"
 
 #: kpi/models/asset.py:287
 msgid "block"
-msgstr ""
+msgstr "块"
 
 #: kpi/models/asset.py:288
 msgid "question"
-msgstr ""
+msgstr "问题"
 
 #: kpi/models/asset.py:289
 msgid "text"
-msgstr ""
+msgstr "文本"
 
 #: kpi/models/asset.py:290
 msgid "empty"
-msgstr ""
+msgstr "空的"
 
 #: kpi/models/asset.py:291
 msgid "collection"
-msgstr ""
+msgstr "集合"
 
 #: kpi/models/asset.py:298
 msgid "View ##asset_type_label##"
-msgstr ""
+msgstr "查看 ##asset_type_label##"
 
 #: kpi/models/asset.py:299
 msgid "Edit ##asset_type_label##"
-msgstr ""
+msgstr "编辑 ##asset_type_label##"
 
 #: kpi/models/asset.py:300
 msgid "Discover ##asset_type_label##"
-msgstr ""
+msgstr "发现 ##asset_type_label##"
 
 #: kpi/models/asset.py:301
 msgid "Manage ##asset_type_label##"
-msgstr ""
+msgstr "管理 ##asset_type_label##"
 
 #: kpi/models/asset.py:302
 msgid "Add submissions"
-msgstr ""
+msgstr "添加提交内容"
 
 #: kpi/models/asset.py:303
 msgid "View submissions"
-msgstr ""
+msgstr "查看提交内容"
 
 #: kpi/models/asset.py:306
 msgid "Act on submissions only from specific users"
-msgstr ""
+msgstr "仅操作特定用户提交的内容"
 
 #: kpi/models/asset.py:309
 msgid "View submissions only from specific users"
-msgstr ""
+msgstr "仅查看特定用户提交的内容"
 
 #: kpi/models/asset.py:312
 msgid "Edit submissions only from specific users"
-msgstr ""
+msgstr "仅编辑特定用户提交的内容"
 
 #: kpi/models/asset.py:315
 msgid "Delete submissions only from specific users"
-msgstr ""
+msgstr "仅删除特定用户提交的内容"
 
 #: kpi/models/asset.py:318
 msgid "Validate submissions only from specific users"
-msgstr ""
+msgstr "仅验证特定用户提交的内容"
 
 #: kpi/models/asset.py:321
 msgid "Edit submissions"
-msgstr ""
+msgstr "编辑提交内容"
 
 #: kpi/models/asset.py:322
 msgid "Delete submissions"
-msgstr ""
+msgstr "删除提交内容"
 
 #: kpi/models/asset.py:323
 msgid "Validate submissions"
-msgstr ""
+msgstr "验证提交内容"
 
 #: kpi/models/asset.py:634
 msgid "Only partial permissions for submissions are supported"
-msgstr ""
+msgstr "仅支持部分提交权限"
 
 #: kpi/models/asset.py:1334
 msgid "Can not assign '{}' permission to owner"
-msgstr ""
+msgstr "无法将'{}'权限分配给用户"
 
 #: kpi/models/asset.py:1338
 msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr ""
+msgstr "无法分配'{}'权限。 缺少部分权限。"
 
 #: kpi/models/authorized_application.py:40
 msgid "Invalid token."
-msgstr ""
+msgstr "令牌无效。"
 
 #: kpi/models/import_export_task.py:142
 msgid "Cannot access data"
-msgstr ""
+msgstr "无法访问数据"
 
 #: kpi/models/import_export_task.py:578
 msgid "This data does not exist or you do not have access to it"
-msgstr ""
+msgstr "该数据不存在或你访问其的权限"
 
 #: kpi/password_validation.py:95
 msgid "You cannot reuse your last password."
-msgstr ""
+msgstr "你不能重复使用上次的密码。"
 
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
-msgstr ""
+msgstr "你的密码不能与之前的密码相同。"
 
 #: kpi/password_validation.py:170
 msgid ""
 "The password must contain at least ##number of rules## different kinds of "
 "characters."
-msgstr ""
+msgstr "密码必须至少包含##number of rules##种不同类型的字符。"
 
 #: kpi/serializers/current_user.py:162
 msgid "Incorrect current password."
-msgstr ""
+msgstr "当前密码不正确。"
 
 #: kpi/serializers/current_user.py:182
 msgid "`current_password` and `new_password` must both be"
-msgstr ""
+msgstr "`current_password`和`new_password`必须都是"
 
 #: kpi/serializers/current_user.py:222
 #: kpi/serializers/v2/asset_permission_assignment.py:290
 msgid "This field may not be blank."
-msgstr ""
+msgstr "该字段不能为空。"
 
 #: kpi/serializers/v2/asset.py:134
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr ""
+msgstr "%(count)d项目已被撤销删除"
 
 #: kpi/serializers/v2/asset.py:140
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr ""
+msgstr "%(count)d项目已被删除"
 
 #: kpi/serializers/v2/asset.py:147
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr ""
+msgstr "%(count)d项目已撤销存档"
 
 #: kpi/serializers/v2/asset.py:153
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr ""
+msgstr "%(count)d项目已存档"
 
 #: kpi/serializers/v2/asset.py:169
 msgid "One or many projects have been deleted already!"
-msgstr ""
+msgstr "一个或多个项目已被删除！"
 
 #: kpi/serializers/v2/asset.py:177
 msgid "One or many projects are already being deleted!"
-msgstr ""
+msgstr "一个或多个项目已正在被删除！"
 
 #: kpi/serializers/v2/asset.py:250
 msgid "`action` parameter is required"
-msgstr ""
+msgstr "`action`参数为必填项"
 
 #: kpi/serializers/v2/asset.py:255
 msgid "Supported values for `action` are: "
-msgstr ""
+msgstr "支持`action`的值为： "
 
 #: kpi/serializers/v2/asset.py:277
 msgid "Draft projects cannot be archived"
-msgstr ""
+msgstr "项目草稿无法存档"
 
 #: kpi/serializers/v2/asset.py:283 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
-msgstr ""
+msgstr "需要确认"
 
 #: kpi/serializers/v2/asset.py:824
 msgid "The property is required"
-msgstr ""
+msgstr "属性为必填项"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "The property must be an array"
-msgstr ""
+msgstr "该属性必须是一个数组"
 
 #: kpi/serializers/v2/asset.py:850
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr ""
+msgstr "有些字段无效，选择为：`{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:872
 msgid "User cannot update current parent collection"
-msgstr ""
+msgstr "用户无法更新当前父集"
 
 #: kpi/serializers/v2/asset.py:882
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
-msgstr ""
+msgstr "未找到目标集合"
 
 #: kpi/serializers/v2/asset.py:886
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr ""
+msgstr "用户无法更新目标父集"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr ""
+msgstr "`export_settings`必须包含以下所有必需的键：{}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr ""
+msgstr "`export_settings`只能包含以下有效键：{}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr ""
+msgstr "`multiple_select`必须为这其中一种 {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr ""
+msgstr "`type`必须为这其中一种 {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr ""
+msgstr "`group_sep`必须为非空值"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr ""
+msgstr "该资源的`lang`必须为这其中一种 {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
 msgid "Must be a JSON object"
-msgstr ""
+msgstr "必须为JSON 对象"
 
 #: kpi/serializers/v2/asset_export_settings.py:134
 #: kpi/serializers/v2/export_task.py:247
 msgid "All values in the array must be integers"
-msgstr ""
+msgstr "数组中的所有值都必须为整数"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr ""
+msgstr "`fields`必须为一个数组"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr ""
+msgstr "`fields`数组中的所有值都必须为字符串"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
-msgstr ""
+msgstr "JSON 无效"
 
 #: kpi/serializers/v2/asset_file.py:130
 msgid "Invalid content"
-msgstr ""
+msgstr "无效内容"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
-msgstr ""
+msgstr "尚未提交任何文件"
 
 #: kpi/serializers/v2/asset_file.py:158
 msgid "File already exists"
-msgstr ""
+msgstr "文件已存在"
 
 #: kpi/serializers/v2/asset_file.py:208
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr ""
+msgstr "你不能同时使用两种不同的方式上传媒体文件。请选择二进制上传、base64 或远程 URL。"
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
-msgstr ""
+msgstr "此字段为必填项"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr ""
+msgstr "`redirect_url`为必填项"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr ""
+msgstr "`filename`为必填项"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr ""
+msgstr "`redirect_url`无效"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr ""
+msgstr "仅允许`{}`MIME 类型"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:163
 msgid "This field is required for the '{}' permission"
-msgstr ""
+msgstr "必须填写该字段以获取'{}'权限"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:177
 #: kpi/serializers/v2/asset_permission_assignment.py:182
 #: kpi/serializers/v2/asset_permission_assignment.py:188
 #: kpi/serializers/v2/asset_permission_assignment.py:497
 msgid "Invalid `url`"
-msgstr ""
+msgstr "无效的`url`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:193
 msgid "Invalid `filters`"
-msgstr ""
+msgstr "无效的`filters`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:210
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr ""
+msgstr "{permission}无法明确分配给该类型的 Asset 对象。"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:289
 msgid "Not a valid list."
-msgstr ""
+msgstr "不是有效的列表。"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:490
 #: kpi/serializers/v2/asset_permission_assignment.py:493
 msgid "Invalid hyperlink - Object does not exist."
-msgstr ""
+msgstr "超链接无效 - 对象不存在。"
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr ""
+msgstr "`submission_ids`只能包含整数值"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr ""
+msgstr "`submission_ids`必须包含至少一个值"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr ""
+msgstr "`data`为必填项"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr ""
+msgstr "`validation_status.uid`为必填项"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
-msgstr ""
+msgstr "必须包含以下所有必填的键：{}"
 
 #: kpi/serializers/v2/export_task.py:137
 msgid "Can contain only the following valid keys: {}"
-msgstr ""
+msgstr "只能包含以下有效键：{}"
 
 #: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
 msgid "Must be an array"
-msgstr ""
+msgstr "必须为一个数组"
 
 #: kpi/serializers/v2/export_task.py:159
 msgid "All values in the array must be strings"
-msgstr ""
+msgstr "数组中的所有值都必须为字符串"
 
 #: kpi/serializers/v2/export_task.py:169
 msgid "Must be a non-empty value"
-msgstr ""
+msgstr "必须为非空值"
 
 #: kpi/serializers/v2/export_task.py:182
 msgid "For this asset must be either {}"
-msgstr ""
+msgstr "对于此资源必须为这其中一种{}"
 
 #: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
 msgid "Must be either {}"
-msgstr ""
+msgstr "必须为这其中之一 {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr ""
+msgstr "必须部署资源。"
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr ""
+msgstr "导出名称必须为字符串。"
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
-msgstr ""
+msgstr "来源无法更改"
 
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr ""
+msgstr "未启用`{source_uid}`的数据共享"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr ""
+msgstr "不允许将数据与`{source_uid}`配对"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr ""
+msgstr "来源`{source}`已配对"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr ""
+msgstr "有些字段无效，选择为：`{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr ""
+msgstr "只允许使用字母、数字和`-`"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr ""
+msgstr "扩展名必须为`xml`"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr ""
+msgstr "`{basename}`已被使用"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr ""
+msgstr "资源类型无效。只允许`{asset_type}`"
 
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
-msgstr ""
+msgstr "现代浏览器"
 
 #: kpi/templates/modern_browsers.html:8
 msgid ""
 "Ouch! Sorry, you were probably sent here because your browser is outdated or"
 " perhaps it has its key features disabled by using \"private browsing\" "
 "mode."
-msgstr ""
+msgstr "哎哟! 抱歉，你被转到此页可能是因为你的浏览器不是最新版的，或者是它因为使用了 \"私密浏览 \"模式而禁用了其主要功能。"
 
 #: kpi/templates/modern_browsers.html:12
 msgid ""
 "If you are using an outdated browser, we recommend upgrading to a recent "
 "version of one of the following excellent modern browsers:"
-msgstr ""
+msgstr "如果你使用的浏览器版本较旧,建议你更新到以下优秀现代浏览器之一的最新版本："
 
 #: kpi/templates/modern_browsers.html:17
 msgid "Firefox download page"
-msgstr ""
+msgstr "Firefox下载页面"
 
 #: kpi/templates/modern_browsers.html:18
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: kpi/templates/modern_browsers.html:22
 msgid "Chrome download page"
-msgstr ""
+msgstr "Chrome下载页面"
 
 #: kpi/templates/modern_browsers.html:23
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 #: kpi/templates/modern_browsers.html:27
 msgid "Edge download page"
-msgstr ""
+msgstr "Edge下载页面"
 
 #: kpi/templates/modern_browsers.html:28
 msgid "Edge"
-msgstr ""
+msgstr "Edge"
 
 #: kpi/templates/modern_browsers.html:32
 msgid "Opera download page"
-msgstr ""
+msgstr "Opera下载页面"
 
 #: kpi/templates/modern_browsers.html:33
 msgid "Opera"
-msgstr ""
+msgstr "Opera"
 
 #: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
-msgstr ""
+msgstr "该电子邮件域不允许创建帐户"
 
 #: kpi/utils/two_database_configuration_checker.py:41
 msgid "Exactly two databases must be configured"
-msgstr ""
+msgstr "必须配置两个数据库"
 
 #: kpi/utils/two_database_configuration_checker.py:42
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr ""
+msgstr "KPI 和 KoBoCAT 必须各自拥有其自身的数据库。 将 KPI 数据库配置为“默认”，将 KoBoCAT 数据库配置为“kobocat”。"
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr ""
+msgstr "KPI 不得与 KoBoCAT 共享数据库"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr ""
+msgstr "KPI 和 KoBoCAT 必须各自拥有其自身的数据库。"
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr ""
+msgstr "共享数据库中的安装迁移不完整"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr ""
+msgstr "KoBoCAT 数据库最初由 KPI 共享，但 KPI 表格并未从该共享数据库复制至新的仅包含 KPI 的数据库。"
 
 #: kpi/views/current_user.py:107
 msgid "Invalid confirmation"
-msgstr ""
+msgstr "确认无效"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr ""
+msgstr "仅可用以下格式：##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:211
 msgid "Source and destination objects don't seem to have the same type"
-msgstr ""
+msgstr "源对象和目标对象似乎类型不相同"
 
 #: kpi/views/v2/asset_permission_assignment.py:240
 msgid "Owner's permissions cannot be deleted"
-msgstr ""
+msgstr "所有者权限无法删除"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr ""
+msgstr "`xpath`查询参数为必填项"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
-msgstr ""
+msgstr "无效的 XPath 语法"
 
 #: kpi/views/v2/attachment.py:98
 msgid "The path could not be found in the submission"
-msgstr ""
+msgstr "提交时找不到路径"
 
 #: kpi/views/v2/attachment.py:107
 msgid "The error occurred during conversion"
-msgstr ""
+msgstr "转换过程中出现错误"
 
 #: kpi/views/v2/attachment.py:111
 msgid "Conversion is not supported for {}"
-msgstr ""
+msgstr "{}不支持转换"
 
 #: kpi/views/v2/data.py:322
 msgid "The specified asset has not been deployed"
-msgstr ""
+msgstr "指定资源尚未部署"
 
 #: kpi/views/v2/data.py:626
 msgid "A positive integer is required"
-msgstr ""
+msgstr "须填一个正整数"
