@@ -153,7 +153,7 @@ msgstr "KoboToolbox के साथ साइन अप करने के ल
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
-msgstr "आपके खाते की पुष्टि करने से आप KoboToolbox एप्लीकेशंस का इस्तेमाल कर सकेंगे। अपने नए खाते के सक्रियण को पूरा करने के लिए कृपया निम्नलिखित यूआरएल पर जाएँ।"
+msgstr "आपके खाते की पुष्टि करने से आप KoboToolbox एप्लीकेशंस का इस्तेमाल कर सकेंगे। अपने नए खाते के सक्रियण को पूरा करने के लिए कृपया निम्नलिखित URL पर जाएँ।"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
 msgid "Your username is: "
@@ -174,7 +174,7 @@ msgstr "प्रश्न पूछने, समाधान साझा क�
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_subject.txt:10
 msgid "Activate your KoboToolbox Account"
-msgstr "अपने KoboToolbox खाते को सक्रिय करें।"
+msgstr "अपने KoboToolbox खाते को सक्रिय करें"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_subject.txt:3
 msgid "KoboToolbox account email address verification"
@@ -355,41 +355,41 @@ msgstr "कृपया आपको भेजे गए ईमेल में 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:7
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:13
 msgid "SSO Login Failure"
-msgstr ""
+msgstr "SSO लॉगिन विफलता"
 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:17
 msgid "An error occurred while attempting to login using your SSO account."
-msgstr ""
+msgstr "आपके SSO खाते का उपयोग करके लॉगिन करने का प्रयास करते समय एक त्रुटि हुई।"
 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:20
 msgid "Go back"
-msgstr ""
+msgstr "वापस जाएं"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:5
 msgid "Connect your Account to SSO"
-msgstr ""
+msgstr "अपने खाते को SSO से कनेक्ट करें"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:10
 msgid "Manage your SSO Account"
-msgstr ""
+msgstr "अपने SSO खाते का प्रबंधन करें"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:15
 msgid ""
 "You can sign in to your KoboToolbox account using any of the following SSO "
 "providers:"
-msgstr ""
+msgstr "आप अपने KoboToolbox खाते में निम्नलिखित किसी भी SSO प्रदाताओं का उपयोग करके साइन इन कर सकते हैं:"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:39
 msgid "Remove"
-msgstr ""
+msgstr "हटाएं"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:45
 msgid "You currently have no third-party accounts connected to this account."
-msgstr ""
+msgstr "वर्तमान में आपके इस खाते से कोई तृतीय-पक्ष खाते जुड़े हुए नहीं हैं।"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:51
 msgid "Add an SSO Account"
-msgstr ""
+msgstr "एक SSO खाता जोड़ें"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:14
 msgid "Set up Single Sign On"
@@ -404,7 +404,7 @@ msgstr "अपने KoboToolbox खाते को अपने %(appname)s �
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:18
 msgid "This will allow you to use single sign-on (SSO) in the future."
-msgstr "इससे आपको भविष्य में सिंगल साइन ऑल (SSO) इस्तेमाल करने की अनुमति मिल जाएगी।"
+msgstr "इससे आपको भविष्य में सिंगल साइन ऑन (SSO) इस्तेमाल करने की अनुमति मिल जाएगी।"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
@@ -476,7 +476,7 @@ msgstr "आरईएसटी (REST) सेवा चूक रिपोर्�
 #: kobo/apps/hook/templates/reports/failures_email_body.html:3
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:3
 msgid "Project name"
-msgstr "परियोजना का नाम"
+msgstr "प्रोजेक्ट का नाम"
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:4
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:4
@@ -563,13 +563,13 @@ msgstr "आयात करें"
 
 #: kobo/apps/project_ownership/models/transfer.py:217
 msgid "Project ownership transferred"
-msgstr ""
+msgstr "प्रोजेक्ट का स्वामित्व स्थानांतरण"
 
 #: kobo/apps/project_ownership/models/transfer.py:219
 msgid ""
 "Please note that the ownership of the project **##project_name##** has been "
 "transferred from **##previous_owner##** to **##new_owner##**."
-msgstr ""
+msgstr "कृपया ध्यान दें कि प्रोजेक्ट **##project_name##** का स्वामित्व **##previous_owner##** से **##new_owner##** को स्थानांतरित कर दिया गया है।"
 
 #: kobo/apps/project_ownership/models/transfer.py:223
 msgid ""
@@ -578,38 +578,38 @@ msgid ""
 "Please note that the ownership of the project **##project_name##** has been transferred from **##previous_owner##** to **##new_owner##**.\n"
 "\n"
 "Note: You will continue to have the same project permissions until they are changed."
-msgstr ""
+msgstr "प्रिय ##username##,\n\nकृपया ध्यान दें कि प्रोजेक्ट **##project_name##** का स्वामित्व **##previous_owner##** से **##new_owner##** को स्थानांतरित कर दिया गया है।\n\nनोट: आपको प्रोजेक्ट की वही अनुमतियाँ मिलती रहेंगी जब तक कि उन्हें बदला नहीं जाता।"
 
 #: kobo/apps/project_ownership/serializers/invite.py:127
 #: kobo/apps/project_ownership/serializers/invite.py:190
 #: kobo/apps/project_ownership/serializers/invite.py:199
 msgid "This field cannot be modified"
-msgstr ""
+msgstr "इस फ़ील्ड को संशोधित नहीं किया जा सकता है"
 
 #: kobo/apps/project_ownership/serializers/invite.py:137
 msgid "You must be the owner of each project you want to transfer"
-msgstr ""
+msgstr "आपको प्रत्येक प्रोजेक्ट का स्वामी होना चाहिए जिसे आप स्थानांतरित करना चाहते हैं।"
 
 #: kobo/apps/project_ownership/serializers/invite.py:173
 msgid ""
 "Project `##asset_uid##` cannot be transferred. Current status: ##status##"
-msgstr ""
+msgstr "प्रोजेक्ट `##asset_uid##` को स्थानांतरित नहीं किया जा सकता। वर्तमान स्थिति: ##status##"
 
 #: kobo/apps/project_ownership/serializers/invite.py:265
 msgid "KoboToolbox project ownership transfer accepted"
-msgstr ""
+msgstr "KoboToolbox प्रोजेक्ट स्वामित्व स्थानांतरण स्वीकृत"
 
 #: kobo/apps/project_ownership/serializers/invite.py:294
 msgid "Action required: KoboToolbox project ownership transfer request"
-msgstr ""
+msgstr "आवश्यक कार्यवाही: KoboToolbox प्रोजेक्ट स्वामित्व स्थानांतरण अनुरोध"
 
 #: kobo/apps/project_ownership/serializers/invite.py:320
 msgid "KoboToolbox project ownership transfer incomplete"
-msgstr ""
+msgstr "KoboToolbox प्रोजेक्ट स्वामित्व स्थानांतरण अधूरा है"
 
 #: kobo/apps/project_ownership/tasks.py:171
 msgid "Invite has expired"
-msgstr ""
+msgstr "आमंत्रण की अवधि समाप्त हो गई है"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:3
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:3
@@ -619,7 +619,7 @@ msgstr ""
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:3
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:3
 msgid "Projects:"
-msgstr ""
+msgstr "प्रोजेक्ट:"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:8
 #, python-format
@@ -627,20 +627,20 @@ msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> "
 "to you."
-msgstr ""
+msgstr "%(recipient)s ने आपके अनुरोध को स्वीकार कर लिया है कि <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> प्रोजेक्ट का स्वामित्व आपको स्थानांतरित कर दिया जाए।"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:10
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "this project will be transferred to the new project owner."
-msgstr ""
+msgstr "इस प्रोजेक्ट की सभी प्रविष्टियां (सबमिशन),डेटा संग्रहण (स्टोरेज),और इस प्रोजेक्ट के लिए प्रतिलेखन और अनुवाद का उपयोग नए प्रोजेक्ट मालिक को स्थानांतरित कर दिया जाएगा।"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:10
 msgid ""
 "Note: You will continue to have permissions to manage the project until the "
 "user permissions are changed."
-msgstr ""
+msgstr "नोट: जब तक उपयोगकर्ता अनुमतियों में परिवर्तन नहीं होता, तब तक आपको प्रोजेक्ट प्रबंधन की अनुमतियाँ मिलती रहेंगी।"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:14
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:12
@@ -648,41 +648,41 @@ msgstr ""
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of these "
 "projects:"
-msgstr ""
+msgstr "%(recipient)s ने आपके अनुरोध को स्वीकार कर लिया है कि इन प्रोजेक्ट का स्वामित्व आपको स्थानांतरित कर दिया जाए:"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:17
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "these projects will be transferred to the new project owner."
-msgstr ""
+msgstr "इस प्रोजेक्ट की सभी प्रविष्टियां (सबमिशन),डेटा संग्रहण (स्टोरेज),और इस प्रोजेक्ट के लिए प्रतिलेखन और अनुवाद का उपयोग नए प्रोजेक्ट मालिक को स्थानांतरित कर दिया जाएगा।"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:19
 msgid ""
 "Note: You will continue to have permissions to manage these projects until "
 "the user permissions are changed."
-msgstr ""
+msgstr "नोट: जब तक उपयोगकर्ता अनुमतियों में परिवर्तन नहीं होता, तब तक आपको परियोजना प्रबंधन की अनुमतियाँ मिलती रहेंगी।"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:6
 #, python-format
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) to you."
-msgstr ""
+msgstr "%(recipient)s ने प्रोजेक्ट %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) के स्वामित्व को आपको स्थानांतरित करने के अनुरोध को स्वीकार कर लिया है।"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:8
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "the project will be transferred to the new project owner."
-msgstr ""
+msgstr "इस प्रोजेक्ट की सभी प्रविष्टियां (सबमिशन),डेटा संग्रहण (स्टोरेज),और इस प्रोजेक्ट के लिए प्रतिलेखन और अनुवाद का उपयोग नए प्रोजेक्ट मालिक को स्थानांतरित कर दिया जाएगा।"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:8
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>."
-msgstr ""
+msgstr "%(recipient)s ने प्रोजेक्ट <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> स्थानांतरण के आपके अनुरोध को अस्वीकार कर दिया है।"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:9
@@ -690,7 +690,7 @@ msgid ""
 "You will remain the owner of the project. The submissions, data storage, and"
 " transcription and translation usage for the project have not been "
 "transferred."
-msgstr ""
+msgstr "इस प्रोजेक्ट का स्वामित्व आपके पास ही रहेगा। सभी प्रविष्टियां (सबमिशन),डेटा संग्रहण (स्टोरेज),और इस प्रोजेक्ट के लिए प्रतिलेखन और अनुवाद का उपयोग स्थानांतरित नहीं किया गया है।"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:11
@@ -698,7 +698,7 @@ msgstr ""
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of these "
 "projects:"
-msgstr ""
+msgstr "%(recipient)s ने इन प्रोजेक्टों के स्थानांतरण के आपके अनुरोध को अस्वीकार कर दिया है:"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:20
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:16
@@ -706,24 +706,24 @@ msgid ""
 "You will remain the owner of these projects. The submissions, data storage, "
 "and transcription and translation usage for these projects have not been "
 "transferred."
-msgstr ""
+msgstr "इन प्रोजेक्टों का स्वामित्व आपके पास ही रहेगा। सभी प्रविष्टियां (सबमिशन),डेटा संग्रहण (स्टोरेज),और इस प्रोजेक्ट के लिए प्रतिलेखन और अनुवाद का उपयोग स्थानांतरित नहीं किया गया है।"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:7
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
-msgstr ""
+msgstr "%(recipient)s ने प्रोजेक्ट %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) स्थानांतरण के आपके अनुरोध को अस्वीकार कर दिया है>"
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.html:6
 #, python-format
 msgid "The request you have sent to <b>%(recipient)s</b> has expired."
-msgstr ""
+msgstr "आपके द्वारा <b>%(recipient)s</b> को भेजा गए अनुरोध की अवधि समाप्त हो गई है।"
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.txt:7
 #, python-format
 msgid "The request you have sent to %(recipient)s has expired."
-msgstr ""
+msgstr "आपके द्वारा %(recipient)s को भेजे गए अनुरोध की अवधि समाप्त हो गई है।"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:8
 #, python-format
@@ -732,7 +732,7 @@ msgid ""
 "of the project <a "
 "href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> to "
 "you."
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) ने अनुरोध किया है कि प्रोजेक्ट <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>का स्वामित्व आपको स्थानांतरित कर दिया जाए। "
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:20
@@ -741,7 +741,7 @@ msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for these projects will be "
 "transferred to you and count against your plan limits."
-msgstr ""
+msgstr "जब आप प्रोजेक्ट का स्वामित्व स्वीकार करते हैं, तो प्रोजेक्ट के लिए सभी प्रविष्टियां (सबमिशन), डेटा भंडारण, और ट्रांसक्रिप्शन तथा अनुवाद का उपयोग आपको स्थानांतरित कर दिया जाएगा और आपकी योजना सीमाओं के खिलाफ़ गिना जाएगा।"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:11
@@ -749,18 +749,18 @@ msgstr ""
 msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the following projects to you:"
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) ने निम्नलिखित प्रोजेक्टों के स्वामित्व का स्थानांतरण आपको करने के लिए अनुरोध किया है:"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:19
 msgid "If you are unsure, please contact the current owner."
-msgstr ""
+msgstr "यदि आप सुनिश्चित नहीं हैं, कृपया वर्तमान मालिक से संपर्क करें।"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:21
 #, python-format
 msgid "This transfer request will expire in %(invite_expiry)s days."
-msgstr ""
+msgstr "यह स्थानांतरण अनुरोध %(invite_expiry)s दिनों में समाप्त हो जाएगा।"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:27
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:23
@@ -768,7 +768,7 @@ msgstr ""
 msgid ""
 "To respond to this transfer request, please use the following link: "
 "%(base_url)s/#/projects/home?invite=%(invite_uid)s"
-msgstr ""
+msgstr "इस स्थानांतरण अनुरोध का उत्तर देने के लिए, कृपया निम्नलिखित लिंक का उपयोग करें: %(base_url)s/#/projects/home?invite=%(invite_uid)s"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:7
 #, python-format
@@ -776,14 +776,14 @@ msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the project %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) "
 "to you."
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) ने अनुरोध किया है कि प्रोजेक्ट %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) का स्वामित्व आपको स्थानांतरित कर दिया जाए। "
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:9
 msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for the project will be "
 "transferred to you and count against your plan limits."
-msgstr ""
+msgstr "जब आप प्रोजेक्ट का स्वामित्व स्वीकार करते हैं, तो प्रोजेक्ट के लिए सभी प्रविष्टियां (सबमिशन), डेटा भंडारण, और ट्रांसक्रिप्शन तथा अनुवाद का उपयोग आपको स्थानांतरित कर दिया जाएगा और आपकी योजना सीमाओं के खिलाफ़ गिना जाएगा।"
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
@@ -791,7 +791,7 @@ msgstr "`{}` नहीं मिला।"
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` is not a select one question."
-msgstr "`{}` कोई एक चुनिंदा प्रश्न नहीं है।"
+msgstr "`{}` एक विकल्प चुनने वाला प्रश्न नहीं है।"
 
 #: kobo/settings/base.py:251
 msgid ""
@@ -970,689 +970,689 @@ msgstr "मैं KoboToolbox के बारे में समय-समय 
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
-msgstr ""
+msgstr "अमान्य यूज़रनेम / पासवर्ड"
 
 #: kpi/deployment_backends/base_backend.py:132
 msgid "No submissions match the given `submission_ids`"
-msgstr ""
+msgstr "कोई भी प्रविष्टियां (सबमिशन) दिए गए `submission_ids` से मेल नहीं खातीं"
 
 #: kpi/deployment_backends/base_backend.py:554
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr ""
+msgstr "यह पैरामीटर लागू नहीं किया गया है। इसकी जगह प्रतिक्रिया की `count` संपत्ति का उपयोग करें।"
 
 #: kpi/deployment_backends/base_backend.py:565
 msgid "This param is not supported in `XML` format"
-msgstr ""
+msgstr "यह पैरामीटर `XML` प्रारूप में समर्थित नहीं है"
 
 #: kpi/deployment_backends/base_backend.py:570
 msgid "This is not supported in `XML` format"
-msgstr ""
+msgstr "यह `XML` प्रारूप में समर्थित नहीं है"
 
 #: kpi/deployment_backends/base_backend.py:590
 #: kpi/deployment_backends/base_backend.py:618
 #: kpi/deployment_backends/base_backend.py:640 kpi/views/v2/data.py:527
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "मान (वैल्यू) एक मान्य JSON होना चाहिए।"
 
 #: kpi/deployment_backends/base_backend.py:595
 msgid "Value must be a list."
-msgstr ""
+msgstr "मान एक सूची होनी चाहिए।"
 
 #: kpi/deployment_backends/kobocat_backend.py:413
 msgid "Your submission XML is malformed."
-msgstr ""
+msgstr "आपका सबमिशन XML ग़लत (malformed) है।"
 
 #: kpi/deployment_backends/kobocat_backend.py:422
 msgid "Your submission XML is missing critical elements."
-msgstr ""
+msgstr "आपके सबमिशन XML में महत्वपूर्ण तत्व ग़ायब हैं।"
 
 #: kpi/deployment_backends/kobocat_backend.py:435
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr ""
+msgstr "आपने जिस सबमिशन को संपादित करने का प्रयास किया, वह नहीं मिल सका, या आपके पास उस तक पहुंच नहीं है।"
 
 #: kpi/deployment_backends/kobocat_backend.py:1556
 msgid "KoBoCAT returned an unexpected response: {}"
-msgstr ""
+msgstr "KoBoCAT ने एक अप्रत्याशित प्रतिक्रिया दी: {}"
 
 #: kpi/deployment_backends/kobocat_backend.py:1585
 msgid "Something went wrong"
-msgstr ""
+msgstr "कुछ गड़बड़ हुई है"
 
 #: kpi/exceptions.py:49
 msgid "Invalid payload for bulk updating of submissions"
-msgstr ""
+msgstr "सबमिशन के थोक अद्यतन (बल्क अपडेटिंग) के लिए अमान्य पेलोड"
 
 #: kpi/exceptions.py:64
 msgid "Must call `asset.connect_deployment()` first"
-msgstr ""
+msgstr "पहले `asset.connect_deployment()` को कॉल करना होगा"
 
 #: kpi/exceptions.py:80
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
-msgstr ""
+msgstr "आपकी पहुँच (एक्सेस) प्रतिबंधित है। कृपया ##koboform_url##/accounts/password/reset/ पर अपना पासवर्ड बदल कर एक्सेस पुनः प्राप्त करें।"
 
 #: kpi/exceptions.py:89
 msgid "Invalid search. Please try again"
-msgstr ""
+msgstr "अमान्य खोज। कृपया पुन: प्रयास करें"
 
 #: kpi/exceptions.py:129
 msgid "An error occurred trying to duplicate the submission"
-msgstr ""
+msgstr "सबमिशन की नकल बनाने का प्रयास करते समय एक त्रुटि हुई"
 
 #: kpi/exceptions.py:143
 msgid "The specified object has not been deployed"
-msgstr ""
+msgstr "निर्दिष्ट ऑब्जेक्ट परिनियोजित (डिप्लॉए) नहीं किया गया है"
 
 #: kpi/exceptions.py:152
 msgid "Bad syntax"
-msgstr ""
+msgstr "ख़राब सिंटेक्स (syntax)"
 
 #: kpi/exceptions.py:157
 msgid "Not supported field lookup"
-msgstr ""
+msgstr "फ़ील्ड लुकअप समर्थित नहीं है"
 
 #: kpi/exceptions.py:168
 msgid "Your query is too short"
-msgstr ""
+msgstr "आपकी क्वेरी बहुत छोटी है"
 
 #: kpi/fields/jsonschema_form_field.py:23
 #: kpi/fields/jsonschema_form_field.py:26
 msgid "Enter valid JSON."
-msgstr ""
+msgstr "मान्य JSON दर्ज करें।"
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr ""
+msgstr "`##place_holder##` फ़ील्ड को छुपाया नहीं जा सकता।"
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
 msgid "Unable to parse JSON: {error}"
-msgstr ""
+msgstr "JSON {error} को पार्स करने में असमर्थ:"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr ""
+msgstr "इस खाते के लिए मल्टी-फ़ैक्टर प्रमाणीकरण सक्षम है। "
 
 #: kpi/models/asset.py:250
 msgid "Can view asset"
-msgstr ""
+msgstr "संपत्ति (एसेट) देख सकते हैं"
 
 #: kpi/models/asset.py:251
 msgid "Can discover asset in public lists"
-msgstr ""
+msgstr "सार्वजनिक सूचियों में एसेट ढूँढ सकते हैं"
 
 #: kpi/models/asset.py:252
 msgid "Can manage all aspects of asset"
-msgstr ""
+msgstr "एसेट के सभी पहलुओं का प्रबंधन कर सकते हैं"
 
 #: kpi/models/asset.py:254
 msgid "Can submit data to asset"
-msgstr ""
+msgstr "एसेट में डेटा सबमिट कर सकते हैं"
 
 #: kpi/models/asset.py:255
 msgid "Can view submitted data for asset"
-msgstr ""
+msgstr "एसेट के लिए सबमिट किया गया डेटा देख सकते हैं"
 
 #: kpi/models/asset.py:256
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr ""
+msgstr "विशिष्ट उपयोगकर्ताओं के लिए एसेट के लिए सबमिट किए गए डेटा पर आंशिक कार्रवाई कर सकते हैं"
 
 #: kpi/models/asset.py:259
 msgid "Can modify submitted data for asset"
-msgstr ""
+msgstr "एसेट के लिए सबमिट किए गए डेटा को संशोधित कर सकते हैं"
 
 #: kpi/models/asset.py:260
 msgid "Can delete submitted data for asset"
-msgstr ""
+msgstr "एसेट के लिए सबमिट किया गया डेटा हटा सकते हैं"
 
 #: kpi/models/asset.py:261
 msgid "Can validate submitted data asset"
-msgstr ""
+msgstr "सबमिट किए गए डेटा एसेट को मान्य कर सकते हैं"
 
 #: kpi/models/asset.py:284
 msgid "project"
-msgstr ""
+msgstr "प्रोजेक्ट"
 
 #: kpi/models/asset.py:284
 msgid "form"
-msgstr ""
+msgstr "फ़ॉर्म"
 
 #: kpi/models/asset.py:286
 msgid "template"
-msgstr ""
+msgstr "प्रारूप (टेमप्लेट)"
 
 #: kpi/models/asset.py:287
 msgid "block"
-msgstr ""
+msgstr "बंद (ब्लॉक)"
 
 #: kpi/models/asset.py:288
 msgid "question"
-msgstr ""
+msgstr "प्रश्न"
 
 #: kpi/models/asset.py:289
 msgid "text"
-msgstr ""
+msgstr "टेक्स्ट"
 
 #: kpi/models/asset.py:290
 msgid "empty"
-msgstr ""
+msgstr "खाली"
 
 #: kpi/models/asset.py:291
 msgid "collection"
-msgstr ""
+msgstr "संग्रह"
 
 #: kpi/models/asset.py:298
 msgid "View ##asset_type_label##"
-msgstr ""
+msgstr "देखें ##asset_type_label##"
 
 #: kpi/models/asset.py:299
 msgid "Edit ##asset_type_label##"
-msgstr ""
+msgstr "संपादित करें ##asset_type_label##"
 
 #: kpi/models/asset.py:300
 msgid "Discover ##asset_type_label##"
-msgstr ""
+msgstr "खोजें ##asset_type_label##"
 
 #: kpi/models/asset.py:301
 msgid "Manage ##asset_type_label##"
-msgstr ""
+msgstr "प्रबंधित करें ##asset_type_label##"
 
 #: kpi/models/asset.py:302
 msgid "Add submissions"
-msgstr ""
+msgstr "सबमिशन जोड़ें"
 
 #: kpi/models/asset.py:303
 msgid "View submissions"
-msgstr ""
+msgstr "सबमिशन देखें"
 
 #: kpi/models/asset.py:306
 msgid "Act on submissions only from specific users"
-msgstr ""
+msgstr "केवल विशिष्ट उपयोगकर्ताओं के सबमिशन पर कार्रवाई करें"
 
 #: kpi/models/asset.py:309
 msgid "View submissions only from specific users"
-msgstr ""
+msgstr "केवल विशिष्ट उपयोगकर्ताओं के सबमिशन देखें"
 
 #: kpi/models/asset.py:312
 msgid "Edit submissions only from specific users"
-msgstr ""
+msgstr "केवल विशिष्ट उपयोगकर्ताओं के सबमिशन संपादित करें"
 
 #: kpi/models/asset.py:315
 msgid "Delete submissions only from specific users"
-msgstr ""
+msgstr "केवल विशिष्ट उपयोगकर्ताओं के सबमिशन हटाएं"
 
 #: kpi/models/asset.py:318
 msgid "Validate submissions only from specific users"
-msgstr ""
+msgstr "केवल विशिष्ट उपयोगकर्ताओं के सबमिशन मान्य करें"
 
 #: kpi/models/asset.py:321
 msgid "Edit submissions"
-msgstr ""
+msgstr "सबमिशन संपादित करें"
 
 #: kpi/models/asset.py:322
 msgid "Delete submissions"
-msgstr ""
+msgstr "सबमिशन हटाएं"
 
 #: kpi/models/asset.py:323
 msgid "Validate submissions"
-msgstr ""
+msgstr "सबमिशन मान्य करें"
 
 #: kpi/models/asset.py:634
 msgid "Only partial permissions for submissions are supported"
-msgstr ""
+msgstr "सबमिशन के लिए केवल आंशिक अनुमतियाँ समर्थित हैं"
 
 #: kpi/models/asset.py:1334
 msgid "Can not assign '{}' permission to owner"
-msgstr ""
+msgstr "उपयोगकर्ता (owner) को '{}' अनुमति नहीं दी जा सकती"
 
 #: kpi/models/asset.py:1338
 msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr ""
+msgstr "'{}' अनुमति नहीं दी जा सकती। आंशिक अनुमतियाँ अनुपलब्ध हैं।"
 
 #: kpi/models/authorized_application.py:40
 msgid "Invalid token."
-msgstr ""
+msgstr "अमान्य टोकन।"
 
 #: kpi/models/import_export_task.py:142
 msgid "Cannot access data"
-msgstr ""
+msgstr "डेटा तक नहीं पहुंच सकते"
 
 #: kpi/models/import_export_task.py:578
 msgid "This data does not exist or you do not have access to it"
-msgstr ""
+msgstr "यह डेटा मौजूद नहीं है या आपके पास इस तक पहुंच नहीं है"
 
 #: kpi/password_validation.py:95
 msgid "You cannot reuse your last password."
-msgstr ""
+msgstr "आप अपने अंतिम पासवर्ड का पुन: उपयोग नहीं कर सकते।"
 
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
-msgstr ""
+msgstr "आपका पासवर्ड आपके पिछले पासवर्ड के समान नहीं हो सकता।"
 
 #: kpi/password_validation.py:170
 msgid ""
 "The password must contain at least ##number of rules## different kinds of "
 "characters."
-msgstr ""
+msgstr "पासवर्ड में कम-से-कम ##number of rules## विभिन्न प्रकार के अक्षर (कैरेक्टर) होने चाहिए।"
 
 #: kpi/serializers/current_user.py:162
 msgid "Incorrect current password."
-msgstr ""
+msgstr "ग़लत मौजूदा पासवर्ड।"
 
 #: kpi/serializers/current_user.py:182
 msgid "`current_password` and `new_password` must both be"
-msgstr ""
+msgstr "`current_password` और `new_password` दोनों होने चाहिए"
 
 #: kpi/serializers/current_user.py:222
 #: kpi/serializers/v2/asset_permission_assignment.py:290
 msgid "This field may not be blank."
-msgstr ""
+msgstr "यह फ़ील्ड रिक्त नहीं हो सकती।"
 
 #: kpi/serializers/v2/asset.py:134
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr ""
+msgstr "%(count)d प्रोजेक्ट वापस लाया गया है"
 
 #: kpi/serializers/v2/asset.py:140
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr ""
+msgstr "%(count)d प्रोजेक्ट हटा दिया गया है"
 
 #: kpi/serializers/v2/asset.py:147
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr ""
+msgstr "%(count)d प्रोजेक्ट को असंग्रहित कर दिया गया है"
 
 #: kpi/serializers/v2/asset.py:153
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr ""
+msgstr "%(count)d प्रोजेक्ट संग्रहीत किया गया है"
 
 #: kpi/serializers/v2/asset.py:169
 msgid "One or many projects have been deleted already!"
-msgstr ""
+msgstr "एक या कई प्रोजेक्ट पहले ही हटा दिए गए हैं!"
 
 #: kpi/serializers/v2/asset.py:177
 msgid "One or many projects are already being deleted!"
-msgstr ""
+msgstr "एक या अनेक प्रोजेक्ट पहले से ही हटाए जा रहे हैं!"
 
 #: kpi/serializers/v2/asset.py:250
 msgid "`action` parameter is required"
-msgstr ""
+msgstr "`action` पैरामीटर आवश्यक है"
 
 #: kpi/serializers/v2/asset.py:255
 msgid "Supported values for `action` are: "
-msgstr ""
+msgstr "`action` के लिए समर्थित मान हैं: "
 
 #: kpi/serializers/v2/asset.py:277
 msgid "Draft projects cannot be archived"
-msgstr ""
+msgstr "ड्राफ्ट प्रोजेक्ट संग्रहीत नहीं किए जा सकते हैं"
 
 #: kpi/serializers/v2/asset.py:283 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
-msgstr ""
+msgstr "पुष्टि आवश्यक है"
 
 #: kpi/serializers/v2/asset.py:824
 msgid "The property is required"
-msgstr ""
+msgstr "संपत्ति या प्रॉपर्टी की आवश्यकता है"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "The property must be an array"
-msgstr ""
+msgstr "प्रॉपर्टी एक श्रृंखला (array) होनी चाहिए"
 
 #: kpi/serializers/v2/asset.py:850
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr ""
+msgstr "कुछ फ़ील्ड अमान्य हैं, विकल्प हैं: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:872
 msgid "User cannot update current parent collection"
-msgstr ""
+msgstr "उपयोगकर्ता वर्तमान मूल संग्रह का अद्यतन (अपडेट) नहीं कर सकता"
 
 #: kpi/serializers/v2/asset.py:882
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
-msgstr ""
+msgstr "लक्ष्य संग्रह नहीं मिला"
 
 #: kpi/serializers/v2/asset.py:886
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr ""
+msgstr "उपयोगकर्ता लक्ष्य मूल संग्रह को अपडेट नहीं कर सकता"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr ""
+msgstr "`export_settings` में निम्नलिखित सभी आवश्यक कुंजियाँ (keys)होनी चाहिए: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr ""
+msgstr "`export_settings` में केवल निम्नलिखित मान्य कुंजियाँ (keys) हो सकती हैं: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr ""
+msgstr "`multiple_select` या तो {} होना चाहिए"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr ""
+msgstr "`type` या तो {} होना चाहिए"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr ""
+msgstr "`group_sep` एक गैर-रिक्त मान होना चाहिए"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr ""
+msgstr "इस एसेट के लिए `lang` या तो {} होना चाहिए"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
 msgid "Must be a JSON object"
-msgstr ""
+msgstr "एक JSON ऑब्जेक्ट होना चाहिए"
 
 #: kpi/serializers/v2/asset_export_settings.py:134
 #: kpi/serializers/v2/export_task.py:247
 msgid "All values in the array must be integers"
-msgstr ""
+msgstr "श्रृंखला (array) में सभी मान पूर्णांक (integers) होने चाहिए"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr ""
+msgstr "`fields` एक श्रृंखला (array) होनी चाहिए"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr ""
+msgstr "`fields` श्रृंखला (array) में सभी मान स्ट्रिंग (strings) होने चाहिए"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
-msgstr ""
+msgstr "JSON अमान्य है"
 
 #: kpi/serializers/v2/asset_file.py:130
 msgid "Invalid content"
-msgstr ""
+msgstr "अमान्य सामग्री (content)"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
-msgstr ""
+msgstr "कोई फ़ाइल सबमिट नहीं की गई है"
 
 #: kpi/serializers/v2/asset_file.py:158
 msgid "File already exists"
-msgstr ""
+msgstr "फ़ाइल पहले से ही मौजूद है"
 
 #: kpi/serializers/v2/asset_file.py:208
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr ""
+msgstr "आप एक ही समय में दो अलग-अलग तरीकों से मीडिया फ़ाइल अपलोड नहीं कर सकते। कृपया बाइनरी अपलोड, बेस64 या रिमोट URL के बीच चयन करें।"
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
-msgstr ""
+msgstr "यह फ़ील्ड आवश्यक है।"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr ""
+msgstr "`redirect_url` आवश्यक है"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr ""
+msgstr "`filename` आवश्यक है"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr ""
+msgstr "`redirect_url` अमान्य है"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr ""
+msgstr "केवल `{}` माइम (MIME) प्रकारों की अनुमति है"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:163
 msgid "This field is required for the '{}' permission"
-msgstr ""
+msgstr "यह फ़ील्ड '{}' अनुमति के लिए आवश्यक है"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:177
 #: kpi/serializers/v2/asset_permission_assignment.py:182
 #: kpi/serializers/v2/asset_permission_assignment.py:188
 #: kpi/serializers/v2/asset_permission_assignment.py:497
 msgid "Invalid `url`"
-msgstr ""
+msgstr "अमान्य `url`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:193
 msgid "Invalid `filters`"
-msgstr ""
+msgstr "अमान्य `filters`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:210
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr ""
+msgstr "इस प्रकार के एसेट ऑब्जेक्ट्स को स्पष्ट रूप से {permission} निर्धारित (assign) नहीं किया जा सकता है।"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:289
 msgid "Not a valid list."
-msgstr ""
+msgstr "मान्य सूची नहीं है।"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:490
 #: kpi/serializers/v2/asset_permission_assignment.py:493
 msgid "Invalid hyperlink - Object does not exist."
-msgstr ""
+msgstr "अमान्य हाइपरलिंक - ऑब्जेक्ट मौजूद नहीं है।"
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr ""
+msgstr "`submission_ids` में केवल पूर्णांक मान होने चाहिए"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr ""
+msgstr "`submission_ids` में कम-से-कम एक मान होना चाहिए"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr ""
+msgstr "`data` आवश्यक है"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr ""
+msgstr "`validation_status.uid` आवश्यक है"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
-msgstr ""
+msgstr "निम्नलिखित सभी आवश्यक कुंजियाँ होनी चाहिए: {}"
 
 #: kpi/serializers/v2/export_task.py:137
 msgid "Can contain only the following valid keys: {}"
-msgstr ""
+msgstr "केवल निम्नलिखित मान्य कुंजियाँ हो सकती हैं: {}"
 
 #: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
 msgid "Must be an array"
-msgstr ""
+msgstr "एक श्रृंखला (array) होनी चाहिए"
 
 #: kpi/serializers/v2/export_task.py:159
 msgid "All values in the array must be strings"
-msgstr ""
+msgstr "श्रृंखला (array) में सभी मान स्ट्रिंग होने चाहिए"
 
 #: kpi/serializers/v2/export_task.py:169
 msgid "Must be a non-empty value"
-msgstr ""
+msgstr "एक गैर-रिक्त मान होना चाहिए"
 
 #: kpi/serializers/v2/export_task.py:182
 msgid "For this asset must be either {}"
-msgstr ""
+msgstr "इसके लिए संपत्ति (asset) या तो होनी चाहिए {}"
 
 #: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
 msgid "Must be either {}"
-msgstr ""
+msgstr "या तो होना चाहिए {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr ""
+msgstr "परिसंपत्ति या एसेट परिनियोजित (deploy) किया जाना चाहिए।"
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr ""
+msgstr "निर्यात का नाम एक स्ट्रिंग होना चाहिए।"
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
-msgstr ""
+msgstr "स्रोत बदला नहीं जा सकता"
 
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr ""
+msgstr "`{source_uid}` के लिए डेटा साझा करण संभव नहीं है"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr ""
+msgstr "डेटा को `{source_uid}` के साथ जोड़ने की अनुमति नहीं है"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr ""
+msgstr "स्रोत `{source}` पहले से ही युग्मित (पेर्ड) है"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr ""
+msgstr "कुछ फ़ील्ड अमान्य हैं, विकल्प हैं: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr ""
+msgstr "केवल अक्षर, संख्या और `-` की अनुमति है"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr ""
+msgstr "एक्सटेंशन `xml` होना चाहिए"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr ""
+msgstr "`{basename}` पहले से ही प्रयोग किया जा चुका है"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr ""
+msgstr "अमान्य एसेट प्रकार। केवल `{asset_type}` की अनुमति है"
 
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
-msgstr ""
+msgstr "आधुनिक ब्राउज़र"
 
 #: kpi/templates/modern_browsers.html:8
 msgid ""
 "Ouch! Sorry, you were probably sent here because your browser is outdated or"
 " perhaps it has its key features disabled by using \"private browsing\" "
 "mode."
-msgstr ""
+msgstr "ओह! माफ़ करिए, आपको यहाँ शायद इसलिए वापस भेजा गया क्योंकि आपका ब्राउज़र पुराना है या शायद ‘निजी ब्राउज़िंग’ मोड इस्तेमाल कर के इसकी प्रमुख विशेषताएं (फ़ीचर्स) अक्षम हैं।"
 
 #: kpi/templates/modern_browsers.html:12
 msgid ""
 "If you are using an outdated browser, we recommend upgrading to a recent "
 "version of one of the following excellent modern browsers:"
-msgstr ""
+msgstr "अगर आप एक पुराना ब्राउज़र इस्तेमाल कर रहे हैं, तो हम निम्नलिखित उत्कृष्ट आधुनिक ब्राउज़र में से किसी एक के हाल के संस्करण में अपग्रेड करने की सलाह देते हैं:"
 
 #: kpi/templates/modern_browsers.html:17
 msgid "Firefox download page"
-msgstr ""
+msgstr "फ़ायरफ़ॉक्स डाउनलोड पृष्ठ"
 
 #: kpi/templates/modern_browsers.html:18
 msgid "Firefox"
-msgstr ""
+msgstr "फ़ायरफ़ॉक्स"
 
 #: kpi/templates/modern_browsers.html:22
 msgid "Chrome download page"
-msgstr ""
+msgstr "क्रोम डाउनलोड पृष्ठ"
 
 #: kpi/templates/modern_browsers.html:23
 msgid "Chrome"
-msgstr ""
+msgstr "क्रोम"
 
 #: kpi/templates/modern_browsers.html:27
 msgid "Edge download page"
-msgstr ""
+msgstr "ऐज डाउनलोड पृष्ठ"
 
 #: kpi/templates/modern_browsers.html:28
 msgid "Edge"
-msgstr ""
+msgstr "ऐज"
 
 #: kpi/templates/modern_browsers.html:32
 msgid "Opera download page"
-msgstr ""
+msgstr "ऑपेरा डाउनलोड पृष्ठ"
 
 #: kpi/templates/modern_browsers.html:33
 msgid "Opera"
-msgstr ""
+msgstr "ऑपेरा"
 
 #: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
-msgstr ""
+msgstr "इस ईमेल डोमेन को खाता बनाने की अनुमति नहीं है"
 
 #: kpi/utils/two_database_configuration_checker.py:41
 msgid "Exactly two databases must be configured"
-msgstr ""
+msgstr "सिर्फ़ दो डेटाबेस ही विन्यस्त (कॉन्फ़िगर) किए जाने चाहिए"
 
 #: kpi/utils/two_database_configuration_checker.py:42
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr ""
+msgstr "KPI और KoBoCAT में से प्रत्येक का अपना डेटाबेस होना चाहिए। KPI डेटाबेस को 'डिफ़ॉल्ट' और KoBoCAT डेटाबेस को 'kobocat' के रूप में विन्यस्त (कॉन्फ़िगर) करें।"
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr ""
+msgstr "KPI, KoBoCAT के साथ डेटाबेस साझा नहीं कर सकता है"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr ""
+msgstr "KPI और KoBoCAT, प्रत्येक का अपना डेटाबेस होना चाहिए।"
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr ""
+msgstr "साझा-डेटाबेस इंस्टॉलेशन से अपूर्ण माइग्रेशन"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr ""
+msgstr "KoBoCAT डेटाबेस मूल रूप से KPI द्वारा साझा किया गया था, लेकिन KPI तालिकाओं की उस साझा किए गए डेटाबेस से नए, केवल-KPI डेटाबेस में प्रतिलिपि नहीं बनाई गई थी।"
 
 #: kpi/views/current_user.py:107
 msgid "Invalid confirmation"
-msgstr ""
+msgstr "अमान्य पुष्टि"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr ""
+msgstr "केवल निम्नलिखित प्रारूप उपलब्ध हैं: ##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:211
 msgid "Source and destination objects don't seem to have the same type"
-msgstr ""
+msgstr "स्रोत और गंतव्य ऑब्जेक्ट्स में एक ही तरह की टाइप (type) नहीं लगते"
 
 #: kpi/views/v2/asset_permission_assignment.py:240
 msgid "Owner's permissions cannot be deleted"
-msgstr ""
+msgstr "मालिक (owner) की अनुमतियाँ हटाई नहीं जा सकती"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr ""
+msgstr "`xpath` क्वेरी पैरामीटर आवश्यक है"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
-msgstr ""
+msgstr "अमान्य XPath सिंटैक्स (syntax)"
 
 #: kpi/views/v2/attachment.py:98
 msgid "The path could not be found in the submission"
-msgstr ""
+msgstr "सबमिशन में यह पाथ (path) नहीं मिला"
 
 #: kpi/views/v2/attachment.py:107
 msgid "The error occurred during conversion"
-msgstr ""
+msgstr "रूपांतरण (कनवर्ज़न) के दौरान त्रुटि हुई"
 
 #: kpi/views/v2/attachment.py:111
 msgid "Conversion is not supported for {}"
-msgstr ""
+msgstr "{} के लिए रूपांतरण (कनवर्ज़न) समर्थित नहीं है"
 
 #: kpi/views/v2/data.py:322
 msgid "The specified asset has not been deployed"
-msgstr ""
+msgstr "निर्दिष्ट एसेट परिनियोजित (डिप्लॉए) नहीं किया गया है"
 
 #: kpi/views/v2/data.py:626
 msgid "A positive integer is required"
-msgstr ""
+msgstr "एक धनात्मक पूर्णांक (पॉज़िटिव इंटीजर) आवश्यक है"
