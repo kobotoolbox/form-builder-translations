@@ -228,7 +228,7 @@ msgstr "Amennyiben Ön volt a kérelmező, próbáljon ki egy másik e-mail-cím
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_subject.txt:3
 msgid "KoboToolbox Password Reset Unsuccessful"
-msgstr "KoboToolbox-jelszó helyreállítása sikertelen"
+msgstr "KoboToolbox-jelszó visszaállítása sikertelen"
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:15
 msgid "Confirm E-mail Address"
@@ -315,7 +315,7 @@ msgstr "Kérését megkaptuk. Amennyiben a megadott e-mail-címhez tartozik egy 
 
 #: kobo/apps/accounts/templates/account/password_reset_from_key.html:13
 msgid "Password reset failed"
-msgstr "Sikertelen jelszó-helyreállítás"
+msgstr "Sikertelen jelszó-visszaállítás"
 
 #: kobo/apps/accounts/templates/account/password_reset_from_key.html:25
 msgid "Submit"
@@ -353,41 +353,41 @@ msgstr "Kattintson az aktiváló hivatkozásra, amely az Önnek imént elküldö
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:7
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:13
 msgid "SSO Login Failure"
-msgstr ""
+msgstr "Sikertelen SSO-bejelentkezés"
 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:17
 msgid "An error occurred while attempting to login using your SSO account."
-msgstr ""
+msgstr "Hiba történt az SSO-fiókjával történő bejelentkezés során."
 
 #: kobo/apps/accounts/templates/socialaccount/authentication_error.html:20
 msgid "Go back"
-msgstr ""
+msgstr "Visszalép"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:5
 msgid "Connect your Account to SSO"
-msgstr ""
+msgstr "Kösse össze a fiókját az SSO-val"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:10
 msgid "Manage your SSO Account"
-msgstr ""
+msgstr "SSO-fiók kezelése"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:15
 msgid ""
 "You can sign in to your KoboToolbox account using any of the following SSO "
 "providers:"
-msgstr ""
+msgstr "Bejelentkezhet a KoboToolbox-fiókjába az alábbi SSO-szolgáltatók valamelyikével:"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:39
 msgid "Remove"
-msgstr ""
+msgstr "Eltávolítás"
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:45
 msgid "You currently have no third-party accounts connected to this account."
-msgstr ""
+msgstr "Ehhez a fiókhoz jelenleg nincs hozzárendelve harmadik féltől származó fiók."
 
 #: kobo/apps/accounts/templates/socialaccount/connections.html:51
 msgid "Add an SSO Account"
-msgstr ""
+msgstr "SSO-fiók hozzáadása"
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:14
 msgid "Set up Single Sign On"
@@ -512,7 +512,7 @@ msgstr "Dátum"
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:5
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:5
 msgid "Dear"
-msgstr "Kedves"
+msgstr "Tisztelt"
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:11
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:12
@@ -561,13 +561,13 @@ msgstr "Importálás"
 
 #: kobo/apps/project_ownership/models/transfer.py:217
 msgid "Project ownership transferred"
-msgstr ""
+msgstr "Projekt tulajdonjoga átruházva"
 
 #: kobo/apps/project_ownership/models/transfer.py:219
 msgid ""
 "Please note that the ownership of the project **##project_name##** has been "
 "transferred from **##previous_owner##** to **##new_owner##**."
-msgstr ""
+msgstr "Figyelem: a(z) **##project_name##** projekt átkerült **##previous_owner##** felhasználótól **##new_owner##** tulajdonába."
 
 #: kobo/apps/project_ownership/models/transfer.py:223
 msgid ""
@@ -576,38 +576,38 @@ msgid ""
 "Please note that the ownership of the project **##project_name##** has been transferred from **##previous_owner##** to **##new_owner##**.\n"
 "\n"
 "Note: You will continue to have the same project permissions until they are changed."
-msgstr ""
+msgstr "Tisztelt ##username##!\n\nÉrtesítjük, hogy a(z) **##project_name##** projekt átkerült **##previous_owner##** felhasználótól **##new_owner##** tulajdonába.\n\nMegjegyzés: Az Ön projektjogosultságai változatlanok maradnak, amíg azokat nem módosítják."
 
 #: kobo/apps/project_ownership/serializers/invite.py:127
 #: kobo/apps/project_ownership/serializers/invite.py:190
 #: kobo/apps/project_ownership/serializers/invite.py:199
 msgid "This field cannot be modified"
-msgstr ""
+msgstr "Ezt a mezőt nem lehet módosítani"
 
 #: kobo/apps/project_ownership/serializers/invite.py:137
 msgid "You must be the owner of each project you want to transfer"
-msgstr ""
+msgstr "Az átruházni kívánt projektek mindegyikének az Ön tulajdonában kell lenni"
 
 #: kobo/apps/project_ownership/serializers/invite.py:173
 msgid ""
 "Project `##asset_uid##` cannot be transferred. Current status: ##status##"
-msgstr ""
+msgstr "`##asset_uid##` projektet nem lehet átruházni. Jelenlegi állapot:##status##"
 
 #: kobo/apps/project_ownership/serializers/invite.py:265
 msgid "KoboToolbox project ownership transfer accepted"
-msgstr ""
+msgstr "KoboToolbox-projekt tulajdonjogának átruházása elfogadva"
 
 #: kobo/apps/project_ownership/serializers/invite.py:294
 msgid "Action required: KoboToolbox project ownership transfer request"
-msgstr ""
+msgstr "Intézkedés szükséges: Kérelem KoboToolbox-projekt tulajdonjogának átruházására"
 
 #: kobo/apps/project_ownership/serializers/invite.py:320
 msgid "KoboToolbox project ownership transfer incomplete"
-msgstr ""
+msgstr "KoboToolbox-projekt tulajdonjogának átruházása hiányos"
 
 #: kobo/apps/project_ownership/tasks.py:171
 msgid "Invite has expired"
-msgstr ""
+msgstr "A meghívás lejárt"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:3
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:3
@@ -617,7 +617,7 @@ msgstr ""
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:3
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:3
 msgid "Projects:"
-msgstr ""
+msgstr "Projektek:"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:8
 #, python-format
@@ -625,20 +625,20 @@ msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> "
 "to you."
-msgstr ""
+msgstr "%(recipient)s elfogadta a kérelmét, hogy átruházza <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> projekt tulajdonjogát."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:10
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "this project will be transferred to the new project owner."
-msgstr ""
+msgstr "Az ezen projekthez tartozó minden űrlapválasz, adattárhely, valamint az átírás és fordítás használata átkerül az új projekttulajdonoshoz."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:10
 msgid ""
 "Note: You will continue to have permissions to manage the project until the "
 "user permissions are changed."
-msgstr ""
+msgstr "Továbbra is jogosultsága lesz a projekt kezelésére, amíg a felhasználói jogosultságokat meg nem változtatják."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:14
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:12
@@ -646,41 +646,41 @@ msgstr ""
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of these "
 "projects:"
-msgstr ""
+msgstr "%(recipient)s elfogadta a kérését, hogy átruházza a következő projektek tulajdonjogát:"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:17
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "these projects will be transferred to the new project owner."
-msgstr ""
+msgstr "Az ezen projektekhez tartozó minden űrlapválasz, adattárhely, valamint az átírás és fordítás használata átkerül az új projekttulajdonoshoz."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:19
 msgid ""
 "Note: You will continue to have permissions to manage these projects until "
 "the user permissions are changed."
-msgstr ""
+msgstr "Megjegyzés: Továbbra is jogosultsága lesz ezen projektek kezelésére, amíg a felhasználói jogosultságokat meg nem változtatják."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:6
 #, python-format
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) to you."
-msgstr ""
+msgstr "%(recipient)s elfogadta a kérelmét, hogy átruházza %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) projekt tulajdonjogát."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:8
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "the project will be transferred to the new project owner."
-msgstr ""
+msgstr "A projekthez tartozó minden űrlapválasz, adattárhely, valamint az átírás és fordítás használata átkerül az új projekttulajdonoshoz."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:8
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>."
-msgstr ""
+msgstr "%(recipient)s elutasította a kérelmét, hogy átruházza <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> projekt tulajdonjogát."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:9
@@ -688,7 +688,7 @@ msgid ""
 "You will remain the owner of the project. The submissions, data storage, and"
 " transcription and translation usage for the project have not been "
 "transferred."
-msgstr ""
+msgstr "Továbbra is Ön a projekt tulajdonosa. A projekthez tartozó űrlapválaszok, adattárhely, valamint az átírás és fordítás használata nem került átadásra."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:11
@@ -696,7 +696,7 @@ msgstr ""
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of these "
 "projects:"
-msgstr ""
+msgstr "%(recipient)s elutasította a kérelmét, hogy átruházza az alábbi projektek tulajdonjogát:"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:20
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:16
@@ -704,24 +704,24 @@ msgid ""
 "You will remain the owner of these projects. The submissions, data storage, "
 "and transcription and translation usage for these projects have not been "
 "transferred."
-msgstr ""
+msgstr "Továbbra is Ön a projektek tulajdonosa. Az ezen projektekhez tartozó űrlapválaszok, adattárhely, valamint az átírás és fordítás használata nem került átruházásra."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:7
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
-msgstr ""
+msgstr "%(recipient)s elutasította a kérelmét, hogy átruházza %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) projekt tulajdonjogát."
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.html:6
 #, python-format
 msgid "The request you have sent to <b>%(recipient)s</b> has expired."
-msgstr ""
+msgstr "<b>%(recipient)s</b> részére elküldött kérelme lejárt."
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.txt:7
 #, python-format
 msgid "The request you have sent to %(recipient)s has expired."
-msgstr ""
+msgstr "%(recipient)s részére elküldött kérelme lejárt."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:8
 #, python-format
@@ -730,7 +730,7 @@ msgid ""
 "of the project <a "
 "href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> to "
 "you."
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) elfogadta a kérelmét, hogy átruházza <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> projekt tulajdonjogát."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:20
@@ -739,7 +739,7 @@ msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for these projects will be "
 "transferred to you and count against your plan limits."
-msgstr ""
+msgstr "A tulajdonjog átruházásának elfogadásakor az ezen projektekhez tartozó minden űrlapválasz, adattárhely, valamint az átírás és fordítás használata átkerül Önhöz, és az Ön csomagkeretét fogják terhelni."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:11
@@ -747,18 +747,18 @@ msgstr ""
 msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the following projects to you:"
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) elfogadta a kérelmét, hogy átruházza az alábbi projektek tulajdonjogát:"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:19
 msgid "If you are unsure, please contact the current owner."
-msgstr ""
+msgstr "Ha kérdése van, lépjen kapcsolatba a jelenlegi tulajdonossal."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:21
 #, python-format
 msgid "This transfer request will expire in %(invite_expiry)s days."
-msgstr ""
+msgstr "Az átruházási kérelem %(invite_expiry)s nap múlva lejár."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:27
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:23
@@ -766,7 +766,7 @@ msgstr ""
 msgid ""
 "To respond to this transfer request, please use the following link: "
 "%(base_url)s/#/projects/home?invite=%(invite_uid)s"
-msgstr ""
+msgstr "Az átruházási kérelemre történő válaszadáshoz használja az alábbi hivatkozást: %(base_url)s/#/projects/home?invite=%(invite_uid)s"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:7
 #, python-format
@@ -774,14 +774,14 @@ msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the project %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) "
 "to you."
-msgstr ""
+msgstr "%(sender_username)s (%(sender_email)s) elfogadta a kérelmét, hogy átruházza %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) projekt tulajdonjogát."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:9
 msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for the project will be "
 "transferred to you and count against your plan limits."
-msgstr ""
+msgstr "A tulajdonjog átruházásának elfogadásakor a projekthez tartozó minden űrlapválasz, adattárhely, valamint az átírás és fordítás használata átkerül Önhöz, és az Ön csomagkeretét fogják terhelni."
 
 #: kobo/apps/reports/report_data.py:136
 msgid "`{}` not found."
@@ -968,689 +968,689 @@ msgstr "Szeretnék rendszeres tájékoztatást kapni a KoboToolbox újdonságair
 
 #: kpi/authentication.py:59
 msgid "Invalid username/password"
-msgstr ""
+msgstr "Érvénytelen felhasználónév/jelszó"
 
 #: kpi/deployment_backends/base_backend.py:132
 msgid "No submissions match the given `submission_ids`"
-msgstr ""
+msgstr "Nincs olyan űrlapválasz, ahol ez a(z) `submission_ids` értéke"
 
 #: kpi/deployment_backends/base_backend.py:554
 msgid ""
 "This param is not implemented. Use `count` property of the response instead."
-msgstr ""
+msgstr "Ez a paraméter nincs implementálva. Használja helyette a válasz `count` tulajdonságát."
 
 #: kpi/deployment_backends/base_backend.py:565
 msgid "This param is not supported in `XML` format"
-msgstr ""
+msgstr "Ez a paraméter nem támogatott `XML` formátumban"
 
 #: kpi/deployment_backends/base_backend.py:570
 msgid "This is not supported in `XML` format"
-msgstr ""
+msgstr "Nem támogatott `XML` formátumban"
 
 #: kpi/deployment_backends/base_backend.py:590
 #: kpi/deployment_backends/base_backend.py:618
 #: kpi/deployment_backends/base_backend.py:640 kpi/views/v2/data.py:527
 msgid "Value must be valid JSON."
-msgstr ""
+msgstr "Az értéknek érvényes JSON-nak kell lennie."
 
 #: kpi/deployment_backends/base_backend.py:595
 msgid "Value must be a list."
-msgstr ""
+msgstr "Az értéknek listának kell lennie."
 
 #: kpi/deployment_backends/kobocat_backend.py:413
 msgid "Your submission XML is malformed."
-msgstr ""
+msgstr "A beküldött űrlapválasz XML formátuma hibás."
 
 #: kpi/deployment_backends/kobocat_backend.py:422
 msgid "Your submission XML is missing critical elements."
-msgstr ""
+msgstr "A beküldött űrlapválasz XML-fájljából hiányoznak kritikus elemek."
 
 #: kpi/deployment_backends/kobocat_backend.py:435
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr ""
+msgstr "Az űrlapválasz, amelyet szerkeszteni próbált, nem található vagy nincs hozzáférése."
 
 #: kpi/deployment_backends/kobocat_backend.py:1556
 msgid "KoBoCAT returned an unexpected response: {}"
-msgstr ""
+msgstr "A KoBoCAT váratlan választ adott: {}"
 
 #: kpi/deployment_backends/kobocat_backend.py:1585
 msgid "Something went wrong"
-msgstr ""
+msgstr "Valamilyen hiba történt"
 
 #: kpi/exceptions.py:49
 msgid "Invalid payload for bulk updating of submissions"
-msgstr ""
+msgstr "Érvénytelen adatcsomag az űrlapválaszok tömeges frissítéséhez"
 
 #: kpi/exceptions.py:64
 msgid "Must call `asset.connect_deployment()` first"
-msgstr ""
+msgstr "Először a(z) `asset.connect_deployment()` eljárást kell kezdeményezni"
 
 #: kpi/exceptions.py:80
 msgid ""
 "Your access is restricted. Please reclaim your access by changing your "
 "password at ##koboform_url##/accounts/password/reset/."
-msgstr ""
+msgstr "A hozzáférése korlátozva van. A hozzáférését a jelszava megváltoztatásával szerezheti vissza: ##koboform_url##/accounts/password/reset/."
 
 #: kpi/exceptions.py:89
 msgid "Invalid search. Please try again"
-msgstr ""
+msgstr "Érvénytelen keresés. Próbálja meg újra"
 
 #: kpi/exceptions.py:129
 msgid "An error occurred trying to duplicate the submission"
-msgstr ""
+msgstr "Hiba lépett fel az űrlapválasz-másolat készítése közben"
 
 #: kpi/exceptions.py:143
 msgid "The specified object has not been deployed"
-msgstr ""
+msgstr "A megadott eszköz még nincs élesítve"
 
 #: kpi/exceptions.py:152
 msgid "Bad syntax"
-msgstr ""
+msgstr "Rossz szintaxis"
 
 #: kpi/exceptions.py:157
 msgid "Not supported field lookup"
-msgstr ""
+msgstr "Nem támogatott mezőkeresés"
 
 #: kpi/exceptions.py:168
 msgid "Your query is too short"
-msgstr ""
+msgstr "A lekérdezése túl rövid"
 
 #: kpi/fields/jsonschema_form_field.py:23
 #: kpi/fields/jsonschema_form_field.py:26
 msgid "Enter valid JSON."
-msgstr ""
+msgstr "Adjon meg érvényes JSON-fájlt."
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr ""
+msgstr "A(z) `##place_holder##` mező nem lehet rejtett."
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
 msgid "Unable to parse JSON: {error}"
-msgstr ""
+msgstr "Nem sikerült értelmezni az alábbi JSON-t: {error}"
 
 #: kpi/mixins/mfa.py:24
 msgid "Multi-factor authentication is enabled for this account. "
-msgstr ""
+msgstr "Ehhez a fiókhoz a többfaktoros hitelesítés engedélyezve van. "
 
 #: kpi/models/asset.py:250
 msgid "Can view asset"
-msgstr ""
+msgstr "Az eszköz megtekinthető"
 
 #: kpi/models/asset.py:251
 msgid "Can discover asset in public lists"
-msgstr ""
+msgstr "Az eszköz felfedezhető nyilvános listákban"
 
 #: kpi/models/asset.py:252
 msgid "Can manage all aspects of asset"
-msgstr ""
+msgstr "Az eszköz minden tulajdonsága elérhető"
 
 #: kpi/models/asset.py:254
 msgid "Can submit data to asset"
-msgstr ""
+msgstr "Az adatok beküldhetők az eszközhöz"
 
 #: kpi/models/asset.py:255
 msgid "Can view submitted data for asset"
-msgstr ""
+msgstr "Az eszközhöz beküldött adatok megtekinthetők"
 
 #: kpi/models/asset.py:256
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr ""
+msgstr "Részleges műveletek végrehajthatók a beküldött adatokkal az eszközön, meghatározott felhasználók számára"
 
 #: kpi/models/asset.py:259
 msgid "Can modify submitted data for asset"
-msgstr ""
+msgstr "Az eszközhöz beküldött adatok módosíthatók"
 
 #: kpi/models/asset.py:260
 msgid "Can delete submitted data for asset"
-msgstr ""
+msgstr "Az eszközhöz beküldött adatok törölhetők"
 
 #: kpi/models/asset.py:261
 msgid "Can validate submitted data asset"
-msgstr ""
+msgstr "Az eszközhöz beküldött adatok érvényesíthetők"
 
 #: kpi/models/asset.py:284
 msgid "project"
-msgstr ""
+msgstr "projekt"
 
 #: kpi/models/asset.py:284
 msgid "form"
-msgstr ""
+msgstr "űrlap"
 
 #: kpi/models/asset.py:286
 msgid "template"
-msgstr ""
+msgstr "sablon"
 
 #: kpi/models/asset.py:287
 msgid "block"
-msgstr ""
+msgstr "blokk"
 
 #: kpi/models/asset.py:288
 msgid "question"
-msgstr ""
+msgstr "kérdés"
 
 #: kpi/models/asset.py:289
 msgid "text"
-msgstr ""
+msgstr "szöveg"
 
 #: kpi/models/asset.py:290
 msgid "empty"
-msgstr ""
+msgstr "üres"
 
 #: kpi/models/asset.py:291
 msgid "collection"
-msgstr ""
+msgstr "gyűjtemény"
 
 #: kpi/models/asset.py:298
 msgid "View ##asset_type_label##"
-msgstr ""
+msgstr "##asset_type_label## megtekintése"
 
 #: kpi/models/asset.py:299
 msgid "Edit ##asset_type_label##"
-msgstr ""
+msgstr "##asset_type_label## szerkesztése"
 
 #: kpi/models/asset.py:300
 msgid "Discover ##asset_type_label##"
-msgstr ""
+msgstr "##asset_type_label## felfedezése"
 
 #: kpi/models/asset.py:301
 msgid "Manage ##asset_type_label##"
-msgstr ""
+msgstr "##asset_type_label## kezelése"
 
 #: kpi/models/asset.py:302
 msgid "Add submissions"
-msgstr ""
+msgstr "Űrlapválaszok hozzáadása"
 
 #: kpi/models/asset.py:303
 msgid "View submissions"
-msgstr ""
+msgstr "Űrlapválaszok megtekintése"
 
 #: kpi/models/asset.py:306
 msgid "Act on submissions only from specific users"
-msgstr ""
+msgstr "Végrehajtás csak meghatározott felhasználók által beküldött űrlapválaszokon"
 
 #: kpi/models/asset.py:309
 msgid "View submissions only from specific users"
-msgstr ""
+msgstr "Csak meghatározott felhasználóktól érkezett űrlapválaszok megtekintése"
 
 #: kpi/models/asset.py:312
 msgid "Edit submissions only from specific users"
-msgstr ""
+msgstr "Csak meghatározott felhasználóktól érkezett űrlapválaszok szerkesztése"
 
 #: kpi/models/asset.py:315
 msgid "Delete submissions only from specific users"
-msgstr ""
+msgstr "Csak meghatározott felhasználóktól érkezett űrlapválaszok törlése"
 
 #: kpi/models/asset.py:318
 msgid "Validate submissions only from specific users"
-msgstr ""
+msgstr "Csak meghatározott felhasználóktól érkezett űrlapválaszok érvényesítése"
 
 #: kpi/models/asset.py:321
 msgid "Edit submissions"
-msgstr ""
+msgstr "Űrlapválaszok szerkesztése"
 
 #: kpi/models/asset.py:322
 msgid "Delete submissions"
-msgstr ""
+msgstr "Űrlapválaszok törlése"
 
 #: kpi/models/asset.py:323
 msgid "Validate submissions"
-msgstr ""
+msgstr "Űrlapválaszok érvényesítése"
 
 #: kpi/models/asset.py:634
 msgid "Only partial permissions for submissions are supported"
-msgstr ""
+msgstr "Az űrlapválaszokhoz csak részleges engedélyek támogatottak"
 
 #: kpi/models/asset.py:1334
 msgid "Can not assign '{}' permission to owner"
-msgstr ""
+msgstr "Nem lehet „{}” jogosultságot hozzárendelni a tulajdonoshoz"
 
 #: kpi/models/asset.py:1338
 msgid "Can not assign '{}' permission. Partial permissions are missing."
-msgstr ""
+msgstr "Nem lehet „{}” jogosultságot hozzárendelni. Részleges jogosultságok hiányoznak."
 
 #: kpi/models/authorized_application.py:40
 msgid "Invalid token."
-msgstr ""
+msgstr "Érvénytelen token."
 
 #: kpi/models/import_export_task.py:142
 msgid "Cannot access data"
-msgstr ""
+msgstr "Az adatok nem hozzáférhetőek"
 
 #: kpi/models/import_export_task.py:578
 msgid "This data does not exist or you do not have access to it"
-msgstr ""
+msgstr "Ez az adat nem létezik vagy nincs hozzáférése"
 
 #: kpi/password_validation.py:95
 msgid "You cannot reuse your last password."
-msgstr ""
+msgstr "Nem használhatja újra az utolsó jelszavát."
 
 #: kpi/password_validation.py:103
 msgid "Your password cannot be the same as your previous one."
-msgstr ""
+msgstr "A jelszava nem lehet ugyanaz, mint az előző volt."
 
 #: kpi/password_validation.py:170
 msgid ""
 "The password must contain at least ##number of rules## different kinds of "
 "characters."
-msgstr ""
+msgstr "A jelszónak legalább ##number of rules## különböző típusú karaktert kell tartalmaznia."
 
 #: kpi/serializers/current_user.py:162
 msgid "Incorrect current password."
-msgstr ""
+msgstr "Hibás jelenlegi jelszó."
 
 #: kpi/serializers/current_user.py:182
 msgid "`current_password` and `new_password` must both be"
-msgstr ""
+msgstr "Mind `current_password` és `new_password` szükséges"
 
 #: kpi/serializers/current_user.py:222
 #: kpi/serializers/v2/asset_permission_assignment.py:290
 msgid "This field may not be blank."
-msgstr ""
+msgstr "Ez a mező nem lehet üres."
 
 #: kpi/serializers/v2/asset.py:134
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr ""
+msgstr "%(count)d projekt törlése vissza lett vonva"
 
 #: kpi/serializers/v2/asset.py:140
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr ""
+msgstr "%(count)d projekt törölve lett"
 
 #: kpi/serializers/v2/asset.py:147
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr ""
+msgstr "%(count)d projekt archiválása vissza lett vonva"
 
 #: kpi/serializers/v2/asset.py:153
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr ""
+msgstr "%(count)d projekt archiválva lett"
 
 #: kpi/serializers/v2/asset.py:169
 msgid "One or many projects have been deleted already!"
-msgstr ""
+msgstr "Egy vagy több projekt már törölve van!"
 
 #: kpi/serializers/v2/asset.py:177
 msgid "One or many projects are already being deleted!"
-msgstr ""
+msgstr "Egy vagy több projekt törlés alatt áll!"
 
 #: kpi/serializers/v2/asset.py:250
 msgid "`action` parameter is required"
-msgstr ""
+msgstr "`action` paraméter szükséges"
 
 #: kpi/serializers/v2/asset.py:255
 msgid "Supported values for `action` are: "
-msgstr ""
+msgstr "A(z) `action` elfogadható értékei: "
 
 #: kpi/serializers/v2/asset.py:277
 msgid "Draft projects cannot be archived"
-msgstr ""
+msgstr "Vázlat állapotú projektek nem archiválhatók"
 
 #: kpi/serializers/v2/asset.py:283 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
-msgstr ""
+msgstr "Megerősítés szükséges"
 
 #: kpi/serializers/v2/asset.py:824
 msgid "The property is required"
-msgstr ""
+msgstr "A tulajdonság szükséges"
 
 #: kpi/serializers/v2/asset.py:828
 msgid "The property must be an array"
-msgstr ""
+msgstr "A tulajdonságnak egy tömbnek kell lennie"
 
 #: kpi/serializers/v2/asset.py:850
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{valid_fields}`"
-msgstr ""
+msgstr "Néhány mező érvénytelen, a választási lehetőségek: `{valid_fields}`"
 
 #: kpi/serializers/v2/asset.py:872
 msgid "User cannot update current parent collection"
-msgstr ""
+msgstr "A felhasználó nem frissítheti a jelenlegi szülőgyűjteményt"
 
 #: kpi/serializers/v2/asset.py:882
 #: kpi/tests/api/v2/test_api_collections.py:482
 msgid "Target collection not found"
-msgstr ""
+msgstr "A célgyűjtemény nem található"
 
 #: kpi/serializers/v2/asset.py:886
 #: kpi/tests/api/v2/test_api_collections.py:472
 msgid "User cannot update target parent collection"
-msgstr ""
+msgstr "A felhasználó nem frissítheti a cél szülőgyűjteményt"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
-msgstr ""
+msgstr "`export_settings` elemnek a következő szükséges kulcsok mindegyikét tartalmaznia kell: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:75
 msgid "`export_settings` can contain only the following valid keys: {}"
-msgstr ""
+msgstr "`export_settings` csak a következő érvényes kulcsokat tartalmazhatja: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:87
 msgid "`multiple_select` must be either {}"
-msgstr ""
+msgstr "`multiple_select` csak a következők egyike lehet: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:94
 msgid "`type` must be either {}"
-msgstr ""
+msgstr "`type` csak a következők egyike lehet: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:104
 msgid "`group_sep` must be a non-empty value"
-msgstr ""
+msgstr "`group_sep` csak nem-üres érték lehet"
 
 #: kpi/serializers/v2/asset_export_settings.py:109
 msgid "`lang` for this asset must be either {}"
-msgstr ""
+msgstr "`lang` ehhez az eszközhöz csak a következők egyike lehet: {}"
 
 #: kpi/serializers/v2/asset_export_settings.py:119
 #: kpi/serializers/v2/export_task.py:229
 msgid "Must be a JSON object"
-msgstr ""
+msgstr "Egy JSON objektumnak kell lennie"
 
 #: kpi/serializers/v2/asset_export_settings.py:134
 #: kpi/serializers/v2/export_task.py:247
 msgid "All values in the array must be integers"
-msgstr ""
+msgstr "A tömbben minden értéknek egész számnak kell lennie"
 
 #: kpi/serializers/v2/asset_export_settings.py:145
 msgid "`fields` must be an array"
-msgstr ""
+msgstr "A(z) `fields` csak tömb lehet"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr ""
+msgstr "A(z) `fields` tömbben minden értéknek karakterláncnak kell lennie"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
-msgstr ""
+msgstr "Érvénytelen JSON"
 
 #: kpi/serializers/v2/asset_file.py:130
 msgid "Invalid content"
-msgstr ""
+msgstr "Érvénytelen tartalom"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
-msgstr ""
+msgstr "Nem lettek beküldve fájlok"
 
 #: kpi/serializers/v2/asset_file.py:158
 msgid "File already exists"
-msgstr ""
+msgstr "A fáj már létezik"
 
 #: kpi/serializers/v2/asset_file.py:208
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr ""
+msgstr "Nem tölthet fel médiafájlt két különböző módon egyidőben. Kérjük, válasszon a bináris feltöltés, base64 és távoli URL között."
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
-msgstr ""
+msgstr "A mező kitöltése kötelező"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr ""
+msgstr "`redirect_url` szükséges"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr ""
+msgstr "`filename` szükséges"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr ""
+msgstr "`redirect_url` érvénytelen"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
-msgstr ""
+msgstr "Csak `{}` MIME- típusok engedélyezettek"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:163
 msgid "This field is required for the '{}' permission"
-msgstr ""
+msgstr "Ez a mező szükséges a(z) „{}” engedélyhez"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:177
 #: kpi/serializers/v2/asset_permission_assignment.py:182
 #: kpi/serializers/v2/asset_permission_assignment.py:188
 #: kpi/serializers/v2/asset_permission_assignment.py:497
 msgid "Invalid `url`"
-msgstr ""
+msgstr "Érvénytelen `url`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:193
 msgid "Invalid `filters`"
-msgstr ""
+msgstr "Érvénytelen `filters`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:210
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr ""
+msgstr "{permission} nem lehet explicit módon hozzárendelve egy ilyen típusú eszköz objektumhoz."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:289
 msgid "Not a valid list."
-msgstr ""
+msgstr "Nem érvényes lista."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:490
 #: kpi/serializers/v2/asset_permission_assignment.py:493
 msgid "Invalid hyperlink - Object does not exist."
-msgstr ""
+msgstr "Érvénytelen hiperhivatkozás – Az objektum nem létezik."
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
-msgstr ""
+msgstr "`submission_ids` csak egész értékeket tartalmazhat"
 
 #: kpi/serializers/v2/data.py:75
 msgid "`submission_ids` must contain at least one value"
-msgstr ""
+msgstr "`submission_ids` elemnek legalább egy értéket tartalmaznia kell"
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr ""
+msgstr "`data` szükséges"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr ""
+msgstr "`validation_status.uid` szükséges"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
-msgstr ""
+msgstr "A következő szükséges kulcsok mindegyikét tartalmaznia kell: {}"
 
 #: kpi/serializers/v2/export_task.py:137
 msgid "Can contain only the following valid keys: {}"
-msgstr ""
+msgstr "Csak a következő érvényes kulcsokat tartalmazhatja: {}"
 
 #: kpi/serializers/v2/export_task.py:152 kpi/serializers/v2/export_task.py:237
 msgid "Must be an array"
-msgstr ""
+msgstr "Tömbnek kell lennie"
 
 #: kpi/serializers/v2/export_task.py:159
 msgid "All values in the array must be strings"
-msgstr ""
+msgstr "A tömbben minden értéknek karakterláncnak kell lennie"
 
 #: kpi/serializers/v2/export_task.py:169
 msgid "Must be a non-empty value"
-msgstr ""
+msgstr "Egy nem üres értéknek kell lennie"
 
 #: kpi/serializers/v2/export_task.py:182
 msgid "For this asset must be either {}"
-msgstr ""
+msgstr "Ehhez az eszközhöz csak a következők egyike lehet: {}"
 
 #: kpi/serializers/v2/export_task.py:194 kpi/serializers/v2/export_task.py:258
 msgid "Must be either {}"
-msgstr ""
+msgstr "Csak a következők egyike lehet: {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr ""
+msgstr "Az eszközt élesíteni kell."
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr ""
+msgstr "Az exportnévnek karakterláncnak kell lennie."
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
-msgstr ""
+msgstr "A forrás nem változtatható meg"
 
 #: kpi/serializers/v2/paired_data.py:93
 #, python-brace-format
 msgid "Data sharing for `{source_uid}` is not enabled"
-msgstr ""
+msgstr "Adatmegosztás `{source_uid}` esetében nincs engedélyezve"
 
 #: kpi/serializers/v2/paired_data.py:105
 #, python-brace-format
 msgid "Pairing data with `{source_uid}` is not allowed"
-msgstr ""
+msgstr "`{source_uid}` nem párosítható adathoz"
 
 #: kpi/serializers/v2/paired_data.py:110
 #, python-brace-format
 msgid "Source `{source}` is already paired"
-msgstr ""
+msgstr "A(z) `{source}` forrás már párosítva van"
 
 #: kpi/serializers/v2/paired_data.py:152
 #, python-brace-format
 msgid "Some fields are invalid, choices are: `{source_fields}`"
-msgstr ""
+msgstr "Néhány mező érvénytelen, a választási lehetőségek: `{source_fields}`"
 
 #: kpi/serializers/v2/paired_data.py:177
 msgid "Only letters, numbers and `-` are allowed"
-msgstr ""
+msgstr "Csak betűk, számok és `-` engedélyezettek"
 
 #: kpi/serializers/v2/paired_data.py:184
 msgid "Extension must be `xml`"
-msgstr ""
+msgstr "A kiterjesztés csak `xml` lehet"
 
 #: kpi/serializers/v2/paired_data.py:217
 #, python-brace-format
 msgid "`{basename}` is already used"
-msgstr ""
+msgstr "`{basename}` már használatban van"
 
 #: kpi/serializers/v2/user_asset_subscription.py:47
 #, python-brace-format
 msgid "Invalid asset type. Only `{asset_type}` is allowed"
-msgstr ""
+msgstr "Érvénytelen eszköztípus. Csak `{asset_type}` engedélyezett"
 
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
-msgstr ""
+msgstr "Modern böngészők"
 
 #: kpi/templates/modern_browsers.html:8
 msgid ""
 "Ouch! Sorry, you were probably sent here because your browser is outdated or"
 " perhaps it has its key features disabled by using \"private browsing\" "
 "mode."
-msgstr ""
+msgstr "Jaj! Sajnáljuk, valószínűleg azért került ide, mert elavult a böngészője, esetleg valamely szűkséges funkciója ki van kapcsolva a „privát böngészés” üzemmód miatt."
 
 #: kpi/templates/modern_browsers.html:12
 msgid ""
 "If you are using an outdated browser, we recommend upgrading to a recent "
 "version of one of the following excellent modern browsers:"
-msgstr ""
+msgstr "Amennyiben elavult böngészőt használ, javasoljuk, hogy váltson az alábbi kiváló modern böngészők valamelyikének újabb verziójára:"
 
 #: kpi/templates/modern_browsers.html:17
 msgid "Firefox download page"
-msgstr ""
+msgstr "Firefox letöltési oldala"
 
 #: kpi/templates/modern_browsers.html:18
 msgid "Firefox"
-msgstr ""
+msgstr "Firefox"
 
 #: kpi/templates/modern_browsers.html:22
 msgid "Chrome download page"
-msgstr ""
+msgstr "Chrome letöltési oldala"
 
 #: kpi/templates/modern_browsers.html:23
 msgid "Chrome"
-msgstr ""
+msgstr "Chrome"
 
 #: kpi/templates/modern_browsers.html:27
 msgid "Edge download page"
-msgstr ""
+msgstr "Edge letöltési oldala"
 
 #: kpi/templates/modern_browsers.html:28
 msgid "Edge"
-msgstr ""
+msgstr "Edge"
 
 #: kpi/templates/modern_browsers.html:32
 msgid "Opera download page"
-msgstr ""
+msgstr "Opera letöltési oldala"
 
 #: kpi/templates/modern_browsers.html:33
 msgid "Opera"
-msgstr ""
+msgstr "Opera"
 
 #: kpi/tests/test_registration.py:71
 msgid "This email domain is not allowed to create an account"
-msgstr ""
+msgstr "Ezzel az e-mail tartománnyal nem lehet fiókot létrehozni"
 
 #: kpi/utils/two_database_configuration_checker.py:41
 msgid "Exactly two databases must be configured"
-msgstr ""
+msgstr "Pontosan két adatbázist kell konfigurálni"
 
 #: kpi/utils/two_database_configuration_checker.py:42
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr ""
+msgstr "A KPI-nak és a KoBoCAT-nek is saját adatbázissal kell rendelkeznie. A KPI adatbázist „default” néven, a KoBoCAT adatbázist pedig „kobocat” néven kell konfigurálni."
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr ""
+msgstr "A KPI és a KoBoCAT nem használhatnak közös adatbázist"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
-msgstr ""
+msgstr "KPI-nak and KoBoCAT-nek is saját adatbázissal kell rendelkeznie."
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr ""
+msgstr "Hiányos áttelepítés a közös adatbázis telepítésből"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr ""
+msgstr "A KoBoCAT-adatbázis eredetileg meg volt osztva a KPI-vel, de a KPI-táblákat nem másolták át abból a közösen használt adatbázisból az új, csak KPI által használt adatbázisba."
 
 #: kpi/views/current_user.py:107
 msgid "Invalid confirmation"
-msgstr ""
+msgstr "Érvénytelen megerősítés"
 
 #: kpi/views/v2/asset_export_settings.py:228
 msgid "Only the following formats are available: ##format list##"
-msgstr ""
+msgstr "Csak a következő formátumok elérhetők: ##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:211
 msgid "Source and destination objects don't seem to have the same type"
-msgstr ""
+msgstr "A forrás- és a célobjektum típusa nem egyezik meg"
 
 #: kpi/views/v2/asset_permission_assignment.py:240
 msgid "Owner's permissions cannot be deleted"
-msgstr ""
+msgstr "A tulajdonos engedélyei nem törölhetők"
 
 #: kpi/views/v2/attachment.py:73
 msgid "`xpath` query parameter is required"
-msgstr ""
+msgstr "`xpath` lekérdezési paraméter szükséges"
 
 #: kpi/views/v2/attachment.py:94
 msgid "Invalid XPath syntax"
-msgstr ""
+msgstr "Érvénytelen XPath-szintaxis"
 
 #: kpi/views/v2/attachment.py:98
 msgid "The path could not be found in the submission"
-msgstr ""
+msgstr "Az útvonal nem található az űrlapválaszban"
 
 #: kpi/views/v2/attachment.py:107
 msgid "The error occurred during conversion"
-msgstr ""
+msgstr "A hiba a konverzió során lépett fel"
 
 #: kpi/views/v2/attachment.py:111
 msgid "Conversion is not supported for {}"
-msgstr ""
+msgstr "A konverzió nem támogatott a(z) {} esetén"
 
 #: kpi/views/v2/data.py:322
 msgid "The specified asset has not been deployed"
-msgstr ""
+msgstr "A megadott eszköz nem lett élesítve"
 
 #: kpi/views/v2/data.py:626
 msgid "A positive integer is required"
-msgstr ""
+msgstr "Pozitív egész szám szükséges"
