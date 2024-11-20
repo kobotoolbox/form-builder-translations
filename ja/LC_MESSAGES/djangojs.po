@@ -8,7 +8,7 @@ msgid ""
 msgstr ""
 "Project-Id-Version: KoboToolbox\n"
 "Report-Msgid-Bugs-To: \n"
-"POT-Creation-Date: 2024-06-06 18:23+0000\n"
+"POT-Creation-Date: 2024-11-20 14:06-0400\n"
 "PO-Revision-Date: 2016-03-14 19:56+0000\n"
 "Last-Translator: 山田 敦士, 2023\n"
 "Language-Team: Japanese (http://app.transifex.com/kobotoolbox/kobotoolbox/language/ja/)\n"
@@ -17,7 +17,7 @@ msgstr ""
 "Content-Transfer-Encoding: 8bit\n"
 "Language: ja\n"
 "Plural-Forms: nplurals=1; plural=0;\n"
-"X-Generator: Translate Toolkit 3.8.4\n"
+"X-Generator: Translate Toolkit 3.12.2\n"
 
 #: .Add+choice+to+question
 msgid "Add choice to question"
@@ -119,30 +119,6 @@ msgstr "言語を変更"
 msgid "Could not find ##fileName##"
 msgstr "##fileName##は見つかりませんでした"
 
-#: .me
-msgid "me"
-msgstr "自分"
-
-#: .untitled
-msgid "untitled"
-msgstr "無題"
-
-#: .Unlabelled
-msgid "Unlabelled"
-msgstr "ラベルなし"
-
-#: .Name,+organization+and+sector+are+required+to+make+collection+public.
-msgid "Name, organization and sector are required to make collection public."
-msgstr "コレクションを公開するには、名前、組織、部門が必要です。"
-
-#: .Empty+collection+is+not+allowed+to+be+made+public.
-msgid "Empty collection is not allowed to be made public."
-msgstr "空のコレクションは公開できません。"
-
-#: .Only+collections+are+allowed+to+be+made+public%21
-msgid "Only collections are allowed to be made public!"
-msgstr "コレクションしか公開できません！"
-
 #: .Default+-+single+page
 msgid "Default - single page"
 msgstr "デフォルト - 単一ページ"
@@ -166,18 +142,6 @@ msgstr "グリッドテーマ + 複数ページ"
 #: .Grid+theme+%2B+Multiple+pages+%2B+headings+in+ALL+CAPS
 msgid "Grid theme + Multiple pages + headings in ALL CAPS"
 msgstr "グリッドテーマ＋複数ページ＋見出しがすべて大文字"
-
-#: .Not+approved
-msgid "Not approved"
-msgstr "未承認"
-
-#: .Approved
-msgid "Approved"
-msgstr "承認済"
-
-#: .On+hold
-msgid "On hold"
-msgstr "保留中"
 
 #: .question
 msgid "question"
@@ -214,6 +178,10 @@ msgstr "承認"
 #: .Audio
 msgid "Audio"
 msgstr "オーディオ"
+
+#: .Background+Audio
+msgid "Background Audio"
+msgstr ""
 
 #: .Barcode+/+QR+Code
 msgid "Barcode / QR Code"
@@ -397,6 +365,34 @@ msgstr "Androidアプリケーション"
 msgid "Use this option to collect data in the field with your Android device."
 msgstr "フィールドでAndroid端末を使用してデータを収集する場合は、このオプションを使用してください。"
 
+#: .me
+msgid "me"
+msgstr "自分"
+
+#: .untitled
+msgid "untitled"
+msgstr "無題"
+
+#: .Unlabelled
+msgid "Unlabelled"
+msgstr "ラベルなし"
+
+#: .Background+audio
+msgid "Background audio"
+msgstr "バックグラウンド音声"
+
+#: .Name,+organization+and+sector+are+required+to+make+collection+public.
+msgid "Name, organization and sector are required to make collection public."
+msgstr "コレクションを公開するには、名前、組織、部門が必要です。"
+
+#: .Empty+collection+is+not+allowed+to+be+made+public.
+msgid "Empty collection is not allowed to be made public."
+msgstr "空のコレクションは公開できません。"
+
+#: .Only+collections+are+allowed+to+be+made+public%21
+msgid "Only collections are allowed to be made public!"
+msgstr "コレクションしか公開できません！"
+
 #: .Items+cannot+be+selected+more+than+once
 msgid "Items cannot be selected more than once"
 msgstr "項目は一度しか選択できません"
@@ -437,14 +433,6 @@ msgstr "以上で"
 msgid "Less Than or Equal to"
 msgstr "以下で"
 
-#: .Manually+enter+your+validation+logic+in+XLSForm+code
-msgid "Manually enter your validation logic in XLSForm code"
-msgstr "XLSFormコードを用いてバリデーションロジックを手動で入力"
-
-#: .Validation+Code
-msgid "Validation Code:"
-msgstr "検証コード:"
-
 #: .This+question+will+only+be+displayed+if+the+following+conditions+apply
 msgid "This question will only be displayed if the following conditions apply"
 msgstr "この質問は以下の条件に該当する場合のみ表示されます"
@@ -453,13 +441,13 @@ msgstr "この質問は以下の条件に該当する場合のみ表示されま
 msgid "Add another condition"
 msgstr "別の条件を追加"
 
-#: .Question+should+match+all+of+these+criteria
-msgid "Question should match all of these criteria"
-msgstr "質問は、以下のすべての基準を満たす必要があります"
+#: .Previous+responses+should+match+all+of+these+conditions
+msgid "Previous responses should match all of these conditions"
+msgstr ""
 
-#: .Question+should+match+any+of+these+criteria
-msgid "Question should match any of these criteria"
-msgstr "質問は、以下の基準のいずれかを満たす必要があります"
+#: .Previous+responses+should+match+any+of+these+conditions
+msgid "Previous responses should match any of these conditions"
+msgstr ""
 
 #: .response+value
 msgid "response value"
@@ -469,23 +457,21 @@ msgstr "回答値"
 msgid "Select question from list"
 msgstr "リストから質問を選択"
 
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
-msgid "##permission_label## (##username_list##)"
-msgstr "##permission_label##(##username_list##)"
+#: .Manually+enter+your+validation+logic+in+XLSForm+code
+msgid "Manually enter your validation logic in XLSForm code"
+msgstr "XLSFormコードを用いてバリデーションロジックを手動で入力"
 
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
-msgid "##permission_label## (##username_list## and 1 other)"
-msgstr "##permission_label##(##username_list##と他1件)"
-
-#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+%23%23hidden_username_count%23%23+others)
-msgid ""
-"##permission_label## (##username_list## and ##hidden_username_count## "
-"others)"
-msgstr "##permission_label##(##username_list##と他##hidden_username_count##件)"
+#: .Validation+Code
+msgid "Validation Code:"
+msgstr "検証コード:"
 
 #: .My+Projects
 msgid "My Projects"
 msgstr "マイプロジェクト"
+
+#: .%23%23organization+name%23%23+Projects
+msgid "##organization name## Projects"
+msgstr ""
 
 #: .Is
 msgid "Is"
@@ -587,6 +573,20 @@ msgstr "複数選択可能なチェックボックス列"
 msgid "Validation"
 msgstr "バリデーション"
 
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23)
+msgid "##permission_label## (##username_list##)"
+msgstr "##permission_label##(##username_list##)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+1+other)
+msgid "##permission_label## (##username_list## and 1 other)"
+msgstr "##permission_label##(##username_list##と他1件)"
+
+#: .%23%23permission_label%23%23+(%23%23username_list%23%23+and+%23%23hidden_username_count%23%23+others)
+msgid ""
+"##permission_label## (##username_list## and ##hidden_username_count## "
+"others)"
+msgstr "##permission_label##(##username_list##と他##hidden_username_count##件)"
+
 #: .Tags
 msgid "Tags"
 msgstr "タグ"
@@ -598,6 +598,22 @@ msgstr "単一選択"
 #: .Multiple+choice
 msgid "Multiple choice"
 msgstr "複数選択"
+
+#: .Show+All
+msgid "Show All"
+msgstr "すべて表示"
+
+#: .Not+approved
+msgid "Not approved"
+msgstr "未承認"
+
+#: .Approved
+msgid "Approved"
+msgstr "承認済"
+
+#: .On+hold
+msgid "On hold"
+msgstr "保留中"
 
 #: .Failed+to+update+permissions
 msgid "Failed to update permissions"
@@ -735,6 +751,42 @@ msgstr "メディアの削除に成功しました"
 msgid "Failed to delete media!"
 msgstr "メディアの削除に失敗しました！"
 
+#: .Successfully+removed+from+collection
+msgid "Successfully removed from collection"
+msgstr "コレクションからの削除に成功しました"
+
+#: .Successfully+moved+to+collection
+msgid "Successfully moved to collection"
+msgstr "コレクションへの移動に成功しました"
+
+#: .Move+to+collection+failed
+msgid "Move to collection failed"
+msgstr "コレクションへの移動に失敗しました"
+
+#: .Failed+to+get+the+results
+msgid "Failed to get the results"
+msgstr "結果の取得に失敗しました"
+
+#: .Failed+to+create+export
+msgid "Failed to create export"
+msgstr "エクスポートの作成に失敗しました"
+
+#: .Failed+to+delete+export
+msgid "Failed to delete export"
+msgstr "エクスポートの削除に失敗しました"
+
+#: .Failed+to+update+export+setting
+msgid "Failed to update export setting"
+msgstr "エクスポート設定の更新に失敗しました"
+
+#: .Failed+to+create+export+setting
+msgid "Failed to create export setting"
+msgstr "エクスポート設定の作成に失敗しました"
+
+#: .Failed+to+delete+export+setting
+msgid "Failed to delete export setting"
+msgstr "エクスポート設定の削除に失敗しました"
+
 #: .Failed+to+attach+to+source
 msgid "Failed to attach to source"
 msgstr "ソースへの添付に失敗しました"
@@ -779,45 +831,17 @@ msgstr "一部の提出フォームの値の更新に失敗しました。"
 msgid "Failed to update submissions values."
 msgstr "提出フォームの値の更新に失敗しました。"
 
+#: .submissions+deleted
+msgid "submissions deleted"
+msgstr ""
+
+#: .failed+to+delete+submissions
+msgid "failed to delete submissions"
+msgstr ""
+
 #: .Failed+to+delete+submissions.
 msgid "Failed to delete submissions."
 msgstr "提出済みフォームの削除に失敗しました。"
-
-#: .Successfully+removed+from+collection
-msgid "Successfully removed from collection"
-msgstr "コレクションからの削除に成功しました"
-
-#: .Successfully+moved+to+collection
-msgid "Successfully moved to collection"
-msgstr "コレクションへの移動に成功しました"
-
-#: .Move+to+collection+failed
-msgid "Move to collection failed"
-msgstr "コレクションへの移動に失敗しました"
-
-#: .Failed+to+get+the+results
-msgid "Failed to get the results"
-msgstr "結果の取得に失敗しました"
-
-#: .Failed+to+create+export
-msgid "Failed to create export"
-msgstr "エクスポートの作成に失敗しました"
-
-#: .Failed+to+delete+export
-msgid "Failed to delete export"
-msgstr "エクスポートの削除に失敗しました"
-
-#: .Failed+to+update+export+setting
-msgid "Failed to update export setting"
-msgstr "エクスポート設定の更新に失敗しました"
-
-#: .Failed+to+create+export+setting
-msgid "Failed to create export setting"
-msgstr "エクスポート設定の作成に失敗しました"
-
-#: .Failed+to+delete+export+setting
-msgid "Failed to delete export setting"
-msgstr "エクスポート設定の削除に失敗しました"
 
 #: .%23%23field_label%23%23+(required)
 msgid "##field_label## (required)"
@@ -1017,10 +1041,6 @@ msgstr "'a'の代わりに'@'などの推測可能な置換はあまり役に立
 msgid "Password strength"
 msgstr "パスワード強度"
 
-#: .XForm+is+loading
-msgid "XForm is loading"
-msgstr "エクスフォームを読み込み中"
-
 #: .path+not+found+/+recognized
 msgid "path not found / recognized"
 msgstr "パスが見つかりません、または認識されません"
@@ -1028,6 +1048,10 @@ msgstr "パスが見つかりません、または認識されません"
 #: .Section+not+found
 msgid "Section not found"
 msgstr "セクションが見つかりません"
+
+#: .XForm+is+loading
+msgid "XForm is loading"
+msgstr "エクスフォームを読み込み中"
 
 #: .Untitled
 msgid "Untitled"
@@ -1243,17 +1267,13 @@ msgstr "草稿版"
 msgid "If you want to make these changes public, you must deploy this form."
 msgstr "これらの変更を公開する場合は、このフォームを公開する必要があります。"
 
-#: .Public+Collections
-msgid "Public Collections"
-msgstr "パブリックコレクション"
+#: .An+error+occurred
+msgid "An error occurred"
+msgstr "エラーが発生しました"
 
-#: .Subscribed
-msgid "Subscribed"
-msgstr "購読済み"
-
-#: .Quick+look
-msgid "Quick look"
-msgstr "ざっと見る"
+#: .Your+connection+is+offline
+msgid "Your connection is offline"
+msgstr "接続がオフラインです"
 
 #: .Your+search+returned+no+results.
 msgid "Your search returned no results."
@@ -1279,6 +1299,18 @@ msgstr "マイライブラリ"
 msgid "Drop files to upload"
 msgstr "ファイルをドロップしてアップロード"
 
+#: .Public+Collections
+msgid "Public Collections"
+msgstr "パブリックコレクション"
+
+#: .Subscribed
+msgid "Subscribed"
+msgstr "購読済み"
+
+#: .Quick+look
+msgid "Quick look"
+msgstr "ざっと見る"
+
 #: .Could+not+load+grouped+results+via+%22%23%23%22.+Will+attempt+to+load+the+ungrouped+report.
 msgid ""
 "Could not load grouped results via \"##\". Will attempt to load the "
@@ -1289,21 +1321,13 @@ msgstr "グループ化された結果を\"##\"経由で読み込むことがで
 msgid "Could not refresh report."
 msgstr "レポートの更新ができませんでした。"
 
-#: .Custom+Reports
-msgid "Custom Reports"
-msgstr "カスタムのレポート"
-
-#: .Untitled+Report
-msgid "Untitled Report"
+#: .Untitled+report
+msgid "Untitled report"
 msgstr "無題のレポート"
 
 #: .Default+Report
 msgid "Default Report"
 msgstr "デフォルトのレポート"
-
-#: .Untitled+report
-msgid "Untitled report"
-msgstr "無題のレポート"
 
 #: .Create+New+Report
 msgid "Create New Report"
@@ -1313,17 +1337,17 @@ msgstr "新規レポートの作成"
 msgid "Edit Report Questions"
 msgstr "レポートの質問を編集"
 
-#: .Toggle+fullscreen
-msgid "Toggle fullscreen"
-msgstr "フルスクリーンへ切り替え"
+#: .Configure+Report+Style
+msgid "Configure Report Style"
+msgstr "レポートのスタイル設定"
 
 #: .Print
 msgid "Print"
 msgstr "印刷"
 
-#: .Configure+Report+Style
-msgid "Configure Report Style"
-msgstr "レポートのスタイル設定"
+#: .Toggle+fullscreen
+msgid "Toggle fullscreen"
+msgstr "フルスクリーンへ切り替え"
 
 #: .This+report+cannot+be+loaded.
 msgid "This report cannot be loaded."
@@ -1336,6 +1360,10 @@ msgstr "このレポートにはデータがありません。"
 #: .Try+changing+Report+Style+to+%22No+grouping%22.
 msgid "Try changing Report Style to \"No grouping\"."
 msgstr "レポート スタイルを「グループ化なし」に変更してみてください。"
+
+#: .Reports
+msgid "Reports"
+msgstr "報告"
 
 #: .For+performance+reasons,+this+report+only+includes+the+first+%23%23+questions.
 msgid ""
@@ -1382,359 +1410,6 @@ msgstr "ユーザーを追加する"
 #: .Waiting+for+all+projects+to+load%E2%80%A6
 msgid "Waiting for all projects to load…"
 msgstr "すべてのプロジェクトがロードされるのを待っています…"
-
-#: .An+error+occurred
-msgid "An error occurred"
-msgstr "エラーが発生しました"
-
-#: .Your+connection+is+offline
-msgid "Your connection is offline"
-msgstr "接続がオフラインです"
-
-#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
-msgid ""
-"By default map is limited to the ##number##  most recent submissions for "
-"performance reasons. Go to map settings to increase this limit."
-msgstr "デフォルトではパフォーマンス上の理由から、地図は最新の ##number## 個の提出に制限されています。この制限を増やすには、地図の設定に移動してください。"
-
-#: .Error+could+not+load+data.
-msgid "Error: could not load data."
-msgstr "エラー：データを読み込めませんでした。"
-
-#: .Disaggregate+by+survey+responses
-msgid "Disaggregate by survey responses"
-msgstr "回答別に細分する"
-
-#: .Disaggregated+using
-msgid "Disaggregated using:"
-msgstr "以下を使用した細分化："
-
-#: .No+%22geopoint%22+responses+have+been+received
-msgid "No \"geopoint\" responses have been received"
-msgstr "「ジオポイント」の回答はありません"
-
-#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
-msgid ""
-"The map does not show data because this form does not have a \"geopoint\" "
-"field."
-msgstr "このフォームには「ジオポイント」の項目がないため、地図にはデータが表示されません。"
-
-#: .Toggle+Fullscreen
-msgid "Toggle Fullscreen"
-msgstr "フルスクリーンに切り替え"
-
-#: .Show+as+points
-msgid "Show as points"
-msgstr "ポイントで表示"
-
-#: .Toggle+layers
-msgid "Toggle layers"
-msgstr "レイヤーの切り替え"
-
-#: .Map+display+settings
-msgid "Map display settings"
-msgstr "地図の表示設定"
-
-#: .Show+as+heatmap
-msgid "Show as heatmap"
-msgstr "ヒートマップで表示"
-
-#: .Language
-msgid "Language"
-msgstr "言語"
-
-#: .Default
-msgid "Default"
-msgstr "デフォルト"
-
-#: .--+See+all+data+--
-msgid "-- See all data --"
-msgstr "-- すべてのデータを見る --"
-
-#: .untranslated+
-msgid "untranslated: "
-msgstr "未翻訳:"
-
-#: .Question+label+not+set
-msgid "Question label not set"
-msgstr "質問ラベルが設定されていません"
-
-#: .Reset
-msgid "Reset"
-msgstr "リセット"
-
-#: .not+set
-msgid "not set"
-msgstr "設定されていません"
-
-#: .Legend
-msgid "Legend"
-msgstr "凡例"
-
-#: .Map+Settings
-msgid "Map Settings"
-msgstr "地図設定"
-
-#: .Table
-msgid "Table"
-msgstr "表"
-
-#: .Reports
-msgid "Reports"
-msgstr "報告"
-
-#: .Gallery
-msgid "Gallery"
-msgstr "一覧"
-
-#: .Downloads
-msgid "Downloads"
-msgstr "ダウンロードしたもの"
-
-#: .Map
-msgid "Map"
-msgstr "地図"
-
-#: .General
-msgid "General"
-msgstr "一般"
-
-#: .Media
-msgid "Media"
-msgstr "メディア"
-
-#: .Sharing
-msgid "Sharing"
-msgstr "共有"
-
-#: .Connect+Projects
-msgid "Connect Projects"
-msgstr "プロジェクトに接続"
-
-#: .REST+Services
-msgid "REST Services"
-msgstr "RESTサービス"
-
-#: .Your+query+is+too+short
-msgid "Your query is too short"
-msgstr "クエリが短すぎます"
-
-#: .failed+to+list+assets
-msgid "failed to list assets"
-msgstr "アセットのリストを作成に失敗しました"
-
-#: .Import
-msgid "Import"
-msgstr "インポート"
-
-#: .Next
-msgid "Next"
-msgstr "次へ"
-
-#: .Create+project
-msgid "Create project"
-msgstr "プロジェクトを作成"
-
-#: .Project+settings
-msgid "Project settings"
-msgstr "プロジェクト設定"
-
-#: .Choose+a+source
-msgid "Choose a source"
-msgstr "ソースを選択"
-
-#: .Choose+template
-msgid "Choose template"
-msgstr "テンプレートを選択"
-
-#: .Upload+XLSForm
-msgid "Upload XLSForm"
-msgstr "XLSFormをアップロード"
-
-#: .Import+XLSForm
-msgid "Import XLSForm"
-msgstr "XLSFormをインポート"
-
-#: .Project+details
-msgid "Project details"
-msgstr "プロジェクトの詳細"
-
-#: .Choose
-msgid "Choose"
-msgstr "選択"
-
-#: .Error+asset+could+not+be+created.
-msgid "Error: asset could not be created."
-msgstr "エラー：アセットが作成できませんでした。"
-
-#: .Error+new+project+could+not+be+created.
-msgid "Error: new project could not be created."
-msgstr "エラー：新規プロジェクトの作成に失敗しました。"
-
-#: .Please+wait%E2%80%A6
-msgid "Please wait…"
-msgstr "お待ちください…"
-
-#: .Retrieving+form,+please+wait...
-msgid "Retrieving form, please wait..."
-msgstr "フォームを検索中です。しばらくお待ちください…"
-
-#: .Failed+to+reload+project+after+import%21
-msgid "Failed to reload project after import!"
-msgstr "インポート後、プロジェクトの再読み込みに失敗しました！"
-
-#: .Import+Failed%21
-msgid "Import Failed!"
-msgstr "読み込みに失敗しました！"
-
-#: .Could+not+initialize+XLSForm+import%21
-msgid "Could not initialize XLSForm import!"
-msgstr "XLSFormのインポートを初期化できませんでした！"
-
-#: .Failed+to+reload+project+after+upload%21
-msgid "Failed to reload project after upload!"
-msgstr "アップロード後、プロジェクトの再読み込みに失敗しました！"
-
-#: .Could+not+import+XLSForm%21
-msgid "Could not import XLSForm!"
-msgstr "XLSFormをインポートできませんでした！"
-
-#: .Some+fields+contain+errors%21
-msgid "Some fields contain errors!"
-msgstr "いくつかの項目にエラーが含まれています！"
-
-#: .Project+Name
-msgid "Project Name"
-msgstr "プロジェクト名"
-
-#: .%23%23count%23%23+characters+left
-msgid "##count## characters left"
-msgstr "残り##count##文字"
-
-#: .Use+a+template
-msgid "Use a template"
-msgstr "テンプレートを使用"
-
-#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
-msgid ""
-"Choose one of the options below to continue. You will be prompted to enter "
-"name and other details in further steps."
-msgstr "以下のオプションから1つ選択して、次に進みます。次のステップでは、名前などの詳細な情報を入力するよう促されます。"
-
-#: .Build+from+scratch
-msgid "Build from scratch"
-msgstr "初めから作る"
-
-#: .Upload+an+XLSForm
-msgid "Upload an XLSForm"
-msgstr "XLSFormをアップロード"
-
-#: .Import+an+XLSForm+via+URL
-msgid "Import an XLSForm via URL"
-msgstr "URL経由でXLSFormをインポート"
-
-#: .Import+an+XLSForm+from+your+computer.
-msgid "Import an XLSForm from your computer."
-msgstr "コンピュータからXLSFormをインポートします。"
-
-#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
-msgid " Drag and drop the XLSForm file here or click to browse"
-msgstr " XLSFormファイルをここにドラッグ＆ドロップ、またはクリックして参照"
-
-#: .Uploading+file%E2%80%A6
-msgid "Uploading file…"
-msgstr "ファイルをアップロード中…"
-
-#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
-msgid "Enter a valid XLSForm URL in the field below."
-msgstr "下の項目に有効なXLSFormのURLを入力してください。"
-
-#: .Having+issues%3F+See+this+help+article.
-msgid "Having issues? See this help article."
-msgstr "問題が発生しましたか？こちらのヘルプ記事をご覧ください。"
-
-#: .URL
-msgid "URL"
-msgstr "URL"
-
-#: .Save+Changes
-msgid "Save Changes"
-msgstr "変更の保存"
-
-#: .Please+enter+a+title+for+your+project%21
-msgid "Please enter a title for your project!"
-msgstr "プロジェクトのタイトルを入力してください！"
-
-#: .Enter+title+of+project+here
-msgid "Enter title of project here"
-msgstr "ここにプロジェクトのタイトルを入力"
-
-#: .Please+enter+a+description+for+your+project
-msgid "Please enter a description for your project"
-msgstr "プロジェクトの説明を入力してください"
-
-#: .Enter+short+description+here
-msgid "Enter short description here"
-msgstr "ここに簡単な説明を入力"
-
-#: .Please+choose+a+sector
-msgid "Please choose a sector"
-msgstr "分野を選択してください"
-
-#: .Please+select+at+least+one+country
-msgid "Please select at least one country"
-msgstr "少なくとも1つの国を選択してください"
-
-#: .Please+specify+the+operational+purpose+of+your+project
-msgid "Please specify the operational purpose of your project"
-msgstr "プロジェクトの運用目的を明記してください"
-
-#: .Yes
-msgid "Yes"
-msgstr "はい"
-
-#: .No
-msgid "No"
-msgstr "いいえ"
-
-#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
-msgid ""
-"Please indicate whether or not your project collects personally identifiable"
-" information"
-msgstr "あなたのプロジェクトが個人を特定できる情報を収集しているかどうかを示してください"
-
-#: .Save
-msgid "Save"
-msgstr "保存"
-
-#: .Unarchive+Project
-msgid "Unarchive Project"
-msgstr "プロジェクトのアーカイブを解除する"
-
-#: .Archive+Project
-msgid "Archive Project"
-msgstr "プロジェクトをアーカイブする"
-
-#: .Archive+project+to+stop+accepting+submissions.
-msgid "Archive project to stop accepting submissions."
-msgstr "提出の受理を止めるため、プロジェクトをアーカイブします。"
-
-#: .Unarchive+project+to+resume+accepting+submissions.
-msgid "Unarchive project to resume accepting submissions."
-msgstr "提出の受理を再開するため、プロジェクトの非アーカイブします。"
-
-#: .Delete+Project+and+Data
-msgid "Delete Project and Data"
-msgstr "プロジェクトおよびデータの削除"
-
-#: .Back
-msgid "Back"
-msgstr "戻る"
-
-#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
-msgid ""
-"Form replacing is not available due to form's Locking Profile restrictions."
-msgstr "フォームのロックプロファイルの制限により、フォームの置き換えはできません。"
 
 #: .You+have+unsaved+changes.+Leave+form+without+saving%3F
 msgid "You have unsaved changes. Leave form without saving?"
@@ -1890,57 +1565,129 @@ msgstr "プレビュー生成中にエラーが発生しました"
 msgid "Import Cascading Select Questions"
 msgstr "加助―ディングを選択する質問をインポート"
 
-#: .URL+is+empty%21
-msgid "URL is empty!"
-msgstr "URLが空欄です！"
+#: .By+default+map+is+limited+to+the+%23%23number%23%23++most+recent+submissions+for+performance+reasons.+Go+to+map+settings+to+increase+this+limit.
+msgid ""
+"By default map is limited to the ##number##  most recent submissions for "
+"performance reasons. Go to map settings to increase this limit."
+msgstr "デフォルトではパフォーマンス上の理由から、地図は最新の ##number## 個の提出に制限されています。この制限を増やすには、地図の設定に移動してください。"
 
-#: .You+must+redeploy+this+form+to+see+media+changes.
-msgid "You must redeploy this form to see media changes."
-msgstr "メディアの変更を確認するには、このフォームを再公開する必要があります。"
+#: .Error+could+not+load+data.
+msgid "Error: could not load data."
+msgstr "エラー：データを読み込めませんでした。"
 
-#: .Attach+files
-msgid "Attach files"
-msgstr "ファイルの添付"
+#: .Disaggregate+by+survey+responses
+msgid "Disaggregate by survey responses"
+msgstr "回答別に細分する"
 
-#: .Learn+more+about+form+media
-msgid "Learn more about form media"
-msgstr "フォームメディアについての詳細"
+#: .Disaggregated+using
+msgid "Disaggregated using:"
+msgstr "以下を使用した細分化："
 
-#: .Drag+and+drop+files+here
-msgid "Drag and drop files here"
-msgstr "ここにファイルをドラッグ＆ドロップ"
+#: .No+%22geopoint%22+responses+have+been+received
+msgid "No \"geopoint\" responses have been received"
+msgstr "「ジオポイント」の回答はありません"
 
-#: .or
-msgid "or"
-msgstr "または"
+#: .The+map+does+not+show+data+because+this+form+does+not+have+a+%22geopoint%22+field.
+msgid ""
+"The map does not show data because this form does not have a \"geopoint\" "
+"field."
+msgstr "このフォームには「ジオポイント」の項目がないため、地図にはデータが表示されません。"
 
-#: .click+here+to+browse
-msgid "click here to browse"
-msgstr "ここをクリックして参照"
+#: .Toggle+Fullscreen
+msgid "Toggle Fullscreen"
+msgstr "フルスクリーンに切り替え"
 
-#: .You+can+also+add+files+using+a+URL
-msgid "You can also add files using a URL"
-msgstr "URLを使用してファイルを追加することもできます"
+#: .Show+as+points
+msgid "Show as points"
+msgstr "ポイントで表示"
 
-#: .Paste+URL+here
-msgid "Paste URL here"
-msgstr "ここにURLを貼り付けてください"
+#: .Toggle+layers
+msgid "Toggle layers"
+msgstr "レイヤーの切り替え"
 
-#: .Add
-msgid "Add"
-msgstr "追加"
+#: .Map+display+settings
+msgid "Map display settings"
+msgstr "地図の表示設定"
 
-#: .Attached+files
-msgid "Attached files"
-msgstr "添付ファイル"
+#: .Show+as+heatmap
+msgid "Show as heatmap"
+msgstr "ヒートマップで表示"
 
-#: .loading+media
-msgid "loading media"
-msgstr "メディアを読み込み中"
+#: .Language
+msgid "Language"
+msgstr "言語"
 
-#: .No+files+uploaded+yet
-msgid "No files uploaded yet"
-msgstr "まだアップロードされたファイルはありません"
+#: .Default
+msgid "Default"
+msgstr "デフォルト"
+
+#: .--+See+all+data+--
+msgid "-- See all data --"
+msgstr "-- すべてのデータを見る --"
+
+#: .untranslated+
+msgid "untranslated: "
+msgstr "未翻訳:"
+
+#: .Question+label+not+set
+msgid "Question label not set"
+msgstr "質問ラベルが設定されていません"
+
+#: .Reset
+msgid "Reset"
+msgstr "リセット"
+
+#: .not+set
+msgid "not set"
+msgstr "設定されていません"
+
+#: .Legend
+msgid "Legend"
+msgstr "凡例"
+
+#: .Map+Settings
+msgid "Map Settings"
+msgstr "地図設定"
+
+#: .Table
+msgid "Table"
+msgstr "表"
+
+#: .Gallery
+msgid "Gallery"
+msgstr "一覧"
+
+#: .Downloads
+msgid "Downloads"
+msgstr "ダウンロードしたもの"
+
+#: .Map
+msgid "Map"
+msgstr "地図"
+
+#: .General
+msgid "General"
+msgstr "一般"
+
+#: .Media
+msgid "Media"
+msgstr "メディア"
+
+#: .Sharing
+msgid "Sharing"
+msgstr "共有"
+
+#: .Connect+Projects
+msgid "Connect Projects"
+msgstr "プロジェクトに接続"
+
+#: .REST+Services
+msgid "REST Services"
+msgstr "RESTサービス"
+
+#: .Activity
+msgid "Activity"
+msgstr ""
 
 #: .copied+to+clipboard
 msgid "copied to clipboard"
@@ -1982,6 +1729,10 @@ msgstr "アップロードの処理中です。しばらく時間がかかる場
 msgid "Your upload is queued for processing. This may take a few moments."
 msgstr "アップロードは処理のためにキューに入れられています。 これには少し時間がかかる場合があります。"
 
+#: .Import+Failed%21
+msgid "Import Failed!"
+msgstr "読み込みに失敗しました！"
+
 #: .Failed+to+create+import.
 msgid "Failed to create import."
 msgstr "読み込みの作成に失敗しました。"
@@ -1998,29 +1749,15 @@ msgstr "アップロードされたファイル名： "
 msgid "Could not recognize the dropped item(s)."
 msgstr "ドロップされたアイテムを認識できませんでした。"
 
-#: .Vertical
-msgid "Vertical"
-msgstr "垂直型"
+#: .Allow+submissions+to+this+form+without+a+username+and+password
+msgid "Allow submissions to this form without a username and password"
+msgstr "ユーザー名とパスワードなしでこのフォームを送信できるようにします。"
 
-#: .Horizontal
-msgid "Horizontal"
-msgstr "水平型"
-
-#: .Pie
-msgid "Pie"
-msgstr "円型"
-
-#: .Donut
-msgid "Donut"
-msgstr "ドーナッツ型"
-
-#: .Polar+area
-msgid "Polar area"
-msgstr "極域"
-
-#: .Radar
-msgid "Radar"
-msgstr "レーダー"
+#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
+msgid ""
+"Allow anonymous submissions for this project. Previously, this was an "
+"account-wide setting. Click the icon to learn more."
+msgstr "以前はアカウント全体でしか設定できなかった、匿名の投稿の許可をプロジェクトごとにできるようになりました。 詳細については、アイコンをクリックしてください。"
 
 #: .Project+information
 msgid "Project information"
@@ -2050,6 +1787,34 @@ msgstr "データの利用目的"
 msgid "Collects personally identifiable information"
 msgstr "個人を特定できる情報を収集します"
 
+#: .Event+description
+msgid "Event description"
+msgstr ""
+
+#: .See+details
+msgid "See details"
+msgstr ""
+
+#: .Recent+project+activity
+msgid "Recent project activity"
+msgstr ""
+
+#: .Filter+by
+msgid "Filter by"
+msgstr "で絞り込む"
+
+#: .Export+all+data
+msgid "Export all data"
+msgstr "全てのデータをエクスポート"
+
+#: .New+feature
+msgid "New feature"
+msgstr "新機能"
+
+#: .Learn+more
+msgid "Learn more"
+msgstr "詳細はこちら"
+
 #: .All+questions
 msgid "All questions"
 msgstr "すべての質問"
@@ -2070,6 +1835,271 @@ msgstr "間"
 msgid "and"
 msgstr "と"
 
+#: .URL+is+empty%21
+msgid "URL is empty!"
+msgstr "URLが空欄です！"
+
+#: .You+must+redeploy+this+form+to+see+media+changes.
+msgid "You must redeploy this form to see media changes."
+msgstr "メディアの変更を確認するには、このフォームを再公開する必要があります。"
+
+#: .Attach+files
+msgid "Attach files"
+msgstr "ファイルの添付"
+
+#: .Learn+more+about+form+media
+msgid "Learn more about form media"
+msgstr "フォームメディアについての詳細"
+
+#: .Drag+and+drop+files+here
+msgid "Drag and drop files here"
+msgstr "ここにファイルをドラッグ＆ドロップ"
+
+#: .or
+msgid "or"
+msgstr "または"
+
+#: .click+here+to+browse
+msgid "click here to browse"
+msgstr "ここをクリックして参照"
+
+#: .Uploading+file%E2%80%A6
+msgid "Uploading file…"
+msgstr "ファイルをアップロード中…"
+
+#: .You+can+also+add+files+using+a+URL
+msgid "You can also add files using a URL"
+msgstr "URLを使用してファイルを追加することもできます"
+
+#: .Paste+URL+here
+msgid "Paste URL here"
+msgstr "ここにURLを貼り付けてください"
+
+#: .Add
+msgid "Add"
+msgstr "追加"
+
+#: .Attached+files
+msgid "Attached files"
+msgstr "添付ファイル"
+
+#: .loading+media
+msgid "loading media"
+msgstr "メディアを読み込み中"
+
+#: .No+files+uploaded+yet
+msgid "No files uploaded yet"
+msgstr "まだアップロードされたファイルはありません"
+
+#: .Import
+msgid "Import"
+msgstr "インポート"
+
+#: .Next
+msgid "Next"
+msgstr "次へ"
+
+#: .Create+project
+msgid "Create project"
+msgstr "プロジェクトを作成"
+
+#: .Project+settings
+msgid "Project settings"
+msgstr "プロジェクト設定"
+
+#: .Choose+a+source
+msgid "Choose a source"
+msgstr "ソースを選択"
+
+#: .Choose+template
+msgid "Choose template"
+msgstr "テンプレートを選択"
+
+#: .Upload+XLSForm
+msgid "Upload XLSForm"
+msgstr "XLSFormをアップロード"
+
+#: .Import+XLSForm
+msgid "Import XLSForm"
+msgstr "XLSFormをインポート"
+
+#: .Project+details
+msgid "Project details"
+msgstr "プロジェクトの詳細"
+
+#: .Choose
+msgid "Choose"
+msgstr "選択"
+
+#: .Error+asset+could+not+be+created.
+msgid "Error: asset could not be created."
+msgstr "エラー：アセットが作成できませんでした。"
+
+#: .Error+new+project+could+not+be+created.
+msgid "Error: new project could not be created."
+msgstr "エラー：新規プロジェクトの作成に失敗しました。"
+
+#: .Please+wait%E2%80%A6
+msgid "Please wait…"
+msgstr "お待ちください…"
+
+#: .Retrieving+form,+please+wait...
+msgid "Retrieving form, please wait..."
+msgstr "フォームを検索中です。しばらくお待ちください…"
+
+#: .Failed+to+reload+project+after+import%21
+msgid "Failed to reload project after import!"
+msgstr "インポート後、プロジェクトの再読み込みに失敗しました！"
+
+#: .Could+not+initialize+XLSForm+import%21
+msgid "Could not initialize XLSForm import!"
+msgstr "XLSFormのインポートを初期化できませんでした！"
+
+#: .Failed+to+reload+project+after+upload%21
+msgid "Failed to reload project after upload!"
+msgstr "アップロード後、プロジェクトの再読み込みに失敗しました！"
+
+#: .Could+not+import+XLSForm%21
+msgid "Could not import XLSForm!"
+msgstr "XLSFormをインポートできませんでした！"
+
+#: .Some+fields+contain+errors%21
+msgid "Some fields contain errors!"
+msgstr "いくつかの項目にエラーが含まれています！"
+
+#: .Project+Name
+msgid "Project Name"
+msgstr "プロジェクト名"
+
+#: .%23%23count%23%23+characters+left
+msgid "##count## characters left"
+msgstr "残り##count##文字"
+
+#: .Use+a+template
+msgid "Use a template"
+msgstr "テンプレートを使用"
+
+#: .Choose+one+of+the+options+below+to+continue.+You+will+be+prompted+to+enter+name+and+other+details+in+further+steps.
+msgid ""
+"Choose one of the options below to continue. You will be prompted to enter "
+"name and other details in further steps."
+msgstr "以下のオプションから1つ選択して、次に進みます。次のステップでは、名前などの詳細な情報を入力するよう促されます。"
+
+#: .Build+from+scratch
+msgid "Build from scratch"
+msgstr "初めから作る"
+
+#: .Upload+an+XLSForm
+msgid "Upload an XLSForm"
+msgstr "XLSFormをアップロード"
+
+#: .Import+an+XLSForm+via+URL
+msgid "Import an XLSForm via URL"
+msgstr "URL経由でXLSFormをインポート"
+
+#: .Import+an+XLSForm+from+your+computer.
+msgid "Import an XLSForm from your computer."
+msgstr "コンピュータからXLSFormをインポートします。"
+
+#: .+Drag+and+drop+the+XLSForm+file+here+or+click+to+browse
+msgid " Drag and drop the XLSForm file here or click to browse"
+msgstr " XLSFormファイルをここにドラッグ＆ドロップ、またはクリックして参照"
+
+#: .Enter+a+valid+XLSForm+URL+in+the+field+below.
+msgid "Enter a valid XLSForm URL in the field below."
+msgstr "下の項目に有効なXLSFormのURLを入力してください。"
+
+#: .Having+issues%3F+See+this+help+article.
+msgid "Having issues? See this help article."
+msgstr "問題が発生しましたか？こちらのヘルプ記事をご覧ください。"
+
+#: .URL
+msgid "URL"
+msgstr "URL"
+
+#: .Save+Changes
+msgid "Save Changes"
+msgstr "変更の保存"
+
+#: .Please+enter+a+title+for+your+project%21
+msgid "Please enter a title for your project!"
+msgstr "プロジェクトのタイトルを入力してください！"
+
+#: .Enter+title+of+project+here
+msgid "Enter title of project here"
+msgstr "ここにプロジェクトのタイトルを入力"
+
+#: .Please+enter+a+description+for+your+project
+msgid "Please enter a description for your project"
+msgstr "プロジェクトの説明を入力してください"
+
+#: .Enter+short+description+here
+msgid "Enter short description here"
+msgstr "ここに簡単な説明を入力"
+
+#: .Please+choose+a+sector
+msgid "Please choose a sector"
+msgstr "分野を選択してください"
+
+#: .Please+select+at+least+one+country
+msgid "Please select at least one country"
+msgstr "少なくとも1つの国を選択してください"
+
+#: .Please+specify+the+operational+purpose+of+your+project
+msgid "Please specify the operational purpose of your project"
+msgstr "プロジェクトの運用目的を明記してください"
+
+#: .Yes
+msgid "Yes"
+msgstr "はい"
+
+#: .No
+msgid "No"
+msgstr "いいえ"
+
+#: .Please+indicate+whether+or+not+your+project+collects+personally+identifiable+information
+msgid ""
+"Please indicate whether or not your project collects personally identifiable"
+" information"
+msgstr "あなたのプロジェクトが個人を特定できる情報を収集しているかどうかを示してください"
+
+#: .Save
+msgid "Save"
+msgstr "保存"
+
+#: .Unarchive+Project
+msgid "Unarchive Project"
+msgstr "プロジェクトのアーカイブを解除する"
+
+#: .Archive+Project
+msgid "Archive Project"
+msgstr "プロジェクトをアーカイブする"
+
+#: .Archive+project+to+stop+accepting+submissions.
+msgid "Archive project to stop accepting submissions."
+msgstr "提出の受理を止めるため、プロジェクトをアーカイブします。"
+
+#: .Unarchive+project+to+resume+accepting+submissions.
+msgid "Unarchive project to resume accepting submissions."
+msgstr "提出の受理を再開するため、プロジェクトの非アーカイブします。"
+
+#: .Delete+Project+and+Data
+msgid "Delete Project and Data"
+msgstr "プロジェクトおよびデータの削除"
+
+#: .Delete+Project
+msgid "Delete Project"
+msgstr ""
+
+#: .Back
+msgid "Back"
+msgstr "戻る"
+
+#: .Form+replacing+is+not+available+due+to+form%27s+Locking+Profile+restrictions.
+msgid ""
+"Form replacing is not available due to form's Locking Profile restrictions."
+msgstr "フォームのロックプロファイルの制限により、フォームの置き換えはできません。"
+
 #: .new
 msgid "new"
 msgstr "新規"
@@ -2085,120 +2115,6 @@ msgstr "ライブラリ"
 #: .Source
 msgid "Source"
 msgstr "ソース"
-
-#: .New+feature
-msgid "New feature"
-msgstr "新機能"
-
-#: .Learn+more
-msgid "Learn more"
-msgstr "詳細はこちら"
-
-#: .Allow+submissions+to+this+form+without+a+username+and+password
-msgid "Allow submissions to this form without a username and password"
-msgstr "ユーザー名とパスワードなしでこのフォームを送信できるようにします。"
-
-#: .Allow+anonymous+submissions+for+this+project.+Previously,+this+was+an+account-wide+setting.+Click+the+icon+to+learn+more.
-msgid ""
-"Allow anonymous submissions for this project. Previously, this was an "
-"account-wide setting. Click the icon to learn more."
-msgstr "以前はアカウント全体でしか設定できなかった、匿名の投稿の許可をプロジェクトごとにできるようになりました。 詳細については、アイコンをクリックしてください。"
-
-#: .This+%23%23asset_type%23%23+is+empty.
-msgid "This ##asset_type## is empty."
-msgstr "##asset_type##が空欄です。"
-
-#: .Show+less
-msgid "Show less"
-msgstr "表示を減らす"
-
-#: .Show+more
-msgid "Show more"
-msgstr "詳細を表示"
-
-#: .Failed+to+change+asset+public+status.
-msgid "Failed to change asset public status."
-msgstr "アセットの公開ステータスの変更に失敗しました。"
-
-#: .Make+public
-msgid "Make public"
-msgstr "公にする"
-
-#: .Make+private
-msgid "Make private"
-msgstr "プライベートにする"
-
-#: .Failed+to+get+owner+data.
-msgid "Failed to get owner data."
-msgstr "所有者データの取得に失敗しました。"
-
-#: .Date+Created
-msgid "Date Created"
-msgstr "作成日"
-
-#: .Items
-msgid "Items"
-msgstr "項目"
-
-#: .Organization
-msgid "Organization"
-msgstr "組織"
-
-#: .Country
-msgid "Country"
-msgstr "国"
-
-#: .Hide+full+details
-msgid "Hide full details"
-msgstr "詳細を閉じる"
-
-#: .Show+full+details
-msgid "Show full details"
-msgstr "詳細を表示"
-
-#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
-msgid "This project has no submitted data. Please collect some and try again."
-msgstr "このプロジェクトには提出済みデータがありません。データを集めてから再度お試しください。"
-
-#: .results
-msgid "results"
-msgstr "結果"
-
-#: .Edit
-msgid "Edit"
-msgstr "編集"
-
-#: .Show+All
-msgid "Show All"
-msgstr "すべて表示"
-
-#: .Search
-msgid "Search"
-msgstr "検索"
-
-#: .Display+options
-msgid "Display options"
-msgstr "表示オプション"
-
-#: .Prev
-msgid "Prev"
-msgstr "前へ"
-
-#: .Your+filters+returned+no+submissions.
-msgid "Your filters returned no submissions."
-msgstr "フィルターはサブミッションを返しませんでした。"
-
-#: .Page
-msgid "Page"
-msgstr "ページ"
-
-#: .of
-msgid "of"
-msgstr "の"
-
-#: .rows
-msgid "rows"
-msgstr "行"
 
 #: .Temporary+Access+Restriction+Password+Update+Required
 msgid "Temporary Access Restriction: Password Update Required"
@@ -2221,6 +2137,10 @@ msgstr "成功！"
 #: .Submission+Record
 msgid "Submission Record"
 msgstr "提出記録"
+
+#: .of
+msgid "of"
+msgstr "の"
 
 #: .Sharing+Permissions
 msgid "Sharing Permissions"
@@ -2290,71 +2210,97 @@ msgstr "翻訳覧表を閉じますか?"
 msgid "You will lose all unsaved changes."
 msgstr "保存されていない変更はすべて失われます。"
 
-#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
-msgid "Export is being generated, you will receive an email when it's done"
-msgstr "エクスポートが生成されており、完了すると電子メールが届きます"
+#: .Log+In
+msgid "Log In"
+msgstr "ログイン"
 
-#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
-msgid ""
-"We couldn't create the export, please try again later or contact support"
-msgstr "エクスポートを作成できませんでした。後でもう一度試すか、サポートにお問い合わせください"
+#: .Search+My+Library
+msgid "Search My Library"
+msgstr "マイライブラリを検索"
 
-#: .Export+all+data
-msgid "Export all data"
-msgstr "全てのデータをエクスポート"
+#: .Search+Public+Collections
+msgid "Search Public Collections"
+msgstr "公開コレクションを検索"
 
-#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.+%23%23CURRENT_OWNER_NAME%23%23+will+receive+a+notification+that+the+transfer+was+incomplete.
-msgid ""
-"You have declined the request of transfer ownership for ##PROJECT_NAME##. "
-"##CURRENT_OWNER_NAME## will receive a notification that the transfer was "
-"incomplete."
-msgstr "##PROJECT_NAME##の所有権譲渡リクエストを拒否しました。##CURRENT_OWNER_NAME##には譲渡が未完了である旨の通知が送信されます。"
+#: .Search%E2%80%A6
+msgid "Search…"
+msgstr "検索…"
 
-#: .%23%23CURRENT_OWNER_NAME%23%23+will+remain+the+project+owner.
-msgid "##CURRENT_OWNER_NAME## will remain the project owner."
-msgstr "##CURRENT_OWNER_NAME##は引き続きプロジェクトオーナーです。"
+#: .This+project+has+no+submitted+data.+Please+collect+some+and+try+again.
+msgid "This project has no submitted data. Please collect some and try again."
+msgstr "このプロジェクトには提出済みデータがありません。データを集めてから再度お試しください。"
 
-#: .You+have+accepted+project+ownership+from+%23%23CURRENT_OWNER_NAME%23%23+for+%23%23PROJECT_NAME%23%23.+This+process+can+take+up+to+a+few+minutes+to+complete.
-msgid ""
-"You have accepted project ownership from ##CURRENT_OWNER_NAME## for "
-"##PROJECT_NAME##. This process can take up to a few minutes to complete."
-msgstr "##CURRENT_OWNER_NAME##から##PROJECT_NAME##へのプロジェクトの所有権の転送を承認しました。このプロセスの完了には数分かかることがあります。"
+#: .results
+msgid "results"
+msgstr "結果"
 
-#: .Parent+Collection
-msgid "Parent Collection"
-msgstr "親コレクション"
+#: .Edit
+msgid "Edit"
+msgstr "編集"
 
-#: .Unlabeled
-msgid "Unlabeled"
-msgstr "ラベルなし"
+#: .Search
+msgid "Search"
+msgstr "検索"
 
-#: .Include+the+following+questions
-msgid "Include the following questions:"
-msgstr "以下の質問を含む："
+#: .Display+options
+msgid "Display options"
+msgstr "表示オプション"
 
-#: .Delete
-msgid "Delete"
-msgstr "削除"
+#: .Prev
+msgid "Prev"
+msgstr "前へ"
 
-#: .Chart+Type
-msgid "Chart Type"
-msgstr "グラフの種類"
+#: .Your+filters+returned+no+submissions.
+msgid "Your filters returned no submissions."
+msgstr "フィルターはサブミッションを返しませんでした。"
 
-#: .Colors
-msgid "Colors"
-msgstr "色"
+#: .Page
+msgid "Page"
+msgstr "ページ"
 
-#: .No+grouping
-msgid "No grouping"
-msgstr "グループ化なし"
+#: .rows
+msgid "rows"
+msgstr "行"
 
-#: .Group+By
-msgid "Group By"
-msgstr "でグループ作成"
+#: .Summary
+msgid "Summary"
+msgstr "概要"
 
-#: .Translation
-msgid "Translation"
-msgstr "翻訳"
+#: .Form
+msgid "Form"
+msgstr "フォーム"
+
+#: .Settings
+msgid "Settings"
+msgstr "設定"
+
+#: .Today
+msgid "Today"
+msgstr "今日"
+
+#: .Past+7+days
+msgid "Past 7 days"
+msgstr "過去7日間"
+
+#: .Past+31+days
+msgid "Past 31 days"
+msgstr "過去31日間"
+
+#: .Past+3+months
+msgid "Past 3 months"
+msgstr "過去3ヶ月"
+
+#: .Past+12+months
+msgid "Past 12 months"
+msgstr "過去12ヶ月"
+
+#: .No+chart+data+available+for+current+period.
+msgid "No chart data available for current period."
+msgstr "現在の期間では図表データはありません。"
+
+#: .Total
+msgid "Total"
+msgstr "合計"
 
 #: .Please+check+file+name
 msgid "Please check file name"
@@ -2452,66 +2398,6 @@ msgid ""
 "project. Learn more about dynamic data attachments"
 msgstr "他のプロジェクト（複数可）と接続し、そのプロジェクトの動的データをこのプロジェクトにインポートすることができます。動的データの添付について詳しくは、"
 
-#: .Summary
-msgid "Summary"
-msgstr "概要"
-
-#: .Form
-msgid "Form"
-msgstr "フォーム"
-
-#: .Settings
-msgid "Settings"
-msgstr "設定"
-
-#: .Today
-msgid "Today"
-msgstr "今日"
-
-#: .Past+7+days
-msgid "Past 7 days"
-msgstr "過去7日間"
-
-#: .Past+31+days
-msgid "Past 31 days"
-msgstr "過去31日間"
-
-#: .Past+3+months
-msgid "Past 3 months"
-msgstr "過去3ヶ月"
-
-#: .Past+12+months
-msgid "Past 12 months"
-msgstr "過去12ヶ月"
-
-#: .No+chart+data+available+for+current+period.
-msgid "No chart data available for current period."
-msgstr "現在の期間では図表データはありません。"
-
-#: .Total
-msgid "Total"
-msgstr "合計"
-
-#: .Log+In
-msgid "Log In"
-msgstr "ログイン"
-
-#: .Search+My+Library
-msgid "Search My Library"
-msgstr "マイライブラリを検索"
-
-#: .Search+Public+Collections
-msgid "Search Public Collections"
-msgstr "公開コレクションを検索"
-
-#: .Search%E2%80%A6
-msgid "Search…"
-msgstr "検索…"
-
-#: .submissions
-msgid "submissions"
-msgstr "提出済みフォーム"
-
 #: .Cannot+transfer+a+project+to+the+same+account.
 msgid "Cannot transfer a project to the same account."
 msgstr "同じアカウントにプロジェクトを譲渡することはできません。"
@@ -2595,26 +2481,6 @@ msgstr "ユーザー名を入力"
 msgid "Transfer project"
 msgstr "プロジェクトを譲渡"
 
-#: .Type
-msgid "Type"
-msgstr "種類"
-
-#: .Name
-msgid "Name"
-msgstr "名前"
-
-#: .Subscribers
-msgid "Subscribers"
-msgstr "登録者"
-
-#: .Primary+Sector
-msgid "Primary Sector"
-msgstr "主な分野"
-
-#: .There+is+no+data+for+this+question+for+the+current+submission
-msgid "There is no data for this question for the current submission"
-msgstr "現在の提出済みフォームには、この質問に対するデータがありません"
-
 #: .Please+[contact+the+support+team]+if+you+think+it%27s+an+error.
 msgid "Please [contact the support team] if you think it's an error."
 msgstr "エラーと思われる場合は、［サポートチームまでご連絡］ください。"
@@ -2658,33 +2524,189 @@ msgstr "この現象が繰り返される場合は、後でもう一度お試し
 msgid "Additional details:"
 msgstr "追加詳細："
 
-#: .Enter+usernames+separated+by+comma
-msgid "Enter usernames separated by comma"
-msgstr "ユーザー名をカンマで区切って入力"
+#: .There+is+no+data+for+this+question+for+the+current+submission
+msgid "There is no data for this question for the current submission"
+msgstr "現在の提出済みフォームには、この質問に対するデータがありません"
 
-#: .User+not+found
-msgid "User not found:"
-msgstr "ユーザーが見つかりません："
+#: .Failed+to+get+owner+data.
+msgid "Failed to get owner data."
+msgstr "所有者データの取得に失敗しました。"
 
-#: .equals
-msgid "equals"
-msgstr "前に同じ"
+#: .Date+Created
+msgid "Date Created"
+msgstr "作成日"
 
-#: .Reset+changes
-msgid "Reset changes"
-msgstr "変更を取り消す"
+#: .Items
+msgid "Items"
+msgstr "項目"
 
-#: .username
-msgid "username"
-msgstr "ユーザー名"
+#: .Organization
+msgid "Organization"
+msgstr "組織"
 
-#: .Grant+permissions
-msgid "Grant permissions"
-msgstr "権限の付与"
+#: .Country
+msgid "Country"
+msgstr "国"
 
-#: .Update+permissions
-msgid "Update permissions"
-msgstr "権限を更新"
+#: .Hide+full+details
+msgid "Hide full details"
+msgstr "詳細を閉じる"
+
+#: .Show+full+details
+msgid "Show full details"
+msgstr "詳細を表示"
+
+#: .Failed+to+change+asset+public+status.
+msgid "Failed to change asset public status."
+msgstr "アセットの公開ステータスの変更に失敗しました。"
+
+#: .Make+public
+msgid "Make public"
+msgstr "公にする"
+
+#: .Make+private
+msgid "Make private"
+msgstr "プライベートにする"
+
+#: .Parent+Collection
+msgid "Parent Collection"
+msgstr "親コレクション"
+
+#: .This+%23%23asset_type%23%23+is+empty.
+msgid "This ##asset_type## is empty."
+msgstr "##asset_type##が空欄です。"
+
+#: .Show+less
+msgid "Show less"
+msgstr "表示を減らす"
+
+#: .Show+more
+msgid "Show more"
+msgstr "詳細を表示"
+
+#: .Your+query+is+too+short
+msgid "Your query is too short"
+msgstr "クエリが短すぎます"
+
+#: .failed+to+list+assets
+msgid "failed to list assets"
+msgstr "アセットのリストを作成に失敗しました"
+
+#: .Unlabeled
+msgid "Unlabeled"
+msgstr "ラベルなし"
+
+#: .Vertical
+msgid "Vertical"
+msgstr "垂直型"
+
+#: .Horizontal
+msgid "Horizontal"
+msgstr "水平型"
+
+#: .Pie
+msgid "Pie"
+msgstr "円型"
+
+#: .Donut
+msgid "Donut"
+msgstr "ドーナッツ型"
+
+#: .Polar+area
+msgid "Polar area"
+msgstr "極域"
+
+#: .Radar
+msgid "Radar"
+msgstr "レーダー"
+
+#: .Untitled+Report
+msgid "Untitled Report"
+msgstr "無題のレポート"
+
+#: .Include+the+following+questions
+msgid "Include the following questions:"
+msgstr "以下の質問を含む："
+
+#: .Delete
+msgid "Delete"
+msgstr "削除"
+
+#: .No+grouping
+msgid "No grouping"
+msgstr "グループ化なし"
+
+#: .Type
+msgid "Type"
+msgstr "種類"
+
+#: .Name
+msgid "Name"
+msgstr "名前"
+
+#: .Subscribers
+msgid "Subscribers"
+msgstr "登録者"
+
+#: .Primary+Sector
+msgid "Primary Sector"
+msgstr "主な分野"
+
+#: .Deploy
+msgid "Deploy"
+msgstr "公開"
+
+#: .Remove+from+collection
+msgid "Remove from collection"
+msgstr "コレクションから削除"
+
+#: .Move+to
+msgid "Move to"
+msgstr "へ移動"
+
+#: .Unarchive
+msgid "Unarchive"
+msgstr "アーカイブを解除する"
+
+#: .Archive
+msgid "Archive"
+msgstr "アーカイブ"
+
+#: .Subscribe
+msgid "Subscribe"
+msgstr "購読する"
+
+#: .Unsubscribe
+msgid "Unsubscribe"
+msgstr "購読を解除する"
+
+#: .Modify+details
+msgid "Modify details"
+msgstr "詳細の変更"
+
+#: .Edit+Tags
+msgid "Edit Tags"
+msgstr "タグの編集"
+
+#: .Share
+msgid "Share"
+msgstr "共有する"
+
+#: .View+containing+Collection
+msgid "View containing Collection"
+msgstr "収蔵品を見る"
+
+#: .Previous
+msgid "Previous"
+msgstr "前へ"
+
+#: .%23%23count%23%23+items
+msgid "##count## items"
+msgstr "##count##アイテム"
+
+#: .There+are+no+assets+to+display.
+msgid "There are no assets to display."
+msgstr "表示するアセットがありません。"
 
 #: .permissions+were+copied+successfully
 msgid "permissions were copied successfully"
@@ -2720,6 +2742,34 @@ msgstr "ソースプロジェクトを選択してください..."
 #: .copy
 msgid "copy"
 msgstr "コピー"
+
+#: .Enter+usernames+separated+by+comma
+msgid "Enter usernames separated by comma"
+msgstr "ユーザー名をカンマで区切って入力"
+
+#: .User+not+found
+msgid "User not found:"
+msgstr "ユーザーが見つかりません："
+
+#: .equals
+msgid "equals"
+msgstr "前に同じ"
+
+#: .Reset+changes
+msgid "Reset changes"
+msgstr "変更を取り消す"
+
+#: .username
+msgid "username"
+msgstr "ユーザー名"
+
+#: .Grant+permissions
+msgid "Grant permissions"
+msgstr "権限の付与"
+
+#: .Update+permissions
+msgid "Update permissions"
+msgstr "権限を更新"
 
 #: .Share+publicly+by+link
 msgid "Share publicly by link"
@@ -2757,69 +2807,49 @@ msgstr "がオーナー"
 msgid "Pending owner"
 msgstr "保留中のオーナー"
 
+#: .Paste+your+formatted+table+from+excel+in+the+box+below.
+msgid "Paste your formatted table from excel in the box below."
+msgstr "Excel からフォーマットされた表を下のボックスに貼り付けます。"
+
+#: .add+cascade+with+%23+questions
+msgid "add cascade with # questions"
+msgstr "カスケードに#質問を追加"
+
+#: .OK
+msgid "OK"
+msgstr "OK"
+
+#: .Learn+more+about+importing+cascading+lists+from+Excel
+msgid "Learn more about importing cascading lists from Excel"
+msgstr "Excelからのカスケードリストのインポートについて詳しくはこちら"
+
 #: .DONE
 msgid "DONE"
 msgstr "完了"
 
-#: .Previous
-msgid "Previous"
-msgstr "前へ"
+#: .loading
+msgid "loading"
+msgstr "読み込み中"
 
-#: .%23%23count%23%23+items
-msgid "##count## items"
-msgstr "##count##アイテム"
+#: .no+search+results+found
+msgid "no search results found"
+msgstr "検索結果が見つかりません"
 
-#: .There+are+no+assets+to+display.
-msgid "There are no assets to display."
-msgstr "表示するアセットがありません。"
+#: .block+of+___+questions
+msgid "block of ___ questions"
+msgstr "___問ブロック"
 
-#: .Deploy
-msgid "Deploy"
-msgstr "公開"
+#: .search+library
+msgid "search library"
+msgstr "ライブラリの検索"
 
-#: .Remove+from+collection
-msgid "Remove from collection"
-msgstr "コレクションから削除"
+#: .question+has+been+added+to+the+library
+msgid "question has been added to the library"
+msgstr "質問がライブラリに追加されました"
 
-#: .Move+to
-msgid "Move to"
-msgstr "へ移動"
-
-#: .Unarchive
-msgid "Unarchive"
-msgstr "アーカイブを解除する"
-
-#: .Archive
-msgid "Archive"
-msgstr "アーカイブ"
-
-#: .Pending%E2%80%A6
-msgid "Pending…"
-msgstr "保留中…"
-
-#: .Unsubscribe
-msgid "Unsubscribe"
-msgstr "購読を解除する"
-
-#: .Subscribe
-msgid "Subscribe"
-msgstr "購読する"
-
-#: .Modify+details
-msgid "Modify details"
-msgstr "詳細の変更"
-
-#: .Edit+Tags
-msgid "Edit Tags"
-msgstr "タグの編集"
-
-#: .Share
-msgid "Share"
-msgstr "共有する"
-
-#: .View+containing+Collection
-msgid "View containing Collection"
-msgstr "収蔵品を見る"
+#: .group+has+been+added+to+the+library+as+a+block
+msgid "group has been added to the library as a block"
+msgstr "グループがブロックとしてライブラリに追加されました"
 
 #: .Marker+Colors
 msgid "Marker Colors"
@@ -2909,22 +2939,6 @@ msgid ""
 "Note that this is reset whenever you reopen the map."
 msgstr "デフォルトでは、地図は最新の##QUERY_LIMIT_DEFAULT##個の送信に限定されており、 この制限を一時的に別の値に増やすことができます。 これは地図を再度開くたびにリセットされることに注意してください。"
 
-#: .Paste+your+formatted+table+from+excel+in+the+box+below.
-msgid "Paste your formatted table from excel in the box below."
-msgstr "Excel からフォーマットされた表を下のボックスに貼り付けます。"
-
-#: .add+cascade+with+%23+questions
-msgid "add cascade with # questions"
-msgstr "カスケードに#質問を追加"
-
-#: .OK
-msgid "OK"
-msgstr "OK"
-
-#: .Learn+more+about+importing+cascading+lists+from+Excel
-msgid "Learn more about importing cascading lists from Excel"
-msgstr "Excelからのカスケードリストのインポートについて詳しくはこちら"
-
 #: .Could+not+load+REST+Services
 msgid "Could not load REST Services"
 msgstr "RESTサービスを読み込めませんでした"
@@ -2995,10 +3009,6 @@ msgstr "提出失敗の詳細（##id##）"
 msgid "Back to REST Services"
 msgstr "RESTサービスに戻る"
 
-#: .Loading%E2%80%A6
-msgid "Loading…"
-msgstr "読み込み中…"
-
 #: .There+are+no+logs+yet
 msgid "There are no logs yet"
 msgstr "まだログはありません"
@@ -3023,51 +3033,29 @@ msgstr "提出を再試行します"
 msgid "More info"
 msgstr "詳しい情報"
 
-#: .loading
-msgid "loading"
-msgstr "読み込み中"
+#: .Audit+settings
+msgid "Audit settings"
+msgstr "監査設定"
 
-#: .no+search+results+found
-msgid "no search results found"
-msgstr "検索結果が見つかりません"
+#: .Enter+audit+settings+here
+msgid "Enter audit settings here"
+msgstr "ここに監査設定を入力します"
 
-#: .block+of+___+questions
-msgid "block of ___ questions"
-msgstr "___問ブロック"
+#: .This+functionality+is+available+in+
+msgid "This functionality is available in "
+msgstr "この機能は以下で利用可能です"
 
-#: .search+library
-msgid "search library"
-msgstr "ライブラリの検索"
+#: .This+survey+will+be+recorded
+msgid "This survey will be recorded"
+msgstr "この調査は記録されます"
 
-#: .question+has+been+added+to+the+library
-msgid "question has been added to the library"
-msgstr "質問がライブラリに追加されました"
+#: .Enable+audio+recording+in+the+background
+msgid "Enable audio recording in the background"
+msgstr "バックグラウンドでの音声録音を有効にする"
 
-#: .group+has+been+added+to+the+library+as+a+block
-msgid "group has been added to the library as a block"
-msgstr "グループがブロックとしてライブラリに追加されました"
-
-#: .Failed+to+cancel+transfer.+The+transfer+may+be+declined+or+accpeted+already.+Please+check+your+email.
-msgid ""
-"Failed to cancel transfer. The transfer may be declined or accpeted already."
-" Please check your email."
-msgstr "譲渡のキャンセルに失敗しました。譲渡はすでに却下または承認されている可能性があります。メールをご確認ください。"
-
-#: .Failed+to+accept+invite.
-msgid "Failed to accept invite."
-msgstr "招待の承認に失敗しました。"
-
-#: .Failed+to+decline+invite
-msgid "Failed to decline invite"
-msgstr "招待の却下に失敗しました。"
-
-#: .Invite+has+been+cancelled+or+expired
-msgid "Invite has been cancelled or expired"
-msgstr "招待がキャンセルされたか、有効期限が切れています"
-
-#: .Invite+is+invaild.
-msgid "Invite is invaild."
-msgstr "招待は無効です。"
+#: .Audio+quality
+msgid "Audio quality"
+msgstr "オーディオ品質"
 
 #: .archived
 msgid "archived"
@@ -3080,18 +3068,6 @@ msgstr "公開済み"
 #: .draft
 msgid "draft"
 msgstr "下書き"
-
-#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
-msgid "Submission ##submissionIndex## of ##submissionTotal##"
-msgstr "提出物##submissionTotal##中の##submissionIndex##"
-
-#: .download
-msgid "download"
-msgstr "ダウンロード"
-
-#: .process
-msgid "process"
-msgstr "加工"
 
 #: .This+is+a+fully+locked+template.+Go+to+question+settings+to+see+specific+restrictions.
 msgid ""
@@ -3130,41 +3106,53 @@ msgstr "ロックされた機能"
 msgid "Unlocked functionalities"
 msgstr "ロック解除された機能"
 
-#: .You+have+no+templates.+Go+to+Library+and+create+some.
-msgid "You have no templates. Go to Library and create some."
-msgstr "テンプレートがありません。ライブラリでテンプレートを作成してください。"
+#: .Select%E2%80%A6
+msgid "Select…"
+msgstr "選択…"
 
-#: .Template+name
-msgid "Template name"
-msgstr "テンプレート名"
+#: .No+options+found
+msgid "No options found"
+msgstr "オプションがありません"
 
-#: .Audit+settings
-msgid "Audit settings"
-msgstr "監査設定"
+#: .Failed+to+cancel+transfer.+The+transfer+may+be+declined+or+accepted+already.+Please+check+your+email.
+msgid ""
+"Failed to cancel transfer. The transfer may be declined or accepted already."
+" Please check your email."
+msgstr ""
 
-#: .Background+audio
-msgid "Background audio"
-msgstr "バックグラウンド音声"
+#: .Failed+to+accept+invite.
+msgid "Failed to accept invite."
+msgstr "招待の承認に失敗しました。"
 
-#: .Enter+audit+settings+here
-msgid "Enter audit settings here"
-msgstr "ここに監査設定を入力します"
+#: .Failed+to+decline+invite
+msgid "Failed to decline invite"
+msgstr "招待の却下に失敗しました。"
 
-#: .This+functionality+is+available+in+
-msgid "This functionality is available in "
-msgstr "この機能は以下で利用可能です"
+#: .Invite+has+been+cancelled+or+expired
+msgid "Invite has been cancelled or expired"
+msgstr "招待がキャンセルされたか、有効期限が切れています"
 
-#: .This+survey+will+be+recorded
-msgid "This survey will be recorded"
-msgstr "この調査は記録されます"
+#: .Invite+is+invaild.
+msgid "Invite is invaild."
+msgstr "招待は無効です。"
 
-#: .Enable+audio+recording+in+the+background
-msgid "Enable audio recording in the background"
-msgstr "バックグラウンドでの音声録音を有効にする"
+#: .and+one+other+question
+msgid "and one other question"
+msgstr "そしてもう一つ質問"
 
-#: .Audio+quality
-msgid "Audio quality"
-msgstr "オーディオ品質"
+#: .and+%23%23+other+questions
+msgid "and ## other questions"
+msgstr "その他 ## の質問"
+
+#: .Exporting+data
+msgid "Exporting data"
+msgstr ""
+
+#: .Your+export+request+is+currently+being+processed.+Once+the+export+is+complete,+you%27ll+receive+an+email+with+all+the+details.
+msgid ""
+"Your export request is currently being processed. Once the export is "
+"complete, you'll receive an email with all the details."
+msgstr ""
 
 #: .Incorrect+token
 msgid "Incorrect token"
@@ -3271,86 +3259,6 @@ msgstr "現在の2FAが無効化されると、再度設定するよう求めら
 #: .Issues+with+the+token
 msgid "Issues with the token"
 msgstr "トークンに関する問題"
-
-#: .Select%E2%80%A6
-msgid "Select…"
-msgstr "選択…"
-
-#: .There+was+an+error+loading+Enketo.
-msgid "There was an error loading Enketo."
-msgstr "Enketoの読み込みにエラーが発生しました。"
-
-#: .Sort+A%E2%86%92Z
-msgid "Sort A→Z"
-msgstr "A→Zの順に並び替え"
-
-#: .Sort+Z%E2%86%92A
-msgid "Sort Z→A"
-msgstr "Z→Aの順に並び替え"
-
-#: .Hide+field
-msgid "Hide field"
-msgstr "項目を非表示"
-
-#: .Unfreeze+field
-msgid "Unfreeze field"
-msgstr "項目の停止を解除"
-
-#: .Freeze+field
-msgid "Freeze field"
-msgstr "項目を停止"
-
-#: .Select+all+results+(%23%23count%23%23)
-msgid "Select all results (##count##)"
-msgstr "全ての結果を選択（##count##）"
-
-#: .Select+visible+results+(%23%23count%23%23)
-msgid "Select visible results (##count##)"
-msgstr "表示される結果を選択（##count##）"
-
-#: .None
-msgid "None"
-msgstr "なし"
-
-#: .Update+status+of+selected+submissions
-msgid "Update status of selected submissions"
-msgstr "選択された提出済みフォームのステータスを更新"
-
-#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
-msgid ""
-"You have selected ## submissions. Are you sure you would like to update "
-"their status? This action is irreversible."
-msgstr "##提出済みフォームを選択しました。ステータスを更新してもよろしいですか？この操作は元に戻すことができません。"
-
-#: .Update+Validation+Status
-msgid "Update Validation Status"
-msgstr "バリデーションステータスを更新"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
-msgid ""
-"You are about to permanently delete ##count## submissions. It is not "
-"possible to recover deleted submissions."
-msgstr "##count##個の提出済みフォームを永久に削除しようとしています。この操作は元に戻すことができません。"
-
-#: .Delete+selected+submissions
-msgid "Delete selected submissions"
-msgstr "選択した提出済みフォームを削除"
-
-#: .Delete+selected
-msgid "Delete selected"
-msgstr "選択した項目を削除"
-
-#: .%23%23count%23%23+selected
-msgid "##count## selected"
-msgstr "##count##個選択中"
-
-#: .Change+status
-msgid "Change status"
-msgstr "ステータスを変更"
-
-#: .Set+status+%23%23status%23%23
-msgid "Set status: ##status##"
-msgstr "設定状態：##status##"
 
 #: .%23%23ASSET_TYPE%23%23+deleted+permanently
 msgid "##ASSET_TYPE## deleted permanently"
@@ -3463,29 +3371,97 @@ msgstr "公開中…"
 msgid "redeployed form"
 msgstr "再公開されたフォーム"
 
-#: .hide+fields
-msgid "hide fields"
-msgstr "項目を非表示"
+#: .Please+refresh+the+page
+msgid "Please refresh the page"
+msgstr "ページを更新してください"
 
-#: .Profile
-msgid "Profile"
-msgstr "プロフィール"
+#: .Account+Settings
+msgid "Account Settings"
+msgstr "アカウント設定"
 
-#: .Security
-msgid "Security"
-msgstr "セキュリティ"
+#: .Terms+of+Service
+msgid "Terms of Service"
+msgstr "サービスの利用規約"
 
-#: .Usage
-msgid "Usage"
-msgstr "利用量"
+#: .Privacy+Policy
+msgid "Privacy Policy"
+msgstr "プライバシーポリシー"
 
-#: .Plans
-msgid "Plans"
-msgstr "プラン"
+#: .Logout
+msgid "Logout"
+msgstr "ログアウト"
 
-#: .Add-ons
-msgid "Add-ons"
-msgstr "アドオン"
+#: .Question+Block
+msgid "Question Block"
+msgstr "質問のブロック"
+
+#: .Template
+msgid "Template"
+msgstr "テンプレート"
+
+#: .Collection
+msgid "Collection"
+msgstr "コレクション"
+
+#: .You+have+no+templates.+Go+to+Library+and+create+some.
+msgid "You have no templates. Go to Library and create some."
+msgstr "テンプレートがありません。ライブラリでテンプレートを作成してください。"
+
+#: .Template+name
+msgid "Template name"
+msgstr "テンプレート名"
+
+#: .Submission+URL
+msgid "Submission URL"
+msgstr "提出URL"
+
+#: .Public+key
+msgid "Public key"
+msgstr "公開鍵"
+
+#: .Set+encryption
+msgid "Set encryption"
+msgstr "暗号化設定"
+
+#: .Learn+more+about+encrypting+forms
+msgid "Learn more about encrypting forms"
+msgstr "フォームの暗号化の詳細について"
+
+#: .Remove+encryption
+msgid "Remove encryption"
+msgstr "暗号化の解除"
+
+#: .%23%23type%23%23+%23%23name%23%23+created
+msgid "##type## ##name## created"
+msgstr "##type####name##が作成されました"
+
+#: .Failed+to+create+%23%23type%23%23
+msgid "Failed to create ##type##"
+msgstr "##type##の作成に失敗しました"
+
+#: .Failed+to+update+%23%23type%23%23
+msgid "Failed to update ##type##"
+msgstr "##type##の更新に失敗しました"
+
+#: .Saving%E2%80%A6
+msgid "Saving…"
+msgstr "保存中…"
+
+#: .Creating%E2%80%A6
+msgid "Creating…"
+msgstr "作成中…"
+
+#: .Enter+title+of+%23%23type%23%23+here
+msgid "Enter title of ##type## here"
+msgstr "ここに##type##のタイトルを入力してください"
+
+#: .Upload+as+template
+msgid "Upload as template"
+msgstr "テンプレートとしてアップロード"
+
+#: .Note+that+this+will+be+ignored+when+uploading+a+collection+file.
+msgid "Note that this will be ignored when uploading a collection file."
+msgstr "これは、コレクションファイルをアップロードする場合は無視されることにご注意ください。"
 
 #: .Import+data+from+%23%23SOURCE_NAME%23%23
 msgid "Import data from ##SOURCE_NAME##"
@@ -3524,159 +3500,6 @@ msgstr "インポートした質問を更新中"
 #: .Accept
 msgid "Accept"
 msgstr "許可"
-
-#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
-msgid ""
-"The submission could not be found. It may have been deleted. Submission ID: "
-"##id##"
-msgstr "提出済みフォームが見つかりませんでした。削除された可能性があります。提出ＩＤ：##id##"
-
-#: .Delete+submission%3F
-msgid "Delete submission?"
-msgstr "提出済みフォームを削除しますか？"
-
-#: .Are+you+sure+you+want+to+delete+this+submission%3F
-msgid "Are you sure you want to delete this submission?"
-msgstr "この提出済みフォームを削除してもよろしいですか?"
-
-#: .This+action+cannot+be+undone
-msgid "This action cannot be undone"
-msgstr "この操作は元に戻すことができません"
-
-#: .Duplicate+created
-msgid "Duplicate created"
-msgstr "複製が作成されました"
-
-#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
-msgid ""
-"A duplicate of the submission record was successfully created. You can view "
-"the new instance below and make changes using the action buttons below."
-msgstr "提出記録の複製が正常に作成されました。新しいインスタンスは以下から閲覧でき、また、下のアクションボタンを使って変更を加えることができます。"
-
-#: .Source+submission+uuid+
-msgid "Source submission uuid: "
-msgstr "ソース投稿のuuid： "
-
-#: .Discard+duplicated+submission
-msgid "Discard duplicated submission"
-msgstr "重複した提出を破棄"
-
-#: .Discard
-msgid "Discard"
-msgstr "破棄"
-
-#: .Language
-msgid "Language:"
-msgstr "言語："
-
-#: .Validation+status
-msgid "Validation status:"
-msgstr "バリデーションステータス："
-
-#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
-msgid ""
-"Click on the button below to load the most recent data for this submission. "
-msgstr "下のボタンをクリックすると、この提出フォームの最新データを読み込むことができます。 "
-
-#: .Refresh+submission
-msgid "Refresh submission"
-msgstr "提出をリフレッシュ"
-
-#: .Background+audio+recording
-msgid "Background audio recording"
-msgstr "バックグラウンドでの音声録音"
-
-#: .Display+XML+names
-msgid "Display XML names"
-msgstr "XML名の表示"
-
-#: .View
-msgid "View"
-msgstr "閲覧"
-
-#: .Duplicate
-msgid "Duplicate"
-msgstr "複製"
-
-#: .Delete+submission
-msgid "Delete submission"
-msgstr "提出削除"
-
-#: .Type+
-msgid "Type: "
-msgstr "タイプ： "
-
-#: ..+
-msgid ". "
-msgstr ". "
-
-#: .%231+out+of+%232+respondents+answered+this+question.+
-msgid "#1 out of #2 respondents answered this question. "
-msgstr "#2人中#1人がこの質問に答えています。 "
-
-#: .(%23+were+without+data.)
-msgid "(# were without data.)"
-msgstr "(#はデータなし)"
-
-#: .Override+Graph+Style
-msgid "Override Graph Style"
-msgstr "グラフのスタイルの上書き"
-
-#: .Failed+to+update+tags
-msgid "Failed to update tags"
-msgstr "タグの更新に失敗しました"
-
-#: .Updating%E2%80%A6
-msgid "Updating…"
-msgstr "更新中…"
-
-#: .Update
-msgid "Update"
-msgstr "更新"
-
-#: .Question+Block
-msgid "Question Block"
-msgstr "質問のブロック"
-
-#: .Template
-msgid "Template"
-msgstr "テンプレート"
-
-#: .Collection
-msgid "Collection"
-msgstr "コレクション"
-
-#: .Upload+as+template
-msgid "Upload as template"
-msgstr "テンプレートとしてアップロード"
-
-#: .Note+that+this+will+be+ignored+when+uploading+a+collection+file.
-msgid "Note that this will be ignored when uploading a collection file."
-msgstr "これは、コレクションファイルをアップロードする場合は無視されることにご注意ください。"
-
-#: .Submission+URL
-msgid "Submission URL"
-msgstr "提出URL"
-
-#: .Public+key
-msgid "Public key"
-msgstr "公開鍵"
-
-#: .Set+encryption
-msgid "Set encryption"
-msgstr "暗号化設定"
-
-#: .Remove+encryption
-msgid "Remove encryption"
-msgstr "暗号化の解除"
-
-#: .Learn+more+about+encrypting+forms
-msgid "Learn more about encrypting forms"
-msgstr "フォームの暗号化の詳細について"
-
-#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
-msgid "Unsupported media type: ##QUESTION_TYPE##"
-msgstr "サポートされていないメディアタイプです：##QUESTION_TYPE##"
 
 #: .There+was+an+error,+table+settings+could+not+be+saved.
 msgid "There was an error, table settings could not be saved."
@@ -3795,60 +3618,17 @@ msgstr "頻度"
 msgid "Percentage"
 msgstr "パーセント"
 
-#: .Help+Resources
-msgid "Help Resources"
-msgstr "ヘルプリソース"
+#: .Unsupported+media+type+%23%23QUESTION_TYPE%23%23
+msgid "Unsupported media type: ##QUESTION_TYPE##"
+msgstr "サポートされていないメディアタイプです：##QUESTION_TYPE##"
 
-#: .KoboToolbox+Help+Center
-msgid "KoboToolbox Help Center"
-msgstr "KoboToolboxヘルプセンター"
+#: .Failed+to+update+tags
+msgid "Failed to update tags"
+msgstr "タグの更新に失敗しました"
 
-#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
-msgid ""
-"A vast collection of user support articles and tutorials related to Kobo"
-msgstr "Koboに関連する膨大なユーザーサポート記事とチュートリアルを収録しています"
-
-#: .KoboToolbox+Community+Forum
-msgid "KoboToolbox Community Forum"
-msgstr "KoboToolboxコミュニティフォーラム"
-
-#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
-msgid ""
-"Post your questions to get answers from experienced Kobo users around the "
-"world"
-msgstr "質問を投稿すると世界中の経験豊富なKoboユーザーから回答が得られます"
-
-#: .Notifications
-msgid "Notifications"
-msgstr "通知"
-
-#: .Help
-msgid "Help"
-msgstr "ヘルプ"
-
-#: .%23%23type%23%23+%23%23name%23%23+created
-msgid "##type## ##name## created"
-msgstr "##type####name##が作成されました"
-
-#: .Failed+to+create+%23%23type%23%23
-msgid "Failed to create ##type##"
-msgstr "##type##の作成に失敗しました"
-
-#: .Failed+to+update+%23%23type%23%23
-msgid "Failed to update ##type##"
-msgstr "##type##の更新に失敗しました"
-
-#: .Saving%E2%80%A6
-msgid "Saving…"
-msgstr "保存中…"
-
-#: .Creating%E2%80%A6
-msgid "Creating…"
-msgstr "作成中…"
-
-#: .Enter+title+of+%23%23type%23%23+here
-msgid "Enter title of ##type## here"
-msgstr "ここに##type##のタイトルを入力してください"
+#: .Update
+msgid "Update"
+msgstr "更新"
 
 #: .JSON
 msgid "JSON"
@@ -3914,6 +3694,10 @@ msgstr "有効"
 msgid "Receive emails notifications"
 msgstr "メール通知を受け取る"
 
+#: .Security
+msgid "Security"
+msgstr "セキュリティ"
+
 #: .Username
 msgid "Username"
 msgstr "ユーザー名"
@@ -3931,10 +3715,6 @@ msgstr "JSON 送信の周りにカスタム ラッパーを追加 する(%SUBMIS
 #: .Add+Custom+Wrapper
 msgid "Add Custom Wrapper"
 msgstr "カスタムラッパーを追加する"
-
-#: .N/A
-msgid "N/A"
-msgstr "N/A"
 
 #: .%2A+Save+Changes
 msgid "* Save Changes"
@@ -4046,81 +3826,127 @@ msgstr "言語を追加する"
 msgid "Add a new language"
 msgstr "新しい言語を追加する"
 
-#: .filter
-msgid "filter"
-msgstr "フィルター"
+#: .Profile
+msgid "Profile"
+msgstr "プロフィール"
 
-#: .There+are+no+filters,+you+can+add+one+below
-msgid "There are no filters, you can add one below"
-msgstr "フィルターがありません。以下で追加できます。"
+#: .Usage
+msgid "Usage"
+msgstr "利用量"
 
-#: .Add+filter
-msgid "Add filter"
-msgstr "フィルターを追加"
+#: .Plans
+msgid "Plans"
+msgstr "プラン"
 
-#: .Apply
-msgid "Apply"
-msgstr "適用"
+#: .Add-ons
+msgid "Add-ons"
+msgstr "アドオン"
 
-#: .fields
-msgid "fields"
-msgstr "項目"
+#: .ACCOUNT
+msgid "ACCOUNT"
+msgstr ""
 
-#: .Archive/Unarchive
-msgid "Archive/Unarchive"
-msgstr "アーカイブする／非アーカイブする"
+#: .Members
+msgid "Members"
+msgstr ""
 
-#: .Delete+projects
-msgid "Delete projects"
-msgstr "プロジェクトを削除する"
+#: .The+submission+could+not+be+found.+It+may+have+been+deleted.+Submission+ID+%23%23id%23%23
+msgid ""
+"The submission could not be found. It may have been deleted. Submission ID: "
+"##id##"
+msgstr "提出済みフォームが見つかりませんでした。削除された可能性があります。提出ＩＤ：##id##"
 
-#: .Delete+%23%23count%23%23+projects
-msgid "Delete ##count## projects"
-msgstr "##count##個のプロジェクトを削除"
+#: .Delete+submission%3F
+msgid "Delete submission?"
+msgstr "提出済みフォームを削除しますか？"
 
-#: .Share+projects
-msgid "Share projects"
-msgstr "プロジェクトを共有する"
+#: .Are+you+sure+you+want+to+delete+this+submission%3F
+msgid "Are you sure you want to delete this submission?"
+msgstr "この提出済みフォームを削除してもよろしいですか?"
 
-#: .Archive+project
-msgid "Archive project"
-msgstr "プロジェクトをアーカイブする"
+#: .This+action+cannot+be+undone
+msgid "This action cannot be undone"
+msgstr "この操作は元に戻すことができません"
 
-#: .Unarchive+project
-msgid "Unarchive project"
-msgstr "プロジェクトを非アーカイブする"
+#: .Validation+status
+msgid "Validation status:"
+msgstr "バリデーションステータス："
 
-#: .Draft+project+selected
-msgid "Draft project selected"
-msgstr "下書きのプロジェクトが選択されている"
+#: .Duplicate+created
+msgid "Duplicate created"
+msgstr "複製が作成されました"
 
-#: .Delete+1+project
-msgid "Delete 1 project"
-msgstr "1個のプロジェクトを削除する"
+#: .A+duplicate+of+the+submission+record+was+successfully+created.+You+can+view+the+new+instance+below+and+make+changes+using+the+action+buttons+below.
+msgid ""
+"A duplicate of the submission record was successfully created. You can view "
+"the new instance below and make changes using the action buttons below."
+msgstr "提出記録の複製が正常に作成されました。新しいインスタンスは以下から閲覧でき、また、下のアクションボタンを使って変更を加えることができます。"
 
-#: .Delete+project
-msgid "Delete project"
-msgstr "プロジェクトを削除する"
+#: .Source+submission+uuid+
+msgid "Source submission uuid: "
+msgstr "ソース投稿のuuid： "
 
-#: .Please+refresh+the+page
-msgid "Please refresh the page"
-msgstr "ページを更新してください"
+#: .Discard
+msgid "Discard"
+msgstr "破棄"
 
-#: .Account+Settings
-msgid "Account Settings"
-msgstr "アカウント設定"
+#: .Discard+duplicated+submission
+msgid "Discard duplicated submission"
+msgstr "重複した提出を破棄"
 
-#: .Terms+of+Service
-msgid "Terms of Service"
-msgstr "サービスの利用規約"
+#: .Click+on+the+button+below+to+load+the+most+recent+data+for+this+submission.+
+msgid ""
+"Click on the button below to load the most recent data for this submission. "
+msgstr "下のボタンをクリックすると、この提出フォームの最新データを読み込むことができます。 "
 
-#: .Privacy+Policy
-msgid "Privacy Policy"
-msgstr "プライバシーポリシー"
+#: .Refresh+submission
+msgid "Refresh submission"
+msgstr "提出をリフレッシュ"
 
-#: .Logout
-msgid "Logout"
-msgstr "ログアウト"
+#: .Display+XML+names
+msgid "Display XML names"
+msgstr "XML名の表示"
+
+#: .View
+msgid "View"
+msgstr "閲覧"
+
+#: .Duplicate
+msgid "Duplicate"
+msgstr "複製"
+
+#: .Delete+submission
+msgid "Delete submission"
+msgstr "提出削除"
+
+#: .Unknown+error
+msgid "Unknown error"
+msgstr ""
+
+#: .Background+audio+recording
+msgid "Background audio recording"
+msgstr "バックグラウンドでの音声録音"
+
+#: .N/A
+msgid "N/A"
+msgstr "N/A"
+
+#: .Submission+%23%23submissionIndex%23%23+of+%23%23submissionTotal%23%23
+msgid "Submission ##submissionIndex## of ##submissionTotal##"
+msgstr "提出物##submissionTotal##中の##submissionIndex##"
+
+#: .download
+msgid "download"
+msgstr "ダウンロード"
+
+#: .Export+is+being+generated,+you+will+receive+an+email+when+it%27s+done
+msgid "Export is being generated, you will receive an email when it's done"
+msgstr "エクスポートが生成されており、完了すると電子メールが届きます"
+
+#: .We+couldn%27t+create+the+export,+please+try+again+later+or+contact+support
+msgid ""
+"We couldn't create the export, please try again later or contact support"
+msgstr "エクスポートを作成できませんでした。後でもう一度試すか、サポートにお問い合わせください"
 
 #: .TOS+Update+Message+not+found
 msgid "TOS Update Message not found"
@@ -4138,53 +3964,6 @@ msgstr "同意し、入ります"
 msgid "I don't agree, log me out"
 msgstr "同意せずに、ログアウトします"
 
-#: .This+field+is+required.
-msgid "This field is required."
-msgstr "この項目は必須です。"
-
-#: .Passwords+don%27t+match
-msgid "Passwords don't match"
-msgstr "パスワードが一致しません"
-
-#: .Current+Password
-msgid "Current Password"
-msgstr "現在のパスワード"
-
-#: .Forgot+Password%3F
-msgid "Forgot Password?"
-msgstr "パスワードをお忘れですか？"
-
-#: .New+Password
-msgid "New Password"
-msgstr "新しいパスワード"
-
-#: .Verify+Password
-msgid "Verify Password"
-msgstr "パスワードを照合する"
-
-#: .Save+Password
-msgid "Save Password"
-msgstr "パスワードを保存する"
-
-#: .There+are+no+projects+to+display.
-msgid "There are no projects to display."
-msgstr "表示するプロジェクトはありません。"
-
-#: .Import+failed
-msgid "Import failed"
-msgstr "インポートに失敗"
-
-#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
-msgid ""
-"Your upload is taking longer than usual. Please get back in few minutes."
-msgstr "アップロードにいつもより時間がかかっています。数分後に戻ってきてください。"
-
-#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
-msgid ""
-"Your uploads are being processed. This may take a few moments. You will need"
-" to refresh the page to see them on the list."
-msgstr "アップロードの処理中です。しばらくお待ちください。リストに表示されるには、ページを更新する必要があります。"
-
 #: .Please+enter+a+title+for+your+%23%23type%23%23
 msgid "Please enter a title for your ##type##"
 msgstr "##type##のタイトルを入力してください"
@@ -4201,67 +3980,9 @@ msgstr "無題のコレクション"
 msgid "project title"
 msgstr "プロジェクト名"
 
-#: .Project+transfer+declined
-msgid "Project transfer declined"
-msgstr "プロジェクト譲渡の却下"
-
-#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.
-msgid ""
-"You have declined the request of transfer ownership for ##PROJECT_NAME##."
-msgstr "##PROJECT_NAME##の所有権の譲渡リクエストを却下しました。"
-
-#: .When+you+accept+the+ownership+transfer+of+project+%23%23PROJECT_NAME%23%23,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+you+and+count+against+your+plan+limits.
-msgid ""
-"When you accept the ownership transfer of project ##PROJECT_NAME##, all of "
-"the submissions, data storage, and transcription and translation usage for "
-"the project will be transferred to you and count against your plan limits."
-msgstr "プロジェクト##PROJECT_NAME##の所有権の譲渡を承認すると、そのプロジェクトのすべての投稿、データストレージ、文字起こしおよび翻訳の使用量が新しいプロジェクトオーナーに転送されます。"
-
-#: .Once+you+accept,+the+transfer+might+take+a+few+minutes+to+complete.
-msgid "Once you accept, the transfer might take a few minutes to complete."
-msgstr "承認後、譲渡の完了に数分かかる場合があります。"
-
-#: .Current+owner
-msgid "Current owner"
-msgstr "現在の所有者"
-
-#: .Note+The+previous+owner+has+permissions+to+manage+the+project.+You+can+change+user+permissions+in+the+project+sharing+settings.
-msgid ""
-"Note: The previous owner has permissions to manage the project. You can "
-"change user permissions in the project sharing settings."
-msgstr "注: 以前のオーナーはプロジェクトの管理権限を持っています。ユーザー権限はプロジェクトの共有設定で変更できます。"
-
-#: .Decline
-msgid "Decline"
-msgstr "却下"
-
-#: .Discard+unsaved+changes%3F
-msgid "Discard unsaved changes?"
-msgstr "保存されていない変更を破棄しますか？"
-
-#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
-msgid "You have unsaved changes. Leave settings without saving?"
-msgstr "保存されていない変更があります。保存せずに設定を離れますか？"
-
-#: .Updated+profile+successfully
-msgid "Updated profile successfully"
-msgstr "プロフィールの更新に成功しました"
-
-#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
-msgid ""
-"You can now control whether to allow anonymous submissions in web forms for "
-"each project. Previously, this was an account-wide setting."
-msgstr "以前はアカウント全体でしか設定できなかった、Web フォームでの匿名送信を許可するかどうかをプロジェクトごとに制御できるようになりました。"
-
-#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
-msgid ""
-"This privacy feature is now a per-project setting. New projects will require"
-" authentication by default."
-msgstr "このプライバシー機能はプロジェクトごとの設定になりました。 新しいプロジェクトにはデフォルトで認証が必要です。"
-
-#: .Learn+more+about+these+changes+here.
-msgid "Learn more about these changes here."
-msgstr "これらの変更について、詳しくはこちらをご覧ください。"
+#: .Export
+msgid "Export"
+msgstr "エクスポート"
 
 #: .Delete+export%3F
 msgid "Delete export?"
@@ -4304,9 +4025,36 @@ msgstr "複数のバージョン"
 msgid "There is nothing to download yet."
 msgstr "ダウンロードするものまだありません。"
 
-#: .Export
-msgid "Export"
-msgstr "エクスポート"
+#: .Help+Resources
+msgid "Help Resources"
+msgstr "ヘルプリソース"
+
+#: .KoboToolbox+Help+Center
+msgid "KoboToolbox Help Center"
+msgstr "KoboToolboxヘルプセンター"
+
+#: .A+vast+collection+of+user+support+articles+and+tutorials+related+to+Kobo
+msgid ""
+"A vast collection of user support articles and tutorials related to Kobo"
+msgstr "Koboに関連する膨大なユーザーサポート記事とチュートリアルを収録しています"
+
+#: .KoboToolbox+Community+Forum
+msgid "KoboToolbox Community Forum"
+msgstr "KoboToolboxコミュニティフォーラム"
+
+#: .Post+your+questions+to+get+answers+from+experienced+Kobo+users+around+the+world
+msgid ""
+"Post your questions to get answers from experienced Kobo users around the "
+"world"
+msgstr "質問を投稿すると世界中の経験豊富なKoboユーザーから回答が得られます"
+
+#: .Notifications
+msgid "Notifications"
+msgstr "通知"
+
+#: .Help
+msgid "Help"
+msgstr "ヘルプ"
 
 #: .This+export+format+will+not+be+supported+in+the+future.+Please+consider+using+one+of+the+other+export+types+available.
 msgid ""
@@ -4327,6 +4075,10 @@ msgid ""
 "Are you sure you want to delete this settings? This action is not "
 "reversible."
 msgstr "この設定を削除してもよろしいですか？この操作は元に戻すことができません。"
+
+#: .None
+msgid "None"
+msgstr "なし"
 
 #: .Include+fields+from+all+%23%23count%23%23+versions
 msgid "Include fields from all ##count## versions"
@@ -4384,37 +4136,175 @@ msgstr "保存したエクスポート設定を適用"
 msgid "No export settings selected"
 msgstr "エクスポートの設定が選択されていません"
 
-#: .Item
-msgid "Item"
-msgstr "項目"
+#: .This+field+is+required.
+msgid "This field is required."
+msgstr "この項目は必須です。"
 
-#: .of+%23%23total_count%23%23
-msgid "of ##total_count##"
-msgstr "##total_count##個中の"
+#: .Passwords+don%27t+match
+msgid "Passwords don't match"
+msgstr "パスワードが一致しません"
 
-#: .Transcript
-msgid "Transcript"
-msgstr "文字起こし"
+#: .Current+Password
+msgid "Current Password"
+msgstr "現在のパスワード"
 
-#: .Translations
-msgid "Translations"
-msgstr "翻訳"
+#: .Forgot+Password%3F
+msgid "Forgot Password?"
+msgstr "パスワードをお忘れですか？"
 
-#: .Analysis
-msgid "Analysis"
-msgstr "解析"
+#: .New+Password
+msgid "New Password"
+msgstr "新しいパスワード"
 
-#: .No+options+found
-msgid "No options found"
-msgstr "オプションがありません"
+#: .Verify+Password
+msgid "Verify Password"
+msgstr "パスワードを照合する"
+
+#: .Save+Password
+msgid "Save Password"
+msgstr "パスワードを保存する"
+
+#: .Could+not+open+window+for+%22%23%23url%23%23%22
+msgid "Could not open window for \"##url##\""
+msgstr ""
+
+#: .There+was+an+error+loading+Enketo.
+msgid "There was an error loading Enketo."
+msgstr "Enketoの読み込みにエラーが発生しました。"
+
+#: .Update+status+of+selected+submissions
+msgid "Update status of selected submissions"
+msgstr "選択された提出済みフォームのステータスを更新"
+
+#: .You+have+selected+%23%23+submissions.+Are+you+sure+you+would+like+to+update+their+status%3F+This+action+is+irreversible.
+msgid ""
+"You have selected ## submissions. Are you sure you would like to update "
+"their status? This action is irreversible."
+msgstr "##提出済みフォームを選択しました。ステータスを更新してもよろしいですか？この操作は元に戻すことができません。"
+
+#: .Update+Validation+Status
+msgid "Update Validation Status"
+msgstr "バリデーションステータスを更新"
+
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+submissions.+It+is+not+possible+to+recover+deleted+submissions.
+msgid ""
+"You are about to permanently delete ##count## submissions. It is not "
+"possible to recover deleted submissions."
+msgstr "##count##個の提出済みフォームを永久に削除しようとしています。この操作は元に戻すことができません。"
+
+#: .Delete+selected+submissions
+msgid "Delete selected submissions"
+msgstr "選択した提出済みフォームを削除"
+
+#: .Delete+selected
+msgid "Delete selected"
+msgstr "選択した項目を削除"
+
+#: .%23%23count%23%23+selected
+msgid "##count## selected"
+msgstr "##count##個選択中"
+
+#: .Change+status
+msgid "Change status"
+msgstr "ステータスを変更"
+
+#: .Set+status+%23%23status%23%23
+msgid "Set status: ##status##"
+msgstr "設定状態：##status##"
+
+#: .Sort+A%E2%86%92Z
+msgid "Sort A→Z"
+msgstr "A→Zの順に並び替え"
+
+#: .Sort+Z%E2%86%92A
+msgid "Sort Z→A"
+msgstr "Z→Aの順に並び替え"
+
+#: .Hide+field
+msgid "Hide field"
+msgstr "項目を非表示"
+
+#: .Unfreeze+field
+msgid "Unfreeze field"
+msgstr "項目の停止を解除"
+
+#: .Freeze+field
+msgid "Freeze field"
+msgstr "項目を停止"
+
+#: .Select+all+results+(%23%23count%23%23)
+msgid "Select all results (##count##)"
+msgstr "全ての結果を選択（##count##）"
+
+#: .Select+visible+results+(%23%23count%23%23)
+msgid "Select visible results (##count##)"
+msgstr "表示される結果を選択（##count##）"
+
+#: .hide+fields
+msgid "hide fields"
+msgstr "項目を非表示"
+
+#: .There+was+an+error+getting+the+list+of+plans.
+msgid "There was an error getting the list of plans."
+msgstr "プランのリストを取得中にエラーが発生しました。"
+
+#: .There+was+an+error+getting+one-time+add-ons.
+msgid "There was an error getting one-time add-ons."
+msgstr ""
+
+#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
+msgid ""
+"We couldn't make the requested change to your plan.\n"
+"Your current plan has not been changed."
+msgstr "リクエストされたプランの変更を行うことができませんでした。\n現在のプランは変更されていません。"
+
+#: .You+have+unsaved+changes.+Leave+settings+without+saving%3F
+msgid "You have unsaved changes. Leave settings without saving?"
+msgstr "保存されていない変更があります。保存せずに設定を離れますか？"
+
+#: .Updated+profile+successfully
+msgid "Updated profile successfully"
+msgstr "プロフィールの更新に成功しました"
+
+#: .You+can+now+control+whether+to+allow+anonymous+submissions+in+web+forms+for+each+project.+Previously,+this+was+an+account-wide+setting.
+msgid ""
+"You can now control whether to allow anonymous submissions in web forms for "
+"each project. Previously, this was an account-wide setting."
+msgstr "以前はアカウント全体でしか設定できなかった、Web フォームでの匿名送信を許可するかどうかをプロジェクトごとに制御できるようになりました。"
+
+#: .This+privacy+feature+is+now+a+per-project+setting.+New+projects+will+require+authentication+by+default.
+msgid ""
+"This privacy feature is now a per-project setting. New projects will require"
+" authentication by default."
+msgstr "このプライバシー機能はプロジェクトごとの設定になりました。 新しいプロジェクトにはデフォルトで認証が必要です。"
+
+#: .Learn+more+about+these+changes+here.
+msgid "Learn more about these changes here."
+msgstr "これらの変更について、詳しくはこちらをご覧ください。"
+
+#: .Type+
+msgid "Type: "
+msgstr "タイプ： "
+
+#: ..+
+msgid ". "
+msgstr ". "
+
+#: .%231+out+of+%232+respondents+answered+this+question.+
+msgid "#1 out of #2 respondents answered this question. "
+msgstr "#2人中#1人がこの質問に答えています。 "
+
+#: .(%23+were+without+data.)
+msgid "(# were without data.)"
+msgstr "(#はデータなし)"
+
+#: .Override+Graph+Style
+msgid "Override Graph Style"
+msgstr "グラフのスタイルの上書き"
 
 #: .Your+plan
 msgid "Your plan"
 msgstr "ご利用プラン"
-
-#: .Do+you+want+to+leave+without+saving%3F
-msgid "Do you want to leave without saving?"
-msgstr "保存せずに閉じますか?"
 
 #: .Thanks+for+your+upgrade%21+We+appreciate+your+continued+support.+Reach+out+to+billing@kobotoolbox.org+if+you+have+any+questions+about+your+plan.
 msgid ""
@@ -4483,18 +4373,170 @@ msgstr "担当窓口"
 msgid " for more information."
 msgstr "にお問い合わせください"
 
+#: .Discard+unsaved+changes%3F
+msgid "Discard unsaved changes?"
+msgstr "保存されていない変更を破棄しますか？"
+
+#: .source+file
+msgid "source file"
+msgstr "ソースファイル"
+
+#: .XML+values
+msgid "XML values"
+msgstr ""
+
+#: .Item
+msgid "Item"
+msgstr "項目"
+
+#: .of+%23%23total_count%23%23
+msgid "of ##total_count##"
+msgstr "##total_count##個中の"
+
+#: .Transcript
+msgid "Transcript"
+msgstr "文字起こし"
+
+#: .Translations
+msgid "Translations"
+msgstr "翻訳"
+
+#: .Analysis
+msgid "Analysis"
+msgstr "解析"
+
+#: .%23%23username%23%23+changed+project+name
+msgid "##username## changed project name"
+msgstr ""
+
+#: .%23%23username%23%23+updated+project+settings
+msgid "##username## updated project settings"
+msgstr ""
+
+#: .%23%23username%23%23+deployed+project
+msgid "##username## deployed project"
+msgstr ""
+
+#: .%23%23username%23%23+redeployed+project
+msgid "##username## redeployed project"
+msgstr ""
+
+#: .%23%23username%23%23+archived+project
+msgid "##username## archived project"
+msgstr ""
+
+#: .%23%23username%23%23+unarchived+project
+msgid "##username## unarchived project"
+msgstr ""
+
+#: .%23%23username%23%23+uploaded+a+new+form
+msgid "##username## uploaded a new form"
+msgstr ""
+
+#: .%23%23username%23%23+edited+the+form+in+the+formbuilder
+msgid "##username## edited the form in the formbuilder"
+msgstr ""
+
+#: .%23%23username%23%23+exported+data
+msgid "##username## exported data"
+msgstr ""
+
+#: .%23%23username%23%23+modified+qualitative+analysis+questions
+msgid "##username## modified qualitative analysis questions"
+msgstr ""
+
+#: .%23%23username%23%23+added+a+media+attachment
+msgid "##username## added a media attachment"
+msgstr ""
+
+#: .%23%23username%23%23+removed+a+media+attachment
+msgid "##username## removed a media attachment"
+msgstr ""
+
+#: .%23%23username%23%23+connected+project+data+with+another+project
+msgid "##username## connected project data with another project"
+msgstr ""
+
+#: .%23%23username%23%23+disconnected+project+from+another+project
+msgid "##username## disconnected project from another project"
+msgstr ""
+
+#: .%23%23username%23%23+changed+imported+fields+from+another+project
+msgid "##username## changed imported fields from another project"
+msgstr ""
+
+#: .%23%23username%23%23+modified+data+sharing
+msgid "##username## modified data sharing"
+msgstr ""
+
+#: .%23%23username%23%23+enabled+data+sharing
+msgid "##username## enabled data sharing"
+msgstr ""
+
+#: .%23%23username%23%23+disabled+data+sharing
+msgid "##username## disabled data sharing"
+msgstr ""
+
+#: .%23%23username%23%23+registered+a+new+REST+service
+msgid "##username## registered a new REST service"
+msgstr ""
+
+#: .%23%23username%23%23+modified+a+REST+service
+msgid "##username## modified a REST service"
+msgstr ""
+
+#: .%23%23username%23%23+deleted+a+REST+service
+msgid "##username## deleted a REST service"
+msgstr ""
+
+#: .%23%23username%23%23+added+%23%23username2%23%23+to+project
+msgid "##username## added ##username2## to project"
+msgstr ""
+
+#: .%23%23username%23%23+removed+%23%23username2%23%23+from+project
+msgid "##username## removed ##username2## from project"
+msgstr ""
+
+#: .%23%23username%23%23+updated+permissions+of+%23%23username2%23%23
+msgid "##username## updated permissions of ##username2##"
+msgstr ""
+
+#: .%23%23username%23%23+made+the+project+publicly+accessible
+msgid "##username## made the project publicly accessible"
+msgstr ""
+
+#: .%23%23username%23%23+shared+data+publicly
+msgid "##username## shared data publicly"
+msgstr ""
+
+#: .%23%23username%23%23+transferred+project+ownership+to+%23%23username2%23%23
+msgid "##username## transferred project ownership to ##username2##"
+msgstr ""
+
+#: .Do+you+want+to+leave+without+saving%3F
+msgid "Do you want to leave without saving?"
+msgstr "保存せずに閉じますか?"
+
 #: .Use+the+button+above+to+select+the+information+to+be+displayed+in+this+area
 msgid ""
 "Use the button above to select the information to be displayed in this area"
 msgstr "上のボタンから、このエリアに表示する情報を選択します"
 
-#: .and+one+other+question
-msgid "and one other question"
-msgstr "そしてもう一つ質問"
+#: .Chart+Type
+msgid "Chart Type"
+msgstr "グラフの種類"
 
-#: .and+%23%23+other+questions
-msgid "and ## other questions"
-msgstr "その他 ## の質問"
+#: .Colors
+msgid "Colors"
+msgstr "色"
+
+#: .Group+By
+msgid "Group By"
+msgstr "でグループ作成"
+
+#: .Translation
+msgid "Translation"
+msgstr "翻訳"
 
 #: .Search...
 msgid "Search..."
@@ -4528,9 +4570,13 @@ msgstr "アセットが見つかりました"
 msgid "expand details"
 msgstr "詳細を見る"
 
-#: .Could+not+load+media+file
-msgid "Could not load media file"
-msgstr "メディアファイルを読み込めませんでした"
+#: .Page+%23%23current_page%23%23+of+%23%23total_pages%23%23
+msgid "Page ##current_page## of ##total_pages##"
+msgstr ""
+
+#: .%23%23number%23%23+rows
+msgid "##number## rows"
+msgstr ""
 
 #: .Delete%3F
 msgid "Delete?"
@@ -4539,6 +4585,90 @@ msgstr "削除しますか？"
 #: .This+action+is+not+reversible
 msgid "This action is not reversible"
 msgstr "この操作は元に戻すことができません"
+
+#: .Teams
+msgid "Teams"
+msgstr ""
+
+#: .teams
+msgid "teams"
+msgstr ""
+
+#: .Team
+msgid "Team"
+msgstr ""
+
+#: .team
+msgid "team"
+msgstr ""
+
+#: .Organizations
+msgid "Organizations"
+msgstr ""
+
+#: .organizations
+msgid "organizations"
+msgstr ""
+
+#: .organization
+msgid "organization"
+msgstr ""
+
+#: .Could+not+load+media+file
+msgid "Could not load media file"
+msgstr "メディアファイルを読み込めませんでした"
+
+#: .CSV+(legacy)
+msgid "CSV (legacy)"
+msgstr "CSV（レガシー）"
+
+#: .CSV
+msgid "CSV"
+msgstr "CSV"
+
+#: .GeoJSON
+msgid "GeoJSON"
+msgstr "GeoJSON"
+
+#: .GPS+coordinates+(KML)
+msgid "GPS coordinates (KML)"
+msgstr "GPS座標（KML）"
+
+#: .SPSS+Labels
+msgid "SPSS Labels"
+msgstr "SPSSラベル"
+
+#: .XLS+(legacy)
+msgid "XLS (legacy)"
+msgstr "XLS（レガシー）"
+
+#: .XLS
+msgid "XLS"
+msgstr "XLS"
+
+#: .Media+Attachments+(ZIP)
+msgid "Media Attachments (ZIP)"
+msgstr "メディアの添付（ZIP）"
+
+#: .XML+values+and+headers
+msgid "XML values and headers"
+msgstr "XML値とヘッダー"
+
+#: .Separate+columns
+msgid "Separate columns"
+msgstr "列を分離"
+
+#: .Single+column
+msgid "Single column"
+msgstr "単列"
+
+#: .Single+and+separate+columns
+msgid "Single and separate columns"
+msgstr "単列と分離列"
+
+#: .Type+and+confirm+with+ENTER
+msgid "Type and confirm with ENTER"
+msgstr "入力して、ENTERで確定します"
 
 #: .An+error+occured
 msgid "An error occured"
@@ -4552,57 +4682,105 @@ msgstr "登録状況の確認中にエラーが発生しました"
 msgid "Incorrect token or something went wrong"
 msgstr "トークンが間違っているか、何か問題が発生しました"
 
-#: .Mean
-msgid "Mean"
-msgstr "平均値"
+#: .No+organization+found
+msgid "No organization found"
+msgstr "組織が見つかりませんでした"
 
-#: .Median
-msgid "Median"
-msgstr "中央値"
+#: .Couldn%27t+get+usage+data
+msgid "Couldn't get usage data"
+msgstr "使用量のデータが取得できませんでした"
 
-#: .Mode
-msgid "Mode"
-msgstr "モード"
+#: .filter
+msgid "filter"
+msgstr "フィルター"
 
-#: .Standard+deviation
-msgid "Standard deviation"
-msgstr "標準偏差"
+#: .There+are+no+filters,+you+can+add+one+below
+msgid "There are no filters, you can add one below"
+msgstr "フィルターがありません。以下で追加できます。"
 
-#: .Filter+by
-msgid "Filter by"
-msgstr "で絞り込む"
+#: .Add+filter
+msgid "Add filter"
+msgstr "フィルターを追加"
 
-#: .Select+field
-msgid "Select field"
-msgstr "項目を選択"
+#: .Apply
+msgid "Apply"
+msgstr "適用"
 
-#: .Condition
-msgid "Condition"
-msgstr "条件"
+#: .fields
+msgid "fields"
+msgstr "項目"
 
-#: .Select+condition
-msgid "Select condition"
-msgstr "条件を選択"
+#: .Name+must+be+unique%21
+msgid "Name must be unique!"
+msgstr "名前は一意でなければなりません！"
 
-#: .Enter+value
-msgid "Enter value"
-msgstr "値を入力"
+#: .Code+must+be+unique%21
+msgid "Code must be unique!"
+msgstr "コードは一意でなければなりません！"
+
+#: .Default+language+name
+msgid "Default language name"
+msgstr "デフォルトの言語名"
+
+#: .Language+name
+msgid "Language name"
+msgstr "言語名"
+
+#: .Default+language+code
+msgid "Default language code"
+msgstr "デフォルトの言語コード"
+
+#: .Language+code
+msgid "Language code"
+msgstr "言語コード"
+
+#: .Set
+msgid "Set"
+msgstr "設定する"
+
+#: .Select+export+type
+msgid "Select export type"
+msgstr "エクスポートの種類を選択"
 
 #: .There+was+an+issue+fetching+your+plan+information.
 msgid "There was an issue fetching your plan information."
 msgstr "プラン情報の取得中に問題が発生しました。"
 
-#: .These+settings+affects+the+experience+for+all+project+users.
-msgid "These settings affects the experience for all project users."
-msgstr "これらの設定はプロジェクトのすべてのユーザーの使用に影響します。"
+#: .Archive+project
+msgid "Archive project"
+msgstr "プロジェクトをアーカイブする"
 
-#: .Find+a+field
-msgid "Find a field"
-msgstr "項目を検索"
+#: .Unarchive+project
+msgid "Unarchive project"
+msgstr "プロジェクトを非アーカイブする"
 
-#: .No+results
-msgid "No results"
-msgstr "該当する結果はありません"
+#: .Draft+project+selected
+msgid "Draft project selected"
+msgstr "下書きのプロジェクトが選択されている"
+
+#: .Delete+1+project
+msgid "Delete 1 project"
+msgstr "1個のプロジェクトを削除する"
+
+#: .Delete+project
+msgid "Delete project"
+msgstr "プロジェクトを削除する"
+
+#: .Archive/Unarchive
+msgid "Archive/Unarchive"
+msgstr "アーカイブする／非アーカイブする"
+
+#: .Delete+projects
+msgid "Delete projects"
+msgstr "プロジェクトを削除する"
+
+#: .Delete+%23%23count%23%23+projects
+msgid "Delete ##count## projects"
+msgstr "##count##個のプロジェクトを削除"
+
+#: .Share+projects
+msgid "Share projects"
+msgstr "プロジェクトを共有する"
 
 #: .latitude+(x.y+%C2%B0)
 msgid "latitude (x.y °):"
@@ -4660,104 +4838,6 @@ msgstr "インスタンスID"
 msgid "Submitted by"
 msgstr "提出者："
 
-#: .Type+and+confirm+with+ENTER
-msgid "Type and confirm with ENTER"
-msgstr "入力して、ENTERで確定します"
-
-#: .Name+must+be+unique%21
-msgid "Name must be unique!"
-msgstr "名前は一意でなければなりません！"
-
-#: .Code+must+be+unique%21
-msgid "Code must be unique!"
-msgstr "コードは一意でなければなりません！"
-
-#: .Default+language+name
-msgid "Default language name"
-msgstr "デフォルトの言語名"
-
-#: .Language+name
-msgid "Language name"
-msgstr "言語名"
-
-#: .Default+language+code
-msgid "Default language code"
-msgstr "デフォルトの言語コード"
-
-#: .Language+code
-msgid "Language code"
-msgstr "言語コード"
-
-#: .Set
-msgid "Set"
-msgstr "設定する"
-
-#: .CSV+(legacy)
-msgid "CSV (legacy)"
-msgstr "CSV（レガシー）"
-
-#: .CSV
-msgid "CSV"
-msgstr "CSV"
-
-#: .GeoJSON
-msgid "GeoJSON"
-msgstr "GeoJSON"
-
-#: .GPS+coordinates+(KML)
-msgid "GPS coordinates (KML)"
-msgstr "GPS座標（KML）"
-
-#: .SPSS+Labels
-msgid "SPSS Labels"
-msgstr "SPSSラベル"
-
-#: .XLS+(legacy)
-msgid "XLS (legacy)"
-msgstr "XLS（レガシー）"
-
-#: .XLS
-msgid "XLS"
-msgstr "XLS"
-
-#: .Media+Attachments+(ZIP)
-msgid "Media Attachments (ZIP)"
-msgstr "メディアの添付（ZIP）"
-
-#: .XML+values+and+headers
-msgid "XML values and headers"
-msgstr "XML値とヘッダー"
-
-#: .Separate+columns
-msgid "Separate columns"
-msgstr "列を分離"
-
-#: .Single+column
-msgid "Single column"
-msgstr "単列"
-
-#: .Single+and+separate+columns
-msgid "Single and separate columns"
-msgstr "単列と分離列"
-
-#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
-msgid "You are about to permanently delete ##count## projects"
-msgstr "##count##個のプロジェクトを永久に削除しようとしています"
-
-#: .All+data+gathered+for+these+projects+will+be+deleted
-msgid "All data gathered for these projects will be deleted"
-msgstr "これらのプロジェクトのために収集されたデータはすべて削除さます"
-
-#: .Forms+associated+with+these+projects+will+be+deleted
-msgid "Forms associated with these projects will be deleted"
-msgstr "これらのプロジェクトに関連するフォームは削除されます"
-
-#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
-msgid ""
-"I understand that if I delete these projects I will not be able to recover "
-"them"
-msgstr "これらのプロジェクトを削除すると、復元できないことを理解しています"
-
 #: .Non-profit+organization
 msgid "Non-profit organization"
 msgstr "非営利団体（NPO）"
@@ -4802,9 +4882,200 @@ msgstr "ソーシャル"
 msgid "Newsletter"
 msgstr "ニュースレター"
 
+#: .Import+failed
+msgid "Import failed"
+msgstr "インポートに失敗"
+
+#: .Your+upload+is+taking+longer+than+usual.+Please+get+back+in+few+minutes.
+msgid ""
+"Your upload is taking longer than usual. Please get back in few minutes."
+msgstr "アップロードにいつもより時間がかかっています。数分後に戻ってきてください。"
+
+#: .Your+uploads+are+being+processed.+This+may+take+a+few+moments.+You+will+need+to+refresh+the+page+to+see+them+on+the+list.
+msgid ""
+"Your uploads are being processed. This may take a few moments. You will need"
+" to refresh the page to see them on the list."
+msgstr "アップロードの処理中です。しばらくお待ちください。リストに表示されるには、ページを更新する必要があります。"
+
+#: .There+are+no+projects+to+display.
+msgid "There are no projects to display."
+msgstr "表示するプロジェクトはありません。"
+
 #: .forgot+password
 msgid "forgot password"
 msgstr "パスワードを忘れた場合"
+
+#: .Mean
+msgid "Mean"
+msgstr "平均値"
+
+#: .Median
+msgid "Median"
+msgstr "中央値"
+
+#: .Mode
+msgid "Mode"
+msgstr "モード"
+
+#: .Standard+deviation
+msgid "Standard deviation"
+msgstr "標準偏差"
+
+#: .Two-factor+authentication
+msgid "Two-factor authentication"
+msgstr "重複要素認証"
+
+#: .Authenticator+app
+msgid "Authenticator app"
+msgstr "認証アプリ"
+
+#: .Reconfigure
+msgid "Reconfigure"
+msgstr "再設定"
+
+#: .Recovery+codes
+msgid "Recovery codes"
+msgstr "リカバリーコード"
+
+#: .Generate+new
+msgid "Generate new"
+msgstr "新規作成"
+
+#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
+msgid "Two-factor authentication was deactivated for your account on ##date##"
+msgstr "##date##にお客様のアカウントで重複要素認証が無効化されました"
+
+#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
+msgid "This feature is not available on your current plan. Please visit the "
+msgstr "この機能は現在のプランではご利用いただけません。アカウントをアップグレードするには、 "
+
+#: .Plans+page
+msgid "Plans page"
+msgstr "プランのページ"
+
+#: .+to+upgrade+your+account.
+msgid " to upgrade your account."
+msgstr " をご覧ください。"
+
+#: .Disabled
+msgid "Disabled"
+msgstr "無効"
+
+#: .Email+address
+msgid "Email address"
+msgstr "メールアドレス"
+
+#: .Type+new+email+address
+msgid "Type new email address"
+msgstr "新しいメールアドレスを入力してください"
+
+#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
+msgid "Check your email ##UNVERIFIED_EMAIL##. "
+msgstr "メールアドレス##UNVERIFIED_EMAIL##をご確認してください。 "
+
+#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+msgid ""
+"A verification link has been sent to confirm your ownership. Once confirmed,"
+" this address will replace ##UNVERIFIED_EMAIL##"
+msgstr "お客様の所有権を確認するために認証リンクが送信されました。確認されると、このアドレスは##UNVERIFIED_EMAIL##に置き換えられます。"
+
+#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
+msgid "Email was sent again: ##TIMESTAMP##"
+msgstr "メールが再度送信されました：##TIMESTAMP##"
+
+#: .%23%23count%23%23+Projects
+msgid "##count## Projects"
+msgstr "##count## 個のプロジェクト"
+
+#: .Submissions,+transcription+minutes,+and+translation+characters+reflect+usage+for+the+current+%23%23INTERVAL%23%23+based+on+your+plan+settings.
+msgid ""
+"Submissions, transcription minutes, and translation characters reflect usage"
+" for the current ##INTERVAL## based on your plan settings."
+msgstr ""
+
+#: .Submissions+(Total)
+msgid "Submissions (Total)"
+msgstr "投稿数 (合計)"
+
+#: .Data+storage
+msgid "Data storage"
+msgstr "データストレージ"
+
+#: .Transcript+minutes
+msgid "Transcript minutes"
+msgstr "文字起こし時間 (分)"
+
+#: .Translation+characters
+msgid "Translation characters"
+msgstr "翻訳文字数"
+
+#: .%23%23start_date%23%23+to+%23%23end_date%23%23
+msgid "##start_date## to ##end_date##"
+msgstr "##start_date##から##end_date##まで"
+
+#: .Your+usage
+msgid "Your usage"
+msgstr "あなたの使用状況"
+
+#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
+msgid "Last update: ##LAST_UPDATE_TIME##"
+msgstr "最終更新：##LAST_UPDATE_TIME##"
+
+#: .Storage
+msgid "Storage"
+msgstr "ストレージ"
+
+#: .per+account
+msgid "per account"
+msgstr "アカウントごと"
+
+#: .Transcription+minutes
+msgid "Transcription minutes"
+msgstr "文字起こし時間（分）"
+
+#: .Failed+to+get+API+token
+msgid "Failed to get API token"
+msgstr "APIトークンの取得に失敗しました"
+
+#: .API+Key
+msgid "API Key"
+msgstr "APIキー"
+
+#: .Single-Sign+On
+msgid "Single-Sign On"
+msgstr "シングルサインオン"
+
+#: .Connect+your+KoboToolbox+account+with+your+organization%27s+identity+provider+for+single-sign+on+(SSO).+Afterwards,+you+will+only+be+able+to+sign+in+via+SSO+unless+you+disable+this+setting+here.+This+will+also+update+your+email+address+in+case+your+current+address+is+different.
+msgid ""
+"Connect your KoboToolbox account with your organization's identity provider "
+"for single-sign on (SSO). Afterwards, you will only be able to sign in via "
+"SSO unless you disable this setting here. This will also update your email "
+"address in case your current address is different."
+msgstr "シングル サインオン (SSO) のために、KoboToolbox アカウントを組織の ID プロバイダーに接続します。その後、ここでこの設定を無効にしない限り、SSO経由でのみサインインできるようになります。そして、現在のアドレスが異なる場合は、メールアドレスも更新されます。"
+
+#: .Already+connected
+msgid "Already connected"
+msgstr "すでに接続されています"
+
+#: .Disable
+msgid "Disable"
+msgstr "無効"
+
+#: .Recent+account+activity
+msgid "Recent account activity"
+msgstr ""
+
+#: .Data+Submissions+(%23%23count%23%23)
+msgid "Data Submissions (##count##)"
+msgstr ""
+
+#: .Last+activity
+msgid "Last activity"
+msgstr ""
+
+#: .IP+Address
+msgid "IP Address"
+msgstr ""
 
 #: .Asset+seems+to+not+have+the+processing+feature+enabled%21
 msgid "Asset seems to not have the processing feature enabled!"
@@ -4842,103 +5113,370 @@ msgstr "質問を複製"
 msgid "Add Question to Library"
 msgstr "質問をライブラリに追加"
 
-#: .Email+address
-msgid "Email address"
-msgstr "メールアドレス"
+#: .There+has+been+an+issue,+please+try+again+later.
+msgid "There has been an issue, please try again later."
+msgstr "問題が発生しました。後でもう一度お試してください。"
 
-#: .Check+your+email+%23%23UNVERIFIED_EMAIL%23%23.+
-msgid "Check your email ##UNVERIFIED_EMAIL##. "
-msgstr "メールアドレス##UNVERIFIED_EMAIL##をご確認してください。 "
-
-#: .A+verification+link+has+been+sent+to+confirm+your+ownership.+Once+confirmed,+this+address+will+replace+%23%23UNVERIFIED_EMAIL%23%23
+#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
 msgid ""
-"A verification link has been sent to confirm your ownership. Once confirmed,"
-" this address will replace ##UNVERIFIED_EMAIL##"
-msgstr "お客様の所有権を確認するために認証リンクが送信されました。確認されると、このアドレスは##UNVERIFIED_EMAIL##に置き換えられます。"
+"Success! Your subscription will change at the end of the current billing "
+"period."
+msgstr "成功しました！ サブスクリプションは、現在の請求期間の終了時に変更されます。"
 
-#: .Email+was+sent+again+%23%23TIMESTAMP%23%23
-msgid "Email was sent again: ##TIMESTAMP##"
-msgstr "メールが再度送信されました：##TIMESTAMP##"
+#: .Unlimited
+msgid "Unlimited"
+msgstr "無制限"
 
-#: .Type+new+email+address
-msgid "Type new email address"
-msgstr "新しいメールアドレスを入力してください"
+#: .%23%23minutes%23%23+mins
+msgid "##minutes## mins"
+msgstr "##minutes##分"
 
-#: .Two-factor+authentication
-msgid "Two-factor authentication"
-msgstr "重複要素認証"
+#: .These+settings+affects+the+experience+for+all+project+users.
+msgid "These settings affects the experience for all project users."
+msgstr "これらの設定はプロジェクトのすべてのユーザーの使用に影響します。"
 
-#: .Disabled
-msgid "Disabled"
-msgstr "無効"
+#: .Find+a+field
+msgid "Find a field"
+msgstr "項目を検索"
 
-#: .Authenticator+app
-msgid "Authenticator app"
-msgstr "認証アプリ"
+#: .No+results
+msgid "No results"
+msgstr "該当する結果はありません"
 
-#: .Reconfigure
-msgid "Reconfigure"
-msgstr "再設定"
+#: .%23%23plan_name%23%23+Plan
+msgid "##plan_name## Plan"
+msgstr "##plan_name##プラン"
 
-#: .Recovery+codes
-msgid "Recovery codes"
-msgstr "リカバリーコード"
+#: .Started+on+%23%23start_date%23%23
+msgid "Started on ##start_date##"
+msgstr "開始日："
 
-#: .Generate+new
-msgid "Generate new"
-msgstr "新規作成"
+#: .Renews+on+%23%23renewal_date%23%23
+msgid "Renews on ##renewal_date##"
+msgstr "更新日："
 
-#: .Two-factor+authentication+was+deactivated+for+your+account+on+%23%23date%23%23
-msgid "Two-factor authentication was deactivated for your account on ##date##"
-msgstr "##date##にお客様のアカウントで重複要素認証が無効化されました"
+#: .Ends+on+%23%23end_date%23%23
+msgid "Ends on ##end_date##"
+msgstr "終了日: ##end_date##"
 
-#: .This+feature+is+not+available+on+your+current+plan.+Please+visit+the+
-msgid "This feature is not available on your current plan. Please visit the "
-msgstr "この機能は現在のプランではご利用いただけません。アカウントをアップグレードするには、 "
+#: .Changing+usage+limits+on+%23%23change_date%23%23
+msgid "Changing usage limits on ##change_date##"
+msgstr "##change_date##に利用上限を変更"
 
-#: .Plans+page
-msgid "Plans page"
-msgstr "プランのページ"
+#: .Switching+to+monthly+on+%23%23change_date%23%23
+msgid "Switching to monthly on ##change_date##"
+msgstr "##change_date##から月額契約に変更"
 
-#: .+to+upgrade+your+account.
-msgid " to upgrade your account."
-msgstr " をご覧ください。"
-
-#: .Failed+to+get+API+token
-msgid "Failed to get API token"
-msgstr "APIトークンの取得に失敗しました"
-
-#: .API+Key
-msgid "API Key"
-msgstr "APIキー"
-
-#: .Single-Sign+On
-msgid "Single-Sign On"
-msgstr "シングルサインオン"
-
-#: .Connect+your+KoboToolbox+account+with+your+organization%27s+identity+provider+for+single-sign+on+(SSO).+Afterwards,+you+will+only+be+able+to+sign+in+via+SSO+unless+you+disable+this+setting+here.+This+will+also+update+your+email+address+in+case+your+current+address+is+different.
+#: .Your+%23%23current_plan%23%23+plan+has+been+canceled+but+will+remain+active+until+the+end+of+the+billing+period.
 msgid ""
-"Connect your KoboToolbox account with your organization's identity provider "
-"for single-sign on (SSO). Afterwards, you will only be able to sign in via "
-"SSO unless you disable this setting here. This will also update your email "
-"address in case your current address is different."
-msgstr "シングル サインオン (SSO) のために、KoboToolbox アカウントを組織の ID プロバイダーに接続します。その後、ここでこの設定を無効にしない限り、SSO経由でのみサインインできるようになります。そして、現在のアドレスが異なる場合は、メールアドレスも更新されます。"
+"Your ##current_plan## plan has been canceled but will remain active until "
+"the end of the billing period."
+msgstr "##current_plan##プランはキャンセルされましたが、引き続き請求期間の終了までご利用いただけます。"
 
-#: .Already+connected
-msgid "Already connected"
-msgstr "すでに接続されています"
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+the+%23%23next_plan%23%23+plan+on
+msgid "Your ##current_plan## plan will change to the ##next_plan## plan on"
+msgstr "##current_plan##プランは次の日程で##next_plan##プランに変更されます: "
 
-#: .Disable
-msgid "Disable"
-msgstr "無効"
+#: ..+You+can+continue+using+%23%23current_plan%23%23+plan+features+until+the+end+of+the+billing+period.
+msgid ""
+". You can continue using ##current_plan## plan features until the end of the"
+" billing period."
+msgstr "。引き続き請求期間の終了まで##current_plan##プランの機能をご利用いただけます。"
 
-#: .No+organization+found
-msgid "No organization found"
-msgstr "組織が見つかりませんでした"
+#: .Your+%23%23current_plan%23%23+plan+will+change+to+include+up+to+%23%23submission_quantity%23%23+submissions/month+starting+from
+msgid ""
+"Your ##current_plan## plan will change to include up to "
+"##submission_quantity## submissions/month starting from"
+msgstr "##current_plan##プランには、次の日程から最大##submission_quantity##件/月の投稿が含まれます: "
 
-#: .Couldn%27t+get+usage+data
-msgid "Couldn't get usage data"
-msgstr "使用量のデータが取得できませんでした"
+#: .Your+%23%23current_plan%23%23+plan+will+change+from+annual+to+monthly+starting+from
+msgid ""
+"Your ##current_plan## plan will change from annual to monthly starting from"
+msgstr "##current_plan##プランは、次の日程から年額から月額に変更されます: "
+
+#: .%23%23add_on_name%23%23+add-on
+msgid "##add_on_name## add-on"
+msgstr "##add_on_name##アドオン"
+
+#: .monthly+%23%23plan_name%23%23+plan
+msgid "monthly ##plan_name## plan"
+msgstr "月額##plan_name##プラン"
+
+#: .yearly+%23%23plan_name%23%23+plan
+msgid "yearly ##plan_name## plan"
+msgstr "年間##plan_name##プラン"
+
+#: .plan
+msgid "plan"
+msgstr "プラン"
+
+#: .add-on
+msgid "add-on"
+msgstr "アドオン"
+
+#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
+msgid ""
+"There was an error processing your plan change. Your previous plan has not "
+"been changed. Please try again later."
+msgstr "プラン変更の処理中にエラーが発生しました。 以前のプランは変更されていません。 後でもう一度試してください。"
+
+#: .Changes+to+your+Plan
+msgid "Changes to your Plan"
+msgstr "プランの変更"
+
+#: .Processing+your+transaction%E2%80%A6
+msgid "Processing your transaction…"
+msgstr "取引を処理しています…"
+
+#: .You+are+switching+to+the+%23%23new_product_type%23%23.
+msgid "You are switching to the ##new_product_type##."
+msgstr "##new_product_type##に切り替えています。"
+
+#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
+msgid ""
+"Because this plan includes unlimited storage, your storage add-on will be "
+"canceled."
+msgstr "このプランには無制限のストレージが含まれているため、ストレージ アドオンはキャンセルされます。"
+
+#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23.
+msgid ""
+"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
+"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price##."
+msgstr "現在の##product_type##は##billing_end_date##まで有効です。##billing_end_date##以降、キャンセルされるまでの間、 料金##new_price##が請求されます。"
+
+#: .Submit
+msgid "Submit"
+msgstr "提出"
+
+#: .Added+on+%23%23date%23%23
+msgid "Added on ##date##"
+msgstr ""
+
+#: .%23%23name%23%23+x+%23%23quantity%23%23
+msgid "##name## x ##quantity##"
+msgstr ""
+
+#: .available+add-ons
+msgid "available add-ons"
+msgstr "利用可能なアドオン"
+
+#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++++data+collection.
+msgid ""
+"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
+"              have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
+"              data collection."
+msgstr ""
+
+#: .your+active+add-ons
+msgid "your active add-ons"
+msgstr ""
+
+#: .Active
+msgid "Active"
+msgstr ""
+
+#: .previous+add-ons
+msgid "previous add-ons"
+msgstr ""
+
+#: .Inactive
+msgid "Inactive"
+msgstr ""
+
+#: .Total+Submissions+per+Month
+msgid "Total Submissions per Month"
+msgstr "1 か月あたりの合計提出数"
+
+#: .%23%23asr_minutes%23%23+minutes+of+automated+transcription+/%23%23plan_interval%23%23
+msgid "##asr_minutes## minutes of automated transcription /##plan_interval##"
+msgstr "##asr_minutes## 分間の自動文字起こし /##plan_interval##"
+
+#: .%23%23mt_characters%23%23+characters+of+machine+translation+/%23%23plan_interval%23%23
+msgid "##mt_characters## characters of machine translation /##plan_interval##"
+msgstr "機械翻訳##mt_characters## 文字 /##plan_interval##"
+
+#: .Original+transcript
+msgid "Original transcript"
+msgstr "オリジナルのトランスクリプト"
+
+#: .Submission+data
+msgid "Submission data"
+msgstr "提出データ"
+
+#: .Original+file+(Audio)
+msgid "Original file (Audio)"
+msgstr "オリジナルファイル（音声）"
+
+#: .Display+settings
+msgid "Display settings"
+msgstr "ディスプレイの設定"
+
+#: .Customize+display+settings
+msgid "Customize display settings"
+msgstr "表示設定をカスタマイズする"
+
+#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
+msgid ""
+"Select the information you want to display in the side menu to support your "
+"analysis."
+msgstr "分析をサポートするためにサイド メニューに表示する情報を選択します。"
+
+#: .Select+the+submission+data+to+display.
+msgid "Select the submission data to display."
+msgstr "表示する投稿を選択します。"
+
+#: .Apply+selection
+msgid "Apply selection"
+msgstr "選択を適用する"
+
+#: .Failed+to+load+analysis+questions
+msgid "Failed to load analysis questions"
+msgstr "分析質問のロードに失敗しました"
+
+#: .Select+field
+msgid "Select field"
+msgstr "項目を選択"
+
+#: .Condition
+msgid "Condition"
+msgstr "条件"
+
+#: .Select+condition
+msgid "Select condition"
+msgstr "条件を選択"
+
+#: .Enter+value
+msgid "Enter value"
+msgstr "値を入力"
+
+#: .There+was+an+error+fetching+usage+data.
+msgid "There was an error fetching usage data."
+msgstr "使用状況データの取得中にエラーが発生しました。"
+
+#: .There+was+an+error+fetching+asset+usage+data.
+msgid "There was an error fetching asset usage data."
+msgstr "アセットの使用量データの取得中にエラーが発生しました。"
+
+#: .You+are+about+to+permanently+delete+%23%23count%23%23+projects
+msgid "You are about to permanently delete ##count## projects"
+msgstr "##count##個のプロジェクトを永久に削除しようとしています"
+
+#: .All+data+gathered+for+these+projects+will+be+deleted
+msgid "All data gathered for these projects will be deleted"
+msgstr "これらのプロジェクトのために収集されたデータはすべて削除さます"
+
+#: .Forms+associated+with+these+projects+will+be+deleted
+msgid "Forms associated with these projects will be deleted"
+msgstr "これらのプロジェクトに関連するフォームは削除されます"
+
+#: .I+understand+that+if+I+delete+these+projects+I+will+not+be+able+to+recover+them
+msgid ""
+"I understand that if I delete these projects I will not be able to recover "
+"them"
+msgstr "これらのプロジェクトを削除すると、復元できないことを理解しています"
+
+#: .Project+transfer+declined
+msgid "Project transfer declined"
+msgstr "プロジェクト譲渡の却下"
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##."
+msgstr "##PROJECT_NAME##の所有権の譲渡リクエストを却下しました。"
+
+#: .When+you+accept+the+ownership+transfer+of+project+%23%23PROJECT_NAME%23%23,+all+of+the+submissions,+data+storage,+and+transcription+and+translation+usage+for+the+project+will+be+transferred+to+you+and+count+against+your+plan+limits.
+msgid ""
+"When you accept the ownership transfer of project ##PROJECT_NAME##, all of "
+"the submissions, data storage, and transcription and translation usage for "
+"the project will be transferred to you and count against your plan limits."
+msgstr "プロジェクト##PROJECT_NAME##の所有権の譲渡を承認すると、そのプロジェクトのすべての投稿、データストレージ、文字起こしおよび翻訳の使用量が新しいプロジェクトオーナーに転送されます。"
+
+#: .Once+you+accept,+the+transfer+might+take+a+few+minutes+to+complete.
+msgid "Once you accept, the transfer might take a few minutes to complete."
+msgstr "承認後、譲渡の完了に数分かかる場合があります。"
+
+#: .Current+owner
+msgid "Current owner"
+msgstr "現在の所有者"
+
+#: .Note+The+previous+owner+has+permissions+to+manage+the+project.+You+can+change+user+permissions+in+the+project+sharing+settings.
+msgid ""
+"Note: The previous owner has permissions to manage the project. You can "
+"change user permissions in the project sharing settings."
+msgstr "注: 以前のオーナーはプロジェクトの管理権限を持っています。ユーザー権限はプロジェクトの共有設定で変更できます。"
+
+#: .Decline
+msgid "Decline"
+msgstr "却下"
+
+#: .You+have+declined+the+request+of+transfer+ownership+for+%23%23PROJECT_NAME%23%23.+%23%23CURRENT_OWNER_NAME%23%23+will+receive+a+notification+that+the+transfer+was+incomplete.
+msgid ""
+"You have declined the request of transfer ownership for ##PROJECT_NAME##. "
+"##CURRENT_OWNER_NAME## will receive a notification that the transfer was "
+"incomplete."
+msgstr "##PROJECT_NAME##の所有権譲渡リクエストを拒否しました。##CURRENT_OWNER_NAME##には譲渡が未完了である旨の通知が送信されます。"
+
+#: .%23%23CURRENT_OWNER_NAME%23%23+will+remain+the+project+owner.
+msgid "##CURRENT_OWNER_NAME## will remain the project owner."
+msgstr "##CURRENT_OWNER_NAME##は引き続きプロジェクトオーナーです。"
+
+#: .You+have+accepted+project+ownership+from+%23%23CURRENT_OWNER_NAME%23%23+for+%23%23PROJECT_NAME%23%23.+This+process+can+take+up+to+a+few+minutes+to+complete.
+msgid ""
+"You have accepted project ownership from ##CURRENT_OWNER_NAME## for "
+"##PROJECT_NAME##. This process can take up to a few minutes to complete."
+msgstr "##CURRENT_OWNER_NAME##から##PROJECT_NAME##へのプロジェクトの所有権の転送を承認しました。このプロセスの完了には数分かかることがあります。"
+
+#: .Delete+group
+msgid "Delete group"
+msgstr "グループの削除"
+
+#: .Do+you+want+to+split+the+group+apart+(and+leave+questions+intact)+or+delete+everything+entirely%3F
+msgid ""
+"Do you want to split the group apart (and leave questions intact) or delete "
+"everything entirely?"
+msgstr "(質問はそのままで)グループを分割しますか、それともすべてを完全に削除しますか?"
+
+#: .Ungroup+questions
+msgid "Ungroup questions"
+msgstr "質問のグループを解除する"
+
+#: .Delete+everything
+msgid "Delete everything"
+msgstr "すべて削除"
+
+#: .Locked
+msgid "Locked"
+msgstr "ロックされています"
+
+#: .fully+locked+group
+msgid "fully locked group"
+msgstr "完全にロックされたグループ"
+
+#: .partially+locked+group
+msgid "partially locked group"
+msgstr "部分的にロックされたグループ"
+
+#: .You+can%27t+display+nested+groups+on+the+same+screen+-+the+setting+has+been+removed+from+the+parent+group
+msgid ""
+"You can't display nested groups on the same screen - the setting has been "
+"removed from the parent group"
+msgstr "ネストしたグループを同一画面上に表示できません - 親グループから設定が削除されています"
+
+#: .fully+locked+question
+msgid "fully locked question"
+msgstr "完全にロックされた質問"
+
+#: .partially+locked+question
+msgid "partially locked question"
+msgstr "部分的にロックされた質問"
+
+#: .Enter+your+question
+msgid "Enter your question"
+msgstr "質問を入力する"
+
+#: .There+was+an+error+getting+the+list.
+msgid "There was an error getting the list."
+msgstr ""
 
 #: .You+are+approaching+your
 msgid "You are approaching your"
@@ -5026,327 +5564,33 @@ msgstr "アカウント設定で使用状況を確認する"
 msgid "remind me later"
 msgstr "後で通知する"
 
-#: .Select+export+type
-msgid "Select export type"
-msgstr "エクスポートの種類を選択"
-
-#: .%23%23start_date%23%23+to+%23%23end_date%23%23
-msgid "##start_date## to ##end_date##"
-msgstr "##start_date##から##end_date##まで"
-
-#: .Your+usage
-msgid "Your usage"
-msgstr "あなたの使用状況"
-
-#: .Last+update+%23%23LAST_UPDATE_TIME%23%23
-msgid "Last update: ##LAST_UPDATE_TIME##"
-msgstr "最終更新：##LAST_UPDATE_TIME##"
-
-#: .Storage
-msgid "Storage"
-msgstr "ストレージ"
-
-#: .per+account
-msgid "per account"
-msgstr "アカウントごと"
-
-#: .Transcription+minutes
-msgid "Transcription minutes"
-msgstr "文字起こし時間（分）"
-
-#: .Translation+characters
-msgid "Translation characters"
-msgstr "翻訳文字数"
-
-#: .%23%23count%23%23+Projects
-msgid "##count## Projects"
-msgstr "##count## 個のプロジェクト"
-
-#: .Submissions+(Total)
-msgid "Submissions (Total)"
-msgstr "投稿数 (合計)"
-
-#: .Submissions+(This+year)
-msgid "Submissions (This year)"
-msgstr "投稿数 (今年)"
-
-#: .Submissions+(This+month)
-msgid "Submissions (This month)"
-msgstr "投稿数 (今月)"
-
-#: .Data+storage
-msgid "Data storage"
-msgstr "データストレージ"
-
-#: .Transcript+minutes
-msgid "Transcript minutes"
-msgstr "文字起こし時間 (分)"
-
-#: .There+was+an+error+getting+the+list+of+plans.
-msgid "There was an error getting the list of plans."
-msgstr "プランのリストを取得中にエラーが発生しました。"
-
-#: .We+couldn%27t+make+the+requested+change+to+your+plan.%0AYour+current+plan+has+not+been+changed.
-msgid ""
-"We couldn't make the requested change to your plan.\n"
-"Your current plan has not been changed."
-msgstr "リクエストされたプランの変更を行うことができませんでした。\n現在のプランは変更されていません。"
-
-#: .Couldn%27t+get+data+for+your+organization.
-msgid "Couldn't get data for your organization."
-msgstr "組織のデータを取得できませんでした。"
-
-#: .%23%23plan_name%23%23+Plan
-msgid "##plan_name## Plan"
-msgstr "##plan_name##プラン"
-
-#: .Started+on+%23%23start_date%23%23
-msgid "Started on ##start_date##"
-msgstr "開始日："
-
-#: .Renews+on+%23%23renewal_date%23%23
-msgid "Renews on ##renewal_date##"
-msgstr "更新日："
-
-#: .Ends+on+%23%23end_date%23%23
-msgid "Ends on ##end_date##"
-msgstr "終了日: ##end_date##"
-
-#: .Changing+usage+limits+on+%23%23change_date%23%23
-msgid "Changing usage limits on ##change_date##"
-msgstr "##change_date##に利用上限を変更"
-
-#: .Switching+to+monthly+on+%23%23change_date%23%23
-msgid "Switching to monthly on ##change_date##"
-msgstr "##change_date##から月額契約に変更"
-
-#: .Your+%23%23current_plan%23%23+plan+has+been+canceled+but+will+remain+active+until+the+end+of+the+billing+period.
-msgid ""
-"Your ##current_plan## plan has been canceled but will remain active until "
-"the end of the billing period."
-msgstr "##current_plan##プランはキャンセルされましたが、引き続き請求期間の終了までご利用いただけます。"
-
-#: .Your+%23%23current_plan%23%23+plan+will+change+to+the+%23%23next_plan%23%23+plan+on
-msgid "Your ##current_plan## plan will change to the ##next_plan## plan on"
-msgstr "##current_plan##プランは次の日程で##next_plan##プランに変更されます: "
-
-#: ..+You+can+continue+using+%23%23current_plan%23%23+plan+features+until+the+end+of+the+billing+period.
-msgid ""
-". You can continue using ##current_plan## plan features until the end of the"
-" billing period."
-msgstr "。引き続き請求期間の終了まで##current_plan##プランの機能をご利用いただけます。"
-
-#: .Your+%23%23current_plan%23%23+plan+will+change+to+include+up+to+%23%23submission_quantity%23%23+submissions/month+starting+from
-msgid ""
-"Your ##current_plan## plan will change to include up to "
-"##submission_quantity## submissions/month starting from"
-msgstr "##current_plan##プランには、次の日程から最大##submission_quantity##件/月の投稿が含まれます: "
-
-#: .Your+%23%23current_plan%23%23+plan+will+change+from+annual+to+monthly+starting+from
-msgid ""
-"Your ##current_plan## plan will change from annual to monthly starting from"
-msgstr "##current_plan##プランは、次の日程から年額から月額に変更されます: "
-
-#: .Failed+to+load+analysis+questions
-msgid "Failed to load analysis questions"
-msgstr "分析質問のロードに失敗しました"
-
-#: .There+has+been+an+issue,+please+try+again+later.
-msgid "There has been an issue, please try again later."
-msgstr "問題が発生しました。後でもう一度お試してください。"
-
-#: .Success%21+Your+subscription+will+change+at+the+end+of+the+current+billing+period.
-msgid ""
-"Success! Your subscription will change at the end of the current billing "
-"period."
-msgstr "成功しました！ サブスクリプションは、現在の請求期間の終了時に変更されます。"
-
-#: .Ends+on+%23%23cancel_date%23%23
-msgid "Ends on ##cancel_date##"
-msgstr "##cancel_date##に終了"
-
-#: .Starts+on+%23%23start_date%23%23
-msgid "Starts on ##start_date##"
-msgstr "##start_date##に開始"
-
-#: .available+add-ons
-msgid "available add-ons"
-msgstr "利用可能なアドオン"
-
-#: .Add-ons+can+be+added+to+your+Community+plan+to+increase+your+usage+limits.+If+you+are+approaching+or%0A++++++++++++have+reached+the+usage+limits+included+with+your+plan,+increase+your+limits+with+add-ons+to+continue%0A++++++++++++data+collection.
-msgid ""
-"Add-ons can be added to your Community plan to increase your usage limits. If you are approaching or\n"
-"            have reached the usage limits included with your plan, increase your limits with add-ons to continue\n"
-"            data collection."
-msgstr "アドオンをコミュニティプランに追加して、利用上限を増やすことができます。 プランの上限に近づいてきたり既に達した場合、アドオンで上限を増やしてデータ収集を続けましょう。"
-
-#: .Manage
-msgid "Manage"
-msgstr "管理する"
-
-#: .Buy+now
-msgid "Buy now"
-msgstr "今すぐ購入"
-
-#: .Total+Submissions+per+Month
-msgid "Total Submissions per Month"
-msgstr "1 か月あたりの合計提出数"
-
-#: .%23%23asr_minutes%23%23+minutes+of+automated+transcription+/%23%23plan_interval%23%23
-msgid "##asr_minutes## minutes of automated transcription /##plan_interval##"
-msgstr "##asr_minutes## 分間の自動文字起こし /##plan_interval##"
-
-#: .%23%23mt_characters%23%23+characters+of+machine+translation+/%23%23plan_interval%23%23
-msgid "##mt_characters## characters of machine translation /##plan_interval##"
-msgstr "機械翻訳##mt_characters## 文字 /##plan_interval##"
-
-#: .%23%23add_on_name%23%23+add-on
-msgid "##add_on_name## add-on"
-msgstr "##add_on_name##アドオン"
-
-#: .monthly+%23%23plan_name%23%23+plan
-msgid "monthly ##plan_name## plan"
-msgstr "月額##plan_name##プラン"
-
-#: .yearly+%23%23plan_name%23%23+plan
-msgid "yearly ##plan_name## plan"
-msgstr "年間##plan_name##プラン"
-
-#: .plan
-msgid "plan"
-msgstr "プラン"
-
-#: .add-on
-msgid "add-on"
-msgstr "アドオン"
-
-#: .There+was+an+error+processing+your+plan+change.+Your+previous+plan+has+not+been+changed.+Please+try+again+later.
-msgid ""
-"There was an error processing your plan change. Your previous plan has not "
-"been changed. Please try again later."
-msgstr "プラン変更の処理中にエラーが発生しました。 以前のプランは変更されていません。 後でもう一度試してください。"
-
-#: .Changes+to+your+Plan
-msgid "Changes to your Plan"
-msgstr "プランの変更"
-
-#: .Processing+your+transaction%E2%80%A6
-msgid "Processing your transaction…"
-msgstr "取引を処理しています…"
-
-#: .You+are+switching+to+the+%23%23new_product_type%23%23.
-msgid "You are switching to the ##new_product_type##."
-msgstr "##new_product_type##に切り替えています。"
-
-#: .Because+this+plan+includes+unlimited+storage,+your+storage+add-on+will+be+canceled.
-msgid ""
-"Because this plan includes unlimited storage, your storage add-on will be "
-"canceled."
-msgstr "このプランには無制限のストレージが含まれているため、ストレージ アドオンはキャンセルされます。"
-
-#: .Your+current+%23%23product_type%23%23+will+remain+in+effect+until+%23%23billing_end_date%23%23.%0A++++++++++++++++++++Starting+on+%23%23billing_end_date%23%23+and+until+you+cancel,+we+will+bill+you+%23%23new_price%23%23.
-msgid ""
-"Your current ##product_type## will remain in effect until ##billing_end_date##.\n"
-"                    Starting on ##billing_end_date## and until you cancel, we will bill you ##new_price##."
-msgstr "現在の##product_type##は##billing_end_date##まで有効です。##billing_end_date##以降、キャンセルされるまでの間、 料金##new_price##が請求されます。"
-
-#: .Submit
-msgid "Submit"
-msgstr "提出"
-
-#: .Original+transcript
-msgid "Original transcript"
-msgstr "オリジナルのトランスクリプト"
-
-#: .Submission+data
-msgid "Submission data"
-msgstr "提出データ"
-
-#: .Original+file+(Audio)
-msgid "Original file (Audio)"
-msgstr "オリジナルファイル（音声）"
-
-#: .Display+settings
-msgid "Display settings"
-msgstr "ディスプレイの設定"
-
-#: .Customize+display+settings
-msgid "Customize display settings"
-msgstr "表示設定をカスタマイズする"
-
-#: .Select+the+information+you+want+to+display+in+the+side+menu+to+support+your+analysis.
-msgid ""
-"Select the information you want to display in the side menu to support your "
-"analysis."
-msgstr "分析をサポートするためにサイド メニューに表示する情報を選択します。"
-
-#: .Select+the+submission+data+to+display.
-msgid "Select the submission data to display."
-msgstr "表示する投稿を選択します。"
-
-#: .Apply+selection
-msgid "Apply selection"
-msgstr "選択を適用する"
-
-#: .Delete+group
-msgid "Delete group"
-msgstr "グループの削除"
-
-#: .Do+you+want+to+split+the+group+apart+(and+leave+questions+intact)+or+delete+everything+entirely%3F
-msgid ""
-"Do you want to split the group apart (and leave questions intact) or delete "
-"everything entirely?"
-msgstr "(質問はそのままで)グループを分割しますか、それともすべてを完全に削除しますか?"
-
-#: .Ungroup+questions
-msgid "Ungroup questions"
-msgstr "質問のグループを解除する"
-
-#: .Delete+everything
-msgid "Delete everything"
-msgstr "すべて削除"
-
-#: .Locked
-msgid "Locked"
-msgstr "ロックされています"
-
-#: .fully+locked+group
-msgid "fully locked group"
-msgstr "完全にロックされたグループ"
-
-#: .partially+locked+group
-msgid "partially locked group"
-msgstr "部分的にロックされたグループ"
-
-#: .You+can%27t+display+nested+groups+on+the+same+screen+-+the+setting+has+been+removed+from+the+parent+group
-msgid ""
-"You can't display nested groups on the same screen - the setting has been "
-"removed from the parent group"
-msgstr "ネストしたグループを同一画面上に表示できません - 親グループから設定が削除されています"
-
-#: .fully+locked+question
-msgid "fully locked question"
-msgstr "完全にロックされた質問"
-
-#: .partially+locked+question
-msgid "partially locked question"
-msgstr "部分的にロックされた質問"
-
-#: .Enter+your+question
-msgid "Enter your question"
-msgstr "質問を入力する"
+#: .Available
+msgid "Available"
+msgstr "利用可能"
+
+#: .Used+this+month
+msgid "Used this month"
+msgstr "今月利用した"
+
+#: .Used+this+year
+msgid "Used this year"
+msgstr "今年使用した"
+
+#: .Balance
+msgid "Balance"
+msgstr "収支"
 
 #: .Default+sort
 msgid "Default sort"
 msgstr "デフォルトの並べ替え"
 
-#: .There+was+an+error+fetching+usage+data.
-msgid "There was an error fetching usage data."
-msgstr "使用状況データの取得中にエラーが発生しました。"
+#: .last+modified+%23%23date%23%23
+msgid "last modified ##date##"
+msgstr "最終更新日##date##"
 
-#: .There+was+an+error+fetching+asset+usage+data.
-msgid "There was an error fetching asset usage data."
-msgstr "アセットの使用量データの取得中にエラーが発生しました。"
+#: .created+%23%23date%23%23
+msgid "created ##date##"
+msgstr "##date##作成"
 
 #: .Automated+analysis
 msgid "Automated analysis"
@@ -5360,9 +5604,13 @@ msgstr "未保存の変更"
 msgid "Saved"
 msgstr "保存されました"
 
-#: .source+file
-msgid "source file"
-msgstr "ソースファイル"
+#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
+msgid "This ##type## does not have a transcript yet"
+msgstr "この##type##はまだ文字起こしがありません"
+
+#: .begin
+msgid "begin"
+msgstr "始める"
 
 #: .Please+select+the+original+language+of+the+%23%23type%23%23
 msgid "Please select the original language of the ##type##"
@@ -5379,38 +5627,6 @@ msgstr "手動"
 #: .transcribe
 msgid "transcribe"
 msgstr "文字起こす"
-
-#: .This+%23%23type%23%23+does+not+have+a+transcript+yet
-msgid "This ##type## does not have a transcript yet"
-msgstr "この##type##はまだ文字起こしがありません"
-
-#: .begin
-msgid "begin"
-msgstr "始める"
-
-#: .Unlimited
-msgid "Unlimited"
-msgstr "無制限"
-
-#: .%23%23minutes%23%23+mins
-msgid "##minutes## mins"
-msgstr "##minutes##分"
-
-#: .Available
-msgid "Available"
-msgstr "利用可能"
-
-#: .Used+this+month
-msgid "Used this month"
-msgstr "今月利用した"
-
-#: .Used+this+year
-msgid "Used this year"
-msgstr "今年使用した"
-
-#: .Balance
-msgid "Balance"
-msgstr "収支"
 
 #: .Automatic+transcription+in+progress
 msgid "Automatic transcription in progress"
@@ -5450,13 +5666,33 @@ msgstr "文字起こし作成"
 msgid "Delete transcript?"
 msgstr "文字起こしを削除しますか?"
 
-#: .last+modified+%23%23date%23%23
-msgid "last modified ##date##"
-msgstr "最終更新日##date##"
+#: .This+transcript+does+not+have+any+translations+yet
+msgid "This transcript does not have any translations yet"
+msgstr "この原稿にはまだ翻訳がありません"
 
-#: .created+%23%23date%23%23
-msgid "created ##date##"
-msgstr "##date##作成"
+#: .Free
+msgid "Free"
+msgstr "無料"
+
+#: .%24%23%23price%23%23
+msgid "$##price##"
+msgstr ""
+
+#: .%24%23%23price%23%23+USD/month
+msgid "$##price## USD/month"
+msgstr "##price##米ドル/月"
+
+#: .Upgrade
+msgid "Upgrade"
+msgstr "アップグレード"
+
+#: .Manage
+msgid "Manage"
+msgstr "管理する"
+
+#: .Change+plan
+msgid "Change plan"
+msgstr "プラン変更"
 
 #: .Please+select+the+language+you+want+to+translate+to
 msgid "Please select the language you want to translate to"
@@ -5466,9 +5702,21 @@ msgstr "翻訳したい言語を選択してください"
 msgid "translate"
 msgstr "翻訳する"
 
-#: .This+transcript+does+not+have+any+translations+yet
-msgid "This transcript does not have any translations yet"
-msgstr "この原稿にはまだ翻訳がありません"
+#: .Delete+translation%3F
+msgid "Delete translation?"
+msgstr "翻訳を削除しますか？"
+
+#: .new+translation
+msgid "new translation"
+msgstr "新しい翻訳"
+
+#: .Automatic+translation+in+progress
+msgid "Automatic translation in progress"
+msgstr ""
+
+#: .less+than+a+minute
+msgid "less than a minute"
+msgstr "一分未満"
 
 #: .Automatic+translation+of+transcript+to
 msgid "Automatic translation of transcript to"
@@ -5490,13 +5738,49 @@ msgstr "自動翻訳サービスはGoogle Cloud Platformによって提供され
 msgid "create translation"
 msgstr "翻訳を作成"
 
-#: .Delete+translation%3F
-msgid "Delete translation?"
-msgstr "翻訳を削除しますか？"
+#: .NLP+Package
+msgid "NLP Package"
+msgstr ""
 
-#: .new+translation
-msgid "new translation"
-msgstr "新しい翻訳"
+#: .Increase+your+transcription+minutes+and+translations+characters.
+msgid "Increase your transcription minutes and translations characters."
+msgstr ""
+
+#: .File+Storage
+msgid "File Storage"
+msgstr ""
+
+#: .Get+up+to+50GB+of+media+storage+on+a+KoboToolbox+public+server.
+msgid "Get up to 50GB of media storage on a KoboToolbox public server."
+msgstr ""
+
+#: .Buy+now
+msgid "Buy now"
+msgstr "今すぐ購入"
+
+#: .prices
+msgid "prices"
+msgstr ""
+
+#: .quantity
+msgid "quantity"
+msgstr ""
+
+#: .about+1+minute
+msgid "about 1 minute"
+msgstr "およそ1分"
+
+#: .about+2+minutes
+msgid "about 2 minutes"
+msgstr "およそ2分"
+
+#: .about+%23%23number%23%23+minutes
+msgid "about ##number## minutes"
+msgstr "およそ##number##分"
+
+#: .Click+to+add+another+response...
+msgid "Click to add another response..."
+msgstr "クリックで別のレスポンスを追加…"
 
 #: .All+group+settings
 msgid "All group settings"
@@ -5566,25 +5850,13 @@ msgid ""
 "contact us at help@kobotoolbox.org so we can fix this bug!"
 msgstr "この質問をインポートすることができませんでした。手動で再作成してください。このバグを修正しますので、help@kobotoolbox.org までご連絡ください！"
 
-#: .Free
-msgid "Free"
-msgstr "無料"
-
-#: .%24%23%23price%23%23+USD/month
-msgid "$##price## USD/month"
-msgstr "##price##米ドル/月"
-
-#: .Upgrade
-msgid "Upgrade"
-msgstr "アップグレード"
-
-#: .Change+plan
-msgid "Change plan"
-msgstr "プラン変更"
-
 #: .Accepted+files
 msgid "Accepted files"
 msgstr "承認されたファイル"
+
+#: .Add+Question
+msgid "Add Question"
+msgstr "質問を追加"
 
 #: .This+form+is+currently+empty.
 msgid "This form is currently empty."
@@ -5596,37 +5868,13 @@ msgid ""
 "'+' sign below."
 msgstr "下の「＋」マークをクリックすると、質問、備考、プロンプト、その他の項目を追加することができます。"
 
-#: .Add+Question
-msgid "Add Question"
-msgstr "質問を追加"
-
-#: .Click+to+add+another+response...
-msgid "Click to add another response..."
-msgstr "クリックで別のレスポンスを追加…"
-
-#: .less+than+a+minute
-msgid "less than a minute"
-msgstr "一分未満"
-
-#: .about+1+minute
-msgid "about 1 minute"
-msgstr "およそ1分"
-
-#: .about+2+minutes
-msgid "about 2 minutes"
-msgstr "およそ2分"
-
-#: .about+%23%23number%23%23+minutes
-msgid "about ##number## minutes"
-msgstr "およそ##number##分"
+#: .No+value
+msgid "No value"
+msgstr "値なし："
 
 #: .e.g.+%22.pdf,.doc,.odt%22
 msgid "e.g. \".pdf,.doc,.odt\""
 msgstr "例：「.pdf」、「.doc」、「.odt」"
-
-#: .No+value
-msgid "No value"
-msgstr "値なし："
 
 #: .Choices+File
 msgid "Choices File"
@@ -5680,6 +5928,38 @@ msgstr "必要に応じてこのグループを繰り返す"
 msgid "Appearance (advanced)"
 msgstr "外観（詳細）"
 
+#: .View+add-on+details
+msgid "View add-on details"
+msgstr ""
+
+#: .Add-on+details
+msgid "Add-on details"
+msgstr ""
+
+#: .%23%23TYPE%23%23
+msgid "##TYPE##"
+msgstr ""
+
+#: .Included+with+%23%23PERIOD%23%23+plan
+msgid "Included with ##PERIOD## plan"
+msgstr ""
+
+#: .From+add-ons
+msgid "From add-ons"
+msgstr ""
+
+#: .Used+this+%23%23PERIOD%23%23
+msgid "Used this ##PERIOD##"
+msgstr ""
+
+#: .Total+available
+msgid "Total available"
+msgstr ""
+
+#: .Purchased+add-ons
+msgid "Purchased add-ons"
+msgstr ""
+
 #: .Please+note+that+any+qualitative+question+created+for+this+record+will+generate+a+new+column+in+the+data+table,+making+the+question+available+for+all+other+records.
 msgid ""
 "Please note that any qualitative question created for this record will "
@@ -5703,6 +5983,30 @@ msgstr "完全な編集権限を持つユーザーのみが質問を作成でき
 msgid "Contact the project owner for more information"
 msgstr "詳細についてはプロジェクト所有者に問い合わせてください"
 
+#: .Upgrade+to+continue+using+this+feature
+msgid "Upgrade to continue using this feature"
+msgstr ""
+
+#: .You+have+reached+the+%23%23LIMIT%23%23+limit+for+this+%23%23PERIOD%23%23.
+msgid "You have reached the ##LIMIT## limit for this ##PERIOD##."
+msgstr ""
+
+#: .Please+consider+our+plans+or+add-ons+to+continue+using+this+feature.
+msgid "Please consider our plans or add-ons to continue using this feature."
+msgstr ""
+
+#: .You+can+monitor+your+usage
+msgid "You can monitor your usage"
+msgstr ""
+
+#: .Go+back
+msgid "Go back"
+msgstr ""
+
+#: .automatic
+msgid "automatic"
+msgstr "自動"
+
 #: .original
 msgid "original"
 msgstr "原文"
@@ -5722,14 +6026,6 @@ msgstr "自身の言語が見つかりませんでした"
 #: .Please+select+the+language
 msgid "Please select the language"
 msgstr "言語を選択してください"
-
-#: .automatic
-msgid "automatic"
-msgstr "自動"
-
-#: .Unknown+question+type+%23%23type_name%23%23
-msgid "Unknown question type ##type_name##"
-msgstr "不明な質問のタイプ##type_name##"
 
 #: .Change+column+type%3F
 msgid "Change column type?"
@@ -5807,6 +6103,30 @@ msgstr "データ列のプレフィックス"
 msgid "Delete row"
 msgstr "行の削除"
 
+#: .Unknown+question+type+%23%23type_name%23%23
+msgid "Unknown question type ##type_name##"
+msgstr "不明な質問のタイプ##type_name##"
+
+#: .%23%23REMAINING%23%23+remaining
+msgid "##REMAINING## remaining"
+msgstr ""
+
+#: .Question+label+cannot+be+empty
+msgid "Question label cannot be empty"
+msgstr "質問ラベルを空にすることはできません"
+
+#: .Some+required+fields+are+missing
+msgid "Some required fields are missing"
+msgstr "いくつかの必須フィールドが入力されていません"
+
+#: .Type+question
+msgid "Type question"
+msgstr "質問を入力してください"
+
+#: .Type+your+answer
+msgid "Type your answer"
+msgstr "あなたの回答を入力"
+
 #: .%E2%80%A6keyword+search+in+progress
 msgid "…keyword search in progress"
 msgstr "…キーワード検索中"
@@ -5827,10 +6147,6 @@ msgstr "個のインスタンス"
 msgid "from"
 msgstr "から"
 
-#: .Type+your+answer
-msgid "Type your answer"
-msgstr "あなたの回答を入力"
-
 #: .Delete+this+question%3F
 msgid "Delete this question?"
 msgstr "この質問を削除しますか?"
@@ -5839,18 +6155,6 @@ msgstr "この質問を削除しますか?"
 msgid ""
 "Are you sure you want to delete this question? This action cannot be undone."
 msgstr "この質問を削除してもよろしいですか? この操作は元に戻すことができません。"
-
-#: .Question+label+cannot+be+empty
-msgid "Question label cannot be empty"
-msgstr "質問ラベルを空にすることはできません"
-
-#: .Some+required+fields+are+missing
-msgid "Some required fields are missing"
-msgstr "いくつかの必須フィールドが入力されていません"
-
-#: .Type+question
-msgid "Type question"
-msgstr "質問を入力してください"
 
 #: .Look+for
 msgid "Look for"
