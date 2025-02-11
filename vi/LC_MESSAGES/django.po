@@ -40,7 +40,7 @@ msgstr "Tổ chức giáo dục"
 
 #: kobo/apps/accounts/forms.py:79
 msgid "A commercial/for-profit company"
-msgstr "Một công ty thương mại/vì lợi nhuận"
+msgstr "Công ty thương mại/vì lợi nhuận"
 
 #: kobo/apps/accounts/forms.py:80
 msgid "I am not associated with any organization"
@@ -99,12 +99,12 @@ msgstr "Mã xác thực không hợp lệ"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:22
 msgid "Please enter your verification token"
-msgstr "Vui lòng nhập mã xác thực OTP"
+msgstr "Vui lòng nhập mã xác thực"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:26
 msgid ""
 "Please enter the verification token displayed by your authenticator app."
-msgstr "Vui lòng nhập mã xác thực OTP hiển thị trên ứng dụng xác thực của bạn."
+msgstr "Vui lòng nhập mã xác thực hiển thị trên ứng dụng xác thực của bạn."
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:33
 msgid "Problems with the token"
@@ -116,7 +116,7 @@ msgstr "Tiếp tục"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:46
 msgid "Verification issues"
-msgstr "Vấn đề xác minh"
+msgstr "Vấn đề xác thực"
 
 #: kobo/apps/accounts/mfa/templates/mfa_token.html:54
 msgid "Back"
@@ -132,7 +132,7 @@ msgstr "Để xác thực địa chỉ email liên kết với tài khoản Kobo
 msgid ""
 "This link will expire in one hour. To request a new verification link, "
 "please go to your account settings and re-enter your new email address:"
-msgstr "Liên kết này sẽ hết hạn trong một giờ. Để yêu cầu liên kết xác minh mới, vui lòng vào cài đặt tài khoản và nhập lại địa chỉ email mới của bạn:"
+msgstr "Liên kết này sẽ hết hạn trong một giờ. Để yêu cầu liên kết xác thực mới, vui lòng vào cài đặt tài khoản và nhập lại địa chỉ email mới của bạn:"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_message.txt:10
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:29
@@ -145,13 +145,13 @@ msgstr "Thân mến,"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:10
 msgid "Thanks for signing up with KoboToolbox!"
-msgstr "Cảm ơn bạn đã đăng kí tài khoản KoboToolbox!"
+msgstr "Cảm ơn bạn đã đăng ký tài khoản KoboToolbox!"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:12
 msgid ""
 "Confirming your account will give you access to KoboToolbox applications. "
 "Please visit the following URL to finish activation of your new account."
-msgstr "Việc xác minh tài khoản sẽ cho bạn quyền truy cập các ứng dụng của KoboToolbox. Vui lòng nhấn vào đường liên kết sau để hoàn tất việc kích hoạt tài khoản mới của bạn."
+msgstr "Việc xác thực tài khoản sẽ cho bạn quyền truy cập các ứng dụng của KoboToolbox. Vui lòng nhấn vào đường liên kết sau để hoàn tất việc kích hoạt tài khoản mới của bạn."
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_signup_message.txt:16
 msgid "Your username is: "
@@ -176,7 +176,7 @@ msgstr "Kích hoạt tài khoản KoboToolbox của bạn"
 
 #: kobo/apps/accounts/templates/account/email/email_confirmation_subject.txt:3
 msgid "KoboToolbox account email address verification"
-msgstr "Xác minh địa chỉ email tài khoản KoboToolbox"
+msgstr "Xác thực địa chỉ email cho tài khoản KoboToolbox"
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:4
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:5
@@ -217,7 +217,7 @@ msgstr "Bạn nhận được email này vì bạn hoặc ai đó đã yêu cầ
 msgid ""
 "However, we do not have any record of an account with email %(email)s in our"
 " database."
-msgstr "Tuy nhiên, chúng tôi không thể tìm được tài khoản nào có địa chỉ e-mail %(email)s trong cơ sở dữ liệu."
+msgstr "Tuy nhiên, chúng tôi không thể tìm được tài khoản nào có địa chỉ email %(email)s trong cơ sở dữ liệu."
 
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:11
 msgid ""
@@ -239,7 +239,7 @@ msgstr "Xác nhận địa chỉ email"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "Vui lòng xác nhận <a href=\"mailto:%(email)s\">%(email)s</a> là địa chỉ e-mail của người dùng %(user_display)s."
+msgstr "Vui lòng xác nhận <a href=\"mailto:%(email)s\">%(email)s</a> là địa chỉ email của người dùng %(user_display)s."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -341,11 +341,11 @@ msgstr "Đăng ký bằng SSO"
 
 #: kobo/apps/accounts/templates/account/signup.html:75
 msgid "Register with SSO"
-msgstr "Đăng kí bằng SSO"
+msgstr "Đăng ký với SSO"
 
 #: kobo/apps/accounts/templates/account/verification_sent.html:8
 msgid "Confirm your email address"
-msgstr "Xác nhận địa chỉ email của bạn"
+msgstr "Xác thực địa chỉ email của bạn"
 
 #: kobo/apps/accounts/templates/account/verification_sent.html:11
 msgid "Please click the activation link in the email just sent to you."
@@ -400,11 +400,11 @@ msgstr "Thiết lập Đăng nhập một lần"
 msgid ""
 "Click the button below to connect your KoboToolbox account with your "
 "%(appname)s account."
-msgstr "Nhấn vào nút phía dưới để kết nối tài khoản KoboToolbox của bạn với tài khoản %(appname)s."
+msgstr "Nhấn vào nút phía dưới để kết nối tài khoản KoboToolbox với tài khoản %(appname)s của bạn."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:18
 msgid "This will allow you to use single sign-on (SSO) in the future."
-msgstr "Điều này sẽ cho phép bạn sử dụng Đăng nhập một lần trong những lần sau."
+msgstr "Việc này sẽ cho phép bạn sử dụng Đăng nhập một lần trong những lần sau."
 
 #: kobo/apps/accounts/templates/socialaccount/login.html:23
 #, python-format
@@ -427,7 +427,7 @@ msgstr "quay lại"
 #: kobo/apps/accounts/templates/socialaccount/signup.html:11
 #, python-format
 msgid "Welcome to KoboToolbox, %(username)s!"
-msgstr "Chào mừng bạn đến với KoboToolbox, %(username)s!"
+msgstr "Chào mừng %(username)s đến với KoboToolbox!"
 
 #: kobo/apps/accounts/templates/socialaccount/signup.html:13
 msgid "Welcome to KoboToolbox!"
@@ -481,12 +481,12 @@ msgstr "Tên dự án"
 #: kobo/apps/hook/templates/reports/failures_email_body.html:4
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:4
 msgid "Hook"
-msgstr "Móc (Hook)"
+msgstr "Móc"
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:5
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:5
 msgid "Submission"
-msgstr "Lần gửi"
+msgstr "Bản dữ liệu"
 
 #: kobo/apps/hook/templates/reports/failures_email_body.html:6
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:6
@@ -519,7 +519,7 @@ msgstr "Chào bạn"
 #: kobo/apps/hook/templates/reports/failures_email_body.html:11
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:12
 msgid "Some submissions could not be sent to their external endpoints."
-msgstr "Một số lần gửi đã không đến được điểm cuối bên ngoài."
+msgstr "Một số bản dữ liệu đã không đến được điểm cuối bên ngoài."
 
 #: kobo/apps/hook/views/v2/hook.py:178
 msgid "Task successfully scheduled"
@@ -531,7 +531,7 @@ msgstr "Không có dữ liệu để thử lại"
 
 #: kobo/apps/hook/views/v2/hook.py:217
 msgid "Can not retry on disabled hooks"
-msgstr "Không thể thử lại trên các móc bị vô hiệu hóa"
+msgstr "Không thể thử lại trên các móc bị tắt"
 
 #: kobo/apps/hook/views/v2/hook_log.py:120
 msgid "An error has occurred when sending the data. Please try again later."
@@ -547,217 +547,217 @@ msgstr "Nhập"
 
 #: kobo/apps/openrosa/apps/api/exceptions.py:12
 msgid "This is not supported by the legacy API anymore"
-msgstr ""
+msgstr "Đã không còn được hỗ trợ bởi API cũ nữa"
 
 #: kobo/apps/openrosa/apps/api/exceptions.py:19
 msgid "No confirmation provided"
-msgstr ""
+msgstr "Không có xác nhận nào được cung cấp"
 
 #: kobo/apps/openrosa/apps/api/tools.py:70
 #, python-format
 msgid "User %(user)s has no permission to add xforms to account %(account)s"
-msgstr ""
+msgstr "Người dùng %(user)s không có quyền thêm xforms vào tài khoản %(account)s"
 
 #: kobo/apps/openrosa/apps/api/tools.py:82
 #, python-format
 msgid "User %(user)s has no permission to change this form."
-msgstr ""
+msgstr "Người dùng %(user)s không có quyền thay đổi biểu mẫu này."
 
 #: kobo/apps/openrosa/apps/api/tools.py:111
 msgid "You do not have permission to view data from this form."
-msgstr ""
+msgstr "Không có quyền xem dữ liệu từ biểu mẫu này."
 
 #: kobo/apps/openrosa/apps/api/viewsets/attachment_viewset.py:174
 #, python-format
 msgid "Filename '%s' not found."
-msgstr ""
+msgstr "Không tìm thấy tên tệp '%s'."
 
 #: kobo/apps/openrosa/apps/api/viewsets/briefcase_api.py:40
 #, python-format
 msgid "Invalid formId %s."
-msgstr ""
+msgstr "formId không hợp lệ %s."
 
 #: kobo/apps/openrosa/apps/api/viewsets/briefcase_api.py:195
 #, python-format
 msgid "%s successfully published."
-msgstr ""
+msgstr "%s đã được xuất bản thành công."
 
 #: kobo/apps/openrosa/apps/api/viewsets/briefcase_api.py:200
 msgid "Missing xml file."
-msgstr ""
+msgstr "Thiếu tệp xml."
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:407
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:436
 msgid "`query` and `instance_ids` can't be used together"
-msgstr ""
+msgstr "`query` và `instance_ids` không thể sử dụng cùng nhau"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:411
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:440
 msgid "Invalid `query` or `submission_ids` params"
-msgstr ""
+msgstr "Tham số `query` và `submission_ids` không hợp lệ"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:418
 msgid "{} submissions have been deleted"
-msgstr ""
+msgstr "{} bản dữ liệu đã bị xóa"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:446
 msgid "No `validation_status.uid` provided"
-msgstr ""
+msgstr "Không `validation_status.uid` được cung cấp"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:451
 msgid "{} submissions have been updated"
-msgstr ""
+msgstr "{} bản dữ liệu đã được cập nhật"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:487
 #, python-format
 msgid "Invalid pk `%(pk)s`"
-msgstr ""
+msgstr "pk `%(pk)s` không hợp lệ "
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:491
 #, python-format
 msgid "Invalid dataid `%(dataid)s`"
-msgstr ""
+msgstr "dataid không hợp lệ `%(dataid)s`"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:506
 msgid "No data matches with given query."
-msgstr ""
+msgstr "Không có dữ liệu phù hợp với truy vấn."
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:523
 #, python-format
 msgid "Invalid pk %(pk)s"
-msgstr ""
+msgstr "pk %(pk)s không hợp lệ "
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:627
 msgid "Data id not provided."
-msgstr ""
+msgstr "id dữ liệu không được cung cấp."
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:631
 msgid "`return_url` not provided."
-msgstr ""
+msgstr "`return_url` không được cung cấp."
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:643
 msgid ""
 "Cannot edit submissions while \"Require authentication to see form and "
 "submit data\" is disabled for your project"
-msgstr ""
+msgstr "Không thể chỉnh sửa bản dữ liệu khi \"Yêu cầu xác thực để xem biểu mẫu và gửi dữ liệu\" trong dự án của bạn bị tắt"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:667
 msgid "Data id not provided"
-msgstr ""
+msgstr "id dữ liệu không được cung cấp"
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_submission_api.py:56
 msgid "No submission key provided."
-msgstr ""
+msgstr "Không có khóa xác thực được cung cấp."
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_submission_api.py:205
 msgid "Unable to create submission."
-msgstr ""
+msgstr "Không thể tạo bản dữ liệu."
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:55
 #, python-format
 msgid "'%(export_type)s' format not known or not implemented!"
-msgstr ""
+msgstr "Định dạng '%(export_type)s' không xác định hoặc không được triển khai!"
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:91
 msgid "Dates must be in the format YY_MM_DD_hh_mm_ss"
-msgstr ""
+msgstr "Ngày phải ở định dạng YY_MM_DD_hh_mm_ss"
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:109
 msgid "No records found to export"
-msgstr ""
+msgstr "Không tìm thấy bản ghi nào để xuất"
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:140
 msgid "No XLSForm found."
-msgstr ""
+msgstr "Không tìm thấy XLSForm."
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:585
 msgid "Only a form's owner can overwrite its contents"
-msgstr ""
+msgstr "Chỉ chủ sở hữu biểu mẫu mới có thể ghi đè nội dung"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:71
 msgid "Require authentication to see form and submit data"
-msgstr ""
+msgstr "Yêu cầu xác thực để xem biểu mẫu và gửi dữ liệu"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:79
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:107
 msgid "XForm"
-msgstr ""
+msgstr "XForm"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:108
 msgid "XForms"
-msgstr ""
+msgstr "XForms"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:111
 msgid "Can make submissions to the form"
-msgstr ""
+msgstr "Có thể tạo thêm bản dữ liệu đưa vào biểu mẫu"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:112
 msgid "Can transfer form ownership."
-msgstr ""
+msgstr "Có thể chuyển quyền sở hữu biểu mẫu."
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:113
 msgid "Can validate submissions"
-msgstr ""
+msgstr "Có thể xác thực các bản dữ liệu"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:114
 msgid "Can delete submissions"
-msgstr ""
+msgstr "Có thể xóa bản dữ liệu"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:242
 #, python-format
 msgid ""
 "Your updated form's id_string '%(new_id)s' must match the existing forms' "
 "id_string '%(old_id)s'."
-msgstr ""
+msgstr "id_string '%(new_id)s' của biểu mẫu đã cập nhật phải khớp với' id_string '%(old_id)s' của biểu mẫu đã tồn tại."
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:251
 msgid ""
 "In strict mode, the XForm ID must be a valid slug and contain no spaces."
-msgstr ""
+msgstr "Trong chế độ nghiêm ngặt, ID XForm phải là một slug hợp lệ và không chứa khoảng trắng."
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:265
 msgid "Submission Count"
-msgstr ""
+msgstr "Số lượng bản dữ liệu"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:301
 msgid "There should be a single id string."
-msgstr ""
+msgstr "Cần phải có một chuỗi id duy nhất."
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:326
 msgid "There should be a single title."
-msgstr ""
+msgstr "Cần phải có một tiêu đề duy nhất."
 
 #: kobo/apps/openrosa/apps/logger/views.py:68
 #: kobo/apps/openrosa/libs/serializers/data_serializer.py:114
 msgid "Successful submission."
-msgstr ""
+msgstr "Đã gửi thành công."
 
 #: kobo/apps/openrosa/apps/logger/views.py:94
 msgid ""
 "There was a problem receiving your ODK submission. [Error: IO Error reading "
 "data]"
-msgstr ""
+msgstr "Đã xảy ra sự cố khi nhận dữ liệu gửi từ ODK của bạn. [Lỗi: Lỗi IO khi đọc dữ liệu]"
 
 #: kobo/apps/openrosa/apps/logger/views.py:98
 msgid ""
 "There was a problem receiving your ODK submission. [Error: multiple "
 "submission files (?)]"
-msgstr ""
+msgstr "Đã xảy ra sự cố trong khi nhận dữ liệu gửi từ ODK. [Lỗi: gửi nhiều tệp tin (?)]"
 
 #: kobo/apps/openrosa/apps/logger/views.py:120
 #, python-format
 msgid ""
 "Submission complete. Out of %(total)d survey instances, %(success)d were "
 "imported, (%(rejected)d were rejected as duplicates, missing forms, etc.)"
-msgstr ""
+msgstr "Gửi dữ liệu hoàn tất. Trong số %(total)d bản dữ liệu, %(success)d bản đã được nhập (%(rejected)d bị từ chối do trùng lặp, thiếu biểu mẫu, v.v.)"
 
 #: kobo/apps/openrosa/apps/logger/views.py:190
 #, python-format
 msgid "No XLS file for your form %(id)s"
-msgstr ""
+msgstr "Không có tệp tin XLS cho biểu mẫu của bạn %(id)s"
 
 #: kobo/apps/openrosa/apps/logger/views.py:208
 #: kobo/apps/openrosa/apps/viewer/views.py:52
@@ -767,58 +767,58 @@ msgstr ""
 #: kobo/apps/openrosa/apps/viewer/views.py:190
 #: kobo/apps/openrosa/apps/viewer/views.py:266
 msgid "Not shared."
-msgstr ""
+msgstr "Không được chia sẻ."
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:25
 msgid "Duplicate Instance"
-msgstr ""
+msgstr "Bản sao trùng lặp"
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:30
 msgid "Could not determine the user."
-msgstr ""
+msgstr "Không thể xác định người dùng."
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:35
 msgid "The instance could not be parsed."
-msgstr ""
+msgstr "Không thể phân tích được bản sao."
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:40
 msgid "Empty instance"
-msgstr ""
+msgstr "Bản sao rỗng"
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:53
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:96
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:111
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:348
 msgid "XML string must have a survey element."
-msgstr ""
+msgstr "Chuỗi XML phải có phần tử khảo sát."
 
 #: kobo/apps/openrosa/apps/main/forms.py:18
 msgid "Media upload"
-msgstr ""
+msgstr "Tải lên phương tiện"
 
 #: kobo/apps/openrosa/apps/main/forms.py:30
 #: kobo/apps/openrosa/libs/utils/quick_converter.py:9
 msgid "XLS File"
-msgstr ""
+msgstr "Tệp XLS"
 
 #: kobo/apps/openrosa/apps/main/templates/405.html:5
 msgid "405 Error: Method Not Allowed!"
-msgstr ""
+msgstr "Lỗi 405: Phương thức không được phép!"
 
 #: kobo/apps/openrosa/apps/main/templates/500.html:5
 msgid "500 Error"
-msgstr ""
+msgstr "Lỗi 500"
 
 #: kobo/apps/openrosa/apps/main/templates/500.html:8
 msgid ""
 "If this is a significant error that needs to be fixed, please send a support"
 " request to support@kobotoolbox.org with information about what triggered "
 "this error."
-msgstr ""
+msgstr "Nếu đây là lỗi nghiêm trọng cần khắc phục, vui lòng gửi yêu cầu hỗ trợ tới support@kobotoolbox.org kèm thông tin về nguyên nhân gây ra lỗi này."
 
 #: kobo/apps/openrosa/apps/main/templates/restricted_access.html:5
 msgid "403 - Restricted access"
-msgstr ""
+msgstr "403 - Quyền truy cập bị hạn chế"
 
 #: kobo/apps/openrosa/apps/main/templates/restricted_access.html:8
 #, python-format
@@ -826,1250 +826,1250 @@ msgid ""
 "\n"
 "    Your access is restricted. Please reclaim your access by <a href=\"%(koboform_url)s/accounts/password/reset/\">changing your password</a>.\n"
 "  "
-msgstr ""
+msgstr "\n     Quyền truy cập của bạn bị hạn chế. Vui lòng lấy lại quyền truy cập bằng cách <a href=\"%(koboform_url)s/accounts/password/reset/\">thay đổi mật khẩu</a>.\n"
 
 #: kobo/apps/openrosa/apps/viewer/models/export.py:17
 msgid "Invalid export type specified"
-msgstr ""
+msgstr "Loại xuất được chỉ định không hợp lệ"
 
 #: kobo/apps/openrosa/apps/viewer/models/parsed_instance.py:111
 #: kobo/apps/openrosa/apps/viewer/models/parsed_instance.py:163
 msgid "Invalid start/limit params"
-msgstr ""
+msgstr "Tham số bắt đầu/giới hạn không hợp lệ"
 
 #: kobo/apps/openrosa/apps/viewer/models/parsed_instance.py:127
 #, python-format
 msgid "Invalid pipeline! %s"
-msgstr ""
+msgstr "Pipeline không hợp lệ! %s"
 
 #: kobo/apps/openrosa/apps/viewer/models/parsed_instance.py:129
 #, python-format
 msgid "Invalid query! %s"
-msgstr ""
+msgstr "Truy vấn không hợp lệ! %s"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:10
 msgid "Exports"
-msgstr ""
+msgstr "Xuất"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:26
 msgid "New Export"
-msgstr ""
+msgstr "Xuất dữ liệu mới"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:28
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:41
 msgid "Advanced Export"
-msgstr ""
+msgstr "Xuất dữ liệu nâng cao"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:33
 msgid ""
 "Note: exports include only questions that remain in the most recent version "
 "of the form."
-msgstr ""
+msgstr "Lưu ý: dữ liệu xuất chỉ bao gồm những câu hỏi nằm trong phiên bản biểu mẫu mới nhất."
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:44
 msgid "Delimiter to use to separate group names from field names"
-msgstr ""
+msgstr "Dấu phân cách dùng để phân tách tên nhóm với tên trường"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:46
 msgid "Dot"
-msgstr ""
+msgstr "Dấu chấm"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:47
 msgid "Slash"
-msgstr ""
+msgstr "Dấu gạch chéo"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:51
 msgid "DONT split select multiple choice answers into separate columns"
-msgstr ""
+msgstr "KHÔNG tách các câu trả lời nhiều lựa chọn thành các cột riêng biệt"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:55
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:99
 msgid "Cancel"
-msgstr ""
+msgstr "Hủy"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:56
 msgid "Create Export"
-msgstr ""
+msgstr "Tạo xuất dữ liệu"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:65
 msgid "Filename"
-msgstr ""
+msgstr "Tên tệp"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:66
 msgid "Date Created"
-msgstr ""
+msgstr "Ngày tạo"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:67
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:100
 msgid "Delete"
-msgstr ""
+msgstr "Xóa"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:82
 msgid "Pending ..."
-msgstr ""
+msgstr "Đang chờ ..."
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:83
 msgid "Click to refresh"
-msgstr ""
+msgstr "Nhấp để làm mới"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:93
 msgid "Delete Export"
-msgstr ""
+msgstr "Xóa bản xuất dữ liệu"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:96
 msgid "Are you sure you want to delete this export?"
-msgstr ""
+msgstr "Bạn có chắc chắn muốn xóa bản xuất dữ liệu này không?"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:61
 #, python-format
 msgid "%s is not a valid delimiter"
-msgstr ""
+msgstr "%s không phải là dấu phân cách hợp lệ"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:80
 #, python-format
 msgid "%s is not a valid export type"
-msgstr ""
+msgstr "%s không phải là loại xuất hợp lệ"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:97
 msgid "Invalid export type"
-msgstr ""
+msgstr "Loại xuất dữ liệu không hợp lệ"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:240
 #: kobo/apps/openrosa/apps/viewer/views.py:244
 msgid "Attachment not found"
-msgstr ""
+msgstr "Không tìm thấy tệp đính kèm"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:301
 msgid "Error: Attachment not found"
-msgstr ""
+msgstr "Lỗi: Không tìm thấy tệp đính kèm"
 
 #: kobo/apps/openrosa/libs/authentication.py:51
 msgid ""
 "Using basic authentication without HTTPS transmits credentials in clear "
 "text! You MUST connect via HTTPS to use basic authentication."
-msgstr ""
+msgstr "Sử dụng xác thực cơ bản mà không có HTTPS sẽ truyền thông tin đăng nhập dưới dạng văn bản! Bạn PHẢI kết nối qua HTTPS để sử dụng xác thực cơ bản."
 
 #: kobo/apps/openrosa/libs/mixins/mfa.py:25
 msgid ""
 "Multi-factor authentication is enabled for this account. ##authentication "
 "class## cannot be used."
-msgstr ""
+msgstr "Xác thực nhiều yếu tố được bật cho tài khoản này. Không thể sử dụng ##authentication class##."
 
 #: kobo/apps/openrosa/libs/serializers/clone_xform_serializer.py:34
 #, python-format
 msgid "User '%(value)s' does not exist."
-msgstr ""
+msgstr "Người dùng '%(value)s ' không tồn tại."
 
 #: kobo/apps/openrosa/libs/serializers/data_serializer.py:47
 #, python-format
 msgid "Invalid query: %(query)s"
-msgstr ""
+msgstr "Truy vấn không hợp lệ:%(query)s"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:18
 msgid "Data License"
-msgstr ""
+msgstr "Giấy phép dữ liệu"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:19
 msgid "Form License"
-msgstr ""
+msgstr "Giấy phép mẫu"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:20
 msgid "Media"
-msgstr ""
+msgstr "Phương tiện"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:21
 msgid "Public Link"
-msgstr ""
+msgstr "Liên kết công khai"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:22
 msgid "Source"
-msgstr ""
+msgstr "Nguồn"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:23
 msgid "Supporting Document"
-msgstr ""
+msgstr "Tài liệu hỗ trợ"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:24
 msgid "Paired Data"
-msgstr ""
+msgstr "Dữ liệu ghép cặp"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:72
 msgid "Project not found"
-msgstr ""
+msgstr "Không tìm thấy dự án"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:76
 msgid "You do not have sufficient permissions to perform this action"
-msgstr ""
+msgstr "Bạn không có đủ quyền để thực hiện thao tác này"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:122
 msgid "Invalid url {}"
-msgstr ""
+msgstr "url không hợp lệ {}"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:156
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:167
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:174
 msgid "Cannot determine content type"
-msgstr ""
+msgstr "Không thể xác định loại nội dung"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:189
 msgid "Invalid content type"
-msgstr ""
+msgstr "Loại nội dung không hợp lệ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:8
 msgid "Afghanistan"
-msgstr ""
+msgstr "Afghanistan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:9
 msgid "Albania"
-msgstr ""
+msgstr "Albania"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:10
 msgid "Algeria"
-msgstr ""
+msgstr "Algeria"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:11
 msgid "American Samoa"
-msgstr ""
+msgstr "Samoa thuộc Mỹ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:12
 msgid "Andorra"
-msgstr ""
+msgstr "Andorra"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:13
 msgid "Angola"
-msgstr ""
+msgstr "Angola"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:14
 msgid "Anguilla"
-msgstr ""
+msgstr "Anguilla"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:15
 msgid "Antarctica"
-msgstr ""
+msgstr "Nam Cực"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:16
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Antigua và Barbuda"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:17
 msgid "Argentina"
-msgstr ""
+msgstr "Argentina"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:18
 msgid "Armenia"
-msgstr ""
+msgstr "Armenia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:19
 msgid "Aruba"
-msgstr ""
+msgstr "Aruba"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:20
 msgid "Australia"
-msgstr ""
+msgstr "Úc"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:21
 msgid "Austria"
-msgstr ""
+msgstr "Áo"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:22
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Azerbaijan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:23
 msgid "Bahamas"
-msgstr ""
+msgstr "Bahamas"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:24
 msgid "Bahrain"
-msgstr ""
+msgstr "Bahrain"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:25
 msgid "Bangladesh"
-msgstr ""
+msgstr "Bangladesh"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:26
 msgid "Barbados"
-msgstr ""
+msgstr "Barbados"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:27
 msgid "Belarus"
-msgstr ""
+msgstr "Belarus"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:28
 msgid "Belgium"
-msgstr ""
+msgstr "Bỉ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:29
 msgid "Belize"
-msgstr ""
+msgstr "Belize"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:30
 msgid "Benin"
-msgstr ""
+msgstr "Benin"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:31
 msgid "Bermuda"
-msgstr ""
+msgstr "Bermuda"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:32
 msgid "Bhutan"
-msgstr ""
+msgstr "Bhutan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:33
 msgid "Bolivia"
-msgstr ""
+msgstr "Bolivia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:34
 msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
+msgstr "Bonaire, Sint Eustatius và Saba"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:35
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Bosnia và Herzegovina"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:36
 msgid "Botswana"
-msgstr ""
+msgstr "Botswana"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:37
 msgid "Brazil"
-msgstr ""
+msgstr "Brazil"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:38
 msgid "British Indian Ocean Territory"
-msgstr ""
+msgstr "Lãnh thổ Ấn Độ Dương thuộc Anh"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:39
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Brunei"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:40
 msgid "Bulgaria"
-msgstr ""
+msgstr "Bulgaria"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:41
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Burkina Faso"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:42
 msgid "Burundi"
-msgstr ""
+msgstr "Burundi"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:43
 msgid "Cambodia"
-msgstr ""
+msgstr "Campuchia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:44
 msgid "Cameroon"
-msgstr ""
+msgstr "Cameroon"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:45
 msgid "Canada"
-msgstr ""
+msgstr "Canada"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:46
 msgid "Cape Verde"
-msgstr ""
+msgstr "Cape Verde"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:47
 msgid "Cayman Islands"
-msgstr ""
+msgstr "Quần đảo Cayman"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:48
 msgid "Central African Republic"
-msgstr ""
+msgstr "Cộng hoà Trung Phi"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:49
 msgid "Chad"
-msgstr ""
+msgstr "Chad"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:50
 msgid "Chile"
-msgstr ""
+msgstr "Chile"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:51
 msgid "China"
-msgstr ""
+msgstr "Trung Quốc"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:52
 msgid "Christmas Island"
-msgstr ""
+msgstr "Đảo Giáng Sinh"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:53
 msgid "Cocos (Keeling) Islands"
-msgstr ""
+msgstr "Quần đảo Cocos (Keeling)"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:54
 msgid "Colombia"
-msgstr ""
+msgstr "Colombia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:55
 msgid "Comoros"
-msgstr ""
+msgstr "Comoros"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:56
 msgid "Congo"
-msgstr ""
+msgstr "Congo"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:57
 msgid "Congo, The Democratic Republic of the"
-msgstr ""
+msgstr "Cộng hoà Dân chủ Congo"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:58
 msgid "Cook Islands"
-msgstr ""
+msgstr "Quần đảo Cook"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:59
 msgid "Costa Rica"
-msgstr ""
+msgstr "Costa Rica"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:60
 msgid "Ivory Coast"
-msgstr ""
+msgstr "Bờ Biển Ngà"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:61
 msgid "Croatia"
-msgstr ""
+msgstr "Croatia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:62
 msgid "Cuba"
-msgstr ""
+msgstr "Cuba"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:63
 msgid "Curacao"
-msgstr ""
+msgstr "Curacao"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:64
 msgid "Cyprus"
-msgstr ""
+msgstr "Cộng hòa Síp"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:65
 msgid "Czech Republic"
-msgstr ""
+msgstr "Cộng hòa Séc"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:66
 msgid "Denmark"
-msgstr ""
+msgstr "Đan Mạch"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:67
 msgid "Djibouti"
-msgstr ""
+msgstr "Djibouti"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:68
 msgid "Dominica"
-msgstr ""
+msgstr "Dominica"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:69
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Cộng hoà Dominica"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:70
 msgid "Ecuador"
-msgstr ""
+msgstr "Ecuador"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:71
 msgid "Egypt"
-msgstr ""
+msgstr "Ai Cập"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:72
 msgid "El Salvador"
-msgstr ""
+msgstr "El Salvador"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:73
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Guinea Xích đạo"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:74
 msgid "Eritrea"
-msgstr ""
+msgstr "Eritrea"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:75
 msgid "Estonia"
-msgstr ""
+msgstr "Estonia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:76
 msgid "Ethiopia"
-msgstr ""
+msgstr "Ethiopia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:77
 msgid "Falkland Islands (Malvinas)"
-msgstr ""
+msgstr "Quần đảo Falkland (Malvinas)"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:78
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Quần đảo Faroe"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:79
 msgid "Fiji"
-msgstr ""
+msgstr "Fiji"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:80
 msgid "Finland"
-msgstr ""
+msgstr "Phần Lan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:81
 msgid "France"
-msgstr ""
+msgstr "Pháp"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:82
 msgid "French Guiana"
-msgstr ""
+msgstr "Guiana thuộc Pháp"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:83
 msgid "French Polynesia"
-msgstr ""
+msgstr "Polynesia thuộc Pháp"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:84
 msgid "French Southern Territories"
-msgstr ""
+msgstr "Lãnh thổ phía Nam Thuộc Pháp"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:85
 msgid "Gabon"
-msgstr ""
+msgstr "Gabon"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:86
 msgid "Gambia"
-msgstr ""
+msgstr "Gambia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:87
 msgid "Georgia"
-msgstr ""
+msgstr "Georgia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:88
 msgid "Germany"
-msgstr ""
+msgstr "Đức"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:89
 msgid "Ghana"
-msgstr ""
+msgstr "Ghana"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:90
 msgid "Gibraltar"
-msgstr ""
+msgstr "Gibraltar"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:91
 msgid "Greece"
-msgstr ""
+msgstr "Hy Lạp"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:92
 msgid "Greenland"
-msgstr ""
+msgstr "Greenland"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:93
 msgid "Grenada"
-msgstr ""
+msgstr "Grenada"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:94
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Guadeloupe"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:95
 msgid "Guam"
-msgstr ""
+msgstr "Guam"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:96
 msgid "Guatemala"
-msgstr ""
+msgstr "Guatemala"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:97
 msgid "Guernsey"
-msgstr ""
+msgstr "Guernsey"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:98
 msgid "Guinea"
-msgstr ""
+msgstr "Guinea"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:99
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Guiné-Bissau"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:100
 msgid "Guyana"
-msgstr ""
+msgstr "Guyana"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:101
 msgid "Haiti"
-msgstr ""
+msgstr "Haiti"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:102
 msgid "Heard Island and McDonald Islands"
-msgstr ""
+msgstr "Đảo Heard và quần đảo McDonald"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:103
 msgid "Holy See (Vatican City State)"
-msgstr ""
+msgstr "Tòa thánh (Thành quốc Vatican)"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:104
 msgid "Honduras"
-msgstr ""
+msgstr "Honduras"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:105
 msgid "Hong Kong"
-msgstr ""
+msgstr "Hồng Kông"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:106
 msgid "Hungary"
-msgstr ""
+msgstr "Hungary"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:107
 msgid "Iceland"
-msgstr ""
+msgstr "Iceland"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:108
 msgid "India"
-msgstr ""
+msgstr "Ấn Độ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:109
 msgid "Indonesia"
-msgstr ""
+msgstr "Indonesia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:110
 msgid "Installations in International Waters"
-msgstr ""
+msgstr "Các cơ sở tại hải phận quốc tế"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:111
 msgid "Iran, Islamic Republic of"
-msgstr ""
+msgstr "Cộng hòa Hồi giáo Iran"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:112
 msgid "Iraq"
-msgstr ""
+msgstr "Iraq"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:113
 msgid "Ireland"
-msgstr ""
+msgstr "Ireland"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:114
 msgid "Isle of Man"
-msgstr ""
+msgstr "Đảo Man"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:115
 msgid "Israel"
-msgstr ""
+msgstr "Israel"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:116
 msgid "Italy"
-msgstr ""
+msgstr "Ý"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:117
 msgid "Jamaica"
-msgstr ""
+msgstr "Jamaica"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:118
 msgid "Japan"
-msgstr ""
+msgstr "Nhật Bản"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:119
 msgid "Jersey"
-msgstr ""
+msgstr "Jersey"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:120
 msgid "Jordan"
-msgstr ""
+msgstr "Jordan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:121
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Kazakhstan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:122
 msgid "Kenya"
-msgstr ""
+msgstr "Kenya"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:123
 msgid "Kiribati"
-msgstr ""
+msgstr "Kiribati"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:124
 msgid "Korea, Democratic People's Republic of"
-msgstr ""
+msgstr "Cộng hòa Nhân dân Triều Tiên"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:125
 msgid "Korea, Republic of"
-msgstr ""
+msgstr "Hàn Quốc"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:127
 msgid "Kosovo"
-msgstr ""
+msgstr "Kosovo"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:128
 msgid "Kuwait"
-msgstr ""
+msgstr "Kuwait"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:129
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Kyrgyzstan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:130
 msgid "Lao People's Democratic Republic"
-msgstr ""
+msgstr "Cộng hòa Dân chủ Nhân dân Lào"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:131
 msgid "Latvia"
-msgstr ""
+msgstr "Latvia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:132
 msgid "Lebanon"
-msgstr ""
+msgstr "Liban"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:133
 msgid "Lesotho"
-msgstr ""
+msgstr "Lesotho"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:134
 msgid "Liberia"
-msgstr ""
+msgstr "Liberia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:135
 msgid "Libyan Arab Jamahiriya"
-msgstr ""
+msgstr "Libyan Arab Jamahiriya"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:136
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Liechtenstein"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:137
 msgid "Lithuania"
-msgstr ""
+msgstr "Lithuania"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:138
 msgid "Luxembourg"
-msgstr ""
+msgstr "Luxembourg"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:139
 msgid "Macao"
-msgstr ""
+msgstr "Macao"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:140
 msgid "Macedonia, The former Yugoslav Republic of"
-msgstr ""
+msgstr "Bắc Macedonia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:141
 msgid "Madagascar"
-msgstr ""
+msgstr "Madagascar"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:142
 msgid "Malawi"
-msgstr ""
+msgstr "Malawi"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:143
 msgid "Malaysia"
-msgstr ""
+msgstr "Malaysia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:144
 msgid "Maldives"
-msgstr ""
+msgstr "Maldives"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:145
 msgid "Mali"
-msgstr ""
+msgstr "Mali"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:146
 msgid "Malta"
-msgstr ""
+msgstr "Malta"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:147
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Quần đảo Marshall"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:148
 msgid "Martinique"
-msgstr ""
+msgstr "Martinique"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:149
 msgid "Mauritania"
-msgstr ""
+msgstr "Mauritania"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:150
 msgid "Mauritius"
-msgstr ""
+msgstr "Mauritius"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:151
 msgid "Mayotte"
-msgstr ""
+msgstr "Mayotte"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:152
 msgid "Mexico"
-msgstr ""
+msgstr "Mexico"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:153
 msgid "Micronesia, Federated States of"
-msgstr ""
+msgstr "Liên bang Micronesia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:154
 msgid "Moldova, Republic of"
-msgstr ""
+msgstr "Cộng hòa Moldova "
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:155
 msgid "Monaco"
-msgstr ""
+msgstr "Monaco"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:156
 msgid "Mongolia"
-msgstr ""
+msgstr "Mông Cổ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:157
 msgid "Montenegro"
-msgstr ""
+msgstr "Montenegro"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:158
 msgid "Montserrat"
-msgstr ""
+msgstr "Montserrat"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:159
 msgid "Morocco"
-msgstr ""
+msgstr "Morocco"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:160
 msgid "Mozambique"
-msgstr ""
+msgstr "Mozambique"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:161
 msgid "Myanmar"
-msgstr ""
+msgstr "Myanmar"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:162
 msgid "Namibia"
-msgstr ""
+msgstr "Namibia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:163
 msgid "Nauru"
-msgstr ""
+msgstr "Nauru"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:164
 msgid "Nepal"
-msgstr ""
+msgstr "Nepal"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:165
 msgid "Netherlands"
-msgstr ""
+msgstr "Hà Lan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:166
 msgid "New Caledonia"
-msgstr ""
+msgstr "New Caledonia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:167
 msgid "New Zealand"
-msgstr ""
+msgstr "New Zealand"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:168
 msgid "Nicaragua"
-msgstr ""
+msgstr "Nicaragua"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:169
 msgid "Niger"
-msgstr ""
+msgstr "Niger"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:170
 msgid "Nigeria"
-msgstr ""
+msgstr "Nigeria"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:171
 msgid "Niue"
-msgstr ""
+msgstr "Niue"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:172
 msgid "Norfolk Island"
-msgstr ""
+msgstr "Đảo Norfolk"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:173
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Quần đảo Bắc Mariana"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:174
 msgid "Norway"
-msgstr ""
+msgstr "Na Uy"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:175
 msgid "Oman"
-msgstr ""
+msgstr "Oman"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:176
 msgid "Pakistan"
-msgstr ""
+msgstr "Pakistan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:177
 msgid "Palau"
-msgstr ""
+msgstr "Palau"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:178
 msgid "Palestinian Territory, Occupied"
-msgstr ""
+msgstr "Lãnh thổ Palestine, bị chiếm đóng"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:179
 msgid "Panama"
-msgstr ""
+msgstr "Panama"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:180
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Papua New Guinea"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:181
 msgid "Paraguay"
-msgstr ""
+msgstr "Paraguay"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:182
 msgid "Peru"
-msgstr ""
+msgstr "Peru"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:183
 msgid "Philippines"
-msgstr ""
+msgstr "Philippines"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:184
 msgid "Pitcairn"
-msgstr ""
+msgstr "Pitcairn"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:185
 msgid "Poland"
-msgstr ""
+msgstr "Ba Lan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:186
 msgid "Portugal"
-msgstr ""
+msgstr "Bồ Đào Nha"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:187
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Puerto Rico"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:188
 msgid "Qatar"
-msgstr ""
+msgstr "Qatar"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:189
 msgid "Reunion"
-msgstr ""
+msgstr "Reunion"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:190
 msgid "Romania"
-msgstr ""
+msgstr "Romania"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:191
 msgid "Russian Federation"
-msgstr ""
+msgstr "Liên Bang Nga"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:192
 msgid "Rwanda"
-msgstr ""
+msgstr "Rwanda"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:193
 msgid "Saint Helena"
-msgstr ""
+msgstr "Saint Helena"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:194
 msgid "Saint Kitts and Nevis"
-msgstr ""
+msgstr "Saint Kitts và Nevis"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:195
 msgid "Saint Lucia"
-msgstr ""
+msgstr "Saint Lucia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:196
 msgid "Saint Pierre and Miquelon"
-msgstr ""
+msgstr "Saint Pierre và Miquelon"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:197
 msgid "Saint Vincent and the Grenadines"
-msgstr ""
+msgstr "Saint Vincent và Grenadines"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:198
 msgid "Samoa"
-msgstr ""
+msgstr "Samoa"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:199
 msgid "San Marino"
-msgstr ""
+msgstr "San Marino"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:200
 msgid "Sao Tome and Principe"
-msgstr ""
+msgstr "São Tomé và Príncipe"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:201
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Ả Rập Xê Út"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:202
 msgid "Senegal"
-msgstr ""
+msgstr "Senegal"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:203
 msgid "Serbia"
-msgstr ""
+msgstr "Serbia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:204
 msgid "Seychelles"
-msgstr ""
+msgstr "Seychelles"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:205
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Sierra Leone"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:206
 msgid "Singapore"
-msgstr ""
+msgstr "Singapore"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:207
 msgid "Sint Maarten (Dutch Part)"
-msgstr ""
+msgstr "Sint Maarten (Phần Hà Lan)"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:208
 msgid "Slovakia"
-msgstr ""
+msgstr "Slovakia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:209
 msgid "Slovenia"
-msgstr ""
+msgstr "Slovenia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:210
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Quần đảo Solomon"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:211
 msgid "Somalia"
-msgstr ""
+msgstr "Somalia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:212
 msgid "South Africa"
-msgstr ""
+msgstr "Nam Phi"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:213
 msgid "South Georgia and the South Sandwich Islands"
-msgstr ""
+msgstr "Nam Georgia và Quần đảo Nam Sandwich"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:214
 msgid "South Sudan"
-msgstr ""
+msgstr "Nam Sudan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:215
 msgid "Spain"
-msgstr ""
+msgstr "Tây Ban Nha"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:216
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Sri Lanka"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:217
 msgid "Sudan"
-msgstr ""
+msgstr "Sudan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:218
 msgid "Suriname"
-msgstr ""
+msgstr "Suriname"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:219
 msgid "Svalbard and Jan Mayen"
-msgstr ""
+msgstr "Svalbard và Jan Mayen"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:220
 msgid "Swaziland"
-msgstr ""
+msgstr "Eswatini"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:221
 msgid "Sweden"
-msgstr ""
+msgstr "Thụy Điển"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:222
 msgid "Switzerland"
-msgstr ""
+msgstr "Thụy Sĩ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:223
 msgid "Syrian Arab Republic"
-msgstr ""
+msgstr "Cộng hòa Ả Rập Syria"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:224
 msgid "Taiwan, Province of China"
-msgstr ""
+msgstr "Đài Loan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:225
 msgid "Tajikistan"
-msgstr ""
+msgstr "Tajikistan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:226
 msgid "Tanzania, United Republic of"
-msgstr ""
+msgstr "Cộng hòa Thống nhất Tanzania"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:227
 msgid "Thailand"
-msgstr ""
+msgstr "Thái Lan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:228
 msgid "Timor-Leste"
-msgstr ""
+msgstr "Đông Timor"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:229
 msgid "Togo"
-msgstr ""
+msgstr "Togo"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:230
 msgid "Tokelau"
-msgstr ""
+msgstr "Tokelau"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:231
 msgid "Tonga"
-msgstr ""
+msgstr "Tonga"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:232
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Trinidad và Tobago"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:233
 msgid "Tunisia"
-msgstr ""
+msgstr "Tunisia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:234
 msgid "Turkey"
-msgstr ""
+msgstr "Thổ Nhĩ Kỳ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:235
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Turkmenistan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:236
 msgid "Turks and Caicos Islands"
-msgstr ""
+msgstr "Quần đảo Turks và Caicos"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:237
 msgid "Tuvalu"
-msgstr ""
+msgstr "Tuvalu"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:238
 msgid "Uganda"
-msgstr ""
+msgstr "Uganda"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:239
 msgid "Ukraine"
-msgstr ""
+msgstr "Ukraina"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:240
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Các Tiểu vương quốc Ả Rập Thống nhất"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:241
 msgid "United Kingdom"
-msgstr ""
+msgstr "Vương Quốc Anh"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:242
 msgid "United States"
-msgstr ""
+msgstr "Hoa Kỳ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:243
 msgid "United States Minor Outlying Islands"
-msgstr ""
+msgstr "Các đảo xa thuộc Hoa Kỳ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:244
 msgid "Uruguay"
-msgstr ""
+msgstr "Uruguay"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:245
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Uzbekistan"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:246
 msgid "Vanuatu"
-msgstr ""
+msgstr "Vanuatu"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:247
 msgid "Venezuela"
-msgstr ""
+msgstr "Venezuela"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:248
 msgid "Viet Nam"
-msgstr ""
+msgstr "Việt Nam"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:249
 msgid "Virgin Islands, British"
-msgstr ""
+msgstr "Quần đảo Virgin thuộc Anh"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:250
 msgid "Virgin Islands, U.S."
-msgstr ""
+msgstr "Quần đảo Virgin thuộc Hoa Kỳ"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:251
 msgid "Wallis and Futuna"
-msgstr ""
+msgstr "Wallis và Futuna"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:252
 msgid "Western Sahara"
-msgstr ""
+msgstr "Tây Sahara"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:253
 msgid "Yemen"
-msgstr ""
+msgstr "Yemen"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:254
 msgid "Zambia"
-msgstr ""
+msgstr "Zambia"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:255
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Zimbabwe"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:256
 msgid "Unknown or unspecified country"
-msgstr ""
+msgstr "Quốc gia không xác định hoặc không được chỉ định"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:125
 msgid "Forbidden"
-msgstr ""
+msgstr "Cấm"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:135
 msgid ""
 "Forbidden attempt to edit a submission. To make a new submission, Remove "
 "`deprecatedID` from the submission XML and try again."
-msgstr ""
+msgstr "Cấm chỉnh sửa bản dữ liệu. Để tạo một bản dữ liệu mới, hãy Xóa `deprecatedID` khỏi tệp XML của bản dữ liệu và thử lại."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:306
 msgid "Username or ID required."
-msgstr ""
+msgstr "Phải có tên người dùng hoặc ID."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:309
 msgid "Received empty submission. No instance was created"
-msgstr ""
+msgstr "Đã nhận được bản dữ liệu rỗng. Không có bản sao nào được tạo"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:312
 msgid "Form is not active"
-msgstr ""
+msgstr "Biểu mẫu không hoạt động"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:315
 msgid "Temporarily unavailable"
-msgstr ""
+msgstr "Tạm thời không khả dụng"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:318
 msgid "Form does not exist on this account"
-msgstr ""
+msgstr "Biểu mẫu không tồn tại trên tài khoản này"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:321
 msgid "Improperly formatted XML."
-msgstr ""
+msgstr "XML định dạng không đúng."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:324
 msgid "Duplicate submission"
-msgstr ""
+msgstr "Nhân bản bản dữ liệu"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:330
 msgid "Access denied"
-msgstr ""
+msgstr "Truy cập bị từ chối"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:337
 msgid "File likely corrupted during transmission, please try later."
-msgstr ""
+msgstr "Tệp tin có thể đã bị hỏng trong quá trình truyền tải, vui lòng thử lại sau."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:475
 msgid "Invalid URL format."
-msgstr ""
+msgstr "Định dạng URL không hợp lệ."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:487
 msgid "Form validation timeout, please try again."
-msgstr ""
+msgstr "Đã hết thời gian xác thực biểu mẫu, xin vui lòng thử lại."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:556
 #: kobo/apps/openrosa/libs/utils/viewer_tools.py:63
 #, python-format
 msgid "Exception in request: %(class)s: %(error)s"
-msgstr ""
+msgstr "Lỗi trong yêu cầu: %(class)s: %(error)s"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:589
 msgid "The requested file could not be found."
-msgstr ""
+msgstr "Không tìm thấy tệp tin được yêu cầu."
 
 #: kobo/apps/openrosa/libs/utils/middleware.py:181 kpi/exceptions.py:102
 msgid ""
@@ -2149,7 +2149,7 @@ msgstr "%(recipient)s đã chấp nhận yêu cầu chuyển quyền sở hữu 
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "this project will be transferred to the new project owner."
-msgstr "Tất cả bài gửi, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của dự án này sẽ được chuyển cho chủ sở hữu dự án mới."
+msgstr "Tất cả bản dữ liệu, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của dự án này sẽ được chuyển cho chủ sở hữu mới của dự án."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:10
@@ -2171,7 +2171,7 @@ msgstr "%(recipient)s đã chấp nhận yêu cầu chuyển quyền sở hữu 
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "these projects will be transferred to the new project owner."
-msgstr "Tất cả bài gửi, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của tất cả dự án này sẽ được chuyển sang cho chủ sở hữu dự án mới."
+msgstr "Tất cả bản dữ liệu, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của tất cả dự án này sẽ được chuyển sang cho chủ sở hữu mới của dự án."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:19
@@ -2191,7 +2191,7 @@ msgstr "%(recipient)s đã chấp nhận yêu cầu chuyển quyền sở hữu 
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "the project will be transferred to the new project owner."
-msgstr "Tất cả bài gửi, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của những dự án này sẽ được chuyển cho chủ sở hữu dự án mới."
+msgstr "Tất cả bản dữ liệu, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của những dự án này sẽ được chuyển cho chủ sở hữu mới của dự án."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:8
 #, python-format
@@ -2206,7 +2206,7 @@ msgid ""
 "You will remain the owner of the project. The submissions, data storage, and"
 " transcription and translation usage for the project have not been "
 "transferred."
-msgstr "Bạn vẫn sẽ là người sở hữu dự án. Các bài gửi, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của dự án vẫn chưa được chuyển nhượng."
+msgstr "Bạn vẫn sẽ là chủ sở hữu dự án. Các bản dữ liệu, lưu trữ dữ liệu cũng như quyền sử dụng bản phiên âm và bản dịch của dự án vẫn chưa được chuyển nhượng."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:11
@@ -2222,7 +2222,7 @@ msgid ""
 "You will remain the owner of these projects. The submissions, data storage, "
 "and transcription and translation usage for these projects have not been "
 "transferred."
-msgstr "Bạn vẫn sẽ là người sở hữu của những dự án này. Các bài gửi, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của những dự án này vẫn chưa được chuyển nhượng."
+msgstr "Bạn vẫn sẽ là chủ sở hữu của những dự án này. Các bản dữ liệu, lưu trữ dữ liệu cũng như quyền sử dụng bản phiên âm và bản dịch của những dự án này vẫn chưa được chuyển nhượng."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:7
 #, python-format
@@ -2257,7 +2257,7 @@ msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for these projects will be "
 "transferred to you and count against your plan limits."
-msgstr "Khi bạn chấp nhận chuyển quyền sở hữu dự án, tất cả các bài gửi, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của những dự án này sẽ được chuyển sang cho bạn và có thể vượt quá giới hạn trong gói của bạn."
+msgstr "Khi bạn chấp nhận chuyển quyền sở hữu dự án, tất cả các bản dữ liệu, lưu trữ dữ liệu cũng như quyền sử dụng bản phiên âm và bản dịch của những dự án này sẽ được chuyển sang cho bạn và có thể vượt quá giới hạn gói của bạn."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:11
@@ -2299,7 +2299,7 @@ msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for the project will be "
 "transferred to you and count against your plan limits."
-msgstr "Khi bạn chấp nhận chuyển quyền sở hữu dự án, tất cả các bài gửi, lưu trữ dữ liệu cũng như việc sử dụng bản phiên âm và bản dịch của dự án sẽ được chuyển sang cho bạn và có thể vượt quá giới hạn trong gói của bạn."
+msgstr "Khi bạn chấp nhận chuyển quyền sở hữu dự án, tất cả các bản dữ liệu, lưu trữ dữ liệu cũng như quyền sử dụng bản phiên âm và bản dịch của dự án sẽ được chuyển sang cho bạn và có thể vượt quá giới hạn gói của bạn."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` not found."
@@ -2321,14 +2321,14 @@ msgid ""
 " codes instead. If you cannot access those either, then you will need to "
 "request assistance by contacting [##support email##](mailto:##support "
 "email##)."
-msgstr "Nếu không thể truy cập ứng dụng xác thực, bạn cần nhập một trong các mã dự phòng. Nếu không sử dụng được các mã dự phòng này, bạn sẽ cần liên hệ đến [##support email##](mailto:##support email##) để được trợ giúp."
+msgstr "Nếu không thể truy cập ứng dụng xác thực, vui lòng nhập một trong các mã sao lưu thay thế. Nếu bạn cũng không thể truy cập các mã sao lưu đó, bạn sẽ cần gửi liên hệ đến [##support email##](mailto:##support email##) để được hỗ trợ."
 
 #: kobo/settings/base.py:509
 msgid ""
 "The password must be at least 10 characters long and contain 3 or more of "
 "the following: uppercase letters, lowercase letters, numbers, and special "
 "characters. It cannot be similar to your name, username, or email address."
-msgstr "Mật khẩu phải có tối thiểu 10 ký tự và đáp ứng được từ 3 điều kiện sau trở lên: chữ in hoa, chữ thường, số và ký tự đặc biệt. Mật khẩu không được giống tên của bạn, tên người dùng hoặc địa chỉ email của bạn."
+msgstr "Mật khẩu phải có tối thiểu 10 ký tự và chứa ít nhất 3 trong số các điều kiện sau: chữ cái viết hoa, chữ cái viết thường, số và ký tự đặc biệt. Mật khẩu không được giống với tên, tên người dùng hoặc địa chỉ email của bạn."
 
 #: kobo/static_lists.py:13
 msgid "Public Administration"
@@ -2496,7 +2496,7 @@ msgstr "Tên người dùng/mật khẩu không hợp lệ"
 
 #: kpi/deployment_backends/base_backend.py:138
 msgid "No submissions match the given `submission_ids`"
-msgstr "Không có nội dung gửi nào phù hợp với `submission_ids`"
+msgstr "Không có bản dữ liệu nào phù hợp với `submission_ids` đã có"
 
 #: kpi/deployment_backends/base_backend.py:572
 msgid ""
@@ -2509,7 +2509,7 @@ msgstr "Không hỗ trợ tham số này ở định dạng `XML`"
 
 #: kpi/deployment_backends/base_backend.py:588
 msgid "This is not supported in `XML` format"
-msgstr "Không hỗ trợ cái này ở định dạng `XML`"
+msgstr "Yếu tố này không được hỗ trợ ở định dạng `XML`"
 
 #: kpi/deployment_backends/base_backend.py:608
 #: kpi/deployment_backends/base_backend.py:636
@@ -2528,25 +2528,25 @@ msgstr "Bắt buộc phải có số nguyên dương."
 
 #: kpi/deployment_backends/openrosa_backend.py:334
 msgid "Your submission XML is malformed."
-msgstr "XML bạn gửi bị hỏng."
+msgstr "Tệp XML bạn gửi bị hỏng."
 
 #: kpi/deployment_backends/openrosa_backend.py:340
 msgid "Your submission XML is missing critical elements."
-msgstr "XML bạn gửi thiếu các thành phần quan trọng."
+msgstr "Tệp XML bạn gửi thiếu các yếu tố quan trọng."
 
 #: kpi/deployment_backends/openrosa_backend.py:354
 msgid ""
 "The submission you attempted to edit could not be found, or you do not have "
 "access to it."
-msgstr "Không tìm thấy nội dung gửi mà bạn muốn chỉnh sửa hoặc bạn không có quyền truy cập."
+msgstr "Không tìm thấy bản dữ liệu bạn muốn chỉnh sửa hoặc bạn không có quyền truy cập."
 
 #: kpi/deployment_backends/openrosa_backend.py:883
 msgid "Successful submission"
-msgstr ""
+msgstr "Đã gửi thành công"
 
 #: kpi/exceptions.py:49
 msgid "Invalid payload for bulk updating of submissions"
-msgstr "Tải trọng cập nhật nội dung gửi hàng loạt không hợp lệ"
+msgstr "Tải trọng cập nhật các bản dữ liệu hàng loạt không hợp lệ"
 
 #: kpi/exceptions.py:64
 msgid "Must call `asset.connect_deployment()` first"
@@ -2554,11 +2554,11 @@ msgstr "Phải gọi `asset.connect_deployment()` trước"
 
 #: kpi/exceptions.py:75
 msgid "XML contains forbidden DTDs"
-msgstr ""
+msgstr "XML chứa các DTD bị cấm"
 
 #: kpi/exceptions.py:86
 msgid "XML contains forbidden entities"
-msgstr ""
+msgstr "XML chứa các thực thể bị cấm"
 
 #: kpi/exceptions.py:111
 msgid "Invalid search. Please try again"
@@ -2566,11 +2566,11 @@ msgstr "Tìm kiếm không hợp lệ. Vui lòng thử lại"
 
 #: kpi/exceptions.py:116
 msgid "Deployment links to an unexpected KoboCAT XForm"
-msgstr ""
+msgstr "Triển khai liên kết đến một XForm KoboCAT ngoài ý muốn"
 
 #: kpi/exceptions.py:152
 msgid "An error occurred trying to duplicate the submission"
-msgstr "Có lỗi xảy ra trong khi sao chép nội dung gửi"
+msgstr "Có lỗi xảy ra trong khi sao chép bản dữ liệu"
 
 #: kpi/exceptions.py:170
 msgid "The specified object has not been deployed"
@@ -2624,24 +2624,24 @@ msgstr "Có thể gửi dữ liệu đến tài sản"
 
 #: kpi/models/asset.py:282
 msgid "Can view submitted data for asset"
-msgstr "Có thể xem các dữ liệu đã được gửi của tài sản"
+msgstr "Có thể xem các dữ liệu đã được gửi cho tài sản"
 
 #: kpi/models/asset.py:283
 msgid ""
 "Can make partial actions on submitted data for asset for specific users"
-msgstr "Có thể thực hiện một vài thao tác lên các dữ liệu được gửi đi của tài sản, dành cho người dùng cụ thể"
+msgstr "Có thể thực hiện một vài thao tác lên các dữ liệu đã được gửi cho tài sản, dành cho người dùng cụ thể"
 
 #: kpi/models/asset.py:286
 msgid "Can modify submitted data for asset"
-msgstr "Có thể chỉnh sửa các dữ liệu đã được gửi của tài sản"
+msgstr "Có thể chỉnh sửa các dữ liệu đã được gửi cho tài sản"
 
 #: kpi/models/asset.py:287
 msgid "Can delete submitted data for asset"
-msgstr "Có thể xóa các dữ liệu đã được gửi của tài sản"
+msgstr "Có thể xóa các dữ liệu đã được gửi cho tài sản"
 
 #: kpi/models/asset.py:288
 msgid "Can validate submitted data asset"
-msgstr "Có thể xác thực các dữ liệu đã được gửi của tài sản"
+msgstr "Có thể xác thực dữ liệu đã được gửi cho tài sản"
 
 #: kpi/models/asset.py:311
 msgid "project"
@@ -2693,47 +2693,47 @@ msgstr "Quản lý ##asset_type_label##"
 
 #: kpi/models/asset.py:329
 msgid "Add submissions"
-msgstr "Thêm nội dung gửi"
+msgstr "Thêm bản dữ liệu"
 
 #: kpi/models/asset.py:330
 msgid "View submissions"
-msgstr "Xem nội dung gửi"
+msgstr "Xem bản dữ liệu"
 
 #: kpi/models/asset.py:333
 msgid "Act on submissions only from specific users"
-msgstr "Thao tác lên nội dung được gửi chỉ từ những người dùng cụ thể"
+msgstr "Chỉ xử lý các bản dữ liệu gửi từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:336
 msgid "View submissions only from specific users"
-msgstr "Xem nội dung được gửi chỉ từ những người dùng cụ thể"
+msgstr "Chỉ xem bản dữ liệu gửi từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:339
 msgid "Edit submissions only from specific users"
-msgstr "Sửa nội dung được gửi chỉ từ những người dùng cụ thể"
+msgstr "Chỉ sửa bản dữ liệu gửi từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:342
 msgid "Delete submissions only from specific users"
-msgstr "Xóa nội dung được gửi chỉ từ những người dùng cụ thể"
+msgstr "Chỉ xóa bản dữ liệu gửi từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:345
 msgid "Validate submissions only from specific users"
-msgstr "Xác thực nội dung được gửi chỉ từ những người dùng cụ thể"
+msgstr "Chỉ xác thực bản dữ liệu gửi từ những người dùng cụ thể"
 
 #: kpi/models/asset.py:348
 msgid "Edit submissions"
-msgstr "Sửa nội dung gửi"
+msgstr "Sửa bản dữ liệu"
 
 #: kpi/models/asset.py:349
 msgid "Delete submissions"
-msgstr "Xóa nội dung gửi"
+msgstr "Xóa bản dữ liệu"
 
 #: kpi/models/asset.py:350
 msgid "Validate submissions"
-msgstr "Xác thực nội dung gửi"
+msgstr "Xác thực bản dữ liệu"
 
 #: kpi/models/asset.py:681
 msgid "Only partial permissions for submissions are supported"
-msgstr "Chỉ hỗ trợ một số quyền hạn lên nội dung gửi"
+msgstr "Chỉ hỗ trợ quyền truy cập một phần cho các bản dữ liệu"
 
 #: kpi/models/asset.py:1390
 msgid "Can not assign '{}' permission to owner"
@@ -2785,22 +2785,22 @@ msgstr "Trường này không được để trống."
 #: kpi/serializers/v2/asset.py:133
 #, python-format
 msgid "%(count)d project has been undeleted"
-msgstr "Dự án %(count)d đã được khôi phục"
+msgstr "%(count)d dự án đã được khôi phục"
 
 #: kpi/serializers/v2/asset.py:139
 #, python-format
 msgid "%(count)d project has been deleted"
-msgstr "Dự án %(count)d đã bị xóa"
+msgstr "%(count)d dự án đã bị xóa"
 
 #: kpi/serializers/v2/asset.py:146
 #, python-format
 msgid "%(count)d project has been unarchived"
-msgstr "Dự án %(count)d đã bị hủy lưu lại"
+msgstr "%(count)d dự án đã hoàn tác lưu trữ"
 
 #: kpi/serializers/v2/asset.py:152
 #, python-format
 msgid "%(count)d project has been archived"
-msgstr "Dự án %(count)d đã được lưu lại"
+msgstr "%(count)d dự án đã được lưu trữ"
 
 #: kpi/serializers/v2/asset.py:168
 msgid "One or many projects have been deleted already!"
@@ -2808,7 +2808,7 @@ msgstr "Một hoặc nhiều dự án đã bị xóa!"
 
 #: kpi/serializers/v2/asset.py:176
 msgid "One or many projects are already being deleted!"
-msgstr "Một hoặc nhiều dự án đang bị xóa!"
+msgstr "Một hoặc nhiều dự án đang được xóa!"
 
 #: kpi/serializers/v2/asset.py:253
 msgid "`action` parameter is required"
@@ -2816,7 +2816,7 @@ msgstr "Phải có tham số `action`"
 
 #: kpi/serializers/v2/asset.py:258
 msgid "Supported values for `action` are: "
-msgstr "Các giá trị `action` được hỗ trợ là: "
+msgstr "Các giá trị hỗ trợ cho `action` là: "
 
 #: kpi/serializers/v2/asset.py:280
 msgid "Draft projects cannot be archived"
@@ -2851,7 +2851,7 @@ msgstr "Không tìm thấy bộ sưu tập đích"
 #: kpi/serializers/v2/asset.py:905
 #: kpi/tests/api/v2/test_api_collections.py:460
 msgid "User cannot update target parent collection"
-msgstr "Người dùng không thể cập nhật bộ sưu tập gốc đích"
+msgstr "Người dùng không thể cập nhật bộ sưu tập cha đích"
 
 #: kpi/serializers/v2/asset_export_settings.py:64
 msgid "`export_settings` must contain all the following required keys: {}"
@@ -2893,7 +2893,7 @@ msgstr "`fields` phải là một mảng"
 
 #: kpi/serializers/v2/asset_export_settings.py:149
 msgid "All values in the `fields` array must be strings"
-msgstr "Tất cả giá trị trong mảng `fields` phải là chuỗi"
+msgstr "Tất cả giá trị trong mảng `fields` phải là các chuỗi"
 
 #: kpi/serializers/v2/asset_file.py:117
 msgid "JSON is invalid"
@@ -2905,17 +2905,17 @@ msgstr "Nội dung không hợp lệ"
 
 #: kpi/serializers/v2/asset_file.py:143
 msgid "No files have been submitted"
-msgstr "Không có tập tin nào được gửi"
+msgstr "Không có tệp tin nào được gửi"
 
 #: kpi/serializers/v2/asset_file.py:158
 msgid "File already exists"
-msgstr "Tập tin đã tồn tại"
+msgstr "Tệp tin đã tồn tại"
 
 #: kpi/serializers/v2/asset_file.py:208
 msgid ""
 "You cannot upload media file with two different ways at the same time. "
 "Please choose between binary upload, base64 or remote URL."
-msgstr "Bạn không thể tải tập tin đa phương tiện bằng hai cách khác nhau cùng một lúc. Vui lòng chọn tải lên nhị phân, base64 hoặc URL từ xa."
+msgstr "Bạn không thể tải tệp đa phương tiện bằng hai cách khác nhau cùng một lúc. Vui lòng chọn giữa tải lên nhị phân, base64 hoặc URL từ xa."
 
 #: kpi/serializers/v2/asset_file.py:221
 msgid "This field is required"
@@ -2939,7 +2939,7 @@ msgstr "Chỉ cho phép loại MIME `{}`"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:164
 msgid "This field is required for the '{}' permission"
-msgstr "Quyền hạn '{}' bắt buộc phải có trường này"
+msgstr "Quyền '{}' bắt buộc phải có trường này"
 
 #: kpi/serializers/v2/asset_permission_assignment.py:178
 #: kpi/serializers/v2/asset_permission_assignment.py:183
@@ -2956,7 +2956,7 @@ msgstr "`filters` không hợp lệ"
 #, python-brace-format
 msgid ""
 "{permission} cannot be assigned explicitly to Asset objects of this type."
-msgstr "{permission} không thể gán rõ vào đối tượng tài sản thuộc loại này."
+msgstr "{permission} không thể gán trực tiếp vào đối tượng tài sản thuộc loại này."
 
 #: kpi/serializers/v2/asset_permission_assignment.py:290
 msgid "Not a valid list."
@@ -2965,7 +2965,7 @@ msgstr "Không phải là danh sách hợp lệ."
 #: kpi/serializers/v2/asset_permission_assignment.py:491
 #: kpi/serializers/v2/asset_permission_assignment.py:494
 msgid "Invalid hyperlink - Object does not exist."
-msgstr "Siêu liên kết không hợp lệ – Đối tượng không tồn tại."
+msgstr "Siêu liên kết không hợp lệ - Đối tượng không tồn tại."
 
 #: kpi/serializers/v2/data.py:70
 msgid "`submission_ids` must only contain integer values"
@@ -3013,11 +3013,11 @@ msgstr "Phải là {}"
 
 #: kpi/serializers/v2/export_task.py:204
 msgid "The asset must be deployed."
-msgstr "Phải triển khai tài sản."
+msgstr "Tài sản phải được triển khai"
 
 #: kpi/serializers/v2/export_task.py:221
 msgid "The export name must be a string."
-msgstr "Tên xuất ra phải là một chuỗi."
+msgstr "Tên xuất phải là một chuỗi."
 
 #: kpi/serializers/v2/paired_data.py:87
 msgid "Source cannot be changed"
@@ -3063,21 +3063,21 @@ msgstr "Loại tài sản không hợp lệ. Chỉ cho phép `{asset_type}`"
 
 #: kpi/templates/custom_404.html:7
 msgid "Page not found (404)"
-msgstr ""
+msgstr "Không tìm thấy trang (404)"
 
 #: kpi/templates/custom_404.html:10
 msgid ""
 "This page does not exist on the server. Please check the URL or link that "
 "sent you here."
-msgstr ""
+msgstr "Trang này không tồn tại trên máy chủ. Vui lòng kiểm tra URL hoặc liên kết bạn đã nhập."
 
 #: kpi/templates/custom_500.html:7
 msgid "Server error (500)"
-msgstr ""
+msgstr "Lỗi máy chủ (500)"
 
 #: kpi/templates/custom_500.html:10
 msgid "Something went wrong when trying to process your request."
-msgstr ""
+msgstr "Đã xảy ra lỗi khi xử lý yêu cầu của bạn."
 
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
@@ -3088,13 +3088,13 @@ msgid ""
 "Ouch! Sorry, you were probably sent here because your browser is outdated or"
 " perhaps it has its key features disabled by using \"private browsing\" "
 "mode."
-msgstr "Ối! Xin lỗi bạn, có thể bạn được đưa đến đây vì trình duyệt của bạn đã lỗi thời hoặc các tính năng chính đã bị tắt vì bạn đang ở chế độ “trình duyệt riêng tư”."
+msgstr "Xin lỗi bạn, có thể bạn được đưa đến đây vì trình duyệt của bạn đã lỗi thời hoặc các tính năng chính đã bị tắt vì bạn đang ở chế độ “trình duyệt riêng tư”."
 
 #: kpi/templates/modern_browsers.html:12
 msgid ""
 "If you are using an outdated browser, we recommend upgrading to a recent "
 "version of one of the following excellent modern browsers:"
-msgstr "Nếu đang sử dụng một trình duyệt đã lỗi thời, bạn nên nâng cấp lên phiên bản gần đây của một trong những trình duyệt hiện đại sau:"
+msgstr "Nếu bạn đang sử dụng trình duyệt cũ, chúng tôi khuyến nghị bạn nâng cấp lên phiên bản mới của một trong những trình duyệt hiện đại sau:"
 
 #: kpi/templates/modern_browsers.html:17
 msgid "Firefox download page"
@@ -3140,11 +3140,11 @@ msgstr "Phải cấu hình chính xác hai cơ sở dữ liệu"
 msgid ""
 "KPI and KoBoCAT must each have their own databases. Configure the KPI "
 "database as 'default' and the KoBoCAT database as 'kobocat'."
-msgstr "KPI và KoBoCAT phải có cơ sở dữ liệu riêng. Hãy cấu hình cơ sở dữ liệu KPI dưới dạng 'mặc định' và cơ sở dữ liệu KoBoCAT dưới dạng 'kobocat'."
+msgstr "KPI và KoBoCAT phải có cơ sở dữ liệu riêng biệt. Cấu hình cơ sở dữ liệu KPI dưới dạng 'mặc định' và cơ sở dữ liệu KoBoCAT dưới dạng 'kobocat'."
 
 #: kpi/utils/two_database_configuration_checker.py:63
 msgid "KPI may not share a database with KoBoCAT"
-msgstr "KPI có thể không chung cơ sở dữ liệu với KoBoCAT"
+msgstr "KPI không được phép chia sẻ cơ sở dữ liệu với KoBoCAT"
 
 #: kpi/utils/two_database_configuration_checker.py:64
 msgid "KPI and KoBoCAT must each have their own databases."
@@ -3152,13 +3152,13 @@ msgstr "KPI và KoBoCAT phải có cơ sở dữ liệu riêng."
 
 #: kpi/utils/two_database_configuration_checker.py:133
 msgid "Incomplete migration from shared-database installation"
-msgstr "Di chuyển không hoàn chỉnh từ việc cài đặt cơ sở dữ liệu chung"
+msgstr "Quá trình di chuyển chưa hoàn tất từ cài đặt cơ sở dữ liệu chia sẻ"
 
 #: kpi/utils/two_database_configuration_checker.py:134
 msgid ""
 "The KoBoCAT database was originally shared by KPI, but the KPI tables were "
 "not copied from that shared database to the new, KPI-only database."
-msgstr "Cơ sở dữ liệu KoBoCAT ban đầu được chia sẻ từ KPI, nhưng các bảng KPI không được sao chép từ cơ sở dữ liệu chung sang cơ sở dữ liệu mới chỉ dành cho KPI."
+msgstr "Cơ sở dữ liệu KoBoCAT ban đầu được chia sẻ từ KPI, nhưng các bảng KPI không được sao chép từ cơ sở dữ liệu chia sẻ sang cơ sở dữ liệu mới chỉ dành cho KPI."
 
 #: kpi/views/current_user.py:113
 msgid "Invalid confirmation"
@@ -3170,11 +3170,11 @@ msgstr "Chỉ có sẵn các định dạng sau: ##format list##"
 
 #: kpi/views/v2/asset_permission_assignment.py:211
 msgid "Source and destination objects don't seem to have the same type"
-msgstr "Đối tượng nguồn và đối tượng đích không cùng loại"
+msgstr "Đối tượng nguồn và đối tượng đích dường như không có cùng loại"
 
 #: kpi/views/v2/asset_permission_assignment.py:240
 msgid "Owner's permissions cannot be deleted"
-msgstr "Không thể xóa quyền hạn của chủ sở hữu"
+msgstr "Không thể xóa quyền truy cập của chủ sở hữu"
 
 #: kpi/views/v2/attachment.py:93
 msgid "`xpath` query parameter is required"
@@ -3186,7 +3186,7 @@ msgstr "Cú pháp XPath không hợp lệ"
 
 #: kpi/views/v2/attachment.py:119
 msgid "The path could not be found in the submission"
-msgstr "Không tìm thấy đường dẫn trong nội dung gửi"
+msgstr "Không tìm thấy đường dẫn trong bản dữ liệu"
 
 #: kpi/views/v2/attachment.py:129
 msgid "The error occurred during conversion"
@@ -3198,7 +3198,7 @@ msgstr "Không hỗ trợ chuyển đổi cho {}"
 
 #: kpi/views/v2/data.py:692
 msgid "A positive integer is required"
-msgstr "Bắt buộc phải có số nguyên dương"
+msgstr "Phải có số nguyên dương"
 
 #: kpi/views/v2/data.py:703
 msgid "The specified asset has not been deployed"

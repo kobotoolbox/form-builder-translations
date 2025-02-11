@@ -200,7 +200,7 @@ msgstr "Щоб змінити пароль, натисніть на посила
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:11
 #, python-format
 msgid "Your username is %(username)s."
-msgstr "Ваше ім'я користувача: %(username)s"
+msgstr "Ваше ім'я користувача %(username)s."
 
 #: kobo/apps/accounts/templates/account/email/password_reset_key_message.txt:13
 #: kobo/apps/accounts/templates/account/email/unknown_account_message.txt:9
@@ -245,7 +245,7 @@ msgstr "Підтвердіть адресу електронної пошти"
 msgid ""
 "Please confirm that <a href=\"mailto:%(email)s\">%(email)s</a> is an e-mail "
 "address for user %(user_display)s."
-msgstr "Переконайтеся, що <a href=\"mailto:%(email)s\">%(email)s</a> дійсно є адресою електронної пошти для користувача %(user_display)s."
+msgstr "Підтвердіть, що <a href=\"mailto:%(email)s\">%(email)s</a> дійсно є адресою електронної пошти для користувача %(user_display)s."
 
 #: kobo/apps/accounts/templates/account/email_confirm.html:26
 msgid "Confirm"
@@ -282,14 +282,14 @@ msgstr "Забули пароль?"
 
 #: kobo/apps/accounts/templates/account/login.html:50
 msgid "Log in using SSO"
-msgstr "Ввійти за допомогою технології єдиного входу"
+msgstr "Увійти в систему через SSO"
 
 #: kobo/apps/accounts/templates/account/login.html:52
 #: kobo/apps/accounts/templates/account/signup.html:63
 msgid ""
 "If you set up Single Sign On in your account settings, you will only be able"
 " to log in through this method."
-msgstr "Якщо ви ввімкнули використання технології єдиного входу в налаштуваннях свого облікового запису, ви зможете увійти в систему тільки цим способом."
+msgstr "Якщо ви ввімкнули єдиний вхід в налаштуваннях свого облікового запису, ви зможете увійти в систему тільки цим методом."
 
 #: kobo/apps/accounts/templates/account/password_reset.html:10
 msgid "Password Reset"
@@ -525,7 +525,7 @@ msgstr "Шановний(-а)"
 #: kobo/apps/hook/templates/reports/failures_email_body.html:11
 #: kobo/apps/hook/templates/reports/failures_email_body.txt:12
 msgid "Some submissions could not be sent to their external endpoints."
-msgstr "Деякі дані не вдалося надіслати на зовнішні кінцеві точки."
+msgstr "Деякі надсилання не могли бути надіслані на зовнішні кінцеві точки."
 
 #: kobo/apps/hook/views/v2/hook.py:178
 msgid "Task successfully scheduled"
@@ -537,7 +537,7 @@ msgstr "Немає даних для повторної спроби"
 
 #: kobo/apps/hook/views/v2/hook.py:217
 msgid "Can not retry on disabled hooks"
-msgstr "Неможливо повторити спробу коли хуки відключені"
+msgstr "Неможливо повторити спробу коли гуки відключені"
 
 #: kobo/apps/hook/views/v2/hook_log.py:120
 msgid "An error has occurred when sending the data. Please try again later."
@@ -553,217 +553,217 @@ msgstr "Імпортувати"
 
 #: kobo/apps/openrosa/apps/api/exceptions.py:12
 msgid "This is not supported by the legacy API anymore"
-msgstr ""
+msgstr "Це більше не підтримується застарілим API"
 
 #: kobo/apps/openrosa/apps/api/exceptions.py:19
 msgid "No confirmation provided"
-msgstr ""
+msgstr "Підтвердження не надано"
 
 #: kobo/apps/openrosa/apps/api/tools.py:70
 #, python-format
 msgid "User %(user)s has no permission to add xforms to account %(account)s"
-msgstr ""
+msgstr "Користувач %(user)sне має права додавати xforms до облікового запису%(account)s"
 
 #: kobo/apps/openrosa/apps/api/tools.py:82
 #, python-format
 msgid "User %(user)s has no permission to change this form."
-msgstr ""
+msgstr "Користувач %(user)sне має права змінювати цю форму."
 
 #: kobo/apps/openrosa/apps/api/tools.py:111
 msgid "You do not have permission to view data from this form."
-msgstr ""
+msgstr "Ви не маєте дозволу на перегляд даних з цієї форми."
 
 #: kobo/apps/openrosa/apps/api/viewsets/attachment_viewset.py:174
 #, python-format
 msgid "Filename '%s' not found."
-msgstr ""
+msgstr "Файл '%s' не знайдено."
 
 #: kobo/apps/openrosa/apps/api/viewsets/briefcase_api.py:40
 #, python-format
 msgid "Invalid formId %s."
-msgstr ""
+msgstr "Недійсний ідентифікатор форми %s."
 
 #: kobo/apps/openrosa/apps/api/viewsets/briefcase_api.py:195
 #, python-format
 msgid "%s successfully published."
-msgstr ""
+msgstr "%s успішно опубліковані."
 
 #: kobo/apps/openrosa/apps/api/viewsets/briefcase_api.py:200
 msgid "Missing xml file."
-msgstr ""
+msgstr "Відсутній файл xml."
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:407
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:436
 msgid "`query` and `instance_ids` can't be used together"
-msgstr ""
+msgstr "`query` та `instance_ids` не можуть використовуватися разом"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:411
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:440
 msgid "Invalid `query` or `submission_ids` params"
-msgstr ""
+msgstr "Недійсні `query` або `submission_ids` параметри"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:418
 msgid "{} submissions have been deleted"
-msgstr ""
+msgstr "{} надсилання видалені"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:446
 msgid "No `validation_status.uid` provided"
-msgstr ""
+msgstr "Не `validation_status.uid` надано"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:451
 msgid "{} submissions have been updated"
-msgstr ""
+msgstr "{} надсилання оновлено"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:487
 #, python-format
 msgid "Invalid pk `%(pk)s`"
-msgstr ""
+msgstr "Недійсний pk `%(pk)s`"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:491
 #, python-format
 msgid "Invalid dataid `%(dataid)s`"
-msgstr ""
+msgstr "Недійсний dataid `%(dataid)s`"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:506
 msgid "No data matches with given query."
-msgstr ""
+msgstr "Немає даних, що відповідають заданому запиту."
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:523
 #, python-format
 msgid "Invalid pk %(pk)s"
-msgstr ""
+msgstr "Недійсний pk %(pk)s"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:627
 msgid "Data id not provided."
-msgstr ""
+msgstr "Ідентифікатор даних не надано."
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:631
 msgid "`return_url` not provided."
-msgstr ""
+msgstr "`return_url` не передбачено."
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:643
 msgid ""
 "Cannot edit submissions while \"Require authentication to see form and "
 "submit data\" is disabled for your project"
-msgstr ""
+msgstr "Неможливо редагувати надсилання, якщо для вашого проєкту вимкнено опцію “Потрібна автентифікація для перегляду форми та надсилання даних”"
 
 #: kobo/apps/openrosa/apps/api/viewsets/data_viewset.py:667
 msgid "Data id not provided"
-msgstr ""
+msgstr "Ідентифікатор даних не надано"
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_submission_api.py:56
 msgid "No submission key provided."
-msgstr ""
+msgstr "Ключ для надсилання не надано."
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_submission_api.py:205
 msgid "Unable to create submission."
-msgstr ""
+msgstr "Не вдалося створити надсилання."
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:55
 #, python-format
 msgid "'%(export_type)s' format not known or not implemented!"
-msgstr ""
+msgstr "'%(export_type)s' формат невідомий або не впроваджений!"
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:91
 msgid "Dates must be in the format YY_MM_DD_hh_mm_ss"
-msgstr ""
+msgstr "Дати повинні бути у форматі YY_MM_DD_hh_mm_ss"
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:109
 msgid "No records found to export"
-msgstr ""
+msgstr "Не знайдено записів для експорту"
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:140
 msgid "No XLSForm found."
-msgstr ""
+msgstr "XLSForm не знайдено."
 
 #: kobo/apps/openrosa/apps/api/viewsets/xform_viewset.py:585
 msgid "Only a form's owner can overwrite its contents"
-msgstr ""
+msgstr "Тільки власник форми може перезаписати її вміст"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:71
 msgid "Require authentication to see form and submit data"
-msgstr ""
+msgstr "Потрібна автентифікація для перегляду форм і надсилання даних"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:79
 msgid "ID"
-msgstr ""
+msgstr "ID"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:107
 msgid "XForm"
-msgstr ""
+msgstr "XForm"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:108
 msgid "XForms"
-msgstr ""
+msgstr "XForms"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:111
 msgid "Can make submissions to the form"
-msgstr ""
+msgstr "Можна подавати надсилання до форми"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:112
 msgid "Can transfer form ownership."
-msgstr ""
+msgstr "Можна передати право власності на форму."
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:113
 msgid "Can validate submissions"
-msgstr ""
+msgstr "Можна підтвердити надсилання"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:114
 msgid "Can delete submissions"
-msgstr ""
+msgstr "Можна видалити надсилання"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:242
 #, python-format
 msgid ""
 "Your updated form's id_string '%(new_id)s' must match the existing forms' "
 "id_string '%(old_id)s'."
-msgstr ""
+msgstr "Рядок id_string вашої оновленої форми '%(new_id)s' повинен збігатися з рядком id_string існуючих форм '%(old_id)s'."
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:251
 msgid ""
 "In strict mode, the XForm ID must be a valid slug and contain no spaces."
-msgstr ""
+msgstr "У строгому режимі ідентифікатор XForm повинен бути правильним і не містити пробілів."
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:265
 msgid "Submission Count"
-msgstr ""
+msgstr "Кількість надсилань"
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:301
 msgid "There should be a single id string."
-msgstr ""
+msgstr "Має бути один рядок ідентифікатора."
 
 #: kobo/apps/openrosa/apps/logger/models/xform.py:326
 msgid "There should be a single title."
-msgstr ""
+msgstr "Має бути одна назва."
 
 #: kobo/apps/openrosa/apps/logger/views.py:68
 #: kobo/apps/openrosa/libs/serializers/data_serializer.py:114
 msgid "Successful submission."
-msgstr ""
+msgstr "Подання надсилання успішне."
 
 #: kobo/apps/openrosa/apps/logger/views.py:94
 msgid ""
 "There was a problem receiving your ODK submission. [Error: IO Error reading "
 "data]"
-msgstr ""
+msgstr "Виникла проблема з отриманням вашого надсилання ODK.[Помилка: помилка IO при читанні даних]"
 
 #: kobo/apps/openrosa/apps/logger/views.py:98
 msgid ""
 "There was a problem receiving your ODK submission. [Error: multiple "
 "submission files (?)]"
-msgstr ""
+msgstr "Виникла проблема з отриманням вашого ODK надсилання. [Помилка: декілька файлів надсилання (?)]"
 
 #: kobo/apps/openrosa/apps/logger/views.py:120
 #, python-format
 msgid ""
 "Submission complete. Out of %(total)d survey instances, %(success)d were "
 "imported, (%(rejected)d were rejected as duplicates, missing forms, etc.)"
-msgstr ""
+msgstr "Надсилання завершено. З усіх %(total)d екземплярів опитування%(success)d було імпортовано (%(rejected)dвідхилено як дублікати, відсутні форми тощо)."
 
 #: kobo/apps/openrosa/apps/logger/views.py:190
 #, python-format
 msgid "No XLS file for your form %(id)s"
-msgstr ""
+msgstr "Немає XLS-файлу для вашої форми %(id)s"
 
 #: kobo/apps/openrosa/apps/logger/views.py:208
 #: kobo/apps/openrosa/apps/viewer/views.py:52
@@ -773,58 +773,58 @@ msgstr ""
 #: kobo/apps/openrosa/apps/viewer/views.py:190
 #: kobo/apps/openrosa/apps/viewer/views.py:266
 msgid "Not shared."
-msgstr ""
+msgstr "Доступ не надано."
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:25
 msgid "Duplicate Instance"
-msgstr ""
+msgstr "Дублікат екземпляра"
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:30
 msgid "Could not determine the user."
-msgstr ""
+msgstr "Не вдалося визначити користувача."
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:35
 msgid "The instance could not be parsed."
-msgstr ""
+msgstr "Екземпляр не вдалося розділити."
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:40
 msgid "Empty instance"
-msgstr ""
+msgstr "Порожній екземпляр"
 
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:53
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:96
 #: kobo/apps/openrosa/apps/logger/xform_instance_parser.py:111
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:348
 msgid "XML string must have a survey element."
-msgstr ""
+msgstr "XML-рядок повинен містити елемент опитування."
 
 #: kobo/apps/openrosa/apps/main/forms.py:18
 msgid "Media upload"
-msgstr ""
+msgstr "Завантаження медіафайлу"
 
 #: kobo/apps/openrosa/apps/main/forms.py:30
 #: kobo/apps/openrosa/libs/utils/quick_converter.py:9
 msgid "XLS File"
-msgstr ""
+msgstr "XLS File"
 
 #: kobo/apps/openrosa/apps/main/templates/405.html:5
 msgid "405 Error: Method Not Allowed!"
-msgstr ""
+msgstr "Помилка 405: метод не дозволено!"
 
 #: kobo/apps/openrosa/apps/main/templates/500.html:5
 msgid "500 Error"
-msgstr ""
+msgstr "Помилка 500"
 
 #: kobo/apps/openrosa/apps/main/templates/500.html:8
 msgid ""
 "If this is a significant error that needs to be fixed, please send a support"
 " request to support@kobotoolbox.org with information about what triggered "
 "this error."
-msgstr ""
+msgstr "Якщо це суттєва помилка, яку потрібно виправити, надішліть запит на підтримку на support@kobotoolbox.org з інформацією про те, що спричинило цю помилку."
 
 #: kobo/apps/openrosa/apps/main/templates/restricted_access.html:5
 msgid "403 - Restricted access"
-msgstr ""
+msgstr "403 - Обмежений доступ"
 
 #: kobo/apps/openrosa/apps/main/templates/restricted_access.html:8
 #, python-format
@@ -832,1250 +832,1250 @@ msgid ""
 "\n"
 "    Your access is restricted. Please reclaim your access by <a href=\"%(koboform_url)s/accounts/password/reset/\">changing your password</a>.\n"
 "  "
-msgstr ""
+msgstr "\n     Ваш доступ обмежений. Відновіть доступ, <a href=\"%(koboform_url)s/accounts/password/reset/\">змінивши пароль.</a>.\n  "
 
 #: kobo/apps/openrosa/apps/viewer/models/export.py:17
 msgid "Invalid export type specified"
-msgstr ""
+msgstr "Вказано недійсний тип експорту"
 
 #: kobo/apps/openrosa/apps/viewer/models/parsed_instance.py:111
 #: kobo/apps/openrosa/apps/viewer/models/parsed_instance.py:163
 msgid "Invalid start/limit params"
-msgstr ""
+msgstr "Недійсні початкові/лімітні параметри"
 
 #: kobo/apps/openrosa/apps/viewer/models/parsed_instance.py:127
 #, python-format
 msgid "Invalid pipeline! %s"
-msgstr ""
+msgstr "Невірна послідовність! %s"
 
 #: kobo/apps/openrosa/apps/viewer/models/parsed_instance.py:129
 #, python-format
 msgid "Invalid query! %s"
-msgstr ""
+msgstr "Невірний запит! %s"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:10
 msgid "Exports"
-msgstr ""
+msgstr "Експорт"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:26
 msgid "New Export"
-msgstr ""
+msgstr "Новий експорт"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:28
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:41
 msgid "Advanced Export"
-msgstr ""
+msgstr "Розширений експорт"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:33
 msgid ""
 "Note: exports include only questions that remain in the most recent version "
 "of the form."
-msgstr ""
+msgstr "Примітка: до експорту потрапляють лише ті запитання, які залишилися в останній версії форми."
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:44
 msgid "Delimiter to use to separate group names from field names"
-msgstr ""
+msgstr "Розділювач для відокремлення назв груп від назв полів"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:46
 msgid "Dot"
-msgstr ""
+msgstr "Крапка"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:47
 msgid "Slash"
-msgstr ""
+msgstr "Скісна риска"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:51
 msgid "DONT split select multiple choice answers into separate columns"
-msgstr ""
+msgstr "НЕ розділяйте варіанти відповідей на окремі стовпці"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:55
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:99
 msgid "Cancel"
-msgstr ""
+msgstr "Скасувати"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:56
 msgid "Create Export"
-msgstr ""
+msgstr "Створити експорт"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:65
 msgid "Filename"
-msgstr ""
+msgstr "Назва файлу"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:66
 msgid "Date Created"
-msgstr ""
+msgstr "Дата створення"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:67
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:100
 msgid "Delete"
-msgstr ""
+msgstr "Видалити"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:82
 msgid "Pending ..."
-msgstr ""
+msgstr "В процесі вирішення..."
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:83
 msgid "Click to refresh"
-msgstr ""
+msgstr "Натисніть, щоб оновити"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:93
 msgid "Delete Export"
-msgstr ""
+msgstr "Видалити експорт"
 
 #: kobo/apps/openrosa/apps/viewer/templates/export_list.html:96
 msgid "Are you sure you want to delete this export?"
-msgstr ""
+msgstr "Ви впевнені, що хочете видалити цей експорт?"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:61
 #, python-format
 msgid "%s is not a valid delimiter"
-msgstr ""
+msgstr "%s не є дійсним роздільником"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:80
 #, python-format
 msgid "%s is not a valid export type"
-msgstr ""
+msgstr "%s не є дійсним типом експорту"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:97
 msgid "Invalid export type"
-msgstr ""
+msgstr "Недійсний тип експорту"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:240
 #: kobo/apps/openrosa/apps/viewer/views.py:244
 msgid "Attachment not found"
-msgstr ""
+msgstr "Вкладення не знайдено"
 
 #: kobo/apps/openrosa/apps/viewer/views.py:301
 msgid "Error: Attachment not found"
-msgstr ""
+msgstr "Помилка: Вкладення не знайдено"
 
 #: kobo/apps/openrosa/libs/authentication.py:51
 msgid ""
 "Using basic authentication without HTTPS transmits credentials in clear "
 "text! You MUST connect via HTTPS to use basic authentication."
-msgstr ""
+msgstr "Використання базової автентифікації без HTTPS передає облікові дані відкритим текстом! Щоб використовувати базову автентифікацію, ви ПОВИННІ підключатися через HTTPS."
 
 #: kobo/apps/openrosa/libs/mixins/mfa.py:25
 msgid ""
 "Multi-factor authentication is enabled for this account. ##authentication "
 "class## cannot be used."
-msgstr ""
+msgstr "Для цього облікового запису ввімкнено багатофакторну автентифікацію. ##authentication class##не може бути використано."
 
 #: kobo/apps/openrosa/libs/serializers/clone_xform_serializer.py:34
 #, python-format
 msgid "User '%(value)s' does not exist."
-msgstr ""
+msgstr "Користувача '%(value)s ' не існує."
 
 #: kobo/apps/openrosa/libs/serializers/data_serializer.py:47
 #, python-format
 msgid "Invalid query: %(query)s"
-msgstr ""
+msgstr "Недійсний запит: %(query)s"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:18
 msgid "Data License"
-msgstr ""
+msgstr "Дозвіл на передачу даних"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:19
 msgid "Form License"
-msgstr ""
+msgstr "Форма дозволу"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:20
 msgid "Media"
-msgstr ""
+msgstr "Медіа"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:21
 msgid "Public Link"
-msgstr ""
+msgstr "Публічне посилання"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:22
 msgid "Source"
-msgstr ""
+msgstr "Джерело"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:23
 msgid "Supporting Document"
-msgstr ""
+msgstr "Супровідний документ"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:24
 msgid "Paired Data"
-msgstr ""
+msgstr "Парні дані"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:72
 msgid "Project not found"
-msgstr ""
+msgstr "Проєкт не знайдено"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:76
 msgid "You do not have sufficient permissions to perform this action"
-msgstr ""
+msgstr "Ви не маєте достатніх прав для виконання цієї дії"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:122
 msgid "Invalid url {}"
-msgstr ""
+msgstr "Недійсний url {}"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:156
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:167
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:174
 msgid "Cannot determine content type"
-msgstr ""
+msgstr "Неможливо визначити тип вмісту"
 
 #: kobo/apps/openrosa/libs/serializers/metadata_serializer.py:189
 msgid "Invalid content type"
-msgstr ""
+msgstr "Недійсний тип вмісту"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:8
 msgid "Afghanistan"
-msgstr ""
+msgstr "Афганістан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:9
 msgid "Albania"
-msgstr ""
+msgstr "Албанія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:10
 msgid "Algeria"
-msgstr ""
+msgstr "Алжир"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:11
 msgid "American Samoa"
-msgstr ""
+msgstr "Американське Самоа"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:12
 msgid "Andorra"
-msgstr ""
+msgstr "Андорра"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:13
 msgid "Angola"
-msgstr ""
+msgstr "Ангола"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:14
 msgid "Anguilla"
-msgstr ""
+msgstr "Ангілья"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:15
 msgid "Antarctica"
-msgstr ""
+msgstr "Антарктида"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:16
 msgid "Antigua and Barbuda"
-msgstr ""
+msgstr "Антигуа і Барбуда"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:17
 msgid "Argentina"
-msgstr ""
+msgstr "Аргентина"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:18
 msgid "Armenia"
-msgstr ""
+msgstr "Вірменія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:19
 msgid "Aruba"
-msgstr ""
+msgstr "Аруба"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:20
 msgid "Australia"
-msgstr ""
+msgstr "Австралія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:21
 msgid "Austria"
-msgstr ""
+msgstr "Австрія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:22
 msgid "Azerbaijan"
-msgstr ""
+msgstr "Азербайджан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:23
 msgid "Bahamas"
-msgstr ""
+msgstr "Багамські Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:24
 msgid "Bahrain"
-msgstr ""
+msgstr "Бахрейн"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:25
 msgid "Bangladesh"
-msgstr ""
+msgstr "Бангладеш"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:26
 msgid "Barbados"
-msgstr ""
+msgstr "Барбадос"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:27
 msgid "Belarus"
-msgstr ""
+msgstr "Білорусь"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:28
 msgid "Belgium"
-msgstr ""
+msgstr "Бельгія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:29
 msgid "Belize"
-msgstr ""
+msgstr "Беліз"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:30
 msgid "Benin"
-msgstr ""
+msgstr "Республіка Бенін"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:31
 msgid "Bermuda"
-msgstr ""
+msgstr "Бермудські Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:32
 msgid "Bhutan"
-msgstr ""
+msgstr "Бутан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:33
 msgid "Bolivia"
-msgstr ""
+msgstr "Болівія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:34
 msgid "Bonaire, Sint Eustatius and Saba"
-msgstr ""
+msgstr "Бонайре, Сінт-Естатіус і Саба"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:35
 msgid "Bosnia and Herzegovina"
-msgstr ""
+msgstr "Боснія та Герцеговина"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:36
 msgid "Botswana"
-msgstr ""
+msgstr "Ботсвана"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:37
 msgid "Brazil"
-msgstr ""
+msgstr "Бразилія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:38
 msgid "British Indian Ocean Territory"
-msgstr ""
+msgstr "Британська Територія в Індійському Океані"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:39
 msgid "Brunei Darussalam"
-msgstr ""
+msgstr "Бруней Даруссалам"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:40
 msgid "Bulgaria"
-msgstr ""
+msgstr "Болгарія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:41
 msgid "Burkina Faso"
-msgstr ""
+msgstr "Буркіна-Фасо"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:42
 msgid "Burundi"
-msgstr ""
+msgstr "Бурунді"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:43
 msgid "Cambodia"
-msgstr ""
+msgstr "Камбоджа"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:44
 msgid "Cameroon"
-msgstr ""
+msgstr "Камерун"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:45
 msgid "Canada"
-msgstr ""
+msgstr "Канада"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:46
 msgid "Cape Verde"
-msgstr ""
+msgstr "Кабо-Верде"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:47
 msgid "Cayman Islands"
-msgstr ""
+msgstr "Кайманові Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:48
 msgid "Central African Republic"
-msgstr ""
+msgstr "Центральноафриканська Республіка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:49
 msgid "Chad"
-msgstr ""
+msgstr "Чад"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:50
 msgid "Chile"
-msgstr ""
+msgstr "Чилі"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:51
 msgid "China"
-msgstr ""
+msgstr "Китай"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:52
 msgid "Christmas Island"
-msgstr ""
+msgstr "Острів Різдва"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:53
 msgid "Cocos (Keeling) Islands"
-msgstr ""
+msgstr "Кокосові Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:54
 msgid "Colombia"
-msgstr ""
+msgstr "Колумбія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:55
 msgid "Comoros"
-msgstr ""
+msgstr "Коморські Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:56
 msgid "Congo"
-msgstr ""
+msgstr "Конго"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:57
 msgid "Congo, The Democratic Republic of the"
-msgstr ""
+msgstr "Демократична Республіка Конго"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:58
 msgid "Cook Islands"
-msgstr ""
+msgstr "Острови Кука"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:59
 msgid "Costa Rica"
-msgstr ""
+msgstr "Коста-Рика"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:60
 msgid "Ivory Coast"
-msgstr ""
+msgstr "Кот-д'Івуар"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:61
 msgid "Croatia"
-msgstr ""
+msgstr "Хорватія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:62
 msgid "Cuba"
-msgstr ""
+msgstr "Куба"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:63
 msgid "Curacao"
-msgstr ""
+msgstr "Кюрасао"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:64
 msgid "Cyprus"
-msgstr ""
+msgstr "Кіпр"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:65
 msgid "Czech Republic"
-msgstr ""
+msgstr "Чеська Республіка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:66
 msgid "Denmark"
-msgstr ""
+msgstr "Данія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:67
 msgid "Djibouti"
-msgstr ""
+msgstr "Джибуті"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:68
 msgid "Dominica"
-msgstr ""
+msgstr "Домініка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:69
 msgid "Dominican Republic"
-msgstr ""
+msgstr "Домініканська Республіка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:70
 msgid "Ecuador"
-msgstr ""
+msgstr "Еквадор"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:71
 msgid "Egypt"
-msgstr ""
+msgstr "Єгипет"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:72
 msgid "El Salvador"
-msgstr ""
+msgstr "Сальвадор"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:73
 msgid "Equatorial Guinea"
-msgstr ""
+msgstr "Екваторіальна Гвінея"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:74
 msgid "Eritrea"
-msgstr ""
+msgstr "Еритрея"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:75
 msgid "Estonia"
-msgstr ""
+msgstr "Естонія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:76
 msgid "Ethiopia"
-msgstr ""
+msgstr "Ефіопія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:77
 msgid "Falkland Islands (Malvinas)"
-msgstr ""
+msgstr "Фолклендські (Мальвінські) острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:78
 msgid "Faroe Islands"
-msgstr ""
+msgstr "Фарерські острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:79
 msgid "Fiji"
-msgstr ""
+msgstr "Фіджі"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:80
 msgid "Finland"
-msgstr ""
+msgstr "Фінляндія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:81
 msgid "France"
-msgstr ""
+msgstr "Франція"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:82
 msgid "French Guiana"
-msgstr ""
+msgstr "Французька Гвіана"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:83
 msgid "French Polynesia"
-msgstr ""
+msgstr "Французька Полінезія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:84
 msgid "French Southern Territories"
-msgstr ""
+msgstr "Французькі Південні Території"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:85
 msgid "Gabon"
-msgstr ""
+msgstr "Габон"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:86
 msgid "Gambia"
-msgstr ""
+msgstr "Гамбія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:87
 msgid "Georgia"
-msgstr ""
+msgstr "Грузія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:88
 msgid "Germany"
-msgstr ""
+msgstr "Німеччина"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:89
 msgid "Ghana"
-msgstr ""
+msgstr "Гана"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:90
 msgid "Gibraltar"
-msgstr ""
+msgstr "Гібралтар"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:91
 msgid "Greece"
-msgstr ""
+msgstr "Греція"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:92
 msgid "Greenland"
-msgstr ""
+msgstr "Гренландія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:93
 msgid "Grenada"
-msgstr ""
+msgstr "Гренада"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:94
 msgid "Guadeloupe"
-msgstr ""
+msgstr "Гваделупа"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:95
 msgid "Guam"
-msgstr ""
+msgstr "Гуам"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:96
 msgid "Guatemala"
-msgstr ""
+msgstr "Гватемала"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:97
 msgid "Guernsey"
-msgstr ""
+msgstr "Гернсі"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:98
 msgid "Guinea"
-msgstr ""
+msgstr "Гвінея"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:99
 msgid "Guinea-Bissau"
-msgstr ""
+msgstr "Гвінея-Бісау"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:100
 msgid "Guyana"
-msgstr ""
+msgstr "Гаяна"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:101
 msgid "Haiti"
-msgstr ""
+msgstr "Гаїті"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:102
 msgid "Heard Island and McDonald Islands"
-msgstr ""
+msgstr "Острів Герд і острови Макдональд"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:103
 msgid "Holy See (Vatican City State)"
-msgstr ""
+msgstr "Ватикан (Держава-місто Ватикан)"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:104
 msgid "Honduras"
-msgstr ""
+msgstr "Гондурас"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:105
 msgid "Hong Kong"
-msgstr ""
+msgstr "Гонконг"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:106
 msgid "Hungary"
-msgstr ""
+msgstr "Угорщина"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:107
 msgid "Iceland"
-msgstr ""
+msgstr "Ісландія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:108
 msgid "India"
-msgstr ""
+msgstr "Індія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:109
 msgid "Indonesia"
-msgstr ""
+msgstr "Індонезія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:110
 msgid "Installations in International Waters"
-msgstr ""
+msgstr "Об'єкти в міжнародних водах"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:111
 msgid "Iran, Islamic Republic of"
-msgstr ""
+msgstr "Іран"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:112
 msgid "Iraq"
-msgstr ""
+msgstr "Ірак"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:113
 msgid "Ireland"
-msgstr ""
+msgstr "Ірландія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:114
 msgid "Isle of Man"
-msgstr ""
+msgstr "Острів Мен"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:115
 msgid "Israel"
-msgstr ""
+msgstr "Ізраїль"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:116
 msgid "Italy"
-msgstr ""
+msgstr "Італія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:117
 msgid "Jamaica"
-msgstr ""
+msgstr "Ямайка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:118
 msgid "Japan"
-msgstr ""
+msgstr "Японія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:119
 msgid "Jersey"
-msgstr ""
+msgstr "Джерсі"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:120
 msgid "Jordan"
-msgstr ""
+msgstr "Йорданія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:121
 msgid "Kazakhstan"
-msgstr ""
+msgstr "Казахстан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:122
 msgid "Kenya"
-msgstr ""
+msgstr "Кенія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:123
 msgid "Kiribati"
-msgstr ""
+msgstr "Кірибаті"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:124
 msgid "Korea, Democratic People's Republic of"
-msgstr ""
+msgstr "Корейська Народно-Демократична Республіка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:125
 msgid "Korea, Republic of"
-msgstr ""
+msgstr "Республіка Корея"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:127
 msgid "Kosovo"
-msgstr ""
+msgstr "Косово"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:128
 msgid "Kuwait"
-msgstr ""
+msgstr "Кувейт"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:129
 msgid "Kyrgyzstan"
-msgstr ""
+msgstr "Киргизстан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:130
 msgid "Lao People's Democratic Republic"
-msgstr ""
+msgstr "Лаос"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:131
 msgid "Latvia"
-msgstr ""
+msgstr "Латвія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:132
 msgid "Lebanon"
-msgstr ""
+msgstr "Ліван"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:133
 msgid "Lesotho"
-msgstr ""
+msgstr "Лесото"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:134
 msgid "Liberia"
-msgstr ""
+msgstr "Ліберія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:135
 msgid "Libyan Arab Jamahiriya"
-msgstr ""
+msgstr "Лівія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:136
 msgid "Liechtenstein"
-msgstr ""
+msgstr "Ліхтенштейн"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:137
 msgid "Lithuania"
-msgstr ""
+msgstr "Литва"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:138
 msgid "Luxembourg"
-msgstr ""
+msgstr "Люксембург"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:139
 msgid "Macao"
-msgstr ""
+msgstr "Макао"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:140
 msgid "Macedonia, The former Yugoslav Republic of"
-msgstr ""
+msgstr "Північна Македонія, колишня Югославська Республіка Македонія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:141
 msgid "Madagascar"
-msgstr ""
+msgstr "Мадагаскар"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:142
 msgid "Malawi"
-msgstr ""
+msgstr "Малаві"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:143
 msgid "Malaysia"
-msgstr ""
+msgstr "Малайзія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:144
 msgid "Maldives"
-msgstr ""
+msgstr "Мальдіви"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:145
 msgid "Mali"
-msgstr ""
+msgstr "Малі"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:146
 msgid "Malta"
-msgstr ""
+msgstr "Мальта"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:147
 msgid "Marshall Islands"
-msgstr ""
+msgstr "Маршаллові Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:148
 msgid "Martinique"
-msgstr ""
+msgstr "Мартиніка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:149
 msgid "Mauritania"
-msgstr ""
+msgstr "Мавританія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:150
 msgid "Mauritius"
-msgstr ""
+msgstr "Маврикій"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:151
 msgid "Mayotte"
-msgstr ""
+msgstr "Майотта"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:152
 msgid "Mexico"
-msgstr ""
+msgstr "Мексика"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:153
 msgid "Micronesia, Federated States of"
-msgstr ""
+msgstr "Федеративні Штати Мікронезії"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:154
 msgid "Moldova, Republic of"
-msgstr ""
+msgstr "Республіка Молдова"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:155
 msgid "Monaco"
-msgstr ""
+msgstr "Монако"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:156
 msgid "Mongolia"
-msgstr ""
+msgstr "Монголія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:157
 msgid "Montenegro"
-msgstr ""
+msgstr "Чорногорія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:158
 msgid "Montserrat"
-msgstr ""
+msgstr "Монтсеррат"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:159
 msgid "Morocco"
-msgstr ""
+msgstr "Марокко"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:160
 msgid "Mozambique"
-msgstr ""
+msgstr "Мозамбік"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:161
 msgid "Myanmar"
-msgstr ""
+msgstr "М’янма"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:162
 msgid "Namibia"
-msgstr ""
+msgstr "Намібія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:163
 msgid "Nauru"
-msgstr ""
+msgstr "Науру"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:164
 msgid "Nepal"
-msgstr ""
+msgstr "Непал"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:165
 msgid "Netherlands"
-msgstr ""
+msgstr "Нідерланди"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:166
 msgid "New Caledonia"
-msgstr ""
+msgstr "Нова Каледонія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:167
 msgid "New Zealand"
-msgstr ""
+msgstr "Нова Зеландія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:168
 msgid "Nicaragua"
-msgstr ""
+msgstr "Нікарагуа"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:169
 msgid "Niger"
-msgstr ""
+msgstr "Нігер"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:170
 msgid "Nigeria"
-msgstr ""
+msgstr "Нігерія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:171
 msgid "Niue"
-msgstr ""
+msgstr "Ніуе"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:172
 msgid "Norfolk Island"
-msgstr ""
+msgstr "Острів Норфолк"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:173
 msgid "Northern Mariana Islands"
-msgstr ""
+msgstr "Північні Маріанські острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:174
 msgid "Norway"
-msgstr ""
+msgstr "Норвегія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:175
 msgid "Oman"
-msgstr ""
+msgstr "Оман"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:176
 msgid "Pakistan"
-msgstr ""
+msgstr "Пакистан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:177
 msgid "Palau"
-msgstr ""
+msgstr "Палау"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:178
 msgid "Palestinian Territory, Occupied"
-msgstr ""
+msgstr "Окупована палестинська територія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:179
 msgid "Panama"
-msgstr ""
+msgstr "Панама"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:180
 msgid "Papua New Guinea"
-msgstr ""
+msgstr "Папуа-Нова Гвінея"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:181
 msgid "Paraguay"
-msgstr ""
+msgstr "Парагвай"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:182
 msgid "Peru"
-msgstr ""
+msgstr "Перу"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:183
 msgid "Philippines"
-msgstr ""
+msgstr "Філіппіни"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:184
 msgid "Pitcairn"
-msgstr ""
+msgstr "Острови Піткерн"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:185
 msgid "Poland"
-msgstr ""
+msgstr "Польща"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:186
 msgid "Portugal"
-msgstr ""
+msgstr "Португалія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:187
 msgid "Puerto Rico"
-msgstr ""
+msgstr "Пуерто-Рико"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:188
 msgid "Qatar"
-msgstr ""
+msgstr "Катар"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:189
 msgid "Reunion"
-msgstr ""
+msgstr "Реюньйон"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:190
 msgid "Romania"
-msgstr ""
+msgstr "Румунія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:191
 msgid "Russian Federation"
-msgstr ""
+msgstr "Росія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:192
 msgid "Rwanda"
-msgstr ""
+msgstr "Руанда"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:193
 msgid "Saint Helena"
-msgstr ""
+msgstr "Острів Святої Єлени"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:194
 msgid "Saint Kitts and Nevis"
-msgstr ""
+msgstr "Сент-Кітс і Невіс"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:195
 msgid "Saint Lucia"
-msgstr ""
+msgstr "Сент-Люсія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:196
 msgid "Saint Pierre and Miquelon"
-msgstr ""
+msgstr "Сен П'єр і Мікелон"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:197
 msgid "Saint Vincent and the Grenadines"
-msgstr ""
+msgstr "Сент-Вінсент і Гренадіни"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:198
 msgid "Samoa"
-msgstr ""
+msgstr "Самоа"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:199
 msgid "San Marino"
-msgstr ""
+msgstr "Сан-Марино"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:200
 msgid "Sao Tome and Principe"
-msgstr ""
+msgstr "Сан-Томе і Принсіпі"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:201
 msgid "Saudi Arabia"
-msgstr ""
+msgstr "Саудівська Аравія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:202
 msgid "Senegal"
-msgstr ""
+msgstr "Сенегал"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:203
 msgid "Serbia"
-msgstr ""
+msgstr "Сербія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:204
 msgid "Seychelles"
-msgstr ""
+msgstr "Сейшельські Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:205
 msgid "Sierra Leone"
-msgstr ""
+msgstr "Сьєрра-Леоне"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:206
 msgid "Singapore"
-msgstr ""
+msgstr "Сінгапур"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:207
 msgid "Sint Maarten (Dutch Part)"
-msgstr ""
+msgstr "Сінт-Мартен (Голландська частина)"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:208
 msgid "Slovakia"
-msgstr ""
+msgstr "Словаччина"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:209
 msgid "Slovenia"
-msgstr ""
+msgstr "Словенія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:210
 msgid "Solomon Islands"
-msgstr ""
+msgstr "Соломонові Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:211
 msgid "Somalia"
-msgstr ""
+msgstr "Сомалі"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:212
 msgid "South Africa"
-msgstr ""
+msgstr "Південна Африка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:213
 msgid "South Georgia and the South Sandwich Islands"
-msgstr ""
+msgstr "Південна Джорджія та Південні Сандвічеві Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:214
 msgid "South Sudan"
-msgstr ""
+msgstr "Південний Судан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:215
 msgid "Spain"
-msgstr ""
+msgstr "Іспанія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:216
 msgid "Sri Lanka"
-msgstr ""
+msgstr "Шрі-Ланка"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:217
 msgid "Sudan"
-msgstr ""
+msgstr "Судан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:218
 msgid "Suriname"
-msgstr ""
+msgstr "Суринам"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:219
 msgid "Svalbard and Jan Mayen"
-msgstr ""
+msgstr "Свальбард і Ян-Маєн"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:220
 msgid "Swaziland"
-msgstr ""
+msgstr "Есватіні"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:221
 msgid "Sweden"
-msgstr ""
+msgstr "Швеція"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:222
 msgid "Switzerland"
-msgstr ""
+msgstr "Швейцарія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:223
 msgid "Syrian Arab Republic"
-msgstr ""
+msgstr "Сирія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:224
 msgid "Taiwan, Province of China"
-msgstr ""
+msgstr "Тайвань"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:225
 msgid "Tajikistan"
-msgstr ""
+msgstr "Таджикистан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:226
 msgid "Tanzania, United Republic of"
-msgstr ""
+msgstr "Танзанія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:227
 msgid "Thailand"
-msgstr ""
+msgstr "Таїланд"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:228
 msgid "Timor-Leste"
-msgstr ""
+msgstr "Східний Тимор"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:229
 msgid "Togo"
-msgstr ""
+msgstr "Того"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:230
 msgid "Tokelau"
-msgstr ""
+msgstr "Токелау"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:231
 msgid "Tonga"
-msgstr ""
+msgstr "Тонга"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:232
 msgid "Trinidad and Tobago"
-msgstr ""
+msgstr "Тринідад і Тобаго"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:233
 msgid "Tunisia"
-msgstr ""
+msgstr "Туніс"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:234
 msgid "Turkey"
-msgstr ""
+msgstr "Туреччина"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:235
 msgid "Turkmenistan"
-msgstr ""
+msgstr "Туркменістан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:236
 msgid "Turks and Caicos Islands"
-msgstr ""
+msgstr "Острови Теркс і Кайкос"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:237
 msgid "Tuvalu"
-msgstr ""
+msgstr "Тувалу"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:238
 msgid "Uganda"
-msgstr ""
+msgstr "Уганда"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:239
 msgid "Ukraine"
-msgstr ""
+msgstr "Україна"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:240
 msgid "United Arab Emirates"
-msgstr ""
+msgstr "Об'єднані Арабські Емірати"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:241
 msgid "United Kingdom"
-msgstr ""
+msgstr "Велика Британія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:242
 msgid "United States"
-msgstr ""
+msgstr "Сполучені Штати Америки"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:243
 msgid "United States Minor Outlying Islands"
-msgstr ""
+msgstr "Зовнішні малі острови США"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:244
 msgid "Uruguay"
-msgstr ""
+msgstr "Уругвай"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:245
 msgid "Uzbekistan"
-msgstr ""
+msgstr "Узбекистан"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:246
 msgid "Vanuatu"
-msgstr ""
+msgstr "Вануату"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:247
 msgid "Venezuela"
-msgstr ""
+msgstr "Венесуела"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:248
 msgid "Viet Nam"
-msgstr ""
+msgstr "В'єтнам"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:249
 msgid "Virgin Islands, British"
-msgstr ""
+msgstr "Британські Віргінські Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:250
 msgid "Virgin Islands, U.S."
-msgstr ""
+msgstr "Американські Віргінські Острови"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:251
 msgid "Wallis and Futuna"
-msgstr ""
+msgstr "Волліс і Футуна"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:252
 msgid "Western Sahara"
-msgstr ""
+msgstr "Західна Сахара"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:253
 msgid "Yemen"
-msgstr ""
+msgstr "Ємен"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:254
 msgid "Zambia"
-msgstr ""
+msgstr "Замбія"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:255
 msgid "Zimbabwe"
-msgstr ""
+msgstr "Зімбабве"
 
 #: kobo/apps/openrosa/libs/utils/country_field.py:256
 msgid "Unknown or unspecified country"
-msgstr ""
+msgstr "Невідома або невказана країна"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:125
 msgid "Forbidden"
-msgstr ""
+msgstr "Заборонено"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:135
 msgid ""
 "Forbidden attempt to edit a submission. To make a new submission, Remove "
 "`deprecatedID` from the submission XML and try again."
-msgstr ""
+msgstr "Заборонена спроба редагування надсилання. Щоб створити нове надсилання, видаліть`deprecatedID` з неї XML і спробуйте ще раз."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:306
 msgid "Username or ID required."
-msgstr ""
+msgstr "Потрібне ім'я користувача або ID."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:309
 msgid "Received empty submission. No instance was created"
-msgstr ""
+msgstr "Отримано порожнє надсилання. Не створено жодного екземпляра"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:312
 msgid "Form is not active"
-msgstr ""
+msgstr "Форма не активна"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:315
 msgid "Temporarily unavailable"
-msgstr ""
+msgstr "Тимчасово недоступно"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:318
 msgid "Form does not exist on this account"
-msgstr ""
+msgstr "Форма не існує на цьому обліковому записі"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:321
 msgid "Improperly formatted XML."
-msgstr ""
+msgstr "Неправильно відформатований XML."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:324
 msgid "Duplicate submission"
-msgstr ""
+msgstr "Повторне надсилання"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:330
 msgid "Access denied"
-msgstr ""
+msgstr "У доступі відмовлено"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:337
 msgid "File likely corrupted during transmission, please try later."
-msgstr ""
+msgstr "Файл, ймовірно, пошкоджено під час надсилання, спробуйте пізніше."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:475
 msgid "Invalid URL format."
-msgstr ""
+msgstr "Недійсний формат URL-адреси."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:487
 msgid "Form validation timeout, please try again."
-msgstr ""
+msgstr "Час на перевірку форми вийшов, спробуйте ще раз."
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:556
 #: kobo/apps/openrosa/libs/utils/viewer_tools.py:63
 #, python-format
 msgid "Exception in request: %(class)s: %(error)s"
-msgstr ""
+msgstr "Виняток у запиті: %(class)s: %(error)s"
 
 #: kobo/apps/openrosa/libs/utils/logger_tools.py:589
 msgid "The requested file could not be found."
-msgstr ""
+msgstr "Запитуваний файл не знайдено."
 
 #: kobo/apps/openrosa/libs/utils/middleware.py:181 kpi/exceptions.py:102
 msgid ""
@@ -2149,13 +2149,13 @@ msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> "
 "to you."
-msgstr "%(recipient)sпогодився/лась на передачу прав власності на проєкт <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> вам."
+msgstr "%(recipient)sваш запит на передачу прав власності на проєкт <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> прийнято."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:10
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "this project will be transferred to the new project owner."
-msgstr "Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для цього проєкту будуть передані новому власнику проєкту."
+msgstr "Усі надсилання, збережені дані, використання транскрипції та перекладів для цього проєкту будуть передані новому власнику проєкту."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:10
@@ -2170,14 +2170,14 @@ msgstr "Примітка: Ви продовжуватимете мати пра�
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of these "
 "projects:"
-msgstr "%(recipient)sпогодився/лась на передачу прав власності на ці проєкти:"
+msgstr "%(recipient)sваш запит на передачу прав власності на ці проєкти прийнято:"
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:17
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "these projects will be transferred to the new project owner."
-msgstr "Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для цих проєктів будуть передані новому власнику проєкту."
+msgstr "Усі надсилання, збережені дані, використання транскрипції та перекладів для цих проєктів будуть передані новому власнику проєкту."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.html:25
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:19
@@ -2191,20 +2191,20 @@ msgstr "Примітка: Ви продовжуватимете мати пра�
 msgid ""
 "%(recipient)s has accepted your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) to you."
-msgstr "%(recipient)sпогодився/лась на передачу прав власності на проєкт %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) вам."
+msgstr "%(recipient)sваш запит на передачу прав власності на проєкт %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) прийнято."
 
 #: kobo/apps/project_ownership/templates/emails/accepted_invite.txt:8
 msgid ""
 "All submissions, data storage, and transcription and translation usage for "
 "the project will be transferred to the new project owner."
-msgstr "Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для проєкту будуть передані новому власнику проєкту."
+msgstr "Усі надсилання, збережені дані, використання транскрипції та перекладів для проєкту будуть передані новому власнику проєкту."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:8
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>."
-msgstr "%(recipient)sвідмовився/лась на передачу прав власності на проєкт <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>."
+msgstr "%(recipient)sваш запит на передачу прав власності на проєкт відхилено <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:9
@@ -2212,7 +2212,7 @@ msgid ""
 "You will remain the owner of the project. The submissions, data storage, and"
 " transcription and translation usage for the project have not been "
 "transferred."
-msgstr "Ви залишаєтеся власником проєкту. Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для цього проєкту не були передані."
+msgstr "Ви залишаєтеся власником проєкту. Усі надсилання, збережені дані, використання транскрипції та перекладів для проєкту не були передані."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:11
@@ -2220,7 +2220,7 @@ msgstr "Ви залишаєтеся власником проєкту. Усі п
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of these "
 "projects:"
-msgstr "%(recipient)sвідмовився/лась на передачу прав власності на ці проєкти:"
+msgstr "%(recipient)sваш запит на передачу прав власності на ці проєкти відхилено:"
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.html:20
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:16
@@ -2228,14 +2228,14 @@ msgid ""
 "You will remain the owner of these projects. The submissions, data storage, "
 "and transcription and translation usage for these projects have not been "
 "transferred."
-msgstr "Ви залишаєтеся власником цих проєктів. Усі подані матеріали, зберігання даних, а також використання транскрипції та перекладів для цих проєктів не були передані."
+msgstr "Ви залишаєтеся власником цих проєктів. Усі надсилання, збережені дані, використання транскрипції та перекладів для проєкту не були передані."
 
 #: kobo/apps/project_ownership/templates/emails/declined_invite.txt:7
 #, python-format
 msgid ""
 "%(recipient)s has declined your request to transfer ownership of the project"
 " %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
-msgstr "%(recipient)sвідмовився/лась на передачу прав власності на проєкт %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
+msgstr "%(recipient)sваш запит на передачу прав власності на проєкт відхилено %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
 
 #: kobo/apps/project_ownership/templates/emails/expired_invite.html:6
 #, python-format
@@ -2254,7 +2254,7 @@ msgid ""
 "of the project <a "
 "href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> to "
 "you."
-msgstr "%(sender_username)s (%(sender_email)s) звернувся/лася з проханням передати вам право власності на проєкт.<a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a>"
+msgstr "%(sender_username)s (%(sender_email)s) зроблено запит на передачу вам права власності <a href=\"%(base_url)s/#/forms/%(asset_uid)s/landing\">%(asset_name)s</a> на проєкт."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:10
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:20
@@ -2263,7 +2263,7 @@ msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for these projects will be "
 "transferred to you and count against your plan limits."
-msgstr "Коли ви приймете передачу прав власності, всі подані матеріали, зберігання даних, а також використання транскрипції та перекладу для цих проєктів будуть передані вам і будуть зараховані до лімітів вашого тарифного плану."
+msgstr "Коли ви приймете передачу прав власності, всі надсилання, збережені дані, використання транскрипції та перекладів для цих проєктів будуть передані вам і будуть зараховані до лімітів вашого тарифного плану."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:12
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:11
@@ -2271,7 +2271,7 @@ msgstr "Коли ви приймете передачу прав власнос�
 msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the following projects to you:"
-msgstr "%(sender_username)s (%(sender_email)s) звернувся/лася з проханням передати вам право власності на проєкт:"
+msgstr "%(sender_username)s (%(sender_email)s) зроблено запит на передачу вам права власності на наступні проєкти:"
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.html:23
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:19
@@ -2298,14 +2298,14 @@ msgid ""
 "%(sender_username)s (%(sender_email)s) has requested to transfer ownership "
 "of the project %(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing) "
 "to you."
-msgstr "%(sender_username)s (%(sender_email)s) звернувся/лася з проханням передати вам право власності на проєкт.%(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)"
+msgstr "%(sender_username)s (%(sender_email)s) зроблено запит на передачу вам права власності на проєкт%(asset_name)s (%(base_url)s/#/forms/%(asset_uid)s/landing)."
 
 #: kobo/apps/project_ownership/templates/emails/new_invite.txt:9
 msgid ""
 "When you accept the ownership transfer, all of the submissions, data "
 "storage, and transcription and translation usage for the project will be "
 "transferred to you and count against your plan limits."
-msgstr "Коли ви приймаєте передачу права власності, всі матеріали, зберігання даних, а також використання транскрипції та перекладу для проєкту будуть передані вам і будуть зараховані до лімітів вашого тарифного плану."
+msgstr "Коли ви приймете передачу прав власності, всі надсилання, збережені дані, використання транскрипції та перекладів для проєкту будуть передані вам і будуть зараховані до лімітів вашого тарифного плану."
 
 #: kobo/apps/reports/report_data.py:141
 msgid "`{}` not found."
@@ -2313,16 +2313,16 @@ msgstr "`{}` не знайдено."
 
 #: kobo/apps/reports/report_data.py:146
 msgid "`{}` is not a select one question."
-msgstr "`{}` не є питанням з можливістю вибору."
+msgstr "`{}` не є запитанням на вибір."
 
 #: kobo/apps/stripe/admin.py:36
 #, python-format
 msgid "%d plan add-on was created."
 msgid_plural "%d plan add-ons were created."
-msgstr[0] ""
-msgstr[1] ""
-msgstr[2] ""
-msgstr[3] ""
+msgstr[0] "Створено доповнення до плану %d."
+msgstr[1] "Створено доповнення до планів %d."
+msgstr[2] "Створено доповнення до планів %d."
+msgstr[3] "Створено доповнення до планів %d."
 
 #: kobo/settings/base.py:273
 msgid ""
@@ -2505,7 +2505,7 @@ msgstr "Недійсне ім'я користувача/пароль"
 
 #: kpi/deployment_backends/base_backend.py:138
 msgid "No submissions match the given `submission_ids`"
-msgstr "Жодна заявка не відповідає заданим `submission_ids`"
+msgstr "Жодне надсилання не відповідає заданим параметрам `submission_ids`"
 
 #: kpi/deployment_backends/base_backend.py:572
 msgid ""
@@ -2541,7 +2541,7 @@ msgstr "Ваш XML-файл не має правильного формату."
 
 #: kpi/deployment_backends/openrosa_backend.py:340
 msgid "Your submission XML is missing critical elements."
-msgstr "У вашому XML-файлі не вистачає важливих елементів."
+msgstr "У вашому XML-файлі відсутні важливі елементи."
 
 #: kpi/deployment_backends/openrosa_backend.py:354
 msgid ""
@@ -2551,7 +2551,7 @@ msgstr "Надсилання, яке ви намагалися відредаг�
 
 #: kpi/deployment_backends/openrosa_backend.py:883
 msgid "Successful submission"
-msgstr ""
+msgstr "Успішне подання надсилання"
 
 #: kpi/exceptions.py:49
 msgid "Invalid payload for bulk updating of submissions"
@@ -2563,11 +2563,11 @@ msgstr "Спочатку потрібно викликати `asset.connect_depl
 
 #: kpi/exceptions.py:75
 msgid "XML contains forbidden DTDs"
-msgstr ""
+msgstr "XML містить заборонені DTDs"
 
 #: kpi/exceptions.py:86
 msgid "XML contains forbidden entities"
-msgstr ""
+msgstr "XML містить заборонені елементи"
 
 #: kpi/exceptions.py:111
 msgid "Invalid search. Please try again"
@@ -2575,7 +2575,7 @@ msgstr "Неправильний пошук. Спробуйте ще раз"
 
 #: kpi/exceptions.py:116
 msgid "Deployment links to an unexpected KoboCAT XForm"
-msgstr ""
+msgstr "Посилання для розгортання на несподівану KoboCAT XForm"
 
 #: kpi/exceptions.py:152
 msgid "An error occurred trying to duplicate the submission"
@@ -2604,7 +2604,7 @@ msgstr "Введіть дійсний JSON."
 
 #: kpi/fields/jsonschema_form_field.py:158
 msgid "`##place_holder##` field cannot be hidden."
-msgstr "Поле `##place_holder##` не можна приховати."
+msgstr "`##place_holder##`поле не можна приховати."
 
 #: kpi/fields/writable_json.py:30
 #, python-brace-format
@@ -2650,7 +2650,7 @@ msgstr "Можете видалити надіслані дані для рес�
 
 #: kpi/models/asset.py:288
 msgid "Can validate submitted data asset"
-msgstr "Можете перевіряти надіслані дані ресурсу"
+msgstr "Можете підтвердити надіслані дані ресурсу"
 
 #: kpi/models/asset.py:311
 msgid "project"
@@ -2710,7 +2710,7 @@ msgstr "Переглянути надсилання"
 
 #: kpi/models/asset.py:333
 msgid "Act on submissions only from specific users"
-msgstr "Діяти на основі надсилань лише від певних користувачів"
+msgstr "Діяти лише на надсилання лише від конкретних користувачів"
 
 #: kpi/models/asset.py:336
 msgid "View submissions only from specific users"
@@ -2829,7 +2829,7 @@ msgstr "Підтримуваними значеннями для `action` є: "
 
 #: kpi/serializers/v2/asset.py:280
 msgid "Draft projects cannot be archived"
-msgstr "Проєкти не можуть бути заархівовані"
+msgstr "Чернетки проєктів не можуть бути заархівовані"
 
 #: kpi/serializers/v2/asset.py:286 kpi/serializers/v2/data.py:61
 msgid "Confirmation is required"
@@ -2855,7 +2855,7 @@ msgstr "Користувач не може оновити поточну мат�
 #: kpi/serializers/v2/asset.py:901
 #: kpi/tests/api/v2/test_api_collections.py:470
 msgid "Target collection not found"
-msgstr "Цільовий збір не знайдено"
+msgstr "Цільову колекцію не знайдено"
 
 #: kpi/serializers/v2/asset.py:905
 #: kpi/tests/api/v2/test_api_collections.py:460
@@ -2932,15 +2932,15 @@ msgstr "Це поле є обов'язковим для заповнення"
 
 #: kpi/serializers/v2/asset_file.py:229
 msgid "`redirect_url` is required"
-msgstr "Параметр `redirect_url` є обов'язковим"
+msgstr "`redirect_url` є обов'язковим"
 
 #: kpi/serializers/v2/asset_file.py:239
 msgid "`filename` is required"
-msgstr "Параметр `filename` є обов'язковим"
+msgstr "`filename` є обов'язковим"
 
 #: kpi/serializers/v2/asset_file.py:253
 msgid "`redirect_url` is invalid"
-msgstr "Параметр `redirect_url` не є дійсним"
+msgstr "`redirect_url` не є дійсним"
 
 #: kpi/serializers/v2/asset_file.py:287
 msgid "Only `{}` MIME types are allowed"
@@ -2986,11 +2986,11 @@ msgstr "`submission_ids` повинен містити принаймні одн
 
 #: kpi/serializers/v2/data.py:83
 msgid "`data` is required"
-msgstr "Параметр `data` є обов'язковим"
+msgstr "`data` є обов'язковим"
 
 #: kpi/serializers/v2/data.py:91
 msgid "`validation_status.uid` is required"
-msgstr "Параметр `validation_status.uid` є обов'язковим"
+msgstr "`validation_status.uid` є обов'язковим"
 
 #: kpi/serializers/v2/export_task.py:123
 msgid "Must contain all the following required keys: {}"
@@ -3072,21 +3072,21 @@ msgstr "Недійсний тип ресурсу. Допускається ті�
 
 #: kpi/templates/custom_404.html:7
 msgid "Page not found (404)"
-msgstr ""
+msgstr "Сторінку не знайдено (404)"
 
 #: kpi/templates/custom_404.html:10
 msgid ""
 "This page does not exist on the server. Please check the URL or link that "
 "sent you here."
-msgstr ""
+msgstr "Ця сторінка не існує на сервері. Будь ласка, перевірте URL-адресу або посилання, за яким ви сюди потрапили."
 
 #: kpi/templates/custom_500.html:7
 msgid "Server error (500)"
-msgstr ""
+msgstr "Помилка сервера (500)"
 
 #: kpi/templates/custom_500.html:10
 msgid "Something went wrong when trying to process your request."
-msgstr ""
+msgstr "Щось пішло не так при спробі обробити ваш запит."
 
 #: kpi/templates/modern_browsers.html:3 kpi/templates/modern_browsers.html:5
 msgid "Modern Browsers"
@@ -3097,7 +3097,7 @@ msgid ""
 "Ouch! Sorry, you were probably sent here because your browser is outdated or"
 " perhaps it has its key features disabled by using \"private browsing\" "
 "mode."
-msgstr "Ой! Вибачте, можливо, вас перенаправлено сюди через те, що ваш браузер застарілий або його ключові функції вимкнено в режимі «приватного перегляду»."
+msgstr "Ой! Вибачте, можливо, вас перенаправлено сюди через те, що ваш браузер застарілий або його ключові функції вимкнено в режимі “приватного перегляду”."
 
 #: kpi/templates/modern_browsers.html:12
 msgid ""
